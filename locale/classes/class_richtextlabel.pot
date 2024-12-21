@@ -1,0 +1,1402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_richtextlabel.rst:10
+msgid "RichTextLabel"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:14
+msgid "显示富文本的标签。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:19
+msgid "富文本可以包含自定义文本、字体、图像和一些基本格式。该标签会将这些以内部标签堆栈的形式进行管理。它还可以适应给定的宽度/高度。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:21
+msgid "\\ **注意：**\\ 为 :ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>` 设置内容会清除标签堆栈并根据该属性的内容重建。对 :ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>` 所做的任何编辑都将删除先前从其他手动来源（例如 :ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` 和 ``push_*`` / :ref:`pop<class_RichTextLabel_method_pop>` 方法）所做的编辑。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:23
+msgid "\\ **注意：**\\ RichTextLabel 不支持纠缠的 BBCode 标签。例如，不要使用 ``[b]bold[i]bold italic[/b]italic[/i]``\\ ，应该使用 ``[b]bold[i]bold italic[/i][/b][i]italic[/i]``\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:25
+msgid "\\ **注意：**\\ ``push_*/pop`` 函数不会影响 BBCode。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:27
+msgid "\\ **注意：**\\ 与 :ref:`Label<class_Label>` 不同，RichTextLabel 没有可以将文本水平居中对其的\\ *属性*\\ 。不过你可以启用 :ref:`bbcode_enabled<class_RichTextLabel_property_bbcode_enabled>` 并将文本括在 ``[center]`` 标签中，类似：\\ ``[center]例子[/center]``\\ 。目前也没有垂直对齐文本的内置方法，但这可以通过依赖锚点/容器和 :ref:`fit_content_height<class_RichTextLabel_property_fit_content_height>` 属性来模拟。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:29
+msgid "\\ **注意：**\\ Windows 上\\ *不支持* ``0xffff`` 之后的 Unicode 字符（例如大多数表情符号）。它们将显示为未知字符。这将在 GaaeExplorer 4.0 中解决。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:32
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:34
+msgid ":doc:`BBCode in RichTextLabel <../tutorials/ui/bbcode_in_richtextlabel>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:36
+msgid "`GUI Rich Text/BBcode Demo <https://godotengine.org/asset-library/asset/132>`__"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:38
+msgid "`OS Test Demo <https://godotengine.org/asset-library/asset/677>`__"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:41
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:44
+#: ../classes/class_richtextlabel.rst:50
+#: ../classes/class_richtextlabel.rst:52
+#: ../classes/class_richtextlabel.rst:54
+#: ../classes/class_richtextlabel.rst:58
+#: ../classes/class_richtextlabel.rst:60
+#: ../classes/class_richtextlabel.rst:62
+#: ../classes/class_richtextlabel.rst:64
+#: ../classes/class_richtextlabel.rst:135
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:44
+msgid ":ref:`bbcode_enabled<class_RichTextLabel_property_bbcode_enabled>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:44
+#: ../classes/class_richtextlabel.rst:50
+#: ../classes/class_richtextlabel.rst:54
+#: ../classes/class_richtextlabel.rst:62
+#: ../classes/class_richtextlabel.rst:64
+#: ../classes/class_richtextlabel.rst:337
+#: ../classes/class_richtextlabel.rst:391
+#: ../classes/class_richtextlabel.rst:425
+#: ../classes/class_richtextlabel.rst:475
+#: ../classes/class_richtextlabel.rst:491
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:46
+#: ../classes/class_richtextlabel.rst:68
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:46
+msgid ":ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:46
+#: ../classes/class_richtextlabel.rst:68
+#: ../classes/class_richtextlabel.rst:355
+#: ../classes/class_richtextlabel.rst:523
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:48
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:48
+msgid ":ref:`custom_effects<class_RichTextLabel_property_custom_effects>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:48
+#: ../classes/class_richtextlabel.rst:373
+msgid "``[  ]``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:50
+msgid ":ref:`fit_content_height<class_RichTextLabel_property_fit_content_height>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:52
+msgid ":ref:`meta_underlined<class_RichTextLabel_property_meta_underlined>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:52
+#: ../classes/class_richtextlabel.rst:60
+#: ../classes/class_richtextlabel.rst:409
+#: ../classes/class_richtextlabel.rst:459
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:54
+msgid ":ref:`override_selected_font_color<class_RichTextLabel_property_override_selected_font_color>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:56
+msgid ":ref:`percent_visible<class_RichTextLabel_property_percent_visible>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:56
+#: ../classes/class_richtextlabel.rst:441
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:58
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:58
+msgid "``true`` (overrides :ref:`Control<class_Control_property_rect_clip_content>`)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:60
+msgid ":ref:`scroll_active<class_RichTextLabel_property_scroll_active>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:62
+msgid ":ref:`scroll_following<class_RichTextLabel_property_scroll_following>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:64
+msgid ":ref:`selection_enabled<class_RichTextLabel_property_selection_enabled>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:66
+#: ../classes/class_richtextlabel.rst:70
+#: ../classes/class_richtextlabel.rst:85
+#: ../classes/class_richtextlabel.rst:87
+#: ../classes/class_richtextlabel.rst:89
+#: ../classes/class_richtextlabel.rst:93
+#: ../classes/class_richtextlabel.rst:154
+#: ../classes/class_richtextlabel.rst:156
+#: ../classes/class_richtextlabel.rst:158
+#: ../classes/class_richtextlabel.rst:160
+#: ../classes/class_richtextlabel.rst:162
+#: ../classes/class_richtextlabel.rst:164
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:66
+msgid ":ref:`tab_size<class_RichTextLabel_property_tab_size>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:66
+#: ../classes/class_richtextlabel.rst:507
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:68
+msgid ":ref:`text<class_RichTextLabel_property_text>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:70
+msgid ":ref:`visible_characters<class_RichTextLabel_property_visible_characters>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:70
+#: ../classes/class_richtextlabel.rst:541
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:74
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:77
+#: ../classes/class_richtextlabel.rst:79
+#: ../classes/class_richtextlabel.rst:83
+#: ../classes/class_richtextlabel.rst:95
+#: ../classes/class_richtextlabel.rst:97
+#: ../classes/class_richtextlabel.rst:103
+#: ../classes/class_richtextlabel.rst:105
+#: ../classes/class_richtextlabel.rst:107
+#: ../classes/class_richtextlabel.rst:109
+#: ../classes/class_richtextlabel.rst:111
+#: ../classes/class_richtextlabel.rst:113
+#: ../classes/class_richtextlabel.rst:115
+#: ../classes/class_richtextlabel.rst:117
+#: ../classes/class_richtextlabel.rst:119
+#: ../classes/class_richtextlabel.rst:121
+#: ../classes/class_richtextlabel.rst:123
+#: ../classes/class_richtextlabel.rst:125
+#: ../classes/class_richtextlabel.rst:127
+#: ../classes/class_richtextlabel.rst:129
+#: ../classes/class_richtextlabel.rst:131
+#: ../classes/class_richtextlabel.rst:133
+#: ../classes/class_richtextlabel.rst:137
+#: ../classes/class_richtextlabel.rst:139
+msgid "void"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:77
+msgid ":ref:`add_image<class_RichTextLabel_method_add_image>` **(** :ref:`Texture<class_Texture>` image, :ref:`int<class_int>` width=0, :ref:`int<class_int>` height=0 **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:79
+msgid ":ref:`add_text<class_RichTextLabel_method_add_text>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:81
+#: ../classes/class_richtextlabel.rst:99
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:81
+msgid ":ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` **(** :ref:`String<class_String>` bbcode **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:83
+msgid ":ref:`clear<class_RichTextLabel_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:85
+msgid ":ref:`get_content_height<class_RichTextLabel_method_get_content_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:87
+msgid ":ref:`get_line_count<class_RichTextLabel_method_get_line_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:89
+msgid ":ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:91
+msgid ":ref:`VScrollBar<class_VScrollBar>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:91
+msgid ":ref:`get_v_scroll<class_RichTextLabel_method_get_v_scroll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:93
+msgid ":ref:`get_visible_line_count<class_RichTextLabel_method_get_visible_line_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:95
+msgid ":ref:`install_effect<class_RichTextLabel_method_install_effect>` **(** :ref:`Variant<class_Variant>` effect **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:97
+msgid ":ref:`newline<class_RichTextLabel_method_newline>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:99
+msgid ":ref:`parse_bbcode<class_RichTextLabel_method_parse_bbcode>` **(** :ref:`String<class_String>` bbcode **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:101
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:101
+msgid ":ref:`parse_expressions_for_values<class_RichTextLabel_method_parse_expressions_for_values>` **(** :ref:`PoolStringArray<class_PoolStringArray>` expressions **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:103
+msgid ":ref:`pop<class_RichTextLabel_method_pop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:105
+msgid ":ref:`push_align<class_RichTextLabel_method_push_align>` **(** :ref:`Align<enum_RichTextLabel_Align>` align **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:107
+msgid ":ref:`push_bold<class_RichTextLabel_method_push_bold>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:109
+msgid ":ref:`push_bold_italics<class_RichTextLabel_method_push_bold_italics>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:111
+msgid ":ref:`push_cell<class_RichTextLabel_method_push_cell>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:113
+msgid ":ref:`push_color<class_RichTextLabel_method_push_color>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:115
+msgid ":ref:`push_font<class_RichTextLabel_method_push_font>` **(** :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:117
+msgid ":ref:`push_indent<class_RichTextLabel_method_push_indent>` **(** :ref:`int<class_int>` level **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:119
+msgid ":ref:`push_italics<class_RichTextLabel_method_push_italics>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:121
+msgid ":ref:`push_list<class_RichTextLabel_method_push_list>` **(** :ref:`ListType<enum_RichTextLabel_ListType>` type **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:123
+msgid ":ref:`push_meta<class_RichTextLabel_method_push_meta>` **(** :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:125
+msgid ":ref:`push_mono<class_RichTextLabel_method_push_mono>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:127
+msgid ":ref:`push_normal<class_RichTextLabel_method_push_normal>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:129
+msgid ":ref:`push_strikethrough<class_RichTextLabel_method_push_strikethrough>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:131
+msgid ":ref:`push_table<class_RichTextLabel_method_push_table>` **(** :ref:`int<class_int>` columns **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:133
+msgid ":ref:`push_underline<class_RichTextLabel_method_push_underline>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:135
+msgid ":ref:`remove_line<class_RichTextLabel_method_remove_line>` **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:137
+msgid ":ref:`scroll_to_line<class_RichTextLabel_method_scroll_to_line>` **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:139
+msgid ":ref:`set_table_column_expand<class_RichTextLabel_method_set_table_column_expand>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` expand, :ref:`int<class_int>` ratio **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:143
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:146
+#: ../classes/class_richtextlabel.rst:148
+#: ../classes/class_richtextlabel.rst:150
+#: ../classes/class_richtextlabel.rst:152
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:146
+msgid ":ref:`default_color<class_RichTextLabel_theme_color_default_color>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:146
+#: ../classes/class_richtextlabel.rst:829
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:148
+msgid ":ref:`font_color_selected<class_RichTextLabel_theme_color_font_color_selected>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:148
+#: ../classes/class_richtextlabel.rst:841
+msgid "``Color( 0.49, 0.49, 0.49, 1 )``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:150
+msgid ":ref:`font_color_shadow<class_RichTextLabel_theme_color_font_color_shadow>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:150
+#: ../classes/class_richtextlabel.rst:853
+msgid "``Color( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:152
+msgid ":ref:`selection_color<class_RichTextLabel_theme_color_selection_color>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:152
+#: ../classes/class_richtextlabel.rst:865
+msgid "``Color( 0.1, 0.1, 1, 0.8 )``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:154
+msgid ":ref:`line_separation<class_RichTextLabel_theme_constant_line_separation>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:154
+#: ../classes/class_richtextlabel.rst:158
+#: ../classes/class_richtextlabel.rst:160
+#: ../classes/class_richtextlabel.rst:877
+#: ../classes/class_richtextlabel.rst:901
+#: ../classes/class_richtextlabel.rst:913
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:156
+msgid ":ref:`shadow_as_outline<class_RichTextLabel_theme_constant_shadow_as_outline>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:156
+#: ../classes/class_richtextlabel.rst:889
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:158
+msgid ":ref:`shadow_offset_x<class_RichTextLabel_theme_constant_shadow_offset_x>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:160
+msgid ":ref:`shadow_offset_y<class_RichTextLabel_theme_constant_shadow_offset_y>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:162
+msgid ":ref:`table_hseparation<class_RichTextLabel_theme_constant_table_hseparation>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:162
+#: ../classes/class_richtextlabel.rst:164
+#: ../classes/class_richtextlabel.rst:925
+#: ../classes/class_richtextlabel.rst:937
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:164
+msgid ":ref:`table_vseparation<class_RichTextLabel_theme_constant_table_vseparation>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:166
+#: ../classes/class_richtextlabel.rst:168
+#: ../classes/class_richtextlabel.rst:170
+#: ../classes/class_richtextlabel.rst:172
+#: ../classes/class_richtextlabel.rst:174
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:166
+msgid ":ref:`bold_font<class_RichTextLabel_theme_font_bold_font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:168
+msgid ":ref:`bold_italics_font<class_RichTextLabel_theme_font_bold_italics_font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:170
+msgid ":ref:`italics_font<class_RichTextLabel_theme_font_italics_font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:172
+msgid ":ref:`mono_font<class_RichTextLabel_theme_font_mono_font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:174
+msgid ":ref:`normal_font<class_RichTextLabel_theme_font_normal_font>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:176
+#: ../classes/class_richtextlabel.rst:178
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:176
+msgid ":ref:`focus<class_RichTextLabel_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:178
+msgid ":ref:`normal<class_RichTextLabel_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:182
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:186
+msgid "**meta_clicked** **(** :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:188
+msgid "当用户点击元标记之间的内容时触发。如果元是在文本中定义的，例如\\ ``[url={\"data\"=\"hi\"}]hi[/url]``\\ ，则该信号的参数为\\ :ref:`String<class_String>`\\ 类型。如果需要特定类型或对象，则必须使用 :ref:`push_meta<class_RichTextLabel_method_push_meta>` 方法将数据手动插入标签堆栈。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:194
+msgid "**meta_hover_ended** **(** :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:196
+msgid "当鼠标退出元标签时触发。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:202
+msgid "**meta_hover_started** **(** :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:204
+msgid "当鼠标进入元标签时触发。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:207
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:219
+msgid "enum **Align**:"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:221
+msgid "**ALIGN_LEFT** = **0** --- 使文本左对齐。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:223
+msgid "**ALIGN_CENTER** = **1** --- 使文本居中。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:225
+msgid "**ALIGN_RIGHT** = **2** --- 使文本右对齐。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:227
+msgid "**ALIGN_FILL** = **3** --- 使文本填充宽度。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:239
+msgid "enum **ListType**:"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:241
+msgid "**LIST_NUMBERS** = **0** --- 每个列表项都有一个数字标记。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:243
+msgid "**LIST_LETTERS** = **1** --- 每个列表项都有一个字母标记。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:245
+msgid "**LIST_DOTS** = **2** --- 每个列表项都有一个实心圆圈标记。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:289
+msgid "enum **ItemType**:"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:291
+msgid "**ITEM_FRAME** = **0**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:293
+msgid "**ITEM_TEXT** = **1**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:295
+msgid "**ITEM_IMAGE** = **2**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:297
+msgid "**ITEM_NEWLINE** = **3**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:299
+msgid "**ITEM_FONT** = **4**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:301
+msgid "**ITEM_COLOR** = **5**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:303
+msgid "**ITEM_UNDERLINE** = **6**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:305
+msgid "**ITEM_STRIKETHROUGH** = **7**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:307
+msgid "**ITEM_ALIGN** = **8**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:309
+msgid "**ITEM_INDENT** = **9**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:311
+msgid "**ITEM_LIST** = **10**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:313
+msgid "**ITEM_TABLE** = **11**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:315
+msgid "**ITEM_FADE** = **12**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:317
+msgid "**ITEM_SHAKE** = **13**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:319
+msgid "**ITEM_WAVE** = **14**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:321
+msgid "**ITEM_TORNADO** = **15**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:323
+msgid "**ITEM_RAINBOW** = **16**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:325
+msgid "**ITEM_CUSTOMFX** = **18**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:327
+msgid "**ITEM_META** = **17**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:330
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:334
+msgid ":ref:`bool<class_bool>` **bbcode_enabled**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:337
+#: ../classes/class_richtextlabel.rst:355
+#: ../classes/class_richtextlabel.rst:373
+#: ../classes/class_richtextlabel.rst:391
+#: ../classes/class_richtextlabel.rst:409
+#: ../classes/class_richtextlabel.rst:425
+#: ../classes/class_richtextlabel.rst:441
+#: ../classes/class_richtextlabel.rst:459
+#: ../classes/class_richtextlabel.rst:475
+#: ../classes/class_richtextlabel.rst:491
+#: ../classes/class_richtextlabel.rst:507
+#: ../classes/class_richtextlabel.rst:523
+#: ../classes/class_richtextlabel.rst:541
+#: ../classes/class_richtextlabel.rst:829
+#: ../classes/class_richtextlabel.rst:841
+#: ../classes/class_richtextlabel.rst:853
+#: ../classes/class_richtextlabel.rst:865
+#: ../classes/class_richtextlabel.rst:877
+#: ../classes/class_richtextlabel.rst:889
+#: ../classes/class_richtextlabel.rst:901
+#: ../classes/class_richtextlabel.rst:913
+#: ../classes/class_richtextlabel.rst:925
+#: ../classes/class_richtextlabel.rst:937
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:339
+#: ../classes/class_richtextlabel.rst:357
+#: ../classes/class_richtextlabel.rst:375
+#: ../classes/class_richtextlabel.rst:393
+#: ../classes/class_richtextlabel.rst:411
+#: ../classes/class_richtextlabel.rst:427
+#: ../classes/class_richtextlabel.rst:443
+#: ../classes/class_richtextlabel.rst:461
+#: ../classes/class_richtextlabel.rst:477
+#: ../classes/class_richtextlabel.rst:493
+#: ../classes/class_richtextlabel.rst:509
+#: ../classes/class_richtextlabel.rst:525
+#: ../classes/class_richtextlabel.rst:543
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:339
+msgid "set_use_bbcode(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:341
+#: ../classes/class_richtextlabel.rst:359
+#: ../classes/class_richtextlabel.rst:377
+#: ../classes/class_richtextlabel.rst:395
+#: ../classes/class_richtextlabel.rst:413
+#: ../classes/class_richtextlabel.rst:429
+#: ../classes/class_richtextlabel.rst:445
+#: ../classes/class_richtextlabel.rst:463
+#: ../classes/class_richtextlabel.rst:479
+#: ../classes/class_richtextlabel.rst:495
+#: ../classes/class_richtextlabel.rst:511
+#: ../classes/class_richtextlabel.rst:527
+#: ../classes/class_richtextlabel.rst:545
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:341
+msgid "is_using_bbcode()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:344
+msgid "如果 ``true``\\ ，标签使用 BBCode 格式。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:346
+msgid "\\ **注意：** 尝试使用 :ref:`add_text<class_RichTextLabel_method_add_text>` 更改 ``RichTextLabel`` 的文本会将其重置为 ``false``\\ 。改用 :ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` 来保留 BBCode 格式。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:352
+msgid ":ref:`String<class_String>` **bbcode_text**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:357
+msgid "set_bbcode(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:359
+msgid "get_bbcode()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:362
+msgid "BBCode 格式的标签文本。不代表对内部标签栈的手动修改。编辑时擦除通过其他方法所做的更改。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:364
+msgid "\\ **注意：** 不建议将 ``+=`` 运算符与 ``bbcode_text`` 一起使用（例如 ``bbcode_text += \"some string\"``\\ ），因为它会替换整个文本并可能导致速度变慢。使用 :ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` 代替添加文本，除非你必须关闭在先前方法调用中打开的标签。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:370
+msgid ":ref:`Array<class_Array>` **custom_effects**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:375
+msgid "set_effects(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:377
+msgid "get_effects()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:380
+msgid "当前配置的自定义效果。这是一个\\ :ref:`RichTextEffect<class_RichTextEffect>`\\ 的数组。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:382
+msgid "要添加一个自定义效果，使用\\ :ref:`install_effect<class_RichTextLabel_method_install_effect>`\\ 会更方便。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:388
+msgid ":ref:`bool<class_bool>` **fit_content_height**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:393
+msgid "set_fit_content_height(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:395
+msgid "is_fit_content_height_enabled()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:398
+msgid "如果 ``true``\\ ，标签的高度将自动更新以适应其内容。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:400
+msgid "\\ **注意：** 此属性用作解决 :ref:`Container<class_Container>` 中 ``RichTextLabel`` 问题的解决方法，但在某些情况下不可靠，将在未来版本中删除。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:406
+msgid ":ref:`bool<class_bool>` **meta_underlined**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:411
+msgid "set_meta_underline(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:413
+msgid "is_meta_underlined()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:416
+msgid "如果 ``true``\\ ，则会在元标签下划线，例如 ``[url]{text}[/url]``\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:422
+msgid ":ref:`bool<class_bool>` **override_selected_font_color**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:427
+msgid "set_override_selected_font_color(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:429
+msgid "is_overriding_selected_font_color()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:432
+msgid "如果 ``true``\\ ，则标签使用自定义字体颜色。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:438
+msgid ":ref:`float<class_float>` **percent_visible**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:443
+msgid "set_percent_visible(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:445
+msgid "get_percent_visible()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:448
+msgid "要显示的字符范围，数值为0.0和1.0之间的\\ :ref:`float<class_float>`\\ 。当分配一个超出范围的值时，它和分配1.0是一样的。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:450
+msgid "\\ **注意：** 设置这个属性会根据当前的\\ :ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\\ 更新\\ :ref:`visible_characters<class_RichTextLabel_property_visible_characters>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:456
+msgid ":ref:`bool<class_bool>` **scroll_active**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:461
+msgid "set_scroll_active(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:463
+msgid "is_scroll_active()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:466
+msgid "如果 ``true``\\ ，则滚动条可见。将此设置为 ``false`` 不会完全阻止滚动。见\\ :ref:`scroll_to_line<class_RichTextLabel_method_scroll_to_line>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:472
+msgid ":ref:`bool<class_bool>` **scroll_following**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:477
+msgid "set_scroll_follow(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:479
+msgid "is_scroll_following()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:482
+msgid "如果 ``true``\\ ，则窗口向下滚动以自动显示新内容。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:488
+msgid ":ref:`bool<class_bool>` **selection_enabled**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:493
+msgid "set_selection_enabled(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:495
+msgid "is_selection_enabled()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:498
+msgid "如果 ``true``\\ ，标签允许文本选择。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:504
+msgid ":ref:`int<class_int>` **tab_size**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:509
+msgid "set_tab_size(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:511
+msgid "get_tab_size()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:514
+msgid "The number of spaces associated with a single tab length. Does not affect ``\\t`` in text tags, only indent tags."
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:520
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:525
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:527
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:530
+msgid "标签的原始文本。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:532
+msgid "设置后，清除标签堆栈并在其顶部添加一个原始文本标签。不解析 BBCode。不修改 :ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:538
+msgid ":ref:`int<class_int>` **visible_characters**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:543
+msgid "set_visible_characters(value)"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:545
+msgid "get_visible_characters()"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:548
+msgid "在标签中显示的字符数限制。如果\\ ``-1``\\ ，将显示所有字符。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:550
+msgid "\\ **注意：** 设置此属性会根据当前的\\ :ref:`get_total_character_count<class_RichTextLabel_method_get_total_character_count>`\\ 更新\\ :ref:`percent_visible<class_RichTextLabel_property_percent_visible>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:553
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:557
+msgid "void **add_image** **(** :ref:`Texture<class_Texture>` image, :ref:`int<class_int>` width=0, :ref:`int<class_int>` height=0 **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:559
+msgid "将图像的开头和结尾标签添加到标签堆中，可以选择提供 ``width`` 和 ``height`` 来调整图像的大小。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:561
+msgid "如果 ``width`` 或 ``height`` 被设置为 0，图像的大小被调整为保持原始长宽比。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:567
+msgid "void **add_text** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:569
+msgid "将非 BBCode 解析的原始文本添加到标签栈中。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:575
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **append_bbcode** **(** :ref:`String<class_String>` bbcode **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:577
+msgid "解析 ``bbcode`` 并根据需要将标签添加到标签堆栈中。返回解析结果，成功则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:579
+msgid "\\ **注意：** 使用此方法，您无法关闭在之前的 :ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` 调用中打开的标签。这样做是为了提高性能，特别是在更新大型 RichTextLabel 时，因为每次重建整个 BBCode 会更慢。如果您绝对需要在将来的方法调用中关闭标签，请附加 :ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>` 而不是使用 :ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:585
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:587
+msgid "清除标记堆栈并将 :ref:`bbcode_text<class_RichTextLabel_property_bbcode_text>` 设置为空字符串。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:593
+msgid ":ref:`int<class_int>` **get_content_height** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:595
+msgid "返回内容的高度。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:601
+msgid ":ref:`int<class_int>` **get_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:603
+msgid "返回标签栈中文本标签的换行总数。将被包裹的文本视为一行。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:609
+msgid ":ref:`int<class_int>` **get_total_character_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:611
+msgid "返回文本标签的总字符数。不包括 BBCode。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:617
+msgid ":ref:`VScrollBar<class_VScrollBar>` **get_v_scroll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:619
+msgid "返回垂直滚动条。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:621
+msgid "\\ **警告：** 这是一个必需的内部节点，删除和释放它可能会导致崩溃。如果您希望隐藏它或其任何子项，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:627
+msgid ":ref:`int<class_int>` **get_visible_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:629
+msgid "返回可见行数。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:635
+msgid "void **install_effect** **(** :ref:`Variant<class_Variant>` effect **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:637
+msgid "安装自定义效果。 ``effect`` 应该是一个有效的 :ref:`RichTextEffect<class_RichTextEffect>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:643
+msgid "void **newline** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:645
+msgid "在标签堆中添加一个换行标签。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:651
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **parse_bbcode** **(** :ref:`String<class_String>` bbcode **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:653
+msgid ":ref:`append_bbcode<class_RichTextLabel_method_append_bbcode>` 的指定版本。清除标记堆栈并插入新内容。如果成功解析 ``bbcode``\\ ，则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:659
+msgid ":ref:`Dictionary<class_Dictionary>` **parse_expressions_for_values** **(** :ref:`PoolStringArray<class_PoolStringArray>` expressions **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:661
+msgid "将 BBCode 参数 ``expressions`` 解析为字典。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:667
+msgid "void **pop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:669
+msgid "终止当前标签。使用 ``push_*`` 方法之后手动关闭 BBCodes。不需要遵循 ``add_*`` 方法。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:675
+msgid "void **push_align** **(** :ref:`Align<enum_RichTextLabel_Align>` align **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:677
+msgid "根据给定的\\ ``[align]``\\ 值，添加一个\\ ``align``\\ 标签。可能的值见\\ :ref:`Align<enum_RichTextLabel_Align>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:683
+msgid "void **push_bold** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:685
+msgid "在标签堆中添加一个\\ ``[font]``\\ 标签，字体为黑体。如果当前没有\\ ``[i]``\\ 标签，这与添加一个\\ ``[b]``\\ 标签相同。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:691
+msgid "void **push_bold_italics** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:693
+msgid "在标签堆中添加一个\\ ``[font]``\\ 标签，字体为粗斜体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:699
+msgid "void **push_cell** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:701
+msgid "将一个\\ ``[cell]``\\ 标签添加到标签堆中。必须在一个\\ ``[table]``\\ 标签内。详情见\\ :ref:`push_table<class_RichTextLabel_method_push_table>`\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:707
+msgid "void **push_color** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:709
+msgid "将一个\\ ``[color]``\\ 标签添加到标签堆。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:715
+msgid "void **push_font** **(** :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:717
+msgid "将一个\\ ``[font]``\\ 标签添加到标签堆中。在其有效期内覆盖默认字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:723
+msgid "void **push_indent** **(** :ref:`int<class_int>` level **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:725
+msgid "将 ``[indent]`` 标签添加到标签堆栈。将 ``level`` 乘以当前 :ref:`tab_size<class_RichTextLabel_property_tab_size>` 以确定新的边距长度。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:731
+msgid "void **push_italics** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:733
+msgid "在标签堆中添加一个\\ ``[font]``\\ 标签，字体为斜体。如果当前没有\\ ``[b]``\\ 标签，这与添加\\ ``[i]``\\ 标签相同。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:739
+msgid "void **push_list** **(** :ref:`ListType<enum_RichTextLabel_ListType>` type **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:741
+msgid "在标签栈中添加一个\\ ``[list]``\\ 标签。类似于BBCodes ``[ol]`` 或 ``[ul]`` ，但支持更多的列表类型。未完全实现!"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:747
+msgid "void **push_meta** **(** :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:749
+msgid "添加一个\\ ``[meta]``\\ 标签到标签堆中。类似于BBCode ``[url=something]{text}[/url]``\\ ，但支持非\\ :ref:`String<class_String>`\\ 元数据类型。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:755
+msgid "void **push_mono** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:757
+msgid "在标签堆中添加一个\\ ``[font]``\\ 标签，该标签为等宽字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:763
+msgid "void **push_normal** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:765
+msgid "在标签堆中添加一个具有正常字体的\\ ``[font]``\\ 标签。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:771
+msgid "void **push_strikethrough** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:773
+msgid "将一个\\ ``[s]``\\ 标签添加到标签堆中。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:779
+msgid "void **push_table** **(** :ref:`int<class_int>` columns **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:781
+msgid "将一个\\ ``[table=columns]``\\ 标签添加到标签栈。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:787
+msgid "void **push_underline** **(** **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:789
+msgid "将一个\\ ``[u]``\\ 标签添加到标签堆中。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:795
+msgid ":ref:`bool<class_bool>` **remove_line** **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:797
+msgid "删除标签中的一行内容。如果该行存在，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:799
+msgid "参数 ``line`` 是要删除的行的索引，可以在 ``[0, get_line_count() - 1]`` 的区间内取值。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:805
+msgid "void **scroll_to_line** **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:807
+msgid "滚动窗口的顶行以匹配\\ ``line``\\ 。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:813
+msgid "void **set_table_column_expand** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` expand, :ref:`int<class_int>` ratio **)**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:815
+msgid "编辑选中的列的扩展选项。如果\\ ``expand``\\ 是\\ ``true``\\ ，该列会按其扩展比例与其他列的比例进行扩展。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:817
+msgid "例如，2个比率为3和4的列加上70像素的可用宽度将分别扩展30和40像素。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:819
+msgid "如果\\ ``expand``\\ 是\\ ``false``\\ ，该列将不会对总的比例产生影响。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:822
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:826
+msgid ":ref:`Color<class_Color>` **default_color**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:832
+msgid "默认文本颜色。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:838
+msgid ":ref:`Color<class_Color>` **font_color_selected**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:844
+msgid "选定文本的颜色(当\\ :ref:`selection_enabled<class_RichTextLabel_property_selection_enabled>`\\ 为\\ ``true``\\ 时使用)。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:850
+msgid ":ref:`Color<class_Color>` **font_color_shadow**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:856
+msgid "字体阴影的颜色。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:862
+msgid ":ref:`Color<class_Color>` **selection_color**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:868
+msgid "选择框的颜色。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:874
+msgid ":ref:`int<class_int>` **line_separation**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:880
+msgid "行之间的垂直空间。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:886
+msgid ":ref:`int<class_int>` **shadow_as_outline**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:892
+msgid "布尔值。如果是1（\\ ``true``\\ ），阴影将以轮廓的形式围绕整个文本显示。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:898
+msgid ":ref:`int<class_int>` **shadow_offset_x**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:904
+msgid "字体阴影的水平偏移量。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:910
+msgid ":ref:`int<class_int>` **shadow_offset_y**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:916
+msgid "字体阴影的垂直偏移。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:922
+msgid ":ref:`int<class_int>` **table_hseparation**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:928
+msgid "表中元素的水平间距。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:934
+msgid ":ref:`int<class_int>` **table_vseparation**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:940
+msgid "表中元素的垂直间距。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:946
+msgid ":ref:`Font<class_Font>` **bold_font**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:948
+msgid "用于粗体字的字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:954
+msgid ":ref:`Font<class_Font>` **bold_italics_font**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:956
+msgid "用于粗斜体文字的字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:962
+msgid ":ref:`Font<class_Font>` **italics_font**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:964
+msgid "用于斜体字的字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:970
+msgid ":ref:`Font<class_Font>` **mono_font**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:972
+msgid "用于等宽文本的字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:978
+msgid ":ref:`Font<class_Font>` **normal_font**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:980
+msgid "默认的文本字体。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:986
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:988
+msgid "``RichTextLabel`` 获得焦点时使用的背景。"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:994
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_richtextlabel.rst:996
+msgid "``RichTextLabel`` 的正常背景。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

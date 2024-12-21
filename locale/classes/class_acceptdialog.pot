@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_acceptdialog.rst:10
+msgid "AcceptDialog"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:12
+msgid "**Inherits:** :ref:`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:14
+msgid "**Inherited By:** :ref:`ConfirmationDialog<class_ConfirmationDialog>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:16
+msgid "用户通知的基本对话框。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:21
+msgid "该对话框对于向用户发送有关事件的小通知很有用。它只能被接受或关闭,并且结果相同。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:27
+#: ../classes/class_acceptdialog.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:27
+msgid ":ref:`dialog_autowrap<class_AcceptDialog_property_dialog_autowrap>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:27
+#: ../classes/class_acceptdialog.rst:78
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:29
+msgid ":ref:`dialog_hide_on_ok<class_AcceptDialog_property_dialog_hide_on_ok>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:29
+#: ../classes/class_acceptdialog.rst:94
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:31
+#: ../classes/class_acceptdialog.rst:33
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:31
+msgid ":ref:`dialog_text<class_AcceptDialog_property_dialog_text>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:31
+#: ../classes/class_acceptdialog.rst:112
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:33
+msgid "window_title"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:33
+msgid "``\"Alert!\"`` (overrides :ref:`WindowDialog<class_WindowDialog_property_window_title>`)"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:37
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:40
+#: ../classes/class_acceptdialog.rst:42
+#: ../classes/class_acceptdialog.rst:46
+msgid ":ref:`Button<class_Button>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:40
+msgid ":ref:`add_button<class_AcceptDialog_method_add_button>` **(** :ref:`String<class_String>` text, :ref:`bool<class_bool>` right=false, :ref:`String<class_String>` action=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:42
+msgid ":ref:`add_cancel<class_AcceptDialog_method_add_cancel>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:44
+msgid ":ref:`Label<class_Label>`"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:44
+msgid ":ref:`get_label<class_AcceptDialog_method_get_label>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:46
+msgid ":ref:`get_ok<class_AcceptDialog_method_get_ok>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:48
+#: ../classes/class_acceptdialog.rst:50
+msgid "void"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:48
+msgid ":ref:`register_text_enter<class_AcceptDialog_method_register_text_enter>` **(** :ref:`Node<class_Node>` line_edit **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:50
+msgid ":ref:`remove_button<class_AcceptDialog_method_remove_button>` **(** :ref:`Control<class_Control>` button **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:54
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:58
+msgid "**confirmed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:60
+msgid "接受对话框时，即按下OK按钮时发出。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:66
+msgid "**custom_action** **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:68
+msgid "按下自定义按钮时发出。 参阅\\ :ref:`add_button<class_AcceptDialog_method_add_button>`\\ 。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:71
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:75
+msgid ":ref:`bool<class_bool>` **dialog_autowrap**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:78
+#: ../classes/class_acceptdialog.rst:94
+#: ../classes/class_acceptdialog.rst:112
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:80
+#: ../classes/class_acceptdialog.rst:96
+#: ../classes/class_acceptdialog.rst:114
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:80
+msgid "set_autowrap(value)"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:82
+#: ../classes/class_acceptdialog.rst:98
+#: ../classes/class_acceptdialog.rst:116
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:82
+msgid "has_autowrap()"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:85
+msgid "为对话框中的文本设置自动换行。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:91
+msgid ":ref:`bool<class_bool>` **dialog_hide_on_ok**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:96
+msgid "set_hide_on_ok(value)"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:98
+msgid "get_hide_on_ok()"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:101
+msgid "如果为 ``true``\\ ，按下OK按钮时对话框将隐藏。如果要在收到 :ref:`confirmed<class_AcceptDialog_signal_confirmed>` 信号时执行类似输入验证的操作，则可以将其设置为\\ ``false``\\ ，然后在自己的逻辑中处理对话框的隐藏。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:103
+msgid "\\ **注意：** 从此类派生的某些节点可以具有不同的默认值，并且可能有自己的内置逻辑会覆盖此设置。 例如，\\ :ref:`FileDialog<class_FileDialog>` 默认其为 ``false``\\ ，并在按下OK时实现了自己的输入验证代码，如果输入有效，最终将隐藏对话框。因此，不能在 :ref:`FileDialog<class_FileDialog>` 中使用此属性来禁止在按OK时隐藏对话框。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:109
+msgid ":ref:`String<class_String>` **dialog_text**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:114
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:116
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:119
+msgid "对话框显示的文本。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:122
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:126
+msgid ":ref:`Button<class_Button>` **add_button** **(** :ref:`String<class_String>` text, :ref:`bool<class_bool>` right=false, :ref:`String<class_String>` action=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:128
+msgid "向对话框中添加一个带有标签\\ ``text``\\ 和自定义\\ ``action``\\ 的按钮，并返回该创建的按钮。按下时，\\ ``action``\\ 会被传递给\\ :ref:`custom_action<class_AcceptDialog_signal_custom_action>`\\ 信号。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:130
+msgid "如果\\ ``right``\\ 为\\ ``true``\\ ，按钮会被放置在所有同级按钮的右边。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:132
+#: ../classes/class_acceptdialog.rst:142
+msgid "您可以使用 :ref:`remove_button<class_AcceptDialog_method_remove_button>` 方法从对话框中删除使用此方法创建的按钮。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:138
+msgid ":ref:`Button<class_Button>` **add_cancel** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:140
+msgid "向对话框中添加一个标签为\\ ``name``\\ 和一个取消动作的按钮，然后返回这个新创建的按钮。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:148
+msgid ":ref:`Label<class_Label>` **get_label** **(** **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:150
+msgid "返回内置文本所使用的标签。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:152
+#: ../classes/class_acceptdialog.rst:162
+msgid "\\ **警告：**\\ 这是个必要的内部节点，删除和释放它有可能造成崩溃。如果你希望隐藏它或它的任意一个子节点，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:158
+msgid ":ref:`Button<class_Button>` **get_ok** **(** **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:160
+msgid "返回确定按钮 :ref:`Button<class_Button>` 实例。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:168
+msgid "void **register_text_enter** **(** :ref:`Node<class_Node>` line_edit **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:170
+msgid "在对话框中注册 :ref:`LineEdit<class_LineEdit>`\\ 。 当按下回车键时，对话框将被接受。"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:176
+msgid "void **remove_button** **(** :ref:`Control<class_Control>` button **)**"
+msgstr ""
+
+#: ../classes/class_acceptdialog.rst:178
+msgid "从对话框中移除 ``button``\\ 。但不释放 该\\ ``button``\\ 对象。\\ ``button`` 必须是添加有 :ref:`add_button<class_AcceptDialog_method_add_button>` 或 :ref:`add_cancel<class_AcceptDialog_method_add_cancel>` 方法的 :ref:`Button<class_Button>`\\ 。移除后，按下该\\ ``button``\\ 将不再发出此对话框的\\ :ref:`custom_action<class_AcceptDialog_signal_custom_action>`\\ 信号或取消此对话框。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

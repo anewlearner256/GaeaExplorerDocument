@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffecteq10.rst:10
+msgid "AudioEffectEQ10"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:12
+msgid "**Inherits:** :ref:`AudioEffectEQ<class_AudioEffectEQ>` **<** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:14
+msgid "为音频总线添加10段均衡器音频效果。让你控制31Hz到16000Hz的频率。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:16
+msgid "每个频率可以在-60/+24dB之间进行调制。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:21
+msgid "频段：频段1：31赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:23
+msgid "频段1：31赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:25
+msgid "频段2：62赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:27
+msgid "频段3：125赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:29
+msgid "频段4：250赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:31
+msgid "频段5：500赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:33
+msgid "频段6：1000赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:35
+msgid "频段7：2000赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:37
+msgid "频段8：4000赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:39
+msgid "频段9：8000赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:41
+msgid "频段10：16000赫兹"
+msgstr ""
+
+#: ../classes/class_audioeffecteq10.rst:43
+msgid "参阅\\ :ref:`AudioEffectEQ<class_AudioEffectEQ>`\\ 、\\ :ref:`AudioEffectEQ6<class_AudioEffectEQ6>`\\ 、\\ :ref:`AudioEffectEQ21<class_AudioEffectEQ21>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

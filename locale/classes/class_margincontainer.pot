@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_margincontainer.rst:10
+msgid "MarginContainer"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:14
+msgid "简单边距容器。"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:19
+msgid "为所有作为容器的直接子节点的\\ :ref:`Control<class_Control>`\\ 节点添加顶部、左侧、底部和右侧的边距。要控制\\ ``MarginContainer``\\ 的边距，请使用下面列出的\\ ``margin_*`` 主题属性。"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:21
+msgid "\\ **注意：**\\ 要小心，\\ :ref:`Control<class_Control>`\\ 的margin值与常量margin值不同。如果你想通过代码改变\\ ``MarginContainer``\\ 的自定义边距值，应该使用下面的例子:"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:33
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:36
+#: ../classes/class_margincontainer.rst:38
+#: ../classes/class_margincontainer.rst:40
+#: ../classes/class_margincontainer.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:36
+msgid ":ref:`margin_bottom<class_MarginContainer_theme_constant_margin_bottom>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:36
+#: ../classes/class_margincontainer.rst:38
+#: ../classes/class_margincontainer.rst:40
+#: ../classes/class_margincontainer.rst:42
+#: ../classes/class_margincontainer.rst:53
+#: ../classes/class_margincontainer.rst:65
+#: ../classes/class_margincontainer.rst:77
+#: ../classes/class_margincontainer.rst:89
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:38
+msgid ":ref:`margin_left<class_MarginContainer_theme_constant_margin_left>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:40
+msgid ":ref:`margin_right<class_MarginContainer_theme_constant_margin_right>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:42
+msgid ":ref:`margin_top<class_MarginContainer_theme_constant_margin_top>`"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:46
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:50
+msgid ":ref:`int<class_int>` **margin_bottom**"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:53
+#: ../classes/class_margincontainer.rst:65
+#: ../classes/class_margincontainer.rst:77
+#: ../classes/class_margincontainer.rst:89
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:56
+msgid "所有\\ ``MarginContainer``\\ 的直接子代将有\\ ``margin_bottom``\\ 像素的底边距。"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:62
+msgid ":ref:`int<class_int>` **margin_left**"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:68
+msgid "所有\\ ``MarginContainer``\\ 的直接子代将有\\ ``margin_left``\\ 像素的左边距。"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:74
+msgid ":ref:`int<class_int>` **margin_right**"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:80
+msgid "所有\\ ``MarginContainer``\\ 的直接子代将有\\ ``margin_right``\\ 像素的右边距。"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:86
+msgid ":ref:`int<class_int>` **margin_top**"
+msgstr ""
+
+#: ../classes/class_margincontainer.rst:92
+msgid "所有\\ ``MarginContainer``\\ 的直接子代将有\\ ``margin_right``\\ 像素的顶边距。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

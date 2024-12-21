@@ -1,0 +1,1425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../about/list_of_features.rst:4
+msgid "List of features"
+msgstr ""
+
+#: ../about/list_of_features.rst:6
+msgid "This page aims to list all features currently supported by GaaeExplorer."
+msgstr ""
+
+#: ../about/list_of_features.rst:10
+msgid "This page lists features supported by the current stable version of GaaeExplorer (3.5). `More features <https://docs.godotengine.org/en/latest/about/list_of_features.html>`__ are available in the latest development version (4.0)."
+msgstr ""
+
+#: ../about/list_of_features.rst:15
+msgid "Features"
+msgstr ""
+
+#: ../about/list_of_features.rst:18
+msgid "Platforms"
+msgstr ""
+
+#: ../about/list_of_features.rst:20
+msgid "**Can run both the editor and exported projects:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:22
+msgid "Windows 7 and later (64-bit and 32-bit)."
+msgstr ""
+
+#: ../about/list_of_features.rst:23
+msgid "macOS 10.12 and later (64-bit, x86 and ARM)."
+msgstr ""
+
+#: ../about/list_of_features.rst:24
+msgid "Linux (64-bit and 32-bit, x86 and ARM)."
+msgstr ""
+
+#: ../about/list_of_features.rst:26
+msgid "Binaries are statically linked and can run on any distribution if compiled on an old enough base distribution."
+msgstr ""
+
+#: ../about/list_of_features.rst:28
+msgid "Official binaries are compiled on Ubuntu 14.04."
+msgstr ""
+
+#: ../about/list_of_features.rst:30
+msgid "HTML5 via WebAssembly (Firefox, Chrome, Edge, Opera)."
+msgstr ""
+
+#: ../about/list_of_features.rst:32
+msgid "**Runs exported projects:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:34
+msgid "Android 4.4 and later."
+msgstr ""
+
+#: ../about/list_of_features.rst:35
+msgid "iOS 10.0 and later."
+msgstr ""
+
+#: ../about/list_of_features.rst:36
+msgid ":ref:`Consoles <doc_consoles>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:37
+msgid ":ref:`Headless Linux and macOS servers <doc_exporting_for_dedicated_servers>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:39
+msgid "GaaeExplorer aims to be as platform-independent as possible and can be ported to new platforms with relative ease."
+msgstr ""
+
+#: ../about/list_of_features.rst:43
+msgid "Editor"
+msgstr ""
+
+#: ../about/list_of_features.rst:45
+#: ../about/list_of_features.rst:93
+#: ../about/list_of_features.rst:395
+msgid "**Features:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:47
+msgid "Scene tree editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:48
+msgid "Built-in script editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:49
+msgid "Support for :ref:`external script editors <doc_external_editor>` such as Visual Studio Code or Vim."
+msgstr ""
+
+#: ../about/list_of_features.rst:51
+msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:53
+msgid "No support for debugging in threads yet."
+msgstr ""
+
+#: ../about/list_of_features.rst:54
+msgid "Performance monitoring tools."
+msgstr ""
+
+#: ../about/list_of_features.rst:55
+msgid "Live script reloading."
+msgstr ""
+
+#: ../about/list_of_features.rst:56
+msgid "Live scene editing."
+msgstr ""
+
+#: ../about/list_of_features.rst:58
+msgid "Changes will reflect in the editor and will be kept after closing the running project."
+msgstr ""
+
+#: ../about/list_of_features.rst:60
+msgid "Remote inspector."
+msgstr ""
+
+#: ../about/list_of_features.rst:62
+msgid "Changes won't reflect in the editor and won't be kept after closing the running project."
+msgstr ""
+
+#: ../about/list_of_features.rst:64
+msgid "Live camera replication."
+msgstr ""
+
+#: ../about/list_of_features.rst:66
+msgid "Move the in-editor camera and see the result in the running project."
+msgstr ""
+
+#: ../about/list_of_features.rst:68
+msgid "Built-in offline class reference documentation."
+msgstr ""
+
+#: ../about/list_of_features.rst:69
+msgid "Use the editor in dozens of languages contributed by the community."
+msgstr ""
+
+#: ../about/list_of_features.rst:71
+msgid "**Plugins:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:73
+msgid "Editor plugins can be downloaded from the :ref:`asset library <doc_what_is_assetlib>` to extend editor functionality."
+msgstr ""
+
+#: ../about/list_of_features.rst:75
+msgid ":ref:`Create your own plugins <doc_making_plugins>` using GDScript to add new features or speed up your workflow."
+msgstr ""
+
+#: ../about/list_of_features.rst:77
+msgid ":ref:`Download projects from the asset library <doc_using_assetlib_editor>` in the project manager and import them directly."
+msgstr ""
+
+#: ../about/list_of_features.rst:81
+msgid "2D graphics"
+msgstr ""
+
+#: ../about/list_of_features.rst:83
+#: ../about/list_of_features.rst:150
+msgid "**Two renderers available:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:85
+#: ../about/list_of_features.rst:152
+msgid "OpenGL ES 3.0 renderer (uses OpenGL 3.3 on desktop platforms)."
+msgstr ""
+
+#: ../about/list_of_features.rst:87
+#: ../about/list_of_features.rst:154
+msgid "High-end visuals. Recommended on desktop platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:89
+#: ../about/list_of_features.rst:159
+msgid "OpenGL ES 2.0 renderer (uses OpenGL 2.1 on desktop platforms)."
+msgstr ""
+
+#: ../about/list_of_features.rst:91
+#: ../about/list_of_features.rst:161
+msgid "Recommended on mobile and Web platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:95
+msgid "Sprite, polygon and line rendering."
+msgstr ""
+
+#: ../about/list_of_features.rst:97
+msgid "High-level tools to draw lines and polygons such as Polygon2D and Line2D."
+msgstr ""
+
+#: ../about/list_of_features.rst:99
+msgid "AnimatedSprite as a helper for creating animated sprites."
+msgstr ""
+
+#: ../about/list_of_features.rst:100
+msgid "Parallax layers."
+msgstr ""
+
+#: ../about/list_of_features.rst:102
+msgid "Pseudo-3D support including preview in the editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:104
+msgid "2D lighting with normal maps."
+msgstr ""
+
+#: ../about/list_of_features.rst:106
+msgid "Hard or soft shadows."
+msgstr ""
+
+#: ../about/list_of_features.rst:108
+msgid "Font rendering using bitmaps (BitmapFont) or rasterization using FreeType (DynamicFont)."
+msgstr ""
+
+#: ../about/list_of_features.rst:110
+msgid "Bitmap fonts can be exported using tools like BMFont."
+msgstr ""
+
+#: ../about/list_of_features.rst:111
+msgid "DynamicFont supports monochrome fonts as well as colored fonts (e.g. for emoji). Supported formats are TTF, OTF, WOFF1 and WOFF2."
+msgstr ""
+
+#: ../about/list_of_features.rst:113
+msgid "DynamicFont supports optional font outlines with adjustable width and color."
+msgstr ""
+
+#: ../about/list_of_features.rst:114
+msgid "Support for font oversampling to keep fonts sharp at higher resolutions."
+msgstr ""
+
+#: ../about/list_of_features.rst:116
+msgid "GPU-based particles with support for custom particle shaders."
+msgstr ""
+
+#: ../about/list_of_features.rst:117
+#: ../about/list_of_features.rst:244
+msgid "CPU-based particles."
+msgstr ""
+
+#: ../about/list_of_features.rst:120
+msgid "2D tools"
+msgstr ""
+
+#: ../about/list_of_features.rst:122
+msgid "2D camera with built-in smoothing and drag margins."
+msgstr ""
+
+#: ../about/list_of_features.rst:123
+msgid "Path2D node to represent a path in 2D space."
+msgstr ""
+
+#: ../about/list_of_features.rst:125
+#: ../about/list_of_features.rst:298
+msgid "Can be drawn in the editor or generated procedurally."
+msgstr ""
+
+#: ../about/list_of_features.rst:126
+msgid "PathFollow2D node to make nodes follow a Path2D."
+msgstr ""
+
+#: ../about/list_of_features.rst:128
+msgid "2D geometry helper class."
+msgstr ""
+
+#: ../about/list_of_features.rst:129
+msgid "Line2D node to draw textured 2D lines."
+msgstr ""
+
+#: ../about/list_of_features.rst:132
+msgid "2D physics"
+msgstr ""
+
+#: ../about/list_of_features.rst:134
+#: ../about/list_of_features.rst:307
+msgid "**Physics bodies:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:136
+#: ../about/list_of_features.rst:309
+msgid "Static bodies."
+msgstr ""
+
+#: ../about/list_of_features.rst:137
+#: ../about/list_of_features.rst:310
+msgid "Rigid bodies."
+msgstr ""
+
+#: ../about/list_of_features.rst:138
+#: ../about/list_of_features.rst:311
+msgid "Kinematic bodies."
+msgstr ""
+
+#: ../about/list_of_features.rst:139
+#: ../about/list_of_features.rst:313
+msgid "Joints."
+msgstr ""
+
+#: ../about/list_of_features.rst:140
+#: ../about/list_of_features.rst:316
+msgid "Areas to detect bodies entering or leaving it."
+msgstr ""
+
+#: ../about/list_of_features.rst:142
+#: ../about/list_of_features.rst:318
+msgid "**Collision detection:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:144
+msgid "Built-in shapes: line, box, circle, capsule."
+msgstr ""
+
+#: ../about/list_of_features.rst:145
+msgid "Collision polygons (can be drawn manually or generated from a sprite in the editor)."
+msgstr ""
+
+#: ../about/list_of_features.rst:148
+msgid "3D graphics"
+msgstr ""
+
+#: ../about/list_of_features.rst:155
+msgid "Optional HDR rendering with sRGB (enabled by default)."
+msgstr ""
+
+#: ../about/list_of_features.rst:156
+msgid "Uses an optional depth prepass (enabled by default) to reduce the cost of overdraw, which speeds up complex scene rendering."
+msgstr ""
+
+#: ../about/list_of_features.rst:162
+msgid "LDR rendering for greater compatibility."
+msgstr ""
+
+#: ../about/list_of_features.rst:163
+msgid "Not all features are available. Features available only when using the OpenGL ES 3.0 renderer are marked *GLES3* below."
+msgstr ""
+
+#: ../about/list_of_features.rst:166
+msgid "**Camera:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:168
+msgid "Perspective, orthographic and frustum-offset cameras."
+msgstr ""
+
+#: ../about/list_of_features.rst:170
+msgid "**Physically-based rendering (built-in material features):**"
+msgstr ""
+
+#: ../about/list_of_features.rst:172
+msgid "Follows the Disney PBR model."
+msgstr ""
+
+#: ../about/list_of_features.rst:173
+msgid "Supports Lambert, Lambert Wrap (half-Lambert), Oren-Nayar and Toon diffuse shading modes."
+msgstr ""
+
+#: ../about/list_of_features.rst:174
+msgid "Supports Schlick-GGX, Blinn, Phong, Toon and Disabled specular shading modes."
+msgstr ""
+
+#: ../about/list_of_features.rst:175
+msgid "Uses a roughness-metallic workflow with support for ORM textures."
+msgstr ""
+
+#: ../about/list_of_features.rst:176
+msgid "Uses horizon specular occlusion (Filament model) to improve material appearance"
+msgstr ""
+
+#: ../about/list_of_features.rst:177
+msgid "Normal mapping."
+msgstr ""
+
+#: ../about/list_of_features.rst:178
+msgid "Detail mapping for the albedo and normal maps."
+msgstr ""
+
+#: ../about/list_of_features.rst:179
+msgid "Distance fade which can use alpha blending or dithering to avoid going through the transparent pipeline."
+msgstr ""
+
+#: ../about/list_of_features.rst:181
+msgid "Dithering can be determined on a per-pixel or per-object basis."
+msgstr ""
+
+#: ../about/list_of_features.rst:182
+msgid "*GLES3:* Parallax/relief mapping with automatic level of detail based on distance."
+msgstr ""
+
+#: ../about/list_of_features.rst:183
+msgid "*GLES3:* Sub-surface scattering and transmittance."
+msgstr ""
+
+#: ../about/list_of_features.rst:184
+msgid "*GLES3:* Refraction with support for material roughness (resulting in blurry refraction). On GLES2, refraction is still functional but lacks support for material roughness."
+msgstr ""
+
+#: ../about/list_of_features.rst:186
+msgid "*GLES3:* Proximity fade (soft particles)."
+msgstr ""
+
+#: ../about/list_of_features.rst:188
+msgid "**Real-time lighting:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:190
+msgid "Directional lights (sun/moon). Up to 4 per scene."
+msgstr ""
+
+#: ../about/list_of_features.rst:191
+msgid "Omnidirectional lights."
+msgstr ""
+
+#: ../about/list_of_features.rst:192
+msgid "Spot lights with adjustable cone angle and attenuation."
+msgstr ""
+
+#: ../about/list_of_features.rst:193
+msgid "Specular energy can be adjusted on a per-light basis."
+msgstr ""
+
+#: ../about/list_of_features.rst:194
+msgid "*GLES3:* Lighting is done with a single-pass forward approach. By default, up to 32 omni light and 32 spot lights can be displayed per mesh resource. If needed, this limit can be increased at the cost of increased shader compilation times and lower performance. GLES2 uses a multi-pass forward approach to lighting, which doesn't have a limit on the number of lights but is slower with many lights."
+msgstr ""
+
+#: ../about/list_of_features.rst:200
+msgid "**Shadow mapping:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:202
+msgid "*DirectionalLight:* Orthogonal (fastest), PSSM 2-split and 4-split. Supports blending between splits."
+msgstr ""
+
+#: ../about/list_of_features.rst:204
+msgid "*OmniLight:* Dual paraboloid (fast) or cubemap (slower but more accurate). Supports colored projector textures in the form of panoramas."
+msgstr ""
+
+#: ../about/list_of_features.rst:206
+msgid "*SpotLight:* Single texture."
+msgstr ""
+
+#: ../about/list_of_features.rst:208
+msgid "**Global illumination with indirect lighting:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:210
+msgid "Baked lightmaps (fast, but can't be updated at run-time)."
+msgstr ""
+
+#: ../about/list_of_features.rst:212
+msgid "Supports baking indirect light only or baking both direct and indirect lighting. The bake mode can be adjusted on a per-light basis to allow for hybrid light baking setups."
+msgstr ""
+
+#: ../about/list_of_features.rst:215
+msgid "Supports lighting dynamic objects using an automatic octree-based system. No manual probe placement is required."
+msgstr ""
+
+#: ../about/list_of_features.rst:217
+msgid "Lightmaps are baked on the CPU."
+msgstr ""
+
+#: ../about/list_of_features.rst:219
+msgid "*GLES3:* GI probes (slower, semi-real-time). Supports reflections."
+msgstr ""
+
+#: ../about/list_of_features.rst:221
+msgid "**Reflections:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:223
+msgid "Fast baked reflections or slow real-time reflections using ReflectionProbe. Parallax box correction can optionally be enabled."
+msgstr ""
+
+#: ../about/list_of_features.rst:225
+msgid "Reflection techniques can be mixed together for greater accuracy or scalability."
+msgstr ""
+
+#: ../about/list_of_features.rst:226
+msgid "*GLES3:* Voxel-based reflections (when using GI probes)."
+msgstr ""
+
+#: ../about/list_of_features.rst:227
+msgid "*GLES3:* Screen-space reflections."
+msgstr ""
+
+#: ../about/list_of_features.rst:229
+msgid "**Sky:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:231
+msgid "Panorama sky (using an HDRI)."
+msgstr ""
+
+#: ../about/list_of_features.rst:232
+msgid "Procedural sky."
+msgstr ""
+
+#: ../about/list_of_features.rst:234
+msgid "**Fog:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:236
+msgid "Depth fog with an adjustable attenuation curve."
+msgstr ""
+
+#: ../about/list_of_features.rst:237
+msgid "Height fog (floor or ceiling) with adjustable attenuation."
+msgstr ""
+
+#: ../about/list_of_features.rst:238
+msgid "Support for automatic depth fog color depending on the camera direction (to match the sun color)."
+msgstr ""
+
+#: ../about/list_of_features.rst:240
+msgid "Optional transmittance to make lights more visible in the fog."
+msgstr ""
+
+#: ../about/list_of_features.rst:242
+msgid "**Particles:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:245
+msgid "*GLES3:* GPU-based particles with support for custom particle shaders."
+msgstr ""
+
+#: ../about/list_of_features.rst:247
+msgid "**Post-processing:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:249
+msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
+msgstr ""
+
+#: ../about/list_of_features.rst:250
+msgid "Glow/bloom with optional bicubic upscaling and several blend modes available: Screen, Soft Light, Add, Replace."
+msgstr ""
+
+#: ../about/list_of_features.rst:252
+msgid "Color correction using an one-dimensional ramp."
+msgstr ""
+
+#: ../about/list_of_features.rst:253
+msgid "Brightness, contrast and saturation adjustments."
+msgstr ""
+
+#: ../about/list_of_features.rst:254
+msgid "*GLES3:* Automatic exposure adjustments based on viewport brightness."
+msgstr ""
+
+#: ../about/list_of_features.rst:255
+msgid "*GLES3:* Near and far depth of field."
+msgstr ""
+
+#: ../about/list_of_features.rst:256
+msgid "*GLES3:* Screen-space ambient occlusion (SSAO)."
+msgstr ""
+
+#: ../about/list_of_features.rst:257
+msgid "*GLES3:* Optional debanding to avoid color banding (effective when HDR rendering is enabled)."
+msgstr ""
+
+#: ../about/list_of_features.rst:259
+msgid "**Texture filtering:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:261
+msgid "Nearest, bilinear, trilinear or anisotropic filtering."
+msgstr ""
+
+#: ../about/list_of_features.rst:263
+msgid "**Texture compression:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:265
+msgid "Lossless or lossy WebP (does not save VRAM; only reduces storage size)."
+msgstr ""
+
+#: ../about/list_of_features.rst:266
+msgid "S3TC (only supported on desktop platforms)."
+msgstr ""
+
+#: ../about/list_of_features.rst:267
+msgid "ETC1 (recommended when using the GLES2 renderer)."
+msgstr ""
+
+#: ../about/list_of_features.rst:268
+msgid "*GLES3:* BPTC for high-quality compression (not supported on macOS)."
+msgstr ""
+
+#: ../about/list_of_features.rst:269
+msgid "*GLES3:* ETC2 (not supported on macOS)."
+msgstr ""
+
+#: ../about/list_of_features.rst:271
+msgid "**Anti-aliasing:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:273
+msgid "Multi-sample antialiasing (MSAA)."
+msgstr ""
+
+#: ../about/list_of_features.rst:274
+msgid "Fast approximate antialiasing (FXAA)."
+msgstr ""
+
+#: ../about/list_of_features.rst:276
+msgid "**Performance:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:278
+msgid "Occlusion culling with :ref:`rooms and portals <doc_rooms_and_portals>`. Supports gameplay notifications with primary and secondary visibility to disable AI/physics processing for nodes that don't need it."
+msgstr ""
+
+#: ../about/list_of_features.rst:281
+msgid "Real-time occluder shapes (sphere and polygon). Not as effective as rooms and portals (and doesn't support gameplay notifications), but easier to set up."
+msgstr ""
+
+#: ../about/list_of_features.rst:286
+msgid "Most of the effects listed above can be adjusted for better performance or to further improve quality. This can be helpful when using GaaeExplorer for offline rendering."
+msgstr ""
+
+#: ../about/list_of_features.rst:291
+msgid "3D tools"
+msgstr ""
+
+#: ../about/list_of_features.rst:293
+msgid "Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad."
+msgstr ""
+
+#: ../about/list_of_features.rst:294
+msgid "Tools for :ref:`procedural geometry generation <doc_procedural_geometry>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:295
+msgid ":ref:`Constructive solid geometry <doc_csg_tools>` (intended for prototyping)."
+msgstr ""
+
+#: ../about/list_of_features.rst:296
+msgid "Path3D node to represent a path in 3D space."
+msgstr ""
+
+#: ../about/list_of_features.rst:299
+msgid "PathFollow3D node to make nodes follow a Path3D."
+msgstr ""
+
+#: ../about/list_of_features.rst:301
+msgid "3D geometry helper class."
+msgstr ""
+
+#: ../about/list_of_features.rst:302
+msgid "Support for exporting the current scene as a glTF 2.0 file from the editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:305
+msgid "3D physics"
+msgstr ""
+
+#: ../about/list_of_features.rst:312
+msgid "Vehicle bodies (intended for arcade physics, not simulation)."
+msgstr ""
+
+#: ../about/list_of_features.rst:314
+msgid "Soft bodies."
+msgstr ""
+
+#: ../about/list_of_features.rst:315
+msgid "Ragdolls."
+msgstr ""
+
+#: ../about/list_of_features.rst:320
+msgid "Built-in shapes: cuboid, sphere, capsule, cylinder."
+msgstr ""
+
+#: ../about/list_of_features.rst:321
+msgid "Generate triangle collision shapes for any mesh from the editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:322
+msgid "Generate one or several convex collision shapes for any mesh from the editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:325
+msgid "Shaders"
+msgstr ""
+
+#: ../about/list_of_features.rst:327
+msgid "*2D:* Custom vertex, fragment, and light shaders."
+msgstr ""
+
+#: ../about/list_of_features.rst:328
+msgid "*3D:* Custom vertex, fragment, light, and sky shaders."
+msgstr ""
+
+#: ../about/list_of_features.rst:329
+msgid "Text-based shaders using a :ref:`shader language inspired by GLSL <doc_shading_language>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:330
+msgid "Visual shader editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:332
+msgid "Support for visual shader plugins."
+msgstr ""
+
+#: ../about/list_of_features.rst:335
+msgid "Scripting"
+msgstr ""
+
+#: ../about/list_of_features.rst:337
+msgid "**General:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:339
+msgid "Object-oriented design pattern with scripts extending nodes."
+msgstr ""
+
+#: ../about/list_of_features.rst:340
+msgid "Signals and groups for communicating between scripts."
+msgstr ""
+
+#: ../about/list_of_features.rst:341
+msgid "Support for :ref:`cross-language scripting <doc_cross_language_scripting>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:342
+msgid "Many 2D and 3D linear algebra data types such as vectors and transforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:344
+msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
+msgstr ""
+
+#: ../about/list_of_features.rst:346
+msgid ":ref:`High-level interpreted language <doc_gdscript>` with :ref:`optional static typing <doc_gdscript_static_typing>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:348
+msgid "Syntax inspired by Python."
+msgstr ""
+
+#: ../about/list_of_features.rst:349
+msgid "Syntax highlighting is provided on GitHub."
+msgstr ""
+
+#: ../about/list_of_features.rst:350
+msgid ":ref:`Use threads <doc_using_multiple_threads>` to perform asynchronous actions or make use of multiple processor cores."
+msgstr ""
+
+#: ../about/list_of_features.rst:353
+msgid ":ref:`C#: <toc-learn-scripting-C#>`"
+msgstr ""
+
+#: ../about/list_of_features.rst:355
+msgid "Packaged in a separate binary to keep file sizes and dependencies down."
+msgstr ""
+
+#: ../about/list_of_features.rst:356
+msgid "Uses Mono 6.x."
+msgstr ""
+
+#: ../about/list_of_features.rst:358
+msgid "Full support for the C# 7.0 syntax and features."
+msgstr ""
+
+#: ../about/list_of_features.rst:360
+msgid "Supports all platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:361
+msgid "Using an external editor is recommended to benefit from IDE functionality."
+msgstr ""
+
+#: ../about/list_of_features.rst:363
+msgid ":ref:`VisualScript: <toc-learn-scripting-visual_script>`"
+msgstr ""
+
+#: ../about/list_of_features.rst:365
+msgid ":ref:`Graph-based visual scripting language <doc_what_is_visual_script>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:366
+msgid "Works best when used for specific purposes (such as level-specific logic) rather than as a language to create entire projects."
+msgstr ""
+
+#: ../about/list_of_features.rst:369
+msgid "**GDNative (C, C++, Rust, D, ...):**"
+msgstr ""
+
+#: ../about/list_of_features.rst:371
+msgid "When you need it, link to native libraries for higher performance and third-party integrations."
+msgstr ""
+
+#: ../about/list_of_features.rst:373
+msgid "For scripting game logic, GDScript or C# are recommended if their performance is suitable."
+msgstr ""
+
+#: ../about/list_of_features.rst:376
+msgid "Official bindings for C and C++."
+msgstr ""
+
+#: ../about/list_of_features.rst:378
+msgid "Use any build system and language features you wish."
+msgstr ""
+
+#: ../about/list_of_features.rst:380
+msgid "Maintained D, Kotlin, Python, Nim, and Rust bindings provided by the community."
+msgstr ""
+
+#: ../about/list_of_features.rst:384
+msgid "`GaaeExplorer 4.0 will remove VisualScript from core entirely. <https://godotengine.org/article/godot-4-will-discontinue-visual-scripting>`__ As a result, creating new projects using visual scripting in GaaeExplorer is not recommended. Future GaaeExplorer 4.x releases may have VisualScript reimplemented as an extension."
+msgstr ""
+
+#: ../about/list_of_features.rst:388
+msgid "While GaaeExplorer 3.x will keep VisualScript supported, we recommend :ref:`trying out GDScript <toc-learn-scripting-gdscript>` instead, especially if you intend to migrate your project to GaaeExplorer 4."
+msgstr ""
+
+#: ../about/list_of_features.rst:393
+msgid "Audio"
+msgstr ""
+
+#: ../about/list_of_features.rst:397
+msgid "Mono, stereo, 5.1 and 7.1 output."
+msgstr ""
+
+#: ../about/list_of_features.rst:398
+msgid "Non-positional and positional playback in 2D and 3D."
+msgstr ""
+
+#: ../about/list_of_features.rst:400
+msgid "Optional Doppler effect in 2D and 3D."
+msgstr ""
+
+#: ../about/list_of_features.rst:402
+msgid "Support for re-routable :ref:`audio buses <doc_audio_buses>` and effects with dozens of effects included."
+msgstr ""
+
+#: ../about/list_of_features.rst:404
+msgid "Listener2D and Listener3D nodes to listen from a position different than the camera."
+msgstr ""
+
+#: ../about/list_of_features.rst:405
+msgid "Audio input to record microphones with real-time access using the AudioEffectCapture class."
+msgstr ""
+
+#: ../about/list_of_features.rst:406
+msgid "MIDI input."
+msgstr ""
+
+#: ../about/list_of_features.rst:408
+msgid "No support for MIDI output yet."
+msgstr ""
+
+#: ../about/list_of_features.rst:410
+msgid "**APIs used:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:412
+msgid "*Windows:* WASAPI."
+msgstr ""
+
+#: ../about/list_of_features.rst:413
+msgid "*macOS:* CoreAudio."
+msgstr ""
+
+#: ../about/list_of_features.rst:414
+msgid "*Linux:* PulseAudio or ALSA."
+msgstr ""
+
+#: ../about/list_of_features.rst:417
+msgid "Import"
+msgstr ""
+
+#: ../about/list_of_features.rst:419
+msgid "Support for :ref:`custom import plugins <doc_import_plugins>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:421
+msgid "**Formats:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:423
+msgid "*Images:* See :ref:`doc_import_images`."
+msgstr ""
+
+#: ../about/list_of_features.rst:424
+msgid "*Audio:*"
+msgstr ""
+
+#: ../about/list_of_features.rst:426
+msgid "WAV with optional IMA-ADPCM compression."
+msgstr ""
+
+#: ../about/list_of_features.rst:427
+msgid "Ogg Vorbis."
+msgstr ""
+
+#: ../about/list_of_features.rst:428
+msgid "MP3."
+msgstr ""
+
+#: ../about/list_of_features.rst:430
+msgid "*3D scenes:*"
+msgstr ""
+
+#: ../about/list_of_features.rst:432
+msgid "glTF 2.0 *(recommended)*."
+msgstr ""
+
+#: ../about/list_of_features.rst:433
+msgid "`ESCN <https://github.com/godotengine/godot-blender-exporter>`__ (direct export from Blender)."
+msgstr ""
+
+#: ../about/list_of_features.rst:435
+msgid "FBX (experimental, static meshes only)."
+msgstr ""
+
+#: ../about/list_of_features.rst:436
+msgid "Collada (.dae)."
+msgstr ""
+
+#: ../about/list_of_features.rst:437
+msgid "Wavefront OBJ (static scenes only, can be loaded directly as a mesh)."
+msgstr ""
+
+#: ../about/list_of_features.rst:439
+msgid "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate tangents on import, which ensures consistency with other 3D applications such as Blender."
+msgstr ""
+
+#: ../about/list_of_features.rst:443
+msgid "Input"
+msgstr ""
+
+#: ../about/list_of_features.rst:445
+msgid "Input mapping system using hardcoded input events or remappable input actions."
+msgstr ""
+
+#: ../about/list_of_features.rst:447
+msgid "Axis values can be mapped to two different actions with a configurable deadzone."
+msgstr ""
+
+#: ../about/list_of_features.rst:448
+msgid "Use the same code to support both keyboards and gamepads."
+msgstr ""
+
+#: ../about/list_of_features.rst:450
+msgid "Keyboard input."
+msgstr ""
+
+#: ../about/list_of_features.rst:452
+msgid "Keys can be mapped in \"physical\" mode to be independent of the keyboard layout."
+msgstr ""
+
+#: ../about/list_of_features.rst:454
+msgid "Mouse input."
+msgstr ""
+
+#: ../about/list_of_features.rst:456
+msgid "The mouse cursor can be visible, hidden, captured or confined within the window."
+msgstr ""
+
+#: ../about/list_of_features.rst:457
+msgid "When captured, raw input will be used on Windows and Linux to sidestep the OS' mouse acceleration settings."
+msgstr ""
+
+#: ../about/list_of_features.rst:460
+msgid "Gamepad input (up to 8 simultaneous controllers)."
+msgstr ""
+
+#: ../about/list_of_features.rst:461
+msgid "Pen/tablet input with pressure support."
+msgstr ""
+
+#: ../about/list_of_features.rst:462
+msgid "Gamepad, keyboard and mouse input support are also available on Android."
+msgstr ""
+
+#: ../about/list_of_features.rst:465
+msgid "Navigation"
+msgstr ""
+
+#: ../about/list_of_features.rst:467
+msgid "A* algorithm in 2D and 3D."
+msgstr ""
+
+#: ../about/list_of_features.rst:468
+msgid "Navigation meshes with dynamic obstacle avoidance."
+msgstr ""
+
+#: ../about/list_of_features.rst:469
+msgid "Generate navigation meshes from the editor or at run-time (including from an exported project)."
+msgstr ""
+
+#: ../about/list_of_features.rst:472
+msgid "Networking"
+msgstr ""
+
+#: ../about/list_of_features.rst:474
+msgid "Low-level TCP networking using StreamPeer and TCP_Server."
+msgstr ""
+
+#: ../about/list_of_features.rst:475
+msgid "Low-level UDP networking using PacketPeer and UDPServer."
+msgstr ""
+
+#: ../about/list_of_features.rst:476
+msgid "Low-level HTTP requests using HTTPClient."
+msgstr ""
+
+#: ../about/list_of_features.rst:477
+msgid "High-level HTTP requests using HTTPRequest."
+msgstr ""
+
+#: ../about/list_of_features.rst:479
+msgid "Supports HTTPS out of the box using bundled certificates."
+msgstr ""
+
+#: ../about/list_of_features.rst:481
+msgid "High-level multiplayer API using UDP and ENet."
+msgstr ""
+
+#: ../about/list_of_features.rst:483
+msgid "Automatic replication using remote procedure calls (RPCs)."
+msgstr ""
+
+#: ../about/list_of_features.rst:484
+msgid "Supports unreliable, reliable and ordered transfers."
+msgstr ""
+
+#: ../about/list_of_features.rst:486
+msgid "WebSocket client and server, available on all platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:487
+msgid "WebRTC client and server, available on all platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:488
+msgid "Support for UPnP to sidestep the requirement to forward ports when hosting a server behind a NAT."
+msgstr ""
+
+#: ../about/list_of_features.rst:492
+msgid "Internationalization"
+msgstr ""
+
+#: ../about/list_of_features.rst:494
+msgid "Full support for Unicode including emoji."
+msgstr ""
+
+#: ../about/list_of_features.rst:495
+msgid "Store localization strings using :ref:`CSV <doc_internationalizing_games>` or :ref:`gettext <doc_localization_using_gettext>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:497
+msgid "Use localized strings in your project automatically in GUI elements or by using the ``tr()`` function."
+msgstr ""
+
+#: ../about/list_of_features.rst:499
+msgid "Support for right-to-left typesetting and text shaping planned in GaaeExplorer 4.0."
+msgstr ""
+
+#: ../about/list_of_features.rst:502
+msgid "Windowing and OS integration"
+msgstr ""
+
+#: ../about/list_of_features.rst:504
+msgid "Move, resize, minimize, and maximize the window spawned by the project."
+msgstr ""
+
+#: ../about/list_of_features.rst:505
+msgid "Change the window title and icon."
+msgstr ""
+
+#: ../about/list_of_features.rst:506
+msgid "Request attention (will cause the title bar to blink on most platforms)."
+msgstr ""
+
+#: ../about/list_of_features.rst:507
+msgid "Fullscreen mode."
+msgstr ""
+
+#: ../about/list_of_features.rst:509
+msgid "Doesn't use exclusive fullscreen, so the screen resolution can't be changed this way. Use a Viewport with a different resolution instead."
+msgstr ""
+
+#: ../about/list_of_features.rst:512
+msgid "Borderless window (fullscreen or non-fullscreen)."
+msgstr ""
+
+#: ../about/list_of_features.rst:513
+msgid "Ability to keep the window always on top."
+msgstr ""
+
+#: ../about/list_of_features.rst:514
+msgid "Transparent window with per-pixel transparency."
+msgstr ""
+
+#: ../about/list_of_features.rst:515
+msgid "Global menu integration on macOS."
+msgstr ""
+
+#: ../about/list_of_features.rst:516
+msgid "Execute commands in a blocking or non-blocking manner."
+msgstr ""
+
+#: ../about/list_of_features.rst:517
+msgid "Open file paths and URLs using default or custom protocol handlers (if registered on the system)."
+msgstr ""
+
+#: ../about/list_of_features.rst:518
+msgid "Parse custom command line arguments."
+msgstr ""
+
+#: ../about/list_of_features.rst:519
+msgid ":ref:`Headless/server binaries <doc_exporting_for_dedicated_servers>` can be downloaded for Linux and :ref:`compiled for macOS <doc_compiling_for_osx>`. Any binary can be used without a window using the ``--no-window`` :ref:`command line argument <doc_command_line_tutorial>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:525
+msgid "Mobile"
+msgstr ""
+
+#: ../about/list_of_features.rst:527
+msgid "In-app purchases on Android and iOS."
+msgstr ""
+
+#: ../about/list_of_features.rst:528
+msgid "Support for advertisements using third-party modules."
+msgstr ""
+
+#: ../about/list_of_features.rst:529
+msgid "Support for subview embedding on Android."
+msgstr ""
+
+#: ../about/list_of_features.rst:532
+msgid "XR support (AR and VR)"
+msgstr ""
+
+#: ../about/list_of_features.rst:534
+msgid "Support for ARKit on iOS out of the box."
+msgstr ""
+
+#: ../about/list_of_features.rst:535
+msgid "Support for the OpenXR APIs."
+msgstr ""
+
+#: ../about/list_of_features.rst:537
+msgid "Includes support for popular headsets like the Meta Quest and the Valve Index."
+msgstr ""
+
+#: ../about/list_of_features.rst:539
+msgid "Support for the OpenVR APIs."
+msgstr ""
+
+#: ../about/list_of_features.rst:542
+msgid "GUI system"
+msgstr ""
+
+#: ../about/list_of_features.rst:544
+msgid "GaaeExplorer's GUI is built using the same Control nodes used to make games in GaaeExplorer. The editor UI can easily be extended in many ways using add-ons."
+msgstr ""
+
+#: ../about/list_of_features.rst:547
+msgid "**Nodes:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:549
+msgid "Buttons."
+msgstr ""
+
+#: ../about/list_of_features.rst:550
+msgid "Checkboxes, check buttons, radio buttons."
+msgstr ""
+
+#: ../about/list_of_features.rst:551
+msgid "Text entry using LineEdit (single line) and TextEdit (multiple lines)."
+msgstr ""
+
+#: ../about/list_of_features.rst:552
+msgid "Dropdown menus using PopupMenu and OptionButton."
+msgstr ""
+
+#: ../about/list_of_features.rst:553
+msgid "Scrollbars."
+msgstr ""
+
+#: ../about/list_of_features.rst:554
+msgid "Labels."
+msgstr ""
+
+#: ../about/list_of_features.rst:555
+msgid "RichTextLabel for :ref:`text formatted using BBCode <doc_bbcode_in_richtextlabel>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:556
+msgid "Trees (can also be used to represent tables)."
+msgstr ""
+
+#: ../about/list_of_features.rst:557
+msgid "Color picker with RGB and HSV modes."
+msgstr ""
+
+#: ../about/list_of_features.rst:558
+msgid "Containers (horizontal, vertical, grid, flow, center, margin, aspect ratio, draggable splitter, ...)."
+msgstr ""
+
+#: ../about/list_of_features.rst:559
+msgid "Controls can be rotated and scaled."
+msgstr ""
+
+#: ../about/list_of_features.rst:561
+msgid "**Sizing:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:563
+msgid "Anchors to keep GUI elements in a specific corner, edge or centered."
+msgstr ""
+
+#: ../about/list_of_features.rst:564
+msgid "Containers to place GUI elements automatically following certain rules."
+msgstr ""
+
+#: ../about/list_of_features.rst:566
+msgid ":ref:`Stack <class_BoxContainer>` layouts."
+msgstr ""
+
+#: ../about/list_of_features.rst:567
+msgid ":ref:`Grid <class_GridContainer>` layouts."
+msgstr ""
+
+#: ../about/list_of_features.rst:568
+msgid ":ref:`Margin <class_MarginContainer>` and :ref:`centered <class_CenterContainer>` layouts."
+msgstr ""
+
+#: ../about/list_of_features.rst:570
+msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
+msgstr ""
+
+#: ../about/list_of_features.rst:572
+msgid "Scale to multiple resolutions using the ``2d`` or ``viewport`` stretch modes."
+msgstr ""
+
+#: ../about/list_of_features.rst:573
+msgid "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
+msgstr ""
+
+#: ../about/list_of_features.rst:575
+msgid "**Theming:**"
+msgstr ""
+
+#: ../about/list_of_features.rst:577
+msgid "Built-in theme editor."
+msgstr ""
+
+#: ../about/list_of_features.rst:579
+msgid "Generate a theme based on the current editor theme settings."
+msgstr ""
+
+#: ../about/list_of_features.rst:581
+msgid "Procedural vector-based theming using :ref:`class_StyleBoxFlat`."
+msgstr ""
+
+#: ../about/list_of_features.rst:583
+msgid "Supports rounded/beveled corners, drop shadows, per-border widths and antialiasing."
+msgstr ""
+
+#: ../about/list_of_features.rst:585
+msgid "Texture-based theming using :ref:`class_StyleBoxTexture`."
+msgstr ""
+
+#: ../about/list_of_features.rst:587
+msgid "GaaeExplorer's small distribution size can make it a suitable alternative to frameworks like Electron or Qt."
+msgstr ""
+
+#: ../about/list_of_features.rst:591
+msgid "Animation"
+msgstr ""
+
+#: ../about/list_of_features.rst:593
+msgid "Direct kinematics and inverse kinematics."
+msgstr ""
+
+#: ../about/list_of_features.rst:594
+msgid ":ref:`Tween <class_Tween>` node to easily perform procedural animations by code."
+msgstr ""
+
+#: ../about/list_of_features.rst:595
+msgid "Support for animating any property with customizable interpolation."
+msgstr ""
+
+#: ../about/list_of_features.rst:596
+msgid "Support for calling methods in animation tracks."
+msgstr ""
+
+#: ../about/list_of_features.rst:597
+msgid "Support for playing sounds in animation tracks."
+msgstr ""
+
+#: ../about/list_of_features.rst:598
+msgid "Support for Bézier curves in animation."
+msgstr ""
+
+#: ../about/list_of_features.rst:601
+msgid "File formats"
+msgstr ""
+
+#: ../about/list_of_features.rst:603
+msgid "Scenes and resources can be saved in :ref:`text-based <doc_tscn_file_format>` or binary formats."
+msgstr ""
+
+#: ../about/list_of_features.rst:605
+msgid "Text-based formats are human-readable and more friendly to version control."
+msgstr ""
+
+#: ../about/list_of_features.rst:606
+msgid "Binary formats are faster to save/load for large scenes/resources."
+msgstr ""
+
+#: ../about/list_of_features.rst:608
+msgid "Read and write text or binary files using :ref:`class_File`."
+msgstr ""
+
+#: ../about/list_of_features.rst:610
+msgid "Can optionally be compressed or encrypted."
+msgstr ""
+
+#: ../about/list_of_features.rst:612
+msgid "Read and write :ref:`class_JSON` files."
+msgstr ""
+
+#: ../about/list_of_features.rst:613
+msgid "Read and write INI-style configuration files using :ref:`class_ConfigFile`."
+msgstr ""
+
+#: ../about/list_of_features.rst:615
+msgid "Can (de)serialize any GaaeExplorer datatype, including Vector2/3, Color, ..."
+msgstr ""
+
+#: ../about/list_of_features.rst:617
+msgid "Read XML files using :ref:`class_XMLParser`."
+msgstr ""
+
+#: ../about/list_of_features.rst:618
+msgid "Pack game data into a PCK file (custom format optimized for fast seeking), into a ZIP archive, or directly into the executable for single-file distribution."
+msgstr ""
+
+#: ../about/list_of_features.rst:620
+msgid ":ref:`Export additional PCK files<doc_exporting_pcks>` that can be read by the engine to support mods and DLCs."
+msgstr ""
+
+#: ../about/list_of_features.rst:624
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../about/list_of_features.rst:626
+msgid ":ref:`Low-level access to servers <doc_using_servers>` which allows bypassing the scene tree's overhead when needed."
+msgstr ""
+
+#: ../about/list_of_features.rst:628
+msgid ":ref:`Command line interface <doc_command_line_tutorial>` for automation."
+msgstr ""
+
+#: ../about/list_of_features.rst:630
+msgid "Export and deploy projects using continuous integration platforms."
+msgstr ""
+
+#: ../about/list_of_features.rst:631
+msgid "`Shell completion scripts <https://github.com/godotengine/godot/tree/master/misc/dist/shell>`__ are available for Bash, zsh and fish."
+msgstr ""
+
+#: ../about/list_of_features.rst:634
+msgid "Support for :ref:`C++ modules <doc_custom_modules_in_c++>` statically linked into the engine binary."
+msgstr ""
+
+#: ../about/list_of_features.rst:636
+msgid "Engine and editor written in C++03."
+msgstr ""
+
+#: ../about/list_of_features.rst:638
+msgid "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, Clang and MSVC. MinGW is also supported."
+msgstr ""
+
+#: ../about/list_of_features.rst:640
+msgid "Friendly towards packagers. In most cases, system libraries can be used instead of the ones provided by GaaeExplorer. The build system doesn't download anything. Builds can be fully reproducible."
+msgstr ""
+
+#: ../about/list_of_features.rst:643
+msgid "GaaeExplorer 4.0 will be written in C++17."
+msgstr ""
+
+#: ../about/list_of_features.rst:645
+msgid "Licensed under the permissive MIT license."
+msgstr ""
+
+#: ../about/list_of_features.rst:647
+msgid "Open developement process with :ref:`contributions welcome <doc_ways_to_contribute>`."
+msgstr ""
+
+#: ../about/list_of_features.rst:651
+msgid "The `GaaeExplorer proposals repository <https://github.com/godotengine/godot-proposals>`__ lists features that have been requested by the community and may be implemented in future GaaeExplorer releases."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

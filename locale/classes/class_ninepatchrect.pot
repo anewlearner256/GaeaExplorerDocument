@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_ninepatchrect.rst:10
+msgid "NinePatchRect"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:14
+msgid "可扩展的基于纹理的框架，对纹理的中心和侧面进行拼接，但保持角落的原始尺寸。非常适用于面板和对话框。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:19
+msgid "NinePatchRect也被称为9片式面板，它基于一个小的纹理，产生任何尺寸的干净面板。为了做到这一点，它将纹理分割成3×3的网格。当你缩放节点时，它在水平或垂直方向上平铺纹理的两侧，在两个轴上平铺中心，但它不会缩放或平铺角部。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:25
+#: ../classes/class_ninepatchrect.rst:27
+msgid ":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:25
+msgid ":ref:`axis_stretch_horizontal<class_NinePatchRect_property_axis_stretch_horizontal>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:25
+#: ../classes/class_ninepatchrect.rst:27
+#: ../classes/class_ninepatchrect.rst:33
+#: ../classes/class_ninepatchrect.rst:35
+#: ../classes/class_ninepatchrect.rst:37
+#: ../classes/class_ninepatchrect.rst:39
+#: ../classes/class_ninepatchrect.rst:95
+#: ../classes/class_ninepatchrect.rst:111
+#: ../classes/class_ninepatchrect.rst:143
+#: ../classes/class_ninepatchrect.rst:159
+#: ../classes/class_ninepatchrect.rst:175
+#: ../classes/class_ninepatchrect.rst:191
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:27
+msgid ":ref:`axis_stretch_vertical<class_NinePatchRect_property_axis_stretch_vertical>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:29
+msgid ":ref:`draw_center<class_NinePatchRect_property_draw_center>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:29
+#: ../classes/class_ninepatchrect.rst:127
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:31
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:31
+msgid "mouse_filter"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:31
+msgid "``2`` (overrides :ref:`Control<class_Control_property_mouse_filter>`)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:33
+#: ../classes/class_ninepatchrect.rst:35
+#: ../classes/class_ninepatchrect.rst:37
+#: ../classes/class_ninepatchrect.rst:39
+#: ../classes/class_ninepatchrect.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:33
+msgid ":ref:`patch_margin_bottom<class_NinePatchRect_property_patch_margin_bottom>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:35
+msgid ":ref:`patch_margin_left<class_NinePatchRect_property_patch_margin_left>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:37
+msgid ":ref:`patch_margin_right<class_NinePatchRect_property_patch_margin_right>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:39
+msgid ":ref:`patch_margin_top<class_NinePatchRect_property_patch_margin_top>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:41
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:41
+msgid ":ref:`region_rect<class_NinePatchRect_property_region_rect>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:41
+#: ../classes/class_ninepatchrect.rst:207
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:43
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:43
+msgid ":ref:`texture<class_NinePatchRect_property_texture>`"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:47
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:50
+msgid ":ref:`get_patch_margin<class_NinePatchRect_method_get_patch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:52
+msgid "void"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:52
+msgid ":ref:`set_patch_margin<class_NinePatchRect_method_set_patch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:56
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:60
+msgid "**texture_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:62
+msgid "当节点的纹理发生变化时触发。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:65
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:75
+msgid "enum **AxisStretchMode**:"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:77
+msgid "**AXIS_STRETCH_MODE_STRETCH** = **0** --- 将中间纹理拉伸到9切片矩形。这可能会导致纹理失真。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:79
+msgid "**AXIS_STRETCH_MODE_TILE** = **1** --- 在 NinePatchRect 上重复中心纹理。这不会导致任何可见的失真。纹理必须是无缝的，这样才能在边缘之间不显示伪影的情况下工作。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:81
+#: ../classes/class_ninepatchrect.rst:85
+msgid "\\ **注：** 仅在使用 GLES3 渲染器时支持。使用 GLES2 渲染器时，这将类似于 :ref:`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`\\ 。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:83
+msgid "**AXIS_STRETCH_MODE_TILE_FIT** = **2** --- 在 NinePatchRect 上重复中心纹理，但也会拉伸纹理以确保每个图块都完整可见。这可能会导致纹理扭曲，但小于 :ref:`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`\\ 。纹理必须是无缝的，这样才能在边缘之间不显示伪影的情况下工作。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:88
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:92
+msgid ":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **axis_stretch_horizontal**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:95
+#: ../classes/class_ninepatchrect.rst:111
+#: ../classes/class_ninepatchrect.rst:127
+#: ../classes/class_ninepatchrect.rst:143
+#: ../classes/class_ninepatchrect.rst:159
+#: ../classes/class_ninepatchrect.rst:175
+#: ../classes/class_ninepatchrect.rst:191
+#: ../classes/class_ninepatchrect.rst:207
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:97
+#: ../classes/class_ninepatchrect.rst:113
+#: ../classes/class_ninepatchrect.rst:129
+#: ../classes/class_ninepatchrect.rst:145
+#: ../classes/class_ninepatchrect.rst:161
+#: ../classes/class_ninepatchrect.rst:177
+#: ../classes/class_ninepatchrect.rst:193
+#: ../classes/class_ninepatchrect.rst:209
+#: ../classes/class_ninepatchrect.rst:223
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:97
+msgid "set_h_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:99
+#: ../classes/class_ninepatchrect.rst:115
+#: ../classes/class_ninepatchrect.rst:131
+#: ../classes/class_ninepatchrect.rst:147
+#: ../classes/class_ninepatchrect.rst:163
+#: ../classes/class_ninepatchrect.rst:179
+#: ../classes/class_ninepatchrect.rst:195
+#: ../classes/class_ninepatchrect.rst:211
+#: ../classes/class_ninepatchrect.rst:225
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:99
+msgid "get_h_axis_stretch_mode()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:102
+msgid "水平拉伸/平铺时使用的拉伸模式。参阅\\ :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:108
+msgid ":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **axis_stretch_vertical**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:113
+msgid "set_v_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:115
+msgid "get_v_axis_stretch_mode()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:118
+msgid "用于垂直拉伸/平铺的拉伸模式。参阅\\ :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:124
+msgid ":ref:`bool<class_bool>` **draw_center**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:129
+msgid "set_draw_center(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:131
+msgid "is_draw_center_enabled()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:134
+msgid "如果\\ ``true``\\ ，则绘制面板的中心。否则，只画9-slice的边框。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:140
+msgid ":ref:`int<class_int>` **patch_margin_bottom**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:145
+#: ../classes/class_ninepatchrect.rst:161
+#: ../classes/class_ninepatchrect.rst:177
+#: ../classes/class_ninepatchrect.rst:193
+msgid "set_patch_margin(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:147
+#: ../classes/class_ninepatchrect.rst:163
+#: ../classes/class_ninepatchrect.rst:179
+#: ../classes/class_ninepatchrect.rst:195
+msgid "get_patch_margin()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:150
+msgid "9-slice的底层行的高度。边距为16意味着9片的底角和侧面将有16像素的高度。你可以单独设置所有4个边距值来创建具有非统一边框的面板。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:156
+msgid ":ref:`int<class_int>` **patch_margin_left**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:166
+msgid "9-切片的左列宽度。边距为16意味着9切片的左角和侧面将有16像素的宽度。你可以单独设置所有4个边距值，来创建有非统一边框的面板。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:172
+msgid ":ref:`int<class_int>` **patch_margin_right**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:182
+msgid "9-切片的右列宽度。边距为16意味着9切片的右角和侧面将有16像素的宽度。你可以单独设置所有4个边距值，以创建有非统一边框的面板。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:188
+msgid ":ref:`int<class_int>` **patch_margin_top**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:198
+msgid "9切片的顶行的高度。边距为16意味着9切片的顶角和侧面将有16像素的高度。你可以单独设置所有4个边距值，来创建有非统一边框的面板。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:204
+msgid ":ref:`Rect2<class_Rect2>` **region_rect**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:209
+msgid "set_region_rect(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:211
+msgid "get_region_rect()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:214
+msgid "要取样的纹理的矩形区域。如果你正在使用一个图集，使用这个属性来定义9-slice应该使用的区域。所有其他属性都是相对于这个属性而言的。如果矩形为空，NinePatchRect将使用整个纹理。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:220
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:223
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:225
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:228
+msgid "节点的纹理资源。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:231
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:235
+msgid ":ref:`int<class_int>` **get_patch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:237
+msgid "返回由给定的\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 常量标识的边距大小。"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:243
+msgid "void **set_patch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_ninepatchrect.rst:245
+msgid "将由给定的\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 常量标识的边距大小设置为\\ ``value``\\ ，单位为像素。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

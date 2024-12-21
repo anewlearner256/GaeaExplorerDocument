@@ -1,0 +1,1000 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_scenetree.rst:10
+msgid "SceneTree"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:12
+msgid "**Inherits:** :ref:`MainLoop<class_MainLoop>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:14
+msgid "通过节点层次结构管理游戏循环。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:19
+msgid "作为最重要的类之一，\\ ``SceneTree`` 管理着场景中节点的层次结构以及场景本身。节点可以被添加、检索和删除。整个场景树可以被暂停，包括当前场景。场景可以被加载、切换和重新加载。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:21
+msgid "你也可以使用 ``SceneTree`` 将你的节点组织成组，每个节点都可以被分配到你想要创建的组，例如“敌人”组。然后你可以遍历这些组，甚至可以统一对所有组成员调用方法并设置属性。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:23
+msgid "\\ ``SceneTree`` 是场景所使用的默认 :ref:`MainLoop<class_MainLoop>` 实现，因此掌控着游戏循环。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:28
+msgid ":doc:`../tutorials/scripting/scene_tree`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:30
+msgid ":doc:`../tutorials/rendering/multiple_resolutions`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:36
+#: ../classes/class_scenetree.rst:42
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:36
+msgid ":ref:`current_scene<class_SceneTree_property_current_scene>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:38
+#: ../classes/class_scenetree.rst:40
+#: ../classes/class_scenetree.rst:46
+#: ../classes/class_scenetree.rst:50
+#: ../classes/class_scenetree.rst:52
+#: ../classes/class_scenetree.rst:56
+#: ../classes/class_scenetree.rst:85
+#: ../classes/class_scenetree.rst:87
+#: ../classes/class_scenetree.rst:89
+#: ../classes/class_scenetree.rst:91
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:38
+msgid ":ref:`debug_collisions_hint<class_SceneTree_property_debug_collisions_hint>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:38
+#: ../classes/class_scenetree.rst:40
+#: ../classes/class_scenetree.rst:50
+#: ../classes/class_scenetree.rst:52
+#: ../classes/class_scenetree.rst:56
+#: ../classes/class_scenetree.rst:326
+#: ../classes/class_scenetree.rst:342
+#: ../classes/class_scenetree.rst:418
+#: ../classes/class_scenetree.rst:438
+#: ../classes/class_scenetree.rst:466
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:40
+msgid ":ref:`debug_navigation_hint<class_SceneTree_property_debug_navigation_hint>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:42
+msgid ":ref:`edited_scene_root<class_SceneTree_property_edited_scene_root>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:44
+msgid ":ref:`MultiplayerAPI<class_MultiplayerAPI>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:44
+msgid ":ref:`multiplayer<class_SceneTree_property_multiplayer>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:46
+msgid ":ref:`multiplayer_poll<class_SceneTree_property_multiplayer_poll>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:46
+#: ../classes/class_scenetree.rst:386
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:48
+msgid ":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:48
+msgid ":ref:`network_peer<class_SceneTree_property_network_peer>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:50
+msgid ":ref:`paused<class_SceneTree_property_paused>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:52
+msgid ":ref:`refuse_new_network_connections<class_SceneTree_property_refuse_new_network_connections>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:54
+msgid ":ref:`Viewport<class_Viewport>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:54
+msgid ":ref:`root<class_SceneTree_property_root>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:56
+msgid ":ref:`use_font_oversampling<class_SceneTree_property_use_font_oversampling>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:63
+#: ../classes/class_scenetree.rst:65
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:63
+msgid ":ref:`call_group<class_SceneTree_method_call_group>` **(** :ref:`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:65
+msgid ":ref:`call_group_flags<class_SceneTree_method_call_group_flags>` **(** :ref:`int<class_int>` flags, :ref:`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:67
+#: ../classes/class_scenetree.rst:69
+#: ../classes/class_scenetree.rst:101
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:67
+msgid ":ref:`change_scene<class_SceneTree_method_change_scene>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:69
+msgid ":ref:`change_scene_to<class_SceneTree_method_change_scene_to>` **(** :ref:`PackedScene<class_PackedScene>` packed_scene **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:71
+msgid ":ref:`SceneTreeTimer<class_SceneTreeTimer>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:71
+msgid ":ref:`create_timer<class_SceneTree_method_create_timer>` **(** :ref:`float<class_float>` time_sec, :ref:`bool<class_bool>` pause_mode_process=true **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:73
+#: ../classes/class_scenetree.rst:77
+#: ../classes/class_scenetree.rst:79
+#: ../classes/class_scenetree.rst:83
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:73
+msgid ":ref:`get_frame<class_SceneTree_method_get_frame>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:75
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:75
+msgid ":ref:`get_network_connected_peers<class_SceneTree_method_get_network_connected_peers>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:77
+msgid ":ref:`get_network_unique_id<class_SceneTree_method_get_network_unique_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:79
+msgid ":ref:`get_node_count<class_SceneTree_method_get_node_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:81
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:81
+msgid ":ref:`get_nodes_in_group<class_SceneTree_method_get_nodes_in_group>` **(** :ref:`String<class_String>` group **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:83
+msgid ":ref:`get_rpc_sender_id<class_SceneTree_method_get_rpc_sender_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:85
+msgid ":ref:`has_group<class_SceneTree_method_has_group>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:87
+msgid ":ref:`has_network_peer<class_SceneTree_method_has_network_peer>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:89
+msgid ":ref:`is_input_handled<class_SceneTree_method_is_input_handled>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:91
+msgid ":ref:`is_network_server<class_SceneTree_method_is_network_server>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:93
+#: ../classes/class_scenetree.rst:95
+#: ../classes/class_scenetree.rst:97
+#: ../classes/class_scenetree.rst:99
+#: ../classes/class_scenetree.rst:103
+#: ../classes/class_scenetree.rst:105
+#: ../classes/class_scenetree.rst:107
+#: ../classes/class_scenetree.rst:109
+#: ../classes/class_scenetree.rst:111
+#: ../classes/class_scenetree.rst:113
+msgid "void"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:93
+msgid ":ref:`notify_group<class_SceneTree_method_notify_group>` **(** :ref:`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:95
+msgid ":ref:`notify_group_flags<class_SceneTree_method_notify_group_flags>` **(** :ref:`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:97
+msgid ":ref:`queue_delete<class_SceneTree_method_queue_delete>` **(** :ref:`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:99
+msgid ":ref:`quit<class_SceneTree_method_quit>` **(** :ref:`int<class_int>` exit_code=-1 **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:101
+msgid ":ref:`reload_current_scene<class_SceneTree_method_reload_current_scene>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:103
+msgid ":ref:`set_auto_accept_quit<class_SceneTree_method_set_auto_accept_quit>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:105
+msgid ":ref:`set_group<class_SceneTree_method_set_group>` **(** :ref:`String<class_String>` group, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:107
+msgid ":ref:`set_group_flags<class_SceneTree_method_set_group_flags>` **(** :ref:`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:109
+msgid ":ref:`set_input_as_handled<class_SceneTree_method_set_input_as_handled>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:111
+msgid ":ref:`set_quit_on_go_back<class_SceneTree_method_set_quit_on_go_back>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:113
+msgid ":ref:`set_screen_stretch<class_SceneTree_method_set_screen_stretch>` **(** :ref:`StretchMode<enum_SceneTree_StretchMode>` mode, :ref:`StretchAspect<enum_SceneTree_StretchAspect>` aspect, :ref:`Vector2<class_Vector2>` minsize, :ref:`float<class_float>` scale=1 **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:117
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:121
+msgid "**connected_to_server** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:123
+msgid "当这个\\ ``SceneTree``\\ 的\\ :ref:`network_peer<class_SceneTree_property_network_peer>`\\ 成功连接到一个服务器时发出。只在客户端发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:129
+msgid "**connection_failed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:131
+msgid "每当此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 无法与服务器建立连接时发出。仅在客户端上发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:137
+msgid "**files_dropped** **(** :ref:`PoolStringArray<class_PoolStringArray>` files, :ref:`int<class_int>` screen **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:139
+msgid "当文件从操作系统的文件管理器中被拖到游戏窗口中时发出。参数是一个文件路径列表和拖动文件的屏幕标识符。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:145
+msgid "**global_menu_action** **(** :ref:`Variant<class_Variant>` id, :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:147
+msgid "每当单击全局菜单项时触发。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:153
+msgid "**idle_frame** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:155
+msgid "在对\\ ``SceneTree``\\ 中的每个节点调用\\ :ref:`Node._process<class_Node_method__process>`\\ 之前立即发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:161
+msgid "**network_peer_connected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:163
+msgid "当这个\\ ``SceneTree``\\ 的\\ :ref:`network_peer<class_SceneTree_property_network_peer>`\\ 与一个新的对等体连接时发出。ID是新对等体的对等体ID。当其他客户端连接到同一个服务器时，客户端会得到通知。当连接到一个服务器时，客户端也会收到该服务器的这个信号（ID为1）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:169
+msgid "**network_peer_disconnected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:171
+msgid "每当此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 与对等方断开连接时发出。当其他客户端与同一服务器断开连接时，客户端会收到通知。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:177
+msgid "**node_added** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:179
+msgid "当将节点添加到 ``SceneTree`` 时发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:185
+msgid "**node_configuration_warning_changed** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:187
+msgid "当节点的配置更改时发出。仅在 ``tool`` 模式下发射。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:193
+msgid "**node_removed** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:195
+msgid "当从 ``SceneTree`` 中删除节点时发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:201
+msgid "**node_renamed** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:203
+msgid "当节点重命名时发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:209
+msgid "**physics_frame** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:211
+msgid "在 ``SceneTree`` 中的每个节点上调用 :ref:`Node._physics_process<class_Node_method__physics_process>` 之前立即发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:217
+msgid "**screen_resized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:219
+msgid "当屏幕分辨率（全屏）或窗口大小（窗口化）改变时发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:225
+msgid "**server_disconnected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:227
+msgid "当此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 与服务器断开连接时发出。仅在客户端上发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:233
+msgid "**tree_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:235
+msgid "当 ``SceneTree`` 层次结构发生变化（移动或重命名子项等）时发出。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:238
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:250
+msgid "enum **GroupCallFlags**:"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:252
+msgid "**GROUP_CALL_DEFAULT** = **0** --- 调用没有标志的组（默认）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:254
+msgid "**GROUP_CALL_REVERSE** = **1** --- 以相反的场景顺序调用组。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:256
+msgid "**GROUP_CALL_REALTIME** = **2** --- 立即调用一个组（调用通常在空闲时进行）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:258
+msgid "**GROUP_CALL_UNIQUE** = **4** --- 即使调用多次执行，也只调用一次组。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:270
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:272
+msgid "**STRETCH_MODE_DISABLED** = **0** --- 未拉伸。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:274
+msgid "**STRETCH_MODE_2D** = **1** --- 以更高的分辨率渲染拉伸（插值）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:276
+msgid "**STRETCH_MODE_VIEWPORT** = **2** --- 保持指定的显示分辨率。没有插值。内容可能会出现像素化。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:292
+msgid "enum **StretchAspect**:"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:294
+msgid "**STRETCH_ASPECT_IGNORE** = **0** --- 用拉伸的内容填充窗口以覆盖过多的空间。内容可能会被拉伸。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:296
+msgid "**STRETCH_ASPECT_KEEP** = **1** --- 在任意轴上用黑条填充来保持相同的长宽比。这可以防止失真。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:298
+msgid "**STRETCH_ASPECT_KEEP_WIDTH** = **2** --- 垂直展开。如果窗口太宽，可能会出现左/右黑条。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:300
+msgid "**STRETCH_ASPECT_KEEP_HEIGHT** = **3** --- 水平展开。如果窗口太高，可能会出现顶部/底部黑条。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:302
+msgid "**STRETCH_ASPECT_EXPAND** = **4** --- 在两个方向上扩展，保持相同的纵横比。这可以防止失真，同时避免黑条。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:305
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:309
+msgid ":ref:`Node<class_Node>` **current_scene**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:312
+#: ../classes/class_scenetree.rst:328
+#: ../classes/class_scenetree.rst:344
+#: ../classes/class_scenetree.rst:358
+#: ../classes/class_scenetree.rst:372
+#: ../classes/class_scenetree.rst:388
+#: ../classes/class_scenetree.rst:404
+#: ../classes/class_scenetree.rst:420
+#: ../classes/class_scenetree.rst:440
+#: ../classes/class_scenetree.rst:468
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:312
+msgid "set_current_scene(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:314
+#: ../classes/class_scenetree.rst:330
+#: ../classes/class_scenetree.rst:346
+#: ../classes/class_scenetree.rst:360
+#: ../classes/class_scenetree.rst:374
+#: ../classes/class_scenetree.rst:390
+#: ../classes/class_scenetree.rst:406
+#: ../classes/class_scenetree.rst:422
+#: ../classes/class_scenetree.rst:442
+#: ../classes/class_scenetree.rst:454
+#: ../classes/class_scenetree.rst:470
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:314
+msgid "get_current_scene()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:317
+msgid "当前场景。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:323
+msgid ":ref:`bool<class_bool>` **debug_collisions_hint**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:326
+#: ../classes/class_scenetree.rst:342
+#: ../classes/class_scenetree.rst:386
+#: ../classes/class_scenetree.rst:418
+#: ../classes/class_scenetree.rst:438
+#: ../classes/class_scenetree.rst:466
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:328
+msgid "set_debug_collisions_hint(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:330
+msgid "is_debugging_collisions_hint()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:333
+msgid "如果 ``true``\\ ，以调试为目的从编辑器运行游戏时，碰撞形状将是可见的。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:339
+msgid ":ref:`bool<class_bool>` **debug_navigation_hint**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:344
+msgid "set_debug_navigation_hint(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:346
+msgid "is_debugging_navigation_hint()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:349
+msgid "如果 ``true``\\ ，以调试为目的从编辑器运行游戏时，导航多边形将是可见的。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:355
+msgid ":ref:`Node<class_Node>` **edited_scene_root**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:358
+msgid "set_edited_scene_root(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:360
+msgid "get_edited_scene_root()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:363
+msgid "编辑场景的根。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:369
+msgid ":ref:`MultiplayerAPI<class_MultiplayerAPI>` **multiplayer**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:372
+msgid "set_multiplayer(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:374
+msgid "get_multiplayer()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:377
+msgid "此 ``SceneTree`` 的默认 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 实例。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:383
+msgid ":ref:`bool<class_bool>` **multiplayer_poll**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:388
+msgid "set_multiplayer_poll_enabled(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:390
+msgid "is_multiplayer_poll_enabled()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:393
+msgid "如果 ``true``\\ （默认值），则在 :ref:`idle_frame<class_SceneTree_signal_idle_frame>` 期间启用此 SceneTree 的 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 自动轮询。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:395
+msgid "如果\\ ``false``\\ ，则需要手动调用\\ :ref:`MultiplayerAPI.poll<class_MultiplayerAPI_method_poll>`\\ 来处理网络数据包并投递RPCs/RSETs。这允许在不同的循环（例如物理、线程、特定时间步长）中运行 RPC/RSET，并在从线程访问 :ref:`MultiplayerAPI<class_MultiplayerAPI>` 时进行手动 :ref:`Mutex<class_Mutex>` 保护。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:401
+msgid ":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **network_peer**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:404
+msgid "set_network_peer(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:406
+msgid "get_network_peer()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:409
+msgid "处理 RPC 系统的对等对象（设置后有效地启用网络）。根据peer本身的不同，\\ ``SceneTree``\\ 将成为网络服务器（检查\\ :ref:`is_network_server<class_SceneTree_method_is_network_server>`\\ ）并将根节点的网络模式设置为master，或者它将成为根节点被设置为puppet的普通对等体。所有子节点默认设置为继承网络模式。与网络相关的事件（连接、断开连接、新客户端）的处理是通过连接到 ``SceneTree`` 的信号来完成的。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:415
+msgid ":ref:`bool<class_bool>` **paused**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:420
+msgid "set_pause(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:422
+msgid "is_paused()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:425
+msgid "如果\\ ``true``\\ ，\\ ``SceneTree``\\ 会暂停。这样做会有以下行为:"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:427
+msgid "2D和3D物理将停止。这包括信号和碰撞检测。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:429
+msgid "节点不再调用\\ :ref:`Node._process<class_Node_method__process>`\\ 、\\ :ref:`Node._physics_process<class_Node_method__physics_process>`\\ 和\\ :ref:`Node._input<class_Node_method__input>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:435
+msgid ":ref:`bool<class_bool>` **refuse_new_network_connections**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:440
+msgid "set_refuse_new_network_connections(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:442
+msgid "is_refusing_new_network_connections()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:445
+msgid "如果 ``true``\\ ，则 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 拒绝新的传入连接。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:451
+msgid ":ref:`Viewport<class_Viewport>` **root**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:454
+msgid "get_root()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:457
+msgid "``SceneTree`` 的根 :ref:`Viewport<class_Viewport>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:463
+msgid ":ref:`bool<class_bool>` **use_font_oversampling**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:468
+msgid "set_use_font_oversampling(value)"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:470
+msgid "is_using_font_oversampling()"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:473
+msgid "为 ``true`` 时启用字体过采样。这意味着根据视窗的缩放比例不同，\\ :ref:`DynamicFont<class_DynamicFont>` 渲染的大小会比配置大小更高或更低。例如，如果视窗的缩放系数为 1.5，那么配置为 14 号大小的字体将会按照 21 号大小渲染（\\ ``14 * 1.5``\\ ）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:475
+msgid "\\ **注意：**\\ 字体过采样仅在视窗拉伸模式为 :ref:`STRETCH_MODE_VIEWPORT<class_SceneTree_constant_STRETCH_MODE_VIEWPORT>` 且拉伸比例模式不是 :ref:`STRETCH_ASPECT_IGNORE<class_SceneTree_constant_STRETCH_ASPECT_IGNORE>` 时有效。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:477
+msgid "\\ **注意：**\\ 项目启动时会为活动的 ``SceneTree`` 自动设置该属性，取值为 :ref:`ProjectSettings<class_ProjectSettings>` 的 ``rendering/quality/dynamic_fonts/use_oversampling``\\ 。不过运行时可以根据需要对该属性进行覆盖。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:480
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:484
+msgid ":ref:`Variant<class_Variant>` **call_group** **(** :ref:`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:486
+msgid "对给定组的每个成员调用 ``method``\\ 。您可以通过在方法调用结束时指定参数来将参数传递给 ``method``\\ 。此方法等效于使用 :ref:`GROUP_CALL_DEFAULT<class_SceneTree_constant_GROUP_CALL_DEFAULT>` 标志调用 :ref:`call_group_flags<class_SceneTree_method_call_group_flags>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:488
+msgid "\\ **注：** ``method``\\ 最多只能有5个参数（总共7个参数传递给这个方法）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:490
+msgid "\\ **注意：** 由于设计限制，如果参数之一为 ``null``\\ ，\\ :ref:`call_group<class_SceneTree_method_call_group>` 将静默失败。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:492
+msgid "\\ **注意：** :ref:`call_group<class_SceneTree_method_call_group>` 将始终调用具有一帧延迟的方法，其方式类似于 :ref:`Object.call_deferred<class_Object_method_call_deferred>`\\ 。要立即调用方法，请将 :ref:`call_group_flags<class_SceneTree_method_call_group_flags>` 与 :ref:`GROUP_CALL_REALTIME<class_SceneTree_constant_GROUP_CALL_REALTIME>` 标志一起使用。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:498
+msgid ":ref:`Variant<class_Variant>` **call_group_flags** **(** :ref:`int<class_int>` flags, :ref:`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:500
+msgid "对给定组的每个成员调用 ``method``\\ ，遵从给定的 :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`\\ 。您可以通过在方法调用结束时指定参数来将参数传递给 ``method``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:502
+msgid "\\ **注：** ``method``\\ 最多只能有5个参数（总共8个参数传递给这个方法）。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:504
+msgid "\\ **注意：** 由于设计限制，如果参数之一为 ``null``\\ ，\\ :ref:`call_group_flags<class_SceneTree_method_call_group_flags>` 将静默失败。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:515
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **change_scene** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:517
+msgid "将正在运行的场景改变为指定的\\ ``path``\\ 中的场景，在将其加载到\\ :ref:`PackedScene<class_PackedScene>`\\ 中并创建一个新的实例。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:519
+msgid "成功时返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，如果\\ ``path``\\ 不能被加载到一个\\ :ref:`PackedScene<class_PackedScene>`\\ 中，，该场景不能被实例化，则返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:521
+msgid "\\ **注意：**\\ 场景改变有延迟，即新的场景节点是在下一个空闲帧中添加。在\\ :ref:`change_scene<class_SceneTree_method_change_scene>`\\ 调用之后，你不能立即访问它。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:527
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **change_scene_to** **(** :ref:`PackedScene<class_PackedScene>` packed_scene **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:529
+msgid "将正在运行的场景改变为给定的\\ :ref:`PackedScene<class_PackedScene>`\\ 的新实例。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:531
+msgid "成功时返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，如果场景不能被实例化，则返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:533
+msgid "\\ **注意：** 场景的改变是延迟的，新的场景节点是在下一个空闲帧中添加。在调用\\ :ref:`change_scene_to<class_SceneTree_method_change_scene_to>`\\ 之后，你不能立即访问它。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:539
+msgid ":ref:`SceneTreeTimer<class_SceneTreeTimer>` **create_timer** **(** :ref:`float<class_float>` time_sec, :ref:`bool<class_bool>` pause_mode_process=true **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:541
+msgid "返回一个 :ref:`SceneTreeTimer<class_SceneTreeTimer>`\\ ，在这个 ``SceneTree`` 中经过给定的时间（秒）后，将发出 :ref:`SceneTreeTimer.timeout<class_SceneTreeTimer_signal_timeout>` 信号。如果 ``pause_mode_process`` 被设置为 ``false``\\ ，暂停 ``SceneTree`` 也将暂停该定时器。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:543
+msgid "常用于创建一次性的延迟定时器，如下面的例子:"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:552
+msgid "计时器将在其时间结束后被自动释放。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:558
+msgid ":ref:`int<class_int>` **get_frame** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:560
+msgid "返回当前的帧数，即自应用程序启动以来的总帧数。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:566
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_network_connected_peers** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:568
+msgid "返回此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 的所有连接对等方的对等 ID。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:574
+msgid ":ref:`int<class_int>` **get_network_unique_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:576
+msgid "返回此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 的唯一对等 ID。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:582
+msgid ":ref:`int<class_int>` **get_node_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:584
+msgid "返回此\\ ``SceneTree``\\ 中的节点数。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:590
+msgid ":ref:`Array<class_Array>` **get_nodes_in_group** **(** :ref:`String<class_String>` group **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:592
+msgid "返回一个分配给给定组的所有节点的列表。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:598
+msgid ":ref:`int<class_int>` **get_rpc_sender_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:600
+msgid "返回最近收到的RPC调用的发送者的对等ID。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:606
+msgid ":ref:`bool<class_bool>` **has_group** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:608
+msgid "如果给定的组存在，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:614
+msgid ":ref:`bool<class_bool>` **has_network_peer** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:616
+msgid "如果有一个\\ :ref:`network_peer<class_SceneTree_property_network_peer>`\\ 设置，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:622
+msgid ":ref:`bool<class_bool>` **is_input_handled** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:624
+msgid "如果最近的 :ref:`InputEvent<class_InputEvent>` 被使用 :ref:`set_input_as_handled<class_SceneTree_method_set_input_as_handled>` 设置为已处理，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:630
+msgid ":ref:`bool<class_bool>` **is_network_server** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:632
+msgid "如果此 ``SceneTree`` 的 :ref:`network_peer<class_SceneTree_property_network_peer>` 处于服务器模式（侦听连接），则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:638
+msgid "void **notify_group** **(** :ref:`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:640
+msgid "将给定的通知发送给 ``group`` 的所有成员。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:646
+msgid "void **notify_group_flags** **(** :ref:`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:648
+msgid "将给定的通知发送给 ``group`` 的所有成员，遵从给定的 :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:654
+msgid "void **queue_delete** **(** :ref:`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:656
+msgid "将给定的对象排队准备删除，即在当前帧之后调用 :ref:`Object.free<class_Object_method_free>` 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:662
+msgid "void **quit** **(** :ref:`int<class_int>` exit_code=-1 **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:664
+msgid "在当前迭代结束时退出应用程序。进程的 ``exit_code`` 可以选择性地作为参数传递。如果这个参数大于等于 ``0``\\ ，它将覆盖在退出应用程序之前定义的 :ref:`OS.exit_code<class_OS_property_exit_code>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:666
+msgid "\\ **注意：**\\ 这个方法在 iOS 上不起作用。根据《iOS 人机界面指南》中的建议，用户应该通过 Home 键来关闭应用程序。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:672
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **reload_current_scene** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:674
+msgid "重新加载当前活动的场景。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:676
+msgid "成功时返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，如果尚未定义 :ref:`current_scene<class_SceneTree_property_current_scene>`\\ ，则返回 :ref:`@GlobalScope.ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>`\\ ，如果 :ref:`current_scene<class_SceneTree_property_current_scene>` 无法加载到 :ref:`PackedScene<class_PackedScene>` 中，则返回 :ref:`@GlobalScope.ERR_CANT_OPEN<class_@GlobalScope_constant_ERR_CANT_OPEN>`\\ ，如果场景无法加载，则返回 :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:682
+msgid "void **set_auto_accept_quit** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:684
+msgid "为 ``true`` 时应用程序将自动接受退出。默认启用。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:686
+msgid "对于移动平台，请参阅 :ref:`set_quit_on_go_back<class_SceneTree_method_set_quit_on_go_back>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:692
+msgid "void **set_group** **(** :ref:`String<class_String>` group, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:694
+msgid "在给定组的所有成员上将给定的属性 ``property`` 设置为 ``value``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:700
+msgid "void **set_group_flags** **(** :ref:`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:702
+msgid "将给定的 ``property`` 设置为给定组的所有成员的 ``value``\\ ，尊重给定的 :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:708
+msgid "void **set_input_as_handled** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:710
+msgid "将最新的 :ref:`InputEvent<class_InputEvent>` 标记为已处理。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:716
+msgid "void **set_quit_on_go_back** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:718
+msgid "为 ``true`` 时应用程序将在返回时自动退出（例如在 Android 上）。默认启用。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:720
+msgid "要在这个选项被禁用时处理“返回”按钮，请使用 :ref:`MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST<class_MainLoop_constant_NOTIFICATION_WM_GO_BACK_REQUEST>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:726
+msgid "void **set_screen_stretch** **(** :ref:`StretchMode<enum_SceneTree_StretchMode>` mode, :ref:`StretchAspect<enum_SceneTree_StretchAspect>` aspect, :ref:`Vector2<class_Vector2>` minsize, :ref:`float<class_float>` scale=1 **)**"
+msgstr ""
+
+#: ../classes/class_scenetree.rst:728
+msgid "将屏幕拉伸配置为给定的 :ref:`StretchMode<enum_SceneTree_StretchMode>`\\ 、\\ :ref:`StretchAspect<enum_SceneTree_StretchAspect>`\\ 、最小尺寸和 ``scale``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

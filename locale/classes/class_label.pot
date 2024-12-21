@@ -1,0 +1,659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_label.rst:10
+msgid "Label"
+msgstr ""
+
+#: ../classes/class_label.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_label.rst:14
+msgid "在一行中显示纯文本，或在一个矩形内包裹。对于格式化的文本，使用\\ :ref:`RichTextLabel<class_RichTextLabel>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_label.rst:19
+msgid "标签在屏幕上显示纯文本。可以控制水平和垂直的对齐方式，并且可以将文本包裹在节点的边界矩形内。它不支持粗体、斜体或其他格式。若使用，请改用 :ref:`RichTextLabel<class_RichTextLabel>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:21
+msgid "\\ **注意：** 与大多数其他 :ref:`Control<class_Control>` 不同，Label 的 :ref:`Control.mouse_filter<class_Control_property_mouse_filter>` 默认为 :ref:`Control.MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\\ ，即它不响应鼠标输入事件。这意味着标签不会显示任何已配置的 :ref:`Control.hint_tooltip<class_Control_property_hint_tooltip>`\\ ，除非更改其鼠标过滤器。"
+msgstr ""
+
+#: ../classes/class_label.rst:23
+msgid "\\ **注意：**\\ Windows 上\\ *不支持* ``0xffff`` 之后的 Unicode 字符，例如大多数表情符号，它们将显示为未知字符。这将在 GaaeExplorer 4.0 中解决。"
+msgstr ""
+
+#: ../classes/class_label.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_label.rst:28
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_label.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_label.rst:34
+msgid ":ref:`Align<enum_Label_Align>`"
+msgstr ""
+
+#: ../classes/class_label.rst:34
+msgid ":ref:`align<class_Label_property_align>`"
+msgstr ""
+
+#: ../classes/class_label.rst:34
+#: ../classes/class_label.rst:40
+#: ../classes/class_label.rst:54
+#: ../classes/class_label.rst:84
+#: ../classes/class_label.rst:148
+#: ../classes/class_label.rst:196
+#: ../classes/class_label.rst:276
+#: ../classes/class_label.rst:390
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_label.rst:36
+#: ../classes/class_label.rst:38
+#: ../classes/class_label.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_label.rst:36
+msgid ":ref:`autowrap<class_Label_property_autowrap>`"
+msgstr ""
+
+#: ../classes/class_label.rst:36
+#: ../classes/class_label.rst:38
+#: ../classes/class_label.rst:52
+#: ../classes/class_label.rst:164
+#: ../classes/class_label.rst:180
+#: ../classes/class_label.rst:260
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_label.rst:38
+msgid ":ref:`clip_text<class_Label_property_clip_text>`"
+msgstr ""
+
+#: ../classes/class_label.rst:40
+#: ../classes/class_label.rst:42
+#: ../classes/class_label.rst:48
+#: ../classes/class_label.rst:56
+#: ../classes/class_label.rst:63
+#: ../classes/class_label.rst:65
+#: ../classes/class_label.rst:67
+#: ../classes/class_label.rst:69
+#: ../classes/class_label.rst:82
+#: ../classes/class_label.rst:84
+#: ../classes/class_label.rst:86
+#: ../classes/class_label.rst:88
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_label.rst:40
+msgid ":ref:`lines_skipped<class_Label_property_lines_skipped>`"
+msgstr ""
+
+#: ../classes/class_label.rst:42
+msgid ":ref:`max_lines_visible<class_Label_property_max_lines_visible>`"
+msgstr ""
+
+#: ../classes/class_label.rst:42
+#: ../classes/class_label.rst:56
+#: ../classes/class_label.rst:212
+#: ../classes/class_label.rst:292
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_label.rst:44
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../classes/class_label.rst:44
+msgid "mouse_filter"
+msgstr ""
+
+#: ../classes/class_label.rst:44
+msgid "``2`` (overrides :ref:`Control<class_Control_property_mouse_filter>`)"
+msgstr ""
+
+#: ../classes/class_label.rst:46
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_label.rst:46
+msgid ":ref:`percent_visible<class_Label_property_percent_visible>`"
+msgstr ""
+
+#: ../classes/class_label.rst:46
+#: ../classes/class_label.rst:228
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_label.rst:48
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../classes/class_label.rst:48
+msgid "``4`` (overrides :ref:`Control<class_Control_property_size_flags_vertical>`)"
+msgstr ""
+
+#: ../classes/class_label.rst:50
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_label.rst:50
+msgid ":ref:`text<class_Label_property_text>`"
+msgstr ""
+
+#: ../classes/class_label.rst:50
+#: ../classes/class_label.rst:244
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_label.rst:52
+msgid ":ref:`uppercase<class_Label_property_uppercase>`"
+msgstr ""
+
+#: ../classes/class_label.rst:54
+msgid ":ref:`VAlign<enum_Label_VAlign>`"
+msgstr ""
+
+#: ../classes/class_label.rst:54
+msgid ":ref:`valign<class_Label_property_valign>`"
+msgstr ""
+
+#: ../classes/class_label.rst:56
+msgid ":ref:`visible_characters<class_Label_property_visible_characters>`"
+msgstr ""
+
+#: ../classes/class_label.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_label.rst:63
+msgid ":ref:`get_line_count<class_Label_method_get_line_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:65
+msgid ":ref:`get_line_height<class_Label_method_get_line_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:67
+msgid ":ref:`get_total_character_count<class_Label_method_get_total_character_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:69
+msgid ":ref:`get_visible_line_count<class_Label_method_get_visible_line_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:73
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_label.rst:76
+#: ../classes/class_label.rst:78
+#: ../classes/class_label.rst:80
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_label.rst:76
+msgid ":ref:`font_color<class_Label_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_label.rst:76
+#: ../classes/class_label.rst:80
+#: ../classes/class_label.rst:342
+#: ../classes/class_label.rst:366
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_label.rst:78
+msgid ":ref:`font_color_shadow<class_Label_theme_color_font_color_shadow>`"
+msgstr ""
+
+#: ../classes/class_label.rst:78
+#: ../classes/class_label.rst:354
+msgid "``Color( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_label.rst:80
+msgid ":ref:`font_outline_modulate<class_Label_theme_color_font_outline_modulate>`"
+msgstr ""
+
+#: ../classes/class_label.rst:82
+msgid ":ref:`line_spacing<class_Label_theme_constant_line_spacing>`"
+msgstr ""
+
+#: ../classes/class_label.rst:82
+#: ../classes/class_label.rst:378
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_label.rst:84
+msgid ":ref:`shadow_as_outline<class_Label_theme_constant_shadow_as_outline>`"
+msgstr ""
+
+#: ../classes/class_label.rst:86
+msgid ":ref:`shadow_offset_x<class_Label_theme_constant_shadow_offset_x>`"
+msgstr ""
+
+#: ../classes/class_label.rst:86
+#: ../classes/class_label.rst:88
+#: ../classes/class_label.rst:402
+#: ../classes/class_label.rst:414
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_label.rst:88
+msgid ":ref:`shadow_offset_y<class_Label_theme_constant_shadow_offset_y>`"
+msgstr ""
+
+#: ../classes/class_label.rst:90
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_label.rst:90
+msgid ":ref:`font<class_Label_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_label.rst:92
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_label.rst:92
+msgid ":ref:`normal<class_Label_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_label.rst:96
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_label.rst:108
+msgid "enum **Align**:"
+msgstr ""
+
+#: ../classes/class_label.rst:110
+msgid "**ALIGN_LEFT** = **0** --- 将行左对齐，默认。"
+msgstr ""
+
+#: ../classes/class_label.rst:112
+msgid "**ALIGN_CENTER** = **1** --- 居中对齐行。"
+msgstr ""
+
+#: ../classes/class_label.rst:114
+msgid "**ALIGN_RIGHT** = **2** --- 将行向右对齐。"
+msgstr ""
+
+#: ../classes/class_label.rst:116
+msgid "**ALIGN_FILL** = **3** --- 扩展行空白以适应宽度。"
+msgstr ""
+
+#: ../classes/class_label.rst:130
+msgid "enum **VAlign**:"
+msgstr ""
+
+#: ../classes/class_label.rst:132
+msgid "**VALIGN_TOP** = **0** --- 将整个文本对齐到顶部。"
+msgstr ""
+
+#: ../classes/class_label.rst:134
+msgid "**VALIGN_CENTER** = **1** --- 将整个文本居中对齐。"
+msgstr ""
+
+#: ../classes/class_label.rst:136
+msgid "**VALIGN_BOTTOM** = **2** --- 将整个文本与底部对齐。"
+msgstr ""
+
+#: ../classes/class_label.rst:138
+msgid "**VALIGN_FILL** = **3** --- 通过展开行来对齐整个文本。"
+msgstr ""
+
+#: ../classes/class_label.rst:141
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_label.rst:145
+msgid ":ref:`Align<enum_Label_Align>` **align**"
+msgstr ""
+
+#: ../classes/class_label.rst:148
+#: ../classes/class_label.rst:164
+#: ../classes/class_label.rst:180
+#: ../classes/class_label.rst:196
+#: ../classes/class_label.rst:212
+#: ../classes/class_label.rst:228
+#: ../classes/class_label.rst:244
+#: ../classes/class_label.rst:260
+#: ../classes/class_label.rst:276
+#: ../classes/class_label.rst:292
+#: ../classes/class_label.rst:342
+#: ../classes/class_label.rst:354
+#: ../classes/class_label.rst:366
+#: ../classes/class_label.rst:378
+#: ../classes/class_label.rst:390
+#: ../classes/class_label.rst:402
+#: ../classes/class_label.rst:414
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_label.rst:150
+#: ../classes/class_label.rst:166
+#: ../classes/class_label.rst:182
+#: ../classes/class_label.rst:198
+#: ../classes/class_label.rst:214
+#: ../classes/class_label.rst:230
+#: ../classes/class_label.rst:246
+#: ../classes/class_label.rst:262
+#: ../classes/class_label.rst:278
+#: ../classes/class_label.rst:294
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_label.rst:150
+msgid "set_align(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:152
+#: ../classes/class_label.rst:168
+#: ../classes/class_label.rst:184
+#: ../classes/class_label.rst:200
+#: ../classes/class_label.rst:216
+#: ../classes/class_label.rst:232
+#: ../classes/class_label.rst:248
+#: ../classes/class_label.rst:264
+#: ../classes/class_label.rst:280
+#: ../classes/class_label.rst:296
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_label.rst:152
+msgid "get_align()"
+msgstr ""
+
+#: ../classes/class_label.rst:155
+msgid "控制文本的水平对齐。支持左对齐、居中对齐、右对齐和填充，或者两端对齐。把它设置为\\ :ref:`Align<enum_Label_Align>`\\ 常量之一。"
+msgstr ""
+
+#: ../classes/class_label.rst:161
+msgid ":ref:`bool<class_bool>` **autowrap**"
+msgstr ""
+
+#: ../classes/class_label.rst:166
+msgid "set_autowrap(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:168
+msgid "has_autowrap()"
+msgstr ""
+
+#: ../classes/class_label.rst:171
+msgid "如果\\ ``true``\\ ，则将文本包裹在节点的边界矩形内。如果你调整节点的大小，它将自动改变其高度以显示所有的文本。"
+msgstr ""
+
+#: ../classes/class_label.rst:177
+msgid ":ref:`bool<class_bool>` **clip_text**"
+msgstr ""
+
+#: ../classes/class_label.rst:182
+msgid "set_clip_text(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:184
+msgid "is_clipping_text()"
+msgstr ""
+
+#: ../classes/class_label.rst:187
+msgid "如果 ``true``\\ ，则标签仅显示适合其边界矩形的文本，并将水平剪切文本。"
+msgstr ""
+
+#: ../classes/class_label.rst:193
+msgid ":ref:`int<class_int>` **lines_skipped**"
+msgstr ""
+
+#: ../classes/class_label.rst:198
+msgid "set_lines_skipped(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:200
+msgid "get_lines_skipped()"
+msgstr ""
+
+#: ../classes/class_label.rst:203
+msgid "该节点在开始显示文本之前会忽略前 ``lines_skipped`` 行。"
+msgstr ""
+
+#: ../classes/class_label.rst:209
+msgid ":ref:`int<class_int>` **max_lines_visible**"
+msgstr ""
+
+#: ../classes/class_label.rst:214
+msgid "set_max_lines_visible(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:216
+msgid "get_max_lines_visible()"
+msgstr ""
+
+#: ../classes/class_label.rst:219
+msgid "限制节点在屏幕上显示的文本行数。"
+msgstr ""
+
+#: ../classes/class_label.rst:225
+msgid ":ref:`float<class_float>` **percent_visible**"
+msgstr ""
+
+#: ../classes/class_label.rst:230
+msgid "set_percent_visible(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:232
+msgid "get_percent_visible()"
+msgstr ""
+
+#: ../classes/class_label.rst:235
+msgid "限制可见字符的数量。如果你把\\ ``%_visible``\\ 设置为0.5，屏幕上最多只能显示文本的一半字符。这在对话框中对文本进行动画处理很有用。"
+msgstr ""
+
+#: ../classes/class_label.rst:241
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_label.rst:246
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:248
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_label.rst:251
+msgid "要在屏幕上显示的文本。"
+msgstr ""
+
+#: ../classes/class_label.rst:257
+msgid ":ref:`bool<class_bool>` **uppercase**"
+msgstr ""
+
+#: ../classes/class_label.rst:262
+msgid "set_uppercase(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:264
+msgid "is_uppercase()"
+msgstr ""
+
+#: ../classes/class_label.rst:267
+msgid "如果 ``true``\\ ，则所有文本都显示为大写。"
+msgstr ""
+
+#: ../classes/class_label.rst:273
+msgid ":ref:`VAlign<enum_Label_VAlign>` **valign**"
+msgstr ""
+
+#: ../classes/class_label.rst:278
+msgid "set_valign(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:280
+msgid "get_valign()"
+msgstr ""
+
+#: ../classes/class_label.rst:283
+msgid "控制文本的垂直对齐。支持顶部、中心、底部和填充。参阅\\ :ref:`VAlign<enum_Label_VAlign>`\\ 常数。"
+msgstr ""
+
+#: ../classes/class_label.rst:289
+msgid ":ref:`int<class_int>` **visible_characters**"
+msgstr ""
+
+#: ../classes/class_label.rst:294
+msgid "set_visible_characters(value)"
+msgstr ""
+
+#: ../classes/class_label.rst:296
+msgid "get_visible_characters()"
+msgstr ""
+
+#: ../classes/class_label.rst:299
+msgid "限制显示的字符数。设置为-1表示禁用限制。"
+msgstr ""
+
+#: ../classes/class_label.rst:302
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_label.rst:306
+msgid ":ref:`int<class_int>` **get_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:308
+msgid "返回Label标签的文本行数。"
+msgstr ""
+
+#: ../classes/class_label.rst:314
+msgid ":ref:`int<class_int>` **get_line_height** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:316
+msgid "返回字体大小，单位是像素。"
+msgstr ""
+
+#: ../classes/class_label.rst:322
+msgid ":ref:`int<class_int>` **get_total_character_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:324
+msgid "返回文本中可打印的字符总数，不包括空格和换行符。"
+msgstr ""
+
+#: ../classes/class_label.rst:330
+msgid ":ref:`int<class_int>` **get_visible_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label.rst:332
+msgid "返回显示的行数。如果\\ ``Label``\\ 的高度目前无法显示所有的行数，将会有用。"
+msgstr ""
+
+#: ../classes/class_label.rst:335
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_label.rst:339
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_label.rst:345
+msgid "``Label``\\ 标签的默认文本颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:351
+msgid ":ref:`Color<class_Color>` **font_color_shadow**"
+msgstr ""
+
+#: ../classes/class_label.rst:357
+msgid "文本阴影效果的颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:363
+msgid ":ref:`Color<class_Color>` **font_outline_modulate**"
+msgstr ""
+
+#: ../classes/class_label.rst:369
+msgid ":ref:`Font<class_Font>`\\ 轮廓的色调。参阅\\ :ref:`DynamicFont.outline_color<class_DynamicFont_property_outline_color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:375
+msgid ":ref:`int<class_int>` **line_spacing**"
+msgstr ""
+
+#: ../classes/class_label.rst:381
+msgid "多行\\ ``Label``\\ 中各行之间的垂直空间。"
+msgstr ""
+
+#: ../classes/class_label.rst:387
+msgid ":ref:`int<class_int>` **shadow_as_outline**"
+msgstr ""
+
+#: ../classes/class_label.rst:393
+msgid "布尔值。如果设置为1，即\\ ``true``\\ ，整个文本周围显示阴影轮廓。"
+msgstr ""
+
+#: ../classes/class_label.rst:399
+msgid ":ref:`int<class_int>` **shadow_offset_x**"
+msgstr ""
+
+#: ../classes/class_label.rst:405
+msgid "文本阴影的水平偏移。"
+msgstr ""
+
+#: ../classes/class_label.rst:411
+msgid ":ref:`int<class_int>` **shadow_offset_y**"
+msgstr ""
+
+#: ../classes/class_label.rst:417
+msgid "文本阴影的垂直偏移。"
+msgstr ""
+
+#: ../classes/class_label.rst:423
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_label.rst:425
+msgid "用于标签\\ ``Label``\\ 文本的字体\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_label.rst:431
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_label.rst:433
+msgid "为\\ ``Label``\\ 设置背景样式\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

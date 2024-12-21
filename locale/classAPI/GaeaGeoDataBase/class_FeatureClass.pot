@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:2
+msgid "FeatureClass"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:7
+msgid "要素类是存储在工作空间中的一种数据组织方式，要素类是在对象类的基础上的进一步扩展，包含了 现实世界中的空间实体。 A feature class is a way of organizing data stored in a workspace. A feature class is a further extension based on an object class and contains spatial entities in the real world."
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:11
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:14
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:17
+msgid "FeatureLayer"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:17
+msgid "featureLayer"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:19
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:29
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:33
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:19
+msgid "FeatureCount"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:21
+msgid "Envelope"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:21
+msgid "Extent"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:23
+msgid "gaeaGeometryType"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:23
+msgid "ShapeType"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:25
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:35
+msgid "String"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:25
+msgid "AliasName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:27
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:31
+msgid "Field"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:27
+msgid "AreaField"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:29
+msgid "FeatureClassID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:31
+msgid "LengthField"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:33
+msgid "ObjectClassID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:35
+msgid "ShapeFieldName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:39
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:42
+msgid "IEnumerable`1"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:42
+msgid "GetFeatures()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:44
+msgid "Feature"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:44
+msgid "GetFeature(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:46
+msgid "FeatureCursor"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:46
+msgid "Insert(Boolean useBuffering,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:48
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:48
+msgid "Delete()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:52
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:54
+msgid "FeatureLayer featureLayer"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:57
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:78
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:89
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:61
+msgid "要素类所在图层"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:65
+msgid "Int32 FeatureCount"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:68
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:100
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:110
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:120
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:130
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:140
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:150
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:71
+msgid "要素类里的要素总数"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:75
+msgid "Envelope Extent"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:82
+msgid "要素类的外包络矩形范围"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:86
+msgid "gaeaGeometryType ShapeType"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:93
+msgid "要素类的几何类型"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:97
+msgid "String AliasName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:103
+msgid "要素类的别名"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:107
+msgid "Field AreaField"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:113
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:133
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:143
+msgid "未知"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:117
+msgid "Int32 FeatureClassID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:123
+msgid "要素类的ID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:127
+msgid "Field LengthField"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:137
+msgid "Int32 ObjectClassID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:147
+msgid "String ShapeFieldName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:153
+msgid "Shape字段名称"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:159
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:161
+msgid "IEnumerable`1 GetFeatures()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:167
+msgid "Feature GetFeature(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:173
+msgid "FeatureCursor Insert(Boolean useBuffering,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_FeatureClass.rst:179
+msgid "Void Delete()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

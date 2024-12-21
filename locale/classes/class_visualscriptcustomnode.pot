@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptcustomnode.rst:10
+msgid "VisualScriptCustomNode"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:14
+msgid "有脚本的可视化脚本节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:19
+msgid "自定义的可视化脚本节点，可以用强大的方式进行脚本编写。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:25
+#: ../classes/class_visualscriptcustomnode.rst:27
+#: ../classes/class_visualscriptcustomnode.rst:33
+#: ../classes/class_visualscriptcustomnode.rst:35
+#: ../classes/class_visualscriptcustomnode.rst:41
+#: ../classes/class_visualscriptcustomnode.rst:47
+#: ../classes/class_visualscriptcustomnode.rst:49
+#: ../classes/class_visualscriptcustomnode.rst:53
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:25
+msgid ":ref:`_get_caption<class_VisualScriptCustomNode_method__get_caption>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:27
+msgid ":ref:`_get_category<class_VisualScriptCustomNode_method__get_category>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:29
+#: ../classes/class_visualscriptcustomnode.rst:31
+#: ../classes/class_visualscriptcustomnode.rst:37
+#: ../classes/class_visualscriptcustomnode.rst:39
+#: ../classes/class_visualscriptcustomnode.rst:43
+#: ../classes/class_visualscriptcustomnode.rst:45
+#: ../classes/class_visualscriptcustomnode.rst:51
+#: ../classes/class_visualscriptcustomnode.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:29
+msgid ":ref:`_get_input_value_port_count<class_VisualScriptCustomNode_method__get_input_value_port_count>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:31
+msgid ":ref:`_get_input_value_port_hint<class_VisualScriptCustomNode_method__get_input_value_port_hint>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:33
+msgid ":ref:`_get_input_value_port_hint_string<class_VisualScriptCustomNode_method__get_input_value_port_hint_string>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:35
+msgid ":ref:`_get_input_value_port_name<class_VisualScriptCustomNode_method__get_input_value_port_name>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:37
+msgid ":ref:`_get_input_value_port_type<class_VisualScriptCustomNode_method__get_input_value_port_type>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:39
+msgid ":ref:`_get_output_sequence_port_count<class_VisualScriptCustomNode_method__get_output_sequence_port_count>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:41
+msgid ":ref:`_get_output_sequence_port_text<class_VisualScriptCustomNode_method__get_output_sequence_port_text>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:43
+msgid ":ref:`_get_output_value_port_count<class_VisualScriptCustomNode_method__get_output_value_port_count>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:45
+msgid ":ref:`_get_output_value_port_hint<class_VisualScriptCustomNode_method__get_output_value_port_hint>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:47
+msgid ":ref:`_get_output_value_port_hint_string<class_VisualScriptCustomNode_method__get_output_value_port_hint_string>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:49
+msgid ":ref:`_get_output_value_port_name<class_VisualScriptCustomNode_method__get_output_value_port_name>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:51
+msgid ":ref:`_get_output_value_port_type<class_VisualScriptCustomNode_method__get_output_value_port_type>` **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:53
+msgid ":ref:`_get_text<class_VisualScriptCustomNode_method__get_text>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:55
+msgid ":ref:`_get_working_memory_size<class_VisualScriptCustomNode_method__get_working_memory_size>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:57
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:57
+msgid ":ref:`_has_input_sequence_port<class_VisualScriptCustomNode_method__has_input_sequence_port>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:59
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:59
+msgid ":ref:`_step<class_VisualScriptCustomNode_method__step>` **(** :ref:`Array<class_Array>` inputs, :ref:`Array<class_Array>` outputs, :ref:`int<class_int>` start_mode, :ref:`Array<class_Array>` working_mem **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:63
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:73
+msgid "enum **StartMode**:"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:75
+msgid "**START_MODE_BEGIN_SEQUENCE** = **0** --- 当\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 被调用时，首次使用的启动模式。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:77
+msgid "**START_MODE_CONTINUE_SEQUENCE** = **1** --- 当从\\ :ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`\\ 返回后调用\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 时使用的启动模式。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:79
+msgid "**START_MODE_RESUME_YIELD** = **2** --- 从\\ :ref:`STEP_YIELD_BIT<class_VisualScriptCustomNode_constant_STEP_YIELD_BIT>`\\ 恢复后调用\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 时使用的启动模式。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:82
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:94
+msgid "**STEP_PUSH_STACK_BIT** = **16777216** --- 由\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 使用的提示，告诉控件应该在没有其他节点可以执行时返回给它。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:96
+msgid "这被\\ :ref:`VisualScriptCondition<class_VisualScriptCondition>`\\ 用来在\\ ``true``/``false``\\ 分支执行完毕后，将序列重定向到 \"Done\" 端口。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:98
+msgid "**STEP_GO_BACK_BIT** = **33554432** --- 由\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 使用的提示，告诉控件应该返回，要么命中之前的\\ :ref:`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`\\ ，要么退出函数。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:100
+msgid "**STEP_NO_ADVANCE_BIT** = **67108864**"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:102
+msgid "**STEP_EXIT_FUNCTION_BIT** = **134217728** --- :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 用来告诉控件应该停止和退出函数的提示。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:104
+msgid "**STEP_YIELD_BIT** = **268435456** --- 由\\ :ref:`_step<class_VisualScriptCustomNode_method__step>`\\ 使用的提示，告诉函数应该被yielded。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:106
+msgid "使用这个要求你至少有一个工作存储槽，它被用于\\ :ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:109
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:113
+msgid ":ref:`String<class_String>` **_get_caption** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:115
+msgid "返回节点的标题。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:121
+msgid ":ref:`String<class_String>` **_get_category** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:123
+msgid "返回节点的类别。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:129
+msgid ":ref:`int<class_int>` **_get_input_value_port_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:131
+msgid "返回输入值端口的数量。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:137
+msgid ":ref:`int<class_int>` **_get_input_value_port_hint** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:139
+msgid "返回指定输入端口的提示。参阅 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` 提示。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:145
+msgid ":ref:`String<class_String>` **_get_input_value_port_hint_string** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:147
+msgid "返回指定输入端口的提示字符串。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:153
+msgid ":ref:`String<class_String>` **_get_input_value_port_name** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:155
+msgid "返回指定的输入端口的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:161
+msgid ":ref:`int<class_int>` **_get_input_value_port_type** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:163
+msgid "返回指定输入端口的类型。参阅\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ 值。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:169
+msgid ":ref:`int<class_int>` **_get_output_sequence_port_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:171
+msgid "返回输出\\ **sequence**\\ 序列端口的数量。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:177
+msgid ":ref:`String<class_String>` **_get_output_sequence_port_text** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:179
+msgid "返回指定的\\ **sequence**\\ 序列输出的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:185
+msgid ":ref:`int<class_int>` **_get_output_value_port_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:187
+msgid "返回输出值端口的数量。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:193
+msgid ":ref:`int<class_int>` **_get_output_value_port_hint** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:195
+msgid "返回指定输出端口的提示。参阅\\ :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` 提示。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:201
+msgid ":ref:`String<class_String>` **_get_output_value_port_hint_string** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:203
+msgid "返回指定输出端口的提示字符串。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:209
+msgid ":ref:`String<class_String>` **_get_output_value_port_name** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:211
+msgid "返回指定输出端口的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:217
+msgid ":ref:`int<class_int>` **_get_output_value_port_type** **(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:219
+msgid "返回指定输出端口的类型。参阅\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ 值。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:225
+msgid ":ref:`String<class_String>` **_get_text** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:227
+msgid "返回自定义节点的文本，就在输入\\ **sequence**\\ 序列端口旁边显示，如果没有，则在通常被它占用的位置。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:233
+msgid ":ref:`int<class_int>` **_get_working_memory_size** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:235
+msgid "返回自定义节点的运行内存的大小。更多细节参阅 :ref:`_step<class_VisualScriptCustomNode_method__step>` 。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:241
+msgid ":ref:`bool<class_bool>` **_has_input_sequence_port** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:243
+msgid "返回自定义节点是否有输入\\ **sequence**\\ 序列端口。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:249
+msgid ":ref:`Variant<class_Variant>` **_step** **(** :ref:`Array<class_Array>` inputs, :ref:`Array<class_Array>` outputs, :ref:`int<class_int>` start_mode, :ref:`Array<class_Array>` working_mem **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:251
+msgid "执行自定义节点的逻辑，返回要使用的输出序列端口的索引，或者在有错误时返回一个\\ :ref:`String<class_String>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:253
+msgid "\\ ``inputs``\\ 数组包含输入端口的值。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:255
+msgid "\\ ``output``\\ 是一个数组，其索引应被设置为相应的输出。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:257
+msgid "\\ ``start_mode``\\ 通常是\\ :ref:`START_MODE_BEGIN_SEQUENCE<class_VisualScriptCustomNode_constant_START_MODE_BEGIN_SEQUENCE>`\\ ，除非你使用了\\ ``STEP_*``\\ 常量。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:259
+msgid "\\ ``working_mem``\\ 是一个数组，可以用来在自定义节点的运行之间持续保存信息。其大小需要用\\ :ref:`_get_working_memory_size<class_VisualScriptCustomNode_method__get_working_memory_size>`\\ 来预定义。"
+msgstr ""
+
+#: ../classes/class_visualscriptcustomnode.rst:261
+msgid "当返回时，你可以用\\ ``STEP_*``\\ 中的一个常量来屏蔽返回值。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

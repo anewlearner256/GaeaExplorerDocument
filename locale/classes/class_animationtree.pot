@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationtree.rst:10
+msgid "AnimationTree"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:14
+#: ../classes/class_animationtree.rst:19
+msgid "用于 :ref:`AnimationPlayer<class_AnimationPlayer>` 中高级动画过渡的节点。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:21
+msgid "\\ **注意：**\\ 与 :ref:`AnimationPlayer<class_AnimationPlayer>` 连接时，该 :ref:`AnimationPlayer<class_AnimationPlayer>` 的一些属性和方法将不会像预期的那样发挥作用。播放和过渡应该只使用 ``AnimationTree`` 和组成它的 :ref:`AnimationNode<class_AnimationNode>` 来处理。\\ :ref:`AnimationPlayer<class_AnimationPlayer>` 节点应仅用于添加、删除和编辑动画。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:26
+msgid ":doc:`Using AnimationTree <../tutorials/animation/animation_tree>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:28
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:34
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:34
+msgid ":ref:`active<class_AnimationTree_property_active>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:34
+#: ../classes/class_animationtree.rst:83
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:36
+#: ../classes/class_animationtree.rst:40
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:36
+msgid ":ref:`anim_player<class_AnimationTree_property_anim_player>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:36
+#: ../classes/class_animationtree.rst:40
+#: ../classes/class_animationtree.rst:99
+#: ../classes/class_animationtree.rst:131
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:38
+msgid ":ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:38
+msgid ":ref:`process_mode<class_AnimationTree_property_process_mode>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:38
+#: ../classes/class_animationtree.rst:115
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:40
+msgid ":ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:42
+msgid ":ref:`AnimationNode<class_AnimationNode>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:42
+msgid ":ref:`tree_root<class_AnimationTree_property_tree_root>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:46
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:49
+#: ../classes/class_animationtree.rst:53
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:49
+msgid ":ref:`advance<class_AnimationTree_method_advance>` **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:51
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:51
+msgid ":ref:`get_root_motion_transform<class_AnimationTree_method_get_root_motion_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:53
+msgid ":ref:`rename_parameter<class_AnimationTree_method_rename_parameter>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:57
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:67
+msgid "enum **AnimationProcessMode**:"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:69
+msgid "**ANIMATION_PROCESS_PHYSICS** = **0** --- 在物理帧期间进行动画（即 :ref:`Node._physics_process<class_Node_method__physics_process>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:71
+msgid "**ANIMATION_PROCESS_IDLE** = **1** --- 在空闲帧期间进行动画（即 :ref:`Node._process<class_Node_method__process>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:73
+msgid "**ANIMATION_PROCESS_MANUAL** = **2** --- 只能手动进行动画（见 :ref:`advance<class_AnimationTree_method_advance>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:76
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:80
+msgid ":ref:`bool<class_bool>` **active**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:83
+#: ../classes/class_animationtree.rst:99
+#: ../classes/class_animationtree.rst:115
+#: ../classes/class_animationtree.rst:131
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:85
+#: ../classes/class_animationtree.rst:101
+#: ../classes/class_animationtree.rst:117
+#: ../classes/class_animationtree.rst:133
+#: ../classes/class_animationtree.rst:149
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:85
+msgid "set_active(value)"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:87
+#: ../classes/class_animationtree.rst:103
+#: ../classes/class_animationtree.rst:119
+#: ../classes/class_animationtree.rst:135
+#: ../classes/class_animationtree.rst:151
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:87
+msgid "is_active()"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:90
+msgid "如果 ``true`` 时，\\ ``AnimationTree`` 将执行逻辑处理。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:96
+msgid ":ref:`NodePath<class_NodePath>` **anim_player**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:101
+msgid "set_animation_player(value)"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:103
+msgid "get_animation_player()"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:106
+msgid "用于动画的 :ref:`AnimationPlayer<class_AnimationPlayer>` 的路径。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:112
+msgid ":ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>` **process_mode**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:117
+msgid "set_process_mode(value)"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:119
+msgid "get_process_mode()"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:122
+msgid "该 ``AnimationTree`` 的处理模式。可用的模式见 :ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:128
+msgid ":ref:`NodePath<class_NodePath>` **root_motion_track**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:133
+msgid "set_root_motion_track(value)"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:135
+msgid "get_root_motion_track()"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:138
+msgid "用于根部运动的动画轨道的路径。路径必须是指向节点的场景树有效路径，必须从将实现动画的节点的父节点开始指定。要指定控件属性或骨骼的轨道，请在路径后附加其名称，用 ``\":\"`` 隔开。例如，\\ ``\"character/skeleton:ankle\"`` 或 ``\"character/mesh:transform/local\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:140
+msgid "如果轨道的类型是 :ref:`Animation.TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`\\ ，那么将取消视觉上的变换，其动画将看起来留在原地。参阅 :ref:`get_root_motion_transform<class_AnimationTree_method_get_root_motion_transform>` 和 :ref:`RootMotionView<class_RootMotionView>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:146
+msgid ":ref:`AnimationNode<class_AnimationNode>` **tree_root**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:149
+msgid "set_tree_root(value)"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:151
+msgid "get_tree_root()"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:154
+msgid "该 ``AnimationTree`` 的根动画节点。见 :ref:`AnimationNode<class_AnimationNode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:157
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:161
+msgid "void **advance** **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:163
+msgid "手动将动画前进指定的时间（单位为秒）。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:169
+msgid ":ref:`Transform<class_Transform>` **get_root_motion_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:171
+msgid "检索\\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\\ 的运动，作为一个可以在其他地方使用的\\ :ref:`Transform<class_Transform>`\\ 。如果\\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\\ 不是一个\\ :ref:`Animation.TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`\\ 类型轨道的路径，返回一个变换ID。参阅\\ :ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`\\ 和\\ :ref:`RootMotionView<class_RootMotionView>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationtree.rst:177
+msgid "void **rename_parameter** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

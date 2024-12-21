@@ -1,0 +1,1035 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_CameraBase.rst:2
+msgid "CameraBase"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:16
+#: ../classAPI/class_CameraBase.rst:18
+#: ../classAPI/class_CameraBase.rst:26
+#: ../classAPI/class_CameraBase.rst:28
+#: ../classAPI/class_CameraBase.rst:92
+#: ../classAPI/class_CameraBase.rst:98
+#: ../classAPI/class_CameraBase.rst:102
+#: ../classAPI/class_CameraBase.rst:104
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:16
+msgid "Tracking"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:18
+msgid "ElevateCameraLookatPoint"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:20
+#: ../classAPI/class_CameraBase.rst:22
+#: ../classAPI/class_CameraBase.rst:60
+#: ../classAPI/class_CameraBase.rst:62
+#: ../classAPI/class_CameraBase.rst:64
+#: ../classAPI/class_CameraBase.rst:66
+#: ../classAPI/class_CameraBase.rst:68
+#: ../classAPI/class_CameraBase.rst:70
+#: ../classAPI/class_CameraBase.rst:82
+#: ../classAPI/class_CameraBase.rst:84
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:20
+msgid "CameraSlerpPercentage"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:22
+msgid "MaximumAltitudeForSphere"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:24
+msgid "LockedModes"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:24
+msgid "LockedMode"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:26
+msgid "NeedUpdateCameraElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:28
+msgid "UseAutoReferenceElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:30
+msgid "Vector3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:30
+msgid "UpD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:32
+#: ../classAPI/class_CameraBase.rst:90
+#: ../classAPI/class_CameraBase.rst:108
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:32
+msgid "DirectionD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:34
+#: ../classAPI/class_CameraBase.rst:36
+#: ../classAPI/class_CameraBase.rst:76
+#: ../classAPI/class_CameraBase.rst:78
+#: ../classAPI/class_CameraBase.rst:147
+#: ../classAPI/class_CameraBase.rst:163
+msgid "GEVector3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:34
+msgid "ProjectionPosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:36
+msgid "ProjectionLatLonPosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:38
+msgid "GEViewport2d"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:38
+msgid "ViewportD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:40
+#: ../classAPI/class_CameraBase.rst:42
+#: ../classAPI/class_CameraBase.rst:44
+#: ../classAPI/class_CameraBase.rst:46
+msgid "GEMatrix4D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:40
+msgid "ViewMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:42
+msgid "ViewMatrixD"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:44
+msgid "ProjectionMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:46
+msgid "WorldMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:48
+#: ../classAPI/class_CameraBase.rst:50
+#: ../classAPI/class_CameraBase.rst:52
+#: ../classAPI/class_CameraBase.rst:54
+#: ../classAPI/class_CameraBase.rst:56
+#: ../classAPI/class_CameraBase.rst:72
+#: ../classAPI/class_CameraBase.rst:74
+#: ../classAPI/class_CameraBase.rst:80
+msgid "GEAngle"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:48
+msgid "Latitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:50
+msgid "Longitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:52
+msgid "Tilt"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:54
+msgid "Bank"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:56
+msgid "Heading"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:58
+msgid "GEQuaternionD"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:58
+msgid "AbsoluteOrientation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:60
+msgid "Altitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:62
+msgid "AltitudeAboveReferenceCenter"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:64
+msgid "AltitudeAboveTerrainSurface"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:66
+msgid "TargetAltitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:68
+msgid "ReferenceElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:70
+msgid "CameraElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:72
+msgid "GlobeViewRange"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:74
+msgid "ViewRange"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:76
+msgid "AbsolutePosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:78
+msgid "PositionForSphere"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:80
+msgid "FovGEAngle"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:82
+msgid "Distance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:84
+msgid "TargetDistance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:86
+msgid "Action"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:86
+msgid "OnFlyOver"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:88
+msgid "Spatial"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:88
+msgid "LockedEntity"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:90
+msgid "LockToEntityOffset"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:92
+msgid "LockToEntityNoDistance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:94
+#: ../classAPI/class_CameraBase.rst:96
+#: ../classAPI/class_CameraBase.rst:106
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:94
+msgid "LockToEntityDistanceMin"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:96
+msgid "LockToEntityDistanceMax"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:98
+msgid "LockToEntityForward"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:100
+#: ../classAPI/class_CameraBase.rst:100
+msgid "ViewModes"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:102
+msgid "LockedNoSlerp"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:104
+msgid "EyeLock"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:106
+msgid "CameraZoomAcceleration"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:108
+msgid "LockToEntityTiltHeadingBankOffset"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:110
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:110
+msgid "AltitudeToLevel"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:114
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:117
+#: ../classAPI/class_CameraBase.rst:119
+#: ../classAPI/class_CameraBase.rst:121
+#: ../classAPI/class_CameraBase.rst:123
+#: ../classAPI/class_CameraBase.rst:125
+#: ../classAPI/class_CameraBase.rst:127
+#: ../classAPI/class_CameraBase.rst:129
+#: ../classAPI/class_CameraBase.rst:131
+#: ../classAPI/class_CameraBase.rst:133
+#: ../classAPI/class_CameraBase.rst:135
+#: ../classAPI/class_CameraBase.rst:137
+#: ../classAPI/class_CameraBase.rst:139
+#: ../classAPI/class_CameraBase.rst:141
+#: ../classAPI/class_CameraBase.rst:143
+#: ../classAPI/class_CameraBase.rst:145
+#: ../classAPI/class_CameraBase.rst:149
+#: ../classAPI/class_CameraBase.rst:151
+#: ../classAPI/class_CameraBase.rst:153
+#: ../classAPI/class_CameraBase.rst:155
+#: ../classAPI/class_CameraBase.rst:157
+#: ../classAPI/class_CameraBase.rst:159
+#: ../classAPI/class_CameraBase.rst:161
+#: ../classAPI/class_CameraBase.rst:169
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:117
+msgid "_Ready()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:119
+msgid "_PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:121
+msgid "_Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:123
+msgid "ComputeViewMatrix()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:125
+msgid "Unlocked(Double lat,Double lon,Double heading,Double alt,Double tilt,Double bank,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:127
+msgid "Update(Single d,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:129
+msgid "UpdateCameraAnimations(Single d,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:131
+msgid "LockEntity()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:133
+msgid "Reset()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:135
+msgid "FlyTo(Double lat,Double lon,Double alt1,Double alt2,Double slerpPercent,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:137
+msgid "Goto(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:139
+msgid "Goto(GEAngle lat,GEAngle lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:141
+msgid "SetPosition(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:143
+msgid "SetPosition(Double lat,Double lon,Double heading,Double _altitude,Double tilt,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:145
+msgid "SetPosition(Double lat,Double lon,Double heading,Double _altitude,Double tilt,Double bank,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:147
+msgid "ProjectLatLonToScreenCoordinates(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:149
+msgid "BeginAccurateUnproject(Int32 interpretationCount,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:151
+msgid "EndAccurateUnproject()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:153
+msgid "RotationYawPitchRoll(GEAngle yaw,GEAngle pitch,GEAngle roll,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:155
+msgid "ZoomStepped(Double ticks,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:157
+msgid "ZoomOrthoHeightStepped(Double ticks,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:159
+msgid "Zoom(Single percent,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:161
+msgid "Pan(GEAngle lat,GEAngle lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:163
+msgid "Project(GEVector3D point,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:165
+#: ../classAPI/class_CameraBase.rst:167
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:165
+msgid "ToString()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:167
+msgid "Favorite()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:169
+msgid "GotoFavorite(String uri,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:171
+msgid "GEAngle[]"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:171
+msgid "GetViewBoundingBox()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:173
+msgid "GeographicBoundingBox"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:173
+msgid "GetGEBoundingBox()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:177
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:179
+msgid "Boolean Tracking"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:182
+#: ../classAPI/class_CameraBase.rst:193
+#: ../classAPI/class_CameraBase.rst:204
+#: ../classAPI/class_CameraBase.rst:215
+#: ../classAPI/class_CameraBase.rst:226
+#: ../classAPI/class_CameraBase.rst:237
+#: ../classAPI/class_CameraBase.rst:248
+#: ../classAPI/class_CameraBase.rst:370
+#: ../classAPI/class_CameraBase.rst:381
+#: ../classAPI/class_CameraBase.rst:392
+#: ../classAPI/class_CameraBase.rst:403
+#: ../classAPI/class_CameraBase.rst:414
+#: ../classAPI/class_CameraBase.rst:445
+#: ../classAPI/class_CameraBase.rst:456
+#: ../classAPI/class_CameraBase.rst:517
+#: ../classAPI/class_CameraBase.rst:528
+#: ../classAPI/class_CameraBase.rst:539
+#: ../classAPI/class_CameraBase.rst:550
+#: ../classAPI/class_CameraBase.rst:561
+#: ../classAPI/class_CameraBase.rst:572
+#: ../classAPI/class_CameraBase.rst:583
+#: ../classAPI/class_CameraBase.rst:594
+#: ../classAPI/class_CameraBase.rst:605
+#: ../classAPI/class_CameraBase.rst:616
+#: ../classAPI/class_CameraBase.rst:627
+#: ../classAPI/class_CameraBase.rst:638
+#: ../classAPI/class_CameraBase.rst:649
+#: ../classAPI/class_CameraBase.rst:660
+#: ../classAPI/class_CameraBase.rst:671
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:186
+msgid "相机的控制权交给用户"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:190
+msgid "Boolean ElevateCameraLookatPoint"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:197
+msgid "是否提升相机视点"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:201
+msgid "Double CameraSlerpPercentage"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:208
+msgid "相机运动时的插值百分比"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:212
+msgid "Double MaximumAltitudeForSphere"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:219
+msgid "相机的最大高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:223
+msgid "LockedModes LockedMode"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:230
+msgid "相机的锁定模式，锁定到物体或者锁定到地表"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:234
+msgid "Boolean NeedUpdateCameraElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:241
+msgid "是否需要更新相机高程"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:245
+msgid "Boolean UseAutoReferenceElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:252
+msgid "使用自动参考海拔"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:256
+msgid "Vector3D UpD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:259
+#: ../classAPI/class_CameraBase.rst:269
+#: ../classAPI/class_CameraBase.rst:279
+#: ../classAPI/class_CameraBase.rst:289
+#: ../classAPI/class_CameraBase.rst:300
+#: ../classAPI/class_CameraBase.rst:310
+#: ../classAPI/class_CameraBase.rst:320
+#: ../classAPI/class_CameraBase.rst:330
+#: ../classAPI/class_CameraBase.rst:340
+#: ../classAPI/class_CameraBase.rst:350
+#: ../classAPI/class_CameraBase.rst:360
+#: ../classAPI/class_CameraBase.rst:425
+#: ../classAPI/class_CameraBase.rst:435
+#: ../classAPI/class_CameraBase.rst:467
+#: ../classAPI/class_CameraBase.rst:477
+#: ../classAPI/class_CameraBase.rst:487
+#: ../classAPI/class_CameraBase.rst:497
+#: ../classAPI/class_CameraBase.rst:507
+#: ../classAPI/class_CameraBase.rst:682
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:262
+msgid "相机的向上向量"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:266
+msgid "Vector3 DirectionD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:272
+msgid "相机的视线方向"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:276
+msgid "GEVector3D ProjectionPosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:282
+msgid "相机在地球表面上的投影位置，笛卡尔坐标"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:286
+msgid "GEVector3D ProjectionLatLonPosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:292
+msgid "The latitude and longitude of the camera projected on the surface and the distance from the center of the earth. Return value: x: distance to the center of the earth, minus the radius of the earth is the height y: latitude z: longitude 相机投影在地表的纬度和经度以及距地心的距离。 返回值： x：到地球中心的距离，减去地球半径就是高度 y：纬度 z：经度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:297
+msgid "GEViewport2d ViewportD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:303
+msgid "相机的二维视图"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:307
+msgid "GEMatrix4D ViewMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:313
+msgid "相机的视图矩阵"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:317
+msgid "GEMatrix4D ViewMatrixD"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:323
+msgid "上次渲染中使用的视图矩阵"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:327
+msgid "GEMatrix4D ProjectionMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:333
+msgid "上次渲染中使用的投影矩阵"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:337
+msgid "GEMatrix4D WorldMatrixD3D"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:343
+msgid "世界矩阵"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:347
+msgid "GEAngle Latitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:353
+msgid "相机的纬度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:357
+msgid "GEAngle Longitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:363
+msgid "相机的经度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:367
+msgid "GEAngle Tilt"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:374
+msgid "相机的俯仰角"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:378
+msgid "GEAngle Bank"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:385
+msgid "相机的翻滚角"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:389
+msgid "GEAngle Heading"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:396
+msgid "相机的偏北角"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:400
+msgid "GEQuaternionD AbsoluteOrientation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:407
+msgid "相对世界坐标系的相机姿态，四元数形式"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:411
+msgid "Double Altitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:418
+msgid "相机海拔高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:422
+msgid "Double AltitudeAboveReferenceCenter"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:428
+msgid "相机到参考中心的高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:432
+msgid "Double AltitudeAboveTerrainSurface"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:438
+msgid "相机垂直到地表的高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:442
+msgid "Double TargetAltitude"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:449
+msgid "相机移动的目标海拔高度（米）"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:453
+msgid "Double ReferenceElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:460
+msgid "相机观察点的地形高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:464
+msgid "Double CameraElevation"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:470
+msgid "相机高度"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:474
+msgid "GEAngle GlobeViewRange"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:480
+msgid "相机视野所能覆盖的地球表面的经纬度范围"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:484
+msgid "GEAngle ViewRange"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:490
+msgid "地平线的角度 - 中心地球 - 相反方向的地平线"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:494
+msgid "GEVector3D AbsolutePosition"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:500
+msgid "摄像机位置（世界XYZ坐标）"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:504
+msgid "GEVector3D PositionForSphere"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:510
+msgid "相机相对地球的位置"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:514
+msgid "GEAngle FovGEAngle"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:521
+msgid "相机的FOV"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:525
+msgid "Double Distance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:532
+msgid "相机到观察点的距离"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:536
+msgid "Double TargetDistance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:543
+msgid "相机到观察点的目标距离"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:547
+msgid "Action OnFlyOver"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:554
+msgid "相机结束飞行时的回调事件"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:558
+msgid "Spatial LockedEntity"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:565
+msgid "相机要锁定观察的对象"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:569
+msgid "Vector3 LockToEntityOffset"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:576
+msgid "要锁定观察的对象的偏移量"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:580
+msgid "Boolean LockToEntityNoDistance"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:587
+msgid "相机距离要锁定观察的对象的距离是否为0"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:591
+msgid "Single LockToEntityDistanceMin"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:598
+#: ../classAPI/class_CameraBase.rst:609
+msgid "相机距离要锁定观察的对象的最小距离"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:602
+msgid "Single LockToEntityDistanceMax"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:613
+msgid "Boolean LockToEntityForward"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:620
+msgid "是否锁定观察物体的前面"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:624
+msgid "ViewModes ViewModes"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:631
+msgid "相机的锁定模式"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:635
+msgid "Boolean LockedNoSlerp"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:642
+msgid "相机飞行到锁定物体的过程是否插值"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:646
+msgid "Boolean EyeLock"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:653
+msgid "锁定到物体时视线方向是否锁定"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:657
+msgid "Single CameraZoomAcceleration"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:664
+msgid "相机变焦加速"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:668
+msgid "Vector3 LockToEntityTiltHeadingBankOffset"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:675
+msgid "相机锁定到物体时的姿态角偏转调整量"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:679
+msgid "Int32 AltitudeToLevel"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:691
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:693
+msgid "Void _Ready()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:699
+msgid "Void _PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:705
+msgid "Void _Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:711
+msgid "Void ComputeViewMatrix()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:717
+msgid "Void Unlocked(Double lat,Double lon,Double heading,Double alt,Double tilt,Double bank,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:723
+msgid "Void Update(Single d,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:729
+msgid "Void UpdateCameraAnimations(Single d,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:735
+msgid "Void LockEntity()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:741
+msgid "Void Reset()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:747
+msgid "Void FlyTo(Double lat,Double lon,Double alt1,Double alt2,Double slerpPercent,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:753
+msgid "Void Goto(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:759
+msgid "Void Goto(GEAngle lat,GEAngle lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:765
+msgid "Void SetPosition(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:771
+msgid "Void SetPosition(Double lat,Double lon,Double heading,Double _altitude,Double tilt,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:777
+msgid "Void SetPosition(Double lat,Double lon,Double heading,Double _altitude,Double tilt,Double bank,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:783
+msgid "GEVector3D ProjectLatLonToScreenCoordinates(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:789
+msgid "Void BeginAccurateUnproject(Int32 interpretationCount,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:795
+msgid "Void EndAccurateUnproject()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:801
+msgid "Void RotationYawPitchRoll(GEAngle yaw,GEAngle pitch,GEAngle roll,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:807
+msgid "Void ZoomStepped(Double ticks,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:813
+msgid "Void ZoomOrthoHeightStepped(Double ticks,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:819
+msgid "Void Zoom(Single percent,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:825
+msgid "Void Pan(GEAngle lat,GEAngle lon,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:831
+msgid "GEVector3D Project(GEVector3D point,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:837
+msgid "String ToString()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:843
+msgid "String Favorite()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:849
+msgid "Void GotoFavorite(String uri,)"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:855
+msgid "GEAngle[] GetViewBoundingBox()"
+msgstr ""
+
+#: ../classAPI/class_CameraBase.rst:861
+msgid "GeographicBoundingBox GetGEBoundingBox()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

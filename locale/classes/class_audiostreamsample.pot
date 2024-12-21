@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audiostreamsample.rst:10
+msgid "AudioStreamSample"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:12
+msgid "**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:14
+msgid "存储从WAV文件加载的音频数据。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:19
+msgid "AudioStreamSample 存储从 WAV 文件加载的声音样本。要播放存储的声音，请使用 :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\\ （用于非定位音频）或 :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`/:ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\\ （用于定位音频）。声音可以循环播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:21
+msgid "此类还可用于存储动态生成的 PCM 音频数据。另请参阅 :ref:`AudioStreamGenerator<class_AudioStreamGenerator>` 以了解程序式音频生成。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:27
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:27
+msgid ":ref:`data<class_AudioStreamSample_property_data>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:27
+#: ../classes/class_audiostreamsample.rst:98
+msgid "``PoolByteArray(  )``"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:29
+msgid ":ref:`Format<enum_AudioStreamSample_Format>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:29
+msgid ":ref:`format<class_AudioStreamSample_property_format>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:29
+#: ../classes/class_audiostreamsample.rst:31
+#: ../classes/class_audiostreamsample.rst:33
+#: ../classes/class_audiostreamsample.rst:35
+#: ../classes/class_audiostreamsample.rst:116
+#: ../classes/class_audiostreamsample.rst:132
+#: ../classes/class_audiostreamsample.rst:148
+#: ../classes/class_audiostreamsample.rst:164
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:31
+#: ../classes/class_audiostreamsample.rst:33
+#: ../classes/class_audiostreamsample.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:31
+msgid ":ref:`loop_begin<class_AudioStreamSample_property_loop_begin>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:33
+msgid ":ref:`loop_end<class_AudioStreamSample_property_loop_end>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:35
+msgid ":ref:`LoopMode<enum_AudioStreamSample_LoopMode>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:35
+msgid ":ref:`loop_mode<class_AudioStreamSample_property_loop_mode>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:37
+msgid ":ref:`mix_rate<class_AudioStreamSample_property_mix_rate>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:37
+#: ../classes/class_audiostreamsample.rst:180
+msgid "``44100``"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:39
+msgid ":ref:`stereo<class_AudioStreamSample_property_stereo>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:39
+#: ../classes/class_audiostreamsample.rst:200
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:43
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:46
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:46
+msgid ":ref:`save_to_wav<class_AudioStreamSample_method_save_to_wav>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:50
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:60
+msgid "enum **Format**:"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:62
+msgid "**FORMAT_8_BITS** = **0** --- 8位音频编解码器。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:64
+msgid "**FORMAT_16_BITS** = **1** --- 16位音频编解码器。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:66
+msgid "**FORMAT_IMA_ADPCM** = **2** --- 音频使用 IMA ADPCM 进行压缩。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:80
+msgid "enum **LoopMode**:"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:82
+msgid "**LOOP_DISABLED** = **0** --- 音频不循环。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:84
+msgid "**LOOP_FORWARD** = **1** --- 音频循环播放 :ref:`loop_begin<class_AudioStreamSample_property_loop_begin>` 和 :ref:`loop_end<class_AudioStreamSample_property_loop_end>` 之间的数据，只向前播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:86
+msgid "**LOOP_PING_PONG** = **2** --- 音频在 :ref:`loop_begin<class_AudioStreamSample_property_loop_begin>` 和 :ref:`loop_end<class_AudioStreamSample_property_loop_end>` 之间循环数据，来回播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:88
+msgid "**LOOP_BACKWARD** = **3** --- 音频在 :ref:`loop_begin<class_AudioStreamSample_property_loop_begin>` 和 :ref:`loop_end<class_AudioStreamSample_property_loop_end>` 之间循环数据，仅向后播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:91
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:95
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **data**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:98
+#: ../classes/class_audiostreamsample.rst:116
+#: ../classes/class_audiostreamsample.rst:132
+#: ../classes/class_audiostreamsample.rst:148
+#: ../classes/class_audiostreamsample.rst:164
+#: ../classes/class_audiostreamsample.rst:180
+#: ../classes/class_audiostreamsample.rst:200
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:100
+#: ../classes/class_audiostreamsample.rst:118
+#: ../classes/class_audiostreamsample.rst:134
+#: ../classes/class_audiostreamsample.rst:150
+#: ../classes/class_audiostreamsample.rst:166
+#: ../classes/class_audiostreamsample.rst:182
+#: ../classes/class_audiostreamsample.rst:202
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:100
+msgid "set_data(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:102
+#: ../classes/class_audiostreamsample.rst:120
+#: ../classes/class_audiostreamsample.rst:136
+#: ../classes/class_audiostreamsample.rst:152
+#: ../classes/class_audiostreamsample.rst:168
+#: ../classes/class_audiostreamsample.rst:184
+#: ../classes/class_audiostreamsample.rst:204
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:102
+msgid "get_data()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:105
+msgid "包含以字节为单位的音频数据。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:107
+msgid "\\ **注意：**\\ 此属性需要有符号的 PCM8数据。要将无符号的 PCM8转换为有符号的 PCM8，需要从每个字节中减去128。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:113
+msgid ":ref:`Format<enum_AudioStreamSample_Format>` **format**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:118
+msgid "set_format(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:120
+msgid "get_format()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:123
+msgid "音频格式。参阅\\ :ref:`Format<enum_AudioStreamSample_Format>`\\ 常量的值。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:129
+msgid ":ref:`int<class_int>` **loop_begin**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:134
+msgid "set_loop_begin(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:136
+msgid "get_loop_begin()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:139
+msgid "循环起始点(相对于样本开始的样本数)。如果存在此信息，将自动从 WAV 文件导入。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:145
+msgid ":ref:`int<class_int>` **loop_end**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:150
+msgid "set_loop_end(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:152
+msgid "get_loop_end()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:155
+msgid "循环结束点(相对于样本开始的样本数)。如果存在此信息，将自动从 WAV 文件导入。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:161
+msgid ":ref:`LoopMode<enum_AudioStreamSample_LoopMode>` **loop_mode**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:166
+msgid "set_loop_mode(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:168
+msgid "get_loop_mode()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:171
+msgid "循环模式。该信息将自动从WAV文件中导入（如果存在）。有关值，请参阅\\ :ref:`LoopMode<enum_AudioStreamSample_LoopMode>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:177
+msgid ":ref:`int<class_int>` **mix_rate**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:182
+msgid "set_mix_rate(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:184
+msgid "get_mix_rate()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:187
+msgid "混合这个音频的采样率。更高的数值需要更多的存储空间，但会带来更好的质量。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:189
+msgid "在游戏中，常用的采样率有\\ ``11025``\\ 、\\ ``16000``\\ 、\\ ``22050``\\ 、\\ ``32000``\\ 、\\ ``44100``\\ ，以及\\ ``48000``\\ 。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:191
+msgid "根据\\ `Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__\\ ，当超过40000赫兹时，对于人的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你使用低音调的声音，如语音，较低的采样率，如\\ ``32000``\\ 或\\ ``22050``\\ 可能是可用的，没有质量上的损失。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:197
+msgid ":ref:`bool<class_bool>` **stereo**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:202
+msgid "set_stereo(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:204
+msgid "is_stereo()"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:207
+msgid "如果\\ ``true``\\ ，音频为立体声。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:210
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:214
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_to_wav** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:216
+msgid "将AudioStreamSample作为WAV文件保存到\\ ``path``\\ 。无法保存IMA ADPCM格式的样本。"
+msgstr ""
+
+#: ../classes/class_audiostreamsample.rst:218
+msgid "\\ **注意：**\\ 如果缺少\\ ``.wav``\\ 扩展名，则会自动将其附加到\\ ``path``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

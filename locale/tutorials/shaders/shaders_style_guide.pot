@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/shaders/shaders_style_guide.rst:4
+msgid "Shaders style guide"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:6
+msgid "This style guide lists conventions to write elegant shaders. The goal is to encourage writing clean, readable code and promote consistency across projects, discussions, and tutorials. Hopefully, this will also support the development of auto-formatting tools."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:11
+msgid "Since the GaaeExplorer shader language is close to C-style languages and GLSL, this guide is inspired by GaaeExplorer's own GLSL formatting. You can view an example of a GLSL file in GaaeExplorer's source code `here <https://github.com/godotengine/godot/blob/master/drivers/gles2/shaders/copy.glsl>`__."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:16
+msgid "Style guides aren't meant as hard rulebooks. At times, you may not be able to apply some of the guidelines below. When that happens, use your best judgment, and ask fellow developers for insights."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:20
+msgid "In general, keeping your code consistent in your projects and within your team is more important than following this guide to a tee."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:23
+msgid "GaaeExplorer's built-in shader editor uses a lot of these conventions by default. Let it help you."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:26
+msgid "Here is a complete shader example based on these guidelines:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:50
+msgid "Formatting"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:53
+msgid "Encoding and special characters"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:55
+msgid "Use line feed (**LF**) characters to break lines, not CRLF or CR. *(editor default)*"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:56
+msgid "Use one line feed character at the end of each file. *(editor default)*"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:57
+msgid "Use **UTF-8** encoding without a `byte order mark <https://en.wikipedia.org/wiki/Byte_order_mark>`_. *(editor default)*"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:58
+msgid "Use **Tabs** instead of spaces for indentation. *(editor default)*"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:61
+msgid "Indentation"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:63
+msgid "Each indent level should be one tab greater than the block containing it."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:65
+#: ../tutorials/shaders/shaders_style_guide.rst:84
+#: ../tutorials/shaders/shaders_style_guide.rst:111
+#: ../tutorials/shaders/shaders_style_guide.rst:162
+#: ../tutorials/shaders/shaders_style_guide.rst:194
+#: ../tutorials/shaders/shaders_style_guide.rst:226
+#: ../tutorials/shaders/shaders_style_guide.rst:256
+#: ../tutorials/shaders/shaders_style_guide.rst:280
+msgid "**Good**:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:73
+#: ../tutorials/shaders/shaders_style_guide.rst:92
+#: ../tutorials/shaders/shaders_style_guide.rst:121
+#: ../tutorials/shaders/shaders_style_guide.rst:171
+#: ../tutorials/shaders/shaders_style_guide.rst:201
+#: ../tutorials/shaders/shaders_style_guide.rst:234
+#: ../tutorials/shaders/shaders_style_guide.rst:264
+#: ../tutorials/shaders/shaders_style_guide.rst:286
+msgid "**Bad**:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:81
+msgid "Use 2 indent levels to distinguish continuation lines from regular code blocks."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:102
+msgid "Line breaks and blank lines"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:104
+msgid "For a general indentation rule, follow `the \"1TBS Style\" <https://en.wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)>`_ which recommends placing the brace associated with a control statement on the same line. Always use braces for statements, even if they only span one line. This makes them easier to refactor and avoids mistakes when adding more lines to an ``if`` statement or similar."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:132
+msgid "Blank lines"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:134
+msgid "Surround function definitions with one (and only one) blank line:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:146
+msgid "Use one (and only one) blank line inside functions to separate logical sections."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:149
+msgid "Line length"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:151
+msgid "Keep individual lines of code under 100 characters."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:153
+msgid "If you can, try to keep lines under 80 characters. This helps to read the code on small displays and with two shaders opened side-by-side in an external text editor. For example, when looking at a differential revision."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:158
+msgid "One statement per line"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:160
+msgid "Never combine multiple statements on a single line."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:179
+msgid "The only exception to that rule is the ternary operator:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:189
+msgid "Comment spacing"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:191
+msgid "Regular comments should start with a space, but not code that you comment out. This helps differentiate text comments from disabled code."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:208
+msgid "Don't use multiline comment syntax if your comment can fit on a single line:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:216
+msgid "In the shader editor, to make the selected code a comment (or uncomment it), press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of the selected lines."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:221
+msgid "Whitespace"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:223
+msgid "Always use one space around operators and after commas. Also, avoid extraneous spaces in function calls."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:242
+msgid "Don't use spaces to align expressions vertically:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:250
+msgid "Floating-point numbers"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:252
+msgid "Always specify at least one digit for both the integer and fractional part. This makes it easier to distinguish floating-point numbers from integers, as well as distinguishing numbers greater than 1 from those lower than 1."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:273
+msgid "Accessing vector members"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:275
+msgid "Use ``r``, ``g``, ``b``, and ``a`` when accessing a vector's members if it contains a color. If the vector contains anything else than a color, use ``x``, ``y``, ``z``, and ``w``. This allows those reading your code to better understand what the underlying data represents."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:293
+msgid "Naming conventions"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:295
+msgid "These naming conventions follow the GaaeExplorer Engine style. Breaking these will make your code clash with the built-in naming conventions, leading to inconsistent code."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:300
+msgid "Functions and variables"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:302
+msgid "Use snake\\_case to name functions and variables:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:311
+msgid "Constants"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:313
+msgid "Write constants with CONSTANT\\_CASE, that is to say in all caps with an underscore (\\_) to separate words:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:321
+msgid "Code order"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:323
+msgid "We suggest to organize shader code this way:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:340
+msgid "We optimized the order to make it easy to read the code from top to bottom, to help developers reading the code for the first time understand how it works, and to avoid errors linked to the order of variable declarations."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:344
+msgid "This code order follows two rules of thumb:"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:346
+msgid "Metadata and properties first, followed by methods."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:347
+msgid "\"Public\" comes before \"private\". In a shader language's context, \"public\" refers to what's easily adjustable by the user (uniforms)."
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:351
+msgid "Local variables"
+msgstr ""
+
+#: ../tutorials/shaders/shaders_style_guide.rst:353
+msgid "Declare local variables as close as possible to their first use. This makes it easier to follow the code, without having to scroll too much to find where the variable was declared."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

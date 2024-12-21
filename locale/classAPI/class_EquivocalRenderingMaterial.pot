@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:2
+msgid "EquivocalRenderingMaterial"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:7
+msgid "三角网索引材质"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:16
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:18
+msgid "Texture"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:16
+msgid "ValueTexture"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:18
+msgid "ColorTexture"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:20
+msgid "EquivocalRenderingType"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:20
+msgid "RenderingType"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:22
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:22
+msgid "LinesColor"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:29
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:31
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:39
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:29
+msgid "CreateValueImageByJson(String json,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:31
+msgid "CreateValueImage(Single[] CustomValue,Single CustomMaxValue,Single CustomMinValue,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:33
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:35
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:37
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:33
+msgid "ChangeValueTexture(Int32 idx,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:35
+msgid "RemoveValueTextureAt(Int32 idx,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:37
+msgid "ClearValueTexture()"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:39
+msgid "CountValueTexture()"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:43
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:45
+msgid "Texture ValueTexture"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:48
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:59
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:70
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:81
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:52
+msgid "顶点值的纹理"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:56
+msgid "Texture ColorTexture"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:63
+msgid "色卡纹理"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:67
+msgid "EquivocalRenderingType RenderingType"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:74
+msgid "三角索引渲染模式"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:78
+msgid "Color LinesColor"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:85
+msgid "三角网的线的颜色"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:91
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:93
+msgid "Int32 CreateValueImageByJson(String json,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:99
+msgid "Int32 CreateValueImage(Single[] CustomValue,Single CustomMaxValue,Single CustomMinValue,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:105
+msgid "Void ChangeValueTexture(Int32 idx,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:111
+msgid "Void RemoveValueTextureAt(Int32 idx,)"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:117
+msgid "Void ClearValueTexture()"
+msgstr ""
+
+#: ../classAPI/class_EquivocalRenderingMaterial.rst:123
+msgid "Int32 CountValueTexture()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

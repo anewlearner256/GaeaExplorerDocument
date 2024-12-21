@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gdnativelibrary.rst:10
+msgid "GDNativeLibrary"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:14
+msgid "一个包含函数或脚本类的外部库，可以在GaaeExplorer中使用。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:19
+msgid "GDNative 库可以实现 :ref:`NativeScript<class_NativeScript>`\\ 、用 :ref:`GDNative<class_GDNative>` 类调用的全局函数或通过 :ref:`ARVRInterfaceGDNative<class_ARVRInterfaceGDNative>` 等接口实现的低级引擎扩展。该库必须为项目将要运行的每个平台和架构进行编译。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:24
+msgid ":doc:`../tutorials/plugins/gdnative/gdnative-c-example`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:26
+msgid ":doc:`../tutorials/plugins/gdnative/gdnative-cpp-example`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:32
+msgid ":ref:`ConfigFile<class_ConfigFile>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:32
+msgid ":ref:`config_file<class_GDNativeLibrary_property_config_file>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:34
+#: ../classes/class_gdnativelibrary.rst:36
+#: ../classes/class_gdnativelibrary.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:34
+msgid ":ref:`load_once<class_GDNativeLibrary_property_load_once>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:34
+#: ../classes/class_gdnativelibrary.rst:36
+#: ../classes/class_gdnativelibrary.rst:74
+#: ../classes/class_gdnativelibrary.rst:92
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:36
+msgid ":ref:`reloadable<class_GDNativeLibrary_property_reloadable>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:38
+msgid ":ref:`singleton<class_GDNativeLibrary_property_singleton>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:38
+#: ../classes/class_gdnativelibrary.rst:110
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:40
+#: ../classes/class_gdnativelibrary.rst:49
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:40
+msgid ":ref:`symbol_prefix<class_GDNativeLibrary_property_symbol_prefix>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:40
+#: ../classes/class_gdnativelibrary.rst:128
+msgid "``\"godot_\"``"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:44
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:47
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:47
+msgid ":ref:`get_current_dependencies<class_GDNativeLibrary_method_get_current_dependencies>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:49
+msgid ":ref:`get_current_library_path<class_GDNativeLibrary_method_get_current_library_path>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:53
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:57
+msgid ":ref:`ConfigFile<class_ConfigFile>` **config_file**"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:60
+#: ../classes/class_gdnativelibrary.rst:76
+#: ../classes/class_gdnativelibrary.rst:94
+#: ../classes/class_gdnativelibrary.rst:112
+#: ../classes/class_gdnativelibrary.rst:130
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:60
+msgid "set_config_file(value)"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:62
+#: ../classes/class_gdnativelibrary.rst:78
+#: ../classes/class_gdnativelibrary.rst:96
+#: ../classes/class_gdnativelibrary.rst:114
+#: ../classes/class_gdnativelibrary.rst:132
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:62
+msgid "get_config_file()"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:65
+msgid "该资源为 INI 风格的 :ref:`ConfigFile<class_ConfigFile>` 格式，如 ``.gdnlib`` 文件中。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:71
+msgid ":ref:`bool<class_bool>` **load_once**"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:74
+#: ../classes/class_gdnativelibrary.rst:92
+#: ../classes/class_gdnativelibrary.rst:110
+#: ../classes/class_gdnativelibrary.rst:128
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:76
+msgid "set_load_once(value)"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:78
+msgid "should_load_once()"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:81
+msgid "为 ``true`` 时 GaaeExplorer 只加载一个库的副本，每个引用该库的脚本将共享静态数据，如静态变量或全局变量。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:83
+msgid "为 ``false`` 时 GaaeExplorer 会为每个引用它的脚本加载一个单独的库副本到内存。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:89
+msgid ":ref:`bool<class_bool>` **reloadable**"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:94
+msgid "set_reloadable(value)"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:96
+msgid "is_reloadable()"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:99
+msgid "如果\\ ``true``\\ ，每当用户离开编辑器窗口时，编辑器会暂时卸载库，允许用户重新编译库，而不需要重新启动GaaeExplorer。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:101
+msgid "\\ **注意：** 如果库定义了在编辑器内运行的工具脚本，\\ ``reloadable``\\ 必须是\\ ``false``\\ 。否则，编辑器会在工具脚本正在使用的时候尝试卸载它们时而崩溃。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:107
+msgid ":ref:`bool<class_bool>` **singleton**"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:112
+msgid "set_singleton(value)"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:114
+msgid "is_singleton()"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:117
+msgid "如果\\ ``true``\\ ，GaaeExplorer会在启动时加载库，而不是在脚本第一次使用库时，在初始化库后调用\\ ``{prefix}gdnative_singleton``\\ （其中\\ ``{prefix}``\\ 是\\ :ref:`symbol_prefix<class_GDNativeLibrary_property_symbol_prefix>`\\ 的值）。只要GaaeExplorer在运行，该库就一直被加载。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:119
+msgid "\\ **注意：** 单例库不能是\\ :ref:`reloadable<class_GDNativeLibrary_property_reloadable>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:125
+msgid ":ref:`String<class_String>` **symbol_prefix**"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:130
+msgid "set_symbol_prefix(value)"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:132
+msgid "get_symbol_prefix()"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:135
+msgid "这个库的入口点函数开始的前缀。例如，一个 GDNativeLibrary 默认将其 ``gdnative_init`` 函数声明为 ``godot_gdnative_init`` 。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:137
+msgid "在需要静态链接库的平台上（目前只有iOS），每个库必须有一个不同的\\ ``symbol_prefix``\\ 。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:140
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:144
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_current_dependencies** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:146
+msgid "返回当前平台和架构的所有依赖库的路径。"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:152
+msgid ":ref:`String<class_String>` **get_current_library_path** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdnativelibrary.rst:154
+msgid "返回当前平台和架构的动态库文件的路径。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

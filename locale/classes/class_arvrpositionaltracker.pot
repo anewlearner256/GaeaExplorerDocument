@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_arvrpositionaltracker.rst:10
+msgid "ARVRPositionalTracker"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:14
+msgid "跟踪对象。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:19
+msgid "此对象的实例表示被跟踪的设备，例如控制器或锚点。由于 HMD 是在内部处理的，因此不表示 HMD。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:21
+msgid "当控制器打开并且 AR/VR 界面检测到它们时，此对象的实例会自动添加到可通过 :ref:`ARVRServer<class_ARVRServer>` 访问的活动的跟踪对象列表中。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:23
+msgid "\\ :ref:`ARVRController<class_ARVRController>` 和 :ref:`ARVRAnchor<class_ARVRAnchor>` 都使用这种类型的对象，你应该在的项目中使用。位置跟踪器只是使这一切正常工作的底层对象。这些大部分都是公开的，以便基于 GDNative 的接口可以与它们交互。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:28
+msgid ":doc:`../tutorials/vr/index`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:34
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:34
+msgid ":ref:`rumble<class_ARVRPositionalTracker_property_rumble>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:34
+#: ../classes/class_arvrpositionaltracker.rst:91
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:41
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:41
+msgid ":ref:`get_hand<class_ARVRPositionalTracker_method_get_hand>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:43
+#: ../classes/class_arvrpositionaltracker.rst:53
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:43
+msgid ":ref:`get_joy_id<class_ARVRPositionalTracker_method_get_joy_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:45
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:45
+msgid ":ref:`get_mesh<class_ARVRPositionalTracker_method_get_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:47
+msgid ":ref:`get_name<class_ARVRPositionalTracker_method_get_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:49
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:49
+msgid ":ref:`get_orientation<class_ARVRPositionalTracker_method_get_orientation>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:51
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:51
+msgid ":ref:`get_position<class_ARVRPositionalTracker_method_get_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:53
+msgid ":ref:`get_tracker_id<class_ARVRPositionalTracker_method_get_tracker_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:55
+#: ../classes/class_arvrpositionaltracker.rst:57
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:55
+msgid ":ref:`get_tracks_orientation<class_ARVRPositionalTracker_method_get_tracks_orientation>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:57
+msgid ":ref:`get_tracks_position<class_ARVRPositionalTracker_method_get_tracks_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:59
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:59
+msgid ":ref:`get_transform<class_ARVRPositionalTracker_method_get_transform>` **(** :ref:`bool<class_bool>` adjust_by_reference_frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:61
+msgid ":ref:`TrackerType<enum_ARVRServer_TrackerType>`"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:61
+msgid ":ref:`get_type<class_ARVRPositionalTracker_method_get_type>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:65
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:75
+msgid "enum **TrackerHand**:"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:77
+msgid "**TRACKER_HAND_UNKNOWN** = **0** --- 这个追踪器所持的手是未知的或不适用的。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:79
+msgid "**TRACKER_LEFT_HAND** = **1** --- 此跟踪器是左手控制器。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:81
+msgid "**TRACKER_RIGHT_HAND** = **2** --- 此跟踪器是右手控制器。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:84
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:88
+msgid ":ref:`float<class_float>` **rumble**"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:91
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:93
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:93
+msgid "set_rumble(value)"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:95
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:95
+msgid "get_rumble()"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:98
+msgid "追踪器噪声的程度。范围从\\ ``0.0``\\ 到\\ ``1.0``\\ ，精度\\ ``.01``\\ 。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:101
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:105
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:107
+msgid "返回持有此追踪器的手，如果知道。参阅\\ :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:113
+msgid ":ref:`int<class_int>` **get_joy_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:115
+msgid "如果这是一个正在被追踪的控制器，该控制器将由一个具有此ID的操纵杆条目表示。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:121
+msgid ":ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:123
+msgid "如果可用，则返回与控制器或锚点相关的网格。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:129
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:131
+msgid "如果可用，返回控制器或锚点的名称。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:137
+msgid ":ref:`Basis<class_Basis>` **get_orientation** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:139
+msgid "返回控制器的方向矩阵。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:145
+msgid ":ref:`Vector3<class_Vector3>` **get_position** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:147
+msgid "返回世界空间控制器的位置。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:153
+msgid ":ref:`int<class_int>` **get_tracker_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:155
+msgid "返回内部跟踪器的ID。这是对每个跟踪器类型的唯一标识，与你需要为\\ :ref:`ARVRController<class_ARVRController>`\\ 和\\ :ref:`ARVRAnchor<class_ARVRAnchor>`\\ 节点指定的ID相匹配。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:161
+msgid ":ref:`bool<class_bool>` **get_tracks_orientation** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:163
+msgid "如果该设备跟踪方向，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:169
+msgid ":ref:`bool<class_bool>` **get_tracks_position** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:171
+msgid "如果该设备跟踪位置，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:177
+msgid ":ref:`Transform<class_Transform>` **get_transform** **(** :ref:`bool<class_bool>` adjust_by_reference_frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:179
+msgid "返回组合此设备的方向和坐标的变换。"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:185
+msgid ":ref:`TrackerType<enum_ARVRServer_TrackerType>` **get_type** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrpositionaltracker.rst:187
+msgid "返回跟踪器的类型。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

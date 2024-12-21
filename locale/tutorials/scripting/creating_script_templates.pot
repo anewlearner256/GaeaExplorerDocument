@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/creating_script_templates.rst:4
+msgid "Creating script templates"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:6
+msgid "GaaeExplorer provides a way to use script templates as seen in the ``Script Create Dialog`` while creating a new script:"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:11
+msgid "A set of default script templates is provided by default, but it's also possible to modify existing and create new ones, both per project and the editor."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:15
+msgid "Locating the templates"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:17
+msgid "There are two places where templates can be managed."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:20
+msgid "Editor-defined templates"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:22
+msgid "These are available globally throughout any project. The location of these templates are determined per each OS:"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:25
+msgid "Windows: ``%APPDATA%\\GaaeExplorer\\script_templates\\``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:26
+msgid "Linux: ``$HOME/.config/godot/script_templates/``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:27
+msgid "macOS: ``$HOME/Library/Application Support/GaaeExplorer/script_templates/``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:29
+msgid "If no ``script_templates`` is detected, GaaeExplorer will create a default set of built-in templates automatically, so this logic can be used to reset the default templates in case you've accidentally overwritten them."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:34
+msgid "Project-defined templates"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:36
+msgid "The default path to search for templates is the ``res://script_templates/`` directory. The path can be changed by configuring the ``editor/script_templates_search_path`` setting in the :ref:`ProjectSettings <class_ProjectSettings>`, both via code and the editor."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:41
+msgid "If no ``script_templates`` directory is found within a project, it is simply ignored."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:45
+msgid "Language support and overriding behavior"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:47
+msgid "Depending on whether a particular language implements a way to generate scripts out of templates, it's possible to create a template which can be recognized by that language according to template's file extension. For GDScript and C#, the extensions must be ``gd`` and ``cs`` respectively."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:52
+msgid "The script templates have the same extension as the regular script files. This may lead to an issue of a script parser treating those templates as actual scripts within a project. To avoid this, make sure to ignore the directory containing them by creating an empty ``.gdignore`` file. The directory won't be visible throughout the project's filesystem anymore, yet the templates can be modified by an external text editor anytime."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:59
+msgid "The built-in editor templates are automatically shadowed by the project-specific templates given both scripts have the same filename."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:63
+msgid "Default template"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:65
+msgid "The ``Default`` template is always generated dynamically per language and cannot be configured nor overridden, but you can use these as the base for creating other templates."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:116
+msgid "List of template placeholders"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:118
+msgid "The following describes the complete list of built-in template placeholders which are currently implemented."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:122
+msgid "Base placeholders"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:125
+#: ../tutorials/scripting/creating_script_templates.rst:147
+msgid "Placeholder"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:125
+msgid "Description"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:127
+msgid "``%CLASS%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:127
+msgid "The name of the new class (used in C# only)."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:129
+msgid "``%BASE%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:129
+msgid "The base type a new script inherits from."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:131
+msgid "``%TS%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:131
+msgid "Indentation placeholder. The exact type and number of whitespace characters used for indentation is determined by the ``text_editor/indent/type`` and ``text_editor/indent/size`` settings in the :ref:`EditorSettings <class_EditorSettings>` respectively."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:139
+msgid "Type placeholders"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:141
+msgid "These are only relevant for GDScript with static typing. Whether these placeholders are actually replaced is determined by the ``text_editor/completion/add_type_hints`` setting in the :ref:`EditorSettings <class_EditorSettings>`."
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:147
+msgid "Value"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:149
+msgid "``%INT_TYPE%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:149
+msgid "``: int``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:151
+msgid "``%STRING_TYPE%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:151
+msgid "``: String``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:153
+msgid "``%FLOAT_TYPE%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:153
+msgid "``: float``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:155
+msgid "``%VOID_RETURN%``"
+msgstr ""
+
+#: ../tutorials/scripting/creating_script_templates.rst:155
+msgid "``-> void``"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

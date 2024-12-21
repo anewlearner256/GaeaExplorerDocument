@@ -1,0 +1,436 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectdelay.rst:10
+msgid "AudioEffectDelay"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:14
+msgid "为音频总线添加延迟音频效果。在一段时间后回放输入信号。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:16
+msgid "两个阀值延迟和反馈选项。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:21
+msgid "在一段时间后回放输入信号。延迟的信号可以多次回放，以产生重复、衰减的回声。延迟效果的范围是从微弱回声效果到明显的以前声音和新声音的混合。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:27
+#: ../classes/class_audioeffectdelay.rst:31
+#: ../classes/class_audioeffectdelay.rst:33
+#: ../classes/class_audioeffectdelay.rst:35
+#: ../classes/class_audioeffectdelay.rst:39
+#: ../classes/class_audioeffectdelay.rst:41
+#: ../classes/class_audioeffectdelay.rst:43
+#: ../classes/class_audioeffectdelay.rst:47
+#: ../classes/class_audioeffectdelay.rst:49
+#: ../classes/class_audioeffectdelay.rst:51
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:27
+msgid ":ref:`dry<class_AudioEffectDelay_property_dry>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:27
+#: ../classes/class_audioeffectdelay.rst:62
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:29
+#: ../classes/class_audioeffectdelay.rst:37
+#: ../classes/class_audioeffectdelay.rst:45
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:29
+msgid ":ref:`feedback/active<class_AudioEffectDelay_property_feedback/active>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:29
+#: ../classes/class_audioeffectdelay.rst:78
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:31
+msgid ":ref:`feedback/delay_ms<class_AudioEffectDelay_property_feedback/delay_ms>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:31
+#: ../classes/class_audioeffectdelay.rst:94
+msgid "``340.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:33
+msgid ":ref:`feedback/level_db<class_AudioEffectDelay_property_feedback/level_db>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:33
+#: ../classes/class_audioeffectdelay.rst:41
+#: ../classes/class_audioeffectdelay.rst:110
+#: ../classes/class_audioeffectdelay.rst:174
+msgid "``-6.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:35
+msgid ":ref:`feedback/lowpass<class_AudioEffectDelay_property_feedback/lowpass>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:35
+#: ../classes/class_audioeffectdelay.rst:126
+msgid "``16000.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:37
+msgid ":ref:`tap1/active<class_AudioEffectDelay_property_tap1/active>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:37
+#: ../classes/class_audioeffectdelay.rst:45
+#: ../classes/class_audioeffectdelay.rst:142
+#: ../classes/class_audioeffectdelay.rst:206
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:39
+msgid ":ref:`tap1/delay_ms<class_AudioEffectDelay_property_tap1/delay_ms>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:39
+#: ../classes/class_audioeffectdelay.rst:158
+msgid "``250.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:41
+msgid ":ref:`tap1/level_db<class_AudioEffectDelay_property_tap1/level_db>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:43
+msgid ":ref:`tap1/pan<class_AudioEffectDelay_property_tap1/pan>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:43
+#: ../classes/class_audioeffectdelay.rst:190
+msgid "``0.2``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:45
+msgid ":ref:`tap2/active<class_AudioEffectDelay_property_tap2/active>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:47
+msgid ":ref:`tap2/delay_ms<class_AudioEffectDelay_property_tap2/delay_ms>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:47
+#: ../classes/class_audioeffectdelay.rst:222
+msgid "``500.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:49
+msgid ":ref:`tap2/level_db<class_AudioEffectDelay_property_tap2/level_db>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:49
+#: ../classes/class_audioeffectdelay.rst:238
+msgid "``-12.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:51
+msgid ":ref:`tap2/pan<class_AudioEffectDelay_property_tap2/pan>`"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:51
+#: ../classes/class_audioeffectdelay.rst:254
+msgid "``-0.4``"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:55
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:59
+msgid ":ref:`float<class_float>` **dry**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:62
+#: ../classes/class_audioeffectdelay.rst:78
+#: ../classes/class_audioeffectdelay.rst:94
+#: ../classes/class_audioeffectdelay.rst:110
+#: ../classes/class_audioeffectdelay.rst:126
+#: ../classes/class_audioeffectdelay.rst:142
+#: ../classes/class_audioeffectdelay.rst:158
+#: ../classes/class_audioeffectdelay.rst:174
+#: ../classes/class_audioeffectdelay.rst:190
+#: ../classes/class_audioeffectdelay.rst:206
+#: ../classes/class_audioeffectdelay.rst:222
+#: ../classes/class_audioeffectdelay.rst:238
+#: ../classes/class_audioeffectdelay.rst:254
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:64
+#: ../classes/class_audioeffectdelay.rst:80
+#: ../classes/class_audioeffectdelay.rst:96
+#: ../classes/class_audioeffectdelay.rst:112
+#: ../classes/class_audioeffectdelay.rst:128
+#: ../classes/class_audioeffectdelay.rst:144
+#: ../classes/class_audioeffectdelay.rst:160
+#: ../classes/class_audioeffectdelay.rst:176
+#: ../classes/class_audioeffectdelay.rst:192
+#: ../classes/class_audioeffectdelay.rst:208
+#: ../classes/class_audioeffectdelay.rst:224
+#: ../classes/class_audioeffectdelay.rst:240
+#: ../classes/class_audioeffectdelay.rst:256
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:64
+msgid "set_dry(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:66
+#: ../classes/class_audioeffectdelay.rst:82
+#: ../classes/class_audioeffectdelay.rst:98
+#: ../classes/class_audioeffectdelay.rst:114
+#: ../classes/class_audioeffectdelay.rst:130
+#: ../classes/class_audioeffectdelay.rst:146
+#: ../classes/class_audioeffectdelay.rst:162
+#: ../classes/class_audioeffectdelay.rst:178
+#: ../classes/class_audioeffectdelay.rst:194
+#: ../classes/class_audioeffectdelay.rst:210
+#: ../classes/class_audioeffectdelay.rst:226
+#: ../classes/class_audioeffectdelay.rst:242
+#: ../classes/class_audioeffectdelay.rst:258
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:66
+msgid "get_dry()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:69
+msgid "原始声音的输出百分比。0时，只输出延迟的声音。值的范围为0～1。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:75
+msgid ":ref:`bool<class_bool>` **feedback/active**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:80
+msgid "set_feedback_active(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:82
+msgid "is_feedback_active()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:85
+msgid "如果\\ ``true``\\ ，则启用反馈。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:91
+msgid ":ref:`float<class_float>` **feedback/delay_ms**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:96
+msgid "set_feedback_delay_ms(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:98
+msgid "get_feedback_delay_ms()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:101
+msgid "反馈延迟时间，单位为毫秒。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:107
+msgid ":ref:`float<class_float>` **feedback/level_db**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:112
+msgid "set_feedback_level_db(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:114
+msgid "get_feedback_level_db()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:117
+#: ../classes/class_audioeffectdelay.rst:181
+msgid "``tap1``\\ 的声音级别。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:123
+msgid ":ref:`float<class_float>` **feedback/lowpass**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:128
+msgid "set_feedback_lowpass(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:130
+msgid "get_feedback_lowpass()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:133
+msgid "反馈的低通滤波器，单位为Hz。低于此值的频率会被源信号过滤掉。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:139
+msgid ":ref:`bool<class_bool>` **tap1/active**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:144
+msgid "set_tap1_active(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:146
+msgid "is_tap1_active()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:149
+msgid "如果\\ ``true``\\ ，将启用\\ ``tap1``\\ 。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:155
+msgid ":ref:`float<class_float>` **tap1/delay_ms**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:160
+msgid "set_tap1_delay_ms(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:162
+msgid "get_tap1_delay_ms()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:165
+msgid "``tap1`` 延时，单位为毫秒。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:171
+msgid ":ref:`float<class_float>` **tap1/level_db**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:176
+msgid "set_tap1_level_db(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:178
+msgid "get_tap1_level_db()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:187
+msgid ":ref:`float<class_float>` **tap1/pan**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:192
+msgid "set_tap1_pan(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:194
+msgid "get_tap1_pan()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:197
+msgid "``tap1``\\ 的平移位置。值的范围为-1（完全向左）至1（完全向右）。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:203
+msgid ":ref:`bool<class_bool>` **tap2/active**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:208
+msgid "set_tap2_active(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:210
+msgid "is_tap2_active()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:213
+msgid "如果\\ ``true``\\ ，将启用\\ ``tap2``\\ 。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:219
+msgid ":ref:`float<class_float>` **tap2/delay_ms**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:224
+msgid "set_tap2_delay_ms(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:226
+msgid "get_tap2_delay_ms()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:229
+msgid "**Tap2**\\ 延迟时间，单位为毫秒。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:235
+msgid ":ref:`float<class_float>` **tap2/level_db**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:240
+msgid "set_tap2_level_db(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:242
+msgid "get_tap2_level_db()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:245
+msgid "``tap2``\\ 的声音级别。"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:251
+msgid ":ref:`float<class_float>` **tap2/pan**"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:256
+msgid "set_tap2_pan(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:258
+msgid "get_tap2_pan()"
+msgstr ""
+
+#: ../classes/class_audioeffectdelay.rst:261
+msgid "``tap2``\\ 的平移位置。值的范围为-1（完全向左）至1（完全向右）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

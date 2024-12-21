@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualshadernodevectorfunc.rst:10
+msgid "VisualShaderNodeVectorFunc"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:14
+msgid "在可视化着色器图中使用的向量函数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:19
+msgid "可视化着色器节点，能够使用向量执行不同的函数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:25
+msgid ":ref:`Function<enum_VisualShaderNodeVectorFunc_Function>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:25
+msgid ":ref:`function<class_VisualShaderNodeVectorFunc_property_function>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:25
+#: ../classes/class_visualshadernodevectorfunc.rst:183
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:29
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:103
+msgid "enum **Function**:"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:105
+msgid "**FUNC_NORMALIZE** = **0** --- 将向量归一化，使其长度为\\ ``1``\\ ，但指向相同的方向。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:107
+msgid "**FUNC_SATURATE** = **1** --- 限制\\ ``0.0``\\ 和\\ ``1.0``\\ 之间的值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:109
+msgid "**FUNC_NEGATE** = **2** --- 返回参数的相反值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:111
+msgid "**FUNC_RECIPROCAL** = **3** --- 返回\\ ``1/vector``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:113
+msgid "**FUNC_RGB2HSV** = **4** --- 将 RGB 向量转换为等效的 HSV 向量。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:115
+msgid "**FUNC_HSV2RGB** = **5** --- 将 HSV 向量转换为等效的 RGB 向量。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:117
+msgid "**FUNC_ABS** = **6** --- 返回参数的绝对值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:119
+msgid "**FUNC_ACOS** = **7** --- 返回参数的反余弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:121
+msgid "**FUNC_ACOSH** = **8** --- 返回参数的反双曲余弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:123
+msgid "**FUNC_ASIN** = **9** --- 返回参数的反正弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:125
+msgid "**FUNC_ASINH** = **10** --- 返回参数的反双曲正弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:127
+msgid "**FUNC_ATAN** = **11** --- 返回参数的反正切值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:129
+msgid "**FUNC_ATANH** = **12** --- 返回参数的反双曲正切值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:131
+msgid "**FUNC_CEIL** = **13** --- 查找最接近的大于或等于参数的整数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:133
+msgid "**FUNC_COS** = **14** --- 返回参数的余弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:135
+msgid "**FUNC_COSH** = **15** --- 返回参数的双曲余弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:137
+msgid "**FUNC_DEGREES** = **16** --- 将以弧度为单位的量转换为度。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:139
+msgid "**FUNC_EXP** = **17** --- 以 e 为底的指数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:141
+msgid "**FUNC_EXP2** = **18** --- 以 2 为底的指数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:143
+msgid "**FUNC_FLOOR** = **19** --- 查找小于或等于参数的最近整数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:145
+msgid "**FUNC_FRAC** = **20** --- 计算参数的小数部分。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:147
+msgid "**FUNC_INVERSE_SQRT** = **21** --- 返回参数的平方根的倒数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:149
+msgid "**FUNC_LOG** = **22** --- 自然对数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:151
+msgid "**FUNC_LOG2** = **23** --- 以 2 为底的对数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:153
+msgid "**FUNC_RADIANS** = **24** --- 将度数转换为弧度。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:155
+msgid "**FUNC_ROUND** = **25** --- 查找参数最近的整数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:157
+msgid "**FUNC_ROUNDEVEN** = **26** --- 查找参数最近的偶数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:159
+msgid "**FUNC_SIGN** = **27** --- 提取参数的符号，即如果参数是负的，返回\\ ``-1``\\ ，如果是正的，返回\\ ``1``\\ ，否则返回\\ ``0``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:161
+msgid "**FUNC_SIN** = **28** --- 返回参数的正弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:163
+msgid "**FUNC_SINH** = **29** --- 返回参数的双曲正弦值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:165
+msgid "**FUNC_SQRT** = **30** --- 返回参数的平方根。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:167
+msgid "**FUNC_TAN** = **31** --- 返回参数的正切值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:169
+msgid "**FUNC_TANH** = **32** --- 返回参数的双曲正切值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:171
+msgid "**FUNC_TRUNC** = **33** --- 返回一个等于与参数最接近的整数的值，该值的绝对值不大于参数的绝对值。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:173
+msgid "**FUNC_ONEMINUS** = **34** --- 返回\\ ``1.0 - vector``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:176
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:180
+msgid ":ref:`Function<enum_VisualShaderNodeVectorFunc_Function>` **function**"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:183
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:185
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:185
+msgid "set_function(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:187
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:187
+msgid "get_function()"
+msgstr ""
+
+#: ../classes/class_visualshadernodevectorfunc.rst:190
+msgid "要执行的函数。参阅\\ :ref:`Function<enum_VisualShaderNodeVectorFunc_Function>`\\ 的选项。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

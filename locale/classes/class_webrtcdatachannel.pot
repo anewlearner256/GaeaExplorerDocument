@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_webrtcdatachannel.rst:10
+msgid "WebRTCDataChannel"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:14
+msgid "**Inherited By:** :ref:`WebRTCDataChannelGDNative<class_WebRTCDataChannelGDNative>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:19
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:22
+msgid ":ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:22
+msgid ":ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:22
+#: ../classes/class_webrtcdatachannel.rst:99
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:29
+msgid "void"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:29
+msgid ":ref:`close<class_WebRTCDataChannel_method_close>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:31
+#: ../classes/class_webrtcdatachannel.rst:33
+#: ../classes/class_webrtcdatachannel.rst:37
+#: ../classes/class_webrtcdatachannel.rst:39
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:31
+msgid ":ref:`get_buffered_amount<class_WebRTCDataChannel_method_get_buffered_amount>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:33
+msgid ":ref:`get_id<class_WebRTCDataChannel_method_get_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:35
+#: ../classes/class_webrtcdatachannel.rst:41
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:35
+msgid ":ref:`get_label<class_WebRTCDataChannel_method_get_label>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:37
+msgid ":ref:`get_max_packet_life_time<class_WebRTCDataChannel_method_get_max_packet_life_time>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:39
+msgid ":ref:`get_max_retransmits<class_WebRTCDataChannel_method_get_max_retransmits>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:41
+msgid ":ref:`get_protocol<class_WebRTCDataChannel_method_get_protocol>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:43
+msgid ":ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:43
+msgid ":ref:`get_ready_state<class_WebRTCDataChannel_method_get_ready_state>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:45
+#: ../classes/class_webrtcdatachannel.rst:47
+#: ../classes/class_webrtcdatachannel.rst:51
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:45
+msgid ":ref:`is_negotiated<class_WebRTCDataChannel_method_is_negotiated>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:47
+msgid ":ref:`is_ordered<class_WebRTCDataChannel_method_is_ordered>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:49
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:49
+msgid ":ref:`poll<class_WebRTCDataChannel_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:51
+msgid ":ref:`was_string_packet<class_WebRTCDataChannel_method_was_string_packet>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:55
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:63
+msgid "enum **WriteMode**:"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:65
+msgid "**WRITE_MODE_TEXT** = **0** --- 告诉通道以文本形式在这个通道上发送数据。外部对等体（非GaaeExplorer）会以字符串的形式接收。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:67
+msgid "**WRITE_MODE_BINARY** = **1** --- 告诉通道以二进制形式在此通道上发送数据。外部对等体（非GaaeExplorer）将以数组缓冲区或blob的形式接收。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:81
+msgid "enum **ChannelState**:"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:83
+msgid "**STATE_CONNECTING** = **0** --- 通道已经创建，但它仍在尝试连接。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:85
+msgid "**STATE_OPEN** = **1** --- 该通道目前是打开的，数据可以在其上流动。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:87
+msgid "**STATE_CLOSING** = **2** --- 通道正在关闭，将不接受新的消息，但已经在队列中的消息将被刷新。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:89
+msgid "**STATE_CLOSED** = **3** --- 通道已关闭，或连接失败。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:92
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:96
+msgid ":ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>` **write_mode**"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:99
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:101
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:101
+msgid "set_write_mode(value)"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:103
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:103
+msgid "get_write_mode()"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:106
+msgid "发送出去数据包时要使用的传输模式。可以是文本或二进制。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:109
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:113
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:115
+msgid "关闭此数据通道，通知另一个对等体。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:121
+msgid ":ref:`int<class_int>` **get_buffered_amount** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:123
+msgid "返回当前排队在此通道上发送的字节数。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:129
+msgid ":ref:`int<class_int>` **get_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:131
+msgid "返回创建时分配给该通道的ID，或在协商时自动分配。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:133
+msgid "如果该通道没有进行带外协商，那么该ID将只在连接建立后可用，在此之前将返回\\ ``65535``\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:139
+msgid ":ref:`String<class_String>` **get_label** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:141
+msgid "返回创建时分配给该通道的标签。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:147
+msgid ":ref:`int<class_int>` **get_max_packet_life_time** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:149
+msgid "返回创建时分配给这个通道的\\ ``maxPacketLifeTime``\\ 值。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:151
+#: ../classes/class_webrtcdatachannel.rst:161
+msgid "如果没有指定，将是\\ ``65535``\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:157
+msgid ":ref:`int<class_int>` **get_max_retransmits** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:159
+msgid "返回创建时分配给这个通道的\\ ``maxRetransmits``\\ 值。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:167
+msgid ":ref:`String<class_String>` **get_protocol** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:169
+msgid "返回创建时分配给这个通道的子协议。如果没有指定，则为空字符串。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:175
+msgid ":ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` **get_ready_state** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:177
+msgid "返回该通道的当前状态，参阅\\ :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:183
+msgid ":ref:`bool<class_bool>` **is_negotiated** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:185
+msgid "如果这个通道是用带外配置创建的，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:191
+msgid ":ref:`bool<class_bool>` **is_ordered** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:193
+msgid "如果这个通道在创建时启用了排序功能，则默认返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:199
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:201
+msgid "保留，目前未使用。"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:207
+msgid ":ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcdatachannel.rst:209
+msgid "如果最后收到的数据包是以文本形式传输，则返回\\ ``true``\\ 。参阅\\ :ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

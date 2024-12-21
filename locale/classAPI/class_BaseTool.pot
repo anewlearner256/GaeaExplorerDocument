@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_BaseTool.rst:2
+msgid "BaseTool"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:7
+msgid "工具基类"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:16
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:16
+msgid "HeightOffset"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:18
+#: ../classAPI/class_BaseTool.rst:22
+#: ../classAPI/class_BaseTool.rst:24
+#: ../classAPI/class_BaseTool.rst:26
+#: ../classAPI/class_BaseTool.rst:30
+#: ../classAPI/class_BaseTool.rst:41
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:18
+msgid "isPressed"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:20
+#: ../classAPI/class_BaseTool.rst:20
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:22
+msgid "DeleteElementOnDispose"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:24
+msgid "CreateElementOnCompleted"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:26
+msgid "ShowMessage"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:28
+msgid "Action"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:28
+msgid "OverDraw"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:30
+msgid "NeedIntersectWithMesh"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:34
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:37
+#: ../classAPI/class_BaseTool.rst:39
+#: ../classAPI/class_BaseTool.rst:43
+#: ../classAPI/class_BaseTool.rst:45
+#: ../classAPI/class_BaseTool.rst:47
+#: ../classAPI/class_BaseTool.rst:49
+#: ../classAPI/class_BaseTool.rst:51
+#: ../classAPI/class_BaseTool.rst:53
+#: ../classAPI/class_BaseTool.rst:55
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:37
+msgid "_UnhandledInput(InputEvent inputEvent,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:39
+msgid "SetCurrentTool(BaseTool baseTool,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:41
+msgid "OnMouseDoubleClick(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:43
+msgid "OnMouseMove(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:45
+msgid "OnMouseDown(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:47
+msgid "OnMouseUp(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:49
+msgid "OnMouseWheel(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:51
+msgid "Message(Label message,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:53
+msgid "MessagePosition(Label message,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:55
+msgid "StyleOverride(Label label,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:59
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:61
+msgid "Single HeightOffset"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:64
+#: ../classAPI/class_BaseTool.rst:75
+#: ../classAPI/class_BaseTool.rst:86
+#: ../classAPI/class_BaseTool.rst:97
+#: ../classAPI/class_BaseTool.rst:108
+#: ../classAPI/class_BaseTool.rst:119
+#: ../classAPI/class_BaseTool.rst:130
+#: ../classAPI/class_BaseTool.rst:141
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:68
+msgid "偏移高度"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:72
+msgid "Boolean isPressed"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:79
+msgid "是否被按下"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:83
+msgid "Color Color"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:90
+msgid "工具颜色，默认为Color(0.5f, 0.77f, 0.45f, 0.6f)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:94
+msgid "Boolean DeleteElementOnDispose"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:101
+msgid "绘制完成后是否删除Element，默认为true"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:105
+msgid "Boolean CreateElementOnCompleted"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:112
+msgid "绘制完成后是否创建Element，默认为true"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:116
+msgid "Boolean ShowMessage"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:123
+msgid "是否显示信息"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:127
+msgid "Action OverDraw"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:134
+msgid "绘制完成的回调事件"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:138
+msgid "Boolean NeedIntersectWithMesh"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:145
+msgid "是否与其他模型交互，默认为true"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:151
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:153
+msgid "Void _UnhandledInput(InputEvent inputEvent,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:159
+msgid "Void SetCurrentTool(BaseTool baseTool,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:165
+msgid "Boolean OnMouseDoubleClick(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:171
+msgid "Void OnMouseMove(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:177
+msgid "Void OnMouseDown(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:183
+msgid "Void OnMouseUp(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:189
+msgid "Void OnMouseWheel(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:195
+msgid "Void Message(Label message,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:201
+msgid "Void MessagePosition(Label message,)"
+msgstr ""
+
+#: ../classAPI/class_BaseTool.rst:207
+msgid "Void StyleOverride(Label label,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

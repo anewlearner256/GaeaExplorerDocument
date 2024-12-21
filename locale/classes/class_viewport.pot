@@ -1,0 +1,1567 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_viewport.rst:10
+msgid "Viewport"
+msgstr ""
+
+#: ../classes/class_viewport.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:14
+msgid "在屏幕中创建一个子视图。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_viewport.rst:19
+msgid "视窗在屏幕上创建不同的视图，或者是另一个视窗中的子视图。子代 2D 节点会在其上显示，子代 3D 摄像机节点也会在其上渲染。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:21
+msgid "另外，视窗可以有自己的 2D 或 3D 世界，所以它们不会与其他视窗共享其所绘制的内容。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:23
+msgid "如果视窗是 :ref:`ViewportContainer<class_ViewportContainer>` 的子节点，它将自动占用其大小，否则必须手动设置。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:25
+msgid "视窗也可以选择成为音频监听者，会根据它的 2D 或 3D 摄像机的子节点来产生位置音频。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:27
+msgid "另外，如果设备有多个屏幕，视窗可以被分配到不同的屏幕。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:29
+msgid "最后，视窗也可以作为渲染目标，在这种情况下，除非相关的纹理被用于绘制，否则它们将不可见。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:31
+msgid "\\ **注意：**\\ 默认情况下，GaaeExplorer 3.x 新创建的 Viewport 是上下颠倒的。启用 :ref:`render_target_v_flip<class_Viewport_property_render_target_v_flip>` 可以使该 Viewport 使用正确的朝向显示。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:34
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_viewport.rst:36
+msgid ":doc:`Viewport and canvas transforms <../tutorials/2d/2d_transforms>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:38
+msgid ":doc:`Viewports tutorial index <../tutorials/rendering/index>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:40
+msgid "`GUI in 3D Demo <https://godotengine.org/asset-library/asset/127>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:42
+msgid "`3D in 2D Demo <https://godotengine.org/asset-library/asset/128>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:44
+msgid "`2D in 3D Demo <https://godotengine.org/asset-library/asset/129>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:46
+msgid "`Screen Capture Demo <https://godotengine.org/asset-library/asset/130>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:48
+msgid "`Dynamic Split Screen Demo <https://godotengine.org/asset-library/asset/541>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:50
+msgid "`3D Viewport Scaling Demo <https://godotengine.org/asset-library/asset/586>`__"
+msgstr ""
+
+#: ../classes/class_viewport.rst:53
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_viewport.rst:56
+#: ../classes/class_viewport.rst:58
+#: ../classes/class_viewport.rst:60
+#: ../classes/class_viewport.rst:64
+#: ../classes/class_viewport.rst:68
+#: ../classes/class_viewport.rst:70
+#: ../classes/class_viewport.rst:74
+#: ../classes/class_viewport.rst:76
+#: ../classes/class_viewport.rst:78
+#: ../classes/class_viewport.rst:80
+#: ../classes/class_viewport.rst:82
+#: ../classes/class_viewport.rst:86
+#: ../classes/class_viewport.rst:88
+#: ../classes/class_viewport.rst:90
+#: ../classes/class_viewport.rst:96
+#: ../classes/class_viewport.rst:112
+#: ../classes/class_viewport.rst:114
+#: ../classes/class_viewport.rst:153
+#: ../classes/class_viewport.rst:155
+#: ../classes/class_viewport.rst:159
+#: ../classes/class_viewport.rst:161
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:56
+msgid ":ref:`arvr<class_Viewport_property_arvr>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:56
+#: ../classes/class_viewport.rst:58
+#: ../classes/class_viewport.rst:60
+#: ../classes/class_viewport.rst:64
+#: ../classes/class_viewport.rst:68
+#: ../classes/class_viewport.rst:70
+#: ../classes/class_viewport.rst:74
+#: ../classes/class_viewport.rst:82
+#: ../classes/class_viewport.rst:86
+#: ../classes/class_viewport.rst:88
+#: ../classes/class_viewport.rst:90
+#: ../classes/class_viewport.rst:96
+#: ../classes/class_viewport.rst:112
+#: ../classes/class_viewport.rst:114
+#: ../classes/class_viewport.rst:394
+#: ../classes/class_viewport.rst:410
+#: ../classes/class_viewport.rst:426
+#: ../classes/class_viewport.rst:456
+#: ../classes/class_viewport.rst:490
+#: ../classes/class_viewport.rst:506
+#: ../classes/class_viewport.rst:536
+#: ../classes/class_viewport.rst:600
+#: ../classes/class_viewport.rst:632
+#: ../classes/class_viewport.rst:648
+#: ../classes/class_viewport.rst:664
+#: ../classes/class_viewport.rst:714
+#: ../classes/class_viewport.rst:844
+#: ../classes/class_viewport.rst:860
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:58
+msgid ":ref:`audio_listener_enable_2d<class_Viewport_property_audio_listener_enable_2d>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:60
+msgid ":ref:`audio_listener_enable_3d<class_Viewport_property_audio_listener_enable_3d>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:62
+#: ../classes/class_viewport.rst:72
+#: ../classes/class_viewport.rst:133
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:62
+msgid ":ref:`canvas_transform<class_Viewport_property_canvas_transform>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:64
+msgid ":ref:`debanding<class_Viewport_property_debanding>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:66
+msgid ":ref:`DebugDraw<enum_Viewport_DebugDraw>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:66
+msgid ":ref:`debug_draw<class_Viewport_property_debug_draw>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:66
+#: ../classes/class_viewport.rst:84
+#: ../classes/class_viewport.rst:92
+#: ../classes/class_viewport.rst:106
+#: ../classes/class_viewport.rst:474
+#: ../classes/class_viewport.rst:616
+#: ../classes/class_viewport.rst:680
+#: ../classes/class_viewport.rst:794
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:68
+msgid ":ref:`disable_3d<class_Viewport_property_disable_3d>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:70
+msgid ":ref:`fxaa<class_Viewport_property_fxaa>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:72
+msgid ":ref:`global_canvas_transform<class_Viewport_property_global_canvas_transform>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:74
+msgid ":ref:`gui_disable_input<class_Viewport_property_gui_disable_input>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:76
+msgid ":ref:`gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:76
+#: ../classes/class_viewport.rst:78
+#: ../classes/class_viewport.rst:80
+#: ../classes/class_viewport.rst:552
+#: ../classes/class_viewport.rst:568
+#: ../classes/class_viewport.rst:582
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:78
+msgid ":ref:`handle_input_locally<class_Viewport_property_handle_input_locally>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:80
+msgid ":ref:`hdr<class_Viewport_property_hdr>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:82
+msgid ":ref:`keep_3d_linear<class_Viewport_property_keep_3d_linear>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:84
+msgid ":ref:`MSAA<enum_Viewport_MSAA>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:84
+msgid ":ref:`msaa<class_Viewport_property_msaa>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:86
+msgid ":ref:`own_world<class_Viewport_property_own_world>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:88
+msgid ":ref:`physics_object_picking<class_Viewport_property_physics_object_picking>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:90
+msgid ":ref:`render_direct_to_screen<class_Viewport_property_render_direct_to_screen>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:92
+msgid ":ref:`ClearMode<enum_Viewport_ClearMode>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:92
+msgid ":ref:`render_target_clear_mode<class_Viewport_property_render_target_clear_mode>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:94
+msgid ":ref:`UpdateMode<enum_Viewport_UpdateMode>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:94
+msgid ":ref:`render_target_update_mode<class_Viewport_property_render_target_update_mode>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:94
+#: ../classes/class_viewport.rst:98
+#: ../classes/class_viewport.rst:100
+#: ../classes/class_viewport.rst:116
+#: ../classes/class_viewport.rst:698
+#: ../classes/class_viewport.rst:730
+#: ../classes/class_viewport.rst:746
+#: ../classes/class_viewport.rst:876
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:96
+msgid ":ref:`render_target_v_flip<class_Viewport_property_render_target_v_flip>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:98
+#: ../classes/class_viewport.rst:100
+#: ../classes/class_viewport.rst:102
+#: ../classes/class_viewport.rst:104
+#: ../classes/class_viewport.rst:141
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:98
+msgid ":ref:`shadow_atlas_quad_0<class_Viewport_property_shadow_atlas_quad_0>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:100
+msgid ":ref:`shadow_atlas_quad_1<class_Viewport_property_shadow_atlas_quad_1>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:102
+msgid ":ref:`shadow_atlas_quad_2<class_Viewport_property_shadow_atlas_quad_2>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:102
+#: ../classes/class_viewport.rst:762
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:104
+msgid ":ref:`shadow_atlas_quad_3<class_Viewport_property_shadow_atlas_quad_3>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:104
+#: ../classes/class_viewport.rst:778
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:106
+#: ../classes/class_viewport.rst:139
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:106
+msgid ":ref:`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:108
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:108
+msgid ":ref:`sharpen_intensity<class_Viewport_property_sharpen_intensity>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:108
+#: ../classes/class_viewport.rst:812
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:110
+#: ../classes/class_viewport.rst:137
+#: ../classes/class_viewport.rst:143
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:110
+msgid ":ref:`size<class_Viewport_property_size>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:110
+#: ../classes/class_viewport.rst:828
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_viewport.rst:112
+msgid ":ref:`size_override_stretch<class_Viewport_property_size_override_stretch>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:114
+msgid ":ref:`transparent_bg<class_Viewport_property_transparent_bg>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:116
+msgid ":ref:`Usage<enum_Viewport_Usage>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:116
+msgid ":ref:`usage<class_Viewport_property_usage>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:118
+#: ../classes/class_viewport.rst:127
+msgid ":ref:`World<class_World>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:118
+msgid ":ref:`world<class_Viewport_property_world>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:120
+#: ../classes/class_viewport.rst:129
+msgid ":ref:`World2D<class_World2D>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:120
+msgid ":ref:`world_2d<class_Viewport_property_world_2d>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:124
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_viewport.rst:127
+msgid ":ref:`find_world<class_Viewport_method_find_world>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:129
+msgid ":ref:`find_world_2d<class_Viewport_method_find_world_2d>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:131
+msgid ":ref:`Camera<class_Camera>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:131
+msgid ":ref:`get_camera<class_Viewport_method_get_camera>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:133
+msgid ":ref:`get_final_transform<class_Viewport_method_get_final_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:135
+msgid ":ref:`Control<class_Control>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:135
+msgid ":ref:`get_modal_stack_top<class_Viewport_method_get_modal_stack_top>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:137
+msgid ":ref:`get_mouse_position<class_Viewport_method_get_mouse_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:139
+msgid ":ref:`get_render_info<class_Viewport_method_get_render_info>` **(** :ref:`RenderInfo<enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:141
+msgid ":ref:`get_shadow_atlas_quadrant_subdiv<class_Viewport_method_get_shadow_atlas_quadrant_subdiv>` **(** :ref:`int<class_int>` quadrant **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:143
+msgid ":ref:`get_size_override<class_Viewport_method_get_size_override>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:145
+msgid ":ref:`ViewportTexture<class_ViewportTexture>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:145
+msgid ":ref:`get_texture<class_Viewport_method_get_texture>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:147
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:147
+msgid ":ref:`get_viewport_rid<class_Viewport_method_get_viewport_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:149
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:149
+msgid ":ref:`get_visible_rect<class_Viewport_method_get_visible_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:151
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_viewport.rst:151
+msgid ":ref:`gui_get_drag_data<class_Viewport_method_gui_get_drag_data>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:153
+msgid ":ref:`gui_has_modal_stack<class_Viewport_method_gui_has_modal_stack>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:155
+msgid ":ref:`gui_is_dragging<class_Viewport_method_gui_is_dragging>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:157
+#: ../classes/class_viewport.rst:163
+#: ../classes/class_viewport.rst:165
+#: ../classes/class_viewport.rst:167
+#: ../classes/class_viewport.rst:169
+#: ../classes/class_viewport.rst:171
+#: ../classes/class_viewport.rst:173
+#: ../classes/class_viewport.rst:175
+msgid "void"
+msgstr ""
+
+#: ../classes/class_viewport.rst:157
+msgid ":ref:`input<class_Viewport_method_input>` **(** :ref:`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:159
+msgid ":ref:`is_input_handled<class_Viewport_method_is_input_handled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:161
+msgid ":ref:`is_size_override_enabled<class_Viewport_method_is_size_override_enabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:163
+msgid ":ref:`set_attach_to_screen_rect<class_Viewport_method_set_attach_to_screen_rect>` **(** :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:165
+msgid ":ref:`set_input_as_handled<class_Viewport_method_set_input_as_handled>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:167
+msgid ":ref:`set_shadow_atlas_quadrant_subdiv<class_Viewport_method_set_shadow_atlas_quadrant_subdiv>` **(** :ref:`int<class_int>` quadrant, :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:169
+msgid ":ref:`set_size_override<class_Viewport_method_set_size_override>` **(** :ref:`bool<class_bool>` enable, :ref:`Vector2<class_Vector2>` size=Vector2( -1, -1 ), :ref:`Vector2<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:171
+msgid ":ref:`unhandled_input<class_Viewport_method_unhandled_input>` **(** :ref:`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:173
+msgid ":ref:`update_worlds<class_Viewport_method_update_worlds>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:175
+msgid ":ref:`warp_mouse<class_Viewport_method_warp_mouse>` **(** :ref:`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:179
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_viewport.rst:183
+msgid "**gui_focus_changed** **(** :ref:`Control<class_Control>` node **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:185
+msgid "当控件节点获取键盘焦点时触发。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:191
+msgid "**size_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:193
+msgid "当视窗的大小被改变时，无论是通过\\ :ref:`set_size_override<class_Viewport_method_set_size_override>`\\ ，调整窗口的大小，还是其他方式，都会触发。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:196
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_viewport.rst:208
+msgid "enum **UpdateMode**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:210
+msgid "**UPDATE_DISABLED** = **0** --- 不要更新渲染目标。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:212
+msgid "**UPDATE_ONCE** = **1** --- 更新渲染目标一次，然后切换到 :ref:`UPDATE_DISABLED<class_Viewport_constant_UPDATE_DISABLED>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:214
+msgid "**UPDATE_WHEN_VISIBLE** = **2** --- 仅在渲染目标可见时更新渲染目标。这是默认值。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:216
+msgid "**UPDATE_ALWAYS** = **3** --- 始终更新渲染目标。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:238
+msgid "enum **ShadowAtlasQuadrantSubdiv**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:240
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_DISABLED** = **0** --- 此象限将不使用。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:242
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_1** = **1** --- 此象限仅由一张阴影贴图使用。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:244
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_4** = **2** --- 此象限将分为 4 个，最多使用 4 个阴影贴图。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:246
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_16** = **3** --- 此象限将被分成16个方向，并被最多16张阴影贴图使用。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:248
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_64** = **4** --- 这个象限将被分成64个方向，并被最多64张阴影贴图使用。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:250
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_256** = **5** --- 这个象限将被分成256个方向，并被最多256个阴影贴图使用。除非 :ref:`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>` 非常高，否则这个象限内的阴影分辨率会非常低。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:252
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6** --- 这个象限将被分成1024个方向，并被最多1024个阴影贴图使用。除非 :ref:`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>` 非常高，否则这个象限内的阴影分辨率会非常低。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:254
+msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** --- 代表\\ :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:278
+msgid "enum **RenderInfo**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:280
+msgid "**RENDER_INFO_OBJECTS_IN_FRAME** = **0** --- 帧中对象的数量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:282
+msgid "**RENDER_INFO_VERTICES_IN_FRAME** = **1** --- 帧中的顶点数量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:284
+msgid "**RENDER_INFO_MATERIAL_CHANGES_IN_FRAME** = **2** --- 帧中的材质更改量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:286
+msgid "**RENDER_INFO_SHADER_CHANGES_IN_FRAME** = **3** --- 帧中着色器的更改量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:288
+msgid "**RENDER_INFO_SURFACE_CHANGES_IN_FRAME** = **4** --- 帧中的表面更改量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:290
+msgid "**RENDER_INFO_DRAW_CALLS_IN_FRAME** = **5** --- 帧中的绘制调用量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:292
+msgid "**RENDER_INFO_2D_ITEMS_IN_FRAME** = **6** --- 帧中的项或联合项的数量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:294
+msgid "**RENDER_INFO_2D_DRAW_CALLS_IN_FRAME** = **7** --- 帧中的绘制调用量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:296
+msgid "**RENDER_INFO_MAX** = **8** --- 表示 :ref:`RenderInfo<enum_Viewport_RenderInfo>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:310
+msgid "enum **DebugDraw**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:312
+msgid "**DEBUG_DRAW_DISABLED** = **0** --- 对象显示正常。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:314
+msgid "**DEBUG_DRAW_UNSHADED** = **1** --- 显示的对象没有光照信息。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:316
+msgid "**DEBUG_DRAW_OVERDRAW** = **2** --- 对象以半透明的方式显示，并进行加法混合，因此你可以看到它们的相交处。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:318
+msgid "**DEBUG_DRAW_WIREFRAME** = **3** --- 对象以线框风格显示。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:334
+msgid "enum **MSAA**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:336
+msgid "**MSAA_DISABLED** = **0** --- 禁用多重采样抗锯齿模式。这是默认值。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:338
+msgid "**MSAA_2X** = **1** --- 使用 2x 多重采样抗锯齿。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:340
+msgid "**MSAA_4X** = **2** --- 使用 4x 多重采样抗锯齿。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:342
+msgid "**MSAA_8X** = **3** --- 使用 8x 多重采样抗锯齿。在低端和旧硬件上可能不受支持。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:344
+msgid "**MSAA_16X** = **4** --- 使用 16x 多重采样抗锯齿。在中低端硬件上可能不受支持。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:358
+msgid "enum **Usage**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:360
+msgid "**USAGE_2D** = **0** --- 分配绘制2D场景所需的所有缓冲区。这比3D使用模式占用更少的VRAM。请注意，使用这种模式时，诸如辉光和HDR等3D渲染效果是不可用的。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:362
+msgid "**USAGE_2D_NO_SAMPLING** = **1** --- 分配2D场景所需的缓冲区，而不分配屏幕拷贝的缓冲区。相应地，你不能从屏幕上读取。在\\ :ref:`Usage<enum_Viewport_Usage>`\\ 类型中，这需要最少的VRAM。注意，使用这种模式时，诸如辉光和HDR等3D渲染效果是不可用的。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:364
+msgid "**USAGE_3D** = **2** --- 为绘制3D场景和所有3D效果分配完整的缓冲区，包括2D场景和效果所需的缓冲区。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:366
+msgid "**USAGE_3D_NO_EFFECTS** = **3** --- 分配绘制3D场景所需的缓冲区。但不分配从屏幕上读取和后期处理效果所需的缓冲区。节省了一些VRAM。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:378
+msgid "enum **ClearMode**:"
+msgstr ""
+
+#: ../classes/class_viewport.rst:380
+msgid "**CLEAR_MODE_ALWAYS** = **0** --- 绘制前始终清除渲染目标。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:382
+msgid "**CLEAR_MODE_NEVER** = **1** --- 永不清除渲染目标。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:384
+msgid "**CLEAR_MODE_ONLY_NEXT_FRAME** = **2** --- 在下一帧清除渲染目标，然后切换到 :ref:`CLEAR_MODE_NEVER<class_Viewport_constant_CLEAR_MODE_NEVER>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:387
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_viewport.rst:391
+msgid ":ref:`bool<class_bool>` **arvr**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:394
+#: ../classes/class_viewport.rst:410
+#: ../classes/class_viewport.rst:426
+#: ../classes/class_viewport.rst:456
+#: ../classes/class_viewport.rst:474
+#: ../classes/class_viewport.rst:490
+#: ../classes/class_viewport.rst:506
+#: ../classes/class_viewport.rst:536
+#: ../classes/class_viewport.rst:552
+#: ../classes/class_viewport.rst:568
+#: ../classes/class_viewport.rst:582
+#: ../classes/class_viewport.rst:600
+#: ../classes/class_viewport.rst:616
+#: ../classes/class_viewport.rst:632
+#: ../classes/class_viewport.rst:648
+#: ../classes/class_viewport.rst:664
+#: ../classes/class_viewport.rst:680
+#: ../classes/class_viewport.rst:698
+#: ../classes/class_viewport.rst:714
+#: ../classes/class_viewport.rst:730
+#: ../classes/class_viewport.rst:746
+#: ../classes/class_viewport.rst:762
+#: ../classes/class_viewport.rst:778
+#: ../classes/class_viewport.rst:794
+#: ../classes/class_viewport.rst:812
+#: ../classes/class_viewport.rst:828
+#: ../classes/class_viewport.rst:844
+#: ../classes/class_viewport.rst:860
+#: ../classes/class_viewport.rst:876
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_viewport.rst:396
+#: ../classes/class_viewport.rst:412
+#: ../classes/class_viewport.rst:428
+#: ../classes/class_viewport.rst:442
+#: ../classes/class_viewport.rst:458
+#: ../classes/class_viewport.rst:476
+#: ../classes/class_viewport.rst:492
+#: ../classes/class_viewport.rst:508
+#: ../classes/class_viewport.rst:522
+#: ../classes/class_viewport.rst:538
+#: ../classes/class_viewport.rst:554
+#: ../classes/class_viewport.rst:570
+#: ../classes/class_viewport.rst:584
+#: ../classes/class_viewport.rst:602
+#: ../classes/class_viewport.rst:618
+#: ../classes/class_viewport.rst:634
+#: ../classes/class_viewport.rst:650
+#: ../classes/class_viewport.rst:666
+#: ../classes/class_viewport.rst:682
+#: ../classes/class_viewport.rst:700
+#: ../classes/class_viewport.rst:716
+#: ../classes/class_viewport.rst:732
+#: ../classes/class_viewport.rst:748
+#: ../classes/class_viewport.rst:764
+#: ../classes/class_viewport.rst:780
+#: ../classes/class_viewport.rst:796
+#: ../classes/class_viewport.rst:814
+#: ../classes/class_viewport.rst:830
+#: ../classes/class_viewport.rst:846
+#: ../classes/class_viewport.rst:862
+#: ../classes/class_viewport.rst:878
+#: ../classes/class_viewport.rst:892
+#: ../classes/class_viewport.rst:906
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_viewport.rst:396
+msgid "set_use_arvr(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:398
+#: ../classes/class_viewport.rst:414
+#: ../classes/class_viewport.rst:430
+#: ../classes/class_viewport.rst:444
+#: ../classes/class_viewport.rst:460
+#: ../classes/class_viewport.rst:478
+#: ../classes/class_viewport.rst:494
+#: ../classes/class_viewport.rst:510
+#: ../classes/class_viewport.rst:524
+#: ../classes/class_viewport.rst:540
+#: ../classes/class_viewport.rst:556
+#: ../classes/class_viewport.rst:572
+#: ../classes/class_viewport.rst:586
+#: ../classes/class_viewport.rst:604
+#: ../classes/class_viewport.rst:620
+#: ../classes/class_viewport.rst:636
+#: ../classes/class_viewport.rst:652
+#: ../classes/class_viewport.rst:668
+#: ../classes/class_viewport.rst:684
+#: ../classes/class_viewport.rst:702
+#: ../classes/class_viewport.rst:718
+#: ../classes/class_viewport.rst:734
+#: ../classes/class_viewport.rst:750
+#: ../classes/class_viewport.rst:766
+#: ../classes/class_viewport.rst:782
+#: ../classes/class_viewport.rst:798
+#: ../classes/class_viewport.rst:816
+#: ../classes/class_viewport.rst:832
+#: ../classes/class_viewport.rst:848
+#: ../classes/class_viewport.rst:864
+#: ../classes/class_viewport.rst:880
+#: ../classes/class_viewport.rst:894
+#: ../classes/class_viewport.rst:908
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_viewport.rst:398
+msgid "use_arvr()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:401
+msgid "如果\\ ``true``\\ ，视窗将用于AR/VR进程。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:407
+msgid ":ref:`bool<class_bool>` **audio_listener_enable_2d**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:412
+msgid "set_as_audio_listener_2d(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:414
+msgid "is_audio_listener_2d()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:417
+msgid "如果\\ ``true``\\ ，视窗将处理2D音频流。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:423
+msgid ":ref:`bool<class_bool>` **audio_listener_enable_3d**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:428
+msgid "set_as_audio_listener(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:430
+msgid "is_audio_listener()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:433
+msgid "如果\\ ``true``\\ ，视窗将处理3D音频流。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:439
+msgid ":ref:`Transform2D<class_Transform2D>` **canvas_transform**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:442
+msgid "set_canvas_transform(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:444
+msgid "get_canvas_transform()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:447
+msgid "视窗的画布变换，对改变所有子\\ :ref:`CanvasItem<class_CanvasItem>`\\ 的屏幕位置很有用。这与视窗的全局画布变换有关。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:453
+msgid ":ref:`bool<class_bool>` **debanding**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:458
+msgid "set_use_debanding(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:460
+msgid "get_use_debanding()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:463
+msgid "如果\\ ``true``\\ ，则使用一个快速的后期处理滤波器，使带状现象明显减少。在某些情况下，去带可能会引入稍微明显的抖动模式。建议只有在实际需要时才启用去带，因为抖动模式会使无损压缩的屏幕截图变大。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:465
+msgid "\\ **注意：** 仅在GLES3后端可用。\\ :ref:`hdr<class_Viewport_property_hdr>`\\ 也必须是\\ ``true``\\ 才能使debanding去带生效。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:471
+msgid ":ref:`DebugDraw<enum_Viewport_DebugDraw>` **debug_draw**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:476
+msgid "set_debug_draw(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:478
+msgid "get_debug_draw()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:481
+msgid "在调试时，用于测试渲染的几何图形的叠加模式。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:487
+msgid ":ref:`bool<class_bool>` **disable_3d**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:492
+msgid "set_disable_3d(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:494
+msgid "is_3d_disabled()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:497
+msgid "如果\\ ``true``\\ ，视窗将禁用3D渲染。对于实际禁用，使用\\ ``usage``\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:503
+msgid ":ref:`bool<class_bool>` **fxaa**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:508
+msgid "set_use_fxaa(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:510
+msgid "get_use_fxaa()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:513
+msgid "启用快速近似抗锯齿。FXAA是一种流行的屏幕空间抗锯齿方法，它的速度很快，但会使图像看起来很模糊，特别是在较低的分辨率。在1440p和4K这样的大分辨率下，它仍然可以较好工作。一些损失的锐度可以通过启用对比度适应性锐化来恢复，参阅\\ :ref:`sharpen_intensity<class_Viewport_property_sharpen_intensity>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:519
+msgid ":ref:`Transform2D<class_Transform2D>` **global_canvas_transform**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:522
+msgid "set_global_canvas_transform(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:524
+msgid "get_global_canvas_transform()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:527
+msgid "视窗的全局画布变换。画布变换是相对于这个的。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:533
+msgid ":ref:`bool<class_bool>` **gui_disable_input**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:538
+msgid "set_disable_input(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:540
+msgid "is_input_disabled()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:543
+msgid "如果\\ ``true``\\ ，视窗将不接收输入事件。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:549
+msgid ":ref:`bool<class_bool>` **gui_snap_controls_to_pixels**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:554
+msgid "set_snap_controls_to_pixels(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:556
+msgid "is_snap_controls_to_pixels_enabled()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:559
+msgid "如果\\ ``true``\\ ，视窗上的GUI控件将完美地放置像素。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:565
+msgid ":ref:`bool<class_bool>` **handle_input_locally**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:570
+msgid "set_handle_input_locally(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:572
+msgid "is_handling_input_locally()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:579
+msgid ":ref:`bool<class_bool>` **hdr**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:584
+msgid "set_hdr(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:586
+msgid "get_hdr()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:589
+msgid "如果\\ ``true``\\ ，视窗的渲染将获得高动态范围算法的收益。高动态范围允许视窗接收0-1范围以外的数值。在GaaeExplorer中HDR使用16比特，这意味着它不能存储浮点数的全部范围。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:591
+msgid "\\ **注意：** 需要将 :ref:`usage<class_Viewport_property_usage>`\\ 设置为\\ :ref:`USAGE_3D<class_Viewport_constant_USAGE_3D>`\\ 或\\ :ref:`USAGE_3D_NO_EFFECTS<class_Viewport_constant_USAGE_3D_NO_EFFECTS>`\\ ，2D不支持HDR。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:597
+msgid ":ref:`bool<class_bool>` **keep_3d_linear**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:602
+msgid "set_keep_3d_linear(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:604
+msgid "get_keep_3d_linear()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:607
+msgid "如果\\ ``true``\\ ，3D渲染后的结果将不会应用线性到sRGB的颜色转换。当视窗被用作渲染目标时，这点很重要，因为渲染结果会被用作另一个视窗中渲染的三维物体的纹理。如果视窗被用来创建不基于颜色的数据，噪声、高度图、采图等，这也很重要。当视窗被用作2D对象的纹理时，或者视窗是你的最终输出时，请不要启用这个功能。对于GLES2驱动来说，这将把sRGB输出转换为线性输出，这应该只用于需要线性色彩空间输入的VR插件!"
+msgstr ""
+
+#: ../classes/class_viewport.rst:613
+msgid ":ref:`MSAA<enum_Viewport_MSAA>` **msaa**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:618
+msgid "set_msaa(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:620
+msgid "get_msaa()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:623
+msgid "多重采样抗锯齿模式。一个较高的数字会使边缘更平滑，但代价是性能明显下降。除非是针对非常高端的系统，否则数值为4是最好的。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:629
+msgid ":ref:`bool<class_bool>` **own_world**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:634
+msgid "set_use_own_world(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:636
+msgid "is_using_own_world()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:639
+msgid "如果\\ ``true``\\ ，视窗将使用\\ ``world``\\ 属性中定义的\\ :ref:`World<class_World>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:645
+msgid ":ref:`bool<class_bool>` **physics_object_picking**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:650
+msgid "set_physics_object_picking(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:652
+msgid "get_physics_object_picking()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:655
+msgid "如果\\ ``true``\\ ，则视窗渲染的对象将成为鼠标拾取过程的对象。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:661
+msgid ":ref:`bool<class_bool>` **render_direct_to_screen**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:666
+msgid "set_use_render_direct_to_screen(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:668
+msgid "is_using_render_direct_to_screen()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:671
+msgid "如果\\ ``true``\\ ，直接将视窗渲染到屏幕上，而不是渲染到根视窗上。只在GLES2中可用。这是一个低级别的优化，在大多数情况下不应该使用。如果使用，从视窗或从\\ ``SCREEN_TEXTURE``\\ 读取将变得不可用。更多信息参阅\\ :ref:`VisualServer.viewport_set_render_direct_to_screen<class_VisualServer_method_viewport_set_render_direct_to_screen>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:677
+msgid ":ref:`ClearMode<enum_Viewport_ClearMode>` **render_target_clear_mode**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:682
+msgid "set_clear_mode(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:684
+msgid "get_clear_mode()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:687
+msgid "视窗用作渲染目标时的清除模式。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:689
+msgid "\\ **注意：** 此属性适用于 2D 使用。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:695
+msgid ":ref:`UpdateMode<enum_Viewport_UpdateMode>` **render_target_update_mode**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:700
+msgid "set_update_mode(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:702
+msgid "get_update_mode()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:705
+msgid "视窗用作渲染目标时的更新模式。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:711
+msgid ":ref:`bool<class_bool>` **render_target_v_flip**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:716
+msgid "set_vflip(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:718
+msgid "get_vflip()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:721
+msgid "为 ``true`` 时，渲染结果会被垂直翻转。因为 GaaeExplorer 3.x 中 Viewport 渲染的内容是上下颠倒的，所以推荐在大多数情况下将其设置为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:727
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_0**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:732
+#: ../classes/class_viewport.rst:748
+#: ../classes/class_viewport.rst:764
+#: ../classes/class_viewport.rst:780
+msgid "set_shadow_atlas_quadrant_subdiv(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:734
+#: ../classes/class_viewport.rst:750
+#: ../classes/class_viewport.rst:766
+#: ../classes/class_viewport.rst:782
+msgid "get_shadow_atlas_quadrant_subdiv()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:737
+msgid "阴影图集上第一象限的细分量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:743
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_1**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:753
+msgid "阴影图集上第二象限的细分量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:759
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_2**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:769
+msgid "阴影图集上第三象限的细分量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:775
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_3**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:785
+msgid "阴影图集上第四象限的细分量。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:791
+msgid ":ref:`int<class_int>` **shadow_atlas_size**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:796
+msgid "set_shadow_atlas_size(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:798
+msgid "get_shadow_atlas_size()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:801
+msgid "阴影图集的分辨率，注，用于泛光灯和聚光灯。该值将四舍五入到最接近的 2 的幂。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:803
+msgid "\\ **注意：**\\ 如果设置为0，阴影将不可见。由于用户创建的视窗默认值为 0，因此必须手动将此值设置为大于 0。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:809
+msgid ":ref:`float<class_float>` **sharpen_intensity**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:814
+msgid "set_sharpen_intensity(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:816
+msgid "get_sharpen_intensity()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:819
+msgid "如果设置为大于\\ ``0.0``\\ 的值，对比度适应性锐化将被应用到3D视窗中。这具有较低的性能成本，可以用来恢复使用FXAA所损失的一些锐度。一般来说，\\ ``0.5``\\ 左右的数值可以得到最好的效果。参阅\\ :ref:`fxaa<class_Viewport_property_fxaa>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:825
+msgid ":ref:`Vector2<class_Vector2>` **size**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:830
+msgid "set_size(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:832
+msgid "get_size()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:835
+msgid "视窗的宽度和高度。必须在两个维度上设置为大于或等于2像素的值。否则，将不会显示任何东西。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:841
+msgid ":ref:`bool<class_bool>` **size_override_stretch**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:846
+msgid "set_size_override_stretch(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:848
+msgid "is_size_override_stretch_enabled()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:851
+msgid "如果\\ ``true``\\ ，尺寸重写也会影响拉伸。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:857
+msgid ":ref:`bool<class_bool>` **transparent_bg**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:862
+msgid "set_transparent_background(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:864
+msgid "has_transparent_background()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:867
+msgid "如果 ``true``\\ ，视窗应使其背景渲染为透明。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:873
+msgid ":ref:`Usage<enum_Viewport_Usage>` **usage**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:878
+msgid "set_usage(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:880
+msgid "get_usage()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:883
+msgid "视窗的渲染模式。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:889
+msgid ":ref:`World<class_World>` **world**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:892
+msgid "set_world(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:894
+msgid "get_world()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:897
+msgid "自定义的\\ :ref:`World<class_World>`\\ ，可以作为3D环境源。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:903
+msgid ":ref:`World2D<class_World2D>` **world_2d**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:906
+msgid "set_world_2d(value)"
+msgstr ""
+
+#: ../classes/class_viewport.rst:908
+msgid "get_world_2d()"
+msgstr ""
+
+#: ../classes/class_viewport.rst:911
+msgid "自定义的\\ :ref:`World2D<class_World2D>`\\ ，可以作为2D环境源。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:914
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_viewport.rst:918
+msgid ":ref:`World<class_World>` **find_world** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:920
+msgid "返回该视窗的首个有效 :ref:`World<class_World>`\\ ，在它自身及任何 Viewport 祖先节点的 :ref:`world<class_Viewport_property_world>` 属性中查找。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:926
+msgid ":ref:`World2D<class_World2D>` **find_world_2d** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:928
+msgid "返回该视窗的首个有效 :ref:`World2D<class_World2D>`\\ ，在它自身及任何 Viewport 祖先节点的 :ref:`world_2d<class_Viewport_property_world_2d>` 属性中查找。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:934
+msgid ":ref:`Camera<class_Camera>` **get_camera** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:936
+msgid "返回激活的3D相机。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:942
+msgid ":ref:`Transform2D<class_Transform2D>` **get_final_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:944
+msgid "返回视窗的总的变换。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:950
+msgid ":ref:`Control<class_Control>` **get_modal_stack_top** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:952
+msgid "返回堆栈中最顶层的模型。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:958
+msgid ":ref:`Vector2<class_Vector2>` **get_mouse_position** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:960
+msgid "返回相对于视窗的鼠标位置。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:966
+msgid ":ref:`int<class_int>` **get_render_info** **(** :ref:`RenderInfo<enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:968
+msgid "返回渲染管道中关于视窗的信息。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:974
+msgid ":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **get_shadow_atlas_quadrant_subdiv** **(** :ref:`int<class_int>` quadrant **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:976
+msgid "返回指定象限的\\ :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:982
+msgid ":ref:`Vector2<class_Vector2>` **get_size_override** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:984
+msgid "返回用\\ :ref:`set_size_override<class_Viewport_method_set_size_override>`\\ 设置的尺寸重写。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:990
+msgid ":ref:`ViewportTexture<class_ViewportTexture>` **get_texture** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:992
+msgid "返回视窗的纹理。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:994
+msgid "\\ **注意：** 由于OpenGL的工作方式，产生的\\ :ref:`ViewportTexture<class_ViewportTexture>`\\ 是垂直翻转的。你可以在\\ :ref:`Texture.get_data<class_Texture_method_get_data>`\\ 的结果上使用\\ :ref:`Image.flip_y<class_Image_method_flip_y>`\\ 来将其翻转回去，例如。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1005
+msgid ":ref:`RID<class_RID>` **get_viewport_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1007
+msgid "从\\ :ref:`VisualServer<class_VisualServer>`\\ 返回视窗的RID。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1013
+msgid ":ref:`Rect2<class_Rect2>` **get_visible_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1015
+msgid "返回全局屏幕坐标中的可见矩形。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1021
+msgid ":ref:`Variant<class_Variant>` **gui_get_drag_data** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1023
+msgid "返回GUI中的拖动数据，该数据之前由 :ref:`Control.get_drag_data<class_Control_method_get_drag_data>` 返回。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1029
+msgid ":ref:`bool<class_bool>` **gui_has_modal_stack** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1031
+msgid "如果屏幕上有可见的模型，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1037
+msgid ":ref:`bool<class_bool>` **gui_is_dragging** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1039
+msgid "如果当前视窗正在执行拖动操作，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1045
+msgid "void **input** **(** :ref:`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1051
+msgid ":ref:`bool<class_bool>` **is_input_handled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1057
+msgid ":ref:`bool<class_bool>` **is_size_override_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1059
+msgid "如果启用了尺寸重写，返回\\ ``true``\\ 。参阅\\ :ref:`set_size_override<class_Viewport_method_set_size_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1065
+msgid "void **set_attach_to_screen_rect** **(** :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1067
+msgid "用指定的矩形将这个\\ ``Viewport``\\ 附加到根\\ ``Viewport``\\ 视窗上。这就绕过了另一个节点来显示这个\\ ``Viewport``\\ 的需要，但让你负责手动更新这个\\ ``Viewport``\\ 的坐标。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1073
+msgid "void **set_input_as_handled** **(** **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1075
+msgid "阻止输入继续向下传播\\ :ref:`SceneTree<class_SceneTree>`\\ 。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1081
+msgid "void **set_shadow_atlas_quadrant_subdiv** **(** :ref:`int<class_int>` quadrant, :ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1083
+msgid "设置在指定象限内使用的细分数。较多的细分数可以让你在场景中一次拥有更多的阴影，但是会降低阴影的质量。一个好的做法是让象限具有不同数量的细分，并尽可能地减少细分。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1089
+msgid "void **set_size_override** **(** :ref:`bool<class_bool>` enable, :ref:`Vector2<class_Vector2>` size=Vector2( -1, -1 ), :ref:`Vector2<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1091
+msgid "设置视窗的尺寸重写。如果\\ ``enable``\\ 参数是\\ ``true``\\ ，就会使用重写，否则就使用默认尺寸。如果尺寸参数是\\ ``(-1, -1)``\\ ，它将不会更新尺寸。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1097
+msgid "void **unhandled_input** **(** :ref:`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1103
+msgid "void **update_worlds** **(** **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1105
+msgid "强制更新 2D 和 3D 世界。"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1111
+msgid "void **warp_mouse** **(** :ref:`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_viewport.rst:1113
+msgid "将鼠标偏移到相对于视窗的位置。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

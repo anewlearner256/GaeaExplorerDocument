@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_mobilevrinterface.rst:10
+msgid "MobileVRInterface"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:12
+msgid "**Inherits:** :ref:`ARVRInterface<class_ARVRInterface>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:14
+msgid "通用移动VR实现。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:19
+msgid "这是通用的移动VR实现，你需要提供关于所使用的手机和HMD的细节。它不依赖于任何现有的框架。这是我们拥有的最基本的接口。为了达到最好的效果，你需要一个有陀螺仪和加速器的手机。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:21
+msgid "请注意，即使没有位置跟踪，相机也会假定耳机处于1.85米的高度。你可以通过设置\\ :ref:`eye_height<class_MobileVRInterface_property_eye_height>`\\ 来改变这一点。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:23
+msgid "你可以按以下方式初始化这个接口："
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:32
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:35
+#: ../classes/class_mobilevrinterface.rst:37
+#: ../classes/class_mobilevrinterface.rst:39
+#: ../classes/class_mobilevrinterface.rst:41
+#: ../classes/class_mobilevrinterface.rst:43
+#: ../classes/class_mobilevrinterface.rst:45
+#: ../classes/class_mobilevrinterface.rst:47
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:35
+msgid ":ref:`display_to_lens<class_MobileVRInterface_property_display_to_lens>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:35
+#: ../classes/class_mobilevrinterface.rst:58
+msgid "``4.0``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:37
+msgid ":ref:`display_width<class_MobileVRInterface_property_display_width>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:37
+#: ../classes/class_mobilevrinterface.rst:74
+msgid "``14.5``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:39
+msgid ":ref:`eye_height<class_MobileVRInterface_property_eye_height>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:39
+#: ../classes/class_mobilevrinterface.rst:90
+msgid "``1.85``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:41
+msgid ":ref:`iod<class_MobileVRInterface_property_iod>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:41
+#: ../classes/class_mobilevrinterface.rst:106
+msgid "``6.0``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:43
+msgid ":ref:`k1<class_MobileVRInterface_property_k1>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:43
+#: ../classes/class_mobilevrinterface.rst:45
+#: ../classes/class_mobilevrinterface.rst:122
+#: ../classes/class_mobilevrinterface.rst:138
+msgid "``0.215``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:45
+msgid ":ref:`k2<class_MobileVRInterface_property_k2>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:47
+msgid ":ref:`oversample<class_MobileVRInterface_property_oversample>`"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:47
+#: ../classes/class_mobilevrinterface.rst:154
+msgid "``1.5``"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:51
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:55
+msgid ":ref:`float<class_float>` **display_to_lens**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:58
+#: ../classes/class_mobilevrinterface.rst:74
+#: ../classes/class_mobilevrinterface.rst:90
+#: ../classes/class_mobilevrinterface.rst:106
+#: ../classes/class_mobilevrinterface.rst:122
+#: ../classes/class_mobilevrinterface.rst:138
+#: ../classes/class_mobilevrinterface.rst:154
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:60
+#: ../classes/class_mobilevrinterface.rst:76
+#: ../classes/class_mobilevrinterface.rst:92
+#: ../classes/class_mobilevrinterface.rst:108
+#: ../classes/class_mobilevrinterface.rst:124
+#: ../classes/class_mobilevrinterface.rst:140
+#: ../classes/class_mobilevrinterface.rst:156
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:60
+msgid "set_display_to_lens(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:62
+#: ../classes/class_mobilevrinterface.rst:78
+#: ../classes/class_mobilevrinterface.rst:94
+#: ../classes/class_mobilevrinterface.rst:110
+#: ../classes/class_mobilevrinterface.rst:126
+#: ../classes/class_mobilevrinterface.rst:142
+#: ../classes/class_mobilevrinterface.rst:158
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:62
+msgid "get_display_to_lens()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:65
+msgid "显示器与设备内部镜片之间的距离，单位为厘米。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:71
+msgid ":ref:`float<class_float>` **display_width**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:76
+msgid "set_display_width(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:78
+msgid "get_display_width()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:81
+msgid "显示器的宽度，以厘米为单位。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:87
+msgid ":ref:`float<class_float>` **eye_height**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:92
+msgid "set_eye_height(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:94
+msgid "get_eye_height()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:97
+msgid "摄像机相对于地面所处的高度，即\\ :ref:`ARVROrigin<class_ARVROrigin>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:103
+msgid ":ref:`float<class_float>` **iod**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:108
+msgid "set_iod(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:110
+msgid "get_iod()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:113
+msgid "眼间距离，也称为瞳孔间距离。左眼和右眼瞳孔之间的距离。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:119
+msgid ":ref:`float<class_float>` **k1**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:124
+msgid "set_k1(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:126
+msgid "get_k1()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:129
+msgid "k1镜头因子是定义所使用镜头强度的两个常量之一，并直接影响镜头失真效果。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:135
+msgid ":ref:`float<class_float>` **k2**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:140
+msgid "set_k2(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:142
+msgid "get_k2()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:145
+msgid "k2镜头因子，见k1。"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:151
+msgid ":ref:`float<class_float>` **oversample**"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:156
+msgid "set_oversample(value)"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:158
+msgid "get_oversample()"
+msgstr ""
+
+#: ../classes/class_mobilevrinterface.rst:161
+msgid "过采样设置。由于镜头失真，我们必须以比屏幕自然分辨率更高的质量渲染我们的缓冲区。介于1.5和2.0之间的值通常可以提供良好的结果，但会牺牲性能。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

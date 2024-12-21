@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_websocketpeer.rst:10
+msgid "WebSocketPeer"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:14
+msgid "表示特定WebSocket连接的类。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:19
+msgid "该类表示特定的 WebSocket 连接，你可以用它执行底层操作。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:21
+msgid "可以选择以二进制或文本模式写入套接字，也可以识别另一个对等体用于写入的模式。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:27
+#: ../classes/class_websocketpeer.rst:39
+#: ../classes/class_websocketpeer.rst:41
+msgid "void"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:27
+msgid ":ref:`close<class_WebSocketPeer_method_close>` **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:29
+msgid ":ref:`get_connected_host<class_WebSocketPeer_method_get_connected_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:31
+#: ../classes/class_websocketpeer.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:31
+msgid ":ref:`get_connected_port<class_WebSocketPeer_method_get_connected_port>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:33
+msgid ":ref:`get_current_outbound_buffered_amount<class_WebSocketPeer_method_get_current_outbound_buffered_amount>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:35
+msgid ":ref:`WriteMode<enum_WebSocketPeer_WriteMode>`"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:35
+msgid ":ref:`get_write_mode<class_WebSocketPeer_method_get_write_mode>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:37
+#: ../classes/class_websocketpeer.rst:43
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:37
+msgid ":ref:`is_connected_to_host<class_WebSocketPeer_method_is_connected_to_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:39
+msgid ":ref:`set_no_delay<class_WebSocketPeer_method_set_no_delay>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:41
+msgid ":ref:`set_write_mode<class_WebSocketPeer_method_set_write_mode>` **(** :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:43
+msgid ":ref:`was_string_packet<class_WebSocketPeer_method_was_string_packet>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:47
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:55
+msgid "enum **WriteMode**:"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:57
+msgid "**WRITE_MODE_TEXT** = **0** --- 指定WebSockets消息应作为文本有效载荷传输（只允许有效的UTF-8）。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:59
+msgid "**WRITE_MODE_BINARY** = **1** --- 指定WebSockets消息应以二进制有效载荷的形式传输（允许任何字节组合）。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:62
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:66
+msgid "void **close** **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:68
+msgid "关闭此WebSocket连接。\\ ``code``\\ 是关闭的状态代码，有效状态代码的列表参阅RFC 6455第7.4节。\\ ``reason`` 是关闭连接的只读原因（可以是任何小于123字节的UTF-8字符串）。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:70
+msgid "\\ **注意：**\\ 为了实现彻底的关闭，你需要继续轮询，直到收到\\ :ref:`WebSocketClient.connection_closed<class_WebSocketClient_signal_connection_closed>`\\ 或\\ :ref:`WebSocketServer.client_disconnected<class_WebSocketServer_signal_client_disconnected>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:72
+msgid "\\ **注意：** HTML5导出可能不支持所有状态代码。请参考特定浏览器的文档以了解更多细节。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:78
+msgid ":ref:`String<class_String>` **get_connected_host** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:80
+msgid "返回连接的对等体的IP地址。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:82
+#: ../classes/class_websocketpeer.rst:92
+#: ../classes/class_websocketpeer.rst:126
+msgid "\\ **注意：** 在HTML5导出中不可用。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:88
+msgid ":ref:`int<class_int>` **get_connected_port** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:90
+msgid "返回所连接对等体的远程端口。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:98
+msgid ":ref:`int<class_int>` **get_current_outbound_buffered_amount** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:100
+msgid "返回输出的websocket缓冲区中的当前数据量。\\ **注意：** HTML5导出使用WebSocket.bufferedAmount，而其他平台使用内部缓冲区。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:106
+msgid ":ref:`WriteMode<enum_WebSocketPeer_WriteMode>` **get_write_mode** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:108
+msgid "获取当前选择的写入模式。参阅\\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:114
+msgid ":ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:116
+msgid "如果该对等体当前已连接，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:122
+msgid "void **set_no_delay** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:124
+msgid "在底层的TCP套接字上禁用Nagle算法（默认）。参阅\\ :ref:`StreamPeerTCP.set_no_delay<class_StreamPeerTCP_method_set_no_delay>`\\ 以了解更多信息。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:132
+msgid "void **set_write_mode** **(** :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:134
+msgid "将套接字设置为使用给定的\\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:140
+msgid ":ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketpeer.rst:142
+msgid "如果最后收到的数据包是作为文本有效载荷发送的，返回\\ ``true``\\ 。参阅\\ :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

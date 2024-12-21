@@ -1,0 +1,569 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physics2ddirectbodystate.rst:10
+msgid "Physics2DDirectBodyState"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:14
+msgid "直接访问 :ref:`Physics2DServer<class_Physics2DServer>` 中物理物体对象。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:19
+msgid "提供对 :ref:`Physics2DServer<class_Physics2DServer>` 中物理物体的直接访问，允许安全更改物理属性。该对象通过刚体/角色物体的直接状态回调传递，从而直接改变该物体的状态。参见 :ref:`RigidBody2D._integrate_forces<class_RigidBody2D_method__integrate_forces>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:24
+msgid ":doc:`Physics introduction <../tutorials/physics/physics_introduction>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:26
+msgid ":doc:`Ray-casting <../tutorials/physics/ray-casting>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:32
+#: ../classes/class_physics2ddirectbodystate.rst:34
+#: ../classes/class_physics2ddirectbodystate.rst:36
+#: ../classes/class_physics2ddirectbodystate.rst:42
+#: ../classes/class_physics2ddirectbodystate.rst:44
+#: ../classes/class_physics2ddirectbodystate.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:32
+msgid ":ref:`angular_velocity<class_Physics2DDirectBodyState_property_angular_velocity>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:34
+msgid ":ref:`inverse_inertia<class_Physics2DDirectBodyState_property_inverse_inertia>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:36
+msgid ":ref:`inverse_mass<class_Physics2DDirectBodyState_property_inverse_mass>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:38
+#: ../classes/class_physics2ddirectbodystate.rst:46
+#: ../classes/class_physics2ddirectbodystate.rst:75
+#: ../classes/class_physics2ddirectbodystate.rst:81
+#: ../classes/class_physics2ddirectbodystate.rst:85
+#: ../classes/class_physics2ddirectbodystate.rst:87
+#: ../classes/class_physics2ddirectbodystate.rst:93
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:38
+msgid ":ref:`linear_velocity<class_Physics2DDirectBodyState_property_linear_velocity>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:40
+msgid ":ref:`sleeping<class_Physics2DDirectBodyState_property_sleeping>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:42
+msgid ":ref:`step<class_Physics2DDirectBodyState_property_step>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:44
+msgid ":ref:`total_angular_damp<class_Physics2DDirectBodyState_property_total_angular_damp>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:46
+msgid ":ref:`total_gravity<class_Physics2DDirectBodyState_property_total_gravity>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:48
+msgid ":ref:`total_linear_damp<class_Physics2DDirectBodyState_property_total_linear_damp>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:50
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:50
+msgid ":ref:`transform<class_Physics2DDirectBodyState_property_transform>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:54
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:57
+#: ../classes/class_physics2ddirectbodystate.rst:59
+#: ../classes/class_physics2ddirectbodystate.rst:61
+#: ../classes/class_physics2ddirectbodystate.rst:63
+#: ../classes/class_physics2ddirectbodystate.rst:65
+#: ../classes/class_physics2ddirectbodystate.rst:67
+#: ../classes/class_physics2ddirectbodystate.rst:95
+msgid "void"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:57
+msgid ":ref:`add_central_force<class_Physics2DDirectBodyState_method_add_central_force>` **(** :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:59
+msgid ":ref:`add_force<class_Physics2DDirectBodyState_method_add_force>` **(** :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:61
+msgid ":ref:`add_torque<class_Physics2DDirectBodyState_method_add_torque>` **(** :ref:`float<class_float>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:63
+msgid ":ref:`apply_central_impulse<class_Physics2DDirectBodyState_method_apply_central_impulse>` **(** :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:65
+msgid ":ref:`apply_impulse<class_Physics2DDirectBodyState_method_apply_impulse>` **(** :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:67
+msgid ":ref:`apply_torque_impulse<class_Physics2DDirectBodyState_method_apply_torque_impulse>` **(** :ref:`float<class_float>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:69
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:69
+msgid ":ref:`get_contact_collider<class_Physics2DDirectBodyState_method_get_contact_collider>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:71
+#: ../classes/class_physics2ddirectbodystate.rst:77
+#: ../classes/class_physics2ddirectbodystate.rst:83
+#: ../classes/class_physics2ddirectbodystate.rst:89
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:71
+msgid ":ref:`get_contact_collider_id<class_Physics2DDirectBodyState_method_get_contact_collider_id>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:73
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:73
+msgid ":ref:`get_contact_collider_object<class_Physics2DDirectBodyState_method_get_contact_collider_object>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:75
+msgid ":ref:`get_contact_collider_position<class_Physics2DDirectBodyState_method_get_contact_collider_position>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:77
+msgid ":ref:`get_contact_collider_shape<class_Physics2DDirectBodyState_method_get_contact_collider_shape>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:79
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:79
+msgid ":ref:`get_contact_collider_shape_metadata<class_Physics2DDirectBodyState_method_get_contact_collider_shape_metadata>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:81
+msgid ":ref:`get_contact_collider_velocity_at_position<class_Physics2DDirectBodyState_method_get_contact_collider_velocity_at_position>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:83
+msgid ":ref:`get_contact_count<class_Physics2DDirectBodyState_method_get_contact_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:85
+msgid ":ref:`get_contact_local_normal<class_Physics2DDirectBodyState_method_get_contact_local_normal>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:87
+msgid ":ref:`get_contact_local_position<class_Physics2DDirectBodyState_method_get_contact_local_position>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:89
+msgid ":ref:`get_contact_local_shape<class_Physics2DDirectBodyState_method_get_contact_local_shape>` **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:91
+msgid ":ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>`"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:91
+msgid ":ref:`get_space_state<class_Physics2DDirectBodyState_method_get_space_state>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:93
+msgid ":ref:`get_velocity_at_local_position<class_Physics2DDirectBodyState_method_get_velocity_at_local_position>` **(** :ref:`Vector2<class_Vector2>` local_position **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:95
+msgid ":ref:`integrate_forces<class_Physics2DDirectBodyState_method_integrate_forces>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:99
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:103
+msgid ":ref:`float<class_float>` **angular_velocity**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:106
+#: ../classes/class_physics2ddirectbodystate.rst:144
+#: ../classes/class_physics2ddirectbodystate.rst:158
+#: ../classes/class_physics2ddirectbodystate.rst:220
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:106
+msgid "set_angular_velocity(value)"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:108
+#: ../classes/class_physics2ddirectbodystate.rst:120
+#: ../classes/class_physics2ddirectbodystate.rst:132
+#: ../classes/class_physics2ddirectbodystate.rst:146
+#: ../classes/class_physics2ddirectbodystate.rst:160
+#: ../classes/class_physics2ddirectbodystate.rst:172
+#: ../classes/class_physics2ddirectbodystate.rst:184
+#: ../classes/class_physics2ddirectbodystate.rst:196
+#: ../classes/class_physics2ddirectbodystate.rst:208
+#: ../classes/class_physics2ddirectbodystate.rst:222
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:108
+msgid "get_angular_velocity()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:111
+msgid "物体的旋转速度，单位为\\ *弧度*\\ 每秒。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:117
+msgid ":ref:`float<class_float>` **inverse_inertia**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:120
+msgid "get_inverse_inertia()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:123
+msgid "物体惯性的倒数。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:129
+msgid ":ref:`float<class_float>` **inverse_mass**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:132
+msgid "get_inverse_mass()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:135
+msgid "物体质量的倒数。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:141
+msgid ":ref:`Vector2<class_Vector2>` **linear_velocity**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:144
+msgid "set_linear_velocity(value)"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:146
+msgid "get_linear_velocity()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:149
+msgid "物体的线性速度，单位为像素每秒。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:155
+msgid ":ref:`bool<class_bool>` **sleeping**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:158
+msgid "set_sleep_state(value)"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:160
+msgid "is_sleeping()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:163
+msgid "如果\\ ``true``\\ ，则该物体当前处于睡眠状态(不活动)。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:169
+msgid ":ref:`float<class_float>` **step**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:172
+msgid "get_step()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:175
+msgid "用于模拟的时间步长(delta)。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:181
+msgid ":ref:`float<class_float>` **total_angular_damp**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:184
+msgid "get_total_angular_damp()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:187
+msgid "物体停止转动的速度，如果没有任何其他力使它运动。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:193
+msgid ":ref:`Vector2<class_Vector2>` **total_gravity**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:196
+msgid "get_total_gravity()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:199
+msgid "这个物体上的总重力向量。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:205
+msgid ":ref:`float<class_float>` **total_linear_damp**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:208
+msgid "get_total_linear_damp()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:211
+msgid "物体停止运动的速率，如果没有任何其他力使它运动。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:217
+msgid ":ref:`Transform2D<class_Transform2D>` **transform**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:220
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:222
+msgid "get_transform()"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:225
+msgid "物体的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:228
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:232
+msgid "void **add_central_force** **(** :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:234
+msgid "增加一个恒定的方向力，而不影响旋转。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:240
+msgid "void **add_force** **(** :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:242
+msgid "向实体添加有作用点的力。力和相对于主体原点的偏移都在全局坐标中。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:248
+msgid "void **add_torque** **(** :ref:`float<class_float>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:250
+msgid "添加恒定的旋转力。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:256
+msgid "void **apply_central_impulse** **(** :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:258
+msgid "在不影响旋转的情况下施加一个方向性的冲量。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:264
+msgid "void **apply_impulse** **(** :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:266
+msgid "向物体施加有作用点的冲量。冲量是独立于时间的！每一帧施加一个冲量将导致一个与帧率相关的力。出于这个原因，它应该只用于模拟一次性的影响（否则使用“_force”函数）。偏移量使用了全局坐标系的旋转，但是以物体的原点为中心。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:272
+msgid "void **apply_torque_impulse** **(** :ref:`float<class_float>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:274
+msgid "对物体施加旋转冲量。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:280
+msgid ":ref:`RID<class_RID>` **get_contact_collider** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:282
+msgid "返回碰撞体的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:288
+msgid ":ref:`int<class_int>` **get_contact_collider_id** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:290
+msgid "返回碰撞体的对象id。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:296
+msgid ":ref:`Object<class_Object>` **get_contact_collider_object** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:298
+msgid "返回碰撞体对象。这取决于它是如何创建的（如果是被作为场景节点创建的，那么将返回场景节点）。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:304
+msgid ":ref:`Vector2<class_Vector2>` **get_contact_collider_position** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:306
+msgid "返回碰撞体中的接触位置。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:312
+msgid ":ref:`int<class_int>` **get_contact_collider_shape** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:314
+msgid "返回碰撞体的形状索引。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:320
+msgid ":ref:`Variant<class_Variant>` **get_contact_collider_shape_metadata** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:322
+msgid "返回碰撞形状的元数据。这个元数据不同于\\ :ref:`Object.get_meta<class_Object_method_get_meta>`\\ ，是用\\ :ref:`Physics2DServer.shape_set_data<class_Physics2DServer_method_shape_set_data>`\\ 设置的。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:328
+msgid ":ref:`Vector2<class_Vector2>` **get_contact_collider_velocity_at_position** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:330
+msgid "返回碰撞体接触点处的线速度向量。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:336
+msgid ":ref:`int<class_int>` **get_contact_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:338
+msgid "返回此物体与其他物体的接触次数。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:340
+msgid "\\ **注意：**\\ 默认情况下，除非物体被设为监视接触者，否则返回0。参阅 :ref:`RigidBody2D.contact_monitor<class_RigidBody2D_property_contact_monitor>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:346
+msgid ":ref:`Vector2<class_Vector2>` **get_contact_local_normal** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:348
+msgid "返回接触点处的局部法线。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:354
+msgid ":ref:`Vector2<class_Vector2>` **get_contact_local_position** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:356
+msgid "返回接触点的局部坐标系下的位置。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:362
+msgid ":ref:`int<class_int>` **get_contact_local_shape** **(** :ref:`int<class_int>` contact_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:364
+msgid "返回碰撞的局部坐标系下的形状索引。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:370
+msgid ":ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>` **get_space_state** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:372
+msgid "返回空间的当前状态，这对查询很有用。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:378
+msgid ":ref:`Vector2<class_Vector2>` **get_velocity_at_local_position** **(** :ref:`Vector2<class_Vector2>` local_position **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:380
+msgid "返回给定相对位置的物体速度，包括平移和旋转。"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:386
+msgid "void **integrate_forces** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2ddirectbodystate.rst:388
+msgid "调用内置的力集成代码。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationnodeblend3.rst:10
+msgid "AnimationNodeBlend3"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:12
+msgid "**Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:14
+msgid "在 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 中将三个动画中的两个进行线性混合。"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:19
+msgid "添加到 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的资源。根据\\ ``[-1.0，1.0]``\\ 范围内的值，将三个动画中的两个动画线性地混合在一起。"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:21
+msgid "这个节点有三个输入。"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:23
+msgid "基础动画"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:25
+msgid "当混合量在\\ ``[-1.0，0.0]``\\ 范围内时，使用-混合动画进行混合。"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:27
+msgid "当混合量在\\ ``[0.0，1.0]``\\ 范围内时，要使用+混合动画进行混合"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:30
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:32
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:38
+msgid ":ref:`sync<class_AnimationNodeBlend3_property_sync>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:38
+#: ../classes/class_animationnodeblend3.rst:49
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:42
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:46
+msgid ":ref:`bool<class_bool>` **sync**"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:49
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:51
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:51
+msgid "set_use_sync(value)"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:53
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:53
+msgid "is_using_sync()"
+msgstr ""
+
+#: ../classes/class_animationnodeblend3.rst:56
+msgid "如果\\ ``true``\\ ，在调用\\ :ref:`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`\\ 时，将\\ ``optimization`` to\\ ``false``\\ ，强制混合后的动画每一帧更新。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,811 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_label3d.rst:11
+msgid "Label3D"
+msgstr ""
+
+#: ../classes/class_label3d.rst:13
+msgid "**Inherits:** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:15
+msgid "Displays plain text in a 3D world."
+msgstr ""
+
+#: ../classes/class_label3d.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_label3d.rst:20
+msgid "Label3D displays plain text in a 3D world. It gives you control over the horizontal and vertical alignment."
+msgstr ""
+
+#: ../classes/class_label3d.rst:23
+msgid "Properties"
+msgstr ""
+
+#: ../classes/class_label3d.rst:26
+msgid ":ref:`AlphaCutMode<enum_Label3D_AlphaCutMode>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:26
+msgid ":ref:`alpha_cut<class_Label3D_property_alpha_cut>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:26
+#: ../classes/class_label3d.rst:32
+#: ../classes/class_label3d.rst:56
+#: ../classes/class_label3d.rst:183
+#: ../classes/class_label3d.rst:231
+#: ../classes/class_label3d.rst:425
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:28
+#: ../classes/class_label3d.rst:42
+#: ../classes/class_label3d.rst:54
+#: ../classes/class_label3d.rst:66
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:28
+msgid ":ref:`alpha_scissor_threshold<class_Label3D_property_alpha_scissor_threshold>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:28
+#: ../classes/class_label3d.rst:199
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:30
+#: ../classes/class_label3d.rst:34
+#: ../classes/class_label3d.rst:36
+#: ../classes/class_label3d.rst:46
+#: ../classes/class_label3d.rst:58
+#: ../classes/class_label3d.rst:62
+#: ../classes/class_label3d.rst:75
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:30
+msgid ":ref:`autowrap<class_Label3D_property_autowrap>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:30
+#: ../classes/class_label3d.rst:36
+#: ../classes/class_label3d.rst:46
+#: ../classes/class_label3d.rst:58
+#: ../classes/class_label3d.rst:62
+#: ../classes/class_label3d.rst:215
+#: ../classes/class_label3d.rst:263
+#: ../classes/class_label3d.rst:341
+#: ../classes/class_label3d.rst:445
+#: ../classes/class_label3d.rst:477
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:32
+msgid ":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:32
+msgid ":ref:`billboard<class_Label3D_property_billboard>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:34
+msgid ":ref:`double_sided<class_Label3D_property_double_sided>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:34
+#: ../classes/class_label3d.rst:247
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:36
+msgid ":ref:`fixed_size<class_Label3D_property_fixed_size>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:38
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:38
+msgid ":ref:`font<class_Label3D_property_font>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:40
+msgid ":ref:`Align<enum_Label3D_Align>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:40
+msgid ":ref:`horizontal_alignment<class_Label3D_property_horizontal_alignment>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:40
+#: ../classes/class_label3d.rst:64
+#: ../classes/class_label3d.rst:293
+#: ../classes/class_label3d.rst:493
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:42
+msgid ":ref:`line_spacing<class_Label3D_property_line_spacing>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:42
+#: ../classes/class_label3d.rst:309
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:44
+#: ../classes/class_label3d.rst:50
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:44
+msgid ":ref:`modulate<class_Label3D_property_modulate>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:44
+#: ../classes/class_label3d.rst:325
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:46
+msgid ":ref:`no_depth_test<class_Label3D_property_no_depth_test>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:48
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:48
+msgid ":ref:`offset<class_Label3D_property_offset>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:48
+#: ../classes/class_label3d.rst:357
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:50
+msgid ":ref:`outline_modulate<class_Label3D_property_outline_modulate>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:50
+#: ../classes/class_label3d.rst:373
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:52
+#: ../classes/class_label3d.rst:56
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:52
+msgid ":ref:`outline_render_priority<class_Label3D_property_outline_render_priority>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:52
+#: ../classes/class_label3d.rst:389
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:54
+msgid ":ref:`pixel_size<class_Label3D_property_pixel_size>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:54
+#: ../classes/class_label3d.rst:409
+msgid "``0.01``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:56
+msgid ":ref:`render_priority<class_Label3D_property_render_priority>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:58
+msgid ":ref:`shaded<class_Label3D_property_shaded>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:60
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:60
+msgid ":ref:`text<class_Label3D_property_text>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:60
+#: ../classes/class_label3d.rst:461
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:62
+msgid ":ref:`uppercase<class_Label3D_property_uppercase>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:64
+msgid ":ref:`VAlign<enum_Label3D_VAlign>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:64
+msgid ":ref:`vertical_alignment<class_Label3D_property_vertical_alignment>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:66
+msgid ":ref:`width<class_Label3D_property_width>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:66
+#: ../classes/class_label3d.rst:509
+msgid "``500.0``"
+msgstr ""
+
+#: ../classes/class_label3d.rst:70
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_label3d.rst:73
+msgid ":ref:`TriangleMesh<class_TriangleMesh>`"
+msgstr ""
+
+#: ../classes/class_label3d.rst:73
+msgid ":ref:`generate_triangle_mesh<class_Label3D_method_generate_triangle_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label3d.rst:75
+msgid ":ref:`get_draw_flag<class_Label3D_method_get_draw_flag>` **(** :ref:`DrawFlags<enum_Label3D_DrawFlags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_label3d.rst:77
+msgid "void"
+msgstr ""
+
+#: ../classes/class_label3d.rst:77
+msgid ":ref:`set_draw_flag<class_Label3D_method_set_draw_flag>` **(** :ref:`DrawFlags<enum_Label3D_DrawFlags>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:81
+msgid "Enumerations"
+msgstr ""
+
+#: ../classes/class_label3d.rst:95
+msgid "enum **DrawFlags**:"
+msgstr ""
+
+#: ../classes/class_label3d.rst:97
+msgid "**FLAG_SHADED** = **0** --- If set, lights in the environment affect the label."
+msgstr ""
+
+#: ../classes/class_label3d.rst:99
+msgid "**FLAG_DOUBLE_SIDED** = **1** --- If set, text can be seen from the back as well. If not, the text is invisible when looking at it from behind."
+msgstr ""
+
+#: ../classes/class_label3d.rst:101
+msgid "**FLAG_DISABLE_DEPTH_TEST** = **2** --- Disables the depth test, so this object is drawn on top of all others. However, objects drawn after it in the draw order may cover it."
+msgstr ""
+
+#: ../classes/class_label3d.rst:103
+msgid "**FLAG_FIXED_SIZE** = **3** --- Label is scaled by depth so that it always appears the same size on screen."
+msgstr ""
+
+#: ../classes/class_label3d.rst:105
+msgid "**FLAG_MAX** = **4** --- Represents the size of the :ref:`DrawFlags<enum_Label3D_DrawFlags>` enum."
+msgstr ""
+
+#: ../classes/class_label3d.rst:117
+msgid "enum **AlphaCutMode**:"
+msgstr ""
+
+#: ../classes/class_label3d.rst:119
+msgid "**ALPHA_CUT_DISABLED** = **0** --- This mode performs standard alpha blending. It can display translucent areas, but transparency sorting issues may be visible when multiple transparent materials are overlapping."
+msgstr ""
+
+#: ../classes/class_label3d.rst:121
+msgid "**ALPHA_CUT_DISCARD** = **1** --- This mode only allows fully transparent or fully opaque pixels. This mode is also known as *alpha testing* or *1-bit transparency*."
+msgstr ""
+
+#: ../classes/class_label3d.rst:123
+msgid "\\ **Note:** This mode might have issues with anti-aliased fonts and outlines, try adjusting :ref:`alpha_scissor_threshold<class_Label3D_property_alpha_scissor_threshold>` or using SDF font."
+msgstr ""
+
+#: ../classes/class_label3d.rst:125
+#: ../classes/class_label3d.rst:129
+msgid "\\ **Note:** When using text with overlapping glyphs (e.g., cursive scripts), this mode might have transparency sorting issues between the main text and the outline."
+msgstr ""
+
+#: ../classes/class_label3d.rst:127
+msgid "**ALPHA_CUT_OPAQUE_PREPASS** = **2** --- This mode draws fully opaque pixels in the depth prepass. This is slower than :ref:`ALPHA_CUT_DISABLED<class_Label3D_constant_ALPHA_CUT_DISABLED>` or :ref:`ALPHA_CUT_DISCARD<class_Label3D_constant_ALPHA_CUT_DISCARD>`, but it allows displaying translucent areas and smooth edges while using proper sorting."
+msgstr ""
+
+#: ../classes/class_label3d.rst:143
+msgid "enum **Align**:"
+msgstr ""
+
+#: ../classes/class_label3d.rst:145
+msgid "**ALIGN_LEFT** = **0** --- Align rows to the left (default)."
+msgstr ""
+
+#: ../classes/class_label3d.rst:147
+msgid "**ALIGN_CENTER** = **1** --- Align rows centered."
+msgstr ""
+
+#: ../classes/class_label3d.rst:149
+msgid "**ALIGN_RIGHT** = **2** --- Align rows to the right."
+msgstr ""
+
+#: ../classes/class_label3d.rst:151
+msgid "**ALIGN_FILL** = **3** --- Expand row whitespaces to fit the width."
+msgstr ""
+
+#: ../classes/class_label3d.rst:165
+msgid "enum **VAlign**:"
+msgstr ""
+
+#: ../classes/class_label3d.rst:167
+msgid "**VALIGN_TOP** = **0** --- Align the whole text to the top."
+msgstr ""
+
+#: ../classes/class_label3d.rst:169
+msgid "**VALIGN_CENTER** = **1** --- Align the whole text to the center."
+msgstr ""
+
+#: ../classes/class_label3d.rst:171
+msgid "**VALIGN_BOTTOM** = **2** --- Align the whole text to the bottom."
+msgstr ""
+
+#: ../classes/class_label3d.rst:173
+msgid "**VALIGN_FILL** = **3** --- Align the whole text by spreading the rows."
+msgstr ""
+
+#: ../classes/class_label3d.rst:176
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../classes/class_label3d.rst:180
+msgid ":ref:`AlphaCutMode<enum_Label3D_AlphaCutMode>` **alpha_cut**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:183
+#: ../classes/class_label3d.rst:199
+#: ../classes/class_label3d.rst:215
+#: ../classes/class_label3d.rst:231
+#: ../classes/class_label3d.rst:247
+#: ../classes/class_label3d.rst:263
+#: ../classes/class_label3d.rst:293
+#: ../classes/class_label3d.rst:309
+#: ../classes/class_label3d.rst:325
+#: ../classes/class_label3d.rst:341
+#: ../classes/class_label3d.rst:357
+#: ../classes/class_label3d.rst:373
+#: ../classes/class_label3d.rst:389
+#: ../classes/class_label3d.rst:409
+#: ../classes/class_label3d.rst:425
+#: ../classes/class_label3d.rst:445
+#: ../classes/class_label3d.rst:461
+#: ../classes/class_label3d.rst:477
+#: ../classes/class_label3d.rst:493
+#: ../classes/class_label3d.rst:509
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_label3d.rst:185
+#: ../classes/class_label3d.rst:201
+#: ../classes/class_label3d.rst:217
+#: ../classes/class_label3d.rst:233
+#: ../classes/class_label3d.rst:249
+#: ../classes/class_label3d.rst:265
+#: ../classes/class_label3d.rst:279
+#: ../classes/class_label3d.rst:295
+#: ../classes/class_label3d.rst:311
+#: ../classes/class_label3d.rst:327
+#: ../classes/class_label3d.rst:343
+#: ../classes/class_label3d.rst:359
+#: ../classes/class_label3d.rst:375
+#: ../classes/class_label3d.rst:391
+#: ../classes/class_label3d.rst:411
+#: ../classes/class_label3d.rst:427
+#: ../classes/class_label3d.rst:447
+#: ../classes/class_label3d.rst:463
+#: ../classes/class_label3d.rst:479
+#: ../classes/class_label3d.rst:495
+#: ../classes/class_label3d.rst:511
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_label3d.rst:185
+msgid "set_alpha_cut_mode(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:187
+#: ../classes/class_label3d.rst:203
+#: ../classes/class_label3d.rst:219
+#: ../classes/class_label3d.rst:235
+#: ../classes/class_label3d.rst:251
+#: ../classes/class_label3d.rst:267
+#: ../classes/class_label3d.rst:281
+#: ../classes/class_label3d.rst:297
+#: ../classes/class_label3d.rst:313
+#: ../classes/class_label3d.rst:329
+#: ../classes/class_label3d.rst:345
+#: ../classes/class_label3d.rst:361
+#: ../classes/class_label3d.rst:377
+#: ../classes/class_label3d.rst:393
+#: ../classes/class_label3d.rst:413
+#: ../classes/class_label3d.rst:429
+#: ../classes/class_label3d.rst:449
+#: ../classes/class_label3d.rst:465
+#: ../classes/class_label3d.rst:481
+#: ../classes/class_label3d.rst:497
+#: ../classes/class_label3d.rst:513
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_label3d.rst:187
+msgid "get_alpha_cut_mode()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:190
+msgid "The alpha cutting mode to use for the sprite. See :ref:`AlphaCutMode<enum_Label3D_AlphaCutMode>` for possible values."
+msgstr ""
+
+#: ../classes/class_label3d.rst:196
+msgid ":ref:`float<class_float>` **alpha_scissor_threshold**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:201
+msgid "set_alpha_scissor_threshold(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:203
+msgid "get_alpha_scissor_threshold()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:206
+msgid "Threshold at which the alpha scissor will discard values."
+msgstr ""
+
+#: ../classes/class_label3d.rst:212
+msgid ":ref:`bool<class_bool>` **autowrap**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:217
+msgid "set_autowrap(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:219
+msgid "get_autowrap()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:222
+msgid "If ``true``, wraps the text to the :ref:`width<class_Label3D_property_width>`."
+msgstr ""
+
+#: ../classes/class_label3d.rst:228
+msgid ":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>` **billboard**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:233
+msgid "set_billboard_mode(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:235
+msgid "get_billboard_mode()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:238
+msgid "The billboard mode to use for the label. See :ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>` for possible values."
+msgstr ""
+
+#: ../classes/class_label3d.rst:244
+msgid ":ref:`bool<class_bool>` **double_sided**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:249
+#: ../classes/class_label3d.rst:265
+#: ../classes/class_label3d.rst:343
+#: ../classes/class_label3d.rst:447
+msgid "set_draw_flag(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:251
+#: ../classes/class_label3d.rst:267
+#: ../classes/class_label3d.rst:345
+#: ../classes/class_label3d.rst:449
+msgid "get_draw_flag()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:254
+msgid "If ``true``, text can be seen from the back as well, if ``false``, it is invisible when looking at it from behind."
+msgstr ""
+
+#: ../classes/class_label3d.rst:260
+msgid ":ref:`bool<class_bool>` **fixed_size**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:270
+msgid "If ``true``, the label is rendered at the same size regardless of distance."
+msgstr ""
+
+#: ../classes/class_label3d.rst:276
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:279
+msgid "set_font(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:281
+msgid "get_font()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:284
+msgid ":ref:`Font<class_Font>` used for the ``Label3D``'s text."
+msgstr ""
+
+#: ../classes/class_label3d.rst:290
+msgid ":ref:`Align<enum_Label3D_Align>` **horizontal_alignment**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:295
+msgid "set_horizontal_alignment(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:297
+msgid "get_horizontal_alignment()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:300
+msgid "Controls the text's horizontal alignment. Supports left, center, right. Set it to one of the :ref:`Align<enum_Label3D_Align>` constants."
+msgstr ""
+
+#: ../classes/class_label3d.rst:306
+msgid ":ref:`float<class_float>` **line_spacing**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:311
+msgid "set_line_spacing(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:313
+msgid "get_line_spacing()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:316
+msgid "Vertical space between lines in multiline ``Label3D``."
+msgstr ""
+
+#: ../classes/class_label3d.rst:322
+msgid ":ref:`Color<class_Color>` **modulate**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:327
+msgid "set_modulate(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:329
+msgid "get_modulate()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:332
+msgid "Text :ref:`Color<class_Color>` of the ``Label3D``."
+msgstr ""
+
+#: ../classes/class_label3d.rst:338
+msgid ":ref:`bool<class_bool>` **no_depth_test**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:348
+msgid "If ``true``, depth testing is disabled and the object will be drawn in render order."
+msgstr ""
+
+#: ../classes/class_label3d.rst:354
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:359
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:361
+msgid "get_offset()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:364
+msgid "The text drawing offset (in pixels)."
+msgstr ""
+
+#: ../classes/class_label3d.rst:370
+msgid ":ref:`Color<class_Color>` **outline_modulate**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:375
+msgid "set_outline_modulate(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:377
+msgid "get_outline_modulate()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:380
+msgid "The tint of :ref:`Font<class_Font>`'s outline."
+msgstr ""
+
+#: ../classes/class_label3d.rst:386
+msgid ":ref:`int<class_int>` **outline_render_priority**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:391
+msgid "set_outline_render_priority(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:393
+msgid "get_outline_render_priority()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:396
+msgid "Sets the render priority for the text outline. Higher priority objects will be sorted in front of lower priority objects."
+msgstr ""
+
+#: ../classes/class_label3d.rst:398
+#: ../classes/class_label3d.rst:434
+msgid "\\ **Note:** This only applies if :ref:`alpha_cut<class_Label3D_property_alpha_cut>` is set to :ref:`ALPHA_CUT_DISABLED<class_Label3D_constant_ALPHA_CUT_DISABLED>` (default value)."
+msgstr ""
+
+#: ../classes/class_label3d.rst:400
+#: ../classes/class_label3d.rst:436
+msgid "\\ **Note:** This only applies to sorting of transparent objects. This will not impact how transparent objects are sorted relative to opaque objects. This is because opaque objects are not sorted, while transparent objects are sorted from back to front (subject to priority)."
+msgstr ""
+
+#: ../classes/class_label3d.rst:406
+msgid ":ref:`float<class_float>` **pixel_size**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:411
+msgid "set_pixel_size(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:413
+msgid "get_pixel_size()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:416
+msgid "The size of one pixel's width on the label to scale it in 3D."
+msgstr ""
+
+#: ../classes/class_label3d.rst:422
+msgid ":ref:`int<class_int>` **render_priority**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:427
+msgid "set_render_priority(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:429
+msgid "get_render_priority()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:432
+msgid "Sets the render priority for the text. Higher priority objects will be sorted in front of lower priority objects."
+msgstr ""
+
+#: ../classes/class_label3d.rst:442
+msgid ":ref:`bool<class_bool>` **shaded**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:452
+msgid "If ``true``, the :ref:`Light<class_Light>` in the :ref:`Environment<class_Environment>` has effects on the label."
+msgstr ""
+
+#: ../classes/class_label3d.rst:458
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:463
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:465
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:468
+msgid "The text to display on screen."
+msgstr ""
+
+#: ../classes/class_label3d.rst:474
+msgid ":ref:`bool<class_bool>` **uppercase**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:479
+msgid "set_uppercase(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:481
+msgid "is_uppercase()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:484
+msgid "If ``true``, all the text displays as UPPERCASE."
+msgstr ""
+
+#: ../classes/class_label3d.rst:490
+msgid ":ref:`VAlign<enum_Label3D_VAlign>` **vertical_alignment**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:495
+msgid "set_vertical_alignment(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:497
+msgid "get_vertical_alignment()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:500
+msgid "Controls the text's vertical alignment. Supports top, center, bottom. Set it to one of the :ref:`VAlign<enum_Label3D_VAlign>` constants."
+msgstr ""
+
+#: ../classes/class_label3d.rst:506
+msgid ":ref:`float<class_float>` **width**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:511
+msgid "set_width(value)"
+msgstr ""
+
+#: ../classes/class_label3d.rst:513
+msgid "get_width()"
+msgstr ""
+
+#: ../classes/class_label3d.rst:516
+msgid "Text width (in pixels), used for autowrap and fill alignment."
+msgstr ""
+
+#: ../classes/class_label3d.rst:519
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_label3d.rst:523
+msgid ":ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_label3d.rst:525
+msgid "Returns a :ref:`TriangleMesh<class_TriangleMesh>` with the label's vertices following its current configuration (such as its :ref:`pixel_size<class_Label3D_property_pixel_size>`)."
+msgstr ""
+
+#: ../classes/class_label3d.rst:531
+msgid ":ref:`bool<class_bool>` **get_draw_flag** **(** :ref:`DrawFlags<enum_Label3D_DrawFlags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_label3d.rst:533
+msgid "Returns the value of the specified flag."
+msgstr ""
+
+#: ../classes/class_label3d.rst:539
+msgid "void **set_draw_flag** **(** :ref:`DrawFlags<enum_Label3D_DrawFlags>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_label3d.rst:541
+msgid "If ``true``, the specified flag will be enabled. See :ref:`DrawFlags<enum_Label3D_DrawFlags>` for a list of flags."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,497 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_button.rst:10
+msgid "Button"
+msgstr ""
+
+#: ../classes/class_button.rst:12
+msgid "**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_button.rst:14
+msgid "**Inherited By:** :ref:`CheckBox<class_CheckBox>`, :ref:`CheckButton<class_CheckButton>`, :ref:`ColorPickerButton<class_ColorPickerButton>`, :ref:`MenuButton<class_MenuButton>`, :ref:`OptionButton<class_OptionButton>`, :ref:`ToolButton<class_ToolButton>`"
+msgstr ""
+
+#: ../classes/class_button.rst:16
+msgid "标准主题按钮。"
+msgstr ""
+
+#: ../classes/class_button.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_button.rst:21
+msgid "标准的主题按钮。它可以包含文字和图标，并根据当前的 :ref:`Theme<class_Theme>`\\ 显示。"
+msgstr ""
+
+#: ../classes/class_button.rst:23
+msgid "\\ **创建按钮并在按下代码时配置动作的示例：**\\"
+msgstr ""
+
+#: ../classes/class_button.rst:36
+msgid "按钮像所有控件节点一样，也可以在编辑器中创建，但在某些情况下可能需要从代码中创建。"
+msgstr ""
+
+#: ../classes/class_button.rst:38
+msgid "参阅 :ref:`BaseButton<class_BaseButton>`\\ ，其中包括与此节点相关的通用属性和方法。"
+msgstr ""
+
+#: ../classes/class_button.rst:40
+msgid "\\ **注意：** 按钮不处理触摸输入，因此不支持多点触控，因为模拟鼠标在给定时间只能按下一个按钮。将 :ref:`TouchScreenButton<class_TouchScreenButton>` 用于触发游戏移动或动作的按钮，因为 :ref:`TouchScreenButton<class_TouchScreenButton>` 支持多点触控。"
+msgstr ""
+
+#: ../classes/class_button.rst:43
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_button.rst:45
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_button.rst:47
+msgid "`OS Test Demo <https://godotengine.org/asset-library/asset/677>`__"
+msgstr ""
+
+#: ../classes/class_button.rst:50
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_button.rst:53
+msgid ":ref:`TextAlign<enum_Button_TextAlign>`"
+msgstr ""
+
+#: ../classes/class_button.rst:53
+msgid ":ref:`align<class_Button_property_align>`"
+msgstr ""
+
+#: ../classes/class_button.rst:53
+#: ../classes/class_button.rst:122
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_button.rst:55
+#: ../classes/class_button.rst:57
+#: ../classes/class_button.rst:59
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_button.rst:55
+msgid ":ref:`clip_text<class_Button_property_clip_text>`"
+msgstr ""
+
+#: ../classes/class_button.rst:55
+#: ../classes/class_button.rst:57
+#: ../classes/class_button.rst:59
+#: ../classes/class_button.rst:138
+#: ../classes/class_button.rst:154
+#: ../classes/class_button.rst:170
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_button.rst:57
+msgid ":ref:`expand_icon<class_Button_property_expand_icon>`"
+msgstr ""
+
+#: ../classes/class_button.rst:59
+msgid ":ref:`flat<class_Button_property_flat>`"
+msgstr ""
+
+#: ../classes/class_button.rst:61
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_button.rst:61
+msgid ":ref:`icon<class_Button_property_icon>`"
+msgstr ""
+
+#: ../classes/class_button.rst:63
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_button.rst:63
+msgid ":ref:`text<class_Button_property_text>`"
+msgstr ""
+
+#: ../classes/class_button.rst:63
+#: ../classes/class_button.rst:202
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_button.rst:67
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_button.rst:70
+#: ../classes/class_button.rst:72
+#: ../classes/class_button.rst:74
+#: ../classes/class_button.rst:76
+#: ../classes/class_button.rst:78
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_button.rst:70
+msgid ":ref:`font_color<class_Button_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_button.rst:70
+#: ../classes/class_button.rst:219
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_button.rst:72
+msgid ":ref:`font_color_disabled<class_Button_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_button.rst:72
+#: ../classes/class_button.rst:231
+msgid "``Color( 0.9, 0.9, 0.9, 0.2 )``"
+msgstr ""
+
+#: ../classes/class_button.rst:74
+msgid ":ref:`font_color_focus<class_Button_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_button.rst:74
+#: ../classes/class_button.rst:76
+#: ../classes/class_button.rst:243
+#: ../classes/class_button.rst:255
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_button.rst:76
+msgid ":ref:`font_color_hover<class_Button_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_button.rst:78
+msgid ":ref:`font_color_pressed<class_Button_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_button.rst:78
+#: ../classes/class_button.rst:267
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_button.rst:80
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_button.rst:80
+msgid ":ref:`hseparation<class_Button_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_button.rst:80
+#: ../classes/class_button.rst:279
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_button.rst:82
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_button.rst:82
+msgid ":ref:`font<class_Button_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_button.rst:84
+#: ../classes/class_button.rst:86
+#: ../classes/class_button.rst:88
+#: ../classes/class_button.rst:90
+#: ../classes/class_button.rst:92
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_button.rst:84
+msgid ":ref:`disabled<class_Button_theme_style_disabled>`"
+msgstr ""
+
+#: ../classes/class_button.rst:86
+msgid ":ref:`focus<class_Button_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_button.rst:88
+msgid ":ref:`hover<class_Button_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_button.rst:90
+msgid ":ref:`normal<class_Button_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_button.rst:92
+msgid ":ref:`pressed<class_Button_theme_style_pressed>`"
+msgstr ""
+
+#: ../classes/class_button.rst:96
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_button.rst:106
+msgid "enum **TextAlign**:"
+msgstr ""
+
+#: ../classes/class_button.rst:108
+msgid "**ALIGN_LEFT** = **0** --- 将文本向左对齐。"
+msgstr ""
+
+#: ../classes/class_button.rst:110
+msgid "**ALIGN_CENTER** = **1** --- 将文本居中对齐。。"
+msgstr ""
+
+#: ../classes/class_button.rst:112
+msgid "**ALIGN_RIGHT** = **2** --- 将文本向右对齐。"
+msgstr ""
+
+#: ../classes/class_button.rst:115
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_button.rst:119
+msgid ":ref:`TextAlign<enum_Button_TextAlign>` **align**"
+msgstr ""
+
+#: ../classes/class_button.rst:122
+#: ../classes/class_button.rst:138
+#: ../classes/class_button.rst:154
+#: ../classes/class_button.rst:170
+#: ../classes/class_button.rst:202
+#: ../classes/class_button.rst:219
+#: ../classes/class_button.rst:231
+#: ../classes/class_button.rst:243
+#: ../classes/class_button.rst:255
+#: ../classes/class_button.rst:267
+#: ../classes/class_button.rst:279
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_button.rst:124
+#: ../classes/class_button.rst:140
+#: ../classes/class_button.rst:156
+#: ../classes/class_button.rst:172
+#: ../classes/class_button.rst:186
+#: ../classes/class_button.rst:204
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_button.rst:124
+msgid "set_text_align(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:126
+#: ../classes/class_button.rst:142
+#: ../classes/class_button.rst:158
+#: ../classes/class_button.rst:174
+#: ../classes/class_button.rst:188
+#: ../classes/class_button.rst:206
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_button.rst:126
+msgid "get_text_align()"
+msgstr ""
+
+#: ../classes/class_button.rst:129
+msgid "按钮文本的文本对齐策略，使用\\ :ref:`TextAlign<enum_Button_TextAlign>`\\ 常量之一。"
+msgstr ""
+
+#: ../classes/class_button.rst:135
+msgid ":ref:`bool<class_bool>` **clip_text**"
+msgstr ""
+
+#: ../classes/class_button.rst:140
+msgid "set_clip_text(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:142
+msgid "get_clip_text()"
+msgstr ""
+
+#: ../classes/class_button.rst:145
+msgid "当此属性被启用时，过大而无法容纳按钮的文本会被剪掉，当被禁用时，按钮将始终有足够的宽度来容纳文本。"
+msgstr ""
+
+#: ../classes/class_button.rst:151
+msgid ":ref:`bool<class_bool>` **expand_icon**"
+msgstr ""
+
+#: ../classes/class_button.rst:156
+msgid "set_expand_icon(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:158
+msgid "is_expand_icon()"
+msgstr ""
+
+#: ../classes/class_button.rst:161
+msgid "启用后，按钮的图标将展开/收缩以适应按钮的大小，同时保持其外观。"
+msgstr ""
+
+#: ../classes/class_button.rst:167
+msgid ":ref:`bool<class_bool>` **flat**"
+msgstr ""
+
+#: ../classes/class_button.rst:172
+msgid "set_flat(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:174
+msgid "is_flat()"
+msgstr ""
+
+#: ../classes/class_button.rst:177
+msgid "平面按钮不显示装饰。"
+msgstr ""
+
+#: ../classes/class_button.rst:183
+msgid ":ref:`Texture<class_Texture>` **icon**"
+msgstr ""
+
+#: ../classes/class_button.rst:186
+msgid "set_button_icon(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:188
+msgid "get_button_icon()"
+msgstr ""
+
+#: ../classes/class_button.rst:191
+msgid "按钮的图标，存在文本时，图标会被放置于文本前方。"
+msgstr ""
+
+#: ../classes/class_button.rst:193
+msgid "如果想要编辑边距以及图标的间距，请使用 ``Button`` 的主题属性 ``hseparation`` 以及所使用的 :ref:`StyleBox<class_StyleBox>` 的 ``content_margin_*`` 属性。"
+msgstr ""
+
+#: ../classes/class_button.rst:199
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_button.rst:204
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_button.rst:206
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_button.rst:209
+msgid "按钮的文字，将显示在按钮的区域内。"
+msgstr ""
+
+#: ../classes/class_button.rst:212
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_button.rst:216
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_button.rst:222
+msgid "``Button``\\ 的默认文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:228
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_button.rst:234
+msgid "禁用\\ ``Button``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:240
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_button.rst:246
+msgid "当\\ ``Button``\\ 获得焦点时使用的文本\\ :ref:`Color<class_Color>`\\ 。只取代按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_button.rst:252
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_button.rst:258
+msgid "悬停\\ ``Button``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:264
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_button.rst:270
+msgid "正在按下 ``Button`` 时使用的文本 :ref:`Color<class_Color>` 。"
+msgstr ""
+
+#: ../classes/class_button.rst:276
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_button.rst:282
+msgid "``Button``\\ 的图标和文本之间的水平间距。"
+msgstr ""
+
+#: ../classes/class_button.rst:288
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_button.rst:290
+msgid "``Button``\\ 文本的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:296
+msgid ":ref:`StyleBox<class_StyleBox>` **disabled**"
+msgstr ""
+
+#: ../classes/class_button.rst:298
+msgid "当\\ ``Button``\\ 被禁用时，使用\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:304
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_button.rst:306
+msgid "当\\ ``Button``\\ 获得焦点时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。它显示在当前的\\ :ref:`StyleBox<class_StyleBox>`\\ 之上，所以使用\\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\\ 只是禁用焦点视觉效果。"
+msgstr ""
+
+#: ../classes/class_button.rst:312
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_button.rst:314
+msgid "悬停\\ ``Button``\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:320
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_button.rst:322
+msgid "``Button``\\ 的默认\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_button.rst:328
+msgid ":ref:`StyleBox<class_StyleBox>` **pressed**"
+msgstr ""
+
+#: ../classes/class_button.rst:330
+msgid "按下\\ ``Button``\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

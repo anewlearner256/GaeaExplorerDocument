@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_collisionshape.rst:10
+msgid "CollisionShape"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:14
+msgid "表示3D空间中的碰撞形状数据的节点。"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:19
+msgid "用于在 3D 空间中创建和编辑碰撞形状的编辑工具。您可以使用此节点表示各种碰撞形状，例如，将其添加到 :ref:`Area<class_Area>` 以使其具有检测形状，或将其添加到物理体 :ref:`PhysicsBody<class_PhysicsBody>` 以创建实体对象。\\ **重要**\\ ：这是一个编辑器专用的创建形状的助手，使用 :ref:`CollisionObject.shape_owner_get_shape<class_CollisionObject_method_shape_owner_get_shape>` 获取实际形状。"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:24
+msgid ":doc:`Physics introduction <../tutorials/physics/physics_introduction>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:26
+msgid "`3D Kinematic Character Demo <https://godotengine.org/asset-library/asset/126>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:28
+msgid "`3D Platformer Demo <https://godotengine.org/asset-library/asset/125>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:30
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:36
+msgid ":ref:`disabled<class_CollisionShape_property_disabled>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:36
+#: ../classes/class_collisionshape.rst:58
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:38
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:38
+msgid ":ref:`shape<class_CollisionShape_property_shape>`"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:42
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:45
+#: ../classes/class_collisionshape.rst:47
+msgid "void"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:45
+msgid ":ref:`make_convex_from_brothers<class_CollisionShape_method_make_convex_from_brothers>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:47
+msgid ":ref:`resource_changed<class_CollisionShape_method_resource_changed>` **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:51
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:55
+msgid ":ref:`bool<class_bool>` **disabled**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:58
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:60
+#: ../classes/class_collisionshape.rst:74
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:60
+msgid "set_disabled(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:62
+#: ../classes/class_collisionshape.rst:76
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:62
+msgid "is_disabled()"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:65
+msgid "禁用的碰撞形状对世界没有任何影响。"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:71
+msgid ":ref:`Shape<class_Shape>` **shape**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:74
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:76
+msgid "get_shape()"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:79
+msgid "该碰撞形状拥有的实际形状。"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:82
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:86
+msgid "void **make_convex_from_brothers** **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:88
+msgid "将碰撞形状的形状设置为其所有凸出的 :ref:`MeshInstance<class_MeshInstance>` 兄弟几何体的相加。"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:94
+msgid "void **resource_changed** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_collisionshape.rst:96
+msgid "如果脚本中存在此方法，则只要修改形状资源，就会调用该方法。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

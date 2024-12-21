@@ -1,0 +1,555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_networkedmultiplayerenet.rst:10
+msgid "NetworkedMultiplayerENet"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:12
+msgid "**Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:14
+msgid "使用\\ `ENet <http://enet.bespin.org/index.html>`__\\ 库实现PacketPeer。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:19
+msgid "一个 PacketPeer 实现，应该在初始化为客户端或服务器后传递给 :ref:`SceneTree.network_peer<class_SceneTree_property_network_peer>`\\ 。然后可以通过连接到 :ref:`SceneTree<class_SceneTree>` 信号来处理事件。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:21
+msgid "ENet 的目的是在 UDP（用户数据报协议）之上提供一个相对简单而健全的网络通信层。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:23
+msgid "\\ **注意：** ENet 只使用UDP，不使用TCP。转发服务器端口使您的服务器可以在公网上访问时，只需要将服务器端口转发为UDP即可。您可以使用 :ref:`UPNP<class_UPNP>` 类尝试在启动服务器时自动转发服务器端口。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:28
+msgid ":doc:`../tutorials/networking/high_level_multiplayer`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:30
+msgid "`http://enet.bespin.org/usergroup0.html <http://enet.bespin.org/usergroup0.html>`__"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:36
+#: ../classes/class_networkedmultiplayerenet.rst:44
+#: ../classes/class_networkedmultiplayerenet.rst:46
+#: ../classes/class_networkedmultiplayerenet.rst:48
+#: ../classes/class_networkedmultiplayerenet.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:36
+msgid ":ref:`always_ordered<class_NetworkedMultiplayerENet_property_always_ordered>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:36
+#: ../classes/class_networkedmultiplayerenet.rst:54
+#: ../classes/class_networkedmultiplayerenet.rst:121
+#: ../classes/class_networkedmultiplayerenet.rst:239
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:38
+#: ../classes/class_networkedmultiplayerenet.rst:50
+#: ../classes/class_networkedmultiplayerenet.rst:69
+#: ../classes/class_networkedmultiplayerenet.rst:71
+#: ../classes/class_networkedmultiplayerenet.rst:75
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:38
+msgid ":ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:38
+#: ../classes/class_networkedmultiplayerenet.rst:137
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:40
+msgid ":ref:`CompressionMode<enum_NetworkedMultiplayerENet_CompressionMode>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:40
+msgid ":ref:`compression_mode<class_NetworkedMultiplayerENet_property_compression_mode>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:40
+#: ../classes/class_networkedmultiplayerenet.rst:153
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:42
+#: ../classes/class_networkedmultiplayerenet.rst:73
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:42
+msgid ":ref:`dtls_hostname<class_NetworkedMultiplayerENet_property_dtls_hostname>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:42
+#: ../classes/class_networkedmultiplayerenet.rst:173
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:44
+msgid ":ref:`dtls_verify<class_NetworkedMultiplayerENet_property_dtls_verify>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:44
+#: ../classes/class_networkedmultiplayerenet.rst:48
+#: ../classes/class_networkedmultiplayerenet.rst:191
+#: ../classes/class_networkedmultiplayerenet.rst:207
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:46
+msgid "refuse_new_connections"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:46
+msgid "``false`` (overrides :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer_property_refuse_new_connections>`)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:48
+msgid ":ref:`server_relay<class_NetworkedMultiplayerENet_property_server_relay>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:50
+msgid ":ref:`transfer_channel<class_NetworkedMultiplayerENet_property_transfer_channel>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:50
+#: ../classes/class_networkedmultiplayerenet.rst:223
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:52
+msgid ":ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:52
+msgid "transfer_mode"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:52
+msgid "``2`` (overrides :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer_property_transfer_mode>`)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:54
+msgid ":ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:58
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:61
+#: ../classes/class_networkedmultiplayerenet.rst:67
+#: ../classes/class_networkedmultiplayerenet.rst:77
+#: ../classes/class_networkedmultiplayerenet.rst:79
+#: ../classes/class_networkedmultiplayerenet.rst:81
+#: ../classes/class_networkedmultiplayerenet.rst:83
+msgid "void"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:61
+msgid ":ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>` **(** :ref:`int<class_int>` wait_usec=100 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:63
+#: ../classes/class_networkedmultiplayerenet.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:63
+msgid ":ref:`create_client<class_NetworkedMultiplayerENet_method_create_client>` **(** :ref:`String<class_String>` address, :ref:`int<class_int>` port, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0, :ref:`int<class_int>` client_port=0 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:65
+msgid ":ref:`create_server<class_NetworkedMultiplayerENet_method_create_server>` **(** :ref:`int<class_int>` port, :ref:`int<class_int>` max_clients=32, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:67
+msgid ":ref:`disconnect_peer<class_NetworkedMultiplayerENet_method_disconnect_peer>` **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` now=false **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:69
+msgid ":ref:`get_last_packet_channel<class_NetworkedMultiplayerENet_method_get_last_packet_channel>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:71
+msgid ":ref:`get_packet_channel<class_NetworkedMultiplayerENet_method_get_packet_channel>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:73
+msgid ":ref:`get_peer_address<class_NetworkedMultiplayerENet_method_get_peer_address>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:75
+msgid ":ref:`get_peer_port<class_NetworkedMultiplayerENet_method_get_peer_port>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:77
+msgid ":ref:`set_bind_ip<class_NetworkedMultiplayerENet_method_set_bind_ip>` **(** :ref:`String<class_String>` ip **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:79
+msgid ":ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>` **(** :ref:`X509Certificate<class_X509Certificate>` certificate **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:81
+msgid ":ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>` **(** :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:83
+msgid ":ref:`set_peer_timeout<class_NetworkedMultiplayerENet_method_set_peer_timeout>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` timeout_limit, :ref:`int<class_int>` timeout_min, :ref:`int<class_int>` timeout_max **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:87
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:101
+msgid "enum **CompressionMode**:"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:103
+msgid "**COMPRESS_NONE** = **0** --- 无压缩。这使用最多的带宽，但具有占用最少 CPU 资源的好处。这个选项可以用于Wireshark等工具使用，更容易进行网络调试。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:105
+msgid "**COMPRESS_RANGE_CODER** = **1** --- ENet 的内置范围编码。适用于小数据包，但对于大于 4 KB 的数据包不是最有效的算法。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:107
+msgid "**COMPRESS_FASTLZ** = **2** --- `FastLZ <http://fastlz.org/>`__ 压缩。与 :ref:`COMPRESS_ZLIB<class_NetworkedMultiplayerENet_constant_COMPRESS_ZLIB>` 相比，该选项使用的 CPU 资源更少，但使用的带宽更多。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:109
+msgid "**COMPRESS_ZLIB** = **3** --- `Zlib <https://www.zlib.net/>`__\\ 压缩。与 :ref:`COMPRESS_FASTLZ<class_NetworkedMultiplayerENet_constant_COMPRESS_FASTLZ>` 相比，这个选项使用较少的带宽，但代价是使用更多的 CPU 资源。请注意，这种算法对小于4KB的数据包不是很有效。因此，建议在大多数情况下使用其他压缩算法。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:111
+msgid "**COMPRESS_ZSTD** = **4** --- `Zstandard <https://facebook.github.io/zstd/>`__\\ 压缩。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:114
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:118
+msgid ":ref:`bool<class_bool>` **always_ordered**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:121
+#: ../classes/class_networkedmultiplayerenet.rst:137
+#: ../classes/class_networkedmultiplayerenet.rst:153
+#: ../classes/class_networkedmultiplayerenet.rst:173
+#: ../classes/class_networkedmultiplayerenet.rst:191
+#: ../classes/class_networkedmultiplayerenet.rst:207
+#: ../classes/class_networkedmultiplayerenet.rst:223
+#: ../classes/class_networkedmultiplayerenet.rst:239
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:123
+#: ../classes/class_networkedmultiplayerenet.rst:139
+#: ../classes/class_networkedmultiplayerenet.rst:155
+#: ../classes/class_networkedmultiplayerenet.rst:175
+#: ../classes/class_networkedmultiplayerenet.rst:193
+#: ../classes/class_networkedmultiplayerenet.rst:209
+#: ../classes/class_networkedmultiplayerenet.rst:225
+#: ../classes/class_networkedmultiplayerenet.rst:241
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:123
+msgid "set_always_ordered(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:125
+#: ../classes/class_networkedmultiplayerenet.rst:141
+#: ../classes/class_networkedmultiplayerenet.rst:157
+#: ../classes/class_networkedmultiplayerenet.rst:177
+#: ../classes/class_networkedmultiplayerenet.rst:195
+#: ../classes/class_networkedmultiplayerenet.rst:211
+#: ../classes/class_networkedmultiplayerenet.rst:227
+#: ../classes/class_networkedmultiplayerenet.rst:243
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:125
+msgid "is_always_ordered()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:128
+msgid "在使用 :ref:`NetworkedMultiplayerPeer.TRANSFER_MODE_UNRELIABLE<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_UNRELIABLE>` 时强制命令包。（因此行为类似于 :ref:`NetworkedMultiplayerPeer.TRANSFER_MODE_UNRELIABLE_ORDERED<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_UNRELIABLE_ORDERED>`\\ ）。这是在 RPC 系统中使用排序的唯一方法。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:134
+msgid ":ref:`int<class_int>` **channel_count**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:139
+msgid "set_channel_count(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:141
+msgid "get_channel_count()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:144
+msgid "ENet要使用的信道数量。通道用于分离不同类型的数据。例如，在可靠或有序模式下，包交付顺序是在每个通道的基础上保证的。这样做是为了消除延迟并减少对数据包的排序限制。在一个通道中的包的交付状态不会停止在另一个通道中的其他包的交付。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:150
+msgid ":ref:`CompressionMode<enum_NetworkedMultiplayerENet_CompressionMode>` **compression_mode**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:155
+msgid "set_compression_mode(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:157
+msgid "get_compression_mode()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:160
+msgid "用于网络数据包的压缩方法。这些在压缩速度与带宽之间有不同的权衡，如果您完全使用压缩，您可能需要测试哪一种最适合您的用例。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:162
+msgid "\\ **注：**\\ 大多数游戏的网络设计都涉及频繁发送许多小数据包（每个小于4 KB）。如果有疑问，建议保留默认压缩算法，因为它对这些小数据包效果最好。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:164
+msgid "\\ **注意：** :ref:`compression_mode<class_NetworkedMultiplayerENet_property_compression_mode>` 必须在服务器及其所有客户端上设置为相同的值。如果客户端上设置的 :ref:`compression_mode<class_NetworkedMultiplayerENet_property_compression_mode>` 与服务器上设置的不同，则客户端将无法连接。在 GaaeExplorer 3.4 之前，默认的 :ref:`compression_mode<class_NetworkedMultiplayerENet_property_compression_mode>` 是 :ref:`COMPRESS_NONE<class_NetworkedMultiplayerENet_constant_COMPRESS_NONE>`\\ 。尽管如此，不建议在客户端和服务器之间混合引擎版本，也不受官方支持。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:170
+msgid ":ref:`String<class_String>` **dtls_hostname**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:175
+msgid "set_dtls_hostname(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:177
+msgid "get_dtls_hostname()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:180
+msgid "用于 DTLS 验证的主机名，与服务器提供的证书中的“CN”值进行比较。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:182
+msgid "当设置为空字符串时，将使用传递给 :ref:`create_client<class_NetworkedMultiplayerENet_method_create_client>` 的 ``address`` 参数。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:188
+msgid ":ref:`bool<class_bool>` **dtls_verify**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:193
+msgid "set_dtls_verify_enabled(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:195
+msgid "is_dtls_verify_enabled()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:198
+msgid "当\\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>` ``true``\\ 时启用或禁用证书验证。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:204
+msgid ":ref:`bool<class_bool>` **server_relay**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:209
+msgid "set_server_relay_enabled(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:211
+msgid "is_server_relay_enabled()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:214
+msgid "启用或禁用服务器特性，该特性通知客户端其他对等体的连接/断开，并在它们之间转发消息。当此选项为\\ ``false``\\ 时，客户端将不会自动收到其他对等体的通知，也无法通过服务器向他们发送数据包。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:220
+msgid ":ref:`int<class_int>` **transfer_channel**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:225
+msgid "set_transfer_channel(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:227
+msgid "get_transfer_channel()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:230
+msgid "设置用于传输数据的默认通道。缺省情况下，该值为\\ ``-1``\\ ，表示ENet只使用2个通道:一个用于可靠报文，一个用于不可靠报文。通道\\ ``0``\\ 被保留，不能使用。将该成员设置为\\ ``0``\\ 和\\ :ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`\\ (不包括)之间的任何值将强制ENet使用该通道发送数据。有关ENet通道的更多信息，请参阅\\ :ref:`channel_count<class_NetworkedMultiplayerENet_property_channel_count>`\\ 。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:236
+msgid ":ref:`bool<class_bool>` **use_dtls**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:241
+msgid "set_dtls_enabled(value)"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:243
+msgid "is_dtls_enabled()"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:246
+msgid "启用后，由该对等体创建的客户端或服务器将使用\\ :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`\\ ，而不是原始UDP套接字与远程对等体进行通信。通信使用DTLS加密，代价是更高的资源占用和可能更大的数据包。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:248
+msgid "\\ **注意：** 当创建DTLS服务器时，确保用\\ :ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\\ 和\\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\\ 设置密钥/证书对。对于DTLS客户端，查看\\ :ref:`dtls_verify<class_NetworkedMultiplayerENet_property_dtls_verify>`\\ 选项，用\\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\\ 配置相应的证书。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:251
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:255
+msgid "void **close_connection** **(** :ref:`int<class_int>` wait_usec=100 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:257
+msgid "关闭连接。如果当前没有建立连接，则忽略不计。如果这是一个服务器，它将试图在强行断开连接之前通知所有客户端。如果这是一个客户端，它只是关闭与服务器的连接。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:263
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **create_client** **(** :ref:`String<class_String>` address, :ref:`int<class_int>` port, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0, :ref:`int<class_int>` client_port=0 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:265
+msgid "创建客户端，使用指定的\\ ``端口``\\ 连接到\\ ``地址``\\ 的服务器上。给定的地址需要是一个完全合格的域名（例如，\\ ``\"www.example.com\"``\\ ）或一个IPv4或IPv6格式的IP地址（例如，\\ ``\"192.168.1.1\"``\\ ）。\\ ``port``\\ 是服务器所监听的端口。\\ ``in_bandwidth``\\ 和\\ ``out_bandwidth``\\ 参数可用于将传入和传出的带宽限制在给定的字节数/秒。默认的0意味着无限的带宽。请注意，ENet会在对等体之间连接的特定一侧战略性地丢弃数据包，以确保对等体的带宽不被淹没。带宽参数也决定了连接的窗口大小，它限制了在任何给定时间内可能正在传输的可靠数据包的数量。如果创建了一个客户端，返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用\\ :ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`\\ ），返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ ；如果不能创建客户端，返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ 。如果指定了\\ ``client_port``\\ ，客户端也将监听给定的端口；这对一些NAT穿越技术很有用。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:271
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **create_server** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` max_clients=32, :ref:`int<class_int>` in_bandwidth=0, :ref:`int<class_int>` out_bandwidth=0 **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:273
+msgid "创建服务器，通过\\ ``port``\\ 监听连接。该端口需要是一个可用的、未使用的端口，在0到65535之间。注意，低于1024的端口是特权端口，根据平台的不同可能需要提高权限。要改变服务器监听的接口，请使用\\ :ref:`set_bind_ip<class_NetworkedMultiplayerENet_method_set_bind_ip>`\\ 。默认IP是通配符\\ ``\"*\"``\\ ，它监听所有可用的接口。\\ ``max_clients``\\ 是允许同时进行的最大客户数，可以使用任何数字，最高可达4095，尽管可实现的同时进行的客户数可能要低得多，并且取决于应用。关于带宽参数的其他细节，见\\ :ref:`create_client<class_NetworkedMultiplayerENet_method_create_client>`\\ 。如果服务器被创建，返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ；如果这个NetworkedMultiplayerENet实例已经有一个开放的连接（在这种情况下，你需要先调用\\ :ref:`close_connection<class_NetworkedMultiplayerENet_method_close_connection>`\\ ），返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ ；如果服务器不能被创建，返回\\ :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:279
+msgid "void **disconnect_peer** **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` now=false **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:281
+msgid "断开给定对等体的连接。如果 \"now \"被设置为\\ ``true``\\ ，连接将被立即关闭而不冲刷队列中的消息。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:287
+msgid ":ref:`int<class_int>` **get_last_packet_channel** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:289
+msgid "返回通过\\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\\ 获取的最后一个包的Channel。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:295
+msgid ":ref:`int<class_int>` **get_packet_channel** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:297
+msgid "返回将通过\\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\\ 获取的下一个数据包的Channel。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:303
+msgid ":ref:`String<class_String>` **get_peer_address** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:305
+msgid "返回给定对等体的IP地址。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:311
+msgid ":ref:`int<class_int>` **get_peer_port** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:313
+msgid "返回给定对等体的远程端口。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:319
+msgid "void **set_bind_ip** **(** :ref:`String<class_String>` ip **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:321
+msgid "创建服务器时使用的IP。默认情况下，这被设置为通配符\\ ``\"*\"``\\ ，它绑定到所有可用的接口。IP地址格式为IPv4或IPv6，例如:``\"192.168.1.1\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:327
+msgid "void **set_dtls_certificate** **(** :ref:`X509Certificate<class_X509Certificate>` certificate **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:329
+msgid "当\\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\\ 为\\ ``true``\\ 时，配置\\ :ref:`X509Certificate<class_X509Certificate>`\\ 使用。对于服务器，您还必须通过\\ :ref:`set_dtls_key<class_NetworkedMultiplayerENet_method_set_dtls_key>`\\ 设置\\ :ref:`CryptoKey<class_CryptoKey>`\\ 。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:335
+msgid "void **set_dtls_key** **(** :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:337
+msgid "当\\ :ref:`use_dtls<class_NetworkedMultiplayerENet_property_use_dtls>`\\ 为\\ ``true``\\ 时，配置\\ :ref:`CryptoKey<class_CryptoKey>`\\ 来使用。记住也要调用\\ :ref:`set_dtls_certificate<class_NetworkedMultiplayerENet_method_set_dtls_certificate>`\\ 来设置\\ :ref:`X509Certificate<class_X509Certificate>`\\ 。"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:343
+msgid "void **set_peer_timeout** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` timeout_limit, :ref:`int<class_int>` timeout_min, :ref:`int<class_int>` timeout_max **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:345
+msgid "Sets the timeout parameters for a peer. The timeout parameters control how and when a peer will timeout from a failure to acknowledge reliable traffic. Timeout values are expressed in milliseconds."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayerenet.rst:347
+msgid "The ``timeout_limit`` is a factor that, multiplied by a value based on the average round trip time, will determine the timeout limit for a reliable packet. When that limit is reached, the timeout will be doubled, and the peer will be disconnected if that limit has reached ``timeout_min``. The ``timeout_max`` parameter, on the other hand, defines a fixed timeout for which any packet must be acknowledged or the peer will be dropped."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

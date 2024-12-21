@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_panoramasky.rst:10
+msgid "PanoramaSky"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:12
+msgid "**Inherits:** :ref:`Sky<class_Sky>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:14
+msgid "一种用来绘制背景贴图的 :ref:`Sky<class_Sky>`\\ 。"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:19
+msgid "在 :ref:`Environment<class_Environment>` 中引用的用于绘制背景的资源。全景天空的功能类似于其他引擎的天空盒，区别在于它使用的是等距圆柱投影的天空贴图而不是立方体贴图。"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:21
+msgid "强烈建议使用 HDR 全景图，以获得准确、高质量的反射。为此，GaaeExplorer 支持 Radiance HDR（\\ ``.hdr``\\ ）和 OpenEXR（\\ ``.exr``\\ ）图像格式。"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:23
+msgid "您可以使用\\ `这个工具 <https://danilw.github.io/GLSL-howto/cubemap_to_panorama_js/cubemap_to_panorama.html>`__\\ 将立方体贴图转换为等距圆柱投影的天空贴图。"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:29
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:29
+msgid ":ref:`panorama<class_PanoramaSky_property_panorama>`"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:33
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:37
+msgid ":ref:`Texture<class_Texture>` **panorama**"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:40
+msgid "set_panorama(value)"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:42
+msgid "get_panorama()"
+msgstr ""
+
+#: ../classes/class_panoramasky.rst:45
+msgid "将被应用到 PanoramaSky 的 :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

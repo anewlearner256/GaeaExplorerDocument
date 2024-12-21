@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:2
+msgid "LineGeometryElement"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:7
+msgid "线要素的Element"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:16
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:18
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:16
+msgid "InitialLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:18
+msgid "SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:25
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:25
+msgid "OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:27
+msgid "Vector3[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:27
+msgid "GetLineData()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:29
+msgid "LineGeometryElement[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:29
+msgid "SplitLine(Vector3 CutPoints,Double PixDistance,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:33
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:35
+msgid "Color InitialLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:38
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:49
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:42
+msgid "线的初始颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:46
+msgid "Color SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:53
+msgid "线被选中的颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:59
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:61
+msgid "Boolean OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:67
+msgid "Vector3[] GetLineData()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_LineGeometryElement.rst:73
+msgid "LineGeometryElement[] SplitLine(Vector3 CutPoints,Double PixDistance,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

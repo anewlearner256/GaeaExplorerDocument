@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_arvrcontroller.rst:10
+msgid "ARVRController"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:14
+msgid "表示空间跟踪控制器的空间节点。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:19
+msgid "这是链接到控制器跟踪的辅助空间节点。它还为控制器上的按钮等状态提供了几个便捷的通道。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:21
+msgid "控制器通过它们的 ID 链接。你可以在控制器可用之前创建控制器节点。如果你的游戏总是使用两个控制器，即每只手一个，你可以预先定义 ID 为 1 和 2 的控制器；一旦确定了控制器，它们就会被激活。如果你希望使用额外的控制器，应该对信号加以处理，并将 ARVRController 节点添加到您场景中。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:23
+msgid "控制器节点的位置由 :ref:`ARVRServer<class_ARVRServer>` 自动更新。这使得该节点非常适合添加子节点以实现可视化控制器。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:28
+msgid ":doc:`../tutorials/vr/index`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:34
+#: ../classes/class_arvrcontroller.rst:51
+#: ../classes/class_arvrcontroller.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:34
+msgid ":ref:`controller_id<class_ARVRController_property_controller_id>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:34
+#: ../classes/class_arvrcontroller.rst:91
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:36
+#: ../classes/class_arvrcontroller.rst:49
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:36
+msgid ":ref:`rumble<class_ARVRController_property_rumble>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:36
+#: ../classes/class_arvrcontroller.rst:113
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:40
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:43
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:43
+msgid ":ref:`get_controller_name<class_ARVRController_method_get_controller_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:45
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:45
+msgid ":ref:`get_hand<class_ARVRController_method_get_hand>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:47
+msgid ":ref:`get_is_active<class_ARVRController_method_get_is_active>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:49
+msgid ":ref:`get_joystick_axis<class_ARVRController_method_get_joystick_axis>` **(** :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:51
+msgid ":ref:`get_joystick_id<class_ARVRController_method_get_joystick_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:53
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:53
+msgid ":ref:`get_mesh<class_ARVRController_method_get_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:55
+msgid ":ref:`is_button_pressed<class_ARVRController_method_is_button_pressed>` **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:59
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:63
+msgid "**button_pressed** **(** :ref:`int<class_int>` button **)**"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:65
+msgid "当该控制器上的一个按钮被按下时触发。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:71
+msgid "**button_release** **(** :ref:`int<class_int>` button **)**"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:73
+msgid "当该控制器上的一个按钮被释放时触发。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:79
+msgid "**mesh_updated** **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:81
+msgid "当与控制器相关的Mesh发生变化或变得可用时触发。一般来说，这将是一个变得可用后的静态网格。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:84
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:88
+msgid ":ref:`int<class_int>` **controller_id**"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:91
+#: ../classes/class_arvrcontroller.rst:113
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:93
+#: ../classes/class_arvrcontroller.rst:115
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:93
+msgid "set_controller_id(value)"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:95
+#: ../classes/class_arvrcontroller.rst:117
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:95
+msgid "get_controller_id()"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:98
+msgid "控制器的 ID。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:100
+msgid "控制器 ID 为 0 是未绑定的，并且始终会导致节点处于非活动状态。控制器 ID 1 保留给第一个将自己标识为左侧控制器的控制器，ID 2 保留给第一个将其标识为右侧控制器的控制器。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:102
+msgid "对于 :ref:`ARVRServer<class_ARVRServer>` 检测到的任何其他控制器，继而使用控制器 ID 3。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:104
+msgid "当控制器关闭时，它的插槽被释放。这可确保即使在关闭 ID 较低的控制器时，其他控制器也将保持相同的 ID。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:110
+msgid ":ref:`float<class_float>` **rumble**"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:115
+msgid "set_rumble(value)"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:117
+msgid "get_rumble()"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:120
+msgid "控制器振动的程度。范围从\\ ``0.0``\\ 到\\ ``1.0``\\ ，精度\\ ``.01``\\ 。如果更改，会相应地更新\\ :ref:`ARVRPositionalTracker.rumble<class_ARVRPositionalTracker_property_rumble>`\\ 。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:122
+msgid "如果你想让控制器在限定时间内振动，这是一个有用的属性，可以将其动画化。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:125
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:129
+msgid ":ref:`String<class_String>` **get_controller_name** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:131
+msgid "如果激活，如果由使用的AR/VR SDK提供，则返回相关控制器的名称。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:137
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:139
+msgid "返回持有此控制器的手，如果知道的话。参阅\\ :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`\\ 。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:145
+msgid ":ref:`bool<class_bool>` **get_is_active** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:147
+msgid "如果绑定的控制器处于活动状态，返回\\ ``true``\\ 。ARVR系统尝试跟踪活动的控制器。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:153
+msgid ":ref:`float<class_float>` **get_joystick_axis** **(** :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:155
+msgid "为嵌入到控制器中的触发器、触摸板等返回给定轴的值。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:161
+msgid ":ref:`int<class_int>` **get_joystick_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:163
+msgid "返回与此绑定的摇杆对象的ID。由\\ :ref:`ARVRServer<class_ARVRServer>`\\ 跟踪的每个控制器，如果有按钮和轴，也将被注册为GaaeExplorer中的摇杆。这意味着所有正常的摇杆跟踪和输入映射将对AR/VR控制器上的按钮和轴起作用。这个ID纯粹是作为信息提供的，这样你就可以把控制器和它的摇杆条目关联起来。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:169
+msgid ":ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:171
+msgid "如果由 :ref:`ARVRInterface<class_ARVRInterface>`\\ 提供，则返回与控制器相关的网格。这可用于可视化控制器。"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:177
+msgid ":ref:`int<class_int>` **is_button_pressed** **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_arvrcontroller.rst:179
+msgid "如果索引\\ ``button``\\ 处的按钮被按下，返回\\ ``true``\\ 。参阅\\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\\ ，特别是\\ ``JOY_VR_*``\\ 常数。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

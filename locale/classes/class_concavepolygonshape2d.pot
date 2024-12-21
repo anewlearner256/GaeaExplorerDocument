@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_concavepolygonshape2d.rst:10
+msgid "ConcavePolygonShape2D"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:12
+msgid "**Inherits:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:14
+msgid "凹面多边形2D形状资源用于物理。"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:19
+msgid "凹面多边形2D形状资源用于物理。它是由线段组成的，是复杂的多边形凹面碰撞的最佳选择。但是，建议不要将其用于\\ :ref:`RigidBody2D<class_RigidBody2D>`\\ 节点。建议使用凸分解模式（实体）或多个凸对象的CollisionPolygon2D代替。否则，凹多边形2D形状更适合静态碰撞。"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:21
+msgid "\\ :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`\\ 和\\ ``ConcavePolygonShape2D``\\ 之间的主要区别在于，凹面多边形假定其为凹面，并使用更复杂的碰撞检测方法，而凸面多边形则将自身强制变为凸面，以加快碰撞检测的速度。"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:27
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:27
+msgid ":ref:`segments<class_ConcavePolygonShape2D_property_segments>`"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:27
+#: ../classes/class_concavepolygonshape2d.rst:38
+msgid "``PoolVector2Array(  )``"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:35
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **segments**"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:38
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:40
+msgid "set_segments(value)"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:42
+msgid "get_segments()"
+msgstr ""
+
+#: ../classes/class_concavepolygonshape2d.rst:45
+msgid "组成\\ ``ConcavePolygonShape2D``\\ 线段的点的数组。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

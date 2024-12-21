@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorspatialgizmoplugin.rst:10
+msgid "EditorSpatialGizmoPlugin"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:14
+msgid "由编辑部用于定义空间小工具的类型。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:19
+msgid "EditorSpatialGizmoPlugin 允许您定义一种新的辅助工具类型。这样做的主要方法有两种：扩展 ``EditorSpatialGizmoPlugin`` 以获得更简单的Gizmos，或创建新的 ``EditorSpatialGizmoPlugin`` 类型。有关更多信息，请参阅文档中的教程。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:24
+msgid ":doc:`../tutorials/plugins/editor/spatial_gizmos`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:27
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:30
+#: ../classes/class_editorspatialgizmoplugin.rst:34
+#: ../classes/class_editorspatialgizmoplugin.rst:38
+#: ../classes/class_editorspatialgizmoplugin.rst:40
+#: ../classes/class_editorspatialgizmoplugin.rst:42
+#: ../classes/class_editorspatialgizmoplugin.rst:60
+#: ../classes/class_editorspatialgizmoplugin.rst:62
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:30
+msgid ":ref:`add_material<class_EditorSpatialGizmoPlugin_method_add_material>` **(** :ref:`String<class_String>` name, :ref:`SpatialMaterial<class_SpatialMaterial>` material **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:32
+#: ../classes/class_editorspatialgizmoplugin.rst:54
+#: ../classes/class_editorspatialgizmoplugin.rst:56
+#: ../classes/class_editorspatialgizmoplugin.rst:58
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:32
+msgid ":ref:`can_be_hidden<class_EditorSpatialGizmoPlugin_method_can_be_hidden>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:34
+msgid ":ref:`commit_handle<class_EditorSpatialGizmoPlugin_method_commit_handle>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:36
+msgid ":ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:36
+msgid ":ref:`create_gizmo<class_EditorSpatialGizmoPlugin_method_create_gizmo>` **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:38
+msgid ":ref:`create_handle_material<class_EditorSpatialGizmoPlugin_method_create_handle_material>` **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` billboard=false, :ref:`Texture<class_Texture>` texture=null **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:40
+msgid ":ref:`create_icon_material<class_EditorSpatialGizmoPlugin_method_create_icon_material>` **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture, :ref:`bool<class_bool>` on_top=false, :ref:`Color<class_Color>` color=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:42
+msgid ":ref:`create_material<class_EditorSpatialGizmoPlugin_method_create_material>` **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` on_top=false, :ref:`bool<class_bool>` use_vertex_color=false **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:44
+#: ../classes/class_editorspatialgizmoplugin.rst:50
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:44
+msgid ":ref:`get_handle_name<class_EditorSpatialGizmoPlugin_method_get_handle_name>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:46
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:46
+msgid ":ref:`get_handle_value<class_EditorSpatialGizmoPlugin_method_get_handle_value>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:48
+msgid ":ref:`SpatialMaterial<class_SpatialMaterial>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:48
+msgid ":ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` **(** :ref:`String<class_String>` name, :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo=null **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:50
+msgid ":ref:`get_name<class_EditorSpatialGizmoPlugin_method_get_name>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:52
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:52
+msgid ":ref:`get_priority<class_EditorSpatialGizmoPlugin_method_get_priority>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:54
+msgid ":ref:`has_gizmo<class_EditorSpatialGizmoPlugin_method_has_gizmo>` **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:56
+msgid ":ref:`is_handle_highlighted<class_EditorSpatialGizmoPlugin_method_is_handle_highlighted>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:58
+msgid ":ref:`is_selectable_when_hidden<class_EditorSpatialGizmoPlugin_method_is_selectable_when_hidden>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:60
+msgid ":ref:`redraw<class_EditorSpatialGizmoPlugin_method_redraw>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:62
+msgid ":ref:`set_handle<class_EditorSpatialGizmoPlugin_method_set_handle>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:66
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:70
+msgid "void **add_material** **(** :ref:`String<class_String>` name, :ref:`SpatialMaterial<class_SpatialMaterial>` material **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:72
+msgid "将新材质添加到插件的内部插件列表中。然后可以使用\\ :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>`\\ 访问它。不会该被覆盖。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:78
+msgid ":ref:`bool<class_bool>` **can_be_hidden** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:80
+msgid "重写此方法以定义是否可以隐藏Gizmo。如果未覆盖，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:86
+msgid "void **commit_handle** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:88
+msgid "重写此方法以提交Gizmo句柄。调用此插件的活动辅助工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:94
+msgid ":ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` **create_gizmo** **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:96
+msgid "重写此方法可为您选择的空间节点返回自定义 :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>`\\ ，为其余节点返回 ``null``\\ 。另请参阅 :ref:`has_gizmo<class_EditorSpatialGizmoPlugin_method_has_gizmo>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:102
+msgid "void **create_handle_material** **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` billboard=false, :ref:`Texture<class_Texture>` texture=null **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:104
+msgid "创建一个手柄材质及其变体 （选定的和/或可编辑的），并将它们添加到内部材质列表。然后可以用 :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` 访问它们，并在 :ref:`EditorSpatialGizmo.add_handles<class_EditorSpatialGizmo_method_add_handles>` 中使用。不应该被重写。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:106
+msgid "你可以选择性地提供一个纹理来代替默认的图标。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:112
+msgid "void **create_icon_material** **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture, :ref:`bool<class_bool>` on_top=false, :ref:`Color<class_Color>` color=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:114
+msgid "创建一个图标材质及其变体 （选定的和/或可编辑的），并将它们添加到内部材质列表。然后可以用 :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` 访问它们，并在 :ref:`EditorSpatialGizmo.add_unscaled_billboard<class_EditorSpatialGizmo_method_add_unscaled_billboard>` 中使用。不应该被重写。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:120
+msgid "void **create_material** **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` on_top=false, :ref:`bool<class_bool>` use_vertex_color=false **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:122
+msgid "创建一个没有阴影的材质及其变体 （选定的和/或可编辑的），并将它们添加到内部材质列表。然后可以用 :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` 访问它们，并在 :ref:`EditorSpatialGizmo.add_mesh<class_EditorSpatialGizmo_method_add_mesh>` 和 :ref:`EditorSpatialGizmo.add_lines<class_EditorSpatialGizmo_method_add_lines>` 中使用。不应该被重写。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:128
+msgid ":ref:`String<class_String>` **get_handle_name** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:130
+msgid "重写此方法以提供Gizmo的句柄名称。调用此插件的活动工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:136
+msgid ":ref:`Variant<class_Variant>` **get_handle_value** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:138
+msgid "从Gizmo获取句柄的实际值。调用此插件的活动工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:144
+msgid ":ref:`SpatialMaterial<class_SpatialMaterial>` **get_material** **(** :ref:`String<class_String>` name, :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo=null **)**"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:146
+msgid "从内部材质列表中获取材质。如果提供了一个 :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` ，它将尝试获取相应的变体 （选定的和/或可编辑的）。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:152
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:154
+msgid "重写此方法以提供将出现在工具可见性菜单中的名称。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:160
+msgid ":ref:`int<class_int>` **get_priority** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:162
+msgid "重写此方法可以设置工具的优先级。值越高，优先级越高。如果具有较高优先级的工具与另一个工具发生冲突，则仅使用具有较高优先级的工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:164
+msgid "所有内置编辑器小控件均返回\\ ``-1``\\ 优先级。如果未重写，则此方法将返回\\ ``0``\\ ，这意味着自定义控件将自动覆盖内置控件。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:170
+msgid ":ref:`bool<class_bool>` **has_gizmo** **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:172
+msgid "覆盖这个方法来定义哪些空间节点有这个插件的 gizmo。每当一个 :ref:`Spatial<class_Spatial>` 节点被添加到一个场景中时，这个方法就会被调用，如果它返回 ``true``\\ ，该节点就会被分配一个通用的 :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>`\\ ，并被添加到这个插件的激活 Gizmos列表中。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:178
+msgid ":ref:`bool<class_bool>` **is_handle_highlighted** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:180
+msgid "获取句柄是否高亮显示。调用此插件的活动工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:186
+msgid ":ref:`bool<class_bool>` **is_selectable_when_hidden** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:188
+msgid "覆盖此方法，以定义具有此工具的空间是否应该在工具被隐藏时也可以被选择。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:194
+msgid "void **redraw** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:196
+msgid "回调以重新绘制提供的工具。调用此插件的活动工具。"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:202
+msgid "void **set_handle** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorspatialgizmoplugin.rst:204
+msgid "更新句柄后更新其值。调用此插件的活动工具。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

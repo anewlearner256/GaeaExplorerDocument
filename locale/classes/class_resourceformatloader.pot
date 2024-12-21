@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_resourceformatloader.rst:10
+msgid "ResourceFormatLoader"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:14
+msgid "从文件中加载特定资源类型。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:19
+msgid "GaaeExplorer使用ResourceFormatLoaders在编辑器或导出的游戏中加载资源。它们通过\\ :ref:`ResourceLoader<class_ResourceLoader>`\\ 单例自动查询，或者在加载具有内部依赖性的资源时被查询。每个文件类型可以作为不同的资源类型加载，因此在引擎中注册了多个ResourceFormatLoaders。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:21
+msgid "扩展这个类允许你定义你自己的加载器。请确保尊重文档中的返回类型和值。你应该给它一个带有\\ ``class_name``\\ 的全局类名，这样它才能被注册。像内置的ResourceFormatLoaders一样，它将在加载其处理的类型的资源时被自动调用。你也可以实现一个\\ :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:23
+msgid "\\ **注意：** 如果你需要的资源类型存在，但GaaeExplorer无法加载其格式，你也可以扩展\\ :ref:`EditorImportPlugin<class_EditorImportPlugin>`\\ 。选择一种方式而不是另一种方式，取决于该格式是否适合于最终导出的游戏。例如，最好先把\\ ``.png``\\ 纹理导入为\\ ``.stex``\\ （\\ :ref:`StreamTexture<class_StreamTexture>`\\ ），这样它们在显卡上的加载效率会更好。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:29
+msgid "void"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:29
+msgid ":ref:`get_dependencies<class_ResourceFormatLoader_method_get_dependencies>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` add_types **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:31
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:31
+msgid ":ref:`get_recognized_extensions<class_ResourceFormatLoader_method_get_recognized_extensions>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:33
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:33
+msgid ":ref:`get_resource_type<class_ResourceFormatLoader_method_get_resource_type>` **(** :ref:`String<class_String>` path **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:35
+msgid ":ref:`handles_type<class_ResourceFormatLoader_method_handles_type>` **(** :ref:`String<class_String>` typename **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:37
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:37
+msgid ":ref:`load<class_ResourceFormatLoader_method_load>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` original_path **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:39
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:39
+msgid ":ref:`rename_dependencies<class_ResourceFormatLoader_method_rename_dependencies>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` renames **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:43
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:47
+msgid "void **get_dependencies** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` add_types **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:49
+msgid "如果实现，则获取给定资源的依赖项。如果 ``add_types`` 是 ``true``\\ ，路径应该附加 ``::TypeName``\\ ，其中 ``TypeName`` 是依赖的类名。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:51
+#: ../classes/class_resourceformatloader.rst:69
+msgid "\\ **注意：** :ref:`ClassDB<class_ClassDB>` 不知道脚本定义的自定义资源类型，因此您可能只为它们返回 ``\"Resource\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:57
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:59
+msgid "获取该加载器能够读取的文件的扩展名列表。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:65
+msgid ":ref:`String<class_String>` **get_resource_type** **(** :ref:`String<class_String>` path **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:67
+msgid "获取与给定路径相关的资源的类名。如果加载器不能处理它，它应该返回\\ ``\"\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:75
+msgid ":ref:`bool<class_bool>` **handles_type** **(** :ref:`String<class_String>` typename **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:77
+msgid "说明这个加载器可以加载哪个资源类。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:79
+msgid "\\ **注意:** :ref:`ClassDB<class_ClassDB>` 不知道脚本定义的自定义资源类型，因此您可以只为它们处理 ``\"Resource\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:85
+msgid ":ref:`Variant<class_Variant>` **load** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` original_path **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:87
+msgid "当引擎发现这个加载器是兼容的，就会加载一个资源。如果加载的资源是导入的结果，\\ ``original_path``\\ 将针对源文件。成功时返回一个\\ :ref:`Resource<class_Resource>`\\ 对象，失败时返回一个\\ :ref:`Error<enum_@GlobalScope_Error>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:93
+msgid ":ref:`int<class_int>` **rename_dependencies** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` renames **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:95
+msgid "如果实现，重命名给定资源中的依赖项并保存它。 ``renames`` 是一个将旧的依赖路径映射到新的路径的 ``{ String => String }``\\ 的字典 。"
+msgstr ""
+
+#: ../classes/class_resourceformatloader.rst:97
+msgid "成功时返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，失败时返回 :ref:`Error<enum_@GlobalScope_Error>` 常量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

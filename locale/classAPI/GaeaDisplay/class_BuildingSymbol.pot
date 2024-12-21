@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:2
+msgid "BuildingSymbol"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:7
+msgid "建筑体样式，继承自Symbol"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:16
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:18
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:22
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:32
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:16
+msgid "IsNeedNormal"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:18
+msgid "IsClose"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:20
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:34
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:20
+msgid "UnitScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:22
+msgid "UVRepeat"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:24
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:24
+msgid "UvScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:26
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:26
+msgid "ExtrudeDir"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:28
+msgid "String"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:28
+msgid "HeightField"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:30
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:30
+msgid "HeightScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:32
+msgid "RandomHeight"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:34
+msgid "ExtrudeHeight"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:36
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:38
+msgid "SpatialMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:36
+msgid "WallMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:38
+msgid "RoofMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:40
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:40
+msgid "SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:44
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:47
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:49
+msgid "SymbolMesh[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:47
+msgid "DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:49
+msgid "CreateMeshData(Geometry geometry,Transform localorigin,Single height,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:51
+msgid "SymbolMesh"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:51
+msgid "CreatePolygonSingleMesh(List`1 polygon,Single height,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:53
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:53
+msgid "Dispose()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:55
+msgid "Object"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:55
+msgid "Clone()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:59
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:61
+msgid "Boolean IsNeedNormal"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:64
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:75
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:86
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:97
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:108
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:119
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:130
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:141
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:152
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:163
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:174
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:185
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:196
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:68
+msgid "是否需要法线，默认为false"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:72
+msgid "Boolean IsClose"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:79
+msgid "是否闭合,默认为true"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:83
+msgid "Single UnitScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:90
+msgid "UV缩放,默认为1米重复一次"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:94
+msgid "Boolean UVRepeat"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:101
+msgid "是否使用UnitScale对UV进行缩放"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:105
+msgid "Vector2 UvScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:112
+msgid "UV缩放值，默认为vector2（1,1）"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:116
+msgid "Vector3 ExtrudeDir"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:123
+msgid "高度延伸方向，默认为Vector3.Up（0,1,0）"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:127
+msgid "String HeightField"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:134
+msgid "高度字段，默认为null"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:138
+msgid "Int32 HeightScale"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:145
+msgid "高度缩放值，默认为3"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:149
+msgid "Boolean RandomHeight"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:156
+msgid "高度是否随机产生，默认为true"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:160
+msgid "Single ExtrudeHeight"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:167
+msgid "高度值，默认为30"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:171
+msgid "SpatialMaterial WallMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:178
+msgid "墙面材质"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:182
+msgid "SpatialMaterial RoofMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:189
+msgid "屋顶材质"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:193
+msgid "Color SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:200
+msgid "BuildingSymbol的颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:206
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:208
+msgid "SymbolMesh[] DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:214
+msgid "SymbolMesh[] CreateMeshData(Geometry geometry,Transform localorigin,Single height,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:220
+msgid "SymbolMesh CreatePolygonSingleMesh(List`1 polygon,Single height,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:226
+msgid "Void Dispose()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_BuildingSymbol.rst:232
+msgid "Object Clone()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

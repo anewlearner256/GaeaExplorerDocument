@@ -1,0 +1,768 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audiostreamplayer3d.rst:10
+msgid "AudioStreamPlayer3D"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:14
+msgid "在 3D 空间中播放位置声音。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:19
+msgid "播放具有定向性的声音效果，如果需要，可随着距离的增加而减弱，产生空间中可听到的位置效果。为了更逼真，低通滤波器会自动应用于远处的声音。这可以通过设置\\ :ref:`attenuation_filter_cutoff_hz<class_AudioStreamPlayer3D_property_attenuation_filter_cutoff_hz>`\\ 为\\ ``20500``\\ 来禁用。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:21
+msgid "默认情况下，音频是从相机的位置听到的，这可以通过在场景中添加一个\\ :ref:`Listener<class_Listener>`\\ 节点，并通过对其调用\\ :ref:`Listener.make_current<class_Listener_method_make_current>`\\ 来启用它，以改变。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:23
+msgid "参阅\\ :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`\\ 来播放非位置的声音。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:25
+msgid "\\ **注意：** 隐藏一个\\ ``AudioStreamPlayer3D``\\ 节点并不能禁用其音频输出。要暂时禁用\\ ``AudioStreamPlayer3D``\\ 的音频输出，请将\\ :ref:`unit_db<class_AudioStreamPlayer3D_property_unit_db>`\\ 设置为一个非常低的值，如\\ ``-100``\\ （人的听觉听不到）。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:28
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:30
+msgid ":doc:`../tutorials/audio/audio_streams`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:36
+msgid ":ref:`area_mask<class_AudioStreamPlayer3D_property_area_mask>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:36
+#: ../classes/class_audiostreamplayer3d.rst:162
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:38
+#: ../classes/class_audiostreamplayer3d.rst:40
+#: ../classes/class_audiostreamplayer3d.rst:50
+#: ../classes/class_audiostreamplayer3d.rst:54
+#: ../classes/class_audiostreamplayer3d.rst:56
+#: ../classes/class_audiostreamplayer3d.rst:58
+#: ../classes/class_audiostreamplayer3d.rst:62
+#: ../classes/class_audiostreamplayer3d.rst:70
+#: ../classes/class_audiostreamplayer3d.rst:72
+#: ../classes/class_audiostreamplayer3d.rst:79
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:38
+msgid ":ref:`attenuation_filter_cutoff_hz<class_AudioStreamPlayer3D_property_attenuation_filter_cutoff_hz>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:38
+#: ../classes/class_audiostreamplayer3d.rst:178
+msgid "``5000.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:40
+msgid ":ref:`attenuation_filter_db<class_AudioStreamPlayer3D_property_attenuation_filter_db>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:40
+#: ../classes/class_audiostreamplayer3d.rst:194
+msgid "``-24.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:42
+msgid ":ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:42
+msgid ":ref:`attenuation_model<class_AudioStreamPlayer3D_property_attenuation_model>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:42
+#: ../classes/class_audiostreamplayer3d.rst:48
+#: ../classes/class_audiostreamplayer3d.rst:60
+#: ../classes/class_audiostreamplayer3d.rst:210
+#: ../classes/class_audiostreamplayer3d.rst:258
+#: ../classes/class_audiostreamplayer3d.rst:356
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:44
+#: ../classes/class_audiostreamplayer3d.rst:52
+#: ../classes/class_audiostreamplayer3d.rst:64
+#: ../classes/class_audiostreamplayer3d.rst:68
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:44
+msgid ":ref:`autoplay<class_AudioStreamPlayer3D_property_autoplay>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:44
+#: ../classes/class_audiostreamplayer3d.rst:52
+#: ../classes/class_audiostreamplayer3d.rst:64
+#: ../classes/class_audiostreamplayer3d.rst:68
+#: ../classes/class_audiostreamplayer3d.rst:226
+#: ../classes/class_audiostreamplayer3d.rst:292
+#: ../classes/class_audiostreamplayer3d.rst:388
+#: ../classes/class_audiostreamplayer3d.rst:416
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:46
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:46
+msgid ":ref:`bus<class_AudioStreamPlayer3D_property_bus>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:46
+#: ../classes/class_audiostreamplayer3d.rst:242
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:48
+msgid ":ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:48
+msgid ":ref:`doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:50
+msgid ":ref:`emission_angle_degrees<class_AudioStreamPlayer3D_property_emission_angle_degrees>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:50
+#: ../classes/class_audiostreamplayer3d.rst:276
+msgid "``45.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:52
+msgid ":ref:`emission_angle_enabled<class_AudioStreamPlayer3D_property_emission_angle_enabled>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:54
+msgid ":ref:`emission_angle_filter_attenuation_db<class_AudioStreamPlayer3D_property_emission_angle_filter_attenuation_db>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:54
+#: ../classes/class_audiostreamplayer3d.rst:308
+msgid "``-12.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:56
+msgid ":ref:`max_db<class_AudioStreamPlayer3D_property_max_db>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:56
+#: ../classes/class_audiostreamplayer3d.rst:324
+msgid "``3.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:58
+msgid ":ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:58
+#: ../classes/class_audiostreamplayer3d.rst:70
+#: ../classes/class_audiostreamplayer3d.rst:340
+#: ../classes/class_audiostreamplayer3d.rst:432
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:60
+msgid ":ref:`OutOfRangeMode<enum_AudioStreamPlayer3D_OutOfRangeMode>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:60
+msgid ":ref:`out_of_range_mode<class_AudioStreamPlayer3D_property_out_of_range_mode>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:62
+msgid ":ref:`pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:62
+#: ../classes/class_audiostreamplayer3d.rst:72
+#: ../classes/class_audiostreamplayer3d.rst:372
+#: ../classes/class_audiostreamplayer3d.rst:448
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:64
+msgid ":ref:`playing<class_AudioStreamPlayer3D_property_playing>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:66
+msgid ":ref:`AudioStream<class_AudioStream>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:66
+msgid ":ref:`stream<class_AudioStreamPlayer3D_property_stream>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:68
+msgid ":ref:`stream_paused<class_AudioStreamPlayer3D_property_stream_paused>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:70
+msgid ":ref:`unit_db<class_AudioStreamPlayer3D_property_unit_db>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:72
+msgid ":ref:`unit_size<class_AudioStreamPlayer3D_property_unit_size>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:76
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:79
+msgid ":ref:`get_playback_position<class_AudioStreamPlayer3D_method_get_playback_position>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:81
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:81
+msgid ":ref:`get_stream_playback<class_AudioStreamPlayer3D_method_get_stream_playback>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:83
+#: ../classes/class_audiostreamplayer3d.rst:85
+#: ../classes/class_audiostreamplayer3d.rst:87
+msgid "void"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:83
+msgid ":ref:`play<class_AudioStreamPlayer3D_method_play>` **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:85
+msgid ":ref:`seek<class_AudioStreamPlayer3D_method_seek>` **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:87
+msgid ":ref:`stop<class_AudioStreamPlayer3D_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:91
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:95
+msgid "**finished** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:97
+msgid "当音频停止播放时发出。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:100
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:112
+msgid "enum **AttenuationModel**:"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:114
+msgid "**ATTENUATION_INVERSE_DISTANCE** = **0** --- 根据距离对响度进行线性衰减。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:116
+msgid "**ATTENUATION_INVERSE_SQUARE_DISTANCE** = **1** --- 根据距离对响度进行平方衰减。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:118
+msgid "**ATTENUATION_LOGARITHMIC** = **2** --- 根据距离对数降低响度。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:120
+msgid "**ATTENUATION_DISABLED** = **3** --- 不会根据距离衰减响度。与 :ref:`AudioStreamPlayer<class_AudioStreamPlayer>` 不同，声音仍会在位置上被听到。 :ref:`ATTENUATION_DISABLED<class_AudioStreamPlayer3D_constant_ATTENUATION_DISABLED>` 可以与大于 ``0.0`` 的 :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` 值结合使用，以实现线性衰减，限制在定义的球体大小。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:130
+msgid "enum **OutOfRangeMode**:"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:132
+msgid "**OUT_OF_RANGE_MIX** = **0** --- 将此音频混合，即使它超出范围。这会增加 CPU 使用率，但如果相机离开并进入 ``AudioStreamPlayer3D`` 的 :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` 半径，则保持声音在正确的位置播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:134
+msgid "**OUT_OF_RANGE_PAUSE** = **1** --- 超出范围时暂停此音频。这会降低 CPU 使用率，但如果相机离开并进入 ``AudioStreamPlayer3D`` 的 :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` 半径，则会使声音重新开始。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:146
+msgid "enum **DopplerTracking**:"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:148
+msgid "**DOPPLER_TRACKING_DISABLED** = **0** --- 禁用多普勒跟踪。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:150
+msgid "**DOPPLER_TRACKING_IDLE_STEP** = **1** --- 在空闲的步骤中执行多普勒跟踪（每渲染一帧）。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:152
+msgid "**DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- 在物理步骤中执行多普勒跟踪（每个模拟的物理帧）。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:155
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:159
+msgid ":ref:`int<class_int>` **area_mask**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:162
+#: ../classes/class_audiostreamplayer3d.rst:178
+#: ../classes/class_audiostreamplayer3d.rst:194
+#: ../classes/class_audiostreamplayer3d.rst:210
+#: ../classes/class_audiostreamplayer3d.rst:226
+#: ../classes/class_audiostreamplayer3d.rst:242
+#: ../classes/class_audiostreamplayer3d.rst:258
+#: ../classes/class_audiostreamplayer3d.rst:276
+#: ../classes/class_audiostreamplayer3d.rst:292
+#: ../classes/class_audiostreamplayer3d.rst:308
+#: ../classes/class_audiostreamplayer3d.rst:324
+#: ../classes/class_audiostreamplayer3d.rst:340
+#: ../classes/class_audiostreamplayer3d.rst:356
+#: ../classes/class_audiostreamplayer3d.rst:372
+#: ../classes/class_audiostreamplayer3d.rst:388
+#: ../classes/class_audiostreamplayer3d.rst:416
+#: ../classes/class_audiostreamplayer3d.rst:432
+#: ../classes/class_audiostreamplayer3d.rst:448
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:164
+#: ../classes/class_audiostreamplayer3d.rst:180
+#: ../classes/class_audiostreamplayer3d.rst:196
+#: ../classes/class_audiostreamplayer3d.rst:212
+#: ../classes/class_audiostreamplayer3d.rst:228
+#: ../classes/class_audiostreamplayer3d.rst:244
+#: ../classes/class_audiostreamplayer3d.rst:260
+#: ../classes/class_audiostreamplayer3d.rst:278
+#: ../classes/class_audiostreamplayer3d.rst:294
+#: ../classes/class_audiostreamplayer3d.rst:310
+#: ../classes/class_audiostreamplayer3d.rst:326
+#: ../classes/class_audiostreamplayer3d.rst:342
+#: ../classes/class_audiostreamplayer3d.rst:358
+#: ../classes/class_audiostreamplayer3d.rst:374
+#: ../classes/class_audiostreamplayer3d.rst:402
+#: ../classes/class_audiostreamplayer3d.rst:418
+#: ../classes/class_audiostreamplayer3d.rst:434
+#: ../classes/class_audiostreamplayer3d.rst:450
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:164
+msgid "set_area_mask(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:166
+#: ../classes/class_audiostreamplayer3d.rst:182
+#: ../classes/class_audiostreamplayer3d.rst:198
+#: ../classes/class_audiostreamplayer3d.rst:214
+#: ../classes/class_audiostreamplayer3d.rst:230
+#: ../classes/class_audiostreamplayer3d.rst:246
+#: ../classes/class_audiostreamplayer3d.rst:262
+#: ../classes/class_audiostreamplayer3d.rst:280
+#: ../classes/class_audiostreamplayer3d.rst:296
+#: ../classes/class_audiostreamplayer3d.rst:312
+#: ../classes/class_audiostreamplayer3d.rst:328
+#: ../classes/class_audiostreamplayer3d.rst:344
+#: ../classes/class_audiostreamplayer3d.rst:360
+#: ../classes/class_audiostreamplayer3d.rst:376
+#: ../classes/class_audiostreamplayer3d.rst:390
+#: ../classes/class_audiostreamplayer3d.rst:404
+#: ../classes/class_audiostreamplayer3d.rst:420
+#: ../classes/class_audiostreamplayer3d.rst:436
+#: ../classes/class_audiostreamplayer3d.rst:452
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:166
+msgid "get_area_mask()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:169
+msgid "这个声音的播放区域。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:175
+msgid ":ref:`float<class_float>` **attenuation_filter_cutoff_hz**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:180
+msgid "set_attenuation_filter_cutoff_hz(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:182
+msgid "get_attenuation_filter_cutoff_hz()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:185
+msgid "使用高于此频率的低通滤波器衰减音频，以 Hz 为单位。要完全禁用阻尼效果，请将其设置为 ``20500``\\ ，因为该频率高于人类听力极限。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:191
+msgid ":ref:`float<class_float>` **attenuation_filter_db**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:196
+msgid "set_attenuation_filter_db(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:198
+msgid "get_attenuation_filter_db()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:201
+msgid "滤波器对响度的影响程度，以分贝为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:207
+msgid ":ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>` **attenuation_model**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:212
+msgid "set_attenuation_model(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:214
+msgid "get_attenuation_model()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:217
+msgid "决定音频是否应该得到更安静的距离线性，平方，对数，或不受影响的距离，有效地禁用衰减。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:223
+msgid ":ref:`bool<class_bool>` **autoplay**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:228
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:230
+msgid "is_autoplay_enabled()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:233
+msgid "如果 ``true``\\ ，则在将 AudioStreamPlayer3D 节点添加到场景树时播放音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:239
+msgid ":ref:`String<class_String>` **bus**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:244
+msgid "set_bus(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:246
+msgid "get_bus()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:249
+msgid "播放此音频的总线。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:255
+msgid ":ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>` **doppler_tracking**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:260
+msgid "set_doppler_tracking(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:262
+msgid "get_doppler_tracking()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:265
+msgid "决定 `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__ 应该在哪一步计算。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:267
+msgid "\\ **注意：**\\ 仅当当前 :ref:`Camera<class_Camera>` 的 :ref:`Camera.doppler_tracking<class_Camera_property_doppler_tracking>` 属性设置为 :ref:`Camera.DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>` 以外的值时有效。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:273
+msgid ":ref:`float<class_float>` **emission_angle_degrees**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:278
+msgid "set_emission_angle(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:280
+msgid "get_emission_angle()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:283
+msgid "音频到达相机的角度，不受衰减。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:289
+msgid ":ref:`bool<class_bool>` **emission_angle_enabled**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:294
+msgid "set_emission_angle_enabled(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:296
+msgid "is_emission_angle_enabled()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:299
+msgid "如果\\ ``true``\\ ，则应根据声音的方向对音频进行衰减。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:305
+msgid ":ref:`float<class_float>` **emission_angle_filter_attenuation_db**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:310
+msgid "set_emission_angle_filter_attenuation_db(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:312
+msgid "get_emission_angle_filter_attenuation_db()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:315
+msgid "如果样机在 :ref:`emission_angle_degrees<class_AudioStreamPlayer3D_property_emission_angle_degrees>` 之外，并且 :ref:`emission_angle_enabled<class_AudioStreamPlayer3D_property_emission_angle_enabled>` 被设置为这个系数，则对音频进行减弱，单位是分贝。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:321
+msgid ":ref:`float<class_float>` **max_db**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:326
+msgid "set_max_db(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:328
+msgid "get_max_db()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:331
+msgid "设置声级的绝对最大值，以分贝为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:337
+msgid ":ref:`float<class_float>` **max_distance**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:342
+msgid "set_max_distance(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:344
+msgid "get_max_distance()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:347
+msgid "设置\\ :ref:`out_of_range_mode<class_AudioStreamPlayer3D_property_out_of_range_mode>`\\ 生效的距离。设置为0时没有效果。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:353
+msgid ":ref:`OutOfRangeMode<enum_AudioStreamPlayer3D_OutOfRangeMode>` **out_of_range_mode**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:358
+msgid "set_out_of_range_mode(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:360
+msgid "get_out_of_range_mode()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:363
+msgid "决定当音源超出 :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` 范围时，是否应该暂停音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:369
+msgid ":ref:`float<class_float>` **pitch_scale**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:374
+msgid "set_pitch_scale(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:376
+msgid "get_pitch_scale()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:379
+msgid "音频的音高和节奏，作为音频样本的采样率的倍数。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:385
+msgid ":ref:`bool<class_bool>` **playing**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:390
+msgid "is_playing()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:393
+msgid "如果\\ ``true``\\ ，则播放音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:399
+msgid ":ref:`AudioStream<class_AudioStream>` **stream**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:402
+msgid "set_stream(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:404
+msgid "get_stream()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:407
+msgid "要播放的\\ :ref:`AudioStream<class_AudioStream>`\\ 资源。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:413
+msgid ":ref:`bool<class_bool>` **stream_paused**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:418
+msgid "set_stream_paused(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:420
+msgid "get_stream_paused()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:423
+msgid "如果\\ ``true``\\ ，则播放会暂停。你可以通过设置\\ :ref:`stream_paused<class_AudioStreamPlayer3D_property_stream_paused>`\\ 为\\ ``false``\\ 来恢复它。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:429
+msgid ":ref:`float<class_float>` **unit_db**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:434
+msgid "set_unit_db(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:436
+msgid "get_unit_db()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:439
+msgid "不受阻尼影响的基本声级，单位为分贝。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:445
+msgid ":ref:`float<class_float>` **unit_size**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:450
+msgid "set_unit_size(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:452
+msgid "get_unit_size()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:455
+msgid "衰减效果的系数。更高的值使声音在更远的距离可以听到。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:458
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:462
+msgid ":ref:`float<class_float>` **get_playback_position** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:464
+msgid "返回\\ :ref:`AudioStream<class_AudioStream>`\\ 中的位置。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:470
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:472
+msgid "返回与该\\ ``AudioStreamPlayer3D``\\ 相关联的\\ :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\\ 对象。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:478
+msgid "void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:480
+msgid "从给定的位置\\ ``from_position``\\ 播放音频，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:486
+msgid "void **seek** **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:488
+msgid "设置音频的播放位置，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:494
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer3d.rst:496
+msgid "停止音频。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

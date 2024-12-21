@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_websocketclient.rst:10
+msgid "WebSocketClient"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:12
+msgid "**Inherits:** :ref:`WebSocketMultiplayerPeer<class_WebSocketMultiplayerPeer>` **<** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:14
+msgid "WebSocket客户端的实现。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:19
+msgid "该类实现了一个与任何符合RFC 6455的WebSocket服务器兼容的WebSocket客户端。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:21
+msgid "这个客户端可以选择性地作为\\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\\ 的网络对等体使用。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:23
+msgid "在启动客户端后（\\ :ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>`\\ ），你需要\\ :ref:`NetworkedMultiplayerPeer.poll<class_NetworkedMultiplayerPeer_method_poll>`\\ 它以固定的时间间隔，例如在\\ :ref:`Node._process<class_Node_method__process>`\\ 内。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:25
+msgid "当连接、断开连接或有新数据时，你将收到适当的信号。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:28
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:31
+msgid ":ref:`X509Certificate<class_X509Certificate>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:31
+msgid ":ref:`trusted_ssl_certificate<class_WebSocketClient_property_trusted_ssl_certificate>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:33
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:33
+msgid ":ref:`verify_ssl<class_WebSocketClient_property_verify_ssl>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:37
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:40
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:40
+msgid ":ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>` **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` protocols=PoolStringArray(  ), :ref:`bool<class_bool>` gd_mp_api=false, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:42
+msgid "void"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:42
+msgid ":ref:`disconnect_from_host<class_WebSocketClient_method_disconnect_from_host>` **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:44
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:44
+msgid ":ref:`get_connected_host<class_WebSocketClient_method_get_connected_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:46
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:46
+msgid ":ref:`get_connected_port<class_WebSocketClient_method_get_connected_port>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:50
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:54
+msgid "**connection_closed** **(** :ref:`bool<class_bool>` was_clean_close **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:56
+msgid "当与服务器的连接被关闭时触发。\\ ``was_clean_close`` 将是\\ ``true`` 如果连接完全关闭。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:62
+msgid "**connection_error** **(** **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:64
+msgid "当与服务器的连接失败时触发。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:70
+msgid "**connection_established** **(** :ref:`String<class_String>` protocol **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:72
+msgid "当与服务器建立连接时触发，\\ ``protocol``\\ 协议将包含与服务器达成一致的子协议。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:78
+msgid "**data_received** **(** **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:80
+msgid "当收到WebSocket消息时触发。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:82
+msgid "\\ **注意：**\\ 当作为高级别的多人对等体使用时，这个信号\\ *not*\\ 不发射。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:88
+msgid "**server_close_request** **(** :ref:`int<class_int>` code, :ref:`String<class_String>` reason **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:90
+msgid "当服务器请求完全关闭时触发。你应该继续进行轮询，直到获得\\ :ref:`connection_closed<class_WebSocketClient_signal_connection_closed>`\\ 信号，以实现彻底的关闭。更多细节参阅\\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:93
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:97
+msgid ":ref:`X509Certificate<class_X509Certificate>` **trusted_ssl_certificate**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:100
+#: ../classes/class_websocketclient.rst:116
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:100
+msgid "set_trusted_ssl_certificate(value)"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:102
+#: ../classes/class_websocketclient.rst:118
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:102
+msgid "get_trusted_ssl_certificate()"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:105
+msgid "如果指定，该\\ :ref:`X509Certificate<class_X509Certificate>`\\ 将是连接到SSL主机时唯一接受的证书。任何由服务器提供的其他证书将被视为无效。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:107
+msgid "\\ **注意：**\\ 由于浏览器的限制，在HTML5导出中不支持指定一个自定义的\\ ``trusted_ssl_certificate``\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:113
+msgid ":ref:`bool<class_bool>` **verify_ssl**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:116
+msgid "set_verify_ssl_enabled(value)"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:118
+msgid "is_verify_ssl_enabled()"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:121
+msgid "如果 ``true``\\ ，则启用 SSL 证书验证。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:123
+msgid "\\ **注意：** 你必须在项目设置中指定要使用的证书，以便在导出时发挥作用。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:126
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:130
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_to_url** **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` protocols=PoolStringArray(  ), :ref:`bool<class_bool>` gd_mp_api=false, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:132
+msgid "连接到给定的URL，请求给定的\\ ``protocols``\\ 之一作为子协议。如果列表为空，默认为空，将不请求子协议。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:134
+msgid "如果\\ ``true``\\ 作为\\ ``gd_mp_api``\\ 被传递，客户端将表现得像\\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\\ 的网络对等体，与非GaaeExplorer服务器的连接将不工作，并且\\ :ref:`data_received<class_WebSocketClient_signal_data_received>`\\ 将不被触发。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:136
+msgid "如果\\ ``false``\\ 被传递，默认传递，你必须调用\\ :ref:`PacketPeer<class_PacketPeer>`\\ 函数，\\ ``put_packet``, ``get_packet``\\ 等，对通过\\ ``get_peer(1)``\\ 返回的\\ :ref:`WebSocketPeer<class_WebSocketPeer>`\\ ，而不是直接对该对象，例如，\\ ``get_peer(1).put_packet(data)``\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:138
+msgid "你可以选择传递一个\\ ``custom_headers``\\ 的列表，以添加到握手的HTTP请求中。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:140
+msgid "\\ **注意：** 为了避免HTML5中的混合内容警告或错误，须使用以\\ ``wss://``\\ （安全）开头的\\ ``url``\\ ，而不是\\ ``ws://``\\ 。这样做时，确保使用与服务器的SSL证书中定义的完全合格的域名。不要直接通过IP地址进行\\ ``wss://``\\ 连接，因为它不会与SSL证书相匹配。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:142
+msgid "\\ **注意：**\\ 由于浏览器的限制，指定\\ ``custom_headers``\\ 在HTML5导出中不被支持。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:148
+msgid "void **disconnect_from_host** **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:150
+msgid "断开此客户端与所连接主机的连接。更多信息参阅\\ :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:156
+msgid ":ref:`String<class_String>` **get_connected_host** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:158
+msgid "返回当前连接的主机的IP地址。"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:164
+msgid ":ref:`int<class_int>` **get_connected_port** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketclient.rst:166
+msgid "返回当前连接的主机的IP端口。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectrecord.rst:10
+msgid "AudioEffectRecord"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:14
+msgid "用于录制来自麦克风的声音的音频效果。"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:19
+msgid "允许用户录制来自麦克风的声音。它设置和获取记录音频文件的格式（8位，16位或压缩）。它检查录音是否处于活动状态，如果是，则记录声音。然后返回记录的样本。"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:24
+msgid ":doc:`Recording with microphone <../tutorials/audio/recording_with_microphone>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:26
+msgid "`Audio Mic Record Demo <https://godotengine.org/asset-library/asset/527>`__"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:32
+msgid ":ref:`Format<enum_AudioStreamSample_Format>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:32
+msgid ":ref:`format<class_AudioEffectRecord_property_format>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:32
+#: ../classes/class_audioeffectrecord.rst:54
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:36
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:39
+msgid ":ref:`AudioStreamSample<class_AudioStreamSample>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:39
+msgid ":ref:`get_recording<class_AudioEffectRecord_method_get_recording>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:41
+msgid ":ref:`is_recording_active<class_AudioEffectRecord_method_is_recording_active>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:43
+msgid "void"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:43
+msgid ":ref:`set_recording_active<class_AudioEffectRecord_method_set_recording_active>` **(** :ref:`bool<class_bool>` record **)**"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:47
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:51
+msgid ":ref:`Format<enum_AudioStreamSample_Format>` **format**"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:54
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:56
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:56
+msgid "set_format(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:58
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:58
+msgid "get_format()"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:61
+msgid "指定录音样本的格式。请参阅\\ :ref:`Format<enum_AudioStreamSample_Format>`\\ 了解可用的格式。"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:64
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:68
+msgid ":ref:`AudioStreamSample<class_AudioStreamSample>` **get_recording** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:70
+msgid "返回录音的样本。"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:76
+msgid ":ref:`bool<class_bool>` **is_recording_active** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:78
+msgid "返回录音是否处于激活状态。"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:84
+msgid "void **set_recording_active** **(** :ref:`bool<class_bool>` record **)**"
+msgstr ""
+
+#: ../classes/class_audioeffectrecord.rst:86
+msgid "如果\\ ``true``\\ ，将录制声音。请注意，重新开始录音将删除先前录音的样本。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

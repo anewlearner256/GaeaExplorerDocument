@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_checkbox.rst:10
+msgid "CheckBox"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:14
+msgid "二元选择（有或无）用户界面小部件。另请参阅\\ :ref:`CheckButton<class_CheckButton>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:19
+msgid "复选框让用户做出二元选择，即在两个可能的选项中只选择一个。它在功能上类似于\\ :ref:`CheckButton<class_CheckButton>`\\ ，但外观不同。为了遵循用户体验，建议在切换它对某些东西\\ **没有**\\ 直接影响时使用CheckBox。例如，当切换它只会在确认按钮被按下时做一些事情时，使用它。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:21
+msgid "参阅\\ :ref:`BaseButton<class_BaseButton>`\\ ，它包含了与该节点相关的常规属性和方法。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:27
+msgid ":ref:`TextAlign<enum_Button_TextAlign>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:27
+msgid "align"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:27
+msgid "``0`` (overrides :ref:`Button<class_Button_property_align>`)"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:29
+msgid "toggle_mode"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:29
+msgid "``true`` (overrides :ref:`BaseButton<class_BaseButton_property_toggle_mode>`)"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:33
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:36
+#: ../classes/class_checkbox.rst:38
+#: ../classes/class_checkbox.rst:40
+#: ../classes/class_checkbox.rst:42
+#: ../classes/class_checkbox.rst:44
+#: ../classes/class_checkbox.rst:46
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:36
+msgid ":ref:`font_color<class_CheckBox_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:36
+#: ../classes/class_checkbox.rst:91
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:38
+msgid ":ref:`font_color_disabled<class_CheckBox_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:38
+#: ../classes/class_checkbox.rst:103
+msgid "``Color( 0.9, 0.9, 0.9, 0.2 )``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:40
+msgid ":ref:`font_color_focus<class_CheckBox_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:40
+#: ../classes/class_checkbox.rst:42
+#: ../classes/class_checkbox.rst:115
+#: ../classes/class_checkbox.rst:127
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:42
+msgid ":ref:`font_color_hover<class_CheckBox_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:44
+msgid ":ref:`font_color_hover_pressed<class_CheckBox_theme_color_font_color_hover_pressed>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:44
+#: ../classes/class_checkbox.rst:46
+#: ../classes/class_checkbox.rst:139
+#: ../classes/class_checkbox.rst:151
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:46
+msgid ":ref:`font_color_pressed<class_CheckBox_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:48
+#: ../classes/class_checkbox.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:48
+msgid ":ref:`check_vadjust<class_CheckBox_theme_constant_check_vadjust>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:48
+#: ../classes/class_checkbox.rst:163
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:50
+msgid ":ref:`hseparation<class_CheckBox_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:50
+#: ../classes/class_checkbox.rst:175
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:52
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:52
+msgid ":ref:`font<class_CheckBox_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:54
+#: ../classes/class_checkbox.rst:56
+#: ../classes/class_checkbox.rst:58
+#: ../classes/class_checkbox.rst:60
+#: ../classes/class_checkbox.rst:62
+#: ../classes/class_checkbox.rst:64
+#: ../classes/class_checkbox.rst:66
+#: ../classes/class_checkbox.rst:68
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:54
+msgid ":ref:`checked<class_CheckBox_theme_icon_checked>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:56
+msgid ":ref:`checked_disabled<class_CheckBox_theme_icon_checked_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:58
+msgid ":ref:`radio_checked<class_CheckBox_theme_icon_radio_checked>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:60
+msgid ":ref:`radio_checked_disabled<class_CheckBox_theme_icon_radio_checked_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:62
+msgid ":ref:`radio_unchecked<class_CheckBox_theme_icon_radio_unchecked>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:64
+msgid ":ref:`radio_unchecked_disabled<class_CheckBox_theme_icon_radio_unchecked_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:66
+msgid ":ref:`unchecked<class_CheckBox_theme_icon_unchecked>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:68
+msgid ":ref:`unchecked_disabled<class_CheckBox_theme_icon_unchecked_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:70
+#: ../classes/class_checkbox.rst:72
+#: ../classes/class_checkbox.rst:74
+#: ../classes/class_checkbox.rst:76
+#: ../classes/class_checkbox.rst:78
+#: ../classes/class_checkbox.rst:80
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:70
+msgid ":ref:`disabled<class_CheckBox_theme_style_disabled>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:72
+msgid ":ref:`focus<class_CheckBox_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:74
+msgid ":ref:`hover<class_CheckBox_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:76
+msgid ":ref:`hover_pressed<class_CheckBox_theme_style_hover_pressed>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:78
+msgid ":ref:`normal<class_CheckBox_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:80
+msgid ":ref:`pressed<class_CheckBox_theme_style_pressed>`"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:84
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:88
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:91
+#: ../classes/class_checkbox.rst:103
+#: ../classes/class_checkbox.rst:115
+#: ../classes/class_checkbox.rst:127
+#: ../classes/class_checkbox.rst:139
+#: ../classes/class_checkbox.rst:151
+#: ../classes/class_checkbox.rst:163
+#: ../classes/class_checkbox.rst:175
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:94
+msgid "``CheckBox``\\ 文本的字体颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:100
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:106
+msgid "``CheckBox``\\ 文本被禁用时的字体颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:112
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:118
+msgid "``CheckBox`` 文本获得焦点时的字体颜色。只取代复选框的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:124
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:130
+msgid "``CheckBox``\\ 文本在悬停时的字体颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:136
+msgid ":ref:`Color<class_Color>` **font_color_hover_pressed**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:142
+msgid "当\\ ``CheckBox``\\ 文本被悬停和按下时的字体颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:148
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:154
+msgid "文本被按下时的字体颜色。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:160
+msgid ":ref:`int<class_int>` **check_vadjust**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:166
+msgid "呈现复选图标时使用的垂直偏移量（以像素为单位）。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:172
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:178
+msgid "复选图标和文本之间的分隔（以像素为单位）。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:184
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:186
+msgid "用于\\ ``CheckBox``\\ 文本的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:192
+msgid ":ref:`Texture<class_Texture>` **checked**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:194
+msgid "选中\\ ``CheckBox``\\ 时显示的复选图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:200
+msgid ":ref:`Texture<class_Texture>` **checked_disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:202
+msgid "当\\ ``CheckBox``\\ 被选中和禁用时要显示的勾选图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:208
+msgid ":ref:`Texture<class_Texture>` **radio_checked**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:210
+msgid "如果将\\ ``CheckBox``\\ 配置为单选按钮，则选中\\ ``CheckBox``\\ 时显示的图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:216
+msgid ":ref:`Texture<class_Texture>` **radio_checked_disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:222
+msgid ":ref:`Texture<class_Texture>` **radio_unchecked**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:224
+msgid "如果将\\ ``CheckBox``\\ 配置为单选按钮，则取消选中\\ ``CheckBox``\\ 时显示的图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:230
+msgid ":ref:`Texture<class_Texture>` **radio_unchecked_disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:236
+msgid ":ref:`Texture<class_Texture>` **unchecked**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:238
+msgid "未选中\\ ``CheckBox``\\ 时显示的复选图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:244
+msgid ":ref:`Texture<class_Texture>` **unchecked_disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:246
+msgid "当\\ ``CheckBox``\\ 未被选中并被禁用时要显示的勾选图标。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:252
+msgid ":ref:`StyleBox<class_StyleBox>` **disabled**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:254
+msgid "当\\ ``CheckBox``\\ 被禁用时，作为背景显示的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:260
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:262
+msgid "当\\ ``CheckBox``\\ 被聚焦时，作为背景显示的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:268
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:270
+msgid "当\\ ``CheckBox``\\ 被悬停时作为背景显示的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:276
+msgid ":ref:`StyleBox<class_StyleBox>` **hover_pressed**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:278
+msgid "当\\ ``CheckBox``\\ 被悬停和按下时，作为背景显示的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:284
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:286
+msgid ":ref:`StyleBox<class_StyleBox>`\\ 显示为背景。"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:292
+msgid ":ref:`StyleBox<class_StyleBox>` **pressed**"
+msgstr ""
+
+#: ../classes/class_checkbox.rst:294
+msgid "按下\\ ``CheckBox``\\ 时，\\ :ref:`StyleBox<class_StyleBox>`\\ 显示为背景。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

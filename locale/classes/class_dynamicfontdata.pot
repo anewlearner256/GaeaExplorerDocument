@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_dynamicfontdata.rst:10
+msgid "DynamicFontData"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:14
+msgid "与 :ref:`DynamicFont<class_DynamicFont>` 一起使用，用于描述字体文件的位置。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:19
+msgid "与 :ref:`DynamicFont<class_DynamicFont>` 一起使用，用于描述运行时动态渲染的矢量字体文件的位置。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:24
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:30
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:30
+msgid ":ref:`antialiased<class_DynamicFontData_property_antialiased>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:30
+#: ../classes/class_dynamicfontdata.rst:64
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:32
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:32
+msgid ":ref:`font_path<class_DynamicFontData_property_font_path>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:32
+#: ../classes/class_dynamicfontdata.rst:80
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:34
+msgid ":ref:`Hinting<enum_DynamicFontData_Hinting>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:34
+msgid ":ref:`hinting<class_DynamicFontData_property_hinting>`"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:34
+#: ../classes/class_dynamicfontdata.rst:96
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:38
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:48
+msgid "enum **Hinting**:"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:50
+msgid "**HINTING_NONE** = **0** --- 禁用字体提示（更平滑但不那么清晰）。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:52
+msgid "**HINTING_LIGHT** = **1** --- 使用浅色字体提示模式。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:54
+msgid "**HINTING_NORMAL** = **2** --- 使用默认的字体提示模式（更清晰但不太流畅）。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:57
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:61
+msgid ":ref:`bool<class_bool>` **antialiased**"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:64
+#: ../classes/class_dynamicfontdata.rst:80
+#: ../classes/class_dynamicfontdata.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:66
+#: ../classes/class_dynamicfontdata.rst:82
+#: ../classes/class_dynamicfontdata.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:66
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:68
+#: ../classes/class_dynamicfontdata.rst:84
+#: ../classes/class_dynamicfontdata.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:68
+msgid "is_antialiased()"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:71
+msgid "为 ``true`` 时将以抗锯齿方式渲染该字体。此属性既适用于主字体，也适用于其轮廓（如果有）。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:77
+msgid ":ref:`String<class_String>` **font_path**"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:82
+msgid "set_font_path(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:84
+msgid "get_font_path()"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:87
+msgid "矢量字体文件的路径。"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:93
+msgid ":ref:`Hinting<enum_DynamicFontData_Hinting>` **hinting**"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:98
+msgid "set_hinting(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:100
+msgid "get_hinting()"
+msgstr ""
+
+#: ../classes/class_dynamicfontdata.rst:103
+msgid "FreeType 使用的字体提示模式。参阅 :ref:`Hinting<enum_DynamicFontData_Hinting>` 选项。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

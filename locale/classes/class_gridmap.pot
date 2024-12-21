@@ -1,0 +1,655 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gridmap.rst:10
+msgid "GridMap"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:14
+msgid "基于3D贴图格地图(3D tile-based maps)的节点。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:19
+msgid "GridMap允许你以交互方式将meshes网格放置在网格上。它既可以在编辑器中进行，也可以从脚本中进行，这可以帮助你在游戏中创建关卡编辑器。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:21
+msgid "GridMaps使用\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ ，其中包含了一个图块的列表。每一个图块都是一个带有材质的网格，加上可选的碰撞和导航形状。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:23
+msgid "GridMap包含一个单元格的集合。每个网格单元指的是\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 中的一个图块。地图中的所有单元都有相同的尺寸。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:25
+msgid "在内部，GridMap被分割成一个松散的八边形集合，以便有效地进行渲染和物理处理。每个八角形都有相同的尺寸，可以包含多个单元。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:27
+msgid "\\ **注意：**\\ GridMap 没有扩展 :ref:`VisualInstance<class_VisualInstance>`\\ ，因此无法根据 :ref:`VisualInstance.layers<class_VisualInstance_property_layers>` 进行隐藏或剔除遮挡。如果你让灯光不影响第一层，整个 GridMap 就都不会被相关的灯光照亮。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:30
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:32
+msgid ":doc:`Using gridmaps <../tutorials/3d/using_gridmaps>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:34
+msgid "`3D Platformer Demo <https://godotengine.org/asset-library/asset/125>`__"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:36
+msgid "`3D Kinematic Character Demo <https://godotengine.org/asset-library/asset/126>`__"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:39
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:42
+#: ../classes/class_gridmap.rst:44
+#: ../classes/class_gridmap.rst:46
+#: ../classes/class_gridmap.rst:60
+#: ../classes/class_gridmap.rst:79
+#: ../classes/class_gridmap.rst:81
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:42
+msgid ":ref:`cell_center_x<class_GridMap_property_cell_center_x>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:42
+#: ../classes/class_gridmap.rst:44
+#: ../classes/class_gridmap.rst:46
+#: ../classes/class_gridmap.rst:128
+#: ../classes/class_gridmap.rst:144
+#: ../classes/class_gridmap.rst:160
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:44
+msgid ":ref:`cell_center_y<class_GridMap_property_cell_center_y>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:46
+msgid ":ref:`cell_center_z<class_GridMap_property_cell_center_z>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:48
+#: ../classes/class_gridmap.rst:54
+#: ../classes/class_gridmap.rst:56
+#: ../classes/class_gridmap.rst:75
+#: ../classes/class_gridmap.rst:77
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:48
+msgid ":ref:`cell_octant_size<class_GridMap_property_cell_octant_size>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:48
+#: ../classes/class_gridmap.rst:176
+msgid "``8``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:50
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:50
+msgid ":ref:`cell_scale<class_GridMap_property_cell_scale>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:50
+#: ../classes/class_gridmap.rst:192
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:52
+#: ../classes/class_gridmap.rst:89
+#: ../classes/class_gridmap.rst:101
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:52
+msgid ":ref:`cell_size<class_GridMap_property_cell_size>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:52
+#: ../classes/class_gridmap.rst:210
+msgid "``Vector3( 2, 2, 2 )``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:54
+msgid ":ref:`collision_layer<class_GridMap_property_collision_layer>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:54
+#: ../classes/class_gridmap.rst:56
+#: ../classes/class_gridmap.rst:228
+#: ../classes/class_gridmap.rst:246
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:56
+msgid ":ref:`collision_mask<class_GridMap_property_collision_mask>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:58
+msgid ":ref:`MeshLibrary<class_MeshLibrary>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:58
+msgid ":ref:`mesh_library<class_GridMap_property_mesh_library>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:60
+msgid ":ref:`use_in_baked_light<class_GridMap_property_use_in_baked_light>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:60
+#: ../classes/class_gridmap.rst:276
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:64
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:67
+#: ../classes/class_gridmap.rst:69
+#: ../classes/class_gridmap.rst:87
+#: ../classes/class_gridmap.rst:91
+#: ../classes/class_gridmap.rst:93
+#: ../classes/class_gridmap.rst:95
+#: ../classes/class_gridmap.rst:97
+#: ../classes/class_gridmap.rst:99
+msgid "void"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:67
+msgid ":ref:`clear<class_GridMap_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:69
+msgid ":ref:`clear_baked_meshes<class_GridMap_method_clear_baked_meshes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:71
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:71
+msgid ":ref:`get_bake_mesh_instance<class_GridMap_method_get_bake_mesh_instance>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:73
+#: ../classes/class_gridmap.rst:83
+#: ../classes/class_gridmap.rst:85
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:73
+msgid ":ref:`get_bake_meshes<class_GridMap_method_get_bake_meshes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:75
+msgid ":ref:`get_cell_item<class_GridMap_method_get_cell_item>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:77
+msgid ":ref:`get_cell_item_orientation<class_GridMap_method_get_cell_item_orientation>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:79
+msgid ":ref:`get_collision_layer_bit<class_GridMap_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:81
+msgid ":ref:`get_collision_mask_bit<class_GridMap_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:83
+msgid ":ref:`get_meshes<class_GridMap_method_get_meshes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:85
+msgid ":ref:`get_used_cells<class_GridMap_method_get_used_cells>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:87
+msgid ":ref:`make_baked_meshes<class_GridMap_method_make_baked_meshes>` **(** :ref:`bool<class_bool>` gen_lightmap_uv=false, :ref:`float<class_float>` lightmap_uv_texel_size=0.1 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:89
+msgid ":ref:`map_to_world<class_GridMap_method_map_to_world>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:91
+msgid ":ref:`resource_changed<class_GridMap_method_resource_changed>` **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:93
+msgid ":ref:`set_cell_item<class_GridMap_method_set_cell_item>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z, :ref:`int<class_int>` item, :ref:`int<class_int>` orientation=0 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:95
+msgid ":ref:`set_clip<class_GridMap_method_set_clip>` **(** :ref:`bool<class_bool>` enabled, :ref:`bool<class_bool>` clipabove=true, :ref:`int<class_int>` floor=0, Vector3.Axis axis=0 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:97
+msgid ":ref:`set_collision_layer_bit<class_GridMap_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:99
+msgid ":ref:`set_collision_mask_bit<class_GridMap_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:101
+msgid ":ref:`world_to_map<class_GridMap_method_world_to_map>` **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:105
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:109
+msgid "**cell_size_changed** **(** :ref:`Vector3<class_Vector3>` cell_size **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:111
+msgid "当 :ref:`cell_size<class_GridMap_property_cell_size>` 改变时触发。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:114
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:118
+msgid "**INVALID_CELL_ITEM** = **-1** --- 可以在 :ref:`set_cell_item<class_GridMap_method_set_cell_item>` 中清除单元格（或在 :ref:`get_cell_item<class_GridMap_method_get_cell_item>` 中重新代表一个空的单元格）的无效单元格。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:121
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:125
+msgid ":ref:`bool<class_bool>` **cell_center_x**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:128
+#: ../classes/class_gridmap.rst:144
+#: ../classes/class_gridmap.rst:160
+#: ../classes/class_gridmap.rst:176
+#: ../classes/class_gridmap.rst:192
+#: ../classes/class_gridmap.rst:210
+#: ../classes/class_gridmap.rst:228
+#: ../classes/class_gridmap.rst:246
+#: ../classes/class_gridmap.rst:276
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:130
+#: ../classes/class_gridmap.rst:146
+#: ../classes/class_gridmap.rst:162
+#: ../classes/class_gridmap.rst:178
+#: ../classes/class_gridmap.rst:194
+#: ../classes/class_gridmap.rst:212
+#: ../classes/class_gridmap.rst:230
+#: ../classes/class_gridmap.rst:248
+#: ../classes/class_gridmap.rst:262
+#: ../classes/class_gridmap.rst:278
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:130
+msgid "set_center_x(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:132
+#: ../classes/class_gridmap.rst:148
+#: ../classes/class_gridmap.rst:164
+#: ../classes/class_gridmap.rst:180
+#: ../classes/class_gridmap.rst:196
+#: ../classes/class_gridmap.rst:214
+#: ../classes/class_gridmap.rst:232
+#: ../classes/class_gridmap.rst:250
+#: ../classes/class_gridmap.rst:264
+#: ../classes/class_gridmap.rst:280
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:132
+msgid "get_center_x()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:135
+msgid "如果\\ ``true``\\ ，则网格项以X轴为中心。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:141
+msgid ":ref:`bool<class_bool>` **cell_center_y**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:146
+msgid "set_center_y(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:148
+msgid "get_center_y()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:151
+msgid "如果为 ``true``\\ ，则网格项以 Y 轴为中心。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:157
+msgid ":ref:`bool<class_bool>` **cell_center_z**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:162
+msgid "set_center_z(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:164
+msgid "get_center_z()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:167
+msgid "如果为 ``true``\\ ，则网格项以 Z 轴为中心。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:173
+msgid ":ref:`int<class_int>` **cell_octant_size**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:178
+msgid "set_octant_size(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:180
+msgid "get_octant_size()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:183
+msgid "每个八分圆的大小以单元格的数量衡量。这适用于三个轴(XYZ)。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:189
+msgid ":ref:`float<class_float>` **cell_scale**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:194
+msgid "set_cell_scale(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:196
+msgid "get_cell_scale()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:199
+msgid "单元格项目的比例。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:201
+msgid "这不会影响网格单元本身的大小，只会影响其中的项目。这可用于使单元格项目与其邻居重叠。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:207
+msgid ":ref:`Vector3<class_Vector3>` **cell_size**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:212
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:214
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:217
+msgid "网格单元的尺寸。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:219
+msgid "这并不影响网格的尺寸大小。参阅\\ :ref:`cell_scale<class_GridMap_property_cell_scale>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:225
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:230
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:232
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:235
+msgid "这个GridMap所处的物理层。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:237
+msgid "Gridmap作为静态体，意味着它们不会受到重力或是其他力的影响。它们只会受到其他与它们碰撞的物理体的影响。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:243
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:248
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:250
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:253
+msgid "The physics layers this GridMap detects collisions in. See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_gridmap.rst:259
+msgid ":ref:`MeshLibrary<class_MeshLibrary>` **mesh_library**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:262
+msgid "set_mesh_library(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:264
+msgid "get_mesh_library()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:267
+msgid "指定的\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:273
+msgid ":ref:`bool<class_bool>` **use_in_baked_light**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:278
+msgid "set_use_in_baked_light(value)"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:280
+msgid "get_use_in_baked_light()"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:283
+msgid "控制此 GridMap 是否会在 :ref:`BakedLightmap<class_BakedLightmap>` 中烘焙。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:286
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:290
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:292
+msgid "清除所有单元格。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:298
+msgid "void **clear_baked_meshes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:304
+msgid ":ref:`RID<class_RID>` **get_bake_mesh_instance** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:310
+msgid ":ref:`Array<class_Array>` **get_bake_meshes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:312
+msgid "返回当前GridMap中存在的所有烘焙网格的\\ :ref:`ArrayMesh<class_ArrayMesh>`\\ 和\\ :ref:`Transform<class_Transform>`\\ 引用的数组。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:318
+msgid ":ref:`int<class_int>` **get_cell_item** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:320
+msgid ":ref:`MeshLibrary<class_MeshLibrary>` 项目索引位于基于网格的 X、Y 和 Z 坐标处。如果单元格为空，则返回 :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:326
+msgid ":ref:`int<class_int>` **get_cell_item_orientation** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:328
+msgid "单元格在基于网格的 X、Y 和 Z 坐标处的方向。如果单元格为空，则返回 -1。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:334
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:336
+msgid "返回\\ :ref:`collision_layer<class_GridMap_property_collision_layer>`\\ 上的一个单独像素点。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:342
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:344
+msgid "返回\\ :ref:`collision_mask<class_GridMap_property_collision_mask>`\\ 上的一个独立像素。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:350
+msgid ":ref:`Array<class_Array>` **get_meshes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:352
+msgid "返回对应于网格中非空单元格的 :ref:`Transform<class_Transform>` 和 :ref:`Mesh<class_Mesh>` 引用数组。变换在世界空间中指定。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:358
+msgid ":ref:`Array<class_Array>` **get_used_cells** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:360
+msgid "返回一个包含网格中非空单元格坐标的 :ref:`Vector3<class_Vector3>` 数组。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:366
+msgid "void **make_baked_meshes** **(** :ref:`bool<class_bool>` gen_lightmap_uv=false, :ref:`float<class_float>` lightmap_uv_texel_size=0.1 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:372
+msgid ":ref:`Vector3<class_Vector3>` **map_to_world** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:374
+msgid "返回一个网格单元在GridMap本地坐标空间中的位置。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:380
+msgid "void **resource_changed** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:386
+msgid "void **set_cell_item** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z, :ref:`int<class_int>` item, :ref:`int<class_int>` orientation=0 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:388
+msgid "设置由基于网格的 X、Y 和 Z 坐标引用的单元格的网格索引。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:390
+msgid "负的项目索引将清除单元格，例如 :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:392
+msgid "或者，可以传递项目的方向。相关有效的方向值，请参阅 :ref:`Basis.get_orthogonal_index<class_Basis_method_get_orthogonal_index>`\\ 。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:398
+msgid "void **set_clip** **(** :ref:`bool<class_bool>` enabled, :ref:`bool<class_bool>` clipabove=true, :ref:`int<class_int>` floor=0, Vector3.Axis axis=0 **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:404
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:406
+msgid "在\\ :ref:`collision_layer<class_GridMap_property_collision_layer>`\\ 上设置独立像素。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:412
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:414
+msgid "在\\ :ref:`collision_mask<class_GridMap_property_collision_mask>`\\ 上设置独立像素。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:420
+msgid ":ref:`Vector3<class_Vector3>` **world_to_map** **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:422
+msgid "返回包含给定点的网格单元的坐标。"
+msgstr ""
+
+#: ../classes/class_gridmap.rst:424
+msgid "\\ ``pos``\\ 应该在GridMap的本地坐标空间中。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

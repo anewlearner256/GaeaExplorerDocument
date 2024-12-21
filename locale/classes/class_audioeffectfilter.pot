@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectfilter.rst:10
+msgid "AudioEffectFilter"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:14
+msgid "**Inherited By:** :ref:`AudioEffectBandLimitFilter<class_AudioEffectBandLimitFilter>`, :ref:`AudioEffectBandPassFilter<class_AudioEffectBandPassFilter>`, :ref:`AudioEffectHighPassFilter<class_AudioEffectHighPassFilter>`, :ref:`AudioEffectHighShelfFilter<class_AudioEffectHighShelfFilter>`, :ref:`AudioEffectLowPassFilter<class_AudioEffectLowPassFilter>`, :ref:`AudioEffectLowShelfFilter<class_AudioEffectLowShelfFilter>`, :ref:`AudioEffectNotchFilter<class_AudioEffectNotchFilter>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:16
+msgid "为音频总线添加一个滤波器。"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:21
+msgid "允许通过\\ :ref:`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`\\ 以外的频率。"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:26
+msgid ":doc:`Audio buses <../tutorials/audio/audio_buses>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:32
+#: ../classes/class_audioeffectfilter.rst:36
+#: ../classes/class_audioeffectfilter.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:32
+msgid ":ref:`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:32
+#: ../classes/class_audioeffectfilter.rst:72
+msgid "``2000.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:34
+msgid ":ref:`FilterDB<enum_AudioEffectFilter_FilterDB>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:34
+msgid ":ref:`db<class_AudioEffectFilter_property_db>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:34
+#: ../classes/class_audioeffectfilter.rst:88
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:36
+msgid ":ref:`gain<class_AudioEffectFilter_property_gain>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:36
+#: ../classes/class_audioeffectfilter.rst:102
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:38
+msgid ":ref:`resonance<class_AudioEffectFilter_property_resonance>`"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:38
+#: ../classes/class_audioeffectfilter.rst:118
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:42
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:54
+msgid "enum **FilterDB**:"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:56
+msgid "**FILTER_6DB** = **0**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:58
+msgid "**FILTER_12DB** = **1**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:60
+msgid "**FILTER_18DB** = **2**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:62
+msgid "**FILTER_24DB** = **3**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:65
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:69
+msgid ":ref:`float<class_float>` **cutoff_hz**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:72
+#: ../classes/class_audioeffectfilter.rst:88
+#: ../classes/class_audioeffectfilter.rst:102
+#: ../classes/class_audioeffectfilter.rst:118
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:74
+#: ../classes/class_audioeffectfilter.rst:90
+#: ../classes/class_audioeffectfilter.rst:104
+#: ../classes/class_audioeffectfilter.rst:120
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:74
+msgid "set_cutoff(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:76
+#: ../classes/class_audioeffectfilter.rst:92
+#: ../classes/class_audioeffectfilter.rst:106
+#: ../classes/class_audioeffectfilter.rst:122
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:76
+msgid "get_cutoff()"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:79
+msgid "滤波器的阈值频率，单位为Hz。"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:85
+msgid ":ref:`FilterDB<enum_AudioEffectFilter_FilterDB>` **db**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:90
+msgid "set_db(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:92
+msgid "get_db()"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:99
+msgid ":ref:`float<class_float>` **gain**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:104
+msgid "set_gain(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:106
+msgid "get_gain()"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:109
+msgid "滤波后频率的增益量。"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:115
+msgid ":ref:`float<class_float>` **resonance**"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:120
+msgid "set_resonance(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:122
+msgid "get_resonance()"
+msgstr ""
+
+#: ../classes/class_audioeffectfilter.rst:125
+msgid "在截断频率附近的频率范围内的提升量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

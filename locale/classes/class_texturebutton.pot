@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_texturebutton.rst:10
+msgid "TextureButton"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:12
+msgid "**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:14
+msgid "基于纹理的按钮。支持按下、悬停、停用和焦点状态。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:19
+msgid "``TextureButton`` 的功能与 :ref:`Button<class_Button>` 相同，只是它使用精灵而不是 GaaeExplorer 的 :ref:`Theme<class_Theme>` 主题资源。它的创建速度更快，但它不像更复杂的 :ref:`Control<class_Control>` 那样支持本地化。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:21
+msgid "“正常”状态必须包含一个纹理（\\ :ref:`texture_normal<class_TextureButton_property_texture_normal>`\\ ）；其他纹理是可选的。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:23
+msgid "也请参阅 :ref:`BaseButton<class_BaseButton>`\\ ，它包含了与该节点相关的通用属性和方法。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:28
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:34
+#: ../classes/class_texturebutton.rst:36
+#: ../classes/class_texturebutton.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:34
+msgid ":ref:`expand<class_TextureButton_property_expand>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:34
+#: ../classes/class_texturebutton.rst:36
+#: ../classes/class_texturebutton.rst:38
+#: ../classes/class_texturebutton.rst:98
+#: ../classes/class_texturebutton.rst:114
+#: ../classes/class_texturebutton.rst:130
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:36
+msgid ":ref:`flip_h<class_TextureButton_property_flip_h>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:38
+msgid ":ref:`flip_v<class_TextureButton_property_flip_v>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:40
+msgid ":ref:`StretchMode<enum_TextureButton_StretchMode>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:40
+msgid ":ref:`stretch_mode<class_TextureButton_property_stretch_mode>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:40
+#: ../classes/class_texturebutton.rst:146
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:42
+msgid ":ref:`BitMap<class_BitMap>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:42
+msgid ":ref:`texture_click_mask<class_TextureButton_property_texture_click_mask>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:44
+#: ../classes/class_texturebutton.rst:46
+#: ../classes/class_texturebutton.rst:48
+#: ../classes/class_texturebutton.rst:50
+#: ../classes/class_texturebutton.rst:52
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:44
+msgid ":ref:`texture_disabled<class_TextureButton_property_texture_disabled>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:46
+msgid ":ref:`texture_focused<class_TextureButton_property_texture_focused>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:48
+msgid ":ref:`texture_hover<class_TextureButton_property_texture_hover>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:50
+msgid ":ref:`texture_normal<class_TextureButton_property_texture_normal>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:52
+msgid ":ref:`texture_pressed<class_TextureButton_property_texture_pressed>`"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:56
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:74
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:76
+msgid "**STRETCH_SCALE** = **0** --- 缩放以适应节点的边界矩形。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:78
+msgid "**STRETCH_TILE** = **1** --- 在节点的边界矩形内平铺。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:80
+msgid "**STRETCH_KEEP** = **2** --- 纹理保持它的原始尺寸，并保持在边界矩形的左上角。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:82
+msgid "**STRETCH_KEEP_CENTERED** = **3** --- 纹理保持其原始大小，并在节点的边界矩形中保持居中。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:84
+msgid "**STRETCH_KEEP_ASPECT** = **4** --- 缩放纹理以适应节点的边界矩形，但保持纹理的长宽比。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:86
+msgid "**STRETCH_KEEP_ASPECT_CENTERED** = **5** --- 缩放纹理以适应节点的边界矩形，使其居中，并保持长宽比。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:88
+msgid "**STRETCH_KEEP_ASPECT_COVERED** = **6** --- 缩放纹理，使较短的一边适应边界矩形。另一边则裁剪到节点的界限内。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:91
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:95
+msgid ":ref:`bool<class_bool>` **expand**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:98
+#: ../classes/class_texturebutton.rst:114
+#: ../classes/class_texturebutton.rst:130
+#: ../classes/class_texturebutton.rst:146
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:100
+#: ../classes/class_texturebutton.rst:116
+#: ../classes/class_texturebutton.rst:132
+#: ../classes/class_texturebutton.rst:148
+#: ../classes/class_texturebutton.rst:162
+#: ../classes/class_texturebutton.rst:176
+#: ../classes/class_texturebutton.rst:190
+#: ../classes/class_texturebutton.rst:204
+#: ../classes/class_texturebutton.rst:218
+#: ../classes/class_texturebutton.rst:232
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:100
+msgid "set_expand(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:102
+#: ../classes/class_texturebutton.rst:118
+#: ../classes/class_texturebutton.rst:134
+#: ../classes/class_texturebutton.rst:150
+#: ../classes/class_texturebutton.rst:164
+#: ../classes/class_texturebutton.rst:178
+#: ../classes/class_texturebutton.rst:192
+#: ../classes/class_texturebutton.rst:206
+#: ../classes/class_texturebutton.rst:220
+#: ../classes/class_texturebutton.rst:234
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:102
+msgid "get_expand()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:105
+msgid "为 ``true`` 时纹理会使用 :ref:`stretch_mode<class_TextureButton_property_stretch_mode>` 拉伸到节点的边界矩形的边缘。为 ``false`` 时纹理将不随节点缩放。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:111
+msgid ":ref:`bool<class_bool>` **flip_h**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:116
+msgid "set_flip_h(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:118
+msgid "is_flipped_h()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:121
+msgid "为 ``true`` 时纹理将被水平翻转。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:127
+msgid ":ref:`bool<class_bool>` **flip_v**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:132
+msgid "set_flip_v(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:134
+msgid "is_flipped_v()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:137
+msgid "为 ``true`` 时纹理将被垂直翻转。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:143
+msgid ":ref:`StretchMode<enum_TextureButton_StretchMode>` **stretch_mode**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:148
+msgid "set_stretch_mode(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:150
+msgid "get_stretch_mode()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:153
+msgid "控制纹理在你调整节点的边界矩形时的行为，\\ **只有在**\\ :ref:`expand<class_TextureButton_property_expand>` 为 ``true`` 的情况下。把它设置为 :ref:`StretchMode<enum_TextureButton_StretchMode>` 常量之一。请看常量来了解更多。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:159
+msgid ":ref:`BitMap<class_BitMap>` **texture_click_mask**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:162
+msgid "set_click_mask(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:164
+msgid "get_click_mask()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:167
+msgid "用于点击检测的纯黑白\\ :ref:`BitMap<class_BitMap>`\\ 图像。在遮罩上，白色像素代表按钮的可点击区域。可用它来创建具有弯曲形状的按钮。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:173
+msgid ":ref:`Texture<class_Texture>` **texture_disabled**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:176
+msgid "set_disabled_texture(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:178
+msgid "get_disabled_texture()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:181
+msgid "节点被禁用时显示的纹理。参阅\\ :ref:`BaseButton.disabled<class_BaseButton_property_disabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:187
+msgid ":ref:`Texture<class_Texture>` **texture_focused**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:190
+msgid "set_focused_texture(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:192
+msgid "get_focused_texture()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:195
+msgid "当节点具有鼠标或键盘焦点时显示的纹理。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:201
+msgid ":ref:`Texture<class_Texture>` **texture_hover**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:204
+msgid "set_hover_texture(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:206
+msgid "get_hover_texture()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:209
+msgid "当鼠标悬停在节点上时显示的纹理。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:215
+msgid ":ref:`Texture<class_Texture>` **texture_normal**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:218
+msgid "set_normal_texture(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:220
+msgid "get_normal_texture()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:223
+msgid "节点\\ **不处于**\\ 禁用、聚焦、悬停、按下状态时，默认显示的纹理。"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:229
+msgid ":ref:`Texture<class_Texture>` **texture_pressed**"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:232
+msgid "set_pressed_texture(value)"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:234
+msgid "get_pressed_texture()"
+msgstr ""
+
+#: ../classes/class_texturebutton.rst:237
+msgid "如果节点有键盘焦点且玩家按下回车键，或者玩家按下 :ref:`BaseButton.shortcut<class_BaseButton_property_shortcut>` 键，则鼠标悬停在节点上时显示的纹理。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

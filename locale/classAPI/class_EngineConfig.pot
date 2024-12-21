@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_EngineConfig.rst:2
+#: ../classAPI/class_EngineConfig.rst:16
+msgid "EngineConfig"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:7
+msgid "系统配置"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:16
+msgid "Instance"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:18
+#: ../classAPI/class_EngineConfig.rst:20
+#: ../classAPI/class_EngineConfig.rst:22
+#: ../classAPI/class_EngineConfig.rst:24
+#: ../classAPI/class_EngineConfig.rst:26
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:18
+msgid "AssetHost"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:20
+msgid "ServerHost"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:22
+msgid "DefaultImageServer"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:24
+msgid "DefaultTerrainServer"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:26
+msgid "DefaultGlobalOverview"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:28
+#: ../classAPI/class_EngineConfig.rst:35
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:28
+msgid "HasConfigCache"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:32
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:35
+msgid "LoadConfig(String userConfig,)"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:39
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:41
+msgid "EngineConfig Instance"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:44
+#: ../classAPI/class_EngineConfig.rst:55
+#: ../classAPI/class_EngineConfig.rst:66
+#: ../classAPI/class_EngineConfig.rst:77
+#: ../classAPI/class_EngineConfig.rst:88
+#: ../classAPI/class_EngineConfig.rst:99
+#: ../classAPI/class_EngineConfig.rst:110
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:48
+msgid "EngineConfig的单例对象"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:52
+msgid "String AssetHost"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:59
+msgid "内置资源请求地址"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:63
+msgid "String ServerHost"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:70
+msgid "服务地址"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:74
+msgid "String DefaultImageServer"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:81
+msgid "默认影像服务"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:85
+msgid "String DefaultTerrainServer"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:92
+msgid "默认地形服务"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:96
+msgid "String DefaultGlobalOverview"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:103
+msgid "默认的全球概图"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:107
+msgid "Boolean HasConfigCache"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:120
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_EngineConfig.rst:122
+msgid "Boolean LoadConfig(String userConfig,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

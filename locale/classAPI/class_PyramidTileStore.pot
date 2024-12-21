@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_PyramidTileStore.rst:2
+msgid "PyramidTileStore"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:16
+#: ../classAPI/class_PyramidTileStore.rst:18
+#: ../classAPI/class_PyramidTileStore.rst:28
+#: ../classAPI/class_PyramidTileStore.rst:30
+#: ../classAPI/class_PyramidTileStore.rst:44
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:16
+msgid "SplitDirectionRefreshFlag"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:18
+msgid "SplitDirection"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:20
+#: ../classAPI/class_PyramidTileStore.rst:57
+#: ../classAPI/class_PyramidTileStore.rst:59
+#: ../classAPI/class_PyramidTileStore.rst:61
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:20
+msgid "Name"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:22
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:22
+msgid "LevelRange"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:24
+#: ../classAPI/class_PyramidTileStore.rst:46
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:24
+msgid "Transparency"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:26
+#: ../classAPI/class_PyramidTileStore.rst:34
+#: ../classAPI/class_PyramidTileStore.rst:36
+#: ../classAPI/class_PyramidTileStore.rst:38
+#: ../classAPI/class_PyramidTileStore.rst:40
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:26
+msgid "LevelZeroTileSizeDegrees"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:28
+msgid "StartLevel"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:30
+msgid "LevelCount"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:32
+#: ../classAPI/class_PyramidTileStore.rst:53
+msgid "ImageExtensionEnum"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:32
+msgid "ImageExtension"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:34
+msgid "North"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:36
+msgid "West"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:38
+msgid "South"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:40
+msgid "East"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:42
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:42
+msgid "Visible"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:44
+msgid "ImageTransparencyRefreshFlag"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:46
+msgid "ImageTransparency"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:50
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:53
+msgid "SetExtensionByStr(String ext,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:55
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:55
+msgid "SetBoundingBox(Double north,Double south,Double east,Double west,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:57
+msgid "GetLocalPath(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:59
+msgid "GetCacheDirPath()"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:61
+msgid "GetDownloadUrl(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:63
+msgid "IDisposable"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:63
+msgid "LoadFile(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:67
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:69
+msgid "Int32 SplitDirectionRefreshFlag"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:72
+#: ../classAPI/class_PyramidTileStore.rst:83
+#: ../classAPI/class_PyramidTileStore.rst:94
+#: ../classAPI/class_PyramidTileStore.rst:105
+#: ../classAPI/class_PyramidTileStore.rst:116
+#: ../classAPI/class_PyramidTileStore.rst:127
+#: ../classAPI/class_PyramidTileStore.rst:138
+#: ../classAPI/class_PyramidTileStore.rst:149
+#: ../classAPI/class_PyramidTileStore.rst:160
+#: ../classAPI/class_PyramidTileStore.rst:171
+#: ../classAPI/class_PyramidTileStore.rst:182
+#: ../classAPI/class_PyramidTileStore.rst:193
+#: ../classAPI/class_PyramidTileStore.rst:204
+#: ../classAPI/class_PyramidTileStore.rst:215
+#: ../classAPI/class_PyramidTileStore.rst:226
+#: ../classAPI/class_PyramidTileStore.rst:237
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:80
+msgid "Int32 SplitDirection"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:87
+msgid "卷帘状态下，所加的图层的位置，0加在两边，1加在左边，2加在右边"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:91
+msgid "String Name"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:98
+msgid "金字塔瓦片图层名"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:102
+msgid "Vector2 LevelRange"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:109
+msgid "金字塔瓦片的层级范围"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:113
+msgid "Single Transparency"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:120
+msgid "图层透明度"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:124
+msgid "Double LevelZeroTileSizeDegrees"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:131
+msgid "0级瓦片的经纬度跨度"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:135
+msgid "Int32 StartLevel"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:142
+msgid "瓦片服务的起始层"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:146
+msgid "Int32 LevelCount"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:153
+msgid "详细级别数"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:157
+msgid "ImageExtensionEnum ImageExtension"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:164
+msgid "源图像文件格式的文件扩展名"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:168
+msgid "Double North"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:175
+msgid "该瓦片图层北部边界"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:179
+msgid "Double West"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:186
+msgid "该瓦片图层西部边界"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:190
+msgid "Double South"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:197
+msgid "该瓦片图层南部边界"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:201
+msgid "Double East"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:208
+msgid "该瓦片图层东部边界"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:212
+msgid "Boolean Visible"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:219
+msgid "隐藏显示某个图层"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:223
+msgid "Int32 ImageTransparencyRefreshFlag"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:230
+msgid "该图层的透明度刷新标志"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:234
+msgid "Single ImageTransparency"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:241
+msgid "该图层的透明度"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:247
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:249
+msgid "ImageExtensionEnum SetExtensionByStr(String ext,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:255
+msgid "Void SetBoundingBox(Double north,Double south,Double east,Double west,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:261
+msgid "String GetLocalPath(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:267
+msgid "String GetCacheDirPath()"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:273
+msgid "String GetDownloadUrl(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_PyramidTileStore.rst:279
+msgid "IDisposable LoadFile(PyramidTile tile,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

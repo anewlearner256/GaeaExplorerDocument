@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_hflowcontainer.rst:11
+msgid "HFlowContainer"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:13
+msgid "**Inherits:** :ref:`FlowContainer<class_FlowContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:15
+msgid "Horizontal flow container."
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:20
+msgid "Horizontal version of :ref:`FlowContainer<class_FlowContainer>`."
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:23
+msgid "Theme Properties"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:26
+#: ../classes/class_hflowcontainer.rst:28
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:26
+msgid ":ref:`hseparation<class_HFlowContainer_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:26
+#: ../classes/class_hflowcontainer.rst:28
+#: ../classes/class_hflowcontainer.rst:39
+#: ../classes/class_hflowcontainer.rst:51
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:28
+msgid ":ref:`vseparation<class_HFlowContainer_theme_constant_vseparation>`"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:32
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:36
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:39
+#: ../classes/class_hflowcontainer.rst:51
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:42
+msgid "The horizontal separation of children nodes."
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:48
+msgid ":ref:`int<class_int>` **vseparation**"
+msgstr ""
+
+#: ../classes/class_hflowcontainer.rst:54
+msgid "The vertical separation of children nodes."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

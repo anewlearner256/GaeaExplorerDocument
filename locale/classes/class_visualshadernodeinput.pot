@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualshadernodeinput.rst:10
+msgid "VisualShaderNodeInput"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:19
+msgid "提供对着色器可用的输入变量（内置）的访问。关于每种着色器类型的可用内置变量列表，请参阅着色器参考，即查看\\ ``Tutorials``\\ 教程部分的链接。"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:24
+msgid ":doc:`../tutorials/shaders/shader_reference/index`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:30
+#: ../classes/class_visualshadernodeinput.rst:37
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:30
+msgid ":ref:`input_name<class_VisualShaderNodeInput_property_input_name>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:30
+#: ../classes/class_visualshadernodeinput.rst:55
+msgid "``\"[None]\"``"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:34
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:37
+msgid ":ref:`get_input_real_name<class_VisualShaderNodeInput_method_get_input_real_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:41
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:45
+msgid "**input_type_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:48
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:52
+msgid ":ref:`String<class_String>` **input_name**"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:55
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:57
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:57
+msgid "set_input_name(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:59
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:59
+msgid "get_input_name()"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:62
+msgid "小写风格的几个输入常量之一，比如。\"vertex\"(``VERTEX``) or \"point_size\"(``POINT_SIZE``)."
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:65
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualshadernodeinput.rst:69
+msgid ":ref:`String<class_String>` **get_input_real_name** **(** **)** |const|"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

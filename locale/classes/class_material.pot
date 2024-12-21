@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_material.rst:10
+msgid "Material"
+msgstr ""
+
+#: ../classes/class_material.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_material.rst:14
+msgid "**Inherited By:** :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`, :ref:`ParticlesMaterial<class_ParticlesMaterial>`, :ref:`ShaderMaterial<class_ShaderMaterial>`, :ref:`SpatialMaterial<class_SpatialMaterial>`"
+msgstr ""
+
+#: ../classes/class_material.rst:16
+msgid "用于为几何体上色(Coloring)和着色(Shading)的\\ :ref:`Resource<class_Resource>`\\ 抽象子类。"
+msgstr ""
+
+#: ../classes/class_material.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_material.rst:21
+msgid "材质是基本\\ :ref:`Resource<class_Resource>`\\ ，用于几何体着色器和上色。所有的材质都继承自它，几乎所有的\\ :ref:`VisualInstance<class_VisualInstance>`\\ 派生节点都带有材质。有几个标志和参数在所有材质类型之间是共享的，并在这里进行配置。"
+msgstr ""
+
+#: ../classes/class_material.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_material.rst:26
+msgid "`3D Material Testers Demo <https://godotengine.org/asset-library/asset/123>`__"
+msgstr ""
+
+#: ../classes/class_material.rst:28
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_material.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_material.rst:34
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../classes/class_material.rst:34
+msgid ":ref:`next_pass<class_Material_property_next_pass>`"
+msgstr ""
+
+#: ../classes/class_material.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_material.rst:36
+msgid ":ref:`render_priority<class_Material_property_render_priority>`"
+msgstr ""
+
+#: ../classes/class_material.rst:36
+#: ../classes/class_material.rst:74
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_material.rst:40
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_material.rst:46
+msgid "**RENDER_PRIORITY_MAX** = **127** --- :ref:`render_priority<class_Material_property_render_priority>` 参数的最大值。"
+msgstr ""
+
+#: ../classes/class_material.rst:48
+msgid "**RENDER_PRIORITY_MIN** = **-128** --- :ref:`render_priority<class_Material_property_render_priority>` 参数的最小值。"
+msgstr ""
+
+#: ../classes/class_material.rst:51
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_material.rst:55
+msgid ":ref:`Material<class_Material>` **next_pass**"
+msgstr ""
+
+#: ../classes/class_material.rst:58
+#: ../classes/class_material.rst:76
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_material.rst:58
+msgid "set_next_pass(value)"
+msgstr ""
+
+#: ../classes/class_material.rst:60
+#: ../classes/class_material.rst:78
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_material.rst:60
+msgid "get_next_pass()"
+msgstr ""
+
+#: ../classes/class_material.rst:63
+msgid "设置下一次使用的 ``Material``\\ 。这将使用不同的材质再次渲染对象。"
+msgstr ""
+
+#: ../classes/class_material.rst:65
+msgid "\\ **注意：**\\ 这只适用于“Spatial”类型的 :ref:`SpatialMaterial<class_SpatialMaterial>` 和 :ref:`ShaderMaterial<class_ShaderMaterial>`\\ 。"
+msgstr ""
+
+#: ../classes/class_material.rst:71
+msgid ":ref:`int<class_int>` **render_priority**"
+msgstr ""
+
+#: ../classes/class_material.rst:74
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_material.rst:76
+msgid "set_render_priority(value)"
+msgstr ""
+
+#: ../classes/class_material.rst:78
+msgid "get_render_priority()"
+msgstr ""
+
+#: ../classes/class_material.rst:81
+msgid "设置3D场景中透明物体的渲染优先级。优先级高的物体将被排序在优先级低的物体前面。"
+msgstr ""
+
+#: ../classes/class_material.rst:83
+msgid "\\ **注意：** 这只适用于透明物体的排序。这不会影响透明物体相对于不透明物体的排序方式。这是因为不透明对象不被排序，而透明对象则从后往前排序（取决于优先级）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

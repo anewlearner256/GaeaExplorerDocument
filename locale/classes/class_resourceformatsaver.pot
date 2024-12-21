@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_resourceformatsaver.rst:10
+msgid "ResourceFormatSaver"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:14
+msgid "将特定资源类型保存到文件。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:19
+msgid "当您从编辑器执行此操作或使用 :ref:`ResourceSaver<class_ResourceSaver>` 单例时，引擎可以节省资源。这要归功于多个 ``ResourceFormatSaver``\\ ，每个都处理自己的格式并由引擎自动调用。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:21
+msgid "默认情况下，GaaeExplorer 将资源保存为 ``.tres``\\ （基于文本）、\\ ``.res``\\ （二进制）或其他内置格式，但您可以选择通过扩展这个类来创建自己的格式。请务必遵守记录的返回类型和值。你应该给它一个全局类名 ``class_name`` 以便它被注册。与内置的 ResourceFormatSavers 一样，它会在保存其识别类型的资源时自动调用。你也可以实现一个 :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:27
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:27
+msgid ":ref:`get_recognized_extensions<class_ResourceFormatSaver_method_get_recognized_extensions>` **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:29
+msgid ":ref:`recognize<class_ResourceFormatSaver_method_recognize>` **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:31
+msgid ":ref:`save<class_ResourceFormatSaver_method_save>` **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:35
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:39
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions** **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:41
+msgid "返回可用于保存资源对象的扩展列表，前提是它被识别（见\\ :ref:`recognize<class_ResourceFormatSaver_method_recognize>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:47
+msgid ":ref:`bool<class_bool>` **recognize** **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:49
+msgid "返回此保存程序能否保存给定的资源对象。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:55
+msgid ":ref:`int<class_int>` **save** **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:57
+msgid "将给定的资源对象保存到目标\\ ``path``\\ 处的文件。\\ ``flags``\\ 是一个由\\ :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>`\\ 常量组成的位掩码。"
+msgstr ""
+
+#: ../classes/class_resourceformatsaver.rst:59
+msgid "成功时返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，失败时返回\\ :ref:`Error<enum_@GlobalScope_Error>`\\ 常量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

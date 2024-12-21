@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_transform2d.rst:10
+msgid "Transform2D"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:12
+msgid "2D 变换（2×3 矩阵）。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:17
+msgid "用于 2D 线性变换的 2×3 矩阵（2 行 3 列），可以表示平移、旋转、缩放等变换。由三个 :ref:`Vector2<class_Vector2>` 值组成：\\ :ref:`x<class_Transform2D_property_x>`\\ 、\\ :ref:`y<class_Transform2D_property_y>`\\ 、\\ :ref:`origin<class_Transform2D_property_origin>`\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:19
+msgid "更多信息请阅读文档文章《矩阵和变换》。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:24
+msgid ":doc:`Math tutorial index <../tutorials/math/index>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:26
+msgid ":doc:`Matrices and transforms <../tutorials/math/matrices_and_transforms>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:28
+msgid "`Matrix Transform Demo <https://godotengine.org/asset-library/asset/584>`__"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:30
+msgid "`2.5D Demo <https://godotengine.org/asset-library/asset/583>`__"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:36
+#: ../classes/class_transform2d.rst:38
+#: ../classes/class_transform2d.rst:40
+#: ../classes/class_transform2d.rst:55
+#: ../classes/class_transform2d.rst:57
+#: ../classes/class_transform2d.rst:59
+#: ../classes/class_transform2d.rst:63
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:36
+msgid ":ref:`origin<class_Transform2D_property_origin>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:36
+#: ../classes/class_transform2d.rst:107
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:38
+msgid ":ref:`x<class_Transform2D_property_x>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:38
+#: ../classes/class_transform2d.rst:119
+msgid "``Vector2( 1, 0 )``"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:40
+msgid ":ref:`y<class_Transform2D_property_y>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:40
+#: ../classes/class_transform2d.rst:131
+msgid "``Vector2( 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:44
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:47
+#: ../classes/class_transform2d.rst:49
+#: ../classes/class_transform2d.rst:51
+#: ../classes/class_transform2d.rst:53
+#: ../classes/class_transform2d.rst:65
+#: ../classes/class_transform2d.rst:67
+#: ../classes/class_transform2d.rst:71
+#: ../classes/class_transform2d.rst:73
+#: ../classes/class_transform2d.rst:75
+#: ../classes/class_transform2d.rst:77
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:47
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:49
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`Vector2<class_Vector2>` x_axis, :ref:`Vector2<class_Vector2>` y_axis, :ref:`Vector2<class_Vector2>` origin **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:51
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:53
+msgid ":ref:`affine_inverse<class_Transform2D_method_affine_inverse>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:55
+msgid ":ref:`basis_xform<class_Transform2D_method_basis_xform>` **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:57
+msgid ":ref:`basis_xform_inv<class_Transform2D_method_basis_xform_inv>` **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:59
+msgid ":ref:`get_origin<class_Transform2D_method_get_origin>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:61
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:61
+msgid ":ref:`get_rotation<class_Transform2D_method_get_rotation>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:63
+msgid ":ref:`get_scale<class_Transform2D_method_get_scale>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:65
+msgid ":ref:`interpolate_with<class_Transform2D_method_interpolate_with>` **(** :ref:`Transform2D<class_Transform2D>` transform, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:67
+msgid ":ref:`inverse<class_Transform2D_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:69
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:69
+msgid ":ref:`is_equal_approx<class_Transform2D_method_is_equal_approx>` **(** :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:71
+msgid ":ref:`orthonormalized<class_Transform2D_method_orthonormalized>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:73
+msgid ":ref:`rotated<class_Transform2D_method_rotated>` **(** :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:75
+msgid ":ref:`scaled<class_Transform2D_method_scaled>` **(** :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:77
+msgid ":ref:`translated<class_Transform2D_method_translated>` **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:79
+#: ../classes/class_transform2d.rst:81
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:79
+msgid ":ref:`xform<class_Transform2D_method_xform>` **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:81
+msgid ":ref:`xform_inv<class_Transform2D_method_xform_inv>` **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:85
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:93
+msgid "**IDENTITY** = **Transform2D( 1, 0, 0, 1, 0, 0 )** --- 没有应用平移、旋转、缩放的单位 ``Transform2D``\\ 。当应用于其他数据结构时，\\ :ref:`IDENTITY<class_Transform2D_constant_IDENTITY>` 不执行变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:95
+msgid "**FLIP_X** = **Transform2D( -1, 0, 0, 1, 0, 0 )** --- 将沿 X 轴翻转的 ``Transform2D``\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:97
+msgid "**FLIP_Y** = **Transform2D( 1, 0, 0, -1, 0, 0 )** --- 将沿 Y 轴翻转的 ``Transform2D``\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:100
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:104
+msgid ":ref:`Vector2<class_Vector2>` **origin**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:107
+#: ../classes/class_transform2d.rst:119
+#: ../classes/class_transform2d.rst:131
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:110
+msgid "原点向量（2 号列，即第 3 列）。相当于使用 ``2`` 进行数组索引。原点向量代表平移。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:116
+msgid ":ref:`Vector2<class_Vector2>` **x**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:122
+msgid "基本矩阵的X向量（第0列）。等效于数组索引\\ ``0``\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:128
+msgid ":ref:`Vector2<class_Vector2>` **y**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:134
+msgid "基础矩阵的Y向量（第1列）。相当于数组索引\\ ``1``\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:137
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:141
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:143
+msgid "从一个 3D :ref:`Transform<class_Transform>` 构建变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:147
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`Vector2<class_Vector2>` x_axis, :ref:`Vector2<class_Vector2>` y_axis, :ref:`Vector2<class_Vector2>` origin **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:149
+msgid "从表示 :ref:`x<class_Transform2D_property_x>`\\ 、\\ :ref:`y<class_Transform2D_property_y>`\\ 、\\ :ref:`origin<class_Transform2D_property_origin>` 的 3 个 :ref:`Vector2<class_Vector2>`\\ （三个列向量）构建变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:153
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:155
+msgid "从一个给定的角度（单位为弧度）和位置构造变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:161
+msgid ":ref:`Transform2D<class_Transform2D>` **affine_inverse** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:163
+msgid "返回变换的反值，假设变换是由旋转、缩放和平移组成的。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:169
+msgid ":ref:`Vector2<class_Vector2>` **basis_xform** **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:171
+msgid "返回经过基础矩阵变换（相乘）的向量。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:173
+#: ../classes/class_transform2d.rst:183
+msgid "该方法不考虑平移（原点向量）。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:179
+msgid ":ref:`Vector2<class_Vector2>` **basis_xform_inv** **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:181
+msgid "返回经过逆基础矩阵变换（相乘）的向量。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:189
+msgid ":ref:`Vector2<class_Vector2>` **get_origin** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:191
+msgid "返回变换的原点（平移）。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:197
+msgid ":ref:`float<class_float>` **get_rotation** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:199
+msgid "返回变换的旋转（单位为弧度）。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:205
+msgid ":ref:`Vector2<class_Vector2>` **get_scale** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:207
+msgid "返回缩放。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:213
+msgid ":ref:`Transform2D<class_Transform2D>` **interpolate_with** **(** :ref:`Transform2D<class_Transform2D>` transform, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:215
+msgid "返回在此变换和另一个变换之间通过给定的\\ ``weight``\\ 插值的变换，范围为0.0到1.0。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:221
+msgid ":ref:`Transform2D<class_Transform2D>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:223
+msgid "返回变换的反值，假设该变换是由旋转和平移组成的（没有缩放，对有缩放的变换使用 :ref:`affine_inverse<class_Transform2D_method_affine_inverse>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:229
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:231
+msgid "如果这个变换和\\ ``transform``\\ 近似相等，通过对每个分量调用\\ ``is_equal_approx``\\ ，而返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:237
+msgid ":ref:`Transform2D<class_Transform2D>` **orthonormalized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:239
+msgid "返回以正交，即90度，为基础的变换，以及归一化的轴向量，缩放为1或-1。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:245
+msgid ":ref:`Transform2D<class_Transform2D>` **rotated** **(** :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:247
+msgid "使用矩阵乘法，将变换旋转给定的角度，即弧度。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:253
+msgid ":ref:`Transform2D<class_Transform2D>` **scaled** **(** :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:255
+msgid "使用矩阵乘法，用给定的缩放系数来缩放变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:261
+msgid ":ref:`Transform2D<class_Transform2D>` **translated** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:263
+msgid "相对于变换的基础向量，将变换按给定的偏移量进行平移。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:265
+msgid "与\\ :ref:`rotated<class_Transform2D_method_rotated>`\\ 和\\ :ref:`scaled<class_Transform2D_method_scaled>`\\ 不同，它不使用矩阵乘法。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:271
+msgid ":ref:`Variant<class_Variant>` **xform** **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:273
+msgid "通过此变换对指定的\\ :ref:`Vector2<class_Vector2>`\\ 、\\ :ref:`Rect2<class_Rect2>`\\ 或\\ :ref:`PoolVector2Array<class_PoolVector2Array>`\\ 进行变换。"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:279
+msgid ":ref:`Variant<class_Variant>` **xform_inv** **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../classes/class_transform2d.rst:281
+msgid "将给定的 :ref:`Vector2<class_Vector2>`\\ 、\\ :ref:`Rect2<class_Rect2>`\\ 、\\ :ref:`PoolVector2Array<class_PoolVector2Array>` 做该变换的逆变换，前提假设是该变换仅由旋转和平移构成（不包括缩放）。等价于调用该变换的 ``inverse().xform(v)``\\ 。仿射变换（即包含缩放）请参阅 :ref:`affine_inverse<class_Transform2D_method_affine_inverse>` 方法。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

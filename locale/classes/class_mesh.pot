@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_mesh.rst:10
+msgid "Mesh"
+msgstr ""
+
+#: ../classes/class_mesh.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:14
+msgid "**Inherited By:** :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`PrimitiveMesh<class_PrimitiveMesh>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:16
+msgid "一种包含基于顶点数组的几何资源。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_mesh.rst:21
+msgid "网格是一种包含了基于顶点数组的几何资源。网格被分为各种\\ *平面*\\ ，每一个平面包含了一个完整的、单独的顶点数组和材质用来绘制它。通过明智的设计，一个由多个面组成的网格胜过单个面的，这是因为在3D编辑软件中，一个物体通常包含多种材质。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_mesh.rst:26
+msgid "`3D Material Testers Demo <https://godotengine.org/asset-library/asset/123>`__"
+msgstr ""
+
+#: ../classes/class_mesh.rst:28
+msgid "`3D Kinematic Character Demo <https://godotengine.org/asset-library/asset/126>`__"
+msgstr ""
+
+#: ../classes/class_mesh.rst:30
+msgid "`3D Platformer Demo <https://godotengine.org/asset-library/asset/125>`__"
+msgstr ""
+
+#: ../classes/class_mesh.rst:32
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_mesh.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_mesh.rst:38
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:38
+msgid ":ref:`lightmap_size_hint<class_Mesh_property_lightmap_size_hint>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:38
+#: ../classes/class_mesh.rst:269
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_mesh.rst:42
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_mesh.rst:45
+#: ../classes/class_mesh.rst:49
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:45
+msgid ":ref:`create_convex_shape<class_Mesh_method_create_convex_shape>` **(** :ref:`bool<class_bool>` clean=true, :ref:`bool<class_bool>` simplify=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:47
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:47
+msgid ":ref:`create_outline<class_Mesh_method_create_outline>` **(** :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:49
+msgid ":ref:`create_trimesh_shape<class_Mesh_method_create_trimesh_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:51
+msgid ":ref:`TriangleMesh<class_TriangleMesh>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:51
+msgid ":ref:`generate_triangle_mesh<class_Mesh_method_generate_triangle_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:53
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:53
+msgid ":ref:`get_aabb<class_Mesh_method_get_aabb>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:55
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:55
+msgid ":ref:`get_faces<class_Mesh_method_get_faces>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:57
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:57
+msgid ":ref:`get_surface_count<class_Mesh_method_get_surface_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:59
+#: ../classes/class_mesh.rst:61
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:59
+msgid ":ref:`surface_get_arrays<class_Mesh_method_surface_get_arrays>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:61
+msgid ":ref:`surface_get_blend_shape_arrays<class_Mesh_method_surface_get_blend_shape_arrays>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:63
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../classes/class_mesh.rst:63
+msgid ":ref:`surface_get_material<class_Mesh_method_surface_get_material>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:65
+msgid "void"
+msgstr ""
+
+#: ../classes/class_mesh.rst:65
+msgid ":ref:`surface_set_material<class_Mesh_method_surface_set_material>` **(** :ref:`int<class_int>` surf_idx, :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../classes/class_mesh.rst:69
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_mesh.rst:87
+msgid "enum **PrimitiveType**:"
+msgstr ""
+
+#: ../classes/class_mesh.rst:89
+msgid "**PRIMITIVE_POINTS** = **0** --- 将顶点数组渲染为点阵（一个顶点对应一个点阵中的点）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:91
+msgid "**PRIMITIVE_LINES** = **1** --- 将顶点组渲染为线条（每两个顶点之间创建一条连线）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:93
+msgid "**PRIMITIVE_LINE_STRIP** = **2** --- 将顶点组渲染为线条。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:95
+msgid "**PRIMITIVE_LINE_LOOP** = **3** --- 将数组渲染成线状环（像线条，但是封闭的）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:97
+msgid "**PRIMITIVE_TRIANGLES** = **4** --- 将顶点组渲染为三角形（每三个相邻顶点创建一个三角形）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:99
+msgid "**PRIMITIVE_TRIANGLE_STRIP** = **5** --- 将顶点组渲染为三角形线框。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:101
+msgid "**PRIMITIVE_TRIANGLE_FAN** = **6** --- 将数组渲染成三角形扇形。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:111
+msgid "enum **BlendShapeMode**:"
+msgstr ""
+
+#: ../classes/class_mesh.rst:113
+msgid "**BLEND_SHAPE_MODE_NORMALIZED** = **0** --- 混合形状是被归一化了的。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:115
+msgid "**BLEND_SHAPE_MODE_RELATIVE** = **1** --- 混合形状相对于基础的权重。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:167
+msgid "enum **ArrayFormat**:"
+msgstr ""
+
+#: ../classes/class_mesh.rst:169
+msgid "**ARRAY_FORMAT_VERTEX** = **1** --- 网格组包含许多顶点。每一个网格都需要一个顶点数组，所以这应该持久化储存。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:171
+msgid "**ARRAY_FORMAT_NORMAL** = **2** --- 网格组包含法线。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:173
+msgid "**ARRAY_FORMAT_TANGENT** = **4** --- 网格组包含切向。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:175
+msgid "**ARRAY_FORMAT_COLOR** = **8** --- 网格组包含颜色。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:177
+msgid "**ARRAY_FORMAT_TEX_UV** = **16** --- 网格组包含UV。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:179
+msgid "**ARRAY_FORMAT_TEX_UV2** = **32** --- 网格组包含第二套UV。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:181
+msgid "**ARRAY_FORMAT_BONES** = **64** --- 网格组包含骨骼。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:183
+msgid "**ARRAY_FORMAT_WEIGHTS** = **128** --- 网格组包含骨骼权重。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:185
+msgid "**ARRAY_FORMAT_INDEX** = **256** --- 网格组使用索引。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:187
+msgid "**ARRAY_COMPRESS_BASE** = **9** --- 内部用于计算其他\\ ``ARRAY_COMPRESS_*``\\ 枚举值。不要使用。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:189
+msgid "**ARRAY_COMPRESS_VERTEX** = **512** --- 用于标记压缩（半精度浮点）顶点数组的标志。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:191
+msgid "**ARRAY_COMPRESS_NORMAL** = **1024** --- 曾经用于标记压缩（半精度浮点）法向数组的 Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:193
+msgid "**ARRAY_COMPRESS_TANGENT** = **2048** --- 曾经用于标记压缩（半精度浮点）切向数组的Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:195
+msgid "**ARRAY_COMPRESS_COLOR** = **4096** --- 曾用于标记压缩（半精度浮点）颜色数组的Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:197
+msgid "**ARRAY_COMPRESS_TEX_UV** = **8192** --- 曾用于标记压缩（半精度浮点）UV 坐标数组的 Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:199
+msgid "**ARRAY_COMPRESS_TEX_UV2** = **16384** --- 曾用于标记第二套UV坐标的压缩（半精度浮点）UV坐标数组的Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:201
+msgid "**ARRAY_COMPRESS_BONES** = **32768** --- 用于标记压缩骨骼数组的标志。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:203
+msgid "**ARRAY_COMPRESS_WEIGHTS** = **65536** --- 用于标记压缩（半精度浮点）权重数组的标志。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:205
+msgid "**ARRAY_COMPRESS_INDEX** = **131072** --- 曾用于标记压缩索引数组的Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:207
+msgid "**ARRAY_FLAG_USE_2D_VERTICES** = **262144** --- 曾用于标记包含2D顶点的数组的Flag。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:209
+msgid "**ARRAY_FLAG_USE_16_BIT_BONES** = **524288** --- 用于标记数组使用16位骨骼而不是8位的标志。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:211
+msgid "**ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION** = **2097152** --- 标志用于标记数组使用法线和切线向量的八面表示法，而不是笛卡尔式。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:213
+msgid "**ARRAY_COMPRESS_DEFAULT** = **2194432** --- 用于快速设置标志\\ :ref:`ARRAY_COMPRESS_VERTEX<class_Mesh_constant_ARRAY_COMPRESS_VERTEX>`, :ref:`ARRAY_COMPRESS_NORMAL<class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`, :ref:`ARRAY_COMPRESS_TANGENT<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, :ref:`ARRAY_COMPRESS_COLOR<class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, :ref:`ARRAY_COMPRESS_TEX_UV<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>`, :ref:`ARRAY_COMPRESS_TEX_UV2<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` , :ref:`ARRAY_COMPRESS_WEIGHTS<class_Mesh_constant_ARRAY_COMPRESS_WEIGHTS>`, 和\\ :ref:`ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_Mesh_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>` 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:239
+msgid "enum **ArrayType**:"
+msgstr ""
+
+#: ../classes/class_mesh.rst:241
+msgid "**ARRAY_VERTEX** = **0** --- 顶点数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:243
+msgid "**ARRAY_NORMAL** = **1** --- 法线数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:245
+msgid "**ARRAY_TANGENT** = **2** --- 切向数组。每一个切向数据由四个float变量描述。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:247
+msgid "**ARRAY_COLOR** = **3** --- 颜色数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:249
+msgid "**ARRAY_TEX_UV** = **4** --- UV 坐标数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:251
+msgid "**ARRAY_TEX_UV2** = **5** --- 第二套UV坐标数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:253
+msgid "**ARRAY_BONES** = **6** --- 骨骼数据的数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:255
+msgid "**ARRAY_WEIGHTS** = **7** --- 权重数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:257
+msgid "**ARRAY_INDEX** = **8** --- 索引数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:259
+msgid "**ARRAY_MAX** = **9** --- 表示\\ :ref:`ArrayType<enum_Mesh_ArrayType>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:262
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_mesh.rst:266
+msgid ":ref:`Vector2<class_Vector2>` **lightmap_size_hint**"
+msgstr ""
+
+#: ../classes/class_mesh.rst:269
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_mesh.rst:271
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_mesh.rst:271
+msgid "set_lightmap_size_hint(value)"
+msgstr ""
+
+#: ../classes/class_mesh.rst:273
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_mesh.rst:273
+msgid "get_lightmap_size_hint()"
+msgstr ""
+
+#: ../classes/class_mesh.rst:276
+msgid "设置提示，用于\\ :ref:`BakedLightmap<class_BakedLightmap>`\\ 中的光照贴图分辨率。重写\\ :ref:`BakedLightmap.default_texels_per_unit<class_BakedLightmap_property_default_texels_per_unit>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:279
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_mesh.rst:283
+msgid ":ref:`Shape<class_Shape>` **create_convex_shape** **(** :ref:`bool<class_bool>` clean=true, :ref:`bool<class_bool>` simplify=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:285
+msgid "从网格中计算出 :ref:`ConvexPolygonShape<class_ConvexPolygonShape>` 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:287
+msgid "如果 ``clean`` 是 ``true`` （默认），重复的和内部的顶点会被自动移除。你可以把它设为 ``false`` 来使这个过程更快，如果不需要的话。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:289
+msgid "如果\\ ``simplify``\\ 是\\ ``true``\\ ，可以进一步简化几何体以减少顶点的数量。默认情况下是禁用的。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:295
+msgid ":ref:`Mesh<class_Mesh>` **create_outline** **(** :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:297
+msgid "以一定的offset(边距)，计算出该网格的外轮廓。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:299
+msgid "\\ **Note:** 这个方法实际上反序返回顶点（例如输入顺时针，返回逆时针）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:305
+msgid ":ref:`Shape<class_Shape>` **create_trimesh_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:307
+msgid "从网格中计算出\\ :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:313
+msgid ":ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:315
+msgid "从网格生成\\ :ref:`TriangleMesh<class_TriangleMesh>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:321
+msgid ":ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:323
+msgid "返回局部空间中包围这个网格的最小的\\ :ref:`AABB<class_AABB>`\\ 。不受\\ ``custom_aabb``\\ 的影响。参阅 :ref:`VisualInstance.get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:325
+msgid "\\ **注意：**\\ 这只对\\ :ref:`ArrayMesh<class_ArrayMesh>`\\ 和\\ :ref:`PrimitiveMesh<class_PrimitiveMesh>`\\ 实现。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:331
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **get_faces** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:333
+msgid "返回所有在这个网格中，构成面的顶点。每三个顶点代表一个三角形。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:339
+msgid ":ref:`int<class_int>` **get_surface_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:341
+msgid "返回该网格的面数。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:347
+msgid ":ref:`Array<class_Array>` **surface_get_arrays** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:349
+msgid "返回所有组成面所需的东西构成的数组的数组，例如顶点，法向，UV等。（参阅\\ :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:355
+msgid ":ref:`Array<class_Array>` **surface_get_blend_shape_arrays** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:357
+msgid "返回所需面的混合形状数组。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:363
+msgid ":ref:`Material<class_Material>` **surface_get_material** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_mesh.rst:365
+msgid "返回给定面的\\ :ref:`Material<class_Material>`\\ 材质。面将由该材质来渲染。"
+msgstr ""
+
+#: ../classes/class_mesh.rst:371
+msgid "void **surface_set_material** **(** :ref:`int<class_int>` surf_idx, :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../classes/class_mesh.rst:373
+msgid "设置给定面的\\ :ref:`Material<class_Material>`\\ 材质。该面将会使用此材质渲染。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:2
+msgid "GrassSymbol"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:16
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:16
+msgid "GrassNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:18
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:20
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:18
+msgid "BaseColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:20
+msgid "EndColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:22
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:24
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:22
+msgid "WindSpeed"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:24
+msgid "WindStrength"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:26
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:26
+msgid "SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:30
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:33
+msgid "Vector3[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:33
+msgid "Contains_Vertexs(Vector3[] vertexs,Double[] range,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:35
+msgid "SymbolMesh[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:35
+msgid "DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:37
+msgid "Object"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:37
+msgid "Clone()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:39
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:41
+msgid "SymbolMesh"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:39
+msgid "CreateMeshData(Geometry geometry,Transform localorigin,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:41
+msgid "CreateSingleMesh()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:45
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:47
+msgid "Int32 GrassNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:50
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:61
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:72
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:83
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:94
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:105
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:58
+msgid "Vector3 BaseColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:69
+msgid "Vector3 EndColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:80
+msgid "Single WindSpeed"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:91
+msgid "Single WindStrength"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:102
+msgid "Color SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:115
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:117
+msgid "Vector3[] Contains_Vertexs(Vector3[] vertexs,Double[] range,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:123
+msgid "SymbolMesh[] DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:129
+msgid "Object Clone()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:135
+msgid "SymbolMesh CreateMeshData(Geometry geometry,Transform localorigin,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GrassSymbol.rst:141
+msgid "SymbolMesh CreateSingleMesh()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,609 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_line2d.rst:10
+msgid "Line2D"
+msgstr ""
+
+#: ../classes/class_line2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:14
+msgid "一条2D线。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_line2d.rst:19
+msgid "在 2D 空间中通过几个点的线。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:21
+msgid "\\ **注意：**\\ 默认情况下，GaaeExplorer一次最多只能绘制 4,096 个多边形点。要增加这个限制，请打开项目设置，增加 :ref:`ProjectSettings.rendering/limits/buffers/canvas_polygon_buffer_size_kb<class_ProjectSettings_property_rendering/limits/buffers/canvas_polygon_buffer_size_kb>` 和 :ref:`ProjectSettings.rendering/limits/buffers/canvas_polygon_index_buffer_size_kb<class_ProjectSettings_property_rendering/limits/buffers/canvas_polygon_index_buffer_size_kb>`\\ 。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_line2d.rst:26
+msgid "`Matrix Transform Demo <https://godotengine.org/asset-library/asset/584>`__"
+msgstr ""
+
+#: ../classes/class_line2d.rst:28
+msgid "`2.5D Demo <https://godotengine.org/asset-library/asset/583>`__"
+msgstr ""
+
+#: ../classes/class_line2d.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_line2d.rst:34
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:34
+msgid ":ref:`antialiased<class_Line2D_property_antialiased>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:34
+#: ../classes/class_line2d.rst:141
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:36
+#: ../classes/class_line2d.rst:40
+msgid ":ref:`LineCapMode<enum_Line2D_LineCapMode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:36
+msgid ":ref:`begin_cap_mode<class_Line2D_property_begin_cap_mode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:36
+#: ../classes/class_line2d.rst:40
+#: ../classes/class_line2d.rst:44
+#: ../classes/class_line2d.rst:54
+#: ../classes/class_line2d.rst:159
+#: ../classes/class_line2d.rst:191
+#: ../classes/class_line2d.rst:221
+#: ../classes/class_line2d.rst:299
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:38
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:38
+msgid ":ref:`default_color<class_Line2D_property_default_color>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:38
+#: ../classes/class_line2d.rst:175
+msgid "``Color( 0.4, 0.5, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:40
+msgid ":ref:`end_cap_mode<class_Line2D_property_end_cap_mode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:42
+msgid ":ref:`Gradient<class_Gradient>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:42
+msgid ":ref:`gradient<class_Line2D_property_gradient>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:44
+msgid ":ref:`LineJointMode<enum_Line2D_LineJointMode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:44
+msgid ":ref:`joint_mode<class_Line2D_property_joint_mode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:46
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:46
+msgid ":ref:`points<class_Line2D_property_points>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:46
+#: ../classes/class_line2d.rst:237
+msgid "``PoolVector2Array(  )``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:48
+#: ../classes/class_line2d.rst:69
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:48
+msgid ":ref:`round_precision<class_Line2D_property_round_precision>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:48
+#: ../classes/class_line2d.rst:253
+msgid "``8``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:50
+#: ../classes/class_line2d.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:50
+msgid ":ref:`sharp_limit<class_Line2D_property_sharp_limit>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:50
+#: ../classes/class_line2d.rst:269
+msgid "``2.0``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:52
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:52
+msgid ":ref:`texture<class_Line2D_property_texture>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:54
+msgid ":ref:`LineTextureMode<enum_Line2D_LineTextureMode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:54
+msgid ":ref:`texture_mode<class_Line2D_property_texture_mode>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:56
+msgid ":ref:`width<class_Line2D_property_width>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:56
+#: ../classes/class_line2d.rst:315
+msgid "``10.0``"
+msgstr ""
+
+#: ../classes/class_line2d.rst:58
+msgid ":ref:`Curve<class_Curve>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:58
+msgid ":ref:`width_curve<class_Line2D_property_width_curve>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:62
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_line2d.rst:65
+#: ../classes/class_line2d.rst:67
+#: ../classes/class_line2d.rst:73
+#: ../classes/class_line2d.rst:75
+msgid "void"
+msgstr ""
+
+#: ../classes/class_line2d.rst:65
+msgid ":ref:`add_point<class_Line2D_method_add_point>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:67
+msgid ":ref:`clear_points<class_Line2D_method_clear_points>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:69
+msgid ":ref:`get_point_count<class_Line2D_method_get_point_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_line2d.rst:71
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_line2d.rst:71
+msgid ":ref:`get_point_position<class_Line2D_method_get_point_position>` **(** :ref:`int<class_int>` i **)** |const|"
+msgstr ""
+
+#: ../classes/class_line2d.rst:73
+msgid ":ref:`remove_point<class_Line2D_method_remove_point>` **(** :ref:`int<class_int>` i **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:75
+msgid ":ref:`set_point_position<class_Line2D_method_set_point_position>` **(** :ref:`int<class_int>` i, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:79
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_line2d.rst:89
+msgid "enum **LineJointMode**:"
+msgstr ""
+
+#: ../classes/class_line2d.rst:91
+msgid "**LINE_JOINT_SHARP** = **0** --- 这条线的接头将是尖的。如果\\ ``sharp_limit``\\ 大于关节的旋转，则它将变为斜角关节。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:93
+msgid "**LINE_JOINT_BEVEL** = **1** --- 线的接头将斜切/倒角。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:95
+msgid "**LINE_JOINT_ROUND** = **2** --- 该线的接头将为圆形。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:107
+msgid "enum **LineCapMode**:"
+msgstr ""
+
+#: ../classes/class_line2d.rst:109
+msgid "**LINE_CAP_NONE** = **0** --- 不能在线帽上绘制。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:111
+msgid "**LINE_CAP_BOX** = **1** --- 将线帽绘制为长方体。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:113
+msgid "**LINE_CAP_ROUND** = **2** --- 将线帽绘制为圆。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:125
+msgid "enum **LineTextureMode**:"
+msgstr ""
+
+#: ../classes/class_line2d.rst:127
+msgid "**LINE_TEXTURE_NONE** = **0** --- 获取纹理的左侧像素并在整个线条上渲染它。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:129
+msgid "**LINE_TEXTURE_TILE** = **1** --- 在线条上平铺纹理。导入纹理时必须启用\\ **Repeat**\\ 才能正常工作。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:131
+msgid "**LINE_TEXTURE_STRETCH** = **2** --- 沿直线拉伸纹理。导入禁用\\ **重复**\\ 的纹理以获得最佳效果。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:134
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_line2d.rst:138
+msgid ":ref:`bool<class_bool>` **antialiased**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:141
+#: ../classes/class_line2d.rst:159
+#: ../classes/class_line2d.rst:175
+#: ../classes/class_line2d.rst:191
+#: ../classes/class_line2d.rst:221
+#: ../classes/class_line2d.rst:237
+#: ../classes/class_line2d.rst:253
+#: ../classes/class_line2d.rst:269
+#: ../classes/class_line2d.rst:299
+#: ../classes/class_line2d.rst:315
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_line2d.rst:143
+#: ../classes/class_line2d.rst:161
+#: ../classes/class_line2d.rst:177
+#: ../classes/class_line2d.rst:193
+#: ../classes/class_line2d.rst:207
+#: ../classes/class_line2d.rst:223
+#: ../classes/class_line2d.rst:239
+#: ../classes/class_line2d.rst:255
+#: ../classes/class_line2d.rst:271
+#: ../classes/class_line2d.rst:285
+#: ../classes/class_line2d.rst:301
+#: ../classes/class_line2d.rst:317
+#: ../classes/class_line2d.rst:331
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_line2d.rst:143
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:145
+#: ../classes/class_line2d.rst:163
+#: ../classes/class_line2d.rst:179
+#: ../classes/class_line2d.rst:195
+#: ../classes/class_line2d.rst:209
+#: ../classes/class_line2d.rst:225
+#: ../classes/class_line2d.rst:241
+#: ../classes/class_line2d.rst:257
+#: ../classes/class_line2d.rst:273
+#: ../classes/class_line2d.rst:287
+#: ../classes/class_line2d.rst:303
+#: ../classes/class_line2d.rst:319
+#: ../classes/class_line2d.rst:333
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_line2d.rst:145
+msgid "get_antialiased()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:148
+msgid "如果\\ ``true``\\ ，线条的边界将抗锯齿。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:150
+msgid "\\ **注意:** Line2D在抗锯齿时不会被批量加速。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:156
+msgid ":ref:`LineCapMode<enum_Line2D_LineCapMode>` **begin_cap_mode**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:161
+msgid "set_begin_cap_mode(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:163
+msgid "get_begin_cap_mode()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:166
+msgid "控制直线的第一个点的样式。使用\\ :ref:`LineCapMode<enum_Line2D_LineCapMode>`\\ 线帽模式常数。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:172
+msgid ":ref:`Color<class_Color>` **default_color**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:177
+msgid "set_default_color(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:179
+msgid "get_default_color()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:182
+msgid "线条的颜色。如果设置了渐变，则不会生效。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:188
+msgid ":ref:`LineCapMode<enum_Line2D_LineCapMode>` **end_cap_mode**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:193
+msgid "set_end_cap_mode(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:195
+msgid "get_end_cap_mode()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:198
+msgid "控制线条最后一点的样式。使用\\ :ref:`LineCapMode<enum_Line2D_LineCapMode>`\\ 常数。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:204
+msgid ":ref:`Gradient<class_Gradient>` **gradient**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:207
+msgid "set_gradient(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:209
+msgid "get_gradient()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:212
+msgid "从头到尾贯穿整条线的渐变色。如果设置了渐变，则不会使用默认颜色。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:218
+msgid ":ref:`LineJointMode<enum_Line2D_LineJointMode>` **joint_mode**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:223
+msgid "set_joint_mode(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:225
+msgid "get_joint_mode()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:228
+msgid "起点和终点之间点的样式。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:234
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **points**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:239
+msgid "set_points(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:241
+msgid "get_points()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:244
+msgid "构成线条的点。在此数组中设置的每个点之间绘制线。点被解释为局部向量。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:250
+msgid ":ref:`int<class_int>` **round_precision**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:255
+msgid "set_round_precision(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:257
+msgid "get_round_precision()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:260
+msgid "圆形接头和盖子的平滑度。仅当盖子或接头设置为圆形时才使用此选项。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:266
+msgid ":ref:`float<class_float>` **sharp_limit**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:271
+msgid "set_sharp_limit(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:273
+msgid "get_sharp_limit()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:276
+msgid "The direction difference in radians between vector points. This value is only used if :ref:`joint_mode<class_Line2D_property_joint_mode>` is set to :ref:`LINE_JOINT_SHARP<class_Line2D_constant_LINE_JOINT_SHARP>`."
+msgstr ""
+
+#: ../classes/class_line2d.rst:282
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:285
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:287
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:290
+msgid "用于线条纹理的纹理。使用\\ ``texture_mode``\\ 作为绘图样式。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:296
+msgid ":ref:`LineTextureMode<enum_Line2D_LineTextureMode>` **texture_mode**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:301
+msgid "set_texture_mode(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:303
+msgid "get_texture_mode()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:306
+msgid "在线条上渲染\\ ``texture``\\ 的样式。使用\\ :ref:`LineTextureMode<enum_Line2D_LineTextureMode>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:312
+msgid ":ref:`float<class_float>` **width**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:317
+msgid "set_width(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:319
+msgid "get_width()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:322
+msgid "线的宽度。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:328
+msgid ":ref:`Curve<class_Curve>` **width_curve**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:331
+msgid "set_curve(value)"
+msgstr ""
+
+#: ../classes/class_line2d.rst:333
+msgid "get_curve()"
+msgstr ""
+
+#: ../classes/class_line2d.rst:336
+msgid "线条的宽度随曲线的变化而变化。原始宽度只需乘以曲线的值即可。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:339
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_line2d.rst:343
+msgid "void **add_point** **(** :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:345
+msgid "在\\ ``position``\\ 添加点。将点追加到直线的末尾。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:347
+msgid "如果给定了位置\\ ``at_position``\\ ，则在位置\\ ``at_position``\\ 之前插入该点，并将该点（以及之后的每个点）移动到插入点之后。如果未给出位置处的\\ ``at_position``\\ ，或者是非法值（\\ ``at_position <0``\\ 或位置处的\\ ``>=[method get_point_count]``\\ ），则该点将追加到点列表的末尾。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:353
+msgid "void **clear_points** **(** **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:355
+msgid "移除直线上的所有点。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:361
+msgid ":ref:`int<class_int>` **get_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_line2d.rst:363
+msgid "返回在Line2D上点的数量。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:369
+msgid ":ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` i **)** |const|"
+msgstr ""
+
+#: ../classes/class_line2d.rst:371
+msgid "返回点\\ ``i``\\ 的位置。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:377
+msgid "void **remove_point** **(** :ref:`int<class_int>` i **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:379
+msgid "将索引\\ ``i``\\ 处的点从直线中移除。"
+msgstr ""
+
+#: ../classes/class_line2d.rst:385
+msgid "void **set_point_position** **(** :ref:`int<class_int>` i, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_line2d.rst:387
+msgid "用提供的\\ ``position``\\ 位置覆盖索引\\ ``i``\\ 处点的位置。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

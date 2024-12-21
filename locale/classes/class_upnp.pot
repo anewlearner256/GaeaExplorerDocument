@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_upnp.rst:10
+msgid "UPNP"
+msgstr ""
+
+#: ../classes/class_upnp.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:14
+msgid "UPNP 网络功能。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_upnp.rst:19
+msgid "提供 UPNP 功能来发现本地网络上的 :ref:`UPNPDevice<class_UPNPDevice>`\\ ，并对它们执行指令，如管理端口映射（端口转发）和查询本地和远程网络 IP 地址。注意，这个类的方法是同步的，会阻塞调用线程。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:21
+msgid "要转发一个特定的端口："
+msgstr ""
+
+#: ../classes/class_upnp.rst:30
+msgid "要关闭一个特定的端口（例如，在你使用完它之后）："
+msgstr ""
+
+#: ../classes/class_upnp.rst:36
+msgid "\\ **注意：**\\ UPnP 发现会阻塞当前线程。要在不阻塞主线程的情况下执行发现，可以像这样使用 :ref:`Thread<class_Thread>`\\ ："
+msgstr ""
+
+#: ../classes/class_upnp.rst:71
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_upnp.rst:74
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:74
+msgid ":ref:`discover_ipv6<class_UPNP_property_discover_ipv6>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:74
+#: ../classes/class_upnp.rst:239
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_upnp.rst:76
+#: ../classes/class_upnp.rst:87
+#: ../classes/class_upnp.rst:91
+#: ../classes/class_upnp.rst:93
+#: ../classes/class_upnp.rst:97
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:76
+msgid ":ref:`discover_local_port<class_UPNP_property_discover_local_port>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:76
+#: ../classes/class_upnp.rst:255
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_upnp.rst:78
+#: ../classes/class_upnp.rst:101
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:78
+msgid ":ref:`discover_multicast_if<class_UPNP_property_discover_multicast_if>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:78
+#: ../classes/class_upnp.rst:271
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_upnp.rst:82
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_upnp.rst:85
+#: ../classes/class_upnp.rst:89
+#: ../classes/class_upnp.rst:103
+#: ../classes/class_upnp.rst:105
+msgid "void"
+msgstr ""
+
+#: ../classes/class_upnp.rst:85
+msgid ":ref:`add_device<class_UPNP_method_add_device>` **(** :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:87
+msgid ":ref:`add_port_mapping<class_UPNP_method_add_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:89
+msgid ":ref:`clear_devices<class_UPNP_method_clear_devices>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:91
+msgid ":ref:`delete_port_mapping<class_UPNP_method_delete_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:93
+msgid ":ref:`discover<class_UPNP_method_discover>` **(** :ref:`int<class_int>` timeout=2000, :ref:`int<class_int>` ttl=2, :ref:`String<class_String>` device_filter=\"InternetGatewayDevice\" **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:95
+#: ../classes/class_upnp.rst:99
+msgid ":ref:`UPNPDevice<class_UPNPDevice>`"
+msgstr ""
+
+#: ../classes/class_upnp.rst:95
+msgid ":ref:`get_device<class_UPNP_method_get_device>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:97
+msgid ":ref:`get_device_count<class_UPNP_method_get_device_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:99
+msgid ":ref:`get_gateway<class_UPNP_method_get_gateway>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:101
+msgid ":ref:`query_external_address<class_UPNP_method_query_external_address>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:103
+msgid ":ref:`remove_device<class_UPNP_method_remove_device>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:105
+msgid ":ref:`set_device<class_UPNP_method_set_device>` **(** :ref:`int<class_int>` index, :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:109
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_upnp.rst:171
+msgid "enum **UPNPResult**:"
+msgstr ""
+
+#: ../classes/class_upnp.rst:173
+msgid "**UPNP_RESULT_SUCCESS** = **0** --- UPNP命令或发现成功。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:175
+msgid "**UPNP_RESULT_NOT_AUTHORIZED** = **1** --- 未授权在\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 上使用该命令。当用户在其路由器上禁用UPNP时，可能会被返回。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:177
+msgid "**UPNP_RESULT_PORT_MAPPING_NOT_FOUND** = **2** --- 在给定的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 上没有找到给定端口、协议组合的端口映射。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:179
+msgid "**UPNP_RESULT_INCONSISTENT_PARAMETERS** = **3** --- 参数不一致。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:181
+msgid "**UPNP_RESULT_NO_SUCH_ENTRY_IN_ARRAY** = **4** --- 数组中没有此条目。如果在\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 上没有找到给定的端口、协议组合，可能会被返回。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:183
+msgid "**UPNP_RESULT_ACTION_FAILED** = **5** --- 操作失败。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:185
+msgid "**UPNP_RESULT_SRC_IP_WILDCARD_NOT_PERMITTED** = **6** --- :ref:`UPNPDevice<class_UPNPDevice>`\\ 不允许源IP地址的通配符值。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:187
+msgid "**UPNP_RESULT_EXT_PORT_WILDCARD_NOT_PERMITTED** = **7** --- :ref:`UPNPDevice<class_UPNPDevice>`\\ 不允许外部端口的通配符值。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:189
+msgid "**UPNP_RESULT_INT_PORT_WILDCARD_NOT_PERMITTED** = **8** --- :ref:`UPNPDevice<class_UPNPDevice>`\\ 不允许内部端口的通配符值。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:191
+msgid "**UPNP_RESULT_REMOTE_HOST_MUST_BE_WILDCARD** = **9** --- 远程主机值必须是通配符。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:193
+msgid "**UPNP_RESULT_EXT_PORT_MUST_BE_WILDCARD** = **10** --- 外部端口值必须是通配符。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:195
+msgid "**UPNP_RESULT_NO_PORT_MAPS_AVAILABLE** = **11** --- 没有可用的端口映射。如果端口映射功能不可用，也可能被返回。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:197
+msgid "**UPNP_RESULT_CONFLICT_WITH_OTHER_MECHANISM** = **12** --- 与其他机制冲突。如果一个端口映射与现有的冲突，可能会被返回，而不是\\ :ref:`UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING<class_UPNP_constant_UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:199
+msgid "**UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING** = **13** --- 与现有的端口映射相冲突。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:201
+msgid "**UPNP_RESULT_SAME_PORT_VALUES_REQUIRED** = **14** --- 外部和内部端口值必须相同。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:203
+msgid "**UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED** = **15** --- 只支持永久租用。在添加端口映射时，不要使用\\ ``duration``\\ 参数。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:205
+msgid "**UPNP_RESULT_INVALID_GATEWAY** = **16** --- 无效网关。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:207
+msgid "**UPNP_RESULT_INVALID_PORT** = **17** --- 无效端口。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:209
+msgid "**UPNP_RESULT_INVALID_PROTOCOL** = **18** --- 无效协议。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:211
+msgid "**UPNP_RESULT_INVALID_DURATION** = **19** --- 无效持续时间。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:213
+msgid "**UPNP_RESULT_INVALID_ARGS** = **20** --- 无效参数。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:215
+msgid "**UPNP_RESULT_INVALID_RESPONSE** = **21** --- 无效响应。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:217
+msgid "**UPNP_RESULT_INVALID_PARAM** = **22** --- 无效参数。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:219
+msgid "**UPNP_RESULT_HTTP_ERROR** = **23** --- HTTP错误。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:221
+msgid "**UPNP_RESULT_SOCKET_ERROR** = **24** --- 套接字错误。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:223
+msgid "**UPNP_RESULT_MEM_ALLOC_ERROR** = **25** --- 分配内存时出错。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:225
+msgid "**UPNP_RESULT_NO_GATEWAY** = **26** --- 没有可用的网关。你可能需要先调用\\ :ref:`discover<class_UPNP_method_discover>` ，否则发现没有检测到任何有效的IGD（InternetGatewayDevices）。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:227
+msgid "**UPNP_RESULT_NO_DEVICES** = **27** --- 没有可用的设备。你可能需要先调用\\ :ref:`discover<class_UPNP_method_discover>`\\ ，或者发现没有检测到任何有效的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:229
+msgid "**UPNP_RESULT_UNKNOWN_ERROR** = **28** --- 未知错误。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:232
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_upnp.rst:236
+msgid ":ref:`bool<class_bool>` **discover_ipv6**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:239
+#: ../classes/class_upnp.rst:255
+#: ../classes/class_upnp.rst:271
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_upnp.rst:241
+#: ../classes/class_upnp.rst:257
+#: ../classes/class_upnp.rst:273
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_upnp.rst:241
+msgid "set_discover_ipv6(value)"
+msgstr ""
+
+#: ../classes/class_upnp.rst:243
+#: ../classes/class_upnp.rst:259
+#: ../classes/class_upnp.rst:275
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_upnp.rst:243
+msgid "is_discover_ipv6()"
+msgstr ""
+
+#: ../classes/class_upnp.rst:246
+msgid "如果\\ ``true``\\ ，则IPv6用于\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 发现。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:252
+msgid ":ref:`int<class_int>` **discover_local_port**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:257
+msgid "set_discover_local_port(value)"
+msgstr ""
+
+#: ../classes/class_upnp.rst:259
+msgid "get_discover_local_port()"
+msgstr ""
+
+#: ../classes/class_upnp.rst:262
+msgid "如果\\ ``0``\\ ，系统会自动选择用于发现的本地端口。如果\\ ``1``\\ ，将从源端口1900进行发现，注，与目的端口相同。否则，将使用该值作为端口。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:268
+msgid ":ref:`String<class_String>` **discover_multicast_if**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:273
+msgid "set_discover_multicast_if(value)"
+msgstr ""
+
+#: ../classes/class_upnp.rst:275
+msgid "get_discover_multicast_if()"
+msgstr ""
+
+#: ../classes/class_upnp.rst:278
+msgid "用于发现的多播接口。如果为空，则使用默认的多播接口。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:281
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_upnp.rst:285
+msgid "void **add_device** **(** :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:287
+msgid "将给定的 :ref:`UPNPDevice<class_UPNPDevice>` 添加到已发现设备的列表中。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:293
+msgid ":ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:295
+msgid "添加一个映射，将默认网关上的外部\\ ``port``\\ ，介于1和65535之间，转发到本地机器上的\\ ``internal_port``\\ ，用于指定协议\\ ``proto``\\ ，即\\ ``TCP``\\ 或\\ ``UDP``\\ ，默认为UDP。如果该网关设备上已经存在给定端口和协议组合的端口映射，该方法将尝试覆盖它。如果不希望这样，你可以用\\ :ref:`get_gateway<class_UPNP_method_get_gateway>`\\ 手动检索该网关，如果有的话，就调用\\ :ref:`add_port_mapping<class_UPNP_method_add_port_mapping>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:297
+msgid "如果\\ ``internal_port``\\ 是\\ ``0``\\ （默认值），外部和内部端口都使用相同的端口号（\\ ``port``\\ 值）。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:299
+msgid "描述（\\ ``desc``\\ ）显示在一些路由器的UI中，可以用来指出是哪个应用添加了映射。可以通过指定\\ ``duration``\\ （单位：秒）来限制映射的租用期限。然而，有些路由器与其中的个别不兼容，所以要谨慎使用，并在出错时添加回退逻辑，如果有疑问，可以在没有它们的情况下重试。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:301
+msgid "参阅\\ :ref:`get_gateway<class_UPNP_method_get_gateway>`\\ 。参阅\\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`\\ ，了解可能的返回值。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:307
+msgid "void **clear_devices** **(** **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:309
+msgid "清除已发现设备的列表。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:315
+msgid ":ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:317
+msgid "删除默认网关上给定端口和协议组合的端口映射，如果存在的话。\\ ``port``\\ 必须是1到65535之间的有效端口，\\ ``proto``\\ 可以是\\ ``TCP``\\ 或\\ ``UDP``\\ 。可能的返回值，参阅\\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`\\ 。参阅\\ :ref:`get_gateway<class_UPNP_method_get_gateway>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:323
+msgid ":ref:`int<class_int>` **discover** **(** :ref:`int<class_int>` timeout=2000, :ref:`int<class_int>` ttl=2, :ref:`String<class_String>` device_filter=\"InternetGatewayDevice\" **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:325
+msgid "发现本地的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 。清除先前发现的设备的列表。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:327
+msgid "默认情况下过滤IGD（InternetGatewayDevice）类型的设备，因为这些设备管理端口转发。\\ ``timeout`` 是等待响应的时间，单位是毫秒。\\ ``ttl``\\ 是生存时间；只有在你了解在做什么的情况下才会遇到这个。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:329
+msgid "参阅\\ :ref:`UPNPResult<enum_UPNP_UPNPResult>`\\ 了解可能的返回值。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:335
+msgid ":ref:`UPNPDevice<class_UPNPDevice>` **get_device** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:337
+msgid "返回给定\\ ``index``\\ 处的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:343
+msgid ":ref:`int<class_int>` **get_device_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:345
+msgid "返回已发现的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ 的数量。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:351
+msgid ":ref:`UPNPDevice<class_UPNPDevice>` **get_gateway** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:353
+msgid "返回默认网关。这是第一个发现的\\ :ref:`UPNPDevice<class_UPNPDevice>`\\ ，也是一个有效的IGD（InternetGatewayDevice）。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:359
+msgid ":ref:`String<class_String>` **query_external_address** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnp.rst:361
+msgid "返回默认网关的外部\\ :ref:`IP<class_IP>`\\ 地址字符串。错误时返回一个空字符串。参阅\\ :ref:`get_gateway<class_UPNP_method_get_gateway>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:367
+msgid "void **remove_device** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:369
+msgid "将\\ ``index``\\ 处的设备从已发现的设备列表中移除。"
+msgstr ""
+
+#: ../classes/class_upnp.rst:375
+msgid "void **set_device** **(** :ref:`int<class_int>` index, :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../classes/class_upnp.rst:377
+msgid "将\\ ``index``\\ 处的设备从已发现的设备列表中设置为\\ ``device``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

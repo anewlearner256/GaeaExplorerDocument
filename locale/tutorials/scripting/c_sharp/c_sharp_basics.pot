@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:4
+msgid "C# basics"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:9
+msgid "C# support is a new feature available since GaaeExplorer 3.0. As such, you may still run into some issues, or find spots where the documentation could be improved. Please report issues with C# in GaaeExplorer on the `engine GitHub page <https://github.com/godotengine/godot/issues>`_, and any documentation issues on the `documentation GitHub page <https://github.com/godotengine/godot-docs/issues>`_."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:17
+msgid "This page provides a brief introduction to C#, both what it is and how to use it in GaaeExplorer. Afterwards, you may want to look at :ref:`how to use specific features <doc_c_sharp_features>`, read about the :ref:`differences between the C# and the GDScript API <doc_c_sharp_differences>` and (re)visit the :ref:`Scripting section <doc_scripting>` of the step-by-step tutorial."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:24
+msgid "C# is a high-level programming language developed by Microsoft. In GaaeExplorer, it is implemented with the Mono 6.x .NET framework, including full support for C# 8.0. Mono is an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime. A good starting point for checking its capabilities is the `Compatibility <http://www.mono-project.com/docs/about-mono/compatibility/>`_ page in the Mono documentation."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:32
+msgid "This is **not** a full-scale tutorial on the C# language as a whole. If you aren't already familiar with its syntax or features, see the `Microsoft C# guide <https://docs.microsoft.com/en-us/dotnet/csharp/index>`_ or look for a suitable introduction elsewhere."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:41
+msgid "Setting up C# for GaaeExplorer"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:44
+msgid "Prerequisites"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:46
+msgid "Install the latest stable version of the `.NET SDK <https://dotnet.microsoft.com/download>`__, previously known as the .NET Core SDK."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:50
+msgid "From GaaeExplorer 3.2.3 onwards, installing Mono SDK is not a requirement anymore, except it is required if you are building the engine from source."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:53
+msgid "GaaeExplorer bundles the parts of Mono needed to run already compiled games. However, GaaeExplorer does not bundle the tools required to build and compile games, such as MSBuild and the C# compiler. These are included in the .NET SDK, which needs to be installed separately."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:58
+msgid "In summary, you must have installed the .NET SDK **and** the Mono-enabled version of GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:62
+msgid "Additional notes"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:64
+msgid "Be sure to install the 64-bit version of the SDK(s) if you are using the 64-bit version of GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:67
+msgid "If you are building GaaeExplorer from source, install the latest stable version of `Mono <https://www.mono-project.com/download/stable/>`__, and make sure to follow the steps to enable Mono support in your build as outlined in the :ref:`doc_compiling_with_mono` page."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:73
+msgid "Configuring an external editor"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:75
+msgid "C# support in GaaeExplorer's built-in script editor is minimal. Consider using an external IDE or editor, such as  `Visual Studio Code <https://code.visualstudio.com/>`__ or MonoDevelop. These provide autocompletion, debugging, and other useful features for C#. To select an external editor in GaaeExplorer, click on **Editor → Editor Settings** and scroll down to **Mono**. Under **Mono**, click on **Editor**, and select your external editor of choice. GaaeExplorer currently supports the following external editors:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:84
+msgid "Visual Studio 2019"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:85
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:109
+msgid "Visual Studio Code"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:86
+msgid "MonoDevelop"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:87
+msgid "Visual Studio for Mac"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:88
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:93
+msgid "JetBrains Rider"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:90
+msgid "See the following sections for how to configure an external editor:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:95
+msgid "After reading the \"Prerequisites\" section, you can download and install `JetBrains Rider <https://www.jetbrains.com/rider/download>`__."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:98
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:114
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:150
+msgid "In GaaeExplorer's **Editor → Editor Settings** menu:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:100
+msgid "Set **Mono** -> **Editor** -> **External Editor** to **JetBrains Rider**."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:101
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:117
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:153
+msgid "Set **Mono** -> **Builds** -> **Build Tool** to **dotnet CLI**."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:103
+msgid "In Rider:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:105
+msgid "Set **MSBuild version** to **.NET Core**."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:106
+msgid "Install the **GaaeExplorer support** plugin."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:111
+msgid "After reading the \"Prerequisites\" section, you can download and install `Visual Studio Code <https://code.visualstudio.com/download>`__ (aka VS Code)."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:116
+msgid "Set **Mono** -> **Editor** -> **External Editor** to **Visual Studio Code**."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:119
+msgid "In Visual Studio Code:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:121
+msgid "Install the `C# <https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp>`__ extension."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:122
+msgid "Install the `Mono Debug <https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug>`__ extension."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:123
+msgid "Install the `C# Tools for GaaeExplorer <https://marketplace.visualstudio.com/items?itemName=neikeq.godot-csharp-vscode>`__ extension."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:125
+msgid "If you are using Linux you need to install the `Mono SDK <https://www.mono-project.com/download/stable/#download-lin>`__ for the C# tools plugin to work."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:129
+msgid "To configure a project for debugging open the GaaeExplorer project folder in VS Code. Go to the Run tab and click on **Add Configuration...**. Select **C# GaaeExplorer** from the dropdown menu. Open the ``tasks.json`` and ``launch.json`` files that were created. Change the executable setting in ``launch.json`` and  command settings in ``tasks.json`` to your GaaeExplorer executable path. Now, when you start the debugger in VS Code, your GaaeExplorer project will run."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:137
+msgid "Visual Studio (Windows only)"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:139
+msgid "Download and install the latest version of `Visual Studio <https://visualstudio.microsoft.com/downloads/>`__. Visual Studio will include the required SDKs if you have the correct workloads selected, so you don't need to manually install the things listed in the \"Prerequisites\" section."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:145
+msgid "While installing Visual Studio, select these workloads:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:147
+msgid "Mobile development with .NET"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:148
+msgid ".NET Core cross-platform development"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:152
+msgid "Set **Mono** -> **Editor** -> **External Editor** to **Visual Studio**."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:155
+msgid "Next, you can download the GaaeExplorer Visual Studio extension from github `here <https://github.com/godotengine/godot-csharp-visualstudio/releases>`__. Double click on the downloaded file and follow the installation process."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:159
+msgid "The option to debug your game in Visual Studio may not appear after installing the extension. To enable debugging, there is a `workaround for Visual Studio 2019 <https://github.com/godotengine/godot-csharp-visualstudio/issues/10#issuecomment-720153256>`__. There is `a separate issue about this problem in Visual Studio 2022 <https://github.com/godotengine/godot-csharp-visualstudio/issues/28>`__."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:165
+msgid "If you see an error like \"Unable to find package GaaeExplorer.NET.Sdk\", your NuGet configuration may be incorrect and need to be fixed."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:168
+msgid "A simple way to fix the NuGet configuration file is to regenerate it. In a file explorer window, go to ``%AppData%\\NuGet``. Rename or delete the ``NuGet.Config`` file. When you build your GaaeExplorer project again, the file will be automatically created with default values."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:174
+msgid "Creating a C# script"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:176
+msgid "After you successfully set up C# for GaaeExplorer, you should see the following option when selecting **Attach Script** in the context menu of a node in your scene:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:181
+msgid "Note that while some specifics change, most concepts work the same when using C# for scripting. If you're new to GaaeExplorer, you may want to follow the tutorials on :ref:`doc_scripting` at this point. While some places in the documentation still lack C# examples, most concepts can be transferred easily from GDScript."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:188
+msgid "Project setup and workflow"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:190
+msgid "When you create the first C# script, GaaeExplorer initializes the C# project files for your GaaeExplorer project. This includes generating a C# solution (``.sln``) and a project file (``.csproj``), as well as some utility files and folders (``.mono`` and ``Properties/AssemblyInfo.cs``). All of these but ``.mono`` are important and should be committed to your version control system. ``.mono`` can be safely added to the ignore list of your VCS. When troubleshooting, it can sometimes help to delete the ``.mono`` folder and let it regenerate."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:200
+msgid "Example"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:202
+msgid "Here's a blank C# script with some comments to demonstrate how it works."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:229
+msgid "As you can see, functions normally in global scope in GDScript like GaaeExplorer's ``print`` function are available in the ``GD`` class which is part of the ``GaaeExplorer`` namespace. For a list of methods in the ``GD`` class, see the class reference pages for :ref:`@GDScript <class_@gdscript>` and :ref:`@GlobalScope <class_@globalscope>`."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:236
+msgid "Keep in mind that the class you wish to attach to your node should have the same name as the ``.cs`` file. Otherwise, you will get the following error and won't be able to run the scene: *\"Cannot find class XXX for script res://XXX.cs\"*"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:242
+msgid "General differences between C# and GDScript"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:244
+msgid "The C# API uses ``PascalCase`` instead of ``snake_case`` in GDScript/C++. Where possible, fields and getters/setters have been converted to properties. In general, the C# GaaeExplorer API strives to be as idiomatic as is reasonably possible."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:248
+msgid "For more information, see the :ref:`doc_c_sharp_differences` page."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:252
+msgid "You need to (re)build the project assemblies whenever you want to see new exported variables or signals in the editor. This build can be manually triggered by clicking the word **Build** in the top right corner of the editor. You can also click **Mono** at the bottom of the editor window to reveal the Mono panel, then click the **Build Project** button."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:258
+msgid "You will also need to rebuild the project assemblies to apply changes in \"tool\" scripts."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:262
+msgid "Current gotchas and known issues"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:264
+msgid "As C# support is quite new in GaaeExplorer, there are some growing pains and things that need to be ironed out. Below is a list of the most important issues you should be aware of when diving into C# in GaaeExplorer, but if in doubt, also take a look over the official `issue tracker for Mono issues <https://github.com/godotengine/godot/labels/topic%3Amono>`_."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:270
+msgid "Writing editor plugins is possible, but it is currently quite convoluted."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:271
+msgid "State is currently not saved and restored when hot-reloading, with the exception of exported variables."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:273
+msgid "Attached C# scripts should refer to a class that has a class name that matches the file name."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:275
+msgid "There are some methods such as ``Get()``/``Set()``, ``Call()``/``CallDeferred()`` and signal connection method ``Connect()`` that rely on GaaeExplorer's ``snake_case`` API naming conventions. So when using e.g. ``CallDeferred(\"AddChild\")``, ``AddChild`` will not work because the API is expecting the original ``snake_case`` version ``add_child``. However, you can use any custom properties or methods without this limitation."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:283
+msgid "Exporting Mono projects is supported for desktop platforms (Linux, Windows and macOS), Android, HTML5, and iOS. The only platform not supported yet is UWP."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:287
+msgid "Performance of C# in GaaeExplorer"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:289
+msgid "According to some preliminary `benchmarks <https://github.com/cart/godot3-bunnymark>`_, the performance of C# in GaaeExplorer — while generally in the same order of magnitude — is roughly **~4×** that of GDScript in some naive cases. C++ is still a little faster; the specifics are going to vary according to your use case. GDScript is likely fast enough for most general scripting workloads. C# is faster, but requires some expensive marshalling when talking to GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:297
+msgid "Using NuGet packages in GaaeExplorer"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:299
+msgid "`NuGet <https://www.nuget.org/>`_ packages can be installed and used with GaaeExplorer, as with any C# project. Many IDEs are able to add packages directly. They can also be added manually by adding the package reference in the ``.csproj`` file located in the project root:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:313
+msgid "As of GaaeExplorer 3.2.3, GaaeExplorer automatically downloads and sets up newly added NuGet packages the next time it builds the project."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:317
+msgid "Profiling your C# code"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:319
+msgid "`Mono log profiler <https://www.mono-project.com/docs/debug+profile/profile/profiler/>`_ is available for Linux and macOS. Due to a Mono change, it does not work on Windows currently."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_basics.rst:320
+msgid "External Mono profiler like `JetBrains dotTrace <https://www.jetbrains.com/profiler/>`_ can be used as described `here <https://github.com/godotengine/godot/pull/34382>`_."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

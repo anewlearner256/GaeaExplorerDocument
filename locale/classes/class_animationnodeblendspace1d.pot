@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationnodeblendspace1d.rst:10
+msgid "AnimationNodeBlendSpace1D"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:12
+msgid "**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:14
+msgid "在虚拟轴上放置的任意数量的\\ :ref:`AnimationNode<class_AnimationNode>`\\ 的任意类型的两个\\ :ref:`AnimationNode<class_AnimationNode>`\\ 之间线性混合。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:19
+msgid "要添加到 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的资源。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:21
+msgid "这是一个虚拟轴，您可以使用 :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>` 在上面添加任何类型的 :ref:`AnimationNode<class_AnimationNode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:23
+msgid "输出最接近节点当前值的两个 :ref:`AnimationNode<class_AnimationNode>` 的线性混合。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:25
+msgid "您可以使用 :ref:`min_space<class_AnimationNodeBlendSpace1D_property_min_space>` 和 :ref:`max_space<class_AnimationNodeBlendSpace1D_property_max_space>` 来设置轴的外延。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:28
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:30
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:36
+#: ../classes/class_animationnodeblendspace1d.rst:38
+#: ../classes/class_animationnodeblendspace1d.rst:40
+#: ../classes/class_animationnodeblendspace1d.rst:55
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:36
+msgid ":ref:`max_space<class_AnimationNodeBlendSpace1D_property_max_space>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:36
+#: ../classes/class_animationnodeblendspace1d.rst:72
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:38
+msgid ":ref:`min_space<class_AnimationNodeBlendSpace1D_property_min_space>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:38
+#: ../classes/class_animationnodeblendspace1d.rst:88
+msgid "``-1.0``"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:40
+msgid ":ref:`snap<class_AnimationNodeBlendSpace1D_property_snap>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:40
+#: ../classes/class_animationnodeblendspace1d.rst:104
+msgid "``0.1``"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:42
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:42
+msgid ":ref:`value_label<class_AnimationNodeBlendSpace1D_property_value_label>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:42
+#: ../classes/class_animationnodeblendspace1d.rst:120
+msgid "``\"value\"``"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:46
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:49
+#: ../classes/class_animationnodeblendspace1d.rst:57
+#: ../classes/class_animationnodeblendspace1d.rst:59
+#: ../classes/class_animationnodeblendspace1d.rst:61
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:49
+msgid ":ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>` **(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:51
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:51
+msgid ":ref:`get_blend_point_count<class_AnimationNodeBlendSpace1D_method_get_blend_point_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:53
+msgid ":ref:`AnimationRootNode<class_AnimationRootNode>`"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:53
+msgid ":ref:`get_blend_point_node<class_AnimationNodeBlendSpace1D_method_get_blend_point_node>` **(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:55
+msgid ":ref:`get_blend_point_position<class_AnimationNodeBlendSpace1D_method_get_blend_point_position>` **(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:57
+msgid ":ref:`remove_blend_point<class_AnimationNodeBlendSpace1D_method_remove_blend_point>` **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:59
+msgid ":ref:`set_blend_point_node<class_AnimationNodeBlendSpace1D_method_set_blend_point_node>` **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:61
+msgid ":ref:`set_blend_point_position<class_AnimationNodeBlendSpace1D_method_set_blend_point_position>` **(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:65
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:69
+msgid ":ref:`float<class_float>` **max_space**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:72
+#: ../classes/class_animationnodeblendspace1d.rst:88
+#: ../classes/class_animationnodeblendspace1d.rst:104
+#: ../classes/class_animationnodeblendspace1d.rst:120
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:74
+#: ../classes/class_animationnodeblendspace1d.rst:90
+#: ../classes/class_animationnodeblendspace1d.rst:106
+#: ../classes/class_animationnodeblendspace1d.rst:122
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:74
+msgid "set_max_space(value)"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:76
+#: ../classes/class_animationnodeblendspace1d.rst:92
+#: ../classes/class_animationnodeblendspace1d.rst:108
+#: ../classes/class_animationnodeblendspace1d.rst:124
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:76
+msgid "get_max_space()"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:79
+msgid "混合空间的轴的点的位置上限。请参阅 :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:85
+msgid ":ref:`float<class_float>` **min_space**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:90
+msgid "set_min_space(value)"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:92
+msgid "get_min_space()"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:95
+msgid "混合空间的轴的点的位置下限。请参阅 :ref:`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:101
+msgid ":ref:`float<class_float>` **snap**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:106
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:108
+msgid "get_snap()"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:111
+msgid "当在轴上移动一个点时，要捕捉到的位置增量。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:117
+msgid ":ref:`String<class_String>` **value_label**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:122
+msgid "set_value_label(value)"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:124
+msgid "get_value_label()"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:127
+msgid "混合空间虚拟轴的标签。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:130
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:134
+msgid "void **add_blend_point** **(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:136
+msgid "在\\ ``pos``\\ 设定的给定位置添加一个新点，代表虚拟轴上的\\ ``node``\\ 。您可以使用 ``at_index`` 参数在特定的索引处插入新点。如果您使用 ``at_index`` 的默认值，该点会被插入到混合点数组的最后。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:142
+msgid ":ref:`int<class_int>` **get_blend_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:144
+msgid "返回混合轴上的点的数量。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:150
+msgid ":ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** **(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:152
+msgid "返回索引\\ ``point``\\ 处的点所引用的\\ :ref:`AnimationNode<class_AnimationNode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:158
+msgid ":ref:`float<class_float>` **get_blend_point_position** **(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:160
+msgid "返回索引\\ ``point``\\ 处的点的位置。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:166
+msgid "void **remove_blend_point** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:168
+msgid "将索引\\ ``point``\\ 处的点从混合轴上删除。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:174
+msgid "void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:176
+msgid "改变索引\\ ``point``\\ 处的点所引用的\\ :ref:`AnimationNode<class_AnimationNode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:182
+msgid "void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**"
+msgstr ""
+
+#: ../classes/class_animationnodeblendspace1d.rst:184
+msgid "更新混合轴上索引\\ ``point``\\ 处的点的位置。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/export/exporting_for_windows.rst:4
+msgid "Exporting for Windows"
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:8
+msgid "This page describes how to export a GaaeExplorer project to Windows. If you're looking to compile editor or export template binaries from source instead, read :ref:`doc_compiling_for_windows`."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:12
+msgid "The simplest way to distribute a game for PC is to copy the executable (``godot.exe``), compress the folder and send it to someone else. However, this is often not desired."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:16
+msgid "GaaeExplorer offers a more elegant approach for PC distribution when using the export system. When exporting for Windows, the exporter takes all the project files and creates a ``data.pck`` file. This file is bundled with a specially optimized binary that is smaller, faster and does not contain the editor and debugger."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:22
+msgid "Requirements"
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:24
+msgid "To enable code signing, you must have the ``Windows 10 SDK`` (on Windows) or `osslsigncode <https://github.com/mtrojnar/osslsigncode>`__ (on any other OS) installed."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:25
+msgid "Download the GaaeExplorer export templates. Use the GaaeExplorer menu: ``Editor > Manage Export Templates``."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:29
+msgid "If you export for Windows with embedded PCK files, you will not be able to sign the program as it will break."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_windows.rst:32
+msgid "On Windows, PCK embedding is also known to cause false positives in antivirus programs. Therefore, it's recommended to avoid using it unless you're distributing your project via Steam as it bypasses code signing and antivirus checks."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

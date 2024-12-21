@@ -1,0 +1,788 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_DebugDraw.rst:2
+#: ../classAPI/class_DebugDraw.rst:79
+msgid "DebugDraw"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:7
+msgid "Single-file autoload for debug drawing and printing. Draw and print on screen from anywhere in a single line of code."
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:10
+msgid "You can use only this file by adding it to autoload. Also you can use it in editor by enabling 'Debug Draw For Editor' plugin."
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:13
+msgid "No need to remove any code associated with this class in the release build. Canvas placed on layer 64. All positions in global space. Thread-safe (I hope). \"Game Camera Override\" is not supports, because no one in the GaaeExplorer Core Team exposes methods to support this (but you can just disable culling see DebugDraw.UseFrustumCulling)."
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:21
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:27
+#: ../classAPI/class_DebugDraw.rst:29
+#: ../classAPI/class_DebugDraw.rst:31
+#: ../classAPI/class_DebugDraw.rst:33
+#: ../classAPI/class_DebugDraw.rst:47
+#: ../classAPI/class_DebugDraw.rst:49
+#: ../classAPI/class_DebugDraw.rst:51
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:27
+msgid "DebugEnabled"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:29
+msgid "Freeze3DRender"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:31
+msgid "UseFrustumCulling"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:33
+msgid "ForceUseCameraFromScene"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:35
+#: ../classAPI/class_DebugDraw.rst:59
+msgid "BlockPosition"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:35
+msgid "TextBlockPosition"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:37
+#: ../classAPI/class_DebugDraw.rst:39
+#: ../classAPI/class_DebugDraw.rst:55
+#: ../classAPI/class_DebugDraw.rst:57
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:37
+msgid "TextBlockOffset"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:39
+msgid "TextPadding"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:41
+msgid "TimeSpan"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:41
+msgid "TextDefaultDuration"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:43
+#: ../classAPI/class_DebugDraw.rst:45
+#: ../classAPI/class_DebugDraw.rst:61
+#: ../classAPI/class_DebugDraw.rst:63
+#: ../classAPI/class_DebugDraw.rst:65
+#: ../classAPI/class_DebugDraw.rst:67
+#: ../classAPI/class_DebugDraw.rst:71
+#: ../classAPI/class_DebugDraw.rst:73
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:43
+msgid "TextForegroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:45
+msgid "TextBackgroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:47
+msgid "FPSGraphEnabled"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:49
+msgid "FPSGraphFrameTimeMode"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:51
+msgid "FPSGraphCenteredGraphLine"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:53
+msgid "FPSGraphTextFlags"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:53
+msgid "FPSGraphShowTextFlags"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:55
+msgid "FPSGraphSize"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:57
+msgid "FPSGraphOffset"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:59
+msgid "FPSGraphPosition"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:61
+msgid "FPSGraphLineColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:63
+msgid "FPSGraphTextColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:65
+msgid "FPSGraphBackgroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:67
+msgid "FPSGraphBorderColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:69
+msgid "RenderCountData"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:69
+msgid "RenderCount"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:71
+msgid "LineHitColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:73
+msgid "LineAfterHitColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:75
+msgid "Viewport"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:75
+msgid "CustomViewport"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:77
+msgid "CanvasItem"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:77
+msgid "CustomCanvas"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:79
+msgid "Instance"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:83
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:86
+#: ../classAPI/class_DebugDraw.rst:88
+#: ../classAPI/class_DebugDraw.rst:90
+#: ../classAPI/class_DebugDraw.rst:92
+#: ../classAPI/class_DebugDraw.rst:100
+#: ../classAPI/class_DebugDraw.rst:102
+#: ../classAPI/class_DebugDraw.rst:104
+#: ../classAPI/class_DebugDraw.rst:106
+#: ../classAPI/class_DebugDraw.rst:108
+#: ../classAPI/class_DebugDraw.rst:110
+#: ../classAPI/class_DebugDraw.rst:112
+#: ../classAPI/class_DebugDraw.rst:114
+#: ../classAPI/class_DebugDraw.rst:116
+#: ../classAPI/class_DebugDraw.rst:118
+#: ../classAPI/class_DebugDraw.rst:120
+#: ../classAPI/class_DebugDraw.rst:122
+#: ../classAPI/class_DebugDraw.rst:124
+#: ../classAPI/class_DebugDraw.rst:126
+#: ../classAPI/class_DebugDraw.rst:128
+#: ../classAPI/class_DebugDraw.rst:130
+#: ../classAPI/class_DebugDraw.rst:132
+#: ../classAPI/class_DebugDraw.rst:134
+#: ../classAPI/class_DebugDraw.rst:136
+#: ../classAPI/class_DebugDraw.rst:138
+#: ../classAPI/class_DebugDraw.rst:140
+#: ../classAPI/class_DebugDraw.rst:142
+#: ../classAPI/class_DebugDraw.rst:144
+#: ../classAPI/class_DebugDraw.rst:146
+#: ../classAPI/class_DebugDraw.rst:148
+#: ../classAPI/class_DebugDraw.rst:150
+#: ../classAPI/class_DebugDraw.rst:152
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:86
+msgid "_EnterTree()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:88
+msgid "_ExitTree()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:90
+msgid "_Ready()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:92
+msgid "_Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:94
+#: ../classAPI/class_DebugDraw.rst:96
+#: ../classAPI/class_DebugDraw.rst:98
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:94
+msgid "PostDrawPolygon(Vector3[] poss,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:96
+msgid "PostDrawPoint(Vector3 poss,Int32 size,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:98
+msgid "PostDrawLine(Vector3[] poss,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:100
+msgid "RemoveElement(Int32 id,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:102
+msgid "OnCanvaItemDraw(CanvasItem ci,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:104
+msgid "Clear3DObjects()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:106
+msgid "Clear2DObjects()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:108
+msgid "ClearAll()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:110
+msgid "DrawSphere(Vector3 position,Double radius,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:112
+msgid "DrawSphere(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:114
+msgid "DrawCylinder(Vector3 position,Double radius,Double height,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:116
+msgid "DrawCylinder(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:118
+msgid "DrawBox(Vector3 position,Vector3 size,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:120
+msgid "DrawBox(Vector3 position,Quat rotation,Vector3 size,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:122
+msgid "DrawBox(Transform transform,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:124
+msgid "DrawAABB(Vector3 a,Vector3 b,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:126
+msgid "DrawAABB(AABB aabb,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:128
+msgid "DrawLine3DHit(Vector3 a,Vector3 b,Boolean is_hit,Double unitOffsetOfHit,Double hitSize,Double duration,Nullable`1 hitColor,Nullable`1 afterHitColor,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:130
+msgid "DrawLine3D(Vector3 a,Vector3 b,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:132
+msgid "DrawPoint3D(Vector3 point,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:134
+msgid "DrawBillboardSquare(Vector3 position,Double size,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:136
+msgid "DrawCameraFrustum(Camera camera,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:138
+msgid "DrawCameraFrustum(Array cameraFrustum,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:140
+msgid "DrawCameraFrustum(Plane[] planes,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:142
+msgid "DrawPosition3D(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:144
+msgid "DrawPosition3D(Vector3 position,Quat rotation,Vector3 scale,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:146
+msgid "DrawPosition3D(Vector3 position,Nullable`1 color,Double scale,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:148
+msgid "BeginTextGroup(String groupTitle,Int32 groupPriority,Nullable`1 groupColor,Boolean showTitle,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:150
+msgid "EndTextGroup()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:152
+msgid "SetText(String key,Object value,Int32 priority,Nullable`1 colorOfValue,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:156
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:158
+msgid "Boolean DebugEnabled"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:161
+#: ../classAPI/class_DebugDraw.rst:172
+#: ../classAPI/class_DebugDraw.rst:183
+#: ../classAPI/class_DebugDraw.rst:194
+#: ../classAPI/class_DebugDraw.rst:205
+#: ../classAPI/class_DebugDraw.rst:216
+#: ../classAPI/class_DebugDraw.rst:228
+#: ../classAPI/class_DebugDraw.rst:239
+#: ../classAPI/class_DebugDraw.rst:251
+#: ../classAPI/class_DebugDraw.rst:263
+#: ../classAPI/class_DebugDraw.rst:275
+#: ../classAPI/class_DebugDraw.rst:287
+#: ../classAPI/class_DebugDraw.rst:299
+#: ../classAPI/class_DebugDraw.rst:311
+#: ../classAPI/class_DebugDraw.rst:323
+#: ../classAPI/class_DebugDraw.rst:335
+#: ../classAPI/class_DebugDraw.rst:347
+#: ../classAPI/class_DebugDraw.rst:359
+#: ../classAPI/class_DebugDraw.rst:371
+#: ../classAPI/class_DebugDraw.rst:383
+#: ../classAPI/class_DebugDraw.rst:395
+#: ../classAPI/class_DebugDraw.rst:417
+#: ../classAPI/class_DebugDraw.rst:429
+#: ../classAPI/class_DebugDraw.rst:441
+#: ../classAPI/class_DebugDraw.rst:455
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:165
+msgid "开启或关闭所有的调试绘制"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:169
+msgid "Boolean Freeze3DRender"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:176
+msgid "冻结3D渲染"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:180
+msgid "Boolean UseFrustumCulling"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:187
+msgid "基于相机视锥体的几何剔除，默认true，改为false后关闭剔除"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:191
+msgid "Boolean ForceUseCameraFromScene"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:198
+msgid "强制使用放置在编辑场景上的摄像机。可用于编辑器。"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:202
+msgid "BlockPosition TextBlockPosition"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:209
+msgid "文本块的位置"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:213
+msgid "Vector2 TextBlockOffset"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:220
+msgid "Offset from the corner selected in DebugDraw.TextBlockPosition 在TextBlockPosition中选择偏移量"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:225
+msgid "Vector2 TextPadding"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:232
+msgid "每行的文本padding"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:236
+msgid "TimeSpan TextDefaultDuration"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:243
+msgid "How long HUD text lines remain shown after being invoked. 调用后 HUD 文本行仍显示多长时间"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:248
+msgid "Color TextForegroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:255
+msgid "Color of the text drawn as HUD 绘制为 HUD 的文本的颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:260
+msgid "Color TextBackgroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:267
+msgid "Background color of the text drawn as HUD 绘制为 HUD 的文本的背景色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:272
+msgid "Boolean FPSGraphEnabled"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:279
+msgid "Is FPSGraph enabled 是否启用了 FPSGraph"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:284
+msgid "Boolean FPSGraphFrameTimeMode"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:291
+msgid "Switch between frame time and FPS modes 在显示帧时间和 FPS 之间切换"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:296
+msgid "Boolean FPSGraphCenteredGraphLine"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:303
+msgid "Draw a graph line aligned vertically in the center 绘制一条在中心垂直对齐的图形线"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:308
+msgid "FPSGraphTextFlags FPSGraphShowTextFlags"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:315
+msgid "Sets the text visibility 设置文本可见性"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:320
+msgid "Vector2 FPSGraphSize"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:327
+msgid "Size of the FPS Graph. The width is equal to the number of stored frames. FPS 图的大小。宽度等于存储的帧数。"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:332
+msgid "Vector2 FPSGraphOffset"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:339
+msgid "Offset from the corner selected in DebugDraw.FPSGraphPosition FPSGraphPosition 的偏移"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:344
+msgid "BlockPosition FPSGraphPosition"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:351
+msgid "FPS Graph position FPS 图表位置"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:356
+msgid "Color FPSGraphLineColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:363
+msgid "Graph line color 图形线颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:368
+msgid "Color FPSGraphTextColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:375
+msgid "Color of the info text 信息文本的颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:380
+msgid "Color FPSGraphBackgroundColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:387
+msgid "Background color FPSGraph的背景色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:392
+msgid "Color FPSGraphBorderColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:399
+msgid "Border color 边框颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:404
+msgid "RenderCountData RenderCount"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:407
+#: ../classAPI/class_DebugDraw.rst:467
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:410
+msgid "几何渲染统计信息"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:414
+msgid "Color LineHitColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:421
+msgid "Color of line with hit 可命中的线条的颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:426
+msgid "Color LineAfterHitColor"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:433
+msgid "Color of line after hit 命中后线条的颜色"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:438
+msgid "Viewport CustomViewport"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:445
+msgid "Custom GaaeExplorer.Viewport to use for frustum culling. Usually used in editor. 自定义Viewport以用于视锥剔除。 通常用在编辑器中"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:452
+msgid "CanvasItem CustomCanvas"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:459
+msgid "Custom GaaeExplorer.CanvasItem to draw on it. Set to <see langword=\"null\" /> to disable. 自定义CanvasItem， 在其上绘制。设置为null以禁用。"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:464
+msgid "DebugDraw Instance"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:471
+msgid "Do not use it directly. This property will not be available without debug"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:471
+msgid "DebugDraw的单例对象，不要直接使用它。如果没有调试，此属性将不可用"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:477
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:479
+msgid "Void _EnterTree()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:485
+msgid "Void _ExitTree()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:491
+msgid "Void _Ready()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:497
+msgid "Void _Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:503
+msgid "Int32 PostDrawPolygon(Vector3[] poss,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:509
+msgid "Int32 PostDrawPoint(Vector3 poss,Int32 size,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:515
+msgid "Int32 PostDrawLine(Vector3[] poss,Color color,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:521
+msgid "Void RemoveElement(Int32 id,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:527
+msgid "Void OnCanvaItemDraw(CanvasItem ci,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:533
+msgid "Void Clear3DObjects()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:539
+msgid "Void Clear2DObjects()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:545
+msgid "Void ClearAll()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:551
+msgid "Void DrawSphere(Vector3 position,Double radius,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:557
+msgid "Void DrawSphere(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:563
+msgid "Void DrawCylinder(Vector3 position,Double radius,Double height,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:569
+msgid "Void DrawCylinder(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:575
+msgid "Void DrawBox(Vector3 position,Vector3 size,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:581
+msgid "Void DrawBox(Vector3 position,Quat rotation,Vector3 size,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:587
+msgid "Void DrawBox(Transform transform,Nullable`1 color,Double duration,Boolean isBoxCentered,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:593
+msgid "Void DrawAABB(Vector3 a,Vector3 b,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:599
+msgid "Void DrawAABB(AABB aabb,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:605
+msgid "Void DrawLine3DHit(Vector3 a,Vector3 b,Boolean is_hit,Double unitOffsetOfHit,Double hitSize,Double duration,Nullable`1 hitColor,Nullable`1 afterHitColor,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:611
+msgid "Void DrawLine3D(Vector3 a,Vector3 b,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:617
+msgid "Void DrawPoint3D(Vector3 point,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:623
+msgid "Void DrawBillboardSquare(Vector3 position,Double size,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:629
+msgid "Void DrawCameraFrustum(Camera camera,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:635
+msgid "Void DrawCameraFrustum(Array cameraFrustum,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:641
+msgid "Void DrawCameraFrustum(Plane[] planes,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:647
+msgid "Void DrawPosition3D(Transform transform,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:653
+msgid "Void DrawPosition3D(Vector3 position,Quat rotation,Vector3 scale,Nullable`1 color,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:659
+msgid "Void DrawPosition3D(Vector3 position,Nullable`1 color,Double scale,Double duration,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:665
+msgid "Void BeginTextGroup(String groupTitle,Int32 groupPriority,Nullable`1 groupColor,Boolean showTitle,)"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:671
+msgid "Void EndTextGroup()"
+msgstr ""
+
+#: ../classAPI/class_DebugDraw.rst:677
+msgid "Void SetText(String key,Object value,Int32 priority,Nullable`1 colorOfValue,Double duration,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

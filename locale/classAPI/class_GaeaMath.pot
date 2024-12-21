@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_GaeaMath.rst:2
+msgid "GaeaMath"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:18
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:21
+#: ../classAPI/class_GaeaMath.rst:69
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:21
+msgid "Azimuth(Double latA,Double lonA,Double latB,Double lonB,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:23
+#: ../classAPI/class_GaeaMath.rst:25
+#: ../classAPI/class_GaeaMath.rst:31
+#: ../classAPI/class_GaeaMath.rst:33
+#: ../classAPI/class_GaeaMath.rst:35
+msgid "Transform"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:23
+msgid "SphericalToGlobeTransform(Vector3 latlonalt,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:25
+msgid "SphericalToGlobeTransform(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:27
+#: ../classAPI/class_GaeaMath.rst:37
+#: ../classAPI/class_GaeaMath.rst:39
+#: ../classAPI/class_GaeaMath.rst:41
+#: ../classAPI/class_GaeaMath.rst:43
+#: ../classAPI/class_GaeaMath.rst:45
+#: ../classAPI/class_GaeaMath.rst:47
+#: ../classAPI/class_GaeaMath.rst:49
+#: ../classAPI/class_GaeaMath.rst:51
+#: ../classAPI/class_GaeaMath.rst:53
+#: ../classAPI/class_GaeaMath.rst:55
+#: ../classAPI/class_GaeaMath.rst:63
+#: ../classAPI/class_GaeaMath.rst:71
+#: ../classAPI/class_GaeaMath.rst:73
+#: ../classAPI/class_GaeaMath.rst:75
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:27
+msgid "SphericalToGlobeRoationYZX(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:29
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:29
+msgid "IsEqualApprox(Double num1,Double num2,Double approx,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:31
+msgid "SphericalToGlobeTransform(Vector3 latlonalt,Vector3 rotation,Vector3 scale,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:33
+msgid "SphericalToGlobeTransform(Vector3 latlonalt,Vector3 rotation,Vector3 scale,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:35
+msgid "SphericalToGlobeTransform(Double lat,Double lon,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:37
+msgid "SphericalToCartesianRad(Double latitude,Double longitude,Double radius,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:39
+msgid "SphericalToCartesianRad(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:41
+msgid "SphericalToCartesianDeg(Double latitude,Double longitude,Double radius,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:43
+msgid "SphericalToCartesianDeg(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:45
+msgid "CartesianToSphericalDeg(Double x,Double y,Double z,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:47
+msgid "CartesianToSphericalDeg(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:49
+msgid "CartesianToSphericalRad(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:51
+msgid "CartesianToSphericalRad(Double x,Double y,Double z,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:53
+msgid "ProjectLatlonPosition(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:55
+msgid "ProjectPosition(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:57
+#: ../classAPI/class_GaeaMath.rst:59
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:57
+msgid "ProjectLatlon(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:59
+msgid "UnProjectPosition(Vector3 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:61
+#: ../classAPI/class_GaeaMath.rst:65
+#: ../classAPI/class_GaeaMath.rst:67
+msgid "Quat"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:61
+msgid "RotationFromCartesianToSpherical(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:63
+msgid "SurfaceTiltHeadingBank(Transform transform,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:65
+msgid "RotationFromCartesianToSpherical1(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:67
+msgid "RotationFromDirectionZAxisUp(Vector3 direction,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:69
+msgid "ToDouble(String str,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:71
+msgid "FromEllipsoidToSphere(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:73
+msgid "EllipsoidalCartesianToCircularCartesian(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:75
+msgid "ScaleToGeodeticSurface(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:79
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:83
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:85
+msgid "Double Azimuth(Double latA,Double lonA,Double latB,Double lonB,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:91
+msgid "Transform SphericalToGlobeTransform(Vector3 latlonalt,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:97
+msgid "Transform SphericalToGlobeTransform(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:103
+msgid "Vector3 SphericalToGlobeRoationYZX(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:109
+msgid "Boolean IsEqualApprox(Double num1,Double num2,Double approx,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:115
+msgid "Transform SphericalToGlobeTransform(Vector3 latlonalt,Vector3 rotation,Vector3 scale,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:121
+msgid "Transform SphericalToGlobeTransform(Vector3 latlonalt,Vector3 rotation,Vector3 scale,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:127
+msgid "Transform SphericalToGlobeTransform(Double lat,Double lon,Boolean useAbsoluteHeight,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:133
+msgid "Vector3 SphericalToCartesianRad(Double latitude,Double longitude,Double radius,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:139
+msgid "Vector3 SphericalToCartesianRad(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:145
+msgid "Vector3 SphericalToCartesianDeg(Double latitude,Double longitude,Double radius,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:151
+msgid "Vector3 SphericalToCartesianDeg(Vector3 latlonalt,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:157
+msgid "Vector3 CartesianToSphericalDeg(Double x,Double y,Double z,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:163
+msgid "Vector3 CartesianToSphericalDeg(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:169
+msgid "Vector3 CartesianToSphericalRad(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:175
+msgid "Vector3 CartesianToSphericalRad(Double x,Double y,Double z,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:181
+msgid "Vector3 ProjectLatlonPosition(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:187
+msgid "Vector3 ProjectPosition(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:193
+msgid "Vector2 ProjectLatlon(Vector2 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:199
+msgid "Vector2 UnProjectPosition(Vector3 pos,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:205
+msgid "Quat RotationFromCartesianToSpherical(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:211
+msgid "Vector3 SurfaceTiltHeadingBank(Transform transform,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:217
+msgid "Quat RotationFromCartesianToSpherical1(Double lat,Double lon,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:223
+msgid "Quat RotationFromDirectionZAxisUp(Vector3 direction,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:229
+msgid "Double ToDouble(String str,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:235
+msgid "Vector3 FromEllipsoidToSphere(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:241
+msgid "Vector3 EllipsoidalCartesianToCircularCartesian(Vector3 cartesian,)"
+msgstr ""
+
+#: ../classAPI/class_GaeaMath.rst:247
+msgid "Vector3 ScaleToGeodeticSurface(Vector3 cartesian,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

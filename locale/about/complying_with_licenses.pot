@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../about/complying_with_licenses.rst:4
+msgid "Complying with licenses"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:7
+msgid "What are licenses?"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:9
+msgid "GaaeExplorer is created and distributed under the `MIT License <https://opensource.org/licenses/MIT>`_. It doesn't have a sole owner either, as every contributor that submits code to the project does it under this same license and keeps ownership of the contribution."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:14
+msgid "The license is the legal requirement for you (or your company) to use and distribute the software (and derivative projects, including games made with it). Your game or project can have a different license, but it still needs to comply with the original one."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:21
+msgid "In your project's credits screen, remember to also list third-party notices for assets you're using, such as textures, models, sounds, music and fonts."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:24
+msgid "Free assets in particular often come with licenses that require attribution. Double-check their license before using those assets in a project."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:28
+msgid "Requirements"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:30
+msgid "In the case of the MIT license, the only requirement is to include the license text somewhere in your game or derivative project."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:33
+msgid "This text reads as follows:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:35
+msgid "This game uses GaaeExplorer Engine, available under the following license:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:37
+msgid "Copyright (c) 2014-present GaaeExplorer Engine contributors. Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:40
+#: ../about/complying_with_licenses.rst:133
+msgid "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:42
+#: ../about/complying_with_licenses.rst:135
+msgid "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:44
+#: ../about/complying_with_licenses.rst:137
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:48
+msgid "Your games do not need to be under the same license. You are free to release your GaaeExplorer projects under any license and to create commercial games with the engine."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:53
+msgid "Inclusion"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:55
+msgid "The license does not specify how it has to be included, so anything is valid as long as it can be displayed under some condition. These are the most common approaches (only need to implement one of them, not all)."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:60
+msgid "Credits screen"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:62
+msgid "Include the above license text somewhere in the credits screen. It can be at the bottom after showing the rest of the credits. Most large studios use this approach with open source licenses."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:67
+msgid "Licenses screen"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:69
+msgid "Some games have a special menu (often in the settings) to display licenses."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:72
+msgid "Output log"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:74
+msgid "Just printing the licensing text using the :ref:`print() <class_@GDScript_method_print>` function may be enough on platforms where a global output log is readable. This is the case on desktop platforms, Android and HTML5 (but not iOS and UWP)."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:79
+msgid "Accompanying file"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:81
+msgid "If the game is distributed on desktop platforms, a file containing the license can be added to the software that is installed to the user PC."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:85
+msgid "Printed manual"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:87
+msgid "If the game includes printed manuals, license text can be included there."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:90
+msgid "Link to the license"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:92
+msgid "The GaaeExplorer Engine developers consider that a link to ``godotengine.org/license`` in your game documentation or credits would be an acceptable way to satisfy the license terms."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:97
+msgid "Third-party licenses"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:99
+msgid "GaaeExplorer itself contains software written by `third parties <https://github.com/godotengine/godot/blob/master/COPYRIGHT.txt>`_. Most of it does not require license inclusion, but some do. Make sure to do it if these are compiled in your GaaeExplorer export template. If you're using the official export templates, all libraries are enabled. This means you need to provide attribution for all the libraries listed below."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:106
+msgid "Here's a list of libraries requiring attribution:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:109
+msgid "FreeType"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:111
+msgid "GaaeExplorer uses `FreeType <https://www.freetype.org/>`_ to render fonts. Its license requires attribution, so the following text must be included together with the GaaeExplorer license:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:115
+msgid "Portions of this software are copyright © <year> The FreeType Project (www.freetype.org).  All rights reserved."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:119
+msgid "<year> should correspond to the value from the FreeType version used in your build. This information can be found in the editor by opening the **Help > About** dialog and going to the **Third-party Licenses** tab."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:125
+msgid "ENet"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:127
+msgid "GaaeExplorer includes the `ENet <http://enet.bespin.org/>`_ library to handle high-level multiplayer. ENet has similar licensing terms as GaaeExplorer:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:131
+msgid "Copyright (c) 2002-2020 Lee Salzman"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:140
+msgid "mbed TLS"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:142
+msgid "If the project is exported with GaaeExplorer 3.1 or later, it includes `mbed TLS <https://tls.mbed.org>`_. The Apache license needs to be complied to by including the following text:"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:145
+msgid "Copyright The Mbed TLS Contributors"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:147
+msgid "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:151
+msgid "http://www.apache.org/licenses/LICENSE-2.0"
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:153
+msgid "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."
+msgstr ""
+
+#: ../about/complying_with_licenses.rst:161
+msgid "If you exported your project using a :ref:`custom build with specific modules disabled <doc_optimizing_for_size>`, you don't need to list the disabled modules' licenses in your exported project."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

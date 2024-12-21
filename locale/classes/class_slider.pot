@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_slider.rst:10
+msgid "Slider"
+msgstr ""
+
+#: ../classes/class_slider.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:14
+msgid "**Inherited By:** :ref:`HSlider<class_HSlider>`, :ref:`VSlider<class_VSlider>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:16
+#: ../classes/class_slider.rst:21
+msgid "GUI滑块的基类。"
+msgstr ""
+
+#: ../classes/class_slider.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_slider.rst:23
+msgid "\\ **注意：** :ref:`Range.changed<class_Range_signal_changed>`\\ 和\\ :ref:`Range.value_changed<class_Range_signal_value_changed>`\\ 信号是该类继承的\\ :ref:`Range<class_Range>`\\ 类的一部分。"
+msgstr ""
+
+#: ../classes/class_slider.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_slider.rst:29
+#: ../classes/class_slider.rst:33
+#: ../classes/class_slider.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:29
+msgid ":ref:`editable<class_Slider_property_editable>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:29
+#: ../classes/class_slider.rst:33
+#: ../classes/class_slider.rst:50
+#: ../classes/class_slider.rst:66
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_slider.rst:31
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:31
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_slider.rst:31
+msgid "``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_slider.rst:33
+msgid ":ref:`scrollable<class_Slider_property_scrollable>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:35
+#: ../classes/class_slider.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:35
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../classes/class_slider.rst:35
+msgid "``0`` (overrides :ref:`Control<class_Control_property_size_flags_vertical>`)"
+msgstr ""
+
+#: ../classes/class_slider.rst:37
+msgid ":ref:`tick_count<class_Slider_property_tick_count>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:37
+#: ../classes/class_slider.rst:82
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_slider.rst:39
+msgid ":ref:`ticks_on_borders<class_Slider_property_ticks_on_borders>`"
+msgstr ""
+
+#: ../classes/class_slider.rst:39
+#: ../classes/class_slider.rst:98
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_slider.rst:43
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_slider.rst:47
+msgid ":ref:`bool<class_bool>` **editable**"
+msgstr ""
+
+#: ../classes/class_slider.rst:50
+#: ../classes/class_slider.rst:66
+#: ../classes/class_slider.rst:82
+#: ../classes/class_slider.rst:98
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_slider.rst:52
+#: ../classes/class_slider.rst:68
+#: ../classes/class_slider.rst:84
+#: ../classes/class_slider.rst:100
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_slider.rst:52
+msgid "set_editable(value)"
+msgstr ""
+
+#: ../classes/class_slider.rst:54
+#: ../classes/class_slider.rst:70
+#: ../classes/class_slider.rst:86
+#: ../classes/class_slider.rst:102
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_slider.rst:54
+msgid "is_editable()"
+msgstr ""
+
+#: ../classes/class_slider.rst:57
+msgid "如果\\ ``true``\\ ，滑块可以交互。如果\\ ``false``\\ ，则只能通过代码更改该值。"
+msgstr ""
+
+#: ../classes/class_slider.rst:63
+msgid ":ref:`bool<class_bool>` **scrollable**"
+msgstr ""
+
+#: ../classes/class_slider.rst:68
+msgid "set_scrollable(value)"
+msgstr ""
+
+#: ../classes/class_slider.rst:70
+msgid "is_scrollable()"
+msgstr ""
+
+#: ../classes/class_slider.rst:73
+msgid "如果 ``true``\\ ，则可以使用鼠标滚轮更改该值。"
+msgstr ""
+
+#: ../classes/class_slider.rst:79
+msgid ":ref:`int<class_int>` **tick_count**"
+msgstr ""
+
+#: ../classes/class_slider.rst:84
+msgid "set_ticks(value)"
+msgstr ""
+
+#: ../classes/class_slider.rst:86
+msgid "get_ticks()"
+msgstr ""
+
+#: ../classes/class_slider.rst:89
+msgid "滑块上显示的刻度线数量，包括边界刻度线。刻度是均匀分布的数值标记。"
+msgstr ""
+
+#: ../classes/class_slider.rst:95
+msgid ":ref:`bool<class_bool>` **ticks_on_borders**"
+msgstr ""
+
+#: ../classes/class_slider.rst:100
+msgid "set_ticks_on_borders(value)"
+msgstr ""
+
+#: ../classes/class_slider.rst:102
+msgid "get_ticks_on_borders()"
+msgstr ""
+
+#: ../classes/class_slider.rst:105
+msgid "如果 ``true``\\ ，滑块将显示最小值和最大值的刻度。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

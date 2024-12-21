@@ -1,0 +1,1337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_popupmenu.rst:10
+msgid "PopupMenu"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:12
+msgid "**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:14
+msgid "PopupMenu(弹出菜单)显示选项列表."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:19
+msgid "``PopupMenu``\\ 是一个显示选项列表的\\ :ref:`Control<class_Control>`.它们在工具栏或上下文菜单中很常用."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:25
+#: ../classes/class_popupmenu.rst:29
+#: ../classes/class_popupmenu.rst:31
+#: ../classes/class_popupmenu.rst:33
+#: ../classes/class_popupmenu.rst:96
+#: ../classes/class_popupmenu.rst:98
+#: ../classes/class_popupmenu.rst:100
+#: ../classes/class_popupmenu.rst:102
+#: ../classes/class_popupmenu.rst:104
+#: ../classes/class_popupmenu.rst:106
+#: ../classes/class_popupmenu.rst:108
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:25
+msgid ":ref:`allow_search<class_PopupMenu_property_allow_search>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:25
+#: ../classes/class_popupmenu.rst:33
+#: ../classes/class_popupmenu.rst:225
+#: ../classes/class_popupmenu.rst:273
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:27
+msgid "``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:29
+msgid ":ref:`hide_on_checkable_item_selection<class_PopupMenu_property_hide_on_checkable_item_selection>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:29
+#: ../classes/class_popupmenu.rst:31
+#: ../classes/class_popupmenu.rst:241
+#: ../classes/class_popupmenu.rst:257
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:31
+msgid ":ref:`hide_on_item_selection<class_PopupMenu_property_hide_on_item_selection>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:33
+msgid ":ref:`hide_on_state_item_selection<class_PopupMenu_property_hide_on_state_item_selection>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:35
+msgid ":ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:35
+#: ../classes/class_popupmenu.rst:289
+msgid "``0.3``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:39
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:42
+#: ../classes/class_popupmenu.rst:44
+#: ../classes/class_popupmenu.rst:46
+#: ../classes/class_popupmenu.rst:48
+#: ../classes/class_popupmenu.rst:50
+#: ../classes/class_popupmenu.rst:52
+#: ../classes/class_popupmenu.rst:54
+#: ../classes/class_popupmenu.rst:56
+#: ../classes/class_popupmenu.rst:58
+#: ../classes/class_popupmenu.rst:60
+#: ../classes/class_popupmenu.rst:62
+#: ../classes/class_popupmenu.rst:64
+#: ../classes/class_popupmenu.rst:66
+#: ../classes/class_popupmenu.rst:68
+#: ../classes/class_popupmenu.rst:70
+#: ../classes/class_popupmenu.rst:72
+#: ../classes/class_popupmenu.rst:110
+#: ../classes/class_popupmenu.rst:112
+#: ../classes/class_popupmenu.rst:114
+#: ../classes/class_popupmenu.rst:116
+#: ../classes/class_popupmenu.rst:118
+#: ../classes/class_popupmenu.rst:120
+#: ../classes/class_popupmenu.rst:122
+#: ../classes/class_popupmenu.rst:124
+#: ../classes/class_popupmenu.rst:126
+#: ../classes/class_popupmenu.rst:128
+#: ../classes/class_popupmenu.rst:130
+#: ../classes/class_popupmenu.rst:132
+#: ../classes/class_popupmenu.rst:134
+#: ../classes/class_popupmenu.rst:136
+#: ../classes/class_popupmenu.rst:138
+#: ../classes/class_popupmenu.rst:140
+#: ../classes/class_popupmenu.rst:142
+#: ../classes/class_popupmenu.rst:144
+#: ../classes/class_popupmenu.rst:146
+msgid "void"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:42
+msgid ":ref:`add_check_item<class_PopupMenu_method_add_check_item>` **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:44
+msgid ":ref:`add_check_shortcut<class_PopupMenu_method_add_check_shortcut>` **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:46
+msgid ":ref:`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>` **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:48
+msgid ":ref:`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>` **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:50
+msgid ":ref:`add_icon_item<class_PopupMenu_method_add_icon_item>` **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:52
+msgid ":ref:`add_icon_radio_check_item<class_PopupMenu_method_add_icon_radio_check_item>` **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:54
+msgid ":ref:`add_icon_radio_check_shortcut<class_PopupMenu_method_add_icon_radio_check_shortcut>` **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:56
+msgid ":ref:`add_icon_shortcut<class_PopupMenu_method_add_icon_shortcut>` **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:58
+msgid ":ref:`add_item<class_PopupMenu_method_add_item>` **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:60
+msgid ":ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>` **(** :ref:`String<class_String>` label, :ref:`int<class_int>` max_states, :ref:`int<class_int>` default_state=0, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:62
+msgid ":ref:`add_radio_check_item<class_PopupMenu_method_add_radio_check_item>` **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:64
+msgid ":ref:`add_radio_check_shortcut<class_PopupMenu_method_add_radio_check_shortcut>` **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:66
+msgid ":ref:`add_separator<class_PopupMenu_method_add_separator>` **(** :ref:`String<class_String>` label=\"\", :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:68
+msgid ":ref:`add_shortcut<class_PopupMenu_method_add_shortcut>` **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:70
+msgid ":ref:`add_submenu_item<class_PopupMenu_method_add_submenu_item>` **(** :ref:`String<class_String>` label, :ref:`String<class_String>` submenu, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:72
+msgid ":ref:`clear<class_PopupMenu_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:74
+#: ../classes/class_popupmenu.rst:76
+#: ../classes/class_popupmenu.rst:78
+#: ../classes/class_popupmenu.rst:82
+#: ../classes/class_popupmenu.rst:84
+#: ../classes/class_popupmenu.rst:163
+#: ../classes/class_popupmenu.rst:165
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:74
+msgid ":ref:`get_current_index<class_PopupMenu_method_get_current_index>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:76
+msgid ":ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:78
+msgid ":ref:`get_item_count<class_PopupMenu_method_get_item_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:80
+#: ../classes/class_popupmenu.rst:169
+#: ../classes/class_popupmenu.rst:171
+#: ../classes/class_popupmenu.rst:173
+#: ../classes/class_popupmenu.rst:175
+#: ../classes/class_popupmenu.rst:177
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:80
+msgid ":ref:`get_item_icon<class_PopupMenu_method_get_item_icon>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:82
+msgid ":ref:`get_item_id<class_PopupMenu_method_get_item_id>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:84
+msgid ":ref:`get_item_index<class_PopupMenu_method_get_item_index>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:86
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:86
+msgid ":ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:88
+msgid ":ref:`ShortCut<class_ShortCut>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:88
+msgid ":ref:`get_item_shortcut<class_PopupMenu_method_get_item_shortcut>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:90
+#: ../classes/class_popupmenu.rst:92
+#: ../classes/class_popupmenu.rst:94
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:90
+msgid ":ref:`get_item_submenu<class_PopupMenu_method_get_item_submenu>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:92
+msgid ":ref:`get_item_text<class_PopupMenu_method_get_item_text>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:94
+msgid ":ref:`get_item_tooltip<class_PopupMenu_method_get_item_tooltip>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:96
+msgid ":ref:`is_hide_on_window_lose_focus<class_PopupMenu_method_is_hide_on_window_lose_focus>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:98
+msgid ":ref:`is_item_checkable<class_PopupMenu_method_is_item_checkable>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:100
+msgid ":ref:`is_item_checked<class_PopupMenu_method_is_item_checked>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:102
+msgid ":ref:`is_item_disabled<class_PopupMenu_method_is_item_disabled>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:104
+msgid ":ref:`is_item_radio_checkable<class_PopupMenu_method_is_item_radio_checkable>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:106
+msgid ":ref:`is_item_separator<class_PopupMenu_method_is_item_separator>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:108
+msgid ":ref:`is_item_shortcut_disabled<class_PopupMenu_method_is_item_shortcut_disabled>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:110
+msgid ":ref:`remove_item<class_PopupMenu_method_remove_item>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:112
+msgid ":ref:`set_hide_on_window_lose_focus<class_PopupMenu_method_set_hide_on_window_lose_focus>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:114
+msgid ":ref:`set_item_accelerator<class_PopupMenu_method_set_item_accelerator>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` accel **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:116
+msgid ":ref:`set_item_as_checkable<class_PopupMenu_method_set_item_as_checkable>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:118
+msgid ":ref:`set_item_as_radio_checkable<class_PopupMenu_method_set_item_as_radio_checkable>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:120
+msgid ":ref:`set_item_as_separator<class_PopupMenu_method_set_item_as_separator>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:122
+msgid ":ref:`set_item_checked<class_PopupMenu_method_set_item_checked>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:124
+msgid ":ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:126
+msgid ":ref:`set_item_icon<class_PopupMenu_method_set_item_icon>` **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:128
+msgid ":ref:`set_item_id<class_PopupMenu_method_set_item_id>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:130
+msgid ":ref:`set_item_metadata<class_PopupMenu_method_set_item_metadata>` **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:132
+msgid ":ref:`set_item_multistate<class_PopupMenu_method_set_item_multistate>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` state **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:134
+msgid ":ref:`set_item_shortcut<class_PopupMenu_method_set_item_shortcut>` **(** :ref:`int<class_int>` idx, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:136
+msgid ":ref:`set_item_shortcut_disabled<class_PopupMenu_method_set_item_shortcut_disabled>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:138
+msgid ":ref:`set_item_submenu<class_PopupMenu_method_set_item_submenu>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` submenu **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:140
+msgid ":ref:`set_item_text<class_PopupMenu_method_set_item_text>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:142
+msgid ":ref:`set_item_tooltip<class_PopupMenu_method_set_item_tooltip>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:144
+msgid ":ref:`toggle_item_checked<class_PopupMenu_method_toggle_item_checked>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:146
+msgid ":ref:`toggle_item_multistate<class_PopupMenu_method_toggle_item_multistate>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:150
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:153
+#: ../classes/class_popupmenu.rst:155
+#: ../classes/class_popupmenu.rst:157
+#: ../classes/class_popupmenu.rst:159
+#: ../classes/class_popupmenu.rst:161
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:153
+msgid ":ref:`font_color<class_PopupMenu_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:153
+#: ../classes/class_popupmenu.rst:159
+#: ../classes/class_popupmenu.rst:161
+#: ../classes/class_popupmenu.rst:781
+#: ../classes/class_popupmenu.rst:817
+#: ../classes/class_popupmenu.rst:829
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:155
+msgid ":ref:`font_color_accel<class_PopupMenu_theme_color_font_color_accel>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:155
+#: ../classes/class_popupmenu.rst:793
+msgid "``Color( 0.7, 0.7, 0.7, 0.8 )``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:157
+msgid ":ref:`font_color_disabled<class_PopupMenu_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:157
+#: ../classes/class_popupmenu.rst:805
+msgid "``Color( 0.4, 0.4, 0.4, 0.8 )``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:159
+msgid ":ref:`font_color_hover<class_PopupMenu_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:161
+msgid ":ref:`font_color_separator<class_PopupMenu_theme_color_font_color_separator>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:163
+msgid ":ref:`hseparation<class_PopupMenu_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:163
+#: ../classes/class_popupmenu.rst:165
+#: ../classes/class_popupmenu.rst:841
+#: ../classes/class_popupmenu.rst:853
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:165
+msgid ":ref:`vseparation<class_PopupMenu_theme_constant_vseparation>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:167
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:167
+msgid ":ref:`font<class_PopupMenu_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:169
+msgid ":ref:`checked<class_PopupMenu_theme_icon_checked>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:171
+msgid ":ref:`radio_checked<class_PopupMenu_theme_icon_radio_checked>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:173
+msgid ":ref:`radio_unchecked<class_PopupMenu_theme_icon_radio_unchecked>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:175
+msgid ":ref:`submenu<class_PopupMenu_theme_icon_submenu>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:177
+msgid ":ref:`unchecked<class_PopupMenu_theme_icon_unchecked>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:179
+#: ../classes/class_popupmenu.rst:181
+#: ../classes/class_popupmenu.rst:183
+#: ../classes/class_popupmenu.rst:185
+#: ../classes/class_popupmenu.rst:187
+#: ../classes/class_popupmenu.rst:189
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:179
+msgid ":ref:`hover<class_PopupMenu_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:181
+msgid ":ref:`labeled_separator_left<class_PopupMenu_theme_style_labeled_separator_left>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:183
+msgid ":ref:`labeled_separator_right<class_PopupMenu_theme_style_labeled_separator_right>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:185
+msgid ":ref:`panel<class_PopupMenu_theme_style_panel>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:187
+msgid ":ref:`panel_disabled<class_PopupMenu_theme_style_panel_disabled>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:189
+msgid ":ref:`separator<class_PopupMenu_theme_style_separator>`"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:193
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:197
+msgid "**id_focused** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:199
+msgid "当用户使用\\ ``ui_up``\\ 或\\ ``ui_down``\\ 操作导航到某个\\ ``id``\\ 项时触发。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:205
+msgid "**id_pressed** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:207
+msgid "当按下某个\\ ``id``\\ 的项目或激活其加速器时触发。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:213
+msgid "**index_pressed** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:215
+msgid "当按下某个\\ ``index``\\ 的项或激活其加速器时触发。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:218
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:222
+msgid ":ref:`bool<class_bool>` **allow_search**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:225
+#: ../classes/class_popupmenu.rst:241
+#: ../classes/class_popupmenu.rst:257
+#: ../classes/class_popupmenu.rst:273
+#: ../classes/class_popupmenu.rst:289
+#: ../classes/class_popupmenu.rst:781
+#: ../classes/class_popupmenu.rst:793
+#: ../classes/class_popupmenu.rst:805
+#: ../classes/class_popupmenu.rst:817
+#: ../classes/class_popupmenu.rst:829
+#: ../classes/class_popupmenu.rst:841
+#: ../classes/class_popupmenu.rst:853
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:227
+#: ../classes/class_popupmenu.rst:243
+#: ../classes/class_popupmenu.rst:259
+#: ../classes/class_popupmenu.rst:275
+#: ../classes/class_popupmenu.rst:291
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:227
+msgid "set_allow_search(value)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:229
+#: ../classes/class_popupmenu.rst:245
+#: ../classes/class_popupmenu.rst:261
+#: ../classes/class_popupmenu.rst:277
+#: ../classes/class_popupmenu.rst:293
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:229
+msgid "get_allow_search()"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:232
+msgid "如果为\\ ``true``\\ ，允许用字母键导航\\ ``PopupMenu``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:238
+msgid ":ref:`bool<class_bool>` **hide_on_checkable_item_selection**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:243
+msgid "set_hide_on_checkable_item_selection(value)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:245
+msgid "is_hide_on_checkable_item_selection()"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:248
+msgid "如果\\ ``true``\\ ，则在选中复选框或单选按钮时隐藏\\ ``PopupMenu``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:254
+msgid ":ref:`bool<class_bool>` **hide_on_item_selection**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:259
+msgid "set_hide_on_item_selection(value)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:261
+msgid "is_hide_on_item_selection()"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:264
+msgid "如果\\ ``true``\\ ，当一个项目被选中时隐藏\\ ``PopupMenu``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:270
+msgid ":ref:`bool<class_bool>` **hide_on_state_item_selection**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:275
+msgid "set_hide_on_state_item_selection(value)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:277
+msgid "is_hide_on_state_item_selection()"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:280
+msgid "如果\\ ``true``\\ ，则在选中状态项时隐藏\\ ``PopupMenu``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:286
+msgid ":ref:`float<class_float>` **submenu_popup_delay**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:291
+msgid "set_submenu_popup_delay(value)"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:293
+msgid "get_submenu_popup_delay()"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:296
+msgid "设置鼠标悬停时子菜单项弹出的延迟时间(以秒为单位)。如果弹出菜单被添加为另一个菜单的子菜单(作为子菜单)，它将继承父菜单项的延迟时间。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:299
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:303
+msgid "void **add_check_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:305
+msgid "添加一个新的带有\\ ``label``\\ 文本的可检查项目."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:307
+msgid "可以选择提供一个\\ ``id``\\ 以及一个快捷键(``accel``)加速.如果没有提供\\ ``id``,将从索引中创建一个.如果没有提供\\ ``accel``,那么将为其分配默认的\\ ``0``.参阅 :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\\ 了解更多关于快捷键的信息."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:309
+msgid "\\ **注意:**\\ 可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查.参阅\\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\\ 了解更多关于如何控制它的信息."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:315
+msgid "void **add_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:317
+msgid "添加一个新的可检查项目,并将指定的\\ :ref:`ShortCut<class_ShortCut>`\\ 分配给它.将复选框的标签设置为ShortCut的名称."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:319
+msgid "可以选择提供一个\\ ``id``.如果没有提供\\ ``id``,将从索引中创建一个."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:321
+msgid "\\ **注意:**\\ 可检查项目只是显示一个检查标记,但没有任何内置的检查行为,必须手动检查或取消检查. 参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\\ 了解更多关于如何控制它的信息."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:327
+msgid "void **add_icon_check_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:329
+msgid "添加一个新的可检查项目，带有文本\\ ``label``\\ 和图标\\ ``texture``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:331
+msgid "可以选择提供一个\\ ``id``\\ ，以及一个加速器（\\ ``accel``\\ ）。如果没有提供\\ ``id``\\ ，将从索引中创建一个。如果没有提供\\ ``accel``\\ ，那么默认的\\ ``0``\\ 将被分配给它。参阅\\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\\ 获取更多关于加速器的信息。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:333
+#: ../classes/class_popupmenu.rst:345
+msgid "\\ **注意：** 可选项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/取消检查。参阅\\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\\ 获取更多关于如何控制它的信息。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:339
+msgid "void **add_icon_check_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:341
+msgid "添加一个新的可选项目，并为其分配指定的\\ :ref:`ShortCut<class_ShortCut>`\\ 和图标\\ ``texture``\\ 。将复选框的标签设置为\\ :ref:`ShortCut<class_ShortCut>`\\ 的名称。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:343
+msgid "可以选择提供一个\\ ``id``\\ 。如果没有提供\\ ``id``\\ ，将从索引中创建一个。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:351
+msgid "void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:353
+msgid "添加带有文本\\ ``lable``\\ 和图标\\ ``texture``\\ 的新项目。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:355
+msgid "可以选择提供一个\\ ``id``\\ ，以及一个加速器(``accel``)。如果没有提供\\ ``id``\\ ，将从索引中创建一个。如果没有提供\\ ``accel``\\ ，则将为其分配默认的\\ ``0``\\ 。有关加速器的更多信息，请参阅\\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:361
+msgid "void **add_icon_radio_check_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:363
+msgid "与\\ :ref:`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>`\\ 相同，但使用单选按钮。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:369
+msgid "void **add_icon_radio_check_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:371
+msgid "与\\ :ref:`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>`\\ 相同，但使用一个单选按钮。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:377
+msgid "void **add_icon_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:379
+msgid "添加一个新项，并分配指定的\\ :ref:`ShortCut<class_ShortCut>`\\ 和图标\\ ``texture``\\ 给它。将复选框的标签设置为\\ :ref:`ShortCut<class_ShortCut>`\\ 的名称。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:381
+#: ../classes/class_popupmenu.rst:425
+#: ../classes/class_popupmenu.rst:447
+#: ../classes/class_popupmenu.rst:457
+msgid "可以选择提供\\ ``id``\\ 。如果没有提供\\ ``id``\\ ，将从索引中创建一个。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:387
+msgid "void **add_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:389
+msgid "添加一个带有文本\\ ``label``\\ 的新项目。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:391
+#: ../classes/class_popupmenu.rst:403
+#: ../classes/class_popupmenu.rst:413
+msgid "可以选择提供\\ ``id``\\ ，以及加速器(``accel``)。如果没有提供\\ ``id``\\ ，将从索引中创建一个。如果没有提供\\ ``accel``\\ ，则默认的\\ ``0``\\ 将被分配给它。有关加速器的更多信息，请参阅\\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:397
+msgid "void **add_multistate_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` max_states, :ref:`int<class_int>` default_state=0, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:399
+msgid "添加一个带有文本\\ ``label``\\ 的新的多状态项。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:401
+msgid "与普通的二进制项相反，多状态项可以有两个以上的状态，如\\ ``max_states``\\ 所定义的。每次按下或激活物品将增加一个状态。默认值由\\ ``default_state``\\ 定义。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:409
+msgid "void **add_radio_check_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:411
+msgid "添加一个带有文本\\ ``label``\\ 的单选按钮。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:415
+msgid "\\ **注意：**\\ Checkable 项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅 :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:421
+msgid "void **add_radio_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:423
+msgid "添加一个新的单选复选按钮并为其分配一个\\ :ref:`ShortCut<class_ShortCut>`\\ 。将复选框的标签设置为\\ :ref:`ShortCut<class_ShortCut>`\\ 的名称。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:427
+msgid "\\ **注:** Checkable项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。有关如何控制它的更多信息，请参阅\\ :ref:`set_item_checked<class_PopupMenu_method_set_item_checked>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:433
+msgid "void **add_separator** **(** :ref:`String<class_String>` label=\"\", :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:435
+msgid "在项目之间添加一个分隔符。分隔符也占用一个索引，你可以通过使用\\ ``id``\\ 参数来设置。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:437
+msgid "可以选择提供一个标签\\ ``label``\\ ，它将出现在分隔符的中心。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:443
+msgid "void **add_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:445
+msgid "添加一个\\ :ref:`ShortCut<class_ShortCut>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:453
+msgid "void **add_submenu_item** **(** :ref:`String<class_String>` label, :ref:`String<class_String>` submenu, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:455
+msgid "添加一个项目，当单击父\\ ``PopupMenu``\\ 节点时，它将作为子菜单。\\ ``submenu``\\ 参数是子节点\\ ``PopupMenu``\\ 的名称，当点击项目时显示该子节点。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:463
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:465
+msgid "从\\ ``PopupMenu``\\ 中移除所有项目。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:471
+msgid ":ref:`int<class_int>` **get_current_index** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:473
+msgid "返回当前焦点项目的索引。如果没有焦点，则返回 ``-1``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:479
+msgid ":ref:`int<class_int>` **get_item_accelerator** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:481
+msgid "返回索引\\ ``idx``\\ 处项目的加速项。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:487
+msgid ":ref:`int<class_int>` **get_item_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:489
+msgid "返回\\ ``PopupMenu``\\ 中的项目数。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:495
+msgid ":ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:497
+msgid "返回索引\\ ``idx``\\ 处项目的图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:503
+msgid ":ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:505
+msgid "返回索引\\ ``idx``\\ 处项目的id。\\ ``id``\\ 可以手动分配，而索引不能。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:511
+msgid ":ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:513
+msgid "返回包含指定的\\ ``id``\\ 的项的索引。索引由引擎自动分配给每个项目。不能手动设置索引。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:519
+msgid ":ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:521
+msgid "返回指定项的元数据，该项可以是任何类型。您可以使用\\ :ref:`set_item_metadata<class_PopupMenu_method_set_item_metadata>`\\ 来设置它，它提供了一种将上下文数据分配给项的简单方法。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:527
+msgid ":ref:`ShortCut<class_ShortCut>` **get_item_shortcut** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:529
+msgid "返回与指定的\\ ``idx``\\ 项关联的\\ :ref:`ShortCut<class_ShortCut>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:535
+msgid ":ref:`String<class_String>` **get_item_submenu** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:537
+msgid "返回在索引\\ ``idx``\\ 处的项目的子菜单名。更多关于如何添加子菜单的信息，请参阅\\ :ref:`add_submenu_item<class_PopupMenu_method_add_submenu_item>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:543
+msgid ":ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:545
+msgid "返回索引\\ ``idx``\\ 处项目的文本。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:551
+msgid ":ref:`String<class_String>` **get_item_tooltip** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:553
+msgid "返回与指定索引 ``idx``\\ 关联的工具提示。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:559
+msgid ":ref:`bool<class_bool>` **is_hide_on_window_lose_focus** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:561
+msgid "如果窗口失去焦点时是否隐藏弹出窗口，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:567
+msgid ":ref:`bool<class_bool>` **is_item_checkable** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:569
+msgid "如果索引\\ ``idx``\\ 的项目以某种方式是可检查的，例如，如果它有一个复选框或单选按钮，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:571
+msgid "\\ **注:**\\ 可检查项目只是显示一个复选标记或单选按钮，但没有任何内置的检查行为，必须手动检查/取消。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:577
+msgid ":ref:`bool<class_bool>` **is_item_checked** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:579
+msgid "如果索引\\ ``idx``\\ 项被选中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:585
+msgid ":ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:587
+msgid "如果索引\\ ``idx``\\ 项被禁用，返回\\ ``true``\\ 。当它被禁用时，就无法选择它，或者调用它的操作。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:589
+msgid "有关如何禁用一个项目的更多信息，请参阅\\ :ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:595
+msgid ":ref:`bool<class_bool>` **is_item_radio_checkable** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:597
+msgid "如果index ``idx``\\ 具有单选按钮样式的可检查性，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:599
+msgid "\\ **注:**\\ 这纯粹是装饰性的;您必须添加用于在单选组中检查/取消检查项目的逻辑。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:605
+msgid ":ref:`bool<class_bool>` **is_item_separator** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:607
+msgid "如果项目是分隔符，则返回\\ ``true``\\ 。如果是，它将显示为一行。有关如何添加分隔符的更多信息，请参阅\\ :ref:`add_separator<class_PopupMenu_method_add_separator>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:613
+msgid ":ref:`bool<class_bool>` **is_item_shortcut_disabled** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:615
+msgid "如果指定项的快捷方式被禁用，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:621
+msgid "void **remove_item** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:623
+msgid "从菜单中移除索引\\ ``idx``\\ 项。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:625
+msgid "\\ **注:**\\ 被移除项后的项的索引将被移位1。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:631
+msgid "void **set_hide_on_window_lose_focus** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:633
+msgid "当窗口失去焦点时隐藏\\ ``PopupMenu``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:639
+msgid "void **set_item_accelerator** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` accel **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:641
+msgid "设置索引\\ ``idx``\\ 项的加速键。加速器是一种特殊的按键组合，可以激活物品，无论哪个控制键处于焦点状态。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:647
+msgid "void **set_item_as_checkable** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:649
+msgid "设置索引\\ ``idx``\\ 项是否有复选框。如果\\ ``false``\\ ，则将项目类型设置为纯文本。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:651
+msgid "\\ **注:** Checkable项目只是显示一个复选标记，但没有任何内置的检查行为，必须手动检查/不检查。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:657
+msgid "void **set_item_as_radio_checkable** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:659
+msgid "将指定索引\\ ``idx``\\ 处的项目类型设置为单选按钮。如果\\ ``false``\\ ，则将项目类型设置为纯文本。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:665
+msgid "void **set_item_as_separator** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:667
+msgid "将索引 ``idx``\\ 标记为分隔符，这意味着它将显示为一行。如果\\ ``false``\\ ，则将项目类型设置为纯文本。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:673
+msgid "void **set_item_checked** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:675
+msgid "设置项目在index ``idx``\\ 处的checkstate状态。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:681
+msgid "void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:683
+msgid "启用/禁用索引\\ ``idx``\\ 项。当它被禁用时，就无法选择它，也无法调用它的操作。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:689
+msgid "void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:691
+msgid "替换指定\\ ``idx``\\ 的纹理\\ :ref:`Texture<class_Texture>`\\ 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:697
+msgid "void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:699
+msgid "在索引\\ ``idx``\\ 处设置项目的\\ ``id``\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:705
+msgid "void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:707
+msgid "设置项的元数据，该项可以是任何类型。稍后您可以使用\\ :ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>`\\ 获取它，它提供了一种将上下文数据分配给项的简单方法。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:713
+msgid "void **set_item_multistate** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` state **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:715
+msgid "设置一个多态项目的状态。详见\\ :ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:721
+msgid "void **set_item_shortcut** **(** :ref:`int<class_int>` idx, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:723
+msgid "为指定的项目\\ ``idx``\\ 设置\\ :ref:`ShortCut<class_ShortCut>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:729
+msgid "void **set_item_shortcut_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:731
+msgid "禁用指定索引\\ ``idx``\\ 的\\ :ref:`ShortCut<class_ShortCut>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:737
+msgid "void **set_item_submenu** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` submenu **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:739
+msgid "将项目的子菜单设置为索引\\ ``idx``\\ 。子菜单是一个子\\ ``PopupMenu``\\ 节点的名称，在单击项目时显示该节点。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:745
+msgid "void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:747
+msgid "在索引\\ ``idx``\\ 处设置项的文本。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:753
+msgid "void **set_item_tooltip** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:755
+msgid "在指定的索引\\ ``idx``\\ 处设置项目的\\ :ref:`String<class_String>`\\ 工具提示。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:761
+msgid "void **toggle_item_checked** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:763
+msgid "切换指定索引\\ ``idx``\\ 项的检查状态。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:769
+msgid "void **toggle_item_multistate** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:771
+msgid "循环到一个多态项目的下一个状态。详见\\ :ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:774
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:778
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:784
+msgid "菜单项名称的默认文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:790
+msgid ":ref:`Color<class_Color>` **font_color_accel**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:796
+msgid "文本\\ :ref:`Color<class_Color>`\\ 用于快捷键和加速器，当定义时显示在菜单项名称旁边。有关加速器的更多信息，请参阅\\ :ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:802
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:808
+msgid "用于禁用菜单项的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:814
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:820
+msgid "用于悬停文本的\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:826
+msgid ":ref:`Color<class_Color>` **font_color_separator**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:832
+msgid "用于标注分隔符文本的颜色\\ :ref:`Color<class_Color>`\\ 。见\\ :ref:`add_separator<class_PopupMenu_method_add_separator>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:838
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:844
+msgid "项目名称与快捷文本/子菜单箭头之间的水平空间。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:850
+msgid ":ref:`int<class_int>` **vseparation**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:856
+msgid "每个菜单项之间的垂直间距。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:862
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:864
+msgid "用于菜单项的\\ :ref:`Font<class_Font>`\\ 字体。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:870
+msgid ":ref:`Texture<class_Texture>` **checked**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:872
+msgid "选中的复选框项目的 :ref:`Texture<class_Texture>` 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:878
+msgid ":ref:`Texture<class_Texture>` **radio_checked**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:880
+msgid "选中的单选按钮项目的纹理\\ :ref:`Texture<class_Texture>`\\ 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:886
+msgid ":ref:`Texture<class_Texture>` **radio_unchecked**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:888
+msgid "未选中的单选按钮项目的 :ref:`Texture<class_Texture>` 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:894
+msgid ":ref:`Texture<class_Texture>` **submenu**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:896
+msgid "子菜单箭头的纹理\\ :ref:`Texture<class_Texture>`\\ 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:902
+msgid ":ref:`Texture<class_Texture>` **unchecked**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:904
+msgid "未选中的复选框项目的纹理\\ :ref:`Texture<class_Texture>`\\ 图标。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:910
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:912
+msgid "当\\ ``PopupMenu``\\ 项目被鼠标悬停时显示的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:918
+msgid ":ref:`StyleBox<class_StyleBox>` **labeled_separator_left**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:920
+msgid "用于标签分隔器的左侧\\ :ref:`StyleBox<class_StyleBox>`\\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:926
+msgid ":ref:`StyleBox<class_StyleBox>` **labeled_separator_right**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:928
+msgid "用于标签分隔器的右侧\\ :ref:`StyleBox<class_StyleBox>`\\ (样式盒子).参阅 :ref:`add_separator<class_PopupMenu_method_add_separator>`."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:934
+msgid ":ref:`StyleBox<class_StyleBox>` **panel**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:936
+msgid "``PopupMenu``\\ (弹出菜单)项的默认\\ :ref:`StyleBox<class_StyleBox>`\\ (样式盒子)."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:942
+msgid ":ref:`StyleBox<class_StyleBox>` **panel_disabled**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:944
+msgid "禁用\\ ``PopupMenu``\\ (弹出菜单)项时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ (样式盒子)."
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:950
+msgid ":ref:`StyleBox<class_StyleBox>` **separator**"
+msgstr ""
+
+#: ../classes/class_popupmenu.rst:952
+msgid "用于分隔符的\\ :ref:`StyleBox<class_StyleBox>`\\ 。请参阅\\ :ref:`add_separator<class_PopupMenu_method_add_separator>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

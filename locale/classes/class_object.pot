@@ -1,0 +1,903 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_object.rst:10
+msgid "Object"
+msgstr ""
+
+#: ../classes/class_object.rst:12
+msgid "**Inherited By:** :ref:`ARVRServer<class_ARVRServer>`, :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`Geometry<class_Geometry>`, :ref:`GaaeExplorerSharp<class_GaaeExplorerSharp>`, :ref:`IP<class_IP>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSON<class_JSON>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScript<class_JavaScript>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`Node<class_Node>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>`, :ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer<class_PhysicsServer>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`Reference<class_Reference>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`VisualScriptEditor<class_VisualScriptEditor>`, :ref:`VisualServer<class_VisualServer>`"
+msgstr ""
+
+#: ../classes/class_object.rst:14
+msgid "所有非内置类型的基类。"
+msgstr ""
+
+#: ../classes/class_object.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_object.rst:19
+msgid "每个不是内置类型的类都继承自这个类。"
+msgstr ""
+
+#: ../classes/class_object.rst:21
+msgid "您可以从脚本语言构造对象，使用 GDScript 中的 ``Object.new()``\\ 、C# 中的 ``new Object`` 或 VisualScript 中的“构造对象”节点。"
+msgstr ""
+
+#: ../classes/class_object.rst:23
+msgid "对象不管理内存。如果类继承自 Object，则必须手动删除它的实例。为此，请从您的脚本中调用 :ref:`free<class_Object_method_free>` 方法或从 C++ 中删除该实例。"
+msgstr ""
+
+#: ../classes/class_object.rst:25
+msgid "一些继承 Object 的类添加了内存管理。 :ref:`Reference<class_Reference>` 就是这种情况，它对引用进行计数，并在不再被引用时自动删除自己。 :ref:`Node<class_Node>` 是另一种基本类型，在从内存中释放时删除其所有子节点。"
+msgstr ""
+
+#: ../classes/class_object.rst:27
+msgid "对象导出属性，这些属性主要用于存储和编辑，但在编程中并不是那么有用。属性在 :ref:`_get_property_list<class_Object_method__get_property_list>` 中导出并在 :ref:`_get<class_Object_method__get>` 和 :ref:`_set<class_Object_method__set>` 中处理。然而，脚本语言和 C++ 有更简单的方法来导出它们。"
+msgstr ""
+
+#: ../classes/class_object.rst:29
+msgid "在GDScript中可以使用 ``in`` 直接测试属性成员。"
+msgstr ""
+
+#: ../classes/class_object.rst:37
+msgid "只要键存在，\\ ``in`` 运算符将评估为 ``true``\\ ，即使值为 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:39
+msgid "对象也会收到通知。通知是一种将不同事件通知给对象的简单方法，因此它们可以一起处理。见 :ref:`_notification<class_Object_method__notification>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:41
+msgid "\\ **注意：** 与对 :ref:`Reference<class_Reference>` 的引用不同，对存储在变量中的对象的引用可能会在没有警告的情况下变得无效。因此，建议对数据类使用 :ref:`Reference<class_Reference>` 而不是 ``Object``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:43
+msgid "\\ **注意：**\\ 由于一个错误，你不能使用 ``Object.new()`` 创建一个“普通”对象。请使用 ``ClassDB.instance(\"Object\")``\\ 。这个错误只适用于Object本身，而不是它的任何子类，如\\ :ref:`Reference<class_Reference>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:46
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_object.rst:48
+msgid ":doc:`When and how to avoid using nodes for everything <../tutorials/best_practices/node_alternatives>`"
+msgstr ""
+
+#: ../classes/class_object.rst:50
+msgid "`Advanced exports using _get_property_list() <../tutorials/scripting/gdscript/gdscript_exports.html#advanced-exports>`__"
+msgstr ""
+
+#: ../classes/class_object.rst:53
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_object.rst:56
+#: ../classes/class_object.rst:70
+#: ../classes/class_object.rst:74
+#: ../classes/class_object.rst:86
+#: ../classes/class_object.rst:92
+#: ../classes/class_object.rst:96
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_object.rst:56
+msgid ":ref:`_get<class_Object_method__get>` **(** :ref:`String<class_String>` property **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:58
+#: ../classes/class_object.rst:90
+#: ../classes/class_object.rst:100
+#: ../classes/class_object.rst:102
+#: ../classes/class_object.rst:106
+#: ../classes/class_object.rst:108
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_object.rst:58
+msgid ":ref:`_get_property_list<class_Object_method__get_property_list>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:60
+#: ../classes/class_object.rst:62
+#: ../classes/class_object.rst:68
+#: ../classes/class_object.rst:72
+#: ../classes/class_object.rst:80
+#: ../classes/class_object.rst:82
+#: ../classes/class_object.rst:84
+#: ../classes/class_object.rst:126
+#: ../classes/class_object.rst:128
+#: ../classes/class_object.rst:130
+#: ../classes/class_object.rst:132
+#: ../classes/class_object.rst:134
+#: ../classes/class_object.rst:136
+#: ../classes/class_object.rst:138
+#: ../classes/class_object.rst:140
+#: ../classes/class_object.rst:142
+#: ../classes/class_object.rst:144
+msgid "void"
+msgstr ""
+
+#: ../classes/class_object.rst:60
+msgid ":ref:`_init<class_Object_method__init>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:62
+msgid ":ref:`_notification<class_Object_method__notification>` **(** :ref:`int<class_int>` what **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:64
+#: ../classes/class_object.rst:76
+#: ../classes/class_object.rst:110
+#: ../classes/class_object.rst:112
+#: ../classes/class_object.rst:114
+#: ../classes/class_object.rst:116
+#: ../classes/class_object.rst:118
+#: ../classes/class_object.rst:120
+#: ../classes/class_object.rst:122
+#: ../classes/class_object.rst:124
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_object.rst:64
+msgid ":ref:`_set<class_Object_method__set>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:66
+#: ../classes/class_object.rst:88
+#: ../classes/class_object.rst:146
+#: ../classes/class_object.rst:148
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_object.rst:66
+msgid ":ref:`_to_string<class_Object_method__to_string>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:68
+msgid ":ref:`add_user_signal<class_Object_method_add_user_signal>` **(** :ref:`String<class_String>` signal, :ref:`Array<class_Array>` arguments=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:70
+msgid ":ref:`call<class_Object_method_call>` **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:72
+msgid ":ref:`call_deferred<class_Object_method_call_deferred>` **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:74
+msgid ":ref:`callv<class_Object_method_callv>` **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` arg_array **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:76
+msgid ":ref:`can_translate_messages<class_Object_method_can_translate_messages>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:78
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_object.rst:78
+msgid ":ref:`connect<class_Object_method_connect>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method, :ref:`Array<class_Array>` binds=[  ], :ref:`int<class_int>` flags=0 **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:80
+msgid ":ref:`disconnect<class_Object_method_disconnect>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:82
+msgid ":ref:`emit_signal<class_Object_method_emit_signal>` **(** :ref:`String<class_String>` signal, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:84
+msgid ":ref:`free<class_Object_method_free>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:86
+msgid ":ref:`get<class_Object_method_get>` **(** :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:88
+msgid ":ref:`get_class<class_Object_method_get_class>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:90
+msgid ":ref:`get_incoming_connections<class_Object_method_get_incoming_connections>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:92
+msgid ":ref:`get_indexed<class_Object_method_get_indexed>` **(** :ref:`NodePath<class_NodePath>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:94
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_object.rst:94
+msgid ":ref:`get_instance_id<class_Object_method_get_instance_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:96
+msgid ":ref:`get_meta<class_Object_method_get_meta>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:98
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_object.rst:98
+msgid ":ref:`get_meta_list<class_Object_method_get_meta_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:100
+msgid ":ref:`get_method_list<class_Object_method_get_method_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:102
+msgid ":ref:`get_property_list<class_Object_method_get_property_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:104
+msgid ":ref:`Reference<class_Reference>`"
+msgstr ""
+
+#: ../classes/class_object.rst:104
+msgid ":ref:`get_script<class_Object_method_get_script>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:106
+msgid ":ref:`get_signal_connection_list<class_Object_method_get_signal_connection_list>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:108
+msgid ":ref:`get_signal_list<class_Object_method_get_signal_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:110
+msgid ":ref:`has_meta<class_Object_method_has_meta>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:112
+msgid ":ref:`has_method<class_Object_method_has_method>` **(** :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:114
+msgid ":ref:`has_signal<class_Object_method_has_signal>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:116
+msgid ":ref:`has_user_signal<class_Object_method_has_user_signal>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:118
+msgid ":ref:`is_blocking_signals<class_Object_method_is_blocking_signals>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:120
+msgid ":ref:`is_class<class_Object_method_is_class>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:122
+msgid ":ref:`is_connected<class_Object_method_is_connected>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:124
+msgid ":ref:`is_queued_for_deletion<class_Object_method_is_queued_for_deletion>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:126
+msgid ":ref:`notification<class_Object_method_notification>` **(** :ref:`int<class_int>` what, :ref:`bool<class_bool>` reversed=false **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:128
+msgid ":ref:`property_list_changed_notify<class_Object_method_property_list_changed_notify>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:130
+msgid ":ref:`remove_meta<class_Object_method_remove_meta>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:132
+msgid ":ref:`set<class_Object_method_set>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:134
+msgid ":ref:`set_block_signals<class_Object_method_set_block_signals>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:136
+msgid ":ref:`set_deferred<class_Object_method_set_deferred>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:138
+msgid ":ref:`set_indexed<class_Object_method_set_indexed>` **(** :ref:`NodePath<class_NodePath>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:140
+msgid ":ref:`set_message_translation<class_Object_method_set_message_translation>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:142
+msgid ":ref:`set_meta<class_Object_method_set_meta>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:144
+msgid ":ref:`set_script<class_Object_method_set_script>` **(** :ref:`Reference<class_Reference>` script **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:146
+msgid ":ref:`to_string<class_Object_method_to_string>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:148
+msgid ":ref:`tr<class_Object_method_tr>` **(** :ref:`String<class_String>` message **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:152
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_object.rst:156
+msgid "**script_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:158
+msgid "当对象的脚本被更改时触发。"
+msgstr ""
+
+#: ../classes/class_object.rst:161
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_object.rst:173
+msgid "enum **ConnectFlags**:"
+msgstr ""
+
+#: ../classes/class_object.rst:175
+msgid "**CONNECT_DEFERRED** = **1** --- 在延迟模式下连接一个信号。这样，信号发射被储存在一个队列中，然后在空闲时间发出。"
+msgstr ""
+
+#: ../classes/class_object.rst:177
+msgid "**CONNECT_PERSIST** = **2** --- 当对象序列化为文件时，将保存持久连接。"
+msgstr ""
+
+#: ../classes/class_object.rst:179
+msgid "**CONNECT_ONESHOT** = **4** --- 信号触发后断开一次性连接。"
+msgstr ""
+
+#: ../classes/class_object.rst:181
+msgid "**CONNECT_REFERENCE_COUNTED** = **8** --- 连接一个信号作为引用计数。这意味着一个给定的信号可以多次连接到同一个目标，并且只有在没有引用时才会完全断开连接。"
+msgstr ""
+
+#: ../classes/class_object.rst:184
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_object.rst:190
+msgid "**NOTIFICATION_POSTINITIALIZE** = **0** --- 在对象初始化时调用。在脚本中不可用。"
+msgstr ""
+
+#: ../classes/class_object.rst:192
+msgid "**NOTIFICATION_PREDELETE** = **1** --- 在要删除对象之前调用。"
+msgstr ""
+
+#: ../classes/class_object.rst:195
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_object.rst:199
+msgid ":ref:`Variant<class_Variant>` **_get** **(** :ref:`String<class_String>` property **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:201
+msgid "虚方法，可以被重载以定制 :ref:`get<class_Object_method_get>` 的返回值。"
+msgstr ""
+
+#: ../classes/class_object.rst:203
+msgid "返回给定的属性。如果 ``property`` 不存在，返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:209
+msgid ":ref:`Array<class_Array>` **_get_property_list** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:211
+msgid "虚方法，可以被重载以定制 :ref:`get_property_list<class_Object_method_get_property_list>` 的返回值。"
+msgstr ""
+
+#: ../classes/class_object.rst:213
+msgid "返回对象的属性列表为一个 :ref:`Array<class_Array>` 的字典。"
+msgstr ""
+
+#: ../classes/class_object.rst:215
+msgid "每个属性的 :ref:`Dictionary<class_Dictionary>` 必须至少包含 ``name: String`` 和 ``type: int``\\ （见\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ ）条目。另外，它还可以包括 ``hint: int``\\ （见 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`\\ ）、\\ ``hint_string: String``\\ ，以及 ``usage: int``\\ （见 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_object.rst:221
+msgid "void **_init** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:223
+msgid "当对象被初始化时被调用。"
+msgstr ""
+
+#: ../classes/class_object.rst:229
+msgid "void **_notification** **(** :ref:`int<class_int>` what **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:231
+msgid "每当对象收到一个通知时就会被调用，这个通知在\\ ``what``\\ 中由一个常量来标识。基类 ``Object`` 有两个常量 :ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` 和 :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`\\ ，但是诸如 :ref:`Node<class_Node>` 等子类定义了更多的通知，这些通知也是由这个方法接收。"
+msgstr ""
+
+#: ../classes/class_object.rst:237
+msgid ":ref:`bool<class_bool>` **_set** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:239
+msgid "虚方法，可以被重载以定制 :ref:`set<class_Object_method_set>` 的返回值。"
+msgstr ""
+
+#: ../classes/class_object.rst:241
+msgid "设置一个属性。如果 ``property`` 存在，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:247
+msgid ":ref:`String<class_String>` **_to_string** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_object.rst:249
+msgid "虚方法，可以被重载以定制 :ref:`to_string<class_Object_method_to_string>` 的返回值，从而在对象被转换为字符串的地方，例如用 ``print(obj)`` 表示。"
+msgstr ""
+
+#: ../classes/class_object.rst:251
+msgid "返回一个代表该对象的 :ref:`String<class_String>` 字符串。如果没有被覆盖，默认为 ``\"[ClassName:RID]\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:257
+msgid "void **add_user_signal** **(** :ref:`String<class_String>` signal, :ref:`Array<class_Array>` arguments=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:259
+msgid "添加一个用户定义的\\ ``signal``\\ 。参数是可选的，但可以作为一个字典的\\ :ref:`Array<class_Array>`\\ 来添加，每个字典包含\\ ``name: String``\\ 和\\ ``type: int``\\ （见\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ ）条目。"
+msgstr ""
+
+#: ../classes/class_object.rst:265
+msgid ":ref:`Variant<class_Variant>` **call** **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:267
+msgid "在对象上调用\\ ``method``\\ 并返回结果。这个方法支持可变数量的参数，所以参数以逗号分隔的列表形式传递。下面是个实例："
+msgstr ""
+
+#: ../classes/class_object.rst:273
+msgid "\\ **注意：** 在C#中，如果方法是由内置的GaaeExplorer节点定义的，那么方法名必须被指定为snake_case。这不适用于用户定义的方法，在那里你应该使用与C#源代码中相同的约定（通常是PascalCase）。"
+msgstr ""
+
+#: ../classes/class_object.rst:279
+msgid "void **call_deferred** **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:281
+msgid "在空闲时间调用对象上的\\ ``method``\\ 。这个方法支持可变数量的参数，所以参数是以逗号分隔的列表形式传递。下面是个例子："
+msgstr ""
+
+#: ../classes/class_object.rst:287
+msgid "\\ **注意：** 在C#中，如果方法名称是由内置的GaaeExplorer节点定义的，必须指定为snake_case。这不适用于用户定义的方法，在那里你应该使用与C#源代码中相同的约定（通常是PascalCase）。"
+msgstr ""
+
+#: ../classes/class_object.rst:293
+msgid ":ref:`Variant<class_Variant>` **callv** **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` arg_array **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:295
+msgid "在对象上调用\\ ``method``\\ 并返回结果。与\\ :ref:`call<class_Object_method_call>`\\ 相反，这个方法不支持可变数量的参数，而是期望所有的参数都通过一个\\ :ref:`Array<class_Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:305
+msgid ":ref:`bool<class_bool>` **can_translate_messages** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:307
+msgid "如果该对象可以翻译字符串，则返回\\ ``true``\\ 。参阅\\ :ref:`set_message_translation<class_Object_method_set_message_translation>`\\ 和\\ :ref:`tr<class_Object_method_tr>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:313
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method, :ref:`Array<class_Array>` binds=[  ], :ref:`int<class_int>` flags=0 **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:315
+msgid "将信号 ``signal`` 连接到目标 ``target`` 对象上的方法 ``method``\\ 。将可选的绑定 ``binds`` 作为一个 :ref:`Array<class_Array>` 的参数传递给调用。这些参数将在调用 :ref:`emit_signal<class_Object_method_emit_signal>` 中使用的任何参数之后传递给方法。使用 ``flags`` 设置延迟或一次性连接。请参阅 :ref:`ConnectFlags<enum_Object_ConnectFlags>` 常量。"
+msgstr ""
+
+#: ../classes/class_object.rst:317
+msgid "一个信号 ``signal`` 与同一方法 ``method`` 只能连接一次。除非之前在连接信号时使用了 :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`\\ ，否则在进行重复连接时会抛出错误。为避免这种情况，首先使用 :ref:`is_connected<class_Object_method_is_connected>` 检查是否已有连接。"
+msgstr ""
+
+#: ../classes/class_object.rst:319
+msgid "如果 ``target`` 在游戏生命周期中被销毁，连接将丢失。"
+msgstr ""
+
+#: ../classes/class_object.rst:321
+msgid "例子："
+msgstr ""
+
+#: ../classes/class_object.rst:329
+msgid "传递给 :ref:`connect<class_Object_method_connect>` 的 ``binds`` 与调用 :ref:`emit_signal<class_Object_method_emit_signal>` 时使用的参数的关系示例："
+msgstr ""
+
+#: ../classes/class_object.rst:342
+msgid "void **disconnect** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:344
+msgid "将 ``信号`` 与给定 ``目标`` 上的 ``方法`` 断开。"
+msgstr ""
+
+#: ../classes/class_object.rst:346
+msgid "如果您尝试断开不存在的连接，该方法将引发错误。使用 :ref:`is_connected<class_Object_method_is_connected>` 确保连接存在。"
+msgstr ""
+
+#: ../classes/class_object.rst:352
+msgid "void **emit_signal** **(** :ref:`String<class_String>` signal, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_object.rst:354
+msgid "发射给定的\\ ``信号``\\ 。这个信号必须存在，所以它应该是这个类或其父类中的一个内置信号，或者是一个用户定义的信号。这个方法支持可变数量的参数，所以参数是以逗号分隔的列表形式传递。例子。"
+msgstr ""
+
+#: ../classes/class_object.rst:365
+msgid "void **free** **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:367
+msgid "立即从内存中删除对象。对于 :ref:`Node<class_Node>`\\ ，您可能希望使用 :ref:`Node.queue_free<class_Node_method_queue_free>` 将节点排队以在当前帧的末尾安全删除。"
+msgstr ""
+
+#: ../classes/class_object.rst:369
+msgid "\\ **重要提示：** 如果你有一个指向一个对象的变量，一旦对象被释放，它将 *不会* 分配为 ``null``\\ 。相反，它会指向一个\\ *先前释放的实例*\\ ，您应该在尝试调用其方法或访问其属性之前使用 :ref:`@GDScript.is_instance_valid<class_@GDScript_method_is_instance_valid>` 对其进行验证。"
+msgstr ""
+
+#: ../classes/class_object.rst:375
+msgid ":ref:`Variant<class_Variant>` **get** **(** :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:377
+msgid "返回给定\\ ``property``\\ 的\\ :ref:`Variant<class_Variant>`\\ 值。如果该\\ ``property``\\ 不存在，这将返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:379
+msgid "\\ **注意：** 在C#中，如果属性是由内置的GaaeExplorer节点定义的，那么属性名必须被指定为snake_case。这不适用于用户定义的属性，在那里你应该使用与C#源代码中相同的约定（通常是PascalCase）。"
+msgstr ""
+
+#: ../classes/class_object.rst:385
+msgid ":ref:`String<class_String>` **get_class** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:387
+msgid "返回对象的类型为一个\\ :ref:`String<class_String>`\\ 。参见\\ :ref:`is_class<class_Object_method_is_class>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:389
+msgid "\\ **注意：** :ref:`get_class<class_Object_method_get_class>` 不考虑\\ ``class_name``\\ 的声明。如果对象有一个\\ ``class_name``\\ 的定义，基类名称将被返回。"
+msgstr ""
+
+#: ../classes/class_object.rst:395
+msgid ":ref:`Array<class_Array>` **get_incoming_connections** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:397
+msgid "返回一个 :ref:`Array<class_Array>`\\ ，元素为字典，包含与该对象相连的信号信息。"
+msgstr ""
+
+#: ../classes/class_object.rst:399
+msgid "每个 :ref:`Dictionary<class_Dictionary>` 包含三个字符串条目。"
+msgstr ""
+
+#: ../classes/class_object.rst:401
+msgid "``source`` 是对信号发出者的引用。"
+msgstr ""
+
+#: ../classes/class_object.rst:403
+msgid "``signal_name`` 是连接信号的名称。"
+msgstr ""
+
+#: ../classes/class_object.rst:405
+msgid "``method_name`` 是信号所连接的方法的名称。"
+msgstr ""
+
+#: ../classes/class_object.rst:411
+msgid ":ref:`Variant<class_Variant>` **get_indexed** **(** :ref:`NodePath<class_NodePath>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:413
+msgid "获取由给定的 :ref:`NodePath<class_NodePath>` 索引的对象的属性。节点路径应该是相对于当前对象的，可以使用冒号字符（\\ ``:``\\ ）来访问嵌套属性。例如：\\ ``\"position:x\"`` 或 ``\"material:next_pass:blend_mode\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:415
+msgid "\\ **注意：**\\ 虽然该方法的参数是 :ref:`NodePath<class_NodePath>` 节点路径，但是它实际并不支持指向场景树中 :ref:`Node<class_Node>` 节点的路径，只能使用冒号分隔的子属性路径。针对节点的话，请改用 :ref:`Node.get_node_and_resource<class_Node_method_get_node_and_resource>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:421
+msgid ":ref:`int<class_int>` **get_instance_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:423
+msgid "返回对象的唯一实例ID。"
+msgstr ""
+
+#: ../classes/class_object.rst:425
+msgid "这个ID可以保存在\\ :ref:`EncodedObjectAsID<class_EncodedObjectAsID>`\\ 中，并且可以用\\ :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`\\ 来检索对象实例。"
+msgstr ""
+
+#: ../classes/class_object.rst:431
+msgid ":ref:`Variant<class_Variant>` **get_meta** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:433
+msgid "返回给定\\ ``name``\\ 的对象的元数据条目。"
+msgstr ""
+
+#: ../classes/class_object.rst:439
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_meta_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:441
+msgid "将该对象的元数据作为 :ref:`PoolStringArray<class_PoolStringArray>` 返回。"
+msgstr ""
+
+#: ../classes/class_object.rst:447
+msgid ":ref:`Array<class_Array>` **get_method_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:449
+msgid "将该对象的方法及其签名作为 :ref:`Array<class_Array>` 返回。"
+msgstr ""
+
+#: ../classes/class_object.rst:455
+msgid ":ref:`Array<class_Array>` **get_property_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:457
+msgid "将该对象的属性列表作为 :ref:`Array<class_Array>` 返回，元素为字典。"
+msgstr ""
+
+#: ../classes/class_object.rst:459
+msgid "每个属性的 :ref:`Dictionary<class_Dictionary>` 至少包含 ``name: String`` 和 ``type: int``\\ （见 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ ）条目。另外，它还可以包括 ``hint: int``\\ （见\\ :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`\\ ）、\\ ``hint_string: String``\\ ，以及\\ ``usage: int``\\ （见\\ :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_object.rst:465
+msgid ":ref:`Reference<class_Reference>` **get_script** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:467
+msgid "返回该对象的\\ :ref:`Script<class_Script>`\\ 实例，如果没有指定，则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:473
+msgid ":ref:`Array<class_Array>` **get_signal_connection_list** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:475
+msgid "返回给定\\ ``signal``\\ 的连接的\\ :ref:`Array<class_Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:481
+msgid ":ref:`Array<class_Array>` **get_signal_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:483
+msgid "将信号列表作为 :ref:`Array<class_Array>` 返回，元素为字典。"
+msgstr ""
+
+#: ../classes/class_object.rst:489
+msgid ":ref:`bool<class_bool>` **has_meta** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:491
+msgid "如果找到一个具有给定\\ ``name``\\ 的元数据条目，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:497
+msgid ":ref:`bool<class_bool>` **has_method** **(** :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:499
+msgid "如果对象包含给定的\\ ``method``\\ ，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:505
+msgid ":ref:`bool<class_bool>` **has_signal** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:507
+msgid "如果给定的\\ ``signal``\\ 存在，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:513
+msgid ":ref:`bool<class_bool>` **has_user_signal** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:515
+msgid "如果给定的用户定义的\\ ``signal``\\ 存在，返回\\ ``true``\\ 。只有使用\\ :ref:`add_user_signal<class_Object_method_add_user_signal>`\\ 添加的信号才被考虑在内。"
+msgstr ""
+
+#: ../classes/class_object.rst:521
+msgid ":ref:`bool<class_bool>` **is_blocking_signals** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:523
+msgid "如果启用了信号发射阻断，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:529
+msgid ":ref:`bool<class_bool>` **is_class** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:531
+msgid "如果对象从给定的 ``class`` 中继承，则返回 ``true``\\ 。另请参阅 :ref:`get_class<class_Object_method_get_class>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:533
+msgid "\\ **注：** :ref:`is_class<class_Object_method_is_class>` 没有考虑 ``class_name`` 声明。如果对象有 ``class_name`` 定义，\\ :ref:`is_class<class_Object_method_is_class>` 将为该名称返回 ``false`` 。"
+msgstr ""
+
+#: ../classes/class_object.rst:539
+msgid ":ref:`bool<class_bool>` **is_connected** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:541
+msgid "如果给定 ``信号``\\ 、\\ ``目标`` 和 ``方法`` 存在连接，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:547
+msgid ":ref:`bool<class_bool>` **is_queued_for_deletion** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:549
+msgid "如果为该对象调用了\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 方法，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:555
+msgid "void **notification** **(** :ref:`int<class_int>` what, :ref:`bool<class_bool>` reversed=false **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:557
+msgid "向对象发送一个给定的通知，这也将触发对该对象继承的所有类的\\ :ref:`_notification<class_Object_method__notification>`\\ 方法的调用。"
+msgstr ""
+
+#: ../classes/class_object.rst:559
+msgid "如果\\ ``reversed``\\ 是\\ ``true``\\ ，\\ :ref:`_notification<class_Object_method__notification>`\\ 首先在对象自己的类上被调用，然后再到其连续的父类上。如果\\ ``reversed``\\ 是\\ ``false``\\ ，\\ :ref:`_notification<class_Object_method__notification>`\\ 首先在最高的祖先（\\ ``Object``\\ 本身）上被调用，然后向下到其连续的继承类。"
+msgstr ""
+
+#: ../classes/class_object.rst:565
+msgid "void **property_list_changed_notify** **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:567
+msgid "通知编辑器属性列表已经改变，以便编辑器插件能够考虑到新的值。在导出构建时没有任何作用。"
+msgstr ""
+
+#: ../classes/class_object.rst:573
+msgid "void **remove_meta** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:575
+msgid "从对象的元数据中删除给定条目。另见 :ref:`set_meta<class_Object_method_set_meta>`\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:581
+msgid "void **set** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:583
+msgid "为给定的属性赋一个新值。如果 ``property`` 不存在，则不会发生任何事情。"
+msgstr ""
+
+#: ../classes/class_object.rst:585
+msgid "\\ **注意：**\\ 在 C# 中，如果属性名由内置的 GaaeExplorer 节点定义，则必须将其指定为 snake_case。这不适用于用户定义的属性，在这些属性中，您应该使用与 C# 源中相同的约定（通常是 PascalCase）。"
+msgstr ""
+
+#: ../classes/class_object.rst:591
+msgid "void **set_block_signals** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:593
+msgid "如果设置为\\ ``true``\\ ，信号发射被阻止。"
+msgstr ""
+
+#: ../classes/class_object.rst:599
+msgid "void **set_deferred** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:601
+msgid "在当前帧的物理完成之后，将给定属性赋一个新值。这相当于通过\\ :ref:`call_deferred<class_Object_method_call_deferred>`\\ 调用\\ :ref:`set<class_Object_method_set>`\\ ，即\\ ``call_deferred(\"set\"， property, value)``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:603
+msgid "\\ **注意:**\\ 在c#中，属性名必须指定为snake_case，如果它是由内置的GaaeExplorer节点定义的。这并不适用于用户定义的属性，因为您应该使用与c#源代码(通常是PascalCase)相同的约定。"
+msgstr ""
+
+#: ../classes/class_object.rst:609
+msgid "void **set_indexed** **(** :ref:`NodePath<class_NodePath>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:611
+msgid "为\\ :ref:`NodePath<class_NodePath>`\\ 标识的属性分配一个新值。节点路径应该相对于当前对象，可以使用冒号(``:``)访问嵌套属性。举例如下:"
+msgstr ""
+
+#: ../classes/class_object.rst:623
+msgid "void **set_message_translation** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:625
+msgid "定义对象是否可以转换字符串(通过调用\\ :ref:`tr<class_Object_method_tr>`)。默认启用。"
+msgstr ""
+
+#: ../classes/class_object.rst:631
+msgid "void **set_meta** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:633
+msgid "添加、更改或删除对象元数据中的给定条目。元数据被序列化并且可以采用任何 :ref:`Variant<class_Variant>` 值。"
+msgstr ""
+
+#: ../classes/class_object.rst:635
+msgid "要从对象的元数据中删除给定条目，请使用 :ref:`remove_meta<class_Object_method_remove_meta>`\\ 。如果元数据的值设置为 ``null``\\ ，也会删除元数据。这意味着您还可以使用 ``set_meta(\"name\", null)`` 删除 ``\"name\"`` 的元数据。"
+msgstr ""
+
+#: ../classes/class_object.rst:641
+msgid "void **set_script** **(** :ref:`Reference<class_Reference>` script **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:643
+msgid "将脚本分配给对象。每个对象都可以有一个分配给它的脚本，用于扩展其功能。"
+msgstr ""
+
+#: ../classes/class_object.rst:645
+msgid "如果对象已经有一个脚本，则前一个脚本实例将被释放，它的变量和状态将丢失。新脚本的\\ :ref:`_init<class_Object_method__init>`\\ 方法将被调用。"
+msgstr ""
+
+#: ../classes/class_object.rst:651
+msgid ":ref:`String<class_String>` **to_string** **(** **)**"
+msgstr ""
+
+#: ../classes/class_object.rst:653
+msgid "返回一个表示对象的 :ref:`String<class_String>`\\ 。如果没有覆盖，默认为 ``\"[ClassName:RID]\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_object.rst:655
+msgid "可以通过重写 :ref:`_to_string<class_Object_method__to_string>` 方法来自定义 :ref:`String<class_String>` 表示。"
+msgstr ""
+
+#: ../classes/class_object.rst:661
+msgid ":ref:`String<class_String>` **tr** **(** :ref:`String<class_String>` message **)** |const|"
+msgstr ""
+
+#: ../classes/class_object.rst:663
+msgid "使用在项目设置中配置的翻译目录翻译消息。"
+msgstr ""
+
+#: ../classes/class_object.rst:665
+msgid "仅在启用消息翻译时（默认如此）有效，否则返回未修改的 ``message``\\ 。请参阅 :ref:`set_message_translation<class_Object_method_set_message_translation>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

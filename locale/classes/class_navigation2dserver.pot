@@ -1,0 +1,730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_navigation2dserver.rst:11
+msgid "Navigation2DServer"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:13
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:15
+msgid "Server interface for low-level 2D navigation access."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:20
+msgid "Navigation2DServer is the server responsible for all 2D navigation. It handles several objects, namely maps, regions and agents."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:22
+msgid "Maps are made up of regions, which are made of navigation polygons. Together, they define the navigable areas in the 2D world."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:24
+msgid "\\ **Note:** Most NavigationServer changes take effect after the next physics frame and not immediately. This includes all changes made to maps, regions or agents by navigation related Nodes in the SceneTree or made through scripts."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:26
+msgid "For two regions to be connected to each other, they must share a similar edge. An edge is considered connected to another if both of its two vertices are at a distance less than navigation map ``edge_connection_margin`` to the respective other edge's vertex."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:28
+msgid "You may assign navigation layers to regions with :ref:`region_set_navigation_layers<class_Navigation2DServer_method_region_set_navigation_layers>`, which then can be checked upon when requesting a path with :ref:`map_get_path<class_Navigation2DServer_method_map_get_path>`. This allows allowing or forbidding some areas to 2D objects."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:30
+msgid "To use the collision avoidance system, you may use agents. You can set an agent's target velocity, then the servers will emit a callback with a modified velocity."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:32
+msgid "\\ **Note:** The collision avoidance system ignores regions. Using the modified velocity as-is might lead to pushing and agent outside of a navigable area. This is a limitation of the collision avoidance system, any more complex situation may require the use of the physics engine."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:34
+msgid "This server keeps tracks of any call and executes them during the sync phase. This means that you can request any change to the map, using any thread, without worrying."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:37
+msgid "Tutorials"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:39
+msgid "`2D Navigation Demo <https://godotengine.org/asset-library/asset/117>`__"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:42
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:45
+#: ../classes/class_navigation2dserver.rst:47
+#: ../classes/class_navigation2dserver.rst:75
+#: ../classes/class_navigation2dserver.rst:87
+#: ../classes/class_navigation2dserver.rst:105
+#: ../classes/class_navigation2dserver.rst:115
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:45
+msgid ":ref:`agent_create<class_Navigation2DServer_method_agent_create>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:47
+msgid ":ref:`agent_get_map<class_Navigation2DServer_method_agent_get_map>` **(** :ref:`RID<class_RID>` agent **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:49
+#: ../classes/class_navigation2dserver.rst:95
+#: ../classes/class_navigation2dserver.rst:121
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:49
+msgid ":ref:`agent_is_map_changed<class_Navigation2DServer_method_agent_is_map_changed>` **(** :ref:`RID<class_RID>` agent **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:51
+#: ../classes/class_navigation2dserver.rst:53
+#: ../classes/class_navigation2dserver.rst:55
+#: ../classes/class_navigation2dserver.rst:57
+#: ../classes/class_navigation2dserver.rst:59
+#: ../classes/class_navigation2dserver.rst:61
+#: ../classes/class_navigation2dserver.rst:63
+#: ../classes/class_navigation2dserver.rst:65
+#: ../classes/class_navigation2dserver.rst:67
+#: ../classes/class_navigation2dserver.rst:69
+#: ../classes/class_navigation2dserver.rst:71
+#: ../classes/class_navigation2dserver.rst:77
+#: ../classes/class_navigation2dserver.rst:97
+#: ../classes/class_navigation2dserver.rst:99
+#: ../classes/class_navigation2dserver.rst:101
+#: ../classes/class_navigation2dserver.rst:103
+#: ../classes/class_navigation2dserver.rst:123
+#: ../classes/class_navigation2dserver.rst:125
+#: ../classes/class_navigation2dserver.rst:127
+#: ../classes/class_navigation2dserver.rst:129
+#: ../classes/class_navigation2dserver.rst:131
+#: ../classes/class_navigation2dserver.rst:133
+msgid "void"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:51
+msgid ":ref:`agent_set_callback<class_Navigation2DServer_method_agent_set_callback>` **(** :ref:`RID<class_RID>` agent, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:53
+msgid ":ref:`agent_set_map<class_Navigation2DServer_method_agent_set_map>` **(** :ref:`RID<class_RID>` agent, :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:55
+msgid ":ref:`agent_set_max_neighbors<class_Navigation2DServer_method_agent_set_max_neighbors>` **(** :ref:`RID<class_RID>` agent, :ref:`int<class_int>` count **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:57
+msgid ":ref:`agent_set_max_speed<class_Navigation2DServer_method_agent_set_max_speed>` **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` max_speed **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:59
+msgid ":ref:`agent_set_neighbor_dist<class_Navigation2DServer_method_agent_set_neighbor_dist>` **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` dist **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:61
+msgid ":ref:`agent_set_position<class_Navigation2DServer_method_agent_set_position>` **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:63
+msgid ":ref:`agent_set_radius<class_Navigation2DServer_method_agent_set_radius>` **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` radius **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:65
+msgid ":ref:`agent_set_target_velocity<class_Navigation2DServer_method_agent_set_target_velocity>` **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` target_velocity **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:67
+msgid ":ref:`agent_set_time_horizon<class_Navigation2DServer_method_agent_set_time_horizon>` **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` time **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:69
+msgid ":ref:`agent_set_velocity<class_Navigation2DServer_method_agent_set_velocity>` **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` velocity **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:71
+msgid ":ref:`free_rid<class_Navigation2DServer_method_free_rid>` **(** :ref:`RID<class_RID>` rid **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:73
+#: ../classes/class_navigation2dserver.rst:79
+#: ../classes/class_navigation2dserver.rst:93
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:73
+msgid ":ref:`get_maps<class_Navigation2DServer_method_get_maps>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:75
+msgid ":ref:`map_create<class_Navigation2DServer_method_map_create>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:77
+msgid ":ref:`map_force_update<class_Navigation2DServer_method_map_force_update>` **(** :ref:`RID<class_RID>` map **)**"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:79
+msgid ":ref:`map_get_agents<class_Navigation2DServer_method_map_get_agents>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:81
+#: ../classes/class_navigation2dserver.rst:83
+#: ../classes/class_navigation2dserver.rst:89
+#: ../classes/class_navigation2dserver.rst:113
+#: ../classes/class_navigation2dserver.rst:119
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:81
+msgid ":ref:`map_get_cell_height<class_Navigation2DServer_method_map_get_cell_height>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:83
+msgid ":ref:`map_get_cell_size<class_Navigation2DServer_method_map_get_cell_size>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:85
+#: ../classes/class_navigation2dserver.rst:107
+#: ../classes/class_navigation2dserver.rst:109
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:85
+msgid ":ref:`map_get_closest_point<class_Navigation2DServer_method_map_get_closest_point>` **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` to_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:87
+msgid ":ref:`map_get_closest_point_owner<class_Navigation2DServer_method_map_get_closest_point_owner>` **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` to_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:89
+msgid ":ref:`map_get_edge_connection_margin<class_Navigation2DServer_method_map_get_edge_connection_margin>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:91
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:91
+msgid ":ref:`map_get_path<class_Navigation2DServer_method_map_get_path>` **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` origin, :ref:`Vector2<class_Vector2>` destination, :ref:`bool<class_bool>` optimize, :ref:`int<class_int>` navigation_layers=1 **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:93
+msgid ":ref:`map_get_regions<class_Navigation2DServer_method_map_get_regions>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:95
+msgid ":ref:`map_is_active<class_Navigation2DServer_method_map_is_active>` **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:97
+msgid ":ref:`map_set_active<class_Navigation2DServer_method_map_set_active>` **(** :ref:`RID<class_RID>` map, :ref:`bool<class_bool>` active **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:99
+msgid ":ref:`map_set_cell_height<class_Navigation2DServer_method_map_set_cell_height>` **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` cell_height **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:101
+msgid ":ref:`map_set_cell_size<class_Navigation2DServer_method_map_set_cell_size>` **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` cell_size **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:103
+msgid ":ref:`map_set_edge_connection_margin<class_Navigation2DServer_method_map_set_edge_connection_margin>` **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:105
+msgid ":ref:`region_create<class_Navigation2DServer_method_region_create>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:107
+msgid ":ref:`region_get_connection_pathway_end<class_Navigation2DServer_method_region_get_connection_pathway_end>` **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` connection **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:109
+msgid ":ref:`region_get_connection_pathway_start<class_Navigation2DServer_method_region_get_connection_pathway_start>` **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` connection **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:111
+#: ../classes/class_navigation2dserver.rst:117
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:111
+msgid ":ref:`region_get_connections_count<class_Navigation2DServer_method_region_get_connections_count>` **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:113
+msgid ":ref:`region_get_enter_cost<class_Navigation2DServer_method_region_get_enter_cost>` **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:115
+msgid ":ref:`region_get_map<class_Navigation2DServer_method_region_get_map>` **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:117
+msgid ":ref:`region_get_navigation_layers<class_Navigation2DServer_method_region_get_navigation_layers>` **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:119
+msgid ":ref:`region_get_travel_cost<class_Navigation2DServer_method_region_get_travel_cost>` **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:121
+msgid ":ref:`region_owns_point<class_Navigation2DServer_method_region_owns_point>` **(** :ref:`RID<class_RID>` region, :ref:`Vector2<class_Vector2>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:123
+msgid ":ref:`region_set_enter_cost<class_Navigation2DServer_method_region_set_enter_cost>` **(** :ref:`RID<class_RID>` region, :ref:`float<class_float>` enter_cost **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:125
+msgid ":ref:`region_set_map<class_Navigation2DServer_method_region_set_map>` **(** :ref:`RID<class_RID>` region, :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:127
+msgid ":ref:`region_set_navigation_layers<class_Navigation2DServer_method_region_set_navigation_layers>` **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` navigation_layers **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:129
+msgid ":ref:`region_set_navpoly<class_Navigation2DServer_method_region_set_navpoly>` **(** :ref:`RID<class_RID>` region, :ref:`NavigationPolygon<class_NavigationPolygon>` nav_poly **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:131
+msgid ":ref:`region_set_transform<class_Navigation2DServer_method_region_set_transform>` **(** :ref:`RID<class_RID>` region, :ref:`Transform2D<class_Transform2D>` transform **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:133
+msgid ":ref:`region_set_travel_cost<class_Navigation2DServer_method_region_set_travel_cost>` **(** :ref:`RID<class_RID>` region, :ref:`float<class_float>` travel_cost **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:137
+msgid "Signals"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:141
+msgid "**map_changed** **(** :ref:`RID<class_RID>` map **)**"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:143
+msgid "Emitted when a navigation map is updated, when a region moves or is modified."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:146
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:150
+msgid ":ref:`RID<class_RID>` **agent_create** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:152
+msgid "Creates the agent."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:158
+msgid ":ref:`RID<class_RID>` **agent_get_map** **(** :ref:`RID<class_RID>` agent **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:160
+msgid "Returns the navigation map :ref:`RID<class_RID>` the requested ``agent`` is currently assigned to."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:166
+msgid ":ref:`bool<class_bool>` **agent_is_map_changed** **(** :ref:`RID<class_RID>` agent **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:168
+msgid "Returns ``true`` if the map got changed the previous frame."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:174
+msgid "void **agent_set_callback** **(** :ref:`RID<class_RID>` agent, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:176
+msgid "Callback called at the end of the RVO process. If a callback is created manually and the agent is placed on a navigation map it will calculate avoidance for the agent and dispatch the calculated ``safe_velocity`` to the ``receiver`` object with a signal to the chosen ``method`` name."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:178
+msgid "\\ **Note:** Created callbacks are always processed independently of the SceneTree state as long as the agent is on a navigation map and not freed. To disable the dispatch of a callback from an agent use :ref:`agent_set_callback<class_Navigation2DServer_method_agent_set_callback>` again with a ``null`` object as the ``receiver``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:184
+msgid "void **agent_set_map** **(** :ref:`RID<class_RID>` agent, :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:186
+msgid "Puts the agent in the map."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:192
+msgid "void **agent_set_max_neighbors** **(** :ref:`RID<class_RID>` agent, :ref:`int<class_int>` count **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:194
+msgid "Sets the maximum number of other agents the agent takes into account in the navigation. The larger this number, the longer the running time of the simulation. If the number is too low, the simulation will not be safe."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:200
+msgid "void **agent_set_max_speed** **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` max_speed **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:202
+msgid "Sets the maximum speed of the agent. Must be positive."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:208
+msgid "void **agent_set_neighbor_dist** **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` dist **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:210
+msgid "Sets the maximum distance to other agents this agent takes into account in the navigation. The larger this number, the longer the running time of the simulation. If the number is too low, the simulation will not be safe."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:216
+msgid "void **agent_set_position** **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:218
+msgid "Sets the position of the agent in world space."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:224
+msgid "void **agent_set_radius** **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` radius **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:226
+msgid "Sets the radius of the agent."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:232
+msgid "void **agent_set_target_velocity** **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` target_velocity **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:234
+msgid "Sets the new target velocity."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:240
+msgid "void **agent_set_time_horizon** **(** :ref:`RID<class_RID>` agent, :ref:`float<class_float>` time **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:242
+msgid "The minimal amount of time for which the agent's velocities that are computed by the simulation are safe with respect to other agents. The larger this number, the sooner this agent will respond to the presence of other agents, but the less freedom this agent has in choosing its velocities. Must be positive."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:248
+msgid "void **agent_set_velocity** **(** :ref:`RID<class_RID>` agent, :ref:`Vector2<class_Vector2>` velocity **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:250
+msgid "Sets the current velocity of the agent."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:256
+msgid "void **free_rid** **(** :ref:`RID<class_RID>` rid **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:258
+msgid "Destroys the given RID."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:264
+msgid ":ref:`Array<class_Array>` **get_maps** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:266
+msgid "Returns all created navigation map :ref:`RID<class_RID>`\\ s on the NavigationServer. This returns both 2D and 3D created navigation maps as there is technically no distinction between them."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:272
+msgid ":ref:`RID<class_RID>` **map_create** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:274
+msgid "Create a new map."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:280
+msgid "void **map_force_update** **(** :ref:`RID<class_RID>` map **)**"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:282
+msgid "This function immediately forces synchronization of the specified navigation ``map`` :ref:`RID<class_RID>`. By default navigation maps are only synchronized at the end of each physics frame. This function can be used to immediately (re)calculate all the navigation meshes and region connections of the navigation map. This makes it possible to query a navigation path for a changed map immediately and in the same frame (multiple times if needed)."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:284
+msgid "Due to technical restrictions the current NavigationServer command queue will be flushed. This means all already queued update commands for this physics frame will be executed, even those intended for other maps, regions and agents not part of the specified map. The expensive computation of the navigation meshes and region connections of a map will only be done for the specified map. Other maps will receive the normal synchronization at the end of the physics frame. Should the specified map receive changes after the forced update it will update again as well when the other maps receive their update."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:286
+msgid "Avoidance processing and dispatch of the ``safe_velocity`` signals is untouched by this function and continues to happen for all maps and agents at the end of the physics frame."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:288
+msgid "\\ **Note:** With great power comes great responsibility. This function should only be used by users that really know what they are doing and have a good reason for it. Forcing an immediate update of a navigation map requires locking the NavigationServer and flushing the entire NavigationServer command queue. Not only can this severely impact the performance of a game but it can also introduce bugs if used inappropriately without much foresight."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:294
+msgid ":ref:`Array<class_Array>` **map_get_agents** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:296
+msgid "Returns all navigation agents :ref:`RID<class_RID>`\\ s that are currently assigned to the requested navigation ``map``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:302
+msgid ":ref:`float<class_float>` **map_get_cell_height** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:304
+msgid "Returns the map cell height. **Note:** Currently not implemented."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:310
+msgid ":ref:`float<class_float>` **map_get_cell_size** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:312
+msgid "Returns the map cell size."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:318
+msgid ":ref:`Vector2<class_Vector2>` **map_get_closest_point** **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` to_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:320
+msgid "Returns the point closest to the provided ``to_point`` on the navigation mesh surface."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:326
+msgid ":ref:`RID<class_RID>` **map_get_closest_point_owner** **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` to_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:328
+msgid "Returns the owner region RID for the point returned by :ref:`map_get_closest_point<class_Navigation2DServer_method_map_get_closest_point>`."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:334
+msgid ":ref:`float<class_float>` **map_get_edge_connection_margin** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:336
+msgid "Returns the edge connection margin of the map. The edge connection margin is a distance used to connect two regions."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:342
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **map_get_path** **(** :ref:`RID<class_RID>` map, :ref:`Vector2<class_Vector2>` origin, :ref:`Vector2<class_Vector2>` destination, :ref:`bool<class_bool>` optimize, :ref:`int<class_int>` navigation_layers=1 **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:344
+msgid "Returns the navigation path to reach the destination from the origin. ``navigation_layers`` is a bitmask of all region layers that are allowed to be in the path."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:350
+msgid ":ref:`Array<class_Array>` **map_get_regions** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:352
+msgid "Returns all navigation regions :ref:`RID<class_RID>`\\ s that are currently assigned to the requested navigation ``map``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:358
+msgid ":ref:`bool<class_bool>` **map_is_active** **(** :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:360
+msgid "Returns ``true`` if the map is active."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:366
+msgid "void **map_set_active** **(** :ref:`RID<class_RID>` map, :ref:`bool<class_bool>` active **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:368
+msgid "Sets the map active."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:374
+msgid "void **map_set_cell_height** **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` cell_height **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:376
+msgid "Set the map cell height used to weld the navigation mesh polygons. **Note:** Currently not implemented."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:382
+msgid "void **map_set_cell_size** **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` cell_size **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:384
+msgid "Set the map cell size used to weld the navigation mesh polygons."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:390
+msgid "void **map_set_edge_connection_margin** **(** :ref:`RID<class_RID>` map, :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:392
+msgid "Set the map edge connection margin used to weld the compatible region edges."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:398
+msgid ":ref:`RID<class_RID>` **region_create** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:400
+msgid "Creates a new region."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:406
+msgid ":ref:`Vector2<class_Vector2>` **region_get_connection_pathway_end** **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` connection **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:408
+msgid "Returns the ending point of a connection door. ``connection`` is an index between 0 and the return value of :ref:`region_get_connections_count<class_Navigation2DServer_method_region_get_connections_count>`."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:414
+msgid ":ref:`Vector2<class_Vector2>` **region_get_connection_pathway_start** **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` connection **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:416
+msgid "Returns the starting point of a connection door. ``connection`` is an index between 0 and the return value of :ref:`region_get_connections_count<class_Navigation2DServer_method_region_get_connections_count>`."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:422
+msgid ":ref:`int<class_int>` **region_get_connections_count** **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:424
+msgid "Returns how many connections this ``region`` has with other regions in the map."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:430
+msgid ":ref:`float<class_float>` **region_get_enter_cost** **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:432
+msgid "Returns the ``enter_cost`` of this ``region``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:438
+msgid ":ref:`RID<class_RID>` **region_get_map** **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:440
+msgid "Returns the navigation map :ref:`RID<class_RID>` the requested ``region`` is currently assigned to."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:446
+msgid ":ref:`int<class_int>` **region_get_navigation_layers** **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:448
+msgid "Returns the region's navigation layers."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:454
+msgid ":ref:`float<class_float>` **region_get_travel_cost** **(** :ref:`RID<class_RID>` region **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:456
+msgid "Returns the ``travel_cost`` of this ``region``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:462
+msgid ":ref:`bool<class_bool>` **region_owns_point** **(** :ref:`RID<class_RID>` region, :ref:`Vector2<class_Vector2>` point **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:464
+msgid "Returns ``true`` if the provided ``point`` in world space is currently owned by the provided navigation ``region``. Owned in this context means that one of the region's navigation mesh polygon faces has a possible position at the closest distance to this point compared to all other navigation meshes from other navigation regions that are also registered on the navigation map of the provided region."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:466
+msgid "If multiple navigation meshes have positions at equal distance the navigation region whose polygons are processed first wins the ownership. Polygons are processed in the same order that navigation regions were registered on the NavigationServer."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:468
+msgid "\\ **Note:** If navigation meshes from different navigation regions overlap (which should be avoided in general) the result might not be what is expected."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:474
+msgid "void **region_set_enter_cost** **(** :ref:`RID<class_RID>` region, :ref:`float<class_float>` enter_cost **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:476
+msgid "Sets the ``enter_cost`` for this ``region``."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:482
+msgid "void **region_set_map** **(** :ref:`RID<class_RID>` region, :ref:`RID<class_RID>` map **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:484
+msgid "Sets the map for the region."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:490
+msgid "void **region_set_navigation_layers** **(** :ref:`RID<class_RID>` region, :ref:`int<class_int>` navigation_layers **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:492
+msgid "Set the region's navigation layers. This allows selecting regions from a path request (when using :ref:`map_get_path<class_Navigation2DServer_method_map_get_path>`)."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:498
+msgid "void **region_set_navpoly** **(** :ref:`RID<class_RID>` region, :ref:`NavigationPolygon<class_NavigationPolygon>` nav_poly **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:500
+msgid "Sets the navigation mesh for the region."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:506
+msgid "void **region_set_transform** **(** :ref:`RID<class_RID>` region, :ref:`Transform2D<class_Transform2D>` transform **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:508
+msgid "Sets the global transformation for the region."
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:514
+msgid "void **region_set_travel_cost** **(** :ref:`RID<class_RID>` region, :ref:`float<class_float>` travel_cost **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigation2dserver.rst:516
+msgid "Sets the ``travel_cost`` for this ``region``."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

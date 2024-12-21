@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectphaser.rst:10
+msgid "AudioEffectPhaser"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:14
+msgid "为音频总线添加相移音频效果。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:16
+msgid "将原始信号与原始信号稍有相位偏差的副本相结合。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:21
+msgid "将相移信号与原始信号相结合。使用低频振荡器控制相移信号的移动。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:27
+#: ../classes/class_audioeffectphaser.rst:29
+#: ../classes/class_audioeffectphaser.rst:31
+#: ../classes/class_audioeffectphaser.rst:33
+#: ../classes/class_audioeffectphaser.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:27
+msgid ":ref:`depth<class_AudioEffectPhaser_property_depth>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:27
+#: ../classes/class_audioeffectphaser.rst:46
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:29
+msgid ":ref:`feedback<class_AudioEffectPhaser_property_feedback>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:29
+#: ../classes/class_audioeffectphaser.rst:62
+msgid "``0.7``"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:31
+msgid ":ref:`range_max_hz<class_AudioEffectPhaser_property_range_max_hz>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:31
+#: ../classes/class_audioeffectphaser.rst:78
+msgid "``1600.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:33
+msgid ":ref:`range_min_hz<class_AudioEffectPhaser_property_range_min_hz>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:33
+#: ../classes/class_audioeffectphaser.rst:94
+msgid "``440.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:35
+msgid ":ref:`rate_hz<class_AudioEffectPhaser_property_rate_hz>`"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:35
+#: ../classes/class_audioeffectphaser.rst:110
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:39
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:43
+msgid ":ref:`float<class_float>` **depth**"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:46
+#: ../classes/class_audioeffectphaser.rst:62
+#: ../classes/class_audioeffectphaser.rst:78
+#: ../classes/class_audioeffectphaser.rst:94
+#: ../classes/class_audioeffectphaser.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:48
+#: ../classes/class_audioeffectphaser.rst:64
+#: ../classes/class_audioeffectphaser.rst:80
+#: ../classes/class_audioeffectphaser.rst:96
+#: ../classes/class_audioeffectphaser.rst:112
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:48
+msgid "set_depth(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:50
+#: ../classes/class_audioeffectphaser.rst:66
+#: ../classes/class_audioeffectphaser.rst:82
+#: ../classes/class_audioeffectphaser.rst:98
+#: ../classes/class_audioeffectphaser.rst:114
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:50
+msgid "get_depth()"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:53
+msgid "控制滤波器频率扫描的频率。较低的值将主要影响低音频率。高值可以推高高音。值的范围可以从0.1到4。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:59
+msgid ":ref:`float<class_float>` **feedback**"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:64
+msgid "set_feedback(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:66
+msgid "get_feedback()"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:69
+msgid "修改后声音的输出百分比。数值范围从0.1到0.9。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:75
+msgid ":ref:`float<class_float>` **range_max_hz**"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:80
+msgid "set_range_max_hz(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:82
+msgid "get_range_max_hz()"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:85
+msgid "决定受 LFO 调制影响的最大频率，单位为 Hz。数值范围为10-10000。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:91
+msgid ":ref:`float<class_float>` **range_min_hz**"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:96
+msgid "set_range_min_hz(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:98
+msgid "get_range_min_hz()"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:101
+msgid "决定受 LFO 调制影响的最小频率，单位为 Hz。数值范围为10-10000。"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:107
+msgid ":ref:`float<class_float>` **rate_hz**"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:112
+msgid "set_rate_hz(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:114
+msgid "get_rate_hz()"
+msgstr ""
+
+#: ../classes/class_audioeffectphaser.rst:117
+msgid "以Hz为单位调整效果在整个频率范围内上下扫描的速度。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

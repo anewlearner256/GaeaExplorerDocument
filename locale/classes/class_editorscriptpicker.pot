@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorscriptpicker.rst:10
+msgid "EditorScriptPicker"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:12
+msgid "**Inherits:** :ref:`EditorResourcePicker<class_EditorResourcePicker>` **<** :ref:`HBoxContainer<class_HBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:14
+msgid "GaaeExplorer 编辑器的控件，用于选择节点 :ref:`Node<class_Node>` 的脚本 ``script`` 属性。"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:19
+msgid "与 :ref:`EditorResourcePicker<class_EditorResourcePicker>` 类似，这个 :ref:`Control<class_Control>` 节点在编辑器的检查器面板中使用，但只用于编辑 :ref:`Node<class_Node>` 的 ``script`` 属性。创建包含所有可能子类型的新资源的默认选项 被替换为打开“附加节点脚本”对话框的专用按钮。可以与 :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` 一起使用以重新创建相同的行为。"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:21
+msgid "\\ **注意：** 你必须设置 :ref:`script_owner<class_EditorScriptPicker_property_script_owner>` 才能让自定义的上下文菜单项发挥作用。"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:27
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:27
+msgid ":ref:`script_owner<class_EditorScriptPicker_property_script_owner>`"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:35
+msgid ":ref:`Node<class_Node>` **script_owner**"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:38
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:38
+msgid "set_script_owner(value)"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:40
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:40
+msgid "get_script_owner()"
+msgstr ""
+
+#: ../classes/class_editorscriptpicker.rst:43
+msgid "持有被编辑资源的脚本属性的所有者 :ref:`Node<class_Node>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,1327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_itemlist.rst:10
+msgid "ItemList"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:14
+msgid "该控件提供了一个单列的可选择项目（和/或图标）的列表，也可以选择多列的。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:19
+msgid "This control provides a selectable list of items that may be in a single (or multiple columns) with option of text, icons, or both text and icon. Tooltips are supported and may be different for every item in the list."
+msgstr ""
+
+#: ../classes/class_itemlist.rst:21
+msgid "Selectable items in the list may be selected or deselected and multiple selection may be enabled. Selection with right mouse button may also be enabled to allow use of popup context menus. Items may also be \"activated\" by double-clicking them or by pressing Enter."
+msgstr ""
+
+#: ../classes/class_itemlist.rst:23
+msgid "Item text only supports single-line strings, newline characters (e.g. ``\\n``) in the string won't produce a newline. Text wrapping is enabled in :ref:`ICON_MODE_TOP<class_ItemList_constant_ICON_MODE_TOP>` mode, but column's width is adjusted to fully fit its content by default. You need to set :ref:`fixed_column_width<class_ItemList_property_fixed_column_width>` greater than zero to wrap the text."
+msgstr ""
+
+#: ../classes/class_itemlist.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:29
+#: ../classes/class_itemlist.rst:31
+#: ../classes/class_itemlist.rst:33
+#: ../classes/class_itemlist.rst:49
+#: ../classes/class_itemlist.rst:51
+#: ../classes/class_itemlist.rst:92
+#: ../classes/class_itemlist.rst:94
+#: ../classes/class_itemlist.rst:96
+#: ../classes/class_itemlist.rst:98
+#: ../classes/class_itemlist.rst:100
+#: ../classes/class_itemlist.rst:102
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:29
+msgid ":ref:`allow_reselect<class_ItemList_property_allow_reselect>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:29
+#: ../classes/class_itemlist.rst:31
+#: ../classes/class_itemlist.rst:33
+#: ../classes/class_itemlist.rst:51
+#: ../classes/class_itemlist.rst:268
+#: ../classes/class_itemlist.rst:284
+#: ../classes/class_itemlist.rst:300
+#: ../classes/class_itemlist.rst:422
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:31
+msgid ":ref:`allow_rmb_select<class_ItemList_property_allow_rmb_select>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:33
+msgid ":ref:`auto_height<class_ItemList_property_auto_height>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:35
+#: ../classes/class_itemlist.rst:45
+#: ../classes/class_itemlist.rst:47
+#: ../classes/class_itemlist.rst:68
+#: ../classes/class_itemlist.rst:70
+#: ../classes/class_itemlist.rst:151
+#: ../classes/class_itemlist.rst:153
+#: ../classes/class_itemlist.rst:155
+#: ../classes/class_itemlist.rst:157
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:35
+msgid ":ref:`fixed_column_width<class_ItemList_property_fixed_column_width>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:35
+#: ../classes/class_itemlist.rst:53
+#: ../classes/class_itemlist.rst:316
+#: ../classes/class_itemlist.rst:440
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:37
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:37
+msgid ":ref:`fixed_icon_size<class_ItemList_property_fixed_icon_size>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:37
+#: ../classes/class_itemlist.rst:334
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:39
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:39
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:39
+msgid "``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:41
+msgid ":ref:`IconMode<enum_ItemList_IconMode>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:41
+msgid ":ref:`icon_mode<class_ItemList_property_icon_mode>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:41
+#: ../classes/class_itemlist.rst:45
+#: ../classes/class_itemlist.rst:47
+#: ../classes/class_itemlist.rst:352
+#: ../classes/class_itemlist.rst:384
+#: ../classes/class_itemlist.rst:404
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:43
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:43
+msgid ":ref:`icon_scale<class_ItemList_property_icon_scale>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:43
+#: ../classes/class_itemlist.rst:368
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:45
+msgid ":ref:`max_columns<class_ItemList_property_max_columns>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:47
+msgid ":ref:`max_text_lines<class_ItemList_property_max_text_lines>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:49
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:49
+msgid "``true`` (overrides :ref:`Control<class_Control_property_rect_clip_content>`)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:51
+msgid ":ref:`same_column_width<class_ItemList_property_same_column_width>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:53
+msgid ":ref:`SelectMode<enum_ItemList_SelectMode>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:53
+msgid ":ref:`select_mode<class_ItemList_property_select_mode>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:57
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:60
+#: ../classes/class_itemlist.rst:62
+#: ../classes/class_itemlist.rst:64
+#: ../classes/class_itemlist.rst:66
+#: ../classes/class_itemlist.rst:104
+#: ../classes/class_itemlist.rst:106
+#: ../classes/class_itemlist.rst:108
+#: ../classes/class_itemlist.rst:110
+#: ../classes/class_itemlist.rst:112
+#: ../classes/class_itemlist.rst:114
+#: ../classes/class_itemlist.rst:116
+#: ../classes/class_itemlist.rst:118
+#: ../classes/class_itemlist.rst:120
+#: ../classes/class_itemlist.rst:122
+#: ../classes/class_itemlist.rst:124
+#: ../classes/class_itemlist.rst:126
+#: ../classes/class_itemlist.rst:128
+#: ../classes/class_itemlist.rst:130
+#: ../classes/class_itemlist.rst:132
+#: ../classes/class_itemlist.rst:134
+#: ../classes/class_itemlist.rst:136
+#: ../classes/class_itemlist.rst:138
+msgid "void"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:60
+msgid ":ref:`add_icon_item<class_ItemList_method_add_icon_item>` **(** :ref:`Texture<class_Texture>` icon, :ref:`bool<class_bool>` selectable=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:62
+msgid ":ref:`add_item<class_ItemList_method_add_item>` **(** :ref:`String<class_String>` text, :ref:`Texture<class_Texture>` icon=null, :ref:`bool<class_bool>` selectable=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:64
+msgid ":ref:`clear<class_ItemList_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:66
+msgid ":ref:`ensure_current_is_visible<class_ItemList_method_ensure_current_is_visible>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:68
+msgid ":ref:`get_item_at_position<class_ItemList_method_get_item_at_position>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:70
+msgid ":ref:`get_item_count<class_ItemList_method_get_item_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:72
+#: ../classes/class_itemlist.rst:74
+#: ../classes/class_itemlist.rst:78
+#: ../classes/class_itemlist.rst:145
+#: ../classes/class_itemlist.rst:147
+#: ../classes/class_itemlist.rst:149
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:72
+msgid ":ref:`get_item_custom_bg_color<class_ItemList_method_get_item_custom_bg_color>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:74
+msgid ":ref:`get_item_custom_fg_color<class_ItemList_method_get_item_custom_fg_color>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:76
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:76
+msgid ":ref:`get_item_icon<class_ItemList_method_get_item_icon>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:78
+msgid ":ref:`get_item_icon_modulate<class_ItemList_method_get_item_icon_modulate>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:80
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:80
+msgid ":ref:`get_item_icon_region<class_ItemList_method_get_item_icon_region>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:82
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:82
+msgid ":ref:`get_item_metadata<class_ItemList_method_get_item_metadata>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:84
+#: ../classes/class_itemlist.rst:86
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:84
+msgid ":ref:`get_item_text<class_ItemList_method_get_item_text>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:86
+msgid ":ref:`get_item_tooltip<class_ItemList_method_get_item_tooltip>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:88
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:88
+msgid ":ref:`get_selected_items<class_ItemList_method_get_selected_items>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:90
+msgid ":ref:`VScrollBar<class_VScrollBar>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:90
+msgid ":ref:`get_v_scroll<class_ItemList_method_get_v_scroll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:92
+msgid ":ref:`is_anything_selected<class_ItemList_method_is_anything_selected>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:94
+msgid ":ref:`is_item_disabled<class_ItemList_method_is_item_disabled>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:96
+msgid ":ref:`is_item_icon_transposed<class_ItemList_method_is_item_icon_transposed>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:98
+msgid ":ref:`is_item_selectable<class_ItemList_method_is_item_selectable>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:100
+msgid ":ref:`is_item_tooltip_enabled<class_ItemList_method_is_item_tooltip_enabled>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:102
+msgid ":ref:`is_selected<class_ItemList_method_is_selected>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:104
+msgid ":ref:`move_item<class_ItemList_method_move_item>` **(** :ref:`int<class_int>` from_idx, :ref:`int<class_int>` to_idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:106
+msgid ":ref:`remove_item<class_ItemList_method_remove_item>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:108
+msgid ":ref:`select<class_ItemList_method_select>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` single=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:110
+msgid ":ref:`set_item_custom_bg_color<class_ItemList_method_set_item_custom_bg_color>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_bg_color **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:112
+msgid ":ref:`set_item_custom_fg_color<class_ItemList_method_set_item_custom_fg_color>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_fg_color **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:114
+msgid ":ref:`set_item_disabled<class_ItemList_method_set_item_disabled>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:116
+msgid ":ref:`set_item_icon<class_ItemList_method_set_item_icon>` **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:118
+msgid ":ref:`set_item_icon_modulate<class_ItemList_method_set_item_icon_modulate>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` modulate **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:120
+msgid ":ref:`set_item_icon_region<class_ItemList_method_set_item_icon_region>` **(** :ref:`int<class_int>` idx, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:122
+msgid ":ref:`set_item_icon_transposed<class_ItemList_method_set_item_icon_transposed>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` transposed **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:124
+msgid ":ref:`set_item_metadata<class_ItemList_method_set_item_metadata>` **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:126
+msgid ":ref:`set_item_selectable<class_ItemList_method_set_item_selectable>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` selectable **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:128
+msgid ":ref:`set_item_text<class_ItemList_method_set_item_text>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:130
+msgid ":ref:`set_item_tooltip<class_ItemList_method_set_item_tooltip>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:132
+msgid ":ref:`set_item_tooltip_enabled<class_ItemList_method_set_item_tooltip_enabled>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:134
+msgid ":ref:`sort_items_by_text<class_ItemList_method_sort_items_by_text>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:136
+msgid ":ref:`unselect<class_ItemList_method_unselect>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:138
+msgid ":ref:`unselect_all<class_ItemList_method_unselect_all>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:142
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:145
+msgid ":ref:`font_color<class_ItemList_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:145
+#: ../classes/class_itemlist.rst:788
+msgid "``Color( 0.63, 0.63, 0.63, 1 )``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:147
+msgid ":ref:`font_color_selected<class_ItemList_theme_color_font_color_selected>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:147
+#: ../classes/class_itemlist.rst:800
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:149
+msgid ":ref:`guide_color<class_ItemList_theme_color_guide_color>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:149
+#: ../classes/class_itemlist.rst:812
+msgid "``Color( 0, 0, 0, 0.1 )``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:151
+msgid ":ref:`hseparation<class_ItemList_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:151
+#: ../classes/class_itemlist.rst:153
+#: ../classes/class_itemlist.rst:824
+#: ../classes/class_itemlist.rst:836
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:153
+msgid ":ref:`icon_margin<class_ItemList_theme_constant_icon_margin>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:155
+msgid ":ref:`line_separation<class_ItemList_theme_constant_line_separation>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:155
+#: ../classes/class_itemlist.rst:157
+#: ../classes/class_itemlist.rst:848
+#: ../classes/class_itemlist.rst:860
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:157
+msgid ":ref:`vseparation<class_ItemList_theme_constant_vseparation>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:159
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:159
+msgid ":ref:`font<class_ItemList_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:161
+#: ../classes/class_itemlist.rst:163
+#: ../classes/class_itemlist.rst:165
+#: ../classes/class_itemlist.rst:167
+#: ../classes/class_itemlist.rst:169
+#: ../classes/class_itemlist.rst:171
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:161
+msgid ":ref:`bg<class_ItemList_theme_style_bg>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:163
+msgid ":ref:`bg_focus<class_ItemList_theme_style_bg_focus>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:165
+msgid ":ref:`cursor<class_ItemList_theme_style_cursor>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:167
+msgid ":ref:`cursor_unfocused<class_ItemList_theme_style_cursor_unfocused>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:169
+msgid ":ref:`selected<class_ItemList_theme_style_selected>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:171
+msgid ":ref:`selected_focus<class_ItemList_theme_style_selected_focus>`"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:175
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:179
+msgid "**item_activated** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:181
+msgid "当指定的列表项目通过双击或按Enter激活时触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:187
+msgid "**item_rmb_selected** **(** :ref:`int<class_int>` index, :ref:`Vector2<class_Vector2>` at_position **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:189
+msgid "当指定的列表项目通过鼠标右键被选中时，会被触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:191
+msgid "还提供了单击位置，以便在正确的位置恰当地弹出上下文菜单。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:193
+msgid "必须启用 :ref:`allow_rmb_select<class_ItemList_property_allow_rmb_select>` 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:199
+msgid "**item_selected** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:201
+msgid "选择指定项目时触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:203
+msgid "\\ :ref:`allow_reselect<class_ItemList_property_allow_reselect>` 必须启用才能重新选择项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:209
+msgid "**multi_selected** **(** :ref:`int<class_int>` index, :ref:`bool<class_bool>` selected **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:211
+msgid "在允许多选的列表上更改多选时触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:217
+msgid "**nothing_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:219
+msgid "当鼠标左键在列表的矩形(rect)范围内但在空白处单击时，会被触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:225
+msgid "**rmb_clicked** **(** :ref:`Vector2<class_Vector2>` at_position **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:227
+msgid "当在列表的矩形(rect)范围内但在空白处单击鼠标右键时被触发。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:229
+msgid "\\ :ref:`allow_rmb_select<class_ItemList_property_allow_rmb_select>`\\ 必须被启用。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:232
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:240
+msgid "enum **IconMode**:"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:242
+msgid "**ICON_MODE_TOP** = **0** --- 图标绘制在文本上方。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:244
+msgid "**ICON_MODE_LEFT** = **1** --- 图标绘制在文本的左侧。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:254
+msgid "enum **SelectMode**:"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:256
+msgid "**SELECT_SINGLE** = **0** --- 仅允许选择单个项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:258
+msgid "**SELECT_MULTI** = **1** --- 允许通过按住Ctrl或Shift选择多个项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:261
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:265
+msgid ":ref:`bool<class_bool>` **allow_reselect**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:268
+#: ../classes/class_itemlist.rst:284
+#: ../classes/class_itemlist.rst:300
+#: ../classes/class_itemlist.rst:316
+#: ../classes/class_itemlist.rst:334
+#: ../classes/class_itemlist.rst:352
+#: ../classes/class_itemlist.rst:368
+#: ../classes/class_itemlist.rst:384
+#: ../classes/class_itemlist.rst:404
+#: ../classes/class_itemlist.rst:422
+#: ../classes/class_itemlist.rst:440
+#: ../classes/class_itemlist.rst:788
+#: ../classes/class_itemlist.rst:800
+#: ../classes/class_itemlist.rst:812
+#: ../classes/class_itemlist.rst:824
+#: ../classes/class_itemlist.rst:836
+#: ../classes/class_itemlist.rst:848
+#: ../classes/class_itemlist.rst:860
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:270
+#: ../classes/class_itemlist.rst:286
+#: ../classes/class_itemlist.rst:302
+#: ../classes/class_itemlist.rst:318
+#: ../classes/class_itemlist.rst:336
+#: ../classes/class_itemlist.rst:354
+#: ../classes/class_itemlist.rst:370
+#: ../classes/class_itemlist.rst:386
+#: ../classes/class_itemlist.rst:406
+#: ../classes/class_itemlist.rst:424
+#: ../classes/class_itemlist.rst:442
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:270
+msgid "set_allow_reselect(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:272
+#: ../classes/class_itemlist.rst:288
+#: ../classes/class_itemlist.rst:304
+#: ../classes/class_itemlist.rst:320
+#: ../classes/class_itemlist.rst:338
+#: ../classes/class_itemlist.rst:356
+#: ../classes/class_itemlist.rst:372
+#: ../classes/class_itemlist.rst:388
+#: ../classes/class_itemlist.rst:408
+#: ../classes/class_itemlist.rst:426
+#: ../classes/class_itemlist.rst:444
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:272
+msgid "get_allow_reselect()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:275
+msgid "如果为\\ ``true``\\ ，则可以再次选择当前选中的项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:281
+msgid ":ref:`bool<class_bool>` **allow_rmb_select**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:286
+msgid "set_allow_rmb_select(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:288
+msgid "get_allow_rmb_select()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:291
+msgid "如果为\\ ``true``\\ ，点击鼠标右键可以选中项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:297
+msgid ":ref:`bool<class_bool>` **auto_height**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:302
+msgid "set_auto_height(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:304
+msgid "has_auto_height()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:307
+msgid "如果为 ``true``\\ ，控件将自动调整高度以适合其内容。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:313
+msgid ":ref:`int<class_int>` **fixed_column_width**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:318
+msgid "set_fixed_column_width(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:320
+msgid "get_fixed_column_width()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:323
+msgid "所有列的宽度将调整为。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:325
+msgid "零值禁用调整，每个项目的宽度将等于其内容的宽度，列的宽度将不均匀。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:331
+msgid ":ref:`Vector2<class_Vector2>` **fixed_icon_size**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:336
+msgid "set_fixed_icon_size(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:338
+msgid "get_fixed_icon_size()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:341
+msgid "所有图标将被调整到的尺寸。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:343
+msgid "如果X或Y分量不大于0，图标的大小将不会受到影响。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:349
+msgid ":ref:`IconMode<enum_ItemList_IconMode>` **icon_mode**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:354
+msgid "set_icon_mode(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:356
+msgid "get_icon_mode()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:359
+msgid "图标的位置，是在文本的上方还是在文本的左边。参阅\\ :ref:`IconMode<enum_ItemList_IconMode>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:365
+msgid ":ref:`float<class_float>` **icon_scale**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:370
+msgid "set_icon_scale(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:372
+msgid "get_icon_scale()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:375
+msgid "在\\ :ref:`fixed_icon_size<class_ItemList_property_fixed_icon_size>`\\ 和转置生效后应用的图标比例。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:381
+msgid ":ref:`int<class_int>` **max_columns**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:386
+msgid "set_max_columns(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:388
+msgid "get_max_columns()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:391
+msgid "列表将具有的最大列。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:393
+msgid "如果大于零，内容将被拆分为指定列。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:395
+msgid "零值意味着无限列，即所有项目将放在同一行中。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:401
+msgid ":ref:`int<class_int>` **max_text_lines**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:406
+msgid "set_max_text_lines(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:408
+msgid "get_max_text_lines()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:411
+msgid "每个子项中允许的最大文本行数。即使没有足够的文本行数来显示，也会保留空间。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:413
+msgid "\\ **注意：** 这个属性只有在 :ref:`icon_mode<class_ItemList_property_icon_mode>` 是 :ref:`ICON_MODE_TOP<class_ItemList_constant_ICON_MODE_TOP>` 时才会生效。要使文本自动换行，\\ :ref:`fixed_column_width<class_ItemList_property_fixed_column_width>`\\ 应大于零。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:419
+msgid ":ref:`bool<class_bool>` **same_column_width**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:424
+msgid "set_same_column_width(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:426
+msgid "is_same_column_width()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:429
+msgid "是否所有列的宽度相同。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:431
+msgid "如果为 ``true``\\ ，则宽度等于所有列的最大列宽度。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:437
+msgid ":ref:`SelectMode<enum_ItemList_SelectMode>` **select_mode**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:442
+msgid "set_select_mode(value)"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:444
+msgid "get_select_mode()"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:447
+msgid "允许单选或多选。参阅\\ :ref:`SelectMode<enum_ItemList_SelectMode>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:450
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:454
+msgid "void **add_icon_item** **(** :ref:`Texture<class_Texture>` icon, :ref:`bool<class_bool>` selectable=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:456
+msgid "将一个没有文本的项目添加到项目列表中，只有一个图标。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:462
+msgid "void **add_item** **(** :ref:`String<class_String>` text, :ref:`Texture<class_Texture>` icon=null, :ref:`bool<class_bool>` selectable=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:464
+msgid "将一个项目添加到项目列表中，并指定文本。指定一个图标\\ ``icon``\\ ，或者图标\\ ``icon``\\ 使用空\\ ``null``\\ 作为没有图标的列表项。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:466
+msgid "如果可选择填\\ ``true``\\ ，列表项将是可选择的。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:472
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:474
+msgid "移除列表中的所有项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:480
+msgid "void **ensure_current_is_visible** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:482
+msgid "确保当前选择可见，根据需要调整滚动位置。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:488
+msgid ":ref:`int<class_int>` **get_item_at_position** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:490
+msgid "在给定的位置 ``position`` 返回项目索引。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:492
+msgid "当此时没有项目时，如果精确 ``exact`` 是真 ``true``\\ ，则将返回 -1，否则将返回最近的项目索引。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:498
+msgid ":ref:`int<class_int>` **get_item_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:500
+msgid "返回当前列表中的项目数。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:506
+msgid ":ref:`Color<class_Color>` **get_item_custom_bg_color** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:508
+msgid "返回由\\ ``idx``\\ 索引指定的项目的自定义背景颜色。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:514
+msgid ":ref:`Color<class_Color>` **get_item_custom_fg_color** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:516
+msgid "返回由\\ ``idx``\\ 索引指定项目的自定义前景颜色。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:522
+msgid ":ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:524
+msgid "返回与指定索引相关的图标。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:530
+msgid ":ref:`Color<class_Color>` **get_item_icon_modulate** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:532
+msgid "返回指定索引处的\\ :ref:`Color<class_Color>`\\ 颜色调制(modulating) 项的图标。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:538
+msgid ":ref:`Rect2<class_Rect2>` **get_item_icon_region** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:540
+msgid "返回项目图标的使用区域。如果该区域大小为0，整个图标将被使用。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:546
+msgid ":ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:548
+msgid "返回指定索引的元数据值。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:554
+msgid ":ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:556
+msgid "返回与指定索引关联的文本。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:562
+msgid ":ref:`String<class_String>` **get_item_tooltip** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:564
+msgid "返回与指定索引关联的工具提示。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:570
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_selected_items** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:572
+msgid "返回一个包含所选项目索引的数组。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:578
+msgid ":ref:`VScrollBar<class_VScrollBar>` **get_v_scroll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:580
+msgid "返回与列表相关的\\ :ref:`Object<class_Object>`\\ ID。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:582
+msgid "\\ **警告：** 这是一个必要的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任意子节点，请使用其的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:588
+msgid ":ref:`bool<class_bool>` **is_anything_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:590
+msgid "选中了一个或多个项目时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:596
+msgid ":ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:598
+msgid "索引所对应的项目被禁用时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:604
+msgid ":ref:`bool<class_bool>` **is_item_icon_transposed** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:606
+msgid "项目图标被转置绘制，即 X 和 Y 轴互换时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:612
+msgid ":ref:`bool<class_bool>` **is_item_selectable** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:614
+msgid "索引所对应的项目可以被选中时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:620
+msgid ":ref:`bool<class_bool>` **is_item_tooltip_enabled** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:622
+msgid "索引所对应的项目已启用工具提示时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:628
+msgid ":ref:`bool<class_bool>` **is_selected** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:630
+msgid "索引所对应的项目被选中时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:636
+msgid "void **move_item** **(** :ref:`int<class_int>` from_idx, :ref:`int<class_int>` to_idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:638
+msgid "将项目从索引\\ ``from_idx``\\ 移到\\ ``to_idx``\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:644
+msgid "void **remove_item** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:646
+msgid "从列表中删除 ``idx`` 索引指定的项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:652
+msgid "void **select** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` single=true **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:654
+msgid "选择指定索引处的项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:656
+msgid "\\ **注：**\\ 此方法不触发项目选择信号。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:662
+msgid "void **set_item_custom_bg_color** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_bg_color **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:664
+msgid "将\\ ``idx``\\ 索引指定的项目的背景色设置为指定的颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:670
+msgid "void **set_item_custom_fg_color** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` custom_fg_color **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:672
+msgid "将\\ ``idx``\\ 索引指定项目的前景颜色设置为指定的颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:678
+msgid "void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:680
+msgid "禁用（或启用）指定索引上的项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:682
+msgid "禁用的项目不能被选中，也不会触发激活信号（当双击或按Enter回车键）。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:688
+msgid "void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:690
+msgid "设置（或替换）与指定索引相关的图标的纹理\\ :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:696
+msgid "void **set_item_icon_modulate** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` modulate **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:698
+msgid "设置与指定索引相关的项目的调制颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:704
+msgid "void **set_item_icon_region** **(** :ref:`int<class_int>` idx, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:706
+msgid "设置项目图标的使用区域。如果该区域大小为 0， 将使用整个图标。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:712
+msgid "void **set_item_icon_transposed** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` transposed **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:714
+msgid "设置项目图标是否将被转置绘制。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:720
+msgid "void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:722
+msgid "设置与指定索引相关的项目存储的值（任何类型的值）。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:728
+msgid "void **set_item_selectable** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` selectable **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:730
+msgid "允许或禁止选择与指定索引关联的项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:736
+msgid "void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:738
+msgid "设置与指定索引相关的项目的文本。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:744
+msgid "void **set_item_tooltip** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:746
+msgid "设置与指定索引相关的项目的工具提示。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:752
+msgid "void **set_item_tooltip_enabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:754
+msgid "设置是否为指定的项目索引启用工具提示。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:760
+msgid "void **sort_items_by_text** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:762
+msgid "按文本对列表中的项目进行排序。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:768
+msgid "void **unselect** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:770
+msgid "确保与指定索引相关的项目不被选中。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:776
+msgid "void **unselect_all** **(** **)**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:778
+msgid "确保没有选择任何项目。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:781
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:785
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:791
+msgid "项目的默认文本颜色 :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:797
+msgid ":ref:`Color<class_Color>` **font_color_selected**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:803
+msgid "选择项目时使用的文本颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:809
+msgid ":ref:`Color<class_Color>` **guide_color**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:815
+msgid "指导线的颜色\\ :ref:`Color<class_Color>`\\ 。指导线是在每行项目之间画的一条线。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:821
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:827
+msgid "项目菜单之间的水平间距。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:833
+msgid ":ref:`int<class_int>` **icon_margin**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:839
+msgid "项目菜单的图标和文本之间的间距。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:845
+msgid ":ref:`int<class_int>` **line_separation**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:851
+msgid "每行文字之间的行距。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:857
+msgid ":ref:`int<class_int>` **vseparation**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:863
+msgid "项目菜单之间的垂直间距。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:869
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:871
+msgid "项目文本的字体 :ref:`Font<class_Font>` 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:877
+msgid ":ref:`StyleBox<class_StyleBox>` **bg**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:879
+msgid "``ItemList`` 的默认样式盒 :ref:`StyleBox<class_StyleBox>`\\ ，即在控件未获得焦点时使用。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:885
+msgid ":ref:`StyleBox<class_StyleBox>` **bg_focus**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:887
+msgid "当\\ ``ItemList``\\ 被聚焦时使用的样式盒\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:893
+msgid ":ref:`StyleBox<class_StyleBox>` **cursor**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:895
+msgid "当\\ ``ItemList``\\ 被聚焦时，用于光标的样式盒\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:901
+msgid ":ref:`StyleBox<class_StyleBox>` **cursor_unfocused**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:903
+msgid "当\\ ``ItemList``\\ 没有被聚焦时，用于光标的样式盒\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:909
+msgid ":ref:`StyleBox<class_StyleBox>` **selected**"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:911
+#: ../classes/class_itemlist.rst:919
+msgid "所选项的样式盒\\ :ref:`StyleBox<class_StyleBox>`\\ ，当\\ ``ItemList``\\ 没有获得焦点时使用。"
+msgstr ""
+
+#: ../classes/class_itemlist.rst:917
+msgid ":ref:`StyleBox<class_StyleBox>` **selected_focus**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

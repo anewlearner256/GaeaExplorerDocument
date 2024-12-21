@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:2
+msgid "PipeSymbol"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:7
+msgid "管线符号"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:16
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:16
+msgid "IsNeedNormal"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:18
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:18
+msgid "SectionPointNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:20
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:22
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:32
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:34
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:36
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:20
+msgid "PipeRadius"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:22
+msgid "Sagment"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:24
+msgid "SpatialMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:24
+msgid "PipeMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:26
+msgid "Texture"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:26
+msgid "PipeTexture"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:28
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:30
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:28
+msgid "PipeColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:30
+msgid "SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:32
+msgid "Specular"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:34
+msgid "Roughness"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:36
+msgid "Metallic"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:40
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:43
+msgid "Object"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:43
+msgid "Clone()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:45
+msgid "SymbolMesh[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:45
+msgid "DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:47
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:51
+msgid "SymbolMesh"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:47
+msgid "CreateMeshData(Geometry geometry,Transform localorigin,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:49
+msgid "Vector3[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:49
+msgid "GenerateNormal(Vector3[] vertexs,Int32[] index,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:51
+msgid "CreateLineSingleMesh()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:53
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:53
+msgid "Dispose()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:57
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:59
+msgid "Boolean IsNeedNormal"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:62
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:73
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:84
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:95
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:106
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:117
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:128
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:139
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:150
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:161
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:172
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:66
+msgid "是否需要法线，默认为true"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:70
+msgid "Int32 SectionPointNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:77
+msgid "截面控制点的个数，越大越接近圆"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:81
+msgid "Single PipeRadius"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:88
+msgid "管线半径"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:92
+msgid "Single Sagment"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:99
+msgid "以该值作为一条管线的长度"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:103
+msgid "SpatialMaterial PipeMaterial"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:110
+msgid "管线的空间材质"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:114
+msgid "Texture PipeTexture"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:121
+msgid "管线的纹理"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:125
+msgid "Color PipeColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:132
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:143
+msgid "管线的颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:136
+msgid "Color SymbolColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:147
+msgid "Single Specular"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:154
+msgid "镜面反射值"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:158
+msgid "Single Roughness"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:165
+msgid "管线表面粗糙度"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:169
+msgid "Single Metallic"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:176
+msgid "管线的金属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:182
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:184
+msgid "Object Clone()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:190
+msgid "SymbolMesh[] DrawMesh(Feature feature,Transform localorigin,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:196
+msgid "SymbolMesh CreateMeshData(Geometry geometry,Transform localorigin,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:202
+msgid "Vector3[] GenerateNormal(Vector3[] vertexs,Int32[] index,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:208
+msgid "SymbolMesh CreateLineSingleMesh()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PipeSymbol.rst:214
+msgid "Void Dispose()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

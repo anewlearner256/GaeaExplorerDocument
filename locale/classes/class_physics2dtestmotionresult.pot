@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physics2dtestmotionresult.rst:10
+msgid "Physics2DTestMotionResult"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:20
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:20
+msgid ":ref:`collider<class_Physics2DTestMotionResult_property_collider>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:22
+#: ../classes/class_physics2dtestmotionresult.rst:26
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:22
+msgid ":ref:`collider_id<class_Physics2DTestMotionResult_property_collider_id>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:22
+#: ../classes/class_physics2dtestmotionresult.rst:26
+#: ../classes/class_physics2dtestmotionresult.rst:63
+#: ../classes/class_physics2dtestmotionresult.rst:85
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:24
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:24
+msgid ":ref:`collider_rid<class_Physics2DTestMotionResult_property_collider_rid>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:26
+msgid ":ref:`collider_shape<class_Physics2DTestMotionResult_property_collider_shape>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:28
+#: ../classes/class_physics2dtestmotionresult.rst:32
+#: ../classes/class_physics2dtestmotionresult.rst:34
+#: ../classes/class_physics2dtestmotionresult.rst:40
+#: ../classes/class_physics2dtestmotionresult.rst:42
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:28
+msgid ":ref:`collider_velocity<class_Physics2DTestMotionResult_property_collider_velocity>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:28
+#: ../classes/class_physics2dtestmotionresult.rst:32
+#: ../classes/class_physics2dtestmotionresult.rst:34
+#: ../classes/class_physics2dtestmotionresult.rst:40
+#: ../classes/class_physics2dtestmotionresult.rst:42
+#: ../classes/class_physics2dtestmotionresult.rst:97
+#: ../classes/class_physics2dtestmotionresult.rst:121
+#: ../classes/class_physics2dtestmotionresult.rst:133
+#: ../classes/class_physics2dtestmotionresult.rst:169
+#: ../classes/class_physics2dtestmotionresult.rst:181
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:30
+#: ../classes/class_physics2dtestmotionresult.rst:36
+#: ../classes/class_physics2dtestmotionresult.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:30
+msgid ":ref:`collision_depth<class_Physics2DTestMotionResult_property_collision_depth>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:30
+#: ../classes/class_physics2dtestmotionresult.rst:36
+#: ../classes/class_physics2dtestmotionresult.rst:38
+#: ../classes/class_physics2dtestmotionresult.rst:109
+#: ../classes/class_physics2dtestmotionresult.rst:145
+#: ../classes/class_physics2dtestmotionresult.rst:157
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:32
+msgid ":ref:`collision_normal<class_Physics2DTestMotionResult_property_collision_normal>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:34
+msgid ":ref:`collision_point<class_Physics2DTestMotionResult_property_collision_point>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:36
+msgid ":ref:`collision_safe_fraction<class_Physics2DTestMotionResult_property_collision_safe_fraction>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:38
+msgid ":ref:`collision_unsafe_fraction<class_Physics2DTestMotionResult_property_collision_unsafe_fraction>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:40
+msgid ":ref:`motion<class_Physics2DTestMotionResult_property_motion>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:42
+msgid ":ref:`motion_remainder<class_Physics2DTestMotionResult_property_motion_remainder>`"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:46
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:50
+msgid ":ref:`Object<class_Object>` **collider**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:53
+#: ../classes/class_physics2dtestmotionresult.rst:65
+#: ../classes/class_physics2dtestmotionresult.rst:75
+#: ../classes/class_physics2dtestmotionresult.rst:87
+#: ../classes/class_physics2dtestmotionresult.rst:99
+#: ../classes/class_physics2dtestmotionresult.rst:111
+#: ../classes/class_physics2dtestmotionresult.rst:123
+#: ../classes/class_physics2dtestmotionresult.rst:135
+#: ../classes/class_physics2dtestmotionresult.rst:147
+#: ../classes/class_physics2dtestmotionresult.rst:159
+#: ../classes/class_physics2dtestmotionresult.rst:171
+#: ../classes/class_physics2dtestmotionresult.rst:183
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:53
+msgid "get_collider()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:60
+msgid ":ref:`int<class_int>` **collider_id**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:63
+#: ../classes/class_physics2dtestmotionresult.rst:85
+#: ../classes/class_physics2dtestmotionresult.rst:97
+#: ../classes/class_physics2dtestmotionresult.rst:109
+#: ../classes/class_physics2dtestmotionresult.rst:121
+#: ../classes/class_physics2dtestmotionresult.rst:133
+#: ../classes/class_physics2dtestmotionresult.rst:145
+#: ../classes/class_physics2dtestmotionresult.rst:157
+#: ../classes/class_physics2dtestmotionresult.rst:169
+#: ../classes/class_physics2dtestmotionresult.rst:181
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:65
+msgid "get_collider_id()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:72
+msgid ":ref:`RID<class_RID>` **collider_rid**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:75
+msgid "get_collider_rid()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:82
+msgid ":ref:`int<class_int>` **collider_shape**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:87
+msgid "get_collider_shape()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:94
+msgid ":ref:`Vector2<class_Vector2>` **collider_velocity**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:99
+msgid "get_collider_velocity()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:106
+msgid ":ref:`float<class_float>` **collision_depth**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:111
+msgid "get_collision_depth()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:118
+msgid ":ref:`Vector2<class_Vector2>` **collision_normal**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:123
+msgid "get_collision_normal()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:130
+msgid ":ref:`Vector2<class_Vector2>` **collision_point**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:135
+msgid "get_collision_point()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:142
+msgid ":ref:`float<class_float>` **collision_safe_fraction**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:147
+msgid "get_collision_safe_fraction()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:154
+msgid ":ref:`float<class_float>` **collision_unsafe_fraction**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:159
+msgid "get_collision_unsafe_fraction()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:166
+msgid ":ref:`Vector2<class_Vector2>` **motion**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:171
+msgid "get_motion()"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:178
+msgid ":ref:`Vector2<class_Vector2>` **motion_remainder**"
+msgstr ""
+
+#: ../classes/class_physics2dtestmotionresult.rst:183
+msgid "get_motion_remainder()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

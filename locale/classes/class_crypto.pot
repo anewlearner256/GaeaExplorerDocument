@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_crypto.rst:10
+msgid "Crypto"
+msgstr ""
+
+#: ../classes/class_crypto.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_crypto.rst:14
+msgid "访问高级加密功能。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_crypto.rst:19
+msgid "Crypto类允许您访问GaaeExplorer中的一些更高级的加密功能。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:21
+msgid "目前，这包括生成加密安全的随机字节，RSA密钥和自签名X509证书生成，非对称密钥加密/解密以及签名/验证。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:52
+msgid "\\ **注意：**\\ 在HTML5导出中不可用。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:55
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_crypto.rst:58
+#: ../classes/class_crypto.rst:74
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_crypto.rst:58
+msgid ":ref:`constant_time_compare<class_Crypto_method_constant_time_compare>` **(** :ref:`PoolByteArray<class_PoolByteArray>` trusted, :ref:`PoolByteArray<class_PoolByteArray>` received **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:60
+#: ../classes/class_crypto.rst:62
+#: ../classes/class_crypto.rst:64
+#: ../classes/class_crypto.rst:70
+#: ../classes/class_crypto.rst:72
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_crypto.rst:60
+msgid ":ref:`decrypt<class_Crypto_method_decrypt>` **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` ciphertext **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:62
+msgid ":ref:`encrypt<class_Crypto_method_encrypt>` **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` plaintext **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:64
+msgid ":ref:`generate_random_bytes<class_Crypto_method_generate_random_bytes>` **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:66
+msgid ":ref:`CryptoKey<class_CryptoKey>`"
+msgstr ""
+
+#: ../classes/class_crypto.rst:66
+msgid ":ref:`generate_rsa<class_Crypto_method_generate_rsa>` **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:68
+msgid ":ref:`X509Certificate<class_X509Certificate>`"
+msgstr ""
+
+#: ../classes/class_crypto.rst:68
+msgid ":ref:`generate_self_signed_certificate<class_Crypto_method_generate_self_signed_certificate>` **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`String<class_String>` issuer_name=\"CN=myserver,O=myorganisation,C=IT\", :ref:`String<class_String>` not_before=\"20140101000000\", :ref:`String<class_String>` not_after=\"20340101000000\" **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:70
+msgid ":ref:`hmac_digest<class_Crypto_method_hmac_digest>` **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` key, :ref:`PoolByteArray<class_PoolByteArray>` msg **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:72
+msgid ":ref:`sign<class_Crypto_method_sign>` **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:74
+msgid ":ref:`verify<class_Crypto_method_verify>` **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`PoolByteArray<class_PoolByteArray>` signature, :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:78
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_crypto.rst:82
+msgid ":ref:`bool<class_bool>` **constant_time_compare** **(** :ref:`PoolByteArray<class_PoolByteArray>` trusted, :ref:`PoolByteArray<class_PoolByteArray>` received **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:84
+msgid "比较两个\\ :ref:`PoolByteArray<class_PoolByteArray>`\\ 是否相等，而不泄露时间信息，以防止计时攻击。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:86
+msgid "更多信息参阅\\ `这篇博文 <https://paragonie.com/blog/2015/11/preventing-timing-attacks-on-string-comparison-with-double-hmac-strategy>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:92
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **decrypt** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` ciphertext **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:94
+msgid "用提供的私人\\ ``key``\\ 解密给定的\\ ``ciphertext``\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:96
+msgid "\\ **注意：**\\ 所接受的密码文本的最大尺寸受到密钥大小限制。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:102
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **encrypt** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`PoolByteArray<class_PoolByteArray>` plaintext **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:104
+msgid "用提供的公钥 ``key`` 加密给定的\\ ``plaintext``\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:106
+msgid "\\ **注意：**\\ 接受的明文的最大尺寸受到密钥大小的限制。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:112
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **generate_random_bytes** **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:114
+msgid "生成具有给定 ``size`` 的加密安全随机字节的 :ref:`PoolByteArray<class_PoolByteArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:120
+msgid ":ref:`CryptoKey<class_CryptoKey>` **generate_rsa** **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:122
+msgid "生成可用于创建自签名证书并传递给\\ :ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>`\\ 的RSA :ref:`CryptoKey<class_CryptoKey>`\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:128
+msgid ":ref:`X509Certificate<class_X509Certificate>` **generate_self_signed_certificate** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`String<class_String>` issuer_name=\"CN=myserver,O=myorganisation,C=IT\", :ref:`String<class_String>` not_before=\"20140101000000\", :ref:`String<class_String>` not_after=\"20340101000000\" **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:130
+msgid "根据给定的\\ :ref:`CryptoKey<class_CryptoKey>`\\ 和\\ ``issuer_name``\\ 生成自签名的\\ :ref:`X509Certificate<class_X509Certificate>`\\ 。证书的有效性将由\\ ``not_before``\\ 和\\ ``not_after``\\ （第一个有效日期和最后一个有效日期）定义。 ``issuer_name``\\ 必须至少包含“ CN =“（通用名称，即域名），“ O =”（组织，即您的公司名称），“ C =“（国家，即2个字母的ISO） -3166组织所在国家/地区的代码）。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:132
+msgid "一个生成RSA密钥和X509自签名证书的小示例。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:146
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **hmac_digest** **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` key, :ref:`PoolByteArray<class_PoolByteArray>` msg **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:148
+msgid "使用 ``key`` 生成 ``msg`` 的 `HMAC <https://en.wikipedia.org/wiki/HMAC>`__ 摘要。 ``hash_type`` 参数是用于内部和外部哈希的哈希算法。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:150
+msgid "目前仅支持 :ref:`HashingContext.HASH_SHA256<class_HashingContext_constant_HASH_SHA256>` 和 :ref:`HashingContext.HASH_SHA1<class_HashingContext_constant_HASH_SHA1>`\\ 。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:156
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **sign** **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:158
+msgid "使用提供的私有\\ ``key``\\ 对类型为\\ ``hash_type``\\ 的给定的\\ ``hash``\\ 进行签名。"
+msgstr ""
+
+#: ../classes/class_crypto.rst:164
+msgid ":ref:`bool<class_bool>` **verify** **(** :ref:`HashType<enum_HashingContext_HashType>` hash_type, :ref:`PoolByteArray<class_PoolByteArray>` hash, :ref:`PoolByteArray<class_PoolByteArray>` signature, :ref:`CryptoKey<class_CryptoKey>` key **)**"
+msgstr ""
+
+#: ../classes/class_crypto.rst:166
+msgid "对照提供的公共\\ ``key``\\ 验证类型为\\ ``hash_type``\\ 的\\ ``hash_type``\\ 的给定\\ ``签名``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

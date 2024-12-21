@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_websocketmultiplayerpeer.rst:10
+msgid "WebSocketMultiplayerPeer"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:12
+msgid "**Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:14
+msgid "**Inherited By:** :ref:`WebSocketClient<class_WebSocketClient>`, :ref:`WebSocketServer<class_WebSocketServer>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:16
+msgid "WebSocket服务器和客户端的基类。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:21
+msgid "WebSocket服务器和客户端的基类，允许它们作为\\ :ref:`MultiplayerAPI<class_MultiplayerAPI>`\\ 的网络对等体使用。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:27
+msgid "refuse_new_connections"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:27
+msgid "``false`` (overrides :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer_property_refuse_new_connections>`)"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:29
+msgid ":ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:29
+msgid "transfer_mode"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:29
+msgid "``2`` (overrides :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer_property_transfer_mode>`)"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:33
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:36
+msgid ":ref:`WebSocketPeer<class_WebSocketPeer>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:36
+msgid ":ref:`get_peer<class_WebSocketMultiplayerPeer_method_get_peer>` **(** :ref:`int<class_int>` peer_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:38
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:38
+msgid ":ref:`set_buffers<class_WebSocketMultiplayerPeer_method_set_buffers>` **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)**"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:42
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:46
+msgid "**peer_packet** **(** :ref:`int<class_int>` peer_source **)**"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:48
+msgid "当收到来自对等体的数据包时触发的信号。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:50
+msgid "\\ **注意：** 这个信号只有在客户端或服务器被配置为使用GaaeExplorer多人游戏API时才会发出。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:53
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:57
+msgid ":ref:`WebSocketPeer<class_WebSocketPeer>` **get_peer** **(** :ref:`int<class_int>` peer_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:59
+msgid "返回与给定\\ ``peer_id``\\ 关联的\\ :ref:`WebSocketPeer<class_WebSocketPeer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **set_buffers** **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)**"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:67
+msgid "配置该WebSocket对等体的缓冲区大小。默认值可以在项目设置中的\\ ``network/limits``\\ 下指定。对于服务器，数值是指每个连接的对等体。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:69
+msgid "前两个参数定义了输入缓冲区的大小和排队数据包的限制，后两个参数定义了输出缓冲区。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:71
+msgid "缓冲区的大小以KiB为单位，所以\\ ``4=2^12=4096字节``\\ 。所有的参数都将被四舍五入到最接近的2的幂。"
+msgstr ""
+
+#: ../classes/class_websocketmultiplayerpeer.rst:73
+msgid "\\ **注意：** HTML5输出只使用输入缓冲区，因为输出缓冲区是由浏览器管理的。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:4
+msgid "使用代码移动玩家"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:6
+msgid "该轮到编写代码了！我们将使用先前创建的输入动作来移动角色。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:8
+msgid "右键单击 ``Player`` 节点，选择\\\\ *附加脚本*\\\\ 为其添加一个新脚本。在弹出窗口中，先将\\\\ *模板*\\\\ 设置为 *空*\\\\ ，后按下\\\\ *创建*\\\\ 按钮 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:10
+msgid "|image0|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:348
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:348
+msgid "image0"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:12
+msgid "先定义类的属性。我们将定义移动速率（标量）、重力加速度，以及一个我们将用来移动角色的速度（向量）。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:43
+msgid "这是一个移动物体的常见属性。 ``target_velocity`` 是一个组合了速度和方向的 :\"ref:`3D 向量 <class_Vector3>`。在这里，我们将其定义为属性，因为我们希望在帧之间更新并重用其值。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:47
+msgid "这些值与二维代码完全不同，因为距离以米为单位。在 2D 中，一千个单位（像素）可能只对应于屏幕宽度的一半，而在 3D 中，它是一千米。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:49
+msgid "那么来编写移动的代码。首先在 ``_physics_process()`` 中使用全局 ``Input`` 对象来计算输入方向向量。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:98
+msgid "在这里，我们将使用 ``_physics_process()`` 虚函数进行所有计算。与 ``_process()`` 一样，它允许你每帧更新节点，但它是专门为物理相关代码设计的，例如运动学物体或刚体。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:102
+msgid "To learn more about the difference between ``_process()`` and ``_physics_process()``, see :ref:`doc_idle_and_physics_processing`."
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:105
+msgid "我们首先将一个 ``direction`` 变量初始化为 ``Vector3.ZERO``\\\\ 。然后，我们检查玩家是否正在按下一个或多个 ``move_*`` 输入，并相应地更新矢量的 ``x`` 和 ``z`` 分量。它们对应于地平面的轴。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:107
+msgid "这四个条件给了我们八个可能性和八个可能的方向。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:109
+msgid "如果玩家同时按下 W 键 和 D 键，这个向量长度大约为 ``1.4``\\\\ \"。但如果他们只按一个键，则它的长度将为 ``1``\\\\ \"。我们希望该向量的长度保持一致，而不是在对角线上移动得更快。为此，我们需调用其 ``normalize()`` 方法。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:134
+msgid "在这里，我们只在方向的长度大于零的情况下对向量进行归一化，因为玩家正在按某个方向键。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:136
+msgid "在这种情况下，我们也会得到 *Pivot* 节点并调用其 ``look_at()`` 方法。该方法接\"受一个全局坐标系中要注视的空间位置和上方向。在这种情况下，我们可以使用 ``Vector3.UP`` 常量。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:140
+msgid "节点的局部坐标，如 ``position``\\\\ ，是相对于它们的父节点而言的。全局坐标，比如 ``global_position``\\\\ ，是相对于你在视口中可以看到的世界主轴而言的。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:142
+msgid "在 3D 中，包含节点位置的属性是 ``position``\\\\ 。加上 ``direction`` 之后，我们就得到了离 *Player* 一米远的观察位置。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:144
+msgid "然后，更新速度。需要分别计算地面速度和下降速度。请确保 tab 缩进，使行在 ``_physics_process()`` 函数内部，而不在刚编写的条件外部。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:178
+msgid "对于垂直速度，在每一帧中减去下降加速度乘以增量时间（delta time，每个帧之间的时间，也称帧时间）。这条代码将使角色在没有在地板上或是碰撞地板的情况下，每帧都会下降。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:180
+msgid "This line of code will cause our character to fall in every frame. This may seem strange if it's already on the floor. But we have to do this for the character to collide with the ground every frame."
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:184
+msgid "物理引擎只有在运动和碰撞发生的情况下才能检测到在某一帧中与墙壁、地板或其他物体的相互作用。我们将在后面使用这个属性来编写跳跃的代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:186
+msgid "在最后一行，我们调用了 ``CharacterBody3D.move_and_slide()``\\\\ ，这是 ``CharacterBody3D`` 类的一个强大方法，可以让你顺利地移动一个角色。如果它在运动过程中撞到了墙，引擎会试着为你把它进行平滑处理。它使用的是 :ref:`CharacterBody3D <class_CharacterBody3D>` 自带的\\\\ *速度*\\\\ 值\""
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:189
+msgid "The function takes two parameters: our velocity and the up direction. It moves the character and returns a leftover velocity after applying collisions. When hitting the floor or a wall, the function will reduce or reset the speed in that direction from you. In our case, storing the function's returned value prevents the character from accumulating vertical momentum, which could otherwise get so big the character would move through the ground slab after a while."
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:196
+msgid "这就是你在地面上移动角色所需的所有代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:198
+msgid "下面是供参考的完整 ``Player.gd`` 代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:289
+msgid "测试玩家的移动"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:291
+msgid "将玩家放在 ``Main`` 场景中进行测试，这时，需要先实例化玩家，然后添加相机。 3D 与 2D 不同，如果没有添加摄像机，你将无法看到任何物体。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:293
+msgid "保存 ``Player`` 场景，然后打开 ``Main`` 场景。可以点击编辑器顶部的 *Main* 选项卡切换。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:295
+msgid "|image1|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:349
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:349
+msgid "image1"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:297
+msgid "如果场景之前已关闭，请转到 *文件系统* 面板，双击 ``main.tscn`` 文件重新打开。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:299
+msgid "要实例化 ``Player`` ，可右键单击 ``Main`` 节点，然后选择 *实例化子场景* 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:301
+msgid "|image2|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:350
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:350
+msgid "image2"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:303
+msgid "在弹出窗口中，双击 ``player.tscn`` ，角色将显示在视窗的中心。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:306
+msgid "添加摄像机"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:308
+msgid "接下来我们来添加摄像机。和 *Player* 的 *Pivot* 类似，我们要创建一个基本的架构。再次右键单击 *Main* 节点，这次选择\\\\ *添加子节点*\\\\ 。新建一个 :ref:`Marker3D <class_Marker3D>`\\\\ ，命名为 *CameraPivot*\\\\ ，然后添加一个 :ref:`Camera3D <class_Camera3D>` 节点作为其子项。你的场景树应该看起来像这样。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:310
+msgid "|image3|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:351
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:351
+msgid "image3"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:312
+msgid "请注意在选中 *Camera* 时，左上角会出现一个\\\\ *预览*\\\\ 复选框。你可以单击预览游戏中的摄像机投影视角。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:314
+msgid "|image4|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:352
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:352
+msgid "image4"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:316
+msgid "我们要使用 *Pivot* 来旋转摄像机，让他像被吊车吊起来一样。让我们先拆分 3D 视图，以便在进行自由移动的同时观察摄像机拍摄到的内容。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:318
+msgid "在视口上方的工具栏中，单击\\\\ *视图*\\\\ ，然后单击\\\\ *2 个视口*\\\\ 。你也可以按 :kbd:`Ctrl + 2`\\\\ （macOS 上则为 :kbd:`Cmd + 2`\\\\ ）。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:320
+msgid "|image5|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:353
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:353
+msgid "image5"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:322
+msgid "在下面那个视图中，选中 :ref:`Camera3D <class_Camera3D>`\\\\ ，然后勾选预览复选\" \"框打开摄像机预览。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:325
+msgid "|image6|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:354
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:354
+msgid "image6"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:327
+msgid "在上面那个视图中，将摄像机沿 Z 轴（蓝色）移动 ``19`` 个单位。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:329
+msgid "|image7|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:355
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:355
+msgid "image7"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:331
+msgid "接下来就是关键。选中 *CameraPivot* 并将其围绕 X 周旋转 ``-45`` 度（使用红色的圆圈）。你会看到摄像机就像是被连上了吊车一样移动。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:333
+msgid "|image8|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:356
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:356
+msgid "image8"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:335
+msgid "你可以按 :kbd:`F6` 运行场景，然后按方向键来移动角色。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:337
+msgid "|image9|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:357
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:357
+msgid "image9"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:339
+msgid "因为透视投影的缘故，我们会在角色的周围看到一些空白区域。在这个游戏中，我们要使用的是正交投影，从而更好地展示游戏区域，让玩家更易于识别距离。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:341
+msgid "再次选中 *Camera*\\\\ ，然后在\\\\ *检查器* 中将 *Projection*\\\\ （投影）设为 *Orthogonal*\\\\ （正交）、将 *Size*\\\\ （大小）设为 ``19``\\\\ 。角色现在看起来应该更加扁平，背景应该被地面充满。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:343
+msgid "|image10|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:358
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:358
+msgid "image10"
+msgstr ""
+
+#: ../getting_started/first_3d_game/03.player_movement_code.rst:345
+msgid "With that, we have both player movement and the view in place. Next, we will work on the monsters."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

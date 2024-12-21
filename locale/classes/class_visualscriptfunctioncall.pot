@@ -1,0 +1,388 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptfunctioncall.rst:10
+msgid "VisualScriptFunctionCall"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:14
+msgid "用于调用函数的可视化脚本节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:19
+msgid "``VisualScriptFunctionCall``\\ 是在你添加或拖放一个函数到Visual Script图形中时创建。它允许对调用的参数进行调整，例如，函数被调用的对象。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:25
+#: ../classes/class_visualscriptfunctioncall.rst:27
+#: ../classes/class_visualscriptfunctioncall.rst:33
+#: ../classes/class_visualscriptfunctioncall.rst:39
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:25
+msgid ":ref:`base_script<class_VisualScriptFunctionCall_property_base_script>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:27
+msgid ":ref:`base_type<class_VisualScriptFunctionCall_property_base_type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:27
+#: ../classes/class_visualscriptfunctioncall.rst:121
+msgid "``\"Object\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:29
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:29
+msgid ":ref:`basic_type<class_VisualScriptFunctionCall_property_basic_type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:31
+msgid ":ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:31
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:31
+#: ../classes/class_visualscriptfunctioncall.rst:37
+#: ../classes/class_visualscriptfunctioncall.rst:151
+#: ../classes/class_visualscriptfunctioncall.rst:197
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:33
+msgid ":ref:`function<class_VisualScriptFunctionCall_property_function>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:33
+#: ../classes/class_visualscriptfunctioncall.rst:167
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:35
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:35
+msgid ":ref:`node_path<class_VisualScriptFunctionCall_property_node_path>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:37
+msgid ":ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:37
+msgid ":ref:`rpc_call_mode<class_VisualScriptFunctionCall_property_rpc_call_mode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:39
+msgid ":ref:`singleton<class_VisualScriptFunctionCall_property_singleton>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:41
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:41
+msgid ":ref:`use_default_args<class_VisualScriptFunctionCall_property_use_default_args>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:43
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:43
+msgid ":ref:`validate<class_VisualScriptFunctionCall_property_validate>`"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:43
+#: ../classes/class_visualscriptfunctioncall.rst:241
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:47
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:61
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:63
+msgid "**CALL_MODE_SELF** = **0** --- 将在此 :ref:`Object<class_Object>` 上调用该方法。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:65
+msgid "**CALL_MODE_NODE_PATH** = **1** --- 该方法将在场景树中的指定 :ref:`Node<class_Node>` 上调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:67
+msgid "**CALL_MODE_INSTANCE** = **2** --- 该方法将在具有指定类型和脚本的实例化节点上调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:69
+msgid "**CALL_MODE_BASIC_TYPE** = **3** --- 该方法将在 GDScript 基本类型上调用，例如 :ref:`Vector2<class_Vector2>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:71
+msgid "**CALL_MODE_SINGLETON** = **4** --- 该方法将在单例上调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:87
+msgid "enum **RPCCallMode**:"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:89
+msgid "**RPC_DISABLED** = **0** --- 该方法将被本地调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:91
+msgid "**RPC_RELIABLE** = **1** --- 该方法将被远程调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:93
+msgid "**RPC_UNRELIABLE** = **2** --- 该方法将使用不可靠的协议远程调用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:95
+msgid "**RPC_RELIABLE_TO_ID** = **3** --- 该方法将被远程调用，用于给定的对等体。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:97
+msgid "**RPC_UNRELIABLE_TO_ID** = **4** --- 该方法将被远程调用，用于给定的对等体，使用一个不可靠的协议。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:100
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:104
+msgid ":ref:`String<class_String>` **base_script**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:107
+#: ../classes/class_visualscriptfunctioncall.rst:123
+#: ../classes/class_visualscriptfunctioncall.rst:137
+#: ../classes/class_visualscriptfunctioncall.rst:153
+#: ../classes/class_visualscriptfunctioncall.rst:169
+#: ../classes/class_visualscriptfunctioncall.rst:183
+#: ../classes/class_visualscriptfunctioncall.rst:199
+#: ../classes/class_visualscriptfunctioncall.rst:213
+#: ../classes/class_visualscriptfunctioncall.rst:227
+#: ../classes/class_visualscriptfunctioncall.rst:243
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:107
+msgid "set_base_script(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:109
+#: ../classes/class_visualscriptfunctioncall.rst:125
+#: ../classes/class_visualscriptfunctioncall.rst:139
+#: ../classes/class_visualscriptfunctioncall.rst:155
+#: ../classes/class_visualscriptfunctioncall.rst:171
+#: ../classes/class_visualscriptfunctioncall.rst:185
+#: ../classes/class_visualscriptfunctioncall.rst:201
+#: ../classes/class_visualscriptfunctioncall.rst:215
+#: ../classes/class_visualscriptfunctioncall.rst:229
+#: ../classes/class_visualscriptfunctioncall.rst:245
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:109
+msgid "get_base_script()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:112
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>` 设置为 :ref:`CALL_MODE_INSTANCE<class_VisualScriptFunctionCall_constant_CALL_MODE_INSTANCE>` 时使用的脚本。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:118
+msgid ":ref:`String<class_String>` **base_type**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:121
+#: ../classes/class_visualscriptfunctioncall.rst:151
+#: ../classes/class_visualscriptfunctioncall.rst:167
+#: ../classes/class_visualscriptfunctioncall.rst:197
+#: ../classes/class_visualscriptfunctioncall.rst:241
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:123
+msgid "set_base_type(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:125
+msgid "get_base_type()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:128
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>` 设置为 :ref:`CALL_MODE_INSTANCE<class_VisualScriptFunctionCall_constant_CALL_MODE_INSTANCE>` 时要使用的基本类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:134
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **basic_type**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:137
+msgid "set_basic_type(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:139
+msgid "get_basic_type()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:142
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>` 设置为 :ref:`CALL_MODE_BASIC_TYPE<class_VisualScriptFunctionCall_constant_CALL_MODE_BASIC_TYPE>` 时使用的类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:148
+msgid ":ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>` **call_mode**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:153
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:155
+msgid "get_call_mode()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:158
+msgid "``call_mode`` 决定了方法将被调用的目标对象。参阅\\ :ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`\\ 的选项。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:164
+msgid ":ref:`String<class_String>` **function**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:169
+msgid "set_function(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:171
+msgid "get_function()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:174
+msgid "要调用的函数的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:180
+msgid ":ref:`NodePath<class_NodePath>` **node_path**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:183
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:185
+msgid "get_base_path()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:188
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>` 设置为 :ref:`CALL_MODE_NODE_PATH<class_VisualScriptFunctionCall_constant_CALL_MODE_NODE_PATH>` 时使用的节点路径。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:194
+msgid ":ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>` **rpc_call_mode**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:199
+msgid "set_rpc_call_mode(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:201
+msgid "get_rpc_call_mode()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:204
+msgid "RPC 调用的模式。有关更多详细信息，请参阅 :ref:`Node.rpc<class_Node_method_rpc>`\\ ，有关可用选项，请参阅 :ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:210
+msgid ":ref:`String<class_String>` **singleton**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:213
+msgid "set_singleton(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:215
+msgid "get_singleton()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:218
+msgid "调用方法的单例。当 :ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>` 设置为 :ref:`CALL_MODE_SINGLETON<class_VisualScriptFunctionCall_constant_CALL_MODE_SINGLETON>` 时使用。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:224
+msgid ":ref:`int<class_int>` **use_default_args**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:227
+msgid "set_use_default_args(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:229
+msgid "get_use_default_args()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:232
+msgid "调用函数时将使用的默认参数的数量。不能大于方法声明中可用默认参数的数量。"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:238
+msgid ":ref:`bool<class_bool>` **validate**"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:243
+msgid "set_validate(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:245
+msgid "get_validate()"
+msgstr ""
+
+#: ../classes/class_visualscriptfunctioncall.rst:248
+msgid "如果\\ ``false``\\ ，调用错误将被忽略，例如参数数量错误。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

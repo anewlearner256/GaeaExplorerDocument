@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_inputeventjoypadbutton.rst:10
+msgid "InputEventJoypadButton"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:12
+msgid "**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:14
+msgid "游戏手柄按钮的输入事件。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:19
+msgid "游戏手柄按钮的输入事件类型。对于游戏手柄模拟摇杆和操纵杆，请参阅 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\\ 。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:24
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:30
+msgid ":ref:`button_index<class_InputEventJoypadButton_property_button_index>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:30
+#: ../classes/class_inputeventjoypadbutton.rst:45
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:32
+msgid ":ref:`pressed<class_InputEventJoypadButton_property_pressed>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:32
+#: ../classes/class_inputeventjoypadbutton.rst:61
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:34
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:34
+msgid ":ref:`pressure<class_InputEventJoypadButton_property_pressure>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:34
+#: ../classes/class_inputeventjoypadbutton.rst:77
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:38
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:42
+msgid ":ref:`int<class_int>` **button_index**"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:45
+#: ../classes/class_inputeventjoypadbutton.rst:61
+#: ../classes/class_inputeventjoypadbutton.rst:77
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:47
+#: ../classes/class_inputeventjoypadbutton.rst:63
+#: ../classes/class_inputeventjoypadbutton.rst:79
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:47
+msgid "set_button_index(value)"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:49
+#: ../classes/class_inputeventjoypadbutton.rst:65
+#: ../classes/class_inputeventjoypadbutton.rst:81
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:49
+msgid "get_button_index()"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:52
+msgid "按钮标识符。 :ref:`JoystickList<enum_@GlobalScope_JoystickList>` 按钮常量之一。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:58
+msgid ":ref:`bool<class_bool>` **pressed**"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:63
+msgid "set_pressed(value)"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:65
+msgid "is_pressed()"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:68
+msgid "如果 ``true``\\ ，按钮的状态被按下。如果\\ ``false``\\ ，按钮的状态被释放。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:74
+msgid ":ref:`float<class_float>` **pressure**"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:79
+msgid "set_pressure(value)"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:81
+msgid "get_pressure()"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadbutton.rst:84
+msgid "如果控制器支持，则表示用户用手指在按钮上施加的压力。范围从 ``0`` 到 ``1``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

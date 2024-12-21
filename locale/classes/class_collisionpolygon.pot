@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_collisionpolygon.rst:10
+msgid "CollisionPolygon"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:14
+msgid "仅限编辑器的类，用于在3D空间中定义碰撞多边形。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:19
+msgid "允许在选定平面上编辑碰撞多边形的顶点。也可以设置垂直于该平面的深度。此类仅在编辑器中可用。它不会在运行时出现在场景树中。为游戏创建一个形状 :ref:`Shape<class_Shape>`\\ 。在游戏过程中修改的属性将不起作用。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:25
+#: ../classes/class_collisionpolygon.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:25
+msgid ":ref:`depth<class_CollisionPolygon_property_depth>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:25
+#: ../classes/class_collisionpolygon.rst:42
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:27
+msgid ":ref:`disabled<class_CollisionPolygon_property_disabled>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:27
+#: ../classes/class_collisionpolygon.rst:58
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:29
+msgid ":ref:`margin<class_CollisionPolygon_property_margin>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:29
+#: ../classes/class_collisionpolygon.rst:74
+msgid "``0.04``"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:31
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:31
+msgid ":ref:`polygon<class_CollisionPolygon_property_polygon>`"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:31
+#: ../classes/class_collisionpolygon.rst:90
+msgid "``PoolVector2Array(  )``"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:35
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:39
+msgid ":ref:`float<class_float>` **depth**"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:42
+#: ../classes/class_collisionpolygon.rst:58
+#: ../classes/class_collisionpolygon.rst:74
+#: ../classes/class_collisionpolygon.rst:90
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:44
+#: ../classes/class_collisionpolygon.rst:60
+#: ../classes/class_collisionpolygon.rst:76
+#: ../classes/class_collisionpolygon.rst:92
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:44
+msgid "set_depth(value)"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:46
+#: ../classes/class_collisionpolygon.rst:62
+#: ../classes/class_collisionpolygon.rst:78
+#: ../classes/class_collisionpolygon.rst:94
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:46
+msgid "get_depth()"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:49
+msgid "产生的碰撞在垂直于其多边形的任一方向上延伸的长度。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:55
+msgid ":ref:`bool<class_bool>` **disabled**"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:60
+msgid "set_disabled(value)"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:62
+msgid "is_disabled()"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:65
+msgid "如果\\ ``true``\\ ，将不会产生碰撞。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:71
+msgid ":ref:`float<class_float>` **margin**"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:76
+msgid "set_margin(value)"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:78
+msgid "get_margin()"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:81
+msgid "生成的\\ :ref:`Shape<class_Shape>`\\ 的碰撞边。参阅\\ :ref:`Shape.margin<class_Shape_property_margin>`\\ 获取更多细节。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:87
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **polygon**"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:92
+msgid "set_polygon(value)"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:94
+msgid "get_polygon()"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:97
+msgid "定义多边形的顶点数组。"
+msgstr ""
+
+#: ../classes/class_collisionpolygon.rst:99
+msgid "\\ **注意：**\\ 返回的值是原始值的副本。改变返回值的大小或属性的方法不会影响原始多边形。要更改多边形的属性，请将其分配给临时变量并进行更改，然后再重新分配\\ ``polygon``\\ 成员。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

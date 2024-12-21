@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:4
+msgid "Using the ArrayMesh"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:6
+msgid "This tutorial will present the basics of using an :ref:`ArrayMesh <class_arraymesh>`."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:8
+msgid "To do so, we will use the function :ref:`add_surface_from_arrays() <class_ArrayMesh_method_add_surface_from_arrays>`, which takes up to four parameters. The first two are required, while the second two are optional."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:11
+msgid "The first parameter is the ``PrimitiveType``, an OpenGL concept that instructs the GPU how to arrange the primitive based on the vertices given, i.e. whether they represent triangles, lines, points, etc. See :ref:`Mesh.PrimitiveType <enum_Mesh_PrimitiveType>` for the options available."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:15
+msgid "The second parameter, ``arrays``, is the actual Array that stores the mesh information. The array is a normal GaaeExplorer array that is constructed with empty brackets ``[]``. It stores a ``Pool**Array`` (e.g. PoolVector3Array, PoolIntArray, etc.) for each type of information that will be used to build the surface."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:19
+msgid "The possible elements of ``arrays`` are listed below, together with the position they must have within ``arrays``. See also :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:29
+msgid "Index"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:30
+msgid "Mesh.ArrayType Enum"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:31
+msgid "Array type"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:33
+msgid "0"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:34
+msgid "``ARRAY_VERTEX``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:35
+msgid ":ref:`PoolVector3Array <class_PoolVector3Array>` or :ref:`PoolVector2Array <class_PoolVector2Array>`"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:37
+msgid "1"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:38
+msgid "``ARRAY_NORMAL``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:39
+msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:41
+msgid "2"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:42
+msgid "``ARRAY_TANGENT``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:43
+msgid ":ref:`PoolRealArray <class_PoolRealArray>` of groups of 4 floats. First 3 floats determine the tangent, and the last the binormal direction as -1 or 1."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:46
+msgid "3"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:47
+msgid "``ARRAY_COLOR``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:48
+msgid ":ref:`PoolColorArray <class_PoolColorArray>`"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:50
+msgid "4"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:51
+msgid "``ARRAY_TEX_UV``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:52
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:56
+msgid ":ref:`PoolVector2Array <class_PoolVector2Array>` or :ref:`PoolVector3Array <class_PoolVector3Array>`"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:54
+msgid "5"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:55
+msgid "``ARRAY_TEX_UV2``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:58
+msgid "6"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:59
+msgid "``ARRAY_BONES``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:60
+msgid ":ref:`PoolRealArray <class_PoolRealArray>` of groups of 4 floats or :ref:`PoolIntArray <class_PoolIntArray>` of groups of 4 ints. Each group lists indexes of 4 bones that affects a given vertex."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:62
+msgid "7"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:63
+msgid "``ARRAY_WEIGHTS``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:64
+msgid ":ref:`PoolRealArray <class_PoolRealArray>` of groups of 4 floats. Each float lists the amount of weight an determined bone on ``ARRAY_BONES`` has on a given vertex."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:66
+msgid "8"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:67
+msgid "``ARRAY_INDEX``"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:68
+msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:70
+msgid "The array of vertices (at index 0) is always required. The index array is optional and will only be used if included. We won't use it in this tutorial."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:72
+msgid "All the other arrays carry information about the vertices. They are also optional and will only be used if included. Some of these arrays (e.g. ``ARRAY_COLOR``) use one entry per vertex to provide extra information about vertices. They must have the same size as the vertex array. Other arrays (e.g. ``ARRAY_TANGENT``) use four entries to describe a single vertex. These must be exactly four times larger than the vertex array."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:76
+msgid "For normal usage, the last two parameters in :ref:`add_surface_from_arrays() <class_arraymesh_method_add_surface_from_arrays>` are typically left empty."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:79
+msgid "ArrayMesh"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:81
+msgid "In the editor, create a :ref:`MeshInstance <class_meshinstance>` and add an :ref:`ArrayMesh <class_arraymesh>` to it in the Inspector. Normally, adding an ArrayMesh in the editor is not useful, but in this case it allows us to access the ArrayMesh from code without creating one."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:85
+msgid "Next, add a script to the MeshInstance."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:87
+msgid "Under ``_ready()``, create a new Array."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:94
+msgid "This will be the array that we keep our surface information in - it will hold all the arrays of data that the surface needs. GaaeExplorer will expect it to be of size ``Mesh.ARRAY_MAX``, so resize it accordingly."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:104
+msgid "Next create the arrays for each data type you will use."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:114
+msgid "Once you have filled your data arrays with your geometry you can create a mesh by adding each array to ``surface_array`` and then committing to the mesh."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:127
+msgid "In this example, we used ``Mesh.PRIMITIVE_TRIANGLES``, but you can use any primitive type available from mesh."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:130
+msgid "Put together, the full code looks like:"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:161
+msgid "The code that goes in the middle can be whatever you want. Below we will present some example code for generating a sphere."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:165
+msgid "Generating geometry"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:167
+msgid "Here is sample code for generating a sphere. Although the code is presented in GDScript, there is nothing GaaeExplorer specific about the approach to generating it. This implementation has nothing in particular to do with ArrayMeshes and is just a generic approach to generating a sphere. If you are having trouble understanding it or want to learn more about procedural geometry in general, you can use any tutorial that you find online."
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:235
+msgid "Saving"
+msgstr ""
+
+#: ../tutorials/3d/procedural_geometry/arraymesh.rst:237
+msgid "Finally, we can use the :ref:`ResourceSaver <class_resourcesaver>` class to save the ArrayMesh. This is useful when you want to generate a mesh and then use it later without having to re-generate it."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

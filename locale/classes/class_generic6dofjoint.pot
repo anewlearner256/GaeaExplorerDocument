@@ -1,0 +1,1936 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_generic6dofjoint.rst:10
+msgid "Generic6DOFJoint"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:12
+msgid "**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:14
+msgid "通用的6度自由度关节可以通过锁定某些轴的旋转或平移来实现各种关节类型。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:19
+msgid "前3个DOF轴是线性轴，代表物体的平移，后3个DOF轴代表角运动。每个轴可以被锁定，也可以被限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:25
+#: ../classes/class_generic6dofjoint.rst:29
+#: ../classes/class_generic6dofjoint.rst:31
+#: ../classes/class_generic6dofjoint.rst:33
+#: ../classes/class_generic6dofjoint.rst:35
+#: ../classes/class_generic6dofjoint.rst:37
+#: ../classes/class_generic6dofjoint.rst:39
+#: ../classes/class_generic6dofjoint.rst:41
+#: ../classes/class_generic6dofjoint.rst:45
+#: ../classes/class_generic6dofjoint.rst:47
+#: ../classes/class_generic6dofjoint.rst:49
+#: ../classes/class_generic6dofjoint.rst:51
+#: ../classes/class_generic6dofjoint.rst:53
+#: ../classes/class_generic6dofjoint.rst:55
+#: ../classes/class_generic6dofjoint.rst:57
+#: ../classes/class_generic6dofjoint.rst:61
+#: ../classes/class_generic6dofjoint.rst:63
+#: ../classes/class_generic6dofjoint.rst:65
+#: ../classes/class_generic6dofjoint.rst:67
+#: ../classes/class_generic6dofjoint.rst:69
+#: ../classes/class_generic6dofjoint.rst:71
+#: ../classes/class_generic6dofjoint.rst:75
+#: ../classes/class_generic6dofjoint.rst:77
+#: ../classes/class_generic6dofjoint.rst:81
+#: ../classes/class_generic6dofjoint.rst:83
+#: ../classes/class_generic6dofjoint.rst:87
+#: ../classes/class_generic6dofjoint.rst:89
+#: ../classes/class_generic6dofjoint.rst:91
+#: ../classes/class_generic6dofjoint.rst:95
+#: ../classes/class_generic6dofjoint.rst:97
+#: ../classes/class_generic6dofjoint.rst:99
+#: ../classes/class_generic6dofjoint.rst:103
+#: ../classes/class_generic6dofjoint.rst:105
+#: ../classes/class_generic6dofjoint.rst:107
+#: ../classes/class_generic6dofjoint.rst:111
+#: ../classes/class_generic6dofjoint.rst:113
+#: ../classes/class_generic6dofjoint.rst:115
+#: ../classes/class_generic6dofjoint.rst:119
+#: ../classes/class_generic6dofjoint.rst:121
+#: ../classes/class_generic6dofjoint.rst:123
+#: ../classes/class_generic6dofjoint.rst:125
+#: ../classes/class_generic6dofjoint.rst:127
+#: ../classes/class_generic6dofjoint.rst:131
+#: ../classes/class_generic6dofjoint.rst:133
+#: ../classes/class_generic6dofjoint.rst:135
+#: ../classes/class_generic6dofjoint.rst:137
+#: ../classes/class_generic6dofjoint.rst:139
+#: ../classes/class_generic6dofjoint.rst:143
+#: ../classes/class_generic6dofjoint.rst:145
+#: ../classes/class_generic6dofjoint.rst:147
+#: ../classes/class_generic6dofjoint.rst:149
+#: ../classes/class_generic6dofjoint.rst:153
+#: ../classes/class_generic6dofjoint.rst:155
+#: ../classes/class_generic6dofjoint.rst:159
+#: ../classes/class_generic6dofjoint.rst:161
+#: ../classes/class_generic6dofjoint.rst:165
+#: ../classes/class_generic6dofjoint.rst:167
+#: ../classes/class_generic6dofjoint.rst:169
+#: ../classes/class_generic6dofjoint.rst:173
+#: ../classes/class_generic6dofjoint.rst:175
+#: ../classes/class_generic6dofjoint.rst:177
+#: ../classes/class_generic6dofjoint.rst:181
+#: ../classes/class_generic6dofjoint.rst:183
+#: ../classes/class_generic6dofjoint.rst:185
+#: ../classes/class_generic6dofjoint.rst:189
+#: ../classes/class_generic6dofjoint.rst:191
+#: ../classes/class_generic6dofjoint.rst:204
+#: ../classes/class_generic6dofjoint.rst:206
+#: ../classes/class_generic6dofjoint.rst:208
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:25
+msgid ":ref:`angular_limit_x/damping<class_Generic6DOFJoint_property_angular_limit_x/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:25
+#: ../classes/class_generic6dofjoint.rst:41
+#: ../classes/class_generic6dofjoint.rst:57
+#: ../classes/class_generic6dofjoint.rst:115
+#: ../classes/class_generic6dofjoint.rst:127
+#: ../classes/class_generic6dofjoint.rst:139
+#: ../classes/class_generic6dofjoint.rst:364
+#: ../classes/class_generic6dofjoint.rst:486
+#: ../classes/class_generic6dofjoint.rst:606
+#: ../classes/class_generic6dofjoint.rst:1038
+#: ../classes/class_generic6dofjoint.rst:1134
+#: ../classes/class_generic6dofjoint.rst:1230
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:27
+#: ../classes/class_generic6dofjoint.rst:43
+#: ../classes/class_generic6dofjoint.rst:59
+#: ../classes/class_generic6dofjoint.rst:73
+#: ../classes/class_generic6dofjoint.rst:79
+#: ../classes/class_generic6dofjoint.rst:85
+#: ../classes/class_generic6dofjoint.rst:93
+#: ../classes/class_generic6dofjoint.rst:101
+#: ../classes/class_generic6dofjoint.rst:109
+#: ../classes/class_generic6dofjoint.rst:117
+#: ../classes/class_generic6dofjoint.rst:129
+#: ../classes/class_generic6dofjoint.rst:141
+#: ../classes/class_generic6dofjoint.rst:151
+#: ../classes/class_generic6dofjoint.rst:157
+#: ../classes/class_generic6dofjoint.rst:163
+#: ../classes/class_generic6dofjoint.rst:171
+#: ../classes/class_generic6dofjoint.rst:179
+#: ../classes/class_generic6dofjoint.rst:187
+#: ../classes/class_generic6dofjoint.rst:198
+#: ../classes/class_generic6dofjoint.rst:200
+#: ../classes/class_generic6dofjoint.rst:202
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:27
+msgid ":ref:`angular_limit_x/enabled<class_Generic6DOFJoint_property_angular_limit_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:27
+#: ../classes/class_generic6dofjoint.rst:43
+#: ../classes/class_generic6dofjoint.rst:59
+#: ../classes/class_generic6dofjoint.rst:117
+#: ../classes/class_generic6dofjoint.rst:129
+#: ../classes/class_generic6dofjoint.rst:141
+#: ../classes/class_generic6dofjoint.rst:382
+#: ../classes/class_generic6dofjoint.rst:502
+#: ../classes/class_generic6dofjoint.rst:622
+#: ../classes/class_generic6dofjoint.rst:1054
+#: ../classes/class_generic6dofjoint.rst:1150
+#: ../classes/class_generic6dofjoint.rst:1246
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:29
+msgid ":ref:`angular_limit_x/erp<class_Generic6DOFJoint_property_angular_limit_x/erp>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:29
+#: ../classes/class_generic6dofjoint.rst:37
+#: ../classes/class_generic6dofjoint.rst:45
+#: ../classes/class_generic6dofjoint.rst:53
+#: ../classes/class_generic6dofjoint.rst:61
+#: ../classes/class_generic6dofjoint.rst:69
+#: ../classes/class_generic6dofjoint.rst:121
+#: ../classes/class_generic6dofjoint.rst:133
+#: ../classes/class_generic6dofjoint.rst:145
+#: ../classes/class_generic6dofjoint.rst:398
+#: ../classes/class_generic6dofjoint.rst:458
+#: ../classes/class_generic6dofjoint.rst:518
+#: ../classes/class_generic6dofjoint.rst:578
+#: ../classes/class_generic6dofjoint.rst:638
+#: ../classes/class_generic6dofjoint.rst:698
+#: ../classes/class_generic6dofjoint.rst:1086
+#: ../classes/class_generic6dofjoint.rst:1182
+#: ../classes/class_generic6dofjoint.rst:1278
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:31
+msgid ":ref:`angular_limit_x/force_limit<class_Generic6DOFJoint_property_angular_limit_x/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:31
+#: ../classes/class_generic6dofjoint.rst:33
+#: ../classes/class_generic6dofjoint.rst:35
+#: ../classes/class_generic6dofjoint.rst:39
+#: ../classes/class_generic6dofjoint.rst:47
+#: ../classes/class_generic6dofjoint.rst:49
+#: ../classes/class_generic6dofjoint.rst:51
+#: ../classes/class_generic6dofjoint.rst:55
+#: ../classes/class_generic6dofjoint.rst:63
+#: ../classes/class_generic6dofjoint.rst:65
+#: ../classes/class_generic6dofjoint.rst:67
+#: ../classes/class_generic6dofjoint.rst:71
+#: ../classes/class_generic6dofjoint.rst:77
+#: ../classes/class_generic6dofjoint.rst:83
+#: ../classes/class_generic6dofjoint.rst:89
+#: ../classes/class_generic6dofjoint.rst:91
+#: ../classes/class_generic6dofjoint.rst:95
+#: ../classes/class_generic6dofjoint.rst:97
+#: ../classes/class_generic6dofjoint.rst:99
+#: ../classes/class_generic6dofjoint.rst:103
+#: ../classes/class_generic6dofjoint.rst:105
+#: ../classes/class_generic6dofjoint.rst:107
+#: ../classes/class_generic6dofjoint.rst:111
+#: ../classes/class_generic6dofjoint.rst:113
+#: ../classes/class_generic6dofjoint.rst:119
+#: ../classes/class_generic6dofjoint.rst:125
+#: ../classes/class_generic6dofjoint.rst:131
+#: ../classes/class_generic6dofjoint.rst:137
+#: ../classes/class_generic6dofjoint.rst:143
+#: ../classes/class_generic6dofjoint.rst:149
+#: ../classes/class_generic6dofjoint.rst:153
+#: ../classes/class_generic6dofjoint.rst:155
+#: ../classes/class_generic6dofjoint.rst:159
+#: ../classes/class_generic6dofjoint.rst:161
+#: ../classes/class_generic6dofjoint.rst:165
+#: ../classes/class_generic6dofjoint.rst:167
+#: ../classes/class_generic6dofjoint.rst:173
+#: ../classes/class_generic6dofjoint.rst:181
+#: ../classes/class_generic6dofjoint.rst:189
+#: ../classes/class_generic6dofjoint.rst:414
+#: ../classes/class_generic6dofjoint.rst:430
+#: ../classes/class_generic6dofjoint.rst:442
+#: ../classes/class_generic6dofjoint.rst:474
+#: ../classes/class_generic6dofjoint.rst:534
+#: ../classes/class_generic6dofjoint.rst:550
+#: ../classes/class_generic6dofjoint.rst:562
+#: ../classes/class_generic6dofjoint.rst:594
+#: ../classes/class_generic6dofjoint.rst:654
+#: ../classes/class_generic6dofjoint.rst:670
+#: ../classes/class_generic6dofjoint.rst:682
+#: ../classes/class_generic6dofjoint.rst:714
+#: ../classes/class_generic6dofjoint.rst:758
+#: ../classes/class_generic6dofjoint.rst:806
+#: ../classes/class_generic6dofjoint.rst:854
+#: ../classes/class_generic6dofjoint.rst:870
+#: ../classes/class_generic6dofjoint.rst:898
+#: ../classes/class_generic6dofjoint.rst:912
+#: ../classes/class_generic6dofjoint.rst:926
+#: ../classes/class_generic6dofjoint.rst:954
+#: ../classes/class_generic6dofjoint.rst:968
+#: ../classes/class_generic6dofjoint.rst:982
+#: ../classes/class_generic6dofjoint.rst:1010
+#: ../classes/class_generic6dofjoint.rst:1024
+#: ../classes/class_generic6dofjoint.rst:1070
+#: ../classes/class_generic6dofjoint.rst:1118
+#: ../classes/class_generic6dofjoint.rst:1166
+#: ../classes/class_generic6dofjoint.rst:1214
+#: ../classes/class_generic6dofjoint.rst:1262
+#: ../classes/class_generic6dofjoint.rst:1310
+#: ../classes/class_generic6dofjoint.rst:1342
+#: ../classes/class_generic6dofjoint.rst:1358
+#: ../classes/class_generic6dofjoint.rst:1390
+#: ../classes/class_generic6dofjoint.rst:1406
+#: ../classes/class_generic6dofjoint.rst:1438
+#: ../classes/class_generic6dofjoint.rst:1454
+#: ../classes/class_generic6dofjoint.rst:1498
+#: ../classes/class_generic6dofjoint.rst:1554
+#: ../classes/class_generic6dofjoint.rst:1610
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:33
+msgid ":ref:`angular_limit_x/lower_angle<class_Generic6DOFJoint_property_angular_limit_x/lower_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:35
+msgid ":ref:`angular_limit_x/restitution<class_Generic6DOFJoint_property_angular_limit_x/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:37
+msgid ":ref:`angular_limit_x/softness<class_Generic6DOFJoint_property_angular_limit_x/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:39
+msgid ":ref:`angular_limit_x/upper_angle<class_Generic6DOFJoint_property_angular_limit_x/upper_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:41
+msgid ":ref:`angular_limit_y/damping<class_Generic6DOFJoint_property_angular_limit_y/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:43
+msgid ":ref:`angular_limit_y/enabled<class_Generic6DOFJoint_property_angular_limit_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:45
+msgid ":ref:`angular_limit_y/erp<class_Generic6DOFJoint_property_angular_limit_y/erp>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:47
+msgid ":ref:`angular_limit_y/force_limit<class_Generic6DOFJoint_property_angular_limit_y/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:49
+msgid ":ref:`angular_limit_y/lower_angle<class_Generic6DOFJoint_property_angular_limit_y/lower_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:51
+msgid ":ref:`angular_limit_y/restitution<class_Generic6DOFJoint_property_angular_limit_y/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:53
+msgid ":ref:`angular_limit_y/softness<class_Generic6DOFJoint_property_angular_limit_y/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:55
+msgid ":ref:`angular_limit_y/upper_angle<class_Generic6DOFJoint_property_angular_limit_y/upper_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:57
+msgid ":ref:`angular_limit_z/damping<class_Generic6DOFJoint_property_angular_limit_z/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:59
+msgid ":ref:`angular_limit_z/enabled<class_Generic6DOFJoint_property_angular_limit_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:61
+msgid ":ref:`angular_limit_z/erp<class_Generic6DOFJoint_property_angular_limit_z/erp>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:63
+msgid ":ref:`angular_limit_z/force_limit<class_Generic6DOFJoint_property_angular_limit_z/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:65
+msgid ":ref:`angular_limit_z/lower_angle<class_Generic6DOFJoint_property_angular_limit_z/lower_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:67
+msgid ":ref:`angular_limit_z/restitution<class_Generic6DOFJoint_property_angular_limit_z/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:69
+msgid ":ref:`angular_limit_z/softness<class_Generic6DOFJoint_property_angular_limit_z/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:71
+msgid ":ref:`angular_limit_z/upper_angle<class_Generic6DOFJoint_property_angular_limit_z/upper_angle>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:73
+msgid ":ref:`angular_motor_x/enabled<class_Generic6DOFJoint_property_angular_motor_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:73
+#: ../classes/class_generic6dofjoint.rst:79
+#: ../classes/class_generic6dofjoint.rst:85
+#: ../classes/class_generic6dofjoint.rst:93
+#: ../classes/class_generic6dofjoint.rst:101
+#: ../classes/class_generic6dofjoint.rst:109
+#: ../classes/class_generic6dofjoint.rst:151
+#: ../classes/class_generic6dofjoint.rst:157
+#: ../classes/class_generic6dofjoint.rst:163
+#: ../classes/class_generic6dofjoint.rst:171
+#: ../classes/class_generic6dofjoint.rst:179
+#: ../classes/class_generic6dofjoint.rst:187
+#: ../classes/class_generic6dofjoint.rst:726
+#: ../classes/class_generic6dofjoint.rst:774
+#: ../classes/class_generic6dofjoint.rst:822
+#: ../classes/class_generic6dofjoint.rst:884
+#: ../classes/class_generic6dofjoint.rst:940
+#: ../classes/class_generic6dofjoint.rst:996
+#: ../classes/class_generic6dofjoint.rst:1326
+#: ../classes/class_generic6dofjoint.rst:1374
+#: ../classes/class_generic6dofjoint.rst:1422
+#: ../classes/class_generic6dofjoint.rst:1484
+#: ../classes/class_generic6dofjoint.rst:1540
+#: ../classes/class_generic6dofjoint.rst:1596
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:75
+msgid ":ref:`angular_motor_x/force_limit<class_Generic6DOFJoint_property_angular_motor_x/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:75
+#: ../classes/class_generic6dofjoint.rst:81
+#: ../classes/class_generic6dofjoint.rst:87
+#: ../classes/class_generic6dofjoint.rst:742
+#: ../classes/class_generic6dofjoint.rst:790
+#: ../classes/class_generic6dofjoint.rst:838
+msgid "``300.0``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:77
+msgid ":ref:`angular_motor_x/target_velocity<class_Generic6DOFJoint_property_angular_motor_x/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:79
+msgid ":ref:`angular_motor_y/enabled<class_Generic6DOFJoint_property_angular_motor_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:81
+msgid ":ref:`angular_motor_y/force_limit<class_Generic6DOFJoint_property_angular_motor_y/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:83
+msgid ":ref:`angular_motor_y/target_velocity<class_Generic6DOFJoint_property_angular_motor_y/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:85
+msgid ":ref:`angular_motor_z/enabled<class_Generic6DOFJoint_property_angular_motor_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:87
+msgid ":ref:`angular_motor_z/force_limit<class_Generic6DOFJoint_property_angular_motor_z/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:89
+msgid ":ref:`angular_motor_z/target_velocity<class_Generic6DOFJoint_property_angular_motor_z/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:91
+msgid ":ref:`angular_spring_x/damping<class_Generic6DOFJoint_property_angular_spring_x/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:93
+msgid ":ref:`angular_spring_x/enabled<class_Generic6DOFJoint_property_angular_spring_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:95
+msgid ":ref:`angular_spring_x/equilibrium_point<class_Generic6DOFJoint_property_angular_spring_x/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:97
+msgid ":ref:`angular_spring_x/stiffness<class_Generic6DOFJoint_property_angular_spring_x/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:99
+msgid ":ref:`angular_spring_y/damping<class_Generic6DOFJoint_property_angular_spring_y/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:101
+msgid ":ref:`angular_spring_y/enabled<class_Generic6DOFJoint_property_angular_spring_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:103
+msgid ":ref:`angular_spring_y/equilibrium_point<class_Generic6DOFJoint_property_angular_spring_y/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:105
+msgid ":ref:`angular_spring_y/stiffness<class_Generic6DOFJoint_property_angular_spring_y/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:107
+msgid ":ref:`angular_spring_z/damping<class_Generic6DOFJoint_property_angular_spring_z/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:109
+msgid ":ref:`angular_spring_z/enabled<class_Generic6DOFJoint_property_angular_spring_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:111
+msgid ":ref:`angular_spring_z/equilibrium_point<class_Generic6DOFJoint_property_angular_spring_z/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:113
+msgid ":ref:`angular_spring_z/stiffness<class_Generic6DOFJoint_property_angular_spring_z/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:115
+msgid ":ref:`linear_limit_x/damping<class_Generic6DOFJoint_property_linear_limit_x/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:117
+msgid ":ref:`linear_limit_x/enabled<class_Generic6DOFJoint_property_linear_limit_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:119
+msgid ":ref:`linear_limit_x/lower_distance<class_Generic6DOFJoint_property_linear_limit_x/lower_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:121
+msgid ":ref:`linear_limit_x/restitution<class_Generic6DOFJoint_property_linear_limit_x/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:123
+msgid ":ref:`linear_limit_x/softness<class_Generic6DOFJoint_property_linear_limit_x/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:123
+#: ../classes/class_generic6dofjoint.rst:135
+#: ../classes/class_generic6dofjoint.rst:147
+#: ../classes/class_generic6dofjoint.rst:1102
+#: ../classes/class_generic6dofjoint.rst:1198
+#: ../classes/class_generic6dofjoint.rst:1294
+msgid "``0.7``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:125
+msgid ":ref:`linear_limit_x/upper_distance<class_Generic6DOFJoint_property_linear_limit_x/upper_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:127
+msgid ":ref:`linear_limit_y/damping<class_Generic6DOFJoint_property_linear_limit_y/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:129
+msgid ":ref:`linear_limit_y/enabled<class_Generic6DOFJoint_property_linear_limit_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:131
+msgid ":ref:`linear_limit_y/lower_distance<class_Generic6DOFJoint_property_linear_limit_y/lower_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:133
+msgid ":ref:`linear_limit_y/restitution<class_Generic6DOFJoint_property_linear_limit_y/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:135
+msgid ":ref:`linear_limit_y/softness<class_Generic6DOFJoint_property_linear_limit_y/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:137
+msgid ":ref:`linear_limit_y/upper_distance<class_Generic6DOFJoint_property_linear_limit_y/upper_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:139
+msgid ":ref:`linear_limit_z/damping<class_Generic6DOFJoint_property_linear_limit_z/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:141
+msgid ":ref:`linear_limit_z/enabled<class_Generic6DOFJoint_property_linear_limit_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:143
+msgid ":ref:`linear_limit_z/lower_distance<class_Generic6DOFJoint_property_linear_limit_z/lower_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:145
+msgid ":ref:`linear_limit_z/restitution<class_Generic6DOFJoint_property_linear_limit_z/restitution>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:147
+msgid ":ref:`linear_limit_z/softness<class_Generic6DOFJoint_property_linear_limit_z/softness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:149
+msgid ":ref:`linear_limit_z/upper_distance<class_Generic6DOFJoint_property_linear_limit_z/upper_distance>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:151
+msgid ":ref:`linear_motor_x/enabled<class_Generic6DOFJoint_property_linear_motor_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:153
+msgid ":ref:`linear_motor_x/force_limit<class_Generic6DOFJoint_property_linear_motor_x/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:155
+msgid ":ref:`linear_motor_x/target_velocity<class_Generic6DOFJoint_property_linear_motor_x/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:157
+msgid ":ref:`linear_motor_y/enabled<class_Generic6DOFJoint_property_linear_motor_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:159
+msgid ":ref:`linear_motor_y/force_limit<class_Generic6DOFJoint_property_linear_motor_y/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:161
+msgid ":ref:`linear_motor_y/target_velocity<class_Generic6DOFJoint_property_linear_motor_y/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:163
+msgid ":ref:`linear_motor_z/enabled<class_Generic6DOFJoint_property_linear_motor_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:165
+msgid ":ref:`linear_motor_z/force_limit<class_Generic6DOFJoint_property_linear_motor_z/force_limit>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:167
+msgid ":ref:`linear_motor_z/target_velocity<class_Generic6DOFJoint_property_linear_motor_z/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:169
+msgid ":ref:`linear_spring_x/damping<class_Generic6DOFJoint_property_linear_spring_x/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:169
+#: ../classes/class_generic6dofjoint.rst:175
+#: ../classes/class_generic6dofjoint.rst:177
+#: ../classes/class_generic6dofjoint.rst:183
+#: ../classes/class_generic6dofjoint.rst:185
+#: ../classes/class_generic6dofjoint.rst:191
+#: ../classes/class_generic6dofjoint.rst:1470
+#: ../classes/class_generic6dofjoint.rst:1512
+#: ../classes/class_generic6dofjoint.rst:1526
+#: ../classes/class_generic6dofjoint.rst:1568
+#: ../classes/class_generic6dofjoint.rst:1582
+#: ../classes/class_generic6dofjoint.rst:1624
+msgid "``0.01``"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:171
+msgid ":ref:`linear_spring_x/enabled<class_Generic6DOFJoint_property_linear_spring_x/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:173
+msgid ":ref:`linear_spring_x/equilibrium_point<class_Generic6DOFJoint_property_linear_spring_x/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:175
+msgid ":ref:`linear_spring_x/stiffness<class_Generic6DOFJoint_property_linear_spring_x/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:177
+msgid ":ref:`linear_spring_y/damping<class_Generic6DOFJoint_property_linear_spring_y/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:179
+msgid ":ref:`linear_spring_y/enabled<class_Generic6DOFJoint_property_linear_spring_y/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:181
+msgid ":ref:`linear_spring_y/equilibrium_point<class_Generic6DOFJoint_property_linear_spring_y/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:183
+msgid ":ref:`linear_spring_y/stiffness<class_Generic6DOFJoint_property_linear_spring_y/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:185
+msgid ":ref:`linear_spring_z/damping<class_Generic6DOFJoint_property_linear_spring_z/damping>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:187
+msgid ":ref:`linear_spring_z/enabled<class_Generic6DOFJoint_property_linear_spring_z/enabled>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:189
+msgid ":ref:`linear_spring_z/equilibrium_point<class_Generic6DOFJoint_property_linear_spring_z/equilibrium_point>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:191
+msgid ":ref:`linear_spring_z/stiffness<class_Generic6DOFJoint_property_linear_spring_z/stiffness>`"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:195
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:198
+msgid ":ref:`get_flag_x<class_Generic6DOFJoint_method_get_flag_x>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:200
+msgid ":ref:`get_flag_y<class_Generic6DOFJoint_method_get_flag_y>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:202
+msgid ":ref:`get_flag_z<class_Generic6DOFJoint_method_get_flag_z>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:204
+msgid ":ref:`get_param_x<class_Generic6DOFJoint_method_get_param_x>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:206
+msgid ":ref:`get_param_y<class_Generic6DOFJoint_method_get_param_y>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:208
+msgid ":ref:`get_param_z<class_Generic6DOFJoint_method_get_param_z>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:210
+#: ../classes/class_generic6dofjoint.rst:212
+#: ../classes/class_generic6dofjoint.rst:214
+#: ../classes/class_generic6dofjoint.rst:216
+#: ../classes/class_generic6dofjoint.rst:218
+#: ../classes/class_generic6dofjoint.rst:220
+msgid "void"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:210
+msgid ":ref:`set_flag_x<class_Generic6DOFJoint_method_set_flag_x>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:212
+msgid ":ref:`set_flag_y<class_Generic6DOFJoint_method_set_flag_y>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:214
+msgid ":ref:`set_flag_z<class_Generic6DOFJoint_method_set_flag_z>` **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:216
+msgid ":ref:`set_param_x<class_Generic6DOFJoint_method_set_param_x>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:218
+msgid ":ref:`set_param_y<class_Generic6DOFJoint_method_set_param_y>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:220
+msgid ":ref:`set_param_z<class_Generic6DOFJoint_method_set_param_z>` **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:224
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:274
+msgid "enum **Param**:"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:276
+msgid "**PARAM_LINEAR_LOWER_LIMIT** = **0** --- 枢轴点之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:278
+msgid "**PARAM_LINEAR_UPPER_LIMIT** = **1** --- 枢轴点的轴之间的最大差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:280
+msgid "**PARAM_LINEAR_LIMIT_SOFTNESS** = **2** --- 适用于跨轴移动的一个系数。值越低，移动的就越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:282
+msgid "**PARAM_LINEAR_RESTITUTION** = **3** --- 轴的运动的恢复量。值越低，动量损失越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:284
+msgid "**PARAM_LINEAR_DAMPING** = **4** --- 发生在跨轴线性运动的阻尼量。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:286
+msgid "**PARAM_LINEAR_MOTOR_TARGET_VELOCITY** = **5** --- 线性马达将尝试达到的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:288
+msgid "**PARAM_LINEAR_MOTOR_FORCE_LIMIT** = **6** --- 线性马达在试图达到速度目标时将施加的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:290
+msgid "**PARAM_LINEAR_SPRING_STIFFNESS** = **7**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:292
+msgid "**PARAM_LINEAR_SPRING_DAMPING** = **8**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:294
+msgid "**PARAM_LINEAR_SPRING_EQUILIBRIUM_POINT** = **9**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:296
+msgid "**PARAM_ANGULAR_LOWER_LIMIT** = **10** --- 负方向的最小旋转，以脱离和绕轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:298
+msgid "**PARAM_ANGULAR_UPPER_LIMIT** = **11** --- 正方向的最小旋转，以挣脱和绕轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:300
+msgid "**PARAM_ANGULAR_LIMIT_SOFTNESS** = **12** --- 所有跨轴旋转的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:302
+msgid "**PARAM_ANGULAR_DAMPING** = **13** --- 跨越Z轴的旋转阻尼量。值越低，发生的阻尼就越多。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:304
+msgid "**PARAM_ANGULAR_RESTITUTION** = **14** --- 在各轴上的旋转恢复量。值越低，发生的恢复量越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:306
+msgid "**PARAM_ANGULAR_FORCE_LIMIT** = **15** --- 围绕Z轴旋转时，可能发生的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:308
+msgid "**PARAM_ANGULAR_ERP** = **16** --- 当跨轴旋转时，这个误差容限系数定义了修正的速度被减慢的程度。值越低，旋转越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:310
+msgid "**PARAM_ANGULAR_MOTOR_TARGET_VELOCITY** = **17** --- 轴上电机的目标速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:312
+msgid "**PARAM_ANGULAR_MOTOR_FORCE_LIMIT** = **18** --- 马达在轴上的最大加速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:314
+msgid "**PARAM_ANGULAR_SPRING_STIFFNESS** = **19**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:316
+msgid "**PARAM_ANGULAR_SPRING_DAMPING** = **20**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:318
+msgid "**PARAM_ANGULAR_SPRING_EQUILIBRIUM_POINT** = **21**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:320
+msgid "**PARAM_MAX** = **22** --- 表示 :ref:`Param<enum_Generic6DOFJoint_Param>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:340
+msgid "enum **Flag**:"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:342
+msgid "**FLAG_ENABLE_LINEAR_LIMIT** = **0** --- 如果启用，在给定范围内可以进行线性运动。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:344
+msgid "**FLAG_ENABLE_ANGULAR_LIMIT** = **1** --- 如果启用，在给定的限度内可以进行旋转运动。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:346
+msgid "**FLAG_ENABLE_LINEAR_SPRING** = **3**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:348
+msgid "**FLAG_ENABLE_ANGULAR_SPRING** = **2**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:350
+msgid "**FLAG_ENABLE_MOTOR** = **4** --- 如果启用，就有一个跨这些轴的旋转马达。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:352
+msgid "**FLAG_ENABLE_LINEAR_MOTOR** = **5** --- 如果启用，有一个线性马达横跨这些轴。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:354
+msgid "**FLAG_MAX** = **6** --- 表示\\ :ref:`Flag<enum_Generic6DOFJoint_Flag>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:357
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:361
+msgid ":ref:`float<class_float>` **angular_limit_x/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:364
+#: ../classes/class_generic6dofjoint.rst:382
+#: ../classes/class_generic6dofjoint.rst:398
+#: ../classes/class_generic6dofjoint.rst:414
+#: ../classes/class_generic6dofjoint.rst:430
+#: ../classes/class_generic6dofjoint.rst:442
+#: ../classes/class_generic6dofjoint.rst:458
+#: ../classes/class_generic6dofjoint.rst:474
+#: ../classes/class_generic6dofjoint.rst:486
+#: ../classes/class_generic6dofjoint.rst:502
+#: ../classes/class_generic6dofjoint.rst:518
+#: ../classes/class_generic6dofjoint.rst:534
+#: ../classes/class_generic6dofjoint.rst:550
+#: ../classes/class_generic6dofjoint.rst:562
+#: ../classes/class_generic6dofjoint.rst:578
+#: ../classes/class_generic6dofjoint.rst:594
+#: ../classes/class_generic6dofjoint.rst:606
+#: ../classes/class_generic6dofjoint.rst:622
+#: ../classes/class_generic6dofjoint.rst:638
+#: ../classes/class_generic6dofjoint.rst:654
+#: ../classes/class_generic6dofjoint.rst:670
+#: ../classes/class_generic6dofjoint.rst:682
+#: ../classes/class_generic6dofjoint.rst:698
+#: ../classes/class_generic6dofjoint.rst:714
+#: ../classes/class_generic6dofjoint.rst:726
+#: ../classes/class_generic6dofjoint.rst:742
+#: ../classes/class_generic6dofjoint.rst:758
+#: ../classes/class_generic6dofjoint.rst:774
+#: ../classes/class_generic6dofjoint.rst:790
+#: ../classes/class_generic6dofjoint.rst:806
+#: ../classes/class_generic6dofjoint.rst:822
+#: ../classes/class_generic6dofjoint.rst:838
+#: ../classes/class_generic6dofjoint.rst:854
+#: ../classes/class_generic6dofjoint.rst:870
+#: ../classes/class_generic6dofjoint.rst:884
+#: ../classes/class_generic6dofjoint.rst:898
+#: ../classes/class_generic6dofjoint.rst:912
+#: ../classes/class_generic6dofjoint.rst:926
+#: ../classes/class_generic6dofjoint.rst:940
+#: ../classes/class_generic6dofjoint.rst:954
+#: ../classes/class_generic6dofjoint.rst:968
+#: ../classes/class_generic6dofjoint.rst:982
+#: ../classes/class_generic6dofjoint.rst:996
+#: ../classes/class_generic6dofjoint.rst:1010
+#: ../classes/class_generic6dofjoint.rst:1024
+#: ../classes/class_generic6dofjoint.rst:1038
+#: ../classes/class_generic6dofjoint.rst:1054
+#: ../classes/class_generic6dofjoint.rst:1070
+#: ../classes/class_generic6dofjoint.rst:1086
+#: ../classes/class_generic6dofjoint.rst:1102
+#: ../classes/class_generic6dofjoint.rst:1118
+#: ../classes/class_generic6dofjoint.rst:1134
+#: ../classes/class_generic6dofjoint.rst:1150
+#: ../classes/class_generic6dofjoint.rst:1166
+#: ../classes/class_generic6dofjoint.rst:1182
+#: ../classes/class_generic6dofjoint.rst:1198
+#: ../classes/class_generic6dofjoint.rst:1214
+#: ../classes/class_generic6dofjoint.rst:1230
+#: ../classes/class_generic6dofjoint.rst:1246
+#: ../classes/class_generic6dofjoint.rst:1262
+#: ../classes/class_generic6dofjoint.rst:1278
+#: ../classes/class_generic6dofjoint.rst:1294
+#: ../classes/class_generic6dofjoint.rst:1310
+#: ../classes/class_generic6dofjoint.rst:1326
+#: ../classes/class_generic6dofjoint.rst:1342
+#: ../classes/class_generic6dofjoint.rst:1358
+#: ../classes/class_generic6dofjoint.rst:1374
+#: ../classes/class_generic6dofjoint.rst:1390
+#: ../classes/class_generic6dofjoint.rst:1406
+#: ../classes/class_generic6dofjoint.rst:1422
+#: ../classes/class_generic6dofjoint.rst:1438
+#: ../classes/class_generic6dofjoint.rst:1454
+#: ../classes/class_generic6dofjoint.rst:1470
+#: ../classes/class_generic6dofjoint.rst:1484
+#: ../classes/class_generic6dofjoint.rst:1498
+#: ../classes/class_generic6dofjoint.rst:1512
+#: ../classes/class_generic6dofjoint.rst:1526
+#: ../classes/class_generic6dofjoint.rst:1540
+#: ../classes/class_generic6dofjoint.rst:1554
+#: ../classes/class_generic6dofjoint.rst:1568
+#: ../classes/class_generic6dofjoint.rst:1582
+#: ../classes/class_generic6dofjoint.rst:1596
+#: ../classes/class_generic6dofjoint.rst:1610
+#: ../classes/class_generic6dofjoint.rst:1624
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:366
+#: ../classes/class_generic6dofjoint.rst:384
+#: ../classes/class_generic6dofjoint.rst:400
+#: ../classes/class_generic6dofjoint.rst:416
+#: ../classes/class_generic6dofjoint.rst:444
+#: ../classes/class_generic6dofjoint.rst:460
+#: ../classes/class_generic6dofjoint.rst:488
+#: ../classes/class_generic6dofjoint.rst:504
+#: ../classes/class_generic6dofjoint.rst:520
+#: ../classes/class_generic6dofjoint.rst:536
+#: ../classes/class_generic6dofjoint.rst:564
+#: ../classes/class_generic6dofjoint.rst:580
+#: ../classes/class_generic6dofjoint.rst:608
+#: ../classes/class_generic6dofjoint.rst:624
+#: ../classes/class_generic6dofjoint.rst:640
+#: ../classes/class_generic6dofjoint.rst:656
+#: ../classes/class_generic6dofjoint.rst:684
+#: ../classes/class_generic6dofjoint.rst:700
+#: ../classes/class_generic6dofjoint.rst:728
+#: ../classes/class_generic6dofjoint.rst:744
+#: ../classes/class_generic6dofjoint.rst:760
+#: ../classes/class_generic6dofjoint.rst:776
+#: ../classes/class_generic6dofjoint.rst:792
+#: ../classes/class_generic6dofjoint.rst:808
+#: ../classes/class_generic6dofjoint.rst:824
+#: ../classes/class_generic6dofjoint.rst:840
+#: ../classes/class_generic6dofjoint.rst:856
+#: ../classes/class_generic6dofjoint.rst:872
+#: ../classes/class_generic6dofjoint.rst:886
+#: ../classes/class_generic6dofjoint.rst:900
+#: ../classes/class_generic6dofjoint.rst:914
+#: ../classes/class_generic6dofjoint.rst:928
+#: ../classes/class_generic6dofjoint.rst:942
+#: ../classes/class_generic6dofjoint.rst:956
+#: ../classes/class_generic6dofjoint.rst:970
+#: ../classes/class_generic6dofjoint.rst:984
+#: ../classes/class_generic6dofjoint.rst:998
+#: ../classes/class_generic6dofjoint.rst:1012
+#: ../classes/class_generic6dofjoint.rst:1026
+#: ../classes/class_generic6dofjoint.rst:1040
+#: ../classes/class_generic6dofjoint.rst:1056
+#: ../classes/class_generic6dofjoint.rst:1072
+#: ../classes/class_generic6dofjoint.rst:1088
+#: ../classes/class_generic6dofjoint.rst:1104
+#: ../classes/class_generic6dofjoint.rst:1120
+#: ../classes/class_generic6dofjoint.rst:1136
+#: ../classes/class_generic6dofjoint.rst:1152
+#: ../classes/class_generic6dofjoint.rst:1168
+#: ../classes/class_generic6dofjoint.rst:1184
+#: ../classes/class_generic6dofjoint.rst:1200
+#: ../classes/class_generic6dofjoint.rst:1216
+#: ../classes/class_generic6dofjoint.rst:1232
+#: ../classes/class_generic6dofjoint.rst:1248
+#: ../classes/class_generic6dofjoint.rst:1264
+#: ../classes/class_generic6dofjoint.rst:1280
+#: ../classes/class_generic6dofjoint.rst:1296
+#: ../classes/class_generic6dofjoint.rst:1312
+#: ../classes/class_generic6dofjoint.rst:1328
+#: ../classes/class_generic6dofjoint.rst:1344
+#: ../classes/class_generic6dofjoint.rst:1360
+#: ../classes/class_generic6dofjoint.rst:1376
+#: ../classes/class_generic6dofjoint.rst:1392
+#: ../classes/class_generic6dofjoint.rst:1408
+#: ../classes/class_generic6dofjoint.rst:1424
+#: ../classes/class_generic6dofjoint.rst:1440
+#: ../classes/class_generic6dofjoint.rst:1456
+#: ../classes/class_generic6dofjoint.rst:1472
+#: ../classes/class_generic6dofjoint.rst:1486
+#: ../classes/class_generic6dofjoint.rst:1500
+#: ../classes/class_generic6dofjoint.rst:1514
+#: ../classes/class_generic6dofjoint.rst:1528
+#: ../classes/class_generic6dofjoint.rst:1542
+#: ../classes/class_generic6dofjoint.rst:1556
+#: ../classes/class_generic6dofjoint.rst:1570
+#: ../classes/class_generic6dofjoint.rst:1584
+#: ../classes/class_generic6dofjoint.rst:1598
+#: ../classes/class_generic6dofjoint.rst:1612
+#: ../classes/class_generic6dofjoint.rst:1626
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:366
+#: ../classes/class_generic6dofjoint.rst:400
+#: ../classes/class_generic6dofjoint.rst:416
+#: ../classes/class_generic6dofjoint.rst:444
+#: ../classes/class_generic6dofjoint.rst:460
+#: ../classes/class_generic6dofjoint.rst:744
+#: ../classes/class_generic6dofjoint.rst:760
+#: ../classes/class_generic6dofjoint.rst:872
+#: ../classes/class_generic6dofjoint.rst:900
+#: ../classes/class_generic6dofjoint.rst:914
+#: ../classes/class_generic6dofjoint.rst:1040
+#: ../classes/class_generic6dofjoint.rst:1072
+#: ../classes/class_generic6dofjoint.rst:1088
+#: ../classes/class_generic6dofjoint.rst:1104
+#: ../classes/class_generic6dofjoint.rst:1120
+#: ../classes/class_generic6dofjoint.rst:1344
+#: ../classes/class_generic6dofjoint.rst:1360
+#: ../classes/class_generic6dofjoint.rst:1472
+#: ../classes/class_generic6dofjoint.rst:1500
+#: ../classes/class_generic6dofjoint.rst:1514
+msgid "set_param_x(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:368
+#: ../classes/class_generic6dofjoint.rst:386
+#: ../classes/class_generic6dofjoint.rst:402
+#: ../classes/class_generic6dofjoint.rst:418
+#: ../classes/class_generic6dofjoint.rst:446
+#: ../classes/class_generic6dofjoint.rst:462
+#: ../classes/class_generic6dofjoint.rst:490
+#: ../classes/class_generic6dofjoint.rst:506
+#: ../classes/class_generic6dofjoint.rst:522
+#: ../classes/class_generic6dofjoint.rst:538
+#: ../classes/class_generic6dofjoint.rst:566
+#: ../classes/class_generic6dofjoint.rst:582
+#: ../classes/class_generic6dofjoint.rst:610
+#: ../classes/class_generic6dofjoint.rst:626
+#: ../classes/class_generic6dofjoint.rst:642
+#: ../classes/class_generic6dofjoint.rst:658
+#: ../classes/class_generic6dofjoint.rst:686
+#: ../classes/class_generic6dofjoint.rst:702
+#: ../classes/class_generic6dofjoint.rst:730
+#: ../classes/class_generic6dofjoint.rst:746
+#: ../classes/class_generic6dofjoint.rst:762
+#: ../classes/class_generic6dofjoint.rst:778
+#: ../classes/class_generic6dofjoint.rst:794
+#: ../classes/class_generic6dofjoint.rst:810
+#: ../classes/class_generic6dofjoint.rst:826
+#: ../classes/class_generic6dofjoint.rst:842
+#: ../classes/class_generic6dofjoint.rst:858
+#: ../classes/class_generic6dofjoint.rst:874
+#: ../classes/class_generic6dofjoint.rst:888
+#: ../classes/class_generic6dofjoint.rst:902
+#: ../classes/class_generic6dofjoint.rst:916
+#: ../classes/class_generic6dofjoint.rst:930
+#: ../classes/class_generic6dofjoint.rst:944
+#: ../classes/class_generic6dofjoint.rst:958
+#: ../classes/class_generic6dofjoint.rst:972
+#: ../classes/class_generic6dofjoint.rst:986
+#: ../classes/class_generic6dofjoint.rst:1000
+#: ../classes/class_generic6dofjoint.rst:1014
+#: ../classes/class_generic6dofjoint.rst:1028
+#: ../classes/class_generic6dofjoint.rst:1042
+#: ../classes/class_generic6dofjoint.rst:1058
+#: ../classes/class_generic6dofjoint.rst:1074
+#: ../classes/class_generic6dofjoint.rst:1090
+#: ../classes/class_generic6dofjoint.rst:1106
+#: ../classes/class_generic6dofjoint.rst:1122
+#: ../classes/class_generic6dofjoint.rst:1138
+#: ../classes/class_generic6dofjoint.rst:1154
+#: ../classes/class_generic6dofjoint.rst:1170
+#: ../classes/class_generic6dofjoint.rst:1186
+#: ../classes/class_generic6dofjoint.rst:1202
+#: ../classes/class_generic6dofjoint.rst:1218
+#: ../classes/class_generic6dofjoint.rst:1234
+#: ../classes/class_generic6dofjoint.rst:1250
+#: ../classes/class_generic6dofjoint.rst:1266
+#: ../classes/class_generic6dofjoint.rst:1282
+#: ../classes/class_generic6dofjoint.rst:1298
+#: ../classes/class_generic6dofjoint.rst:1314
+#: ../classes/class_generic6dofjoint.rst:1330
+#: ../classes/class_generic6dofjoint.rst:1346
+#: ../classes/class_generic6dofjoint.rst:1362
+#: ../classes/class_generic6dofjoint.rst:1378
+#: ../classes/class_generic6dofjoint.rst:1394
+#: ../classes/class_generic6dofjoint.rst:1410
+#: ../classes/class_generic6dofjoint.rst:1426
+#: ../classes/class_generic6dofjoint.rst:1442
+#: ../classes/class_generic6dofjoint.rst:1458
+#: ../classes/class_generic6dofjoint.rst:1474
+#: ../classes/class_generic6dofjoint.rst:1488
+#: ../classes/class_generic6dofjoint.rst:1502
+#: ../classes/class_generic6dofjoint.rst:1516
+#: ../classes/class_generic6dofjoint.rst:1530
+#: ../classes/class_generic6dofjoint.rst:1544
+#: ../classes/class_generic6dofjoint.rst:1558
+#: ../classes/class_generic6dofjoint.rst:1572
+#: ../classes/class_generic6dofjoint.rst:1586
+#: ../classes/class_generic6dofjoint.rst:1600
+#: ../classes/class_generic6dofjoint.rst:1614
+#: ../classes/class_generic6dofjoint.rst:1628
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:368
+#: ../classes/class_generic6dofjoint.rst:402
+#: ../classes/class_generic6dofjoint.rst:418
+#: ../classes/class_generic6dofjoint.rst:446
+#: ../classes/class_generic6dofjoint.rst:462
+#: ../classes/class_generic6dofjoint.rst:746
+#: ../classes/class_generic6dofjoint.rst:762
+#: ../classes/class_generic6dofjoint.rst:874
+#: ../classes/class_generic6dofjoint.rst:902
+#: ../classes/class_generic6dofjoint.rst:916
+#: ../classes/class_generic6dofjoint.rst:1042
+#: ../classes/class_generic6dofjoint.rst:1074
+#: ../classes/class_generic6dofjoint.rst:1090
+#: ../classes/class_generic6dofjoint.rst:1106
+#: ../classes/class_generic6dofjoint.rst:1122
+#: ../classes/class_generic6dofjoint.rst:1346
+#: ../classes/class_generic6dofjoint.rst:1362
+#: ../classes/class_generic6dofjoint.rst:1474
+#: ../classes/class_generic6dofjoint.rst:1502
+#: ../classes/class_generic6dofjoint.rst:1516
+msgid "get_param_x()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:371
+msgid "X轴上的旋转阻尼量。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:373
+msgid "越低，来自一侧的冲力到达另一侧的时间越长。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:379
+msgid ":ref:`bool<class_bool>` **angular_limit_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:384
+#: ../classes/class_generic6dofjoint.rst:728
+#: ../classes/class_generic6dofjoint.rst:886
+#: ../classes/class_generic6dofjoint.rst:1056
+#: ../classes/class_generic6dofjoint.rst:1328
+#: ../classes/class_generic6dofjoint.rst:1486
+msgid "set_flag_x(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:386
+#: ../classes/class_generic6dofjoint.rst:730
+#: ../classes/class_generic6dofjoint.rst:888
+#: ../classes/class_generic6dofjoint.rst:1058
+#: ../classes/class_generic6dofjoint.rst:1330
+#: ../classes/class_generic6dofjoint.rst:1488
+msgid "get_flag_x()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:389
+msgid "如果\\ ``true``\\ ，跨越X轴的旋转受到限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:395
+msgid ":ref:`float<class_float>` **angular_limit_x/erp**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:405
+msgid "当在X轴上旋转时，这个误差容限系数定义了修正的速度被减慢的程度。值越低，旋转越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:411
+msgid ":ref:`float<class_float>` **angular_limit_x/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:421
+msgid "绕X轴旋转时所能产生的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:427
+msgid ":ref:`float<class_float>` **angular_limit_x/lower_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:433
+msgid "负方向的最小旋转，以挣脱并围绕X轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:439
+msgid ":ref:`float<class_float>` **angular_limit_x/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:449
+msgid "X轴上的旋转恢复量。值越低，恢复量越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:455
+msgid ":ref:`float<class_float>` **angular_limit_x/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:465
+msgid "跨越X轴的所有旋转的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:471
+msgid ":ref:`float<class_float>` **angular_limit_x/upper_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:477
+msgid "正方向的最小旋转，以挣脱并绕X轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:483
+msgid ":ref:`float<class_float>` **angular_limit_y/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:488
+#: ../classes/class_generic6dofjoint.rst:520
+#: ../classes/class_generic6dofjoint.rst:536
+#: ../classes/class_generic6dofjoint.rst:564
+#: ../classes/class_generic6dofjoint.rst:580
+#: ../classes/class_generic6dofjoint.rst:792
+#: ../classes/class_generic6dofjoint.rst:808
+#: ../classes/class_generic6dofjoint.rst:928
+#: ../classes/class_generic6dofjoint.rst:956
+#: ../classes/class_generic6dofjoint.rst:970
+#: ../classes/class_generic6dofjoint.rst:1136
+#: ../classes/class_generic6dofjoint.rst:1168
+#: ../classes/class_generic6dofjoint.rst:1184
+#: ../classes/class_generic6dofjoint.rst:1200
+#: ../classes/class_generic6dofjoint.rst:1216
+#: ../classes/class_generic6dofjoint.rst:1392
+#: ../classes/class_generic6dofjoint.rst:1408
+#: ../classes/class_generic6dofjoint.rst:1528
+#: ../classes/class_generic6dofjoint.rst:1556
+#: ../classes/class_generic6dofjoint.rst:1570
+msgid "set_param_y(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:490
+#: ../classes/class_generic6dofjoint.rst:522
+#: ../classes/class_generic6dofjoint.rst:538
+#: ../classes/class_generic6dofjoint.rst:566
+#: ../classes/class_generic6dofjoint.rst:582
+#: ../classes/class_generic6dofjoint.rst:794
+#: ../classes/class_generic6dofjoint.rst:810
+#: ../classes/class_generic6dofjoint.rst:930
+#: ../classes/class_generic6dofjoint.rst:958
+#: ../classes/class_generic6dofjoint.rst:972
+#: ../classes/class_generic6dofjoint.rst:1138
+#: ../classes/class_generic6dofjoint.rst:1170
+#: ../classes/class_generic6dofjoint.rst:1186
+#: ../classes/class_generic6dofjoint.rst:1202
+#: ../classes/class_generic6dofjoint.rst:1218
+#: ../classes/class_generic6dofjoint.rst:1394
+#: ../classes/class_generic6dofjoint.rst:1410
+#: ../classes/class_generic6dofjoint.rst:1530
+#: ../classes/class_generic6dofjoint.rst:1558
+#: ../classes/class_generic6dofjoint.rst:1572
+msgid "get_param_y()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:493
+msgid "Y轴上的旋转阻尼量。值越低，旋转的阻尼就越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:499
+msgid ":ref:`bool<class_bool>` **angular_limit_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:504
+#: ../classes/class_generic6dofjoint.rst:776
+#: ../classes/class_generic6dofjoint.rst:942
+#: ../classes/class_generic6dofjoint.rst:1152
+#: ../classes/class_generic6dofjoint.rst:1376
+#: ../classes/class_generic6dofjoint.rst:1542
+msgid "set_flag_y(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:506
+#: ../classes/class_generic6dofjoint.rst:778
+#: ../classes/class_generic6dofjoint.rst:944
+#: ../classes/class_generic6dofjoint.rst:1154
+#: ../classes/class_generic6dofjoint.rst:1378
+#: ../classes/class_generic6dofjoint.rst:1544
+msgid "get_flag_y()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:509
+msgid "如果\\ ``true``\\ ，跨越Y轴的旋转受到限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:515
+msgid ":ref:`float<class_float>` **angular_limit_y/erp**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:525
+msgid "当在Y轴上旋转时，这个误差容限系数定义了修正的速度被减慢的程度。值越低，旋转越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:531
+msgid ":ref:`float<class_float>` **angular_limit_y/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:541
+msgid "围绕Y轴旋转时，可能发生的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:547
+msgid ":ref:`float<class_float>` **angular_limit_y/lower_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:553
+msgid "负方向的最小旋转，以挣脱并围绕Y轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:559
+msgid ":ref:`float<class_float>` **angular_limit_y/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:569
+msgid "跨越Y轴的旋转恢复量。越低，发生的恢复量越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:575
+msgid ":ref:`float<class_float>` **angular_limit_y/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:585
+msgid "跨越Y轴的所有旋转的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:591
+msgid ":ref:`float<class_float>` **angular_limit_y/upper_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:597
+msgid "正方向的最小旋转，以挣脱并绕Y轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:603
+msgid ":ref:`float<class_float>` **angular_limit_z/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:608
+#: ../classes/class_generic6dofjoint.rst:640
+#: ../classes/class_generic6dofjoint.rst:656
+#: ../classes/class_generic6dofjoint.rst:684
+#: ../classes/class_generic6dofjoint.rst:700
+#: ../classes/class_generic6dofjoint.rst:840
+#: ../classes/class_generic6dofjoint.rst:856
+#: ../classes/class_generic6dofjoint.rst:984
+#: ../classes/class_generic6dofjoint.rst:1012
+#: ../classes/class_generic6dofjoint.rst:1026
+#: ../classes/class_generic6dofjoint.rst:1232
+#: ../classes/class_generic6dofjoint.rst:1264
+#: ../classes/class_generic6dofjoint.rst:1280
+#: ../classes/class_generic6dofjoint.rst:1296
+#: ../classes/class_generic6dofjoint.rst:1312
+#: ../classes/class_generic6dofjoint.rst:1440
+#: ../classes/class_generic6dofjoint.rst:1456
+#: ../classes/class_generic6dofjoint.rst:1584
+#: ../classes/class_generic6dofjoint.rst:1612
+#: ../classes/class_generic6dofjoint.rst:1626
+msgid "set_param_z(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:610
+#: ../classes/class_generic6dofjoint.rst:642
+#: ../classes/class_generic6dofjoint.rst:658
+#: ../classes/class_generic6dofjoint.rst:686
+#: ../classes/class_generic6dofjoint.rst:702
+#: ../classes/class_generic6dofjoint.rst:842
+#: ../classes/class_generic6dofjoint.rst:858
+#: ../classes/class_generic6dofjoint.rst:986
+#: ../classes/class_generic6dofjoint.rst:1014
+#: ../classes/class_generic6dofjoint.rst:1028
+#: ../classes/class_generic6dofjoint.rst:1234
+#: ../classes/class_generic6dofjoint.rst:1266
+#: ../classes/class_generic6dofjoint.rst:1282
+#: ../classes/class_generic6dofjoint.rst:1298
+#: ../classes/class_generic6dofjoint.rst:1314
+#: ../classes/class_generic6dofjoint.rst:1442
+#: ../classes/class_generic6dofjoint.rst:1458
+#: ../classes/class_generic6dofjoint.rst:1586
+#: ../classes/class_generic6dofjoint.rst:1614
+#: ../classes/class_generic6dofjoint.rst:1628
+msgid "get_param_z()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:613
+msgid "跨越Z轴的旋转阻尼量。值越低，阻尼就越多。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:619
+msgid ":ref:`bool<class_bool>` **angular_limit_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:624
+#: ../classes/class_generic6dofjoint.rst:824
+#: ../classes/class_generic6dofjoint.rst:998
+#: ../classes/class_generic6dofjoint.rst:1248
+#: ../classes/class_generic6dofjoint.rst:1424
+#: ../classes/class_generic6dofjoint.rst:1598
+msgid "set_flag_z(value)"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:626
+#: ../classes/class_generic6dofjoint.rst:826
+#: ../classes/class_generic6dofjoint.rst:1000
+#: ../classes/class_generic6dofjoint.rst:1250
+#: ../classes/class_generic6dofjoint.rst:1426
+#: ../classes/class_generic6dofjoint.rst:1600
+msgid "get_flag_z()"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:629
+msgid "如果\\ ``true``\\ ，跨越Z轴的旋转受到限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:635
+msgid ":ref:`float<class_float>` **angular_limit_z/erp**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:645
+msgid "当在Z轴上旋转时，这个误差容限系数定义了修正的速度被减慢的程度。值越低，旋转越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:651
+msgid ":ref:`float<class_float>` **angular_limit_z/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:661
+msgid "围绕Z轴旋转时，可能发生的最角度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:667
+msgid ":ref:`float<class_float>` **angular_limit_z/lower_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:673
+msgid "负方向的最小旋转，以挣脱并围绕Z轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:679
+msgid ":ref:`float<class_float>` **angular_limit_z/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:689
+msgid "跨越Z轴的旋转恢复量。越低，发生的恢复量越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:695
+msgid ":ref:`float<class_float>` **angular_limit_z/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:705
+msgid "跨越Z轴的所有旋转的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:711
+msgid ":ref:`float<class_float>` **angular_limit_z/upper_angle**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:717
+msgid "正方向的最小旋转，并绕Z轴旋转。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:723
+msgid ":ref:`bool<class_bool>` **angular_motor_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:733
+msgid "如果为\\ ``true``\\ ，X轴的旋转电机被启用。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:739
+msgid ":ref:`float<class_float>` **angular_motor_x/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:749
+msgid "在X轴旋转的最大加速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:755
+msgid ":ref:`float<class_float>` **angular_motor_x/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:765
+msgid "X轴上电机的目标速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:771
+msgid ":ref:`bool<class_bool>` **angular_motor_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:781
+msgid "如果\\ ``true``\\ ，启用Y轴上的旋转电机。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:787
+msgid ":ref:`float<class_float>` **angular_motor_y/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:797
+msgid "电机在X轴的最大加速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:803
+msgid ":ref:`float<class_float>` **angular_motor_y/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:813
+msgid "电机在Y轴的目标速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:819
+msgid ":ref:`bool<class_bool>` **angular_motor_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:829
+msgid "如果\\ ``true``\\ ，则启用Z轴的旋转电机。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:835
+msgid ":ref:`float<class_float>` **angular_motor_z/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:845
+msgid "电机在Z轴的最大加速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:851
+msgid ":ref:`float<class_float>` **angular_motor_z/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:861
+msgid "Z轴上电机的目标速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:867
+msgid ":ref:`float<class_float>` **angular_spring_x/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:881
+msgid ":ref:`bool<class_bool>` **angular_spring_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:895
+msgid ":ref:`float<class_float>` **angular_spring_x/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:909
+msgid ":ref:`float<class_float>` **angular_spring_x/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:923
+msgid ":ref:`float<class_float>` **angular_spring_y/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:937
+msgid ":ref:`bool<class_bool>` **angular_spring_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:951
+msgid ":ref:`float<class_float>` **angular_spring_y/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:965
+msgid ":ref:`float<class_float>` **angular_spring_y/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:979
+msgid ":ref:`float<class_float>` **angular_spring_z/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:993
+msgid ":ref:`bool<class_bool>` **angular_spring_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1007
+msgid ":ref:`float<class_float>` **angular_spring_z/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1021
+msgid ":ref:`float<class_float>` **angular_spring_z/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1035
+msgid ":ref:`float<class_float>` **linear_limit_x/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1045
+msgid "发生在X运动的阻尼量。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1051
+msgid ":ref:`bool<class_bool>` **linear_limit_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1061
+msgid "如果\\ ``true``\\ ，整个X轴的线性运动受到限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1067
+msgid ":ref:`float<class_float>` **linear_limit_x/lower_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1077
+#: ../classes/class_generic6dofjoint.rst:1125
+msgid "枢轴点的X轴之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1083
+msgid ":ref:`float<class_float>` **linear_limit_x/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1093
+msgid "X轴运动的恢复量。越低，动量损失越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1099
+msgid ":ref:`float<class_float>` **linear_limit_x/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1109
+msgid "应用于X轴上移动的一个系数。值越低，移动的就越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1115
+msgid ":ref:`float<class_float>` **linear_limit_x/upper_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1131
+msgid ":ref:`float<class_float>` **linear_limit_y/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1141
+msgid "发生在Y运动的阻尼量。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1147
+msgid ":ref:`bool<class_bool>` **linear_limit_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1157
+msgid "如果\\ ``true``\\ ，限制跨越Y轴的线性运动。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1163
+msgid ":ref:`float<class_float>` **linear_limit_y/lower_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1173
+msgid "枢轴点的Y轴之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1179
+msgid ":ref:`float<class_float>` **linear_limit_y/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1189
+msgid "Y轴运动的恢复量。值越低，动量损失越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1195
+msgid ":ref:`float<class_float>` **linear_limit_y/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1205
+msgid "应用于Y轴上移动的一个系数。值越低，移动的就越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1211
+msgid ":ref:`float<class_float>` **linear_limit_y/upper_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1221
+msgid "枢轴点的Y轴之间的最大差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1227
+msgid ":ref:`float<class_float>` **linear_limit_z/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1237
+msgid "发生在Z运动的阻尼量。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1243
+msgid ":ref:`bool<class_bool>` **linear_limit_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1253
+msgid "如果\\ ``true``\\ ，跨Z轴的线性运动受到限制。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1259
+msgid ":ref:`float<class_float>` **linear_limit_z/lower_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1269
+msgid "枢轴点的Z轴之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1275
+msgid ":ref:`float<class_float>` **linear_limit_z/restitution**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1285
+msgid "Y轴运动的恢复量。越低，动量损失越大。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1291
+msgid ":ref:`float<class_float>` **linear_limit_z/softness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1301
+msgid "适用于跨Z轴移动的一个系数。值越低，移动的就越慢。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1307
+msgid ":ref:`float<class_float>` **linear_limit_z/upper_distance**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1317
+msgid "枢轴点的Z轴之间的最大差异。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1323
+msgid ":ref:`bool<class_bool>` **linear_motor_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1333
+msgid "如果\\ ``true``\\ ，那么X轴上有一个线性马达。它将试图达到目标速度，同时保持在力的限度内。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1339
+msgid ":ref:`float<class_float>` **linear_motor_x/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1349
+msgid "当尝试达到目标速度时，线性马达可以在X轴上应用的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1355
+msgid ":ref:`float<class_float>` **linear_motor_x/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1365
+msgid "线性马达在X轴上尝试达到的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1371
+msgid ":ref:`bool<class_bool>` **linear_motor_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1381
+msgid "如果\\ ``true``\\ ，那么Y轴上有一个线性马达。它将尝试达到目标速度，同时保持在力的限度内。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1387
+msgid ":ref:`float<class_float>` **linear_motor_y/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1397
+msgid "直线电机在试图达到目标速度时可施加在Y轴上的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1403
+msgid ":ref:`float<class_float>` **linear_motor_y/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1413
+msgid "线性马达在Y轴上将会达到的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1419
+msgid ":ref:`bool<class_bool>` **linear_motor_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1429
+msgid "如果\\ ``true``\\ ，那么在Z轴上有一个线性马达。它将试图达到目标速度，同时保持在力的限度内。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1435
+msgid ":ref:`float<class_float>` **linear_motor_z/force_limit**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1445
+msgid "当试图达到目标速度时，线性马达可以在X轴上应用的最大力。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1451
+msgid ":ref:`float<class_float>` **linear_motor_z/target_velocity**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1461
+msgid "线性马达在Z轴上试图达到的速度。"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1467
+msgid ":ref:`float<class_float>` **linear_spring_x/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1481
+msgid ":ref:`bool<class_bool>` **linear_spring_x/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1495
+msgid ":ref:`float<class_float>` **linear_spring_x/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1509
+msgid ":ref:`float<class_float>` **linear_spring_x/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1523
+msgid ":ref:`float<class_float>` **linear_spring_y/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1537
+msgid ":ref:`bool<class_bool>` **linear_spring_y/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1551
+msgid ":ref:`float<class_float>` **linear_spring_y/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1565
+msgid ":ref:`float<class_float>` **linear_spring_y/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1579
+msgid ":ref:`float<class_float>` **linear_spring_z/damping**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1593
+msgid ":ref:`bool<class_bool>` **linear_spring_z/enabled**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1607
+msgid ":ref:`float<class_float>` **linear_spring_z/equilibrium_point**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1621
+msgid ":ref:`float<class_float>` **linear_spring_z/stiffness**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1632
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1636
+msgid ":ref:`bool<class_bool>` **get_flag_x** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1642
+msgid ":ref:`bool<class_bool>` **get_flag_y** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1648
+msgid ":ref:`bool<class_bool>` **get_flag_z** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1654
+msgid ":ref:`float<class_float>` **get_param_x** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1660
+msgid ":ref:`float<class_float>` **get_param_y** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1666
+msgid ":ref:`float<class_float>` **get_param_z** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1672
+msgid "void **set_flag_x** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1678
+msgid "void **set_flag_y** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1684
+msgid "void **set_flag_z** **(** :ref:`Flag<enum_Generic6DOFJoint_Flag>` flag, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1690
+msgid "void **set_param_x** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1696
+msgid "void **set_param_y** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_generic6dofjoint.rst:1702
+msgid "void **set_param_z** **(** :ref:`Param<enum_Generic6DOFJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

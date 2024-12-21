@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_textmesh.rst:11
+msgid "TextMesh"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:13
+msgid "**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:15
+#: ../classes/class_textmesh.rst:20
+msgid "Generate an :ref:`PrimitiveMesh<class_PrimitiveMesh>` from the text."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:22
+msgid "TextMesh can be generated only when using dynamic fonts with vector glyph contours. Bitmap fonts (including bitmap data in the TrueType/OpenType containers, like color emoji fonts) are not supported."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:24
+msgid "The UV layout is arranged in 4 horizontal strips, top to bottom: 40% of the height for the front face, 40% for the back face, 10% for the outer edges and 10% for the inner edges."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:30
+#: ../classes/class_textmesh.rst:32
+#: ../classes/class_textmesh.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:30
+msgid ":ref:`curve_step<class_TextMesh_property_curve_step>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:30
+#: ../classes/class_textmesh.rst:72
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:32
+msgid ":ref:`depth<class_TextMesh_property_depth>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:32
+#: ../classes/class_textmesh.rst:88
+msgid "``0.05``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:34
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:34
+msgid ":ref:`font<class_TextMesh_property_font>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:36
+msgid ":ref:`Align<enum_TextMesh_Align>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:36
+msgid ":ref:`horizontal_alignment<class_TextMesh_property_horizontal_alignment>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:36
+#: ../classes/class_textmesh.rst:118
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:38
+msgid ":ref:`pixel_size<class_TextMesh_property_pixel_size>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:38
+#: ../classes/class_textmesh.rst:134
+msgid "``0.01``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:40
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:40
+msgid ":ref:`text<class_TextMesh_property_text>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:40
+#: ../classes/class_textmesh.rst:150
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:42
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:42
+msgid ":ref:`uppercase<class_TextMesh_property_uppercase>`"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:42
+#: ../classes/class_textmesh.rst:166
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:46
+msgid "Enumerations"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:56
+msgid "enum **Align**:"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:58
+msgid "**ALIGN_LEFT** = **0** --- Align rows to the left (default)."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:60
+msgid "**ALIGN_CENTER** = **1** --- Align rows centered."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:62
+msgid "**ALIGN_RIGHT** = **2** --- Align rows to the right."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:65
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:69
+msgid ":ref:`float<class_float>` **curve_step**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:72
+#: ../classes/class_textmesh.rst:88
+#: ../classes/class_textmesh.rst:118
+#: ../classes/class_textmesh.rst:134
+#: ../classes/class_textmesh.rst:150
+#: ../classes/class_textmesh.rst:166
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:74
+#: ../classes/class_textmesh.rst:90
+#: ../classes/class_textmesh.rst:104
+#: ../classes/class_textmesh.rst:120
+#: ../classes/class_textmesh.rst:136
+#: ../classes/class_textmesh.rst:152
+#: ../classes/class_textmesh.rst:168
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:74
+msgid "set_curve_step(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:76
+#: ../classes/class_textmesh.rst:92
+#: ../classes/class_textmesh.rst:106
+#: ../classes/class_textmesh.rst:122
+#: ../classes/class_textmesh.rst:138
+#: ../classes/class_textmesh.rst:154
+#: ../classes/class_textmesh.rst:170
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:76
+msgid "get_curve_step()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:79
+msgid "Step (in pixels) used to approximate Bézier curves."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:85
+msgid ":ref:`float<class_float>` **depth**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:90
+msgid "set_depth(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:92
+msgid "get_depth()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:95
+msgid "Depths of the mesh, if set to ``0.0`` only front surface, is generated, and UV layout is changed to use full texture for the front face only."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:101
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:104
+msgid "set_font(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:106
+msgid "get_font()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:109
+msgid ":ref:`Font<class_Font>` used for the ``TextMesh``'s text."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:115
+msgid ":ref:`Align<enum_TextMesh_Align>` **horizontal_alignment**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:120
+msgid "set_horizontal_alignment(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:122
+msgid "get_horizontal_alignment()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:125
+msgid "Controls the text's horizontal alignment. Supports left, center and right. Set it to one of the :ref:`Align<enum_TextMesh_Align>` constants."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:131
+msgid ":ref:`float<class_float>` **pixel_size**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:136
+msgid "set_pixel_size(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:138
+msgid "get_pixel_size()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:141
+msgid "The size of one pixel's width on the text to scale it in 3D."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:147
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:152
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:154
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:157
+msgid "The text to generate mesh from."
+msgstr ""
+
+#: ../classes/class_textmesh.rst:163
+msgid ":ref:`bool<class_bool>` **uppercase**"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:168
+msgid "set_uppercase(value)"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:170
+msgid "is_uppercase()"
+msgstr ""
+
+#: ../classes/class_textmesh.rst:173
+msgid "If ``true``, all the text displays as UPPERCASE."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

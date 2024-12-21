@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_listener.rst:10
+msgid "Listener"
+msgstr ""
+
+#: ../classes/class_listener.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_listener.rst:14
+msgid "覆盖听到声音的位置。"
+msgstr ""
+
+#: ../classes/class_listener.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_listener.rst:19
+msgid "一旦被添加到场景树并使用\\ :ref:`make_current<class_Listener_method_make_current>`\\ 启用，这个节点将覆盖听到声音的位置。这可以用来从\\ :ref:`Camera<class_Camera>`\\ 不同的位置聆听。"
+msgstr ""
+
+#: ../classes/class_listener.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_listener.rst:25
+#: ../classes/class_listener.rst:31
+msgid "void"
+msgstr ""
+
+#: ../classes/class_listener.rst:25
+msgid ":ref:`clear_current<class_Listener_method_clear_current>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener.rst:27
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_listener.rst:27
+msgid ":ref:`get_listener_transform<class_Listener_method_get_listener_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_listener.rst:29
+msgid ":ref:`is_current<class_Listener_method_is_current>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener.rst:31
+msgid ":ref:`make_current<class_Listener_method_make_current>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener.rst:35
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_listener.rst:39
+msgid "void **clear_current** **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener.rst:41
+msgid "禁用监听器，用当前相机的监听器代替。"
+msgstr ""
+
+#: ../classes/class_listener.rst:47
+msgid ":ref:`Transform<class_Transform>` **get_listener_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener.rst:49
+msgid "返回监听器的全局正则化\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_listener.rst:55
+msgid ":ref:`bool<class_bool>` **is_current** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener.rst:57
+msgid "如果使用\\ :ref:`make_current<class_Listener_method_make_current>`\\ 方法，使监听器成为当前状态，则返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_listener.rst:59
+msgid "\\ **注意:** 在场景树中可能有一个以上的监听器被标记为 \"当前\"，但只有最后变成当前的那个才会被使用。"
+msgstr ""
+
+#: ../classes/class_listener.rst:65
+msgid "void **make_current** **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener.rst:67
+msgid "启用监听器。这将覆盖当前相机的监听器。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

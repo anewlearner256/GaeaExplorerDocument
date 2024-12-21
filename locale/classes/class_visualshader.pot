@@ -1,0 +1,334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualshader.rst:10
+msgid "VisualShader"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:12
+msgid "**Inherits:** :ref:`Shader<class_Shader>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:14
+msgid "带有可视化编辑器的自定义着色器程序。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:19
+msgid "此类允许你自定义着色器程序，可以用于各种材质来渲染对象。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:21
+msgid "可视化着色器编辑器会创建着色器。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:27
+#: ../classes/class_visualshader.rst:50
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:27
+msgid ":ref:`graph_offset<class_VisualShader_property_graph_offset>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:27
+#: ../classes/class_visualshader.rst:105
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:34
+#: ../classes/class_visualshader.rst:40
+#: ../classes/class_visualshader.rst:42
+#: ../classes/class_visualshader.rst:56
+#: ../classes/class_visualshader.rst:58
+#: ../classes/class_visualshader.rst:60
+msgid "void"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:34
+msgid ":ref:`add_node<class_VisualShader_method_add_node>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`VisualShaderNode<class_VisualShaderNode>` node, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:36
+#: ../classes/class_visualshader.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:36
+msgid ":ref:`can_connect_nodes<class_VisualShader_method_can_connect_nodes>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:38
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:38
+msgid ":ref:`connect_nodes<class_VisualShader_method_connect_nodes>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:40
+msgid ":ref:`connect_nodes_forced<class_VisualShader_method_connect_nodes_forced>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:42
+msgid ":ref:`disconnect_nodes<class_VisualShader_method_disconnect_nodes>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:44
+msgid ":ref:`VisualShaderNode<class_VisualShaderNode>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:44
+msgid ":ref:`get_node<class_VisualShader_method_get_node>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:46
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:46
+msgid ":ref:`get_node_connections<class_VisualShader_method_get_node_connections>` **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:48
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:48
+msgid ":ref:`get_node_list<class_VisualShader_method_get_node_list>` **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:50
+msgid ":ref:`get_node_position<class_VisualShader_method_get_node_position>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:52
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:52
+msgid ":ref:`get_valid_node_id<class_VisualShader_method_get_valid_node_id>` **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:54
+msgid ":ref:`is_node_connection<class_VisualShader_method_is_node_connection>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:56
+msgid ":ref:`remove_node<class_VisualShader_method_remove_node>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:58
+msgid ":ref:`set_mode<class_VisualShader_method_set_mode>` **(** :ref:`Mode<enum_Shader_Mode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:60
+msgid ":ref:`set_node_position<class_VisualShader_method_set_node_position>` **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:64
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:76
+msgid "enum **Type**:"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:78
+msgid "**TYPE_VERTEX** = **0** --- 顶点着色器，对顶点进行操作。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:80
+msgid "**TYPE_FRAGMENT** = **1** --- 片段着色器，对片段（像素）进行操作。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:82
+msgid "**TYPE_LIGHT** = **2** --- 用于光线计算的着色器。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:84
+msgid "**TYPE_MAX** = **3** --- 表示 :ref:`Type<enum_VisualShader_Type>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:87
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:93
+msgid "**NODE_ID_INVALID** = **-1**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:95
+msgid "**NODE_ID_OUTPUT** = **0**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:98
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:102
+msgid ":ref:`Vector2<class_Vector2>` **graph_offset**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:105
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:107
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:107
+msgid "set_graph_offset(value)"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:109
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:109
+msgid "get_graph_offset()"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:112
+msgid "整个图的偏移向量。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:115
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:119
+msgid "void **add_node** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`VisualShaderNode<class_VisualShaderNode>` node, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:121
+msgid "将指定节点添加到着色器中。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:127
+msgid ":ref:`bool<class_bool>` **can_connect_nodes** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:129
+msgid "如果指定节点和端口可以连接在一起，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:135
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_nodes** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:137
+#: ../classes/class_visualshader.rst:153
+msgid "连接指定的节点和端口。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:143
+msgid "void **connect_nodes_forced** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:145
+msgid "连接指定的节点和端口，即使它们无法连接。这样的连接是无效的，将不能正常工作。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:151
+msgid "void **disconnect_nodes** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:159
+msgid ":ref:`VisualShaderNode<class_VisualShaderNode>` **get_node** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:161
+msgid "返回具有指定\\ ``type``\\ 和\\ ``id``\\ 的着色器节点实例。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:167
+msgid ":ref:`Array<class_Array>` **get_node_connections** **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:169
+msgid "返回具有指定类型的连接节点的列表。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:175
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_node_list** **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:177
+msgid "返回着色器中具有指定类型的所有节点的列表。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:183
+msgid ":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:185
+msgid "返回指定节点在着色器图中的位置。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:191
+msgid ":ref:`int<class_int>` **get_valid_node_id** **(** :ref:`Type<enum_VisualShader_Type>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:197
+msgid ":ref:`bool<class_bool>` **is_node_connection** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:199
+msgid "如果指定的节点和端口连接存在，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:205
+msgid "void **remove_node** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:207
+msgid "从着色器中删除指定的节点。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:213
+msgid "void **set_mode** **(** :ref:`Mode<enum_Shader_Mode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:215
+msgid "设置该着色器的模式。"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:221
+msgid "void **set_node_position** **(** :ref:`Type<enum_VisualShader_Type>` type, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_visualshader.rst:223
+msgid "设置指定节点的位置。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

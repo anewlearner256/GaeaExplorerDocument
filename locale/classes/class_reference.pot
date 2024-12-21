@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_reference.rst:10
+msgid "Reference"
+msgstr ""
+
+#: ../classes/class_reference.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_reference.rst:14
+msgid "**Inherited By:** :ref:`AESContext<class_AESContext>`, :ref:`ARVRInterface<class_ARVRInterface>`, :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>`, :ref:`AStar<class_AStar>`, :ref:`AStar2D<class_AStar2D>`, :ref:`AnimationTrackEditPlugin<class_AnimationTrackEditPlugin>`, :ref:`AudioEffectInstance<class_AudioEffectInstance>`, :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`, :ref:`CameraFeed<class_CameraFeed>`, :ref:`CharFXTransform<class_CharFXTransform>`, :ref:`ConfigFile<class_ConfigFile>`, :ref:`Crypto<class_Crypto>`, :ref:`DTLSServer<class_DTLSServer>`, :ref:`Directory<class_Directory>`, :ref:`EditorExportPlugin<class_EditorExportPlugin>`, :ref:`EditorFeatureProfile<class_EditorFeatureProfile>`, :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`, :ref:`EditorResourceConversionPlugin<class_EditorResourceConversionPlugin>`, :ref:`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>`, :ref:`EditorSceneImporter<class_EditorSceneImporter>`, :ref:`EditorScenePostImport<class_EditorScenePostImport>`, :ref:`EditorScript<class_EditorScript>`, :ref:`EncodedObjectAsID<class_EncodedObjectAsID>`, :ref:`Expression<class_Expression>`, :ref:`File<class_File>`, :ref:`FuncRef<class_FuncRef>`, :ref:`GDNative<class_GDNative>`, :ref:`GDScriptFunctionState<class_GDScriptFunctionState>`, :ref:`HMACContext<class_HMACContext>`, :ref:`HTTPClient<class_HTTPClient>`, :ref:`HashingContext<class_HashingContext>`, :ref:`JSONParseResult<class_JSONParseResult>`, :ref:`JavaClass<class_JavaClass>`, :ref:`JavaScriptObject<class_JavaScriptObject>`, :ref:`KinematicCollision<class_KinematicCollision>`, :ref:`KinematicCollision2D<class_KinematicCollision2D>`, :ref:`MeshDataTool<class_MeshDataTool>`, :ref:`MultiplayerAPI<class_MultiplayerAPI>`, :ref:`Mutex<class_Mutex>`, :ref:`PCKPacker<class_PCKPacker>`, :ref:`PackedDataContainerRef<class_PackedDataContainerRef>`, :ref:`PacketPeer<class_PacketPeer>`, :ref:`Physics2DShapeQueryParameters<class_Physics2DShapeQueryParameters>`, :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>`, :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>`, :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>`, :ref:`RandomNumberGenerator<class_RandomNumberGenerator>`, :ref:`RegEx<class_RegEx>`, :ref:`RegExMatch<class_RegExMatch>`, :ref:`Resource<class_Resource>`, :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`, :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`, :ref:`ResourceImporter<class_ResourceImporter>`, :ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`, :ref:`SceneState<class_SceneState>`, :ref:`SceneTreeTimer<class_SceneTreeTimer>`, :ref:`Semaphore<class_Semaphore>`, :ref:`SkinReference<class_SkinReference>`, :ref:`SpatialGizmo<class_SpatialGizmo>`, :ref:`SpatialVelocityTracker<class_SpatialVelocityTracker>`, :ref:`StreamPeer<class_StreamPeer>`, :ref:`SurfaceTool<class_SurfaceTool>`, :ref:`TCP_Server<class_TCP_Server>`, :ref:`Thread<class_Thread>`, :ref:`TriangleMesh<class_TriangleMesh>`, :ref:`UDPServer<class_UDPServer>`, :ref:`UPNP<class_UPNP>`, :ref:`UPNPDevice<class_UPNPDevice>`, :ref:`VisualScriptFunctionState<class_VisualScriptFunctionState>`, :ref:`WeakRef<class_WeakRef>`, :ref:`WebRTCPeerConnection<class_WebRTCPeerConnection>`, :ref:`XMLParser<class_XMLParser>`"
+msgstr ""
+
+#: ../classes/class_reference.rst:16
+msgid "引用计数对象的基类。"
+msgstr ""
+
+#: ../classes/class_reference.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_reference.rst:21
+msgid "任何保持引用计数对象的基类。 :ref:`Resource<class_Resource>` 和许多其他辅助对象继承了这个类。"
+msgstr ""
+
+#: ../classes/class_reference.rst:23
+msgid "与其他 :ref:`Object<class_Object>` 类型不同，References 保留一个内部引用计数器，以便在不使用且仅在那时自动释放。因此，不需要使用 :ref:`Object.free<class_Object_method_free>` 手动释放引用。"
+msgstr ""
+
+#: ../classes/class_reference.rst:25
+msgid "在绝大多数用例中，您只需要实例化和使用 ``Reference`` 派生类型。此类中提供的方法仅适用于高级用户，如果误用可能会导致问题。"
+msgstr ""
+
+#: ../classes/class_reference.rst:27
+msgid "\\ **注意：**\\ 在C#中，引用不再使用后不会立即释放。相反，垃圾收集将定期运行并释放不再使用的引用。这意味着未使用的引用会在被删除之前停留一段时间。"
+msgstr ""
+
+#: ../classes/class_reference.rst:30
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_reference.rst:32
+msgid ":doc:`When and how to avoid using nodes for everything <../tutorials/best_practices/node_alternatives>`"
+msgstr ""
+
+#: ../classes/class_reference.rst:35
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_reference.rst:38
+#: ../classes/class_reference.rst:40
+#: ../classes/class_reference.rst:42
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_reference.rst:38
+msgid ":ref:`init_ref<class_Reference_method_init_ref>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:40
+msgid ":ref:`reference<class_Reference_method_reference>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:42
+msgid ":ref:`unreference<class_Reference_method_unreference>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:46
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_reference.rst:50
+msgid ":ref:`bool<class_bool>` **init_ref** **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:52
+msgid "初始化内部引用计数器。只有在你真的知道你在做什么的时候才使用这个。"
+msgstr ""
+
+#: ../classes/class_reference.rst:54
+msgid "返回初始化是否成功。"
+msgstr ""
+
+#: ../classes/class_reference.rst:60
+msgid ":ref:`bool<class_bool>` **reference** **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:62
+msgid "内部引用增量计数器。只有在你真的知道你在做什么的时候才使用这个。"
+msgstr ""
+
+#: ../classes/class_reference.rst:64
+msgid "如果增量成功，返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_reference.rst:70
+msgid ":ref:`bool<class_bool>` **unreference** **(** **)**"
+msgstr ""
+
+#: ../classes/class_reference.rst:72
+msgid "内部引用减量计数器。只有在你真的知道你在做什么的时候才使用这个。"
+msgstr ""
+
+#: ../classes/class_reference.rst:74
+msgid "如果减量成功，返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

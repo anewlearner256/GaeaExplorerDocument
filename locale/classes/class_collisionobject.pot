@@ -1,0 +1,521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_collisionobject.rst:10
+msgid "CollisionObject"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:14
+msgid "**Inherited By:** :ref:`Area<class_Area>`, :ref:`PhysicsBody<class_PhysicsBody>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:16
+msgid "碰撞对象的基础节点。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:21
+msgid "CollisionObject 是物理对象的基类。它可以容纳任何数量的碰撞形状 :ref:`Shape<class_Shape>`\\ 。每个形状必须分配给一个形状所有者 *shape owner*\\ 。CollisionObject 可以有任意数量的形状所有者。形状所有者不是节点，也不会出现在编辑器中，但是可以通过代码使用 ``shape_owner_*`` 方法进行访问。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:27
+#: ../classes/class_collisionobject.rst:29
+#: ../classes/class_collisionobject.rst:42
+#: ../classes/class_collisionobject.rst:60
+#: ../classes/class_collisionobject.rst:70
+#: ../classes/class_collisionobject.rst:72
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:27
+msgid ":ref:`collision_layer<class_CollisionObject_property_collision_layer>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:27
+#: ../classes/class_collisionobject.rst:29
+#: ../classes/class_collisionobject.rst:116
+#: ../classes/class_collisionobject.rst:134
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:29
+msgid ":ref:`collision_mask<class_CollisionObject_property_collision_mask>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:31
+#: ../classes/class_collisionobject.rst:33
+#: ../classes/class_collisionobject.rst:44
+#: ../classes/class_collisionobject.rst:46
+#: ../classes/class_collisionobject.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:31
+msgid ":ref:`input_capture_on_drag<class_CollisionObject_property_input_capture_on_drag>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:31
+#: ../classes/class_collisionobject.rst:152
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:33
+msgid ":ref:`input_ray_pickable<class_CollisionObject_property_input_ray_pickable>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:33
+#: ../classes/class_collisionobject.rst:168
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:37
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:40
+#: ../classes/class_collisionobject.rst:54
+#: ../classes/class_collisionobject.rst:56
+#: ../classes/class_collisionobject.rst:58
+#: ../classes/class_collisionobject.rst:62
+#: ../classes/class_collisionobject.rst:64
+#: ../classes/class_collisionobject.rst:76
+#: ../classes/class_collisionobject.rst:78
+#: ../classes/class_collisionobject.rst:80
+msgid "void"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:40
+msgid ":ref:`_input_event<class_CollisionObject_method__input_event>` **(** :ref:`Object<class_Object>` camera, :ref:`InputEvent<class_InputEvent>` event, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` normal, :ref:`int<class_int>` shape_idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:42
+msgid ":ref:`create_shape_owner<class_CollisionObject_method_create_shape_owner>` **(** :ref:`Object<class_Object>` owner **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:44
+msgid ":ref:`get_collision_layer_bit<class_CollisionObject_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:46
+msgid ":ref:`get_collision_mask_bit<class_CollisionObject_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:48
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:48
+msgid ":ref:`get_rid<class_CollisionObject_method_get_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:50
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:50
+msgid ":ref:`get_shape_owners<class_CollisionObject_method_get_shape_owners>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:52
+msgid ":ref:`is_shape_owner_disabled<class_CollisionObject_method_is_shape_owner_disabled>` **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:54
+msgid ":ref:`remove_shape_owner<class_CollisionObject_method_remove_shape_owner>` **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:56
+msgid ":ref:`set_collision_layer_bit<class_CollisionObject_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:58
+msgid ":ref:`set_collision_mask_bit<class_CollisionObject_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:60
+msgid ":ref:`shape_find_owner<class_CollisionObject_method_shape_find_owner>` **(** :ref:`int<class_int>` shape_index **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:62
+msgid ":ref:`shape_owner_add_shape<class_CollisionObject_method_shape_owner_add_shape>` **(** :ref:`int<class_int>` owner_id, :ref:`Shape<class_Shape>` shape **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:64
+msgid ":ref:`shape_owner_clear_shapes<class_CollisionObject_method_shape_owner_clear_shapes>` **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:66
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:66
+msgid ":ref:`shape_owner_get_owner<class_CollisionObject_method_shape_owner_get_owner>` **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:68
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:68
+msgid ":ref:`shape_owner_get_shape<class_CollisionObject_method_shape_owner_get_shape>` **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:70
+msgid ":ref:`shape_owner_get_shape_count<class_CollisionObject_method_shape_owner_get_shape_count>` **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:72
+msgid ":ref:`shape_owner_get_shape_index<class_CollisionObject_method_shape_owner_get_shape_index>` **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:74
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:74
+msgid ":ref:`shape_owner_get_transform<class_CollisionObject_method_shape_owner_get_transform>` **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:76
+msgid ":ref:`shape_owner_remove_shape<class_CollisionObject_method_shape_owner_remove_shape>` **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:78
+msgid ":ref:`shape_owner_set_disabled<class_CollisionObject_method_shape_owner_set_disabled>` **(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:80
+msgid ":ref:`shape_owner_set_transform<class_CollisionObject_method_shape_owner_set_transform>` **(** :ref:`int<class_int>` owner_id, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:84
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:88
+msgid "**input_event** **(** :ref:`Node<class_Node>` camera, :ref:`InputEvent<class_InputEvent>` event, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` normal, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:90
+msgid "当对象收到未处理的 :ref:`InputEvent<class_InputEvent>` 时发出。 ``position`` 是鼠标指针在具有索引 ``shape_idx`` 的形状表面在世界空间中的位置，\\ ``normal`` 是该点表面的法向量."
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:96
+msgid "**mouse_entered** **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:98
+msgid "当鼠标指针进入此对象的任何形状时触发。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:104
+msgid "**mouse_exited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:106
+msgid "当鼠标指针退出此对象的所有形状时发出。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:109
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:113
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:116
+#: ../classes/class_collisionobject.rst:134
+#: ../classes/class_collisionobject.rst:152
+#: ../classes/class_collisionobject.rst:168
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:118
+#: ../classes/class_collisionobject.rst:136
+#: ../classes/class_collisionobject.rst:154
+#: ../classes/class_collisionobject.rst:170
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:118
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:120
+#: ../classes/class_collisionobject.rst:138
+#: ../classes/class_collisionobject.rst:156
+#: ../classes/class_collisionobject.rst:172
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:120
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:123
+msgid "The physics layers this CollisionObject3D is in. Collision objects can exist in one or more of 32 different layers. See also :ref:`collision_mask<class_CollisionObject_property_collision_mask>`."
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:125
+#: ../classes/class_collisionobject.rst:143
+msgid "\\ **Note:** A contact is detected if object A is in any of the layers that object B scans, or object B is in any layers that object A scans. See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:131
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:136
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:138
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:141
+msgid "The physics layers this CollisionObject3D scans. Collision objects can scan one or more of 32 different layers. See also :ref:`collision_layer<class_CollisionObject_property_collision_layer>`."
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:149
+msgid ":ref:`bool<class_bool>` **input_capture_on_drag**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:154
+msgid "set_capture_input_on_drag(value)"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:156
+msgid "get_capture_input_on_drag()"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:159
+msgid "如果\\ ``true``\\ ，\\ ``CollisionObject`` 将在鼠标拖过其形状时继续接收输入事件。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:165
+msgid ":ref:`bool<class_bool>` **input_ray_pickable**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:170
+msgid "set_ray_pickable(value)"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:172
+msgid "is_ray_pickable()"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:175
+msgid "如果\\ ``true``\\ ，\\ ``CollisionObject`` 的形状将对 :ref:`RayCast<class_RayCast>` 做出反应。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:178
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:182
+msgid "void **_input_event** **(** :ref:`Object<class_Object>` camera, :ref:`InputEvent<class_InputEvent>` event, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` normal, :ref:`int<class_int>` shape_idx **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:184
+msgid "接收未处理的事件 :ref:`InputEvent<class_InputEvent>`\\ 。 ``position`` 是鼠标指针在具有索引 ``shape_idx`` 的形状表面在世界空间中的位置，\\ ``normal`` 是该点表面的法向量。连接到 :ref:`input_event<class_CollisionObject_signal_input_event>` 信号以轻松获取这些事件。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:190
+msgid ":ref:`int<class_int>` **create_shape_owner** **(** :ref:`Object<class_Object>` owner **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:192
+msgid "为给定对象创建一个新的形状拥有者。返回\\ ``owner_id``\\ 的新所有者，供将来引用。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:198
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:200
+msgid "返回是否设置了碰撞层 :ref:`collision_layer<class_CollisionObject_property_collision_layer>` 的指定位\\ ``bit``\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:206
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:208
+msgid "返回是否设置了碰撞掩码 :ref:`collision_mask<class_CollisionObject_property_collision_mask>` 的指定位\\ ``bit``\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:214
+msgid ":ref:`RID<class_RID>` **get_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:216
+msgid "返回对象的 :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:222
+msgid ":ref:`Array<class_Array>` **get_shape_owners** **(** **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:224
+msgid "返回一个\\ ``owner_id``\\ 标识符的\\ :ref:`Array<class_Array>`\\ 。你可以在其他使用\\ ``owner_id``\\ 作为参数的方法中使用这些id。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:230
+msgid ":ref:`bool<class_bool>` **is_shape_owner_disabled** **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:232
+msgid "如果\\ ``true``\\ ，则禁用形状所有者及其形状。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:238
+msgid "void **remove_shape_owner** **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:240
+msgid "移除给定形状的所有者。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:246
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:248
+msgid "如果\\ ``value``\\ 为\\ ``true``\\ ，则设置\\ :ref:`collision_layer<class_CollisionObject_property_collision_layer>`\\ 中指定的\\ ``bit``\\ 位。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:250
+msgid "如果\\ ``value``\\ 为\\ ``false``\\ ，清除\\ :ref:`collision_layer<class_CollisionObject_property_collision_layer>`\\ 中指定的 ``bit``\\ 位。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:256
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:258
+msgid "如果\\ ``value``\\ 为\\ ``true``\\ ，则设置\\ :ref:`collision_mask<class_CollisionObject_property_collision_mask>`\\ 中指定的\\ ``bit``\\ 位。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:260
+msgid "如果\\ ``value``\\ 为\\ ``false``\\ ，清除\\ :ref:`collision_mask<class_CollisionObject_property_collision_mask>`\\ 中指定的 ``bit``\\ 位。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:266
+msgid ":ref:`int<class_int>` **shape_find_owner** **(** :ref:`int<class_int>` shape_index **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:268
+msgid "返回指定形状的\\ ``owner_id``\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:274
+msgid "void **shape_owner_add_shape** **(** :ref:`int<class_int>` owner_id, :ref:`Shape<class_Shape>` shape **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:276
+msgid "向形状所有者添加形状 :ref:`Shape<class_Shape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:282
+msgid "void **shape_owner_clear_shapes** **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:284
+msgid "移除形状所有者的所有形状。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:290
+msgid ":ref:`Object<class_Object>` **shape_owner_get_owner** **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:292
+msgid "返回给定形状所有者的父对象。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:298
+msgid ":ref:`Shape<class_Shape>` **shape_owner_get_shape** **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:300
+msgid "从给定的形状所有者返回具有给定 id 的形状 :ref:`Shape<class_Shape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:306
+msgid ":ref:`int<class_int>` **shape_owner_get_shape_count** **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:308
+msgid "返回给定形状所有者包含的形状数量。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:314
+msgid ":ref:`int<class_int>` **shape_owner_get_shape_index** **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:316
+msgid "返回具有给定形状所有者的给定 id 的形状 :ref:`Shape<class_Shape>` 的子索引。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:322
+msgid ":ref:`Transform<class_Transform>` **shape_owner_get_transform** **(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:324
+msgid "返回形状所有者的\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:330
+msgid "void **shape_owner_remove_shape** **(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:332
+msgid "从给定的形状所有者中删除一个形状。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:338
+msgid "void **shape_owner_set_disabled** **(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:340
+msgid "如果\\ ``true``\\ ，则禁用给定的形状所有者。"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:346
+msgid "void **shape_owner_set_transform** **(** :ref:`int<class_int>` owner_id, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_collisionobject.rst:348
+msgid "设置给定形状所有者的\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

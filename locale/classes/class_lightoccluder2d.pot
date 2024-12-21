@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_lightoccluder2d.rst:10
+msgid "LightOccluder2D"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:14
+msgid "遮挡由Light2D投射的光线，投射阴影。"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:19
+msgid "遮挡Light2D投射的灯光，投射阴影。为了计算阴影，必须为LightOccluder2D提供\\ :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:24
+msgid ":doc:`../tutorials/2d/2d_lights_and_shadows`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:30
+msgid ":ref:`light_mask<class_LightOccluder2D_property_light_mask>`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:30
+#: ../classes/class_lightoccluder2d.rst:43
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:32
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:32
+msgid ":ref:`occluder<class_LightOccluder2D_property_occluder>`"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:36
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:40
+msgid ":ref:`int<class_int>` **light_mask**"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:43
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:45
+#: ../classes/class_lightoccluder2d.rst:59
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:45
+msgid "set_occluder_light_mask(value)"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:47
+#: ../classes/class_lightoccluder2d.rst:61
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:47
+msgid "get_occluder_light_mask()"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:50
+msgid "LightOccluder2D的灯光遮罩。LightOccluder2D将仅从具有相同灯光遮罩的Light2D投射阴影。"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:56
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **occluder**"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:59
+msgid "set_occluder_polygon(value)"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:61
+msgid "get_occluder_polygon()"
+msgstr ""
+
+#: ../classes/class_lightoccluder2d.rst:64
+msgid "用于计算阴影的\\ :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animatedsprite.rst:10
+msgid "AnimatedSprite"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:14
+msgid "可以使用多个纹理进行动画处理的 Sprite 节点。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:19
+msgid "动画通过一个 :ref:`SpriteFrames<class_SpriteFrames>` 资源创建，而该资源可以通过动画帧面板在编辑器中配置。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:21
+msgid "\\ **注意：**\\ 您可以通过创建附加的带有 ``_normal`` 后缀的 :ref:`SpriteFrames<class_SpriteFrames>` 资源来关联一组法线贴图。例如，如有 2 个 :ref:`SpriteFrames<class_SpriteFrames>` 资源 ``run`` 和 ``run_normal``\\ ，将使 ``run`` 动画使用该法线贴图。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:26
+msgid ":doc:`2D Sprite animation <../tutorials/2d/2d_sprite_animation>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:28
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:34
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:34
+msgid ":ref:`animation<class_AnimatedSprite_property_animation>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:34
+#: ../classes/class_animatedsprite.rst:87
+msgid "``\"default\"``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:36
+#: ../classes/class_animatedsprite.rst:38
+#: ../classes/class_animatedsprite.rst:40
+#: ../classes/class_animatedsprite.rst:48
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:36
+msgid ":ref:`centered<class_AnimatedSprite_property_centered>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:36
+#: ../classes/class_animatedsprite.rst:103
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:38
+msgid ":ref:`flip_h<class_AnimatedSprite_property_flip_h>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:38
+#: ../classes/class_animatedsprite.rst:40
+#: ../classes/class_animatedsprite.rst:48
+#: ../classes/class_animatedsprite.rst:119
+#: ../classes/class_animatedsprite.rst:135
+#: ../classes/class_animatedsprite.rst:197
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:40
+msgid ":ref:`flip_v<class_AnimatedSprite_property_flip_v>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:42
+msgid ":ref:`frame<class_AnimatedSprite_property_frame>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:42
+#: ../classes/class_animatedsprite.rst:151
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:44
+msgid ":ref:`SpriteFrames<class_SpriteFrames>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:44
+msgid ":ref:`frames<class_AnimatedSprite_property_frames>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:46
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:46
+msgid ":ref:`offset<class_AnimatedSprite_property_offset>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:46
+#: ../classes/class_animatedsprite.rst:181
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:48
+msgid ":ref:`playing<class_AnimatedSprite_property_playing>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:50
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:50
+msgid ":ref:`speed_scale<class_AnimatedSprite_property_speed_scale>`"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:50
+#: ../classes/class_animatedsprite.rst:213
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:54
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:57
+#: ../classes/class_animatedsprite.rst:59
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:57
+msgid ":ref:`play<class_AnimatedSprite_method_play>` **(** :ref:`String<class_String>` anim=\"\", :ref:`bool<class_bool>` backwards=false **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:59
+msgid ":ref:`stop<class_AnimatedSprite_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:63
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:67
+msgid "**animation_finished** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:69
+msgid "动画结束时（播放最后一帧时）发出。如果动画正在循环播放，则每次绘制最后一帧时都会发出此信号。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:75
+msgid "**frame_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:77
+msgid "当\\ :ref:`frame<class_AnimatedSprite_property_frame>`\\ 更改时发出。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:80
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:84
+msgid ":ref:`String<class_String>` **animation**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:87
+#: ../classes/class_animatedsprite.rst:103
+#: ../classes/class_animatedsprite.rst:119
+#: ../classes/class_animatedsprite.rst:135
+#: ../classes/class_animatedsprite.rst:151
+#: ../classes/class_animatedsprite.rst:181
+#: ../classes/class_animatedsprite.rst:197
+#: ../classes/class_animatedsprite.rst:213
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:89
+#: ../classes/class_animatedsprite.rst:105
+#: ../classes/class_animatedsprite.rst:121
+#: ../classes/class_animatedsprite.rst:137
+#: ../classes/class_animatedsprite.rst:153
+#: ../classes/class_animatedsprite.rst:167
+#: ../classes/class_animatedsprite.rst:183
+#: ../classes/class_animatedsprite.rst:199
+#: ../classes/class_animatedsprite.rst:215
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:89
+msgid "set_animation(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:91
+#: ../classes/class_animatedsprite.rst:107
+#: ../classes/class_animatedsprite.rst:123
+#: ../classes/class_animatedsprite.rst:139
+#: ../classes/class_animatedsprite.rst:155
+#: ../classes/class_animatedsprite.rst:169
+#: ../classes/class_animatedsprite.rst:185
+#: ../classes/class_animatedsprite.rst:201
+#: ../classes/class_animatedsprite.rst:217
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:91
+msgid "get_animation()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:94
+msgid "来自 ``frames`` 资源的当前动画。如果这个值发生变化，\\ ``frame`` 计数器会被重置。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:100
+msgid ":ref:`bool<class_bool>` **centered**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:105
+msgid "set_centered(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:107
+msgid "is_centered()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:110
+msgid "为 ``true`` 时纹理将被居中。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:116
+msgid ":ref:`bool<class_bool>` **flip_h**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:121
+msgid "set_flip_h(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:123
+msgid "is_flipped_h()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:126
+msgid "为 ``true`` 时纹理将被水平翻转。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:132
+msgid ":ref:`bool<class_bool>` **flip_v**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:137
+msgid "set_flip_v(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:139
+msgid "is_flipped_v()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:142
+msgid "为 ``true`` 时纹理将被垂直翻转。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:148
+msgid ":ref:`int<class_int>` **frame**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:153
+msgid "set_frame(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:155
+msgid "get_frame()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:158
+msgid "显示的动画帧的索引。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:164
+msgid ":ref:`SpriteFrames<class_SpriteFrames>` **frames**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:167
+msgid "set_sprite_frames(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:169
+msgid "get_sprite_frames()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:172
+msgid "包含动画的 :ref:`SpriteFrames<class_SpriteFrames>` 资源。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:178
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:183
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:185
+msgid "get_offset()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:188
+msgid "纹理的绘图偏移量。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:194
+msgid ":ref:`bool<class_bool>` **playing**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:199
+msgid "set_playing(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:201
+msgid "is_playing()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:204
+msgid "如果 ``true``\\ ，则表示当前正在播放 :ref:`animation<class_AnimatedSprite_property_animation>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:210
+msgid ":ref:`float<class_float>` **speed_scale**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:215
+msgid "set_speed_scale(value)"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:217
+msgid "get_speed_scale()"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:220
+msgid "动画速度乘以此值。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:223
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:227
+msgid "void **play** **(** :ref:`String<class_String>` anim=\"\", :ref:`bool<class_bool>` backwards=false **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:229
+msgid "播放由 ``anim`` 指定的播放。如果没有指定 ``anim`` 参数，则播放当前动画。 如果 ``backwards`` 为 ``true`` ，则倒序播放动画。"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:235
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animatedsprite.rst:237
+msgid "停止播放当前动画（不会重置帧计数器）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

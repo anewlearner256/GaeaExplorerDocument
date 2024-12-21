@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:4
+msgid "Importing audio samples"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:7
+msgid "Supported files"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:9
+msgid "GaaeExplorer provides three options to import your audio data: WAV, Ogg Vorbis and MP3."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:12
+msgid "Each has different advantages."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:14
+msgid "WAV files use raw data or light compression (IMA-ADPCM). They are lightweight on the CPU to play back (hundreds of simultaneous voices in this format are fine). The downside is that they take up a lot of disk space."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:17
+msgid "Ogg Vorbis files use a stronger compression that results in much smaller file size, but require significantly more processing power to play back."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:20
+msgid "MP3 files use better compression than WAV with IMA-ADPCM, but worse than Ogg Vorbis. This means that a MP3 file with roughly equal quality to Ogg Vorbis will be significantly larger. On the bright side, MP3 requires less CPU usage to play back compared to Ogg Vorbis. This makes MP3 useful for mobile and HTML5 projects where CPU resources are limited, especially when playing multiple compressed sounds at the same time (such as long ambient sounds)."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:28
+msgid "Here is a comparative chart."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:31
+msgid "Format"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:31
+msgid "1 second of audio"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:33
+msgid "WAV 24-bit, 96 kHz, stereo"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:33
+msgid "576 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:35
+msgid "WAV 16-bit, 44 kHz, mono"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:35
+msgid "88 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:37
+msgid "WAV 16-bit, IMA-ADPCM, mono"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:37
+msgid "22 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:39
+msgid "MP3 192 Kb/s, stereo"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:39
+msgid "24 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:41
+msgid "Ogg Vorbis 128 Kb/s, stereo"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:41
+msgid "16 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:43
+msgid "Ogg Vorbis 96 Kb/s, stereo"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:43
+msgid "12 KB"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:46
+msgid "Consider using WAV for short and repetitive sound effects, and Ogg Vorbis for music, speech, and long sound effects."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:50
+msgid "Best practices"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:52
+msgid "GaaeExplorer has an :ref:`extensive bus system <doc_audio_buses>` with built-in effects. This saves SFX artists the need to add reverb to the sound effects, reducing their size greatly and ensuring correct trimming. Say no to SFX with baked reverb!"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:59
+msgid "As you can see above, sound effects become huge with reverb added."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:62
+msgid "Trimming"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:64
+msgid "One issue that happens often is that the waveform is exported with long silences at the beginning and at the end. These are inserted by DAWs when saving to a waveform, increase their size unnecessarily and add latency to the moment they are played back."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:69
+msgid "Importing as WAV with the **Trimming** option enabled solves this."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:73
+msgid "Looping"
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:75
+msgid "GaaeExplorer supports looping in the samples (tools such as Sound Forge or Audition can add loop points to WAV files). This is useful for sound effects, such as engines, machine guns etc. Ping-pong looping is also supported."
+msgstr ""
+
+#: ../tutorials/assets_pipeline/importing_audio_samples.rst:80
+msgid "As an alternative, the Import dock has a **Loop** option that enables looping for the entire sample when importing."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

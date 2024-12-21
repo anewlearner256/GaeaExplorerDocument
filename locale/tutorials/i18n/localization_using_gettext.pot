@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/i18n/localization_using_gettext.rst:4
+msgid "Localization using gettext"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:6
+msgid "In addition to :ref:`doc_importing_translations` in CSV format, GaaeExplorer also supports loading translation files written in the GNU gettext format (text-based ``.po`` and compiled ``.mo`` since GaaeExplorer 3.5)."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:10
+msgid "For an introduction to gettext, check out `A Quick Gettext Tutorial <https://www.labri.fr/perso/fleury/posts/programming/a-quick-gettext-tutorial.html>`_. It's written with C projects in mind, but much of the advice also applies to GaaeExplorer (with the exception of ``xgettext``)."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:16
+msgid "Advantages"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:18
+msgid "gettext is a standard format, which can be edited using any text editor or GUI editors such as `Poedit <https://poedit.net/>`_."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:20
+msgid "gettext is supported by translation platforms such as `Transifex <https://www.transifex.com/>`_ and `Weblate <https://weblate.org/>`_, which makes it easier for people to collaborate to localization."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:23
+msgid "Compared to CSV, gettext works better with version control systems like Git, as each locale has its own messages file."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:25
+msgid "Multiline strings are more convenient to edit in gettext files compared to CSV files."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:29
+msgid "Disadvantages"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:31
+msgid "gettext is a more complex format than CSV and can be harder to grasp for people new to software localization."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:33
+msgid "People who maintain localization files will have to install gettext tools on their system. However, as GaaeExplorer supports using text-based message files (``.po``), translators can test their work without having to install gettext tools."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:38
+msgid "Caveats"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:40
+msgid "As GaaeExplorer uses its own PO file parser behind the scenes (which is more limited than the reference GNU gettext implementation), some features such as pluralization aren't supported."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:45
+msgid "Installing gettext tools"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:47
+msgid "The command line gettext tools are required to perform maintenance operations, such as updating message files. Therefore, it's strongly recommended to install them."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:51
+msgid "**Windows:** Download an installer from `this page <https://mlocati.github.io/articles/gettext-iconv-windows.html>`_. Any architecture and binary type (shared or static) works; if in doubt, choose the 64-bit static installer."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:55
+msgid "**macOS:** Install gettext either using `Homebrew <https://brew.sh/>`_ with the ``brew install gettext`` command, or using `MacPorts <https://www.macports.org/>`_ with the ``sudo port install gettext`` command."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:59
+msgid "**Linux:** On most distributions, install the ``gettext`` package from your distribution's package manager."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:63
+msgid "Creating the PO template (POT) manually"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:65
+msgid "GaaeExplorer currently doesn't support extracting source strings using ``xgettext``, so the ``.pot`` file must be created manually. This file can be placed anywhere in the project directory, but it's recommended to keep it in a subdirectory, as each locale will be defined in its own file."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:70
+msgid "Create a directory named `locale` in the project directory. In this directory, save a file named ``messages.pot`` with the following contents:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:82
+msgid "Messages in gettext are made of ``msgid`` and ``msgstr`` pairs. ``msgid`` is the source string (usually in English), ``msgstr`` will be the translated string."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:86
+msgid "The ``msgstr`` value in PO template files (``.pot``) should **always** be empty. Localization will be done in the generated ``.po`` files instead."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:90
+msgid "Creating the PO template (POT) using pybabel"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:92
+msgid "The Python tool pybabel has support for GaaeExplorer and can be used to automatically create and update the POT file from your scene files and scripts."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:95
+msgid "After installing ``babel`` and ``babel-godot``, for example using pip:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:101
+msgid "Write a mapping file (for example ``babelrc``) which will indicate which files pybabel needs to process (note that we process GDScript as Python, which is generally sufficient):"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:113
+msgid "You can then run pybabel like so:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:119
+msgid "Use the ``-k`` option to specify what needs to be extracted. In this case, arguments to :ref:`tr() <class_Object_method_tr>` will be translated, as well as properties named \"text\" (commonly used by Control nodes) and LineEdit's \"placeholder_text\" property."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:125
+msgid "Creating a messages file from a PO template"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:127
+msgid "The ``msginit`` command is used to turn a PO template into a messages file. For instance, to create a French localization file, use the following command while in the ``locale`` directory:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:135
+msgid "The command above will create a file named ``fr.po`` in the same directory as the PO template."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:138
+msgid "Alternatively, you can do that graphically using Poedit, or by uploading the POT file to your web platform of choice."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:142
+msgid "Loading a messages file in GaaeExplorer"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:144
+msgid "To register a messages file as a translation in a project, open the **Project Settings**, then go to the **Localization** tab. In **Translations**, click **Add…** then choose the ``.po`` or ``.mo`` file in the file dialog. The locale will be inferred from the ``\"Language: <code>\\n\"`` property in the messages file."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:150
+msgid "See :ref:`doc_internationalizing_games` for more information on importing and testing translations in GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:154
+msgid "Updating message files to follow the PO template"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:156
+msgid "After updating the PO template, you will have to update message files so that they contain new strings, while removing strings that are no longer present in the PO template. This can be done automatically using the ``msgmerge`` tool:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:166
+msgid "If you want to keep a backup of the original message file (which would be saved as ``fr.po~`` in this example), remove the ``--backup=none`` argument."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:171
+msgid "After running ``msgmerge``, strings which were modified in the source language will have a \"fuzzy\" comment added before them in the ``.po`` file. This comment denotes that the translation should be updated to match the new source string, as the translation will most likely be inaccurate until it's updated."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:176
+msgid "Strings with \"fuzzy\" comments will **not** be read by GaaeExplorer until the translation is updated and the \"fuzzy\" comment is removed."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:180
+msgid "Checking the validity of a PO file or template"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:182
+msgid "It is possible to check whether a gettext file's syntax is valid by running the command below:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:189
+msgid "If there are syntax errors or warnings, they will be displayed in the console. Otherwise, ``msgfmt`` won't output anything."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:193
+msgid "Using binary MO files (useful for large projects only)"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:195
+msgid "For large projects with several thousands of strings to translate or more, it can be worth it to use binary (compiled) MO message files instead of text-based PO files. Binary MO files are smaller and faster to read than the equivalent PO files."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:200
+msgid "You can generate a MO file with the command below:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:206
+msgid "If the PO file is valid, this command will create a ``fr.mo`` file besides the PO file. This MO file can then be loaded in GaaeExplorer as described below."
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:209
+msgid "The original PO file should be kept in version control so you can update your translation in the future. In case you lose the original PO file and wish to decompile a MO file into a text-based PO file, you can do so with:"
+msgstr ""
+
+#: ../tutorials/i18n/localization_using_gettext.rst:217
+msgid "The decompiled file will not include comments or fuzzy strings, as these are never compiled in the MO file in the first place."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

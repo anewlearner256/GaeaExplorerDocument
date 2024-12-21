@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:6
+msgid "Nodes and Scenes"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:8
+msgid "In :ref:`doc_key_concepts_overview`, we saw that a GaaeExplorer game is a tree of scenes and that each scene is a tree of nodes. In this lesson, we explain a bit more about them. You will also create your first scene."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:13
+msgid "Nodes"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:15
+msgid "**Nodes are the fundamental building blocks of your game**. They are like the ingredients in a recipe. There are dozens of kinds that can display an image, play a sound, represent a camera, and much more."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:21
+msgid "All nodes have the following attributes:"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:23
+msgid "A name."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:24
+msgid "Editable properties."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:25
+msgid "They receive callbacks to update every frame."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:26
+msgid "You can extend them with new properties and functions."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:27
+msgid "You can add them to another node as a child."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:29
+msgid "The last attribute is key. **Together, nodes form a tree**, which is a powerful feature to organize projects. Since different nodes have different functions, combining them produces more complex behavior. As we saw before, you can build a playable character the camera follows using a kinematic body node named \"Character\", a sprite node, a camera node, and a collision shape node."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:38
+msgid "Scenes"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:40
+msgid "When you organize nodes in a tree, like our character, we call this construct a scene. Once saved, scenes work like new node types in the editor, where you can add them as a child of an existing node. In that case, the instance of the scene appears as a single node with its internals hidden."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:45
+msgid "Scenes allow you to structure your game's code however you want. You can **compose nodes** to create custom and complex node types, like a game character that runs and jumps, a life bar, a chest with which you can interact, and more."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:51
+msgid "The GaaeExplorer editor essentially is a **scene editor**. It has plenty of tools for editing 2D and 3D scenes, as well as user interfaces. A GaaeExplorer project can contain as many of these scenes as you need. The engine only requires one as your application's **main scene**. This is the scene GaaeExplorer will first load when you or a player runs the game."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:57
+msgid "On top of acting like nodes, scenes have the following attributes:"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:59
+msgid "They always have one root node, like the \"Character\" in our example."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:60
+msgid "You can save them to your hard drive and load them later."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:61
+msgid "You can create as many instances of a scene as you'd like. You could have five or ten characters in your game, created from your Character scene."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:65
+msgid "Creating your first scene"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:67
+msgid "Let's create our first scene with a single node. To do so, you will need to create a new project first. After opening the project, you should see an empty editor."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:73
+msgid "In an empty scene, the Scene dock on the left shows several options to add a root node quickly. \"2D Scene\" adds a Node2D node, \"3D Scene\" adds a Spatial node, and \"User Interface\" adds a Control node. These presets are here for convenience; they are not mandatory. \"Other Node\" lets you select any node to be the root node. In an empty scene, \"Other Node\" is equivalent to pressing the \"Add Child Node\" button at the top-left of the Scene dock, which usually adds a new node as a child of the currently selected node."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:81
+msgid "We're going to add a single Label node to our scene. Its function is to draw text on the screen."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:84
+msgid "Press the \"Add Child Node\" button or \"Other Node\" to create a root node."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:88
+msgid "The Create Node dialog opens, showing the long list of available nodes."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:92
+msgid "Select the Label node. You can type its name to filter down the list."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:96
+msgid "Click on the Label node to select it and click the Create button at the bottom of the window."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:101
+msgid "A lot happens when you add a scene's first node. The scene changes to the 2D workspace because Label is a 2D node type. The Label appears, selected, in the top-left corner of the viewport. The node appears in the Scene dock on the left, and the node's properties appear in the Inspector dock on the right."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:107
+msgid "Changing a node's properties"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:109
+msgid "The next step is to change the Label's \"Text\" property. Let's change it to \"Hello World\"."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:112
+msgid "Head to the Inspector dock on the right of the viewport. Click inside the field below the Text property and type \"Hello World\"."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:117
+msgid "You will see the text draw in the viewport as you type."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:119
+msgid "You can move your Label node in the viewport by selecting the move tool in the toolbar."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:124
+msgid "With the Label selected, click and drag anywhere in the viewport to move it to the center of the view delimited by the rectangle."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:130
+msgid "Running the scene"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:132
+msgid "Everything's ready to run the scene! Press the Play Scene button in the top-right of the screen or press :kbd:`F6` (:kbd:`Cmd + R` on macOS)."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:137
+msgid "A popup invites you to save the scene, which is required to run it."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:141
+msgid "Click the Yes button, and in the file browser that appears, press the Save button to save it as \"Label.tscn\"."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:146
+msgid "The Save Scene As dialog, like other file dialogs in the editor, only allows you to save files inside the project. The ``res://`` path at the top of the window represents the project's root directory and stands for \"resource path\". For more information about file paths in GaaeExplorer, see :ref:`doc_filesystem`."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:152
+msgid "The application should open in a new window and display the text \"Hello World\"."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:156
+msgid "Close the window or press :kbd:`F8` to quit the running scene."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:160
+msgid "If this doesn't immediately work and you have a hiDPI display on at least one of your monitors, go to Project -> Project Settings -> Display -> Window then enable Allow Hidpi under Dpi."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:165
+msgid "Setting the main scene"
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:167
+msgid "To run our test scene, we used the Play Scene button. Another button next to it allows you to set and run the project's main scene. You can press :kbd:`F5` (:kbd:`Cmd + B` on macOS) to do so."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:173
+msgid "A popup window appears and invites you to select the main scene."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:177
+msgid "Click the Select button, and in the file dialog that appears, double click on Label.tscn."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:182
+msgid "The demo should run again. Moving forward, every time you run the project, GaaeExplorer will use this scene as a starting point."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:185
+msgid "The editor saves the main scene's path in a project.godot file in your project's directory. While you can edit this text file directly to change project settings, you can also use the \"Project -> Project Settings\" window to do so."
+msgstr ""
+
+#: ../getting_started/step_by_step/nodes_and_scenes.rst:190
+msgid "In the next part, we will discuss another key concept in games and in GaaeExplorer: creating instances of a scene."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,840 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_theme.rst:10
+msgid "Theme"
+msgstr ""
+
+#: ../classes/class_theme.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:14
+msgid "控件的主题。"
+msgstr ""
+
+#: ../classes/class_theme.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_theme.rst:19
+msgid "控件的外观主题。控件可以单独定制外观，单对于复杂应用程序而言，直接创建一个全局的主题对整体进行定义更易于操作。主题可以应用于任何 :ref:`Control<class_Control>`\\ ；该控件极其子节点都会自动使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:21
+msgid "还可以通过编写 ``.theme`` 文件加载主题资源，更多信息见文档。"
+msgstr ""
+
+#: ../classes/class_theme.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_theme.rst:26
+msgid ":doc:`../tutorials/ui/gui_skinning`"
+msgstr ""
+
+#: ../classes/class_theme.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_theme.rst:32
+#: ../classes/class_theme.rst:69
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:32
+msgid ":ref:`default_font<class_Theme_property_default_font>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:36
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_theme.rst:39
+#: ../classes/class_theme.rst:41
+#: ../classes/class_theme.rst:43
+#: ../classes/class_theme.rst:45
+#: ../classes/class_theme.rst:47
+#: ../classes/class_theme.rst:49
+#: ../classes/class_theme.rst:51
+#: ../classes/class_theme.rst:53
+#: ../classes/class_theme.rst:55
+#: ../classes/class_theme.rst:109
+#: ../classes/class_theme.rst:111
+#: ../classes/class_theme.rst:113
+#: ../classes/class_theme.rst:115
+#: ../classes/class_theme.rst:117
+#: ../classes/class_theme.rst:119
+#: ../classes/class_theme.rst:121
+#: ../classes/class_theme.rst:123
+#: ../classes/class_theme.rst:125
+#: ../classes/class_theme.rst:127
+#: ../classes/class_theme.rst:129
+#: ../classes/class_theme.rst:131
+#: ../classes/class_theme.rst:133
+msgid "void"
+msgstr ""
+
+#: ../classes/class_theme.rst:39
+msgid ":ref:`clear<class_Theme_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:41
+msgid ":ref:`clear_color<class_Theme_method_clear_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:43
+msgid ":ref:`clear_constant<class_Theme_method_clear_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:45
+msgid ":ref:`clear_font<class_Theme_method_clear_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:47
+msgid ":ref:`clear_icon<class_Theme_method_clear_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:49
+msgid ":ref:`clear_stylebox<class_Theme_method_clear_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:51
+msgid ":ref:`clear_theme_item<class_Theme_method_clear_theme_item>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:53
+msgid ":ref:`copy_default_theme<class_Theme_method_copy_default_theme>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:55
+msgid ":ref:`copy_theme<class_Theme_method_copy_theme>` **(** :ref:`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:57
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:57
+msgid ":ref:`get_color<class_Theme_method_get_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:59
+#: ../classes/class_theme.rst:61
+#: ../classes/class_theme.rst:65
+#: ../classes/class_theme.rst:67
+#: ../classes/class_theme.rst:71
+#: ../classes/class_theme.rst:73
+#: ../classes/class_theme.rst:77
+#: ../classes/class_theme.rst:79
+#: ../classes/class_theme.rst:83
+#: ../classes/class_theme.rst:85
+#: ../classes/class_theme.rst:89
+#: ../classes/class_theme.rst:91
+#: ../classes/class_theme.rst:93
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:59
+msgid ":ref:`get_color_list<class_Theme_method_get_color_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:61
+msgid ":ref:`get_color_types<class_Theme_method_get_color_types>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:63
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:63
+msgid ":ref:`get_constant<class_Theme_method_get_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:65
+msgid ":ref:`get_constant_list<class_Theme_method_get_constant_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:67
+msgid ":ref:`get_constant_types<class_Theme_method_get_constant_types>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:69
+msgid ":ref:`get_font<class_Theme_method_get_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:71
+msgid ":ref:`get_font_list<class_Theme_method_get_font_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:73
+msgid ":ref:`get_font_types<class_Theme_method_get_font_types>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:75
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:75
+msgid ":ref:`get_icon<class_Theme_method_get_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:77
+msgid ":ref:`get_icon_list<class_Theme_method_get_icon_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:79
+msgid ":ref:`get_icon_types<class_Theme_method_get_icon_types>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:81
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:81
+msgid ":ref:`get_stylebox<class_Theme_method_get_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:83
+msgid ":ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:85
+msgid ":ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:87
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:87
+msgid ":ref:`get_theme_item<class_Theme_method_get_theme_item>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:89
+msgid ":ref:`get_theme_item_list<class_Theme_method_get_theme_item_list>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:91
+msgid ":ref:`get_theme_item_types<class_Theme_method_get_theme_item_types>` **(** :ref:`DataType<enum_Theme_DataType>` data_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:93
+msgid ":ref:`get_type_list<class_Theme_method_get_type_list>` **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:95
+#: ../classes/class_theme.rst:97
+#: ../classes/class_theme.rst:99
+#: ../classes/class_theme.rst:101
+#: ../classes/class_theme.rst:103
+#: ../classes/class_theme.rst:105
+#: ../classes/class_theme.rst:107
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_theme.rst:95
+msgid ":ref:`has_color<class_Theme_method_has_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:97
+msgid ":ref:`has_constant<class_Theme_method_has_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:99
+msgid ":ref:`has_default_font<class_Theme_method_has_default_font>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:101
+msgid ":ref:`has_font<class_Theme_method_has_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:103
+msgid ":ref:`has_icon<class_Theme_method_has_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:105
+msgid ":ref:`has_stylebox<class_Theme_method_has_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:107
+msgid ":ref:`has_theme_item<class_Theme_method_has_theme_item>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:109
+msgid ":ref:`merge_with<class_Theme_method_merge_with>` **(** :ref:`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:111
+msgid ":ref:`rename_color<class_Theme_method_rename_color>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:113
+msgid ":ref:`rename_constant<class_Theme_method_rename_constant>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:115
+msgid ":ref:`rename_font<class_Theme_method_rename_font>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:117
+msgid ":ref:`rename_icon<class_Theme_method_rename_icon>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:119
+msgid ":ref:`rename_stylebox<class_Theme_method_rename_stylebox>` **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:121
+msgid ":ref:`rename_theme_item<class_Theme_method_rename_theme_item>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:123
+msgid ":ref:`set_color<class_Theme_method_set_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:125
+msgid ":ref:`set_constant<class_Theme_method_set_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:127
+msgid ":ref:`set_font<class_Theme_method_set_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:129
+msgid ":ref:`set_icon<class_Theme_method_set_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:131
+msgid ":ref:`set_stylebox<class_Theme_method_set_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`StyleBox<class_StyleBox>` texture **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:133
+msgid ":ref:`set_theme_item<class_Theme_method_set_theme_item>` **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:137
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_theme.rst:153
+msgid "enum **DataType**:"
+msgstr ""
+
+#: ../classes/class_theme.rst:155
+msgid "**DATA_TYPE_COLOR** = **0** --- 主题的 :ref:`Color<class_Color>` 颜色项类型。"
+msgstr ""
+
+#: ../classes/class_theme.rst:157
+msgid "**DATA_TYPE_CONSTANT** = **1** --- 主题的常量项类型。"
+msgstr ""
+
+#: ../classes/class_theme.rst:159
+msgid "**DATA_TYPE_FONT** = **2** --- 主题的 :ref:`Font<class_Font>` 字体项类型。"
+msgstr ""
+
+#: ../classes/class_theme.rst:161
+msgid "**DATA_TYPE_ICON** = **3** --- 主题的图标\\ :ref:`Texture<class_Texture>`\\ 项类型。"
+msgstr ""
+
+#: ../classes/class_theme.rst:163
+msgid "**DATA_TYPE_STYLEBOX** = **4** --- 主题的\\ :ref:`StyleBox<class_StyleBox>`\\ 项目类型。"
+msgstr ""
+
+#: ../classes/class_theme.rst:165
+msgid "**DATA_TYPE_MAX** = **5** --- 数据类型枚举的最大值。"
+msgstr ""
+
+#: ../classes/class_theme.rst:168
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_theme.rst:172
+msgid ":ref:`Font<class_Font>` **default_font**"
+msgstr ""
+
+#: ../classes/class_theme.rst:175
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_theme.rst:175
+msgid "set_default_font(value)"
+msgstr ""
+
+#: ../classes/class_theme.rst:177
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_theme.rst:177
+msgid "get_default_font()"
+msgstr ""
+
+#: ../classes/class_theme.rst:180
+msgid "此 ``Theme`` 资源的默认字体。用作此主题中定义的字体项的后备值，但具有无效值。如果此值也无效，则使用全局默认值。"
+msgstr ""
+
+#: ../classes/class_theme.rst:182
+msgid "使用 :ref:`has_default_font<class_Theme_method_has_default_font>` 来检查这个值是否有效。"
+msgstr ""
+
+#: ../classes/class_theme.rst:185
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_theme.rst:189
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:191
+msgid "清除主题上的所有值。"
+msgstr ""
+
+#: ../classes/class_theme.rst:197
+msgid "void **clear_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:199
+msgid "如果主题包含 ``node_type``\\ ，则清除名为 ``name`` 的 :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_theme.rst:205
+msgid "void **clear_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:207
+msgid "如果主题包含 ``node_type``\\ ，则清除名为 ``name`` 的常量。"
+msgstr ""
+
+#: ../classes/class_theme.rst:213
+msgid "void **clear_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:215
+msgid "如果主题包含 ``node_type``\\ ，则清除名为 ``name`` 的 :ref:`Font<class_Font>`\\ 字体。"
+msgstr ""
+
+#: ../classes/class_theme.rst:221
+msgid "void **clear_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:223
+msgid "如果主题包含 ``node_type``\\ ，则清除名为 ``name`` 的图标。"
+msgstr ""
+
+#: ../classes/class_theme.rst:229
+msgid "void **clear_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:231
+msgid "如果主题包含 ``node_type``\\ ，则清除名为 ``name`` 的 :ref:`StyleBox<class_StyleBox>`\\ 样式盒。"
+msgstr ""
+
+#: ../classes/class_theme.rst:237
+msgid "void **clear_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:239
+msgid "如果主题具有 ``node_type``\\ ，则清除 ``name`` 处的 ``data_type`` 主题项。"
+msgstr ""
+
+#: ../classes/class_theme.rst:245
+msgid "void **copy_default_theme** **(** **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:247
+msgid "将主题的取值设置为默认主题的副本。"
+msgstr ""
+
+#: ../classes/class_theme.rst:253
+msgid "void **copy_theme** **(** :ref:`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:255
+msgid "将主题的取值设置为指定主题的副本。"
+msgstr ""
+
+#: ../classes/class_theme.rst:261
+msgid ":ref:`Color<class_Color>` **get_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:263
+msgid "如果主题有\\ ``node_type``\\ ，返回\\ ``name``\\ 处的\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:269
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_color_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:271
+msgid "如果主题有\\ ``node_type``\\ ，将所有的\\ :ref:`Color<class_Color>`\\ 作为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 返回，并填充每个\\ :ref:`Color<class_Color>`\\ 的名称，用于\\ :ref:`get_color<class_Theme_method_get_color>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:277
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_color_types** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:279
+msgid "返回所有的\\ :ref:`Color<class_Color>`\\ 类型为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，其中填充了唯一类型名称，供\\ :ref:`get_color<class_Theme_method_get_color>`\\ 和/或\\ :ref:`get_color_list<class_Theme_method_get_color_list>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:285
+msgid ":ref:`int<class_int>` **get_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:287
+msgid "如果主题有\\ ``node_type``\\ ，返回\\ ``name``\\ 处的常量。"
+msgstr ""
+
+#: ../classes/class_theme.rst:293
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_constant_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:295
+msgid "如果主题有\\ ``node_type``\\ ，将所有常量作为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 返回，并填充每个常量的名称，以供\\ :ref:`get_constant<class_Theme_method_get_constant>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:301
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_constant_types** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:303
+msgid "返回所有的常量类型为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，其中填充唯一的类型名称，以供\\ :ref:`get_constant<class_Theme_method_get_constant>`\\ 和/或\\ :ref:`get_constant_list<class_Theme_method_get_constant_list>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:309
+msgid ":ref:`Font<class_Font>` **get_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:311
+msgid "如果主题有\\ ``node_type``\\ ，返回\\ ``name``\\ 处的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:317
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_font_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:319
+msgid "如果主题有\\ ``node_type``\\ ，将所有的\\ :ref:`Font<class_Font>`\\ 作为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 返回，并填入每个\\ :ref:`Font<class_Font>`\\ 的名称，以供\\ :ref:`get_font<class_Theme_method_get_font>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:325
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_font_types** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:327
+msgid "返回所有的\\ :ref:`Font<class_Font>`\\ 类型为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，其中填充唯一的类型名称，以供\\ :ref:`get_font<class_Theme_method_get_font>`\\ 和/或\\ :ref:`get_font_list<class_Theme_method_get_font_list>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:333
+msgid ":ref:`Texture<class_Texture>` **get_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:335
+msgid "如果主题有\\ ``node_type``\\ ，返回\\ ``name``\\ 处的图标\\ :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:341
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_icon_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:343
+msgid "如果主题有\\ ``node_type``\\ ，则返回所有的图标为一个\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，并填入每个\\ :ref:`Texture<class_Texture>`\\ 的名称，以供\\ :ref:`get_icon<class_Theme_method_get_icon>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:349
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_icon_types** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:351
+msgid "返回所有的图标类型为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，其中填充唯一的类型名称，以供\\ :ref:`get_icon<class_Theme_method_get_icon>`\\ 和/或\\ :ref:`get_icon_list<class_Theme_method_get_icon_list>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:357
+msgid ":ref:`StyleBox<class_StyleBox>` **get_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:359
+msgid "如果主题有\\ ``node_type``\\ ，返回\\ ``name``\\ 处的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:361
+msgid "可以使用\\ :ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\\ 找到有效的\\ ``name``\\ 。可以通过\\ :ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\\ 来找到有效的\\ ``node_type``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:367
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:369
+msgid "如果主题有\\ ``node_type``\\ ，则返回所有\\ :ref:`StyleBox<class_StyleBox>`\\ 的\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，并填入每个\\ :ref:`StyleBox<class_StyleBox>`\\ 的名称，以供\\ :ref:`get_stylebox<class_Theme_method_get_stylebox>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:371
+msgid "可以使用\\ :ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>`\\ 找到有效的\\ ``node_type``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:377
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_types** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:379
+msgid "返回所有\\ :ref:`StyleBox<class_StyleBox>`\\ 类型为\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，其中填充了唯一的类型名称，以供\\ :ref:`get_stylebox<class_Theme_method_get_stylebox>`\\ 和/或\\ :ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>`\\ 使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:385
+msgid ":ref:`Variant<class_Variant>` **get_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:387
+msgid "如果主题有 ``node_type``\\ ，则以 ``name`` 返回 ``data_type`` 的主题项目。"
+msgstr ""
+
+#: ../classes/class_theme.rst:389
+msgid "使用 :ref:`get_theme_item_list<class_Theme_method_get_theme_item_list>` 或数据类型特定方法，可能会找到有效的 ``name``\\ 。可以使用 :ref:`get_theme_item_types<class_Theme_method_get_theme_item_types>` 或数据类型特定方法，找到有效的 ``node_type``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:395
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_theme_item_list** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:397
+msgid "返回所有\\ ``data_type``\\ 的主题项目，以\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 的形式填入每个主题项目的名称，如果主题有\\ ``node_type``\\ ，可以在\\ :ref:`get_theme_item<class_Theme_method_get_theme_item>`\\ 或特定数据类型方法中使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:399
+msgid "可以通过\\ :ref:`get_theme_item_types<class_Theme_method_get_theme_item_types>`\\ 或特定数据类型的方法找到有效的\\ ``node_type``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:405
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_theme_item_types** **(** :ref:`DataType<enum_Theme_DataType>` data_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:407
+msgid "返回所有\\ ``data_type``\\ 类型的主题项，作为填入唯一类型名称的\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ ，以供\\ :ref:`get_theme_item<class_Theme_method_get_theme_item>`\\ 、\\ :ref:`get_theme_item_list<class_Theme_method_get_theme_item_list>`\\ 或数据类型特定方法使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:413
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_type_list** **(** :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:415
+msgid "将所有的主题类型作为一个\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 返回，其中填入了唯一的类型名称，以供这个主题的其他\\ ``get_*``\\ 函数使用。"
+msgstr ""
+
+#: ../classes/class_theme.rst:417
+msgid "\\ **注意：**\\ ``node_type``\\ 没有生效，在未来的版本中会被删除。"
+msgstr ""
+
+#: ../classes/class_theme.rst:423
+msgid ":ref:`bool<class_bool>` **has_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:425
+msgid "如果带有\\ ``name``\\ 的\\ :ref:`Color<class_Color>`\\ 在\\ ``node_type``\\ 中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:427
+#: ../classes/class_theme.rst:437
+#: ../classes/class_theme.rst:455
+#: ../classes/class_theme.rst:465
+#: ../classes/class_theme.rst:475
+msgid "如果主题没有\\ ``node_type``\\ ，则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:433
+msgid ":ref:`bool<class_bool>` **has_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:435
+msgid "如果带有\\ ``name``\\ 的常量在\\ ``node_type``\\ 中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:443
+msgid ":ref:`bool<class_bool>` **has_default_font** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:445
+msgid "如果这个主题有一个有效的\\ :ref:`default_font<class_Theme_property_default_font>`\\ 值，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:451
+msgid ":ref:`bool<class_bool>` **has_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:453
+msgid "如果带有\\ ``name``\\ 的\\ :ref:`Font<class_Font>`\\ 在\\ ``node_type``\\ 中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:461
+msgid ":ref:`bool<class_bool>` **has_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:463
+msgid "如果带有\\ ``name``\\ 的图标\\ :ref:`Texture<class_Texture>`\\ 在\\ ``node_type``\\ 中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:471
+msgid ":ref:`bool<class_bool>` **has_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:473
+msgid "如果带有\\ ``name``\\ 的\\ :ref:`StyleBox<class_StyleBox>`\\ 在\\ ``node_type``\\ 中，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:481
+msgid ":ref:`bool<class_bool>` **has_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_theme.rst:483
+msgid "如果一个\\ ``data_type``\\ 的主题项目与\\ ``name``\\ 在\\ ``node_type``\\ 中，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:485
+msgid "如果该主题没有\\ ``node_type``\\ ，则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:491
+msgid "void **merge_with** **(** :ref:`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:493
+msgid "用\\ ``other``\\ ``Theme``\\ 的值添加缺失的，和覆盖现有的定义。"
+msgstr ""
+
+#: ../classes/class_theme.rst:495
+msgid "\\ **注意：** 这将修改当前的主题。如果你想在不修改任何一个主题的情况下将两个主题合并在一起，请创建一个新的空主题，然后将另外两个主题逐个合并到其中。"
+msgstr ""
+
+#: ../classes/class_theme.rst:501
+msgid "void **rename_color** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:503
+msgid "如果主题有\\ ``node_type``\\ ，则将\\ ``old_name``\\ 的\\ :ref:`Color<class_Color>`\\ 重命名为\\ ``name``\\ 。如果\\ ``name``\\ 已经被占用，则此方法将失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:509
+msgid "void **rename_constant** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:511
+msgid "如果主题有\\ ``node_type``\\ ，则将\\ ``old_name``\\ 的常量重命名为\\ ``name``\\ 。如果\\ ``name``\\ 已经被占用，则此方法失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:517
+msgid "void **rename_font** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:519
+msgid "如果主题有\\ ``node_type``\\ ，则将\\ ``old_name``\\ 的\\ :ref:`Font<class_Font>`\\ 重命名为\\ ``name``\\ 。如果\\ ``name``\\ 已经被占用，则此方法失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:525
+msgid "void **rename_icon** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:527
+msgid "如果主题有\\ ``node_type``\\ ，将\\ ``old_name``\\ 的图标重命名为\\ ``name``\\ 。如果\\ ``name``\\ 已经被占用，则此方法失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:533
+msgid "void **rename_stylebox** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:535
+msgid "如果主题有\\ ``node_type``\\ ，则将\\ :ref:`StyleBox<class_StyleBox>`\\ 在\\ ``old_name``\\ 重命名为\\ ``name``\\ 。如果\\ ``name``\\ 已经被占用，此方法会失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:541
+msgid "void **rename_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` old_name, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:543
+msgid "如果主题具有 ``node_type``\\ ，则将 ``old_name`` 处的 ``data_type`` 的主题项重命名为 ``name``\\ 。如果 ``name`` 已经被占用，则此方法失败。"
+msgstr ""
+
+#: ../classes/class_theme.rst:549
+msgid "void **set_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:551
+msgid "在\\ ``node_type``\\ 中的\\ ``name``\\ 处，设置主题的\\ :ref:`Color<class_Color>`\\ 为\\ ``color``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:553
+#: ../classes/class_theme.rst:573
+#: ../classes/class_theme.rst:583
+#: ../classes/class_theme.rst:593
+msgid "如果主题没有\\ ``node_type``\\ ，则创建该节点。"
+msgstr ""
+
+#: ../classes/class_theme.rst:559
+msgid "void **set_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:561
+msgid "在\\ ``node_type``\\ 中的\\ ``name``\\ 处，将主题的常量设置为\\ ``constant``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:563
+msgid "如果主题没有，则创建\\ ``node_type``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:569
+msgid "void **set_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:571
+msgid "在\\ ``node_type``\\ 中的\\ ``name``\\ 处将主题的 :ref:`Font<class_Font>` 设置为\\ ``font``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:579
+msgid "void **set_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:581
+msgid "在\\ ``node_type``\\ 中的\\ ``name``\\ 处设置主题的图标\\ :ref:`Texture<class_Texture>`\\ 为\\ ``texture``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:589
+msgid "void **set_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`StyleBox<class_StyleBox>` texture **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:591
+msgid "将主题的\\ :ref:`StyleBox<class_StyleBox>`\\ 设置为\\ ``stylebox``\\ ，在\\ ``node_type``\\ 的\\ ``name``\\ 处。"
+msgstr ""
+
+#: ../classes/class_theme.rst:599
+msgid "void **set_theme_item** **(** :ref:`DataType<enum_Theme_DataType>` data_type, :ref:`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_theme.rst:601
+msgid "将\\ ``data_type``\\ 的主题项目设置为\\ ``value``\\ ，在\\ ``node_type``\\ 中的\\ ``name``\\ 。"
+msgstr ""
+
+#: ../classes/class_theme.rst:603
+msgid "如果\\ ``value``\\ 类型与\\ ``data_type``\\ 不匹配，则不做任何处理。"
+msgstr ""
+
+#: ../classes/class_theme.rst:605
+msgid "如果主题没有\\ ``node_type``\\ ，则创建该类型。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

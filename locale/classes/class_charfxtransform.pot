@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_charfxtransform.rst:10
+msgid "CharFXTransform"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:14
+msgid "控制单个字符在\\ :ref:`RichTextEffect<class_RichTextEffect>`\\ 中的显示方式。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:19
+msgid "通过在此对象上设置各种属性，可以控制单个字符在\\ :ref:`RichTextEffect<class_RichTextEffect>`\\ 中的显示方式。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:24
+msgid ":doc:`../tutorials/ui/bbcode_in_richtextlabel`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:26
+msgid "`https://github.com/Eoin-ONeill-Yokai/GaaeExplorer-Rich-Text-Effect-Test-Project <https://github.com/Eoin-ONeill-Yokai/GaaeExplorer-Rich-Text-Effect-Test-Project>`__"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:32
+#: ../classes/class_charfxtransform.rst:34
+#: ../classes/class_charfxtransform.rst:44
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:32
+msgid ":ref:`absolute_index<class_CharFXTransform_property_absolute_index>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:32
+#: ../classes/class_charfxtransform.rst:34
+#: ../classes/class_charfxtransform.rst:44
+#: ../classes/class_charfxtransform.rst:57
+#: ../classes/class_charfxtransform.rst:73
+#: ../classes/class_charfxtransform.rst:167
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:34
+msgid ":ref:`character<class_CharFXTransform_property_character>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:36
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:36
+msgid ":ref:`color<class_CharFXTransform_property_color>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:36
+#: ../classes/class_charfxtransform.rst:95
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:38
+msgid ":ref:`elapsed_time<class_CharFXTransform_property_elapsed_time>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:38
+#: ../classes/class_charfxtransform.rst:111
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:40
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:40
+msgid ":ref:`env<class_CharFXTransform_property_env>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:40
+#: ../classes/class_charfxtransform.rst:129
+msgid "``{}``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:42
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:42
+msgid ":ref:`offset<class_CharFXTransform_property_offset>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:42
+#: ../classes/class_charfxtransform.rst:151
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:44
+msgid ":ref:`relative_index<class_CharFXTransform_property_relative_index>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:46
+msgid ":ref:`visible<class_CharFXTransform_property_visible>`"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:46
+#: ../classes/class_charfxtransform.rst:183
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:50
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:54
+msgid ":ref:`int<class_int>` **absolute_index**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:57
+#: ../classes/class_charfxtransform.rst:73
+#: ../classes/class_charfxtransform.rst:95
+#: ../classes/class_charfxtransform.rst:111
+#: ../classes/class_charfxtransform.rst:129
+#: ../classes/class_charfxtransform.rst:151
+#: ../classes/class_charfxtransform.rst:167
+#: ../classes/class_charfxtransform.rst:183
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:59
+#: ../classes/class_charfxtransform.rst:75
+#: ../classes/class_charfxtransform.rst:97
+#: ../classes/class_charfxtransform.rst:113
+#: ../classes/class_charfxtransform.rst:131
+#: ../classes/class_charfxtransform.rst:153
+#: ../classes/class_charfxtransform.rst:169
+#: ../classes/class_charfxtransform.rst:185
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:59
+msgid "set_absolute_index(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:61
+#: ../classes/class_charfxtransform.rst:77
+#: ../classes/class_charfxtransform.rst:99
+#: ../classes/class_charfxtransform.rst:115
+#: ../classes/class_charfxtransform.rst:133
+#: ../classes/class_charfxtransform.rst:155
+#: ../classes/class_charfxtransform.rst:171
+#: ../classes/class_charfxtransform.rst:187
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:61
+msgid "get_absolute_index()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:64
+#: ../classes/class_charfxtransform.rst:174
+msgid "当前字符的索引（从0开始）。设置此属性不会影响图形。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:70
+msgid ":ref:`int<class_int>` **character**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:75
+msgid "set_character(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:77
+msgid "get_character()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:80
+msgid "字符所使用的 Unicode 码位。这只会影响非空白字符。\\ :ref:`@GDScript.ord<class_@GDScript_method_ord>` 在这里可能很有用。例如，以下将用星号替换所有字符："
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:92
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:97
+msgid "set_color(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:99
+msgid "get_color()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:102
+msgid "绘制角色所用的颜色。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:108
+msgid ":ref:`float<class_float>` **elapsed_time**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:113
+msgid "set_elapsed_time(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:115
+msgid "get_elapsed_time()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:118
+msgid "自\\ :ref:`RichTextLabel<class_RichTextLabel>`\\ 被添加到场景树后所经过的时间，单位秒。时间在\\ :ref:`RichTextLabel<class_RichTextLabel>`\\ 暂停时停止，参阅\\ :ref:`Node.pause_mode<class_Node_property_pause_mode>`\\ 。当\\ :ref:`RichTextLabel<class_RichTextLabel>`\\ 中的文本改变时，会重新设置。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:120
+msgid "\\ **注意：** 当\\ :ref:`RichTextLabel<class_RichTextLabel>`\\ 被隐藏时，时间仍会增加。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:126
+msgid ":ref:`Dictionary<class_Dictionary>` **env**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:131
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:133
+msgid "get_environment()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:136
+msgid "包含在开头的BBCode标记中传递的参数。默认情况下，参数是字符串。如果它们的内容与\\ :ref:`bool<class_bool>`\\ ，\\ :ref:`int<class_int>`\\ 或\\ :ref:`float<class_float>`\\ 之类的类型匹配，它们将被自动转换。格式为\\ ``#rrggbb``\\ 或\\ ``#rgb``\\ 的颜色代码将转换为不透明的\\ :ref:`Color<class_Color>`\\ 。字符串参数即使使用引号也不能包含空格。如果存在，引号也将出现在最终字符串中。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:138
+msgid "例如，开头的BBCode标签\\ ``[example foo = hello bar = true baz = 42 color =＃ffffff]``\\ 将映射到以下\\ :ref:`Dictionary<class_Dictionary>`\\ ："
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:148
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:153
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:155
+msgid "get_offset()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:158
+msgid "绘制字符的位置偏移量（以像素为单位）。"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:164
+msgid ":ref:`int<class_int>` **relative_index**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:169
+msgid "set_relative_index(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:171
+msgid "get_relative_index()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:180
+msgid ":ref:`bool<class_bool>` **visible**"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:185
+msgid "set_visibility(value)"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:187
+msgid "is_visible()"
+msgstr ""
+
+#: ../classes/class_charfxtransform.rst:190
+msgid "如果\\ ``true``\\ ，将绘制字符。如果\\ ``false``\\ ，则隐藏字符。隐藏字符周围的字符将回流以占用隐藏字符的空间。如果不希望这样做，可以将它们的\\ :ref:`color<class_CharFXTransform_property_color>`\\ 设置为\\ ``Color(1, 1, 1, 0)``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

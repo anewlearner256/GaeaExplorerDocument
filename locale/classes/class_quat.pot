@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_quat.rst:10
+msgid "Quat"
+msgstr ""
+
+#: ../classes/class_quat.rst:12
+msgid "四元数."
+msgstr ""
+
+#: ../classes/class_quat.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_quat.rst:17
+msgid "一个用于表示 3D 旋转的单位四元数。四元数需要经过归一化才能用于旋转。"
+msgstr ""
+
+#: ../classes/class_quat.rst:19
+msgid "它类似于 Basis，后者实现了旋转的矩阵表示，并且可以使用轴-角对或欧拉角进行参数化。Basis 可以存储旋转、缩放和错切，而 Quat 只存储旋转。"
+msgstr ""
+
+#: ../classes/class_quat.rst:21
+msgid "由于它的紧凑性和在内存中的存储方式，某些操作（特别是获得轴角和执行 SLERP）更加有效，并且对浮点错误有很强的抵抗力。"
+msgstr ""
+
+#: ../classes/class_quat.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_quat.rst:26
+msgid "`Using 3D transforms <../tutorials/3d/using_transforms.html#interpolating-with-quaternions>`__"
+msgstr ""
+
+#: ../classes/class_quat.rst:28
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_quat.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_quat.rst:34
+#: ../classes/class_quat.rst:36
+#: ../classes/class_quat.rst:38
+#: ../classes/class_quat.rst:40
+#: ../classes/class_quat.rst:55
+#: ../classes/class_quat.rst:59
+#: ../classes/class_quat.rst:69
+#: ../classes/class_quat.rst:71
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:34
+msgid ":ref:`w<class_Quat_property_w>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:34
+#: ../classes/class_quat.rst:101
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_quat.rst:36
+msgid ":ref:`x<class_Quat_property_x>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:36
+#: ../classes/class_quat.rst:38
+#: ../classes/class_quat.rst:40
+#: ../classes/class_quat.rst:115
+#: ../classes/class_quat.rst:129
+#: ../classes/class_quat.rst:143
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_quat.rst:38
+msgid ":ref:`y<class_Quat_property_y>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:40
+msgid ":ref:`z<class_Quat_property_z>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:44
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_quat.rst:47
+#: ../classes/class_quat.rst:49
+#: ../classes/class_quat.rst:51
+#: ../classes/class_quat.rst:53
+#: ../classes/class_quat.rst:57
+#: ../classes/class_quat.rst:63
+#: ../classes/class_quat.rst:73
+#: ../classes/class_quat.rst:79
+#: ../classes/class_quat.rst:81
+msgid ":ref:`Quat<class_Quat>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:47
+msgid ":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:49
+msgid ":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:51
+msgid ":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:53
+msgid ":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:55
+msgid ":ref:`angle_to<class_Quat_method_angle_to>` **(** :ref:`Quat<class_Quat>` to **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:57
+msgid ":ref:`cubic_slerp<class_Quat_method_cubic_slerp>` **(** :ref:`Quat<class_Quat>` b, :ref:`Quat<class_Quat>` pre_a, :ref:`Quat<class_Quat>` post_b, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:59
+msgid ":ref:`dot<class_Quat_method_dot>` **(** :ref:`Quat<class_Quat>` b **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:61
+#: ../classes/class_quat.rst:83
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:61
+msgid ":ref:`get_euler<class_Quat_method_get_euler>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:63
+msgid ":ref:`inverse<class_Quat_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:65
+#: ../classes/class_quat.rst:67
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_quat.rst:65
+msgid ":ref:`is_equal_approx<class_Quat_method_is_equal_approx>` **(** :ref:`Quat<class_Quat>` quat **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:67
+msgid ":ref:`is_normalized<class_Quat_method_is_normalized>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:69
+msgid ":ref:`length<class_Quat_method_length>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:71
+msgid ":ref:`length_squared<class_Quat_method_length_squared>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:73
+msgid ":ref:`normalized<class_Quat_method_normalized>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:75
+#: ../classes/class_quat.rst:77
+msgid "void"
+msgstr ""
+
+#: ../classes/class_quat.rst:75
+msgid ":ref:`set_axis_angle<class_Quat_method_set_axis_angle>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:77
+msgid ":ref:`set_euler<class_Quat_method_set_euler>` **(** :ref:`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:79
+msgid ":ref:`slerp<class_Quat_method_slerp>` **(** :ref:`Quat<class_Quat>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:81
+msgid ":ref:`slerpni<class_Quat_method_slerpni>` **(** :ref:`Quat<class_Quat>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:83
+msgid ":ref:`xform<class_Quat_method_xform>` **(** :ref:`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:87
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_quat.rst:91
+msgid "**IDENTITY** = **Quat( 0, 0, 0, 1 )** --- 单位四元数，代表无旋转。等效于单位 :ref:`Basis<class_Basis>` 矩阵。如果一个向量被一个单位四元数变换，它不会改变。"
+msgstr ""
+
+#: ../classes/class_quat.rst:94
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_quat.rst:98
+msgid ":ref:`float<class_float>` **w**"
+msgstr ""
+
+#: ../classes/class_quat.rst:101
+#: ../classes/class_quat.rst:115
+#: ../classes/class_quat.rst:129
+#: ../classes/class_quat.rst:143
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_quat.rst:104
+msgid "四元数的W分量（实数部分）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:106
+#: ../classes/class_quat.rst:148
+msgid "四元数分量通常不应该被直接操作。"
+msgstr ""
+
+#: ../classes/class_quat.rst:112
+msgid ":ref:`float<class_float>` **x**"
+msgstr ""
+
+#: ../classes/class_quat.rst:118
+msgid "四元数的X分量（虚轴\\ ``i``\\ 部分）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:120
+#: ../classes/class_quat.rst:134
+msgid "四元数分量通常不应直接操作。"
+msgstr ""
+
+#: ../classes/class_quat.rst:126
+msgid ":ref:`float<class_float>` **y**"
+msgstr ""
+
+#: ../classes/class_quat.rst:132
+msgid "四元数的Y分量（虚轴\\ ``j``\\ 部分）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:140
+msgid ":ref:`float<class_float>` **z**"
+msgstr ""
+
+#: ../classes/class_quat.rst:146
+msgid "四元数的Z分量（虚轴\\ ``k``\\ 部分）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:151
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_quat.rst:155
+msgid ":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:157
+msgid "从给定的 :ref:`Basis<class_Basis>` 构造一个四元数。"
+msgstr ""
+
+#: ../classes/class_quat.rst:161
+msgid ":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:163
+msgid "构造一个四元数，该四元数将执行由欧拉角指定的旋转（按照YXZ惯例：分解时，首先是Z，然后是X，最后是Y），以向量格式给出（X角，Y角，Z角）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:167
+msgid ":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:169
+msgid "构造一个四元数，它将围绕给定的轴旋转指定的角度。轴必须是一个归一化的向量。"
+msgstr ""
+
+#: ../classes/class_quat.rst:173
+msgid ":ref:`Quat<class_Quat>` **Quat** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:175
+msgid "构建一个由给定值定义的四元数。"
+msgstr ""
+
+#: ../classes/class_quat.rst:181
+msgid ":ref:`float<class_float>` **angle_to** **(** :ref:`Quat<class_Quat>` to **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:183
+msgid "返回此四元数与 ``to`` 之间的角度。这是从一个到另一个旋转所需的角度大小。"
+msgstr ""
+
+#: ../classes/class_quat.rst:185
+msgid "\\ **注意：**\\ 该方法的浮点错误率异常高，因此\\ :ref:`@GDScript.is_zero_approx<class_@GDScript_method_is_zero_approx>`\\ 等方法结果不可靠。"
+msgstr ""
+
+#: ../classes/class_quat.rst:191
+msgid ":ref:`Quat<class_Quat>` **cubic_slerp** **(** :ref:`Quat<class_Quat>` b, :ref:`Quat<class_Quat>` pre_a, :ref:`Quat<class_Quat>` post_b, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:193
+msgid "在四元数 ``pre_a``\\ 、该向量 ``b`` 和 ``post_b`` 之间执行三次球面插值，按给定的 ``weight``\\ 。"
+msgstr ""
+
+#: ../classes/class_quat.rst:199
+msgid ":ref:`float<class_float>` **dot** **(** :ref:`Quat<class_Quat>` b **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:201
+msgid "返回两个四元数的点积。"
+msgstr ""
+
+#: ../classes/class_quat.rst:207
+msgid ":ref:`Vector3<class_Vector3>` **get_euler** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:209
+msgid "返回与单位四元数所代表的旋转相对应的欧拉角（按照YXZ惯例：分解时，先Z后X，最后是Y）。返回的向量包含格式为（X角、Y角、Z角）的旋转角。"
+msgstr ""
+
+#: ../classes/class_quat.rst:215
+msgid ":ref:`Quat<class_Quat>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:217
+msgid "返回四元数的取逆。(译注:即xyz的值分别取反)."
+msgstr ""
+
+#: ../classes/class_quat.rst:223
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Quat<class_Quat>` quat **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:225
+msgid "通过在每个分量上进行 :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`\\ ，如果此四元数和 ``quat`` 近似相等，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_quat.rst:231
+msgid ":ref:`bool<class_bool>` **is_normalized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:233
+msgid "返回四元数是否被归一化。"
+msgstr ""
+
+#: ../classes/class_quat.rst:239
+msgid ":ref:`float<class_float>` **length** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:241
+msgid "返回四元数的长度。"
+msgstr ""
+
+#: ../classes/class_quat.rst:247
+msgid ":ref:`float<class_float>` **length_squared** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:249
+msgid "返回四元数的长度的平方。"
+msgstr ""
+
+#: ../classes/class_quat.rst:255
+msgid ":ref:`Quat<class_Quat>` **normalized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:257
+msgid "返回四元数的副本，归一化为单位长度。"
+msgstr ""
+
+#: ../classes/class_quat.rst:263
+msgid "void **set_axis_angle** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:265
+msgid "将四元数设置为绕轴旋转指定角度（以弧度为单位）的旋转。轴必须是归一化向量。"
+msgstr ""
+
+#: ../classes/class_quat.rst:271
+msgid "void **set_euler** **(** :ref:`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:273
+msgid "将四元数设置为由欧拉角指定的旋转（按照惯例：分解时，首先是 Z，然后是 X，最后是 Y），以向量格式给出（X 角、Y 角、Z 角）。"
+msgstr ""
+
+#: ../classes/class_quat.rst:279
+msgid ":ref:`Quat<class_Quat>` **slerp** **(** :ref:`Quat<class_Quat>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:281
+msgid "返回四元数 ``to``\\ 和 ``weight``\\ 值的球面线性插值的结果。"
+msgstr ""
+
+#: ../classes/class_quat.rst:283
+msgid "\\ **注意:** 四元数必须被归一化。"
+msgstr ""
+
+#: ../classes/class_quat.rst:289
+msgid ":ref:`Quat<class_Quat>` **slerpni** **(** :ref:`Quat<class_Quat>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:291
+msgid "以\\ ``weight``\\ 值为权重,返回这个四元数和\\ ``to``\\ 之间的球面线性插值的结果，但不会检查旋转路径是否不大于90度。"
+msgstr ""
+
+#: ../classes/class_quat.rst:297
+msgid ":ref:`Vector3<class_Vector3>` **xform** **(** :ref:`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../classes/class_quat.rst:299
+msgid "返回一个由该四元数转换（相乘）的向量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

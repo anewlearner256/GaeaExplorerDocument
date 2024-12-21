@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_colorpickerbutton.rst:10
+msgid "ColorPickerButton"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:14
+msgid "弹出\\ :ref:`ColorPicker<class_ColorPicker>`\\ 的按钮。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:19
+msgid "将\\ :ref:`ColorPicker<class_ColorPicker>`\\ 封装成可以通过按一个按钮来进行使用。点击按钮可以切换出可见的\\ :ref:`ColorPicker<class_ColorPicker>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:21
+msgid "另请参阅\\ :ref:`BaseButton<class_BaseButton>`\\ 。它包括了和这个节点共同拥有的属性和方法。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:23
+msgid "\\ **注意：**\\ 按钮默认状态时可能非常窄，导致颜色预览样本不可见。确保将\\ :ref:`Control.rect_min_size<class_Control_property_rect_min_size>`\\ 设置的足够大从而给这个按钮足够的空间去显示。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:28
+msgid "`GUI Drag And Drop Demo <https://godotengine.org/asset-library/asset/133>`__"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:30
+msgid "`2D GD Paint Demo <https://godotengine.org/asset-library/asset/517>`__"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:36
+#: ../classes/class_colorpickerbutton.rst:56
+#: ../classes/class_colorpickerbutton.rst:58
+#: ../classes/class_colorpickerbutton.rst:60
+#: ../classes/class_colorpickerbutton.rst:62
+#: ../classes/class_colorpickerbutton.rst:64
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:36
+msgid ":ref:`color<class_ColorPickerButton_property_color>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:36
+#: ../classes/class_colorpickerbutton.rst:116
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:38
+#: ../classes/class_colorpickerbutton.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:38
+msgid ":ref:`edit_alpha<class_ColorPickerButton_property_edit_alpha>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:38
+#: ../classes/class_colorpickerbutton.rst:132
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:40
+msgid "toggle_mode"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:40
+msgid "``true`` (overrides :ref:`BaseButton<class_BaseButton_property_toggle_mode>`)"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:44
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:47
+msgid ":ref:`ColorPicker<class_ColorPicker>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:47
+msgid ":ref:`get_picker<class_ColorPickerButton_method_get_picker>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:49
+msgid ":ref:`PopupPanel<class_PopupPanel>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:49
+msgid ":ref:`get_popup<class_ColorPickerButton_method_get_popup>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:53
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:56
+msgid ":ref:`font_color<class_ColorPickerButton_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:56
+#: ../classes/class_colorpickerbutton.rst:60
+#: ../classes/class_colorpickerbutton.rst:62
+#: ../classes/class_colorpickerbutton.rst:170
+#: ../classes/class_colorpickerbutton.rst:194
+#: ../classes/class_colorpickerbutton.rst:206
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:58
+msgid ":ref:`font_color_disabled<class_ColorPickerButton_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:58
+#: ../classes/class_colorpickerbutton.rst:182
+msgid "``Color( 0.9, 0.9, 0.9, 0.3 )``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:60
+msgid ":ref:`font_color_focus<class_ColorPickerButton_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:62
+msgid ":ref:`font_color_hover<class_ColorPickerButton_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:64
+msgid ":ref:`font_color_pressed<class_ColorPickerButton_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:64
+#: ../classes/class_colorpickerbutton.rst:218
+msgid "``Color( 0.8, 0.8, 0.8, 1 )``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:66
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:66
+msgid ":ref:`hseparation<class_ColorPickerButton_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:66
+#: ../classes/class_colorpickerbutton.rst:230
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:68
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:68
+msgid ":ref:`font<class_ColorPickerButton_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:70
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:70
+msgid ":ref:`bg<class_ColorPickerButton_theme_icon_bg>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:72
+#: ../classes/class_colorpickerbutton.rst:74
+#: ../classes/class_colorpickerbutton.rst:76
+#: ../classes/class_colorpickerbutton.rst:78
+#: ../classes/class_colorpickerbutton.rst:80
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:72
+msgid ":ref:`disabled<class_ColorPickerButton_theme_style_disabled>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:74
+msgid ":ref:`focus<class_ColorPickerButton_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:76
+msgid ":ref:`hover<class_ColorPickerButton_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:78
+msgid ":ref:`normal<class_ColorPickerButton_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:80
+msgid ":ref:`pressed<class_ColorPickerButton_theme_style_pressed>`"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:84
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:88
+msgid "**color_changed** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:90
+msgid "颜色改变时发出。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:96
+msgid "**picker_created** **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:98
+msgid "创建\\ :ref:`ColorPicker<class_ColorPicker>`\\ 时（第一次按下按钮）发出。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:104
+msgid "**popup_closed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:106
+msgid "当\\ :ref:`ColorPicker<class_ColorPicker>`\\ 关闭时发出。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:109
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:113
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:116
+#: ../classes/class_colorpickerbutton.rst:132
+#: ../classes/class_colorpickerbutton.rst:170
+#: ../classes/class_colorpickerbutton.rst:182
+#: ../classes/class_colorpickerbutton.rst:194
+#: ../classes/class_colorpickerbutton.rst:206
+#: ../classes/class_colorpickerbutton.rst:218
+#: ../classes/class_colorpickerbutton.rst:230
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:118
+#: ../classes/class_colorpickerbutton.rst:134
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:118
+msgid "set_pick_color(value)"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:120
+#: ../classes/class_colorpickerbutton.rst:136
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:120
+msgid "get_pick_color()"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:123
+msgid "当前选择的颜色。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:129
+msgid ":ref:`bool<class_bool>` **edit_alpha**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:134
+msgid "set_edit_alpha(value)"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:136
+msgid "is_editing_alpha()"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:139
+msgid "如果\\ ``true``\\ ，则显示的\\ :ref:`ColorPicker<class_ColorPicker>`\\ 中的alpha通道将可见。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:142
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:146
+msgid ":ref:`ColorPicker<class_ColorPicker>` **get_picker** **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:148
+msgid "返回此节点所切换的 :ref:`ColorPicker<class_ColorPicker>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:150
+msgid "\\ **警告：** 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你希望隐藏它或其所有子项，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:156
+msgid ":ref:`PopupPanel<class_PopupPanel>` **get_popup** **(** **)**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:158
+msgid "返回控件的 :ref:`PopupPanel<class_PopupPanel>`\\ ，它允许你连接到弹出信号。这允许你在显示或隐藏 ColorPicker 时事件处理。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:160
+msgid "\\ **警告：** 这是一个必需的内部节点，删除和释放它可能会导致崩溃。如果你希望隐藏它或其任何子项，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:163
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:167
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:173
+msgid "``ColorPickerButton``\\ 的默认文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:179
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:185
+msgid "禁用\\ ``ColorPickerButton``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:191
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:197
+msgid "当\\ ``ColorPickerButton``\\ 获得焦点时使用的文本\\ :ref:`Color<class_Color>`\\ 。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:203
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:209
+msgid "悬停\\ ``ColorPickerButton``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:215
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:221
+msgid "按下\\ ``ColorPickerButton``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:227
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:233
+msgid "``ColorPickerButton``\\ 的图标和文本之间的水平间距。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:239
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:241
+msgid "``ColorPickerButton``\\ 文本的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:247
+msgid ":ref:`Texture<class_Texture>` **bg**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:249
+msgid "颜色预览的背景将在按钮上显示。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:255
+msgid ":ref:`StyleBox<class_StyleBox>` **disabled**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:257
+msgid "当\\ ``ColorPickerButton``\\ 被禁用时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:263
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:265
+msgid "当\\ ``ColorPickerButton``\\ 获得焦点时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。它显示在当前的\\ :ref:`StyleBox<class_StyleBox>`\\ 上，所以使用\\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\\ 只是禁用焦点视觉效果。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:271
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:273
+msgid "悬停\\ ``ColorPickerButton``\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:279
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:281
+msgid "``ColorPickerButton``\\ 的默认\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:287
+msgid ":ref:`StyleBox<class_StyleBox>` **pressed**"
+msgstr ""
+
+#: ../classes/class_colorpickerbutton.rst:289
+msgid "按下\\ ``ColorPickerButton``\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

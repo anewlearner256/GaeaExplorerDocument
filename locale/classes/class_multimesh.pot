@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_multimesh.rst:10
+msgid "MultiMesh"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:14
+msgid "提供高性能的网格实例化。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:19
+msgid "MultiMesh提供了低级别的网格实例化功能。绘制数以千计的\\ :ref:`MeshInstance<class_MeshInstance>`\\ 节点可能会很慢，因为每个对象都要提交给GPU然后单独绘制。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:21
+msgid "MultiMesh要快得多，因为它可以通过一次绘制调用来绘制成千上万的实例，从而减少API的开销。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:23
+msgid "缺点是，如果实例之间的距离太远，性能可能会降低，因为每一个实例总是会被渲染（它们在空间上被索引为整个对象）。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:25
+msgid "由于实例可能具有任何行为，用于可见性的AABB必须由用户提供。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:28
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:30
+msgid ":doc:`../tutorials/performance/vertex_animation/animating_thousands_of_fish`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:32
+msgid ":doc:`../tutorials/performance/using_multimesh`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:38
+msgid ":ref:`ColorFormat<enum_MultiMesh_ColorFormat>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:38
+msgid ":ref:`color_format<class_MultiMesh_property_color_format>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:38
+#: ../classes/class_multimesh.rst:40
+#: ../classes/class_multimesh.rst:42
+#: ../classes/class_multimesh.rst:46
+#: ../classes/class_multimesh.rst:135
+#: ../classes/class_multimesh.rst:151
+#: ../classes/class_multimesh.rst:167
+#: ../classes/class_multimesh.rst:197
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:40
+msgid ":ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:40
+msgid ":ref:`custom_data_format<class_MultiMesh_property_custom_data_format>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:42
+#: ../classes/class_multimesh.rst:48
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:42
+msgid ":ref:`instance_count<class_MultiMesh_property_instance_count>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:44
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:44
+msgid ":ref:`mesh<class_MultiMesh_property_mesh>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:46
+msgid ":ref:`TransformFormat<enum_MultiMesh_TransformFormat>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:46
+msgid ":ref:`transform_format<class_MultiMesh_property_transform_format>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:48
+msgid ":ref:`visible_instance_count<class_MultiMesh_property_visible_instance_count>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:48
+#: ../classes/class_multimesh.rst:213
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:52
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:55
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:55
+msgid ":ref:`get_aabb<class_MultiMesh_method_get_aabb>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:57
+#: ../classes/class_multimesh.rst:59
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:57
+msgid ":ref:`get_instance_color<class_MultiMesh_method_get_instance_color>` **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:59
+msgid ":ref:`get_instance_custom_data<class_MultiMesh_method_get_instance_custom_data>` **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:61
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:61
+msgid ":ref:`get_instance_transform<class_MultiMesh_method_get_instance_transform>` **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:63
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:63
+msgid ":ref:`get_instance_transform_2d<class_MultiMesh_method_get_instance_transform_2d>` **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:65
+#: ../classes/class_multimesh.rst:67
+#: ../classes/class_multimesh.rst:69
+#: ../classes/class_multimesh.rst:71
+#: ../classes/class_multimesh.rst:73
+msgid "void"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:65
+msgid ":ref:`set_as_bulk_array<class_MultiMesh_method_set_as_bulk_array>` **(** :ref:`PoolRealArray<class_PoolRealArray>` array **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:67
+msgid ":ref:`set_instance_color<class_MultiMesh_method_set_instance_color>` **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:69
+msgid ":ref:`set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>` **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` custom_data **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:71
+msgid ":ref:`set_instance_transform<class_MultiMesh_method_set_instance_transform>` **(** :ref:`int<class_int>` instance, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:73
+msgid ":ref:`set_instance_transform_2d<class_MultiMesh_method_set_instance_transform_2d>` **(** :ref:`int<class_int>` instance, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:77
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:85
+msgid "enum **TransformFormat**:"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:87
+msgid "**TRANSFORM_2D** = **0** --- 使用 2D 变换时使用此选项。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:89
+msgid "**TRANSFORM_3D** = **1** --- 使用 3D 变换时使用此选项。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:101
+msgid "enum **ColorFormat**:"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:103
+msgid "**COLOR_NONE** = **0** --- 当您不使用每个实例的 :ref:`Color<class_Color>` 时使用。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:105
+msgid "**COLOR_8BIT** = **1** --- 传递给着色器时将 :ref:`Color<class_Color>` 数据压缩为 8 位。这使用更少的内存并且可以更快，但 :ref:`Color<class_Color>` 会失去精度。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:107
+msgid "**COLOR_FLOAT** = **2** --- 传递给 :ref:`set_instance_color<class_MultiMesh_method_set_instance_color>` 的 :ref:`Color<class_Color>` 将使用 4 个浮点数。使用它以获得最高精度 :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:119
+msgid "enum **CustomDataFormat**:"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:121
+msgid "**CUSTOM_DATA_NONE** = **0** --- 当您不使用每个实例的自定义数据时使用。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:123
+msgid "**CUSTOM_DATA_8BIT** = **1** --- 传递给着色器时将 custom_data 压缩为 8 位。这使用更少的内存并且可以更快，但会失去精度和范围。 8 位浮点数只能表示 0 到 1 之间的值，超出该范围的数字将被限制。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:125
+msgid "**CUSTOM_DATA_FLOAT** = **2** --- 传递给 :ref:`set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>` 的 :ref:`Color<class_Color>` 将使用 4 个浮点数。使用它以获得最高精度。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:128
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:132
+msgid ":ref:`ColorFormat<enum_MultiMesh_ColorFormat>` **color_format**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:135
+#: ../classes/class_multimesh.rst:151
+#: ../classes/class_multimesh.rst:167
+#: ../classes/class_multimesh.rst:197
+#: ../classes/class_multimesh.rst:213
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:137
+#: ../classes/class_multimesh.rst:153
+#: ../classes/class_multimesh.rst:169
+#: ../classes/class_multimesh.rst:183
+#: ../classes/class_multimesh.rst:199
+#: ../classes/class_multimesh.rst:215
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:137
+msgid "set_color_format(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:139
+#: ../classes/class_multimesh.rst:155
+#: ../classes/class_multimesh.rst:171
+#: ../classes/class_multimesh.rst:185
+#: ../classes/class_multimesh.rst:201
+#: ../classes/class_multimesh.rst:217
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:139
+msgid "get_color_format()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:142
+msgid "传递给着色器的颜色数组中的颜色格式。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:148
+msgid ":ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>` **custom_data_format**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:153
+msgid "set_custom_data_format(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:155
+msgid "get_custom_data_format()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:158
+msgid "传递给着色器的自定义数据数组中的自定义数据格式。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:164
+msgid ":ref:`int<class_int>` **instance_count**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:169
+msgid "set_instance_count(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:171
+msgid "get_instance_count()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:174
+msgid "将被绘制的实例的数量。这将清除并（重新）调整缓冲区的大小。默认情况下，所有的实例都会被画出来，但你可以用\\ :ref:`visible_instance_count<class_MultiMesh_property_visible_instance_count>`\\ 来限制它。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:180
+msgid ":ref:`Mesh<class_Mesh>` **mesh**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:183
+msgid "set_mesh(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:185
+msgid "get_mesh()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:188
+msgid "将要绘制的网格。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:194
+msgid ":ref:`TransformFormat<enum_MultiMesh_TransformFormat>` **transform_format**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:199
+msgid "set_transform_format(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:201
+msgid "get_transform_format()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:204
+msgid "用于变换网格的变换格式，可以是2D或3D。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:210
+msgid ":ref:`int<class_int>` **visible_instance_count**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:215
+msgid "set_visible_instance_count(value)"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:217
+msgid "get_visible_instance_count()"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:220
+msgid "限制绘制的实例数量，-1会绘制所有的实例。改变这一点并不改变缓冲区的大小。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:223
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:227
+msgid ":ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:229
+msgid "返回局部空间中可见性轴对齐的包围框。请参阅 :ref:`VisualInstance.get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:235
+msgid ":ref:`Color<class_Color>` **get_instance_color** **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:237
+msgid "获取一个特定实例的颜色。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:243
+msgid ":ref:`Color<class_Color>` **get_instance_custom_data** **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:245
+msgid "返回已经为特定实例设置的自定义数据。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:251
+msgid ":ref:`Transform<class_Transform>` **get_instance_transform** **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:253
+msgid "返回一个特定实例的\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:259
+msgid ":ref:`Transform2D<class_Transform2D>` **get_instance_transform_2d** **(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:261
+msgid "返回特定实例的 :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:267
+msgid "void **set_as_bulk_array** **(** :ref:`PoolRealArray<class_PoolRealArray>` array **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:269
+msgid "一次性设置所有与实例相关的数据。这在从磁盘加载数据或从GDNative准备数据时特别有用。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:271
+msgid "所有的数据都被打包在一个大的浮点数数组中。数组可能看起来像这样。实例1的变换，实例1的颜色数据，实例1的自定义数据，实例2的变换，实例2的颜色数据，等等。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:273
+msgid "\\ :ref:`Transform<class_Transform>`\\ 存储为12浮点数，\\ :ref:`Transform2D<class_Transform2D>`\\ 存储为8浮点数，\\ ``COLOR_8BIT`` / ``CUSTOM_DATA_8BIT``\\ 存储为1浮点数（原为4字节），\\ ``COLOR_FLOAT`` / ``CUSTOM_DATA_FLOAT`` 存储为4浮点数。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:279
+msgid "void **set_instance_color** **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:281
+msgid "通过\\ *乘以*\\ 网格的现有顶点颜色来设置特定实例的颜色。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:283
+msgid "为了使颜色生效，请确保\\ ``MultiMesh``\\ 上的\\ :ref:`color_format<class_MultiMesh_property_color_format>`\\ 不是\\ ``null``\\ ，并且\\ :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\\ 上的材质是\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:289
+msgid "void **set_instance_custom_data** **(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` custom_data **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:291
+msgid "为特定的实例设置自定义数据。虽然使用了\\ :ref:`Color<class_Color>`\\ ，但它只是一个容纳4个浮点数的容器。数字的格式可以根据使用的\\ :ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>`\\ 来改变。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:297
+msgid "void **set_instance_transform** **(** :ref:`int<class_int>` instance, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:299
+msgid "为特定实例设置 :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:305
+msgid "void **set_instance_transform_2d** **(** :ref:`int<class_int>` instance, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_multimesh.rst:307
+msgid "为特定实例设置 :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

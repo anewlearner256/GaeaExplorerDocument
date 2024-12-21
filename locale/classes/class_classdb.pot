@@ -1,0 +1,389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_classdb.rst:10
+msgid "ClassDB"
+msgstr ""
+
+#: ../classes/class_classdb.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:14
+msgid "类信息存储库。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_classdb.rst:19
+msgid "提供对为每个可用类存储的元数据的访问。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_classdb.rst:25
+#: ../classes/class_classdb.rst:27
+#: ../classes/class_classdb.rst:51
+#: ../classes/class_classdb.rst:53
+#: ../classes/class_classdb.rst:55
+#: ../classes/class_classdb.rst:57
+#: ../classes/class_classdb.rst:69
+#: ../classes/class_classdb.rst:71
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:25
+msgid ":ref:`can_instance<class_ClassDB_method_can_instance>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:27
+msgid ":ref:`class_exists<class_ClassDB_method_class_exists>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:29
+#: ../classes/class_classdb.rst:37
+#: ../classes/class_classdb.rst:65
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:29
+msgid ":ref:`class_get_category<class_ClassDB_method_class_get_category>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:31
+#: ../classes/class_classdb.rst:33
+#: ../classes/class_classdb.rst:39
+#: ../classes/class_classdb.rst:61
+#: ../classes/class_classdb.rst:63
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:31
+msgid ":ref:`class_get_enum_constants<class_ClassDB_method_class_get_enum_constants>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` enum, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:33
+msgid ":ref:`class_get_enum_list<class_ClassDB_method_class_get_enum_list>` **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:35
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:35
+msgid ":ref:`class_get_integer_constant<class_ClassDB_method_class_get_integer_constant>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:37
+msgid ":ref:`class_get_integer_constant_enum<class_ClassDB_method_class_get_integer_constant_enum>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:39
+msgid ":ref:`class_get_integer_constant_list<class_ClassDB_method_class_get_integer_constant_list>` **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:41
+#: ../classes/class_classdb.rst:45
+#: ../classes/class_classdb.rst:49
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:41
+msgid ":ref:`class_get_method_list<class_ClassDB_method_class_get_method_list>` **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:43
+#: ../classes/class_classdb.rst:67
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:43
+msgid ":ref:`class_get_property<class_ClassDB_method_class_get_property>` **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:45
+msgid ":ref:`class_get_property_list<class_ClassDB_method_class_get_property_list>` **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:47
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:47
+msgid ":ref:`class_get_signal<class_ClassDB_method_class_get_signal>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:49
+msgid ":ref:`class_get_signal_list<class_ClassDB_method_class_get_signal_list>` **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:51
+msgid ":ref:`class_has_enum<class_ClassDB_method_class_has_enum>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:53
+msgid ":ref:`class_has_integer_constant<class_ClassDB_method_class_has_integer_constant>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:55
+msgid ":ref:`class_has_method<class_ClassDB_method_class_has_method>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` method, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:57
+msgid ":ref:`class_has_signal<class_ClassDB_method_class_has_signal>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:59
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_classdb.rst:59
+msgid ":ref:`class_set_property<class_ClassDB_method_class_set_property>` **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:61
+msgid ":ref:`get_class_list<class_ClassDB_method_get_class_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:63
+msgid ":ref:`get_inheriters_from_class<class_ClassDB_method_get_inheriters_from_class>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:65
+msgid ":ref:`get_parent_class<class_ClassDB_method_get_parent_class>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:67
+msgid ":ref:`instance<class_ClassDB_method_instance>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:69
+msgid ":ref:`is_class_enabled<class_ClassDB_method_is_class_enabled>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:71
+msgid ":ref:`is_parent_class<class_ClassDB_method_is_parent_class>` **(** :ref:`String<class_String>` class, :ref:`String<class_String>` inherits **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:75
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_classdb.rst:79
+msgid ":ref:`bool<class_bool>` **can_instance** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:81
+msgid "如果可以实例化指定\\ ``class``\\ 中的对象，则返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:87
+msgid ":ref:`bool<class_bool>` **class_exists** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:89
+msgid "返回指定的\\ ``class``\\ 是否可用。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:95
+msgid ":ref:`String<class_String>` **class_get_category** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:97
+msgid "返回与该类关联的类别，以用于文档和资产库。需要调试模式。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:103
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **class_get_enum_constants** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` enum, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:105
+msgid "返回一个数组，其中包含 ``class`` 或其父级的 ``enum`` 中的所有键。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:111
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **class_get_enum_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:113
+msgid "返回一个数组，其中包含 ``class`` 或其父级的所有枚举。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:119
+msgid ":ref:`int<class_int>` **class_get_integer_constant** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:121
+msgid "返回\\ ``class``\\ 的整数常量\\ ``name``\\ 或其父级的值。找不到常量时，始终返回0。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:127
+msgid ":ref:`String<class_String>` **class_get_integer_constant_enum** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:129
+msgid "返回 ``class`` 或其父级所属的枚举整数常量 ``name``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:135
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **class_get_integer_constant_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:137
+msgid "返回一个数组，其中带有 ``class`` 的所有整数常量或其祖先的名称。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:143
+msgid ":ref:`Array<class_Array>` **class_get_method_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:145
+msgid "如果\\ ``no_inheritance``\\ 是\\ ``false``\\ ，返回一个包含\\ ``class``\\ 或其父级所有方法的数组。数组的每个元素都是一个\\ :ref:`Dictionary<class_Dictionary>`\\ ，其键值如:``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:147
+msgid "\\ **注意：**\\ 在导出的发布版本中，调试信息不可用，所以返回的字典将只包含方法名称。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:153
+msgid ":ref:`Variant<class_Variant>` **class_get_property** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:155
+msgid "返回\\ ``class``\\ 的\\ ``property``\\ 的值或其父级。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:161
+msgid ":ref:`Array<class_Array>` **class_get_property_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:163
+msgid "如果\\ ``no_inheritance``\\ 为\\ ``false``\\ ，则返回具有\\ ``class``\\ 或其父级所有属性的数组。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:169
+msgid ":ref:`Dictionary<class_Dictionary>` **class_get_signal** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:171
+msgid "返回 ``class`` 或其父级的\\ ``信号``\\ 数据。返回 :ref:`Dictionary<class_Dictionary>` 并带有以下键： ``args``, ``default_args``, ``flags``, ``id``, ``name``, ``return:(class_name, hint, hint_string, name, type, usage)``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:177
+msgid ":ref:`Array<class_Array>` **class_get_signal_list** **(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:179
+msgid "如果 ``no_inheritance`` 为 ``false``\\ ，则返回具有 ``class`` 或其父级的所有信号的数组。数组的每个元素都是 :ref:`Dictionary<class_Dictionary>`\\ ，如 :ref:`class_get_signal<class_ClassDB_method_class_get_signal>` 中所述。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:185
+msgid ":ref:`bool<class_bool>` **class_has_enum** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:187
+msgid "返回\\ ``class``\\ 或其父级是否有一个称为\\ ``name``\\ 的信号。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:193
+msgid ":ref:`bool<class_bool>` **class_has_integer_constant** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:195
+msgid "返回\\ ``class``\\ 或其父级是否具有称为\\ ``name``\\ 的整数常量。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:201
+msgid ":ref:`bool<class_bool>` **class_has_method** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` method, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:203
+msgid "返回 ``class`` 是否有名为 ``method`` 的方法。（如果\\ ``no_inheritance``\\ 为\\ ``false``\\ ，则返回其父级）。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:209
+msgid ":ref:`bool<class_bool>` **class_has_signal** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:211
+msgid "返回\\ ``class``\\ 或其父级是否有一个称为\\ ``signal``\\ 的信号。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:217
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **class_set_property** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:219
+msgid "将\\ ``class``\\ 的\\ ``property``\\ 值设置为\\ ``value``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:225
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_class_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:227
+msgid "返回所有可用类的名称。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:233
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_inheriters_from_class** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:235
+msgid "返回直接或间接继承自\\ ``class``\\ 的所有类的名称。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:241
+msgid ":ref:`String<class_String>` **get_parent_class** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:243
+msgid "返回\\ ``class``\\ 的父类。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:249
+msgid ":ref:`Variant<class_Variant>` **instance** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:251
+msgid "创建\\ ``class``\\ 的实例。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:257
+msgid ":ref:`bool<class_bool>` **is_class_enabled** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:259
+msgid "返回是否启用此\\ ``class``\\ 。"
+msgstr ""
+
+#: ../classes/class_classdb.rst:265
+msgid ":ref:`bool<class_bool>` **is_parent_class** **(** :ref:`String<class_String>` class, :ref:`String<class_String>` inherits **)** |const|"
+msgstr ""
+
+#: ../classes/class_classdb.rst:267
+msgid "返回\\ ``inherits``\\ 是否是\\ ``class``\\ 的祖先。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

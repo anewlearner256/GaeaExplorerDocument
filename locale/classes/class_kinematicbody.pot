@@ -1,0 +1,555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_kinematicbody.rst:10
+msgid "KinematicBody"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:12
+msgid "**Inherits:** :ref:`PhysicsBody<class_PhysicsBody>` **<** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:14
+msgid "3D 运动学物体节点。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:19
+msgid "运动体是特殊类型的物体，指在让用户控制。它们完全不受物理影响；对于其他类型的物体，如角色或刚体，它们与静态体是一样的。然而，它们有两个主要用途。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:21
+msgid "\\ **模拟运动：**\\ 当这些物体被手动移动时，无论是从代码还是从 :ref:`AnimationPlayer<class_AnimationPlayer>`\\ （将 :ref:`AnimationPlayer.playback_process_mode<class_AnimationPlayer_property_playback_process_mode>` 设置为“physics”），物理将自动估算其线性和角速度。这使得它们对于移动平台或其他 AnimationPlayer 控制的物体非常有用，比如门、能打开的桥等。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:23
+msgid "\\ **运动学角色：**\\ 除了可以执行碰撞检测之外，KinematicBody 也有用于移动对象的 API（\\ :ref:`move_and_collide<class_KinematicBody_method_move_and_collide>` 和 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 方法）。这使得它们在实现对世界进行碰撞，但不需要高级物理的角色时非常有用。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:28
+msgid ":doc:`Kinematic character (2D) <../tutorials/physics/kinematic_character_2d>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:30
+msgid "`3D Kinematic Character Demo <https://godotengine.org/asset-library/asset/126>`__"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:32
+msgid "`3D Platformer Demo <https://godotengine.org/asset-library/asset/125>`__"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:34
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:36
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:39
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:42
+#: ../classes/class_kinematicbody.rst:44
+#: ../classes/class_kinematicbody.rst:46
+#: ../classes/class_kinematicbody.rst:50
+#: ../classes/class_kinematicbody.rst:52
+#: ../classes/class_kinematicbody.rst:54
+#: ../classes/class_kinematicbody.rst:56
+#: ../classes/class_kinematicbody.rst:63
+#: ../classes/class_kinematicbody.rst:77
+#: ../classes/class_kinematicbody.rst:79
+#: ../classes/class_kinematicbody.rst:81
+#: ../classes/class_kinematicbody.rst:91
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:42
+msgid ":ref:`axis_lock_motion_x<class_KinematicBody_property_axis_lock_motion_x>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:42
+#: ../classes/class_kinematicbody.rst:44
+#: ../classes/class_kinematicbody.rst:46
+#: ../classes/class_kinematicbody.rst:50
+#: ../classes/class_kinematicbody.rst:52
+#: ../classes/class_kinematicbody.rst:54
+#: ../classes/class_kinematicbody.rst:56
+#: ../classes/class_kinematicbody.rst:102
+#: ../classes/class_kinematicbody.rst:118
+#: ../classes/class_kinematicbody.rst:134
+#: ../classes/class_kinematicbody.rst:172
+#: ../classes/class_kinematicbody.rst:188
+#: ../classes/class_kinematicbody.rst:204
+#: ../classes/class_kinematicbody.rst:220
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:44
+msgid ":ref:`axis_lock_motion_y<class_KinematicBody_property_axis_lock_motion_y>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:46
+msgid ":ref:`axis_lock_motion_z<class_KinematicBody_property_axis_lock_motion_z>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:48
+#: ../classes/class_kinematicbody.rst:65
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:48
+msgid ":ref:`collision/safe_margin<class_KinematicBody_property_collision/safe_margin>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:48
+#: ../classes/class_kinematicbody.rst:150
+msgid "``0.001``"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:50
+msgid ":ref:`motion/sync_to_physics<class_KinematicBody_property_motion/sync_to_physics>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:52
+msgid ":ref:`move_lock_x<class_KinematicBody_property_move_lock_x>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:54
+msgid ":ref:`move_lock_y<class_KinematicBody_property_move_lock_y>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:56
+msgid ":ref:`move_lock_z<class_KinematicBody_property_move_lock_z>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:63
+msgid ":ref:`get_axis_lock<class_KinematicBody_method_get_axis_lock>` **(** :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:65
+msgid ":ref:`get_floor_angle<class_KinematicBody_method_get_floor_angle>` **(** :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 1, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:67
+#: ../classes/class_kinematicbody.rst:69
+#: ../classes/class_kinematicbody.rst:85
+#: ../classes/class_kinematicbody.rst:87
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:67
+msgid ":ref:`get_floor_normal<class_KinematicBody_method_get_floor_normal>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:69
+msgid ":ref:`get_floor_velocity<class_KinematicBody_method_get_floor_velocity>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:71
+#: ../classes/class_kinematicbody.rst:73
+#: ../classes/class_kinematicbody.rst:83
+msgid ":ref:`KinematicCollision<class_KinematicCollision>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:71
+msgid ":ref:`get_last_slide_collision<class_KinematicBody_method_get_last_slide_collision>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:73
+msgid ":ref:`get_slide_collision<class_KinematicBody_method_get_slide_collision>` **(** :ref:`int<class_int>` slide_idx **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:75
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:75
+msgid ":ref:`get_slide_count<class_KinematicBody_method_get_slide_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:77
+msgid ":ref:`is_on_ceiling<class_KinematicBody_method_is_on_ceiling>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:79
+msgid ":ref:`is_on_floor<class_KinematicBody_method_is_on_floor>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:81
+msgid ":ref:`is_on_wall<class_KinematicBody_method_is_on_wall>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:83
+msgid ":ref:`move_and_collide<class_KinematicBody_method_move_and_collide>` **(** :ref:`Vector3<class_Vector3>` rel_vec, :ref:`bool<class_bool>` infinite_inertia=true, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`bool<class_bool>` test_only=false **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:85
+msgid ":ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` **(** :ref:`Vector3<class_Vector3>` linear_velocity, :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:87
+msgid ":ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` **(** :ref:`Vector3<class_Vector3>` linear_velocity, :ref:`Vector3<class_Vector3>` snap, :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:89
+msgid "void"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:89
+msgid ":ref:`set_axis_lock<class_KinematicBody_method_set_axis_lock>` **(** :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis, :ref:`bool<class_bool>` lock **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:91
+msgid ":ref:`test_move<class_KinematicBody_method_test_move>` **(** :ref:`Transform<class_Transform>` from, :ref:`Vector3<class_Vector3>` rel_vec, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:95
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:99
+msgid ":ref:`bool<class_bool>` **axis_lock_motion_x**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:102
+#: ../classes/class_kinematicbody.rst:118
+#: ../classes/class_kinematicbody.rst:134
+#: ../classes/class_kinematicbody.rst:150
+#: ../classes/class_kinematicbody.rst:172
+#: ../classes/class_kinematicbody.rst:188
+#: ../classes/class_kinematicbody.rst:204
+#: ../classes/class_kinematicbody.rst:220
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:104
+#: ../classes/class_kinematicbody.rst:120
+#: ../classes/class_kinematicbody.rst:136
+#: ../classes/class_kinematicbody.rst:152
+#: ../classes/class_kinematicbody.rst:174
+#: ../classes/class_kinematicbody.rst:190
+#: ../classes/class_kinematicbody.rst:206
+#: ../classes/class_kinematicbody.rst:222
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:104
+#: ../classes/class_kinematicbody.rst:120
+#: ../classes/class_kinematicbody.rst:136
+#: ../classes/class_kinematicbody.rst:190
+#: ../classes/class_kinematicbody.rst:206
+#: ../classes/class_kinematicbody.rst:222
+msgid "set_axis_lock(value)"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:106
+#: ../classes/class_kinematicbody.rst:122
+#: ../classes/class_kinematicbody.rst:138
+#: ../classes/class_kinematicbody.rst:154
+#: ../classes/class_kinematicbody.rst:176
+#: ../classes/class_kinematicbody.rst:192
+#: ../classes/class_kinematicbody.rst:208
+#: ../classes/class_kinematicbody.rst:224
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:106
+#: ../classes/class_kinematicbody.rst:122
+#: ../classes/class_kinematicbody.rst:138
+#: ../classes/class_kinematicbody.rst:192
+#: ../classes/class_kinematicbody.rst:208
+#: ../classes/class_kinematicbody.rst:224
+msgid "get_axis_lock()"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:109
+msgid "锁定物体的X轴运动。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:115
+msgid ":ref:`bool<class_bool>` **axis_lock_motion_y**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:125
+msgid "锁定物体的Y轴运动。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:131
+msgid ":ref:`bool<class_bool>` **axis_lock_motion_z**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:141
+msgid "锁定物体的Z轴运动。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:147
+msgid ":ref:`float<class_float>` **collision/safe_margin**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:152
+msgid "set_safe_margin(value)"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:154
+msgid "get_safe_margin()"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:157
+msgid "在运动函数中用于碰撞恢复的额外边距，参阅\\ :ref:`move_and_collide<class_KinematicBody_method_move_and_collide>`, :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>`, :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:159
+msgid "如果物体离另一个物体至少这么近，它就会认为它们正在发生碰撞，并在执行实际运动之前被推开。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:161
+msgid "一个较高的值意味着它在检测碰撞时更加灵活，这有助于持续检测墙壁和地板。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:163
+msgid "一个较低的值迫使碰撞算法使用更精确的检测，所以它可以用于特别需要精确性的情况，例如在非常低的比例下避免可见的抖动，或者用于运动体堆叠的稳定性。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:169
+msgid ":ref:`bool<class_bool>` **motion/sync_to_physics**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:174
+msgid "set_sync_to_physics(value)"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:176
+msgid "is_sync_to_physics_enabled()"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:179
+msgid "如果为\\ ``true``\\ ，则物体的运动将与物理帧同步。当通过\\ :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 为运动设置动画时，例如在移动平台上，这个功能很有用。请\\ **不要**\\ 与 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_collide<class_KinematicBody_method_move_and_collide>` 函数一起使用。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:185
+msgid ":ref:`bool<class_bool>` **move_lock_x**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:195
+msgid "锁定物体的X轴运动。已被废弃的\\ :ref:`axis_lock_motion_x<class_KinematicBody_property_axis_lock_motion_x>`\\ 的别名。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:201
+msgid ":ref:`bool<class_bool>` **move_lock_y**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:211
+msgid "锁定物体的Y轴运动。已被废弃的\\ :ref:`axis_lock_motion_y<class_KinematicBody_property_axis_lock_motion_y>`\\ 的别名。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:217
+msgid ":ref:`bool<class_bool>` **move_lock_z**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:227
+msgid "锁定物体的Z轴运动。已被废弃的\\ :ref:`axis_lock_motion_z<class_KinematicBody_property_axis_lock_motion_z>`\\ 的别名。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:230
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:234
+msgid ":ref:`bool<class_bool>` **get_axis_lock** **(** :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:236
+msgid "如果指定的轴 ``axis`` 被锁定，则返回 ``true``\\ 。请参阅 :ref:`move_lock_x<class_KinematicBody_property_move_lock_x>`\\ 、\\ :ref:`move_lock_y<class_KinematicBody_property_move_lock_y>`\\ 、\\ :ref:`move_lock_z<class_KinematicBody_property_move_lock_z>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:242
+msgid ":ref:`float<class_float>` **get_floor_angle** **(** :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 1, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:244
+msgid "根据\\ ``up_direction``\\ 返回最后一个碰撞点的地板碰撞角度，默认为\\ ``Vector3.UP``\\ 。此值始终为正值，并且仅在调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 后且当 :ref:`is_on_floor<class_KinematicBody_method_is_on_floor>` 返回 ``true`` 时有效。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:250
+msgid ":ref:`Vector3<class_Vector3>` **get_floor_normal** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:252
+msgid "返回最后一个碰撞点的地板的表面法线。只有在调用\\ :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>`\\ 或\\ :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>`\\ 后，以及\\ :ref:`is_on_floor<class_KinematicBody_method_is_on_floor>`\\ 返回\\ ``true``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:258
+msgid ":ref:`Vector3<class_Vector3>` **get_floor_velocity** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:260
+msgid "返回最后一个碰撞点地板的线速度。仅在调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 且 :ref:`is_on_floor<class_KinematicBody_method_is_on_floor>` 返回 ``true`` 后有效。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:266
+msgid ":ref:`KinematicCollision<class_KinematicCollision>` **get_last_slide_collision** **(** **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:268
+msgid "返回 :ref:`KinematicCollision<class_KinematicCollision>`\\ ，其中包含有关上次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 期间发生的最新碰撞的信息。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:274
+msgid ":ref:`KinematicCollision<class_KinematicCollision>` **get_slide_collision** **(** :ref:`int<class_int>` slide_idx **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:276
+msgid "返回 :ref:`KinematicCollision<class_KinematicCollision>`\\ ，其中包含有关上次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 期间发生的碰撞的信息。由于物体可以在一次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 时发生多次碰撞，因此你必须在 0 到 (:ref:`get_slide_count<class_KinematicBody_method_get_slide_count>` - 1) 范围内指定碰撞的索引。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:282
+msgid ":ref:`int<class_int>` **get_slide_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:284
+msgid "返回上次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 期间物体发生碰撞和改变方向的次数。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:290
+msgid ":ref:`bool<class_bool>` **is_on_ceiling** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:292
+msgid "如果在最后一次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 时物体与天花板发生碰撞，则返回 ``true``\\ 。否则，返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:298
+msgid ":ref:`bool<class_bool>` **is_on_floor** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:300
+msgid "如果在最后一次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 时物体与地板发生碰撞，则返回 ``true``\\ 。否则，返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:306
+msgid ":ref:`bool<class_bool>` **is_on_wall** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:308
+msgid "如果在最后一次调用 :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>` 或 :ref:`move_and_slide_with_snap<class_KinematicBody_method_move_and_slide_with_snap>` 时物体与墙壁发生碰撞，则返回 ``true``\\ 。否则，返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:314
+msgid ":ref:`KinematicCollision<class_KinematicCollision>` **move_and_collide** **(** :ref:`Vector3<class_Vector3>` rel_vec, :ref:`bool<class_bool>` infinite_inertia=true, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`bool<class_bool>` test_only=false **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:316
+msgid "沿向量 ``rel_vec`` 移动物体。如果发生碰撞，物体会停止。停止或在运动时与另一物体相接触时，返回包含碰撞相关信息的 :ref:`KinematicCollision<class_KinematicCollision>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:318
+msgid "如果 ``test_only`` 为 ``true``\\ ，则物体不会移动，但会给出可能发生的碰撞信息。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:324
+msgid ":ref:`Vector3<class_Vector3>` **move_and_slide** **(** :ref:`Vector3<class_Vector3>` linear_velocity, :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:326
+msgid "沿着向量移动物体。如果这个物体与另一个物体相撞，它将沿着另一个物体滑动，而不是立即停止。如果另一个物体是\\ ``KinematicBody``\\ 或\\ :ref:`RigidBody<class_RigidBody>`\\ ，它也会被另一个物体的运动所影响。你可以用它来制作移动和旋转的平台，或者让节点推动其他节点。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:328
+msgid "这个方法应该在\\ :ref:`Node._physics_process<class_Node_method__physics_process>`\\ 中使用，或者在被\\ :ref:`Node._physics_process<class_Node_method__physics_process>`\\ 调用的方法中使用，因为它在计算时，自动使用物理步骤的\\ ``delta``\\ 值。否则，模拟将以不正确的速度运行。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:330
+msgid "\\ ``linear_velocity``\\ 是速度向量，通常是米/秒。与\\ :ref:`move_and_collide<class_KinematicBody_method_move_and_collide>`\\ 不同的是，你\\ *不应该*\\ 把它乘以\\ ``delta``--物理引擎会处理应用速度。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:332
+msgid "\\ ``up_direction`` 是向上的方向，用来确定什么是墙，什么是地板或天花板。如果设置为默认值\\ ``Vector3(0, 0, 0)``\\ ，一切都被认为是墙。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:334
+msgid "如果\\ ``stop_on_slope``\\ 是\\ ``true``\\ ，当你在\\ ``linear_velocity``\\ 中包含重力并且物体静止时，物体将不会在斜坡上滑动。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:336
+msgid "如果物体发生碰撞，它最多会改变方向\\ ``max_slides``\\ 次才会停止。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:338
+msgid "\\ ``floor_max_angle``\\ 是一个最大的角度（弧度），在这个角度下，一个斜坡仍然被认为是地板或天花板，而不是墙壁。默认值等于45度。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:340
+msgid "如果\\ ``infinite_inertia``\\ 是\\ ``true``\\ ，物体将能够推动\\ :ref:`RigidBody<class_RigidBody>`\\ 节点，但它也不会检测到任何与它们的碰撞。如果\\ ``false``\\ ，它将与\\ :ref:`RigidBody<class_RigidBody>`\\ 节点像\\ :ref:`StaticBody<class_StaticBody>`\\ 一样交互。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:342
+msgid "返回\\ ``linear_velocity``\\ 向量，如果发生滑动碰撞，则旋转和/或缩放。要获得发生碰撞的详细信息，请使用\\ :ref:`get_slide_collision<class_KinematicBody_method_get_slide_collision>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:344
+msgid "当物体接触到一个移动的平台时，平台的速度会自动加入到物体的运动中。如果由于平台的运动而发生碰撞，它将始终是滑动碰撞中的第一个。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:350
+msgid ":ref:`Vector3<class_Vector3>` **move_and_slide_with_snap** **(** :ref:`Vector3<class_Vector3>` linear_velocity, :ref:`Vector3<class_Vector3>` snap, :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:352
+msgid "移动物体，其同时保持与斜坡的连接。类似于\\ :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:354
+msgid "只要\\ ``snap``\\ 向量与地面接触，物体就会一直吸附在地面上。这意味着你必须禁用snap来进行跳跃，比如，可以通过将\\ ``snap``\\ 设置为\\ ``(0, 0, 0)``\\ 或者使用\\ :ref:`move_and_slide<class_KinematicBody_method_move_and_slide>`\\ 来实现。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:360
+msgid "void **set_axis_lock** **(** :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis, :ref:`bool<class_bool>` lock **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:362
+msgid "根据\\ ``lock``\\ 的值，锁定或解锁指定的\\ ``axis``\\ 。参阅\\ :ref:`move_lock_x<class_KinematicBody_property_move_lock_x>`\\ 、\\ :ref:`move_lock_y<class_KinematicBody_property_move_lock_y>`\\ 和\\ :ref:`move_lock_z<class_KinematicBody_property_move_lock_z>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:368
+msgid ":ref:`bool<class_bool>` **test_move** **(** :ref:`Transform<class_Transform>` from, :ref:`Vector3<class_Vector3>` rel_vec, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:370
+msgid "在不移动物体的情况下检查碰撞情况。假装将节点的位置、缩放和旋转设置为给定的 :ref:`Transform<class_Transform>`\\ ，然后尝试沿着向量 ``rel_vec`` 移动物体。如果物体在沿着完整路径移动过程中会发生碰撞停止，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematicbody.rst:372
+msgid "要检测物体接触而产生的碰撞，请使用 :ref:`move_and_collide<class_KinematicBody_method_move_and_collide>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

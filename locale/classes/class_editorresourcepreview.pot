@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorresourcepreview.rst:10
+msgid "EditorResourcePreview"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:14
+msgid "帮助生成资源或文件的预览。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:19
+msgid "该对象用于生成文件资源的预览。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:21
+msgid "\\ **注意：**\\ 不应该直接实例化这个类，而是使用\\ :ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\\ 访问单例。而是，使用\\ :ref:`EditorInterface.get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`\\ 访问单例。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:27
+#: ../classes/class_editorresourcepreview.rst:29
+#: ../classes/class_editorresourcepreview.rst:31
+#: ../classes/class_editorresourcepreview.rst:33
+#: ../classes/class_editorresourcepreview.rst:35
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:27
+msgid ":ref:`add_preview_generator<class_EditorResourcePreview_method_add_preview_generator>` **(** :ref:`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:29
+msgid ":ref:`check_for_invalidation<class_EditorResourcePreview_method_check_for_invalidation>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:31
+msgid ":ref:`queue_edited_resource_preview<class_EditorResourcePreview_method_queue_edited_resource_preview>` **(** :ref:`Resource<class_Resource>` resource, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` receiver_func, :ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:33
+msgid ":ref:`queue_resource_preview<class_EditorResourcePreview_method_queue_resource_preview>` **(** :ref:`String<class_String>` path, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` receiver_func, :ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:35
+msgid ":ref:`remove_preview_generator<class_EditorResourcePreview_method_remove_preview_generator>` **(** :ref:`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:39
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:43
+msgid "**preview_invalidated** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:45
+msgid "预览无效（更改）时触发。\\ ``path``\\ 对应的预览路径。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:48
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:52
+msgid "void **add_preview_generator** **(** :ref:`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:54
+msgid "创建一个自定义的预览生成器。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:60
+msgid "void **check_for_invalidation** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:62
+msgid "检查资源是否发生变化，如果发生变化，则无效，并发出相应的信号。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:68
+msgid "void **queue_edited_resource_preview** **(** :ref:`Resource<class_Resource>` resource, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` receiver_func, :ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:70
+msgid "将正在编辑的资源 ``resource`` 排队进行预览。一旦预览准备好了，接收器 ``receiver`` 的 ``receiver_func`` 将被调用。\\ ``receiver_func`` 必须接受以下四个参数。\\ :ref:`String<class_String>` path, :ref:`Texture<class_Texture>` preview, :ref:`Texture<class_Texture>` thumbnail_preview, :ref:`Variant<class_Variant>` userdata。\\ ``userdata`` 可以是任何东西，并将在 ``receiver_func`` 被调用时返回。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:72
+msgid "\\ **注意：**\\ 如果无法创建预览，\\ ``receiver_func`` 仍将被调用，但预览将为空。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:78
+msgid "void **queue_resource_preview** **(** :ref:`String<class_String>` path, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` receiver_func, :ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:80
+msgid "将位于路径 ``path`` 的资源文件排队以进行预览。预览准备好后，将调用 ``receiver`` 的 ``receiver_func`` 函数。\\ ``receiver_func`` 必须带有以下四个参数：\\ :ref:`String<class_String>` path、\\ :ref:`Texture<class_Texture>` preview、\\ :ref:`Texture<class_Texture>` thumbnail_preview、\\ :ref:`Variant<class_Variant>` userdata。用户数据 ``userdata`` 可以是任意的，会在调用 ``receiver_func`` 时返回。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:82
+msgid "\\ **注意：**\\ 无法创建预览时仍将调用 ``receiver_func``\\ ，但 preview 会是 null。"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:88
+msgid "void **remove_preview_generator** **(** :ref:`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: ../classes/class_editorresourcepreview.rst:90
+msgid "移除自定义预览生成器。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

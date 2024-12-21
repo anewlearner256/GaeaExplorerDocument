@@ -1,0 +1,2941 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/i18n/locales.rst:4
+msgid "Locales"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:8
+msgid "This is the list of supported locales and variants in the engine. It's based on the Unix standard locale strings:"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:12
+msgid "Locale"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:12
+msgid "Language and Variant"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:14
+msgid "aa"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:14
+msgid "Afar"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:16
+msgid "aa_DJ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:16
+msgid "Afar (Djibouti)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:18
+msgid "aa_ER"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:18
+msgid "Afar (Eritrea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:20
+msgid "aa_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:20
+msgid "Afar (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:22
+msgid "af"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:22
+msgid "Afrikaans"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:24
+msgid "af_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:24
+msgid "Afrikaans (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:26
+msgid "agr_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:26
+msgid "Aguaruna (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:28
+msgid "ak_GH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:28
+msgid "Akan (Ghana)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:30
+msgid "am_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:30
+msgid "Amharic (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:32
+msgid "an_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:32
+msgid "Aragonese (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:34
+msgid "anp_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:34
+msgid "Angika (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:36
+msgid "ar"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:36
+msgid "Arabic"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:38
+msgid "ar_AE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:38
+msgid "Arabic (United Arab Emirates)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:40
+msgid "ar_BH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:40
+msgid "Arabic (Bahrain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:42
+msgid "ar_DZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:42
+msgid "Arabic (Algeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:44
+msgid "ar_EG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:44
+msgid "Arabic (Egypt)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:46
+msgid "ar_IQ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:46
+msgid "Arabic (Iraq)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:48
+msgid "ar_JO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:48
+msgid "Arabic (Jordan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:50
+msgid "ar_KW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:50
+msgid "Arabic (Kuwait)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:52
+msgid "ar_LB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:52
+msgid "Arabic (Lebanon)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:54
+msgid "ar_LY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:54
+msgid "Arabic (Libya)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:56
+msgid "ar_MA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:56
+msgid "Arabic (Morocco)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:58
+msgid "ar_OM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:58
+msgid "Arabic (Oman)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:60
+msgid "ar_QA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:60
+msgid "Arabic (Qatar)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:62
+msgid "ar_SA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:62
+msgid "Arabic (Saudi Arabia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:64
+msgid "ar_SD"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:64
+msgid "Arabic (Sudan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:66
+msgid "ar_SS"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:66
+msgid "Arabic (South Sudan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:68
+msgid "ar_SY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:68
+msgid "Arabic (Syria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:70
+msgid "ar_TN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:70
+msgid "Arabic (Tunisia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:72
+msgid "ar_YE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:72
+msgid "Arabic (Yemen)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:74
+msgid "as_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:74
+msgid "Assamese (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:76
+msgid "ast_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:76
+msgid "Asturian (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:78
+msgid "ayc_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:78
+msgid "Southern Aymara (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:80
+msgid "ay_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:80
+msgid "Aymara (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:82
+msgid "az_AZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:82
+msgid "Azerbaijani (Azerbaijan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:84
+msgid "be"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:84
+msgid "Belarusian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:86
+msgid "be_BY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:86
+msgid "Belarusian (Belarus)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:88
+msgid "bem_ZM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:88
+msgid "Bemba (Zambia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:90
+msgid "ber_DZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:90
+msgid "Berber languages (Algeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:92
+msgid "ber_MA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:92
+msgid "Berber languages (Morocco)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:94
+msgid "bg"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:94
+msgid "Bulgarian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:96
+msgid "bg_BG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:96
+msgid "Bulgarian (Bulgaria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:98
+msgid "bhb_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:98
+msgid "Bhili (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:100
+msgid "bho_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:100
+msgid "Bhojpuri (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:102
+msgid "bi_TV"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:102
+msgid "Bislama (Tuvalu)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:104
+msgid "bn"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:104
+msgid "Bengali"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:106
+msgid "bn_BD"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:106
+msgid "Bengali (Bangladesh)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:108
+msgid "bn_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:108
+msgid "Bengali (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:110
+msgid "bo"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:110
+msgid "Tibetan"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:112
+msgid "bo_CN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:112
+msgid "Tibetan (China)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:114
+msgid "bo_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:114
+msgid "Tibetan (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:116
+msgid "br_FR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:116
+msgid "Breton (France)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:118
+msgid "brx_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:118
+msgid "Bodo (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:120
+msgid "bs_BA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:120
+msgid "Bosnian (Bosnia and Herzegovina)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:122
+msgid "byn_ER"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:122
+msgid "Bilin (Eritrea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:124
+msgid "ca"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:124
+msgid "Catalan"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:126
+msgid "ca_AD"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:126
+msgid "Catalan (Andorra)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:128
+msgid "ca_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:128
+msgid "Catalan (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:130
+msgid "ca_FR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:130
+msgid "Catalan (France)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:132
+msgid "ca_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:132
+msgid "Catalan (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:134
+msgid "ce_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:134
+msgid "Chechen (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:136
+msgid "chr_US"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:136
+msgid "Cherokee (United States)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:138
+msgid "cmn_TW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:138
+msgid "Mandarin Chinese (Taiwan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:140
+msgid "crh_UA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:140
+msgid "Crimean Tatar (Ukraine)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:142
+msgid "csb_PL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:142
+msgid "Kashubian (Poland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:144
+msgid "cs"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:144
+msgid "Czech"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:146
+msgid "cs_CZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:146
+msgid "Czech (Czech Republic)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:148
+msgid "cv_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:148
+msgid "Chuvash (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:150
+msgid "cy_GB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:150
+msgid "Welsh (United Kingdom)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:152
+msgid "da"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:152
+msgid "Danish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:154
+msgid "da_DK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:154
+msgid "Danish (Denmark)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:156
+msgid "de"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:156
+msgid "German"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:158
+msgid "de_AT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:158
+msgid "German (Austria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:160
+msgid "de_BE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:160
+msgid "German (Belgium)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:162
+msgid "de_CH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:162
+msgid "German (Switzerland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:164
+msgid "de_DE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:164
+msgid "German (Germany)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:166
+msgid "de_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:166
+msgid "German (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:168
+msgid "de_LU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:168
+msgid "German (Luxembourg)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:170
+msgid "doi_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:170
+msgid "Dogri (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:172
+msgid "dv_MV"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:172
+msgid "Dhivehi (Maldives)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:174
+msgid "dz_BT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:174
+msgid "Dzongkha (Bhutan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:176
+msgid "el"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:176
+msgid "Greek"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:178
+msgid "el_CY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:178
+msgid "Greek (Cyprus)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:180
+msgid "el_GR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:180
+msgid "Greek (Greece)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:182
+msgid "en"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:182
+msgid "English"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:184
+msgid "en_AG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:184
+msgid "English (Antigua and Barbuda)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:186
+msgid "en_AU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:186
+msgid "English (Australia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:188
+msgid "en_BW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:188
+msgid "English (Botswana)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:190
+msgid "en_CA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:190
+msgid "English (Canada)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:192
+msgid "en_DK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:192
+msgid "English (Denmark)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:194
+msgid "en_GB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:194
+msgid "English (United Kingdom)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:196
+msgid "en_HK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:196
+msgid "English (Hong Kong)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:198
+msgid "en_IE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:198
+msgid "English (Ireland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:200
+msgid "en_IL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:200
+msgid "English (Israel)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:202
+msgid "en_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:202
+msgid "English (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:204
+msgid "en_NG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:204
+msgid "English (Nigeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:206
+msgid "en_NZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:206
+msgid "English (New Zealand)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:208
+msgid "en_PH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:208
+msgid "English (Philippines)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:210
+msgid "en_SG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:210
+msgid "English (Singapore)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:212
+msgid "en_US"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:212
+msgid "English (United States)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:214
+msgid "en_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:214
+msgid "English (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:216
+msgid "en_ZM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:216
+msgid "English (Zambia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:218
+msgid "en_ZW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:218
+msgid "English (Zimbabwe)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:220
+msgid "eo"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:220
+msgid "Esperanto"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:222
+msgid "es"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:222
+msgid "Spanish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:224
+msgid "es_AR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:224
+msgid "Spanish (Argentina)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:226
+msgid "es_BO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:226
+msgid "Spanish (Bolivia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:228
+msgid "es_CL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:228
+msgid "Spanish (Chile)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:230
+msgid "es_CO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:230
+msgid "Spanish (Colombia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:232
+msgid "es_CR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:232
+msgid "Spanish (Costa Rica)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:234
+msgid "es_CU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:234
+msgid "Spanish (Cuba)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:236
+msgid "es_DO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:236
+msgid "Spanish (Dominican Republic)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:238
+msgid "es_EC"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:238
+msgid "Spanish (Ecuador)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:240
+msgid "es_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:240
+msgid "Spanish (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:242
+msgid "es_GT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:242
+msgid "Spanish (Guatemala)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:244
+msgid "es_HN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:244
+msgid "Spanish (Honduras)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:246
+msgid "es_MX"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:246
+msgid "Spanish (Mexico)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:248
+msgid "es_NI"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:248
+msgid "Spanish (Nicaragua)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:250
+msgid "es_PA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:250
+msgid "Spanish (Panama)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:252
+msgid "es_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:252
+msgid "Spanish (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:254
+msgid "es_PR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:254
+msgid "Spanish (Puerto Rico)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:256
+msgid "es_PY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:256
+msgid "Spanish (Paraguay)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:258
+msgid "es_SV"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:258
+msgid "Spanish (El Salvador)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:260
+msgid "es_US"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:260
+msgid "Spanish (United States)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:262
+msgid "es_UY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:262
+msgid "Spanish (Uruguay)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:264
+msgid "es_VE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:264
+msgid "Spanish (Venezuela)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:266
+msgid "et"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:266
+msgid "Estonian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:268
+msgid "et_EE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:268
+msgid "Estonian (Estonia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:270
+msgid "eu"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:270
+msgid "Basque"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:272
+msgid "eu_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:272
+msgid "Basque (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:274
+msgid "fa"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:274
+msgid "Persian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:276
+msgid "fa_IR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:276
+msgid "Persian (Iran)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:278
+msgid "ff_SN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:278
+msgid "Fulah (Senegal)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:280
+msgid "fi"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:280
+msgid "Finnish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:282
+msgid "fi_FI"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:282
+msgid "Finnish (Finland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:284
+msgid "fil"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:284
+msgid "Filipino"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:286
+msgid "fil_PH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:286
+msgid "Filipino (Philippines)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:288
+msgid "fo_FO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:288
+msgid "Faroese (Faroe Islands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:290
+msgid "fr"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:290
+msgid "French"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:292
+msgid "fr_BE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:292
+msgid "French (Belgium)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:294
+msgid "fr_CA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:294
+msgid "French (Canada)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:296
+msgid "fr_CH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:296
+msgid "French (Switzerland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:298
+msgid "fr_FR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:298
+msgid "French (France)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:300
+msgid "fr_LU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:300
+msgid "French (Luxembourg)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:302
+msgid "fur_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:302
+msgid "Friulian (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:304
+msgid "fy_DE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:304
+msgid "Western Frisian (Germany)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:306
+msgid "fy_NL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:306
+msgid "Western Frisian (Netherlands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:308
+msgid "ga"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:308
+msgid "Irish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:310
+msgid "ga_IE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:310
+msgid "Irish (Ireland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:312
+msgid "gd_GB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:312
+msgid "Scottish Gaelic (United Kingdom)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:314
+msgid "gez_ER"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:314
+msgid "Geez (Eritrea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:316
+msgid "gez_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:316
+msgid "Geez (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:318
+msgid "gl_ES"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:318
+msgid "Galician (Spain)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:320
+msgid "gu_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:320
+msgid "Gujarati (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:322
+msgid "gv_GB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:322
+msgid "Manx (United Kingdom)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:324
+msgid "hak_TW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:324
+msgid "Hakka Chinese (Taiwan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:326
+msgid "ha_NG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:326
+msgid "Hausa (Nigeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:328
+msgid "he"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:328
+msgid "Hebrew"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:330
+msgid "he_IL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:330
+msgid "Hebrew (Israel)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:332
+msgid "hi"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:332
+msgid "Hindi"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:334
+msgid "hi_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:334
+msgid "Hindi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:336
+msgid "hne_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:336
+msgid "Chhattisgarhi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:338
+msgid "hr"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:338
+msgid "Croatian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:340
+msgid "hr_HR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:340
+msgid "Croatian (Croatia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:342
+msgid "hsb_DE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:342
+msgid "Upper Sorbian (Germany)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:344
+msgid "ht_HT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:344
+msgid "Haitian (Haiti)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:346
+msgid "hu"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:346
+msgid "Hungarian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:348
+msgid "hu_HU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:348
+msgid "Hungarian (Hungary)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:350
+msgid "hus_MX"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:350
+msgid "Huastec (Mexico)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:352
+msgid "hy_AM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:352
+msgid "Armenian (Armenia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:354
+msgid "ia_FR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:354
+msgid "Interlingua (France)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:356
+msgid "id"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:356
+msgid "Indonesian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:358
+msgid "id_ID"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:358
+msgid "Indonesian (Indonesia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:360
+msgid "ig_NG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:360
+msgid "Igbo (Nigeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:362
+msgid "ik_CA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:362
+msgid "Inupiaq (Canada)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:364
+msgid "is"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:364
+msgid "Icelandic"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:366
+msgid "is_IS"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:366
+msgid "Icelandic (Iceland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:368
+msgid "it"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:368
+msgid "Italian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:370
+msgid "it_CH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:370
+msgid "Italian (Switzerland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:372
+msgid "it_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:372
+msgid "Italian (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:374
+msgid "iu_CA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:374
+msgid "Inuktitut (Canada)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:376
+msgid "ja"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:376
+msgid "Japanese"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:378
+msgid "ja_JP"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:378
+msgid "Japanese (Japan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:380
+msgid "kab_DZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:380
+msgid "Kabyle (Algeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:382
+msgid "ka"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:382
+msgid "Georgian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:384
+msgid "ka_GE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:384
+msgid "Georgian (Georgia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:386
+msgid "kk_KZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:386
+msgid "Kazakh (Kazakhstan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:388
+msgid "kl_GL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:388
+msgid "Kalaallisut (Greenland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:390
+msgid "km_KH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:390
+msgid "Central Khmer (Cambodia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:392
+msgid "kn_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:392
+msgid "Kannada (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:394
+msgid "kok_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:394
+msgid "Konkani (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:396
+msgid "ko"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:396
+msgid "Korean"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:398
+msgid "ko_KR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:398
+msgid "Korean (South Korea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:400
+msgid "ks_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:400
+msgid "Kashmiri (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:402
+msgid "ku"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:402
+msgid "Kurdish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:404
+msgid "ku_TR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:404
+msgid "Kurdish (Turkey)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:406
+msgid "kw_GB"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:406
+msgid "Cornish (United Kingdom)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:408
+msgid "ky_KG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:408
+msgid "Kirghiz (Kyrgyzstan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:410
+msgid "lb_LU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:410
+msgid "Luxembourgish (Luxembourg)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:412
+msgid "lg_UG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:412
+msgid "Ganda (Uganda)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:414
+msgid "li_BE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:414
+msgid "Limburgan (Belgium)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:416
+msgid "li_NL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:416
+msgid "Limburgan (Netherlands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:418
+msgid "lij_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:418
+msgid "Ligurian (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:420
+msgid "ln_CD"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:420
+msgid "Lingala (Congo)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:422
+msgid "lo_LA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:422
+msgid "Lao (Laos)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:424
+msgid "lt"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:424
+msgid "Lithuanian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:426
+msgid "lt_LT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:426
+msgid "Lithuanian (Lithuania)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:428
+msgid "lv"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:428
+msgid "Latvian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:430
+msgid "lv_LV"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:430
+msgid "Latvian (Latvia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:432
+msgid "lzh_TW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:432
+msgid "Literary Chinese (Taiwan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:434
+msgid "mag_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:434
+msgid "Magahi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:436
+msgid "mai_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:436
+msgid "Maithili (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:438
+msgid "mg_MG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:438
+msgid "Malagasy (Madagascar)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:440
+msgid "mh_MH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:440
+msgid "Marshallese (Marshall Islands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:442
+msgid "mhr_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:442
+msgid "Eastern Mari (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:444
+msgid "mi"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:444
+msgid "Maori"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:446
+msgid "mi_NZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:446
+msgid "Maori (New Zealand)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:448
+msgid "miq_NI"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:448
+msgid "Mískito (Nicaragua)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:450
+msgid "mk"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:450
+msgid "Macedonian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:452
+msgid "mk_MK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:452
+msgid "Macedonian (Macedonia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:454
+msgid "ml"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:454
+msgid "Malayalam"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:456
+msgid "ml_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:456
+msgid "Malayalam (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:458
+msgid "mni_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:458
+msgid "Manipuri (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:460
+msgid "mn_MN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:460
+msgid "Mongolian (Mongolia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:462
+msgid "mr_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:462
+msgid "Marathi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:464
+msgid "ms"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:464
+msgid "Malay"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:466
+msgid "ms_MY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:466
+msgid "Malay (Malaysia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:468
+msgid "mt"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:468
+msgid "Maltese"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:470
+msgid "mt_MT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:470
+msgid "Maltese (Malta)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:472
+msgid "my_MM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:472
+msgid "Burmese (Myanmar)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:474
+msgid "myv_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:474
+msgid "Erzya (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:476
+msgid "nah_MX"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:476
+msgid "Nahuatl languages (Mexico)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:478
+msgid "nan_TW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:478
+msgid "Min Nan Chinese (Taiwan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:480
+msgid "nb"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:480
+msgid "Norwegian Bokmål"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:482
+msgid "nb_NO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:482
+msgid "Norwegian Bokmål (Norway)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:484
+msgid "nds_DE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:484
+msgid "Low German (Germany)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:486
+msgid "nds_NL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:486
+msgid "Low German (Netherlands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:488
+msgid "ne_NP"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:488
+msgid "Nepali (Nepal)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:490
+msgid "nhn_MX"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:490
+msgid "Central Nahuatl (Mexico)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:492
+msgid "niu_NU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:492
+msgid "Niuean (Niue)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:494
+msgid "niu_NZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:494
+msgid "Niuean (New Zealand)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:496
+msgid "nl"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:496
+msgid "Dutch"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:498
+msgid "nl_AW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:498
+msgid "Dutch (Aruba)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:500
+msgid "nl_BE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:500
+msgid "Dutch (Belgium)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:502
+msgid "nl_NL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:502
+msgid "Dutch (Netherlands)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:504
+msgid "nn"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:504
+msgid "Norwegian Nynorsk"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:506
+msgid "nn_NO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:506
+msgid "Norwegian Nynorsk (Norway)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:508
+msgid "nr_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:508
+msgid "South Ndebele (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:510
+msgid "nso_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:510
+msgid "Pedi (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:512
+msgid "oc_FR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:512
+msgid "Occitan (France)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:514
+msgid "om"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:514
+msgid "Oromo"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:516
+msgid "om_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:516
+msgid "Oromo (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:518
+msgid "om_KE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:518
+msgid "Oromo (Kenya)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:520
+msgid "or_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:520
+msgid "Oriya (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:522
+msgid "os_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:522
+msgid "Ossetian (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:524
+msgid "pa_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:524
+msgid "Panjabi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:526
+msgid "pa_PK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:526
+msgid "Panjabi (Pakistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:528
+msgid "pap"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:528
+msgid "Papiamento"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:530
+msgid "pap_AN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:530
+msgid "Papiamento (Netherlands Antilles)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:532
+msgid "pap_AW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:532
+msgid "Papiamento (Aruba)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:534
+msgid "pap_CW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:534
+msgid "Papiamento (Curaçao)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:536
+msgid "pl"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:536
+msgid "Polish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:538
+msgid "pl_PL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:538
+msgid "Polish (Poland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:540
+msgid "pr"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:540
+msgid "Pirate"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:542
+msgid "ps_AF"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:542
+msgid "Pushto (Afghanistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:544
+msgid "pt"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:544
+msgid "Portuguese"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:546
+msgid "pt_BR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:546
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:548
+msgid "pt_PT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:548
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:550
+msgid "quy_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:550
+msgid "Ayacucho Quechua (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:552
+msgid "quz_PE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:552
+msgid "Cusco Quechua (Peru)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:554
+msgid "raj_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:554
+msgid "Rajasthani (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:556
+msgid "ro"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:556
+msgid "Romanian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:558
+msgid "ro_RO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:558
+msgid "Romanian (Romania)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:560
+msgid "ru"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:560
+msgid "Russian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:562
+msgid "ru_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:562
+msgid "Russian (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:564
+msgid "ru_UA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:564
+msgid "Russian (Ukraine)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:566
+msgid "rw_RW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:566
+msgid "Kinyarwanda (Rwanda)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:568
+msgid "sa_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:568
+msgid "Sanskrit (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:570
+msgid "sat_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:570
+msgid "Santali (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:572
+msgid "sc_IT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:572
+msgid "Sardinian (Italy)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:574
+msgid "sco"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:574
+msgid "Scots"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:576
+msgid "sd_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:576
+msgid "Sindhi (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:578
+msgid "se_NO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:578
+msgid "Northern Sami (Norway)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:580
+msgid "sgs_LT"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:580
+msgid "Samogitian (Lithuania)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:582
+msgid "shs_CA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:582
+msgid "Shuswap (Canada)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:584
+msgid "sid_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:584
+msgid "Sidamo (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:586
+msgid "si"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:586
+msgid "Sinhala"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:588
+msgid "si_LK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:588
+msgid "Sinhala (Sri Lanka)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:590
+msgid "sk"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:590
+msgid "Slovak"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:592
+msgid "sk_SK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:592
+msgid "Slovak (Slovakia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:594
+msgid "sl"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:594
+msgid "Slovenian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:596
+msgid "sl_SI"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:596
+msgid "Slovenian (Slovenia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:598
+msgid "so"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:598
+msgid "Somali"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:600
+msgid "so_DJ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:600
+msgid "Somali (Djibouti)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:602
+msgid "so_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:602
+msgid "Somali (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:604
+msgid "so_KE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:604
+msgid "Somali (Kenya)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:606
+msgid "so_SO"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:606
+msgid "Somali (Somalia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:608
+msgid "son_ML"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:608
+msgid "Songhai languages (Mali)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:610
+msgid "sq"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:610
+msgid "Albanian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:612
+msgid "sq_AL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:612
+msgid "Albanian (Albania)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:614
+msgid "sq_KV"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:614
+msgid "Albanian (Kosovo)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:616
+msgid "sq_MK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:616
+msgid "Albanian (Macedonia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:618
+msgid "sr"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:618
+msgid "Serbian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:620
+msgid "sr_Cyrl"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:620
+msgid "Serbian (Cyrillic)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:622
+msgid "sr_Latn"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:622
+msgid "Serbian (Latin)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:624
+msgid "sr_ME"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:624
+msgid "Serbian (Montenegro)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:626
+msgid "sr_RS"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:626
+msgid "Serbian (Serbia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:628
+msgid "ss_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:628
+msgid "Swati (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:630
+msgid "st_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:630
+msgid "Southern Sotho (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:632
+msgid "sv"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:632
+msgid "Swedish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:634
+msgid "sv_FI"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:634
+msgid "Swedish (Finland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:636
+msgid "sv_SE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:636
+msgid "Swedish (Sweden)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:638
+msgid "sw_KE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:638
+msgid "Swahili (Kenya)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:640
+msgid "sw_TZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:640
+msgid "Swahili (Tanzania)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:642
+msgid "szl_PL"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:642
+msgid "Silesian (Poland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:644
+msgid "ta"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:644
+msgid "Tamil"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:646
+msgid "ta_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:646
+msgid "Tamil (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:648
+msgid "ta_LK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:648
+msgid "Tamil (Sri Lanka)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:650
+msgid "tcy_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:650
+msgid "Tulu (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:652
+msgid "te"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:652
+msgid "Telugu"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:654
+msgid "te_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:654
+msgid "Telugu (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:656
+msgid "tg_TJ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:656
+msgid "Tajik (Tajikistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:658
+msgid "the_NP"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:658
+msgid "Chitwania Tharu (Nepal)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:660
+msgid "th"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:660
+msgid "Thai"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:662
+msgid "th_TH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:662
+msgid "Thai (Thailand)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:664
+msgid "ti"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:664
+msgid "Tigrinya"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:666
+msgid "ti_ER"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:666
+msgid "Tigrinya (Eritrea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:668
+msgid "ti_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:668
+msgid "Tigrinya (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:670
+msgid "tig_ER"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:670
+msgid "Tigre (Eritrea)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:672
+msgid "tk_TM"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:672
+msgid "Turkmen (Turkmenistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:674
+msgid "tl_PH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:674
+msgid "Tagalog (Philippines)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:676
+msgid "tn_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:676
+msgid "Tswana (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:678
+msgid "tr"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:678
+msgid "Turkish"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:680
+msgid "tr_CY"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:680
+msgid "Turkish (Cyprus)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:682
+msgid "tr_TR"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:682
+msgid "Turkish (Turkey)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:684
+msgid "ts_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:684
+msgid "Tsonga (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:686
+msgid "tt_RU"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:686
+msgid "Tatar (Russia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:688
+msgid "ug_CN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:688
+msgid "Uighur (China)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:690
+msgid "uk"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:690
+msgid "Ukrainian"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:692
+msgid "uk_UA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:692
+msgid "Ukrainian (Ukraine)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:694
+msgid "unm_US"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:694
+msgid "Unami (United States)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:696
+msgid "ur"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:696
+msgid "Urdu"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:698
+msgid "ur_IN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:698
+msgid "Urdu (India)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:700
+msgid "ur_PK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:700
+msgid "Urdu (Pakistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:702
+msgid "uz"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:702
+msgid "Uzbek"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:704
+msgid "uz_UZ"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:704
+msgid "Uzbek (Uzbekistan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:706
+msgid "ve_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:706
+msgid "Venda (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:708
+msgid "vi"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:708
+msgid "Vietnamese"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:710
+msgid "vi_VN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:710
+msgid "Vietnamese (Vietnam)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:712
+msgid "wa_BE"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:712
+msgid "Walloon (Belgium)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:714
+msgid "wae_CH"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:714
+msgid "Walser (Switzerland)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:716
+msgid "wal_ET"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:716
+msgid "Wolaytta (Ethiopia)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:718
+msgid "wo_SN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:718
+msgid "Wolof (Senegal)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:720
+msgid "xh_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:720
+msgid "Xhosa (South Africa)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:722
+msgid "yi_US"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:722
+msgid "Yiddish (United States)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:724
+msgid "yo_NG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:724
+msgid "Yoruba (Nigeria)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:726
+msgid "yue_HK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:726
+msgid "Yue Chinese (Hong Kong)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:728
+msgid "zh"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:728
+msgid "Chinese"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:730
+msgid "zh_CN"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:730
+msgid "Chinese (China)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:732
+msgid "zh_HK"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:732
+msgid "Chinese (Hong Kong)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:734
+msgid "zh_SG"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:734
+msgid "Chinese (Singapore)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:736
+msgid "zh_TW"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:736
+msgid "Chinese (Taiwan)"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:738
+msgid "zu_ZA"
+msgstr ""
+
+#: ../tutorials/i18n/locales.rst:738
+msgid "Zulu (South Africa)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

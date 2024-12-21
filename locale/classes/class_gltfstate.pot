@@ -1,0 +1,572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gltfstate.rst:10
+msgid "GLTFState"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:20
+#: ../classes/class_gltfstate.rst:30
+#: ../classes/class_gltfstate.rst:41
+#: ../classes/class_gltfstate.rst:47
+#: ../classes/class_gltfstate.rst:49
+#: ../classes/class_gltfstate.rst:51
+#: ../classes/class_gltfstate.rst:53
+#: ../classes/class_gltfstate.rst:55
+#: ../classes/class_gltfstate.rst:57
+#: ../classes/class_gltfstate.rst:59
+#: ../classes/class_gltfstate.rst:61
+#: ../classes/class_gltfstate.rst:67
+#: ../classes/class_gltfstate.rst:69
+#: ../classes/class_gltfstate.rst:71
+#: ../classes/class_gltfstate.rst:73
+#: ../classes/class_gltfstate.rst:75
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:20
+msgid ":ref:`buffers<class_GLTFState_property_buffers>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:20
+#: ../classes/class_gltfstate.rst:30
+#: ../classes/class_gltfstate.rst:116
+#: ../classes/class_gltfstate.rst:186
+msgid "``[  ]``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:22
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:22
+msgid ":ref:`glb_data<class_GLTFState_property_glb_data>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:22
+#: ../classes/class_gltfstate.rst:130
+msgid "``PoolByteArray(  )``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:24
+#: ../classes/class_gltfstate.rst:65
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:24
+msgid ":ref:`json<class_GLTFState_property_json>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:24
+#: ../classes/class_gltfstate.rst:144
+msgid "``{}``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:26
+#: ../classes/class_gltfstate.rst:28
+#: ../classes/class_gltfstate.rst:45
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:26
+msgid ":ref:`major_version<class_GLTFState_property_major_version>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:26
+#: ../classes/class_gltfstate.rst:28
+#: ../classes/class_gltfstate.rst:158
+#: ../classes/class_gltfstate.rst:172
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:28
+msgid ":ref:`minor_version<class_GLTFState_property_minor_version>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:30
+msgid ":ref:`root_nodes<class_GLTFState_property_root_nodes>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:32
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:32
+msgid ":ref:`scene_name<class_GLTFState_property_scene_name>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:32
+#: ../classes/class_gltfstate.rst:200
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:34
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:34
+msgid ":ref:`use_named_skin_binds<class_GLTFState_property_use_named_skin_binds>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:34
+#: ../classes/class_gltfstate.rst:214
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:41
+msgid ":ref:`get_accessors<class_GLTFState_method_get_accessors>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:43
+msgid ":ref:`AnimationPlayer<class_AnimationPlayer>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:43
+msgid ":ref:`get_animation_player<class_GLTFState_method_get_animation_player>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:45
+msgid ":ref:`get_animation_players_count<class_GLTFState_method_get_animation_players_count>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:47
+msgid ":ref:`get_animations<class_GLTFState_method_get_animations>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:49
+msgid ":ref:`get_buffer_views<class_GLTFState_method_get_buffer_views>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:51
+msgid ":ref:`get_cameras<class_GLTFState_method_get_cameras>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:53
+msgid ":ref:`get_images<class_GLTFState_method_get_images>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:55
+msgid ":ref:`get_lights<class_GLTFState_method_get_lights>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:57
+msgid ":ref:`get_materials<class_GLTFState_method_get_materials>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:59
+msgid ":ref:`get_meshes<class_GLTFState_method_get_meshes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:61
+msgid ":ref:`get_nodes<class_GLTFState_method_get_nodes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:63
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:63
+msgid ":ref:`get_scene_node<class_GLTFState_method_get_scene_node>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:65
+msgid ":ref:`get_skeleton_to_node<class_GLTFState_method_get_skeleton_to_node>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:67
+msgid ":ref:`get_skeletons<class_GLTFState_method_get_skeletons>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:69
+msgid ":ref:`get_skins<class_GLTFState_method_get_skins>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:71
+msgid ":ref:`get_textures<class_GLTFState_method_get_textures>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:73
+msgid ":ref:`get_unique_animation_names<class_GLTFState_method_get_unique_animation_names>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:75
+msgid ":ref:`get_unique_names<class_GLTFState_method_get_unique_names>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:77
+#: ../classes/class_gltfstate.rst:79
+#: ../classes/class_gltfstate.rst:81
+#: ../classes/class_gltfstate.rst:83
+#: ../classes/class_gltfstate.rst:85
+#: ../classes/class_gltfstate.rst:87
+#: ../classes/class_gltfstate.rst:89
+#: ../classes/class_gltfstate.rst:91
+#: ../classes/class_gltfstate.rst:93
+#: ../classes/class_gltfstate.rst:95
+#: ../classes/class_gltfstate.rst:97
+#: ../classes/class_gltfstate.rst:99
+#: ../classes/class_gltfstate.rst:101
+#: ../classes/class_gltfstate.rst:103
+#: ../classes/class_gltfstate.rst:105
+msgid "void"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:77
+msgid ":ref:`set_accessors<class_GLTFState_method_set_accessors>` **(** :ref:`Array<class_Array>` accessors **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:79
+msgid ":ref:`set_animations<class_GLTFState_method_set_animations>` **(** :ref:`Array<class_Array>` animations **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:81
+msgid ":ref:`set_buffer_views<class_GLTFState_method_set_buffer_views>` **(** :ref:`Array<class_Array>` buffer_views **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:83
+msgid ":ref:`set_cameras<class_GLTFState_method_set_cameras>` **(** :ref:`Array<class_Array>` cameras **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:85
+msgid ":ref:`set_images<class_GLTFState_method_set_images>` **(** :ref:`Array<class_Array>` images **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:87
+msgid ":ref:`set_lights<class_GLTFState_method_set_lights>` **(** :ref:`Array<class_Array>` lights **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:89
+msgid ":ref:`set_materials<class_GLTFState_method_set_materials>` **(** :ref:`Array<class_Array>` materials **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:91
+msgid ":ref:`set_meshes<class_GLTFState_method_set_meshes>` **(** :ref:`Array<class_Array>` meshes **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:93
+msgid ":ref:`set_nodes<class_GLTFState_method_set_nodes>` **(** :ref:`Array<class_Array>` nodes **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:95
+msgid ":ref:`set_skeleton_to_node<class_GLTFState_method_set_skeleton_to_node>` **(** :ref:`Dictionary<class_Dictionary>` skeleton_to_node **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:97
+msgid ":ref:`set_skeletons<class_GLTFState_method_set_skeletons>` **(** :ref:`Array<class_Array>` skeletons **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:99
+msgid ":ref:`set_skins<class_GLTFState_method_set_skins>` **(** :ref:`Array<class_Array>` skins **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:101
+msgid ":ref:`set_textures<class_GLTFState_method_set_textures>` **(** :ref:`Array<class_Array>` textures **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:103
+msgid ":ref:`set_unique_animation_names<class_GLTFState_method_set_unique_animation_names>` **(** :ref:`Array<class_Array>` unique_animation_names **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:105
+msgid ":ref:`set_unique_names<class_GLTFState_method_set_unique_names>` **(** :ref:`Array<class_Array>` unique_names **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:109
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:113
+msgid ":ref:`Array<class_Array>` **buffers**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:116
+#: ../classes/class_gltfstate.rst:130
+#: ../classes/class_gltfstate.rst:144
+#: ../classes/class_gltfstate.rst:158
+#: ../classes/class_gltfstate.rst:172
+#: ../classes/class_gltfstate.rst:186
+#: ../classes/class_gltfstate.rst:200
+#: ../classes/class_gltfstate.rst:214
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:118
+#: ../classes/class_gltfstate.rst:132
+#: ../classes/class_gltfstate.rst:146
+#: ../classes/class_gltfstate.rst:160
+#: ../classes/class_gltfstate.rst:174
+#: ../classes/class_gltfstate.rst:188
+#: ../classes/class_gltfstate.rst:202
+#: ../classes/class_gltfstate.rst:216
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:118
+msgid "set_buffers(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:120
+#: ../classes/class_gltfstate.rst:134
+#: ../classes/class_gltfstate.rst:148
+#: ../classes/class_gltfstate.rst:162
+#: ../classes/class_gltfstate.rst:176
+#: ../classes/class_gltfstate.rst:190
+#: ../classes/class_gltfstate.rst:204
+#: ../classes/class_gltfstate.rst:218
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:120
+msgid "get_buffers()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:127
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **glb_data**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:132
+msgid "set_glb_data(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:134
+msgid "get_glb_data()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:141
+msgid ":ref:`Dictionary<class_Dictionary>` **json**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:146
+msgid "set_json(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:148
+msgid "get_json()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:155
+msgid ":ref:`int<class_int>` **major_version**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:160
+msgid "set_major_version(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:162
+msgid "get_major_version()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:169
+msgid ":ref:`int<class_int>` **minor_version**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:174
+msgid "set_minor_version(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:176
+msgid "get_minor_version()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:183
+msgid ":ref:`Array<class_Array>` **root_nodes**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:188
+msgid "set_root_nodes(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:190
+msgid "get_root_nodes()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:197
+msgid ":ref:`String<class_String>` **scene_name**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:202
+msgid "set_scene_name(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:204
+msgid "get_scene_name()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:211
+msgid ":ref:`bool<class_bool>` **use_named_skin_binds**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:216
+msgid "set_use_named_skin_binds(value)"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:218
+msgid "get_use_named_skin_binds()"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:222
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:226
+msgid ":ref:`Array<class_Array>` **get_accessors** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:232
+msgid ":ref:`AnimationPlayer<class_AnimationPlayer>` **get_animation_player** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:238
+msgid ":ref:`int<class_int>` **get_animation_players_count** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:244
+msgid ":ref:`Array<class_Array>` **get_animations** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:250
+msgid ":ref:`Array<class_Array>` **get_buffer_views** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:256
+msgid ":ref:`Array<class_Array>` **get_cameras** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:262
+msgid ":ref:`Array<class_Array>` **get_images** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:268
+msgid ":ref:`Array<class_Array>` **get_lights** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:274
+msgid ":ref:`Array<class_Array>` **get_materials** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:280
+msgid ":ref:`Array<class_Array>` **get_meshes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:286
+msgid ":ref:`Array<class_Array>` **get_nodes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:292
+msgid ":ref:`Node<class_Node>` **get_scene_node** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:298
+msgid ":ref:`Dictionary<class_Dictionary>` **get_skeleton_to_node** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:304
+msgid ":ref:`Array<class_Array>` **get_skeletons** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:310
+msgid ":ref:`Array<class_Array>` **get_skins** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:316
+msgid ":ref:`Array<class_Array>` **get_textures** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:322
+msgid ":ref:`Array<class_Array>` **get_unique_animation_names** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:328
+msgid ":ref:`Array<class_Array>` **get_unique_names** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:334
+msgid "void **set_accessors** **(** :ref:`Array<class_Array>` accessors **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:340
+msgid "void **set_animations** **(** :ref:`Array<class_Array>` animations **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:346
+msgid "void **set_buffer_views** **(** :ref:`Array<class_Array>` buffer_views **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:352
+msgid "void **set_cameras** **(** :ref:`Array<class_Array>` cameras **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:358
+msgid "void **set_images** **(** :ref:`Array<class_Array>` images **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:364
+msgid "void **set_lights** **(** :ref:`Array<class_Array>` lights **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:370
+msgid "void **set_materials** **(** :ref:`Array<class_Array>` materials **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:376
+msgid "void **set_meshes** **(** :ref:`Array<class_Array>` meshes **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:382
+msgid "void **set_nodes** **(** :ref:`Array<class_Array>` nodes **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:388
+msgid "void **set_skeleton_to_node** **(** :ref:`Dictionary<class_Dictionary>` skeleton_to_node **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:394
+msgid "void **set_skeletons** **(** :ref:`Array<class_Array>` skeletons **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:400
+msgid "void **set_skins** **(** :ref:`Array<class_Array>` skins **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:406
+msgid "void **set_textures** **(** :ref:`Array<class_Array>` textures **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:412
+msgid "void **set_unique_animation_names** **(** :ref:`Array<class_Array>` unique_animation_names **)**"
+msgstr ""
+
+#: ../classes/class_gltfstate.rst:418
+msgid "void **set_unique_names** **(** :ref:`Array<class_Array>` unique_names **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

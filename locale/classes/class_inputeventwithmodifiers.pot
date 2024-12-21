@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_inputeventwithmodifiers.rst:10
+msgid "InputEventWithModifiers"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:12
+msgid "**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:14
+msgid "**Inherited By:** :ref:`InputEventGesture<class_InputEventGesture>`, :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouse<class_InputEventMouse>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:16
+msgid "带有修饰符的键事件的基类。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:21
+msgid "包含具有修饰符支持的按键事件信息，如 ``Shift`` 或 ``Alt``\\ 。见\\ :ref:`Node._input<class_Node_method__input>`\\ 。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:26
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:32
+#: ../classes/class_inputeventwithmodifiers.rst:34
+#: ../classes/class_inputeventwithmodifiers.rst:36
+#: ../classes/class_inputeventwithmodifiers.rst:38
+#: ../classes/class_inputeventwithmodifiers.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:32
+msgid ":ref:`alt<class_InputEventWithModifiers_property_alt>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:32
+#: ../classes/class_inputeventwithmodifiers.rst:34
+#: ../classes/class_inputeventwithmodifiers.rst:36
+#: ../classes/class_inputeventwithmodifiers.rst:38
+#: ../classes/class_inputeventwithmodifiers.rst:40
+#: ../classes/class_inputeventwithmodifiers.rst:51
+#: ../classes/class_inputeventwithmodifiers.rst:67
+#: ../classes/class_inputeventwithmodifiers.rst:83
+#: ../classes/class_inputeventwithmodifiers.rst:99
+#: ../classes/class_inputeventwithmodifiers.rst:115
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:34
+msgid ":ref:`command<class_InputEventWithModifiers_property_command>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:36
+msgid ":ref:`control<class_InputEventWithModifiers_property_control>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:38
+msgid ":ref:`meta<class_InputEventWithModifiers_property_meta>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:40
+msgid ":ref:`shift<class_InputEventWithModifiers_property_shift>`"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:44
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:48
+msgid ":ref:`bool<class_bool>` **alt**"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:51
+#: ../classes/class_inputeventwithmodifiers.rst:67
+#: ../classes/class_inputeventwithmodifiers.rst:83
+#: ../classes/class_inputeventwithmodifiers.rst:99
+#: ../classes/class_inputeventwithmodifiers.rst:115
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:53
+#: ../classes/class_inputeventwithmodifiers.rst:69
+#: ../classes/class_inputeventwithmodifiers.rst:85
+#: ../classes/class_inputeventwithmodifiers.rst:101
+#: ../classes/class_inputeventwithmodifiers.rst:117
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:53
+msgid "set_alt(value)"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:55
+#: ../classes/class_inputeventwithmodifiers.rst:71
+#: ../classes/class_inputeventwithmodifiers.rst:87
+#: ../classes/class_inputeventwithmodifiers.rst:103
+#: ../classes/class_inputeventwithmodifiers.rst:119
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:55
+msgid "get_alt()"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:58
+msgid "``Alt`` 修饰符的状态。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:64
+msgid ":ref:`bool<class_bool>` **command**"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:69
+msgid "set_command(value)"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:71
+msgid "get_command()"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:74
+msgid "``Command`` 修饰符的状态。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:80
+msgid ":ref:`bool<class_bool>` **control**"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:85
+msgid "set_control(value)"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:87
+msgid "get_control()"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:90
+msgid "``Ctrl`` 修饰符的状态。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:96
+msgid ":ref:`bool<class_bool>` **meta**"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:101
+msgid "set_metakey(value)"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:103
+msgid "get_metakey()"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:106
+msgid "``Meta`` 修饰符的状态。"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:112
+msgid ":ref:`bool<class_bool>` **shift**"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:117
+msgid "set_shift(value)"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:119
+msgid "get_shift()"
+msgstr ""
+
+#: ../classes/class_inputeventwithmodifiers.rst:122
+msgid "``Shift`` 修饰符的状态。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

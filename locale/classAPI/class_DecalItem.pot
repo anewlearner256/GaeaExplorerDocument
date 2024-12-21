@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_DecalItem.rst:2
+msgid "DecalItem"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:16
+#: ../classAPI/class_DecalItem.rst:18
+#: ../classAPI/class_DecalItem.rst:20
+#: ../classAPI/class_DecalItem.rst:22
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:16
+msgid "TerrainMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:18
+msgid "BaseMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:20
+msgid "DetailMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:22
+msgid "DetailMaskPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:24
+#: ../classAPI/class_DecalItem.rst:26
+#: ../classAPI/class_DecalItem.rst:36
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:24
+msgid "DetailScale"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:26
+msgid "BaseScale"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:28
+msgid "MeshInstance"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:28
+msgid "renderBox"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:30
+#: ../classAPI/class_DecalItem.rst:32
+#: ../classAPI/class_DecalItem.rst:38
+#: ../classAPI/class_DecalItem.rst:40
+msgid "Texture"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:30
+msgid "TerrainMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:32
+msgid "BaseMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:34
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:34
+msgid "BaseMapInvalidColor"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:36
+msgid "TerrainInvalidValue"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:38
+msgid "DetailMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:40
+msgid "DetailMaskMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:42
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:42
+msgid "TerrainMinMaxValue"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:44
+msgid "BaseMapTypeEnum"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:44
+msgid "BaseMapType"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:46
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:46
+msgid "IsOverlay"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:50
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:53
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:53
+msgid "GetWorldPos(Double lon,Double lat,)"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:55
+msgid "Transform"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:55
+msgid "GetMatWorldToLocal(Vector3 right,Vector3 up,Vector3 view,)"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:57
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:57
+msgid "ChangeRange(Double n,Double s,Double w,Double e,)"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:61
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:63
+msgid "String TerrainMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:66
+#: ../classAPI/class_DecalItem.rst:77
+#: ../classAPI/class_DecalItem.rst:88
+#: ../classAPI/class_DecalItem.rst:99
+#: ../classAPI/class_DecalItem.rst:110
+#: ../classAPI/class_DecalItem.rst:121
+#: ../classAPI/class_DecalItem.rst:132
+#: ../classAPI/class_DecalItem.rst:143
+#: ../classAPI/class_DecalItem.rst:154
+#: ../classAPI/class_DecalItem.rst:165
+#: ../classAPI/class_DecalItem.rst:176
+#: ../classAPI/class_DecalItem.rst:187
+#: ../classAPI/class_DecalItem.rst:198
+#: ../classAPI/class_DecalItem.rst:209
+#: ../classAPI/class_DecalItem.rst:220
+#: ../classAPI/class_DecalItem.rst:231
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:70
+msgid "地形贴花所用图片的路径"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:74
+msgid "String BaseMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:81
+msgid "影像贴花所用图片的路径"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:85
+msgid "String DetailMapPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:92
+msgid "细节贴花所用图片的路径"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:96
+msgid "String DetailMaskPath"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:103
+msgid "细节遮罩贴花所用图片的路径"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:107
+msgid "Single DetailScale"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:114
+msgid "细节贴花的缩放系数"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:118
+msgid "Single BaseScale"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:125
+msgid "基础影像贴花的缩放系数"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:129
+msgid "MeshInstance renderBox"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:136
+msgid "屏幕空间贴花所用的渲染盒"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:140
+msgid "Texture TerrainMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:147
+msgid "地形贴花纹理"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:151
+msgid "Texture BaseMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:158
+msgid "影像贴花纹理"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:162
+msgid "Color BaseMapInvalidColor"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:169
+msgid "指定影像贴花中的无效颜色，贴花中对应的像素不会被显示"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:173
+msgid "Single TerrainInvalidValue"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:180
+msgid "地形的无效值，表示对应位置没有地形数据"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:184
+msgid "Texture DetailMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:191
+msgid "细节贴花纹理"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:195
+msgid "Texture DetailMaskMap"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:202
+msgid "细节遮罩贴花纹理"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:206
+msgid "Vector2 TerrainMinMaxValue"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:213
+msgid "地形贴花的最小值和最大值"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:217
+msgid "BaseMapTypeEnum BaseMapType"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:224
+msgid "贴花图片类型，影像或者色带"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:228
+msgid "Boolean IsOverlay"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:235
+msgid "色带采样覆盖模式"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:241
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:243
+msgid "Vector3 GetWorldPos(Double lon,Double lat,)"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:249
+msgid "Transform GetMatWorldToLocal(Vector3 right,Vector3 up,Vector3 view,)"
+msgstr ""
+
+#: ../classAPI/class_DecalItem.rst:255
+msgid "Void ChangeRange(Double n,Double s,Double w,Double e,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

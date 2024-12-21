@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:4
+msgid "GDScript exports"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:7
+msgid "Introduction to exports"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:9
+msgid "In GaaeExplorer, class members can be exported. This means their value gets saved along with the resource (such as the :ref:`scene <class_PackedScene>`) they're attached to. They will also be available for editing in the property editor. Exporting is done by using the ``export`` keyword::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:18
+msgid "An exported variable must be initialized to a constant expression or have an export hint in the form of an argument to the ``export`` keyword (see the *Examples* section below)."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:22
+msgid "One of the fundamental benefits of exporting member variables is to have them visible and editable in the editor. This way, artists and game designers can modify values that later influence how the program runs. For this, a special export syntax is provided."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:29
+msgid "Exporting properties can also be done in other languages such as C#. The syntax varies depending on the language."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:36
+msgid "Examples"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:139
+msgid "It must be noted that even if the script is not being run while in the editor, the exported properties are still editable. This can be used in conjunction with a :ref:`script in \"tool\" mode <doc_gdscript_tool_mode>`."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:144
+msgid "Exporting bit flags"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:146
+msgid "Integers used as bit flags can store multiple ``true``/``false`` (boolean) values in one property. By using the export hint ``int, FLAGS, ...``, they can be set from the editor::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:153
+msgid "You must provide a string description for each flag. In this example, ``Fire`` has value 1, ``Water`` has value 2, ``Earth`` has value 4 and ``Wind`` corresponds to value 8. Usually, constants should be defined accordingly (e.g. ``const ELEMENT_WIND = 8`` and so on)."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:158
+msgid "Export hints are also provided for the physics and render layers defined in the project settings::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:165
+msgid "Using bit flags requires some understanding of bitwise operations. If in doubt, use boolean variables instead."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:169
+msgid "Exporting arrays"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:171
+msgid "Exported arrays can have initializers, but they must be constant expressions."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:173
+msgid "If the exported array specifies a type which inherits from Resource, the array values can be set in the inspector by dragging and dropping multiple files from the FileSystem dock at once."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:211
+msgid "Setting exported variables from a tool script"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:213
+msgid "When changing an exported variable's value from a script in :ref:`doc_gdscript_tool_mode`, the value in the inspector won't be updated automatically. To update it, call :ref:`property_list_changed_notify() <class_Object_method_property_list_changed_notify>` after setting the exported variable's value."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:220
+msgid "Advanced exports"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:222
+msgid "Not every type of export can be provided on the level of the language itself to avoid unnecessary design complexity. The following describes some more or less common exporting features which can be implemented with a low-level API."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:226
+msgid "Before reading further, you should get familiar with the way properties are handled and how they can be customized with :ref:`_set() <class_Object_method__get_property_list>`, :ref:`_get() <class_Object_method__get_property_list>`, and :ref:`_get_property_list() <class_Object_method__get_property_list>` methods as described in :ref:`doc_accessing_data_or_logic_from_object`."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:233
+msgid "For binding properties using the above methods in C++, see :ref:`doc_binding_properties_using_set_get_property_list`."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:236
+msgid "The script must operate in the ``tool`` mode so the above methods can work from within the editor."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:240
+msgid "Properties"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:242
+msgid "To understand how to better use the sections below, you should understand how to make properties with advanced exports."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:256
+msgid "The ``_get_property_list()`` function gets called by the inspector. You can override it for more advanced exports. You must return an ``Array`` with the contents of the properties for the function to work."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:260
+msgid "``name`` is the name of the property"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:262
+msgid "``type`` is the type of the property from ``Variant.Type``."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:264
+msgid "The ``float`` type is called a real (``TYPE_REAL``) in the ``Variant.Type`` enum."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:267
+msgid "Attaching variables to properties"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:269
+msgid "To attach variables to properties (allowing the value of the property to be used in scripts), you need to create a variable with the exact same name as the property or else you may need to override the :ref:`_set() <class_Object_method__get_property_list>` and :ref:`_get() <class_Object_method__get_property_list>` methods. Attaching a variable to to a property also gives you the ability to give it a default state. ::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:292
+msgid "Adding default values for properties"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:294
+msgid "To define default values for advanced exports, you need to override the ``property_can_revert()`` and ``property_get_revert()`` methods."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:296
+msgid "The ``property_can_revert()`` method takes the name of a property and must return ``true`` if the property can be reverted. This will enable the Revert button next to the property in the inspector."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:298
+msgid "The ``property_get_revert()`` method takes the name of a property and must return the default value for that property."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:320
+msgid "Adding script categories"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:322
+msgid "For better visual distinguishing of properties, a special script category can be embedded into the inspector to act as a separator. ``Script Variables`` is one example of a built-in category. ::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:342
+msgid "``name`` is the name of a category to be added to the inspector;"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:344
+msgid "Every following property added after the category definition will be a part of the category."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:347
+msgid "``PROPERTY_USAGE_CATEGORY`` indicates that the property should be treated as a script category specifically, so the type ``TYPE_NIL`` can be ignored as it won't be actually used for the scripting logic, yet it must be defined anyway."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:352
+msgid "Grouping properties"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:354
+msgid "A list of properties with similar names can be grouped. ::"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:380
+msgid "``name`` is the name of a group which is going to be displayed as collapsible list of properties;"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:383
+msgid "Every following property added after the group property with the prefix (which determined by ``hint_string``) will be shortened. For instance, ``rotate_speed`` is going to be shortened to ``speed`` in this case. However, ``movement_speed`` won't be a part of the group and will not be shortened."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/gdscript_exports.rst:389
+msgid "``PROPERTY_USAGE_GROUP`` indicates that the property should be treated as a script group specifically, so the type ``TYPE_NIL`` can be ignored as it won't be actually used for the scripting logic, yet it must be defined anyway."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

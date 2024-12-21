@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../development/cpp/using_cpp_profilers.rst:4
+msgid "Using C++ profilers"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:6
+msgid "To optimize GaaeExplorer's performance, you need to know what to optimize first. To this end, profilers are useful tools."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:11
+msgid "There is a built-in GDScript profiler in the editor, but using C++ profiler may be useful in cases where the GDScript profiler is not accurate enough or is missing information due to bugs in the profiler."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:16
+msgid "Recommended profilers"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:18
+msgid "`VerySleepy <http://www.codersnotes.com/sleepy/>`__ (Windows only)"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:19
+msgid "`HotSpot <https://github.com/KDAB/hotspot>`__ (Linux only)"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:20
+msgid "`Xcode Instruments <https://developer.apple.com/xcode/>`__ (macOS only)"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:22
+msgid "These profilers may not be the most powerful or flexible options, but their standalone operation and limited feature set tends to make them easier to use."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:26
+msgid "Setting up GaaeExplorer"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:28
+msgid "To get useful profiling information, it is **absolutely required** to use a GaaeExplorer build that includes debugging symbols. Official binaries do not include debugging symbols, since these would make the download size significantly larger."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:32
+msgid "To get profiling data that best matches the production environment, you should compile binaries with the following SCons options:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:35
+msgid "For editor binaries: ``target=release_debug use_lto=yes``"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:36
+msgid "For debug export templates: ``target=release_debug use_lto=yes``"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:37
+msgid "For release export templates: ``tools=no target=release debug_symbols=yes`` - ``debug_symbols=yes`` is required as export templates are stripped from debugging symbols by default."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:40
+msgid "It is possible to run a profiler on less optimized builds (e.g. ``target=debug`` without LTO), but results will naturally be less representative of real world conditions."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:45
+msgid "Do *not* strip debugging symbols on the binaries using the ``strip`` command after compiling the binaries. Otherwise, you will no longer get useful profiling information when running a profiler."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:50
+msgid "Benchmarking startup/shutdown times"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:52
+msgid "If you're looking into optimizing GaaeExplorer's startup/shutdown performance, you can tell the profiler to use the ``--quit`` command line option on the GaaeExplorer binary. This will exit GaaeExplorer just after it finished starting. The ``--quit`` option works with ``--editor``, ``--project-manager`` or ``--path <path to project directory>`` (which runs a project directly)."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:60
+msgid "See :ref:`doc_command_line_tutorial` for more command line arguments supported by GaaeExplorer."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:64
+msgid "Profiler-specific instructions"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:67
+msgid "VerySleepy"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:69
+msgid "Start the GaaeExplorer editor or your project first. If you start the project manager, make sure to edit or run a project first. Otherwise, the profiler will not track the child process since the project manager will spawn a child process for every project edited or run."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:73
+msgid "Open VerySleepy and select the GaaeExplorer executable in the list of processes on the left:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:77
+msgid "Click the **Profile All** button on the right to start profiling."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:78
+msgid "Perform the actions you wish to profile in the editor or project. When you're done, click **Stop** (*not* Abort)."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:79
+msgid "Wait for the results window to appear."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:80
+msgid "Once the results window appears, filter the view to remove external modules (such as the graphics driver). You can filter by module by finding a line whose **Module** matches the GaaeExplorer executable name, right-clicking that line then choosing **Filter Module to <GaaeExplorer executable name>** in the dropdown that appears."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:84
+msgid "Your results window should now look something like this:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:89
+msgid "HotSpot"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:91
+msgid "Open HotSpot. Click **Record Data**:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:95
+msgid "In the next window, specify the path to the GaaeExplorer binary that includes debug symbols."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:96
+msgid "Specify command line arguments to run a specific project, with or without the editor."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:97
+msgid "The path to the working directory can be anything if an absolute path is used for the ``--path`` command line argument. Otherwise, it must be set to that the relative path to the project is valid."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:100
+msgid "Make sure **Elevate Privileges** is checked if you have administrative privileges. While not essential for profiling GaaeExplorer, this will ensure all events can be captured. Otherwise, some events may be missing in the capture. Your settings should now look something like this:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:107
+msgid "Click **Start Recording** and perform the actions you wish to profile in the editor/project."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:108
+msgid "Quit the editor/project normally or use the **Stop Profiling** button in HotSpot to stop profiling early. Stopping profiling early can result in cleaner profiles if you're not interested in the engine's quit procedure."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:111
+msgid "Click **View Results** and wait for the profiling visualization to be generated:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:115
+msgid "Use the tabs at the top to navigate between the different views. These views show the same data, but in different ways. The **Flame Graph** tab is a good way to see which functions take up the most time at a glance. These functions are therefore the most important ones to optimize, since optimizing them will improve performance the most."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:120
+msgid "At the bottom of all tabs except **Summary**, you will also see a list of CPU threads started by the engine among with the CPU utilization for each thread. This lets you see threads that can be a bottleneck at a given point in time."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:128
+msgid "If you don't want the startup procedure to be included in the profile, you can also attach HotSpot to a running process by clicking **Record Data** then setting the **Launch Application** dropdown option to **Attach To Process(es)**."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:133
+msgid "This process attachment-based workflow is similar to the one used by VerySleepy."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:136
+msgid "Xcode Instruments"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:138
+msgid "Open Xcode. Select **Open Developer Tool** - **Instruments** from the **Xcode** app menu:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:139
+msgid "Double-click on **Time Profiler** in the **Instruments** window:"
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:143
+msgid "In the Time Profiler window, click on the **Target** menu, select **Choose target...** and specify the path to the GaaeExplorer binary, command line arguments and environment variables in the next window."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:149
+msgid "You can also attach the Time Profiler to a running process by selecting it from the **Target** menu."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:152
+msgid "Click the **Start an immediate mode recording** button to start profiling."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:156
+msgid "Perform the actions you wish to profile in the editor or project. When you're done, click the **Stop** button."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:159
+msgid "Wait for the results to appear."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:160
+msgid "At the bottom of the window you will see a call tree for all CPU threads started, and the **Heaviest Stack Trace** overview."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:162
+msgid "Select **Hide system libraries** in the **Call Tree** menu (at the bottom of window) to remove external modules."
+msgstr ""
+
+#: ../development/cpp/using_cpp_profilers.rst:164
+msgid "You can use the timeline at the top of the window to display details for the specific time period."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

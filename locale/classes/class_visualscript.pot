@@ -1,0 +1,654 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscript.rst:10
+msgid "VisualScript"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:12
+msgid "**Inherits:** :ref:`Script<class_Script>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:14
+msgid "一个在可视化脚本编程环境中实现的脚本。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:19
+msgid "在 Visual Script 编程环境中实现的脚本。该脚本扩展了所有实例化它的对象的功能。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:21
+msgid "\\ :ref:`Object.set_script<class_Object_method_set_script>` 扩展现有对象，如果该对象的类与脚本的基类之一匹配。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:23
+msgid "您最有可能通过 Visual Script 编辑器或在为其编写插件时使用此类。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:28
+msgid ":doc:`../getting_started/scripting/visual_script/index`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:34
+#: ../classes/class_visualscript.rst:36
+#: ../classes/class_visualscript.rst:38
+#: ../classes/class_visualscript.rst:40
+#: ../classes/class_visualscript.rst:42
+#: ../classes/class_visualscript.rst:50
+#: ../classes/class_visualscript.rst:52
+#: ../classes/class_visualscript.rst:54
+#: ../classes/class_visualscript.rst:56
+#: ../classes/class_visualscript.rst:58
+#: ../classes/class_visualscript.rst:60
+#: ../classes/class_visualscript.rst:88
+#: ../classes/class_visualscript.rst:90
+#: ../classes/class_visualscript.rst:92
+#: ../classes/class_visualscript.rst:94
+#: ../classes/class_visualscript.rst:96
+#: ../classes/class_visualscript.rst:98
+#: ../classes/class_visualscript.rst:100
+#: ../classes/class_visualscript.rst:102
+#: ../classes/class_visualscript.rst:104
+#: ../classes/class_visualscript.rst:106
+#: ../classes/class_visualscript.rst:108
+#: ../classes/class_visualscript.rst:110
+#: ../classes/class_visualscript.rst:112
+#: ../classes/class_visualscript.rst:114
+#: ../classes/class_visualscript.rst:116
+msgid "void"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:34
+msgid ":ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:36
+msgid ":ref:`add_function<class_VisualScript_method_add_function>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:38
+msgid ":ref:`add_node<class_VisualScript_method_add_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`VisualScriptNode<class_VisualScriptNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:40
+msgid ":ref:`add_variable<class_VisualScript_method_add_variable>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` default_value=null, :ref:`bool<class_bool>` export=false **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:42
+msgid ":ref:`custom_signal_add_argument<class_VisualScript_method_custom_signal_add_argument>` **(** :ref:`String<class_String>` name, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` argname, :ref:`int<class_int>` index=-1 **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:44
+#: ../classes/class_visualscript.rst:62
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:44
+msgid ":ref:`custom_signal_get_argument_count<class_VisualScript_method_custom_signal_get_argument_count>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:46
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:46
+msgid ":ref:`custom_signal_get_argument_name<class_VisualScript_method_custom_signal_get_argument_name>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:48
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:48
+msgid ":ref:`custom_signal_get_argument_type<class_VisualScript_method_custom_signal_get_argument_type>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:50
+msgid ":ref:`custom_signal_remove_argument<class_VisualScript_method_custom_signal_remove_argument>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:52
+msgid ":ref:`custom_signal_set_argument_name<class_VisualScript_method_custom_signal_set_argument_name>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`String<class_String>` argname **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:54
+msgid ":ref:`custom_signal_set_argument_type<class_VisualScript_method_custom_signal_set_argument_type>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:56
+msgid ":ref:`custom_signal_swap_argument<class_VisualScript_method_custom_signal_swap_argument>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`int<class_int>` withidx **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:58
+msgid ":ref:`data_connect<class_VisualScript_method_data_connect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:60
+msgid ":ref:`data_disconnect<class_VisualScript_method_data_disconnect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:62
+msgid ":ref:`get_function_node_id<class_VisualScript_method_get_function_node_id>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:64
+#: ../classes/class_visualscript.rst:68
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:64
+msgid ":ref:`get_function_scroll<class_VisualScript_method_get_function_scroll>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:66
+msgid ":ref:`VisualScriptNode<class_VisualScriptNode>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:66
+msgid ":ref:`get_node<class_VisualScript_method_get_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:68
+msgid ":ref:`get_node_position<class_VisualScript_method_get_node_position>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:70
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:70
+msgid ":ref:`get_variable_default_value<class_VisualScript_method_get_variable_default_value>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:72
+#: ../classes/class_visualscript.rst:76
+#: ../classes/class_visualscript.rst:78
+#: ../classes/class_visualscript.rst:80
+#: ../classes/class_visualscript.rst:82
+#: ../classes/class_visualscript.rst:84
+#: ../classes/class_visualscript.rst:86
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:72
+msgid ":ref:`get_variable_export<class_VisualScript_method_get_variable_export>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:74
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:74
+msgid ":ref:`get_variable_info<class_VisualScript_method_get_variable_info>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:76
+msgid ":ref:`has_custom_signal<class_VisualScript_method_has_custom_signal>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:78
+msgid ":ref:`has_data_connection<class_VisualScript_method_has_data_connection>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:80
+msgid ":ref:`has_function<class_VisualScript_method_has_function>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:82
+msgid ":ref:`has_node<class_VisualScript_method_has_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:84
+msgid ":ref:`has_sequence_connection<class_VisualScript_method_has_sequence_connection>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:86
+msgid ":ref:`has_variable<class_VisualScript_method_has_variable>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:88
+msgid ":ref:`remove_custom_signal<class_VisualScript_method_remove_custom_signal>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:90
+msgid ":ref:`remove_function<class_VisualScript_method_remove_function>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:92
+msgid ":ref:`remove_node<class_VisualScript_method_remove_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:94
+msgid ":ref:`remove_variable<class_VisualScript_method_remove_variable>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:96
+msgid ":ref:`rename_custom_signal<class_VisualScript_method_rename_custom_signal>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:98
+msgid ":ref:`rename_function<class_VisualScript_method_rename_function>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:100
+msgid ":ref:`rename_variable<class_VisualScript_method_rename_variable>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:102
+msgid ":ref:`sequence_connect<class_VisualScript_method_sequence_connect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:104
+msgid ":ref:`sequence_disconnect<class_VisualScript_method_sequence_disconnect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:106
+msgid ":ref:`set_function_scroll<class_VisualScript_method_set_function_scroll>` **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:108
+msgid ":ref:`set_instance_base_type<class_VisualScript_method_set_instance_base_type>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:110
+msgid ":ref:`set_node_position<class_VisualScript_method_set_node_position>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:112
+msgid ":ref:`set_variable_default_value<class_VisualScript_method_set_variable_default_value>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:114
+msgid ":ref:`set_variable_export<class_VisualScript_method_set_variable_export>` **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:116
+msgid ":ref:`set_variable_info<class_VisualScript_method_set_variable_info>` **(** :ref:`String<class_String>` name, :ref:`Dictionary<class_Dictionary>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:120
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:124
+msgid "**node_ports_changed** **(** :ref:`String<class_String>` function, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:126
+msgid "当节点端口更改时触发。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:129
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:133
+msgid "void **add_custom_signal** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:135
+msgid "在可视化脚本中添加指定名称的自定义信号。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:141
+msgid "void **add_function** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:143
+msgid "在可视化脚本中添加指定名称的函数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:149
+msgid "void **add_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`VisualScriptNode<class_VisualScriptNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:151
+msgid "向可视化脚本的函数添加节点。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:157
+msgid "void **add_variable** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` default_value=null, :ref:`bool<class_bool>` export=false **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:159
+msgid "在可视化脚本中添加一个变量，可选择给它一个默认值或将其标记为导出。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:165
+msgid "void **custom_signal_add_argument** **(** :ref:`String<class_String>` name, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` argname, :ref:`int<class_int>` index=-1 **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:167
+msgid "为用\\ :ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>`\\ 添加的自定义信号添加一个参数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:173
+msgid ":ref:`int<class_int>` **custom_signal_get_argument_count** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:175
+msgid "获取自定义信号的参数计数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:181
+msgid ":ref:`String<class_String>` **custom_signal_get_argument_name** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:183
+msgid "获取自定义信号的参数名称。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:189
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **custom_signal_get_argument_type** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:191
+msgid "获取自定义信号的参数类型。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:197
+msgid "void **custom_signal_remove_argument** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:199
+msgid "删除特定的自定义信号的参数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:205
+msgid "void **custom_signal_set_argument_name** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`String<class_String>` argname **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:207
+msgid "重命名自定义信号的参数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:213
+msgid "void **custom_signal_set_argument_type** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:215
+msgid "更改自定义信号的参数类型。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:221
+msgid "void **custom_signal_swap_argument** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`int<class_int>` withidx **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:223
+msgid "调换自定义信号的两个参数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:229
+msgid "void **data_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:231
+msgid "连接两个数据端口。\\ ``from_node``\\ 的\\ ``from_port``\\ 的值将被输入\\ ``to_node``\\ 的\\ ``to_port``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:237
+msgid "void **data_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:239
+msgid "断开之前用\\ :ref:`data_connect<class_VisualScript_method_data_connect>`\\ 连接的两个数据端口。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:245
+msgid ":ref:`int<class_int>` **get_function_node_id** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:247
+msgid "返回函数入口点节点的ID。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:253
+msgid ":ref:`Vector2<class_Vector2>` **get_function_scroll** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:255
+msgid "返回给定函数的屏幕中心的位置。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:261
+msgid ":ref:`VisualScriptNode<class_VisualScriptNode>` **get_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:263
+msgid "返回一个节点，指定它的id和它的函数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:269
+msgid ":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:271
+msgid "返回节点的坐标，单位是像素。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:277
+msgid ":ref:`Variant<class_Variant>` **get_variable_default_value** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:279
+msgid "返回变量的初始默认值。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:285
+msgid ":ref:`bool<class_bool>` **get_variable_export** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:287
+msgid "返回是否导出变量。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:293
+msgid ":ref:`Dictionary<class_Dictionary>` **get_variable_info** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:295
+msgid "以字典的形式返回指定变量的信息。这些信息包括它的名称、类型、提示和用法。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:301
+msgid ":ref:`bool<class_bool>` **has_custom_signal** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:303
+msgid "返回是否存在具有指定名称的信号。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:309
+msgid ":ref:`bool<class_bool>` **has_data_connection** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:311
+msgid "返回指定的数据端口是否已连接。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:317
+msgid ":ref:`bool<class_bool>` **has_function** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:319
+msgid "返回是否存在带有指定名称的函数。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:325
+msgid ":ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:327
+msgid "返回是否存在带有给定 ID 的节点。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:333
+msgid ":ref:`bool<class_bool>` **has_sequence_connection** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:335
+msgid "返回指定的序列端口是否已连接。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:341
+msgid ":ref:`bool<class_bool>` **has_variable** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:343
+msgid "返回是否存在带有指定名称的变量。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:349
+msgid "void **remove_custom_signal** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:351
+msgid "删除带有给定名称的自定义信号。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:357
+msgid "void **remove_function** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:359
+msgid "从脚本中删除特定函数及其节点。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:365
+msgid "void **remove_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:367
+msgid "删除特定节点。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:373
+msgid "void **remove_variable** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:375
+msgid "删除具有给定名称的变量。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:381
+msgid "void **rename_custom_signal** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:383
+msgid "更改自定义信号的名称。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:389
+msgid "void **rename_function** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:391
+msgid "更改函数的名称。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:397
+msgid "void **rename_variable** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:399
+msgid "更改变量的名称。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:405
+msgid "void **sequence_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:407
+msgid "连接两个序列端口。执行将从\\ ``from_node``\\ 的\\ ``from_output``\\ 输入\\ ``to_node``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:409
+msgid "与\\ :ref:`data_connect<class_VisualScript_method_data_connect>`\\ 不同，没有\\ ``to_port``\\ ，因为目标节点只能有一个序列端口。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:415
+msgid "void **sequence_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:417
+msgid "断开之前用\\ :ref:`sequence_connect<class_VisualScript_method_sequence_connect>`\\ 连接的两个序列端口。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:423
+msgid "void **set_function_scroll** **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:425
+msgid "为功能定位屏幕中心。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:431
+msgid "void **set_instance_base_type** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:433
+msgid "设置脚本的基类。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:439
+msgid "void **set_node_position** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:441
+msgid "在屏幕上定位一个节点。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:447
+msgid "void **set_variable_default_value** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:449
+msgid "更改变量的初始默认值。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:455
+msgid "void **set_variable_export** **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:457
+msgid "更改是否导出变量。"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:463
+msgid "void **set_variable_info** **(** :ref:`String<class_String>` name, :ref:`Dictionary<class_Dictionary>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscript.rst:465
+msgid "设置变量的信息，使用与 :ref:`get_variable_info<class_VisualScript_method_get_variable_info>` 相同的格式。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

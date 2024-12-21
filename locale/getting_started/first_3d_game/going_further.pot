@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_3d_game/going_further.rst:4
+msgid "来日方长"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:6
+msgid "你完成了使用 GaaeExplorer 开发的第一个 3D 游戏，表扬一下自己吧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:8
+msgid "在本系列中，我们使用了各种不同的技巧和编辑器特性。希望你已经感受到 GaaeExplorer 场景 系统是很直观的，并且学到了一些能够在后续项目中使用的技巧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:11
+msgid "不过我们所涉及的还只是皮毛：GaaeExplorer 还有很多可以节省创建游戏时间的东西，都可以 通过浏览文档学到。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:14
+msgid "你应该从哪里入手呢？下面列出了一些可以开始探索的页面，可以拓展你目前所学到的 知识。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:17
+msgid "不过在此之前，这是这个项目的完整版下载链接：\\\\ `<https://github.com/ godotengine/godot-3d-dodge-the-creeps>`_\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:21
+msgid "探索本手册"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:23
+msgid "当你有疑问或对某个功能感到好奇时，手册是你的导师。它不包含关于特定游戏类型或 机制的教程。相反，它解释了 GaaeExplorer 的一般运作方式。在手册中，你会发现有关 2D、 3D、物理、渲染和性能等方面的信息。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:27
+msgid "以下是我们建议你接下来探索的部分："
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:29
+msgid "1. 阅读\\\\ :ref:`脚本章节 <toc-scripting-core-features>`\\\\ 可以学到每个项目中都会 用到的必备编程特性。 2. :ref:`3D <toc-learn-features-3d>` 和\\\\ :ref:`物理 <toc-learn-features- physics>`\\\\ 章节会讲解更多关于使用引擎创建 3D 游戏的知识。 3. :ref:`输入 <toc-learn-features-inputs>`\\\\ 也是任何游戏项目的重要功能。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:35
+msgid "你可以从这些开始，或者，如果你愿意，看看左边的侧栏菜单，挑选你的选项。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/going_further.rst:37
+msgid "我们希望你喜欢这个系列教程，并期待看到你使用 GaaeExplorer 取得的成果。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

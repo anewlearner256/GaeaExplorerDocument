@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_styleboxline.rst:10
+msgid "StyleBoxLine"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:12
+msgid "**Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:14
+msgid "显示单线的 :ref:`StyleBox<class_StyleBox>` 。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:19
+msgid "显示给定颜色和粗细的单线\\ :ref:`StyleBox<class_StyleBox>` 。它可用于绘制分隔符之类的东西。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:25
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:25
+msgid ":ref:`color<class_StyleBoxLine_property_color>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:25
+#: ../classes/class_styleboxline.rst:44
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:27
+#: ../classes/class_styleboxline.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:27
+msgid ":ref:`grow_begin<class_StyleBoxLine_property_grow_begin>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:27
+#: ../classes/class_styleboxline.rst:29
+#: ../classes/class_styleboxline.rst:60
+#: ../classes/class_styleboxline.rst:76
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:29
+msgid ":ref:`grow_end<class_StyleBoxLine_property_grow_end>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:31
+msgid ":ref:`thickness<class_StyleBoxLine_property_thickness>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:31
+#: ../classes/class_styleboxline.rst:92
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:33
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:33
+msgid ":ref:`vertical<class_StyleBoxLine_property_vertical>`"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:33
+#: ../classes/class_styleboxline.rst:108
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:37
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:41
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:44
+#: ../classes/class_styleboxline.rst:60
+#: ../classes/class_styleboxline.rst:76
+#: ../classes/class_styleboxline.rst:92
+#: ../classes/class_styleboxline.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:46
+#: ../classes/class_styleboxline.rst:62
+#: ../classes/class_styleboxline.rst:78
+#: ../classes/class_styleboxline.rst:94
+#: ../classes/class_styleboxline.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:46
+msgid "set_color(value)"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:48
+#: ../classes/class_styleboxline.rst:64
+#: ../classes/class_styleboxline.rst:80
+#: ../classes/class_styleboxline.rst:96
+#: ../classes/class_styleboxline.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:48
+msgid "get_color()"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:51
+msgid "线的颜色。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:57
+msgid ":ref:`float<class_float>` **grow_begin**"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:62
+msgid "set_grow_begin(value)"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:64
+msgid "get_grow_begin()"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:67
+msgid "线将在 ``StyleBoxLine`` 的边界之前延伸的像素数。如果设置为负值，则该线将从 ``StyleBoxLine`` 的边界内开始。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:73
+msgid ":ref:`float<class_float>` **grow_end**"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:78
+msgid "set_grow_end(value)"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:80
+msgid "get_grow_end()"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:83
+msgid "线将超出 ``StyleBoxLine`` 边界的像素数。如果设置为负值，则该线将在 ``StyleBoxLine`` 的边界内结束。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:89
+msgid ":ref:`int<class_int>` **thickness**"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:94
+msgid "set_thickness(value)"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:96
+msgid "get_thickness()"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:99
+msgid "线条的粗细（以像素为单位）。"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:105
+msgid ":ref:`bool<class_bool>` **vertical**"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:110
+msgid "set_vertical(value)"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:112
+msgid "is_vertical()"
+msgstr ""
+
+#: ../classes/class_styleboxline.rst:115
+msgid "如果 ``true``\\ ，则该线将是垂直的。如果 ``false``\\ ，该线将是水平的。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

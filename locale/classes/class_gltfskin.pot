@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gltfskin.rst:10
+msgid "GLTFSkin"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:20
+msgid ":ref:`Skin<class_Skin>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:20
+msgid ":ref:`godot_skin<class_GLTFSkin_property_godot_skin>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:22
+#: ../classes/class_gltfskin.rst:24
+#: ../classes/class_gltfskin.rst:26
+#: ../classes/class_gltfskin.rst:28
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:22
+msgid ":ref:`joints<class_GLTFSkin_property_joints>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:22
+#: ../classes/class_gltfskin.rst:24
+#: ../classes/class_gltfskin.rst:26
+#: ../classes/class_gltfskin.rst:28
+#: ../classes/class_gltfskin.rst:72
+#: ../classes/class_gltfskin.rst:86
+#: ../classes/class_gltfskin.rst:100
+#: ../classes/class_gltfskin.rst:114
+msgid "``PoolIntArray(  )``"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:24
+msgid ":ref:`joints_original<class_GLTFSkin_property_joints_original>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:26
+msgid ":ref:`non_joints<class_GLTFSkin_property_non_joints>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:28
+msgid ":ref:`roots<class_GLTFSkin_property_roots>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:30
+#: ../classes/class_gltfskin.rst:32
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:30
+msgid ":ref:`skeleton<class_GLTFSkin_property_skeleton>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:30
+#: ../classes/class_gltfskin.rst:32
+#: ../classes/class_gltfskin.rst:128
+#: ../classes/class_gltfskin.rst:142
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:32
+msgid ":ref:`skin_root<class_GLTFSkin_property_skin_root>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:36
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:39
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:39
+msgid ":ref:`get_inverse_binds<class_GLTFSkin_method_get_inverse_binds>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:41
+#: ../classes/class_gltfskin.rst:43
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:41
+msgid ":ref:`get_joint_i_to_bone_i<class_GLTFSkin_method_get_joint_i_to_bone_i>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:43
+msgid ":ref:`get_joint_i_to_name<class_GLTFSkin_method_get_joint_i_to_name>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:45
+#: ../classes/class_gltfskin.rst:47
+#: ../classes/class_gltfskin.rst:49
+msgid "void"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:45
+msgid ":ref:`set_inverse_binds<class_GLTFSkin_method_set_inverse_binds>` **(** :ref:`Array<class_Array>` inverse_binds **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:47
+msgid ":ref:`set_joint_i_to_bone_i<class_GLTFSkin_method_set_joint_i_to_bone_i>` **(** :ref:`Dictionary<class_Dictionary>` joint_i_to_bone_i **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:49
+msgid ":ref:`set_joint_i_to_name<class_GLTFSkin_method_set_joint_i_to_name>` **(** :ref:`Dictionary<class_Dictionary>` joint_i_to_name **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:53
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:57
+msgid ":ref:`Skin<class_Skin>` **godot_skin**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:60
+#: ../classes/class_gltfskin.rst:74
+#: ../classes/class_gltfskin.rst:88
+#: ../classes/class_gltfskin.rst:102
+#: ../classes/class_gltfskin.rst:116
+#: ../classes/class_gltfskin.rst:130
+#: ../classes/class_gltfskin.rst:144
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:60
+msgid "set_godot_skin(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:62
+#: ../classes/class_gltfskin.rst:76
+#: ../classes/class_gltfskin.rst:90
+#: ../classes/class_gltfskin.rst:104
+#: ../classes/class_gltfskin.rst:118
+#: ../classes/class_gltfskin.rst:132
+#: ../classes/class_gltfskin.rst:146
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:62
+msgid "get_godot_skin()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:69
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **joints**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:72
+#: ../classes/class_gltfskin.rst:86
+#: ../classes/class_gltfskin.rst:100
+#: ../classes/class_gltfskin.rst:114
+#: ../classes/class_gltfskin.rst:128
+#: ../classes/class_gltfskin.rst:142
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:74
+msgid "set_joints(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:76
+msgid "get_joints()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:83
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **joints_original**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:88
+msgid "set_joints_original(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:90
+msgid "get_joints_original()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:97
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **non_joints**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:102
+msgid "set_non_joints(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:104
+msgid "get_non_joints()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:111
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **roots**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:116
+msgid "set_roots(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:118
+msgid "get_roots()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:125
+msgid ":ref:`int<class_int>` **skeleton**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:130
+msgid "set_skeleton(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:132
+msgid "get_skeleton()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:139
+msgid ":ref:`int<class_int>` **skin_root**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:144
+msgid "set_skin_root(value)"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:146
+msgid "get_skin_root()"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:150
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:154
+msgid ":ref:`Array<class_Array>` **get_inverse_binds** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:160
+msgid ":ref:`Dictionary<class_Dictionary>` **get_joint_i_to_bone_i** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:166
+msgid ":ref:`Dictionary<class_Dictionary>` **get_joint_i_to_name** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:172
+msgid "void **set_inverse_binds** **(** :ref:`Array<class_Array>` inverse_binds **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:178
+msgid "void **set_joint_i_to_bone_i** **(** :ref:`Dictionary<class_Dictionary>` joint_i_to_bone_i **)**"
+msgstr ""
+
+#: ../classes/class_gltfskin.rst:184
+msgid "void **set_joint_i_to_name** **(** :ref:`Dictionary<class_Dictionary>` joint_i_to_name **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

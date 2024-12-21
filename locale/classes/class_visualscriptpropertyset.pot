@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptpropertyset.rst:10
+msgid "VisualScriptPropertySet"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:14
+msgid "一个Visual Script节点，用于设置\\ :ref:`Object<class_Object>`\\ 的属性。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:19
+msgid "``VisualScriptPropertySet``\\ 可以设置当前对象或其他对象的任何属性的值。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:25
+msgid ":ref:`AssignOp<enum_VisualScriptPropertySet_AssignOp>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:25
+msgid ":ref:`assign_op<class_VisualScriptPropertySet_property_assign_op>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:25
+#: ../classes/class_visualscriptpropertyset.rst:39
+#: ../classes/class_visualscriptpropertyset.rst:123
+#: ../classes/class_visualscriptpropertyset.rst:227
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:27
+#: ../classes/class_visualscriptpropertyset.rst:29
+#: ../classes/class_visualscriptpropertyset.rst:33
+#: ../classes/class_visualscriptpropertyset.rst:37
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:27
+msgid ":ref:`base_script<class_VisualScriptPropertySet_property_base_script>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:29
+msgid ":ref:`base_type<class_VisualScriptPropertySet_property_base_type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:29
+#: ../classes/class_visualscriptpropertyset.rst:153
+msgid "``\"Object\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:31
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:31
+msgid ":ref:`basic_type<class_VisualScriptPropertySet_property_basic_type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:33
+msgid ":ref:`index<class_VisualScriptPropertySet_property_index>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:35
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:35
+msgid ":ref:`node_path<class_VisualScriptPropertySet_property_node_path>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:37
+msgid ":ref:`property<class_VisualScriptPropertySet_property_property>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:37
+#: ../classes/class_visualscriptpropertyset.rst:211
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:39
+msgid ":ref:`CallMode<enum_VisualScriptPropertySet_CallMode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:39
+msgid ":ref:`set_mode<class_VisualScriptPropertySet_property_set_mode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:43
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:55
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:57
+msgid "**CALL_MODE_SELF** = **0** --- 在此 :ref:`Object<class_Object>` 上设置该属性。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:59
+msgid "**CALL_MODE_NODE_PATH** = **1** --- 在场景树中指定的\\ :ref:`Node<class_Node>`\\ 上设置该属性。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:61
+msgid "**CALL_MODE_INSTANCE** = **2** --- 在具有指定类型和脚本的实例化节点上设置该属性。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:63
+msgid "**CALL_MODE_BASIC_TYPE** = **3** --- 该属性将设置为 GDScript 基本类型，例如 :ref:`Vector2<class_Vector2>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:91
+msgid "enum **AssignOp**:"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:93
+msgid "**ASSIGN_OP_NONE** = **0** --- 该属性将定期分配。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:95
+msgid "**ASSIGN_OP_ADD** = **1** --- 该值将添加到该属性中。相当于做 ``+=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:97
+msgid "**ASSIGN_OP_SUB** = **2** --- 该值将从属性中减去。相当于做 ``-=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:99
+msgid "**ASSIGN_OP_MUL** = **3** --- 该属性将乘以该值。相当于做 ``*=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:101
+msgid "**ASSIGN_OP_DIV** = **4** --- 属性将除以该值。相当于做 ``/=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:103
+msgid "**ASSIGN_OP_MOD** = **5** --- 对属性和值执行模运算。相当于做 ``%=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:105
+msgid "**ASSIGN_OP_SHIFT_LEFT** = **6** --- 该属性将按给定值向左二进制移动。相当于做 ``<<``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:107
+msgid "**ASSIGN_OP_SHIFT_RIGHT** = **7** --- 该属性将按给定值向右二进制移动。相当于做 ``>>``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:109
+msgid "**ASSIGN_OP_BIT_AND** = **8** --- 将对该属性执行二进制 ``AND`` 运算。相当于做 ``&=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:111
+msgid "**ASSIGN_OP_BIT_OR** = **9** --- 对属性执行二进制 ``OR`` 操作。相当于做 ``|=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:113
+msgid "**ASSIGN_OP_BIT_XOR** = **10** --- 对该属性执行二进制 ``XOR`` 操作。相当于做 ``^=``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:116
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:120
+msgid ":ref:`AssignOp<enum_VisualScriptPropertySet_AssignOp>` **assign_op**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:123
+#: ../classes/class_visualscriptpropertyset.rst:153
+#: ../classes/class_visualscriptpropertyset.rst:211
+#: ../classes/class_visualscriptpropertyset.rst:227
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:125
+#: ../classes/class_visualscriptpropertyset.rst:139
+#: ../classes/class_visualscriptpropertyset.rst:155
+#: ../classes/class_visualscriptpropertyset.rst:169
+#: ../classes/class_visualscriptpropertyset.rst:183
+#: ../classes/class_visualscriptpropertyset.rst:197
+#: ../classes/class_visualscriptpropertyset.rst:213
+#: ../classes/class_visualscriptpropertyset.rst:229
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:125
+msgid "set_assign_op(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:127
+#: ../classes/class_visualscriptpropertyset.rst:141
+#: ../classes/class_visualscriptpropertyset.rst:157
+#: ../classes/class_visualscriptpropertyset.rst:171
+#: ../classes/class_visualscriptpropertyset.rst:185
+#: ../classes/class_visualscriptpropertyset.rst:199
+#: ../classes/class_visualscriptpropertyset.rst:215
+#: ../classes/class_visualscriptpropertyset.rst:231
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:127
+msgid "get_assign_op()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:130
+msgid "赋值时要执行的额外操作。参阅\\ :ref:`AssignOp<enum_VisualScriptPropertySet_AssignOp>`\\ 的选项。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:136
+msgid ":ref:`String<class_String>` **base_script**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:139
+msgid "set_base_script(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:141
+msgid "get_base_script()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:144
+msgid ":ref:`set_mode<class_VisualScriptPropertySet_property_set_mode>` 设置为 :ref:`CALL_MODE_INSTANCE<class_VisualScriptPropertySet_constant_CALL_MODE_INSTANCE>` 时要使用的脚本。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:150
+msgid ":ref:`String<class_String>` **base_type**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:155
+msgid "set_base_type(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:157
+msgid "get_base_type()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:160
+msgid ":ref:`set_mode<class_VisualScriptPropertySet_property_set_mode>` 设置为 :ref:`CALL_MODE_INSTANCE<class_VisualScriptPropertySet_constant_CALL_MODE_INSTANCE>` 时要使用的基本类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:166
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **basic_type**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:169
+msgid "set_basic_type(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:171
+msgid "get_basic_type()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:174
+msgid ":ref:`set_mode<class_VisualScriptPropertySet_property_set_mode>` 设置为 :ref:`CALL_MODE_BASIC_TYPE<class_VisualScriptPropertySet_constant_CALL_MODE_BASIC_TYPE>` 时使用的类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:180
+msgid ":ref:`String<class_String>` **index**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:183
+msgid "set_index(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:185
+msgid "get_index()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:188
+msgid "要设置的属性的索引名称。详见\\ :ref:`Object.set_indexed<class_Object_method_set_indexed>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:194
+msgid ":ref:`NodePath<class_NodePath>` **node_path**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:197
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:199
+msgid "get_base_path()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:202
+msgid ":ref:`set_mode<class_VisualScriptPropertySet_property_set_mode>` 设置为 :ref:`CALL_MODE_NODE_PATH<class_VisualScriptPropertySet_constant_CALL_MODE_NODE_PATH>` 时要使用的节点路径。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:208
+msgid ":ref:`String<class_String>` **property**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:213
+msgid "set_property(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:215
+msgid "get_property()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:218
+msgid "要设置的属性的名称。改变这个将清除 :ref:`index<class_VisualScriptPropertySet_property_index>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:224
+msgid ":ref:`CallMode<enum_VisualScriptPropertySet_CallMode>` **set_mode**"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:229
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:231
+msgid "get_call_mode()"
+msgstr ""
+
+#: ../classes/class_visualscriptpropertyset.rst:234
+msgid "``set_mode`` 决定了将被设置属性的目标对象。参阅\\ :ref:`CallMode<enum_VisualScriptPropertySet_CallMode>`\\ 的选项。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

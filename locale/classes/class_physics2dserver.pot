@@ -1,0 +1,1688 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physics2dserver.rst:10
+msgid "Physics2DServer"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:14
+msgid "用于底层2D物理访问服务的接口。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:19
+msgid "Physics2DServer 是负责所有 2D 物理的服务。它可以创建多种物理对象，但不会将它们插入到节点树中。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:25
+#: ../classes/class_physics2dserver.rst:27
+#: ../classes/class_physics2dserver.rst:29
+#: ../classes/class_physics2dserver.rst:31
+#: ../classes/class_physics2dserver.rst:53
+#: ../classes/class_physics2dserver.rst:55
+#: ../classes/class_physics2dserver.rst:57
+#: ../classes/class_physics2dserver.rst:59
+#: ../classes/class_physics2dserver.rst:61
+#: ../classes/class_physics2dserver.rst:63
+#: ../classes/class_physics2dserver.rst:65
+#: ../classes/class_physics2dserver.rst:67
+#: ../classes/class_physics2dserver.rst:69
+#: ../classes/class_physics2dserver.rst:71
+#: ../classes/class_physics2dserver.rst:73
+#: ../classes/class_physics2dserver.rst:75
+#: ../classes/class_physics2dserver.rst:77
+#: ../classes/class_physics2dserver.rst:79
+#: ../classes/class_physics2dserver.rst:81
+#: ../classes/class_physics2dserver.rst:83
+#: ../classes/class_physics2dserver.rst:85
+#: ../classes/class_physics2dserver.rst:87
+#: ../classes/class_physics2dserver.rst:89
+#: ../classes/class_physics2dserver.rst:91
+#: ../classes/class_physics2dserver.rst:93
+#: ../classes/class_physics2dserver.rst:95
+#: ../classes/class_physics2dserver.rst:97
+#: ../classes/class_physics2dserver.rst:99
+#: ../classes/class_physics2dserver.rst:135
+#: ../classes/class_physics2dserver.rst:137
+#: ../classes/class_physics2dserver.rst:139
+#: ../classes/class_physics2dserver.rst:141
+#: ../classes/class_physics2dserver.rst:143
+#: ../classes/class_physics2dserver.rst:145
+#: ../classes/class_physics2dserver.rst:147
+#: ../classes/class_physics2dserver.rst:149
+#: ../classes/class_physics2dserver.rst:151
+#: ../classes/class_physics2dserver.rst:153
+#: ../classes/class_physics2dserver.rst:155
+#: ../classes/class_physics2dserver.rst:157
+#: ../classes/class_physics2dserver.rst:159
+#: ../classes/class_physics2dserver.rst:161
+#: ../classes/class_physics2dserver.rst:163
+#: ../classes/class_physics2dserver.rst:165
+#: ../classes/class_physics2dserver.rst:167
+#: ../classes/class_physics2dserver.rst:169
+#: ../classes/class_physics2dserver.rst:185
+#: ../classes/class_physics2dserver.rst:187
+#: ../classes/class_physics2dserver.rst:197
+#: ../classes/class_physics2dserver.rst:209
+#: ../classes/class_physics2dserver.rst:211
+#: ../classes/class_physics2dserver.rst:217
+#: ../classes/class_physics2dserver.rst:227
+#: ../classes/class_physics2dserver.rst:229
+msgid "void"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:25
+msgid ":ref:`area_add_shape<class_Physics2DServer_method_area_add_shape>` **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` shape, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:27
+msgid ":ref:`area_attach_canvas_instance_id<class_Physics2DServer_method_area_attach_canvas_instance_id>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:29
+msgid ":ref:`area_attach_object_instance_id<class_Physics2DServer_method_area_attach_object_instance_id>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:31
+msgid ":ref:`area_clear_shapes<class_Physics2DServer_method_area_clear_shapes>` **(** :ref:`RID<class_RID>` area **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:33
+#: ../classes/class_physics2dserver.rst:41
+#: ../classes/class_physics2dserver.rst:47
+#: ../classes/class_physics2dserver.rst:101
+#: ../classes/class_physics2dserver.rst:121
+#: ../classes/class_physics2dserver.rst:129
+#: ../classes/class_physics2dserver.rst:173
+#: ../classes/class_physics2dserver.rst:175
+#: ../classes/class_physics2dserver.rst:177
+#: ../classes/class_physics2dserver.rst:179
+#: ../classes/class_physics2dserver.rst:181
+#: ../classes/class_physics2dserver.rst:191
+#: ../classes/class_physics2dserver.rst:199
+#: ../classes/class_physics2dserver.rst:201
+#: ../classes/class_physics2dserver.rst:203
+#: ../classes/class_physics2dserver.rst:205
+#: ../classes/class_physics2dserver.rst:207
+#: ../classes/class_physics2dserver.rst:219
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:33
+msgid ":ref:`area_create<class_Physics2DServer_method_area_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:35
+#: ../classes/class_physics2dserver.rst:37
+#: ../classes/class_physics2dserver.rst:43
+#: ../classes/class_physics2dserver.rst:103
+#: ../classes/class_physics2dserver.rst:105
+#: ../classes/class_physics2dserver.rst:107
+#: ../classes/class_physics2dserver.rst:113
+#: ../classes/class_physics2dserver.rst:117
+#: ../classes/class_physics2dserver.rst:123
+#: ../classes/class_physics2dserver.rst:189
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:35
+msgid ":ref:`area_get_canvas_instance_id<class_Physics2DServer_method_area_get_canvas_instance_id>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:37
+msgid ":ref:`area_get_object_instance_id<class_Physics2DServer_method_area_get_object_instance_id>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:39
+#: ../classes/class_physics2dserver.rst:125
+#: ../classes/class_physics2dserver.rst:131
+#: ../classes/class_physics2dserver.rst:213
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:39
+msgid ":ref:`area_get_param<class_Physics2DServer_method_area_get_param>` **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:41
+msgid ":ref:`area_get_shape<class_Physics2DServer_method_area_get_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:43
+msgid ":ref:`area_get_shape_count<class_Physics2DServer_method_area_get_shape_count>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:45
+#: ../classes/class_physics2dserver.rst:51
+#: ../classes/class_physics2dserver.rst:127
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:45
+msgid ":ref:`area_get_shape_transform<class_Physics2DServer_method_area_get_shape_transform>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:47
+msgid ":ref:`area_get_space<class_Physics2DServer_method_area_get_space>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:49
+msgid ":ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:49
+msgid ":ref:`area_get_space_override_mode<class_Physics2DServer_method_area_get_space_override_mode>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:51
+msgid ":ref:`area_get_transform<class_Physics2DServer_method_area_get_transform>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:53
+msgid ":ref:`area_remove_shape<class_Physics2DServer_method_area_remove_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:55
+msgid ":ref:`area_set_area_monitor_callback<class_Physics2DServer_method_area_set_area_monitor_callback>` **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:57
+msgid ":ref:`area_set_collision_layer<class_Physics2DServer_method_area_set_collision_layer>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:59
+msgid ":ref:`area_set_collision_mask<class_Physics2DServer_method_area_set_collision_mask>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:61
+msgid ":ref:`area_set_monitor_callback<class_Physics2DServer_method_area_set_monitor_callback>` **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:63
+msgid ":ref:`area_set_monitorable<class_Physics2DServer_method_area_set_monitorable>` **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` monitorable **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:65
+msgid ":ref:`area_set_param<class_Physics2DServer_method_area_set_param>` **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:67
+msgid ":ref:`area_set_shape<class_Physics2DServer_method_area_set_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:69
+msgid ":ref:`area_set_shape_disabled<class_Physics2DServer_method_area_set_shape_disabled>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:71
+msgid ":ref:`area_set_shape_transform<class_Physics2DServer_method_area_set_shape_transform>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:73
+msgid ":ref:`area_set_space<class_Physics2DServer_method_area_set_space>` **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:75
+msgid ":ref:`area_set_space_override_mode<class_Physics2DServer_method_area_set_space_override_mode>` **(** :ref:`RID<class_RID>` area, :ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:77
+msgid ":ref:`area_set_transform<class_Physics2DServer_method_area_set_transform>` **(** :ref:`RID<class_RID>` area, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:79
+msgid ":ref:`body_add_central_force<class_Physics2DServer_method_body_add_central_force>` **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:81
+msgid ":ref:`body_add_collision_exception<class_Physics2DServer_method_body_add_collision_exception>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:83
+msgid ":ref:`body_add_force<class_Physics2DServer_method_body_add_force>` **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:85
+msgid ":ref:`body_add_shape<class_Physics2DServer_method_body_add_shape>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` shape, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:87
+msgid ":ref:`body_add_torque<class_Physics2DServer_method_body_add_torque>` **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:89
+msgid ":ref:`body_apply_central_impulse<class_Physics2DServer_method_body_apply_central_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:91
+msgid ":ref:`body_apply_impulse<class_Physics2DServer_method_body_apply_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` position, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:93
+msgid ":ref:`body_apply_torque_impulse<class_Physics2DServer_method_body_apply_torque_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:95
+msgid ":ref:`body_attach_canvas_instance_id<class_Physics2DServer_method_body_attach_canvas_instance_id>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:97
+msgid ":ref:`body_attach_object_instance_id<class_Physics2DServer_method_body_attach_object_instance_id>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:99
+msgid ":ref:`body_clear_shapes<class_Physics2DServer_method_body_clear_shapes>` **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:101
+msgid ":ref:`body_create<class_Physics2DServer_method_body_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:103
+msgid ":ref:`body_get_canvas_instance_id<class_Physics2DServer_method_body_get_canvas_instance_id>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:105
+msgid ":ref:`body_get_collision_layer<class_Physics2DServer_method_body_get_collision_layer>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:107
+msgid ":ref:`body_get_collision_mask<class_Physics2DServer_method_body_get_collision_mask>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:109
+msgid ":ref:`CCDMode<enum_Physics2DServer_CCDMode>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:109
+msgid ":ref:`body_get_continuous_collision_detection_mode<class_Physics2DServer_method_body_get_continuous_collision_detection_mode>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:111
+msgid ":ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:111
+msgid ":ref:`body_get_direct_state<class_Physics2DServer_method_body_get_direct_state>` **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:113
+msgid ":ref:`body_get_max_contacts_reported<class_Physics2DServer_method_body_get_max_contacts_reported>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:115
+msgid ":ref:`BodyMode<enum_Physics2DServer_BodyMode>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:115
+msgid ":ref:`body_get_mode<class_Physics2DServer_method_body_get_mode>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:117
+msgid ":ref:`body_get_object_instance_id<class_Physics2DServer_method_body_get_object_instance_id>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:119
+#: ../classes/class_physics2dserver.rst:183
+#: ../classes/class_physics2dserver.rst:193
+#: ../classes/class_physics2dserver.rst:223
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:119
+msgid ":ref:`body_get_param<class_Physics2DServer_method_body_get_param>` **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:121
+msgid ":ref:`body_get_shape<class_Physics2DServer_method_body_get_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:123
+msgid ":ref:`body_get_shape_count<class_Physics2DServer_method_body_get_shape_count>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:125
+msgid ":ref:`body_get_shape_metadata<class_Physics2DServer_method_body_get_shape_metadata>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:127
+msgid ":ref:`body_get_shape_transform<class_Physics2DServer_method_body_get_shape_transform>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:129
+msgid ":ref:`body_get_space<class_Physics2DServer_method_body_get_space>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:131
+msgid ":ref:`body_get_state<class_Physics2DServer_method_body_get_state>` **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_Physics2DServer_BodyState>` state **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:133
+#: ../classes/class_physics2dserver.rst:171
+#: ../classes/class_physics2dserver.rst:225
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:133
+msgid ":ref:`body_is_omitting_force_integration<class_Physics2DServer_method_body_is_omitting_force_integration>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:135
+msgid ":ref:`body_remove_collision_exception<class_Physics2DServer_method_body_remove_collision_exception>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:137
+msgid ":ref:`body_remove_shape<class_Physics2DServer_method_body_remove_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:139
+msgid ":ref:`body_set_axis_velocity<class_Physics2DServer_method_body_set_axis_velocity>` **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` axis_velocity **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:141
+msgid ":ref:`body_set_collision_layer<class_Physics2DServer_method_body_set_collision_layer>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:143
+msgid ":ref:`body_set_collision_mask<class_Physics2DServer_method_body_set_collision_mask>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:145
+msgid ":ref:`body_set_continuous_collision_detection_mode<class_Physics2DServer_method_body_set_continuous_collision_detection_mode>` **(** :ref:`RID<class_RID>` body, :ref:`CCDMode<enum_Physics2DServer_CCDMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:147
+msgid ":ref:`body_set_force_integration_callback<class_Physics2DServer_method_body_set_force_integration_callback>` **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:149
+msgid ":ref:`body_set_max_contacts_reported<class_Physics2DServer_method_body_set_max_contacts_reported>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` amount **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:151
+msgid ":ref:`body_set_mode<class_Physics2DServer_method_body_set_mode>` **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_Physics2DServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:153
+msgid ":ref:`body_set_omit_force_integration<class_Physics2DServer_method_body_set_omit_force_integration>` **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:155
+msgid ":ref:`body_set_param<class_Physics2DServer_method_body_set_param>` **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:157
+msgid ":ref:`body_set_shape<class_Physics2DServer_method_body_set_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:159
+msgid ":ref:`body_set_shape_as_one_way_collision<class_Physics2DServer_method_body_set_shape_as_one_way_collision>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` margin **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:161
+msgid ":ref:`body_set_shape_disabled<class_Physics2DServer_method_body_set_shape_disabled>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:163
+msgid ":ref:`body_set_shape_metadata<class_Physics2DServer_method_body_set_shape_metadata>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:165
+msgid ":ref:`body_set_shape_transform<class_Physics2DServer_method_body_set_shape_transform>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:167
+msgid ":ref:`body_set_space<class_Physics2DServer_method_body_set_space>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:169
+msgid ":ref:`body_set_state<class_Physics2DServer_method_body_set_state>` **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_Physics2DServer_BodyState>` state, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:171
+msgid ":ref:`body_test_motion<class_Physics2DServer_method_body_test_motion>` **(** :ref:`RID<class_RID>` body, :ref:`Transform2D<class_Transform2D>` from, :ref:`Vector2<class_Vector2>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`float<class_float>` margin=0.08, :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:173
+msgid ":ref:`capsule_shape_create<class_Physics2DServer_method_capsule_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:175
+msgid ":ref:`circle_shape_create<class_Physics2DServer_method_circle_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:177
+msgid ":ref:`concave_polygon_shape_create<class_Physics2DServer_method_concave_polygon_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:179
+msgid ":ref:`convex_polygon_shape_create<class_Physics2DServer_method_convex_polygon_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:181
+msgid ":ref:`damped_spring_joint_create<class_Physics2DServer_method_damped_spring_joint_create>` **(** :ref:`Vector2<class_Vector2>` anchor_a, :ref:`Vector2<class_Vector2>` anchor_b, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:183
+msgid ":ref:`damped_string_joint_get_param<class_Physics2DServer_method_damped_string_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:185
+msgid ":ref:`damped_string_joint_set_param<class_Physics2DServer_method_damped_string_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:187
+msgid ":ref:`free_rid<class_Physics2DServer_method_free_rid>` **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:189
+msgid ":ref:`get_process_info<class_Physics2DServer_method_get_process_info>` **(** :ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>` process_info **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:191
+msgid ":ref:`groove_joint_create<class_Physics2DServer_method_groove_joint_create>` **(** :ref:`Vector2<class_Vector2>` groove1_a, :ref:`Vector2<class_Vector2>` groove2_a, :ref:`Vector2<class_Vector2>` anchor_b, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:193
+msgid ":ref:`joint_get_param<class_Physics2DServer_method_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`JointParam<enum_Physics2DServer_JointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:195
+msgid ":ref:`JointType<enum_Physics2DServer_JointType>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:195
+msgid ":ref:`joint_get_type<class_Physics2DServer_method_joint_get_type>` **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:197
+msgid ":ref:`joint_set_param<class_Physics2DServer_method_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`JointParam<enum_Physics2DServer_JointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:199
+msgid ":ref:`line_shape_create<class_Physics2DServer_method_line_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:201
+msgid ":ref:`pin_joint_create<class_Physics2DServer_method_pin_joint_create>` **(** :ref:`Vector2<class_Vector2>` anchor, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:203
+msgid ":ref:`ray_shape_create<class_Physics2DServer_method_ray_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:205
+msgid ":ref:`rectangle_shape_create<class_Physics2DServer_method_rectangle_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:207
+msgid ":ref:`segment_shape_create<class_Physics2DServer_method_segment_shape_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:209
+msgid ":ref:`set_active<class_Physics2DServer_method_set_active>` **(** :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:211
+msgid ":ref:`set_collision_iterations<class_Physics2DServer_method_set_collision_iterations>` **(** :ref:`int<class_int>` iterations **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:213
+msgid ":ref:`shape_get_data<class_Physics2DServer_method_shape_get_data>` **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:215
+msgid ":ref:`ShapeType<enum_Physics2DServer_ShapeType>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:215
+msgid ":ref:`shape_get_type<class_Physics2DServer_method_shape_get_type>` **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:217
+msgid ":ref:`shape_set_data<class_Physics2DServer_method_shape_set_data>` **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:219
+msgid ":ref:`space_create<class_Physics2DServer_method_space_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:221
+msgid ":ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>`"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:221
+msgid ":ref:`space_get_direct_state<class_Physics2DServer_method_space_get_direct_state>` **(** :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:223
+msgid ":ref:`space_get_param<class_Physics2DServer_method_space_get_param>` **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:225
+msgid ":ref:`space_is_active<class_Physics2DServer_method_space_is_active>` **(** :ref:`RID<class_RID>` space **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:227
+msgid ":ref:`space_set_active<class_Physics2DServer_method_space_set_active>` **(** :ref:`RID<class_RID>` space, :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:229
+msgid ":ref:`space_set_param<class_Physics2DServer_method_space_set_param>` **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:233
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:251
+msgid "enum **SpaceParameter**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:253
+msgid "**SPACE_PARAM_CONTACT_RECYCLE_RADIUS** = **0** --- 常数，用于设置/获取一对物体在其碰撞状态被重新计算之前的最大移动距离。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:255
+msgid "**SPACE_PARAM_CONTACT_MAX_SEPARATION** = **1** --- 常数，用于设置/获取形状在被视为分离之前与另一形状之间的最大距离。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:257
+msgid "**SPACE_PARAM_BODY_MAX_ALLOWED_PENETRATION** = **2** --- 常数，用来设置/得到一个形状在被认为碰撞之前穿透另一个形状的最大距离。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:259
+msgid "**SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD** = **3** --- 常数，用于设置/获取活跃的阈值线速度。一个被标记为线性速度和角速度都可能不活跃的物体将在给定的时间后进入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:261
+msgid "**SPACE_PARAM_BODY_ANGULAR_VELOCITY_SLEEP_THRESHOLD** = **4** --- 常数，用于设置/获取活动的阈值角速度。一个被标记为线性和角速度都可能不活跃的物体，在给定的时间后将会进入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:263
+msgid "**SPACE_PARAM_BODY_TIME_TO_SLEEP** = **5** --- 常数来设置/获得最大的活动时间。一个被标记为线速度和角速度都可能不活动的物体，在这个时间之后将被置入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:265
+msgid "**SPACE_PARAM_CONSTRAINT_DEFAULT_BIAS** = **6** --- 常数，用于设置/获取所有物理约束的默认求解器偏置。解算器偏差是一个控制两个物体在违反约束后 \"反弹 \"程度的因素，以避免由于数值不精确而使它们处于这种状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:289
+msgid "enum **ShapeType**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:291
+msgid "**SHAPE_LINE** = **0** --- 这是创建线型形状的常量。线条形状是一条具有原点和法线的无限长直线。因此，它可以被用于前后检查。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:293
+msgid "**SHAPE_RAY** = **1**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:295
+msgid "**SHAPE_SEGMENT** = **2** --- 这是创建线段形状的常量。线段形状是一条从A点到B点的线，它可以被检查交点。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:297
+msgid "**SHAPE_CIRCLE** = **3** --- 这是创建圆形的常量。一个圆的形状只有一个半径。它可以用于交点和内/外侧检查。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:299
+msgid "**SHAPE_RECTANGLE** = **4** --- 这是用于创建矩形形状的常量。矩形形状是由宽度和高度定义的。它可以用于交点和内/外侧检查。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:301
+msgid "**SHAPE_CAPSULE** = **5** --- 这是创建胶囊形状的常量。一个胶囊形状由一个半径和一个长度定义。它可以用于交点和内/外侧检查。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:303
+msgid "**SHAPE_CONVEX_POLYGON** = **6** --- 这是用于创建凸多边形的常量。一个多边形是由一个点的列表定义的。它可以用于交点和内/外侧检查。与\\ :ref:`CollisionPolygon2D.polygon<class_CollisionPolygon2D_property_polygon>`\\ 属性不同，用\\ :ref:`shape_set_data<class_Physics2DServer_method_shape_set_data>`\\ 修改的多边形并不验证所提供的点的形式是一个凸形多边形。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:305
+msgid "**SHAPE_CONCAVE_POLYGON** = **7** --- 这是创建凹形多边形的常量。一个多边形是由一个点的列表定义的。它可以用于交叉点检查，但不能用于内/外侧检查。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:307
+msgid "**SHAPE_CUSTOM** = **8** --- 这个常数是由引擎内部使用的。任何试图创建这种形状的行为都会导致错误。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:329
+msgid "enum **AreaParameter**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:331
+msgid "**AREA_PARAM_GRAVITY** = **0** --- 在一个地区设置/获得重力强度的常数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:333
+msgid "**AREA_PARAM_GRAVITY_VECTOR** = **1** --- 在一个区域内设置/获取重力向量/中心的常数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:335
+msgid "**AREA_PARAM_GRAVITY_IS_POINT** = **2** --- 常数用于设置/获取一个区域的重力向量是一个方向，还是一个中心点。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:337
+msgid "**AREA_PARAM_GRAVITY_DISTANCE_SCALE** = **3** --- 常数，用于设置/获取一个区域的点重力的衰减系数。这个值越大，重力的强度随着距离的平方下降得越快。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:339
+msgid "**AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被\\ :ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_Physics2DServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\\ 所取代了。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:341
+msgid "**AREA_PARAM_LINEAR_DAMP** = **5** --- 常数，用于设置/获取一个区域的线性阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:343
+msgid "**AREA_PARAM_ANGULAR_DAMP** = **6** --- 常数，用于设置/获取一个区域的角度阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:345
+msgid "**AREA_PARAM_PRIORITY** = **7** --- 常数，用于设置/获取一个区域的优先级（处理顺序）。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:361
+msgid "enum **AreaSpaceOverrideMode**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:363
+msgid "**AREA_SPACE_OVERRIDE_DISABLED** = **0** --- 这个区域不影响重力/阻尼。这些一般都是只存在于检测碰撞的区域，以及进入或离开它们的物体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:365
+msgid "**AREA_SPACE_OVERRIDE_COMBINE** = **1** --- 此区域把它的重力/阻尼加到目前已经计算过的对象上。这样一来，许多重叠的区域可以结合它们的物理运算来产生有趣的效果。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:367
+msgid "**AREA_SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- 这个区域把它的重力/阻尼加到迄今为止已经计算出来的任何东西上。然后停止考虑其余的区域，甚至默认的区域。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:369
+msgid "**AREA_SPACE_OVERRIDE_REPLACE** = **3** --- 这个区域取代了任何重力/阻尼，甚至是默认的，并停止考虑其余的区域。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:371
+msgid "**AREA_SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- 这个区域取代了到目前为止计算的任何重力/阻尼，但继续计算其余的区域，直到默认的区域。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:385
+msgid "enum **BodyMode**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:387
+msgid "**BODY_MODE_STATIC** = **0** --- StaticBody 的常量。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:389
+msgid "**BODY_MODE_KINEMATIC** = **1** --- KinematicBody 的常数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:391
+msgid "**BODY_MODE_RIGID** = **2** --- RigidBody 的常数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:393
+msgid "**BODY_MODE_CHARACTER** = **3** --- 角色模式下刚体的常数。在这种模式下，物体不能旋转，只有它的线速度受物理运算影响。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:415
+msgid "enum **BodyParameter**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:417
+msgid "**BODY_PARAM_BOUNCE** = **0** --- 常数，用于设置/获取物体的反弹系数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:419
+msgid "**BODY_PARAM_FRICTION** = **1** --- 常数，用于设置/获取一个物体的摩擦力。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:421
+msgid "**BODY_PARAM_MASS** = **2** --- 设置/获取一个物体的质量的常数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:423
+msgid "**BODY_PARAM_INERTIA** = **3** --- 常数，用于设置/获取一个物体的惯性。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:425
+msgid "**BODY_PARAM_GRAVITY_SCALE** = **4** --- 常数，用于设置/获取一个物体的重力倍数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:427
+msgid "**BODY_PARAM_LINEAR_DAMP** = **5** --- 常数，用于设置/获取一个物体的线性阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:429
+msgid "**BODY_PARAM_ANGULAR_DAMP** = **6** --- 常数，用于设置/获取一个物体的角度阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:431
+msgid "**BODY_PARAM_MAX** = **7** --- 表示\\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:447
+msgid "enum **BodyState**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:449
+msgid "**BODY_STATE_TRANSFORM** = **0** --- 常数，用于设置/获取物体的当前变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:451
+msgid "**BODY_STATE_LINEAR_VELOCITY** = **1** --- 常数，用于设置/获取物体的当前线速度。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:453
+msgid "**BODY_STATE_ANGULAR_VELOCITY** = **2** --- 常数，用于设置/获取物体的当前角速度。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:455
+msgid "**BODY_STATE_SLEEPING** = **3** --- 常数，用于使物体沉睡/唤醒，或得到它是否在沉睡。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:457
+msgid "**BODY_STATE_CAN_SLEEP** = **4** --- 常量，用于设置/获取物体是否可以休眠。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:469
+msgid "enum **JointType**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:471
+msgid "**JOINT_PIN** = **0** --- 常数，用于创造针状关节。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:473
+msgid "**JOINT_GROOVE** = **1** --- 常数，用于创造槽型关节。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:475
+msgid "**JOINT_DAMPED_SPRING** = **2** --- 常数，用于创造有阻尼的弹簧关节。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:487
+msgid "enum **JointParam**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:489
+msgid "**JOINT_PARAM_BIAS** = **0**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:491
+msgid "**JOINT_PARAM_MAX_BIAS** = **1**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:493
+msgid "**JOINT_PARAM_MAX_FORCE** = **2**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:505
+msgid "enum **DampedStringParam**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:507
+msgid "**DAMPED_STRING_REST_LENGTH** = **0** --- 设定弹簧关节的静止长度。当拉开时，关节将总是试图回到这个长度。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:509
+msgid "**DAMPED_STRING_STIFFNESS** = **1** --- 设置弹簧接头的刚度。该关节施加的力等于刚度乘以离其静止长度的距离。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:511
+msgid "**DAMPED_STRING_DAMPING** = **2** --- 设置弹簧接头的阻尼比率。值为0表示无阻尼弹簧，而1导致系统尽可能快地达到平衡（临界阻尼）。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:523
+msgid "enum **CCDMode**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:525
+msgid "**CCD_MODE_DISABLED** = **0** --- 禁用连续碰撞检测。这是检测物体碰撞的最快方法，但可能会错过小的、快速移动的物体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:527
+msgid "**CCD_MODE_CAST_RAY** = **1** --- 通过射线投射实现连续的碰撞检测。它比shapecasting更快，但不够精确。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:529
+msgid "**CCD_MODE_CAST_SHAPE** = **2** --- 通过形变实现连续的碰撞检测。它是最慢的CCD方法，也是最精确的。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:539
+msgid "enum **AreaBodyStatus**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:541
+msgid "**AREA_BODY_ADDED** = **0** --- 当对象进入其形状之一时，第一个参数和区域回调函数接收的值。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:543
+msgid "**AREA_BODY_REMOVED** = **1** --- 当对象退出其形状之一时，第一个参数和区域回调函数接收的值。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:555
+msgid "enum **ProcessInfo**:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:557
+msgid "**INFO_ACTIVE_OBJECTS** = **0** --- 常量，用来获取未处于睡眠状态的对象的数量。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:559
+msgid "**INFO_COLLISION_PAIRS** = **1** --- 常数，用以获取可能的碰撞数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:561
+msgid "**INFO_ISLAND_COUNT** = **2** --- 常量，用以获取可能发生碰撞的空间区域数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:564
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:568
+msgid "void **area_add_shape** **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` shape, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:570
+msgid "向区域添加一个形状，以及一个变换矩阵。形状通常通过它们的索引来引用，因此您应该跟踪哪个形状具有给定的索引。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:576
+msgid "void **area_attach_canvas_instance_id** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:582
+msgid "void **area_attach_object_instance_id** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:584
+#: ../classes/class_physics2dserver.rst:850
+msgid "将区域分配给\\ :ref:`Object<class_Object>`\\ 的子类，因此它可以存在于节点树中。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:590
+msgid "void **area_clear_shapes** **(** :ref:`RID<class_RID>` area **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:592
+msgid "从一个区域移除所有形状。它不会删除形状，因此它们可以稍后重新分配。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:598
+msgid ":ref:`RID<class_RID>` **area_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:600
+msgid "创建一个 :ref:`Area2D<class_Area2D>`\\ 。用这个方法创建了一个\\ :ref:`Area2D<class_Area2D>`\\ 后，使用\\ :ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\\ 将其分配给一个空间，以便在物理世界中使用创建的\\ :ref:`Area2D<class_Area2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:606
+msgid ":ref:`int<class_int>` **area_get_canvas_instance_id** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:612
+msgid ":ref:`int<class_int>` **area_get_object_instance_id** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:614
+#: ../classes/class_physics2dserver.rst:928
+msgid "获取区域分配给的对象的实例ID。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:620
+msgid ":ref:`Variant<class_Variant>` **area_get_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:622
+msgid "返回区域参数值。有关可用参数的列表，请参阅\\ :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:628
+msgid ":ref:`RID<class_RID>` **area_get_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:630
+msgid "返回区域的第n个形状的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:636
+msgid ":ref:`int<class_int>` **area_get_shape_count** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:638
+msgid "返回分配给区域的形状数量。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:644
+msgid ":ref:`Transform2D<class_Transform2D>` **area_get_shape_transform** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:646
+msgid "返回区域内形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:652
+msgid ":ref:`RID<class_RID>` **area_get_space** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:654
+msgid "返回分配给该区域的空间。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:660
+msgid ":ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>` **area_get_space_override_mode** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:662
+msgid "返回该区域的空间覆盖模式。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:668
+msgid ":ref:`Transform2D<class_Transform2D>` **area_get_transform** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:670
+msgid "返回区域的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:676
+msgid "void **area_remove_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:678
+msgid "从区域中移除一个形状。它不会删除形状，因此可以稍后重新分配。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:684
+msgid "void **area_set_area_monitor_callback** **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:690
+msgid "void **area_set_collision_layer** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:692
+msgid "将区域分配给一个或多个物理层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:698
+msgid "void **area_set_collision_mask** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:700
+msgid "设置区域将监控的物理层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:706
+msgid "void **area_set_monitor_callback** **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:708
+msgid "设置当任何主体/区域进入或退出该区域时调用的函数。这个回调函数将被任何与区域交互的对象调用，并接受5个参数:"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:710
+msgid "1: :ref:`AREA_BODY_ADDED<class_Physics2DServer_constant_AREA_BODY_ADDED>`\\ 或\\ :ref:`AREA_BODY_REMOVED<class_Physics2DServer_constant_AREA_BODY_REMOVED>`\\ ，取决于对象是否进入或退出该区域。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:712
+msgid "2:进入/退出该区域对象的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:714
+msgid "3:进入/退出该区域对象的实例ID。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:716
+msgid "4:进入/离开该区域的物体的形状指数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:718
+msgid "5:物体进入/离开区域的形状指数。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:724
+msgid "void **area_set_monitorable** **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` monitorable **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:730
+msgid "void **area_set_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:732
+msgid "设置区域参数的值。有关可用参数的列表，请参阅 :ref:`AreaParameter<enum_Physics2DServer_AreaParameter>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:738
+msgid "void **area_set_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:740
+msgid "用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的\\ :ref:`RID<class_RID>`\\ 选择。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:746
+msgid "void **area_set_shape_disabled** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:748
+msgid "在区域中禁用一个给定的形状。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:754
+msgid "void **area_set_shape_transform** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:756
+msgid "设置区域形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:762
+msgid "void **area_set_space** **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:764
+msgid "为该区域指定一个空间。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:770
+msgid "void **area_set_space_override_mode** **(** :ref:`RID<class_RID>` area, :ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:772
+msgid "为该区域设置空间覆盖模式。请参阅\\ :ref:`AreaSpaceOverrideMode<enum_Physics2DServer_AreaSpaceOverrideMode>`\\ 获取可用模式的列表。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:778
+msgid "void **area_set_transform** **(** :ref:`RID<class_RID>` area, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:780
+msgid "设置区域的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:786
+msgid "void **body_add_central_force** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:792
+msgid "void **body_add_collision_exception** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:794
+msgid "将一个物体添加到免于碰撞的物体列表中。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:800
+msgid "void **body_add_force** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` offset, :ref:`Vector2<class_Vector2>` force **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:802
+msgid "在施加的力和扭矩上添加一个有作用点的力。与\\ :ref:`body_apply_impulse<class_Physics2DServer_method_body_apply_impulse>`\\ 一样，力和物体原点的偏移量都在全局坐标中。力与冲量的不同之处在于，虽然两者都是力，但冲量在被施加后会自动清除。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:808
+msgid "void **body_add_shape** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` shape, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:810
+msgid "添加一个形状到物体，以及一个变换矩阵。形状通常通过它们的索引来引用，因此您应该跟踪哪个形状具有给定的索引。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:816
+msgid "void **body_add_torque** **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:822
+msgid "void **body_apply_central_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:828
+msgid "void **body_apply_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` position, :ref:`Vector2<class_Vector2>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:830
+msgid "在施加的力和扭矩上增加一个有作用点的冲量。力和物体原点的偏移量都在全局坐标中。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:836
+msgid "void **body_apply_torque_impulse** **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:842
+msgid "void **body_attach_canvas_instance_id** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:848
+msgid "void **body_attach_object_instance_id** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:856
+msgid "void **body_clear_shapes** **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:858
+msgid "从物体上移除所有碰撞形状。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:864
+msgid ":ref:`RID<class_RID>` **body_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:866
+msgid "创建一个物理体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:872
+msgid ":ref:`int<class_int>` **body_get_canvas_instance_id** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:878
+msgid ":ref:`int<class_int>` **body_get_collision_layer** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:880
+msgid "返回物体所属的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:886
+msgid ":ref:`int<class_int>` **body_get_collision_mask** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:888
+msgid "返回物体可以碰撞的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:894
+msgid ":ref:`CCDMode<enum_Physics2DServer_CCDMode>` **body_get_continuous_collision_detection_mode** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:896
+msgid "返回连续碰撞检测模式。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:902
+msgid ":ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>` **body_get_direct_state** **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:904
+msgid "返回物体的 :ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>`\\ 。如果该物体已被销毁或者已被移出物理空间，则返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:910
+msgid ":ref:`int<class_int>` **body_get_max_contacts_reported** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:912
+msgid "返回可报告的最大接触数。参阅\\ :ref:`body_set_max_contacts_reported<class_Physics2DServer_method_body_set_max_contacts_reported>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:918
+msgid ":ref:`BodyMode<enum_Physics2DServer_BodyMode>` **body_get_mode** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:920
+msgid "返回物体模式。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:926
+msgid ":ref:`int<class_int>` **body_get_object_instance_id** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:934
+msgid ":ref:`float<class_float>` **body_get_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:936
+msgid "返回物体参数的值。请参阅\\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\\ 获取可用参数列表。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:942
+msgid ":ref:`RID<class_RID>` **body_get_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:944
+msgid "返回body的第n个碰撞形状的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:950
+msgid ":ref:`int<class_int>` **body_get_shape_count** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:952
+msgid "返回分配给物体的碰撞形状数量。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:958
+msgid ":ref:`Variant<class_Variant>` **body_get_shape_metadata** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:960
+msgid "返回物体碰撞形状的元数据。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:966
+msgid ":ref:`Transform2D<class_Transform2D>` **body_get_shape_transform** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:968
+msgid "返回物体碰撞形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:974
+msgid ":ref:`RID<class_RID>` **body_get_space** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:976
+msgid "返回分配给物体的空间的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:982
+msgid ":ref:`Variant<class_Variant>` **body_get_state** **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_Physics2DServer_BodyState>` state **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:984
+msgid "返回物体的状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:990
+msgid ":ref:`bool<class_bool>` **body_is_omitting_force_integration** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:992
+msgid "返回一个body是否使用回调函数来计算它自己的物理值(参阅body_set_force_integration_callback方法)。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:998
+msgid "void **body_remove_collision_exception** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1000
+msgid "从免于碰撞的物体列表中移除一个物体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1006
+msgid "void **body_remove_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1008
+msgid "从物体上移除一个碰撞形状。碰撞形状不会被从内存中删除，所以它可以在之后被重复使用。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1014
+msgid "void **body_set_axis_velocity** **(** :ref:`RID<class_RID>` body, :ref:`Vector2<class_Vector2>` axis_velocity **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1016
+msgid "设置轴速度。给定向量轴上的速度将被设置为给定向量长度。这对跳跃行为很有用。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1022
+msgid "void **body_set_collision_layer** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1024
+msgid "设置物体所属的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1030
+msgid "void **body_set_collision_mask** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1032
+msgid "设置物理层或身体可以碰撞的层。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1038
+msgid "void **body_set_continuous_collision_detection_mode** **(** :ref:`RID<class_RID>` body, :ref:`CCDMode<enum_Physics2DServer_CCDMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1040
+msgid "设置使用\\ :ref:`CCDMode<enum_Physics2DServer_CCDMode>`\\ 常量之一的连续碰撞检测模式。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1042
+msgid "连续碰撞检测试图预测一个运动体将在哪里发生碰撞，而不是移动它并在它发生碰撞时纠正其运动。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1048
+msgid "void **body_set_force_integration_callback** **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1050
+msgid "设置用于物体物理运算的函数，如果该物体允许的话，参阅\\ :ref:`body_set_omit_force_integration<class_Physics2DServer_method_body_set_omit_force_integration>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1056
+msgid "void **body_set_max_contacts_reported** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` amount **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1058
+msgid "设置要报告的最大关联数。物体可以保存与其他物体的关联日志，当最大数量的关联报告的数字大于 0 时才启用此功能。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1064
+msgid "void **body_set_mode** **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_Physics2DServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1066
+msgid "使用\\ :ref:`BodyMode<enum_Physics2DServer_BodyMode>`\\ 常量之一设置body模式。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1072
+msgid "void **body_set_omit_force_integration** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1074
+msgid "设置一个物体是否使用回调函数来计算它自己的物理(参阅 :ref:`body_set_force_integration_callback<class_Physics2DServer_method_body_set_force_integration_callback>`)。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1080
+msgid "void **body_set_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1082
+msgid "设置主体参数。请参阅\\ :ref:`BodyParameter<enum_Physics2DServer_BodyParameter>`\\ 获取可用参数列表。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1088
+msgid "void **body_set_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1090
+msgid "用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其\\ :ref:`RID<class_RID>`\\ 选择的。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1096
+msgid "void **body_set_shape_as_one_way_collision** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` enable, :ref:`float<class_float>` margin **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1098
+msgid "如果\\ ``enable``\\ 为\\ ``true``\\ ，则在body上启用单向碰撞。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1104
+msgid "void **body_set_shape_disabled** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1106
+msgid "如果\\ ``disable``\\ 为\\ ``true``\\ ，则在body中禁用形状。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1112
+msgid "void **body_set_shape_metadata** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1114
+msgid "设置一个体中的形状的元数据。这个元数据与\\ :ref:`Object.set_meta<class_Object_method_set_meta>`\\ 不同，可以在形状查询中检索。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1120
+msgid "void **body_set_shape_transform** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1122
+msgid "设置物体形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1128
+msgid "void **body_set_space** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1130
+msgid "给物体分配一个空间(参阅\\ :ref:`space_create<class_Physics2DServer_method_space_create>`)。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1136
+msgid "void **body_set_state** **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_Physics2DServer_BodyState>` state, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1138
+msgid "使用 :ref:`BodyState<enum_Physics2DServer_BodyState>` 常量之一设置物体状态。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1140
+msgid "请注意，该方法不会立即生效。状态将在下一个物理帧发生变化。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1146
+msgid ":ref:`bool<class_bool>` **body_test_motion** **(** :ref:`RID<class_RID>` body, :ref:`Transform2D<class_Transform2D>` from, :ref:`Vector2<class_Vector2>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`float<class_float>` margin=0.08, :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1148
+msgid "如果从空间中的给定点沿给定方向移动会导致碰撞，则返回 ``true``\\ 。边距增加了碰撞检测中涉及的形状的大小。 通过返回\\ :ref:`Physics2DTestMotionResult<class_Physics2DTestMotionResult>` 可以附加信息。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1154
+msgid ":ref:`RID<class_RID>` **capsule_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1160
+msgid ":ref:`RID<class_RID>` **circle_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1166
+msgid ":ref:`RID<class_RID>` **concave_polygon_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1172
+msgid ":ref:`RID<class_RID>` **convex_polygon_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1178
+msgid ":ref:`RID<class_RID>` **damped_spring_joint_create** **(** :ref:`Vector2<class_Vector2>` anchor_a, :ref:`Vector2<class_Vector2>` anchor_b, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1180
+msgid "在两个体之间创建一个阻尼弹簧关节。如果没有指定，第二个体将被假定为关节本身。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1186
+msgid ":ref:`float<class_float>` **damped_string_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1188
+msgid "返回阻尼弹簧关节参数值。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1194
+msgid "void **damped_string_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1196
+msgid "设置阻尼弹簧关节参数。参阅\\ :ref:`DampedStringParam<enum_Physics2DServer_DampedStringParam>`\\ 获取可用参数的列表。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1202
+msgid "void **free_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1204
+msgid "销毁由 Physics2DServer 创建的任何对象。如果传递的 :ref:`RID<class_RID>` 不是 Physics2DServer 可以创建的对象之一，则会向控制台发送错误。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1210
+msgid ":ref:`int<class_int>` **get_process_info** **(** :ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>` process_info **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1212
+msgid "返回关于2D物理引擎当前状态的信息。有关可用状态列表，请参阅\\ :ref:`ProcessInfo<enum_Physics2DServer_ProcessInfo>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1218
+msgid ":ref:`RID<class_RID>` **groove_joint_create** **(** :ref:`Vector2<class_Vector2>` groove1_a, :ref:`Vector2<class_Vector2>` groove2_a, :ref:`Vector2<class_Vector2>` anchor_b, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1220
+msgid "在两个物体之间形成凹槽连接。如果没有指定，则假定物体是关节本身。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1226
+msgid ":ref:`float<class_float>` **joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`JointParam<enum_Physics2DServer_JointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1228
+msgid "返回关节参数的值。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1234
+msgid ":ref:`JointType<enum_Physics2DServer_JointType>` **joint_get_type** **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1236
+msgid "返回一个关节的类型（见\\ :ref:`JointType<enum_Physics2DServer_JointType>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1242
+msgid "void **joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`JointParam<enum_Physics2DServer_JointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1244
+msgid "设置关节参数。有关可用参数的列表，请参阅\\ :ref:`JointParam<enum_Physics2DServer_JointParam>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1250
+msgid ":ref:`RID<class_RID>` **line_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1256
+msgid ":ref:`RID<class_RID>` **pin_joint_create** **(** :ref:`Vector2<class_Vector2>` anchor, :ref:`RID<class_RID>` body_a, :ref:`RID<class_RID>` body_b **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1258
+msgid "在两个体之间创建一个针状关节。如果没有指定，第二个物体将被假定为关节本身。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1264
+msgid ":ref:`RID<class_RID>` **ray_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1270
+msgid ":ref:`RID<class_RID>` **rectangle_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1276
+msgid ":ref:`RID<class_RID>` **segment_shape_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1282
+msgid "void **set_active** **(** :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1284
+msgid "激活或停用2D物理引擎。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1290
+msgid "void **set_collision_iterations** **(** :ref:`int<class_int>` iterations **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1292
+msgid "设置计算碰撞体速度的迭代次数。迭代次数越多，碰撞就越准确。但是，更大量的迭代需要更多的 CPU 能力，这会降低性能。默认值为 ``8``\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1298
+msgid ":ref:`Variant<class_Variant>` **shape_get_data** **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1300
+msgid "返回形状数据。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1306
+msgid ":ref:`ShapeType<enum_Physics2DServer_ShapeType>` **shape_get_type** **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1308
+msgid "返回一个形状的类型(参阅\\ :ref:`ShapeType<enum_Physics2DServer_ShapeType>`)。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1314
+msgid "void **shape_set_data** **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1316
+msgid "设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型\\ :ref:`shape_get_type<class_Physics2DServer_method_shape_get_type>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1322
+msgid ":ref:`RID<class_RID>` **space_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1324
+msgid "创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过\\ :ref:`area_set_space<class_Physics2DServer_method_area_set_space>`\\ 分配给一个区域，或者通过\\ :ref:`body_set_space<class_Physics2DServer_method_body_set_space>`\\ 分配给一个主体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1330
+msgid ":ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>` **space_get_direct_state** **(** :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1332
+msgid "返回空间的状态，\\ :ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>`\\ 。此对象可用于进行碰撞/相交查询。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1338
+msgid ":ref:`float<class_float>` **space_get_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1340
+msgid "返回空间参数的值。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1346
+msgid ":ref:`bool<class_bool>` **space_is_active** **(** :ref:`RID<class_RID>` space **)** |const|"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1348
+msgid "返回该空间是否是活动的。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1354
+msgid "void **space_set_active** **(** :ref:`RID<class_RID>` space, :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1356
+msgid "将空间标记为活动空间。它不会有效果，除非它被分配到一个区域或物体。"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1362
+msgid "void **space_set_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physics2dserver.rst:1364
+msgid "设置空间参数的值。参阅\\ :ref:`SpaceParameter<enum_Physics2DServer_SpaceParameter>`\\ 获取可用参数列表。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

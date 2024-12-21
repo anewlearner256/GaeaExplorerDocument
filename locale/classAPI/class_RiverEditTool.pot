@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_RiverEditTool.rst:2
+msgid "RiverEditTool"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:7
+msgid "河道编辑工具"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:16
+msgid "RiverEditOperateOption"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:16
+msgid "OperateItem"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:18
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:18
+msgid "StepLength"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:20
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:20
+msgid "StepProportion"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:22
+#: ../classAPI/class_RiverEditTool.rst:24
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:22
+msgid "SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:24
+msgid "CutLineColor"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:26
+msgid "Texture"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:26
+msgid "SetIconTexture"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:30
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:33
+msgid "PolygonGeometryElement[]"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:33
+msgid "GetAllPolygonElement()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:35
+msgid "PolygonGeometryElement"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:35
+msgid "GetSelectedPolygonElement()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:37
+#: ../classAPI/class_RiverEditTool.rst:39
+#: ../classAPI/class_RiverEditTool.rst:43
+#: ../classAPI/class_RiverEditTool.rst:45
+#: ../classAPI/class_RiverEditTool.rst:47
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:37
+msgid "OnMouseDown(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:39
+msgid "OnMouseMove(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:41
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:41
+msgid "OnMouseDoubleClick(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:43
+msgid "ClosePolygonMouseEvent()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:45
+msgid "TurnOnPolygonMouseEvent()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:47
+msgid "AddPolygonGeomtryElement(PolygonGeometryElement p,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:51
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:53
+msgid "RiverEditOperateOption OperateItem"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:56
+#: ../classAPI/class_RiverEditTool.rst:67
+#: ../classAPI/class_RiverEditTool.rst:78
+#: ../classAPI/class_RiverEditTool.rst:89
+#: ../classAPI/class_RiverEditTool.rst:100
+#: ../classAPI/class_RiverEditTool.rst:111
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:60
+msgid "传递操作"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:64
+msgid "Int32 StepLength"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:71
+msgid "插值步长（插入多少个点），默认为1"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:75
+msgid "Single StepProportion"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:82
+msgid "插值公差，"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:86
+msgid "Color SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:93
+msgid "选中线的颜色，默认为Color(241f / 255f, 20f / 255f, 255f / 255f)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:97
+msgid "Color CutLineColor"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:104
+msgid "切割线的时候射线的颜色"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:108
+msgid "Texture SetIconTexture"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:115
+msgid "图标点的纹理"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:121
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:123
+msgid "PolygonGeometryElement[] GetAllPolygonElement()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:129
+msgid "PolygonGeometryElement GetSelectedPolygonElement()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:135
+msgid "Void OnMouseDown(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:141
+msgid "Void OnMouseMove(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:147
+msgid "Boolean OnMouseDoubleClick(Vector2 screenpos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:153
+msgid "Void ClosePolygonMouseEvent()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:159
+msgid "Void TurnOnPolygonMouseEvent()"
+msgstr ""
+
+#: ../classAPI/class_RiverEditTool.rst:165
+msgid "Void AddPolygonGeomtryElement(PolygonGeometryElement p,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

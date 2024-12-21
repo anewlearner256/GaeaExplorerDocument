@@ -1,0 +1,386 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_scenestate.rst:10
+msgid "SceneState"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:14
+msgid "场景文件数据的脚本接口。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:19
+msgid "维护一个与场景相关的资源、节点、导出的和重写的属性以及内置脚本的列表。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:21
+msgid "这个类不能直接实例化，它是作为\\ :ref:`PackedScene.get_state<class_PackedScene_method_get_state>`\\ 的结果为一个给定的场景检索的。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:27
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:27
+msgid ":ref:`get_connection_binds<class_SceneState_method_get_connection_binds>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:29
+#: ../classes/class_scenestate.rst:31
+#: ../classes/class_scenestate.rst:41
+#: ../classes/class_scenestate.rst:45
+#: ../classes/class_scenestate.rst:57
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:29
+msgid ":ref:`get_connection_count<class_SceneState_method_get_connection_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:31
+msgid ":ref:`get_connection_flags<class_SceneState_method_get_connection_flags>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:33
+#: ../classes/class_scenestate.rst:35
+#: ../classes/class_scenestate.rst:49
+#: ../classes/class_scenestate.rst:51
+#: ../classes/class_scenestate.rst:59
+#: ../classes/class_scenestate.rst:63
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:33
+msgid ":ref:`get_connection_method<class_SceneState_method_get_connection_method>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:35
+msgid ":ref:`get_connection_signal<class_SceneState_method_get_connection_signal>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:37
+#: ../classes/class_scenestate.rst:39
+#: ../classes/class_scenestate.rst:53
+#: ../classes/class_scenestate.rst:55
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:37
+msgid ":ref:`get_connection_source<class_SceneState_method_get_connection_source>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:39
+msgid ":ref:`get_connection_target<class_SceneState_method_get_connection_target>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:41
+msgid ":ref:`get_node_count<class_SceneState_method_get_node_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:43
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:43
+msgid ":ref:`get_node_groups<class_SceneState_method_get_node_groups>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:45
+msgid ":ref:`get_node_index<class_SceneState_method_get_node_index>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:47
+msgid ":ref:`PackedScene<class_PackedScene>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:47
+msgid ":ref:`get_node_instance<class_SceneState_method_get_node_instance>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:49
+msgid ":ref:`get_node_instance_placeholder<class_SceneState_method_get_node_instance_placeholder>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:51
+msgid ":ref:`get_node_name<class_SceneState_method_get_node_name>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:53
+msgid ":ref:`get_node_owner_path<class_SceneState_method_get_node_owner_path>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:55
+msgid ":ref:`get_node_path<class_SceneState_method_get_node_path>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` for_parent=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:57
+msgid ":ref:`get_node_property_count<class_SceneState_method_get_node_property_count>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:59
+msgid ":ref:`get_node_property_name<class_SceneState_method_get_node_property_name>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:61
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:61
+msgid ":ref:`get_node_property_value<class_SceneState_method_get_node_property_value>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:63
+msgid ":ref:`get_node_type<class_SceneState_method_get_node_type>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:65
+msgid ":ref:`is_node_instance_placeholder<class_SceneState_method_is_node_instance_placeholder>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:69
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:81
+msgid "enum **GenEditState**:"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:83
+msgid "**GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给\\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`\\ ，则阻止对场景状态的编辑。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:85
+msgid "**GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给\\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`\\ ，提供继承的场景资源给本地场景。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:87
+#: ../classes/class_scenestate.rst:91
+msgid "\\ **注意：** 只在编辑器构建中可用。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:89
+msgid "**GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给\\ :ref:`PackedScene.instance<class_PackedScene_method_instance>`\\ ，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:93
+msgid "**GEN_EDIT_STATE_MAIN_INHERITED** = **3** --- If passed to :ref:`PackedScene.instance<class_PackedScene_method_instance>`, it's similar to :ref:`GEN_EDIT_STATE_MAIN<class_SceneState_constant_GEN_EDIT_STATE_MAIN>`, but for the case where the scene is being instantiated to be the base of another one."
+msgstr ""
+
+#: ../classes/class_scenestate.rst:95
+msgid "\\ **Note:** Only available in editor builds."
+msgstr ""
+
+#: ../classes/class_scenestate.rst:98
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:102
+msgid ":ref:`Array<class_Array>` **get_connection_binds** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:104
+msgid "返回 ``idx`` 处信号的绑定参数列表。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:110
+msgid ":ref:`int<class_int>` **get_connection_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:112
+msgid "返回场景中的信号连接数。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:114
+msgid "用于查询其他\\ ``get_connection_*``\\ 方法中的连接元数据的\\ ``idx``\\ 参数，其间隔时间为\\ ``[0, get_connection_count() - 1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:120
+msgid ":ref:`int<class_int>` **get_connection_flags** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:122
+msgid "返回\\ ``idx``\\ 处的信号的连接标志。参阅\\ :ref:`ConnectFlags<enum_Object_ConnectFlags>`\\ 常数。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:128
+msgid ":ref:`String<class_String>` **get_connection_method** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:130
+msgid "返回连接到\\ ``idx``\\ 处信号的方法。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:136
+msgid ":ref:`String<class_String>` **get_connection_signal** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:138
+msgid "返回 ``idx`` 处的信号名称。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:144
+msgid ":ref:`NodePath<class_NodePath>` **get_connection_source** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:146
+msgid "返回拥有\\ ``idx``\\ 处信号的节点的相对于根节点的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:152
+msgid ":ref:`NodePath<class_NodePath>` **get_connection_target** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:154
+msgid "返回到拥有连接到 ``idx`` 处的信号的方法的节点的相对于根节点的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:160
+msgid ":ref:`int<class_int>` **get_node_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:162
+msgid "返回场景中节点的数量。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:164
+msgid "\\ ``idx``\\ 参数用于在其他\\ ``get_node_*``\\ 方法中查询节点数据，其间隔为\\ ``[0, get_node_count() - 1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:170
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_node_groups** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:172
+msgid "返回与 ``idx`` 处的节点关联的组名列表。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:178
+msgid ":ref:`int<class_int>` **get_node_index** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:180
+msgid "返回节点的索引，即它相对于其兄弟节点的位置。这仅在将新节点添加到基础场景的兄弟节点之间的实例化或继承场景中的情况下，才关联并保存在场景中。尽管名称如此，但该索引与此处和其他方法中使用的 ``idx`` 参数无关。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:186
+msgid ":ref:`PackedScene<class_PackedScene>` **get_node_instance** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:188
+msgid "返回\\ ``idx``\\ 处的节点的\\ :ref:`PackedScene<class_PackedScene>`\\ （即从该节点开始的整个分支，包括其子节点和资源），如果该节点不是一个实例，则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:194
+msgid ":ref:`String<class_String>` **get_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:196
+msgid "如果\\ ``idx``\\ 处的节点是一个\\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`\\ ，返回所代表的场景文件的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:202
+msgid ":ref:`String<class_String>` **get_node_name** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:204
+msgid "返回\\ ``idx``\\ 处的节点名称。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:210
+msgid ":ref:`NodePath<class_NodePath>` **get_node_owner_path** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:212
+msgid "返回相对于根节点的 在\\ ``idx`` 处节点的所有者的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:218
+msgid ":ref:`NodePath<class_NodePath>` **get_node_path** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` for_parent=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:220
+msgid "返回\\ ``idx``\\ 处的节点的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:222
+msgid "如果\\ ``for_parent``\\ 是\\ ``true``\\ ，则返回\\ ``idx``\\ 节点的父节点的路径。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:228
+msgid ":ref:`int<class_int>` **get_node_property_count** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:230
+msgid "返回节点在 ``idx`` 处导出或覆盖的属性数。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:232
+msgid "\\ ``prop_idx`` 参数用于在区间 ``[0, get_node_property_count() - 1]`` 的其他 ``get_node_property_*`` 方法中查询节点属性数据。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:238
+msgid ":ref:`String<class_String>` **get_node_property_name** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:240
+msgid "返回\\ ``prop_idx``\\ 处的属性名称，用于\\ ``idx``\\ 处的节点。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:246
+msgid ":ref:`Variant<class_Variant>` **get_node_property_value** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:248
+msgid "返回 ``idx`` 节点的 ``prop_idx`` 属性值。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:254
+msgid ":ref:`String<class_String>` **get_node_type** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:256
+msgid "返回\\ ``idx``\\ 处节点的类型。"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:262
+msgid ":ref:`bool<class_bool>` **is_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_scenestate.rst:264
+msgid "如果\\ ``idx``\\ 处的节点是一个\\ :ref:`InstancePlaceholder<class_InstancePlaceholder>`\\ ，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

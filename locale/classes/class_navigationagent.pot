@@ -1,0 +1,688 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_navigationagent.rst:11
+msgid "NavigationAgent"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:13
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:15
+msgid "3D agent used in navigation for collision avoidance."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:20
+msgid "3D agent that is used in navigation to reach a location while avoiding static and dynamic obstacles. The dynamic obstacles are avoided using RVO (Reciprocal Velocity Obstacles) collision avoidance. The agent needs navigation data to work correctly. By default this node will register to the default :ref:`World<class_World>` navigation map. If this node is a child of a :ref:`Navigation<class_Navigation>` node it will register to the navigation map of the navigation node or the function :ref:`set_navigation<class_NavigationAgent_method_set_navigation>` can be used to set the navigation node directly. ``NavigationAgent`` is physics safe."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:22
+msgid "\\ **Note:** After :ref:`set_target_location<class_NavigationAgent_method_set_target_location>` is used it is required to use the :ref:`get_next_location<class_NavigationAgent_method_get_next_location>` function once every physics frame to update the internal path logic of the NavigationAgent. The returned vector position from this function should be used as the next movement position for the agent's parent Node."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:24
+msgid "\\ **Note:** By default, the expensive calculations for avoidance are done in a thread. In HTML5 exports without thread support, they will be done on the main thread, which can lead to performance issues."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:30
+#: ../classes/class_navigationagent.rst:38
+#: ../classes/class_navigationagent.rst:42
+#: ../classes/class_navigationagent.rst:44
+#: ../classes/class_navigationagent.rst:46
+#: ../classes/class_navigationagent.rst:48
+#: ../classes/class_navigationagent.rst:50
+#: ../classes/class_navigationagent.rst:52
+#: ../classes/class_navigationagent.rst:59
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:30
+msgid ":ref:`agent_height_offset<class_NavigationAgent_property_agent_height_offset>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:30
+#: ../classes/class_navigationagent.rst:133
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:32
+#: ../classes/class_navigationagent.rst:34
+#: ../classes/class_navigationagent.rst:77
+#: ../classes/class_navigationagent.rst:79
+#: ../classes/class_navigationagent.rst:81
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:32
+msgid ":ref:`avoidance_enabled<class_NavigationAgent_property_avoidance_enabled>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:32
+#: ../classes/class_navigationagent.rst:149
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:34
+msgid ":ref:`ignore_y<class_NavigationAgent_property_ignore_y>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:34
+#: ../classes/class_navigationagent.rst:165
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:36
+#: ../classes/class_navigationagent.rst:40
+#: ../classes/class_navigationagent.rst:65
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:36
+msgid ":ref:`max_neighbors<class_NavigationAgent_property_max_neighbors>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:36
+#: ../classes/class_navigationagent.rst:181
+msgid "``10``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:38
+msgid ":ref:`max_speed<class_NavigationAgent_property_max_speed>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:38
+#: ../classes/class_navigationagent.rst:197
+msgid "``10.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:40
+msgid ":ref:`navigation_layers<class_NavigationAgent_property_navigation_layers>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:40
+#: ../classes/class_navigationagent.rst:213
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:42
+msgid ":ref:`neighbor_dist<class_NavigationAgent_property_neighbor_dist>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:42
+#: ../classes/class_navigationagent.rst:229
+msgid "``50.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:44
+msgid ":ref:`path_desired_distance<class_NavigationAgent_property_path_desired_distance>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:44
+#: ../classes/class_navigationagent.rst:48
+#: ../classes/class_navigationagent.rst:50
+#: ../classes/class_navigationagent.rst:245
+#: ../classes/class_navigationagent.rst:277
+#: ../classes/class_navigationagent.rst:295
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:46
+msgid ":ref:`path_max_distance<class_NavigationAgent_property_path_max_distance>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:46
+#: ../classes/class_navigationagent.rst:261
+msgid "``3.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:48
+msgid ":ref:`radius<class_NavigationAgent_property_radius>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:50
+msgid ":ref:`target_desired_distance<class_NavigationAgent_property_target_desired_distance>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:52
+msgid ":ref:`time_horizon<class_NavigationAgent_property_time_horizon>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:52
+#: ../classes/class_navigationagent.rst:311
+msgid "``5.0``"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:56
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:59
+msgid ":ref:`distance_to_target<class_NavigationAgent_method_distance_to_target>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:61
+#: ../classes/class_navigationagent.rst:71
+#: ../classes/class_navigationagent.rst:75
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:61
+msgid ":ref:`get_final_location<class_NavigationAgent_method_get_final_location>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:63
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:63
+msgid ":ref:`get_nav_path<class_NavigationAgent_method_get_nav_path>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:65
+msgid ":ref:`get_nav_path_index<class_NavigationAgent_method_get_nav_path_index>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:67
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:67
+msgid ":ref:`get_navigation<class_NavigationAgent_method_get_navigation>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:69
+#: ../classes/class_navigationagent.rst:73
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:69
+msgid ":ref:`get_navigation_map<class_NavigationAgent_method_get_navigation_map>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:71
+msgid ":ref:`get_next_location<class_NavigationAgent_method_get_next_location>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:73
+msgid ":ref:`get_rid<class_NavigationAgent_method_get_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:75
+msgid ":ref:`get_target_location<class_NavigationAgent_method_get_target_location>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:77
+msgid ":ref:`is_navigation_finished<class_NavigationAgent_method_is_navigation_finished>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:79
+msgid ":ref:`is_target_reachable<class_NavigationAgent_method_is_target_reachable>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:81
+msgid ":ref:`is_target_reached<class_NavigationAgent_method_is_target_reached>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:83
+#: ../classes/class_navigationagent.rst:85
+#: ../classes/class_navigationagent.rst:87
+#: ../classes/class_navigationagent.rst:89
+msgid "void"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:83
+msgid ":ref:`set_navigation<class_NavigationAgent_method_set_navigation>` **(** :ref:`Node<class_Node>` navigation **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:85
+msgid ":ref:`set_navigation_map<class_NavigationAgent_method_set_navigation_map>` **(** :ref:`RID<class_RID>` navigation_map **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:87
+msgid ":ref:`set_target_location<class_NavigationAgent_method_set_target_location>` **(** :ref:`Vector3<class_Vector3>` location **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:89
+msgid ":ref:`set_velocity<class_NavigationAgent_method_set_velocity>` **(** :ref:`Vector3<class_Vector3>` velocity **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:93
+msgid "Signals"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:97
+msgid "**navigation_finished** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:99
+msgid "Notifies when the final location is reached."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:105
+msgid "**path_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:107
+msgid "Notifies when the navigation path changes. This can be triggered by the navigation system or by the user changing the path."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:113
+msgid "**target_reached** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:115
+msgid "Notifies when the player-defined target, set with :ref:`set_target_location<class_NavigationAgent_method_set_target_location>`, is reached."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:121
+msgid "**velocity_computed** **(** :ref:`Vector3<class_Vector3>` safe_velocity **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:123
+msgid "Notifies when the collision avoidance velocity is calculated after a call to :ref:`set_velocity<class_NavigationAgent_method_set_velocity>`. Only emitted when :ref:`avoidance_enabled<class_NavigationAgent_property_avoidance_enabled>` is true."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:126
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:130
+msgid ":ref:`float<class_float>` **agent_height_offset**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:133
+#: ../classes/class_navigationagent.rst:149
+#: ../classes/class_navigationagent.rst:165
+#: ../classes/class_navigationagent.rst:181
+#: ../classes/class_navigationagent.rst:197
+#: ../classes/class_navigationagent.rst:213
+#: ../classes/class_navigationagent.rst:229
+#: ../classes/class_navigationagent.rst:245
+#: ../classes/class_navigationagent.rst:261
+#: ../classes/class_navigationagent.rst:277
+#: ../classes/class_navigationagent.rst:295
+#: ../classes/class_navigationagent.rst:311
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:135
+#: ../classes/class_navigationagent.rst:151
+#: ../classes/class_navigationagent.rst:167
+#: ../classes/class_navigationagent.rst:183
+#: ../classes/class_navigationagent.rst:199
+#: ../classes/class_navigationagent.rst:215
+#: ../classes/class_navigationagent.rst:231
+#: ../classes/class_navigationagent.rst:247
+#: ../classes/class_navigationagent.rst:263
+#: ../classes/class_navigationagent.rst:279
+#: ../classes/class_navigationagent.rst:297
+#: ../classes/class_navigationagent.rst:313
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:135
+msgid "set_agent_height_offset(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:137
+#: ../classes/class_navigationagent.rst:153
+#: ../classes/class_navigationagent.rst:169
+#: ../classes/class_navigationagent.rst:185
+#: ../classes/class_navigationagent.rst:201
+#: ../classes/class_navigationagent.rst:217
+#: ../classes/class_navigationagent.rst:233
+#: ../classes/class_navigationagent.rst:249
+#: ../classes/class_navigationagent.rst:265
+#: ../classes/class_navigationagent.rst:281
+#: ../classes/class_navigationagent.rst:299
+#: ../classes/class_navigationagent.rst:315
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:137
+msgid "get_agent_height_offset()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:140
+msgid "The NavigationAgent height offset is subtracted from the y-axis value of any vector path position for this NavigationAgent. The NavigationAgent height offset does not change or influence the navigation mesh or pathfinding query result. Additional navigation maps that use regions with navigation meshes that the developer baked with appropriate agent radius or height values are required to support different-sized agents."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:146
+msgid ":ref:`bool<class_bool>` **avoidance_enabled**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:151
+msgid "set_avoidance_enabled(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:153
+msgid "get_avoidance_enabled()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:156
+msgid "If ``true`` the agent is registered for an RVO avoidance callback on the :ref:`NavigationServer<class_NavigationServer>`. When :ref:`set_velocity<class_NavigationAgent_method_set_velocity>` is used and the processing is completed a ``safe_velocity`` Vector3 is received with a signal connection to :ref:`velocity_computed<class_NavigationAgent_signal_velocity_computed>`. Avoidance processing with many registered agents has a significant performance cost and should only be enabled on agents that currently require it."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:162
+msgid ":ref:`bool<class_bool>` **ignore_y**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:167
+msgid "set_ignore_y(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:169
+msgid "get_ignore_y()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:172
+msgid "Ignores collisions on the Y axis. Must be ``true`` to move on a horizontal plane."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:178
+msgid ":ref:`int<class_int>` **max_neighbors**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:183
+msgid "set_max_neighbors(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:185
+msgid "get_max_neighbors()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:188
+msgid "The maximum number of neighbors for the agent to consider."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:194
+msgid ":ref:`float<class_float>` **max_speed**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:199
+msgid "set_max_speed(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:201
+msgid "get_max_speed()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:204
+msgid "The maximum speed that an agent can move."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:210
+msgid ":ref:`int<class_int>` **navigation_layers**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:215
+msgid "set_navigation_layers(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:217
+msgid "get_navigation_layers()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:220
+msgid "A bitfield determining all navigation map layers the ``NavigationAgent`` belongs to. On path requests the agent will ignore navmeshes without at least one matching layer."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:226
+msgid ":ref:`float<class_float>` **neighbor_dist**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:231
+msgid "set_neighbor_dist(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:233
+msgid "get_neighbor_dist()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:236
+msgid "The distance to search for other agents."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:242
+msgid ":ref:`float<class_float>` **path_desired_distance**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:247
+msgid "set_path_desired_distance(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:249
+msgid "get_path_desired_distance()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:252
+msgid "The distance threshold before a path point is considered to be reached. This will allow an agent to not have to hit a path point on the path exactly, but in the area. If this value is set to high the NavigationAgent will skip points on the path which can lead to leaving the navigation mesh. If this value is set to low the NavigationAgent will be stuck in a repath loop cause it will constantly overshoot or undershoot the distance to the next point on each physics frame update."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:258
+msgid ":ref:`float<class_float>` **path_max_distance**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:263
+msgid "set_path_max_distance(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:265
+msgid "get_path_max_distance()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:268
+msgid "The maximum distance the agent is allowed away from the ideal path to the final location. This can happen due to trying to avoid collisions. When the maximum distance is exceeded, it recalculates the ideal path."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:274
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:279
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:281
+msgid "get_radius()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:284
+msgid "The radius of the avoidance agent. This is the \"body\" of the avoidance agent and not the avoidance maneuver starting radius (which is controlled by :ref:`neighbor_dist<class_NavigationAgent_property_neighbor_dist>`)."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:286
+msgid "Does not affect normal pathfinding. To change an actor's pathfinding radius bake :ref:`NavigationMesh<class_NavigationMesh>` resources with a different :ref:`NavigationMesh.agent_radius<class_NavigationMesh_property_agent_radius>` property and use different navigation maps for each actor size."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:292
+msgid ":ref:`float<class_float>` **target_desired_distance**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:297
+msgid "set_target_desired_distance(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:299
+msgid "get_target_desired_distance()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:302
+msgid "The distance threshold before the final target point is considered to be reached. This will allow an agent to not have to hit the point of the final target exactly, but only the area. If this value is set to low the NavigationAgent will be stuck in a repath loop cause it will constantly overshoot or undershoot the distance to the final target point on each physics frame update."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:308
+msgid ":ref:`float<class_float>` **time_horizon**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:313
+msgid "set_time_horizon(value)"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:315
+msgid "get_time_horizon()"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:318
+msgid "The minimal amount of time for which this agent's velocities, that are computed with the collision avoidance algorithm, are safe with respect to other agents. The larger the number, the sooner the agent will respond to other agents, but the less freedom in choosing its velocities. Must be positive."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:321
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:325
+msgid ":ref:`float<class_float>` **distance_to_target** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:327
+msgid "Returns the distance to the target location, using the agent's global position. The user must set the target location with :ref:`set_target_location<class_NavigationAgent_method_set_target_location>` in order for this to be accurate."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:333
+msgid ":ref:`Vector3<class_Vector3>` **get_final_location** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:335
+msgid "Returns the reachable final location in global coordinates. This can change if the navigation path is altered in any way. Because of this, it would be best to check this each frame."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:341
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **get_nav_path** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:343
+msgid "Returns this agent's current path from start to finish in global coordinates. The path only updates when the target location is changed or the agent requires a repath. The path array is not intended to be used in direct path movement as the agent has its own internal path logic that would get corrupted by changing the path array manually. Use the intended :ref:`get_next_location<class_NavigationAgent_method_get_next_location>` once every physics frame to receive the next path point for the agents movement as this function also updates the internal path logic."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:349
+msgid ":ref:`int<class_int>` **get_nav_path_index** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:351
+msgid "Returns which index the agent is currently on in the navigation path's :ref:`PoolVector3Array<class_PoolVector3Array>`."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:357
+msgid ":ref:`Node<class_Node>` **get_navigation** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:359
+msgid "Returns the :ref:`Navigation<class_Navigation>` node that the agent is using for its navigation system."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:365
+msgid ":ref:`RID<class_RID>` **get_navigation_map** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:367
+msgid "Returns the :ref:`RID<class_RID>` of the navigation map for this NavigationAgent node. This function returns always the map set on the NavigationAgent node and not the map of the abstract agent on the NavigationServer. If the agent map is changed directly with the NavigationServer API the NavigationAgent node will not be aware of the map change. Use :ref:`set_navigation_map<class_NavigationAgent_method_set_navigation_map>` to change the navigation map for the NavigationAgent and also update the agent on the NavigationServer."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:373
+msgid ":ref:`Vector3<class_Vector3>` **get_next_location** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:375
+msgid "Returns the next location in global coordinates that can be moved to, making sure that there are no static objects in the way. If the agent does not have a navigation path, it will return the position of the agent's parent. The use of this function once every physics frame is required to update the internal path logic of the NavigationAgent."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:381
+msgid ":ref:`RID<class_RID>` **get_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:383
+msgid "Returns the :ref:`RID<class_RID>` of this agent on the :ref:`NavigationServer<class_NavigationServer>`."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:389
+msgid ":ref:`Vector3<class_Vector3>` **get_target_location** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:391
+msgid "Returns the user-defined target location (set with :ref:`set_target_location<class_NavigationAgent_method_set_target_location>`)."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:397
+msgid ":ref:`bool<class_bool>` **is_navigation_finished** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:399
+msgid "Returns ``true`` if the navigation path's final location has been reached."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:405
+msgid ":ref:`bool<class_bool>` **is_target_reachable** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:407
+msgid "Returns ``true`` if the target location is reachable. The target location is set using :ref:`set_target_location<class_NavigationAgent_method_set_target_location>`."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:413
+msgid ":ref:`bool<class_bool>` **is_target_reached** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:415
+msgid "Returns ``true`` if the target location is reached. The target location is set using :ref:`set_target_location<class_NavigationAgent_method_set_target_location>`. It may not always be possible to reach the target location. It should always be possible to reach the final location though. See :ref:`get_final_location<class_NavigationAgent_method_get_final_location>`."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:421
+msgid "void **set_navigation** **(** :ref:`Node<class_Node>` navigation **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:423
+msgid "Sets the :ref:`Navigation<class_Navigation>` node used by the agent. Useful when you don't want to make the agent a child of a :ref:`Navigation<class_Navigation>` node."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:429
+msgid "void **set_navigation_map** **(** :ref:`RID<class_RID>` navigation_map **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:431
+msgid "Sets the :ref:`RID<class_RID>` of the navigation map this NavigationAgent node should use and also updates the ``agent`` on the NavigationServer."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:437
+msgid "void **set_target_location** **(** :ref:`Vector3<class_Vector3>` location **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:439
+msgid "Sets the user desired final location. This will clear the current navigation path."
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:445
+msgid "void **set_velocity** **(** :ref:`Vector3<class_Vector3>` velocity **)**"
+msgstr ""
+
+#: ../classes/class_navigationagent.rst:447
+msgid "Sends the passed in velocity to the collision avoidance algorithm. It will adjust the velocity to avoid collisions. Once the adjustment to the velocity is complete, it will emit the :ref:`velocity_computed<class_NavigationAgent_signal_velocity_computed>` signal."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

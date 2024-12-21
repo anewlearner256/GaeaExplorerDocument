@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/export/one-click_deploy.rst:4
+msgid "One-click deploy"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:7
+msgid "What is one-click deploy?"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:9
+msgid "One-click deploy is a feature that is available once a platform is properly configured and a supported device is connected to the computer. Since things can go wrong at many levels (platform may not be configured correctly, SDK may be incorrectly installed, device may be improperly configured, etc.), it's good to let the user know that it exists."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:15
+msgid "After adding an Android export preset marked as Runnable, GaaeExplorer can detect when a USB device is connected to the computer and offer the user to automatically export, install and run the project (in debug mode) on the device. This feature is called *one-click deploy*."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:22
+msgid "One-click deploy is only available once you've added an export template marked as **Runnable** in the Export dialog. You can mark several export presets as runnable, but only one preset per platform may be marked as runnable. If you mark a second preset in a given platform as runnable, the other preset will no longer be marked as runnable."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:29
+msgid "Supported platforms"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:31
+msgid "**Android:** Exports the project with debugging enabled and runs it on the connected device."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:34
+msgid "Make sure to follow the steps described in :ref:`doc_exporting_for_android`. Otherwise, the one-click deploy button won't appear."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:37
+msgid "If you have more than one device connected, GaaeExplorer will ask you which device the project should be exported to."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:40
+msgid "**HTML5:** Starts a local web server and runs the exported project by opening the default web browser."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:43
+msgid "Support for more platforms such as iOS is planned."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:46
+msgid "Using one-click deploy"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:48
+msgid "If deploying to Android, enable developer mode on your mobile device then enable USB debugging in the device's settings."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:50
+msgid "After enabling USB debugging, connect the device to your PC using an USB cable."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:52
+msgid "For advanced users, it should also be possible to use wireless ADB."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:54
+msgid "Make sure there is an export preset marked as **Runnable** for the target platform (Android or HTML5)."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:56
+msgid "If everything is configured correctly and with no errors, platform-specific icons will appear in the top-right corner of the editor."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:58
+msgid "Click the button to export to the desired platform in one click."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:63
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:66
+msgid "Android"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:68
+msgid "If you can't see the device in the list of devices when running the ``adb devices`` command in a terminal, it will not be visible by GaaeExplorer either. To resolve this:"
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:72
+msgid "Check if USB debugging is enabled *and authorized on the device*. Try unlocking your device and accepting the authorization prompt if you see any. If you can't see this prompt, running ``adb devices`` on your PC should make the authorization prompt appear on the device."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:76
+msgid "Try `revoking the debugging authorization <https://stackoverflow.com/questions/23081263/adb-android-device-unauthorized>`__ in the device's developer settings, then follow the steps again."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:78
+msgid "Try using USB debugging instead of wireless debugging or vice versa. Sometimes, one of those can work better than the other."
+msgstr ""
+
+#: ../tutorials/export/one-click_deploy.rst:80
+msgid "On Linux, you may be missing the required `udev rules <https://github.com/M0Rf30/android-udev-rules>`__ for your device to be recognized."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

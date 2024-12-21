@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../development/compiling/compiling_for_osx.rst:4
+msgid "Compiling for macOS"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:10
+msgid "This page describes how to compile macOS editor and export template binaries from source. If you're looking to export your project to macOS instead, read :ref:`doc_exporting_for_macos`."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:14
+msgid "Requirements"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:16
+msgid "For compiling under macOS, the following is required:"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:18
+msgid "`Python 3.5+ <https://www.python.org>`_."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:19
+msgid "`SCons 3.0+ <https://www.scons.org>`_ build system."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:20
+msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (or the more lightweight Command Line Tools for Xcode)."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:22
+msgid "*Optional* - `yasm <https://yasm.tortall.net/>`_ (for WebM SIMD optimizations)."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:24
+msgid "If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install SCons and yasm using the following command::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:29
+msgid "Installing Homebrew will also fetch the Command Line Tools for Xcode automatically if you don't have them already."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:32
+msgid "Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, you can easily install SCons and yasm using the following command::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:38
+msgid "To get the GaaeExplorer source code for compiling, see :ref:`doc_getting_source`."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:41
+msgid "For a general overview of SCons usage for GaaeExplorer, see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:45
+msgid "Compiling"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:47
+msgid "Start a terminal, go to the root directory of the engine source code."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:49
+msgid "To compile for Intel (x86-64) powered Macs, use::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:53
+msgid "To compile for Apple Silicon (ARM64) powered Macs, use::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:57
+msgid "To support both architectures in a single \"Universal 2\" binary, run the above two commands and then use ``lipo`` to bundle them together::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:61
+msgid "If all goes well, the resulting binary executable will be placed in the ``bin/`` subdirectory. This executable file contains the whole engine and runs without any dependencies. Executing it will bring up the project manager."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:66
+msgid "If you want to use separate editor settings for your own GaaeExplorer builds and official releases, you can enable :ref:`doc_data_paths_self_contained_mode` by creating a file called ``._sc_`` or ``_sc_`` in the ``bin/`` folder."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:71
+msgid "To create an ``.app`` bundle like in the official builds, you need to use the template located in ``misc/dist/osx_tools.app``. Typically, for an optimized editor binary built with ``target=release_debug``::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:81
+msgid "Compiling a headless/server build"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:83
+msgid "To compile a *headless* build which provides editor functionality to export projects in an automated manner, use::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:88
+msgid "To compile a debug *server* build which can be used with :ref:`remote debugging tools <doc_command_line_tutorial>`, use::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:93
+msgid "To compile a release *server* build which is optimized to run dedicated game servers, use::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:99
+msgid "Building export templates"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:101
+msgid "To build macOS export templates, you have to compile with ``tools=no`` (no editor) and respectively for ``target=release`` (release template) and ``target=release_debug``."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:105
+msgid "Official templates are universal binaries which support both Intel x86_64 and ARM64 architectures. You can also create export templates that support only one of those two architectures by leaving out the ``lipo`` step below."
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:109
+msgid "For Intel x86_64::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:114
+msgid "For ARM64 (Apple M1)::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:119
+msgid "To support both architectures in a single \"Universal 2\" binary, run the above two commands blocks and then use ``lipo`` to bundle them together::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:125
+msgid "To create an ``.app`` bundle like in the official builds, you need to use the template located in ``misc/dist/osx_template.app``. The release and debug builds should be placed in ``osx_template.app/Contents/MacOS`` with the names ``godot_osx_release.64`` and ``godot_osx_debug.64`` respectively. You can do so with the following commands (assuming a universal build, otherwise replace the ``.universal`` extension with the one of your arch-specific binaries)::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:138
+msgid "You can then zip the ``osx_template.app`` folder to reproduce the ``osx.zip`` template from the official GaaeExplorer distribution::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:144
+msgid "Cross-compiling for macOS from Linux"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:146
+msgid "It is possible to compile for macOS in a Linux environment (and maybe also in Windows using the Windows Subsystem for Linux). For that, you'll need to install `OSXCross <https://github.com/tpoechtrager/osxcross>`__ to be able to use macOS as a target. First, follow the instructions to install it:"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:151
+msgid "Clone the `OSXCross repository <https://github.com/tpoechtrager/osxcross>`__ somewhere on your machine (or download a ZIP file and extract it somewhere), e.g.::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:157
+msgid "Follow the instructions to package the SDK: https://github.com/tpoechtrager/osxcross#packaging-the-sdk"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:159
+msgid "Follow the instructions to install OSXCross: https://github.com/tpoechtrager/osxcross#installation"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:162
+msgid "After that, you will need to define the ``OSXCROSS_ROOT`` as the path to the OSXCross installation (the same place where you cloned the repository/extracted the zip), e.g.::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:168
+msgid "Now you can compile with SCons like you normally would::"
+msgstr ""
+
+#: ../development/compiling/compiling_for_osx.rst:172
+msgid "If you have an OSXCross SDK version different from the one expected by the SCons buildsystem, you can specify a custom one with the ``osxcross_sdk`` argument::"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

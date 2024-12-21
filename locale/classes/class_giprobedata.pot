@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_giprobedata.rst:10
+msgid "GIProbeData"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:17
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:19
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:25
+#: ../classes/class_giprobedata.rst:29
+#: ../classes/class_giprobedata.rst:37
+#: ../classes/class_giprobedata.rst:41
+#: ../classes/class_giprobedata.rst:43
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:25
+msgid ":ref:`bias<class_GIProbeData_property_bias>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:25
+#: ../classes/class_giprobedata.rst:41
+#: ../classes/class_giprobedata.rst:56
+#: ../classes/class_giprobedata.rst:168
+msgid "``0.4``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:27
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:27
+msgid ":ref:`bounds<class_GIProbeData_property_bounds>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:27
+#: ../classes/class_giprobedata.rst:70
+msgid "``AABB( 0, 0, 0, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:29
+msgid ":ref:`cell_size<class_GIProbeData_property_cell_size>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:29
+#: ../classes/class_giprobedata.rst:37
+#: ../classes/class_giprobedata.rst:43
+#: ../classes/class_giprobedata.rst:84
+#: ../classes/class_giprobedata.rst:140
+#: ../classes/class_giprobedata.rst:182
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:31
+#: ../classes/class_giprobedata.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:31
+msgid ":ref:`compress<class_GIProbeData_property_compress>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:31
+#: ../classes/class_giprobedata.rst:39
+#: ../classes/class_giprobedata.rst:98
+#: ../classes/class_giprobedata.rst:154
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:33
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:33
+msgid ":ref:`dynamic_data<class_GIProbeData_property_dynamic_data>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:33
+#: ../classes/class_giprobedata.rst:112
+msgid "``PoolIntArray(  )``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:35
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:35
+msgid ":ref:`dynamic_range<class_GIProbeData_property_dynamic_range>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:35
+#: ../classes/class_giprobedata.rst:126
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:37
+msgid ":ref:`energy<class_GIProbeData_property_energy>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:39
+msgid ":ref:`interior<class_GIProbeData_property_interior>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:41
+msgid ":ref:`normal_bias<class_GIProbeData_property_normal_bias>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:43
+msgid ":ref:`propagation<class_GIProbeData_property_propagation>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:45
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:45
+msgid ":ref:`to_cell_xform<class_GIProbeData_property_to_cell_xform>`"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:45
+#: ../classes/class_giprobedata.rst:196
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:49
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:53
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:56
+#: ../classes/class_giprobedata.rst:70
+#: ../classes/class_giprobedata.rst:84
+#: ../classes/class_giprobedata.rst:98
+#: ../classes/class_giprobedata.rst:112
+#: ../classes/class_giprobedata.rst:126
+#: ../classes/class_giprobedata.rst:140
+#: ../classes/class_giprobedata.rst:154
+#: ../classes/class_giprobedata.rst:168
+#: ../classes/class_giprobedata.rst:182
+#: ../classes/class_giprobedata.rst:196
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:58
+#: ../classes/class_giprobedata.rst:72
+#: ../classes/class_giprobedata.rst:86
+#: ../classes/class_giprobedata.rst:100
+#: ../classes/class_giprobedata.rst:114
+#: ../classes/class_giprobedata.rst:128
+#: ../classes/class_giprobedata.rst:142
+#: ../classes/class_giprobedata.rst:156
+#: ../classes/class_giprobedata.rst:170
+#: ../classes/class_giprobedata.rst:184
+#: ../classes/class_giprobedata.rst:198
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:58
+msgid "set_bias(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:60
+#: ../classes/class_giprobedata.rst:74
+#: ../classes/class_giprobedata.rst:88
+#: ../classes/class_giprobedata.rst:102
+#: ../classes/class_giprobedata.rst:116
+#: ../classes/class_giprobedata.rst:130
+#: ../classes/class_giprobedata.rst:144
+#: ../classes/class_giprobedata.rst:158
+#: ../classes/class_giprobedata.rst:172
+#: ../classes/class_giprobedata.rst:186
+#: ../classes/class_giprobedata.rst:200
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:60
+msgid "get_bias()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:67
+msgid ":ref:`AABB<class_AABB>` **bounds**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:72
+msgid "set_bounds(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:74
+msgid "get_bounds()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:81
+msgid ":ref:`float<class_float>` **cell_size**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:86
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:88
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:95
+msgid ":ref:`bool<class_bool>` **compress**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:100
+msgid "set_compress(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:102
+msgid "is_compressed()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:109
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **dynamic_data**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:114
+msgid "set_dynamic_data(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:116
+msgid "get_dynamic_data()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:123
+msgid ":ref:`int<class_int>` **dynamic_range**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:128
+msgid "set_dynamic_range(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:130
+msgid "get_dynamic_range()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:137
+msgid ":ref:`float<class_float>` **energy**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:142
+msgid "set_energy(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:144
+msgid "get_energy()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:151
+msgid ":ref:`bool<class_bool>` **interior**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:156
+msgid "set_interior(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:158
+msgid "is_interior()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:165
+msgid ":ref:`float<class_float>` **normal_bias**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:170
+msgid "set_normal_bias(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:172
+msgid "get_normal_bias()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:179
+msgid ":ref:`float<class_float>` **propagation**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:184
+msgid "set_propagation(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:186
+msgid "get_propagation()"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:193
+msgid ":ref:`Transform<class_Transform>` **to_cell_xform**"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:198
+msgid "set_to_cell_xform(value)"
+msgstr ""
+
+#: ../classes/class_giprobedata.rst:200
+msgid "get_to_cell_xform()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

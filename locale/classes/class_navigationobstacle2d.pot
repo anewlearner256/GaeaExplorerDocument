@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_navigationobstacle2d.rst:11
+msgid "NavigationObstacle2D"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:13
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:15
+msgid "2D obstacle used in navigation for collision avoidance."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:20
+msgid "2D obstacle used in navigation for collision avoidance. The obstacle needs navigation data to work correctly. This can be done by having the obstacle as a child of a :ref:`Navigation2D<class_Navigation2D>` node, or using :ref:`set_navigation<class_NavigationObstacle2D_method_set_navigation>`. ``NavigationObstacle2D`` is physics safe."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:22
+msgid "\\ **Note:** Obstacles are intended as a last resort option for constantly moving objects that cannot be (re)baked to a navigation mesh efficiently."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:25
+msgid "Properties"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:28
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:28
+msgid ":ref:`estimate_radius<class_NavigationObstacle2D_property_estimate_radius>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:28
+#: ../classes/class_navigationobstacle2d.rst:52
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:30
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:30
+msgid ":ref:`radius<class_NavigationObstacle2D_property_radius>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:30
+#: ../classes/class_navigationobstacle2d.rst:68
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:34
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:37
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:37
+msgid ":ref:`get_navigation<class_NavigationObstacle2D_method_get_navigation>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:39
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:39
+msgid ":ref:`get_rid<class_NavigationObstacle2D_method_get_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:41
+msgid "void"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:41
+msgid ":ref:`set_navigation<class_NavigationObstacle2D_method_set_navigation>` **(** :ref:`Node<class_Node>` navigation **)**"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:45
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:49
+msgid ":ref:`bool<class_bool>` **estimate_radius**"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:52
+#: ../classes/class_navigationobstacle2d.rst:68
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:54
+#: ../classes/class_navigationobstacle2d.rst:70
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:54
+msgid "set_estimate_radius(value)"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:56
+#: ../classes/class_navigationobstacle2d.rst:72
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:56
+msgid "is_radius_estimated()"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:59
+msgid "Enables radius estimation algorithm which uses parent's collision shapes to determine the obstacle radius."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:65
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:70
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:72
+msgid "get_radius()"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:75
+msgid "The radius of the agent. Used only if :ref:`estimate_radius<class_NavigationObstacle2D_property_estimate_radius>` is set to ``false``."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:78
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:82
+msgid ":ref:`Node<class_Node>` **get_navigation** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:84
+msgid "Returns the :ref:`Navigation2D<class_Navigation2D>` node that the obstacle is using for its navigation system."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:90
+msgid ":ref:`RID<class_RID>` **get_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:92
+msgid "Returns the :ref:`RID<class_RID>` of this obstacle on the :ref:`Navigation2DServer<class_Navigation2DServer>`."
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:98
+msgid "void **set_navigation** **(** :ref:`Node<class_Node>` navigation **)**"
+msgstr ""
+
+#: ../classes/class_navigationobstacle2d.rst:100
+msgid "Sets the :ref:`Navigation2D<class_Navigation2D>` node used by the obstacle. Useful when you don't want to make the obstacle a child of a :ref:`Navigation2D<class_Navigation2D>` node."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

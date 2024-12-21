@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_spriteframes.rst:10
+msgid "SpriteFrames"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:14
+msgid "AnimatedSprite 的精灵帧库。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:19
+msgid ":ref:`AnimatedSprite<class_AnimatedSprite>` 的精灵帧库。包含可用于播放的帧和动画数据。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:21
+msgid "\\ **注意：**\\ 你可以通过创建带有 ``_normal`` 后缀的 ``SpriteFrames`` 来关联一组法线贴图。例如，同时存在两个分别叫做 ``run`` 和 ``run_normal`` 的 ``SpriteFrames`` 资源，那么 ``run`` 中的动画就会使用法线贴图。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:27
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:27
+msgid ":ref:`frames<class_SpriteFrames_property_frames>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:34
+#: ../classes/class_spriteframes.rst:36
+#: ../classes/class_spriteframes.rst:38
+#: ../classes/class_spriteframes.rst:40
+#: ../classes/class_spriteframes.rst:54
+#: ../classes/class_spriteframes.rst:56
+#: ../classes/class_spriteframes.rst:58
+#: ../classes/class_spriteframes.rst:60
+#: ../classes/class_spriteframes.rst:62
+#: ../classes/class_spriteframes.rst:64
+msgid "void"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:34
+msgid ":ref:`add_animation<class_SpriteFrames_method_add_animation>` **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:36
+msgid ":ref:`add_frame<class_SpriteFrames_method_add_frame>` **(** :ref:`String<class_String>` anim, :ref:`Texture<class_Texture>` frame, :ref:`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:38
+msgid ":ref:`clear<class_SpriteFrames_method_clear>` **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:40
+msgid ":ref:`clear_all<class_SpriteFrames_method_clear_all>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:42
+#: ../classes/class_spriteframes.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:42
+msgid ":ref:`get_animation_loop<class_SpriteFrames_method_get_animation_loop>` **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:44
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:44
+msgid ":ref:`get_animation_names<class_SpriteFrames_method_get_animation_names>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:46
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:46
+msgid ":ref:`get_animation_speed<class_SpriteFrames_method_get_animation_speed>` **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:48
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:48
+msgid ":ref:`get_frame<class_SpriteFrames_method_get_frame>` **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:50
+msgid ":ref:`get_frame_count<class_SpriteFrames_method_get_frame_count>` **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:52
+msgid ":ref:`has_animation<class_SpriteFrames_method_has_animation>` **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:54
+msgid ":ref:`remove_animation<class_SpriteFrames_method_remove_animation>` **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:56
+msgid ":ref:`remove_frame<class_SpriteFrames_method_remove_frame>` **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:58
+msgid ":ref:`rename_animation<class_SpriteFrames_method_rename_animation>` **(** :ref:`String<class_String>` anim, :ref:`String<class_String>` newname **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:60
+msgid ":ref:`set_animation_loop<class_SpriteFrames_method_set_animation_loop>` **(** :ref:`String<class_String>` anim, :ref:`bool<class_bool>` loop **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:62
+msgid ":ref:`set_animation_speed<class_SpriteFrames_method_set_animation_speed>` **(** :ref:`String<class_String>` anim, :ref:`float<class_float>` speed **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:64
+msgid ":ref:`set_frame<class_SpriteFrames_method_set_frame>` **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` txt **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:68
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:72
+msgid ":ref:`Array<class_Array>` **frames**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:74
+msgid "兼容性属性，总是等于一个空数组。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:77
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:81
+msgid "void **add_animation** **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:83
+msgid "向库添加新动画。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:89
+msgid "void **add_frame** **(** :ref:`String<class_String>` anim, :ref:`Texture<class_Texture>` frame, :ref:`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:91
+msgid "为给定的动画添加一帧。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:97
+msgid "void **clear** **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:99
+msgid "删除给定动画中的所有帧。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:105
+msgid "void **clear_all** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:107
+msgid "删除所有动画。将创建“default”动画。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:113
+msgid ":ref:`bool<class_bool>` **get_animation_loop** **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:115
+msgid "当指定的动画被配置为结束播放后循环时，返回 ``true``\\ ，否则返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:121
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_animation_names** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:123
+msgid "返回一个包含每个动画的名称的数组。值按字母顺序排列。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:129
+msgid ":ref:`float<class_float>` **get_animation_speed** **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:131
+#: ../classes/class_spriteframes.rst:195
+msgid "动画的每秒帧数。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:137
+msgid ":ref:`Texture<class_Texture>` **get_frame** **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:139
+msgid "返回动画所选帧。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:145
+msgid ":ref:`int<class_int>` **get_frame_count** **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:147
+msgid "返回动画中的帧数。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:153
+msgid ":ref:`bool<class_bool>` **has_animation** **(** :ref:`String<class_String>` anim **)** |const|"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:155
+msgid "为 ``true`` 时存在指定名称的动画。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:161
+msgid "void **remove_animation** **(** :ref:`String<class_String>` anim **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:163
+msgid "移除给定的动画。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:169
+msgid "void **remove_frame** **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:171
+msgid "移除动画的选定帧。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:177
+msgid "void **rename_animation** **(** :ref:`String<class_String>` anim, :ref:`String<class_String>` newname **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:179
+msgid "将动画的名称更改为 ``newname``\\ 。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:185
+msgid "void **set_animation_loop** **(** :ref:`String<class_String>` anim, :ref:`bool<class_bool>` loop **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:187
+msgid "为 ``true`` 时动画将循环播放。"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:193
+msgid "void **set_animation_speed** **(** :ref:`String<class_String>` anim, :ref:`float<class_float>` speed **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:201
+msgid "void **set_frame** **(** :ref:`String<class_String>` anim, :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` txt **)**"
+msgstr ""
+
+#: ../classes/class_spriteframes.rst:203
+msgid "设置给定帧的纹理。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

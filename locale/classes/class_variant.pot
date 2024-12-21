@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_variant.rst:10
+msgid "Variant"
+msgstr ""
+
+#: ../classes/class_variant.rst:12
+msgid "GaaeExplorer 中最重要的数据类型。"
+msgstr ""
+
+#: ../classes/class_variant.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_variant.rst:17
+msgid "在计算机编程中，Variant（变体）类是用来存储各种其他类型的类。像 PHP、 Lua、 JavaScript 和 GDScript 这样的动态编程语言喜欢用它们在后端存储变量数据。使用 Variant 的属性可以自由地更改值类型。"
+msgstr ""
+
+#: ../classes/class_variant.rst:27
+msgid "GaaeExplorer 在 Variant 中跟踪所有脚本 API 变量。你一直在无意中使用 Variant。当一种特定的语言为保持数据类型而执行自己的规则时，那么该语言就在基础变量脚本 API 上应用自己的自定义逻辑。"
+msgstr ""
+
+#: ../classes/class_variant.rst:29
+msgid "GDScript 会自动将数值包装。它默认将所有数据保存在普通的 Variant 中，然后可选择对变量类型执行自定义的静态类型化规则。"
+msgstr ""
+
+#: ../classes/class_variant.rst:31
+msgid "VisualScript 也跟踪 Variant 中的属性，但它也使用静态类型。GUI 界面强制要求属性有一个特定的类型，并且不随时间变化。"
+msgstr ""
+
+#: ../classes/class_variant.rst:33
+msgid "C# 是静态类型的，但是当它需要表示一个动态值时，使用 Mono ``object`` 类型来代替 GaaeExplorer 的 Variant 类。\\ ``object`` 是 Mono 运行时对应的同一概念。"
+msgstr ""
+
+#: ../classes/class_variant.rst:35
+msgid "静态类型的语言 NativeScript C++ 没有定义一个内置的类似 Variant 的类。GaaeExplorer 的 GDNative 绑定为用户提供了 godot::Variant 的类；C++ 代码开始与 GaaeExplorer 运行时交互的地方，你都可能要用 Variant 对象来包装数据。"
+msgstr ""
+
+#: ../classes/class_variant.rst:37
+msgid "全局 :ref:`@GDScript.typeof<class_@GDScript_method_typeof>` 函数返回存储在当前变量中的 Variant 类型的枚举值，请参阅 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ 。"
+msgstr ""
+
+#: ../classes/class_variant.rst:55
+msgid "一个 Variant 只占 20 个字节，可以在其中存储几乎所有的引擎数据类型。Variant 很少被用来长期保存信息。相反，它们主要用于通信、编辑、序列化和移动数据。"
+msgstr ""
+
+#: ../classes/class_variant.rst:57
+msgid "GaaeExplorer 特别致力于使其 Variant 类尽可能灵活；以使它可被用于各种操作，促进 GaaeExplorer 所有系统之间的联系。"
+msgstr ""
+
+#: ../classes/class_variant.rst:59
+msgid "Variant："
+msgstr ""
+
+#: ../classes/class_variant.rst:61
+msgid "可以存储几乎任何数据类型。"
+msgstr ""
+
+#: ../classes/class_variant.rst:63
+msgid "可以在许多 Variant 之间执行操作。GDScript 使用 Variant 作为其原子及原生数据类型。"
+msgstr ""
+
+#: ../classes/class_variant.rst:65
+msgid "可以被哈希，所以可以快速与其他 Variant 进行比较。"
+msgstr ""
+
+#: ../classes/class_variant.rst:67
+msgid "可以用于数据类型之间的安全转换。"
+msgstr ""
+
+#: ../classes/class_variant.rst:69
+msgid "可以用来抽象调用方法和它们的参数。GaaeExplorer 通过 Variant 导出所有函数。"
+msgstr ""
+
+#: ../classes/class_variant.rst:71
+msgid "可以用来推迟调用或在线程之间移动数据。"
+msgstr ""
+
+#: ../classes/class_variant.rst:73
+msgid "可以序列化为二进制并存储到磁盘，或通过网络传输。"
+msgstr ""
+
+#: ../classes/class_variant.rst:75
+msgid "可以序列化为文本，用于打印数值和可编辑设置。"
+msgstr ""
+
+#: ../classes/class_variant.rst:77
+msgid "可以作为一个导出的属性工作，所以编辑器可以通用的编辑它。"
+msgstr ""
+
+#: ../classes/class_variant.rst:79
+msgid "可以用于字典、数组、解析器等。"
+msgstr ""
+
+#: ../classes/class_variant.rst:81
+msgid "\\ **容器（数组和字典）：**\\ 都是用 Variant 来实现的。一个 :ref:`Dictionary<class_Dictionary>` 可以匹配任何作为键的数据类型到任何其他数据类型。一个 :ref:`Array<class_Array>` 只是持有一个 Variant 的数组。当然，一个 Variant 也可以在里面容纳一个 :ref:`Dictionary<class_Dictionary>` 和一个 :ref:`Array<class_Array>`\\ ，使其更加灵活。"
+msgstr ""
+
+#: ../classes/class_variant.rst:83
+msgid "对一个容器的修改将修改对它的所有引用。如果需要多线程访问，应该创建一个 :ref:`Mutex<class_Mutex>` 来锁定它。"
+msgstr ""
+
+#: ../classes/class_variant.rst:86
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_variant.rst:88
+msgid ":doc:`../development/cpp/variant_class`"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

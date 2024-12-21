@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptlists.rst:10
+msgid "VisualScriptLists"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:14
+msgid "**Inherited By:** :ref:`VisualScriptComposeArray<class_VisualScriptComposeArray>`"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:16
+msgid "图内可编辑节点的可视化脚本虚拟类。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:21
+msgid "一个 Visual Script 可视化类，用于定义必须是图形内可编辑节点的形状和默认行为。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:27
+#: ../classes/class_visualscriptlists.rst:29
+#: ../classes/class_visualscriptlists.rst:31
+#: ../classes/class_visualscriptlists.rst:33
+#: ../classes/class_visualscriptlists.rst:35
+#: ../classes/class_visualscriptlists.rst:37
+#: ../classes/class_visualscriptlists.rst:39
+#: ../classes/class_visualscriptlists.rst:41
+msgid "void"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:27
+msgid ":ref:`add_input_data_port<class_VisualScriptLists_method_add_input_data_port>` **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` name, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:29
+msgid ":ref:`add_output_data_port<class_VisualScriptLists_method_add_output_data_port>` **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` name, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:31
+msgid ":ref:`remove_input_data_port<class_VisualScriptLists_method_remove_input_data_port>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:33
+msgid ":ref:`remove_output_data_port<class_VisualScriptLists_method_remove_output_data_port>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:35
+msgid ":ref:`set_input_data_port_name<class_VisualScriptLists_method_set_input_data_port_name>` **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:37
+msgid ":ref:`set_input_data_port_type<class_VisualScriptLists_method_set_input_data_port_type>` **(** :ref:`int<class_int>` index, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:39
+msgid ":ref:`set_output_data_port_name<class_VisualScriptLists_method_set_output_data_port_name>` **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:41
+msgid ":ref:`set_output_data_port_type<class_VisualScriptLists_method_set_output_data_port_type>` **(** :ref:`int<class_int>` index, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:45
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:49
+msgid "void **add_input_data_port** **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` name, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:51
+msgid "将输入端口添加到 Visual Script 节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:57
+msgid "void **add_output_data_port** **(** :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` name, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:59
+msgid "将输出端口添加到 Visual Script 节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:65
+msgid "void **remove_input_data_port** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:67
+msgid "从 Visual Script 节点中删除输入端口。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:73
+msgid "void **remove_output_data_port** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:75
+msgid "从 Visual Script 节点移除输出端口。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:81
+msgid "void **set_input_data_port_name** **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:83
+msgid "设置输入端口的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:89
+msgid "void **set_input_data_port_type** **(** :ref:`int<class_int>` index, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:91
+msgid "设置输入端口的类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:97
+msgid "void **set_output_data_port_name** **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:99
+msgid "设置输出端口的名称。"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:105
+msgid "void **set_output_data_port_type** **(** :ref:`int<class_int>` index, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptlists.rst:107
+msgid "设置输出端口的类型。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_roommanager.rst:10
+msgid "RoomManager"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:14
+msgid "RoomManager 节点用于控制portal剔除系统。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:19
+msgid "为了使用portal遮挡剔除系统，您必须使用 :ref:`Room<class_Room>` 和 :ref:`Portal<class_Portal>` 来构建您的关卡。在这些可以在运行时使用之前，它们必须经过一个简短的转换过程来构建 ``room graph``\\ ，这是portal剔除所需的运行时数据。 ``portal graph``\\ 由\\ ``RoomManager``\\ 节点控制，\\ ``RoomManager``\\ 还包含整个portal系统通用的设置。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:25
+#: ../classes/class_roommanager.rst:27
+#: ../classes/class_roommanager.rst:31
+#: ../classes/class_roommanager.rst:33
+#: ../classes/class_roommanager.rst:51
+#: ../classes/class_roommanager.rst:53
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:25
+msgid ":ref:`active<class_RoomManager_property_active>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:25
+#: ../classes/class_roommanager.rst:51
+#: ../classes/class_roommanager.rst:92
+#: ../classes/class_roommanager.rst:320
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:27
+msgid ":ref:`debug_sprawl<class_RoomManager_property_debug_sprawl>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:27
+#: ../classes/class_roommanager.rst:31
+#: ../classes/class_roommanager.rst:33
+#: ../classes/class_roommanager.rst:53
+#: ../classes/class_roommanager.rst:112
+#: ../classes/class_roommanager.rst:148
+#: ../classes/class_roommanager.rst:174
+#: ../classes/class_roommanager.rst:336
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:29
+#: ../classes/class_roommanager.rst:45
+#: ../classes/class_roommanager.rst:47
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:29
+msgid ":ref:`default_portal_margin<class_RoomManager_property_default_portal_margin>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:29
+#: ../classes/class_roommanager.rst:45
+#: ../classes/class_roommanager.rst:130
+#: ../classes/class_roommanager.rst:260
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:31
+msgid ":ref:`gameplay_monitor<class_RoomManager_property_gameplay_monitor>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:33
+msgid ":ref:`merge_meshes<class_RoomManager_property_merge_meshes>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:35
+#: ../classes/class_roommanager.rst:37
+#: ../classes/class_roommanager.rst:41
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:35
+msgid ":ref:`overlap_warning_threshold<class_RoomManager_property_overlap_warning_threshold>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:35
+#: ../classes/class_roommanager.rst:43
+#: ../classes/class_roommanager.rst:192
+#: ../classes/class_roommanager.rst:242
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:37
+msgid ":ref:`portal_depth_limit<class_RoomManager_property_portal_depth_limit>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:37
+#: ../classes/class_roommanager.rst:208
+msgid "``16``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:39
+#: ../classes/class_roommanager.rst:49
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:39
+msgid ":ref:`preview_camera<class_RoomManager_property_preview_camera>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:39
+#: ../classes/class_roommanager.rst:49
+#: ../classes/class_roommanager.rst:226
+#: ../classes/class_roommanager.rst:304
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:41
+msgid "process_priority"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:41
+msgid "``10000`` (overrides :ref:`Node<class_Node_property_process_priority>`)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:43
+msgid ":ref:`PVSMode<enum_RoomManager_PVSMode>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:43
+msgid ":ref:`pvs_mode<class_RoomManager_property_pvs_mode>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:45
+msgid ":ref:`roaming_expansion_margin<class_RoomManager_property_roaming_expansion_margin>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:47
+msgid ":ref:`room_simplify<class_RoomManager_property_room_simplify>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:47
+#: ../classes/class_roommanager.rst:280
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:49
+msgid ":ref:`roomlist<class_RoomManager_property_roomlist>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:51
+msgid ":ref:`show_margins<class_RoomManager_property_show_margins>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:53
+msgid ":ref:`use_secondary_pvs<class_RoomManager_property_use_secondary_pvs>`"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:57
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:60
+#: ../classes/class_roommanager.rst:62
+msgid "void"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:60
+msgid ":ref:`rooms_clear<class_RoomManager_method_rooms_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:62
+msgid ":ref:`rooms_convert<class_RoomManager_method_rooms_convert>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:66
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:76
+msgid "enum **PVSMode**:"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:78
+msgid "**PVS_MODE_DISABLED** = **0** --- 在运行时仅使用 :ref:`Portal<class_Portal>` 来确定可见性。 :ref:`Room<class_Room>`\\ 的转换不会产生PVS，无法使用游戏通知。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:80
+msgid "**PVS_MODE_PARTIAL** = **1** --- 使用 PVS 和 :ref:`Portal<class_Portal>` 的组合来确定可见性（这通常是最快和最准确的）。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:82
+msgid "**PVS_MODE_FULL** = **2** --- 仅使用 :ref:`Room<class_Room>` 的 PVS（潜在可见集）来确定可见性。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:85
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:89
+msgid ":ref:`bool<class_bool>` **active**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:92
+#: ../classes/class_roommanager.rst:112
+#: ../classes/class_roommanager.rst:130
+#: ../classes/class_roommanager.rst:148
+#: ../classes/class_roommanager.rst:174
+#: ../classes/class_roommanager.rst:192
+#: ../classes/class_roommanager.rst:208
+#: ../classes/class_roommanager.rst:226
+#: ../classes/class_roommanager.rst:242
+#: ../classes/class_roommanager.rst:260
+#: ../classes/class_roommanager.rst:280
+#: ../classes/class_roommanager.rst:304
+#: ../classes/class_roommanager.rst:320
+#: ../classes/class_roommanager.rst:336
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:94
+#: ../classes/class_roommanager.rst:114
+#: ../classes/class_roommanager.rst:132
+#: ../classes/class_roommanager.rst:150
+#: ../classes/class_roommanager.rst:176
+#: ../classes/class_roommanager.rst:194
+#: ../classes/class_roommanager.rst:210
+#: ../classes/class_roommanager.rst:228
+#: ../classes/class_roommanager.rst:244
+#: ../classes/class_roommanager.rst:262
+#: ../classes/class_roommanager.rst:282
+#: ../classes/class_roommanager.rst:306
+#: ../classes/class_roommanager.rst:322
+#: ../classes/class_roommanager.rst:338
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:94
+msgid "rooms_set_active(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:96
+#: ../classes/class_roommanager.rst:116
+#: ../classes/class_roommanager.rst:134
+#: ../classes/class_roommanager.rst:152
+#: ../classes/class_roommanager.rst:178
+#: ../classes/class_roommanager.rst:196
+#: ../classes/class_roommanager.rst:212
+#: ../classes/class_roommanager.rst:230
+#: ../classes/class_roommanager.rst:246
+#: ../classes/class_roommanager.rst:264
+#: ../classes/class_roommanager.rst:284
+#: ../classes/class_roommanager.rst:308
+#: ../classes/class_roommanager.rst:324
+#: ../classes/class_roommanager.rst:340
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:96
+msgid "rooms_get_active()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:99
+msgid "打开和关闭portal剔除系统。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:101
+msgid "需要注意的是，当portal剔除处于活动状态时，它负责 **所有** 3d 剔除。某些编辑器功能可能更难使用，因此切换活动标志旨在确保您的 :ref:`Room<class_Room>` / :ref:`Portal<class_Portal>` 布局在编辑器中工作。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:103
+msgid "当\\ ``room graph``\\ 被卸载（空间尚未转换）时，切换到\\ ``active``\\ 将不起作用。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:109
+msgid ":ref:`bool<class_bool>` **debug_sprawl**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:114
+msgid "set_debug_sprawl(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:116
+msgid "get_debug_sprawl()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:119
+msgid "大型物体可以“蔓延”超过一个以上的空间。该设置对于可视化那些蔓延在当前空间外的对象会很有用。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:121
+msgid "切换此设置可打开和关闭此调试视图。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:127
+msgid ":ref:`float<class_float>` **default_portal_margin**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:132
+msgid "set_default_portal_margin(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:134
+msgid "get_default_portal_margin()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:137
+msgid "通常我们不希望只有\\ **刚好**\\ 跨越边界进入相邻\\ :ref:`Room<class_Room>`\\ 的物体蔓延到那个空间。为防止这种情况发生，每个 :ref:`Portal<class_Portal>` 都有一个额外的边距或容差区，物体可以在其中进入而不会蔓延到相邻的空间。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:139
+msgid "在大多数情况下，您可以在此处为所有portal设置此项。可以覆盖每个portal的边距。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:145
+msgid ":ref:`bool<class_bool>` **gameplay_monitor**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:150
+msgid "set_gameplay_monitor_enabled(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:152
+msgid "get_gameplay_monitor_enabled()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:155
+msgid "使用部分或完整 PVS 时，游戏监视器允许您在漫游对象或空间进入或退出 **游戏区域** 时接收回调。游戏区域被定义为主要或次要 PVS。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:157
+msgid "例如，这些回调允许您减少对远离玩家的对象的处理，或者打开和关闭 AI。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:159
+msgid "您可以选择通过 ``_notification`` 函数接收回调作为通知，或作为信号接收。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:161
+msgid "\\ ``NOTIFICATION_ENTER_GAMEPLAY``\\"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:163
+msgid "\\ ``NOTIFICATION_EXIT_GAMEPLAY``\\"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:165
+msgid "信号：\\ ``\"gameplay_entered\"``, ``\"gameplay_exited\"``"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:171
+msgid ":ref:`bool<class_bool>` **merge_meshes**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:176
+msgid "set_merge_meshes(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:178
+msgid "get_merge_meshes()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:181
+msgid "如果启用，系统将在转换期间尝试合并 :ref:`Room<class_Room>` 内的相似网格（特别是在材质方面）。这可以显着减少渲染期间所需的绘制调用和状态更改的数量，尽管代价是降低了剔除粒度。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:183
+msgid "\\ **注意：**\\ 此操作在转换过程中的运行时运行，并且只会在导出或运行的项目上运行，以防止意外更改场景和丢失数据。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:189
+msgid ":ref:`int<class_int>` **overlap_warning_threshold**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:194
+msgid "set_overlap_warning_threshold(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:196
+msgid "get_overlap_warning_threshold()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:199
+msgid "转换空间时，如果检测到空间之间有重叠，编辑器会警告您。重叠会干扰确定摄像机和物体所在的空间。根据您的level，少量是可以接受的。您可以在此处更改出现编辑器警告的阈值。没有其他副作用。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:205
+msgid ":ref:`int<class_int>` **portal_depth_limit**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:210
+msgid "set_portal_depth_limit(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:212
+msgid "get_portal_depth_limit()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:215
+msgid "portal渲染是递归的 - 每次通过较早的portal看到一个portal时，都会产生一些成本。出于这个原因，并为了防止无限循环的可能性，此设置对递归深度提供了硬性限制。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:217
+msgid "\\ **注：** 使用\\ ``Full`` PVS 模式时不使用该值。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:223
+msgid ":ref:`NodePath<class_NodePath>` **preview_camera**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:228
+msgid "set_preview_camera_path(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:230
+msgid "get_preview_camera_path()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:233
+msgid "Portal 剔除通常使用当前的 :ref:`Camera<class_Camera>` / 多个\\ :ref:`Camera<class_Camera>` 进行操作，但是为了在编辑器中进行调试，您可以使用此设置来覆盖此行为并强制它使用特定的相机以更好地了解遮挡的内容剔除正在做。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:239
+msgid ":ref:`PVSMode<enum_RoomManager_PVSMode>` **pvs_mode**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:244
+msgid "set_pvs_mode(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:246
+msgid "get_pvs_mode()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:249
+msgid "可选地，在转换期间，可以计算从每个空间可能可见的空间的潜在可见集 (PVS)。这可用于帮助动态门户剔除，或完全替代门户剔除。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:251
+msgid "在 ``Full`` PVS 模式下，潜在可见空间内的所有对象都将被剔除，如果它们在视锥体内，则进行渲染。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:257
+msgid ":ref:`float<class_float>` **roaming_expansion_margin**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:262
+msgid "set_roaming_expansion_margin(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:264
+msgid "get_roaming_expansion_margin()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:267
+msgid "为了减少对漫游对象的处理，会在它们移动时扩展其 AABB。用扩展后的空间计算漫游对象所处的房间。下次移动时，如果该对象的精确 AABB 仍然位于扩展后的空间，则无须再次处理该对象，可以相当节省 CPU。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:269
+msgid "缺点是如果扩展得过多，该对象就可能意外蔓延到隔壁房间，在本该剔除的地方出现。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:271
+msgid "为了在高效漫游和精准剔除之间达到平衡，用户可以自定义扩展的距离。这个距离一般由房间、对象的大小以及移动速度决定。大多数情况下，默认值应该都能达到合适的效果。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:277
+msgid ":ref:`float<class_float>` **room_simplify**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:282
+msgid "set_room_simplify(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:284
+msgid "get_room_simplify()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:287
+msgid "在转换过程中，\\ :ref:`Room<class_Room>` 内对象的几何形状，或自定义指定的手动绑定，用于生成 **凸多边形绑定**\\ 。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:289
+msgid "这个凸多边形在可见性系统中是 **必需的**\\ ，并且用于许多目的。最重要的是，它用于决定\\ :ref:`Camera<class_Camera>`\\ （或物体）是否在\\ :ref:`Room<class_Room>`\\ 内。凸多边形生成算法很好，但有时它会创建太多（或太少）的平面，无法很好地表示空间体积。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:291
+msgid "\\ ``room_simplify`` 值可用于对该过程进行精细控制。它决定了如何相似平面才能将它们视为相同（并删除重复项）。该值可以设置在 0（无简化）和 1（最大简化）之间。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:293
+msgid "此处设置的值是所有空间的默认值，但如果需要，个别空间可以覆盖此值。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:295
+msgid "空间凸包在编辑器中显示为线框。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:301
+msgid ":ref:`NodePath<class_NodePath>` **roomlist**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:306
+msgid "set_roomlist_path(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:308
+msgid "get_roomlist_path()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:311
+msgid "要使 :ref:`Room<class_Room>` 转换过程成功，您必须将 ``RoomManager`` 指向 :ref:`Room<class_Room>` 和 :ref:`RoomGroup<class_RoomGroup>` 的父 :ref:`Node<class_Node>`\\ ，我们将其称为 ``roomlist``\\ （roomlist 不是一个特殊的节点类型，它通常只是一个 :ref:`Room<class_Room>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:317
+msgid ":ref:`bool<class_bool>` **show_margins**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:322
+msgid "set_show_margins(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:324
+msgid "get_show_margins()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:327
+msgid "当在编辑器中使用portal工具时，显示\\ :ref:`Portal<class_Portal>`\\ 的边界。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:333
+msgid ":ref:`bool<class_bool>` **use_secondary_pvs**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:338
+msgid "set_use_secondary_pvs(value)"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:340
+msgid "get_use_secondary_pvs()"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:343
+msgid "当对象进入和退出游戏时接收游戏回调时，\\ **游戏区域**\\ 可以由\\ :ref:`Room<class_Room>`\\ 的主要PVS（潜在可见集）或次要PVS（主要PVS及其相邻的PVS）定义\\ :ref:`Room<class_Room>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:345
+msgid "有时使用次要 PVS 的较大游戏区域可能更可取。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:348
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:352
+msgid "void **rooms_clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:354
+msgid "该方法会从\\ **portal graph**\\ 清除所有转换数据。在卸载关卡、从关卡转换到关卡或返回主菜单时使用此选项。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:360
+msgid "void **rooms_convert** **(** **)**"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:362
+msgid "这是整个portal剔除系统中最重要的功能。没有它，系统就无法运行。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:364
+msgid "首先，它遍历作为 ``room list`` 的节点（以及其中的 :ref:`RoomGroup<class_RoomGroup>`\\ ）子节点的每个 :ref:`Room<class_Room>`\\ ，并将其转换并添加到 ``room graph``\\ 。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:366
+msgid "这适用于遵循特殊命名约定的 :ref:`Room<class_Room>` 节点和 :ref:`Spatial<class_Spatial>` 节点。它们应该以前缀 *'Room\\_'* 开头，然后是您希望为空间命名的名称，例如\\ *'Room_lounge'*\\ 。这将自动为您将此类 :ref:`Room<class_Room>` 转换为 :ref:`Room<class_Room>` 节点。如果您想构建整个空间系统，这很有用，例如Blender，并在您处理关卡时多次重新导入。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:368
+msgid "转换将尝试将作为 :ref:`Room<class_Room>` 的子代和孙代的 :ref:`VisualInstance<class_VisualInstance>` 分配给空间。这些应该被赋予合适的 ``portal mode``\\ （参见 :ref:`CullInstance<class_CullInstance>` 文档）。默认的 ``portal mode`` 是 ``STATIC`` - 运行关卡时不会移动的对象，通常是大多数对象。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:370
+msgid "转换通常会使用这些 :ref:`VisualInstance<class_VisualInstance>`\\ （和 :ref:`Portal<class_Portal>`\\ ）的几何形状来计算空间的凸多边形边界。这些边界将显示在带有线框的编辑器中。或者，您可以为任何空间指定手动自定义边界，请参阅 :ref:`Room<class_Room>` 文档。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:372
+msgid "根据定义，空间内的 :ref:`Camera<class_Camera>` 可以看到空间内的所有其他东西（这是使用凸多边形的一个优势）。但是，为了从一个空间看到相邻的空间，您必须放置 :ref:`Portal<class_Portal>`\\ ，它代表摄像机可以看到的开口，如窗户和门。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:374
+msgid "\\ :ref:`Portal<class_Portal>` 实际上只是专门的 :ref:`MeshInstance<class_MeshInstance>`\\ 。实际上，您通常会首先通过创建 :ref:`MeshInstance<class_MeshInstance>`\\ ，尤其是 ``plane`` 网格实例来创建portal。您可以在编辑器中移动平面以覆盖窗户或门口，正面朝空间外。为了让转换过程知道您希望此网格成为portal，我们再次使用特殊的命名约定。要转换为 :ref:`Portal<class_Portal>` 的 :ref:`MeshInstance<class_MeshInstance>` 应以前缀 *'Portal\\_'* 开头。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:376
+msgid "您现在有一个选择 - 您可以将名称保留为 *'Portal\\_'*\\ ，并允许系统自动检测最近的 :ref:`Room<class_Room>` 进行链接。在大多数情况下，这将正常工作。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:378
+msgid "另一种方法是手动指定要链接到的 :ref:`Room<class_Room>`\\ ，在portal名称后附加一个后缀，该后缀应该是您要链接到的空间的名称。例如，\\ *'Portal_lounge'* 将尝试链接到名为 *'Room_lounge'* 的空间。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:380
+msgid "这里有一个特殊情况——GaaeExplorer 不允许两个节点共享相同的名称。如果您想手动将多个portal通向同一个空间怎么办？当然，它们都需要被调用，例如\\ *'Portal_lounge'*\\ ？"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:382
+msgid "解决方案是通配符。在空间名称之后，如果您使用字符 *'\\*'*\\ ，则该字符及其后的任何内容都将被忽略。因此，您可以使用例如 *'Portal_lounge\\*0'*\\ 、\\ *'Portal_lounge\\*1'* 等。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:384
+msgid "请注意，已经转换为 :ref:`Portal<class_Portal>` 节点（而不是 :ref:`MeshInstance<class_MeshInstance>`\\ ）的 :ref:`Portal<class_Portal>` 仍然需要遵循相同的命名约定，因为它们在转换过程中每次都会重新链接。"
+msgstr ""
+
+#: ../classes/class_roommanager.rst:386
+msgid "建议您仅将对象放置在希望留在这些空间内的空间中 - 即 ``portal mode``\\ 是 ``STATIC`` 或 ``DYNAMIC``\\ （不穿越 Portal）。 ``GLOBAL`` 和 ``ROAMING`` 对象最好放置在场景树的另一部分，以避免混淆。有关portal模式的完整说明，请参阅 :ref:`CullInstance<class_CullInstance>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

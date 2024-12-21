@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/export/feature_tags.rst:4
+msgid "Feature tags"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:9
+msgid "GaaeExplorer has a special system to tag availability of features. Each *feature* is represented as a string, which can refer to many of the following:"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:12
+msgid "Platform name."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:13
+msgid "Platform architecture (64-bit or 32-bit, x86 or ARM)."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:14
+msgid "Platform type (desktop, mobile, Web)."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:15
+msgid "Supported texture compression algorithms on the platform."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:16
+msgid "Whether a build is ``debug`` or ``release`` (``debug`` includes the editor)."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:17
+msgid "Whether the project is running from the editor or a \"standalone\" binary."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:18
+msgid "Many more things."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:20
+msgid "Features can be queried at run-time from the singleton API by calling:"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:28
+msgid "Default features"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:30
+msgid "Here is a list of most feature tags in GaaeExplorer. Keep in mind they are **case-sensitive**:"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:33
+msgid "**Feature tag**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:33
+msgid "**Description**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:35
+msgid "**Android**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:35
+msgid "Running on Android"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:37
+msgid "**HTML5**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:37
+msgid "Running on HTML5"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:39
+msgid "**JavaScript**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:39
+msgid ":ref:`JavaScript singleton <doc_javascript_eval>` is available"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:42
+msgid "**OSX**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:42
+msgid "Running on macOS"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:44
+msgid "**iOS**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:44
+msgid "Running on iOS"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:46
+msgid "**UWP**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:46
+msgid "Running on UWP"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:48
+msgid "**Windows**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:48
+msgid "Running on Windows"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:50
+msgid "**X11**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:50
+msgid "Running on X11 (Linux/BSD desktop)"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:52
+msgid "**Server**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:52
+msgid "Running on the headless server platform"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:54
+msgid "**debug**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:54
+msgid "Running on a debug build (including the editor)"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:56
+msgid "**release**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:56
+msgid "Running on a release build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:58
+msgid "**editor**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:58
+msgid "Running on an editor build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:60
+msgid "**standalone**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:60
+msgid "Running on a non-editor build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:62
+msgid "**64**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:62
+msgid "Running on a 64-bit build (any architecture)"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:64
+msgid "**32**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:64
+msgid "Running on a 32-bit build (any architecture)"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:66
+msgid "**x86_64**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:66
+msgid "Running on a 64-bit x86 build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:68
+msgid "**x86**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:68
+msgid "Running on a 32-bit x86 build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:70
+msgid "**arm64**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:70
+msgid "Running on a 64-bit ARM build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:72
+msgid "**arm**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:72
+msgid "Running on a 32-bit ARM build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:74
+msgid "**mobile**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:74
+msgid "Host OS is a mobile platform"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:76
+msgid "**pc**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:76
+msgid "Host OS is a PC platform (desktop/laptop)"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:78
+msgid "**web**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:78
+msgid "Host OS is a Web browser"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:80
+msgid "**etc**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:80
+msgid "Textures using ETC1 compression are supported"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:82
+msgid "**etc2**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:82
+msgid "Textures using ETC2 compression are supported"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:84
+msgid "**s3tc**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:84
+msgid "Textures using S3TC (DXT/BC) compression are supported"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:86
+msgid "**pvrtc**"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:86
+msgid "Textures using PVRTC compression are supported"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:91
+msgid "With the exception of texture compression feature tags, default feature tags are **immutable**. This means that they will *not* change depending on run-time conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to HTML5 on a mobile device."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:96
+msgid "To check whether a project exported to HTML5 is running on a mobile device, :ref:`call JavaScript code <doc_javascript_eval>` that reads the browser's user agent."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:101
+msgid "Custom features"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:103
+msgid "It is possible to add custom features to a build; use the relevant field in the *export preset* used to generate it:"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:110
+msgid "Custom feature tags are only used when running the exported project (including with :ref:`doc_one-click_deploy`). They are **not used** when running the project from the editor, even if the export preset marked as **Runnable** for your current platform has custom feature tags defined."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:116
+msgid "Overriding project settings"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:118
+msgid "Features can be used to override specific configuration values in the *Project Settings*. This allows you to better customize any configuration when doing a build."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:121
+msgid "In the following example, a different icon is added for the demo build of the game (which was customized in a special export preset, which, in turn, includes only demo levels)."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:126
+msgid "After overriding, a new field is added for this specific configuration:"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:132
+msgid "When using the :ref:`project settings \"override.cfg\" functionality <class_ProjectSettings>` (which is unrelated to feature tags), remember that feature tags still apply. Therefore, make sure to *also* override the setting with the desired feature tag(s) if you want them to override base project settings on all platforms and configurations."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:140
+msgid "Default overrides"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:142
+msgid "There are already a lot of settings that come with overrides by default; they can be found in many sections of the project settings."
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:148
+msgid "Customizing the build"
+msgstr ""
+
+#: ../tutorials/export/feature_tags.rst:150
+msgid "Feature tags can be used to customize a build process too, by writing a custom **ExportPlugin**. They are also used to specify which shared library is loaded and exported in **GDNative**."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

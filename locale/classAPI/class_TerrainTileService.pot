@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_TerrainTileService.rst:2
+msgid "TerrainTileService"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:16
+msgid "TerrainAccessor"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:16
+msgid "Owner"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:18
+#: ../classAPI/class_TerrainTileService.rst:20
+#: ../classAPI/class_TerrainTileService.rst:26
+#: ../classAPI/class_TerrainTileService.rst:28
+#: ../classAPI/class_TerrainTileService.rst:32
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:18
+msgid "ServerUrl"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:20
+msgid "DataSet"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:22
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:22
+msgid "LevelZeroTileSizeDegrees"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:24
+#: ../classAPI/class_TerrainTileService.rst:47
+#: ../classAPI/class_TerrainTileService.rst:49
+#: ../classAPI/class_TerrainTileService.rst:51
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:24
+msgid "SamplesPerTile"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:26
+msgid "FileExtension"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:28
+msgid "TerrainTileDirectory"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:30
+msgid "TimeSpan"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:30
+msgid "TerrainTileRetryInterval"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:32
+msgid "DataType"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:34
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:34
+msgid "IsFile"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:41
+#: ../classAPI/class_TerrainTileService.rst:53
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:41
+msgid "AddInValidValue(Single value,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:43
+#: ../classAPI/class_TerrainTileService.rst:45
+msgid "TerrainTile"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:43
+msgid "GetTerrainTile(Double latitude,Double longitude,Double samplesPerDegree,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:45
+msgid "GetTerrainTile(Double latitude,Double longitude,Int32 targetLevel,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:47
+msgid "ComputeTerrainTileLevel(Double samplesPerDegree,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:49
+msgid "GetColFromLongitude(Double longitude,Double tileSize,Boolean inverse,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:51
+msgid "GetRowFromLatitude(Double latitude,Double tileSize,Boolean inverse,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:53
+msgid "Dispose()"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:57
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:59
+msgid "TerrainAccessor Owner"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:62
+#: ../classAPI/class_TerrainTileService.rst:143
+#: ../classAPI/class_TerrainTileService.rst:154
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:66
+msgid "父地形服务"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:70
+msgid "String ServerUrl"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:73
+#: ../classAPI/class_TerrainTileService.rst:83
+#: ../classAPI/class_TerrainTileService.rst:93
+#: ../classAPI/class_TerrainTileService.rst:103
+#: ../classAPI/class_TerrainTileService.rst:113
+#: ../classAPI/class_TerrainTileService.rst:123
+#: ../classAPI/class_TerrainTileService.rst:133
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:76
+msgid "服务地址"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:80
+msgid "String DataSet"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:86
+msgid "数据集的本地路径"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:90
+msgid "Double LevelZeroTileSizeDegrees"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:96
+msgid "0级瓦片的经纬度跨度"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:100
+msgid "Int32 SamplesPerTile"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:106
+msgid "每个瓦片的采样数量"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:110
+msgid "String FileExtension"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:116
+msgid "地形数据文件拓展名"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:120
+msgid "String TerrainTileDirectory"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:126
+msgid "地形文件存储目录"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:130
+msgid "TimeSpan TerrainTileRetryInterval"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:136
+msgid "地形瓦片重试间隔"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:140
+msgid "String DataType"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:147
+msgid "数据类型"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:151
+msgid "Boolean IsFile"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:158
+msgid "指示Terrain文件是多个还是单个文件 Indicates whether the Terrain file is multiple or a single file"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:165
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:167
+msgid "Void AddInValidValue(Single value,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:173
+msgid "TerrainTile GetTerrainTile(Double latitude,Double longitude,Double samplesPerDegree,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:179
+msgid "TerrainTile GetTerrainTile(Double latitude,Double longitude,Int32 targetLevel,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:185
+msgid "Int32 ComputeTerrainTileLevel(Double samplesPerDegree,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:191
+msgid "Int32 GetColFromLongitude(Double longitude,Double tileSize,Boolean inverse,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:197
+msgid "Int32 GetRowFromLatitude(Double latitude,Double tileSize,Boolean inverse,)"
+msgstr ""
+
+#: ../classAPI/class_TerrainTileService.rst:203
+msgid "Void Dispose()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

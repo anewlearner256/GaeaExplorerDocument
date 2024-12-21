@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:4
+msgid "GDScript warning system"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:6
+msgid "The GDScript warning system complements :ref:`static typing <doc_gdscript_static_typing>` (but it can work without static typing too). It's here to help you avoid mistakes that are hard to spot during development, and that may lead to runtime errors."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:11
+msgid "You can configure warnings in the Project Settings under the section called **Gdscript**:"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:17
+#: ../tutorials/scripting/gdscript/warning_system.rst:17
+msgid "Warning system project settings"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:19
+msgid "You can find a list of warnings for the active GDScript file in the script editor's status bar. The example below has 3 warnings:"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:25
+#: ../tutorials/scripting/gdscript/warning_system.rst:25
+msgid "Warning system example"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:27
+msgid "To ignore specific warnings in one file, insert a special comment of the form ``# warning-ignore:warning-id``, or click on the ignore link to the right of the warning's description. GaaeExplorer will add a comment above the corresponding line and the code won't trigger the corresponding warning anymore:"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:36
+#: ../tutorials/scripting/gdscript/warning_system.rst:36
+msgid "Warning system ignore example"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:38
+msgid "You can also choose to ignore not just one but all warnings of a certain type in this file with ``# warning-ignore-all:warning-id``. To ignore all warnings of all types in a file add the comment ``# warnings-disable`` to it."
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:42
+msgid "Warnings won't prevent the game from running, but you can turn them into errors if you'd like. This way your game won't compile unless you fix all warnings. Head to the ``GDScript`` section of the Project Settings to turn on this option. Here's the same file as the previous example with warnings as errors turned on:"
+msgstr ""
+
+#: ../tutorials/scripting/gdscript/warning_system.rst:51
+#: ../tutorials/scripting/gdscript/warning_system.rst:51
+msgid "Warnings as errors"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

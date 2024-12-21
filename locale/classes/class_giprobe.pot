@@ -1,0 +1,462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_giprobe.rst:10
+msgid "GIProbe"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:12
+msgid "**Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:14
+msgid "实时全局光照（GI）探测。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:19
+msgid "``GIProbe`` 可以为场景提供高质量的实时间接光照。它们预先计算发光物体和静态几何体的效果，以实时模拟复杂光线的行为。\\ ``GIProbe`` 在使用前需要进行烘焙，而后，一旦烘焙，动态物体就会从它们那里接收光线。此外，灯光可以是完全动态的，也可以是烘焙的。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:21
+msgid "在场景中使用 ``GIProbe`` 会很消耗资源，可以在 :ref:`ProjectSettings<class_ProjectSettings>` 中使用 :ref:`ProjectSettings.rendering/quality/voxel_cone_tracing/high_quality<class_ProjectSettings_property_rendering/quality/voxel_cone_tracing/high_quality>` 来降低探针的质量，换取更好的性能。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:23
+msgid "\\ **程序式生成：**\\ ``GIProbe`` 在导出后的项目中也可以进行烘焙，因此它适合程序式生成或者用户构建的关卡，只需保证所有几何体都是预先生成的即可。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:25
+msgid "\\ **性能：**\\ ``GIProbe`` 相对更耗 GPU，不适合在集成显卡等低端硬件上使用，可考虑换用 :ref:`BakedLightmap<class_BakedLightmap>`\\ 。要为低端硬件提供备选方案，可考虑在你项目的选项菜单中添加禁用 ``GIProbe`` 的选项。隐藏 ``GIProbe`` 节点即可将其禁用。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:27
+msgid "\\ **注意：**\\ 网格应该有足够厚的墙以避免漏光，注，避免单面墙。对于内部关卡，将你的关卡几何体包围在一个足够大的盒子里，并将环路联接起来以关闭网格。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:29
+msgid "\\ **注意：**\\ 由于渲染器的限制，在\\ ``GIProbe``\\ 中使用发光的\\ :ref:`ShaderMaterial<class_ShaderMaterial>`\\ 时不能发光。只有发射型的\\ :ref:`SpatialMaterial<class_SpatialMaterial>`\\ 可以在\\ ``GIProbe``\\ 中发射光线。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:32
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:34
+msgid ":doc:`GI probes <../tutorials/3d/gi_probes>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:36
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:39
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:42
+#: ../classes/class_giprobe.rst:50
+#: ../classes/class_giprobe.rst:56
+#: ../classes/class_giprobe.rst:58
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:42
+msgid ":ref:`bias<class_GIProbe_property_bias>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:42
+#: ../classes/class_giprobe.rst:107
+msgid "``1.5``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:44
+#: ../classes/class_giprobe.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:44
+msgid ":ref:`compress<class_GIProbe_property_compress>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:44
+#: ../classes/class_giprobe.rst:54
+#: ../classes/class_giprobe.rst:125
+#: ../classes/class_giprobe.rst:203
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:46
+msgid ":ref:`GIProbeData<class_GIProbeData>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:46
+msgid ":ref:`data<class_GIProbe_property_data>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:48
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:48
+msgid ":ref:`dynamic_range<class_GIProbe_property_dynamic_range>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:48
+#: ../classes/class_giprobe.rst:155
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:50
+msgid ":ref:`energy<class_GIProbe_property_energy>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:50
+#: ../classes/class_giprobe.rst:171
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:52
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:52
+msgid ":ref:`extents<class_GIProbe_property_extents>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:52
+#: ../classes/class_giprobe.rst:187
+msgid "``Vector3( 10, 10, 10 )``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:54
+msgid ":ref:`interior<class_GIProbe_property_interior>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:56
+msgid ":ref:`normal_bias<class_GIProbe_property_normal_bias>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:56
+#: ../classes/class_giprobe.rst:219
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:58
+msgid ":ref:`propagation<class_GIProbe_property_propagation>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:58
+#: ../classes/class_giprobe.rst:235
+msgid "``0.7``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:60
+msgid ":ref:`Subdiv<enum_GIProbe_Subdiv>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:60
+msgid ":ref:`subdiv<class_GIProbe_property_subdiv>`"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:60
+#: ../classes/class_giprobe.rst:251
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:64
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:67
+#: ../classes/class_giprobe.rst:69
+msgid "void"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:67
+msgid ":ref:`bake<class_GIProbe_method_bake>` **(** :ref:`Node<class_Node>` from_node=null, :ref:`bool<class_bool>` create_visual_debug=false **)**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:69
+msgid ":ref:`debug_bake<class_GIProbe_method_debug_bake>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:73
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:87
+msgid "enum **Subdiv**:"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:89
+msgid "**SUBDIV_64** = **0** --- 使用64分区，这是最低的质量设置，但也是最快的。如果你能使用它，特别是在低端硬件上使用它。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:91
+msgid "**SUBDIV_128** = **1** --- 使用128个分区。这是默认的质量设置。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:93
+msgid "**SUBDIV_256** = **2** --- 使用256个分区。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:95
+msgid "**SUBDIV_512** = **3** --- 使用 512 个分区。这是最高的质量设置，但也是最慢的。在低端硬件上，这可能会导致 GPU 停顿。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:97
+msgid "**SUBDIV_MAX** = **4** --- 代表 :ref:`Subdiv<enum_GIProbe_Subdiv>` 举的大小。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:100
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:104
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:107
+#: ../classes/class_giprobe.rst:125
+#: ../classes/class_giprobe.rst:155
+#: ../classes/class_giprobe.rst:171
+#: ../classes/class_giprobe.rst:187
+#: ../classes/class_giprobe.rst:203
+#: ../classes/class_giprobe.rst:219
+#: ../classes/class_giprobe.rst:235
+#: ../classes/class_giprobe.rst:251
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:109
+#: ../classes/class_giprobe.rst:127
+#: ../classes/class_giprobe.rst:141
+#: ../classes/class_giprobe.rst:157
+#: ../classes/class_giprobe.rst:173
+#: ../classes/class_giprobe.rst:189
+#: ../classes/class_giprobe.rst:205
+#: ../classes/class_giprobe.rst:221
+#: ../classes/class_giprobe.rst:237
+#: ../classes/class_giprobe.rst:253
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:109
+msgid "set_bias(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:111
+#: ../classes/class_giprobe.rst:129
+#: ../classes/class_giprobe.rst:143
+#: ../classes/class_giprobe.rst:159
+#: ../classes/class_giprobe.rst:175
+#: ../classes/class_giprobe.rst:191
+#: ../classes/class_giprobe.rst:207
+#: ../classes/class_giprobe.rst:223
+#: ../classes/class_giprobe.rst:239
+#: ../classes/class_giprobe.rst:255
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:111
+msgid "get_bias()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:114
+msgid "从 ``GIProbe`` 偏移光贡献的查找。这可用于避免自阴影，但可能会在较高的值下引入漏光。这个和 :ref:`normal_bias<class_GIProbe_property_normal_bias>` 应该使用，以尽量减少自阴影和漏光。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:116
+msgid "\\ **注意：** ``bias`` 通常应该在 1.0 以上，因为这是体素的大小。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:122
+msgid ":ref:`bool<class_bool>` **compress**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:127
+msgid "set_compress(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:129
+msgid "is_compressed()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:132
+msgid "*已废弃*\\ 由于已知的错误，这个属性已被废弃，启用后不再有任何效果。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:138
+msgid ":ref:`GIProbeData<class_GIProbeData>` **data**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:141
+msgid "set_probe_data(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:143
+msgid "get_probe_data()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:146
+msgid "持有此 ``GIProbe`` 的数据的 :ref:`GIProbeData<class_GIProbeData>` 资源。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:152
+msgid ":ref:`int<class_int>` **dynamic_range**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:157
+msgid "set_dynamic_range(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:159
+msgid "get_dynamic_range()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:162
+msgid "``GIProbe`` 能识别的最大亮度。亮度将在此范围内缩放。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:168
+msgid ":ref:`float<class_float>` **energy**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:173
+msgid "set_energy(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:175
+msgid "get_energy()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:178
+msgid "能量倍数。使 ``GIProbe`` 的照明贡献更亮。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:184
+msgid ":ref:`Vector3<class_Vector3>` **extents**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:189
+msgid "set_extents(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:191
+msgid "get_extents()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:194
+msgid "``GIProbe`` 所覆盖区域的大小。如果你让外延变大，而没有用 :ref:`subdiv<class_GIProbe_property_subdiv>` 增加细分，每个单元的大小将增加，并导致低细节照明。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:200
+msgid ":ref:`bool<class_bool>` **interior**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:205
+msgid "set_interior(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:207
+msgid "is_interior()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:210
+msgid "如果为\\ ``true``\\ ，在计算照明时忽略天空的贡献。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:216
+msgid ":ref:`float<class_float>` **normal_bias**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:221
+msgid "set_normal_bias(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:223
+msgid "get_normal_bias()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:226
+msgid "根据物体的法线方向，对 ``GIProbe`` 的查找进行偏移。可以用来减少一些自阴影的假象。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:232
+msgid ":ref:`float<class_float>` **propagation**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:237
+msgid "set_propagation(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:239
+msgid "get_propagation()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:242
+msgid "光在探针内部传播的程度。一个较高的值可以使光传播得更远。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:248
+msgid ":ref:`Subdiv<enum_GIProbe_Subdiv>` **subdiv**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:253
+msgid "set_subdiv(value)"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:255
+msgid "get_subdiv()"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:258
+msgid "对 ``GIProbe`` 所操作的网格进行细分的次数。数字越大，细节就越精细，因而视觉质量就越高，而数字越小，性能就越好。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:261
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:265
+msgid "void **bake** **(** :ref:`Node<class_Node>` from_node=null, :ref:`bool<class_bool>` create_visual_debug=false **)**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:267
+msgid "烘焙所有标有 :ref:`GeometryInstance.use_in_baked_light<class_GeometryInstance_property_use_in_baked_light>` 的 :ref:`GeometryInstance<class_GeometryInstance>` 和标有 :ref:`Light.BAKE_INDIRECT<class_Light_constant_BAKE_INDIRECT>` 或 :ref:`Light.BAKE_ALL<class_Light_constant_BAKE_ALL>` 的 :ref:`Light<class_Light>` 的效果。如果\\ ``create_visual_debug``\\ 是\\ ``true``\\ ，在烘焙光线后，这将生成一个\\ :ref:`MultiMesh<class_MultiMesh>`\\ ，其中有一个立方体代表每个实体单元，每个立方体的颜色与该单元的反照率颜色一致。这可以用来可视化 ``GIProbe`` 的数据，以调试任何可能发生的问题。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:269
+msgid "\\ **注意：** :ref:`bake<class_GIProbe_method_bake>` 在编辑器和导出后的项目中都是有效的。因此适用于程序化生成或者用户构建的关卡。在多数场景中，烘焙 ``GIProbe`` 通常需要花费 5 到 20 秒。减少 :ref:`subdiv<class_GIProbe_property_subdiv>` 可以加速烘焙。"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:275
+msgid "void **debug_bake** **(** **)**"
+msgstr ""
+
+#: ../classes/class_giprobe.rst:277
+msgid "在启用 ``create_visual_debug`` 的情况下调用 :ref:`bake<class_GIProbe_method_bake>` 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

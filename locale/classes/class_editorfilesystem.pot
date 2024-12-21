@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorfilesystem.rst:10
+msgid "EditorFileSystem"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:14
+msgid "编辑器可以浏览的资源文件系统。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:19
+msgid "这个对象（object）储存着文件系统里所有的资源的信息，类型和其他。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:21
+msgid "\\ **Note:** 这个类（class)不应该被直接实例化。应该使用下列方法（method）\\ :ref:`EditorInterface.get_resource_filesystem<class_EditorInterface_method_get_resource_filesystem>`\\ 来读取单例（singleton）。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:27
+msgid ":ref:`get_file_type<class_EditorFileSystem_method_get_file_type>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:29
+#: ../classes/class_editorfilesystem.rst:31
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:29
+msgid ":ref:`get_filesystem<class_EditorFileSystem_method_get_filesystem>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:31
+msgid ":ref:`get_filesystem_path<class_EditorFileSystem_method_get_filesystem_path>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:33
+msgid ":ref:`get_scanning_progress<class_EditorFileSystem_method_get_scanning_progress>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:35
+msgid ":ref:`is_scanning<class_EditorFileSystem_method_is_scanning>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:37
+#: ../classes/class_editorfilesystem.rst:39
+#: ../classes/class_editorfilesystem.rst:41
+#: ../classes/class_editorfilesystem.rst:43
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:37
+msgid ":ref:`scan<class_EditorFileSystem_method_scan>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:39
+msgid ":ref:`scan_sources<class_EditorFileSystem_method_scan_sources>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:41
+msgid ":ref:`update_file<class_EditorFileSystem_method_update_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:43
+msgid ":ref:`update_script_classes<class_EditorFileSystem_method_update_script_classes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:47
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:51
+msgid "**filesystem_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:53
+msgid "在文件系统更改的时候触发。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:59
+msgid "**resources_reimported** **(** :ref:`PoolStringArray<class_PoolStringArray>` resources **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:61
+msgid "重新导入资源时触发。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:67
+msgid "**resources_reload** **(** :ref:`PoolStringArray<class_PoolStringArray>` resources **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:69
+msgid "如果在扫描文件系统的时候发现至少一个资源被重载那么触发信号。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:75
+msgid "**sources_changed** **(** :ref:`bool<class_bool>` exist **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:77
+msgid "如果导入文件的来源发生变化，则触发。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:80
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:84
+msgid ":ref:`String<class_String>` **get_file_type** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:86
+msgid "返回文件的资源类型，给定完整路径。这将返回字符串，如\\ ``\"Resource\"``\\ 或\\ ``\"GDScript\"``\\ ，\\ *不是*\\ 文件扩展名，如\\ ``\".gd\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:92
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>` **get_filesystem** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:94
+msgid "获取根目录对象。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:100
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>` **get_filesystem_path** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:102
+msgid "返回在 ``path`` 文件系统的视图。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:108
+msgid ":ref:`float<class_float>` **get_scanning_progress** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:110
+msgid "如果文件系统正在被扫描，返回扫描的进度，值为0-1。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:116
+msgid ":ref:`bool<class_bool>` **is_scanning** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:118
+msgid "返回 ``true`` 如果文件系统已经被扫``\\ 描完毕。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:124
+msgid "void **scan** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:126
+msgid "扫描文件系统的改动。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:132
+msgid "void **scan_sources** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:134
+msgid "检查是否更改了已导入资源的来源。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:140
+msgid "void **update_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:142
+msgid "更新文件信息。如果外部程序(不是GaaeExplorer)修改了该文件，则调用此函数。"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:148
+msgid "void **update_script_classes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorfilesystem.rst:150
+msgid "扫描脚本文件并且更新自定义类（class）名称列表。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

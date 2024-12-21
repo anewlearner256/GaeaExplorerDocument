@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/i18n/internationalizing_games.rst:4
+msgid "Internationalizing games"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:9
+msgid "Sería excelente que el mundo hablara solo un idioma (It would be great if the world spoke only one language). Unfortunately for us developers, that is not the case. While indie or niche games usually do not need localization, games targeting a more massive market often require localization. GaaeExplorer offers many tools to make this process more straightforward, so this tutorial is more like a collection of tips and tricks."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:17
+msgid "Localization is usually done by specific studios hired for the job and, despite the huge amount of software and file formats available for this, the most common way to do localization to this day is still with spreadsheets. The process of creating the spreadsheets and importing them is already covered in the :ref:`doc_importing_translations` tutorial, so this one could be seen more like a follow-up to that one."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:25
+msgid "We will be using the official demo as an example; you can `download it from the Asset Library <https://godotengine.org/asset-library/asset/134>`_."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:29
+msgid "Configuring the imported translation"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:31
+msgid "Translations can get updated and re-imported when they change, but they still have to be added to the project. This is done in **Project → Project Settings → Localization**:"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:37
+msgid "The above dialog is used to add or remove translations project-wide."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:40
+msgid "Localizing resources"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:42
+msgid "It is also possible to instruct GaaeExplorer to use alternate versions of assets (resources) depending on the current language. The **Remaps** tab can be used for this:"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:48
+msgid "Select the resource to be remapped, then add some alternatives for each locale."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:52
+msgid "Converting keys to text"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:54
+msgid "Some controls, such as :ref:`Button <class_Button>` and :ref:`Label <class_Label>`, will automatically fetch a translation if their text matches a translation key. For example, if a label's text is \"MAIN_SCREEN_GREETING1\" and that key exists in the current translation, then the text will automatically be translated."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:59
+msgid "This automatic translation behavior may be undesirable in certain cases. For instance, when using a Label to display a player's name, you most likely don't want the player's name to be translated if it matches a translation key. To disable automatic translation on a specific node, use :ref:`Object.set_message_translation<class_Object_method_set_message_translation>` and send a :ref:`Object.notification<class_Object_method_notification>` to update the translation::"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:74
+msgid "For more complex UI nodes such as OptionButtons, you may have to use this instead::"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:83
+msgid "In code, the :ref:`Object.tr() <class_Object_method_tr>` function can be used. This will just look up the text in the translations and convert it if found:"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:93
+msgid "Making controls resizable"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:95
+msgid "The same text in different languages can vary greatly in length. For this, make sure to read the tutorial on :ref:`doc_size_and_anchors`, as dynamically adjusting control sizes may help. :ref:`Container <class_Container>` can be useful, as well as the text wrapping options available in :ref:`Label <class_Label>`."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:102
+msgid "TranslationServer"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:104
+msgid "GaaeExplorer has a server handling low-level translation management called the :ref:`TranslationServer <class_TranslationServer>`. Translations can be added or removed during run-time; the current language can also be changed at run-time."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:110
+msgid "Testing translations"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:112
+msgid "You may want to test a project's translation before releasing it. GaaeExplorer provides two ways to do this."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:115
+msgid "First, in the Project Settings, under **Input Devices > Locale**, there is a **Test** property. Set this property to the locale code of the language you want to test. GaaeExplorer will run the project with that locale when the project is run (either from the editor or when exported)."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:122
+msgid "Keep in mind that since this is a project setting, it will show up in version control when it is set to a non-empty value. Therefore, it should be set back to an empty value before committing changes to version control."
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:126
+msgid "Translations can also be tested when running GaaeExplorer from the command line. For example, to test a game in French, the following argument can be supplied:"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:135
+msgid "Translating the project name"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:137
+msgid "The project name becomes the app name when exporting to different operating systems and platforms. To specify the project name in more than one language, create a new setting ``application/name`` in the **Project Settings** and append the locale identifier to it. For instance, for Spanish, this would be ``application/name_es``:"
+msgstr ""
+
+#: ../tutorials/i18n/internationalizing_games.rst:145
+msgid "If you are unsure about the language code to use, refer to the :ref:`list of locale codes <doc_locales>`."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

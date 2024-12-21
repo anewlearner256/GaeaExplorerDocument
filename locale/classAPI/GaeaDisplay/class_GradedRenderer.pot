@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:2
+msgid "GradedRenderer"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:7
+msgid "分级渲染器，根据分级字段和分级数进行渲染"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:16
+msgid "String"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:16
+msgid "GradedField"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:18
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:18
+msgid "GradedNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:27
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:29
+msgid "String GradedField"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:32
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:43
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:36
+msgid "分级字段"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:40
+msgid "Int32 GradedNumber"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:47
+msgid "分级数"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_GradedRenderer.rst:53
+msgid "方法说明"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

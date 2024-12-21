@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_scrollcontainer.rst:10
+msgid "ScrollContainer"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:14
+msgid "**Inherited By:** :ref:`EditorInspector<class_EditorInspector>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:16
+msgid "用于显示可滚动元素（例如列表）的辅助节点。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:21
+msgid "滚动容器节点，用于包含 :ref:`Control<class_Control>` 子节点。 滚动容器将在需要时自动创建滚动条子项（\\ :ref:`HScrollBar<class_HScrollBar>`\\ 、\\ :ref:`VScrollBar<class_VScrollBar>` 或两者），且仅在滚动容器区域内绘制控件。滚动条将自动绘制在右侧或底部，即垂直或水平，并允许拖动以在滚动容器内移动可视控件及其子项。滚动条还将根据控件相对于滚动容器的 :ref:`Control.rect_min_size<class_Control_property_rect_min_size>` 自动调整抓取器的大小。与 :ref:`Panel<class_Panel>` 控件配合使用效果很好。您可以将子项的大小标志设置为 ``EXPAND``\\ ，当滚动容器的大小更大（滚动对于所选维度不可见），它们将放大到滚动容器的大小。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:27
+#: ../classes/class_scrollcontainer.rst:29
+#: ../classes/class_scrollcontainer.rst:35
+#: ../classes/class_scrollcontainer.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:27
+msgid ":ref:`follow_focus<class_ScrollContainer_property_follow_focus>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:27
+#: ../classes/class_scrollcontainer.rst:85
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:29
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:29
+msgid "``true`` (overrides :ref:`Control<class_Control_property_rect_clip_content>`)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:31
+#: ../classes/class_scrollcontainer.rst:33
+#: ../classes/class_scrollcontainer.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:31
+msgid ":ref:`scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:31
+#: ../classes/class_scrollcontainer.rst:33
+#: ../classes/class_scrollcontainer.rst:37
+#: ../classes/class_scrollcontainer.rst:101
+#: ../classes/class_scrollcontainer.rst:115
+#: ../classes/class_scrollcontainer.rst:147
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:33
+msgid ":ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:35
+msgid ":ref:`scroll_horizontal_enabled<class_ScrollContainer_property_scroll_horizontal_enabled>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:35
+#: ../classes/class_scrollcontainer.rst:39
+#: ../classes/class_scrollcontainer.rst:131
+#: ../classes/class_scrollcontainer.rst:163
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:37
+msgid ":ref:`scroll_vertical<class_ScrollContainer_property_scroll_vertical>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:39
+msgid ":ref:`scroll_vertical_enabled<class_ScrollContainer_property_scroll_vertical_enabled>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:43
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:46
+msgid "void"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:46
+msgid ":ref:`ensure_control_visible<class_ScrollContainer_method_ensure_control_visible>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:48
+msgid ":ref:`HScrollBar<class_HScrollBar>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:48
+msgid ":ref:`get_h_scrollbar<class_ScrollContainer_method_get_h_scrollbar>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:50
+msgid ":ref:`VScrollBar<class_VScrollBar>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:50
+msgid ":ref:`get_v_scrollbar<class_ScrollContainer_method_get_v_scrollbar>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:54
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:57
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:57
+msgid ":ref:`bg<class_ScrollContainer_theme_style_bg>`"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:61
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:65
+msgid "**scroll_ended** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:67
+msgid "滚动停止时发出。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:73
+msgid "**scroll_started** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:75
+msgid "滚动开始时发出。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:78
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:82
+msgid ":ref:`bool<class_bool>` **follow_focus**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:85
+#: ../classes/class_scrollcontainer.rst:101
+#: ../classes/class_scrollcontainer.rst:115
+#: ../classes/class_scrollcontainer.rst:131
+#: ../classes/class_scrollcontainer.rst:147
+#: ../classes/class_scrollcontainer.rst:163
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:87
+#: ../classes/class_scrollcontainer.rst:103
+#: ../classes/class_scrollcontainer.rst:117
+#: ../classes/class_scrollcontainer.rst:133
+#: ../classes/class_scrollcontainer.rst:149
+#: ../classes/class_scrollcontainer.rst:165
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:87
+msgid "set_follow_focus(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:89
+#: ../classes/class_scrollcontainer.rst:105
+#: ../classes/class_scrollcontainer.rst:119
+#: ../classes/class_scrollcontainer.rst:135
+#: ../classes/class_scrollcontainer.rst:151
+#: ../classes/class_scrollcontainer.rst:167
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:89
+msgid "is_following_focus()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:92
+msgid "如果 ``true``\\ ，则 ScrollContainer 将自动滚动到获得焦点的子项（包括间接子项）以确保它们完全可见。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:98
+msgid ":ref:`int<class_int>` **scroll_deadzone**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:103
+msgid "set_deadzone(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:105
+msgid "get_deadzone()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:112
+msgid ":ref:`int<class_int>` **scroll_horizontal**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:117
+msgid "set_h_scroll(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:119
+msgid "get_h_scroll()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:122
+msgid "当前水平滚动值。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:128
+msgid ":ref:`bool<class_bool>` **scroll_horizontal_enabled**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:133
+msgid "set_enable_h_scroll(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:135
+msgid "is_h_scroll_enabled()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:138
+msgid "如果 ``true``\\ ，启用水平滚动。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:144
+msgid ":ref:`int<class_int>` **scroll_vertical**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:149
+msgid "set_v_scroll(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:151
+msgid "get_v_scroll()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:154
+msgid "当前垂直滚动值。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:160
+msgid ":ref:`bool<class_bool>` **scroll_vertical_enabled**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:165
+msgid "set_enable_v_scroll(value)"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:167
+msgid "is_v_scroll_enabled()"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:170
+msgid "如果 ``true``\\ ，则启用垂直滚动。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:173
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:177
+msgid "void **ensure_control_visible** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:179
+msgid "保证给定的 ``control`` 控件可见（必须是 ScrollContainer 的直接或间接子节点）。会被 :ref:`follow_focus<class_ScrollContainer_property_follow_focus>` 使用。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:181
+msgid "\\ **注意：**\\ 在同一帧内刚被加入的节点上无效。如果你希望滚动至新加的子节点，就必须使用 :ref:`SceneTree.idle_frame<class_SceneTree_signal_idle_frame>` 等待至下一帧："
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:193
+msgid ":ref:`HScrollBar<class_HScrollBar>` **get_h_scrollbar** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:195
+msgid "返回此\\ ``ScrollContainer``\\ 的水平滚动条\\ :ref:`HScrollBar<class_HScrollBar>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:197
+msgid "\\ **警告：** 这是一个必须的内部节点，移除和释放它可能会导致崩溃。如果你想禁用水平滚动条，请使用\\ :ref:`scroll_horizontal_enabled<class_ScrollContainer_property_scroll_horizontal_enabled>`\\ 。如果你只想隐藏它，则使用其\\ :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\\ 属性。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:203
+msgid ":ref:`VScrollBar<class_VScrollBar>` **get_v_scrollbar** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:205
+msgid "返回此\\ ``ScrollContainer``\\ 的垂直滚动条\\ :ref:`VScrollBar<class_VScrollBar>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:207
+msgid "\\ **警告：** 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想禁用垂直滚动条，请使用\\ :ref:`scroll_vertical_enabled<class_ScrollContainer_property_scroll_vertical_enabled>`\\ 。如果你只想隐藏它，则使用其\\ :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`\\ 属性。"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:210
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:214
+msgid ":ref:`StyleBox<class_StyleBox>` **bg**"
+msgstr ""
+
+#: ../classes/class_scrollcontainer.rst:216
+msgid "``ScrollContainer`` 的背景 :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

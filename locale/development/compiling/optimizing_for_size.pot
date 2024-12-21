@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../development/compiling/optimizing_for_size.rst:4
+msgid "Optimizing a build for size"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:9
+msgid "Rationale"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:11
+msgid "Sometimes, it is desired to optimize a build for size rather than speed. This means not compiling unused functions from the engine, as well as using specific compiler flags to aid on decreasing build size. Common situations include creating builds for mobile and Web platforms."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:16
+msgid "This tutorial aims to give an overview on different methods to create a smaller binary. Before continuing, it is recommended to read the previous tutorials on compiling GaaeExplorer for each platform."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:20
+msgid "The options below are listed from the most important (greatest size savings) to the least important (lowest size savings)."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:24
+msgid "Stripping binaries"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:26
+msgid "**Space savings:** Very high"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:27
+#: ../development/compiling/optimizing_for_size.rst:56
+#: ../development/compiling/optimizing_for_size.rst:72
+#: ../development/compiling/optimizing_for_size.rst:96
+#: ../development/compiling/optimizing_for_size.rst:113
+msgid "**Difficulty:** Easy"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:28
+#: ../development/compiling/optimizing_for_size.rst:73
+msgid "**Performed in official builds:** Yes"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:30
+msgid "If you build Windows (MinGW), Linux or macOS binaries from source, remember to strip debug symbols from binaries by installing the ``strip`` package from your distribution then running:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:38
+msgid "On Windows, ``strip.exe`` is included in most MinGW toolchain setups."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:40
+msgid "This will reduce the size of compiled binaries by a factor between 5× and 10×. The downside is that crash backtraces will no longer provide accurate information (which is useful for troubleshooting the cause of a crash). :ref:`C++ profilers <doc_using_cpp_profilers>` will also no longer be able to display function names (this does not affect the built-in GDScript profiler)."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:48
+msgid "The above command will not work on Windows binaries compiled with MSVC and platforms such as Android and HTML5. Instead, pass ``debug_symbols=no`` on the SCons command line when compiling."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:53
+msgid "Optimizing for size instead of speed"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:55
+#: ../development/compiling/optimizing_for_size.rst:71
+msgid "**Space savings:** High"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:57
+msgid "**Performed in official builds:** Yes, but only for HTML5"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:59
+msgid "GaaeExplorer 3.1 onwards allows compiling using size optimizations (instead of speed). To enable this, set the ``optimize`` flag to ``size``:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:66
+msgid "Some platforms such as WebAssembly already use this mode by default."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:69
+msgid "Compiling with link-time optimization"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:75
+msgid "Enabling link-time optimization produces more efficient binaries, both in terms of performance and file size. It works by eliminating duplicate template functions and unused code. It can currently be used with the GCC and MSVC compilers:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:84
+msgid "Linking becomes much slower and more RAM-consuming with this option, so it should be used only for release builds:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:87
+msgid "When compiling the ``master`` branch, you need to have at least 8 GB of RAM available for successful linking with LTO enabled."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:89
+msgid "When compiling the ``3.x`` branch, you need to have at least 6 GB of RAM available for successful linking with LTO enabled."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:93
+msgid "Disabling 3D"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:95
+#: ../development/compiling/optimizing_for_size.rst:112
+msgid "**Space savings:** Moderate"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:97
+#: ../development/compiling/optimizing_for_size.rst:114
+#: ../development/compiling/optimizing_for_size.rst:153
+msgid "**Performed in official builds:** No"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:99
+msgid "For 2D games, having the whole 3D engine available usually makes no sense. Because of this, there is a build flag to disable it:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:105
+msgid "Tools must be disabled in order to use this flag, as the editor is not designed to operate without 3D support. Without it, the binary size can be reduced by about 15%."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:110
+msgid "Disabling advanced GUI objects"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:116
+msgid "Most small games don't require complex GUI controls such as Tree, ItemList, TextEdit or GraphEdit. They can be disabled using a build flag:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:123
+msgid "This is everything that will be disabled:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:125
+msgid "FileDialog"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:126
+msgid "PopupMenu"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:127
+msgid "Tree"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:128
+msgid "TextEdit"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:129
+msgid "TreeItem"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:130
+msgid "OptionButton"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:131
+msgid "SpinBox"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:132
+msgid "ColorPicker"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:133
+msgid "ColorPickerButton"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:134
+msgid "RichTextLabel"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:135
+msgid "RichTextEffect"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:136
+msgid "CharFXTransform"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:137
+msgid "PopupDialog"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:138
+msgid "WindowDialog"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:139
+msgid "AcceptDialog"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:140
+msgid "ConfirmationDialog"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:141
+msgid "MarginContainer"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:142
+msgid "ViewportContainer"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:143
+msgid "SplitContainer"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:144
+msgid "HSplitContainer"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:145
+msgid "GraphNode"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:146
+msgid "GraphEdit"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:149
+msgid "Disabling unwanted modules"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:151
+msgid "**Space savings:** Very low to moderate depending on modules"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:152
+msgid "**Difficulty:** Medium to hard depending on modules"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:155
+msgid "A lot of GaaeExplorer's functions are offered as modules. You can see a list of modules with the following command:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:162
+msgid "The list of modules that can be disabled will appear, together with all build options. If you are working on a simple 2D game, you could disable a lot of them:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:170
+msgid "If this proves not to work for your use case, you should review the list of modules and see which ones you actually still need for your game (e.g. you might want to keep networking-related modules, regex support, or theora/webm to play videos)."
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:175
+msgid "Alternatively, you can supply a list of disabled modules by creating ``custom.py`` at the root of the source, with the contents similar to the following:"
+msgstr ""
+
+#: ../development/compiling/optimizing_for_size.rst:218
+msgid ":ref:`doc_overriding_build_options`."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

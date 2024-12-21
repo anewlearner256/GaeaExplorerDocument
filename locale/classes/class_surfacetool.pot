@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_surfacetool.rst:10
+msgid "SurfaceTool"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:14
+msgid "创建几何图形的辅助工具。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:19
+msgid "``SurfaceTool`` 用于通过单独指定顶点属性来构造 :ref:`Mesh<class_Mesh>`\\ 。可以用来从脚本中构造 :ref:`Mesh<class_Mesh>`\\ 。在调用 :ref:`add_vertex<class_SurfaceTool_method_add_vertex>` 之前，需要添加除索引之外的所有属性。例如，添加顶点颜色和 UV。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:29
+msgid "上面的 ``SurfaceTool`` 现在包含了一个三角形的顶点，它有 UV 坐标和指定的 :ref:`Color<class_Color>`\\ 。如果在没有调用 :ref:`add_uv<class_SurfaceTool_method_add_uv>` 或 :ref:`add_color<class_SurfaceTool_method_add_color>` 的情况下添加另一个顶点，那么就会使用最后的值。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:31
+msgid "顶点属性必须在调用 :ref:`add_vertex<class_SurfaceTool_method_add_vertex>` **之前**\\ 传递。如果不这样做，在提交顶点信息到网格时将会导致错误。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:33
+msgid "此外，在添加第一个顶点之前使用的属性决定了网格的格式。例如，如果你只为第一个顶点添加 UV，你就不能为任何后续的顶点添加颜色。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:35
+msgid "参阅 :ref:`ArrayMesh<class_ArrayMesh>`\\ 、\\ :ref:`ImmediateGeometry<class_ImmediateGeometry>` 和 :ref:`MeshDataTool<class_MeshDataTool>` 以了解程序式几何体的生成。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:37
+msgid "\\ **注意：**\\ GaaeExplorer 对三角形基本模式的正面使用顺时针\\ `缠绕顺序 <https://learnopengl.com/Advanced-OpenGL/Face-culling>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:40
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:42
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:45
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:48
+#: ../classes/class_surfacetool.rst:50
+#: ../classes/class_surfacetool.rst:52
+#: ../classes/class_surfacetool.rst:54
+#: ../classes/class_surfacetool.rst:56
+#: ../classes/class_surfacetool.rst:58
+#: ../classes/class_surfacetool.rst:60
+#: ../classes/class_surfacetool.rst:62
+#: ../classes/class_surfacetool.rst:64
+#: ../classes/class_surfacetool.rst:66
+#: ../classes/class_surfacetool.rst:68
+#: ../classes/class_surfacetool.rst:70
+#: ../classes/class_surfacetool.rst:72
+#: ../classes/class_surfacetool.rst:74
+#: ../classes/class_surfacetool.rst:80
+#: ../classes/class_surfacetool.rst:82
+#: ../classes/class_surfacetool.rst:84
+#: ../classes/class_surfacetool.rst:86
+#: ../classes/class_surfacetool.rst:88
+#: ../classes/class_surfacetool.rst:90
+#: ../classes/class_surfacetool.rst:92
+msgid "void"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:48
+msgid ":ref:`add_bones<class_SurfaceTool_method_add_bones>` **(** :ref:`PoolIntArray<class_PoolIntArray>` bones **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:50
+msgid ":ref:`add_color<class_SurfaceTool_method_add_color>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:52
+msgid ":ref:`add_index<class_SurfaceTool_method_add_index>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:54
+msgid ":ref:`add_normal<class_SurfaceTool_method_add_normal>` **(** :ref:`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:56
+msgid ":ref:`add_smooth_group<class_SurfaceTool_method_add_smooth_group>` **(** :ref:`bool<class_bool>` smooth **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:58
+msgid ":ref:`add_tangent<class_SurfaceTool_method_add_tangent>` **(** :ref:`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:60
+msgid ":ref:`add_triangle_fan<class_SurfaceTool_method_add_triangle_fan>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`PoolColorArray<class_PoolColorArray>` colors=PoolColorArray(  ), :ref:`PoolVector2Array<class_PoolVector2Array>` uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array<class_PoolVector3Array>` normals=PoolVector3Array(  ), :ref:`Array<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:62
+msgid ":ref:`add_uv<class_SurfaceTool_method_add_uv>` **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:64
+msgid ":ref:`add_uv2<class_SurfaceTool_method_add_uv2>` **(** :ref:`Vector2<class_Vector2>` uv2 **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:66
+msgid ":ref:`add_vertex<class_SurfaceTool_method_add_vertex>` **(** :ref:`Vector3<class_Vector3>` vertex **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:68
+msgid ":ref:`add_weights<class_SurfaceTool_method_add_weights>` **(** :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:70
+msgid ":ref:`append_from<class_SurfaceTool_method_append_from>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:72
+msgid ":ref:`begin<class_SurfaceTool_method_begin>` **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:74
+msgid ":ref:`clear<class_SurfaceTool_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:76
+msgid ":ref:`ArrayMesh<class_ArrayMesh>`"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:76
+msgid ":ref:`commit<class_SurfaceTool_method_commit>` **(** :ref:`ArrayMesh<class_ArrayMesh>` existing=null, :ref:`int<class_int>` flags=2194432 **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:78
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:78
+msgid ":ref:`commit_to_arrays<class_SurfaceTool_method_commit_to_arrays>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:80
+msgid ":ref:`create_from<class_SurfaceTool_method_create_from>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:82
+msgid ":ref:`create_from_blend_shape<class_SurfaceTool_method_create_from_blend_shape>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`String<class_String>` blend_shape **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:84
+msgid ":ref:`deindex<class_SurfaceTool_method_deindex>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:86
+msgid ":ref:`generate_normals<class_SurfaceTool_method_generate_normals>` **(** :ref:`bool<class_bool>` flip=false **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:88
+msgid ":ref:`generate_tangents<class_SurfaceTool_method_generate_tangents>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:90
+msgid ":ref:`index<class_SurfaceTool_method_index>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:92
+msgid ":ref:`set_material<class_SurfaceTool_method_set_material>` **(** :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:96
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:100
+msgid "void **add_bones** **(** :ref:`PoolIntArray<class_PoolIntArray>` bones **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:102
+msgid "指定\\ *下一个*\\ 顶点所使用的骨骼数组。 ``bones`` 必须包含 4 个整数。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:108
+msgid "void **add_color** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:110
+msgid "指定\\ *下一个*\\ 顶点所使用的 :ref:`Color<class_Color>`\\ 。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:112
+msgid "\\ **注意：**\\ 材质必须启用\\ :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`\\ 才能使顶点颜色可见。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:118
+msgid "void **add_index** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:120
+msgid "如果您使用索引顶点，则向索引数组添加索引。在添加顶点之前不需要调用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:126
+msgid "void **add_normal** **(** :ref:`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:128
+msgid "指定\\ *下一个*\\ 顶点所使用的法线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:134
+msgid "void **add_smooth_group** **(** :ref:`bool<class_bool>` smooth **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:136
+msgid "指定当前顶点（如果仅使用顶点数组）或当前索引（如果还使用索引数组）是否应使用平滑法线进行法线计算。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:142
+msgid "void **add_tangent** **(** :ref:`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:144
+msgid "指定\\ *下一个*\\ 顶点所使用的切线。如果每个顶点都需要设置此信息，而你没有为第一个顶点提交，则可能根本无法使用此信息。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:150
+msgid "void **add_triangle_fan** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`PoolColorArray<class_PoolColorArray>` colors=PoolColorArray(  ), :ref:`PoolVector2Array<class_PoolVector2Array>` uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array<class_PoolVector3Array>` normals=PoolVector3Array(  ), :ref:`Array<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:152
+msgid "将一个由数组数据组成的三角扇插入正在构建的 :ref:`Mesh<class_Mesh>` 中。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:154
+msgid "需要将基本类型设置为 :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`\\ 。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:160
+msgid "void **add_uv** **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:162
+msgid "指定\\ *下一个*\\ 顶点所使用的 UV 坐标。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:168
+msgid "void **add_uv2** **(** :ref:`Vector2<class_Vector2>` uv2 **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:170
+msgid "指定可选的第二组UV坐标，用于\\ *next*\\ 顶点。如果每个顶点都需要设置这个信息，而你没有为第一个顶点提交这个信息，此信息可能根本就不会被使用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:176
+msgid "void **add_vertex** **(** :ref:`Vector3<class_Vector3>` vertex **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:178
+msgid "指定当前顶点的位置。应在指定其他顶点属性（例如颜色、UV）后调用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:184
+msgid "void **add_weights** **(** :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:186
+msgid "指定\\ *下一个*\\ 顶点所使用的权重值。 ``weights`` 必须包含 4 个值。如果每个顶点都需要设置此信息，而您未能为第一个顶点提交此信息，此信息可能根本就不会被使用。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:192
+msgid "void **append_from** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:194
+msgid "将指定 :ref:`Mesh<class_Mesh>` 表面的顶点应用 :ref:`Transform<class_Transform>` 后，追加到当前的顶点数组中。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:196
+msgid "\\ **注意：** 在 :ref:`Thread<class_Thread>` 中使用 :ref:`append_from<class_SurfaceTool_method_append_from>` 会更慢，因为 GPU 必须将数据送回 CPU，会把主线程暂停（因为 OpenGL 是线程不安全的）。请考虑先把该网格复制一份，转成 :ref:`ArrayMesh<class_ArrayMesh>` 后再手动添加顶点。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:202
+msgid "void **begin** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:204
+msgid "在添加任何顶点之前被调用。接收原始类型作为参数（例如：原始三角形\\ :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:210
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:212
+msgid "清除到目前为止传入表面工具(surface tool)的所有信息。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:218
+msgid ":ref:`ArrayMesh<class_ArrayMesh>` **commit** **(** :ref:`ArrayMesh<class_ArrayMesh>` existing=null, :ref:`int<class_int>` flags=2194432 **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:220
+msgid "从传入的当前信息返回构造的 :ref:`ArrayMesh<class_ArrayMesh>`\\ 。如果现有的 :ref:`ArrayMesh<class_ArrayMesh>` 作为参数传入，则会向现有的 :ref:`ArrayMesh<class_ArrayMesh>` 添加额外的面。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:222
+msgid "如果启用压缩，则默认标志为 :ref:`Mesh.ARRAY_COMPRESS_DEFAULT<class_Mesh_constant_ARRAY_COMPRESS_DEFAULT>`\\ 。如果禁用压缩，则默认标志为 :ref:`Mesh.ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION<class_Mesh_constant_ARRAY_FLAG_USE_OCTAHEDRAL_COMPRESSION>`\\ 。有关其他标志，参阅 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` 中的 ``ARRAY_COMPRESS_*`` 常量。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:228
+msgid ":ref:`Array<class_Array>` **commit_to_arrays** **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:230
+msgid "将数据提交给\\ :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ 使用的相同格式。这样你就可以使用\\ :ref:`ArrayMesh<class_ArrayMesh>`\\ 的API接口进一步处理网格数据。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:236
+msgid "void **create_from** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:238
+msgid "从现有的网格 :ref:`Mesh<class_Mesh>` 创建一个顶点数组。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:244
+msgid "void **create_from_blend_shape** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`String<class_String>` blend_shape **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:246
+msgid "从现有 :ref:`Mesh<class_Mesh>` 的指定混合形状创建一个顶点数组。这可用于从混合形状中提取特定姿势。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:252
+msgid "void **deindex** **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:254
+msgid "通过扩展顶点数组移除索引数组。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:260
+msgid "void **generate_normals** **(** :ref:`bool<class_bool>` flip=false **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:262
+msgid "从顶点生成法线，因此您不必手动执行。如果 ``flip`` 为 ``true``\\ ，则生成的法线将被反转。 :ref:`generate_normals<class_SurfaceTool_method_generate_normals>` 应在生成几何体\\ *之后* 调用，在\\ *之前*\\ 使用 :ref:`commit<class_SurfaceTool_method_commit>` 或 :ref:`commit_to_arrays<class_SurfaceTool_method_commit_to_arrays>` 提交网格。为了正确显示法线贴图表面，您还必须使用 :ref:`generate_tangents<class_SurfaceTool_method_generate_tangents>` 生成切线。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:264
+msgid "\\ **注意：** :ref:`generate_normals<class_SurfaceTool_method_generate_normals>` 仅当基本类型设置为 :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` 时才有效。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:270
+msgid "void **generate_tangents** **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:272
+msgid "为每个顶点生成切向量。要求每个顶点已经设置了 UV 和法线，参阅 :ref:`generate_normals<class_SurfaceTool_method_generate_normals>`\\ 。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:278
+msgid "void **index** **(** **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:280
+msgid "通过创建索引数组来缩小顶点数组。这可以避免顶点重复而提高性能。"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:286
+msgid "void **set_material** **(** :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../classes/class_surfacetool.rst:288
+msgid "设置要由您正在构建的 :ref:`Mesh<class_Mesh>` 使用的 :ref:`Material<class_Material>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

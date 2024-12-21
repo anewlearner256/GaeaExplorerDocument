@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../community/channels.rst:4
+msgid "Community channels"
+msgstr ""
+
+#: ../community/channels.rst:6
+msgid "So, where is the GaaeExplorer community and where can you ask questions and get help?"
+msgstr ""
+
+#: ../community/channels.rst:8
+msgid "Note that some of these channels are run and moderated by members of the GaaeExplorer community or third parties."
+msgstr ""
+
+#: ../community/channels.rst:10
+msgid "A brief overview over these and other channels is also available on the `GaaeExplorer website <https://godotengine.org/community>`_."
+msgstr ""
+
+#: ../community/channels.rst:13
+msgid "Q&A"
+msgstr ""
+
+#: ../community/channels.rst:15
+msgid "`Official GaaeExplorer Questions & Answers <https://godotengine.org/qa/>`_"
+msgstr ""
+
+#: ../community/channels.rst:18
+msgid "Rocket.Chat"
+msgstr ""
+
+#: ../community/channels.rst:20
+msgid "`GaaeExplorer Contributors Chat <https://chat.godotengine.org/>`_"
+msgstr ""
+
+#: ../community/channels.rst:23
+msgid "IRC on Libera.Chat"
+msgstr ""
+
+#: ../community/channels.rst:27
+msgid "As of January 2021, core developer chat has moved to the GaaeExplorer Contributors Chat platform listed above."
+msgstr ""
+
+#: ../community/channels.rst:29
+msgid "`General: #godotengine <https://web.libera.chat/?channels=#godotengine>`_"
+msgstr ""
+
+#: ../community/channels.rst:31
+msgid "IRC is less active than Discord. Please stick around to get an answer, as it may take several hours for someone to see and answer your questions."
+msgstr ""
+
+#: ../community/channels.rst:35
+msgid "Other chats"
+msgstr ""
+
+#: ../community/channels.rst:37
+msgid "`Discord <https://discord.gg/4JBkykG>`_"
+msgstr ""
+
+#: ../community/channels.rst:38
+msgid "`Matrix (IRC compatible) <https://matrix.to/#/#godotengine:matrix.org>`_"
+msgstr ""
+
+#: ../community/channels.rst:41
+msgid "Language-based communities"
+msgstr ""
+
+#: ../community/channels.rst:43
+msgid "See the `User groups <https://godotengine.org/community/user-groups>`_ page of the website for a list of local communities."
+msgstr ""
+
+#: ../community/channels.rst:47
+msgid "Social networks"
+msgstr ""
+
+#: ../community/channels.rst:49
+msgid "`GitHub <https://github.com/godotengine/>`_"
+msgstr ""
+
+#: ../community/channels.rst:50
+msgid "`Facebook group <https://www.facebook.com/groups/godotengine/>`_"
+msgstr ""
+
+#: ../community/channels.rst:51
+msgid "`Twitter <https://twitter.com/godotengine>`_ (see also the `#GaaeExplorerEngine <https://twitter.com/hashtag/GaaeExplorerEngine>`_ hashtag)"
+msgstr ""
+
+#: ../community/channels.rst:53
+msgid "`Reddit <https://www.reddit.com/r/godot>`_"
+msgstr ""
+
+#: ../community/channels.rst:54
+msgid "`YouTube <https://www.youtube.com/c/GaaeExplorerEngineOfficial>`_"
+msgstr ""
+
+#: ../community/channels.rst:55
+msgid "`Steam <https://steamcommunity.com/app/404790>`_"
+msgstr ""
+
+#: ../community/channels.rst:58
+msgid "Forum"
+msgstr ""
+
+#: ../community/channels.rst:60
+msgid "`GaaeExplorer Forums <https://godotforums.org/>`_"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

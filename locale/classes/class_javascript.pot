@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_javascript.rst:10
+msgid "JavaScript"
+msgstr ""
+
+#: ../classes/class_javascript.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_javascript.rst:14
+msgid "在 HTML5 导出中将引擎与浏览器的 JavaScript 上下文连接的单例。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_javascript.rst:19
+msgid "The JavaScript singleton is implemented only in the HTML5 export. It's used to access the browser's JavaScript context. This allows interaction with embedding pages or calling third-party JavaScript APIs."
+msgstr ""
+
+#: ../classes/class_javascript.rst:21
+msgid "\\ **Note:** This singleton can be disabled at build-time to improve security. By default, the JavaScript singleton is enabled. Official export templates also have the JavaScript singleton enabled. See :doc:`Compiling for the Web <../development/compiling/compiling_for_web>` in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_javascript.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_javascript.rst:26
+msgid "`#calling-javascript-from-script <../tutorials/export/exporting_for_web.html#calling-javascript-from-script>`__ in :doc:`../tutorials/export/exporting_for_web`"
+msgstr ""
+
+#: ../classes/class_javascript.rst:29
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_javascript.rst:32
+#: ../classes/class_javascript.rst:40
+msgid ":ref:`JavaScriptObject<class_JavaScriptObject>`"
+msgstr ""
+
+#: ../classes/class_javascript.rst:32
+msgid ":ref:`create_callback<class_JavaScript_method_create_callback>` **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:34
+#: ../classes/class_javascript.rst:38
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_javascript.rst:34
+msgid ":ref:`create_object<class_JavaScript_method_create_object>` **(** :ref:`String<class_String>` object, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_javascript.rst:36
+msgid "void"
+msgstr ""
+
+#: ../classes/class_javascript.rst:36
+msgid ":ref:`download_buffer<class_JavaScript_method_download_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`String<class_String>` name, :ref:`String<class_String>` mime=\"application/octet-stream\" **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:38
+msgid ":ref:`eval<class_JavaScript_method_eval>` **(** :ref:`String<class_String>` code, :ref:`bool<class_bool>` use_global_execution_context=false **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:40
+msgid ":ref:`get_interface<class_JavaScript_method_get_interface>` **(** :ref:`String<class_String>` interface **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:44
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_javascript.rst:48
+msgid ":ref:`JavaScriptObject<class_JavaScriptObject>` **create_callback** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:50
+msgid "创建脚本函数的引用，可以被JavaScript用作回调。这个引用必须保持到回调发生为止，否则它就不会被调用。使用方法参阅\\ :ref:`JavaScriptObject<class_JavaScriptObject>`\\ 。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:56
+msgid ":ref:`Variant<class_Variant>` **create_object** **(** :ref:`String<class_String>` object, ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_javascript.rst:58
+msgid "使用\\ ``new``\\ 构造函数创建新的JavaScript对象。\\ ``object``\\ 必须是JavaScript\\ ``window``\\ 的有效属性。使用方法参阅\\ :ref:`JavaScriptObject<class_JavaScriptObject>`\\ 。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:64
+msgid "void **download_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`String<class_String>` name, :ref:`String<class_String>` mime=\"application/octet-stream\" **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:66
+msgid "提示用户下载一个包含指定\\ ``buffer``\\ 缓冲区的文件。该文件将具有给定的\\ ``name``\\ 和\\ ``mime``\\ 类型。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:68
+msgid "\\ **注意：** 浏览器可能会根据文件\\ ``name``\\ 的扩展名，覆盖所提供的\\ `MIME类型 <https://en.wikipedia.org/wiki/Media_type>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:70
+msgid "\\ **注意：** 如果\\ :ref:`download_buffer<class_JavaScript_method_download_buffer>`\\ 不是由用户交互调用，如点击按钮，浏览器可能会阻止下载。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:72
+msgid "\\ **注意：** 如果快速连续提出多个下载请求，浏览器可能会要求用户同意或阻止下载。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:78
+msgid ":ref:`Variant<class_Variant>` **eval** **(** :ref:`String<class_String>` code, :ref:`bool<class_bool>` use_global_execution_context=false **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:80
+msgid "在浏览器窗口中执行字符串\\ ``code``\\ 作为JavaScript代码。这是对实际的全局JavaScript函数\\ ``eval()``\\ 的调用。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:82
+msgid "如果\\ ``use_global_execution_context``\\ 是\\ ``true``\\ ，代码将在全局执行环境中被求值。否则，它将在引擎运行时环境中函数的执行上下文中进行求值。"
+msgstr ""
+
+#: ../classes/class_javascript.rst:88
+msgid ":ref:`JavaScriptObject<class_JavaScriptObject>` **get_interface** **(** :ref:`String<class_String>` interface **)**"
+msgstr ""
+
+#: ../classes/class_javascript.rst:90
+msgid "返回可以被脚本使用的JavaScript对象的接口。这个\\ ``interface``\\ 必须是JavaScript\\ ``window``\\ 的一个有效属性。回调必须接受一个\\ :ref:`Array<class_Array>`\\ 参数，它将包含JavaScript ``arguments``\\ 。参阅\\ :ref:`JavaScriptObject<class_JavaScriptObject>`\\ 的用法。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_font.rst:10
+msgid "Font"
+msgstr ""
+
+#: ../classes/class_font.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_font.rst:14
+msgid "**Inherited By:** :ref:`BitmapFont<class_BitmapFont>`, :ref:`DynamicFont<class_DynamicFont>`"
+msgstr ""
+
+#: ../classes/class_font.rst:16
+msgid "国际化的字体和文本绘制支持。"
+msgstr ""
+
+#: ../classes/class_font.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_font.rst:21
+msgid "字体包含一个与 Unicode 兼容的字符集，并且提供使用不同宽度（width）、升部（ascent）、降部（descent） 和字偶距（kerning）进行绘制的能力。关于从 TTF 文件（或其他字体格式）创建字体，请参见编辑器对字体的支持。"
+msgstr ""
+
+#: ../classes/class_font.rst:23
+msgid "\\ **注意：**\\ 当 :ref:`DynamicFont<class_DynamicFont>` 中不包含字符串中所使用的某个字符时，将使用码位 ``0xfffd`` 去替换该字符，如果这个替换字符在 DynamicFont 中也不可用，该字符将被隐藏，不在字符串中显示任何替换字符。"
+msgstr ""
+
+#: ../classes/class_font.rst:25
+msgid "\\ **注意：**\\ 当 :ref:`BitmapFont<class_BitmapFont>` 中不包含字符串中所使用的某个字符，该字符将被隐藏，不在字符串中显示任何替换字符。"
+msgstr ""
+
+#: ../classes/class_font.rst:27
+msgid "\\ **注意：**\\ Windows 上\\ *不支持* ``0xffff`` 之后的 Unicode 字符（如大多数表情符号）。它们将显示为未知字符。这个问题将在 GaaeExplorer 4.0 中得到解决。"
+msgstr ""
+
+#: ../classes/class_font.rst:30
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_font.rst:33
+#: ../classes/class_font.rst:53
+msgid "void"
+msgstr ""
+
+#: ../classes/class_font.rst:33
+msgid ":ref:`draw<class_Font_method_draw>` **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` string, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1, :ref:`Color<class_Color>` outline_modulate=Color( 1, 1, 1, 1 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:35
+#: ../classes/class_font.rst:37
+#: ../classes/class_font.rst:41
+#: ../classes/class_font.rst:43
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_font.rst:35
+msgid ":ref:`draw_char<class_Font_method_draw_char>` **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` char, :ref:`int<class_int>` next=-1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` outline=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:37
+msgid ":ref:`get_ascent<class_Font_method_get_ascent>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:39
+#: ../classes/class_font.rst:45
+#: ../classes/class_font.rst:47
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_font.rst:39
+msgid ":ref:`get_char_size<class_Font_method_get_char_size>` **(** :ref:`int<class_int>` char, :ref:`int<class_int>` next=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:41
+msgid ":ref:`get_descent<class_Font_method_get_descent>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:43
+msgid ":ref:`get_height<class_Font_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:45
+msgid ":ref:`get_string_size<class_Font_method_get_string_size>` **(** :ref:`String<class_String>` string **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:47
+msgid ":ref:`get_wordwrap_string_size<class_Font_method_get_wordwrap_string_size>` **(** :ref:`String<class_String>` string, :ref:`float<class_float>` width **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:49
+#: ../classes/class_font.rst:51
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_font.rst:49
+msgid ":ref:`has_outline<class_Font_method_has_outline>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:51
+msgid ":ref:`is_distance_field_hint<class_Font_method_is_distance_field_hint>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:53
+msgid ":ref:`update_changes<class_Font_method_update_changes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_font.rst:57
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_font.rst:61
+msgid "void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` string, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1, :ref:`Color<class_Color>` outline_modulate=Color( 1, 1, 1, 1 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:63
+msgid "在给定位置使用字体将\\ ``string``\\ 绘制到画布项目中，并使用\\ ``modulate``\\ 颜色，并可以选择裁剪宽度。 ``position``\\ 指定基线，而不是顶部。要从顶部绘制，必须在 Y 轴上添加\\ *升部*\\ 。"
+msgstr ""
+
+#: ../classes/class_font.rst:65
+msgid "另请参阅 :ref:`CanvasItem.draw_string<class_CanvasItem_method_draw_string>`\\ 。"
+msgstr ""
+
+#: ../classes/class_font.rst:71
+msgid ":ref:`float<class_float>` **draw_char** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` char, :ref:`int<class_int>` next=-1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` outline=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:73
+msgid "使用字体在画布项目的指定位置绘制字符 ``char``\\ ，使用的颜色是 ``modulate``\\ ，并且会根据宽度做裁剪，如果传入了 ``next`` 还会利用到字偶距。\\ ``position`` 指定的是基线，而不是顶部。要从顶部绘制，必须在 Y 轴上加上\\ *字体的升部大小*\\ 。该函数返回的是字符所使用的宽度，因此用来逐字符绘制字符串非常方便。"
+msgstr ""
+
+#: ../classes/class_font.rst:79
+msgid ":ref:`float<class_float>` **get_ascent** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:81
+msgid "返回字体的上升幅度（超出基线的像素数）。"
+msgstr ""
+
+#: ../classes/class_font.rst:87
+msgid ":ref:`Vector2<class_Vector2>` **get_char_size** **(** :ref:`int<class_int>` char, :ref:`int<class_int>` next=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:89
+msgid "返回指定字符的大小，如果提供了下一个字符，还会将字偶距考虑在内。注意，返回的高度是字体高度（见 :ref:`get_height<class_Font_method_get_height>`\\ ），与该字形的高度没有关系。"
+msgstr ""
+
+#: ../classes/class_font.rst:95
+msgid ":ref:`float<class_float>` **get_descent** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:97
+msgid "返回字体的减少量（低于基线的像素数）。"
+msgstr ""
+
+#: ../classes/class_font.rst:103
+msgid ":ref:`float<class_float>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:105
+msgid "返回总体字体的高度（增加和减少），单位是像素。"
+msgstr ""
+
+#: ../classes/class_font.rst:111
+msgid ":ref:`Vector2<class_Vector2>` **get_string_size** **(** :ref:`String<class_String>` string **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:113
+msgid "返回指定字符串的大小，并考虑到字偶距和前进量。注意，返回的高度是字体高度（见 :ref:`get_height<class_Font_method_get_height>`\\ ），与该字符串没有关系。"
+msgstr ""
+
+#: ../classes/class_font.rst:119
+msgid ":ref:`Vector2<class_Vector2>` **get_wordwrap_string_size** **(** :ref:`String<class_String>` string, :ref:`float<class_float>` width **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:121
+msgid "返回字符串在启用固定宽度 ``width`` 的自动换行后的大小。"
+msgstr ""
+
+#: ../classes/class_font.rst:127
+msgid ":ref:`bool<class_bool>` **has_outline** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:129
+msgid "如果字体有轮廓，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_font.rst:135
+msgid ":ref:`bool<class_bool>` **is_distance_field_hint** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_font.rst:141
+msgid "void **update_changes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_font.rst:143
+msgid "在编辑一个字体后（改变大小、升部、字框等）。调用这个函数，将变化传播给可能使用它的控件。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

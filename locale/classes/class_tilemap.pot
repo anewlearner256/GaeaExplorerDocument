@@ -1,0 +1,1083 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_tilemap.rst:10
+msgid "TileMap"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:14
+msgid "基于 2D 图块的地图节点。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:19
+msgid "基于 2D 图块的地图节点。图块地图使用 :ref:`TileSet<class_TileSet>`\\ ，其中包含图块列表，纹理能加上可选的碰撞、导航和/或遮挡形状，用于创建基于网格的地图。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:21
+msgid "当对图块地图进行物理查询时，\\ :ref:`Physics2DDirectSpaceState.intersect_shape<class_Physics2DDirectSpaceState_method_intersect_shape>`\\ 、\\ :ref:`Physics2DDirectBodyState.get_contact_collider_shape_metadata<class_Physics2DDirectBodyState_method_get_contact_collider_shape_metadata>` 等方法会返回检测到的碰撞形状，这些形状所处的单元格坐标会被编码为 ``metadata``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:26
+msgid ":doc:`Using Tilemaps <../tutorials/2d/using_tilemaps>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:28
+msgid "`2D Platformer Demo <https://godotengine.org/asset-library/asset/120>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:30
+msgid "`2D Isometric Demo <https://godotengine.org/asset-library/asset/112>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:32
+msgid "`2D Hexagonal Demo <https://godotengine.org/asset-library/asset/111>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:34
+msgid "`2D Navigation Astar Demo <https://godotengine.org/asset-library/asset/519>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:36
+msgid "`2D Role Playing Game Demo <https://godotengine.org/asset-library/asset/520>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:38
+msgid "`2D Kinematic Character Demo <https://godotengine.org/asset-library/asset/113>`__"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:41
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:44
+#: ../classes/class_tilemap.rst:56
+#: ../classes/class_tilemap.rst:58
+#: ../classes/class_tilemap.rst:68
+#: ../classes/class_tilemap.rst:70
+#: ../classes/class_tilemap.rst:72
+#: ../classes/class_tilemap.rst:78
+#: ../classes/class_tilemap.rst:97
+#: ../classes/class_tilemap.rst:99
+#: ../classes/class_tilemap.rst:107
+#: ../classes/class_tilemap.rst:109
+#: ../classes/class_tilemap.rst:111
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:44
+msgid ":ref:`cell_clip_uv<class_TileMap_property_cell_clip_uv>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:44
+#: ../classes/class_tilemap.rst:56
+#: ../classes/class_tilemap.rst:58
+#: ../classes/class_tilemap.rst:68
+#: ../classes/class_tilemap.rst:70
+#: ../classes/class_tilemap.rst:72
+#: ../classes/class_tilemap.rst:78
+#: ../classes/class_tilemap.rst:219
+#: ../classes/class_tilemap.rst:315
+#: ../classes/class_tilemap.rst:331
+#: ../classes/class_tilemap.rst:413
+#: ../classes/class_tilemap.rst:429
+#: ../classes/class_tilemap.rst:445
+#: ../classes/class_tilemap.rst:497
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:46
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:46
+msgid ":ref:`cell_custom_transform<class_TileMap_property_cell_custom_transform>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:46
+#: ../classes/class_tilemap.rst:235
+msgid "``Transform2D( 64, 0, 0, 64, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:48
+msgid ":ref:`HalfOffset<enum_TileMap_HalfOffset>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:48
+msgid ":ref:`cell_half_offset<class_TileMap_property_cell_half_offset>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:48
+#: ../classes/class_tilemap.rst:251
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:50
+#: ../classes/class_tilemap.rst:64
+#: ../classes/class_tilemap.rst:66
+#: ../classes/class_tilemap.rst:76
+#: ../classes/class_tilemap.rst:91
+#: ../classes/class_tilemap.rst:95
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:50
+msgid ":ref:`cell_quadrant_size<class_TileMap_property_cell_quadrant_size>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:50
+#: ../classes/class_tilemap.rst:267
+msgid "``16``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:52
+#: ../classes/class_tilemap.rst:93
+#: ../classes/class_tilemap.rst:113
+#: ../classes/class_tilemap.rst:129
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:52
+msgid ":ref:`cell_size<class_TileMap_property_cell_size>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:52
+#: ../classes/class_tilemap.rst:283
+msgid "``Vector2( 64, 64 )``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:54
+msgid ":ref:`TileOrigin<enum_TileMap_TileOrigin>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:54
+msgid ":ref:`cell_tile_origin<class_TileMap_property_cell_tile_origin>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:54
+#: ../classes/class_tilemap.rst:74
+#: ../classes/class_tilemap.rst:299
+#: ../classes/class_tilemap.rst:465
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:56
+msgid ":ref:`cell_y_sort<class_TileMap_property_cell_y_sort>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:58
+msgid ":ref:`centered_textures<class_TileMap_property_centered_textures>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:60
+#: ../classes/class_tilemap.rst:62
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:60
+msgid ":ref:`collision_bounce<class_TileMap_property_collision_bounce>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:60
+#: ../classes/class_tilemap.rst:349
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:62
+msgid ":ref:`collision_friction<class_TileMap_property_collision_friction>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:62
+#: ../classes/class_tilemap.rst:365
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:64
+msgid ":ref:`collision_layer<class_TileMap_property_collision_layer>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:64
+#: ../classes/class_tilemap.rst:66
+#: ../classes/class_tilemap.rst:76
+#: ../classes/class_tilemap.rst:381
+#: ../classes/class_tilemap.rst:397
+#: ../classes/class_tilemap.rst:481
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:66
+msgid ":ref:`collision_mask<class_TileMap_property_collision_mask>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:68
+msgid ":ref:`collision_use_kinematic<class_TileMap_property_collision_use_kinematic>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:70
+msgid ":ref:`collision_use_parent<class_TileMap_property_collision_use_parent>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:72
+msgid ":ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:74
+msgid ":ref:`Mode<enum_TileMap_Mode>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:74
+msgid ":ref:`mode<class_TileMap_property_mode>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:76
+msgid ":ref:`occluder_light_mask<class_TileMap_property_occluder_light_mask>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:78
+msgid ":ref:`show_collision<class_TileMap_property_show_collision>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:80
+msgid ":ref:`TileSet<class_TileSet>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:80
+msgid ":ref:`tile_set<class_TileMap_property_tile_set>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:84
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:87
+#: ../classes/class_tilemap.rst:89
+#: ../classes/class_tilemap.rst:115
+#: ../classes/class_tilemap.rst:117
+#: ../classes/class_tilemap.rst:119
+#: ../classes/class_tilemap.rst:121
+#: ../classes/class_tilemap.rst:123
+#: ../classes/class_tilemap.rst:125
+#: ../classes/class_tilemap.rst:127
+msgid "void"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:87
+msgid ":ref:`clear<class_TileMap_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:89
+msgid ":ref:`fix_invalid_tiles<class_TileMap_method_fix_invalid_tiles>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:91
+msgid ":ref:`get_cell<class_TileMap_method_get_cell>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:93
+msgid ":ref:`get_cell_autotile_coord<class_TileMap_method_get_cell_autotile_coord>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:95
+msgid ":ref:`get_cellv<class_TileMap_method_get_cellv>` **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:97
+msgid ":ref:`get_collision_layer_bit<class_TileMap_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:99
+msgid ":ref:`get_collision_mask_bit<class_TileMap_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:101
+#: ../classes/class_tilemap.rst:103
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:101
+msgid ":ref:`get_used_cells<class_TileMap_method_get_used_cells>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:103
+msgid ":ref:`get_used_cells_by_id<class_TileMap_method_get_used_cells_by_id>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:105
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:105
+msgid ":ref:`get_used_rect<class_TileMap_method_get_used_rect>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:107
+msgid ":ref:`is_cell_transposed<class_TileMap_method_is_cell_transposed>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:109
+msgid ":ref:`is_cell_x_flipped<class_TileMap_method_is_cell_x_flipped>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:111
+msgid ":ref:`is_cell_y_flipped<class_TileMap_method_is_cell_y_flipped>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:113
+msgid ":ref:`map_to_world<class_TileMap_method_map_to_world>` **(** :ref:`Vector2<class_Vector2>` map_position, :ref:`bool<class_bool>` ignore_half_ofs=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:115
+msgid ":ref:`set_cell<class_TileMap_method_set_cell>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` tile, :ref:`bool<class_bool>` flip_x=false, :ref:`bool<class_bool>` flip_y=false, :ref:`bool<class_bool>` transpose=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:117
+msgid ":ref:`set_cellv<class_TileMap_method_set_cellv>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` tile, :ref:`bool<class_bool>` flip_x=false, :ref:`bool<class_bool>` flip_y=false, :ref:`bool<class_bool>` transpose=false **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:119
+msgid ":ref:`set_collision_layer_bit<class_TileMap_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:121
+msgid ":ref:`set_collision_mask_bit<class_TileMap_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:123
+msgid ":ref:`update_bitmask_area<class_TileMap_method_update_bitmask_area>` **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:125
+msgid ":ref:`update_bitmask_region<class_TileMap_method_update_bitmask_region>` **(** :ref:`Vector2<class_Vector2>` start=Vector2( 0, 0 ), :ref:`Vector2<class_Vector2>` end=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:127
+msgid ":ref:`update_dirty_quadrants<class_TileMap_method_update_dirty_quadrants>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:129
+msgid ":ref:`world_to_map<class_TileMap_method_world_to_map>` **(** :ref:`Vector2<class_Vector2>` world_position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:133
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:137
+msgid "**settings_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:139
+msgid "当图块地图设置发生变化时触发。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:142
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:152
+msgid "enum **Mode**:"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:154
+msgid "**MODE_SQUARE** = **0** --- 正交定向模式。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:156
+msgid "**MODE_ISOMETRIC** = **1** --- 等距定向模式。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:158
+msgid "**MODE_CUSTOM** = **2** --- 自定义方向模式。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:174
+msgid "enum **HalfOffset**:"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:176
+msgid "**HALF_OFFSET_X** = **0** --- X坐标上的一半偏移。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:178
+msgid "**HALF_OFFSET_Y** = **1** --- Y坐标上的一半偏移。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:180
+msgid "**HALF_OFFSET_DISABLED** = **2** --- 禁用半偏移。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:182
+msgid "**HALF_OFFSET_NEGATIVE_X** = **3** --- X坐标上的半偏移，负数。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:184
+msgid "**HALF_OFFSET_NEGATIVE_Y** = **4** --- Y坐标上的半偏移，负数。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:196
+msgid "enum **TileOrigin**:"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:198
+msgid "**TILE_ORIGIN_TOP_LEFT** = **0** --- 图块原点在其左上角。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:200
+msgid "**TILE_ORIGIN_CENTER** = **1** --- 图块原点在其中心。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:202
+msgid "**TILE_ORIGIN_BOTTOM_LEFT** = **2** --- 图块原点在其左下角。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:205
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:209
+msgid "**INVALID_CELL** = **-1** --- 当一个单元不存在时返回。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:212
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:216
+msgid ":ref:`bool<class_bool>` **cell_clip_uv**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:219
+#: ../classes/class_tilemap.rst:235
+#: ../classes/class_tilemap.rst:251
+#: ../classes/class_tilemap.rst:267
+#: ../classes/class_tilemap.rst:283
+#: ../classes/class_tilemap.rst:299
+#: ../classes/class_tilemap.rst:315
+#: ../classes/class_tilemap.rst:331
+#: ../classes/class_tilemap.rst:349
+#: ../classes/class_tilemap.rst:365
+#: ../classes/class_tilemap.rst:381
+#: ../classes/class_tilemap.rst:397
+#: ../classes/class_tilemap.rst:413
+#: ../classes/class_tilemap.rst:429
+#: ../classes/class_tilemap.rst:445
+#: ../classes/class_tilemap.rst:465
+#: ../classes/class_tilemap.rst:481
+#: ../classes/class_tilemap.rst:497
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:221
+#: ../classes/class_tilemap.rst:237
+#: ../classes/class_tilemap.rst:253
+#: ../classes/class_tilemap.rst:269
+#: ../classes/class_tilemap.rst:285
+#: ../classes/class_tilemap.rst:301
+#: ../classes/class_tilemap.rst:317
+#: ../classes/class_tilemap.rst:333
+#: ../classes/class_tilemap.rst:351
+#: ../classes/class_tilemap.rst:367
+#: ../classes/class_tilemap.rst:383
+#: ../classes/class_tilemap.rst:399
+#: ../classes/class_tilemap.rst:415
+#: ../classes/class_tilemap.rst:431
+#: ../classes/class_tilemap.rst:447
+#: ../classes/class_tilemap.rst:467
+#: ../classes/class_tilemap.rst:483
+#: ../classes/class_tilemap.rst:499
+#: ../classes/class_tilemap.rst:513
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:221
+msgid "set_clip_uv(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:223
+#: ../classes/class_tilemap.rst:239
+#: ../classes/class_tilemap.rst:255
+#: ../classes/class_tilemap.rst:271
+#: ../classes/class_tilemap.rst:287
+#: ../classes/class_tilemap.rst:303
+#: ../classes/class_tilemap.rst:319
+#: ../classes/class_tilemap.rst:335
+#: ../classes/class_tilemap.rst:353
+#: ../classes/class_tilemap.rst:369
+#: ../classes/class_tilemap.rst:385
+#: ../classes/class_tilemap.rst:401
+#: ../classes/class_tilemap.rst:417
+#: ../classes/class_tilemap.rst:433
+#: ../classes/class_tilemap.rst:449
+#: ../classes/class_tilemap.rst:469
+#: ../classes/class_tilemap.rst:485
+#: ../classes/class_tilemap.rst:501
+#: ../classes/class_tilemap.rst:515
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:223
+msgid "get_clip_uv()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:226
+msgid "如果\\ ``true``\\ ，单元格的UV将被剪裁。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:232
+msgid ":ref:`Transform2D<class_Transform2D>` **cell_custom_transform**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:237
+msgid "set_custom_transform(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:239
+msgid "get_custom_transform()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:242
+msgid "将应用到图块地图的，单元格的自定义\\ :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:248
+msgid ":ref:`HalfOffset<enum_TileMap_HalfOffset>` **cell_half_offset**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:253
+msgid "set_half_offset(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:255
+msgid "get_half_offset()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:258
+msgid "依次排列的图块的偏移量。有关可能的值，参阅\\ :ref:`HalfOffset<enum_TileMap_HalfOffset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:264
+msgid ":ref:`int<class_int>` **cell_quadrant_size**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:269
+msgid "set_quadrant_size(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:271
+msgid "get_quadrant_size()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:274
+msgid "图块地图的象限大小。使用这个尺寸的图块，通过批处理优化绘制。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:280
+msgid ":ref:`Vector2<class_Vector2>` **cell_size**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:285
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:287
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:290
+msgid "图块地图的单元大小。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:296
+msgid ":ref:`TileOrigin<enum_TileMap_TileOrigin>` **cell_tile_origin**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:301
+msgid "set_tile_origin(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:303
+msgid "get_tile_origin()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:306
+msgid "图块原点的坐标。有关可能的值，参阅\\ :ref:`TileOrigin<enum_TileMap_TileOrigin>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:312
+msgid ":ref:`bool<class_bool>` **cell_y_sort**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:317
+msgid "set_y_sort_mode(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:319
+msgid "is_y_sort_mode_enabled()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:322
+msgid "如果\\ ``true``\\ ，图块地图的直接子节点将按其Y坐标顺序绘制。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:328
+msgid ":ref:`bool<class_bool>` **centered_textures**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:333
+msgid "set_centered_textures(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:335
+msgid "is_centered_textures_enabled()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:338
+msgid "如果\\ ``true``\\ ，纹理将被集中在每个图块的中间。这对某些等距或上帝视角的模式很有用，当纹理被做得比图块大或小时，例如，为了避免瓷砖边缘的闪烁。偏移量仍被应用，但从瓦片的中心开始。如果使用，\\ :ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\\ 会被忽略。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:340
+msgid "如果\\ ``false``\\ ，纹理坐标从左上角开始，除非\\ :ref:`compatibility_mode<class_TileMap_property_compatibility_mode>`\\ 被启用。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:346
+msgid ":ref:`float<class_float>` **collision_bounce**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:351
+msgid "set_collision_bounce(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:353
+msgid "get_collision_bounce()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:356
+msgid "静态体碰撞的反弹值，参阅\\ ``collision_use_kinematic``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:362
+msgid ":ref:`float<class_float>` **collision_friction**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:367
+msgid "set_collision_friction(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:369
+msgid "get_collision_friction()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:372
+msgid "静态体碰撞的摩擦值，参阅\\ ``collision_use_kinematic``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:378
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:383
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:385
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:388
+msgid "The collision layer(s) for all colliders in the TileMap. See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_tilemap.rst:394
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:399
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:401
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:404
+msgid "The collision mask(s) for all colliders in the TileMap. See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_tilemap.rst:410
+msgid ":ref:`bool<class_bool>` **collision_use_kinematic**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:415
+msgid "set_collision_use_kinematic(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:417
+msgid "get_collision_use_kinematic()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:420
+msgid "如果\\ ``true``\\ ，图块地图的碰撞将被当作运动体处理。如果\\ ``false``\\ ，碰撞将被当作静态体来处理。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:426
+msgid ":ref:`bool<class_bool>` **collision_use_parent**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:431
+msgid "set_collision_use_parent(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:433
+msgid "get_collision_use_parent()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:436
+msgid "如果\\ ``true``\\ ，这个图块地图的碰撞形状将被添加到父级的碰撞形状中。父级必须是一个\\ :ref:`CollisionObject2D<class_CollisionObject2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:442
+msgid ":ref:`bool<class_bool>` **compatibility_mode**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:447
+msgid "set_compatibility_mode(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:449
+msgid "is_compatibility_mode_enabled()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:452
+msgid "如果\\ ``为true``\\ ，则保持与GaaeExplorer 3.1或更早版本的图块地图的兼容性，即当图块原点改变时，纹理会移动，如果纹理大小不均匀，则会旋转。这种模式对非同质等距图块（例如2:1）进行\\ ``flip_h``, ``flip_v`` 和 ``transpose`` 图块操作时，将出现问题，在这种情况下，纹理不能与碰撞重合，因此不推荐用于等距或非方形图块。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:454
+msgid "如果\\ ``false``\\ ，在进行\\ ``flip_h``\\ 、\\ ``flip_v``\\ 操作时，如果不使用偏移量，纹理不会移动，在改变图块原点时也是如此。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:456
+msgid "兼容性模式对\\ :ref:`centered_textures<class_TileMap_property_centered_textures>`\\ 选项不起作用，因为用\\ :ref:`cell_tile_origin<class_TileMap_property_cell_tile_origin>`\\ 选项或不规则图块中的纹理进行替换时，与这些纹理的居中项没有关系。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:462
+msgid ":ref:`Mode<enum_TileMap_Mode>` **mode**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:467
+msgid "set_mode(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:469
+msgid "get_mode()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:472
+msgid "图块地图的方向模式。有关可能的值，参阅\\ :ref:`Mode<enum_TileMap_Mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:478
+msgid ":ref:`int<class_int>` **occluder_light_mask**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:483
+msgid "set_occluder_light_mask(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:485
+msgid "get_occluder_light_mask()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:488
+msgid "分配给图块地图中所有光遮挡器的光线遮罩。图块集的光遮挡器将只从具有相同光线遮挡的Light2D中投射阴影。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:494
+msgid ":ref:`bool<class_bool>` **show_collision**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:499
+msgid "set_show_collision(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:501
+msgid "is_show_collision_enabled()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:504
+msgid "如果\\ ``true``\\ ，碰撞形状在编辑器中是可见的。不影响碰撞形状在运行时的可见性。要在运行时显示碰撞形状，请在\\ **调试**\\ 菜单中启用\\ **可见的碰撞形状**\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:510
+msgid ":ref:`TileSet<class_TileSet>` **tile_set**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:513
+msgid "set_tileset(value)"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:515
+msgid "get_tileset()"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:518
+msgid "指定的\\ :ref:`TileSet<class_TileSet>`\\ 图块集。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:521
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:525
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:527
+msgid "清除所有单元格。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:533
+msgid "void **fix_invalid_tiles** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:535
+msgid "清除图块集中不存在的单元格。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:541
+msgid ":ref:`int<class_int>` **get_cell** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:543
+msgid "返回指定单元格的图块索引。如果单元格中没有图块，则返回 :ref:`INVALID_CELL<class_TileMap_constant_INVALID_CELL>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:549
+msgid ":ref:`Vector2<class_Vector2>` **get_cell_autotile_coord** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:551
+msgid "返回图块集中自动图块变化的坐标（子图块列和行）。如果单元格没有自动图块，则返回向量零。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:557
+msgid ":ref:`int<class_int>` **get_cellv** **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:559
+msgid "返回由 Vector2 指定的单元格的图块索引。如果单元格中没有图块，则返回 :ref:`INVALID_CELL<class_TileMap_constant_INVALID_CELL>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:565
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:567
+msgid "如果指定碰撞层的比特位被设置，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:573
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:575
+msgid "如果指定碰撞遮罩比特位被设置，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:581
+msgid ":ref:`Array<class_Array>` **get_used_cells** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:583
+msgid "返回一个\\ :ref:`Vector2<class_Vector2>`\\ 数组，其中包含图块集中所有单元格的位置（图块索引非\\ ``-1``\\ ）。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:589
+msgid ":ref:`Array<class_Array>` **get_used_cells_by_id** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:591
+msgid "返回所有具有\\ ``id``\\ 中指定的图块索引的单元格的数组。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:597
+msgid ":ref:`Rect2<class_Rect2>` **get_used_rect** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:599
+msgid "返回一个包围着地图中已使用非空图块的矩形。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:605
+msgid ":ref:`bool<class_bool>` **is_cell_transposed** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:607
+msgid "如果指定单元格被转置，即X轴和Y轴互换，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:613
+msgid ":ref:`bool<class_bool>` **is_cell_x_flipped** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:615
+msgid "如果指定单元格在X轴上被翻转，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:621
+msgid ":ref:`bool<class_bool>` **is_cell_y_flipped** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:623
+msgid "如果指定单元格在Y轴上被翻转，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:629
+msgid ":ref:`Vector2<class_Vector2>` **map_to_world** **(** :ref:`Vector2<class_Vector2>` map_position, :ref:`bool<class_bool>` ignore_half_ofs=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:631
+msgid "返回与指定的图块地图（基于网格）坐标相对应的单元格左上角的局部坐标。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:633
+msgid "要获得全局坐标，请使用\\ :ref:`Node2D.to_global<class_Node2D_method_to_global>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:640
+msgid "可以选择忽略图块地图的半偏移。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:646
+msgid "void **set_cell** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` tile, :ref:`bool<class_bool>` flip_x=false, :ref:`bool<class_bool>` flip_y=false, :ref:`bool<class_bool>` transpose=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:648
+msgid "设置由Vector2给出的单元格的图块索引。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:650
+msgid "\\ ``-1``\\ 的索引将清除该单元。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:652
+msgid "也可以选择翻转、移位，或者指定自动图块坐标。自动图块坐标指的是子图块的列和行。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:654
+#: ../classes/class_tilemap.rst:679
+msgid "\\ **注意：** 由于性能原因，导航多边形和碰撞形状等数据不会立即更新。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:656
+msgid "如果你需要这些被立即更新，你可以调用\\ :ref:`update_dirty_quadrants<class_TileMap_method_update_dirty_quadrants>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:658
+msgid "重写该方法会在内部重写它，允许在放置/移除图块时实现自定义逻辑。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:671
+msgid "void **set_cellv** **(** :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` tile, :ref:`bool<class_bool>` flip_x=false, :ref:`bool<class_bool>` flip_y=false, :ref:`bool<class_bool>` transpose=false **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:673
+msgid "设置给定单元格的瓦片索引。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:675
+msgid "索引\\ ``-1``\\ 会清除该单元。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:677
+msgid "也可以选择翻转或转置图块。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:681
+msgid "如果你需要立即更新这些数据，可以调用\\ :ref:`update_dirty_quadrants<class_TileMap_method_update_dirty_quadrants>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:687
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:689
+msgid "设置指定碰撞层bit位。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:695
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:697
+msgid "设置指定碰撞遮罩bit位。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:703
+msgid "void **update_bitmask_area** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:705
+msgid "对基于网格的X和Y坐标所引用的单元格，及其相邻单元格，应用自动平移规则。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:711
+msgid "void **update_bitmask_region** **(** :ref:`Vector2<class_Vector2>` start=Vector2( 0, 0 ), :ref:`Vector2<class_Vector2>` end=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:713
+msgid "对指定区域内的单元格应用自动平移规则，由基于网格的X和Y坐标指定。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:715
+msgid "用无效的或缺失的参数调用时，自动平铺规则应用于整个图块地图。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:721
+msgid "void **update_dirty_quadrants** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:723
+msgid "更新图块地图的象限，允许如导航和碰撞形状等内容，在修改后立即使用。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:729
+msgid ":ref:`Vector2<class_Vector2>` **world_to_map** **(** :ref:`Vector2<class_Vector2>` world_position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:731
+msgid "返回与指定的局部坐标相对应的图块地图坐标，基于网格。"
+msgstr ""
+
+#: ../classes/class_tilemap.rst:733
+msgid "要使用这个全局坐标，首先要用\\ :ref:`Node2D.to_local<class_Node2D_method_to_local>`\\ 确定局部坐标。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

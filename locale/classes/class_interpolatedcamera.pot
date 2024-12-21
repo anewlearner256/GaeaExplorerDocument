@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_interpolatedcamera.rst:10
+msgid "InterpolatedCamera"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:12
+msgid "**Inherits:** :ref:`Camera<class_Camera>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:14
+msgid "已弃用。 * 向另一个节点移动的相机。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:19
+msgid "*已经弃用（将在GaaeExplorer 4.0 中删除）。*\\ 插值相机是一种\\ :ref:`Camera<class_Camera>`\\ ，可以平稳地移动，以匹配目标节点的位置和旋转。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:21
+msgid "如果它不是\\ :ref:`enabled<class_InterpolatedCamera_property_enabled>`\\ 或没有有效的目标集，InterpolatedCamera 的行为就像一个正常的相机。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:27
+msgid ":ref:`enabled<class_InterpolatedCamera_property_enabled>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:27
+#: ../classes/class_interpolatedcamera.rst:49
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:29
+msgid ":ref:`speed<class_InterpolatedCamera_property_speed>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:29
+#: ../classes/class_interpolatedcamera.rst:65
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:31
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:31
+msgid ":ref:`target<class_InterpolatedCamera_property_target>`"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:31
+#: ../classes/class_interpolatedcamera.rst:81
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:35
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:38
+msgid "void"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:38
+msgid ":ref:`set_target<class_InterpolatedCamera_method_set_target>` **(** :ref:`Object<class_Object>` target **)**"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:42
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:46
+msgid ":ref:`bool<class_bool>` **enabled**"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:49
+#: ../classes/class_interpolatedcamera.rst:65
+#: ../classes/class_interpolatedcamera.rst:81
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:51
+#: ../classes/class_interpolatedcamera.rst:67
+#: ../classes/class_interpolatedcamera.rst:83
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:51
+msgid "set_interpolation_enabled(value)"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:53
+#: ../classes/class_interpolatedcamera.rst:69
+#: ../classes/class_interpolatedcamera.rst:85
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:53
+msgid "is_interpolation_enabled()"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:56
+msgid "如果\\ ``true``\\ ，并且设置了目标，相机将自动移动。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:62
+msgid ":ref:`float<class_float>` **speed**"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:67
+msgid "set_speed(value)"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:69
+msgid "get_speed()"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:72
+msgid "相机向其目标移动的速度。较高的值将导致相机的运动更紧密。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:78
+msgid ":ref:`NodePath<class_NodePath>` **target**"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:83
+msgid "set_target_path(value)"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:85
+msgid "get_target_path()"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:88
+msgid "目标的\\ :ref:`NodePath<class_NodePath>`\\ 。"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:91
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:95
+msgid "void **set_target** **(** :ref:`Object<class_Object>` target **)**"
+msgstr ""
+
+#: ../classes/class_interpolatedcamera.rst:97
+msgid "设置要移动和定向的节点。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

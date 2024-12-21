@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gltfskeleton.rst:10
+msgid "GLTFSkeleton"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:20
+#: ../classes/class_gltfskeleton.rst:22
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:20
+msgid ":ref:`joints<class_GLTFSkeleton_property_joints>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:20
+#: ../classes/class_gltfskeleton.rst:22
+#: ../classes/class_gltfskeleton.rst:52
+#: ../classes/class_gltfskeleton.rst:66
+msgid "``PoolIntArray(  )``"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:22
+msgid ":ref:`roots<class_GLTFSkeleton_property_roots>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:29
+msgid ":ref:`BoneAttachment<class_BoneAttachment>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:29
+msgid ":ref:`get_bone_attachment<class_GLTFSkeleton_method_get_bone_attachment>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:31
+msgid ":ref:`get_bone_attachment_count<class_GLTFSkeleton_method_get_bone_attachment_count>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:33
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:33
+msgid ":ref:`get_godot_bone_node<class_GLTFSkeleton_method_get_godot_bone_node>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:35
+msgid ":ref:`Skeleton<class_Skeleton>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:35
+msgid ":ref:`get_godot_skeleton<class_GLTFSkeleton_method_get_godot_skeleton>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:37
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:37
+msgid ":ref:`get_unique_names<class_GLTFSkeleton_method_get_unique_names>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:39
+#: ../classes/class_gltfskeleton.rst:41
+msgid "void"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:39
+msgid ":ref:`set_godot_bone_node<class_GLTFSkeleton_method_set_godot_bone_node>` **(** :ref:`Dictionary<class_Dictionary>` godot_bone_node **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:41
+msgid ":ref:`set_unique_names<class_GLTFSkeleton_method_set_unique_names>` **(** :ref:`Array<class_Array>` unique_names **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:45
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:49
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **joints**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:52
+#: ../classes/class_gltfskeleton.rst:66
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:54
+#: ../classes/class_gltfskeleton.rst:68
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:54
+msgid "set_joints(value)"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:56
+#: ../classes/class_gltfskeleton.rst:70
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:56
+msgid "get_joints()"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:63
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **roots**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:68
+msgid "set_roots(value)"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:70
+msgid "get_roots()"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:74
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:78
+msgid ":ref:`BoneAttachment<class_BoneAttachment>` **get_bone_attachment** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:84
+msgid ":ref:`int<class_int>` **get_bone_attachment_count** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:90
+msgid ":ref:`Dictionary<class_Dictionary>` **get_godot_bone_node** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:96
+msgid ":ref:`Skeleton<class_Skeleton>` **get_godot_skeleton** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:102
+msgid ":ref:`Array<class_Array>` **get_unique_names** **(** **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:108
+msgid "void **set_godot_bone_node** **(** :ref:`Dictionary<class_Dictionary>` godot_bone_node **)**"
+msgstr ""
+
+#: ../classes/class_gltfskeleton.rst:114
+msgid "void **set_unique_names** **(** :ref:`Array<class_Array>` unique_names **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

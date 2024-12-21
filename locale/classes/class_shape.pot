@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_shape.rst:10
+msgid "Shape"
+msgstr ""
+
+#: ../classes/class_shape.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_shape.rst:14
+msgid "**Inherited By:** :ref:`BoxShape<class_BoxShape>`, :ref:`CapsuleShape<class_CapsuleShape>`, :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`, :ref:`ConvexPolygonShape<class_ConvexPolygonShape>`, :ref:`CylinderShape<class_CylinderShape>`, :ref:`HeightMapShape<class_HeightMapShape>`, :ref:`PlaneShape<class_PlaneShape>`, :ref:`RayShape<class_RayShape>`, :ref:`SphereShape<class_SphereShape>`"
+msgstr ""
+
+#: ../classes/class_shape.rst:16
+msgid "所有 3D 形状资源的基类。"
+msgstr ""
+
+#: ../classes/class_shape.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_shape.rst:21
+msgid "所有3D形状资源的基类。继承于此的节点可以作为\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`Area<class_Area>`\\ 对象的形状。"
+msgstr ""
+
+#: ../classes/class_shape.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_shape.rst:26
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../classes/class_shape.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_shape.rst:32
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_shape.rst:32
+msgid ":ref:`margin<class_Shape_property_margin>`"
+msgstr ""
+
+#: ../classes/class_shape.rst:32
+#: ../classes/class_shape.rst:50
+msgid "``0.04``"
+msgstr ""
+
+#: ../classes/class_shape.rst:36
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_shape.rst:39
+msgid ":ref:`ArrayMesh<class_ArrayMesh>`"
+msgstr ""
+
+#: ../classes/class_shape.rst:39
+msgid ":ref:`get_debug_mesh<class_Shape_method_get_debug_mesh>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_shape.rst:43
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_shape.rst:47
+msgid ":ref:`float<class_float>` **margin**"
+msgstr ""
+
+#: ../classes/class_shape.rst:50
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_shape.rst:52
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_shape.rst:52
+msgid "set_margin(value)"
+msgstr ""
+
+#: ../classes/class_shape.rst:54
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_shape.rst:54
+msgid "get_margin()"
+msgstr ""
+
+#: ../classes/class_shape.rst:57
+msgid "形状的碰撞边距。只在Bullet物理运算中使用。"
+msgstr ""
+
+#: ../classes/class_shape.rst:59
+msgid "碰撞边距允许通过在形状周围添加额外的外壳来使碰撞检测更有效。当物体重叠的部分超过其边距时，碰撞算法的成本会更高，所以边距的数值越高对性能越好，但代价是边缘的精度会降低。"
+msgstr ""
+
+#: ../classes/class_shape.rst:62
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_shape.rst:66
+msgid ":ref:`ArrayMesh<class_ArrayMesh>` **get_debug_mesh** **(** **)**"
+msgstr ""
+
+#: ../classes/class_shape.rst:68
+msgid "返回用于绘制此\\ ``Shape``\\ 的调试碰撞的\\ :ref:`ArrayMesh<class_ArrayMesh>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

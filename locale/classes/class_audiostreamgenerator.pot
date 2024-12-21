@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audiostreamgenerator.rst:10
+msgid "AudioStreamGenerator"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:12
+msgid "**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:14
+msgid "使用程序生成声音的音频流。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:19
+msgid "此音频流不播放声音，需要脚本为其生成音频数据。参阅\\ :ref:`AudioStreamGeneratorPlayback<class_AudioStreamGeneratorPlayback>`\\ 。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:21
+msgid "另请参阅 :ref:`AudioEffectSpectrumAnalyzer<class_AudioEffectSpectrumAnalyzer>` 用于执行实时音频频谱分析。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:23
+msgid "\\ **注意：** 由于性能限制，最好从 C# 或通过 GDNative 编译的语言中使用此类。如果你仍然想从GDScript中使用这个类，请考虑使用较低的 :ref:`mix_rate<class_AudioStreamGenerator_property_mix_rate>`\\ ，例如 11,025 Hz 或 22,050 Hz。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:28
+msgid "`Audio Generator Demo <https://godotengine.org/asset-library/asset/526>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:30
+msgid "`https://godotengine.org/article/godot-32-will-get-new-audio-features <GaaeExplorer 3.2 will get new audio features>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:36
+#: ../classes/class_audiostreamgenerator.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:36
+msgid ":ref:`buffer_length<class_AudioStreamGenerator_property_buffer_length>`"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:36
+#: ../classes/class_audiostreamgenerator.rst:49
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:38
+msgid ":ref:`mix_rate<class_AudioStreamGenerator_property_mix_rate>`"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:38
+#: ../classes/class_audiostreamgenerator.rst:65
+msgid "``44100.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:42
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:46
+msgid ":ref:`float<class_float>` **buffer_length**"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:49
+#: ../classes/class_audiostreamgenerator.rst:65
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:51
+#: ../classes/class_audiostreamgenerator.rst:67
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:51
+msgid "set_buffer_length(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:53
+#: ../classes/class_audiostreamgenerator.rst:69
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:53
+msgid "get_buffer_length()"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:56
+msgid "要生成的缓冲区的长度，以秒为单位。较低的值会带来更少的延迟，但需要脚本更快地生成音频数据，从而导致 CPU 使用率增加，如果 CPU 跟不上，则音频破裂的风险更大。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:62
+msgid ":ref:`float<class_float>` **mix_rate**"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:67
+msgid "set_mix_rate(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:69
+msgid "get_mix_rate()"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:72
+msgid "使用的采样率（单位：Hz）。更高的值对CPU要求更高，但会带来更好的质量。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:74
+msgid "在游戏中，常用的采样率有\\ ``11025``\\ 、\\ ``16000``\\ 、\\ ``22050``\\ 、\\ ``32000``\\ 、\\ ``44100``\\ 和\\ ``48000``\\ 。"
+msgstr ""
+
+#: ../classes/class_audiostreamgenerator.rst:76
+msgid "根据\\ `Nyquist-Shannon采样定理 <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__\\ ，当超过40000赫兹时，人类的听觉没有质量上的差别（因为大多数人只能听到~20000赫兹，往往更少）。如果你要生成较低音调的声音，例如语音，则可以使用较低的采样率，例如 ``32000`` 或 ``22050``\\ ，而不会降低质量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_timer.rst:10
+msgid "Timer"
+msgstr ""
+
+#: ../classes/class_timer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:14
+msgid "倒数计时器。"
+msgstr ""
+
+#: ../classes/class_timer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_timer.rst:19
+msgid "可以设置为重复或 \"一次性\" 模式。"
+msgstr ""
+
+#: ../classes/class_timer.rst:21
+msgid "\\ **注意：**\\ 要创建一个一次性定时器而不需要实例化一个节点，请使用\\ :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_timer.rst:26
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_timer.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_timer.rst:32
+#: ../classes/class_timer.rst:34
+#: ../classes/class_timer.rst:36
+#: ../classes/class_timer.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:32
+msgid ":ref:`autostart<class_Timer_property_autostart>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:32
+#: ../classes/class_timer.rst:34
+#: ../classes/class_timer.rst:88
+#: ../classes/class_timer.rst:106
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_timer.rst:34
+msgid ":ref:`one_shot<class_Timer_property_one_shot>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:36
+msgid ":ref:`paused<class_Timer_property_paused>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:38
+msgid ":ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:38
+msgid ":ref:`process_mode<class_Timer_property_process_mode>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:38
+#: ../classes/class_timer.rst:136
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_timer.rst:40
+#: ../classes/class_timer.rst:42
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:40
+msgid ":ref:`time_left<class_Timer_property_time_left>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:42
+msgid ":ref:`wait_time<class_Timer_property_wait_time>`"
+msgstr ""
+
+#: ../classes/class_timer.rst:42
+#: ../classes/class_timer.rst:166
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_timer.rst:46
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_timer.rst:49
+msgid ":ref:`is_stopped<class_Timer_method_is_stopped>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_timer.rst:51
+#: ../classes/class_timer.rst:53
+msgid "void"
+msgstr ""
+
+#: ../classes/class_timer.rst:51
+msgid ":ref:`start<class_Timer_method_start>` **(** :ref:`float<class_float>` time_sec=-1 **)**"
+msgstr ""
+
+#: ../classes/class_timer.rst:53
+msgid ":ref:`stop<class_Timer_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_timer.rst:57
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_timer.rst:61
+msgid "**timeout** **(** **)**"
+msgstr ""
+
+#: ../classes/class_timer.rst:63
+msgid "当计时器到 0 时发出。"
+msgstr ""
+
+#: ../classes/class_timer.rst:66
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_timer.rst:74
+msgid "enum **TimerProcessMode**:"
+msgstr ""
+
+#: ../classes/class_timer.rst:76
+msgid "**TIMER_PROCESS_PHYSICS** = **0** --- 在每一帧的物理运算步骤中更新定时器，即固定帧率处理。"
+msgstr ""
+
+#: ../classes/class_timer.rst:78
+msgid "**TIMER_PROCESS_IDLE** = **1** --- 在每一帧空闲时间内更新定时器。"
+msgstr ""
+
+#: ../classes/class_timer.rst:81
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_timer.rst:85
+msgid ":ref:`bool<class_bool>` **autostart**"
+msgstr ""
+
+#: ../classes/class_timer.rst:88
+#: ../classes/class_timer.rst:106
+#: ../classes/class_timer.rst:136
+#: ../classes/class_timer.rst:166
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_timer.rst:90
+#: ../classes/class_timer.rst:108
+#: ../classes/class_timer.rst:122
+#: ../classes/class_timer.rst:138
+#: ../classes/class_timer.rst:168
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_timer.rst:90
+msgid "set_autostart(value)"
+msgstr ""
+
+#: ../classes/class_timer.rst:92
+#: ../classes/class_timer.rst:110
+#: ../classes/class_timer.rst:124
+#: ../classes/class_timer.rst:140
+#: ../classes/class_timer.rst:152
+#: ../classes/class_timer.rst:170
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_timer.rst:92
+msgid "has_autostart()"
+msgstr ""
+
+#: ../classes/class_timer.rst:95
+msgid "如果\\ ``true``\\ ，定时器将在进入场景树时自动启动。"
+msgstr ""
+
+#: ../classes/class_timer.rst:97
+msgid "\\ **注意：**\\ 在定时器进入场景树并启动后，该属性会自动设置为\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:103
+msgid ":ref:`bool<class_bool>` **one_shot**"
+msgstr ""
+
+#: ../classes/class_timer.rst:108
+msgid "set_one_shot(value)"
+msgstr ""
+
+#: ../classes/class_timer.rst:110
+msgid "is_one_shot()"
+msgstr ""
+
+#: ../classes/class_timer.rst:113
+msgid "如果\\ ``true``\\ ，定时器将在达到0时停止。 如果\\ ``false``\\ ，它将重新启动。"
+msgstr ""
+
+#: ../classes/class_timer.rst:119
+msgid ":ref:`bool<class_bool>` **paused**"
+msgstr ""
+
+#: ../classes/class_timer.rst:122
+msgid "set_paused(value)"
+msgstr ""
+
+#: ../classes/class_timer.rst:124
+msgid "is_paused()"
+msgstr ""
+
+#: ../classes/class_timer.rst:127
+msgid "如果\\ ``true``\\ ，定时器会被暂停，并且不再处理，即使调用\\ :ref:`start<class_Timer_method_start>`\\ ，直到它被取消暂停。"
+msgstr ""
+
+#: ../classes/class_timer.rst:133
+msgid ":ref:`TimerProcessMode<enum_Timer_TimerProcessMode>` **process_mode**"
+msgstr ""
+
+#: ../classes/class_timer.rst:138
+msgid "set_timer_process_mode(value)"
+msgstr ""
+
+#: ../classes/class_timer.rst:140
+msgid "get_timer_process_mode()"
+msgstr ""
+
+#: ../classes/class_timer.rst:143
+msgid "处理模式。参阅\\ :ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:149
+msgid ":ref:`float<class_float>` **time_left**"
+msgstr ""
+
+#: ../classes/class_timer.rst:152
+msgid "get_time_left()"
+msgstr ""
+
+#: ../classes/class_timer.rst:155
+msgid "定时器的剩余时间，单位是秒。如果定时器处于非激活状态，则返回0。"
+msgstr ""
+
+#: ../classes/class_timer.rst:157
+msgid "\\ **注意：** 你不能设置这个值。要改变定时器的剩余时间，请使用\\ :ref:`start<class_Timer_method_start>`\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:163
+msgid ":ref:`float<class_float>` **wait_time**"
+msgstr ""
+
+#: ../classes/class_timer.rst:168
+msgid "set_wait_time(value)"
+msgstr ""
+
+#: ../classes/class_timer.rst:170
+msgid "get_wait_time()"
+msgstr ""
+
+#: ../classes/class_timer.rst:173
+msgid "等待的秒数。"
+msgstr ""
+
+#: ../classes/class_timer.rst:175
+msgid "\\ **注意：** 计时器在一个渲染帧中最多只能触发一次（如果 :ref:`process_mode<class_Timer_property_process_mode>` 为 :ref:`TIMER_PROCESS_PHYSICS<class_Timer_constant_TIMER_PROCESS_PHYSICS>`\\ ，则是在一个物理帧中最多一次）。也就是说，非常低的等待时间（小于 0.05 秒）会根据渲染帧率的不同而产生不同的行为。如果等待时间非常小，建议在脚本中使用 process 循环，不要用 Timer 节点。"
+msgstr ""
+
+#: ../classes/class_timer.rst:178
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_timer.rst:182
+msgid ":ref:`bool<class_bool>` **is_stopped** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_timer.rst:184
+msgid "如果定时器被停止，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:190
+msgid "void **start** **(** :ref:`float<class_float>` time_sec=-1 **)**"
+msgstr ""
+
+#: ../classes/class_timer.rst:192
+msgid "启动定时器。如果\\ ``time_sec>0``\\ ，将\\ ``wait_time``\\ 设置为\\ ``time_sec``\\ 。这也会将剩余时间重置为\\ ``wait_time``\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:194
+msgid "\\ **注意：** 这个方法不会恢复一个暂停的定时器。参阅 :ref:`paused<class_Timer_property_paused>`\\ 。"
+msgstr ""
+
+#: ../classes/class_timer.rst:200
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_timer.rst:202
+msgid "停止定时器。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

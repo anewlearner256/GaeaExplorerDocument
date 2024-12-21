@@ -1,0 +1,1020 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorplugin.rst:10
+msgid "EditorPlugin"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:14
+msgid "由编辑器用于扩展其功能。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:19
+msgid "编辑器使用插件来扩展功能。最常见的插件类型是编辑给定的节点或资源类型、导入插件和导出插件。另请参阅\\ :ref:`EditorScript<class_EditorScript>`\\ 向编辑器添加函数。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:24
+msgid ":doc:`../tutorials/plugins/editor/index`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:27
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:30
+#: ../classes/class_editorplugin.rst:34
+#: ../classes/class_editorplugin.rst:36
+#: ../classes/class_editorplugin.rst:38
+#: ../classes/class_editorplugin.rst:40
+#: ../classes/class_editorplugin.rst:42
+#: ../classes/class_editorplugin.rst:44
+#: ../classes/class_editorplugin.rst:46
+#: ../classes/class_editorplugin.rst:48
+#: ../classes/class_editorplugin.rst:50
+#: ../classes/class_editorplugin.rst:52
+#: ../classes/class_editorplugin.rst:54
+#: ../classes/class_editorplugin.rst:58
+#: ../classes/class_editorplugin.rst:60
+#: ../classes/class_editorplugin.rst:62
+#: ../classes/class_editorplugin.rst:64
+#: ../classes/class_editorplugin.rst:66
+#: ../classes/class_editorplugin.rst:68
+#: ../classes/class_editorplugin.rst:72
+#: ../classes/class_editorplugin.rst:74
+#: ../classes/class_editorplugin.rst:92
+#: ../classes/class_editorplugin.rst:98
+#: ../classes/class_editorplugin.rst:100
+#: ../classes/class_editorplugin.rst:102
+#: ../classes/class_editorplugin.rst:104
+#: ../classes/class_editorplugin.rst:106
+#: ../classes/class_editorplugin.rst:108
+#: ../classes/class_editorplugin.rst:110
+#: ../classes/class_editorplugin.rst:112
+#: ../classes/class_editorplugin.rst:114
+#: ../classes/class_editorplugin.rst:116
+#: ../classes/class_editorplugin.rst:118
+#: ../classes/class_editorplugin.rst:120
+#: ../classes/class_editorplugin.rst:122
+#: ../classes/class_editorplugin.rst:124
+#: ../classes/class_editorplugin.rst:126
+#: ../classes/class_editorplugin.rst:128
+#: ../classes/class_editorplugin.rst:130
+#: ../classes/class_editorplugin.rst:132
+#: ../classes/class_editorplugin.rst:134
+#: ../classes/class_editorplugin.rst:136
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:30
+msgid ":ref:`add_autoload_singleton<class_EditorPlugin_method_add_autoload_singleton>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:32
+msgid ":ref:`ToolButton<class_ToolButton>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:32
+msgid ":ref:`add_control_to_bottom_panel<class_EditorPlugin_method_add_control_to_bottom_panel>` **(** :ref:`Control<class_Control>` control, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:34
+msgid ":ref:`add_control_to_container<class_EditorPlugin_method_add_control_to_container>` **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:36
+msgid ":ref:`add_control_to_dock<class_EditorPlugin_method_add_control_to_dock>` **(** :ref:`DockSlot<enum_EditorPlugin_DockSlot>` slot, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:38
+msgid ":ref:`add_custom_type<class_EditorPlugin_method_add_custom_type>` **(** :ref:`String<class_String>` type, :ref:`String<class_String>` base, :ref:`Script<class_Script>` script, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:40
+msgid ":ref:`add_export_plugin<class_EditorPlugin_method_add_export_plugin>` **(** :ref:`EditorExportPlugin<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:42
+msgid ":ref:`add_import_plugin<class_EditorPlugin_method_add_import_plugin>` **(** :ref:`EditorImportPlugin<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:44
+msgid ":ref:`add_inspector_plugin<class_EditorPlugin_method_add_inspector_plugin>` **(** :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:46
+msgid ":ref:`add_scene_import_plugin<class_EditorPlugin_method_add_scene_import_plugin>` **(** :ref:`EditorSceneImporter<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:48
+msgid ":ref:`add_spatial_gizmo_plugin<class_EditorPlugin_method_add_spatial_gizmo_plugin>` **(** :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:50
+msgid ":ref:`add_tool_menu_item<class_EditorPlugin_method_add_tool_menu_item>` **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` handler, :ref:`String<class_String>` callback, :ref:`Variant<class_Variant>` ud=null **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:52
+msgid ":ref:`add_tool_submenu_item<class_EditorPlugin_method_add_tool_submenu_item>` **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` submenu **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:54
+msgid ":ref:`apply_changes<class_EditorPlugin_method_apply_changes>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:56
+#: ../classes/class_editorplugin.rst:70
+#: ../classes/class_editorplugin.rst:76
+#: ../classes/class_editorplugin.rst:94
+#: ../classes/class_editorplugin.rst:96
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:56
+msgid ":ref:`build<class_EditorPlugin_method_build>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:58
+msgid ":ref:`clear<class_EditorPlugin_method_clear>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:60
+msgid ":ref:`disable_plugin<class_EditorPlugin_method_disable_plugin>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:62
+msgid ":ref:`edit<class_EditorPlugin_method_edit>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:64
+msgid ":ref:`enable_plugin<class_EditorPlugin_method_enable_plugin>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:66
+msgid ":ref:`forward_canvas_draw_over_viewport<class_EditorPlugin_method_forward_canvas_draw_over_viewport>` **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:68
+msgid ":ref:`forward_canvas_force_draw_over_viewport<class_EditorPlugin_method_forward_canvas_force_draw_over_viewport>` **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:70
+msgid ":ref:`forward_canvas_gui_input<class_EditorPlugin_method_forward_canvas_gui_input>` **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:72
+msgid ":ref:`forward_spatial_draw_over_viewport<class_EditorPlugin_method_forward_spatial_draw_over_viewport>` **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:74
+msgid ":ref:`forward_spatial_force_draw_over_viewport<class_EditorPlugin_method_forward_spatial_force_draw_over_viewport>` **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:76
+msgid ":ref:`forward_spatial_gui_input<class_EditorPlugin_method_forward_spatial_gui_input>` **(** :ref:`Camera<class_Camera>` camera, :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:78
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:78
+msgid ":ref:`get_breakpoints<class_EditorPlugin_method_get_breakpoints>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:80
+msgid ":ref:`EditorInterface<class_EditorInterface>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:80
+msgid ":ref:`get_editor_interface<class_EditorPlugin_method_get_editor_interface>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:82
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:82
+msgid ":ref:`get_plugin_icon<class_EditorPlugin_method_get_plugin_icon>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:84
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:84
+msgid ":ref:`get_plugin_name<class_EditorPlugin_method_get_plugin_name>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:86
+msgid ":ref:`ScriptCreateDialog<class_ScriptCreateDialog>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:86
+msgid ":ref:`get_script_create_dialog<class_EditorPlugin_method_get_script_create_dialog>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:88
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:88
+msgid ":ref:`get_state<class_EditorPlugin_method_get_state>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:90
+msgid ":ref:`UndoRedo<class_UndoRedo>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:90
+msgid ":ref:`get_undo_redo<class_EditorPlugin_method_get_undo_redo>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:92
+msgid ":ref:`get_window_layout<class_EditorPlugin_method_get_window_layout>` **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:94
+msgid ":ref:`handles<class_EditorPlugin_method_handles>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:96
+msgid ":ref:`has_main_screen<class_EditorPlugin_method_has_main_screen>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:98
+msgid ":ref:`hide_bottom_panel<class_EditorPlugin_method_hide_bottom_panel>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:100
+msgid ":ref:`make_bottom_panel_item_visible<class_EditorPlugin_method_make_bottom_panel_item_visible>` **(** :ref:`Control<class_Control>` item **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:102
+msgid ":ref:`make_visible<class_EditorPlugin_method_make_visible>` **(** :ref:`bool<class_bool>` visible **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:104
+msgid ":ref:`queue_save_layout<class_EditorPlugin_method_queue_save_layout>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:106
+msgid ":ref:`remove_autoload_singleton<class_EditorPlugin_method_remove_autoload_singleton>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:108
+msgid ":ref:`remove_control_from_bottom_panel<class_EditorPlugin_method_remove_control_from_bottom_panel>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:110
+msgid ":ref:`remove_control_from_container<class_EditorPlugin_method_remove_control_from_container>` **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:112
+msgid ":ref:`remove_control_from_docks<class_EditorPlugin_method_remove_control_from_docks>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:114
+msgid ":ref:`remove_custom_type<class_EditorPlugin_method_remove_custom_type>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:116
+msgid ":ref:`remove_export_plugin<class_EditorPlugin_method_remove_export_plugin>` **(** :ref:`EditorExportPlugin<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:118
+msgid ":ref:`remove_import_plugin<class_EditorPlugin_method_remove_import_plugin>` **(** :ref:`EditorImportPlugin<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:120
+msgid ":ref:`remove_inspector_plugin<class_EditorPlugin_method_remove_inspector_plugin>` **(** :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:122
+msgid ":ref:`remove_scene_import_plugin<class_EditorPlugin_method_remove_scene_import_plugin>` **(** :ref:`EditorSceneImporter<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:124
+msgid ":ref:`remove_spatial_gizmo_plugin<class_EditorPlugin_method_remove_spatial_gizmo_plugin>` **(** :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:126
+msgid ":ref:`remove_tool_menu_item<class_EditorPlugin_method_remove_tool_menu_item>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:128
+msgid ":ref:`save_external_data<class_EditorPlugin_method_save_external_data>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:130
+msgid ":ref:`set_force_draw_over_forwarding_enabled<class_EditorPlugin_method_set_force_draw_over_forwarding_enabled>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:132
+msgid ":ref:`set_input_event_forwarding_always_enabled<class_EditorPlugin_method_set_input_event_forwarding_always_enabled>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:134
+msgid ":ref:`set_state<class_EditorPlugin_method_set_state>` **(** :ref:`Dictionary<class_Dictionary>` state **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:136
+msgid ":ref:`set_window_layout<class_EditorPlugin_method_set_window_layout>` **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:138
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:138
+msgid ":ref:`update_overlays<class_EditorPlugin_method_update_overlays>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:142
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:146
+msgid "**main_screen_changed** **(** :ref:`String<class_String>` screen_name **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:148
+msgid "当用户改变工作空间(**2D**, **3D**, **Script**, **AssetLib**)时触发。也适用于由插件定义的自定义屏幕。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:154
+msgid "**resource_saved** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:160
+msgid "**scene_changed** **(** :ref:`Node<class_Node>` scene_root **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:162
+msgid "在编辑器中更改场景时触发。该参数将返回刚刚变为活动状态的场景的根节点。如果此场景是新场景且为空，则参数将为\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:168
+msgid "**scene_closed** **(** :ref:`String<class_String>` filepath **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:170
+msgid "当用户关闭场景时触发。参数是关闭场景的文件路径。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:173
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:201
+msgid "enum **CustomControlContainer**:"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:203
+msgid "**CONTAINER_TOOLBAR** = **0**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:205
+msgid "**CONTAINER_SPATIAL_EDITOR_MENU** = **1**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:207
+msgid "**CONTAINER_SPATIAL_EDITOR_SIDE_LEFT** = **2**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:209
+msgid "**CONTAINER_SPATIAL_EDITOR_SIDE_RIGHT** = **3**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:211
+msgid "**CONTAINER_SPATIAL_EDITOR_BOTTOM** = **4**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:213
+msgid "**CONTAINER_CANVAS_EDITOR_MENU** = **5**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:215
+msgid "**CONTAINER_CANVAS_EDITOR_SIDE_LEFT** = **6**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:217
+msgid "**CONTAINER_CANVAS_EDITOR_SIDE_RIGHT** = **7**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:219
+msgid "**CONTAINER_CANVAS_EDITOR_BOTTOM** = **8**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:221
+msgid "**CONTAINER_PROPERTY_EDITOR_BOTTOM** = **9**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:223
+msgid "**CONTAINER_PROJECT_SETTING_TAB_LEFT** = **10**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:225
+msgid "**CONTAINER_PROJECT_SETTING_TAB_RIGHT** = **11**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:249
+msgid "enum **DockSlot**:"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:251
+msgid "**DOCK_SLOT_LEFT_UL** = **0**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:253
+msgid "**DOCK_SLOT_LEFT_BL** = **1**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:255
+msgid "**DOCK_SLOT_LEFT_UR** = **2**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:257
+msgid "**DOCK_SLOT_LEFT_BR** = **3**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:259
+msgid "**DOCK_SLOT_RIGHT_UL** = **4**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:261
+msgid "**DOCK_SLOT_RIGHT_BL** = **5**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:263
+msgid "**DOCK_SLOT_RIGHT_UR** = **6**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:265
+msgid "**DOCK_SLOT_RIGHT_BR** = **7**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:267
+msgid "**DOCK_SLOT_MAX** = **8** --- 表示\\ :ref:`DockSlot<enum_EditorPlugin_DockSlot>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:270
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:274
+msgid "void **add_autoload_singleton** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:276
+msgid "将 ``path`` 处的脚本作为 ``name`` 添加到自动加载列表中。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:282
+msgid ":ref:`ToolButton<class_ToolButton>` **add_control_to_bottom_panel** **(** :ref:`Control<class_Control>` control, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:284
+msgid "将控件添加到底部面板（以及“输出”，“调试”，“动画”等）。返回对添加的按钮的引用。您可以根据需要隐藏/显示按钮。停用插件后，请确保使用\\ :ref:`remove_control_from_bottom_panel<class_EditorPlugin_method_remove_control_from_bottom_panel>`\\ 删除自定义控件，并使用\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放它。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:290
+msgid "void **add_control_to_container** **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:292
+msgid "将自定义控件添加到容器中（参阅\\ :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>`\\ ）。在编辑器用户界面中，有许多位置可以添加自定义控件，请记住，您必须自己管理您的自定义控件的可见性（并且很可能在添加后隐藏它）。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:294
+msgid "请记住，您必须自己管理您的自定义控件的可见性（并且很可能在添加后隐藏它）。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:296
+msgid "当你的插件停用时，请确保使用\\ :ref:`remove_control_from_container<class_EditorPlugin_method_remove_control_from_container>`\\ 删除你的自定义控件，并使用\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放它。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:302
+msgid "void **add_control_to_dock** **(** :ref:`DockSlot<enum_EditorPlugin_DockSlot>` slot, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:304
+msgid "将控件添加到特定的停靠面板（有关选项，请参阅\\ :ref:`DockSlot<enum_EditorPlugin_DockSlot>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:306
+msgid "如果重新放置了停靠面板，并且只要插件处于活动状态，编辑器就会在以后的会话中保存停靠面板的位置。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:308
+msgid "停用插件后，请确保使用\\ :ref:`remove_control_from_docks<class_EditorPlugin_method_remove_control_from_docks>`\\ 删除自定义控件，并使用\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放它。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:314
+msgid "void **add_custom_type** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` base, :ref:`Script<class_Script>` script, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:316
+msgid "添加一个自定义类型，它将出现在节点或资源的列表中。可以选择指定一个图标。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:318
+msgid "当给定的节点或资源被选中时，基本类型将被实例化（即“Spatial”、“Control”、“Resource”），然后脚本将被加载并设置为这个对象。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:320
+msgid "你可以使用虚拟法 :ref:`handles<class_EditorPlugin_method_handles>` 通过检查脚本或使用 ``is`` 关键字来检查是否正在编辑自定义对象。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:322
+msgid "在运行时，这将是一个带有脚本的简单对象，因此不需要调用此函数。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:328
+msgid "void **add_export_plugin** **(** :ref:`EditorExportPlugin<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:330
+msgid "注册一个新的编辑器导出插件 :ref:`EditorExportPlugin<class_EditorExportPlugin>`\\ 。导出插件是用来在项目被导出时执行任务的。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:332
+msgid "参见 :ref:`add_inspector_plugin<class_EditorPlugin_method_add_inspector_plugin>`\\ ，了解如何注册一个插件的例子。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:338
+msgid "void **add_import_plugin** **(** :ref:`EditorImportPlugin<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:340
+msgid "注册一个新的编辑器导入插件 :ref:`EditorImportPlugin<class_EditorImportPlugin>`\\ 。导入插件用于导入自定义和不支持的资产，作为一个自定义的 :ref:`Resource<class_Resource>` 资源类型。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:342
+msgid "\\ **注意：** 如果你想导入自定义的 3D 资产格式，请使用 :ref:`add_scene_import_plugin<class_EditorPlugin_method_add_scene_import_plugin>` 代替。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:344
+#: ../classes/class_editorplugin.rst:383
+msgid "参见 :ref:`add_inspector_plugin<class_EditorPlugin_method_add_inspector_plugin>` 以了解如何注册一个插件的例子。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:350
+msgid "void **add_inspector_plugin** **(** :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:352
+msgid "注册一个新的编辑器属性检查器插件\\ :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\\ 。检查器插件用于扩展 :ref:`EditorInspector<class_EditorInspector>` 并为你的对象属性提供自定义配置工具。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:354
+msgid "\\ **注意：** 当你的 ``EditorPlugin`` 被禁用时，一定要使用 :ref:`remove_inspector_plugin<class_EditorPlugin_method_remove_inspector_plugin>` 来删除注册的 :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\\ ，以防止泄漏和出现意外行为。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:371
+msgid "void **add_scene_import_plugin** **(** :ref:`EditorSceneImporter<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:373
+msgid "注册一个新的场景导入器 :ref:`EditorSceneImporter<class_EditorSceneImporter>`\\ 。场景导入器可以将自定义 3D 素材格式导入为场景。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:379
+msgid "void **add_spatial_gizmo_plugin** **(** :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:381
+msgid "注册一个新的空间辅助器插件 :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>`\\ 。Gizmo插件用于为 :ref:`Spatial<class_Spatial>` 的 3D预览视窗添加自定义的 gizmos。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:389
+msgid "void **add_tool_menu_item** **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` handler, :ref:`String<class_String>` callback, :ref:`Variant<class_Variant>` ud=null **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:391
+msgid "在\\ **项目 > 工具**\\ 中添加一个自定义菜单项，作为\\ ``name``\\ ，当用户激活它时，该菜单项将调用\\ ``callback``\\ 参数为\\ ``ud``\\ 的\\ ``handler``\\ 实例。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:397
+msgid "void **add_tool_submenu_item** **(** :ref:`String<class_String>` name, :ref:`Object<class_Object>` submenu **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:399
+msgid "在\\ **项目>工具>** ``name``\\ 下添加自定义子菜单。 ``submenu``\\ 应该是\\ :ref:`PopupMenu<class_PopupMenu>`\\ 类的对象。此子菜单应使用\\ ``remove_tool_menu_item（name）``\\ 进行清理。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:405
+msgid "void **apply_changes** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:407
+msgid "当编辑器将进行要保存项目、切换选项卡等操作时，将调用此方法。它要求插件应用任何暂挂状态更改以确保一致性。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:409
+msgid "例如，在着色器编辑器中使用它来使插件将用户编写的着色代码应用于对象。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:415
+msgid ":ref:`bool<class_bool>` **build** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:417
+msgid "这个方法在编辑器即将运行项目时被调用。然后，该插件可以在项目运行前执行所需的操作。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:419
+msgid "这个方法必须返回一个布尔值。如果这个方法返回 ``false``\\ ，项目将不会运行。运行被立即中止，所以这也会阻止所有其他插件的\\ :ref:`build<class_EditorPlugin_method_build>` 方法运行。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:425
+msgid "void **clear** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:427
+msgid "清除所有状态，并将正在编辑的对象重置为零。这可以确保你的插件不会一直编辑一个当前存在的节点，或者一个来自错误场景节点。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:433
+msgid "void **disable_plugin** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:435
+msgid "当用户在项目设置窗口的插件选项卡中禁用\\ ``EditorPlugin``\\ 时，由引擎调用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:441
+msgid "void **edit** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:443
+msgid "该函数用于编辑特定对象类型（节点或资源）的插件。它要求编辑器编辑给定的对象。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:449
+msgid "void **enable_plugin** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:451
+msgid "当用户在项目设置窗口的插件选项卡中启用\\ ``EditorPlugin``\\ 时，由引擎调用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:457
+msgid "void **forward_canvas_draw_over_viewport** **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:459
+msgid "当2D编辑器的视窗被更新时，由引擎调用。使用 ``overlay`` :ref:`Control<class_Control>` 进行绘制。你可以通过调用 :ref:`update_overlays<class_EditorPlugin_method_update_overlays>` 手动更新视窗。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:478
+msgid "void **forward_canvas_force_draw_over_viewport** **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:480
+msgid "这个方法和 :ref:`forward_canvas_draw_over_viewport<class_EditorPlugin_method_forward_canvas_draw_over_viewport>` 一样，只是它在所有东西的上面绘制。当你需要一个额外的层显示在其他东西上面时，这个方法很有用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:482
+#: ../classes/class_editorplugin.rst:539
+msgid "你需要通过使用 :ref:`set_force_draw_over_forwarding_enabled<class_EditorPlugin_method_set_force_draw_over_forwarding_enabled>` 来激活这个方法的调用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:488
+msgid ":ref:`bool<class_bool>` **forward_canvas_gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:490
+msgid "当当前编辑场景中有一个根节点时被调用，\\ :ref:`handles<class_EditorPlugin_method_handles>`\\ 实现，在2D视窗中发生按键输入\\ :ref:`InputEvent<class_InputEvent>`\\ 。拦截按键输入\\ :ref:`InputEvent<class_InputEvent>`\\ ，如果\\ ``return true`` ``EditorPlugin``\\ 消耗键值\\ ``event``\\ ，否则将键值\\ ``event``\\ 转发给其他Editor类。例子:"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:499
+#: ../classes/class_editorplugin.rst:556
+msgid "必须 ``return false`` 才能将 :ref:`InputEvent<class_InputEvent>` 转发到其他编辑器类。例子："
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:514
+msgid "void **forward_spatial_draw_over_viewport** **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:516
+msgid "当3D编辑器的视窗被更新时，由引擎调用。使用 ``overlay`` 控件 :ref:`Control<class_Control>` 进行绘制。你可以通过调用 :ref:`update_overlays<class_EditorPlugin_method_update_overlays>` 更新覆盖手动更新视窗。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:535
+msgid "void **forward_spatial_force_draw_over_viewport** **(** :ref:`Control<class_Control>` overlay **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:537
+msgid "这个方法和 :ref:`forward_spatial_draw_over_viewport<class_EditorPlugin_method_forward_spatial_draw_over_viewport>` 一样，只是它在所有东西的上面绘制。当你需要一个额外的层显示在其他东西上面时，这个方法很有用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:545
+msgid ":ref:`bool<class_bool>` **forward_spatial_gui_input** **(** :ref:`Camera<class_Camera>` camera, :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:547
+msgid "在当前编辑的场景中存在根节点时调用，实现\\ :ref:`handles<class_EditorPlugin_method_handles>`\\ 并在3D视窗中发生按键输入\\ :ref:`InputEvent<class_InputEvent>`\\ 。拦截按键输入\\ :ref:`InputEvent<class_InputEvent>`\\ ，如果\\ ``return true``\\ ，则\\ ``EditorPlugin``\\ 会使用键值\\ ``event``\\ ，否则将键值\\ ``event``\\ 转发到其他Editor类。例子："
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:571
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_breakpoints** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:573
+msgid "这是为编辑基于脚本的对象的编辑器。您可以返回格式中的断点列表（\\ ``script:line``\\ ），例如：\\ ``res：//path_to_script.gd：25``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:579
+msgid ":ref:`EditorInterface<class_EditorInterface>` **get_editor_interface** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:581
+msgid "返回\\ :ref:`EditorInterface<class_EditorInterface>`\\ 对象，该对象使您可以控制GaaeExplorer编辑器的窗口及其功能。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:587
+msgid ":ref:`Texture<class_Texture>` **get_plugin_icon** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:589
+msgid "在你的插件中覆盖这个方法，返回一个纹理 :ref:`Texture<class_Texture>`\\ ，以便给它一个图标。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:591
+msgid "对于主界面的插件，它出现在屏幕的顶部，在 \"2D\"、\"3D\"、\"Script \"和 \"AssetLib \"按钮的右边。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:593
+msgid "理想情况下，插件的图标应该是透明背景的白色，尺寸为16x16像素。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:607
+msgid ":ref:`String<class_String>` **get_plugin_name** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:609
+msgid "在GaaeExplorer编辑器中显示时，请在插件中覆盖此方法以提供插件的名称。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:611
+msgid "对于主屏幕插件，它显示在屏幕顶部，在“ 2D”，“ 3D”，“脚本”和“ AssetLib”按钮的右侧。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:617
+msgid ":ref:`ScriptCreateDialog<class_ScriptCreateDialog>` **get_script_create_dialog** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:619
+msgid "获取用于创建脚本的编辑器对话框。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:621
+msgid "\\ **注意:** 用户可以在使用前对其进行配置。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:623
+msgid "\\ **警告:** 移除和释放这个节点将使编辑器的一部分失去作用，并可能导致崩溃。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:629
+msgid ":ref:`Dictionary<class_Dictionary>` **get_state** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:631
+msgid "获取插件编辑器的状态。这用于保存场景时（从而再次打开时，它的状态被保持）和切换标签（从而状态能够当拉片返回恢复）时使用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:637
+msgid ":ref:`UndoRedo<class_UndoRedo>` **get_undo_redo** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:639
+msgid "获取撤消/重做对象。编辑器中的大多数操作都是可以撤消的，因此请使用此对象来确保在需要时执行此操作。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:645
+msgid "void **get_window_layout** **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:647
+msgid "获取插件的GUI布局。当调用\\ :ref:`queue_save_layout<class_EditorPlugin_method_queue_save_layout>`\\ 更改了编辑器布局（例如，更改停靠点的位置）时或保存项目的编辑器布局。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:653
+msgid ":ref:`bool<class_bool>` **handles** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:655
+msgid "如果您的插件编辑特定类型的对象（资源或节点），请实现此功能。如果返回 ``true``\\ ，则当编辑器请求它们时，将获得调用 :ref:`edit<class_EditorPlugin_method_edit>` 和 :ref:`make_visible<class_EditorPlugin_method_make_visible>` 的函数。如果您已经声明了方法 :ref:`forward_canvas_gui_input<class_EditorPlugin_method_forward_canvas_gui_input>` 和 :ref:`forward_spatial_gui_input<class_EditorPlugin_method_forward_spatial_gui_input>`\\ ，这些方法也将被调用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:661
+msgid ":ref:`bool<class_bool>` **has_main_screen** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:663
+msgid "如果这是一个主屏幕编辑插件，返回\\ ``true``\\ (它与\\ **2D**\\ 、\\ **3D**\\ 、\\ **Script**\\ 和\\ **AssetLib**\\ 一起放在工作区选择器中)。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:669
+msgid "void **hide_bottom_panel** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:671
+msgid "最小化底部面板。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:677
+msgid "void **make_bottom_panel_item_visible** **(** :ref:`Control<class_Control>` item **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:679
+msgid "使底部面板中的一个特定项目可见。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:685
+msgid "void **make_visible** **(** :ref:`bool<class_bool>` visible **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:687
+msgid "当编辑器被要求变为可见时，该函数将被调用。它用于编辑特定对象类型的插件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:689
+msgid "记住，你必须手动管理所有编辑器控件的可见性。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:695
+msgid "void **queue_save_layout** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:697
+msgid "排队保存项目的编辑器布局。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:703
+msgid "void **remove_autoload_singleton** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:705
+msgid "从列表中删除自动加载\\ ``name``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:711
+msgid "void **remove_control_from_bottom_panel** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:713
+msgid "从底部面板上删除控件。您必须手动\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放控件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:719
+msgid "void **remove_control_from_container** **(** :ref:`CustomControlContainer<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:721
+msgid "从指定的容器中删除控件。您必须手动\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放控件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:727
+msgid "void **remove_control_from_docks** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:729
+msgid "从扩展面板中删除控件。您必须手动\\ :ref:`Node.queue_free<class_Node_method_queue_free>`\\ 释放控件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:735
+msgid "void **remove_custom_type** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:737
+msgid "删除由 :ref:`add_custom_type<class_EditorPlugin_method_add_custom_type>` 添加的自定义类型。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:743
+msgid "void **remove_export_plugin** **(** :ref:`EditorExportPlugin<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:745
+msgid "删除由 :ref:`add_export_plugin<class_EditorPlugin_method_add_export_plugin>` 注册的导出插件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:751
+msgid "void **remove_import_plugin** **(** :ref:`EditorImportPlugin<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:753
+msgid "删除由 :ref:`add_import_plugin<class_EditorPlugin_method_add_import_plugin>` 注册的导入插件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:759
+msgid "void **remove_inspector_plugin** **(** :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:761
+msgid "删除由 :ref:`add_import_plugin<class_EditorPlugin_method_add_import_plugin>` 注册的检查器插件"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:767
+msgid "void **remove_scene_import_plugin** **(** :ref:`EditorSceneImporter<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:769
+msgid "删除由 :ref:`add_scene_import_plugin<class_EditorPlugin_method_add_scene_import_plugin>` 注册的场景导入器。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:775
+msgid "void **remove_spatial_gizmo_plugin** **(** :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:777
+msgid "删除由 :ref:`add_spatial_gizmo_plugin<class_EditorPlugin_method_add_spatial_gizmo_plugin>` 注册的控制器插件。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:783
+msgid "void **remove_tool_menu_item** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:785
+msgid "从\\ **项目 > 工具**\\ 中删除菜单\\ ``name``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:791
+msgid "void **save_external_data** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:793
+msgid "这个方法在编辑器保存项目后或关闭项目时被调用，它要求插件保存编辑的外部场景/资源。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:799
+msgid "void **set_force_draw_over_forwarding_enabled** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:801
+msgid "启用2D编辑器的 :ref:`forward_canvas_force_draw_over_viewport<class_EditorPlugin_method_forward_canvas_force_draw_over_viewport>` 和3D编辑器的 :ref:`forward_spatial_force_draw_over_viewport<class_EditorPlugin_method_forward_spatial_force_draw_over_viewport>` 在其视窗更新时的调用。你只需要调用这个方法一次，它就会对这个插件永久起作用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:807
+msgid "void **set_input_event_forwarding_always_enabled** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:809
+msgid "如果你想在\\ :ref:`forward_spatial_gui_input<class_EditorPlugin_method_forward_spatial_gui_input>`\\ 里面接收来自3D视图屏幕的输入，请使用这个方法。如果你的插件想要在场景中使用光线广播，那么这个方法可能特别有用。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:815
+msgid "void **set_state** **(** :ref:`Dictionary<class_Dictionary>` state **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:817
+msgid "恢复\\ :ref:`get_state<class_EditorPlugin_method_get_state>`\\ 保存的状态。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:823
+msgid "void **set_window_layout** **(** :ref:`ConfigFile<class_ConfigFile>` layout **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:825
+msgid "恢复\\ :ref:`get_window_layout<class_EditorPlugin_method_get_window_layout>`\\ 保存的插件GUI布局。"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:831
+msgid ":ref:`int<class_int>` **update_overlays** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorplugin.rst:833
+msgid "更新 2D 和 3D 编辑器视窗的覆盖层。导致方法 :ref:`forward_canvas_draw_over_viewport<class_EditorPlugin_method_forward_canvas_draw_over_viewport>`\\ 、\\ :ref:`forward_canvas_force_draw_over_viewport<class_EditorPlugin_method_forward_canvas_force_draw_over_viewport>`\\ 、\\ :ref:`forward_spatial_draw_over_viewport<class_EditorPlugin_method_forward_spatial_draw_over_viewport>` 和 :ref:`forward_spatial_force_draw_over_viewport<class_EditorPlugin_method_forward_spatial_force_draw_over_viewport>` 被调用。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

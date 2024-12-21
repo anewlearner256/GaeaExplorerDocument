@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_inputeventmousemotion.rst:10
+msgid "InputEventMouseMotion"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:12
+msgid "**Inherits:** :ref:`InputEventMouse<class_InputEventMouse>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:14
+msgid "鼠标移动事件的输入事件类型。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:19
+msgid "包含鼠标和笔的运动信息。支持相对、绝对位置和速度。参阅\\ :ref:`Node._input<class_Node_method__input>`\\ 。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:21
+msgid "\\ **注意：**\\ 默认情况下，这个事件最多只能在每一帧渲染中发出一次。如果你需要更精确的输入报告，请用\\ ``false``\\ 调用\\ :ref:`Input.set_use_accumulated_input<class_Input_method_set_use_accumulated_input>`\\ 来使事件尽可能频繁地发射。如果你使用InputEventMouseMotion来画线，请考虑同时实现\\ `Bresenham的线条算法 <https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm>`__\\ ，以避免在用户快速移动鼠标时出现可见的线条空隙。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:26
+msgid ":doc:`Mouse and input coordinates <../tutorials/inputs/mouse_and_input_coordinates>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:28
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:34
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:34
+msgid ":ref:`pressure<class_InputEventMouseMotion_property_pressure>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:34
+#: ../classes/class_inputeventmousemotion.rst:51
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:36
+#: ../classes/class_inputeventmousemotion.rst:38
+#: ../classes/class_inputeventmousemotion.rst:40
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:36
+msgid ":ref:`relative<class_InputEventMouseMotion_property_relative>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:36
+#: ../classes/class_inputeventmousemotion.rst:38
+#: ../classes/class_inputeventmousemotion.rst:40
+#: ../classes/class_inputeventmousemotion.rst:67
+#: ../classes/class_inputeventmousemotion.rst:85
+#: ../classes/class_inputeventmousemotion.rst:101
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:38
+msgid ":ref:`speed<class_InputEventMouseMotion_property_speed>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:40
+msgid ":ref:`tilt<class_InputEventMouseMotion_property_tilt>`"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:44
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:48
+msgid ":ref:`float<class_float>` **pressure**"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:51
+#: ../classes/class_inputeventmousemotion.rst:67
+#: ../classes/class_inputeventmousemotion.rst:85
+#: ../classes/class_inputeventmousemotion.rst:101
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:53
+#: ../classes/class_inputeventmousemotion.rst:69
+#: ../classes/class_inputeventmousemotion.rst:87
+#: ../classes/class_inputeventmousemotion.rst:103
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:53
+msgid "set_pressure(value)"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:55
+#: ../classes/class_inputeventmousemotion.rst:71
+#: ../classes/class_inputeventmousemotion.rst:89
+#: ../classes/class_inputeventmousemotion.rst:105
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:55
+msgid "get_pressure()"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:58
+msgid "表示用户对笔施加的压力。范围从 ``0.0`` 到 ``1.0`` 。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:64
+msgid ":ref:`Vector2<class_Vector2>` **relative**"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:69
+msgid "set_relative(value)"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:71
+msgid "get_relative()"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:74
+msgid "鼠标相对于前一个位置的位置（上一帧的位置）。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:76
+msgid "\\ **注意：** 因为\\ ``InputEventMouseMotion``\\ 只在鼠标移动时发出，当用户停止移动鼠标时，最后一个事件的相对位置不会是\\ ``Vector2(0, 0)``\\ 。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:82
+msgid ":ref:`Vector2<class_Vector2>` **speed**"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:87
+msgid "set_speed(value)"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:89
+msgid "get_speed()"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:92
+msgid "鼠标速度以像素/秒为单位。"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:98
+msgid ":ref:`Vector2<class_Vector2>` **tilt**"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:103
+msgid "set_tilt(value)"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:105
+msgid "get_tilt()"
+msgstr ""
+
+#: ../classes/class_inputeventmousemotion.rst:108
+msgid "代表笔的倾斜角度。正的X坐标值表示向右倾斜。正的Y坐标值表示向用户自身倾斜。两个轴的范围是\\ ``-1.0``\\ 到\\ ``1.0``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

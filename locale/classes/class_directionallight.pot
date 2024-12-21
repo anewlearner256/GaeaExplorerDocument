@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_directionallight.rst:10
+msgid "DirectionalLight"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:12
+msgid "**Inherits:** :ref:`Light<class_Light>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:14
+msgid "来自远处的平行光源，如太阳光。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:19
+msgid "平行光是一种 :ref:`Light<class_Light>` 类型的节点，它可以模拟出覆盖整个场景的无限多的平行光线。可以用作离场景很远、具有强烈强度的灯光，模拟太阳光或月光。DirectionalLight 变换的世界空间坐标（原点）会被忽略。只有基点会被用来确定光线方向。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:24
+msgid ":doc:`../tutorials/3d/lights_and_shadows`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:30
+#: ../classes/class_directionallight.rst:36
+#: ../classes/class_directionallight.rst:40
+#: ../classes/class_directionallight.rst:42
+#: ../classes/class_directionallight.rst:44
+#: ../classes/class_directionallight.rst:46
+#: ../classes/class_directionallight.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:30
+msgid ":ref:`directional_shadow_bias_split_scale<class_DirectionalLight_property_directional_shadow_bias_split_scale>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:30
+#: ../classes/class_directionallight.rst:92
+msgid "``0.25``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:32
+msgid ":ref:`directional_shadow_blend_splits<class_DirectionalLight_property_directional_shadow_blend_splits>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:32
+#: ../classes/class_directionallight.rst:108
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:34
+msgid ":ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:34
+msgid ":ref:`directional_shadow_depth_range<class_DirectionalLight_property_directional_shadow_depth_range>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:34
+#: ../classes/class_directionallight.rst:124
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:36
+msgid ":ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:36
+#: ../classes/class_directionallight.rst:140
+msgid "``100.0``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:38
+msgid ":ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:38
+msgid ":ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:38
+#: ../classes/class_directionallight.rst:156
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:40
+msgid ":ref:`directional_shadow_normal_bias<class_DirectionalLight_property_directional_shadow_normal_bias>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:40
+#: ../classes/class_directionallight.rst:172
+msgid "``0.8``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:42
+msgid ":ref:`directional_shadow_split_1<class_DirectionalLight_property_directional_shadow_split_1>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:42
+#: ../classes/class_directionallight.rst:188
+msgid "``0.1``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:44
+msgid ":ref:`directional_shadow_split_2<class_DirectionalLight_property_directional_shadow_split_2>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:44
+#: ../classes/class_directionallight.rst:204
+msgid "``0.2``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:46
+msgid ":ref:`directional_shadow_split_3<class_DirectionalLight_property_directional_shadow_split_3>`"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:46
+#: ../classes/class_directionallight.rst:220
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:48
+msgid "shadow_bias"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:48
+msgid "``0.1`` (overrides :ref:`Light<class_Light_property_shadow_bias>`)"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:52
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:62
+msgid "enum **ShadowMode**:"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:64
+msgid "**SHADOW_ORTHOGONAL** = **0** --- 从正交的角度渲染整个场景的阴影图。这是最快的方向性阴影模式。可能会导致近距离物体的阴影更模糊。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:66
+msgid "**SHADOW_PARALLEL_2_SPLITS** = **1** --- 将视图分割成2个区域，每个区域都有自己的阴影图。这个阴影模式是\\ :ref:`SHADOW_ORTHOGONAL<class_DirectionalLight_constant_SHADOW_ORTHOGONAL>`\\ 和\\ :ref:`SHADOW_PARALLEL_4_SPLITS<class_DirectionalLight_constant_SHADOW_PARALLEL_4_SPLITS>`\\ 在性能上的折中。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:68
+msgid "**SHADOW_PARALLEL_4_SPLITS** = **2** --- 将视图frustum分成4个区域，每个区域都有自己的阴影图。这是最慢的方向性阴影模式。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:78
+msgid "enum **ShadowDepthRange**:"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:80
+msgid "**SHADOW_DEPTH_RANGE_STABLE** = **0** --- 当相机移动时，保持影子稳定，但代价是降低有效影子分辨率。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:82
+msgid "**SHADOW_DEPTH_RANGE_OPTIMIZED** = **1** --- 尝试实现最大的阴影分辨率。可能导致阴影边缘出现锯齿效果。此模式通常在相机经常高速移动的游戏中效果最好，例如大多数赛车游戏。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:85
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:89
+msgid ":ref:`float<class_float>` **directional_shadow_bias_split_scale**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:92
+#: ../classes/class_directionallight.rst:108
+#: ../classes/class_directionallight.rst:124
+#: ../classes/class_directionallight.rst:140
+#: ../classes/class_directionallight.rst:156
+#: ../classes/class_directionallight.rst:172
+#: ../classes/class_directionallight.rst:188
+#: ../classes/class_directionallight.rst:204
+#: ../classes/class_directionallight.rst:220
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:94
+#: ../classes/class_directionallight.rst:110
+#: ../classes/class_directionallight.rst:126
+#: ../classes/class_directionallight.rst:142
+#: ../classes/class_directionallight.rst:158
+#: ../classes/class_directionallight.rst:174
+#: ../classes/class_directionallight.rst:190
+#: ../classes/class_directionallight.rst:206
+#: ../classes/class_directionallight.rst:222
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:94
+#: ../classes/class_directionallight.rst:142
+#: ../classes/class_directionallight.rst:174
+#: ../classes/class_directionallight.rst:190
+#: ../classes/class_directionallight.rst:206
+#: ../classes/class_directionallight.rst:222
+msgid "set_param(value)"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:96
+#: ../classes/class_directionallight.rst:112
+#: ../classes/class_directionallight.rst:128
+#: ../classes/class_directionallight.rst:144
+#: ../classes/class_directionallight.rst:160
+#: ../classes/class_directionallight.rst:176
+#: ../classes/class_directionallight.rst:192
+#: ../classes/class_directionallight.rst:208
+#: ../classes/class_directionallight.rst:224
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:96
+#: ../classes/class_directionallight.rst:144
+#: ../classes/class_directionallight.rst:176
+#: ../classes/class_directionallight.rst:192
+#: ../classes/class_directionallight.rst:208
+#: ../classes/class_directionallight.rst:224
+msgid "get_param()"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:99
+msgid "远处阴影分裂的额外偏置量。如果自身阴影只产生远处的分裂，增加这个值可以修复它们。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:105
+msgid ":ref:`bool<class_bool>` **directional_shadow_blend_splits**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:110
+msgid "set_blend_splits(value)"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:112
+msgid "is_blend_splits_enabled()"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:115
+msgid "如果\\ ``true``\\ ，则会牺牲阴影细节，以换取更平滑的分割之间的过渡。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:121
+msgid ":ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>` **directional_shadow_depth_range**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:126
+msgid "set_shadow_depth_range(value)"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:128
+msgid "get_shadow_depth_range()"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:131
+msgid "优化阴影渲染的细节与运动。参阅\\ :ref:`ShadowDepthRange<enum_DirectionalLight_ShadowDepthRange>`\\ 。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:137
+msgid ":ref:`float<class_float>` **directional_shadow_max_distance**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:147
+msgid "阴影分割的最大距离。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:153
+msgid ":ref:`ShadowMode<enum_DirectionalLight_ShadowMode>` **directional_shadow_mode**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:158
+msgid "set_shadow_mode(value)"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:160
+msgid "get_shadow_mode()"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:163
+msgid "灯光的阴影渲染算法。参阅\\ :ref:`ShadowMode<enum_DirectionalLight_ShadowMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:169
+msgid ":ref:`float<class_float>` **directional_shadow_normal_bias**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:179
+msgid "当物体垂直于光线时，可用于修复自身阴影的特殊情况。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:185
+msgid ":ref:`float<class_float>` **directional_shadow_split_1**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:195
+msgid "相机到影子分割1的距离。相对于\\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`\\ 。只有当\\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\\ 是\\ ``SHADOW_PARALLEL_2_SPLITS``\\ 或\\ ``SHADOW_PARALLEL_4_SPLITS``\\ 时才使用。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:201
+msgid ":ref:`float<class_float>` **directional_shadow_split_2**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:211
+msgid "阴影分割1到分割2的距离。相对于\\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`\\ 。仅在\\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\\ 为\\ ``SHADOW_PARALLEL_2_SPLITS``\\ 或\\ ``SHADOW_PARALLEL_4_SPLITS``\\ 时使用。"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:217
+msgid ":ref:`float<class_float>` **directional_shadow_split_3**"
+msgstr ""
+
+#: ../classes/class_directionallight.rst:227
+msgid "从影子分割2到分割3的距离。相对于\\ :ref:`directional_shadow_max_distance<class_DirectionalLight_property_directional_shadow_max_distance>`\\ 。只有当\\ :ref:`directional_shadow_mode<class_DirectionalLight_property_directional_shadow_mode>`\\ 为\\ ``SHADOW_PARALLEL_4_SPLITS``\\ 时才使用。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_touchscreenbutton.rst:10
+msgid "TouchScreenButton"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:14
+msgid "触摸屏设备的按钮，供游戏使用。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:19
+msgid "TouchScreenButton允许你为触摸设备创建屏幕上的按钮。其为游戏使用，比如在必须触摸才能移动的设备。与\\ :ref:`Button<class_Button>`\\ 不同，TouchScreenButton原生支持多点触摸。几个TouchScreenButton可以通过触摸输入同时被按下。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:21
+msgid "这个节点继承自\\ :ref:`Node2D<class_Node2D>`\\ 。与\\ :ref:`Control<class_Control>`\\ 节点不同，你不能在它上面设置锚点。如果要创建菜单或用户界面，可用\\ :ref:`Button<class_Button>`\\ 节点代替。为了使按钮节点对触摸事件作出反应，可在项目设置中启用模拟鼠标选项。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:23
+msgid "可将TouchScreenButton配置为只在触摸设备上可见，有助你同时为桌面和移动设备开发游戏。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:29
+msgid ":ref:`action<class_TouchScreenButton_property_action>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:29
+#: ../classes/class_touchscreenbutton.rst:95
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:31
+msgid ":ref:`BitMap<class_BitMap>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:31
+msgid ":ref:`bitmask<class_TouchScreenButton_property_bitmask>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:33
+#: ../classes/class_touchscreenbutton.rst:37
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:33
+msgid ":ref:`normal<class_TouchScreenButton_property_normal>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:35
+#: ../classes/class_touchscreenbutton.rst:41
+#: ../classes/class_touchscreenbutton.rst:43
+#: ../classes/class_touchscreenbutton.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:35
+msgid ":ref:`passby_press<class_TouchScreenButton_property_passby_press>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:35
+#: ../classes/class_touchscreenbutton.rst:139
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:37
+msgid ":ref:`pressed<class_TouchScreenButton_property_pressed>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:39
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:39
+msgid ":ref:`shape<class_TouchScreenButton_property_shape>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:41
+msgid ":ref:`shape_centered<class_TouchScreenButton_property_shape_centered>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:41
+#: ../classes/class_touchscreenbutton.rst:43
+#: ../classes/class_touchscreenbutton.rst:185
+#: ../classes/class_touchscreenbutton.rst:201
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:43
+msgid ":ref:`shape_visible<class_TouchScreenButton_property_shape_visible>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:45
+msgid ":ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:45
+msgid ":ref:`visibility_mode<class_TouchScreenButton_property_visibility_mode>`"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:45
+#: ../classes/class_touchscreenbutton.rst:217
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:49
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:52
+msgid ":ref:`is_pressed<class_TouchScreenButton_method_is_pressed>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:56
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:60
+msgid "**pressed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:62
+msgid "当按钮被按下时触发，即向下。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:68
+msgid "**released** **(** **)**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:70
+msgid "当按钮被释放时触发，即向上。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:73
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:81
+msgid "enum **VisibilityMode**:"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:83
+msgid "**VISIBILITY_ALWAYS** = **0** --- 始终可见。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:85
+msgid "**VISIBILITY_TOUCHSCREEN_ONLY** = **1** --- 仅在触摸屏上可以看到。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:88
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:92
+msgid ":ref:`String<class_String>` **action**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:95
+#: ../classes/class_touchscreenbutton.rst:139
+#: ../classes/class_touchscreenbutton.rst:185
+#: ../classes/class_touchscreenbutton.rst:201
+#: ../classes/class_touchscreenbutton.rst:217
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:97
+#: ../classes/class_touchscreenbutton.rst:111
+#: ../classes/class_touchscreenbutton.rst:125
+#: ../classes/class_touchscreenbutton.rst:141
+#: ../classes/class_touchscreenbutton.rst:157
+#: ../classes/class_touchscreenbutton.rst:171
+#: ../classes/class_touchscreenbutton.rst:187
+#: ../classes/class_touchscreenbutton.rst:203
+#: ../classes/class_touchscreenbutton.rst:219
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:97
+msgid "set_action(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:99
+#: ../classes/class_touchscreenbutton.rst:113
+#: ../classes/class_touchscreenbutton.rst:127
+#: ../classes/class_touchscreenbutton.rst:143
+#: ../classes/class_touchscreenbutton.rst:159
+#: ../classes/class_touchscreenbutton.rst:173
+#: ../classes/class_touchscreenbutton.rst:189
+#: ../classes/class_touchscreenbutton.rst:205
+#: ../classes/class_touchscreenbutton.rst:221
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:99
+msgid "get_action()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:102
+msgid "按钮的动作。动作可以用\\ :ref:`InputEventAction<class_InputEventAction>`\\ 来处理。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:108
+msgid ":ref:`BitMap<class_BitMap>` **bitmask**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:111
+msgid "set_bitmask(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:113
+msgid "get_bitmask()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:116
+msgid "按钮的bit位掩码。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:122
+msgid ":ref:`Texture<class_Texture>` **normal**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:125
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:127
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:130
+msgid "该按钮在正常状态下的纹理。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:136
+msgid ":ref:`bool<class_bool>` **passby_press**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:141
+msgid "set_passby_press(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:143
+msgid "is_passby_press_enabled()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:146
+msgid "如果\\ ``true``\\ ，只要按下的手指进出按钮，就会发出 :ref:`pressed<class_TouchScreenButton_signal_pressed>` 和\\ :ref:`released<class_TouchScreenButton_signal_released>` ]信号，即使压力开始于按钮的有效区域之外。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:148
+msgid "\\ **注意：**\\ 这是一种 \"pass-by\" 的按压模式 ，而不是 \"bypass\"。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:154
+msgid ":ref:`Texture<class_Texture>` **pressed**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:157
+msgid "set_texture_pressed(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:159
+msgid "get_texture_pressed()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:162
+msgid "按钮在被按下状态时的纹理。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:168
+msgid ":ref:`Shape2D<class_Shape2D>` **shape**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:171
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:173
+msgid "get_shape()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:176
+msgid "该按钮的形状。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:182
+msgid ":ref:`bool<class_bool>` **shape_centered**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:187
+msgid "set_shape_centered(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:189
+msgid "is_shape_centered()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:192
+msgid "如果\\ ``true``\\ ，按钮的形状会在提供的纹理中居中。如果没有使用纹理，这个属性就没有效果。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:198
+msgid ":ref:`bool<class_bool>` **shape_visible**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:203
+msgid "set_shape_visible(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:205
+msgid "is_shape_visible()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:208
+msgid "如果\\ ``true``\\ ，按钮的形状是可见的。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:214
+msgid ":ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>` **visibility_mode**"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:219
+msgid "set_visibility_mode(value)"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:221
+msgid "get_visibility_mode()"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:224
+msgid "按钮的可见性模式。有关可能的值，参阅\\ :ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:227
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:231
+msgid ":ref:`bool<class_bool>` **is_pressed** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_touchscreenbutton.rst:233
+msgid "如果这个按钮当前被按下，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

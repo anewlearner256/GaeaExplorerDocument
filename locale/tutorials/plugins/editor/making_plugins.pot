@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/plugins/editor/making_plugins.rst:4
+msgid "Making plugins"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:7
+msgid "About plugins"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:9
+msgid "A plugin is a great way to extend the editor with useful tools. It can be made entirely with GDScript and standard scenes, without even reloading the editor. Unlike modules, you don't need to create C++ code nor recompile the engine. While this makes plugins less powerful, there are still many things you can do with them. Note that a plugin is similar to any scene you can already make, except it is created using a script to add editor functionality."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:16
+msgid "This tutorial will guide you through the creation of two simple plugins so you can understand how they work and be able to develop your own. The first will be a custom node that you can add to any scene in the project and the other will be a custom dock added to the editor."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:22
+msgid "Creating a plugin"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:24
+msgid "Before starting, create a new empty project wherever you want. This will serve as a base to develop and test the plugins."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:27
+msgid "The first thing you need for the editor to identify a new plugin is to create two files: a ``plugin.cfg`` for configuration and a tool script with the functionality. Plugins have a standard path like ``addons/plugin_name`` inside the project folder. GaaeExplorer provides a dialog for generating those files and placing them where they need to be."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:33
+msgid "In the main toolbar, click the ``Project`` dropdown. Then click ``Project Settings...``. Go to the ``Plugins`` tab and then click on the ``Create`` button in the top-right."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:37
+msgid "You will see the dialog appear, like so:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:41
+msgid "The placeholder text in each field describes how it affects the plugin's creation of the files and the config file's values."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:44
+msgid "To continue with the example, use the following values:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:71
+msgid "Unchecking the ``Activate now?`` option in C# is always required because, like every other C# script, the EditorPlugin script needs to be compiled which requires building the project. After building the project the plugin can be enabled in the ``Plugins`` tab of ``Project Settings``."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:76
+msgid "You should end up with a directory structure like this:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:80
+msgid "``plugin.cfg`` is a simple INI file with metadata about your plugin. The name and description help people understand what it does. Your name helps you get properly credited for your work. The version number helps others know if they have an outdated version; if you are unsure on how to come up with the version number, check out `Semantic Versioning <https://semver.org/>`_. The main script file will instruct GaaeExplorer what your plugin does in the editor once it is active."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:89
+msgid "The script file"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:91
+msgid "Upon creation of the plugin, the dialog will automatically open the EditorPlugin script for you. The script has two requirements that you cannot change: it must be a ``tool`` script, or else it will not load properly in the editor, and it must inherit from :ref:`class_EditorPlugin`."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:98
+msgid "In addition to the EditorPlugin script, any other script that your plugin uses must *also* be a tool. * Any GDScript without ``tool`` imported into the editor will act like an empty file! * Any C# class without ``[Tool]`` won't be reloaded when the project is built forcing you to re-enable the plugin!"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:103
+msgid "It's important to deal with initialization and clean-up of resources. A good practice is to use the virtual function :ref:`_enter_tree() <class_Node_method__enter_tree>` to initialize your plugin and :ref:`_exit_tree() <class_Node_method__exit_tree>` to clean it up. Thankfully, the dialog generates these callbacks for you. Your script should look something like this:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:148
+msgid "This is a good template to use when creating new plugins."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:151
+msgid "A custom node"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:153
+msgid "Sometimes you want a certain behavior in many nodes, such as a custom scene or control that can be reused. Instancing is helpful in a lot of cases, but sometimes it can be cumbersome, especially if you're using it in many projects. A good solution to this is to make a plugin that adds a node with a custom behavior."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:161
+msgid "Nodes added via an EditorPlugin are \"CustomType\" nodes. While they work with any scripting language, they have fewer features than :ref:`the Script Class system <doc_gdscript_basics_class_name>`. If you are writing GDScript or NativeScript, we recommend using Script Classes instead."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:166
+msgid "To create a new node type, you can use the function :ref:`add_custom_type() <class_EditorPlugin_method_add_custom_type>` from the :ref:`class_EditorPlugin` class. This function can add new types to the editor (nodes or resources). However, before you can create the type, you need a script that will act as the logic for the type. While that script doesn't have to use the ``tool`` keyword, it can be added so the script runs in the editor."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:173
+msgid "For this tutorial, we'll create a simple button that prints a message when clicked. For that, we'll need a simple script that extends from :ref:`class_Button`. It could also extend :ref:`class_BaseButton` if you prefer:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:211
+msgid "That's it for our basic button. You can save this as ``my_button.gd`` inside the plugin folder. You'll also need a 16×16 icon to show in the scene tree. If you don't have one, you can grab the default one from the engine and save it in your `addons/my_custom_node` folder as `icon.png`, or use the default GaaeExplorer logo (`preload(\"res://icon.png\")`). You can also use SVG icons if desired."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:219
+msgid "Now, we need to add it as a custom type so it shows on the **Create New Node** dialog. For that, change the ``custom_node.gd`` script to the following:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:267
+msgid "With that done, the plugin should already be available in the plugin list in the **Project Settings**, so activate it as explained in `Checking the results`_."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:270
+msgid "Then try it out by adding your new node:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:274
+msgid "When you add the node, you can see that it already has the script you created attached to it. Set a text to the button, save and run the scene. When you click the button, you can see some text in the console:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:281
+msgid "A custom dock"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:283
+msgid "Sometimes, you need to extend the editor and add tools that are always available. An easy way to do it is to add a new dock with a plugin. Docks are just scenes based on Control, so they are created in a way similar to usual GUI scenes."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:287
+msgid "Creating a custom dock is done just like a custom node. Create a new ``plugin.cfg`` file in the ``addons/my_custom_dock`` folder, then add the following content to it:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:312
+msgid "Then create the script ``custom_dock.gd`` in the same folder. Fill it with the :ref:`template we've seen before <doc_making_plugins_template_code>` to get a good start."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:316
+msgid "Since we're trying to add a new custom dock, we need to create the contents of the dock. This is nothing more than a standard GaaeExplorer scene: just create a new scene in the editor then edit it."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:320
+msgid "For an editor dock, the root node **must** be a :ref:`Control <class_Control>` or one of its child classes. For this tutorial, you can create a single button. The name of the root node will also be the name that appears on the dock tab, so be sure to give it a short and descriptive name. Also, don't forget to add some text to your button."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:328
+msgid "Save this scene as ``my_dock.tscn``. Now, we need to grab the scene we created then add it as a dock in the editor. For this, you can rely on the function :ref:`add_control_to_dock() <class_EditorPlugin_method_add_control_to_dock>` from the :ref:`EditorPlugin <class_EditorPlugin>` class."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:333
+msgid "You need to select a dock position and define the control to add (which is the scene you just created). Don't forget to **remove the dock** when the plugin is deactivated. The script could look like this:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:394
+msgid "Note that, while the dock will initially appear at its specified position, the user can freely change its position and save the resulting layout."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:398
+msgid "Checking the results"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:400
+msgid "It's now time to check the results of your work. Open the **Project Settings** and click on the **Plugins** tab. Your plugin should be the only one on the list. If it is not showing, click on the **Update** button in the top-right corner."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:407
+msgid "You can see the plugin is inactive on the **Status** column; click on the status to select **Active**. The dock should become visible before you even close the settings window. You should now have a custom dock:"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:414
+msgid "Going beyond"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:416
+msgid "Now that you've learned how to make basic plugins, you can extend the editor in several ways. Lots of functionality can be added to the editor with GDScript; it is a powerful way to create specialized editors without having to delve into C++ modules."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:421
+msgid "You can make your own plugins to help yourself and share them in the `Asset Library <https://godotengine.org/asset-library/>`_ so that people can benefit from your work."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:428
+msgid "Registering autoloads/singletons in plugins"
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:430
+msgid "It is possible for editor plugins to automatically register :ref:`autoloads <doc_singletons_autoload>` when the plugin is enabled. This also includes unregistering the autoload when the plugin is disabled."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:434
+msgid "This makes setting up plugins faster for users, as they no longer have to manually add autoloads to their project settings if your editor plugin requires the use of an autoload."
+msgstr ""
+
+#: ../tutorials/plugins/editor/making_plugins.rst:438
+msgid "Use the following code to register a singleton from an editor plugin:"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualshadernodetexture.rst:10
+msgid "VisualShaderNodeTexture"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:14
+msgid "在可视化着色器图中执行纹理查找。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:19
+msgid "对提供的纹理进行查找操作，支持从多个纹理源选择。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:25
+msgid ":ref:`Source<enum_VisualShaderNodeTexture_Source>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:25
+msgid ":ref:`source<class_VisualShaderNodeTexture_property_source>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:25
+#: ../classes/class_visualshadernodetexture.rst:29
+#: ../classes/class_visualshadernodetexture.rst:89
+#: ../classes/class_visualshadernodetexture.rst:119
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:27
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:27
+msgid ":ref:`texture<class_VisualShaderNodeTexture_property_texture>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:29
+msgid ":ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:29
+msgid ":ref:`texture_type<class_VisualShaderNodeTexture_property_texture_type>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:33
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:49
+msgid "enum **Source**:"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:51
+msgid "**SOURCE_TEXTURE** = **0** --- 使用给定的纹理作为此函数的参数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:53
+msgid "**SOURCE_SCREEN** = **1** --- 使用当前视窗的纹理作为源。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:55
+msgid "**SOURCE_2D_TEXTURE** = **2** --- 使用该着色器内置的纹理，例如，\\ :ref:`Sprite<class_Sprite>`\\ 的纹理。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:57
+msgid "**SOURCE_2D_NORMAL** = **3** --- 使用该着色器内置的法线贴图的纹理。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:59
+msgid "**SOURCE_DEPTH** = **4** --- 使用该着色器可用的深度纹理。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:61
+msgid "**SOURCE_PORT** = **5** --- 将输入端口中提供的纹理用于此函数。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:73
+msgid "enum **TextureType**:"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:75
+msgid "**TYPE_DATA** = **0** --- 在uniform声明中未添加提示。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:77
+msgid "**TYPE_COLOR** = **1** --- 将\\ ``hint_albedo``\\ 作为提示添加到uniform声明中，以便将sRGB转换为线性。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:79
+msgid "**TYPE_NORMALMAP** = **2** --- 将\\ ``hint_normal``\\ 作为提示添加到uniform声明中，该声明在内部将纹理转换为法线贴图。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:82
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:86
+msgid ":ref:`Source<enum_VisualShaderNodeTexture_Source>` **source**"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:89
+#: ../classes/class_visualshadernodetexture.rst:119
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:91
+#: ../classes/class_visualshadernodetexture.rst:105
+#: ../classes/class_visualshadernodetexture.rst:121
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:91
+msgid "set_source(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:93
+#: ../classes/class_visualshadernodetexture.rst:107
+#: ../classes/class_visualshadernodetexture.rst:123
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:93
+msgid "get_source()"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:96
+msgid "确定查询的源。有关选项，请参阅 :ref:`Source<enum_VisualShaderNodeTexture_Source>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:102
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:105
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:107
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:110
+msgid "源纹理，如果需要的话，用于选定的\\ :ref:`source<class_VisualShaderNodeTexture_property_source>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:116
+msgid ":ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>` **texture_type**"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:121
+msgid "set_texture_type(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:123
+msgid "get_texture_type()"
+msgstr ""
+
+#: ../classes/class_visualshadernodetexture.rst:126
+msgid "如果\\ :ref:`source<class_VisualShaderNodeTexture_property_source>`\\ 被设置为\\ :ref:`SOURCE_TEXTURE<class_VisualShaderNodeTexture_constant_SOURCE_TEXTURE>`\\ ，则指定纹理的类型。有关选项，请参阅 :ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

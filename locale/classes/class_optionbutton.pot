@@ -1,0 +1,681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_optionbutton.rst:10
+msgid "OptionButton"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:14
+msgid "按下时提供可选选项的按钮控件。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:19
+msgid "OptionButton 是一种类型按钮，可在按下时提供可选择的项目列表。所选项目成为“当前”项目并显示为按钮文本。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:21
+msgid "另请参阅 :ref:`BaseButton<class_BaseButton>`\\ ，其中包含与此节点关联的通用属性和方法。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:27
+msgid ":ref:`ActionMode<enum_BaseButton_ActionMode>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:27
+msgid "action_mode"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:27
+msgid "``0`` (overrides :ref:`BaseButton<class_BaseButton_property_action_mode>`)"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:29
+msgid ":ref:`TextAlign<enum_Button_TextAlign>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:29
+msgid "align"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:29
+msgid "``0`` (overrides :ref:`Button<class_Button_property_align>`)"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:31
+#: ../classes/class_optionbutton.rst:48
+#: ../classes/class_optionbutton.rst:52
+#: ../classes/class_optionbutton.rst:54
+#: ../classes/class_optionbutton.rst:62
+#: ../classes/class_optionbutton.rst:97
+#: ../classes/class_optionbutton.rst:99
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:31
+msgid ":ref:`selected<class_OptionButton_property_selected>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:31
+#: ../classes/class_optionbutton.rst:141
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:33
+#: ../classes/class_optionbutton.rst:66
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:33
+msgid "toggle_mode"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:33
+msgid "``true`` (overrides :ref:`BaseButton<class_BaseButton_property_toggle_mode>`)"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:37
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:40
+#: ../classes/class_optionbutton.rst:42
+#: ../classes/class_optionbutton.rst:44
+#: ../classes/class_optionbutton.rst:46
+#: ../classes/class_optionbutton.rst:68
+#: ../classes/class_optionbutton.rst:70
+#: ../classes/class_optionbutton.rst:72
+#: ../classes/class_optionbutton.rst:74
+#: ../classes/class_optionbutton.rst:76
+#: ../classes/class_optionbutton.rst:78
+#: ../classes/class_optionbutton.rst:80
+msgid "void"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:40
+msgid ":ref:`add_icon_item<class_OptionButton_method_add_icon_item>` **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:42
+msgid ":ref:`add_item<class_OptionButton_method_add_item>` **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:44
+msgid ":ref:`add_separator<class_OptionButton_method_add_separator>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:46
+msgid ":ref:`clear<class_OptionButton_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:48
+msgid ":ref:`get_item_count<class_OptionButton_method_get_item_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:50
+#: ../classes/class_optionbutton.rst:103
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:50
+msgid ":ref:`get_item_icon<class_OptionButton_method_get_item_icon>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:52
+msgid ":ref:`get_item_id<class_OptionButton_method_get_item_id>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:54
+msgid ":ref:`get_item_index<class_OptionButton_method_get_item_index>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:56
+#: ../classes/class_optionbutton.rst:64
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:56
+msgid ":ref:`get_item_metadata<class_OptionButton_method_get_item_metadata>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:58
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:58
+msgid ":ref:`get_item_text<class_OptionButton_method_get_item_text>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:60
+msgid ":ref:`PopupMenu<class_PopupMenu>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:60
+msgid ":ref:`get_popup<class_OptionButton_method_get_popup>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:62
+msgid ":ref:`get_selected_id<class_OptionButton_method_get_selected_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:64
+msgid ":ref:`get_selected_metadata<class_OptionButton_method_get_selected_metadata>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:66
+msgid ":ref:`is_item_disabled<class_OptionButton_method_is_item_disabled>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:68
+msgid ":ref:`remove_item<class_OptionButton_method_remove_item>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:70
+msgid ":ref:`select<class_OptionButton_method_select>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:72
+msgid ":ref:`set_item_disabled<class_OptionButton_method_set_item_disabled>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:74
+msgid ":ref:`set_item_icon<class_OptionButton_method_set_item_icon>` **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:76
+msgid ":ref:`set_item_id<class_OptionButton_method_set_item_id>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:78
+msgid ":ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>` **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:80
+msgid ":ref:`set_item_text<class_OptionButton_method_set_item_text>` **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:84
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:87
+#: ../classes/class_optionbutton.rst:89
+#: ../classes/class_optionbutton.rst:91
+#: ../classes/class_optionbutton.rst:93
+#: ../classes/class_optionbutton.rst:95
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:87
+msgid ":ref:`font_color<class_OptionButton_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:87
+#: ../classes/class_optionbutton.rst:329
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:89
+msgid ":ref:`font_color_disabled<class_OptionButton_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:89
+#: ../classes/class_optionbutton.rst:341
+msgid "``Color( 0.9, 0.9, 0.9, 0.2 )``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:91
+msgid ":ref:`font_color_focus<class_OptionButton_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:91
+#: ../classes/class_optionbutton.rst:93
+#: ../classes/class_optionbutton.rst:353
+#: ../classes/class_optionbutton.rst:365
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:93
+msgid ":ref:`font_color_hover<class_OptionButton_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:95
+msgid ":ref:`font_color_pressed<class_OptionButton_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:95
+#: ../classes/class_optionbutton.rst:377
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:97
+msgid ":ref:`arrow_margin<class_OptionButton_theme_constant_arrow_margin>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:97
+#: ../classes/class_optionbutton.rst:99
+#: ../classes/class_optionbutton.rst:389
+#: ../classes/class_optionbutton.rst:401
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:99
+msgid ":ref:`hseparation<class_OptionButton_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:101
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:101
+msgid ":ref:`font<class_OptionButton_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:103
+msgid ":ref:`arrow<class_OptionButton_theme_icon_arrow>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:105
+#: ../classes/class_optionbutton.rst:107
+#: ../classes/class_optionbutton.rst:109
+#: ../classes/class_optionbutton.rst:111
+#: ../classes/class_optionbutton.rst:113
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:105
+msgid ":ref:`disabled<class_OptionButton_theme_style_disabled>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:107
+msgid ":ref:`focus<class_OptionButton_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:109
+msgid ":ref:`hover<class_OptionButton_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:111
+msgid ":ref:`normal<class_OptionButton_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:113
+msgid ":ref:`pressed<class_OptionButton_theme_style_pressed>`"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:117
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:121
+msgid "**item_focused** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:123
+msgid "当用户使用 ``ui_up`` 或 ``ui_down`` 操作导航到一个项目时发出。所选项目的索引作为参数传递。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:129
+msgid "**item_selected** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:131
+msgid "当用户更改当前项时触发。所选项目的索引作为参数传递。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:134
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:138
+msgid ":ref:`int<class_int>` **selected**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:141
+#: ../classes/class_optionbutton.rst:329
+#: ../classes/class_optionbutton.rst:341
+#: ../classes/class_optionbutton.rst:353
+#: ../classes/class_optionbutton.rst:365
+#: ../classes/class_optionbutton.rst:377
+#: ../classes/class_optionbutton.rst:389
+#: ../classes/class_optionbutton.rst:401
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:143
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:143
+msgid "get_selected()"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:146
+msgid "当前选定项的索引，如果没有选定项，则为\\ ``-1``\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:149
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:153
+msgid "void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:155
+msgid "添加一个项，带有\\ ``texture``\\ 图标，文本\\ ``label``\\ 和(可选的)\\ ``id``\\ 。如果没有传入\\ ``id``\\ ，该项的索引将被用作其id。新项将被添加至末尾。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:161
+msgid "void **add_item** **(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:163
+msgid "添加一个项，带有文本\\ ``label``\\ 和(可选的)\\ ``id``\\ 。如果没有传入\\ ``id``\\ ，该项的索引将被用作其id。新项将被添加至末尾。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:169
+msgid "void **add_separator** **(** **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:171
+msgid "将分隔符添加到项目列表中。分隔符有助于对项目进行分组。分隔符也占用索引，并被附加在末尾。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:177
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:179
+msgid "清除\\ ``OptionButton``\\ 中的所有项目。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:185
+msgid ":ref:`int<class_int>` **get_item_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:187
+msgid "返回OptionButton中的项目数量，包括分隔符。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:193
+msgid ":ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:195
+msgid "返回索引\\ ``idx``\\ 处项目的图标。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:201
+msgid ":ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:203
+msgid "返回索引\\ ``idx``\\ 处项目的ID。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:209
+msgid ":ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:211
+msgid "返回带有给定\\ ``id``\\ 的项的索引。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:217
+msgid ":ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:219
+msgid "检索项的元数据。元数据可以是任何类型，并可用于存储关于项的额外信息，如外部字符串ID。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:225
+msgid ":ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:227
+msgid "返回索引\\ ``idx``\\ 处项目的文本。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:233
+msgid ":ref:`PopupMenu<class_PopupMenu>` **get_popup** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:235
+msgid "返回这个按钮中包含的 :ref:`PopupMenu<class_PopupMenu>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:237
+msgid "\\ **警告：**\\ 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:243
+msgid ":ref:`int<class_int>` **get_selected_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:245
+msgid "返回所选项目的ID，如果没有选择项目，则返回\\ ``0``\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:251
+msgid ":ref:`Variant<class_Variant>` **get_selected_metadata** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:253
+msgid "获取选定项的元数据。可以使用\\ :ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>`\\ 设置项的元数据。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:259
+msgid ":ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:261
+msgid "如果索引\\ ``idx``\\ 项被禁用，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:267
+msgid "void **remove_item** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:269
+msgid "移除索引\\ ``idx``\\ 处的项目。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:275
+msgid "void **select** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:277
+msgid "按索引选择项并使其为当前选中项。即使该项是禁用的，这也将起作用。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:283
+msgid "void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:285
+msgid "设置是否禁用索引\\ ``idx``\\ 项。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:287
+msgid "禁用的项目在下拉列表中绘制的方式不同，用户无法选择。如果当前选定的项目被设置为禁用，它将保持选中状态。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:293
+msgid "void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:295
+msgid "设置在索引\\ ``idx``\\ 处项的图标。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:301
+msgid "void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:303
+msgid "设置在索引\\ ``idx``\\ 处项的ID。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:309
+msgid "void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:311
+msgid "设置项的元数据。元数据可以是任何类型，可以用来存储关于项目的额外信息，比如外部字符串ID。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:317
+msgid "void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:319
+msgid "在索引\\ ``idx``\\ 处设置项的文本。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:322
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:326
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:332
+msgid "``OptionButton``\\ 的默认文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:338
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:344
+msgid "当\\ ``OptionButton``\\ 被禁用时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:350
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:356
+msgid "当\\ ``OptionButton``\\ 获得焦点时使用的文本\\ :ref:`Color<class_Color>`\\ 。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:362
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:368
+msgid "当鼠标悬停\\ ``OptionButton``\\ 时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:374
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:380
+msgid "当\\ ``OptionButton``\\ 被按下时使用的文本\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:386
+msgid ":ref:`int<class_int>` **arrow_margin**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:392
+msgid "箭头图标和按钮的右边缘之间的水平空间。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:398
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:404
+msgid "``OptionButton``\\ 图标与文本之间的水平间距。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:410
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:412
+msgid "``OptionButton``\\ 的文本的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:418
+msgid ":ref:`Texture<class_Texture>` **arrow**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:420
+msgid "要绘制在按钮右侧的箭头图标。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:426
+msgid ":ref:`StyleBox<class_StyleBox>` **disabled**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:428
+msgid "当\\ ``OptionButton``\\ 被禁用时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:434
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:436
+msgid "当\\ ``OptionButton``\\ 被聚焦时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。它显示在当前的\\ :ref:`StyleBox<class_StyleBox>`\\ 上，所以使用\\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\\ 将只是禁用焦点的视觉效果。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:442
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:444
+msgid "当\\ ``OptionButton``\\ 被鼠标悬停时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:450
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:452
+msgid "``OptionButton``\\ 的默认\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:458
+msgid ":ref:`StyleBox<class_StyleBox>` **pressed**"
+msgstr ""
+
+#: ../classes/class_optionbutton.rst:460
+msgid "当按下\\ ``OptionButton``\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

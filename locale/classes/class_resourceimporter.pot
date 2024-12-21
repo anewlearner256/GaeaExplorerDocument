@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_resourceimporter.rst:10
+msgid "ResourceImporter"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:14
+msgid "**Inherited By:** :ref:`EditorImportPlugin<class_EditorImportPlugin>`"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:16
+msgid "用于实现核心资源导入器的基类。"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:21
+msgid "这是在核心部分实现的资源导入器的基类。要使用编辑器插件实现你自己的资源导入器，请参阅\\ :ref:`EditorImportPlugin<class_EditorImportPlugin>`\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:26
+msgid ":doc:`Import plugins <../tutorials/plugins/editor/import_plugins>`"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:29
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:37
+msgid "enum **ImportOrder**:"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:39
+msgid "**IMPORT_ORDER_DEFAULT** = **0** --- 默认导入顺序。"
+msgstr ""
+
+#: ../classes/class_resourceimporter.rst:41
+msgid "**IMPORT_ORDER_SCENE** = **100** --- 场景的导入顺序，确保场景被导入在所有其他核心资源（如纹理）\\ *之后*\\ 。自定义导入器的导入顺序一般应低于\\ ``100``\\ ，以避免导入依赖自定义资源的场景时出现问题。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

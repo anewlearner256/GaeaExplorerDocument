@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_cryptokey.rst:10
+msgid "CryptoKey"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:14
+msgid "加密密钥（RSA）。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:19
+msgid "CryptoKey类表示加密密钥。可以像其他任何\\ :ref:`Resource<class_Resource>`\\ 一样加载和保存键。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:21
+msgid "它们可用于通过\\ :ref:`Crypto.generate_self_signed_certificate<class_Crypto_method_generate_self_signed_certificate>`\\ 生成自签名\\ :ref:`X509Certificate<class_X509Certificate>`\\ ，并可作为\\ :ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>`\\ 中的私钥以及相应的证书。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:23
+msgid "\\ **注意：**\\ 在HTML5导出中不可用。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:29
+msgid ":ref:`is_public_only<class_CryptoKey_method_is_public_only>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:31
+#: ../classes/class_cryptokey.rst:33
+#: ../classes/class_cryptokey.rst:35
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:31
+msgid ":ref:`load<class_CryptoKey_method_load>` **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:33
+msgid ":ref:`load_from_string<class_CryptoKey_method_load_from_string>` **(** :ref:`String<class_String>` string_key, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:35
+msgid ":ref:`save<class_CryptoKey_method_save>` **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:37
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:37
+msgid ":ref:`save_to_string<class_CryptoKey_method_save_to_string>` **(** :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:41
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:45
+msgid ":ref:`bool<class_bool>` **is_public_only** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:47
+msgid "如果此CryptoKey仅具有公共部分，而没有私有部分，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:53
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:55
+msgid "从\\ ``path``\\ 加载一个密钥。如果\\ ``public_only``\\ 是\\ ``true``\\ ，将只加载公钥。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:57
+msgid "\\ **注意：**\\ 如果 ``public_only`` 为 ``true``\\ ，则 ``path`` 应该是一个“\\*.pub”文件，否则是“\\*.key”文件。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:63
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_from_string** **(** :ref:`String<class_String>` string_key, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:65
+msgid "从给定的\\ ``string``\\ 加载密钥。如果\\ ``public_only``\\ 为\\ ``true``\\ ，则仅会加载公共密钥。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:71
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:73
+msgid "将密钥保存到给定的 ``path``\\ 。如果 ``public_only`` 为 ``true``\\ ，则只会保存公钥。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:75
+msgid "\\ **注意：**\\ 如果\\ ``public_only``\\ 是\\ ``true``\\ ，则\\ ``path``\\ 应该是一个\"\\*.pub\"文件，否则是\"\\*.key\"文件。"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:81
+msgid ":ref:`String<class_String>` **save_to_string** **(** :ref:`bool<class_bool>` public_only=false **)**"
+msgstr ""
+
+#: ../classes/class_cryptokey.rst:83
+msgid "返回包含PEM格式的密钥的字符串。如果\\ ``public_only``\\ 为\\ ``true``\\ ，则仅包含公共密钥。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

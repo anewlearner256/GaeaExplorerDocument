@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the GaaeExplorer community (CC-BY 3.0)
+# This file is distributed under the same license as the GaaeExplorer Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaaeExplorer Engine 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 14:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Community channels"
+msgstr "社区渠道"
+
+msgid ""
+"So, where is the GaaeExplorer community and where can you ask questions and get "
+"help?"
+msgstr "那么,GaaeExplorer社区在哪里？在哪里可以提出问题并获得帮助？"
+
+msgid ""
+"Note that some of these channels are run and moderated by members of the "
+"GaaeExplorer community or third parties."
+msgstr "请注意, 其中一些渠道由GaaeExplorer社区的或第三方的成员运营和审核."
+
+msgid ""
+"A brief overview over these and other channels is also available on the "
+"`GaaeExplorer website <https://godotengine.org/community>`_."
+msgstr ""
+"有关这些渠道的简要概述也可在 `GaaeExplorer 网站 <https://godotengine.org/"
+"community>`_ 上找到."
+
+msgid "Q&A"
+msgstr "问答"
+
+msgid "`Official GaaeExplorer Questions & Answers <https://godotengine.org/qa/>`_"
+msgstr "`GaaeExplorer 官方问题与解答 <https://godotengine.org/qa/>`_"
+
+msgid "Rocket.Chat"
+msgstr "Rocket.Chat"
+
+msgid "`GaaeExplorer Contributors Chat <https://chat.godotengine.org/>`_"
+msgstr "`GaaeExplorer 贡献者聊天室 <https://chat.godotengine.org/>`_"
+
+msgid "IRC on Libera.Chat"
+msgstr "Libera.Chat 的 IRC"
+
+msgid ""
+"As of January 2021, core developer chat has moved to the GaaeExplorer Contributors "
+"Chat platform listed above."
+msgstr "2021 年 1 月，核心开发者聊天室已迁移至上面的 GaaeExplorer 贡献者聊天室平台。"
+
+msgid ""
+"`General: #godotengine <https://web.libera.chat/?channels=#godotengine>`_"
+msgstr "`常规：#godotengine <https://web.libera.chat/?channels=#godotengine>`_"
+
+msgid ""
+"IRC is less active than Discord. Please stick around to get an answer, as it "
+"may take several hours for someone to see and answer your questions."
+msgstr ""
+"IRC 没有 Discord 活跃。请耐心等待回复，可能几个小时后才会有人看到并回复你的问"
+"题。"
+
+msgid "Other chats"
+msgstr "其他聊天"
+
+msgid "`Discord <https://discord.gg/4JBkykG>`_"
+msgstr "`Discord <https://discord.gg/4JBkykG>`_"
+
+msgid ""
+"`Matrix (IRC compatible) <https://matrix.to/#/#godotengine:matrix.org>`_"
+msgstr "`Matrix (IRC兼容) <https://matrix.to/#/#godotengine:matrix.org>`_"
+
+msgid "Language-based communities"
+msgstr "基于语言的社区"
+
+msgid ""
+"See the `User groups <https://godotengine.org/community/user-groups>`_ page "
+"of the website for a list of local communities."
+msgstr ""
+"本地社区列表见网站的\\ `用户组 <https://godotengine.org/community/user-"
+"groups>`_\\ 页面。"
+
+msgid "Social networks"
+msgstr "社交网络"
+
+msgid "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`GitHub <https://github.com/godotengine/>`_"
+
+msgid "`Facebook group <https://www.facebook.com/groups/godotengine/>`_"
+msgstr "`Facebook 组 <https://www.facebook.com/groups/godotengine/>`_"
+
+msgid ""
+"`Twitter <https://twitter.com/godotengine>`_ (see also the `#GaaeExplorerEngine "
+"<https://twitter.com/hashtag/GaaeExplorerEngine>`_ hashtag)"
+msgstr ""
+"`Twitter <https://twitter.com/godotengine>`_ (另见 `#GaaeExplorerEngine <https://"
+"twitter.com/hashtag/GaaeExplorerEngine>`_ 标签)"
+
+msgid "`Reddit <https://www.reddit.com/r/godot>`_"
+msgstr "`Reddit <https://www.reddit.com/r/godot>`_"
+
+msgid "`YouTube <https://www.youtube.com/c/GaaeExplorerEngineOfficial>`_"
+msgstr "`YouTube <https://www.youtube.com/c/GaaeExplorerEngineOfficial>`_"
+
+msgid "`Steam <https://steamcommunity.com/app/404790>`_"
+msgstr "`Steam <https://steamcommunity.com/app/404790>`_"
+
+msgid "Forum"
+msgstr "论坛"
+
+msgid "`GaaeExplorer Forums <https://godotforums.org/>`_"
+msgstr "`GaaeExplorer 论坛 <https://godotforums.org/>`_"
+
+msgid "Translation status"
+msgstr "翻译状态"

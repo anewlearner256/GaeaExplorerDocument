@@ -1,0 +1,770 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_camera.rst:10
+msgid "Camera"
+msgstr ""
+
+#: ../classes/class_camera.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:14
+msgid "**Inherited By:** :ref:`ARVRCamera<class_ARVRCamera>`, :ref:`ClippedCamera<class_ClippedCamera>`, :ref:`InterpolatedCamera<class_InterpolatedCamera>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:16
+msgid "相机节点，会从某个角度进行显示。"
+msgstr ""
+
+#: ../classes/class_camera.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_camera.rst:21
+msgid "相机是一个特殊节点，用于显示从其当前位置可见的内容。相机在最近的 :ref:`Viewport<class_Viewport>` 节点中注册自己（当树上行）。每个视窗只能激活一个相机。如果在树上没有可用的视窗，相机将在全局视窗中注册。换句话说，相机只是为 :ref:`Viewport<class_Viewport>` 提供3D显示能力，如果没有，则无法显示在该 :ref:`Viewport<class_Viewport>` 或更高视窗中注册的场景。"
+msgstr ""
+
+#: ../classes/class_camera.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_camera.rst:26
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_camera.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_camera.rst:32
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:32
+msgid ":ref:`cull_mask<class_Camera_property_cull_mask>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:32
+#: ../classes/class_camera.rst:155
+msgid "``1048575``"
+msgstr ""
+
+#: ../classes/class_camera.rst:34
+#: ../classes/class_camera.rst:69
+#: ../classes/class_camera.rst:73
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:34
+msgid ":ref:`current<class_Camera_property_current>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:34
+#: ../classes/class_camera.rst:171
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_camera.rst:36
+msgid ":ref:`DopplerTracking<enum_Camera_DopplerTracking>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:36
+msgid ":ref:`doppler_tracking<class_Camera_property_doppler_tracking>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:36
+#: ../classes/class_camera.rst:52
+#: ../classes/class_camera.rst:187
+#: ../classes/class_camera.rst:325
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_camera.rst:38
+msgid ":ref:`Environment<class_Environment>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:38
+msgid ":ref:`environment<class_Camera_property_environment>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:40
+#: ../classes/class_camera.rst:42
+#: ../classes/class_camera.rst:46
+#: ../classes/class_camera.rst:50
+#: ../classes/class_camera.rst:54
+#: ../classes/class_camera.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:40
+msgid ":ref:`far<class_Camera_property_far>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:40
+#: ../classes/class_camera.rst:219
+msgid "``100.0``"
+msgstr ""
+
+#: ../classes/class_camera.rst:42
+msgid ":ref:`fov<class_Camera_property_fov>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:42
+#: ../classes/class_camera.rst:235
+msgid "``70.0``"
+msgstr ""
+
+#: ../classes/class_camera.rst:44
+#: ../classes/class_camera.rst:93
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:44
+msgid ":ref:`frustum_offset<class_Camera_property_frustum_offset>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:44
+#: ../classes/class_camera.rst:261
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_camera.rst:46
+msgid ":ref:`h_offset<class_Camera_property_h_offset>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:46
+#: ../classes/class_camera.rst:56
+#: ../classes/class_camera.rst:277
+#: ../classes/class_camera.rst:357
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_camera.rst:48
+msgid ":ref:`KeepAspect<enum_Camera_KeepAspect>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:48
+msgid ":ref:`keep_aspect<class_Camera_property_keep_aspect>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:48
+#: ../classes/class_camera.rst:293
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_camera.rst:50
+msgid ":ref:`near<class_Camera_property_near>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:50
+#: ../classes/class_camera.rst:309
+msgid "``0.05``"
+msgstr ""
+
+#: ../classes/class_camera.rst:52
+msgid ":ref:`Projection<enum_Camera_Projection>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:52
+msgid ":ref:`projection<class_Camera_property_projection>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:54
+msgid ":ref:`size<class_Camera_property_size>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:54
+#: ../classes/class_camera.rst:341
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_camera.rst:56
+msgid ":ref:`v_offset<class_Camera_property_v_offset>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_camera.rst:63
+#: ../classes/class_camera.rst:75
+#: ../classes/class_camera.rst:85
+#: ../classes/class_camera.rst:87
+#: ../classes/class_camera.rst:89
+#: ../classes/class_camera.rst:91
+msgid "void"
+msgstr ""
+
+#: ../classes/class_camera.rst:63
+msgid ":ref:`clear_current<class_Camera_method_clear_current>` **(** :ref:`bool<class_bool>` enable_next=true **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:65
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:65
+msgid ":ref:`get_camera_rid<class_Camera_method_get_camera_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:67
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:67
+msgid ":ref:`get_camera_transform<class_Camera_method_get_camera_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:69
+msgid ":ref:`get_cull_mask_bit<class_Camera_method_get_cull_mask_bit>` **(** :ref:`int<class_int>` layer **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:71
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:71
+msgid ":ref:`get_frustum<class_Camera_method_get_frustum>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:73
+msgid ":ref:`is_position_behind<class_Camera_method_is_position_behind>` **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:75
+msgid ":ref:`make_current<class_Camera_method_make_current>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:77
+#: ../classes/class_camera.rst:79
+#: ../classes/class_camera.rst:81
+#: ../classes/class_camera.rst:83
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_camera.rst:77
+msgid ":ref:`project_local_ray_normal<class_Camera_method_project_local_ray_normal>` **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:79
+msgid ":ref:`project_position<class_Camera_method_project_position>` **(** :ref:`Vector2<class_Vector2>` screen_point, :ref:`float<class_float>` z_depth **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:81
+msgid ":ref:`project_ray_normal<class_Camera_method_project_ray_normal>` **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:83
+msgid ":ref:`project_ray_origin<class_Camera_method_project_ray_origin>` **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:85
+msgid ":ref:`set_cull_mask_bit<class_Camera_method_set_cull_mask_bit>` **(** :ref:`int<class_int>` layer, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:87
+msgid ":ref:`set_frustum<class_Camera_method_set_frustum>` **(** :ref:`float<class_float>` size, :ref:`Vector2<class_Vector2>` offset, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:89
+msgid ":ref:`set_orthogonal<class_Camera_method_set_orthogonal>` **(** :ref:`float<class_float>` size, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:91
+msgid ":ref:`set_perspective<class_Camera_method_set_perspective>` **(** :ref:`float<class_float>` fov, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:93
+msgid ":ref:`unproject_position<class_Camera_method_unproject_position>` **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:97
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_camera.rst:107
+msgid "enum **Projection**:"
+msgstr ""
+
+#: ../classes/class_camera.rst:109
+msgid "**PROJECTION_PERSPECTIVE** = **0** --- 透视投影。物体距离相机屏幕越远显示就越小。"
+msgstr ""
+
+#: ../classes/class_camera.rst:111
+msgid "**PROJECTION_ORTHOGONAL** = **1** --- 正交投影，又称正交投影。物体无论距离多远，在屏幕上都保持相同的大小。"
+msgstr ""
+
+#: ../classes/class_camera.rst:113
+msgid "**PROJECTION_FRUSTUM** = **2** --- Frustum投影。通过该模式可以调整\\ :ref:`frustum_offset<class_Camera_property_frustum_offset>`\\ 来创建 \"tilted frustum \"效果。"
+msgstr ""
+
+#: ../classes/class_camera.rst:123
+msgid "enum **KeepAspect**:"
+msgstr ""
+
+#: ../classes/class_camera.rst:125
+msgid "**KEEP_WIDTH** = **0** --- 保留水平长宽比，也称为Vert-缩放。这通常是在纵向模式下运行的项目的最佳选择，因为较高的纵横比将从更宽的垂直视场中受益。"
+msgstr ""
+
+#: ../classes/class_camera.rst:127
+msgid "**KEEP_HEIGHT** = **1** --- 保留垂直长宽比，也称为 Hor+ 缩放。这通常是在横向模式下运行的项目的最佳选择，因为较宽的纵横比会自动从较宽的水平视场中受益。"
+msgstr ""
+
+#: ../classes/class_camera.rst:139
+msgid "enum **DopplerTracking**:"
+msgstr ""
+
+#: ../classes/class_camera.rst:141
+msgid "**DOPPLER_TRACKING_DISABLED** = **0** --- 禁用\\ `多普勒效应 <https://en.wikipedia.org/wiki/Doppler_effect>`__\\ 模拟（默认）。"
+msgstr ""
+
+#: ../classes/class_camera.rst:143
+msgid "**DOPPLER_TRACKING_IDLE_STEP** = **1** --- Simulate `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ by tracking positions of objects that are changed in ``_process``. Changes in the relative velocity of this camera compared to those objects affect how audio is perceived (changing the audio's :ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`)."
+msgstr ""
+
+#: ../classes/class_camera.rst:145
+msgid "**DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- Simulate `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ by tracking positions of objects that are changed in ``_physics_process``. Changes in the relative velocity of this camera compared to those objects affect how audio is perceived (changing the audio's :ref:`AudioStreamPlayer3D.pitch_scale<class_AudioStreamPlayer3D_property_pitch_scale>`)."
+msgstr ""
+
+#: ../classes/class_camera.rst:148
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_camera.rst:152
+msgid ":ref:`int<class_int>` **cull_mask**"
+msgstr ""
+
+#: ../classes/class_camera.rst:155
+#: ../classes/class_camera.rst:171
+#: ../classes/class_camera.rst:187
+#: ../classes/class_camera.rst:219
+#: ../classes/class_camera.rst:235
+#: ../classes/class_camera.rst:261
+#: ../classes/class_camera.rst:277
+#: ../classes/class_camera.rst:293
+#: ../classes/class_camera.rst:309
+#: ../classes/class_camera.rst:325
+#: ../classes/class_camera.rst:341
+#: ../classes/class_camera.rst:357
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_camera.rst:157
+#: ../classes/class_camera.rst:173
+#: ../classes/class_camera.rst:189
+#: ../classes/class_camera.rst:205
+#: ../classes/class_camera.rst:221
+#: ../classes/class_camera.rst:237
+#: ../classes/class_camera.rst:263
+#: ../classes/class_camera.rst:279
+#: ../classes/class_camera.rst:295
+#: ../classes/class_camera.rst:311
+#: ../classes/class_camera.rst:327
+#: ../classes/class_camera.rst:343
+#: ../classes/class_camera.rst:359
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_camera.rst:157
+msgid "set_cull_mask(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:159
+#: ../classes/class_camera.rst:175
+#: ../classes/class_camera.rst:191
+#: ../classes/class_camera.rst:207
+#: ../classes/class_camera.rst:223
+#: ../classes/class_camera.rst:239
+#: ../classes/class_camera.rst:265
+#: ../classes/class_camera.rst:281
+#: ../classes/class_camera.rst:297
+#: ../classes/class_camera.rst:313
+#: ../classes/class_camera.rst:329
+#: ../classes/class_camera.rst:345
+#: ../classes/class_camera.rst:361
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_camera.rst:159
+msgid "get_cull_mask()"
+msgstr ""
+
+#: ../classes/class_camera.rst:162
+msgid "描述此相机渲染哪些 3D 渲染层的剔除掩码。"
+msgstr ""
+
+#: ../classes/class_camera.rst:168
+msgid ":ref:`bool<class_bool>` **current**"
+msgstr ""
+
+#: ../classes/class_camera.rst:173
+msgid "set_current(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:175
+msgid "is_current()"
+msgstr ""
+
+#: ../classes/class_camera.rst:178
+msgid "如果\\ ``true``\\ ，则说明祖级的\\ :ref:`Viewport<class_Viewport>`\\ 当前正在使用这个摄像头。"
+msgstr ""
+
+#: ../classes/class_camera.rst:184
+msgid ":ref:`DopplerTracking<enum_Camera_DopplerTracking>` **doppler_tracking**"
+msgstr ""
+
+#: ../classes/class_camera.rst:189
+msgid "set_doppler_tracking(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:191
+msgid "get_doppler_tracking()"
+msgstr ""
+
+#: ../classes/class_camera.rst:194
+msgid "如果不是\\ :ref:`DOPPLER_TRACKING_DISABLED<class_Camera_constant_DOPPLER_TRACKING_DISABLED>`\\ ，此相机将模拟\\ `多普勒效果 <https://en.wikipedia.org/wiki/Doppler_effect>`__\\ 的对象在特定\\ ``_process``\\ 方法中的变化。多普勒效果只对\\ :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>`\\ 设置为\\ :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`\\ 以外的值的\\ :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\\ 节点进行模拟。"
+msgstr ""
+
+#: ../classes/class_camera.rst:196
+msgid "\\ **注意：**\\ 要在编辑器中切换多普勒效果预览，使用三维视窗左上角的透视菜单，并切换为\\ **启用多普勒**\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:202
+msgid ":ref:`Environment<class_Environment>` **environment**"
+msgstr ""
+
+#: ../classes/class_camera.rst:205
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:207
+msgid "get_environment()"
+msgstr ""
+
+#: ../classes/class_camera.rst:210
+msgid "此相机要使用的\\ :ref:`Environment<class_Environment>`\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:216
+msgid ":ref:`float<class_float>` **far**"
+msgstr ""
+
+#: ../classes/class_camera.rst:221
+msgid "set_zfar(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:223
+msgid "get_zfar()"
+msgstr ""
+
+#: ../classes/class_camera.rst:226
+msgid "该相机相对于其本地Z轴的远裁边界的距离。"
+msgstr ""
+
+#: ../classes/class_camera.rst:232
+msgid ":ref:`float<class_float>` **fov**"
+msgstr ""
+
+#: ../classes/class_camera.rst:237
+msgid "set_fov(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:239
+msgid "get_fov()"
+msgstr ""
+
+#: ../classes/class_camera.rst:242
+msgid "相机的视野角度，以度为单位。仅适用于透视模式。由于 :ref:`keep_aspect<class_Camera_property_keep_aspect>` 锁定一个轴，因此 ``fov`` 设置另一个轴的视角。"
+msgstr ""
+
+#: ../classes/class_camera.rst:244
+msgid "作为参考，默认的垂直视野值 (``70.0``) 等效于以下水平 FOV："
+msgstr ""
+
+#: ../classes/class_camera.rst:246
+msgid "在 4:3 视窗中约86.07 度"
+msgstr ""
+
+#: ../classes/class_camera.rst:248
+msgid "在 16:10 视窗中约 96.50 度"
+msgstr ""
+
+#: ../classes/class_camera.rst:250
+msgid "在 16:9 视窗中约102.45 度"
+msgstr ""
+
+#: ../classes/class_camera.rst:252
+msgid "在 21:9 视窗中约117.06 度"
+msgstr ""
+
+#: ../classes/class_camera.rst:258
+msgid ":ref:`Vector2<class_Vector2>` **frustum_offset**"
+msgstr ""
+
+#: ../classes/class_camera.rst:263
+msgid "set_frustum_offset(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:265
+msgid "get_frustum_offset()"
+msgstr ""
+
+#: ../classes/class_camera.rst:268
+msgid "相机的机身偏移。可以更改默认值，以创建 \"倾斜frustum \"效果，如\\ `Y-shearing <https://zdoom.org/wiki/Y-shearing>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:274
+msgid ":ref:`float<class_float>` **h_offset**"
+msgstr ""
+
+#: ../classes/class_camera.rst:279
+msgid "set_h_offset(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:281
+msgid "get_h_offset()"
+msgstr ""
+
+#: ../classes/class_camera.rst:284
+msgid "相机视窗的水平（X）偏移量。"
+msgstr ""
+
+#: ../classes/class_camera.rst:290
+msgid ":ref:`KeepAspect<enum_Camera_KeepAspect>` **keep_aspect**"
+msgstr ""
+
+#: ../classes/class_camera.rst:295
+msgid "set_keep_aspect_mode(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:297
+msgid "get_keep_aspect_mode()"
+msgstr ""
+
+#: ../classes/class_camera.rst:300
+msgid "在\\ :ref:`fov<class_Camera_property_fov>`/:ref:`size<class_Camera_property_size>`\\ 调整时要锁定的轴。可以是\\ :ref:`KEEP_WIDTH<class_Camera_constant_KEEP_WIDTH>`\\ 或\\ :ref:`KEEP_HEIGHT<class_Camera_constant_KEEP_HEIGHT>`\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:306
+msgid ":ref:`float<class_float>` **near**"
+msgstr ""
+
+#: ../classes/class_camera.rst:311
+msgid "set_znear(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:313
+msgid "get_znear()"
+msgstr ""
+
+#: ../classes/class_camera.rst:316
+msgid "该相机相对于其本地Z轴到近裁边界的距离。"
+msgstr ""
+
+#: ../classes/class_camera.rst:322
+msgid ":ref:`Projection<enum_Camera_Projection>` **projection**"
+msgstr ""
+
+#: ../classes/class_camera.rst:327
+msgid "set_projection(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:329
+msgid "get_projection()"
+msgstr ""
+
+#: ../classes/class_camera.rst:332
+msgid "相机的投影模式。在\\ :ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`\\ 模式下，物体与相机局部空间的Z距离会影响其感知的大小。"
+msgstr ""
+
+#: ../classes/class_camera.rst:338
+msgid ":ref:`float<class_float>` **size**"
+msgstr ""
+
+#: ../classes/class_camera.rst:343
+msgid "set_size(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:345
+msgid "get_size()"
+msgstr ""
+
+#: ../classes/class_camera.rst:348
+msgid "相机的尺寸，以1/2的宽度或高度测量。仅适用于正交模式。由于\\ :ref:`keep_aspect<class_Camera_property_keep_aspect>`\\ 锁定在轴上，因此\\ ``size``\\ 设置其他轴的尺寸长度。"
+msgstr ""
+
+#: ../classes/class_camera.rst:354
+msgid ":ref:`float<class_float>` **v_offset**"
+msgstr ""
+
+#: ../classes/class_camera.rst:359
+msgid "set_v_offset(value)"
+msgstr ""
+
+#: ../classes/class_camera.rst:361
+msgid "get_v_offset()"
+msgstr ""
+
+#: ../classes/class_camera.rst:364
+msgid "相机视窗的垂直（Y）偏移量。"
+msgstr ""
+
+#: ../classes/class_camera.rst:367
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_camera.rst:371
+msgid "void **clear_current** **(** :ref:`bool<class_bool>` enable_next=true **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:373
+msgid "如果这是当前相机，则将其从当前相机中移除。如果\\ ``enable_next``\\ 是\\ ``true``\\ ，请求使下一个相机成为当前相机（如果有）。"
+msgstr ""
+
+#: ../classes/class_camera.rst:379
+msgid ":ref:`RID<class_RID>` **get_camera_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:381
+msgid "从 :ref:`VisualServer<class_VisualServer>` 返回相机的 RID。"
+msgstr ""
+
+#: ../classes/class_camera.rst:387
+msgid ":ref:`Transform<class_Transform>` **get_camera_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:389
+msgid "返回相机的变换加上垂直\\ :ref:`v_offset<class_Camera_property_v_offset>`\\ 和水平\\ :ref:`h_offset<class_Camera_property_h_offset>`\\ 的偏移量；以及由子类相机如\\ :ref:`ClippedCamera<class_ClippedCamera>`\\ 、\\ :ref:`InterpolatedCamera<class_InterpolatedCamera>`\\ 和\\ :ref:`ARVRCamera<class_ARVRCamera>`\\ 对相机的位置和方向做出的任何其他调整。"
+msgstr ""
+
+#: ../classes/class_camera.rst:395
+msgid ":ref:`bool<class_bool>` **get_cull_mask_bit** **(** :ref:`int<class_int>` layer **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:397
+msgid "如果\\ :ref:`cull_mask<class_Camera_property_cull_mask>`\\ 中给定的\\ ``layer``\\ 被启用，返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:403
+msgid ":ref:`Array<class_Array>` **get_frustum** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:405
+msgid "以世界空间单位将相机的视锥平面作为 :ref:`Plane<class_Plane>` 数组按以下顺序返回：near、far、left、top、right、bottom。不要与 :ref:`frustum_offset<class_Camera_property_frustum_offset>` 混淆。"
+msgstr ""
+
+#: ../classes/class_camera.rst:411
+msgid ":ref:`bool<class_bool>` **is_position_behind** **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:413
+msgid "如果给定的位置在相机后面，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:415
+msgid "\\ **注意：** 返回\\ ``false``\\ 的位置可能仍然在相机的视野之外。"
+msgstr ""
+
+#: ../classes/class_camera.rst:421
+msgid "void **make_current** **(** **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:423
+msgid "使此相机成为\\ :ref:`Viewport<class_Viewport>`\\ 的当前相机（见类的说明）。如果相机节点在场景树之外，一旦添加，它将尝试成为当前相机。"
+msgstr ""
+
+#: ../classes/class_camera.rst:429
+msgid ":ref:`Vector3<class_Vector3>` **project_local_ray_normal** **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:431
+msgid "返回从屏幕点位置沿相机方向的法向量。正交相机会被归一化。透视相机考虑到透视、屏幕宽度/高度等因素。"
+msgstr ""
+
+#: ../classes/class_camera.rst:437
+msgid ":ref:`Vector3<class_Vector3>` **project_position** **(** :ref:`Vector2<class_Vector2>` screen_point, :ref:`float<class_float>` z_depth **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:439
+msgid "返回世界空间中的 3D 点，该点映射到平面上 :ref:`Viewport<class_Viewport>` 矩形中的给定 2D 坐标，该平面距离相机的场景为给定的 ``z_depth`` 距离。"
+msgstr ""
+
+#: ../classes/class_camera.rst:445
+msgid ":ref:`Vector3<class_Vector3>` **project_ray_normal** **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:447
+msgid "返回世界空间中的法线向量，即相机投影在\\ :ref:`Viewport<class_Viewport>`\\ 矩形上投影一个点的结果。这对于以原点、法线，投射光线形式用于对象相交或拾取很有用。"
+msgstr ""
+
+#: ../classes/class_camera.rst:453
+msgid ":ref:`Vector3<class_Vector3>` **project_ray_origin** **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:455
+msgid "返回世界空间中的 3D 坐标，即相机投影在 :ref:`Viewport<class_Viewport>` 矩形上投影一个点的结果。这对于以原点、法线，投射光线形式用于对象相交或拾取很有用。"
+msgstr ""
+
+#: ../classes/class_camera.rst:461
+msgid "void **set_cull_mask_bit** **(** :ref:`int<class_int>` layer, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:463
+msgid "启用或禁用\\ :ref:`cull_mask<class_Camera_property_cull_mask>`\\ 中给定的\\ ``layer``\\ 。"
+msgstr ""
+
+#: ../classes/class_camera.rst:469
+msgid "void **set_frustum** **(** :ref:`float<class_float>` size, :ref:`Vector2<class_Vector2>` offset, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:471
+msgid "通过指定大小 ``size`` 、偏移量 ``offset`` 以及以世界空间为单位的 ``z_near`` 和 ``z_far`` 裁剪平面，将相机投影设置为视锥模式（请参阅 :ref:`PROJECTION_FRUSTUM<class_Camera_constant_PROJECTION_FRUSTUM>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_camera.rst:477
+msgid "void **set_orthogonal** **(** :ref:`float<class_float>` size, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:479
+msgid "通过在世界空间单位中指定 ``size`` 和 ``z_near`` 和 ``z_far`` 剪裁平面，将相机投影设置为正交模式，请参阅 :ref:`PROJECTION_ORTHOGONAL<class_Camera_constant_PROJECTION_ORTHOGONAL>`\\ 。 （提示：2D 游戏经常使用这种投影，以像素为单位指定值。）"
+msgstr ""
+
+#: ../classes/class_camera.rst:485
+msgid "void **set_perspective** **(** :ref:`float<class_float>` fov, :ref:`float<class_float>` z_near, :ref:`float<class_float>` z_far **)**"
+msgstr ""
+
+#: ../classes/class_camera.rst:487
+msgid "将摄像机的投影设置为透视模式，参阅\\ :ref:`PROJECTION_PERSPECTIVE<class_Camera_constant_PROJECTION_PERSPECTIVE>`\\ ），指定\\ ``fov`` 视野角度，单位度，以及世界空间单位的\\ ``z_near``\\ 和\\ ``z_far``\\ 裁剪平面。"
+msgstr ""
+
+#: ../classes/class_camera.rst:493
+msgid ":ref:`Vector2<class_Vector2>` **unproject_position** **(** :ref:`Vector3<class_Vector3>` world_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_camera.rst:495
+msgid "返回\\ :ref:`Viewport<class_Viewport>`\\ 矩形中的2D坐标，该坐标映射到世界空间中给定的3D点。"
+msgstr ""
+
+#: ../classes/class_camera.rst:497
+msgid "\\ **注意：**\\ 当使用它来定位3D视窗上的GUI元素时，如果3D点在相机后面，请使用\\ :ref:`is_position_behind<class_Camera_method_is_position_behind>`\\ 来防止它们显示。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

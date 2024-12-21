@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_roomgroup.rst:10
+msgid "RoomGroup"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:14
+msgid "将 :ref:`Room<class_Room>` 组合在一起以实现通用功能。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:19
+msgid "尽管可以单独指定 :ref:`Room<class_Room>` 行为，但有时为一组空间编写功能会更快更方便。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:21
+msgid "\\ ``RoomGroup`` 应作为\\ **空间列表**\\ （您的 :ref:`Room<class_Room>` 的父 :ref:`Node<class_Node>`\\ ）的子项而设置，而 :ref:`Room<class_Room>` 应作为 ``RoomGroup`` 的子项依次设置以便将它们分配给 RoomGroup。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:23
+msgid "例如，\\ ``RoomGroup`` 可用于指定\\ **处于外部**\\ 的 :ref:`Room<class_Room>`\\ ，并在玩家进入/退出该区域时打开或关闭定向光、天空或雨效果。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:25
+msgid "当 ``gameplay_monitor`` 开启时，\\ ``RoomGroup`` 收到\\ **游戏回调**\\ ，在他们进入和退出\\ **游戏区域**\\ 时，以\\ ``信号``\\ 或\\ ``通知``\\ 的形式（详见 :ref:`RoomManager<class_RoomManager>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:28
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:31
+msgid ":ref:`roomgroup_priority<class_RoomGroup_property_roomgroup_priority>`"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:31
+#: ../classes/class_roomgroup.rst:42
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:35
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:39
+msgid ":ref:`int<class_int>` **roomgroup_priority**"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:42
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:44
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:44
+msgid "set_roomgroup_priority(value)"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:46
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:46
+msgid "get_roomgroup_priority()"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:49
+msgid "此优先级将应用于组内的 :ref:`Room<class_Room>`\\ 。可以使用 :ref:`Room<class_Room>` 优先级来制作\\ **内部房间**\\ ，即位于房间\\ *内*\\ 的另一个房间或多个房间。"
+msgstr ""
+
+#: ../classes/class_roomgroup.rst:51
+msgid "当 :ref:`Camera<class_Camera>` 位于多个（常规和内部）房间内时，优先级较高的房间将优先处理。因此，例如，在地形“房间”内的房屋，您可以使房屋具有更高的优先级，以便当相机在房屋内时，房屋用作源空间，但在房屋外，将改为使用地形房间。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

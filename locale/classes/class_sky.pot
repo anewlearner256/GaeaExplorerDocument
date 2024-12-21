@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_sky.rst:10
+msgid "Sky"
+msgstr ""
+
+#: ../classes/class_sky.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_sky.rst:14
+msgid "**Inherited By:** :ref:`PanoramaSky<class_PanoramaSky>`, :ref:`ProceduralSky<class_ProceduralSky>`"
+msgstr ""
+
+#: ../classes/class_sky.rst:16
+#: ../classes/class_sky.rst:21
+msgid ":ref:`PanoramaSky<class_PanoramaSky>` 和 :ref:`ProceduralSky<class_ProceduralSky>` 的基类。"
+msgstr ""
+
+#: ../classes/class_sky.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_sky.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_sky.rst:27
+msgid ":ref:`RadianceSize<enum_Sky_RadianceSize>`"
+msgstr ""
+
+#: ../classes/class_sky.rst:27
+msgid ":ref:`radiance_size<class_Sky_property_radiance_size>`"
+msgstr ""
+
+#: ../classes/class_sky.rst:27
+#: ../classes/class_sky.rst:81
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_sky.rst:31
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_sky.rst:51
+msgid "enum **RadianceSize**:"
+msgstr ""
+
+#: ../classes/class_sky.rst:53
+msgid "**RADIANCE_SIZE_32** = **0** --- 辐照度纹理尺寸为 32×32 像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:55
+msgid "**RADIANCE_SIZE_64** = **1** --- 辐照度纹理尺寸为 64×64 像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:57
+msgid "**RADIANCE_SIZE_128** = **2** --- 辐照度纹理尺寸为128×128像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:59
+msgid "**RADIANCE_SIZE_256** = **3** --- 辐照度纹理大小为 256×256 像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:61
+msgid "**RADIANCE_SIZE_512** = **4** --- 辐照度纹理大小为 512×512 像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:63
+msgid "**RADIANCE_SIZE_1024** = **5** --- 辐射纹理尺寸为1024×1024像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:65
+msgid "\\ **注意：** :ref:`RADIANCE_SIZE_1024<class_Sky_constant_RADIANCE_SIZE_1024>`\\ 在检查器中没有公开，因为它在某些系统上会导致GPU挂起。"
+msgstr ""
+
+#: ../classes/class_sky.rst:67
+msgid "**RADIANCE_SIZE_2048** = **6** --- 辐射纹理尺寸为2048×2048像素。"
+msgstr ""
+
+#: ../classes/class_sky.rst:69
+msgid "\\ **注意：** :ref:`RADIANCE_SIZE_2048<class_Sky_constant_RADIANCE_SIZE_2048>`\\ 没有在检查器中公开，因为它在某些系统上会导致GPU挂起。"
+msgstr ""
+
+#: ../classes/class_sky.rst:71
+msgid "**RADIANCE_SIZE_MAX** = **7** --- 代表\\ :ref:`RadianceSize<enum_Sky_RadianceSize>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_sky.rst:74
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_sky.rst:78
+msgid ":ref:`RadianceSize<enum_Sky_RadianceSize>` **radiance_size**"
+msgstr ""
+
+#: ../classes/class_sky.rst:81
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_sky.rst:83
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_sky.rst:83
+msgid "set_radiance_size(value)"
+msgstr ""
+
+#: ../classes/class_sky.rst:85
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_sky.rst:85
+msgid "get_radiance_size()"
+msgstr ""
+
+#: ../classes/class_sky.rst:88
+msgid "``Sky``\\ 的辐射贴图大小。辐射贴图尺寸越大，\\ ``Sky``\\ 的照明就越详细。"
+msgstr ""
+
+#: ../classes/class_sky.rst:90
+msgid "有关值，参阅 :ref:`RadianceSize<enum_Sky_RadianceSize>` 常量。"
+msgstr ""
+
+#: ../classes/class_sky.rst:92
+msgid "\\ **注意：** 如果您的项目中有非常清晰的反射表面，并且不使用 :ref:`ReflectionProbe<class_ReflectionProbe>` 或 :ref:`GIProbe<class_GIProbe>`\\ ，您才会受益于高辐射尺寸。对于大多数项目，将 :ref:`radiance_size<class_Sky_property_radiance_size>` 保持为默认值是视觉效果和性能之间的最佳折衷。使用高辐射大小值时要小心，因为这可能会导致低端 GPU 崩溃。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../community/asset_library/submitting_to_assetlib.rst:4
+msgid "Submitting to the Asset Library"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:9
+msgid "This tutorial aims to serve as a guide on how you can submit your own assets to the `GaaeExplorer Asset Library <https://godotengine.org/asset-library/asset>`_ and share them with the GaaeExplorer community."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:13
+msgid "As mentioned in the :ref:`doc_using_assetlib` document, in order to be able to submit assets to the AssetLib, you need to have a registered account, and be logged in."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:18
+msgid "Submission guidelines"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:20
+msgid "Before submitting your asset, please ensure it follows all of the requirements, and also consider following the recommendations."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:24
+msgid "Requirements"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:26
+msgid "Generally speaking, most assets people submit to the asset library are accepted. However, in order for your asset to be accepted, there are a few requirements your asset needs to meet to be approved."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:30
+msgid "The asset must **work**. If the asset doesn't run or otherwise doesn't work in the specified GaaeExplorer version, then it will be rejected."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:33
+msgid "The asset must have a proper **.gitignore** file. It's important to keep redundant data out of the repository. `Here's a template. <https://raw.githubusercontent.com/aaronfranke/gitignore/godot/GaaeExplorer.gitignore>`_"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:37
+msgid "No **submodules**, or any submodules must be non-essential. GitHub does not include submodules in the downloaded ZIP file, so if the asset needs the contents of the submodule, your asset won't work."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:41
+msgid "The **license** needs to be correct. The license listed on the asset library must match the license in the repository. The repo MUST have a license file, called either \"LICENSE\" or \"LICENSE.md\". This file must contain the license text itself and a copyright statement that includes the year(s) and copyright holder."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:47
+msgid "Use proper **English** for the name and description of your asset. This includes using correct capitalization, and using full sentences in the description. You can also include other languages, but there should at least be an English version."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:52
+msgid "The icon link must be a **direct link**. For icons hosted on GitHub, the link must start with \"raw.githubusercontent.com\", not \"github.com\"."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:56
+msgid "Recommendations"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:58
+msgid "These things are not required for your asset to be approved, but if you follow these recommendations, you can help make the asset library a better place for all users."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:62
+msgid "Fix or suppress all script **warnings**. The warning system is there to help identify issues with your code, but people using your asset don't need to see them."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:66
+msgid "Make your code conform to the official **style guides**. Having a consistent style helps other people read your code, and it also helps if other people wish to contribute to your asset. See: the :ref:`doc_gdscript_styleguide` or the :ref:`doc_c_sharp_styleguide`."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:71
+msgid "If you have screenshots in your repo, place them in their own subfolder and add an empty **.gdignore** file in the same folder (note: **gd**, not **git**). This prevents GaaeExplorer from importing your screenshots. On Windows, open a command prompt in the project folder and run ``type nul > .gdignore`` to create a file whose name starts with a period."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:77
+msgid "If your asset is a library for working with other files, consider including **example files** in the asset."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:80
+msgid "Consider adding a **.gitattributes** file to your repo. This file allows giving extra instructions to Git, such as specifying line endings and listing files not required for your asset to function with the ``export-ignore`` directive. This directive removes such files from the resulting ZIP file, preventing them from being downloaded by the asset library users. These are common examples of **.gitattributes**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:89
+msgid "Projects / Templates"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:96
+msgid "Addons / Asset Packs"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:108
+msgid "If you are submitting a plugin, add a **copy** of your license and readme to the plugin folder itself. This is the folder that users are guaranteed to keep with their project, so a copy ensures they always have those files handy (and helps them fulfill your licensing terms)."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:113
+msgid "The **icon** should be a square, its aspect ratio should be 1:1. It should also ideally have a minimum resolution of 64x64 pixels."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:116
+msgid "While the asset library allows more than just GitHub, consider hosting your asset's source code on **GitHub**. Other services may not work reliably, and a lack of familiarity can be a barrier to contributors."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:121
+msgid "Submitting"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:123
+msgid "Once you are logged in, you will be able to head over to the \"Submit Assets\" page of the AssetLib, which will look like this:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:126
+msgid "|image0|"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:214
+#: ../community/asset_library/submitting_to_assetlib.rst:214
+msgid "image0"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:128
+msgid "While it may look like a lot (and there is more as you scroll down), each field is described in terms of what you should put in. We will nonetheless go over what is required in the submission form here as well."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:133
+msgid "**Asset Name**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:133
+msgid "The name of your asset. Should be a unique, descriptive title of what your asset is."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:139
+msgid "**Category**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:136
+msgid "The category that your asset belongs to, and will be shown in search results. The category is split into **Addons** and **Projects**. In-editor, assets of the Project type (Templates, Demos, Projects) only show up when viewing the AssetLib from the Project Manager, while assets of the Addon type will only be visible from inside a project."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:145
+msgid "**GaaeExplorer version**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:142
+msgid "The version of the engine that the asset works with. Currently, it's not possible to have a single asset entry contain downloads for multiple engine versions, so you may need to re-submit the asset multiple times, with an entry for each GaaeExplorer version it supports. This is particularly important when dealing with major versions of the engine, such as GaaeExplorer 2.x and GaaeExplorer 3.x."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:152
+msgid "**Version**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:148
+msgid "The version number of the asset. While you are free to choose and use any versioning scheme that you like, you may want to look into something such as `SemVer <https://semver.org>`_ if you want your asset's versioning scheme to be clear and consistent. Note that there is also an internal version number, incremented every time the asset download URL is changed or updated."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:157
+msgid "**Repository host**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:155
+msgid "Assets uploaded to the AssetLib are not hosted on it directly. Instead, they point to repositories hosted on third-party Git providers, such as GitHub, GitLab or Bitbucket. This is where you choose which provider your asset uses, so the site can compute the final download link."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:160
+msgid "**Repository URL**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:160
+msgid "The URL to your asset's files/webpage. This will vary based on your choice of provider, but it should look similar to `https://github.com/<user>/<project>`."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:165
+msgid "**Issues URL**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:163
+msgid "The URL to your asset's issue tracker. Again, this will differ from repository host to repository host, but will likely look similar to `https://github.com/<user>/<project>/issues`. You may leave this field empty if you use your provider's issue tracker, and it's part of the same repository."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:169
+msgid "**Download Commit**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:168
+msgid "The commit of the asset. For example, `b1d3172f89b86e52465a74f63a74ac84c491d3e1`. The site computes the actual download URL from this."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:173
+msgid "**Icon URL**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:172
+msgid "The URL to your asset's icon (which will be used as a thumbnail in the AssetLib search results and on the asset's page). Should be an image in either the PNG or JPG format."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:178
+msgid "**License**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:176
+msgid "The license under which you are distributing the asset. The list includes a variety of free and open-source software licenses, such as GPL (v2 and v3), MIT, BSD and Boost Software License. You can visit `OpenSource.org <https://opensource.org>`_ for a detailed description of each of the listed licenses."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:184
+msgid "**Description**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:181
+msgid "Finally, you can use the Description field for a textual overview of your asset, its features and behavior, a changelog, et cetera. In the future, formatting with Markdown will be supported, but currently, your only option is plain text."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:186
+msgid "You may also include up to three video and/or image previews, which will be shown at the bottom of the asset page. Use the \"Enable\" checkbox on each of the preview submission boxes to enable them."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:190
+msgid "**Type**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:191
+msgid "Either an image, or a video."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:192
+msgid "**Image/YouTube URL**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:193
+msgid "Either a link to the image, or to a video, hosted on YouTube."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:197
+msgid "**Thumbnail URL**:"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:195
+msgid "A URL to an image that will be used as a thumbnail for the preview. This option will be removed eventually, and thumbnails will be automatically computed instead."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:199
+msgid "Once you are done, press \"Submit\". Your asset will be entered into the review queue. You can check all assets currently pending a review `here <https://godotengine.org/asset-library/asset/edit?&asset=-1>`_ . The approval process is manual and may take up to a few days for your asset to be accepted (or rejected), so please be patient!"
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:206
+msgid "You may have some luck accelerating the approval process by messaging the moderators and AssetLib reviewers on the `GaaeExplorer Contributors Chat <https://chat.godotengine.org/>`_, or the official Discord server."
+msgstr ""
+
+#: ../community/asset_library/submitting_to_assetlib.rst:210
+msgid "You will be informed when your asset is reviewed. If it was rejected, you will be told why that may have been, and you will be able to submit it again with the appropriate changes."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

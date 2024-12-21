@@ -1,0 +1,1116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_tileset.rst:10
+msgid "TileSet"
+msgstr ""
+
+#: ../classes/class_tileset.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:14
+msgid "图块地图的图块库。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_tileset.rst:19
+msgid "图块集是\\ :ref:`TileMap<class_TileMap>`\\ 图块地图的一个图块库。它包含图块的列表，每个图块由一个精灵和可选的碰撞形状组成。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:21
+msgid "图块由唯一的整数ID引用。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_tileset.rst:26
+msgid ":doc:`Using Tilemaps <../tutorials/2d/using_tilemaps>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:28
+msgid "`2D Platformer Demo <https://godotengine.org/asset-library/asset/120>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:30
+msgid "`2D Isometric Demo <https://godotengine.org/asset-library/asset/112>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:32
+msgid "`2D Hexagonal Demo <https://godotengine.org/asset-library/asset/111>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:34
+msgid "`2D Navigation Astar Demo <https://godotengine.org/asset-library/asset/519>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:36
+msgid "`2D Role Playing Game Demo <https://godotengine.org/asset-library/asset/520>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:38
+msgid "`2D Kinematic Character Demo <https://godotengine.org/asset-library/asset/113>`__"
+msgstr ""
+
+#: ../classes/class_tileset.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_tileset.rst:44
+#: ../classes/class_tileset.rst:46
+#: ../classes/class_tileset.rst:56
+#: ../classes/class_tileset.rst:62
+#: ../classes/class_tileset.rst:112
+#: ../classes/class_tileset.rst:116
+#: ../classes/class_tileset.rst:124
+#: ../classes/class_tileset.rst:136
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:44
+msgid ":ref:`_forward_atlas_subtile_selection<class_TileSet_method__forward_atlas_subtile_selection>` **(** :ref:`int<class_int>` atlastile_id, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:46
+msgid ":ref:`_forward_subtile_selection<class_TileSet_method__forward_subtile_selection>` **(** :ref:`int<class_int>` autotile_id, :ref:`int<class_int>` bitmask, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:48
+#: ../classes/class_tileset.rst:126
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:48
+msgid ":ref:`_is_tile_bound<class_TileSet_method__is_tile_bound>` **(** :ref:`int<class_int>` drawn_id, :ref:`int<class_int>` neighbor_id **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:50
+#: ../classes/class_tileset.rst:70
+#: ../classes/class_tileset.rst:72
+#: ../classes/class_tileset.rst:74
+#: ../classes/class_tileset.rst:76
+#: ../classes/class_tileset.rst:78
+#: ../classes/class_tileset.rst:80
+#: ../classes/class_tileset.rst:82
+#: ../classes/class_tileset.rst:84
+#: ../classes/class_tileset.rst:86
+#: ../classes/class_tileset.rst:88
+#: ../classes/class_tileset.rst:90
+#: ../classes/class_tileset.rst:98
+#: ../classes/class_tileset.rst:100
+#: ../classes/class_tileset.rst:142
+#: ../classes/class_tileset.rst:144
+#: ../classes/class_tileset.rst:146
+#: ../classes/class_tileset.rst:148
+#: ../classes/class_tileset.rst:150
+#: ../classes/class_tileset.rst:152
+#: ../classes/class_tileset.rst:154
+#: ../classes/class_tileset.rst:156
+#: ../classes/class_tileset.rst:158
+#: ../classes/class_tileset.rst:160
+#: ../classes/class_tileset.rst:162
+#: ../classes/class_tileset.rst:164
+#: ../classes/class_tileset.rst:166
+#: ../classes/class_tileset.rst:168
+#: ../classes/class_tileset.rst:170
+#: ../classes/class_tileset.rst:172
+#: ../classes/class_tileset.rst:174
+#: ../classes/class_tileset.rst:176
+#: ../classes/class_tileset.rst:178
+msgid "void"
+msgstr ""
+
+#: ../classes/class_tileset.rst:50
+msgid ":ref:`autotile_clear_bitmask_map<class_TileSet_method_autotile_clear_bitmask_map>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:52
+#: ../classes/class_tileset.rst:64
+#: ../classes/class_tileset.rst:66
+#: ../classes/class_tileset.rst:68
+#: ../classes/class_tileset.rst:92
+#: ../classes/class_tileset.rst:94
+#: ../classes/class_tileset.rst:122
+#: ../classes/class_tileset.rst:140
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:52
+msgid ":ref:`autotile_get_bitmask<class_TileSet_method_autotile_get_bitmask>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:54
+msgid ":ref:`BitmaskMode<enum_TileSet_BitmaskMode>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:54
+msgid ":ref:`autotile_get_bitmask_mode<class_TileSet_method_autotile_get_bitmask_mode>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:56
+msgid ":ref:`autotile_get_icon_coordinate<class_TileSet_method_autotile_get_icon_coordinate>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:58
+#: ../classes/class_tileset.rst:102
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:58
+msgid ":ref:`autotile_get_light_occluder<class_TileSet_method_autotile_get_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:60
+#: ../classes/class_tileset.rst:110
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:60
+msgid ":ref:`autotile_get_navigation_polygon<class_TileSet_method_autotile_get_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:62
+msgid ":ref:`autotile_get_size<class_TileSet_method_autotile_get_size>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:64
+msgid ":ref:`autotile_get_spacing<class_TileSet_method_autotile_get_spacing>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:66
+msgid ":ref:`autotile_get_subtile_priority<class_TileSet_method_autotile_get_subtile_priority>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:68
+msgid ":ref:`autotile_get_z_index<class_TileSet_method_autotile_get_z_index>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:70
+msgid ":ref:`autotile_set_bitmask<class_TileSet_method_autotile_set_bitmask>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` bitmask, :ref:`int<class_int>` flag **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:72
+msgid ":ref:`autotile_set_bitmask_mode<class_TileSet_method_autotile_set_bitmask_mode>` **(** :ref:`int<class_int>` id, :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:74
+msgid ":ref:`autotile_set_icon_coordinate<class_TileSet_method_autotile_set_icon_coordinate>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:76
+msgid ":ref:`autotile_set_light_occluder<class_TileSet_method_autotile_set_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:78
+msgid ":ref:`autotile_set_navigation_polygon<class_TileSet_method_autotile_set_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:80
+msgid ":ref:`autotile_set_size<class_TileSet_method_autotile_set_size>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:82
+msgid ":ref:`autotile_set_spacing<class_TileSet_method_autotile_set_spacing>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` spacing **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:84
+msgid ":ref:`autotile_set_subtile_priority<class_TileSet_method_autotile_set_subtile_priority>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:86
+msgid ":ref:`autotile_set_z_index<class_TileSet_method_autotile_set_z_index>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:88
+msgid ":ref:`clear<class_TileSet_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:90
+msgid ":ref:`create_tile<class_TileSet_method_create_tile>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:92
+msgid ":ref:`find_tile_by_name<class_TileSet_method_find_tile_by_name>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:94
+msgid ":ref:`get_last_unused_tile_id<class_TileSet_method_get_last_unused_tile_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:96
+#: ../classes/class_tileset.rst:132
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:96
+msgid ":ref:`get_tiles_ids<class_TileSet_method_get_tiles_ids>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:98
+msgid ":ref:`remove_tile<class_TileSet_method_remove_tile>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:100
+msgid ":ref:`tile_add_shape<class_TileSet_method_tile_add_shape>` **(** :ref:`int<class_int>` id, :ref:`Shape2D<class_Shape2D>` shape, :ref:`Transform2D<class_Transform2D>` shape_transform, :ref:`bool<class_bool>` one_way=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:102
+msgid ":ref:`tile_get_light_occluder<class_TileSet_method_tile_get_light_occluder>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:104
+msgid ":ref:`ShaderMaterial<class_ShaderMaterial>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:104
+msgid ":ref:`tile_get_material<class_TileSet_method_tile_get_material>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:106
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:106
+msgid ":ref:`tile_get_modulate<class_TileSet_method_tile_get_modulate>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:108
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:108
+msgid ":ref:`tile_get_name<class_TileSet_method_tile_get_name>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:110
+msgid ":ref:`tile_get_navigation_polygon<class_TileSet_method_tile_get_navigation_polygon>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:112
+msgid ":ref:`tile_get_navigation_polygon_offset<class_TileSet_method_tile_get_navigation_polygon_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:114
+#: ../classes/class_tileset.rst:134
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:114
+msgid ":ref:`tile_get_normal_map<class_TileSet_method_tile_get_normal_map>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:116
+msgid ":ref:`tile_get_occluder_offset<class_TileSet_method_tile_get_occluder_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:118
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:118
+msgid ":ref:`tile_get_region<class_TileSet_method_tile_get_region>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:120
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:120
+msgid ":ref:`tile_get_shape<class_TileSet_method_tile_get_shape>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:122
+msgid ":ref:`tile_get_shape_count<class_TileSet_method_tile_get_shape_count>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:124
+msgid ":ref:`tile_get_shape_offset<class_TileSet_method_tile_get_shape_offset>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:126
+msgid ":ref:`tile_get_shape_one_way<class_TileSet_method_tile_get_shape_one_way>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:128
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:128
+msgid ":ref:`tile_get_shape_one_way_margin<class_TileSet_method_tile_get_shape_one_way_margin>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:130
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:130
+msgid ":ref:`tile_get_shape_transform<class_TileSet_method_tile_get_shape_transform>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:132
+msgid ":ref:`tile_get_shapes<class_TileSet_method_tile_get_shapes>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:134
+msgid ":ref:`tile_get_texture<class_TileSet_method_tile_get_texture>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:136
+msgid ":ref:`tile_get_texture_offset<class_TileSet_method_tile_get_texture_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:138
+msgid ":ref:`TileMode<enum_TileSet_TileMode>`"
+msgstr ""
+
+#: ../classes/class_tileset.rst:138
+msgid ":ref:`tile_get_tile_mode<class_TileSet_method_tile_get_tile_mode>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:140
+msgid ":ref:`tile_get_z_index<class_TileSet_method_tile_get_z_index>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:142
+msgid ":ref:`tile_set_light_occluder<class_TileSet_method_tile_set_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:144
+msgid ":ref:`tile_set_material<class_TileSet_method_tile_set_material>` **(** :ref:`int<class_int>` id, :ref:`ShaderMaterial<class_ShaderMaterial>` material **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:146
+msgid ":ref:`tile_set_modulate<class_TileSet_method_tile_set_modulate>` **(** :ref:`int<class_int>` id, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:148
+msgid ":ref:`tile_set_name<class_TileSet_method_tile_set_name>` **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:150
+msgid ":ref:`tile_set_navigation_polygon<class_TileSet_method_tile_set_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:152
+msgid ":ref:`tile_set_navigation_polygon_offset<class_TileSet_method_tile_set_navigation_polygon_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` navigation_polygon_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:154
+msgid ":ref:`tile_set_normal_map<class_TileSet_method_tile_set_normal_map>` **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` normal_map **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:156
+msgid ":ref:`tile_set_occluder_offset<class_TileSet_method_tile_set_occluder_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` occluder_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:158
+msgid ":ref:`tile_set_region<class_TileSet_method_tile_set_region>` **(** :ref:`int<class_int>` id, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:160
+msgid ":ref:`tile_set_shape<class_TileSet_method_tile_set_shape>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Shape2D<class_Shape2D>` shape **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:162
+msgid ":ref:`tile_set_shape_offset<class_TileSet_method_tile_set_shape_offset>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Vector2<class_Vector2>` shape_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:164
+msgid ":ref:`tile_set_shape_one_way<class_TileSet_method_tile_set_shape_one_way>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`bool<class_bool>` one_way **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:166
+msgid ":ref:`tile_set_shape_one_way_margin<class_TileSet_method_tile_set_shape_one_way_margin>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`float<class_float>` one_way **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:168
+msgid ":ref:`tile_set_shape_transform<class_TileSet_method_tile_set_shape_transform>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Transform2D<class_Transform2D>` shape_transform **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:170
+msgid ":ref:`tile_set_shapes<class_TileSet_method_tile_set_shapes>` **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:172
+msgid ":ref:`tile_set_texture<class_TileSet_method_tile_set_texture>` **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:174
+msgid ":ref:`tile_set_texture_offset<class_TileSet_method_tile_set_texture_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` texture_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:176
+msgid ":ref:`tile_set_tile_mode<class_TileSet_method_tile_set_tile_mode>` **(** :ref:`int<class_int>` id, :ref:`TileMode<enum_TileSet_TileMode>` tilemode **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:178
+msgid ":ref:`tile_set_z_index<class_TileSet_method_tile_set_z_index>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:182
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_tileset.rst:192
+msgid "enum **BitmaskMode**:"
+msgstr ""
+
+#: ../classes/class_tileset.rst:194
+msgid "**BITMASK_2X2** = **0**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:196
+msgid "**BITMASK_3X3_MINIMAL** = **1**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:198
+msgid "**BITMASK_3X3** = **2**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:222
+msgid "enum **AutotileBindings**:"
+msgstr ""
+
+#: ../classes/class_tileset.rst:224
+msgid "**BIND_TOPLEFT** = **1**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:226
+msgid "**BIND_TOP** = **2**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:228
+msgid "**BIND_TOPRIGHT** = **4**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:230
+msgid "**BIND_LEFT** = **8**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:232
+msgid "**BIND_CENTER** = **16**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:234
+msgid "**BIND_RIGHT** = **32**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:236
+msgid "**BIND_BOTTOMLEFT** = **64**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:238
+msgid "**BIND_BOTTOM** = **128**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:240
+msgid "**BIND_BOTTOMRIGHT** = **256**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:252
+msgid "enum **TileMode**:"
+msgstr ""
+
+#: ../classes/class_tileset.rst:254
+msgid "**SINGLE_TILE** = **0**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:256
+msgid "**AUTO_TILE** = **1**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:258
+msgid "**ATLAS_TILE** = **2**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:261
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_tileset.rst:265
+msgid ":ref:`Vector2<class_Vector2>` **_forward_atlas_subtile_selection** **(** :ref:`int<class_int>` atlastile_id, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:271
+msgid ":ref:`Vector2<class_Vector2>` **_forward_subtile_selection** **(** :ref:`int<class_int>` autotile_id, :ref:`int<class_int>` bitmask, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:277
+msgid ":ref:`bool<class_bool>` **_is_tile_bound** **(** :ref:`int<class_int>` drawn_id, :ref:`int<class_int>` neighbor_id **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:279
+msgid "确定什么时候自动图块器应该考虑将两个不同的自动图块器ID绑定在一起。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:281
+msgid "\\ **注意：** ``neighbour_id``\\ 当检查一个图块与一个空的相邻图块时，将是\\ ``-1``\\ ，即\\ :ref:`TileMap.INVALID_CELL<class_TileMap_constant_INVALID_CELL>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:287
+msgid "void **autotile_clear_bitmask_map** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:289
+msgid "清除自动图块的所有bit位掩码信息。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:295
+msgid ":ref:`int<class_int>` **autotile_get_bitmask** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:297
+msgid "返回给定坐标的自动图块中的子图块的位掩码。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:299
+msgid "该值是子图块中存在的 :ref:`AutotileBindings<enum_TileSet_AutotileBindings>` 值的总和。例如，值为 5 意味着该位掩码在左上角和右上角都有绑定。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:305
+msgid ":ref:`BitmaskMode<enum_TileSet_BitmaskMode>` **autotile_get_bitmask_mode** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:307
+msgid "返回自动图块的\\ :ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\\ bit位掩码模式。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:313
+msgid ":ref:`Vector2<class_Vector2>` **autotile_get_icon_coordinate** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:315
+msgid "返回在图集或自动图块中作为图标使用的子图块，并给出其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:317
+msgid "在图集或自动图块的bit位掩码信息不完整时，定义为图标的子图块将用作备用。它也被用于在图块集编辑器中表示它。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:323
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **autotile_get_light_occluder** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:325
+msgid "返回给定坐标的图集或自动图块中的子图块的光遮挡物。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:331
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` **autotile_get_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:333
+msgid "返回指定坐标的图集或自动图块中，子图块的导航多边形。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:339
+msgid ":ref:`Vector2<class_Vector2>` **autotile_get_size** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:341
+msgid "返回图集或自动图块中，子图块的大小。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:347
+msgid ":ref:`int<class_int>` **autotile_get_spacing** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:349
+msgid "返回图集或自动图块的子图块之间的间距。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:355
+msgid ":ref:`int<class_int>` **autotile_get_subtile_priority** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:357
+msgid "返回指定坐标自动图块中的子图层的优先级。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:359
+msgid "当一个以上的子图块具有相同的bit位掩码值时，期中一个将被随机挑选出来，进行绘制。它的优先级将决定被选中的频率。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:365
+msgid ":ref:`int<class_int>` **autotile_get_z_index** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:367
+msgid "返回指定坐标的图集或自动图块中，子图块的绘制索引。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:373
+msgid "void **autotile_set_bitmask** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` bitmask, :ref:`int<class_int>` flag **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:375
+msgid "设置给定自动图块的子图块的位掩码，指定其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:377
+msgid "这个值是子图块中 :ref:`AutotileBindings<enum_TileSet_AutotileBindings>` 的值的总和。例如，值为 5 意味着位掩码在左上方和右上方都有绑定。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:383
+msgid "void **autotile_set_bitmask_mode** **(** :ref:`int<class_int>` id, :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:385
+msgid "设置自动图块的\\ :ref:`BitmaskMode<enum_TileSet_BitmaskMode>`\\ 位掩码模式。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:391
+msgid "void **autotile_set_icon_coordinate** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:393
+msgid "设置在图集或自动图块中作为图标的子图层，并指定其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:395
+msgid "定义为图标的子图块，将在图集或自动图块的bit位掩码信息不完整时，被用作备用。它也被用来在图块集编辑器中表示它。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:401
+msgid "void **autotile_set_light_occluder** **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:403
+msgid "设置来自图集或自动图块的子图块的光遮挡器，指定其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:409
+msgid "void **autotile_set_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:411
+msgid "设置来自图集或自动图块的子图块的导航多边形，指定其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:417
+msgid "void **autotile_set_size** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:419
+msgid "设置图集或自动图块中子图块的大小。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:425
+msgid "void **autotile_set_spacing** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` spacing **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:427
+msgid "设置图集或自动图块的子图块之间的间距。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:433
+msgid "void **autotile_set_subtile_priority** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:435
+msgid "设置一个自带坐标的子图块的优先级。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:437
+msgid "当多个子图块有相同的bit位掩码值时，其中之一将被随机挑选出来进行绘制。它的优先级决定被选中的频率。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:443
+msgid "void **autotile_set_z_index** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:445
+msgid "设置一个图集或自动图块中的子图块的绘制索引，指定其坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:451
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:453
+msgid "清除所有图块。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:459
+msgid "void **create_tile** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:461
+msgid "用给定的ID创建一个新的图块。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:467
+msgid ":ref:`int<class_int>` **find_tile_by_name** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:469
+msgid "返回与给定名称相匹配的第一个图块。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:475
+msgid ":ref:`int<class_int>` **get_last_unused_tile_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:477
+msgid "返回当前使用的最后一个ID之后的ID，在创建新图块时很有用。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:483
+msgid ":ref:`Array<class_Array>` **get_tiles_ids** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:485
+msgid "返回当前使用的所有图块ID的数组。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:491
+msgid "void **remove_tile** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:493
+msgid "移除给定的图块ID。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:499
+msgid "void **tile_add_shape** **(** :ref:`int<class_int>` id, :ref:`Shape2D<class_Shape2D>` shape, :ref:`Transform2D<class_Transform2D>` shape_transform, :ref:`bool<class_bool>` one_way=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:501
+msgid "在图块上添加一个形状。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:507
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **tile_get_light_occluder** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:509
+msgid "返回该图块的光遮挡器。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:515
+msgid ":ref:`ShaderMaterial<class_ShaderMaterial>` **tile_get_material** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:517
+msgid "返回图块的材质。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:523
+msgid ":ref:`Color<class_Color>` **tile_get_modulate** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:525
+msgid "返回图块的调制颜色。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:531
+msgid ":ref:`String<class_String>` **tile_get_name** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:533
+msgid "返回图块的名称。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:539
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` **tile_get_navigation_polygon** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:541
+msgid "返回图块的导航多边形。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:547
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_navigation_polygon_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:549
+msgid "返回图块的导航多边形的偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:555
+msgid ":ref:`Texture<class_Texture>` **tile_get_normal_map** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:557
+msgid "返回图块的法线贴图纹理。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:563
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_occluder_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:565
+msgid "返回图块的光遮挡器的偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:571
+msgid ":ref:`Rect2<class_Rect2>` **tile_get_region** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:573
+msgid "返回纹理中图块的子区域。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:579
+msgid ":ref:`Shape2D<class_Shape2D>` **tile_get_shape** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:581
+msgid "返回图块的指定形状。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:587
+msgid ":ref:`int<class_int>` **tile_get_shape_count** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:589
+msgid "返回分配给图块的形状数量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:595
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_shape_offset** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:597
+msgid "返回图块形状的偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:603
+msgid ":ref:`bool<class_bool>` **tile_get_shape_one_way** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:605
+msgid "返回图块形状的单向碰撞值。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:611
+msgid ":ref:`float<class_float>` **tile_get_shape_one_way_margin** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:617
+msgid ":ref:`Transform2D<class_Transform2D>` **tile_get_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:619
+msgid "返回图块形状的\\ :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:625
+msgid ":ref:`Array<class_Array>` **tile_get_shapes** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:627
+msgid "返回描述图块形状的字典数组。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:629
+msgid "\\ **此方法返回数组中的字典结构：**\\"
+msgstr ""
+
+#: ../classes/class_tileset.rst:645
+msgid ":ref:`Texture<class_Texture>` **tile_get_texture** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:647
+msgid "返回图块的纹理。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:653
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_texture_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:655
+msgid "返回图块的纹理偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:661
+msgid ":ref:`TileMode<enum_TileSet_TileMode>` **tile_get_tile_mode** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:663
+msgid "返回图块的\\ :ref:`TileMode<enum_TileSet_TileMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:669
+msgid ":ref:`int<class_int>` **tile_get_z_index** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../classes/class_tileset.rst:671
+msgid "返回图块的Z索引，即绘制层。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:677
+msgid "void **tile_set_light_occluder** **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:679
+msgid "为图块设置光遮挡器。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:685
+msgid "void **tile_set_material** **(** :ref:`int<class_int>` id, :ref:`ShaderMaterial<class_ShaderMaterial>` material **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:687
+msgid "设置图块的材质。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:693
+msgid "void **tile_set_modulate** **(** :ref:`int<class_int>` id, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:695
+msgid "设置图块的调制颜色。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:701
+msgid "void **tile_set_name** **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:703
+msgid "设置图块的名称。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:709
+msgid "void **tile_set_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:711
+msgid "设置图块的导航多边形。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:717
+msgid "void **tile_set_navigation_polygon_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` navigation_polygon_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:719
+msgid "为图块的导航多边形设置一个偏移。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:725
+msgid "void **tile_set_normal_map** **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` normal_map **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:727
+msgid "设置图块的法线贴图纹理。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:729
+msgid "\\ **注意：** GaaeExplorer希望法线贴图使用X+、Y-和Z+坐标。请参阅\\ `本页面 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__\\ ，了解和比较流行引擎所期望的法线贴图坐标。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:735
+msgid "void **tile_set_occluder_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` occluder_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:737
+msgid "为图块的光遮挡器设置一个偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:743
+msgid "void **tile_set_region** **(** :ref:`int<class_int>` id, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:745
+msgid "设置图块在纹理中的子区域。这在纹理图集中很常见。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:751
+msgid "void **tile_set_shape** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Shape2D<class_Shape2D>` shape **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:753
+msgid "为图块设置形状，实现碰撞。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:759
+msgid "void **tile_set_shape_offset** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Vector2<class_Vector2>` shape_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:761
+msgid "设置图块形状的偏移量。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:767
+msgid "void **tile_set_shape_one_way** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`bool<class_bool>` one_way **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:769
+msgid "启用图块形状上的单向碰撞。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:775
+msgid "void **tile_set_shape_one_way_margin** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`float<class_float>` one_way **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:781
+msgid "void **tile_set_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Transform2D<class_Transform2D>` shape_transform **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:783
+msgid "在图块的形状上设置\\ :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:789
+msgid "void **tile_set_shapes** **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:791
+msgid "为图块设置一个形状数组，实现碰撞。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:797
+msgid "void **tile_set_texture** **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:799
+msgid "设置图块的纹理。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:805
+msgid "void **tile_set_texture_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` texture_offset **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:807
+msgid "设置图块的纹理偏移。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:813
+msgid "void **tile_set_tile_mode** **(** :ref:`int<class_int>` id, :ref:`TileMode<enum_TileSet_TileMode>` tilemode **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:815
+msgid "设置图块的\\ :ref:`TileMode<enum_TileSet_TileMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tileset.rst:821
+msgid "void **tile_set_z_index** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../classes/class_tileset.rst:823
+msgid "设置图块的绘制索引。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

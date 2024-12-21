@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gdscriptfunctionstate.rst:10
+msgid "GDScriptFunctionState"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:14
+msgid "一个函数在调用后失效的状态。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:19
+msgid "在函数中调用 :ref:`@GDScript.yield<class_@GDScript_method_yield>` 将导致该函数作为此类型的对象让步并返回其当前状态。然后可以通过在此状态对象上调用 :ref:`resume<class_GDScriptFunctionState_method_resume>` 来使让步的函数恢复调用。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:25
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:25
+msgid ":ref:`is_valid<class_GDScriptFunctionState_method_is_valid>` **(** :ref:`bool<class_bool>` extended_check=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:27
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:27
+msgid ":ref:`resume<class_GDScriptFunctionState_method_resume>` **(** :ref:`Variant<class_Variant>` arg=null **)**"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:31
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:35
+msgid "**completed** **(** :ref:`Variant<class_Variant>` result **)**"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:38
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:42
+msgid ":ref:`bool<class_bool>` **is_valid** **(** :ref:`bool<class_bool>` extended_check=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:44
+msgid "检查函数调用是否可以被恢复。如果函数状态已经被恢复，则不存在这种情况。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:46
+msgid "如果\\ ``extended_check``\\ 被启用，它还会检查相关的脚本和对象是否仍然存在。扩展检查是在调试模式下作为\\ :ref:`resume<class_GDScriptFunctionState_method_resume>`\\ 的一部分进行的，但是如果你知道你可能在不确定对象和/或脚本已经存活到那个点的情况下尝试恢复，你可以使用这个。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:52
+msgid ":ref:`Variant<class_Variant>` **resume** **(** :ref:`Variant<class_Variant>` arg=null **)**"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:54
+msgid "继续执行让步的函数调用。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:56
+msgid "如果传递了一个参数，则从产生的函数调用中的 :ref:`@GDScript.yield<class_@GDScript_method_yield>` 调用返回参数。你可以通过例如一个 :ref:`Array<class_Array>` 来处理多个参数。"
+msgstr ""
+
+#: ../classes/class_gdscriptfunctionstate.rst:58
+msgid "此函数返回接续的函数调用后返回的内容，如果再次恢复调用，可能是另一个函数状态。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

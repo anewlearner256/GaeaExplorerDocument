@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_collisionshape2d.rst:10
+msgid "CollisionShape2D"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:14
+msgid "表示2D空间中的碰撞形状数据的节点。"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:19
+msgid "编辑器功能，用于在2D空间中创建和编辑碰撞形状。您可以使用此节点表示各种碰撞形状，例如，将其添加到\\ :ref:`Area2D<class_Area2D>`\\ 以提供检测形状，或将其添加到\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 以创建实体。 **重要事项**\\ ：这是创建形状的仅编辑器助手，请使用\\ :ref:`CollisionObject2D.shape_owner_get_shape<class_CollisionObject2D_method_shape_owner_get_shape>`\\ 获取实际形状。"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:24
+msgid ":doc:`Physics introduction <../tutorials/physics/physics_introduction>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:26
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:28
+msgid "`2D Pong Demo <https://godotengine.org/asset-library/asset/121>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:30
+msgid "`2D Kinematic Character Demo <https://godotengine.org/asset-library/asset/113>`__"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:36
+#: ../classes/class_collisionshape2d.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:36
+msgid ":ref:`disabled<class_CollisionShape2D_property_disabled>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:36
+#: ../classes/class_collisionshape2d.rst:38
+#: ../classes/class_collisionshape2d.rst:53
+#: ../classes/class_collisionshape2d.rst:69
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:38
+msgid ":ref:`one_way_collision<class_CollisionShape2D_property_one_way_collision>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:40
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:40
+msgid ":ref:`one_way_collision_margin<class_CollisionShape2D_property_one_way_collision_margin>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:40
+#: ../classes/class_collisionshape2d.rst:85
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:42
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:42
+msgid ":ref:`shape<class_CollisionShape2D_property_shape>`"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:46
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:50
+msgid ":ref:`bool<class_bool>` **disabled**"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:53
+#: ../classes/class_collisionshape2d.rst:69
+#: ../classes/class_collisionshape2d.rst:85
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:55
+#: ../classes/class_collisionshape2d.rst:71
+#: ../classes/class_collisionshape2d.rst:87
+#: ../classes/class_collisionshape2d.rst:101
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:55
+msgid "set_disabled(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:57
+#: ../classes/class_collisionshape2d.rst:73
+#: ../classes/class_collisionshape2d.rst:89
+#: ../classes/class_collisionshape2d.rst:103
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:57
+msgid "is_disabled()"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:60
+msgid "禁用的碰撞形状在世界中没有影响。这个属性应该用 :ref:`Object.set_deferred<class_Object_method_set_deferred>` 改变。"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:66
+msgid ":ref:`bool<class_bool>` **one_way_collision**"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:71
+msgid "set_one_way_collision(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:73
+msgid "is_one_way_collision_enabled()"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:76
+msgid "设置此碰撞形状是否仅应检测到一侧（顶部或底部）的碰撞。"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:82
+msgid ":ref:`float<class_float>` **one_way_collision_margin**"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:87
+msgid "set_one_way_collision_margin(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:89
+msgid "get_one_way_collision_margin()"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:92
+msgid "用于单向碰撞的边距（以像素为单位）。较高的值将使形状更厚，并且对于高速进入形状的对撞机来说效果更好。"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:98
+msgid ":ref:`Shape2D<class_Shape2D>` **shape**"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:101
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:103
+msgid "get_shape()"
+msgstr ""
+
+#: ../classes/class_collisionshape2d.rst:106
+msgid "该碰撞形状拥有的实际形状。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

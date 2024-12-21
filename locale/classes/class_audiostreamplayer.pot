@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audiostreamplayer.rst:10
+msgid "AudioStreamPlayer"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:14
+msgid "非定位地播放音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:19
+msgid "以非位置方式支持播放音频流。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:21
+msgid "要在位置上播放音频，请使用\\ :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`\\ 或\\ :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\\ 而不是\\ ``AudioStreamPlayer``\\ 。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:26
+msgid ":doc:`Audio streams <../tutorials/audio/audio_streams>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:28
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:30
+msgid "`Audio Device Changer Demo <https://godotengine.org/asset-library/asset/525>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:32
+msgid "`Audio Generator Demo <https://godotengine.org/asset-library/asset/526>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:34
+msgid "`Audio Mic Record Demo <https://godotengine.org/asset-library/asset/527>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:36
+msgid "`Audio Spectrum Demo <https://godotengine.org/asset-library/asset/528>`__"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:39
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:42
+#: ../classes/class_audiostreamplayer.rst:50
+#: ../classes/class_audiostreamplayer.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:42
+msgid ":ref:`autoplay<class_AudioStreamPlayer_property_autoplay>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:42
+#: ../classes/class_audiostreamplayer.rst:50
+#: ../classes/class_audiostreamplayer.rst:54
+#: ../classes/class_audiostreamplayer.rst:110
+#: ../classes/class_audiostreamplayer.rst:174
+#: ../classes/class_audiostreamplayer.rst:202
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:44
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:44
+msgid ":ref:`bus<class_AudioStreamPlayer_property_bus>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:44
+#: ../classes/class_audiostreamplayer.rst:126
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:46
+msgid ":ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:46
+msgid ":ref:`mix_target<class_AudioStreamPlayer_property_mix_target>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:46
+#: ../classes/class_audiostreamplayer.rst:142
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:48
+#: ../classes/class_audiostreamplayer.rst:56
+#: ../classes/class_audiostreamplayer.rst:63
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:48
+msgid ":ref:`pitch_scale<class_AudioStreamPlayer_property_pitch_scale>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:48
+#: ../classes/class_audiostreamplayer.rst:158
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:50
+msgid ":ref:`playing<class_AudioStreamPlayer_property_playing>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:52
+msgid ":ref:`AudioStream<class_AudioStream>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:52
+msgid ":ref:`stream<class_AudioStreamPlayer_property_stream>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:54
+msgid ":ref:`stream_paused<class_AudioStreamPlayer_property_stream_paused>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:56
+msgid ":ref:`volume_db<class_AudioStreamPlayer_property_volume_db>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:56
+#: ../classes/class_audiostreamplayer.rst:218
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:63
+msgid ":ref:`get_playback_position<class_AudioStreamPlayer_method_get_playback_position>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:65
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>`"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:65
+msgid ":ref:`get_stream_playback<class_AudioStreamPlayer_method_get_stream_playback>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:67
+#: ../classes/class_audiostreamplayer.rst:69
+#: ../classes/class_audiostreamplayer.rst:71
+msgid "void"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:67
+msgid ":ref:`play<class_AudioStreamPlayer_method_play>` **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:69
+msgid ":ref:`seek<class_AudioStreamPlayer_method_seek>` **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:71
+msgid ":ref:`stop<class_AudioStreamPlayer_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:75
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:79
+msgid "**finished** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:81
+msgid "当音频停止播放时发出。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:84
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:94
+msgid "enum **MixTarget**:"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:96
+msgid "**MIX_TARGET_STEREO** = **0** --- 音频将只在第一个频道播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:98
+msgid "**MIX_TARGET_SURROUND** = **1** --- 音频将在所有环绕声频道播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:100
+msgid "**MIX_TARGET_CENTER** = **2** --- 音频将在第二通道，也就是通常的中央播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:103
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:107
+msgid ":ref:`bool<class_bool>` **autoplay**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:110
+#: ../classes/class_audiostreamplayer.rst:126
+#: ../classes/class_audiostreamplayer.rst:142
+#: ../classes/class_audiostreamplayer.rst:158
+#: ../classes/class_audiostreamplayer.rst:174
+#: ../classes/class_audiostreamplayer.rst:202
+#: ../classes/class_audiostreamplayer.rst:218
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:112
+#: ../classes/class_audiostreamplayer.rst:128
+#: ../classes/class_audiostreamplayer.rst:144
+#: ../classes/class_audiostreamplayer.rst:160
+#: ../classes/class_audiostreamplayer.rst:188
+#: ../classes/class_audiostreamplayer.rst:204
+#: ../classes/class_audiostreamplayer.rst:220
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:112
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:114
+#: ../classes/class_audiostreamplayer.rst:130
+#: ../classes/class_audiostreamplayer.rst:146
+#: ../classes/class_audiostreamplayer.rst:162
+#: ../classes/class_audiostreamplayer.rst:176
+#: ../classes/class_audiostreamplayer.rst:190
+#: ../classes/class_audiostreamplayer.rst:206
+#: ../classes/class_audiostreamplayer.rst:222
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:114
+msgid "is_autoplay_enabled()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:117
+msgid "如果\\ ``true``\\ ，则在添加到场景树时播放音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:123
+msgid ":ref:`String<class_String>` **bus**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:128
+msgid "set_bus(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:130
+msgid "get_bus()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:133
+msgid "播放此音频的总线。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:139
+msgid ":ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>` **mix_target**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:144
+msgid "set_mix_target(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:146
+msgid "get_mix_target()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:149
+msgid "如果音频配置有两个以上的扬声器，则设置目标通道。请参阅\\ :ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:155
+msgid ":ref:`float<class_float>` **pitch_scale**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:160
+msgid "set_pitch_scale(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:162
+msgid "get_pitch_scale()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:165
+msgid "音频的音高和节奏，作为音频样本的采样率的倍数。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:171
+msgid ":ref:`bool<class_bool>` **playing**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:176
+msgid "is_playing()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:179
+msgid "如果\\ ``true``\\ ，则播放音频。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:185
+msgid ":ref:`AudioStream<class_AudioStream>` **stream**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:188
+msgid "set_stream(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:190
+msgid "get_stream()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:193
+msgid "要播放的\\ :ref:`AudioStream<class_AudioStream>`\\ 对象。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:199
+msgid ":ref:`bool<class_bool>` **stream_paused**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:204
+msgid "set_stream_paused(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:206
+msgid "get_stream_paused()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:209
+msgid "如果 ``true``\\ ，则暂停播放。您可以通过将 ``stream_paused`` 设置为 ``false`` 来恢复播放。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:215
+msgid ":ref:`float<class_float>` **volume_db**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:220
+msgid "set_volume_db(value)"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:222
+msgid "get_volume_db()"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:225
+msgid "音量，单位为dB。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:228
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:232
+msgid ":ref:`float<class_float>` **get_playback_position** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:234
+msgid "返回\\ :ref:`AudioStream<class_AudioStream>`\\ 中的位置，单位为秒。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:240
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:242
+msgid "返回与此\\ ``AudioStreamPlayer``\\ 关联的\\ :ref:`AudioStreamPlayback<class_AudioStreamPlayback>`\\ 对象。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:248
+msgid "void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:250
+msgid "从给定的\\ ``from_position``\\ 播放音频，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:256
+msgid "void **seek** **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:258
+msgid "设置音频的播放位置，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:264
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_audiostreamplayer.rst:266
+msgid "停止音频。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

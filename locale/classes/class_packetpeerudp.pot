@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_packetpeerudp.rst:10
+msgid "PacketPeerUDP"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:14
+msgid "UDP数据包客户端。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:19
+msgid "UDP数据包对等体。可以用来发送原始的UDP数据包以及\\ :ref:`Variant<class_Variant>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:25
+#: ../classes/class_packetpeerudp.rst:43
+msgid "void"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:25
+msgid ":ref:`close<class_PacketPeerUDP_method_close>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:27
+#: ../classes/class_packetpeerudp.rst:37
+#: ../classes/class_packetpeerudp.rst:39
+#: ../classes/class_packetpeerudp.rst:41
+#: ../classes/class_packetpeerudp.rst:45
+#: ../classes/class_packetpeerudp.rst:47
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:27
+msgid ":ref:`connect_to_host<class_PacketPeerUDP_method_connect_to_host>` **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:29
+msgid ":ref:`get_packet_ip<class_PacketPeerUDP_method_get_packet_ip>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:31
+msgid ":ref:`get_packet_port<class_PacketPeerUDP_method_get_packet_port>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:33
+#: ../classes/class_packetpeerudp.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:33
+msgid ":ref:`is_connected_to_host<class_PacketPeerUDP_method_is_connected_to_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:35
+msgid ":ref:`is_listening<class_PacketPeerUDP_method_is_listening>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:37
+msgid ":ref:`join_multicast_group<class_PacketPeerUDP_method_join_multicast_group>` **(** :ref:`String<class_String>` multicast_address, :ref:`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:39
+msgid ":ref:`leave_multicast_group<class_PacketPeerUDP_method_leave_multicast_group>` **(** :ref:`String<class_String>` multicast_address, :ref:`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:41
+msgid ":ref:`listen<class_PacketPeerUDP_method_listen>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address=\"*\", :ref:`int<class_int>` recv_buf_size=65536 **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:43
+msgid ":ref:`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:45
+msgid ":ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>` **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:47
+msgid ":ref:`wait<class_PacketPeerUDP_method_wait>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:51
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:55
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:57
+msgid "关闭\\ ``PacketPeerUDP``\\ 当前正在侦听的UDP套接字。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:63
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:65
+msgid "调用此方法将UDP对等体连接到给定的\\ ``host``/``port``\\ 对。UDP实际上是无连接的，所以这个选项只意味着来自不同地址的入包被自动丢弃，而出包总是被发送到连接的地址(不允许将来调用\\ :ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>`)。该方法不向远程对等体发送任何数据，要发送数据，请使用\\ :ref:`PacketPeer.put_var<class_PacketPeer_method_put_var>`\\ 或\\ :ref:`PacketPeer.put_packet<class_PacketPeer_method_put_packet>`\\ 。参见\\ :ref:`UDPServer<class_UDPServer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:67
+msgid "\\ **注意:**\\ 连接到远程对等体并不能防止IP欺骗等恶意攻击。如果您觉得您的应用程序正在传输敏感信息，可以考虑使用SSL或DTLS等加密技术。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:73
+msgid ":ref:`String<class_String>` **get_packet_ip** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:75
+msgid "返回发送最后一个数据包（通过\\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\\ 或\\ :ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\\ 接收）的远程对等体的IP。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:81
+msgid ":ref:`int<class_int>` **get_packet_port** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:83
+msgid "返回发送最后一个数据包（通过\\ :ref:`PacketPeer.get_packet<class_PacketPeer_method_get_packet>`\\ 或\\ :ref:`PacketPeer.get_var<class_PacketPeer_method_get_var>`\\ 接收）的远程对等方的端口。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:89
+msgid ":ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:91
+msgid "如果UDP套接字已打开并已连接到远程地址，则返回\\ ``true``\\ 。请参阅\\ :ref:`connect_to_host<class_PacketPeerUDP_method_connect_to_host>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:97
+msgid ":ref:`bool<class_bool>` **is_listening** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:99
+msgid "返回这个\\ ``PacketPeerUDP``\\ 是否正在监听。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:105
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **join_multicast_group** **(** :ref:`String<class_String>` multicast_address, :ref:`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:107
+msgid "使用 ``interface_name`` 标识的接口加入 ``multicast_address`` 指定的多播组。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:109
+msgid "您可以使用多个接口加入同一个多播组。使用 :ref:`IP.get_local_interfaces<class_IP_method_get_local_interfaces>` 了解哪些接口可用。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:111
+msgid "\\ **注意：**\\ 一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限才能进行多播。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:117
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **leave_multicast_group** **(** :ref:`String<class_String>` multicast_address, :ref:`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:119
+msgid "从\\ ``multicast_address``\\ 指定的组播组中移除\\ ``interface_name``\\ 标识的接口。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:125
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address=\"*\", :ref:`int<class_int>` recv_buf_size=65536 **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:127
+msgid "使这个\\ ``PacketPeerUDP``\\ 在与\\ ``bind_address``\\ 绑定的\\ ``端口``\\ 上监听，缓冲区大小为\\ ``recv_buf_size``\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:129
+msgid "如果\\ ``bind_address``\\ 被设置为\\ ``\"*\"``\\ （默认），对等体将监听所有可用地址（包括IPv4和IPv6）。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:131
+msgid "如果\\ ``bind_address``\\ 被设置为\\ ``\"0.0.0.0\"``\\ （对于IPv4）或\\ ``\":\"``\\ （对于IPv6），对等体将监听所有符合该IP类型的可用地址。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:133
+msgid "如果\\ ``bind_address``\\ 被设置为任何有效的地址（例如\\ ``\"192.168.1.101\"``\\ ，\\ ``\":1\"``\\ 等），对等体将只监听具有该地址的接口（如果不存在具有该地址的接口，则失败）。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:139
+msgid "void **set_broadcast_enabled** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:141
+msgid "启用或禁用广播数据包的发送（例如：\\ ``set_dest_address(\"255.255.255.255\", 4343)``\\ 。这个选项在默认情况下是禁用的。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:143
+msgid "\\ **注意：**\\ 一些 Android 设备可能需要 ``CHANGE_WIFI_MULTICAST_STATE`` 权限和本选项被启用来接收广播包。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:149
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **set_dest_address** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:151
+msgid "设置发送数据包和变量的目标地址和端口。如果需要，将使用DNS解析一个主机名。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:153
+msgid "\\ **注意：**\\ 在向广播地址（例如：\\ ``255.255.255.255``\\ ）发送数据包之前，必须启用\\ :ref:`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:159
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **wait** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:161
+msgid "等待数据包到达侦听端口。参见\\ :ref:`listen<class_PacketPeerUDP_method_listen>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerudp.rst:163
+msgid "\\ **注意：**\\ :ref:`wait<class_PacketPeerUDP_method_wait>`\\ 一旦被调用就不能被中断。这可以通过允许另一方发送一个特定的“death pill”包来解决，如下所示："
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

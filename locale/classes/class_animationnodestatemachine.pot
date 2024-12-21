@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationnodestatemachine.rst:10
+msgid "AnimationNodeStateMachine"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:12
+msgid "**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:14
+msgid "用于控制动画的状态机。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:19
+msgid "包含代表动画状态的多个节点，以图的形式连接。节点转换可以配置为自动发生或通过代码，使用最短路径算法。从\\ :ref:`AnimationTree<class_AnimationTree>`\\ 节点中检索\\ :ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`\\ 对象，对其进行编程控制。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:21
+msgid "\\ **示例：**\\"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:29
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:31
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:34
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:37
+#: ../classes/class_animationnodestatemachine.rst:39
+#: ../classes/class_animationnodestatemachine.rst:65
+#: ../classes/class_animationnodestatemachine.rst:67
+#: ../classes/class_animationnodestatemachine.rst:69
+#: ../classes/class_animationnodestatemachine.rst:71
+#: ../classes/class_animationnodestatemachine.rst:73
+#: ../classes/class_animationnodestatemachine.rst:75
+#: ../classes/class_animationnodestatemachine.rst:77
+#: ../classes/class_animationnodestatemachine.rst:79
+#: ../classes/class_animationnodestatemachine.rst:81
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:37
+msgid ":ref:`add_node<class_AnimationNodeStateMachine_method_add_node>` **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:39
+msgid ":ref:`add_transition<class_AnimationNodeStateMachine_method_add_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` transition **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:41
+#: ../classes/class_animationnodestatemachine.rst:47
+#: ../classes/class_animationnodestatemachine.rst:51
+#: ../classes/class_animationnodestatemachine.rst:57
+#: ../classes/class_animationnodestatemachine.rst:59
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:41
+msgid ":ref:`get_end_node<class_AnimationNodeStateMachine_method_get_end_node>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:43
+#: ../classes/class_animationnodestatemachine.rst:49
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:43
+msgid ":ref:`get_graph_offset<class_AnimationNodeStateMachine_method_get_graph_offset>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:45
+msgid ":ref:`AnimationNode<class_AnimationNode>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:45
+msgid ":ref:`get_node<class_AnimationNodeStateMachine_method_get_node>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:47
+msgid ":ref:`get_node_name<class_AnimationNodeStateMachine_method_get_node_name>` **(** :ref:`AnimationNode<class_AnimationNode>` node **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:49
+msgid ":ref:`get_node_position<class_AnimationNodeStateMachine_method_get_node_position>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:51
+msgid ":ref:`get_start_node<class_AnimationNodeStateMachine_method_get_start_node>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:53
+msgid ":ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:53
+msgid ":ref:`get_transition<class_AnimationNodeStateMachine_method_get_transition>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:55
+msgid ":ref:`get_transition_count<class_AnimationNodeStateMachine_method_get_transition_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:57
+msgid ":ref:`get_transition_from<class_AnimationNodeStateMachine_method_get_transition_from>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:59
+msgid ":ref:`get_transition_to<class_AnimationNodeStateMachine_method_get_transition_to>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:61
+#: ../classes/class_animationnodestatemachine.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:61
+msgid ":ref:`has_node<class_AnimationNodeStateMachine_method_has_node>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:63
+msgid ":ref:`has_transition<class_AnimationNodeStateMachine_method_has_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:65
+msgid ":ref:`remove_node<class_AnimationNodeStateMachine_method_remove_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:67
+msgid ":ref:`remove_transition<class_AnimationNodeStateMachine_method_remove_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:69
+msgid ":ref:`remove_transition_by_index<class_AnimationNodeStateMachine_method_remove_transition_by_index>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:71
+msgid ":ref:`rename_node<class_AnimationNodeStateMachine_method_rename_node>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:73
+msgid ":ref:`replace_node<class_AnimationNodeStateMachine_method_replace_node>` **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:75
+msgid ":ref:`set_end_node<class_AnimationNodeStateMachine_method_set_end_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:77
+msgid ":ref:`set_graph_offset<class_AnimationNodeStateMachine_method_set_graph_offset>` **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:79
+msgid ":ref:`set_node_position<class_AnimationNodeStateMachine_method_set_node_position>` **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:81
+msgid ":ref:`set_start_node<class_AnimationNodeStateMachine_method_set_start_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:85
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:89
+msgid "void **add_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:91
+msgid "向图中添加一个新节点。 ``position``\\ 用于在编辑器中显示。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:97
+msgid "void **add_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` transition **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:99
+msgid "在给定节点之间添加一个过渡。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:105
+msgid ":ref:`String<class_String>` **get_end_node** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:107
+#: ../classes/class_animationnodestatemachine.rst:147
+msgid "返回图的末端节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:113
+msgid ":ref:`Vector2<class_Vector2>` **get_graph_offset** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:115
+msgid "返回图形的绘制偏移。用于编辑器中的显示。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:121
+msgid ":ref:`AnimationNode<class_AnimationNode>` **get_node** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:123
+msgid "返回指定名称的动画节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:129
+msgid ":ref:`String<class_String>` **get_node_name** **(** :ref:`AnimationNode<class_AnimationNode>` node **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:131
+msgid "返回指定动画节点的名称。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:137
+msgid ":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:139
+msgid "返回给定的节点的坐标。用于编辑器中的显示。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:145
+msgid ":ref:`String<class_String>` **get_start_node** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:153
+msgid ":ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` **get_transition** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:155
+msgid "返回给定的过渡。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:161
+msgid ":ref:`int<class_int>` **get_transition_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:163
+msgid "返回图中的连接数。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:169
+msgid ":ref:`String<class_String>` **get_transition_from** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:171
+msgid "返回给定过渡的开始节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:177
+msgid ":ref:`String<class_String>` **get_transition_to** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:179
+msgid "返回给定过渡的端节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:185
+msgid ":ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:187
+msgid "如果图中包含给定的节点，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:193
+msgid ":ref:`bool<class_bool>` **has_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:195
+msgid "如果在给定节点之间存在过渡，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:201
+msgid "void **remove_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:203
+msgid "从图中删除指定的节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:209
+msgid "void **remove_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:211
+msgid "删除两个指定节点之间的过渡。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:217
+msgid "void **remove_transition_by_index** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:219
+msgid "按索引删除给定的过渡。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:225
+msgid "void **rename_node** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:227
+msgid "重命名给定的节点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:233
+msgid "void **replace_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:235
+msgid "替换节点并保持其过渡不变。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:241
+msgid "void **set_end_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:243
+msgid "将给定的节点设置为图形的端点。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:249
+msgid "void **set_graph_offset** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:251
+msgid "设置图形的绘制偏移。用于编辑器中的显示。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:257
+msgid "void **set_node_position** **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:259
+msgid "设置节点的坐标。用于编辑器中的显示。"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:265
+msgid "void **set_start_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnodestatemachine.rst:267
+msgid "将给定的节点设置为图形的起始点。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

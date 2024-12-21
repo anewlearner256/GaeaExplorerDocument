@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffecteq.rst:10
+msgid "AudioEffectEQ"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:14
+msgid "**Inherited By:** :ref:`AudioEffectEQ10<class_AudioEffectEQ10>`, :ref:`AudioEffectEQ21<class_AudioEffectEQ21>`, :ref:`AudioEffectEQ6<class_AudioEffectEQ6>`"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:16
+msgid "音频均衡器的基础类。让你可以控制频率。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:18
+msgid "如果 :ref:`AudioEffectEQ6<class_AudioEffectEQ6>`, :ref:`AudioEffectEQ10<class_AudioEffectEQ10>` 或 :ref:`AudioEffectEQ21<class_AudioEffectEQ21>`\\ 不符合您的需求，请使用它来创建一个自定义均衡器。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:21
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:23
+msgid "AudioEffectEQ让你控制频率。用它来弥补音频中不足之处。AudioEffectEQ在Master总线上很有用，可以完全掌控一个混音，并赋予它更多的特性。当游戏在移动设备上运行时，它们也很有用，可以根据那种扬声器来调整混音（可以被添加，但在插入耳机时禁用）。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:29
+msgid ":ref:`get_band_count<class_AudioEffectEQ_method_get_band_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:31
+msgid ":ref:`get_band_gain_db<class_AudioEffectEQ_method_get_band_gain_db>` **(** :ref:`int<class_int>` band_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:33
+msgid "void"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:33
+msgid ":ref:`set_band_gain_db<class_AudioEffectEQ_method_set_band_gain_db>` **(** :ref:`int<class_int>` band_idx, :ref:`float<class_float>` volume_db **)**"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:37
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:41
+msgid ":ref:`int<class_int>` **get_band_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:43
+msgid "返回均衡器的频段数。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:49
+msgid ":ref:`float<class_float>` **get_band_gain_db** **(** :ref:`int<class_int>` band_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:51
+msgid "返回指定索引处的波段增益，单位为dB。"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:57
+msgid "void **set_band_gain_db** **(** :ref:`int<class_int>` band_idx, :ref:`float<class_float>` volume_db **)**"
+msgstr ""
+
+#: ../classes/class_audioeffecteq.rst:59
+msgid "设置指定索引处的波段增益，单位为dB。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

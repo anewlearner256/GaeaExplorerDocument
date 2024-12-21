@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:10
+msgid "VisualScriptBuiltinFunc"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:14
+msgid "用于调用内置函数的可视化脚本节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:19
+msgid "在 :ref:`VisualScript<class_VisualScript>` 中使用的内置函数。它通常是一个数学函数或一个实用函数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:21
+msgid "也可参阅\\ :ref:`@GDScript<class_@GDScript>`\\ ，了解GDScript语言中的相同函数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:27
+msgid ":ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>`"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:27
+msgid ":ref:`function<class_VisualScriptBuiltinFunc_property_function>`"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:27
+#: ../classes/class_visualscriptbuiltinfunc.rst:328
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:31
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:173
+msgid "enum **BuiltinFunc**:"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:175
+msgid "**MATH_SIN** = **0** --- 返回输入的正弦值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:177
+msgid "**MATH_COS** = **1** --- 返回输入的余弦值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:179
+msgid "**MATH_TAN** = **2** --- 返回输入的正切值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:181
+msgid "**MATH_SINH** = **3** --- 返回输入的双曲正弦。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:183
+msgid "**MATH_COSH** = **4** --- 返回输入的双曲余弦。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:185
+msgid "**MATH_TANH** = **5** --- 返回输入的双曲正切值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:187
+msgid "**MATH_ASIN** = **6** --- 返回输入的反正弦。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:189
+msgid "**MATH_ACOS** = **7** --- 返回输入的反余弦值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:191
+msgid "**MATH_ATAN** = **8** --- 返回输入的反正切。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:193
+msgid "**MATH_ATAN2** = **9** --- 返回输入的反正切，使用两个参数的符号来确定确切的角度。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:195
+msgid "**MATH_SQRT** = **10** --- 返回输入的平方根。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:197
+msgid "**MATH_FMOD** = **11** --- 返回一个输入的余数除以另一个输入的余数，使用浮点数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:199
+msgid "**MATH_FPOSMOD** = **12** --- 返回一个输入除以另一个输入的正余数，使用浮点数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:201
+msgid "**MATH_FLOOR** = **13** --- 返回向下舍入的输入。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:203
+msgid "**MATH_CEIL** = **14** --- 返回向上舍入的输入。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:205
+msgid "**MATH_ROUND** = **15** --- 返回输入值四舍五入到最接近的整数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:207
+msgid "**MATH_ABS** = **16** --- 返回输入的绝对值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:209
+msgid "**MATH_SIGN** = **17** --- 返回输入的符号，将其变成1、-1或0，有助于确定输入是正数还是负数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:211
+msgid "**MATH_POW** = **18** --- 返回被提高到给定幂的输入值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:213
+msgid "**MATH_LOG** = **19** --- 返回输入的自然对数。注意，这不是计算器使用的典型的以10为基数的对数函数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:215
+msgid "**MATH_EXP** = **20** --- 返回数学常量\\ **e**\\ 提高到指定的幂。\\ **e**\\ 的近似值为2.71828。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:217
+msgid "**MATH_ISNAN** = **21** --- 返回输入是否为NaN（Not a Number）。NaN通常是由0除以0产生的，当然也有其他方式。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:219
+msgid "**MATH_ISINF** = **22** --- 返回输入的数字是否为无限大的浮点数。无限通常是由一个数字除以0产生的，当然也有其他的方式。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:221
+msgid "**MATH_EASE** = **23** --- 缓动函数，基于指数。\\ ``s``\\ 是函数的x值，\\ ``curve``\\ 为0时，函数为常量函数，1是线性函数，0到1是缓入，1+是缓出。0到-1是缓出再缓入，低于-1是缓入再缓出。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:223
+msgid "**MATH_DECIMALS** = **24** --- 返回第一个非零数字出现在小数点后的数字位数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:225
+msgid "**MATH_STEPIFY** = **25** --- 返回给定步骤的输入断点。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:227
+msgid "**MATH_LERP** = **26** --- 返回一个在前两个输入之间线性插值的数字，以第三个输入为基础。使用公式\\ ``a + (a - b) * t``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:229
+msgid "**MATH_INVERSE_LERP** = **27**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:231
+msgid "**MATH_RANGE_LERP** = **28**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:233
+msgid "**MATH_MOVE_TOWARD** = **29** --- 根据第三个输入，将数字向一个值移动。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:235
+msgid "**MATH_DECTIME** = **30** --- 返回\\ ``value``\\ 减少\\ ``step``\\ \\*\\ ``amount``\\ 的结果。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:237
+msgid "**MATH_RANDOMIZE** = **31** --- 随机化随机数生成器的种子（或内部状态）。目前的实现是使用一个基于时间的数字重新做种。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:239
+msgid "**MATH_RAND** = **32** --- 返回一个随机的32位整数值。为了获得0到N之间的随机值（其中N小于2^32 - 1），你可以将其与余数函数一起使用。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:241
+msgid "**MATH_RANDF** = **33** --- 返回一个介于0到1之间的随机浮点值。要获得一个介于0到N之间的随机值，可以将其与乘法结合使用。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:243
+msgid "**MATH_RANDOM** = **34** --- 返回两个输入之间的一个随机浮点值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:245
+msgid "**MATH_SEED** = **35** --- 设置随机数生成器的种子。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:247
+msgid "**MATH_RANDSEED** = **36** --- 返回一个来自给定种子的随机值，以及新的种子。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:249
+msgid "**MATH_DEG2RAD** = **37** --- 将输入的度数转换为弧度。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:251
+msgid "**MATH_RAD2DEG** = **38** --- 将输入从弧度转换为度数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:253
+msgid "**MATH_LINEAR2DB** = **39** --- 将输入从线性音量转换为分贝音量。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:255
+msgid "**MATH_DB2LINEAR** = **40** --- 将输入从分贝音量转换为线性音量。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:257
+msgid "**MATH_POLAR2CARTESIAN** = **41** --- 将 2D 点从极坐标系（与原点 ``r`` 的距离和角度 ``th``\\ ）转换为笛卡尔坐标系（X 和 Y 轴）。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:259
+msgid "**MATH_CARTESIAN2POLAR** = **42** --- 将 2D 点的坐标表示，从笛卡尔坐标系（X 和 Y 轴）转换为极坐标系（到原点的距离和角度）。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:261
+msgid "**MATH_WRAP** = **43**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:263
+msgid "**MATH_WRAPF** = **44**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:265
+msgid "**LOGIC_MAX** = **45** --- 返回两个数字中较大的一个，也称为它们的最大值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:267
+msgid "**LOGIC_MIN** = **46** --- 返回两个数字中较小的一个，也被称为它们的最小值。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:269
+msgid "**LOGIC_CLAMP** = **47** --- 返回限定在给定范围内的输入，确保结果永远不会超出该范围。相当于\\ ``min(max(input, range_low), range_high)``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:271
+msgid "**LOGIC_NEAREST_PO2** = **48** --- 将最接近的2的次方返回给输入。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:273
+msgid "**OBJ_WEAKREF** = **49** --- 从输入创建一个\\ :ref:`WeakRef<class_WeakRef>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:275
+msgid "**FUNC_FUNCREF** = **50** --- 从输入创建一个\\ :ref:`FuncRef<class_FuncRef>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:277
+msgid "**TYPE_CONVERT** = **51** --- 在类型之间转换。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:279
+msgid "**TYPE_OF** = **52** --- 返回输入的类型为整数。请查看\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ 以了解可能被返回的整数。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:281
+msgid "**TYPE_EXISTS** = **53** --- 检查类型是否已在 :ref:`ClassDB<class_ClassDB>` 中注册。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:283
+msgid "**TEXT_CHAR** = **54** --- 返回具有给定 ascii 值的字符。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:285
+msgid "**TEXT_STR** = **55** --- 将输入转换为字符串。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:287
+msgid "**TEXT_PRINT** = **56** --- 打印给定的字符串到输出窗口。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:289
+msgid "**TEXT_PRINTERR** = **57** --- 打印给定的字符串到标准错误输出。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:291
+msgid "**TEXT_PRINTRAW** = **58** --- 打印给定的字符串到标准输出，不加换行。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:293
+msgid "**VAR_TO_STR** = **59** --- 将 :ref:`Variant<class_Variant>` 序列化为字符串。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:295
+msgid "**STR_TO_VAR** = **60** --- 从一个使用 :ref:`VAR_TO_STR<class_VisualScriptBuiltinFunc_constant_VAR_TO_STR>`\\ 序列化的字符串中反序列化一个 :ref:`Variant<class_Variant>` 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:297
+msgid "**VAR_TO_BYTES** = **61** --- 将 :ref:`Variant<class_Variant>` 序列化为 :ref:`PoolByteArray<class_PoolByteArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:299
+msgid "**BYTES_TO_VAR** = **62** --- 从使用 :ref:`VAR_TO_BYTES<class_VisualScriptBuiltinFunc_constant_VAR_TO_BYTES>` 序列化的 :ref:`PoolByteArray<class_PoolByteArray>` 反序列化 :ref:`Variant<class_Variant>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:301
+msgid "**COLORN** = **63** --- 返回具有给定名称的\\ :ref:`Color<class_Color>`\\ 和从0到1的alpha。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:303
+msgid "\\ **注意：** 名称在\\ ``color_names.inc``\\ 中定义。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:305
+msgid "**MATH_SMOOTHSTEP** = **64** --- 返回一个在前两个输入之间平滑内插的数字，基于第三个输入。类似于 :ref:`MATH_LERP<class_VisualScriptBuiltinFunc_constant_MATH_LERP>`\\ ，但在开始时插值较快，结束时插值较慢。使用Hermite插值公式。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:312
+msgid "**MATH_POSMOD** = **65**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:314
+msgid "**MATH_LERP_ANGLE** = **66**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:316
+msgid "**TEXT_ORD** = **67**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:318
+msgid "**FUNC_MAX** = **68** --- 表示\\ :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:321
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:325
+msgid ":ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` **function**"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:328
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:330
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:330
+msgid "set_func(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:332
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:332
+msgid "get_func()"
+msgstr ""
+
+#: ../classes/class_visualscriptbuiltinfunc.rst:335
+msgid "要执行的函数。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_spatialvelocitytracker.rst:10
+msgid "SpatialVelocityTracker"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:20
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:20
+msgid ":ref:`track_physics_step<class_SpatialVelocityTracker_property_track_physics_step>`"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:20
+#: ../classes/class_spatialvelocitytracker.rst:42
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:27
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:27
+msgid ":ref:`get_tracked_linear_velocity<class_SpatialVelocityTracker_method_get_tracked_linear_velocity>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:29
+#: ../classes/class_spatialvelocitytracker.rst:31
+msgid "void"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:29
+msgid ":ref:`reset<class_SpatialVelocityTracker_method_reset>` **(** :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:31
+msgid ":ref:`update_position<class_SpatialVelocityTracker_method_update_position>` **(** :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:35
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:39
+msgid ":ref:`bool<class_bool>` **track_physics_step**"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:42
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:44
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:44
+msgid "set_track_physics_step(value)"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:46
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:46
+msgid "is_tracking_physics_step()"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:50
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:54
+msgid ":ref:`Vector3<class_Vector3>` **get_tracked_linear_velocity** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:60
+msgid "void **reset** **(** :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_spatialvelocitytracker.rst:66
+msgid "void **update_position** **(** :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

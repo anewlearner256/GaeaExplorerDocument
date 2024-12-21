@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../development/cpp/custom_audiostreams.rst:4
+msgid "Custom AudioStreams"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:9
+msgid "AudioStream is the base class of all audio emitting objects. AudioStreamPlayer binds onto an AudioStream to emit PCM data into an AudioServer which manages audio drivers."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:13
+msgid "All audio resources require two audio based classes: AudioStream and AudioStreamPlayback. As a data container, AudioStream contains the resource and exposes itself to GDScript. AudioStream references its own internal custom AudioStreamPlayback which translates AudioStream into PCM data."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:19
+msgid "This guide assumes the reader knows how to create C++ modules. If not, refer to this guide :ref:`doc_custom_modules_in_c++`."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:23
+#: ../development/cpp/custom_audiostreams.rst:117
+#: ../development/cpp/custom_audiostreams.rst:348
+msgid "References:"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:25
+#: ../development/cpp/custom_audiostreams.rst:119
+#: ../development/cpp/custom_audiostreams.rst:350
+msgid "`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/master/servers/audio/audio_stream.h>`__"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:26
+#: ../development/cpp/custom_audiostreams.rst:351
+msgid "`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/master/scene/audio/audio_player.cpp>`__"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:29
+msgid "What for?"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:31
+msgid "Binding external libraries (like Wwise, FMOD, etc)."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:32
+msgid "Adding custom audio queues"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:33
+msgid "Adding support for more audio formats"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:36
+msgid "Create an AudioStream"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:38
+msgid "An AudioStream consists of three components: data container, stream name, and an AudioStreamPlayback friend class generator. Audio data can be loaded in a number of ways such as with an internal counter for a tone generator, internal/external buffer, or a file reference."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:43
+msgid "Some AudioStreams need to be stateless such as objects loaded from ResourceLoader. ResourceLoader loads once and references the same object regardless how many times ``load`` is called on a specific resource. Therefore, playback state must be self-contained in AudioStreamPlayback."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:123
+msgid "Create an AudioStreamPlayback"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:125
+msgid "AudioStreamPlayer uses ``mix`` callback to obtain PCM data. The callback must match sample rate and fill the buffer."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:127
+msgid "Since AudioStreamPlayback is controlled by the audio thread, i/o and dynamic memory allocation are forbidden."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:232
+msgid "Resampling"
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:234
+msgid "GaaeExplorer's AudioServer currently uses 44100 Hz sample rate. When other sample rates are needed such as 48000, either provide one or use AudioStreamPlaybackResampled. GaaeExplorer provides cubic interpolation for audio resampling."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:238
+msgid "Instead of overloading ``mix``, AudioStreamPlaybackResampled uses ``_mix_internal`` to query AudioFrames and ``get_stream_sampling_rate`` to query current mix rate."
+msgstr ""
+
+#: ../development/cpp/custom_audiostreams.rst:349
+msgid "`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/core/math/audio_frame.h>`__"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

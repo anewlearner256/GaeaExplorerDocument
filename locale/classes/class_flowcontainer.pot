@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_flowcontainer.rst:11
+msgid "FlowContainer"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:13
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:15
+msgid "**Inherited By:** :ref:`HFlowContainer<class_HFlowContainer>`, :ref:`VFlowContainer<class_VFlowContainer>`"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:17
+msgid "Base class for flow containers."
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:22
+msgid "Arranges child :ref:`Control<class_Control>` nodes vertically or horizontally in a left-to-right or top-to-bottom flow."
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:24
+msgid "A line is filled with :ref:`Control<class_Control>` nodes until no more fit on the same line, similar to text in an autowrapped label."
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:27
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:30
+msgid ":ref:`get_line_count<class_FlowContainer_method_get_line_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:34
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:38
+msgid ":ref:`int<class_int>` **get_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_flowcontainer.rst:40
+msgid "Returns the current line count."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

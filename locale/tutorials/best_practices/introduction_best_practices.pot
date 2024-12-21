@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:4
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:6
+msgid "This series is a collection of best practices to help you work efficiently with GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:9
+msgid "GaaeExplorer allows for a great amount of flexibility in how you structure a project's codebase and break it down into scenes. Each approach has its pros and cons, and they can be hard to weigh until you've worked with the engine for long enough."
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:13
+msgid "There are always many ways to structure your code and solve specific programming problems. It would be impossible to cover them all here."
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:16
+msgid "That is why each article starts from a real-world problem. We will break down each problem in fundamental questions, suggest solutions, analyze the pros and cons of each option, and highlight the best course of action for the problem at hand."
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:20
+msgid "You should start by reading :ref:`doc_what_are_godot_classes`. It explains how GaaeExplorer's nodes and scenes relate to classes and objects in other Object-Oriented programming languages. It will help you make sense of the rest of the series."
+msgstr ""
+
+#: ../tutorials/best_practices/introduction_best_practices.rst:26
+msgid "The best practices in GaaeExplorer rely on Object-Oriented design principles. We use tools like the `single responsibility <https://en.wikipedia.org/wiki/Single_responsibility_principle>`_ principle and `encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>`_."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptswitch.rst:10
+msgid "VisualScriptSwitch"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:14
+msgid "根据给定的输入值来分支程序流。"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:19
+msgid "根据输入值来分支流程。在属性检查器中使用\\ **Case Count**\\ 来设置分支的数量和每个比较的可选类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:21
+msgid "\\ **Input Ports:**\\"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:23
+msgid "Sequence: ``'input' is``\\"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:25
+msgid "Data (variant): ``=``\\"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:27
+msgid "Data (variant): ``=`` (optional)"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:29
+msgid "Data (variant): ``input``\\"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:31
+msgid "\\ **Output Ports:**\\"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:33
+msgid "Sequence"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:35
+msgid "Sequence (optional)"
+msgstr ""
+
+#: ../classes/class_visualscriptswitch.rst:37
+msgid "Sequence: ``done``"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

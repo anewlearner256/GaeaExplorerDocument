@@ -1,0 +1,659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_array.rst:10
+msgid "Array"
+msgstr ""
+
+#: ../classes/class_array.rst:12
+msgid "通用数组数据类型。"
+msgstr ""
+
+#: ../classes/class_array.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_array.rst:17
+msgid "一个通用数组，可以包含多个任何类型的元素，可以通过从 0 开始的数字索引进行访问。负数索引可以用来从后面数起，就像在 Python 中一样（-1 是最后一个元素、-2 是倒数第二，等等）。"
+msgstr ""
+
+#: ../classes/class_array.rst:19
+msgid "\\ **Example:**\\"
+msgstr ""
+
+#: ../classes/class_array.rst:30
+msgid "数组可以使用 ``+`` 操作符进行连接。"
+msgstr ""
+
+#: ../classes/class_array.rst:38
+msgid "\\ **注意：**\\ 用 ``+=`` 操作符串联将创建一个新的数组，这是有代价的。如果你想把另一个数组追加到现有的数组中，\\ :ref:`append_array<class_Array_method_append_array>` 会更有效。"
+msgstr ""
+
+#: ../classes/class_array.rst:40
+msgid "\\ **注意：**\\ 数组总是通过引用来传递。要获得一个可以独立于原始数组而被修改的数组的副本，请使用 :ref:`duplicate<class_Array_method_duplicate>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:42
+msgid "\\ **注意：**\\ 当用 ``const`` 声明数组时，数组本身仍然可以通过定义各个索引上的值或推/移元素而被修改。使用 ``const`` 只能防止在初始化常数后将其赋值给另一个值。"
+msgstr ""
+
+#: ../classes/class_array.rst:45
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_array.rst:48
+#: ../classes/class_array.rst:50
+#: ../classes/class_array.rst:52
+#: ../classes/class_array.rst:54
+#: ../classes/class_array.rst:56
+#: ../classes/class_array.rst:58
+#: ../classes/class_array.rst:60
+#: ../classes/class_array.rst:76
+#: ../classes/class_array.rst:120
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_array.rst:48
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:50
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:52
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:54
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:56
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:58
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:60
+msgid ":ref:`Array<class_Array_method_Array>` **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:62
+#: ../classes/class_array.rst:64
+#: ../classes/class_array.rst:72
+#: ../classes/class_array.rst:80
+#: ../classes/class_array.rst:92
+#: ../classes/class_array.rst:94
+#: ../classes/class_array.rst:106
+#: ../classes/class_array.rst:108
+#: ../classes/class_array.rst:110
+#: ../classes/class_array.rst:112
+#: ../classes/class_array.rst:116
+#: ../classes/class_array.rst:122
+#: ../classes/class_array.rst:124
+msgid "void"
+msgstr ""
+
+#: ../classes/class_array.rst:62
+msgid ":ref:`append<class_Array_method_append>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:64
+msgid ":ref:`append_array<class_Array_method_append_array>` **(** :ref:`Array<class_Array>` array **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:66
+#: ../classes/class_array.rst:86
+#: ../classes/class_array.rst:96
+#: ../classes/class_array.rst:98
+#: ../classes/class_array.rst:100
+#: ../classes/class_array.rst:102
+#: ../classes/class_array.rst:104
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_array.rst:66
+msgid ":ref:`back<class_Array_method_back>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:68
+#: ../classes/class_array.rst:70
+#: ../classes/class_array.rst:74
+#: ../classes/class_array.rst:82
+#: ../classes/class_array.rst:84
+#: ../classes/class_array.rst:90
+#: ../classes/class_array.rst:114
+#: ../classes/class_array.rst:118
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_array.rst:68
+msgid ":ref:`bsearch<class_Array_method_bsearch>` **(** :ref:`Variant<class_Variant>` value, :ref:`bool<class_bool>` before=true **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:70
+msgid ":ref:`bsearch_custom<class_Array_method_bsearch_custom>` **(** :ref:`Variant<class_Variant>` value, :ref:`Object<class_Object>` obj, :ref:`String<class_String>` func, :ref:`bool<class_bool>` before=true **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:72
+msgid ":ref:`clear<class_Array_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:74
+msgid ":ref:`count<class_Array_method_count>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:76
+msgid ":ref:`duplicate<class_Array_method_duplicate>` **(** :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:78
+#: ../classes/class_array.rst:88
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_array.rst:78
+msgid ":ref:`empty<class_Array_method_empty>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:80
+msgid ":ref:`erase<class_Array_method_erase>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:82
+msgid ":ref:`find<class_Array_method_find>` **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:84
+msgid ":ref:`find_last<class_Array_method_find_last>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:86
+msgid ":ref:`front<class_Array_method_front>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:88
+msgid ":ref:`has<class_Array_method_has>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:90
+msgid ":ref:`hash<class_Array_method_hash>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:92
+msgid ":ref:`insert<class_Array_method_insert>` **(** :ref:`int<class_int>` position, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:94
+msgid ":ref:`invert<class_Array_method_invert>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:96
+msgid ":ref:`max<class_Array_method_max>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:98
+msgid ":ref:`min<class_Array_method_min>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:100
+msgid ":ref:`pop_at<class_Array_method_pop_at>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:102
+msgid ":ref:`pop_back<class_Array_method_pop_back>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:104
+msgid ":ref:`pop_front<class_Array_method_pop_front>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:106
+msgid ":ref:`push_back<class_Array_method_push_back>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:108
+msgid ":ref:`push_front<class_Array_method_push_front>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:110
+msgid ":ref:`remove<class_Array_method_remove>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:112
+msgid ":ref:`resize<class_Array_method_resize>` **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:114
+msgid ":ref:`rfind<class_Array_method_rfind>` **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:116
+msgid ":ref:`shuffle<class_Array_method_shuffle>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:118
+msgid ":ref:`size<class_Array_method_size>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:120
+msgid ":ref:`slice<class_Array_method_slice>` **(** :ref:`int<class_int>` begin, :ref:`int<class_int>` end, :ref:`int<class_int>` step=1, :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:122
+msgid ":ref:`sort<class_Array_method_sort>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:124
+msgid ":ref:`sort_custom<class_Array_method_sort_custom>` **(** :ref:`Object<class_Object>` obj, :ref:`String<class_String>` func **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:128
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_array.rst:132
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:134
+msgid "从\\ :ref:`PoolColorArray<class_PoolColorArray>`\\ 构建一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:138
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:140
+msgid "从一个\\ :ref:`PoolVector3Array<class_PoolVector3Array>`\\ 构建一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:144
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:146
+msgid "从\\ :ref:`PoolVector2Array<class_PoolVector2Array>`\\ 构造一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:150
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:152
+msgid "从\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 构建一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:156
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:158
+msgid "从\\ :ref:`PoolRealArray<class_PoolRealArray>`\\ 构造一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:162
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:164
+msgid "从\\ :ref:`PoolIntArray<class_PoolIntArray>`\\ 构建一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:168
+msgid ":ref:`Array<class_Array>` **Array** **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:170
+msgid "从\\ :ref:`PoolByteArray<class_PoolByteArray>`\\ 构建一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:176
+msgid "void **append** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:178
+msgid "向数组末尾追加一个元素（\\ :ref:`push_back<class_Array_method_push_back>` 的别名）。"
+msgstr ""
+
+#: ../classes/class_array.rst:184
+msgid "void **append_array** **(** :ref:`Array<class_Array>` array **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:186
+msgid "在此数组的末尾追加另一个数组。"
+msgstr ""
+
+#: ../classes/class_array.rst:199
+msgid ":ref:`Variant<class_Variant>` **back** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:201
+msgid "返回数组的最后一个元素。如果数组为空，则打印一个错误并返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:203
+msgid "\\ **注意：** 调用这个函数与写入\\ ``array[-1]``\\ 不一样，如果数组是空的，当从编辑器运行时，按索引访问将暂停项目的执行。"
+msgstr ""
+
+#: ../classes/class_array.rst:209
+msgid ":ref:`int<class_int>` **bsearch** **(** :ref:`Variant<class_Variant>` value, :ref:`bool<class_bool>` before=true **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:211
+msgid "使用二分法查找已有值的索引（该值不存在时，为现有顺序下的插入索引）。\\ ``before`` 参数是可选的，为 ``false`` 时返回的索引位于数组中所有同值元素之后。"
+msgstr ""
+
+#: ../classes/class_array.rst:213
+msgid "\\ **注意：** 在未排序的数组上调用 :ref:`bsearch<class_Array_method_bsearch>` 会产生预料之外的行为。"
+msgstr ""
+
+#: ../classes/class_array.rst:219
+msgid ":ref:`int<class_int>` **bsearch_custom** **(** :ref:`Variant<class_Variant>` value, :ref:`Object<class_Object>` obj, :ref:`String<class_String>` func, :ref:`bool<class_bool>` before=true **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:221
+msgid "使用二分法查找以及在\\ ``obj``\\ 中声明的自定义比较方法，已有值的索引（该值不存在时，为现有顺序下的插入索引）。\\ ``before`` 参数是可选的，为 ``false`` 时返回的索引位于数组中所有同值元素之后。自定义方法接收两个参数（数组中的值和要搜索的值），如果第一个参数小于第二个参数，必须返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:246
+msgid "\\ **注意:** 在未排序的数组上调用\\ :ref:`bsearch_custom<class_Array_method_bsearch_custom>`\\ 会导致预料之外的行为。"
+msgstr ""
+
+#: ../classes/class_array.rst:252
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:254
+msgid "清空数组。与调用 :ref:`resize<class_Array_method_resize>` 时指定大小为 ``0`` 等价。"
+msgstr ""
+
+#: ../classes/class_array.rst:260
+msgid ":ref:`int<class_int>` **count** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:262
+msgid "返回元素在数组中出现的次数。"
+msgstr ""
+
+#: ../classes/class_array.rst:268
+msgid ":ref:`Array<class_Array>` **duplicate** **(** :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:270
+msgid "返回该数组的副本。"
+msgstr ""
+
+#: ../classes/class_array.rst:272
+msgid "\\ ``deep`` 为 ``true`` 时会执行深拷贝：复制所有嵌套数组和字典，不与原数组共享。为 ``false`` 时为浅拷贝，会维持对原有嵌套数组和字典的引用，所以修改副本中的子数组或者字典也会影响原数组所引用的内容。"
+msgstr ""
+
+#: ../classes/class_array.rst:278
+msgid ":ref:`bool<class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:280
+msgid "该数组为空时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:286
+msgid "void **erase** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:288
+msgid "从数组中删除第一次出现的值。要按索引删除元素，请改用 :ref:`remove<class_Array_method_remove>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:290
+msgid "\\ **注意：** 该方法就地操作，不返回值。"
+msgstr ""
+
+#: ../classes/class_array.rst:292
+msgid "\\ **注意：** 在大型数组上，如果移除的元素靠近数组的开头（索引 0），则此方法会较慢。这是因为所有放置在删除元素之后的元素都必须重新索引。"
+msgstr ""
+
+#: ../classes/class_array.rst:298
+msgid ":ref:`int<class_int>` **find** **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:300
+msgid "在数组中查找指定的值，返回对应的索引，未找到时返回 ``-1``\\ 。还可以传入搜索起始位置的索引。"
+msgstr ""
+
+#: ../classes/class_array.rst:306
+msgid ":ref:`int<class_int>` **find_last** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:308
+msgid "在数组中逆序查找指定的值，返回对应的索引，未找到时返回 ``-1``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:314
+msgid ":ref:`Variant<class_Variant>` **front** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:316
+msgid "返回数组的第一个元素。如果数组为空，则打印错误并返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:318
+msgid "\\ **注：**\\ 调用这个函数和写\\ ``array[0]``\\ 是不一样的，如果数组为空，从编辑器运行时按索引访问将暂停项目执行。"
+msgstr ""
+
+#: ../classes/class_array.rst:324
+msgid ":ref:`bool<class_bool>` **has** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:326
+msgid "如果数组包含指定值时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:347
+msgid ":ref:`int<class_int>` **hash** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:349
+msgid "返回这个数组的整数哈希值"
+msgstr ""
+
+#: ../classes/class_array.rst:351
+msgid "\\ **注意:** 仅仅内容相同的数组会产生不同的哈希值, 必须要完全一致的数组才会产生相同的哈希值."
+msgstr ""
+
+#: ../classes/class_array.rst:357
+msgid "void **insert** **(** :ref:`int<class_int>` position, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:359
+msgid "在给定的数组位置插入一个新值. 位置必须合法, 或者在数组末尾(``pos == size()``)."
+msgstr ""
+
+#: ../classes/class_array.rst:361
+msgid "\\ **注意:** 这个数组没有返回值."
+msgstr ""
+
+#: ../classes/class_array.rst:363
+msgid "\\ **注意:** 在较大的数组中, 如果插入值的位置在数组偏前的位置, 这个方法的运行速度会比较慢, 因为在插入值后面所有的元素都要被重新索引."
+msgstr ""
+
+#: ../classes/class_array.rst:369
+msgid "void **invert** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:371
+msgid "将数组中的元素逆序排列。"
+msgstr ""
+
+#: ../classes/class_array.rst:377
+msgid ":ref:`Variant<class_Variant>` **max** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:379
+msgid "如果数组中的所有元素都是可比较的类型，返回其中的最大值。如果无法比较，返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:385
+msgid ":ref:`Variant<class_Variant>` **min** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:387
+msgid "如果数组中的所有元素都是可比较的类型，返回其中的最小值。如果无法比较，返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:393
+msgid ":ref:`Variant<class_Variant>` **pop_at** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:395
+msgid "移除并返回索引\\ ``position``\\ 处的数组元素。如果是负数，\\ ``position``\\ 被认为是相对于数组的末端。如果数组是空的或者被越界访问，则保留数组不动，并返回\\ ``null``\\ 。当数组被越界访问时，会打印出一条错误信息，但当数组为空时，则不会。"
+msgstr ""
+
+#: ../classes/class_array.rst:397
+msgid "\\ **注意：** 在大的数组上，这个方法可能比\\ :ref:`pop_back<class_Array_method_pop_back>`\\ 慢，因为它将重新索引位于被移除元素之后的数组元素。数组越大，被移除元素的索引越低，\\ :ref:`pop_at<class_Array_method_pop_at>`\\ 的速度就越慢。"
+msgstr ""
+
+#: ../classes/class_array.rst:403
+msgid ":ref:`Variant<class_Variant>` **pop_back** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:405
+msgid "删除并返回数组中的末尾元素。数组为空时，返回 ``null``\\ 。另请参阅 :ref:`pop_front<class_Array_method_pop_front>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:411
+msgid ":ref:`Variant<class_Variant>` **pop_front** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:413
+msgid "移除并返回数组的第一个元素。如果数组是空的，将不会输出任何错误信息并返回\\ ``null``\\ 。另请参阅 :ref:`pop_back<class_Array_method_pop_back>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:415
+msgid "\\ **注意：** 当数组元素很多时，由于 :ref:`pop_front<class_Array_method_pop_front>` 每次调用时都要重新寻找数组所有元素的索引，所以会比 :ref:`pop_back<class_Array_method_pop_back>` 慢很多。数组 越大，\\ :ref:`pop_front<class_Array_method_pop_front>` 越慢。"
+msgstr ""
+
+#: ../classes/class_array.rst:421
+msgid "void **push_back** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:423
+msgid "在数组的末端添加一个元素。参阅\\ :ref:`push_front<class_Array_method_push_front>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:429
+msgid "void **push_front** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:431
+msgid "在数组的开头添加一个元素。参阅\\ :ref:`push_back<class_Array_method_push_back>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:433
+msgid "\\ **注意:** 在大数组中，这个方法比\\ :ref:`push_back<class_Array_method_push_back>`\\ 慢得多，因为每次调用它都会重新索引所有数组的元素。数组越大，\\ :ref:`push_front<class_Array_method_push_front>`\\ 的速度就越慢。"
+msgstr ""
+
+#: ../classes/class_array.rst:439
+msgid "void **remove** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:441
+msgid "按索引从数组中移除一个元素。如果索引在数组中不存在，则什么也不会发生。要通过搜索一个元素的值来移除它，请使用\\ :ref:`erase<class_Array_method_erase>`\\ 来代替。"
+msgstr ""
+
+#: ../classes/class_array.rst:443
+msgid "\\ **注意:** 这个方法是就地操作，不返回值。"
+msgstr ""
+
+#: ../classes/class_array.rst:445
+msgid "\\ **注意:** 在大数组中，如果被删除的元素靠近数组的开头（索引0），这个方法会比较慢。这是因为所有放置在被移除元素之后的元素都要被重新索引。"
+msgstr ""
+
+#: ../classes/class_array.rst:451
+msgid "void **resize** **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:453
+msgid "调整数组至包含不同数量的元素。如果数组变小则清除多余元素，变大则新元素为 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:459
+msgid ":ref:`int<class_int>` **rfind** **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:461
+msgid "逆序搜索数组。还可以传入搜索起始位置的索引，如果为负数，则起始位置从数组的末尾开始计算。"
+msgstr ""
+
+#: ../classes/class_array.rst:467
+msgid "void **shuffle** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:469
+msgid "将数组打乱，元素随机排列。该方法使用全局随机数生成器，与 :ref:`@GDScript.randi<class_@GDScript_method_randi>` 等方法一致。如果你想每次都使用新的种子，让打乱无法重现，则可以调用 :ref:`@GDScript.randomize<class_@GDScript_method_randomize>`\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:475
+msgid ":ref:`int<class_int>` **size** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:477
+msgid "返回数组中元素的个数。"
+msgstr ""
+
+#: ../classes/class_array.rst:483
+msgid ":ref:`Array<class_Array>` **slice** **(** :ref:`int<class_int>` begin, :ref:`int<class_int>` end, :ref:`int<class_int>` step=1, :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:485
+msgid "复制函数中描述的子集并以数组形式返回，如果\\ ``deep``\\ 为\\ ``true``\\ ，则深度复制数组。下索引和上索引是包含的，\\ ``step``\\ 描述了分片时索引之间的变化。"
+msgstr ""
+
+#: ../classes/class_array.rst:491
+msgid "void **sort** **(** **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:493
+msgid "对数组进行排序。"
+msgstr ""
+
+#: ../classes/class_array.rst:495
+msgid "\\ **注意：**\\ 字符串按字母顺序排序（与自然顺序相反）。当对一个以数字序列结尾的字符串数组进行排序时，这可能会导致意外的行为。请看下面的例子。"
+msgstr ""
+
+#: ../classes/class_array.rst:507
+msgid "void **sort_custom** **(** :ref:`Object<class_Object>` obj, :ref:`String<class_String>` func **)**"
+msgstr ""
+
+#: ../classes/class_array.rst:509
+msgid "使用一个自定义的方法对数组进行排序。参数是一个持有该方法的对象和该方法的名称。自定义方法接收两个参数（一对来自数组的元素），并且必须返回 ``true`` 或者 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_array.rst:511
+msgid "对于两个元素 ``a`` 和 ``b``\\ ，如果给定的方法返回 ``true``\\ ，元素 ``b`` 将在数组中元素 ``a`` 之后。"
+msgstr ""
+
+#: ../classes/class_array.rst:513
+msgid "\\ **注意：**\\ 你不能随机化返回值，因为堆排序算法期望一个确定的结果。而这样做会导致意外的行为。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

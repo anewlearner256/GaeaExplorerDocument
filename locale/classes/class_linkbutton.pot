@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_linkbutton.rst:10
+msgid "LinkButton"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:12
+msgid "**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:14
+msgid "简单的按钮，用于表示对某些资源的链接。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:19
+msgid "这种按钮主要用于与按钮的交互引起上下文变化时，如链接到网页。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:21
+msgid "参阅\\ :ref:`BaseButton<class_BaseButton>`\\ ，它包含了该节点相关的常用属性和方法。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:27
+msgid "``0`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:29
+msgid ":ref:`CursorShape<enum_Control_CursorShape>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:29
+msgid "mouse_default_cursor_shape"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:29
+msgid "``2`` (overrides :ref:`Control<class_Control_property_mouse_default_cursor_shape>`)"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:31
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:31
+msgid ":ref:`text<class_LinkButton_property_text>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:31
+#: ../classes/class_linkbutton.rst:82
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:33
+msgid ":ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:33
+msgid ":ref:`underline<class_LinkButton_property_underline>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:33
+#: ../classes/class_linkbutton.rst:98
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:37
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:40
+#: ../classes/class_linkbutton.rst:42
+#: ../classes/class_linkbutton.rst:44
+#: ../classes/class_linkbutton.rst:46
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:40
+msgid ":ref:`font_color<class_LinkButton_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:40
+#: ../classes/class_linkbutton.rst:115
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:42
+msgid ":ref:`font_color_focus<class_LinkButton_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:42
+#: ../classes/class_linkbutton.rst:44
+#: ../classes/class_linkbutton.rst:127
+#: ../classes/class_linkbutton.rst:139
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:44
+msgid ":ref:`font_color_hover<class_LinkButton_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:46
+msgid ":ref:`font_color_pressed<class_LinkButton_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:46
+#: ../classes/class_linkbutton.rst:151
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:48
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:48
+msgid ":ref:`underline_spacing<class_LinkButton_theme_constant_underline_spacing>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:48
+#: ../classes/class_linkbutton.rst:163
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:50
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:50
+msgid ":ref:`font<class_LinkButton_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:52
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:52
+msgid ":ref:`focus<class_LinkButton_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:56
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:66
+msgid "enum **UnderlineMode**:"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:68
+msgid "**UNDERLINE_MODE_ALWAYS** = **0** --- LinkButton 链接按钮将始终在其文本底部显示下划线。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:70
+msgid "**UNDERLINE_MODE_ON_HOVER** = **1** --- 当鼠标光标悬停在 LinkButton 链接按钮的文本底部时，它会显示一个下划线。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:72
+msgid "**UNDERLINE_MODE_NEVER** = **2** --- LinkButton链接按钮永远不会在其文本的底部显示下划线。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:75
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:79
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:82
+#: ../classes/class_linkbutton.rst:98
+#: ../classes/class_linkbutton.rst:115
+#: ../classes/class_linkbutton.rst:127
+#: ../classes/class_linkbutton.rst:139
+#: ../classes/class_linkbutton.rst:151
+#: ../classes/class_linkbutton.rst:163
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:84
+#: ../classes/class_linkbutton.rst:100
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:84
+msgid "set_text(value)"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:86
+#: ../classes/class_linkbutton.rst:102
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:86
+msgid "get_text()"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:89
+msgid "按钮的文字，将显示在按钮的区域内。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:95
+msgid ":ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` **underline**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:100
+msgid "set_underline_mode(value)"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:102
+msgid "get_underline_mode()"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:105
+msgid "决定何时显示下划线。参阅\\ :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`\\ 的选项。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:108
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:112
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:118
+msgid "``LinkButton``\\ 默认的字体颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:124
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:130
+msgid "当\\ ``LinkButton``\\ 获得焦点时使用的文本\\ :ref:`Color<class_Color>`\\ 。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:136
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:142
+msgid "当\\ ``LinkButton``\\ 被悬停时使用的文本颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:148
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:154
+msgid "当\\ ``LinkButton``\\ 被按下时使用的文本颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:160
+msgid ":ref:`int<class_int>` **underline_spacing**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:166
+msgid "文本基线和下划线之间的垂直空间。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:172
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:174
+msgid "``LinkButton``\\ 文本的字体\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:180
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_linkbutton.rst:182
+msgid "当 ``LinkButton`` 被聚焦时使用的样式盒 :ref:`StyleBox<class_StyleBox>`\\ 。它显示在当前的\\ :ref:`StyleBox<class_StyleBox>`\\ 上，所以使用\\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\\ 将只是禁用焦点的视觉效果。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

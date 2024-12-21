@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_configfile.rst:10
+msgid "ConfigFile"
+msgstr ""
+
+#: ../classes/class_configfile.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_configfile.rst:14
+msgid "用于处理 INI 样式文件的辅助类。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_configfile.rst:19
+msgid "这个辅助类可以用来在文件系统中使用 INI 风格来格式化存储 :ref:`Variant<class_Variant>` 值。存储的值由部分和对应键来识别。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:28
+msgid "存储的数据可以被保存到文件中，或从文件中解析出来，尽管 ConfigFile 对象也可以直接使用而不需要访问文件系统。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:30
+msgid "下面的例子展示了如何创建一个简单的 ``ConfigFile`` 并将其保存在磁盘上。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:46
+msgid "这个例子显示了如何加载上述文件。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:67
+msgid "任何改变 ConfigFile 的操作，如 :ref:`set_value<class_ConfigFile_method_set_value>`\\ 、\\ :ref:`clear<class_ConfigFile_method_clear>` 或 :ref:`erase_section<class_ConfigFile_method_erase_section>`\\ ，都只改变内存中加载的内容。如果你想把变化写入文件，必须用 :ref:`save<class_ConfigFile_method_save>`\\ 、\\ :ref:`save_encrypted<class_ConfigFile_method_save_encrypted>` 或 :ref:`save_encrypted_pass<class_ConfigFile_method_save_encrypted_pass>` 保存这些变化。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:69
+msgid "请记住，部分和属性名称不能包含空格。空格之后的内容在保存和加载时都会被忽略。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:71
+msgid "配置文件还可以包含以分号开头的手动编写的注释行（\\ ``;``\\ ）。这些行在解析文件时将被忽略。请注意，在保存 ConfigFile 时，注释将会丢失。注释对于专用的服务器配置文件仍然很有用，因为如果没有明确的用户操作，这些文件通常不会被覆盖。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:73
+msgid "\\ **注意：**\\ 给予配置文件扩展名对其格式或行为没有任何影响。根据惯例，这里使用的是 ``.cfg`` 扩展名，但任何其他扩展名，如 ``.ini`` 也是有效的。由于 ``.cfg`` 和 ``.ini`` 都不是标准化的，GaaeExplorer 的 ConfigFile 格式可能与其他程序编写的文件有所不同。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:76
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_configfile.rst:79
+#: ../classes/class_configfile.rst:81
+#: ../classes/class_configfile.rst:83
+#: ../classes/class_configfile.rst:109
+msgid "void"
+msgstr ""
+
+#: ../classes/class_configfile.rst:79
+msgid ":ref:`clear<class_ConfigFile_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:81
+msgid ":ref:`erase_section<class_ConfigFile_method_erase_section>` **(** :ref:`String<class_String>` section **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:83
+msgid ":ref:`erase_section_key<class_ConfigFile_method_erase_section_key>` **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:85
+#: ../classes/class_configfile.rst:87
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_configfile.rst:85
+msgid ":ref:`get_section_keys<class_ConfigFile_method_get_section_keys>` **(** :ref:`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:87
+msgid ":ref:`get_sections<class_ConfigFile_method_get_sections>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:89
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_configfile.rst:89
+msgid ":ref:`get_value<class_ConfigFile_method_get_value>` **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` default=null **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:91
+#: ../classes/class_configfile.rst:93
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_configfile.rst:91
+msgid ":ref:`has_section<class_ConfigFile_method_has_section>` **(** :ref:`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:93
+msgid ":ref:`has_section_key<class_ConfigFile_method_has_section_key>` **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:95
+#: ../classes/class_configfile.rst:97
+#: ../classes/class_configfile.rst:99
+#: ../classes/class_configfile.rst:101
+#: ../classes/class_configfile.rst:103
+#: ../classes/class_configfile.rst:105
+#: ../classes/class_configfile.rst:107
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_configfile.rst:95
+msgid ":ref:`load<class_ConfigFile_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:97
+msgid ":ref:`load_encrypted<class_ConfigFile_method_load_encrypted>` **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:99
+msgid ":ref:`load_encrypted_pass<class_ConfigFile_method_load_encrypted_pass>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:101
+msgid ":ref:`parse<class_ConfigFile_method_parse>` **(** :ref:`String<class_String>` data **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:103
+msgid ":ref:`save<class_ConfigFile_method_save>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:105
+msgid ":ref:`save_encrypted<class_ConfigFile_method_save_encrypted>` **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:107
+msgid ":ref:`save_encrypted_pass<class_ConfigFile_method_save_encrypted_pass>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:109
+msgid ":ref:`set_value<class_ConfigFile_method_set_value>` **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:113
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_configfile.rst:117
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:119
+msgid "删除配置的全部内容。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:125
+msgid "void **erase_section** **(** :ref:`String<class_String>` section **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:127
+msgid "删除指定的部分以及内部的所有键值对。如果该节不存在，则会引发错误。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:133
+msgid "void **erase_section_key** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:135
+msgid "删除部分中的指定键。如果该部分或键不存在，则会引发错误。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:141
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_section_keys** **(** :ref:`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:143
+msgid "返回指定部分中所有已定义键标识符的数组。如果该部分不存在，则会引发错误并返回一个空数组。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:149
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_sections** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:151
+msgid "返回所有已定义节标识符的数组。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:157
+msgid ":ref:`Variant<class_Variant>` **get_value** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` default=null **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:159
+msgid "返回指定部分和键的当前值。如果节或键不存在，本方法返回后备值\\ ``default``\\ 。如果没有指定\\ ``default``\\ 或者设置为\\ ``null``\\ ，也会引发一个错误。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:165
+msgid ":ref:`bool<class_bool>` **has_section** **(** :ref:`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:167
+msgid "如果指定的部分存在，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:173
+msgid ":ref:`bool<class_bool>` **has_section_key** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key **)** |const|"
+msgstr ""
+
+#: ../classes/class_configfile.rst:175
+msgid "如果指定的段键对存在，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:181
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:183
+msgid "加载指定为参数的配置文件。解析文件的内容并将其加载到调用该方法的\\ ``ConfigFile``\\ 对象中。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:185
+#: ../classes/class_configfile.rst:195
+#: ../classes/class_configfile.rst:205
+#: ../classes/class_configfile.rst:225
+#: ../classes/class_configfile.rst:235
+msgid "返回\\ :ref:`Error<enum_@GlobalScope_Error>`\\ 代码常量之一（成功时返回\\ ``OK``\\ ）。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:191
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_encrypted** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:193
+msgid "加载指定为参数的加密配置文件，使用提供的\\ ``key``\\ 对其解密。解析文件的内容并将其加载到调用该方法的\\ ``ConfigFile``\\ 对象中。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:201
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_encrypted_pass** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:203
+msgid "加载作为参数的加密配置文件，使用提供的\\ ``password``\\ 解密。该文件的内容被解析并加载到调用该方法的 ``ConfigFile`` 对象中。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:211
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **parse** **(** :ref:`String<class_String>` data **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:213
+msgid "将传递的字符串解析为配置文件的内容。该字符串被解析并加载到调用该方法的 ConfigFile 对象中。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:215
+msgid "返回 :ref:`Error<enum_@GlobalScope_Error>` 常量之一，成功时返回 ``OK``\\ 。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:221
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:223
+msgid "将\\ ``ConfigFile``\\ 对象的内容保存到指定为参数的文件中。输出文件使用INI样式的结构。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:231
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_encrypted** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:233
+msgid "使用提供的\\ ``key``\\ 将\\ ``ConfigFile``\\ 对象的内容保存到作为参数指定的AES-256加密文件中。输出文件使用INI样式的结构。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:241
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_encrypted_pass** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:243
+msgid "将\\ ``ConfigFile``\\ 对象的内容保存到作为参数指定的AES-256加密文件中，使用提供的\\ ``password``\\ 进行加密。输出文件使用 INI 风格的结构。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:245
+msgid "返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一 (成功时返回 ``OK``)。"
+msgstr ""
+
+#: ../classes/class_configfile.rst:251
+msgid "void **set_value** **(** :ref:`String<class_String>` section, :ref:`String<class_String>` key, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_configfile.rst:253
+msgid "为指定章节的指定键赋值。如果节或键不存在，则创建它们。如果指定的键存在，传递一个\\ ``null``\\ 的值就会删除指定的键，如果键被删除后，键最终是空的，就会删除节。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

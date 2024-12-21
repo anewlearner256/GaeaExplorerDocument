@@ -1,0 +1,376 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_directory.rst:10
+msgid "Directory"
+msgstr ""
+
+#: ../classes/class_directory.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_directory.rst:14
+msgid "用于处理文件系统的类型。"
+msgstr ""
+
+#: ../classes/class_directory.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_directory.rst:19
+msgid "目录类型。用于管理目录及其内容（并不仅限于项目文件夹）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:21
+msgid "新建 ``Directory`` 时，其默认打开的目录为 ``res://``\\ 。这在将来可能会改变，因此建议始终使用 :ref:`open<class_Directory_method_open>` 将您要操作的 ``Directory`` 初始化至想要操作的位置，并进行显式的错误检查。"
+msgstr ""
+
+#: ../classes/class_directory.rst:23
+msgid "\\ **注意：**\\ 很多资源类型是经过导入的（例如纹理或声音文件），导出后的游戏中不会包含源素材，只会使用导入后的版本。请使用 :ref:`ResourceLoader<class_ResourceLoader>` 访问导入后的资源。"
+msgstr ""
+
+#: ../classes/class_directory.rst:25
+msgid "下面是一个关于如何遍历目录文件的示例："
+msgstr ""
+
+#: ../classes/class_directory.rst:44
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_directory.rst:46
+msgid ":doc:`../tutorials/scripting/filesystem`"
+msgstr ""
+
+#: ../classes/class_directory.rst:49
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_directory.rst:52
+#: ../classes/class_directory.rst:54
+#: ../classes/class_directory.rst:74
+#: ../classes/class_directory.rst:78
+#: ../classes/class_directory.rst:80
+#: ../classes/class_directory.rst:82
+#: ../classes/class_directory.rst:84
+#: ../classes/class_directory.rst:86
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_directory.rst:52
+msgid ":ref:`change_dir<class_Directory_method_change_dir>` **(** :ref:`String<class_String>` todir **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:54
+msgid ":ref:`copy<class_Directory_method_copy>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:56
+#: ../classes/class_directory.rst:58
+#: ../classes/class_directory.rst:60
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_directory.rst:56
+msgid ":ref:`current_is_dir<class_Directory_method_current_is_dir>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_directory.rst:58
+msgid ":ref:`dir_exists<class_Directory_method_dir_exists>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:60
+msgid ":ref:`file_exists<class_Directory_method_file_exists>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:62
+#: ../classes/class_directory.rst:66
+#: ../classes/class_directory.rst:70
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_directory.rst:62
+msgid ":ref:`get_current_dir<class_Directory_method_get_current_dir>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:64
+#: ../classes/class_directory.rst:68
+#: ../classes/class_directory.rst:72
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_directory.rst:64
+msgid ":ref:`get_current_drive<class_Directory_method_get_current_drive>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:66
+msgid ":ref:`get_drive<class_Directory_method_get_drive>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:68
+msgid ":ref:`get_drive_count<class_Directory_method_get_drive_count>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:70
+msgid ":ref:`get_next<class_Directory_method_get_next>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:72
+msgid ":ref:`get_space_left<class_Directory_method_get_space_left>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:74
+msgid ":ref:`list_dir_begin<class_Directory_method_list_dir_begin>` **(** :ref:`bool<class_bool>` skip_navigational=false, :ref:`bool<class_bool>` skip_hidden=false **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:76
+msgid "void"
+msgstr ""
+
+#: ../classes/class_directory.rst:76
+msgid ":ref:`list_dir_end<class_Directory_method_list_dir_end>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:78
+msgid ":ref:`make_dir<class_Directory_method_make_dir>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:80
+msgid ":ref:`make_dir_recursive<class_Directory_method_make_dir_recursive>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:82
+msgid ":ref:`open<class_Directory_method_open>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:84
+msgid ":ref:`remove<class_Directory_method_remove>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:86
+msgid ":ref:`rename<class_Directory_method_rename>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:90
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_directory.rst:94
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **change_dir** **(** :ref:`String<class_String>` todir **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:96
+msgid "将当前打开的目录改为参数传递的目录。参数可以是相对于当前目录的(例如 ``newdir`` 或 ``.../newdir``)，也可以是绝对路径(例如 ``/tmp/newdir`` 或 ``res://somedir/newdir``)。"
+msgstr ""
+
+#: ../classes/class_directory.rst:98
+msgid "返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一 (``OK`` 成功时)。"
+msgstr ""
+
+#: ../classes/class_directory.rst:104
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **copy** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:106
+msgid "将 ``from`` 文件复制到 ``to`` 目标位置。两个参数都应该是相对或绝对文件的路径。如果目标文件存在且没有访问保护，则会被覆盖。"
+msgstr ""
+
+#: ../classes/class_directory.rst:108
+#: ../classes/class_directory.rst:234
+#: ../classes/class_directory.rst:254
+msgid "返回\\ :ref:`Error<enum_@GlobalScope_Error>`\\ 代码常量之一(成功时返回\\ ``OK``)。"
+msgstr ""
+
+#: ../classes/class_directory.rst:114
+msgid ":ref:`bool<class_bool>` **current_is_dir** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_directory.rst:116
+msgid "返回上一次 :ref:`get_next<class_Directory_method_get_next>` 调用处理的当前项目是否为目录（\\ ``.``\\ 和\\ ``.``\\ 被认为是目录）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:122
+msgid ":ref:`bool<class_bool>` **dir_exists** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:124
+msgid "返回目标目录是否存在。参数可以是相对于当前目录的路径，也可以是绝对路径。"
+msgstr ""
+
+#: ../classes/class_directory.rst:130
+msgid ":ref:`bool<class_bool>` **file_exists** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:132
+msgid "返回目标文件是否存在。参数可以是相对于当前目录的路径，也可以是绝对路径。"
+msgstr ""
+
+#: ../classes/class_directory.rst:138
+msgid ":ref:`String<class_String>` **get_current_dir** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:140
+msgid "Returns the absolute path to the currently opened directory (e.g. ``res://folder`` or ``C:\\tmp\\folder``)."
+msgstr ""
+
+#: ../classes/class_directory.rst:146
+msgid ":ref:`int<class_int>` **get_current_drive** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:148
+msgid "返回当前打开的目录的驱动器索引。请参阅\\ :ref:`get_drive<class_Directory_method_get_drive>`\\ 将返回的索引转换为驱动器的名称。"
+msgstr ""
+
+#: ../classes/class_directory.rst:154
+msgid ":ref:`String<class_String>` **get_drive** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:156
+msgid "On Windows, returns the name of the drive (partition) passed as an argument (e.g. ``C:``)."
+msgstr ""
+
+#: ../classes/class_directory.rst:158
+msgid "On macOS, returns the path to the mounted volume passed as an argument."
+msgstr ""
+
+#: ../classes/class_directory.rst:160
+msgid "On Linux, returns the path to the mounted volume or GTK 3 bookmark passed as an argument."
+msgstr ""
+
+#: ../classes/class_directory.rst:162
+msgid "On other platforms, or if the requested drive does not exist, the method returns an empty String."
+msgstr ""
+
+#: ../classes/class_directory.rst:168
+msgid ":ref:`int<class_int>` **get_drive_count** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:170
+msgid "On Windows, returns the number of drives (partitions) mounted on the current filesystem."
+msgstr ""
+
+#: ../classes/class_directory.rst:172
+msgid "On macOS, returns the number of mounted volumes."
+msgstr ""
+
+#: ../classes/class_directory.rst:174
+msgid "On Linux, returns the number of mounted volumes and GTK 3 bookmarks."
+msgstr ""
+
+#: ../classes/class_directory.rst:176
+msgid "On other platforms, the method returns 0."
+msgstr ""
+
+#: ../classes/class_directory.rst:182
+msgid ":ref:`String<class_String>` **get_next** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:184
+msgid "返回当前目录中的下一个元素（文件或目录）（包括\\ ``.``\\ 和\\ ``.``\\ ，除非\\ ``skip_navigational``\\ 被赋予\\ :ref:`list_dir_begin<class_Directory_method_list_dir_begin>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:186
+msgid "返回的是文件或目录的名称（而不是它的完整路径）。一旦流被完全处理，该方法返回一个空的String，并自动关闭流（即在这种情况下，\\ :ref:`list_dir_end<class_Directory_method_list_dir_end>`\\ 将不是强制性的）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:192
+msgid ":ref:`int<class_int>` **get_space_left** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:194
+msgid "在UNIX桌面系统上，返回当前目录磁盘上的可用空间。在其他平台上，此信息不可用，该方法返回0或-1。"
+msgstr ""
+
+#: ../classes/class_directory.rst:200
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **list_dir_begin** **(** :ref:`bool<class_bool>` skip_navigational=false, :ref:`bool<class_bool>` skip_hidden=false **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:202
+msgid "初始化用于列出所有文件和目录的流，使用 :ref:`get_next<class_Directory_method_get_next>` 函数，如果需要，可关闭当前打开的流。一旦流被处理完毕，通常应该用 :ref:`list_dir_end<class_Directory_method_list_dir_end>` 关闭。"
+msgstr ""
+
+#: ../classes/class_directory.rst:204
+msgid "\\ ``skip_navigational`` 为 ``true`` 时会过滤掉 ``.`` 和 ``..``\\ 。"
+msgstr ""
+
+#: ../classes/class_directory.rst:206
+msgid "\\ ``skip_hidden`` 为 ``true`` 时会过滤掉隐藏文件。"
+msgstr ""
+
+#: ../classes/class_directory.rst:212
+msgid "void **list_dir_end** **(** **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:214
+msgid "关闭用\\ :ref:`list_dir_begin<class_Directory_method_list_dir_begin>`\\ 打开的当前流，并不关注是否已经用\\ :ref:`get_next<class_Directory_method_get_next>`\\ 完成处理。"
+msgstr ""
+
+#: ../classes/class_directory.rst:220
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **make_dir** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:222
+msgid "创建一个目录。参数可以是当前目录的相对路径，也可以是绝对路径。目标目录应该放置在一个已经存在的目录中（如果要递归创建完整的路径，请参阅\\ :ref:`make_dir_recursive<class_Directory_method_make_dir_recursive>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:224
+msgid "返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一（成功时返回 ``OK``\\ ）。"
+msgstr ""
+
+#: ../classes/class_directory.rst:230
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **make_dir_recursive** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:232
+msgid "通过递归调用 :ref:`make_dir<class_Directory_method_make_dir>`\\ 方法，创建一个目标目录和其路径中所有必要的中间目录。参数可以是相对于当前目录的，也可以是绝对路径。"
+msgstr ""
+
+#: ../classes/class_directory.rst:240
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:242
+msgid "Opens an existing directory of the filesystem. The ``path`` argument can be within the project tree (``res://folder``), the user directory (``user://folder``) or an absolute path of the user filesystem (e.g. ``/tmp/folder`` or ``C:\\tmp\\folder``)."
+msgstr ""
+
+#: ../classes/class_directory.rst:244
+msgid "Returns one of the :ref:`Error<enum_@GlobalScope_Error>` code constants (``OK`` on success)."
+msgstr ""
+
+#: ../classes/class_directory.rst:250
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **remove** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:252
+msgid "删除目标文件或空目录。参数可以是相对于当前目录的，也可以是绝对路径。如果目标目录不是空的，操作将失败。"
+msgstr ""
+
+#: ../classes/class_directory.rst:260
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **rename** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_directory.rst:262
+msgid "将 ``from`` 文件或目录重命名且移动到 ``to`` 目标。两个参数都应该是文件或目录的相对路径或绝对路径。如果目标文件或目录存在且不受访问保护，它将被覆盖。"
+msgstr ""
+
+#: ../classes/class_directory.rst:264
+msgid "返回 :ref:`Error<enum_@GlobalScope_Error>` 代码常量之一，成功时返回 ``OK``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

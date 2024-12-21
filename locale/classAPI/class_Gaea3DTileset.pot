@@ -1,0 +1,665 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_Gaea3DTileset.rst:2
+msgid "Gaea3DTileset"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:16
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:16
+msgid "LocalOffset"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:18
+#: ../classAPI/class_Gaea3DTileset.rst:24
+#: ../classAPI/class_Gaea3DTileset.rst:32
+#: ../classAPI/class_Gaea3DTileset.rst:58
+#: ../classAPI/class_Gaea3DTileset.rst:60
+#: ../classAPI/class_Gaea3DTileset.rst:62
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:18
+msgid "DepthOffsetScale"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:20
+msgid "UInt32"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:20
+msgid "Layers"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:22
+#: ../classAPI/class_Gaea3DTileset.rst:26
+#: ../classAPI/class_Gaea3DTileset.rst:28
+#: ../classAPI/class_Gaea3DTileset.rst:30
+#: ../classAPI/class_Gaea3DTileset.rst:36
+#: ../classAPI/class_Gaea3DTileset.rst:50
+#: ../classAPI/class_Gaea3DTileset.rst:52
+#: ../classAPI/class_Gaea3DTileset.rst:54
+#: ../classAPI/class_Gaea3DTileset.rst:56
+#: ../classAPI/class_Gaea3DTileset.rst:68
+#: ../classAPI/class_Gaea3DTileset.rst:72
+#: ../classAPI/class_Gaea3DTileset.rst:76
+#: ../classAPI/class_Gaea3DTileset.rst:78
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:22
+msgid "EnableCache"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:24
+msgid "CullDistance"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:26
+msgid "EnablePick"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:28
+msgid "EnabledClip"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:30
+msgid "ShowWithClipBox"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:32
+msgid "CameraWidthRatio"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:34
+msgid "RenderPriority"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:34
+msgid "Priority"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:36
+msgid "IsZUp"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:38
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:38
+msgid "DeepestDepth"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:40
+#: ../classAPI/class_Gaea3DTileset.rst:87
+msgid "Gaea3DTile"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:40
+msgid "Root"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:42
+msgid "Gaea3DTilesetOptions"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:42
+msgid "TilesetOptions"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:44
+msgid "Gaea3DTilesetStatistics"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:44
+msgid "Statistics"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:46
+msgid "Gaea3DTilesetCache"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:46
+msgid "TileCache"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:48
+msgid "Gaea3DTilesetTraversal"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:48
+msgid "Traversal"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:50
+msgid "GroundMode"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:52
+msgid "UseLight"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:54
+msgid "RecalculateNormals"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:56
+msgid "AutoCutTileChildrenMode"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:58
+msgid "AutoCutTileChildrenPerLength"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:60
+msgid "MaximumMemoryUsage"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:62
+msgid "TotalMemoryUsageInBytes"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:64
+#: ../classAPI/class_Gaea3DTileset.rst:66
+#: ../classAPI/class_Gaea3DTileset.rst:74
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:64
+msgid "TilesetUrl"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:66
+msgid "BaseUrl"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:68
+msgid "SkipLevelOfDetail"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:70
+msgid "SceneTree"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:70
+msgid "TileSetSceneTree"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:72
+msgid "UseDefaultPbrParams"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:74
+msgid "SelectedBatchID"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:76
+msgid "UnSelectedBatchIDsIsChanged"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:78
+msgid "HasSceneTree"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:82
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:85
+#: ../classAPI/class_Gaea3DTileset.rst:89
+#: ../classAPI/class_Gaea3DTileset.rst:91
+#: ../classAPI/class_Gaea3DTileset.rst:93
+#: ../classAPI/class_Gaea3DTileset.rst:95
+#: ../classAPI/class_Gaea3DTileset.rst:97
+#: ../classAPI/class_Gaea3DTileset.rst:99
+#: ../classAPI/class_Gaea3DTileset.rst:101
+#: ../classAPI/class_Gaea3DTileset.rst:103
+#: ../classAPI/class_Gaea3DTileset.rst:105
+#: ../classAPI/class_Gaea3DTileset.rst:107
+#: ../classAPI/class_Gaea3DTileset.rst:109
+#: ../classAPI/class_Gaea3DTileset.rst:111
+#: ../classAPI/class_Gaea3DTileset.rst:113
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:85
+msgid "InitSceneTree()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:87
+msgid "LoadTileset(String resouce,Tileset json,Gaea3DTile parentTile,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:89
+msgid "SelectedCallBack(Action`6 action,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:91
+msgid "InitTileSet(String name,String url,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:93
+msgid "Initialize()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:95
+msgid "OnGeometryHit(Action`1 onhit,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:97
+msgid "AddUnSelectedBatchID(String id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:99
+msgid "AddUnSelectedBatchID(String[] id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:101
+msgid "RemoveUnSelectedBatchID(String id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:103
+msgid "ClearUnSelectedBatchIDs()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:105
+msgid "Render()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:107
+msgid "Delete()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:109
+msgid "PostPassesUpdate()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:111
+msgid "PrePassesUpdate()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:113
+msgid "ResetStatus()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:117
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:119
+msgid "Vector3 LocalOffset"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:122
+#: ../classAPI/class_Gaea3DTileset.rst:133
+#: ../classAPI/class_Gaea3DTileset.rst:144
+#: ../classAPI/class_Gaea3DTileset.rst:155
+#: ../classAPI/class_Gaea3DTileset.rst:166
+#: ../classAPI/class_Gaea3DTileset.rst:177
+#: ../classAPI/class_Gaea3DTileset.rst:188
+#: ../classAPI/class_Gaea3DTileset.rst:199
+#: ../classAPI/class_Gaea3DTileset.rst:210
+#: ../classAPI/class_Gaea3DTileset.rst:221
+#: ../classAPI/class_Gaea3DTileset.rst:232
+#: ../classAPI/class_Gaea3DTileset.rst:243
+#: ../classAPI/class_Gaea3DTileset.rst:254
+#: ../classAPI/class_Gaea3DTileset.rst:265
+#: ../classAPI/class_Gaea3DTileset.rst:276
+#: ../classAPI/class_Gaea3DTileset.rst:287
+#: ../classAPI/class_Gaea3DTileset.rst:298
+#: ../classAPI/class_Gaea3DTileset.rst:309
+#: ../classAPI/class_Gaea3DTileset.rst:320
+#: ../classAPI/class_Gaea3DTileset.rst:331
+#: ../classAPI/class_Gaea3DTileset.rst:342
+#: ../classAPI/class_Gaea3DTileset.rst:353
+#: ../classAPI/class_Gaea3DTileset.rst:364
+#: ../classAPI/class_Gaea3DTileset.rst:375
+#: ../classAPI/class_Gaea3DTileset.rst:386
+#: ../classAPI/class_Gaea3DTileset.rst:397
+#: ../classAPI/class_Gaea3DTileset.rst:408
+#: ../classAPI/class_Gaea3DTileset.rst:419
+#: ../classAPI/class_Gaea3DTileset.rst:430
+#: ../classAPI/class_Gaea3DTileset.rst:441
+#: ../classAPI/class_Gaea3DTileset.rst:452
+#: ../classAPI/class_Gaea3DTileset.rst:463
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:126
+msgid "整体的局部偏移"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:130
+msgid "Single DepthOffsetScale"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:137
+msgid "模型高度偏移系数"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:141
+msgid "UInt32 Layers"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:148
+msgid "模型的默认分组"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:152
+msgid "Boolean EnableCache"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:159
+msgid "开启缓存"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:163
+msgid "Single CullDistance"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:174
+msgid "Boolean EnablePick"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:181
+msgid "开启选中"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:185
+msgid "Boolean EnabledClip"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:192
+msgid "开启裁剪"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:196
+msgid "Boolean ShowWithClipBox"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:203
+msgid "设置为true后仅显示裁剪盒范围内的瓦片"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:207
+msgid "Single CameraWidthRatio"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:214
+msgid "相机宽度比"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:218
+msgid "RenderPriority Priority"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:225
+msgid "渲染优先级"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:229
+msgid "Boolean IsZUp"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:236
+msgid "是否以z轴为向上轴"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:240
+msgid "Int32 DeepestDepth"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:247
+msgid "待删除"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:251
+msgid "Gaea3DTile Root"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:258
+msgid "根瓦片"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:262
+msgid "Gaea3DTilesetOptions TilesetOptions"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:269
+msgid "加载3dtiles时的可选项"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:273
+msgid "Gaea3DTilesetStatistics Statistics"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:280
+msgid "加载3dtiles时的一些统计信息"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:284
+msgid "Gaea3DTilesetCache TileCache"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:291
+msgid "3dtiles瓦片缓存"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:295
+msgid "Gaea3DTilesetTraversal Traversal"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:302
+msgid "瓦片数据集遍历器"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:306
+msgid "Boolean GroundMode"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:313
+msgid "地面模式"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:317
+msgid "Boolean UseLight"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:324
+msgid "加载3ditles时是否启用材质的灯光效果"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:328
+msgid "Boolean RecalculateNormals"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:335
+msgid "加载3ditles时是否重新计算法线"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:339
+msgid "Boolean AutoCutTileChildrenMode"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:346
+msgid "自动切割子瓦片模式"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:350
+msgid "Single AutoCutTileChildrenPerLength"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:357
+msgid "按指定长度自动切割子瓦片"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:361
+msgid "Single MaximumMemoryUsage"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:368
+msgid "最大内存使用量"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:372
+msgid "Single TotalMemoryUsageInBytes"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:379
+msgid "总内存使用量（以字节为单位）"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:383
+msgid "String TilesetUrl"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:390
+msgid "tileset.json文件地址"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:394
+msgid "String BaseUrl"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:401
+msgid "瓦片服务的基础地址"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:405
+msgid "Boolean SkipLevelOfDetail"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:412
+msgid "是否开启跳层模式"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:416
+msgid "SceneTree TileSetSceneTree"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:423
+msgid "瓦片集的场景树"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:427
+msgid "Boolean UseDefaultPbrParams"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:438
+msgid "String SelectedBatchID"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:445
+msgid "被选中的batchID"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:449
+msgid "Boolean UnSelectedBatchIDsIsChanged"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:460
+msgid "Boolean HasSceneTree"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:467
+msgid "是否存在场景树文件"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:473
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:475
+msgid "Void InitSceneTree()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:481
+msgid "Gaea3DTile LoadTileset(String resouce,Tileset json,Gaea3DTile parentTile,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:487
+msgid "Void SelectedCallBack(Action`6 action,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:493
+msgid "Void InitTileSet(String name,String url,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:499
+msgid "Void Initialize()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:505
+msgid "Void OnGeometryHit(Action`1 onhit,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:511
+msgid "Void AddUnSelectedBatchID(String id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:517
+msgid "Void AddUnSelectedBatchID(String[] id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:523
+msgid "Void RemoveUnSelectedBatchID(String id,)"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:529
+msgid "Void ClearUnSelectedBatchIDs()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:535
+msgid "Void Render()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:541
+msgid "Void Delete()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:547
+msgid "Void PostPassesUpdate()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:553
+msgid "Void PrePassesUpdate()"
+msgstr ""
+
+#: ../classAPI/class_Gaea3DTileset.rst:559
+msgid "Void ResetStatus()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

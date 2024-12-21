@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_time.rst:10
+msgid "Time"
+msgstr ""
+
+#: ../classes/class_time.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_time.rst:14
+msgid "Time singleton for working with time."
+msgstr ""
+
+#: ../classes/class_time.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_time.rst:19
+msgid "The Time singleton allows converting time between various formats and also getting time information from the system."
+msgstr ""
+
+#: ../classes/class_time.rst:21
+msgid "This class conforms with as many of the ISO 8601 standards as possible. All dates follow the Proleptic Gregorian calendar. As such, the day before ``1582-10-15`` is ``1582-10-14``, not ``1582-10-04``. The year before 1 AD (aka 1 BC) is number ``0``, with the year before that (2 BC) being ``-1``, etc."
+msgstr ""
+
+#: ../classes/class_time.rst:23
+msgid "Conversion methods assume \"the same timezone\", and do not handle timezone conversions or DST automatically. Leap seconds are also not handled, they must be done manually if desired. Suffixes such as \"Z\" are not handled, you need to strip them away manually."
+msgstr ""
+
+#: ../classes/class_time.rst:25
+msgid "When getting time information from the system, the time can either be in the local timezone or UTC depending on the ``utc`` parameter. However, the :ref:`get_unix_time_from_system<class_Time_method_get_unix_time_from_system>` method always returns the time in UTC."
+msgstr ""
+
+#: ../classes/class_time.rst:27
+msgid "\\ **Important:** The ``_from_system`` methods use the system clock that the user can manually set. **Never use** this method for precise time calculation since its results are subject to automatic adjustments by the user or the operating system. **Always use** :ref:`get_ticks_usec<class_Time_method_get_ticks_usec>` or :ref:`get_ticks_msec<class_Time_method_get_ticks_msec>` for precise time calculation instead, since they are guaranteed to be monotonic (i.e. never decrease)."
+msgstr ""
+
+#: ../classes/class_time.rst:30
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_time.rst:33
+#: ../classes/class_time.rst:35
+#: ../classes/class_time.rst:41
+#: ../classes/class_time.rst:43
+#: ../classes/class_time.rst:45
+#: ../classes/class_time.rst:57
+#: ../classes/class_time.rst:59
+#: ../classes/class_time.rst:65
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_time.rst:33
+msgid ":ref:`get_date_dict_from_system<class_Time_method_get_date_dict_from_system>` **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:35
+msgid ":ref:`get_date_dict_from_unix_time<class_Time_method_get_date_dict_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:37
+#: ../classes/class_time.rst:39
+#: ../classes/class_time.rst:47
+#: ../classes/class_time.rst:49
+#: ../classes/class_time.rst:51
+#: ../classes/class_time.rst:61
+#: ../classes/class_time.rst:63
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_time.rst:37
+msgid ":ref:`get_date_string_from_system<class_Time_method_get_date_string_from_system>` **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:39
+msgid ":ref:`get_date_string_from_unix_time<class_Time_method_get_date_string_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:41
+msgid ":ref:`get_datetime_dict_from_string<class_Time_method_get_datetime_dict_from_string>` **(** :ref:`String<class_String>` datetime, :ref:`bool<class_bool>` weekday **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:43
+msgid ":ref:`get_datetime_dict_from_system<class_Time_method_get_datetime_dict_from_system>` **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:45
+msgid ":ref:`get_datetime_dict_from_unix_time<class_Time_method_get_datetime_dict_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:47
+msgid ":ref:`get_datetime_string_from_dict<class_Time_method_get_datetime_string_from_dict>` **(** :ref:`Dictionary<class_Dictionary>` datetime, :ref:`bool<class_bool>` use_space **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:49
+msgid ":ref:`get_datetime_string_from_system<class_Time_method_get_datetime_string_from_system>` **(** :ref:`bool<class_bool>` utc=false, :ref:`bool<class_bool>` use_space=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:51
+msgid ":ref:`get_datetime_string_from_unix_time<class_Time_method_get_datetime_string_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val, :ref:`bool<class_bool>` use_space=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:53
+#: ../classes/class_time.rst:55
+#: ../classes/class_time.rst:67
+#: ../classes/class_time.rst:69
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_time.rst:53
+msgid ":ref:`get_ticks_msec<class_Time_method_get_ticks_msec>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:55
+msgid ":ref:`get_ticks_usec<class_Time_method_get_ticks_usec>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:57
+msgid ":ref:`get_time_dict_from_system<class_Time_method_get_time_dict_from_system>` **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:59
+msgid ":ref:`get_time_dict_from_unix_time<class_Time_method_get_time_dict_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:61
+msgid ":ref:`get_time_string_from_system<class_Time_method_get_time_string_from_system>` **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:63
+msgid ":ref:`get_time_string_from_unix_time<class_Time_method_get_time_string_from_unix_time>` **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:65
+msgid ":ref:`get_time_zone_from_system<class_Time_method_get_time_zone_from_system>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:67
+msgid ":ref:`get_unix_time_from_datetime_dict<class_Time_method_get_unix_time_from_datetime_dict>` **(** :ref:`Dictionary<class_Dictionary>` datetime **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:69
+msgid ":ref:`get_unix_time_from_datetime_string<class_Time_method_get_unix_time_from_datetime_string>` **(** :ref:`String<class_String>` datetime **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:71
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_time.rst:71
+msgid ":ref:`get_unix_time_from_system<class_Time_method_get_unix_time_from_system>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:75
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_time.rst:103
+msgid "enum **Month**:"
+msgstr ""
+
+#: ../classes/class_time.rst:105
+msgid "**MONTH_JANUARY** = **1** --- The month of January, represented numerically as ``01``."
+msgstr ""
+
+#: ../classes/class_time.rst:107
+msgid "**MONTH_FEBRUARY** = **2** --- The month of February, represented numerically as ``02``."
+msgstr ""
+
+#: ../classes/class_time.rst:109
+msgid "**MONTH_MARCH** = **3** --- The month of March, represented numerically as ``03``."
+msgstr ""
+
+#: ../classes/class_time.rst:111
+msgid "**MONTH_APRIL** = **4** --- The month of April, represented numerically as ``04``."
+msgstr ""
+
+#: ../classes/class_time.rst:113
+msgid "**MONTH_MAY** = **5** --- The month of May, represented numerically as ``05``."
+msgstr ""
+
+#: ../classes/class_time.rst:115
+msgid "**MONTH_JUNE** = **6** --- The month of June, represented numerically as ``06``."
+msgstr ""
+
+#: ../classes/class_time.rst:117
+msgid "**MONTH_JULY** = **7** --- The month of July, represented numerically as ``07``."
+msgstr ""
+
+#: ../classes/class_time.rst:119
+msgid "**MONTH_AUGUST** = **8** --- The month of August, represented numerically as ``08``."
+msgstr ""
+
+#: ../classes/class_time.rst:121
+msgid "**MONTH_SEPTEMBER** = **9** --- The month of September, represented numerically as ``09``."
+msgstr ""
+
+#: ../classes/class_time.rst:123
+msgid "**MONTH_OCTOBER** = **10** --- The month of October, represented numerically as ``10``."
+msgstr ""
+
+#: ../classes/class_time.rst:125
+msgid "**MONTH_NOVEMBER** = **11** --- The month of November, represented numerically as ``11``."
+msgstr ""
+
+#: ../classes/class_time.rst:127
+msgid "**MONTH_DECEMBER** = **12** --- The month of December, represented numerically as ``12``."
+msgstr ""
+
+#: ../classes/class_time.rst:147
+msgid "enum **Weekday**:"
+msgstr ""
+
+#: ../classes/class_time.rst:149
+msgid "**WEEKDAY_SUNDAY** = **0** --- The day of the week Sunday, represented numerically as ``0``."
+msgstr ""
+
+#: ../classes/class_time.rst:151
+msgid "**WEEKDAY_MONDAY** = **1** --- The day of the week Monday, represented numerically as ``1``."
+msgstr ""
+
+#: ../classes/class_time.rst:153
+msgid "**WEEKDAY_TUESDAY** = **2** --- The day of the week Tuesday, represented numerically as ``2``."
+msgstr ""
+
+#: ../classes/class_time.rst:155
+msgid "**WEEKDAY_WEDNESDAY** = **3** --- The day of the week Wednesday, represented numerically as ``3``."
+msgstr ""
+
+#: ../classes/class_time.rst:157
+msgid "**WEEKDAY_THURSDAY** = **4** --- The day of the week Thursday, represented numerically as ``4``."
+msgstr ""
+
+#: ../classes/class_time.rst:159
+msgid "**WEEKDAY_FRIDAY** = **5** --- The day of the week Friday, represented numerically as ``5``."
+msgstr ""
+
+#: ../classes/class_time.rst:161
+msgid "**WEEKDAY_SATURDAY** = **6** --- The day of the week Saturday, represented numerically as ``6``."
+msgstr ""
+
+#: ../classes/class_time.rst:164
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_time.rst:168
+msgid ":ref:`Dictionary<class_Dictionary>` **get_date_dict_from_system** **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:170
+msgid "Returns the current date as a dictionary of keys: ``year``, ``month``, ``day``, ``weekday``, and ``dst`` (Daylight Savings Time)."
+msgstr ""
+
+#: ../classes/class_time.rst:172
+#: ../classes/class_time.rst:190
+#: ../classes/class_time.rst:250
+#: ../classes/class_time.rst:292
+#: ../classes/class_time.rst:310
+msgid "The returned values are in the system's local time when ``utc`` is false, otherwise they are in UTC."
+msgstr ""
+
+#: ../classes/class_time.rst:178
+msgid ":ref:`Dictionary<class_Dictionary>` **get_date_dict_from_unix_time** **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:180
+#: ../classes/class_time.rst:224
+msgid "Converts the given Unix timestamp to a dictionary of keys: ``year``, ``month``, ``day``, and ``weekday``."
+msgstr ""
+
+#: ../classes/class_time.rst:186
+msgid ":ref:`String<class_String>` **get_date_string_from_system** **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:188
+msgid "Returns the current date as an ISO 8601 date string (YYYY-MM-DD)."
+msgstr ""
+
+#: ../classes/class_time.rst:196
+msgid ":ref:`String<class_String>` **get_date_string_from_unix_time** **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:198
+msgid "Converts the given Unix timestamp to an ISO 8601 date string (YYYY-MM-DD)."
+msgstr ""
+
+#: ../classes/class_time.rst:204
+msgid ":ref:`Dictionary<class_Dictionary>` **get_datetime_dict_from_string** **(** :ref:`String<class_String>` datetime, :ref:`bool<class_bool>` weekday **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:206
+msgid "Converts the given ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS) to a dictionary of keys: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute``, and ``second``."
+msgstr ""
+
+#: ../classes/class_time.rst:208
+msgid "If ``weekday`` is false, then the ``weekday`` entry is excluded (the calculation is relatively expensive)."
+msgstr ""
+
+#: ../classes/class_time.rst:214
+msgid ":ref:`Dictionary<class_Dictionary>` **get_datetime_dict_from_system** **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:216
+msgid "Returns the current date as a dictionary of keys: ``year``, ``month``, ``day``, ``weekday``, ``hour``, ``minute``, and ``second``."
+msgstr ""
+
+#: ../classes/class_time.rst:222
+msgid ":ref:`Dictionary<class_Dictionary>` **get_datetime_dict_from_unix_time** **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:226
+msgid "The returned Dictionary's values will be the same as the :ref:`get_datetime_dict_from_system<class_Time_method_get_datetime_dict_from_system>` if the Unix timestamp is the current time, with the exception of Daylight Savings Time as it cannot be determined from the epoch."
+msgstr ""
+
+#: ../classes/class_time.rst:232
+msgid ":ref:`String<class_String>` **get_datetime_string_from_dict** **(** :ref:`Dictionary<class_Dictionary>` datetime, :ref:`bool<class_bool>` use_space **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:234
+msgid "Converts the given dictionary of keys to an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS)."
+msgstr ""
+
+#: ../classes/class_time.rst:236
+#: ../classes/class_time.rst:336
+msgid "The given dictionary can be populated with the following keys: ``year``, ``month``, ``day``, ``hour``, ``minute``, and ``second``. Any other entries (including ``dst``) are ignored."
+msgstr ""
+
+#: ../classes/class_time.rst:238
+#: ../classes/class_time.rst:338
+msgid "If the dictionary is empty, ``0`` is returned. If some keys are omitted, they default to the equivalent values for the Unix epoch timestamp 0 (1970-01-01 at 00:00:00)."
+msgstr ""
+
+#: ../classes/class_time.rst:240
+#: ../classes/class_time.rst:252
+#: ../classes/class_time.rst:262
+msgid "If ``use_space`` is true, use a space instead of the letter T in the middle."
+msgstr ""
+
+#: ../classes/class_time.rst:246
+msgid ":ref:`String<class_String>` **get_datetime_string_from_system** **(** :ref:`bool<class_bool>` utc=false, :ref:`bool<class_bool>` use_space=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:248
+msgid "Returns the current date and time as an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS)."
+msgstr ""
+
+#: ../classes/class_time.rst:258
+msgid ":ref:`String<class_String>` **get_datetime_string_from_unix_time** **(** :ref:`int<class_int>` unix_time_val, :ref:`bool<class_bool>` use_space=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:260
+msgid "Converts the given Unix timestamp to an ISO 8601 date and time string (YYYY-MM-DDTHH:MM:SS)."
+msgstr ""
+
+#: ../classes/class_time.rst:268
+msgid ":ref:`int<class_int>` **get_ticks_msec** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:270
+msgid "Returns the amount of time passed in milliseconds since the engine started."
+msgstr ""
+
+#: ../classes/class_time.rst:272
+msgid "Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly 500 million years)."
+msgstr ""
+
+#: ../classes/class_time.rst:278
+msgid ":ref:`int<class_int>` **get_ticks_usec** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:280
+msgid "Returns the amount of time passed in microseconds since the engine started."
+msgstr ""
+
+#: ../classes/class_time.rst:282
+msgid "Will always be positive or 0 and uses a 64-bit value (it will wrap after roughly half a million years)."
+msgstr ""
+
+#: ../classes/class_time.rst:288
+msgid ":ref:`Dictionary<class_Dictionary>` **get_time_dict_from_system** **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:290
+msgid "Returns the current time as a dictionary of keys: ``hour``, ``minute``, and ``second``."
+msgstr ""
+
+#: ../classes/class_time.rst:298
+msgid ":ref:`Dictionary<class_Dictionary>` **get_time_dict_from_unix_time** **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:300
+msgid "Converts the given time to a dictionary of keys: ``hour``, ``minute``, and ``second``."
+msgstr ""
+
+#: ../classes/class_time.rst:306
+msgid ":ref:`String<class_String>` **get_time_string_from_system** **(** :ref:`bool<class_bool>` utc=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:308
+msgid "Returns the current time as an ISO 8601 time string (HH:MM:SS)."
+msgstr ""
+
+#: ../classes/class_time.rst:316
+msgid ":ref:`String<class_String>` **get_time_string_from_unix_time** **(** :ref:`int<class_int>` unix_time_val **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:318
+msgid "Converts the given Unix timestamp to an ISO 8601 time string (HH:MM:SS)."
+msgstr ""
+
+#: ../classes/class_time.rst:324
+msgid ":ref:`Dictionary<class_Dictionary>` **get_time_zone_from_system** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:326
+msgid "Returns the current time zone as a dictionary of keys: ``bias`` and ``name``. The ``bias`` value is the offset from UTC in minutes, since not all time zones are multiples of an hour from UTC."
+msgstr ""
+
+#: ../classes/class_time.rst:332
+msgid ":ref:`int<class_int>` **get_unix_time_from_datetime_dict** **(** :ref:`Dictionary<class_Dictionary>` datetime **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:334
+msgid "Converts a dictionary of time values to a Unix timestamp."
+msgstr ""
+
+#: ../classes/class_time.rst:340
+msgid "You can pass the output from :ref:`get_datetime_dict_from_unix_time<class_Time_method_get_datetime_dict_from_unix_time>` directly into this function and get the same as what was put in."
+msgstr ""
+
+#: ../classes/class_time.rst:342
+msgid "\\ **Note:** Unix timestamps are often in UTC. This method does not do any timezone conversion, so the timestamp will be in the same timezone as the given datetime dictionary."
+msgstr ""
+
+#: ../classes/class_time.rst:348
+msgid ":ref:`int<class_int>` **get_unix_time_from_datetime_string** **(** :ref:`String<class_String>` datetime **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:350
+msgid "Converts the given ISO 8601 date and/or time string to a Unix timestamp. The string can contain a date only, a time only, or both."
+msgstr ""
+
+#: ../classes/class_time.rst:352
+msgid "\\ **Note:** Unix timestamps are often in UTC. This method does not do any timezone conversion, so the timestamp will be in the same timezone as the given datetime string."
+msgstr ""
+
+#: ../classes/class_time.rst:358
+msgid ":ref:`float<class_float>` **get_unix_time_from_system** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_time.rst:360
+msgid "Returns the current Unix timestamp in seconds based on the system time in UTC. This method is implemented by the operating system and always returns the time in UTC."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

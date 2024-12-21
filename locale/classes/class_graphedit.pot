@@ -1,0 +1,1015 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_graphedit.rst:10
+msgid "GraphEdit"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:14
+msgid "图形编辑GraphEdit是一个能够显示各种图形节点GraphNodes的区域。它管理着它们之间的连接事件。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:19
+msgid "图形编辑GraphEdit管理它所包含的图形节点GraphNodes的显示，以及它们之间的连接和断开。这两个事件中的每一个都会发送信号。默认情况下，图形节点GraphNode插槽之间的断开连接是禁用的。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:21
+msgid "在使用图形编辑GraphEdits时，我们强烈建议启用低处理器使用模式（见\\ :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:27
+msgid "``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:29
+#: ../classes/class_graphedit.rst:35
+#: ../classes/class_graphedit.rst:37
+#: ../classes/class_graphedit.rst:41
+#: ../classes/class_graphedit.rst:45
+#: ../classes/class_graphedit.rst:76
+#: ../classes/class_graphedit.rst:78
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:29
+msgid ":ref:`minimap_enabled<class_GraphEdit_property_minimap_enabled>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:29
+#: ../classes/class_graphedit.rst:45
+#: ../classes/class_graphedit.rst:245
+#: ../classes/class_graphedit.rst:357
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:31
+#: ../classes/class_graphedit.rst:47
+#: ../classes/class_graphedit.rst:49
+#: ../classes/class_graphedit.rst:51
+#: ../classes/class_graphedit.rst:53
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:31
+msgid ":ref:`minimap_opacity<class_GraphEdit_property_minimap_opacity>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:31
+#: ../classes/class_graphedit.rst:261
+msgid "``0.65``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:33
+#: ../classes/class_graphedit.rst:39
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:33
+msgid ":ref:`minimap_size<class_GraphEdit_property_minimap_size>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:33
+#: ../classes/class_graphedit.rst:277
+msgid "``Vector2( 240, 160 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:35
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:35
+msgid "``true`` (overrides :ref:`Control<class_Control_property_rect_clip_content>`)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:37
+msgid ":ref:`right_disconnects<class_GraphEdit_property_right_disconnects>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:37
+#: ../classes/class_graphedit.rst:41
+#: ../classes/class_graphedit.rst:293
+#: ../classes/class_graphedit.rst:325
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:39
+msgid ":ref:`scroll_offset<class_GraphEdit_property_scroll_offset>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:39
+#: ../classes/class_graphedit.rst:309
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:41
+msgid ":ref:`show_zoom_label<class_GraphEdit_property_show_zoom_label>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:43
+#: ../classes/class_graphedit.rst:105
+#: ../classes/class_graphedit.rst:107
+#: ../classes/class_graphedit.rst:109
+#: ../classes/class_graphedit.rst:111
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:43
+msgid ":ref:`snap_distance<class_GraphEdit_property_snap_distance>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:43
+#: ../classes/class_graphedit.rst:341
+msgid "``20``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:45
+msgid ":ref:`use_snap<class_GraphEdit_property_use_snap>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:47
+msgid ":ref:`zoom<class_GraphEdit_property_zoom>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:47
+#: ../classes/class_graphedit.rst:373
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:49
+msgid ":ref:`zoom_max<class_GraphEdit_property_zoom_max>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:49
+#: ../classes/class_graphedit.rst:389
+msgid "``2.0736``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:51
+msgid ":ref:`zoom_min<class_GraphEdit_property_zoom_min>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:51
+#: ../classes/class_graphedit.rst:405
+msgid "``0.232568``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:53
+msgid ":ref:`zoom_step<class_GraphEdit_property_zoom_step>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:53
+#: ../classes/class_graphedit.rst:421
+msgid "``1.2``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:57
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:60
+#: ../classes/class_graphedit.rst:62
+#: ../classes/class_graphedit.rst:64
+#: ../classes/class_graphedit.rst:66
+#: ../classes/class_graphedit.rst:70
+#: ../classes/class_graphedit.rst:80
+#: ../classes/class_graphedit.rst:82
+#: ../classes/class_graphedit.rst:84
+#: ../classes/class_graphedit.rst:86
+#: ../classes/class_graphedit.rst:88
+msgid "void"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:60
+msgid ":ref:`add_valid_connection_type<class_GraphEdit_method_add_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:62
+msgid ":ref:`add_valid_left_disconnect_type<class_GraphEdit_method_add_valid_left_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:64
+msgid ":ref:`add_valid_right_disconnect_type<class_GraphEdit_method_add_valid_right_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:66
+msgid ":ref:`clear_connections<class_GraphEdit_method_clear_connections>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:68
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:68
+msgid ":ref:`connect_node<class_GraphEdit_method_connect_node>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:70
+msgid ":ref:`disconnect_node<class_GraphEdit_method_disconnect_node>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:72
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:72
+msgid ":ref:`get_connection_list<class_GraphEdit_method_get_connection_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:74
+msgid ":ref:`HBoxContainer<class_HBoxContainer>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:74
+msgid ":ref:`get_zoom_hbox<class_GraphEdit_method_get_zoom_hbox>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:76
+msgid ":ref:`is_node_connected<class_GraphEdit_method_is_node_connected>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:78
+msgid ":ref:`is_valid_connection_type<class_GraphEdit_method_is_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:80
+msgid ":ref:`remove_valid_connection_type<class_GraphEdit_method_remove_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:82
+msgid ":ref:`remove_valid_left_disconnect_type<class_GraphEdit_method_remove_valid_left_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:84
+msgid ":ref:`remove_valid_right_disconnect_type<class_GraphEdit_method_remove_valid_right_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:86
+msgid ":ref:`set_connection_activity<class_GraphEdit_method_set_connection_activity>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port, :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:88
+msgid ":ref:`set_selected<class_GraphEdit_method_set_selected>` **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:92
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:95
+#: ../classes/class_graphedit.rst:97
+#: ../classes/class_graphedit.rst:99
+#: ../classes/class_graphedit.rst:101
+#: ../classes/class_graphedit.rst:103
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:95
+msgid ":ref:`activity<class_GraphEdit_theme_color_activity>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:95
+#: ../classes/class_graphedit.rst:561
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:97
+msgid ":ref:`grid_major<class_GraphEdit_theme_color_grid_major>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:97
+#: ../classes/class_graphedit.rst:571
+msgid "``Color( 1, 1, 1, 0.2 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:99
+msgid ":ref:`grid_minor<class_GraphEdit_theme_color_grid_minor>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:99
+#: ../classes/class_graphedit.rst:583
+msgid "``Color( 1, 1, 1, 0.05 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:101
+msgid ":ref:`selection_fill<class_GraphEdit_theme_color_selection_fill>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:101
+#: ../classes/class_graphedit.rst:595
+msgid "``Color( 1, 1, 1, 0.3 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:103
+msgid ":ref:`selection_stroke<class_GraphEdit_theme_color_selection_stroke>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:103
+#: ../classes/class_graphedit.rst:607
+msgid "``Color( 1, 1, 1, 0.8 )``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:105
+msgid ":ref:`bezier_len_neg<class_GraphEdit_theme_constant_bezier_len_neg>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:105
+#: ../classes/class_graphedit.rst:619
+msgid "``160``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:107
+msgid ":ref:`bezier_len_pos<class_GraphEdit_theme_constant_bezier_len_pos>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:107
+#: ../classes/class_graphedit.rst:629
+msgid "``80``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:109
+msgid ":ref:`port_grab_distance_horizontal<class_GraphEdit_theme_constant_port_grab_distance_horizontal>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:109
+#: ../classes/class_graphedit.rst:639
+msgid "``24``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:111
+msgid ":ref:`port_grab_distance_vertical<class_GraphEdit_theme_constant_port_grab_distance_vertical>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:111
+#: ../classes/class_graphedit.rst:651
+msgid "``6``"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:113
+#: ../classes/class_graphedit.rst:115
+#: ../classes/class_graphedit.rst:117
+#: ../classes/class_graphedit.rst:119
+#: ../classes/class_graphedit.rst:121
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:113
+msgid ":ref:`minimap<class_GraphEdit_theme_icon_minimap>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:115
+msgid ":ref:`minus<class_GraphEdit_theme_icon_minus>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:117
+msgid ":ref:`more<class_GraphEdit_theme_icon_more>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:119
+msgid ":ref:`reset<class_GraphEdit_theme_icon_reset>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:121
+msgid ":ref:`snap<class_GraphEdit_theme_icon_snap>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:123
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:123
+msgid ":ref:`bg<class_GraphEdit_theme_style_bg>`"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:127
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:131
+msgid "**_begin_node_move** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:133
+msgid "在图形节点GraphNode移动开始时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:139
+msgid "**_end_node_move** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:141
+msgid "在图形节点GraphNode移动结束时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:147
+msgid "**connection_from_empty** **(** :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot, :ref:`Vector2<class_Vector2>` release_position **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:149
+msgid "当用户连接输入端口到图形的空位时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:155
+msgid "**connection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:157
+msgid "当试图创建\\ ``来自from``\\ 图形节点GraphNode1的\\ ``from_slot``\\ 槽和\\ ``to``\\ 图形节点GraphNode2的\\ ``to_slot``\\ 槽之间的连接时，会向图形编辑GraphEdit发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:163
+msgid "**connection_to_empty** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`Vector2<class_Vector2>` release_position **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:165
+msgid "当用户将输出端口连接到图形的空位时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:171
+msgid "**copy_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:173
+msgid "当用户按\\ ``Ctrl + C``\\ 时触发。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:179
+msgid "**delete_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:181
+msgid "当试图从图形编辑GraphEdit中删除一个图形节点GraphNode时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:187
+msgid "**disconnection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:189
+msgid "当试图移除 ``from`` 图形节点GraphNode1的 ``from_slot``\\ 槽和\\ ``to`` 图形节点GraphNode 的\\ ``to_slot`` 槽之间的连接时，会发送到图形编辑GraphEdit。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:195
+msgid "**duplicate_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:197
+msgid "当图形节点GraphNode试图在图形编辑GraphEdit中被复制时发出的。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:203
+msgid "**node_selected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:205
+msgid "当图形节点GraphNode被选择时发出。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:211
+msgid "**node_unselected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:217
+msgid "**paste_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:219
+msgid "当用户按下\\ ``Ctrl + V``\\ 时触发。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:225
+msgid "**popup_request** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:227
+msgid "当请求弹出窗口时发出。在图形编辑GraphEdit中右键单击时发生。坐标\\ ``position`` 是发送信号时鼠标指针的位置。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:233
+msgid "**scroll_offset_changed** **(** :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:235
+msgid "当用户改变滚动偏移量时发出。在代码中改变滚动偏移量时，它不会被触发。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:238
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:242
+msgid ":ref:`bool<class_bool>` **minimap_enabled**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:245
+#: ../classes/class_graphedit.rst:261
+#: ../classes/class_graphedit.rst:277
+#: ../classes/class_graphedit.rst:293
+#: ../classes/class_graphedit.rst:309
+#: ../classes/class_graphedit.rst:325
+#: ../classes/class_graphedit.rst:341
+#: ../classes/class_graphedit.rst:357
+#: ../classes/class_graphedit.rst:373
+#: ../classes/class_graphedit.rst:389
+#: ../classes/class_graphedit.rst:405
+#: ../classes/class_graphedit.rst:421
+#: ../classes/class_graphedit.rst:561
+#: ../classes/class_graphedit.rst:571
+#: ../classes/class_graphedit.rst:583
+#: ../classes/class_graphedit.rst:595
+#: ../classes/class_graphedit.rst:607
+#: ../classes/class_graphedit.rst:619
+#: ../classes/class_graphedit.rst:629
+#: ../classes/class_graphedit.rst:639
+#: ../classes/class_graphedit.rst:651
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:247
+#: ../classes/class_graphedit.rst:263
+#: ../classes/class_graphedit.rst:279
+#: ../classes/class_graphedit.rst:295
+#: ../classes/class_graphedit.rst:311
+#: ../classes/class_graphedit.rst:327
+#: ../classes/class_graphedit.rst:343
+#: ../classes/class_graphedit.rst:359
+#: ../classes/class_graphedit.rst:375
+#: ../classes/class_graphedit.rst:391
+#: ../classes/class_graphedit.rst:407
+#: ../classes/class_graphedit.rst:423
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:247
+msgid "set_minimap_enabled(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:249
+#: ../classes/class_graphedit.rst:265
+#: ../classes/class_graphedit.rst:281
+#: ../classes/class_graphedit.rst:297
+#: ../classes/class_graphedit.rst:313
+#: ../classes/class_graphedit.rst:329
+#: ../classes/class_graphedit.rst:345
+#: ../classes/class_graphedit.rst:361
+#: ../classes/class_graphedit.rst:377
+#: ../classes/class_graphedit.rst:393
+#: ../classes/class_graphedit.rst:409
+#: ../classes/class_graphedit.rst:425
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:249
+msgid "is_minimap_enabled()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:252
+msgid "如果\\ ``true``\\ ，小图是可见的。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:258
+msgid ":ref:`float<class_float>` **minimap_opacity**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:263
+msgid "set_minimap_opacity(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:265
+msgid "get_minimap_opacity()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:268
+msgid "小图矩形的不透明度。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:274
+msgid ":ref:`Vector2<class_Vector2>` **minimap_size**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:279
+msgid "set_minimap_size(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:281
+msgid "get_minimap_size()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:284
+msgid "小图矩形的大小。地图自身基于网格区域的大小，并被缩放以适应这个矩形。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:290
+msgid ":ref:`bool<class_bool>` **right_disconnects**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:295
+msgid "set_right_disconnects(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:297
+msgid "is_right_disconnects_enabled()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:300
+msgid "如果\\ ``true``\\ ，通过拖动右端，可以断开图形编辑GraphEdit中现有的连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:306
+msgid ":ref:`Vector2<class_Vector2>` **scroll_offset**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:311
+msgid "set_scroll_ofs(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:313
+msgid "get_scroll_ofs()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:316
+msgid "滚动偏移量。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:322
+msgid ":ref:`bool<class_bool>` **show_zoom_label**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:327
+msgid "set_show_zoom_label(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:329
+msgid "is_showing_zoom_label()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:332
+msgid "如果\\ ``true``\\ ，则使当前缩放级别的标签可见。缩放值以百分比显示。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:338
+msgid ":ref:`int<class_int>` **snap_distance**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:343
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:345
+msgid "get_snap()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:348
+msgid "吸附距离(以像素为单位)。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:354
+msgid ":ref:`bool<class_bool>` **use_snap**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:359
+msgid "set_use_snap(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:361
+msgid "is_using_snap()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:364
+msgid "如果为\\ ``true``\\ ，启用自动吸附。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:370
+msgid ":ref:`float<class_float>` **zoom**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:375
+msgid "set_zoom(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:377
+msgid "get_zoom()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:380
+msgid "当前缩放值。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:386
+msgid ":ref:`float<class_float>` **zoom_max**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:391
+msgid "set_zoom_max(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:393
+msgid "get_zoom_max()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:396
+msgid "缩放上限。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:402
+msgid ":ref:`float<class_float>` **zoom_min**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:407
+msgid "set_zoom_min(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:409
+msgid "get_zoom_min()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:412
+msgid "缩放下限。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:418
+msgid ":ref:`float<class_float>` **zoom_step**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:423
+msgid "set_zoom_step(value)"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:425
+msgid "get_zoom_step()"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:428
+msgid "每个缩放级别的步长。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:431
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:435
+msgid "void **add_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:437
+msgid "使得两个不同插槽型之间的连接成为可能。该类型是通过\\ :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\\ 方法定义的。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:443
+msgid "void **add_valid_left_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:445
+msgid "使得从左边的槽中拖动节点时，如果它有指定的类型，可以断开节点的连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:451
+msgid "void **add_valid_right_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:453
+msgid "使得从右边的槽中拖动节点时，如果它有指定的类型，可以断开节点的连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:459
+msgid "void **clear_connections** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:461
+msgid "移除节点之间的所有连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:467
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:469
+msgid "在\\ ``from``\\ 图形节点GraphNode的\\ ``from_port``\\ 槽和\\ ``to``\\ 图形节点GraphNode的\\ ``to_port``\\ 槽之间创建一个连接。如果该连接已经存在，则不创建连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:475
+msgid "void **disconnect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:477
+msgid "删除\\ ``from`` 图形节点GraphNode1的\\ ``from_port``\\ 插槽与\\ ``to`` 图形节点GraphNode2的\\ ``to_port``\\ 插槽之间的连接。如果连接不存在，则不会删除任何连接。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:483
+msgid ":ref:`Array<class_Array>` **get_connection_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:485
+msgid "返回一个包含连接列表的数组。一个连接包括一个结构，其形式为\\ ``{ from_port:0, from: \"GraphNode name 0\", to_port:1, to:\"GraphNode name 1\" }``."
+msgstr ""
+
+#: ../classes/class_graphedit.rst:491
+msgid ":ref:`HBoxContainer<class_HBoxContainer>` **get_zoom_hbox** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:493
+msgid "获取包含图形左上角的缩放和网格捕捉控件的 :ref:`HBoxContainer<class_HBoxContainer>`\\ 。你可以使用此方法重新定位工具栏或向其添加自定义控件。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:495
+msgid "\\ **警告：** 这是一个必需的内部节点，删除和释放它可能会导致崩溃。如果你希望隐藏它或其任何子项，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:501
+msgid ":ref:`bool<class_bool>` **is_node_connected** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:503
+msgid "如果\\ ``from`` 图形节点GraphNode1的\\ ``from_port``\\ 槽与\\ ``to``\\ 图形节点GraphNode2的\\ ``to_port``\\ 槽相连，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:509
+msgid ":ref:`bool<class_bool>` **is_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:511
+msgid "返回是否有可能连接指定类型的插槽。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:517
+msgid "void **remove_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:519
+msgid "使得两个不同槽型之间的连接成为不可能。该类型是通过\\ :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>`\\ 方法定义的。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:525
+msgid "void **remove_valid_left_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:527
+#: ../classes/class_graphedit.rst:535
+msgid "当节点具有指定的类型，可以从左边的槽中拖动时删除断开节点的功能。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:533
+msgid "void **remove_valid_right_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:541
+msgid "void **set_connection_activity** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port, :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:543
+msgid "将\\ ``from``\\ 的\\ ``from_port``\\ 和\\ ``to``\\ 的\\ ``to_port``\\ 之间的连接的颜色纹理设置为当前正在使用\\ ``activity``\\ 的主题中的颜色。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:549
+msgid "void **set_selected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:551
+msgid "选中一个特定的节点\\ ``node``."
+msgstr ""
+
+#: ../classes/class_graphedit.rst:554
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:558
+msgid ":ref:`Color<class_Color>` **activity**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:568
+msgid ":ref:`Color<class_Color>` **grid_major**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:574
+msgid "主网格线条颜色。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:580
+msgid ":ref:`Color<class_Color>` **grid_minor**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:586
+msgid "次要网格线的颜色。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:592
+msgid ":ref:`Color<class_Color>` **selection_fill**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:598
+msgid "选定的矩形的填充颜色。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:604
+msgid ":ref:`Color<class_Color>` **selection_stroke**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:610
+msgid "选择的矩形的轮廓颜色。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:616
+msgid ":ref:`int<class_int>` **bezier_len_neg**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:626
+msgid ":ref:`int<class_int>` **bezier_len_pos**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:636
+msgid ":ref:`int<class_int>` **port_grab_distance_horizontal**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:642
+msgid "一个端口可以被抓取的水平范围（两侧）。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:648
+msgid ":ref:`int<class_int>` **port_grab_distance_vertical**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:654
+msgid "一个端口可以被抓取的垂直范围（两侧）。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:660
+msgid ":ref:`Texture<class_Texture>` **minimap**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:666
+msgid ":ref:`Texture<class_Texture>` **minus**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:668
+msgid "缩小按钮的图标。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:674
+msgid ":ref:`Texture<class_Texture>` **more**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:676
+msgid "放大按钮的图标。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:682
+msgid ":ref:`Texture<class_Texture>` **reset**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:684
+msgid "缩放重置按钮的图标。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:690
+msgid ":ref:`Texture<class_Texture>` **snap**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:692
+msgid "吸附动按钮的图标。"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:698
+msgid ":ref:`StyleBox<class_StyleBox>` **bg**"
+msgstr ""
+
+#: ../classes/class_graphedit.rst:700
+msgid "绘制在网格下方的背景。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

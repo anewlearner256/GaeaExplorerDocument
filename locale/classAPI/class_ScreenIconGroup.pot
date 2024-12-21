@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_ScreenIconGroup.rst:2
+msgid "ScreenIconGroup"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:16
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:16
+msgid "VisibleRange"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:18
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:18
+msgid "groupName"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:20
+msgid "FontItem"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:20
+msgid "currentFontStyle"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:22
+msgid "MarkItem"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:22
+msgid "currentMarkStyle"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:29
+#: ../classAPI/class_ScreenIconGroup.rst:31
+#: ../classAPI/class_ScreenIconGroup.rst:33
+#: ../classAPI/class_ScreenIconGroup.rst:35
+#: ../classAPI/class_ScreenIconGroup.rst:37
+#: ../classAPI/class_ScreenIconGroup.rst:39
+#: ../classAPI/class_ScreenIconGroup.rst:41
+#: ../classAPI/class_ScreenIconGroup.rst:43
+#: ../classAPI/class_ScreenIconGroup.rst:45
+#: ../classAPI/class_ScreenIconGroup.rst:47
+#: ../classAPI/class_ScreenIconGroup.rst:49
+#: ../classAPI/class_ScreenIconGroup.rst:51
+#: ../classAPI/class_ScreenIconGroup.rst:53
+#: ../classAPI/class_ScreenIconGroup.rst:55
+#: ../classAPI/class_ScreenIconGroup.rst:57
+#: ../classAPI/class_ScreenIconGroup.rst:59
+#: ../classAPI/class_ScreenIconGroup.rst:61
+#: ../classAPI/class_ScreenIconGroup.rst:63
+#: ../classAPI/class_ScreenIconGroup.rst:65
+#: ../classAPI/class_ScreenIconGroup.rst:67
+#: ../classAPI/class_ScreenIconGroup.rst:69
+#: ../classAPI/class_ScreenIconGroup.rst:71
+#: ../classAPI/class_ScreenIconGroup.rst:73
+#: ../classAPI/class_ScreenIconGroup.rst:77
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:29
+msgid "AddScreenIcon(ScreenIcon si,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:31
+msgid "AddScreenIcons(ScreenIcon[] si,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:33
+msgid "AddFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:35
+msgid "AddMarkItem(String imgPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:37
+msgid "AddBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:39
+msgid "Update()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:41
+msgid "RemoveChild()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:43
+msgid "RemoveFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:45
+msgid "RemoveMarkItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:47
+msgid "RemoveBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:49
+msgid "ChangeFontColor(Color color,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:51
+msgid "ChangeFontStyle(String fontName,String fontPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:53
+msgid "ChangeMarkStyle(String imgPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:55
+msgid "ClearFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:57
+msgid "ClearMarkItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:59
+msgid "ClearBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:61
+msgid "ClearByStyle(Type type,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:63
+msgid "Clear()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:65
+msgid "SetFontAnchor(AnchorType fontAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:67
+msgid "SetMarkAnchor(AnchorType markAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:69
+msgid "SetBgAnchor(AnchorType backgroundAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:71
+msgid "SetMarkSize(Single mark_size,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:73
+msgid "SetTextSize(Single text_size,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:75
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:75
+msgid "GetIconCount()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:77
+msgid "ShowPolygonsInfo()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:81
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:83
+msgid "Vector2 VisibleRange"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:86
+#: ../classAPI/class_ScreenIconGroup.rst:97
+#: ../classAPI/class_ScreenIconGroup.rst:108
+#: ../classAPI/class_ScreenIconGroup.rst:119
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:94
+msgid "String groupName"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:105
+msgid "FontItem currentFontStyle"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:112
+msgid "当前数据组使用的字体样式"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:116
+msgid "MarkItem currentMarkStyle"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:123
+msgid "当前数据组使用的图标样式"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:129
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:131
+msgid "Void AddScreenIcon(ScreenIcon si,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:137
+msgid "Void AddScreenIcons(ScreenIcon[] si,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:143
+msgid "Void AddFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:149
+msgid "Void AddMarkItem(String imgPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:155
+msgid "Void AddBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:161
+msgid "Void Update()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:167
+msgid "Void RemoveChild()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:173
+msgid "Void RemoveFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:179
+msgid "Void RemoveMarkItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:185
+msgid "Void RemoveBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:191
+msgid "Void ChangeFontColor(Color color,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:197
+msgid "Void ChangeFontStyle(String fontName,String fontPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:203
+msgid "Void ChangeMarkStyle(String imgPath,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:209
+msgid "Void ClearFontItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:215
+msgid "Void ClearMarkItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:221
+msgid "Void ClearBgItem()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:227
+msgid "Void ClearByStyle(Type type,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:233
+msgid "Void Clear()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:239
+msgid "Void SetFontAnchor(AnchorType fontAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:245
+msgid "Void SetMarkAnchor(AnchorType markAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:251
+msgid "Void SetBgAnchor(AnchorType backgroundAnchor,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:257
+msgid "Void SetMarkSize(Single mark_size,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:263
+msgid "Void SetTextSize(Single text_size,)"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:269
+msgid "Int32 GetIconCount()"
+msgstr ""
+
+#: ../classAPI/class_ScreenIconGroup.rst:275
+msgid "Void ShowPolygonsInfo()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

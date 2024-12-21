@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:2
+msgid "Table"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:16
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:16
+msgid "Fields"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:18
+msgid "String"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:18
+msgid "OIDFieldName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:20
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:24
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:20
+msgid "HasOID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:22
+msgid "Object"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:22
+msgid "Extension"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:24
+msgid "CanSelect"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:28
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:31
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:31
+msgid "FindField(String fieldName,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:33
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:37
+msgid "Row"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:33
+msgid "CreateRow()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:35
+msgid "RowBuffer"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:35
+msgid "CreateRowBuffer()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:37
+msgid "GetRow(Int32 OID,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:41
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:43
+msgid "Fields Fields"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:46
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:56
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:66
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:76
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:86
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:49
+msgid "Fields类型的只读属性，表示数据表的字段。"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:53
+msgid "String OIDFieldName"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:59
+msgid "字符串类型的只读属性，表示唯一标识符的字段名称。"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:63
+msgid "Boolean HasOID"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:69
+msgid "布尔类型的只读属性，表示数据表是否包含唯一标识符字段。"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:73
+msgid "Object Extension"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:79
+msgid "返回_Extension属性的值"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:83
+msgid "Boolean CanSelect"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:89
+msgid "返回true，表示该类支持选择操作。该方法尚未实现"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:95
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:97
+msgid "Int32 FindField(String fieldName,)"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:103
+msgid "Row CreateRow()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:109
+msgid "RowBuffer CreateRowBuffer()"
+msgstr ""
+
+#: ../classAPI/GaeaGeoDataBase/class_Table.rst:115
+msgid "Row GetRow(Int32 OID,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

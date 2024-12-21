@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_StreamLineTD.rst:2
+msgid "StreamLineTD"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:16
+#: ../classAPI/class_StreamLineTD.rst:18
+#: ../classAPI/class_StreamLineTD.rst:20
+#: ../classAPI/class_StreamLineTD.rst:22
+#: ../classAPI/class_StreamLineTD.rst:26
+#: ../classAPI/class_StreamLineTD.rst:44
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:16
+msgid "ArrowDensity"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:18
+msgid "TimeNum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:20
+msgid "LineLevel"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:22
+msgid "LineDensity"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:24
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:24
+msgid "ArrowSize"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:26
+msgid "LineDensity2"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:28
+#: ../classAPI/class_StreamLineTD.rst:30
+#: ../classAPI/class_StreamLineTD.rst:34
+#: ../classAPI/class_StreamLineTD.rst:36
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:28
+msgid "LineColor"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:30
+msgid "ArrowColor"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:32
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:32
+msgid "IsRefresh"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:34
+msgid "ColorEnd"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:36
+msgid "ColorStart"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:38
+#: ../classAPI/class_StreamLineTD.rst:40
+#: ../classAPI/class_StreamLineTD.rst:42
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:38
+msgid "Maximum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:40
+msgid "Minimum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:42
+msgid "ModelHeight"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:44
+msgid "GapFrame"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:46
+#: ../classAPI/class_StreamLineTD.rst:46
+msgid "MeshInstance"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:50
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:53
+#: ../classAPI/class_StreamLineTD.rst:55
+#: ../classAPI/class_StreamLineTD.rst:57
+#: ../classAPI/class_StreamLineTD.rst:59
+#: ../classAPI/class_StreamLineTD.rst:61
+#: ../classAPI/class_StreamLineTD.rst:63
+#: ../classAPI/class_StreamLineTD.rst:65
+#: ../classAPI/class_StreamLineTD.rst:67
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:53
+msgid "Initialize(String name,MeteorDataProvider mdProvider,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:55
+msgid "Initialize()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:57
+msgid "DoRender()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:59
+msgid "Render()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:61
+msgid "_PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:63
+msgid "_Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:65
+msgid "Update()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:67
+msgid "Dispose()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:71
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:73
+msgid "Int32 ArrowDensity"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:76
+#: ../classAPI/class_StreamLineTD.rst:87
+#: ../classAPI/class_StreamLineTD.rst:98
+#: ../classAPI/class_StreamLineTD.rst:109
+#: ../classAPI/class_StreamLineTD.rst:120
+#: ../classAPI/class_StreamLineTD.rst:131
+#: ../classAPI/class_StreamLineTD.rst:142
+#: ../classAPI/class_StreamLineTD.rst:153
+#: ../classAPI/class_StreamLineTD.rst:164
+#: ../classAPI/class_StreamLineTD.rst:175
+#: ../classAPI/class_StreamLineTD.rst:186
+#: ../classAPI/class_StreamLineTD.rst:197
+#: ../classAPI/class_StreamLineTD.rst:208
+#: ../classAPI/class_StreamLineTD.rst:219
+#: ../classAPI/class_StreamLineTD.rst:230
+#: ../classAPI/class_StreamLineTD.rst:241
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:80
+msgid "箭头密度"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:84
+msgid "Int32 TimeNum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:95
+msgid "Int32 LineLevel"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:106
+msgid "Int32 LineDensity"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:113
+msgid "流线的生成密度"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:117
+msgid "Single ArrowSize"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:124
+msgid "箭头大小"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:128
+msgid "Int32 LineDensity2"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:135
+msgid "流线的显示密度  2表示两条显示一条"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:139
+msgid "Color LineColor"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:146
+msgid "流线颜色"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:150
+msgid "Color ArrowColor"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:157
+msgid "箭头颜色"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:161
+msgid "Boolean IsRefresh"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:172
+msgid "Color ColorEnd"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:183
+msgid "Color ColorStart"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:194
+msgid "Double Maximum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:205
+msgid "Double Minimum"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:216
+msgid "Double ModelHeight"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:227
+msgid "Int32 GapFrame"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:234
+msgid "每隔多少帧渲染一次，默认为5"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:238
+msgid "MeshInstance MeshInstance"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:251
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:253
+msgid "Void Initialize(String name,MeteorDataProvider mdProvider,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:259
+msgid "Void Initialize()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:265
+msgid "Void DoRender()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:271
+msgid "Void Render()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:277
+msgid "Void _PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:283
+msgid "Void _Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:289
+msgid "Void Update()"
+msgstr ""
+
+#: ../classAPI/class_StreamLineTD.rst:295
+msgid "Void Dispose()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

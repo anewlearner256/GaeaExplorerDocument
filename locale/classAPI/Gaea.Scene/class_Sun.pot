@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:2
+msgid "Sun"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:7
+msgid "定义太阳节点"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:16
+#: ../classAPI/Gaea.Scene/class_Sun.rst:22
+#: ../classAPI/Gaea.Scene/class_Sun.rst:26
+#: ../classAPI/Gaea.Scene/class_Sun.rst:28
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:16
+msgid "IsSettingByUser"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:18
+#: ../classAPI/Gaea.Scene/class_Sun.rst:24
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:18
+msgid "TimeScale"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:20
+msgid "String"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:20
+msgid "TimeString"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:22
+msgid "IsOn"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:24
+msgid "Power"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:26
+msgid "Shadow"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:28
+msgid "UseAutoShadowDistance"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:32
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:35
+#: ../classAPI/Gaea.Scene/class_Sun.rst:37
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:35
+msgid "_Ready()"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:37
+msgid "_PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:39
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:39
+msgid "GetGeocentricPosition(DateTime utcDateTime,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:43
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:45
+msgid "Boolean IsSettingByUser"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:48
+#: ../classAPI/Gaea.Scene/class_Sun.rst:59
+#: ../classAPI/Gaea.Scene/class_Sun.rst:70
+#: ../classAPI/Gaea.Scene/class_Sun.rst:81
+#: ../classAPI/Gaea.Scene/class_Sun.rst:92
+#: ../classAPI/Gaea.Scene/class_Sun.rst:103
+#: ../classAPI/Gaea.Scene/class_Sun.rst:114
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:52
+msgid "为true时，时间由用户手动设置，否则自动获取系统时间"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:56
+msgid "Single TimeScale"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:63
+msgid "时间流逝速率"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:67
+msgid "String TimeString"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:74
+msgid "时间，格式yyyy-MM-dd HH:mm:ss"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:78
+msgid "Boolean IsOn"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:85
+msgid "为true时，时间会流逝，否则时间不变"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:89
+msgid "Single Power"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:96
+msgid "光的强度"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:100
+msgid "Boolean Shadow"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:107
+msgid "是否开启阴影"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:111
+msgid "Boolean UseAutoShadowDistance"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:118
+msgid "使用自动阴影距离,用于解决阴影的锯齿以及条纹问题"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:124
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:126
+msgid "Void _Ready()"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:132
+msgid "Void _PhysicsProcess(Single delta,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Scene/class_Sun.rst:138
+msgid "Vector3 GetGeocentricPosition(DateTime utcDateTime,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

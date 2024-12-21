@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_room.rst:10
+msgid "Room"
+msgstr ""
+
+#: ../classes/class_room.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_room.rst:14
+msgid "Room 节点，用于在本地将对象组合在一起以进行 :ref:`Portal<class_Portal>` 剔除。"
+msgstr ""
+
+#: ../classes/class_room.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_room.rst:19
+msgid ":ref:`Portal<class_Portal>` 剔除系统需要使用在称为 ``Room`` 的区域中按位置分组在一起的对象来构建关卡。在许多情况下，这些将对应于建筑物中的实际空间，但不一定（峡谷区域可能被视为空间）。"
+msgstr ""
+
+#: ../classes/class_room.rst:21
+msgid "如果 :ref:`VisualInstance<class_VisualInstance>` 的 ``portal_mode`` 设置为 ``STATIC``\\ （不移动) 或 ``DYNAMIC``\\ （仅在空间内移动），那么任何作为 ``Room`` 的子代或孙代的 :ref:`VisualInstance<class_VisualInstance>` 将被分配到该空间。"
+msgstr ""
+
+#: ../classes/class_room.rst:23
+msgid "在内部，空间边界必须形成一个\\ **凸多边形**\\ ，默认情况下，这由您放置在空间内的对象的几何形状自动确定。"
+msgstr ""
+
+#: ../classes/class_room.rst:25
+msgid "您也可以精确指定\\ **手动绑定**\\ 。如果放置一个名称以 ``Bound_`` 为前缀的 :ref:`MeshInstance<class_MeshInstance>`\\ ，它将关闭几何体的边界生成，而是在转换阶段使用这个MeshInstance 的顶点直接计算凸多边形（见\\ :ref:`RoomManager<class_RoomManager>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_room.rst:27
+msgid "为了从一个空间看到相邻的空间，\\ :ref:`Portal<class_Portal>` 必须放置在空间之间的非遮挡开口上。这些通常会放置在门窗上。"
+msgstr ""
+
+#: ../classes/class_room.rst:30
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_room.rst:33
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../classes/class_room.rst:33
+msgid ":ref:`points<class_Room_property_points>`"
+msgstr ""
+
+#: ../classes/class_room.rst:33
+#: ../classes/class_room.rst:55
+msgid "``PoolVector3Array(  )``"
+msgstr ""
+
+#: ../classes/class_room.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_room.rst:35
+msgid ":ref:`room_simplify<class_Room_property_room_simplify>`"
+msgstr ""
+
+#: ../classes/class_room.rst:35
+#: ../classes/class_room.rst:73
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_room.rst:37
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_room.rst:37
+msgid ":ref:`use_default_simplify<class_Room_property_use_default_simplify>`"
+msgstr ""
+
+#: ../classes/class_room.rst:37
+#: ../classes/class_room.rst:89
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_room.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_room.rst:44
+msgid "void"
+msgstr ""
+
+#: ../classes/class_room.rst:44
+msgid ":ref:`set_point<class_Room_method_set_point>` **(** :ref:`int<class_int>` index, :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_room.rst:48
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_room.rst:52
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **points**"
+msgstr ""
+
+#: ../classes/class_room.rst:55
+#: ../classes/class_room.rst:73
+#: ../classes/class_room.rst:89
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_room.rst:57
+#: ../classes/class_room.rst:75
+#: ../classes/class_room.rst:91
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_room.rst:57
+msgid "set_points(value)"
+msgstr ""
+
+#: ../classes/class_room.rst:59
+#: ../classes/class_room.rst:77
+#: ../classes/class_room.rst:93
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_room.rst:59
+msgid "get_points()"
+msgstr ""
+
+#: ../classes/class_room.rst:62
+msgid "如果设置了 ``points``\\ ，则会从这些点构建 ``Room`` 边界凸多边形。如果未设置点，则空间边界将来自手动边界（\\ :ref:`MeshInstance<class_MeshInstance>` 名称前缀为 ``Bound_``\\ ），或来自空间内的几何体。"
+msgstr ""
+
+#: ../classes/class_room.rst:64
+msgid "请注意，您可以使用 ``Generate Points`` 编辑器按钮开始。这将使用几何体或手动绑定来生成空间外壳，并保存结果点，允许您编辑它们以进一步细化边界。"
+msgstr ""
+
+#: ../classes/class_room.rst:70
+msgid ":ref:`float<class_float>` **room_simplify**"
+msgstr ""
+
+#: ../classes/class_room.rst:75
+msgid "set_room_simplify(value)"
+msgstr ""
+
+#: ../classes/class_room.rst:77
+msgid "get_room_simplify()"
+msgstr ""
+
+#: ../classes/class_room.rst:80
+msgid "``simplify`` 值通过移除相似的平面来确定空间外壳（边界）的简化程度。值 0 表示不简化，1 表示最大程度的简化。"
+msgstr ""
+
+#: ../classes/class_room.rst:86
+msgid ":ref:`bool<class_bool>` **use_default_simplify**"
+msgstr ""
+
+#: ../classes/class_room.rst:91
+msgid "set_use_default_simplify(value)"
+msgstr ""
+
+#: ../classes/class_room.rst:93
+msgid "get_use_default_simplify()"
+msgstr ""
+
+#: ../classes/class_room.rst:96
+msgid "空间外壳简化可以使用 :ref:`RoomManager<class_RoomManager>` 中设置的默认值，也可以覆盖它并使用每个空间的设置。"
+msgstr ""
+
+#: ../classes/class_room.rst:99
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_room.rst:103
+msgid "void **set_point** **(** :ref:`int<class_int>` index, :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_room.rst:105
+msgid "设置单个点。主要供编辑器使用。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

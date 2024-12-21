@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_pointmesh.rst:10
+msgid "PointMesh"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:12
+msgid "**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:14
+msgid "单点原始网格。"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:19
+msgid "PointMesh是由单个的点构成。与其依赖三角形与点在屏幕上渲染形成具有恒定尺寸的单独矩形。其旨在与粒子系统一起使用，但也可以作为一种消耗小的方式来渲染恒定尺寸的广告牌精灵，例如，在点云中。"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:21
+msgid "PointMeshes，必须与具有点大小的材质一起使用。点大小可以通过\\ ``POINT_SIZE``\\ 在着色器中访问，或者通过设置\\ :ref:`SpatialMaterial.flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`\\ 和变量\\ :ref:`SpatialMaterial.params_point_size<class_SpatialMaterial_property_params_point_size>`\\ 在\\ :ref:`SpatialMaterial<class_SpatialMaterial>`\\ 中访问。"
+msgstr ""
+
+#: ../classes/class_pointmesh.rst:23
+msgid "当使用PointMeshes时，通常改变顶点的属性将被忽略，包括广告牌模式、增长和剔除面。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

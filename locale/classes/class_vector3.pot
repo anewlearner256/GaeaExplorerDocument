@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_vector3.rst:10
+msgid "Vector3"
+msgstr ""
+
+#: ../classes/class_vector3.rst:12
+msgid "用于 3D 数学的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_vector3.rst:17
+msgid "可用于表示 3D 空间中的位置或任何其他数值对的 3 元素结构。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:19
+msgid "\\ **注意：** 在布尔上下文中，如果 Vector3 等于 ``Vector3(0, 0, 0)``\\ ，将评估为 ``false``\\ 。否则， Vector3 将始终评估为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_vector3.rst:24
+msgid ":doc:`Math tutorial index <../tutorials/math/index>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:26
+msgid ":doc:`Vector math <../tutorials/math/vector_math>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:28
+msgid ":doc:`Advanced vector math <../tutorials/math/vectors_advanced>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:30
+msgid "`3Blue1Brown Essence of Linear Algebra <https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`__"
+msgstr ""
+
+#: ../classes/class_vector3.rst:32
+msgid "`Matrix Transform Demo <https://godotengine.org/asset-library/asset/584>`__"
+msgstr ""
+
+#: ../classes/class_vector3.rst:34
+msgid "`All 3D Demos <https://github.com/godotengine/godot-demo-projects/tree/master/3d>`__"
+msgstr ""
+
+#: ../classes/class_vector3.rst:37
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_vector3.rst:40
+#: ../classes/class_vector3.rst:42
+#: ../classes/class_vector3.rst:44
+#: ../classes/class_vector3.rst:55
+#: ../classes/class_vector3.rst:67
+#: ../classes/class_vector3.rst:69
+#: ../classes/class_vector3.rst:71
+#: ../classes/class_vector3.rst:81
+#: ../classes/class_vector3.rst:83
+#: ../classes/class_vector3.rst:113
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:40
+msgid ":ref:`x<class_Vector3_property_x>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:40
+#: ../classes/class_vector3.rst:42
+#: ../classes/class_vector3.rst:44
+#: ../classes/class_vector3.rst:183
+#: ../classes/class_vector3.rst:195
+#: ../classes/class_vector3.rst:207
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_vector3.rst:42
+msgid ":ref:`y<class_Vector3_property_y>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:44
+msgid ":ref:`z<class_Vector3_property_z>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:48
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_vector3.rst:51
+#: ../classes/class_vector3.rst:53
+#: ../classes/class_vector3.rst:57
+#: ../classes/class_vector3.rst:59
+#: ../classes/class_vector3.rst:61
+#: ../classes/class_vector3.rst:63
+#: ../classes/class_vector3.rst:65
+#: ../classes/class_vector3.rst:73
+#: ../classes/class_vector3.rst:75
+#: ../classes/class_vector3.rst:85
+#: ../classes/class_vector3.rst:87
+#: ../classes/class_vector3.rst:93
+#: ../classes/class_vector3.rst:95
+#: ../classes/class_vector3.rst:99
+#: ../classes/class_vector3.rst:101
+#: ../classes/class_vector3.rst:103
+#: ../classes/class_vector3.rst:105
+#: ../classes/class_vector3.rst:107
+#: ../classes/class_vector3.rst:109
+#: ../classes/class_vector3.rst:111
+#: ../classes/class_vector3.rst:115
+#: ../classes/class_vector3.rst:117
+#: ../classes/class_vector3.rst:119
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:51
+msgid ":ref:`Vector3<class_Vector3_method_Vector3>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:53
+msgid ":ref:`abs<class_Vector3_method_abs>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:55
+msgid ":ref:`angle_to<class_Vector3_method_angle_to>` **(** :ref:`Vector3<class_Vector3>` to **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:57
+msgid ":ref:`bounce<class_Vector3_method_bounce>` **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:59
+msgid ":ref:`ceil<class_Vector3_method_ceil>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:61
+msgid ":ref:`cross<class_Vector3_method_cross>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:63
+msgid ":ref:`cubic_interpolate<class_Vector3_method_cubic_interpolate>` **(** :ref:`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` pre_a, :ref:`Vector3<class_Vector3>` post_b, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:65
+msgid ":ref:`direction_to<class_Vector3_method_direction_to>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:67
+msgid ":ref:`distance_squared_to<class_Vector3_method_distance_squared_to>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:69
+msgid ":ref:`distance_to<class_Vector3_method_distance_to>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:71
+msgid ":ref:`dot<class_Vector3_method_dot>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:73
+msgid ":ref:`floor<class_Vector3_method_floor>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:75
+msgid ":ref:`inverse<class_Vector3_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:77
+#: ../classes/class_vector3.rst:79
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:77
+msgid ":ref:`is_equal_approx<class_Vector3_method_is_equal_approx>` **(** :ref:`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:79
+msgid ":ref:`is_normalized<class_Vector3_method_is_normalized>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:81
+msgid ":ref:`length<class_Vector3_method_length>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:83
+msgid ":ref:`length_squared<class_Vector3_method_length_squared>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:85
+msgid ":ref:`limit_length<class_Vector3_method_limit_length>` **(** :ref:`float<class_float>` length=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:87
+msgid ":ref:`linear_interpolate<class_Vector3_method_linear_interpolate>` **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:89
+#: ../classes/class_vector3.rst:91
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:89
+msgid ":ref:`max_axis<class_Vector3_method_max_axis>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:91
+msgid ":ref:`min_axis<class_Vector3_method_min_axis>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:93
+msgid ":ref:`move_toward<class_Vector3_method_move_toward>` **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:95
+msgid ":ref:`normalized<class_Vector3_method_normalized>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:97
+#: ../classes/class_vector3.rst:121
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../classes/class_vector3.rst:97
+msgid ":ref:`outer<class_Vector3_method_outer>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:99
+msgid ":ref:`posmod<class_Vector3_method_posmod>` **(** :ref:`float<class_float>` mod **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:101
+msgid ":ref:`posmodv<class_Vector3_method_posmodv>` **(** :ref:`Vector3<class_Vector3>` modv **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:103
+msgid ":ref:`project<class_Vector3_method_project>` **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:105
+msgid ":ref:`reflect<class_Vector3_method_reflect>` **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:107
+msgid ":ref:`rotated<class_Vector3_method_rotated>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:109
+msgid ":ref:`round<class_Vector3_method_round>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:111
+msgid ":ref:`sign<class_Vector3_method_sign>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:113
+msgid ":ref:`signed_angle_to<class_Vector3_method_signed_angle_to>` **(** :ref:`Vector3<class_Vector3>` to, :ref:`Vector3<class_Vector3>` axis **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:115
+msgid ":ref:`slerp<class_Vector3_method_slerp>` **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:117
+msgid ":ref:`slide<class_Vector3_method_slide>` **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:119
+msgid ":ref:`snapped<class_Vector3_method_snapped>` **(** :ref:`Vector3<class_Vector3>` by **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:121
+msgid ":ref:`to_diagonal_matrix<class_Vector3_method_to_diagonal_matrix>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:125
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_vector3.rst:151
+msgid "**AXIS_X** = **0** --- X 轴的枚举值。由 :ref:`max_axis<class_Vector3_method_max_axis>` 和 :ref:`min_axis<class_Vector3_method_min_axis>` 返回。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:153
+msgid "**AXIS_Y** = **1** --- Y 轴的枚举值。由 :ref:`max_axis<class_Vector3_method_max_axis>` 和 :ref:`min_axis<class_Vector3_method_min_axis>` 返回。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:155
+msgid "**AXIS_Z** = **2** --- Z 轴的枚举值。由 :ref:`max_axis<class_Vector3_method_max_axis>` 和 :ref:`min_axis<class_Vector3_method_min_axis>` 返回。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:157
+msgid "**ZERO** = **Vector3( 0, 0, 0 )** --- 零向量，所有分量都设置为 ``0`` 的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:159
+msgid "**ONE** = **Vector3( 1, 1, 1 )** --- 一向量，所有分量都设置为 ``1`` 的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:161
+msgid "**INF** = **Vector3( inf, inf, inf )** --- 无穷大向量，所有分量都设置为 :ref:`@GDScript.INF<class_@GDScript_constant_INF>` 的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:163
+msgid "**LEFT** = **Vector3( -1, 0, 0 )** --- 左单位向量。代表局部的左方向，全局的西方向。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:165
+msgid "**RIGHT** = **Vector3( 1, 0, 0 )** --- 右单位向量。代表局部的右方向，全局的东方向。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:167
+msgid "**UP** = **Vector3( 0, 1, 0 )** --- 上单位向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:169
+msgid "**DOWN** = **Vector3( 0, -1, 0 )** --- 下单位向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:171
+msgid "**FORWARD** = **Vector3( 0, 0, -1 )** --- 前单位向量。代表局部的前方向，全局的北方向。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:173
+msgid "**BACK** = **Vector3( 0, 0, 1 )** --- 后单位向量。代表局部的后方向，全局的南方向。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:176
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_vector3.rst:180
+msgid ":ref:`float<class_float>` **x**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:183
+#: ../classes/class_vector3.rst:195
+#: ../classes/class_vector3.rst:207
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_vector3.rst:186
+msgid "向量的 X 分量。也可以通过使用索引位置 ``[0]`` 访问。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:192
+msgid ":ref:`float<class_float>` **y**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:198
+msgid "向量的 Y 分量。也可以通过使用索引位置 ``[1]`` 访问。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:204
+msgid ":ref:`float<class_float>` **z**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:210
+msgid "向量的Z分量。也可以通过使用索引位置\\ ``[2]``\\ 访问。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:213
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_vector3.rst:217
+msgid ":ref:`Vector3<class_Vector3>` **Vector3** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:219
+msgid "返回具有给定分量的Vector3。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:225
+msgid ":ref:`Vector3<class_Vector3>` **abs** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:227
+msgid "返回一个新的向量，其所有分量都是绝对值，即正值。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:233
+msgid ":ref:`float<class_float>` **angle_to** **(** :ref:`Vector3<class_Vector3>` to **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:235
+msgid "返回与给定向量的无符号最小角度，单位为弧度。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:241
+msgid ":ref:`Vector3<class_Vector3>` **bounce** **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:243
+msgid "返回从由给定法线定义的平面上“反弹”的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:249
+msgid ":ref:`Vector3<class_Vector3>` **ceil** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:251
+msgid "返回一个新的向量，所有的分量都是四舍五入的，向正无穷大。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:257
+msgid ":ref:`Vector3<class_Vector3>` **cross** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:259
+msgid "返回此向量与 ``b`` 的叉积。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:265
+msgid ":ref:`Vector3<class_Vector3>` **cubic_interpolate** **(** :ref:`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` pre_a, :ref:`Vector3<class_Vector3>` post_b, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:267
+msgid "在向量\\ ``pre_a``, ``a``, ``b``, ``post_b``\\ （\\ ``a``\\ 是当前的）之间，通过给定的量\\ ``weight``\\ 进行三次插值。\\ ``weight``\\ 的范围是0.0到1.0，表示插值的数量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:273
+msgid ":ref:`Vector3<class_Vector3>` **direction_to** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:275
+msgid "返回从这个向量指向\\ ``b``\\ 的归一化向量。这相当于使用\\ ``(b-a).normalized()``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:281
+msgid ":ref:`float<class_float>` **distance_squared_to** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:283
+msgid "返回这个向量与\\ ``b``\\ 之间的平方距离。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:285
+msgid "这个方法比\\ :ref:`distance_to<class_Vector3_method_distance_to>`\\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离，则更喜欢它。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:291
+msgid ":ref:`float<class_float>` **distance_to** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:293
+msgid "返回此向量与\\ ``b``\\ 之间的距离。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:299
+msgid ":ref:`float<class_float>` **dot** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:301
+msgid "返回此向量与\\ ``b``\\ 的点积。这可以用来比较两个向量之间的角度。例如，这可以用来确定一个敌人是否正面对玩家。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:303
+msgid "对于直角90度，点积将是\\ ``0``\\ ，对于窄于90度的角度，点积大于0，对于宽于90度的角度，点积小于0。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:305
+msgid "当使用归一化单位向量，向量朝向相反方向时，结果总是在\\ ``-1.0``\\ （180度角）和\\ ``1.0``\\ （0度角）之间，当向量对齐。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:307
+msgid "\\ **注意：**\\ ``a.dot(b)``\\ 等同于\\ ``b.dot(a)``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:313
+msgid ":ref:`Vector3<class_Vector3>` **floor** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:315
+msgid "返回一个新的向量，所有的向量都被四舍五入，向负无穷大。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:321
+msgid ":ref:`Vector3<class_Vector3>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:323
+msgid "返回向量的反值。这与\\ ``Vector3( 1.0 / v.x, 1.0 / v.y, 1.0 / v.z )``\\ 相同。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:329
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:331
+msgid "通过对每个分量运行\\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`\\ ，如果这个向量和\\ ``v``\\ 近似相等，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:337
+msgid ":ref:`bool<class_bool>` **is_normalized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:339
+msgid "如果向量被归一化，返回\\ ``true``\\ ，否则返回\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:345
+msgid ":ref:`float<class_float>` **length** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:347
+msgid "返回这个向量的长度，即大小。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:353
+msgid ":ref:`float<class_float>` **length_squared** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:355
+msgid "返回这个向量的平方长度，即平方大小。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:357
+msgid "这个方法比\\ :ref:`length<class_Vector3_method_length>`\\ 运行得更快，所以如果你需要比较向量或需要一些公式的平方距离时，更喜欢用它。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:363
+msgid ":ref:`Vector3<class_Vector3>` **limit_length** **(** :ref:`float<class_float>` length=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:365
+msgid "通过限制其长度为\\ ``length``\\ ，返回具有最大长度的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:371
+msgid ":ref:`Vector3<class_Vector3>` **linear_interpolate** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:373
+msgid "返回这个向量与\\ ``to``\\ 之间的线性插值的结果，插值量为\\ ``t``\\ 。\\ ``weight``\\ 的范围是0.0到1.0，表示插值的数量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:379
+msgid ":ref:`int<class_int>` **max_axis** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:381
+msgid "返回向量的最大值的轴。参阅\\ ``AXIS_*``\\ 常量。如果所有分量都相等，该方法返回\\ :ref:`AXIS_X<class_Vector3_constant_AXIS_X>`\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:387
+msgid ":ref:`int<class_int>` **min_axis** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:389
+msgid "返回矢量的最小值的轴。参阅\\ ``AXIS_*``\\ 常量。如果所有分量都相等，本方法返回\\ :ref:`AXIS_Z<class_Vector3_constant_AXIS_Z>`\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:395
+msgid ":ref:`Vector3<class_Vector3>` **move_toward** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:397
+msgid "将此向量向\\ ``to``\\ 移动，以固定\\ ``delta``\\ 量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:403
+msgid ":ref:`Vector3<class_Vector3>` **normalized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:405
+msgid "返回缩放为单位长度的向量。相当于\\ ``v/v.length()``\\ 。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:411
+msgid ":ref:`Basis<class_Basis>` **outer** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:413
+msgid "返回与 ``b`` 的外积。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:419
+msgid ":ref:`Vector3<class_Vector3>` **posmod** **(** :ref:`float<class_float>` mod **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:421
+msgid "返回一个由这个向量分量的\\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\\ 和\\ ``mod``\\ 组成的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:427
+msgid ":ref:`Vector3<class_Vector3>` **posmodv** **(** :ref:`Vector3<class_Vector3>` modv **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:429
+msgid "返回一个由这个向量的\\ ``modv``\\ 分量和\\ :ref:`@GDScript.fposmod<class_@GDScript_method_fposmod>`\\ 分量组成的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:435
+msgid ":ref:`Vector3<class_Vector3>` **project** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:437
+msgid "返回这个向量投射到另一个向量\\ ``b``\\ 上的结果。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:443
+msgid ":ref:`Vector3<class_Vector3>` **reflect** **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:445
+msgid "返回从给定法线定义的平面上反射的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:451
+msgid ":ref:`Vector3<class_Vector3>` **rotated** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:453
+msgid "将此向量绕给定的轴旋转\\ ``phi``\\ 弧度。该轴必须是归一化的矢量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:459
+msgid ":ref:`Vector3<class_Vector3>` **round** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:461
+msgid "返回这个向量的所有分量都被四舍五入为最接近的整数，中间情况下四舍五入为零。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:467
+msgid ":ref:`Vector3<class_Vector3>` **sign** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:469
+msgid "返回一个向量，每个分量设置为1或负1，取决于这个向量的分量的符号。如果分量为0，则返回正1。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:475
+msgid ":ref:`float<class_float>` **signed_angle_to** **(** :ref:`Vector3<class_Vector3>` to, :ref:`Vector3<class_Vector3>` axis **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:477
+msgid "返回给定向量的带符号的角度，单位是弧度。当从\\ ``axis``\\ 指定的一侧看，该角度的符号在逆时针方向是正的，在顺时针方向是负的。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:483
+msgid ":ref:`Vector3<class_Vector3>` **slerp** **(** :ref:`Vector3<class_Vector3>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:485
+msgid "返回这个向量与\\ ``to``\\ 之间的球面线性插值的结果，按\\ ``weight``\\ 的数量。\\ ``weight``\\ 的范围是0.0到1.0，表示插值的数量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:487
+msgid "\\ **注意：**\\ 两个向量都必须被归一化。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:493
+msgid ":ref:`Vector3<class_Vector3>` **slide** **(** :ref:`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:495
+msgid "返回沿着由给定法线定义的平面滑动的向量。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:501
+msgid ":ref:`Vector3<class_Vector3>` **snapped** **(** :ref:`Vector3<class_Vector3>` by **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:503
+msgid "返回这个向量，每个分量都捕捉到\\ ``step``\\ 的最近倍数。这也可以用来四舍五入到任意数量的小数。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:509
+msgid ":ref:`Basis<class_Basis>` **to_diagonal_matrix** **(** **)**"
+msgstr ""
+
+#: ../classes/class_vector3.rst:511
+msgid "返回一个以该向量为主对角线的对角线矩阵。"
+msgstr ""
+
+#: ../classes/class_vector3.rst:513
+msgid "这相当于一个没有旋转或剪切的Basis，这个向量的分量被设定为缩放。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

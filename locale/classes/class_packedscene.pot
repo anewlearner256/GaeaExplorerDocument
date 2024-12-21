@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_packedscene.rst:10
+msgid "PackedScene"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:14
+msgid "**Inherited By:** :ref:`PackedSceneGLTF<class_PackedSceneGLTF>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:16
+msgid "一个序列化场景的抽象。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:21
+msgid "场景文件的简化接口。提供针对场景资源本身的操作和检查。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:23
+msgid "可以用来将节点保存到文件中。当保存时，该节点以及它所拥有的所有节点都会被保存（请参阅 :ref:`Node<class_Node>` 中的属性 ``owner``\\ ）。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:25
+msgid "\\ **注意：**\\ 节点不需要拥有自己。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:27
+msgid "\\ **加载已保存场景的示例：**\\"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:36
+msgid "\\ **保存具有不同所有者节点的例子：**\\ 下面的例子创建了 3 个对象：\\ ``Node2D``\\ （\\ ``node``\\ ）、\\ ``RigidBody2D``\\ （\\ ``rigid``\\ ）、\\ ``CollisionObject2D``\\ （\\ ``collision``\\ ）。\\ ``collision`` 是 ``rigid`` 的子节点、rigid 是 ``node`` 的子节点。只有 ``rigid`` 被 ``node``\\ 拥有，因此 ``pack`` 只会保存这两个节点，不会保存 ``collision``\\ 。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:61
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:63
+msgid "`2D Role Playing Game Demo <https://godotengine.org/asset-library/asset/520>`__"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:66
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:69
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:69
+msgid ":ref:`_bundled<class_PackedScene_property__bundled>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:69
+#: ../classes/class_packedscene.rst:122
+msgid "``{\"conn_count\": 0,\"conns\": PoolIntArray(  ),\"editable_instances\": [  ],\"names\": PoolStringArray(  ),\"node_count\": 0,\"node_paths\": [  ],\"nodes\": PoolIntArray(  ),\"variants\": [  ],\"version\": 2}``"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:73
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:76
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:76
+msgid ":ref:`can_instance<class_PackedScene_method_can_instance>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:78
+msgid ":ref:`SceneState<class_SceneState>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:78
+msgid ":ref:`get_state<class_PackedScene_method_get_state>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:80
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:80
+msgid ":ref:`instance<class_PackedScene_method_instance>` **(** :ref:`GenEditState<enum_PackedScene_GenEditState>` edit_state=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:82
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:82
+msgid ":ref:`pack<class_PackedScene_method_pack>` **(** :ref:`Node<class_Node>` path **)**"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:86
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:98
+msgid "enum **GenEditState**:"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:100
+msgid "**GEN_EDIT_STATE_DISABLED** = **0** --- 如果传递给\\ :ref:`instance<class_PackedScene_method_instance>`\\ ，则阻止对场景状态的编辑。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:102
+msgid "**GEN_EDIT_STATE_INSTANCE** = **1** --- 如果传递给\\ :ref:`instance<class_PackedScene_method_instance>`\\ ，则向本地场景提供本地场景资源。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:104
+#: ../classes/class_packedscene.rst:108
+msgid "\\ **注意：** 只在编辑器构建中可用。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:106
+msgid "**GEN_EDIT_STATE_MAIN** = **2** --- 如果传递给\\ :ref:`instance<class_PackedScene_method_instance>`\\ ，向本地场景提供本地场景资源。只有主场景应该接收主编辑状态。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:110
+msgid "**GEN_EDIT_STATE_MAIN_INHERITED** = **3** --- It's similar to :ref:`GEN_EDIT_STATE_MAIN<class_PackedScene_constant_GEN_EDIT_STATE_MAIN>`, but for the case where the scene is being instantiated to be the base of another one."
+msgstr ""
+
+#: ../classes/class_packedscene.rst:112
+msgid "\\ **Note:** Only available in editor builds."
+msgstr ""
+
+#: ../classes/class_packedscene.rst:115
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:119
+msgid ":ref:`Dictionary<class_Dictionary>` **_bundled**"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:122
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:125
+msgid "场景内容的字典表示。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:127
+msgid "可用的字段包括资源的“rnames”和“variants”，节点的“node_count”、“nodes”、“node_paths”，基本场景子级覆盖的“editable_instances”，信号连接的“conn_count”和“conns”，以及 PackedScene 格式样式的版本“version”。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:130
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:134
+msgid ":ref:`bool<class_bool>` **can_instance** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:136
+msgid "如果场景文件有节点，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:142
+msgid ":ref:`SceneState<class_SceneState>` **get_state** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:144
+msgid "返回代表场景文件内容的 ``SceneState``\\ 。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:150
+msgid ":ref:`Node<class_Node>` **instance** **(** :ref:`GenEditState<enum_PackedScene_GenEditState>` edit_state=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:152
+msgid "实例化场景的节点层次结构。触发子场景实例化。在根节点上触发一个 :ref:`Node.NOTIFICATION_INSTANCED<class_Node_constant_NOTIFICATION_INSTANCED>` 通知。"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:158
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **pack** **(** :ref:`Node<class_Node>` path **)**"
+msgstr ""
+
+#: ../classes/class_packedscene.rst:160
+msgid "包将忽略不属于给定节点的任何子节点。请参阅 :ref:`Node.owner<class_Node_property_owner>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

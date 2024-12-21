@@ -1,0 +1,2214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the GaaeExplorer community (CC-BY 3.0)
+# This file is distributed under the same license as the GaaeExplorer Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaaeExplorer Engine 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 14:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Locales"
+msgstr "区域设置"
+
+msgid ""
+"This is the list of supported locales and variants in the engine. It's based "
+"on the Unix standard locale strings:"
+msgstr ""
+"这是引擎中支持的区域设置和语言变体的列表。它基于 Unix 标准区域设置字符串："
+
+msgid "Locale"
+msgstr "区域"
+
+msgid "Language and Variant"
+msgstr "语言和变体"
+
+msgid "aa"
+msgstr "aa"
+
+msgid "Afar"
+msgstr "阿法尔语"
+
+msgid "aa_DJ"
+msgstr "aa_DJ"
+
+msgid "Afar (Djibouti)"
+msgstr "阿法尔语（吉布提）"
+
+msgid "aa_ER"
+msgstr "aa_ER"
+
+msgid "Afar (Eritrea)"
+msgstr "阿法尔语（厄立特里亚）"
+
+msgid "aa_ET"
+msgstr "aa_ET"
+
+msgid "Afar (Ethiopia)"
+msgstr "阿法尔语（埃塞俄比亚）"
+
+msgid "af"
+msgstr "af"
+
+msgid "Afrikaans"
+msgstr "南非语"
+
+msgid "af_ZA"
+msgstr "af_ZA"
+
+msgid "Afrikaans (South Africa)"
+msgstr "南非语（南非）"
+
+msgid "agr_PE"
+msgstr "agr_PE"
+
+msgid "Aguaruna (Peru)"
+msgstr "阿瓜鲁纳语（秘鲁）"
+
+msgid "ak_GH"
+msgstr "ak_GH"
+
+msgid "Akan (Ghana)"
+msgstr "阿坎语（加纳）"
+
+msgid "am_ET"
+msgstr "am_ET"
+
+msgid "Amharic (Ethiopia)"
+msgstr "阿姆哈拉语（埃塞俄比亚）"
+
+msgid "an_ES"
+msgstr "an_ES"
+
+msgid "Aragonese (Spain)"
+msgstr "阿拉贡语（西班牙）"
+
+msgid "anp_IN"
+msgstr "anp_IN"
+
+msgid "Angika (India)"
+msgstr "昂加语（印度）"
+
+msgid "ar"
+msgstr "ar"
+
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+msgid "ar_AE"
+msgstr "ar_AE"
+
+msgid "Arabic (United Arab Emirates)"
+msgstr "阿拉伯语（阿拉伯联合酋长国）"
+
+msgid "ar_BH"
+msgstr "ar_BH"
+
+msgid "Arabic (Bahrain)"
+msgstr "阿拉伯语（巴林）"
+
+msgid "ar_DZ"
+msgstr "ar_DZ"
+
+msgid "Arabic (Algeria)"
+msgstr "阿拉伯语（阿尔及利亚）"
+
+msgid "ar_EG"
+msgstr "ar_EG"
+
+msgid "Arabic (Egypt)"
+msgstr "阿拉伯语（埃及）"
+
+msgid "ar_IQ"
+msgstr "ar_IQ"
+
+msgid "Arabic (Iraq)"
+msgstr "阿拉伯语（伊拉克）"
+
+msgid "ar_JO"
+msgstr "ar_JO"
+
+msgid "Arabic (Jordan)"
+msgstr "阿拉伯语（约旦）"
+
+msgid "ar_KW"
+msgstr "ar_KW"
+
+msgid "Arabic (Kuwait)"
+msgstr "阿拉伯语（科威特）"
+
+msgid "ar_LB"
+msgstr "ar_LB"
+
+msgid "Arabic (Lebanon)"
+msgstr "阿拉伯语（黎巴嫩）"
+
+msgid "ar_LY"
+msgstr "ar_LY"
+
+msgid "Arabic (Libya)"
+msgstr "阿拉伯语（利比亚）"
+
+msgid "ar_MA"
+msgstr "ar_MA"
+
+msgid "Arabic (Morocco)"
+msgstr "阿拉伯语（摩洛哥）"
+
+msgid "ar_OM"
+msgstr "ar_OM"
+
+msgid "Arabic (Oman)"
+msgstr "阿拉伯语（阿曼）"
+
+msgid "ar_QA"
+msgstr "ar_QA"
+
+msgid "Arabic (Qatar)"
+msgstr "阿拉伯语（卡塔尔）"
+
+msgid "ar_SA"
+msgstr "ar_SA"
+
+msgid "Arabic (Saudi Arabia)"
+msgstr "阿拉伯语（沙特阿拉伯）"
+
+msgid "ar_SD"
+msgstr "ar_SD"
+
+msgid "Arabic (Sudan)"
+msgstr "阿拉伯语（苏丹）"
+
+msgid "ar_SS"
+msgstr "ar_SS"
+
+msgid "Arabic (South Sudan)"
+msgstr "阿拉伯语（南苏丹）"
+
+msgid "ar_SY"
+msgstr "ar_SY"
+
+msgid "Arabic (Syria)"
+msgstr "阿拉伯语（叙利亚）"
+
+msgid "ar_TN"
+msgstr "ar_TN"
+
+msgid "Arabic (Tunisia)"
+msgstr "阿拉伯语（突尼斯）"
+
+msgid "ar_YE"
+msgstr "ar_YE"
+
+msgid "Arabic (Yemen)"
+msgstr "阿拉伯语（也门）"
+
+msgid "as_IN"
+msgstr "as_IN"
+
+msgid "Assamese (India)"
+msgstr "阿萨姆语（印度）"
+
+msgid "ast_ES"
+msgstr "ast_ES"
+
+msgid "Asturian (Spain)"
+msgstr "阿斯图里亚斯语（西班牙）"
+
+msgid "ayc_PE"
+msgstr "ayc_PE"
+
+msgid "Southern Aymara (Peru)"
+msgstr "南艾玛拉语（秘鲁）"
+
+msgid "ay_PE"
+msgstr "ay_PE"
+
+msgid "Aymara (Peru)"
+msgstr "艾玛拉语（秘鲁）"
+
+msgid "az_AZ"
+msgstr "az_AZ"
+
+msgid "Azerbaijani (Azerbaijan)"
+msgstr "阿塞拜疆语（阿塞拜疆）"
+
+msgid "be"
+msgstr "be"
+
+msgid "Belarusian"
+msgstr "Belarusian"
+
+msgid "be_BY"
+msgstr "be_BY"
+
+msgid "Belarusian (Belarus)"
+msgstr "Belarusian (Belarus)"
+
+msgid "bem_ZM"
+msgstr "bem_ZM"
+
+msgid "Bemba (Zambia)"
+msgstr "Bemba (Zambia)"
+
+msgid "ber_DZ"
+msgstr "ber_DZ"
+
+msgid "Berber languages (Algeria)"
+msgstr "柏柏尔语族（阿尔及利亚）"
+
+msgid "ber_MA"
+msgstr "ber_MA"
+
+msgid "Berber languages (Morocco)"
+msgstr "柏柏尔语族（摩洛哥）"
+
+msgid "bg"
+msgstr "bg"
+
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+msgid "bg_BG"
+msgstr "bg_BG"
+
+msgid "Bulgarian (Bulgaria)"
+msgstr "保加利亚语（保加利亚）"
+
+msgid "bhb_IN"
+msgstr "bhb_IN"
+
+msgid "Bhili (India)"
+msgstr "克什米尔语（印度）"
+
+msgid "bho_IN"
+msgstr "bho_IN"
+
+msgid "Bhojpuri (India)"
+msgstr "博杰普尔语（印度）"
+
+msgid "bi_TV"
+msgstr "bi_TV"
+
+msgid "Bislama (Tuvalu)"
+msgstr "比斯拉马语（图瓦卢）"
+
+msgid "bn"
+msgstr "bn"
+
+msgid "Bengali"
+msgstr "孟加拉语"
+
+msgid "bn_BD"
+msgstr "bn_BD"
+
+msgid "Bengali (Bangladesh)"
+msgstr "孟加拉语（孟加拉国）"
+
+msgid "bn_IN"
+msgstr "bn_IN"
+
+msgid "Bengali (India)"
+msgstr "孟加拉语（印度）"
+
+msgid "bo"
+msgstr "bo"
+
+msgid "Tibetan"
+msgstr "藏语"
+
+msgid "bo_CN"
+msgstr "bo_CN"
+
+msgid "Tibetan (China)"
+msgstr "藏语（中国）"
+
+msgid "bo_IN"
+msgstr "bo_IN"
+
+msgid "Tibetan (India)"
+msgstr "藏语（印度）"
+
+msgid "br_FR"
+msgstr "br_FR"
+
+msgid "Breton (France)"
+msgstr "布列塔尼语（法国）"
+
+msgid "brx_IN"
+msgstr "brx_IN"
+
+msgid "Bodo (India)"
+msgstr "博多语（印度）"
+
+msgid "bs_BA"
+msgstr "bs_BA"
+
+msgid "Bosnian (Bosnia and Herzegovina)"
+msgstr "波斯尼亚语（波黑）"
+
+msgid "byn_ER"
+msgstr "byn_ER"
+
+msgid "Bilin (Eritrea)"
+msgstr "Bilin (Eritrea)"
+
+msgid "ca"
+msgstr "ca"
+
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+msgid "ca_AD"
+msgstr "ca_AD"
+
+msgid "Catalan (Andorra)"
+msgstr "加泰罗尼亚语（安道尔）"
+
+msgid "ca_ES"
+msgstr "ca_ES"
+
+msgid "Catalan (Spain)"
+msgstr "加泰罗尼亚语（西班牙）"
+
+msgid "ca_FR"
+msgstr "ca_FR"
+
+msgid "Catalan (France)"
+msgstr "加泰罗尼亚语（法国）"
+
+msgid "ca_IT"
+msgstr "ca_IT"
+
+msgid "Catalan (Italy)"
+msgstr "加泰罗尼亚语（意大利）"
+
+msgid "ce_RU"
+msgstr "ce_RU"
+
+msgid "Chechen (Russia)"
+msgstr "车臣语（俄罗斯）"
+
+msgid "chr_US"
+msgstr "chr_US"
+
+msgid "Cherokee (United States)"
+msgstr "切罗基语（美国）"
+
+msgid "cmn_TW"
+msgstr "cmn_TW"
+
+msgid "Mandarin Chinese (Taiwan)"
+msgstr "国语（台湾）"
+
+msgid "crh_UA"
+msgstr "crh_UA"
+
+msgid "Crimean Tatar (Ukraine)"
+msgstr "克里米亚鞑靼语（乌克兰）"
+
+msgid "csb_PL"
+msgstr "csb_PL"
+
+msgid "Kashubian (Poland)"
+msgstr "卡舒比语（波兰）"
+
+msgid "cs"
+msgstr "cs"
+
+msgid "Czech"
+msgstr "捷克语"
+
+msgid "cs_CZ"
+msgstr "cs_CZ"
+
+msgid "Czech (Czech Republic)"
+msgstr "捷克语（捷克共和国）"
+
+msgid "cv_RU"
+msgstr "cv_RU"
+
+msgid "Chuvash (Russia)"
+msgstr "楚瓦什语（俄罗斯）"
+
+msgid "cy_GB"
+msgstr "cy_GB"
+
+msgid "Welsh (United Kingdom)"
+msgstr "威尔士语（英国）"
+
+msgid "da"
+msgstr "da"
+
+msgid "Danish"
+msgstr "丹麦语"
+
+msgid "da_DK"
+msgstr "da_DK"
+
+msgid "Danish (Denmark)"
+msgstr "丹麦语（丹麦）"
+
+msgid "de"
+msgstr "de"
+
+msgid "German"
+msgstr "德语"
+
+msgid "de_AT"
+msgstr "de_AT"
+
+msgid "German (Austria)"
+msgstr "德语（奥地利）"
+
+msgid "de_BE"
+msgstr "de_BE"
+
+msgid "German (Belgium)"
+msgstr "德语（比利时）"
+
+msgid "de_CH"
+msgstr "de_CH"
+
+msgid "German (Switzerland)"
+msgstr "德语（瑞士）"
+
+msgid "de_DE"
+msgstr "de_DE"
+
+msgid "German (Germany)"
+msgstr "德语（德国）"
+
+msgid "de_IT"
+msgstr "de_IT"
+
+msgid "German (Italy)"
+msgstr "德语（意大利）"
+
+msgid "de_LU"
+msgstr "de_LU"
+
+msgid "German (Luxembourg)"
+msgstr "德语（卢森堡）"
+
+msgid "doi_IN"
+msgstr "doi_IN"
+
+msgid "Dogri (India)"
+msgstr "多格拉语（印度）"
+
+msgid "dv_MV"
+msgstr "dv_MV"
+
+msgid "Dhivehi (Maldives)"
+msgstr "Dhivehi (Maldives)"
+
+msgid "dz_BT"
+msgstr "dz_BT"
+
+msgid "Dzongkha (Bhutan)"
+msgstr "Dzongkha (Bhutan)"
+
+msgid "el"
+msgstr "el"
+
+msgid "Greek"
+msgstr "希腊语"
+
+msgid "el_CY"
+msgstr "el_CY"
+
+msgid "Greek (Cyprus)"
+msgstr "希腊语（塞浦路斯）"
+
+msgid "el_GR"
+msgstr "el_GR"
+
+msgid "Greek (Greece)"
+msgstr "希腊语（希腊）"
+
+msgid "en"
+msgstr "en"
+
+msgid "English"
+msgstr "英语"
+
+msgid "en_AG"
+msgstr "en_AG"
+
+msgid "English (Antigua and Barbuda)"
+msgstr "英语（安提瓜和巴布达）"
+
+msgid "en_AU"
+msgstr "en_AU"
+
+msgid "English (Australia)"
+msgstr "英语（澳大利亚）"
+
+msgid "en_BW"
+msgstr "en_BW"
+
+msgid "English (Botswana)"
+msgstr "英语（博茨瓦纳）"
+
+msgid "en_CA"
+msgstr "en_CA"
+
+msgid "English (Canada)"
+msgstr "英语（加拿大）"
+
+msgid "en_DK"
+msgstr "en_DK"
+
+msgid "English (Denmark)"
+msgstr "英语（丹麦）"
+
+msgid "en_GB"
+msgstr "en_GB"
+
+msgid "English (United Kingdom)"
+msgstr "英语（英国）"
+
+msgid "en_HK"
+msgstr "en_HK"
+
+msgid "English (Hong Kong)"
+msgstr "英语（香港）"
+
+msgid "en_IE"
+msgstr "en_IE"
+
+msgid "English (Ireland)"
+msgstr "英语（爱尔兰）"
+
+msgid "en_IL"
+msgstr "en_IL"
+
+msgid "English (Israel)"
+msgstr "英语（以色列）"
+
+msgid "en_IN"
+msgstr "en_IN"
+
+msgid "English (India)"
+msgstr "英语（印度）"
+
+msgid "en_NG"
+msgstr "en_NG"
+
+msgid "English (Nigeria)"
+msgstr "英语（尼日利亚）"
+
+msgid "en_NZ"
+msgstr "en_NZ"
+
+msgid "English (New Zealand)"
+msgstr "英语（新西兰）"
+
+msgid "en_PH"
+msgstr "en_PH"
+
+msgid "English (Philippines)"
+msgstr "英语（菲律宾）"
+
+msgid "en_SG"
+msgstr "en_SG"
+
+msgid "English (Singapore)"
+msgstr "英语（新加坡）"
+
+msgid "en_US"
+msgstr "en_US"
+
+msgid "English (United States)"
+msgstr "英语（美国）"
+
+msgid "en_ZA"
+msgstr "en_ZA"
+
+msgid "English (South Africa)"
+msgstr "英语（南非）"
+
+msgid "en_ZM"
+msgstr "en_ZM"
+
+msgid "English (Zambia)"
+msgstr "英语（赞比亚）"
+
+msgid "en_ZW"
+msgstr "en_ZW"
+
+msgid "English (Zimbabwe)"
+msgstr "英语（津巴布韦）"
+
+msgid "eo"
+msgstr "eo"
+
+msgid "Esperanto"
+msgstr "世界语"
+
+msgid "es"
+msgstr "es"
+
+msgid "Spanish"
+msgstr "西班牙语"
+
+msgid "es_AR"
+msgstr "es_AR"
+
+msgid "Spanish (Argentina)"
+msgstr "西班牙语（阿根廷）"
+
+msgid "es_BO"
+msgstr "es_BO"
+
+msgid "Spanish (Bolivia)"
+msgstr "西班牙语（玻利维亚）"
+
+msgid "es_CL"
+msgstr "es_CL"
+
+msgid "Spanish (Chile)"
+msgstr "西班牙语（智利）"
+
+msgid "es_CO"
+msgstr "es_CO"
+
+msgid "Spanish (Colombia)"
+msgstr "西班牙语（哥伦比亚）"
+
+msgid "es_CR"
+msgstr "es_CR"
+
+msgid "Spanish (Costa Rica)"
+msgstr "西班牙语（哥斯达黎加）"
+
+msgid "es_CU"
+msgstr "es_CU"
+
+msgid "Spanish (Cuba)"
+msgstr "西班牙语（古巴）"
+
+msgid "es_DO"
+msgstr "es_DO"
+
+msgid "Spanish (Dominican Republic)"
+msgstr "西班牙语（多明尼加共和国）"
+
+msgid "es_EC"
+msgstr "es_EC"
+
+msgid "Spanish (Ecuador)"
+msgstr "西班牙语（厄瓜多尔）"
+
+msgid "es_ES"
+msgstr "es_ES"
+
+msgid "Spanish (Spain)"
+msgstr "西班牙语（西班牙）"
+
+msgid "es_GT"
+msgstr "es_GT"
+
+msgid "Spanish (Guatemala)"
+msgstr "西班牙语（危地马拉）"
+
+msgid "es_HN"
+msgstr "es_HN"
+
+msgid "Spanish (Honduras)"
+msgstr "西班牙语（洪都拉斯）"
+
+msgid "es_MX"
+msgstr "es_MX"
+
+msgid "Spanish (Mexico)"
+msgstr "西班牙语（墨西哥）"
+
+msgid "es_NI"
+msgstr "es_NI"
+
+msgid "Spanish (Nicaragua)"
+msgstr "西班牙语（尼加拉瓜）"
+
+msgid "es_PA"
+msgstr "es_PA"
+
+msgid "Spanish (Panama)"
+msgstr "西班牙语（巴拿马）"
+
+msgid "es_PE"
+msgstr "es_PE"
+
+msgid "Spanish (Peru)"
+msgstr "西班牙语（秘鲁）"
+
+msgid "es_PR"
+msgstr "es_PR"
+
+msgid "Spanish (Puerto Rico)"
+msgstr "西班牙语（波多黎各）"
+
+msgid "es_PY"
+msgstr "es_PY"
+
+msgid "Spanish (Paraguay)"
+msgstr "西班牙语（巴拉圭）"
+
+msgid "es_SV"
+msgstr "es_SV"
+
+msgid "Spanish (El Salvador)"
+msgstr "西班牙语（萨尔瓦多）"
+
+msgid "es_US"
+msgstr "es_US"
+
+msgid "Spanish (United States)"
+msgstr "西班牙语（美国）"
+
+msgid "es_UY"
+msgstr "es_UY"
+
+msgid "Spanish (Uruguay)"
+msgstr "西班牙语（乌拉圭）"
+
+msgid "es_VE"
+msgstr "es_VE"
+
+msgid "Spanish (Venezuela)"
+msgstr "西班牙语（委內瑞拉）"
+
+msgid "et"
+msgstr "et"
+
+msgid "Estonian"
+msgstr "爱沙尼亚语"
+
+msgid "et_EE"
+msgstr "et_EE"
+
+msgid "Estonian (Estonia)"
+msgstr "爱沙尼亚语（爱沙尼亚）"
+
+msgid "eu"
+msgstr "eu"
+
+msgid "Basque"
+msgstr "巴斯克语"
+
+msgid "eu_ES"
+msgstr "eu_ES"
+
+msgid "Basque (Spain)"
+msgstr "巴斯克语（西班牙）"
+
+msgid "fa"
+msgstr "fa"
+
+msgid "Persian"
+msgstr "波斯语"
+
+msgid "fa_IR"
+msgstr "fa_IR"
+
+msgid "Persian (Iran)"
+msgstr "波斯语（伊朗）"
+
+msgid "ff_SN"
+msgstr "ff_SN"
+
+msgid "Fulah (Senegal)"
+msgstr "波斯语（塞内加尔）"
+
+msgid "fi"
+msgstr "fi"
+
+msgid "Finnish"
+msgstr "芬兰语"
+
+msgid "fi_FI"
+msgstr "fi_FI"
+
+msgid "Finnish (Finland)"
+msgstr "芬兰语（芬兰）"
+
+msgid "fil"
+msgstr "fil"
+
+msgid "Filipino"
+msgstr "菲律宾语"
+
+msgid "fil_PH"
+msgstr "fil_PH"
+
+msgid "Filipino (Philippines)"
+msgstr "菲利宾语（菲利宾）"
+
+msgid "fo_FO"
+msgstr "fo_FO"
+
+msgid "Faroese (Faroe Islands)"
+msgstr "Faroese (Faroe Islands)"
+
+msgid "fr"
+msgstr "fr"
+
+msgid "French"
+msgstr "法语"
+
+msgid "fr_BE"
+msgstr "fr_BE"
+
+msgid "French (Belgium)"
+msgstr "法语（比利时）"
+
+msgid "fr_CA"
+msgstr "fr_CA"
+
+msgid "French (Canada)"
+msgstr "法语（加拿大）"
+
+msgid "fr_CH"
+msgstr "fr_CH"
+
+msgid "French (Switzerland)"
+msgstr "法语（瑞士）"
+
+msgid "fr_FR"
+msgstr "fr_FR"
+
+msgid "French (France)"
+msgstr "法语（法国）"
+
+msgid "fr_LU"
+msgstr "fr_LU"
+
+msgid "French (Luxembourg)"
+msgstr "法语（卢森堡）"
+
+msgid "fur_IT"
+msgstr "fur_IT"
+
+msgid "Friulian (Italy)"
+msgstr "弗留利语（意大利）"
+
+msgid "fy_DE"
+msgstr "fy_DE"
+
+msgid "Western Frisian (Germany)"
+msgstr "西弗里斯语（德国）"
+
+msgid "fy_NL"
+msgstr "fy_NL"
+
+msgid "Western Frisian (Netherlands)"
+msgstr "西弗里斯语（荷兰）"
+
+msgid "ga"
+msgstr "ga"
+
+msgid "Irish"
+msgstr "爱尔兰语"
+
+msgid "ga_IE"
+msgstr "ga_IE"
+
+msgid "Irish (Ireland)"
+msgstr "爱尔兰语（爱尔兰）"
+
+msgid "gd_GB"
+msgstr "gd_GB"
+
+msgid "Scottish Gaelic (United Kingdom)"
+msgstr "苏格兰盖尔语（英国）"
+
+msgid "gez_ER"
+msgstr "gez_ER"
+
+msgid "Geez (Eritrea)"
+msgstr "Geez (Eritrea)"
+
+msgid "gez_ET"
+msgstr "gez_ET"
+
+msgid "Geez (Ethiopia)"
+msgstr "Geez (Ethiopia)"
+
+msgid "gl_ES"
+msgstr "gl_ES"
+
+msgid "Galician (Spain)"
+msgstr "加利西亚语（西班牙）"
+
+msgid "gu_IN"
+msgstr "gu_IN"
+
+msgid "Gujarati (India)"
+msgstr "古吉拉特语（印度）"
+
+msgid "gv_GB"
+msgstr "gv_GB"
+
+msgid "Manx (United Kingdom)"
+msgstr "马恩语（英国）"
+
+msgid "hak_TW"
+msgstr "hak_TW"
+
+msgid "Hakka Chinese (Taiwan)"
+msgstr "客家话（台湾）"
+
+msgid "ha_NG"
+msgstr "ha_NG"
+
+msgid "Hausa (Nigeria)"
+msgstr "Hausa (Nigeria)"
+
+msgid "he"
+msgstr "he"
+
+msgid "Hebrew"
+msgstr "希伯来语"
+
+msgid "he_IL"
+msgstr "he_IL"
+
+msgid "Hebrew (Israel)"
+msgstr "希伯来语（以色列）"
+
+msgid "hi"
+msgstr "hi"
+
+msgid "Hindi"
+msgstr "印地语"
+
+msgid "hi_IN"
+msgstr "hi_IN"
+
+msgid "Hindi (India)"
+msgstr "印地语（印度）"
+
+msgid "hne_IN"
+msgstr "hne_IN"
+
+msgid "Chhattisgarhi (India)"
+msgstr "恰蒂斯加尔语（印度）"
+
+msgid "hr"
+msgstr "hr"
+
+msgid "Croatian"
+msgstr "Croatian"
+
+msgid "hr_HR"
+msgstr "hr_HR"
+
+msgid "Croatian (Croatia)"
+msgstr "Croatian (Croatia)"
+
+msgid "hsb_DE"
+msgstr "hsb_DE"
+
+msgid "Upper Sorbian (Germany)"
+msgstr "上索布语（德国）"
+
+msgid "ht_HT"
+msgstr "ht_HT"
+
+msgid "Haitian (Haiti)"
+msgstr "Haitian (Haiti)"
+
+msgid "hu"
+msgstr "hu"
+
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+msgid "hu_HU"
+msgstr "hu_HU"
+
+msgid "Hungarian (Hungary)"
+msgstr "匈牙利语（匈牙利）"
+
+msgid "hus_MX"
+msgstr "hus_MX"
+
+msgid "Huastec (Mexico)"
+msgstr "Huastec (Mexico)"
+
+msgid "hy_AM"
+msgstr "hy_AM"
+
+msgid "Armenian (Armenia)"
+msgstr "Armenian (Armenia)"
+
+msgid "ia_FR"
+msgstr "ia_FR"
+
+msgid "Interlingua (France)"
+msgstr "因特语（法国）"
+
+msgid "id"
+msgstr "id"
+
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+msgid "id_ID"
+msgstr "id_ID"
+
+msgid "Indonesian (Indonesia)"
+msgstr "印度尼西亚语（印度尼西亚）"
+
+msgid "ig_NG"
+msgstr "ig_NG"
+
+msgid "Igbo (Nigeria)"
+msgstr "Igbo (Nigeria)"
+
+msgid "ik_CA"
+msgstr "ik_CA"
+
+msgid "Inupiaq (Canada)"
+msgstr "Inupiaq (Canada)"
+
+msgid "is"
+msgstr "is"
+
+msgid "Icelandic"
+msgstr "冰岛语"
+
+msgid "is_IS"
+msgstr "is_IS"
+
+msgid "Icelandic (Iceland)"
+msgstr "冰岛语（冰岛）"
+
+msgid "it"
+msgstr "it"
+
+msgid "Italian"
+msgstr "意大利语"
+
+msgid "it_CH"
+msgstr "it_CH"
+
+msgid "Italian (Switzerland)"
+msgstr "意大利语（瑞士）"
+
+msgid "it_IT"
+msgstr "it_IT"
+
+msgid "Italian (Italy)"
+msgstr "意大利语（意大利）"
+
+msgid "iu_CA"
+msgstr "iu_CA"
+
+msgid "Inuktitut (Canada)"
+msgstr "Inuktitut (Canada)"
+
+msgid "ja"
+msgstr "ja"
+
+msgid "Japanese"
+msgstr "日语"
+
+msgid "ja_JP"
+msgstr "ja_JP"
+
+msgid "Japanese (Japan)"
+msgstr "日语（日本）"
+
+msgid "kab_DZ"
+msgstr "kab_DZ"
+
+msgid "Kabyle (Algeria)"
+msgstr "Kabyle (Algeria)"
+
+msgid "ka"
+msgstr "ka"
+
+msgid "Georgian"
+msgstr "格鲁吉亚语"
+
+msgid "ka_GE"
+msgstr "ka_GE"
+
+msgid "Georgian (Georgia)"
+msgstr "格鲁吉亚语（格鲁吉亚）"
+
+msgid "kk_KZ"
+msgstr "kk_KZ"
+
+msgid "Kazakh (Kazakhstan)"
+msgstr "哈萨克语（哈萨克斯坦）"
+
+msgid "kl_GL"
+msgstr "kl_GL"
+
+msgid "Kalaallisut (Greenland)"
+msgstr "Kalaallisut (Greenland)"
+
+msgid "km_KH"
+msgstr "km_KH"
+
+msgid "Central Khmer (Cambodia)"
+msgstr "Central Khmer (Cambodia)"
+
+msgid "kn_IN"
+msgstr "kn_IN"
+
+msgid "Kannada (India)"
+msgstr "坎纳达语（印度）"
+
+msgid "kok_IN"
+msgstr "kok_IN"
+
+msgid "Konkani (India)"
+msgstr "孔卡尼语（印度）"
+
+msgid "ko"
+msgstr "ko"
+
+msgid "Korean"
+msgstr "朝鲜语"
+
+msgid "ko_KR"
+msgstr "ko_KR"
+
+msgid "Korean (South Korea)"
+msgstr "朝鲜语（韩国）"
+
+msgid "ks_IN"
+msgstr "ks_IN"
+
+msgid "Kashmiri (India)"
+msgstr "克什米尔语（印度）"
+
+msgid "ku"
+msgstr "ku"
+
+msgid "Kurdish"
+msgstr "Kurdish"
+
+msgid "ku_TR"
+msgstr "ku_TR"
+
+msgid "Kurdish (Turkey)"
+msgstr "库尔德语（土耳其）"
+
+msgid "kw_GB"
+msgstr "kw_GB"
+
+msgid "Cornish (United Kingdom)"
+msgstr "康沃尔语（英国）"
+
+msgid "ky_KG"
+msgstr "ky_KG"
+
+msgid "Kirghiz (Kyrgyzstan)"
+msgstr "吉尔吉斯语（吉尔吉斯斯坦）"
+
+msgid "lb_LU"
+msgstr "lb_LU"
+
+msgid "Luxembourgish (Luxembourg)"
+msgstr "卢森堡语（卢森堡）"
+
+msgid "lg_UG"
+msgstr "lg_UG"
+
+msgid "Ganda (Uganda)"
+msgstr "干达语（乌干达）"
+
+msgid "li_BE"
+msgstr "li_BE"
+
+msgid "Limburgan (Belgium)"
+msgstr "林堡语（比利时）"
+
+msgid "li_NL"
+msgstr "li_NL"
+
+msgid "Limburgan (Netherlands)"
+msgstr "林堡语（荷兰）"
+
+msgid "lij_IT"
+msgstr "lij_IT"
+
+msgid "Ligurian (Italy)"
+msgstr "利古里亚语（意大利）"
+
+msgid "ln_CD"
+msgstr "ln_CD"
+
+msgid "Lingala (Congo)"
+msgstr "林格拉语（刚果）"
+
+msgid "lo_LA"
+msgstr "lo_LA"
+
+msgid "Lao (Laos)"
+msgstr "老挝语（老挝）"
+
+msgid "lt"
+msgstr "lt"
+
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+msgid "lt_LT"
+msgstr "lt_LT"
+
+msgid "Lithuanian (Lithuania)"
+msgstr "立陶宛语（立陶宛）"
+
+msgid "lv"
+msgstr "lv"
+
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+msgid "lv_LV"
+msgstr "lv_LV"
+
+msgid "Latvian (Latvia)"
+msgstr "拉脱维亚语（拉脱维亚）"
+
+msgid "lzh_TW"
+msgstr "lzh_TW"
+
+msgid "Literary Chinese (Taiwan)"
+msgstr "文言（台湾）"
+
+msgid "mag_IN"
+msgstr "mag_IN"
+
+msgid "Magahi (India)"
+msgstr "摩揭陀语（印度）"
+
+msgid "mai_IN"
+msgstr "mai_IN"
+
+msgid "Maithili (India)"
+msgstr "迈蒂利语（印度）"
+
+msgid "mg_MG"
+msgstr "mg_MG"
+
+msgid "Malagasy (Madagascar)"
+msgstr "马达加斯加语（马达加斯加）"
+
+msgid "mh_MH"
+msgstr "mh_MH"
+
+msgid "Marshallese (Marshall Islands)"
+msgstr "马绍尔语（马绍尔群岛）"
+
+msgid "mhr_RU"
+msgstr "mhr_RU"
+
+msgid "Eastern Mari (Russia)"
+msgstr "东马里语（俄罗斯）"
+
+msgid "mi"
+msgstr "mi"
+
+msgid "Maori"
+msgstr "毛利语"
+
+msgid "mi_NZ"
+msgstr "mi_NZ"
+
+msgid "Maori (New Zealand)"
+msgstr "毛利语（新西兰）"
+
+msgid "miq_NI"
+msgstr "miq_NI"
+
+msgid "Mískito (Nicaragua)"
+msgstr "米斯基托语（尼加拉瓜）"
+
+msgid "mk"
+msgstr "mk"
+
+msgid "Macedonian"
+msgstr "马其顿语"
+
+msgid "mk_MK"
+msgstr "mk_MK"
+
+msgid "Macedonian (Macedonia)"
+msgstr "马其顿语（马其顿）"
+
+msgid "ml"
+msgstr "ml"
+
+msgid "Malayalam"
+msgstr "马拉雅拉姆语"
+
+msgid "ml_IN"
+msgstr "ml_IN"
+
+msgid "Malayalam (India)"
+msgstr "马拉雅拉姆语（印度）"
+
+msgid "mni_IN"
+msgstr "mni_IN"
+
+msgid "Manipuri (India)"
+msgstr "曼尼普尔语（印度）"
+
+msgid "mn_MN"
+msgstr "mn_MN"
+
+msgid "Mongolian (Mongolia)"
+msgstr "蒙古语（蒙古）"
+
+msgid "mr_IN"
+msgstr "mr_IN"
+
+msgid "Marathi (India)"
+msgstr "马拉地语（印度）"
+
+msgid "ms"
+msgstr "ms"
+
+msgid "Malay"
+msgstr "马来语"
+
+msgid "ms_MY"
+msgstr "ms_MY"
+
+msgid "Malay (Malaysia)"
+msgstr "马来语（马来西亚）"
+
+msgid "mt"
+msgstr "mt"
+
+msgid "Maltese"
+msgstr "马耳他语"
+
+msgid "mt_MT"
+msgstr "mt_MT"
+
+msgid "Maltese (Malta)"
+msgstr "马耳他语（马耳他）"
+
+msgid "my_MM"
+msgstr "my_MM"
+
+msgid "Burmese (Myanmar)"
+msgstr "缅甸语（缅甸）"
+
+msgid "myv_RU"
+msgstr "myv_RU"
+
+msgid "Erzya (Russia)"
+msgstr "厄尔兹亚语（俄罗斯）"
+
+msgid "nah_MX"
+msgstr "nah_MX"
+
+msgid "Nahuatl languages (Mexico)"
+msgstr "纳瓦特尔语（墨西哥）"
+
+msgid "nan_TW"
+msgstr "nan_TW"
+
+msgid "Min Nan Chinese (Taiwan)"
+msgstr "闽南语（台湾）"
+
+msgid "nb"
+msgstr "nb"
+
+msgid "Norwegian Bokmål"
+msgstr "挪威语"
+
+msgid "nb_NO"
+msgstr "nb_NO"
+
+msgid "Norwegian Bokmål (Norway)"
+msgstr "挪威语（挪威）"
+
+msgid "nds_DE"
+msgstr "nds_DE"
+
+msgid "Low German (Germany)"
+msgstr "低地德语（德国）"
+
+msgid "nds_NL"
+msgstr "nds_NL"
+
+msgid "Low German (Netherlands)"
+msgstr "低地德语（荷兰）"
+
+msgid "ne_NP"
+msgstr "ne_NP"
+
+msgid "Nepali (Nepal)"
+msgstr "尼泊尔语（尼泊尔）"
+
+msgid "nhn_MX"
+msgstr "nhn_MX"
+
+msgid "Central Nahuatl (Mexico)"
+msgstr "Central Nahuatl (Mexico)"
+
+msgid "niu_NU"
+msgstr "niu_NU"
+
+msgid "Niuean (Niue)"
+msgstr "纽埃语（纽埃）"
+
+msgid "niu_NZ"
+msgstr "niu_NZ"
+
+msgid "Niuean (New Zealand)"
+msgstr "纽埃语（新西兰）"
+
+msgid "nl"
+msgstr "nl"
+
+msgid "Dutch"
+msgstr "荷兰语"
+
+msgid "nl_AW"
+msgstr "nl_AW"
+
+msgid "Dutch (Aruba)"
+msgstr "荷兰语（阿鲁巴）"
+
+msgid "nl_BE"
+msgstr "nl_BE"
+
+msgid "Dutch (Belgium)"
+msgstr "荷兰语（比利时）"
+
+msgid "nl_NL"
+msgstr "nl_NL"
+
+msgid "Dutch (Netherlands)"
+msgstr "荷兰语（荷兰）"
+
+msgid "nn"
+msgstr "nn"
+
+msgid "Norwegian Nynorsk"
+msgstr "Norwegian Nynorsk"
+
+msgid "nn_NO"
+msgstr "nn_NO"
+
+msgid "Norwegian Nynorsk (Norway)"
+msgstr "Norwegian Nynorsk (Norway)"
+
+msgid "nr_ZA"
+msgstr "nr_ZA"
+
+msgid "South Ndebele (South Africa)"
+msgstr "北恩德贝莱语（南非）"
+
+msgid "nso_ZA"
+msgstr "nso_ZA"
+
+msgid "Pedi (South Africa)"
+msgstr "北索托语（南非）"
+
+msgid "oc_FR"
+msgstr "oc_FR"
+
+msgid "Occitan (France)"
+msgstr "奥克语（法国）"
+
+msgid "om"
+msgstr "om"
+
+msgid "Oromo"
+msgstr "Oromo"
+
+msgid "om_ET"
+msgstr "om_ET"
+
+msgid "Oromo (Ethiopia)"
+msgstr "Oromo (Ethiopia)"
+
+msgid "om_KE"
+msgstr "om_KE"
+
+msgid "Oromo (Kenya)"
+msgstr "Oromo (Kenya)"
+
+msgid "or_IN"
+msgstr "or_IN"
+
+msgid "Oriya (India)"
+msgstr "奥里亚语（印度）"
+
+msgid "os_RU"
+msgstr "os_RU"
+
+msgid "Ossetian (Russia)"
+msgstr "奥塞梯语（俄罗斯）"
+
+msgid "pa_IN"
+msgstr "pa_IN"
+
+msgid "Panjabi (India)"
+msgstr "旁遮普语（印度）"
+
+msgid "pa_PK"
+msgstr "pa_PK"
+
+msgid "Panjabi (Pakistan)"
+msgstr "Panjabi (Pakistan)"
+
+msgid "pap"
+msgstr "pap"
+
+msgid "Papiamento"
+msgstr "Papiamento"
+
+msgid "pap_AN"
+msgstr "pap_AN"
+
+msgid "Papiamento (Netherlands Antilles)"
+msgstr "帕皮亚门托语（荷属安的列斯）"
+
+msgid "pap_AW"
+msgstr "pap_AW"
+
+msgid "Papiamento (Aruba)"
+msgstr "Papiamento (Aruba)"
+
+msgid "pap_CW"
+msgstr "pap_CW"
+
+msgid "Papiamento (Curaçao)"
+msgstr "Papiamento (Curaçao)"
+
+msgid "pl"
+msgstr "pl"
+
+msgid "Polish"
+msgstr "波兰语"
+
+msgid "pl_PL"
+msgstr "pl_PL"
+
+msgid "Polish (Poland)"
+msgstr "波兰语（波兰）"
+
+msgid "pr"
+msgstr "pr"
+
+msgid "Pirate"
+msgstr "Pirate"
+
+msgid "ps_AF"
+msgstr "ps_AF"
+
+msgid "Pushto (Afghanistan)"
+msgstr "Pushto (Afghanistan)"
+
+msgid "pt"
+msgstr "pt"
+
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+msgid "pt_BR"
+msgstr "pt_BR"
+
+msgid "Portuguese (Brazil)"
+msgstr "葡萄牙语（巴西）"
+
+msgid "pt_PT"
+msgstr "pt_PT"
+
+msgid "Portuguese (Portugal)"
+msgstr "葡萄牙语（葡萄牙）"
+
+msgid "quy_PE"
+msgstr "quy_PE"
+
+msgid "Ayacucho Quechua (Peru)"
+msgstr "Ayacucho Quechua (Peru)"
+
+msgid "quz_PE"
+msgstr "quz_PE"
+
+msgid "Cusco Quechua (Peru)"
+msgstr "Cusco Quechua (Peru)"
+
+msgid "raj_IN"
+msgstr "raj_IN"
+
+msgid "Rajasthani (India)"
+msgstr "拉贾斯坦语（印度）"
+
+msgid "ro"
+msgstr "ro"
+
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+msgid "ro_RO"
+msgstr "ro_RO"
+
+msgid "Romanian (Romania)"
+msgstr "罗马尼亚语（罗马尼亚）"
+
+msgid "ru"
+msgstr "ru"
+
+msgid "Russian"
+msgstr "俄语"
+
+msgid "ru_RU"
+msgstr "ru_RU"
+
+msgid "Russian (Russia)"
+msgstr "俄语（俄罗斯）"
+
+msgid "ru_UA"
+msgstr "ru_UA"
+
+msgid "Russian (Ukraine)"
+msgstr "俄语（乌克兰）"
+
+msgid "rw_RW"
+msgstr "rw_RW"
+
+msgid "Kinyarwanda (Rwanda)"
+msgstr "Kinyarwanda (Rwanda)"
+
+msgid "sa_IN"
+msgstr "sa_IN"
+
+msgid "Sanskrit (India)"
+msgstr "梵语（印度）"
+
+msgid "sat_IN"
+msgstr "sat_IN"
+
+msgid "Santali (India)"
+msgstr "桑塔利语（印度）"
+
+msgid "sc_IT"
+msgstr "sc_IT"
+
+msgid "Sardinian (Italy)"
+msgstr "撒丁语（意大利）"
+
+msgid "sco"
+msgstr "sco"
+
+msgid "Scots"
+msgstr "苏格兰语"
+
+msgid "sd_IN"
+msgstr "sd_IN"
+
+msgid "Sindhi (India)"
+msgstr "信德语（印度）"
+
+msgid "se_NO"
+msgstr "se_NO"
+
+msgid "Northern Sami (Norway)"
+msgstr "北萨米语（挪威）"
+
+msgid "sgs_LT"
+msgstr "sgs_LT"
+
+msgid "Samogitian (Lithuania)"
+msgstr "萨莫吉提亚语（立陶宛）"
+
+msgid "shs_CA"
+msgstr "shs_CA"
+
+msgid "Shuswap (Canada)"
+msgstr "苏斯瓦语（加拿大）"
+
+msgid "sid_ET"
+msgstr "sid_ET"
+
+msgid "Sidamo (Ethiopia)"
+msgstr "Sidamo (Ethiopia)"
+
+msgid "si"
+msgstr "si"
+
+msgid "Sinhala"
+msgstr "僧伽罗语"
+
+msgid "si_LK"
+msgstr "si_LK"
+
+msgid "Sinhala (Sri Lanka)"
+msgstr "Sinhala (Sri Lanka)"
+
+msgid "sk"
+msgstr "sk"
+
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+msgid "sk_SK"
+msgstr "sk_SK"
+
+msgid "Slovak (Slovakia)"
+msgstr "斯洛伐克语（斯洛伐克）"
+
+msgid "sl"
+msgstr "sl"
+
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+msgid "sl_SI"
+msgstr "sl_SI"
+
+msgid "Slovenian (Slovenia)"
+msgstr "斯洛文尼亚语（斯洛文尼亚）"
+
+msgid "so"
+msgstr "so"
+
+msgid "Somali"
+msgstr "索马里语"
+
+msgid "so_DJ"
+msgstr "so_DJ"
+
+msgid "Somali (Djibouti)"
+msgstr "索马里语（吉布提）"
+
+msgid "so_ET"
+msgstr "so_ET"
+
+msgid "Somali (Ethiopia)"
+msgstr "索马里语（埃塞俄比亚）"
+
+msgid "so_KE"
+msgstr "so_KE"
+
+msgid "Somali (Kenya)"
+msgstr "索马里语（肯尼亚）"
+
+msgid "so_SO"
+msgstr "so_SO"
+
+msgid "Somali (Somalia)"
+msgstr "索马里语（索马里）"
+
+msgid "son_ML"
+msgstr "son_ML"
+
+msgid "Songhai languages (Mali)"
+msgstr "桑海语族（马里）"
+
+msgid "sq"
+msgstr "sq"
+
+msgid "Albanian"
+msgstr "阿尔巴尼亚语"
+
+msgid "sq_AL"
+msgstr "sq_AL"
+
+msgid "Albanian (Albania)"
+msgstr "阿尔巴尼亚语（阿尔巴尼亚）"
+
+msgid "sq_KV"
+msgstr "sq_KV"
+
+msgid "Albanian (Kosovo)"
+msgstr "阿尔巴尼亚语（科索沃）"
+
+msgid "sq_MK"
+msgstr "sq_MK"
+
+msgid "Albanian (Macedonia)"
+msgstr "阿尔巴尼亚语（马其顿）"
+
+msgid "sr"
+msgstr "sr"
+
+msgid "Serbian"
+msgstr "塞尔维亚语"
+
+msgid "sr_Cyrl"
+msgstr "sr_Cyrl"
+
+msgid "Serbian (Cyrillic)"
+msgstr "塞尔维亚语（西里尔语）"
+
+msgid "sr_Latn"
+msgstr "sr_Latn"
+
+msgid "Serbian (Latin)"
+msgstr "塞尔维亚语（拉丁语）"
+
+msgid "sr_ME"
+msgstr "sr_ME"
+
+msgid "Serbian (Montenegro)"
+msgstr "Serbian (Montenegro)"
+
+msgid "sr_RS"
+msgstr "sr_RS"
+
+msgid "Serbian (Serbia)"
+msgstr "Serbian (Serbia)"
+
+msgid "ss_ZA"
+msgstr "ss_ZA"
+
+msgid "Swati (South Africa)"
+msgstr "斯威士语（南非）"
+
+msgid "st_ZA"
+msgstr "st_ZA"
+
+msgid "Southern Sotho (South Africa)"
+msgstr "南塞索托语（南非）"
+
+msgid "sv"
+msgstr "sv"
+
+msgid "Swedish"
+msgstr "瑞典语"
+
+msgid "sv_FI"
+msgstr "sv_FI"
+
+msgid "Swedish (Finland)"
+msgstr "瑞典语（芬兰）"
+
+msgid "sv_SE"
+msgstr "sv_SE"
+
+msgid "Swedish (Sweden)"
+msgstr "瑞典语（瑞典）"
+
+msgid "sw_KE"
+msgstr "sw_KE"
+
+msgid "Swahili (Kenya)"
+msgstr "斯瓦希里语（肯尼亚）"
+
+msgid "sw_TZ"
+msgstr "sw_TZ"
+
+msgid "Swahili (Tanzania)"
+msgstr "斯瓦希里语（坦桑尼亚）"
+
+msgid "szl_PL"
+msgstr "szl_PL"
+
+msgid "Silesian (Poland)"
+msgstr "Silesian (Poland)"
+
+msgid "ta"
+msgstr "ta"
+
+msgid "Tamil"
+msgstr "泰米尔语"
+
+msgid "ta_IN"
+msgstr "ta_IN"
+
+msgid "Tamil (India)"
+msgstr "泰米尔语（印度）"
+
+msgid "ta_LK"
+msgstr "ta_LK"
+
+msgid "Tamil (Sri Lanka)"
+msgstr "泰米尔语（斯里兰卡）"
+
+msgid "tcy_IN"
+msgstr "tcy_IN"
+
+msgid "Tulu (India)"
+msgstr "图陆语（印度）"
+
+msgid "te"
+msgstr "te"
+
+msgid "Telugu"
+msgstr "泰卢固语"
+
+msgid "te_IN"
+msgstr "te_IN"
+
+msgid "Telugu (India)"
+msgstr "泰卢固语（印度）"
+
+msgid "tg_TJ"
+msgstr "tg_TJ"
+
+msgid "Tajik (Tajikistan)"
+msgstr "塔吉克语（塔吉克斯坦）"
+
+msgid "the_NP"
+msgstr "the_NP"
+
+msgid "Chitwania Tharu (Nepal)"
+msgstr "Chitwania Tharu (Nepal)"
+
+msgid "th"
+msgstr "th"
+
+msgid "Thai"
+msgstr "泰语"
+
+msgid "th_TH"
+msgstr "th_TH"
+
+msgid "Thai (Thailand)"
+msgstr "泰语（泰国）"
+
+msgid "ti"
+msgstr "ti"
+
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+msgid "ti_ER"
+msgstr "ti_ER"
+
+msgid "Tigrinya (Eritrea)"
+msgstr "Tigrinya (Eritrea)"
+
+msgid "ti_ET"
+msgstr "ti_ET"
+
+msgid "Tigrinya (Ethiopia)"
+msgstr "Tigrinya (Ethiopia)"
+
+msgid "tig_ER"
+msgstr "tig_ER"
+
+msgid "Tigre (Eritrea)"
+msgstr "Tigre (Eritrea)"
+
+msgid "tk_TM"
+msgstr "tk_TM"
+
+msgid "Turkmen (Turkmenistan)"
+msgstr "土库曼语（土库曼斯坦）"
+
+msgid "tl_PH"
+msgstr "tl_PH"
+
+msgid "Tagalog (Philippines)"
+msgstr "他加禄语（菲利宾）"
+
+msgid "tn_ZA"
+msgstr "tn_ZA"
+
+msgid "Tswana (South Africa)"
+msgstr "茨瓦纳语（南非）"
+
+msgid "tr"
+msgstr "tr"
+
+msgid "Turkish"
+msgstr "土耳其语"
+
+msgid "tr_CY"
+msgstr "tr_CY"
+
+msgid "Turkish (Cyprus)"
+msgstr "土耳其语（塞浦路斯）"
+
+msgid "tr_TR"
+msgstr "tr_TR"
+
+msgid "Turkish (Turkey)"
+msgstr "土耳其语（土耳其）"
+
+msgid "ts_ZA"
+msgstr "ts_ZA"
+
+msgid "Tsonga (South Africa)"
+msgstr "聪加语（南非）"
+
+msgid "tt_RU"
+msgstr "tt_RU"
+
+msgid "Tatar (Russia)"
+msgstr "鞑靼语（俄罗斯）"
+
+msgid "ug_CN"
+msgstr "ug_CN"
+
+msgid "Uighur (China)"
+msgstr "维吾尔语（中国）"
+
+msgid "uk"
+msgstr "uk"
+
+msgid "Ukrainian"
+msgstr "乌克兰语"
+
+msgid "uk_UA"
+msgstr "uk_UA"
+
+msgid "Ukrainian (Ukraine)"
+msgstr "乌克兰语（乌克兰）"
+
+msgid "unm_US"
+msgstr "unm_US"
+
+msgid "Unami (United States)"
+msgstr "乌纳米语（美国）"
+
+msgid "ur"
+msgstr "ur"
+
+msgid "Urdu"
+msgstr "乌尔都语"
+
+msgid "ur_IN"
+msgstr "ur_IN"
+
+msgid "Urdu (India)"
+msgstr "乌尔都语（印度）"
+
+msgid "ur_PK"
+msgstr "ur_PK"
+
+msgid "Urdu (Pakistan)"
+msgstr "乌尔都语（巴基斯坦）"
+
+msgid "uz"
+msgstr "uz"
+
+msgid "Uzbek"
+msgstr "乌孜别克语"
+
+msgid "uz_UZ"
+msgstr "uz_UZ"
+
+msgid "Uzbek (Uzbekistan)"
+msgstr "乌孜别克语（乌孜别克斯坦）"
+
+msgid "ve_ZA"
+msgstr "ve_ZA"
+
+msgid "Venda (South Africa)"
+msgstr "文达语（南非）"
+
+msgid "vi"
+msgstr "vi"
+
+msgid "Vietnamese"
+msgstr "越南语"
+
+msgid "vi_VN"
+msgstr "vi_VN"
+
+msgid "Vietnamese (Vietnam)"
+msgstr "越南语（越南）"
+
+msgid "wa_BE"
+msgstr "wa_BE"
+
+msgid "Walloon (Belgium)"
+msgstr "瓦隆语（比利时）"
+
+msgid "wae_CH"
+msgstr "wae_CH"
+
+msgid "Walser (Switzerland)"
+msgstr "瓦尔瑟语（瑞士）"
+
+msgid "wal_ET"
+msgstr "wal_ET"
+
+msgid "Wolaytta (Ethiopia)"
+msgstr "瓦莱提语（埃塞俄比亚）"
+
+msgid "wo_SN"
+msgstr "wo_SN"
+
+msgid "Wolof (Senegal)"
+msgstr "沃洛夫语（塞内加尔）"
+
+msgid "xh_ZA"
+msgstr "xh_ZA"
+
+msgid "Xhosa (South Africa)"
+msgstr "科萨语（南非）"
+
+msgid "yi_US"
+msgstr "yi_US"
+
+msgid "Yiddish (United States)"
+msgstr "意第绪语（美国）"
+
+msgid "yo_NG"
+msgstr "yo_NG"
+
+msgid "Yoruba (Nigeria)"
+msgstr "约鲁巴语（尼日利亚）"
+
+msgid "yue_HK"
+msgstr "yue_HK"
+
+msgid "Yue Chinese (Hong Kong)"
+msgstr "粤语（香港）"
+
+msgid "zh"
+msgstr "zh"
+
+msgid "Chinese"
+msgstr "汉语"
+
+msgid "zh_CN"
+msgstr "zh_CN"
+
+msgid "Chinese (China)"
+msgstr "汉语（中国）"
+
+msgid "zh_HK"
+msgstr "zh_HK"
+
+msgid "Chinese (Hong Kong)"
+msgstr "汉语（香港）"
+
+msgid "zh_SG"
+msgstr "zh_SG"
+
+msgid "Chinese (Singapore)"
+msgstr "汉语（新加坡）"
+
+msgid "zh_TW"
+msgstr "zh_TW"
+
+msgid "Chinese (Taiwan)"
+msgstr "汉语（台湾）"
+
+msgid "zu_ZA"
+msgstr "zu_ZA"
+
+msgid "Zulu (South Africa)"
+msgstr "祖鲁语（南非）"
+
+msgid "Translation status"
+msgstr "翻译状态"

@@ -1,0 +1,759 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_area.rst:10
+msgid "Area"
+msgstr ""
+
+#: ../classes/class_area.rst:12
+msgid "**Inherits:** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_area.rst:14
+msgid "用于检测和物理及音频影响的3D区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_area.rst:19
+msgid "检测\\ :ref:`CollisionObject<class_CollisionObject>`\\ 节点重叠、进入或退出的3D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到自定义音频总线。"
+msgstr ""
+
+#: ../classes/class_area.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_area.rst:24
+msgid "`3D Platformer Demo <https://godotengine.org/asset-library/asset/125>`__"
+msgstr ""
+
+#: ../classes/class_area.rst:26
+msgid "`GUI in 3D Demo <https://godotengine.org/asset-library/asset/127>`__"
+msgstr ""
+
+#: ../classes/class_area.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_area.rst:32
+#: ../classes/class_area.rst:38
+#: ../classes/class_area.rst:40
+#: ../classes/class_area.rst:46
+#: ../classes/class_area.rst:52
+#: ../classes/class_area.rst:54
+#: ../classes/class_area.rst:60
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_area.rst:32
+msgid ":ref:`angular_damp<class_Area_property_angular_damp>`"
+msgstr ""
+
+#: ../classes/class_area.rst:32
+#: ../classes/class_area.rst:46
+#: ../classes/class_area.rst:218
+#: ../classes/class_area.rst:332
+msgid "``0.1``"
+msgstr ""
+
+#: ../classes/class_area.rst:34
+#: ../classes/class_area.rst:58
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_area.rst:34
+msgid ":ref:`audio_bus_name<class_Area_property_audio_bus_name>`"
+msgstr ""
+
+#: ../classes/class_area.rst:34
+#: ../classes/class_area.rst:58
+#: ../classes/class_area.rst:236
+#: ../classes/class_area.rst:430
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../classes/class_area.rst:36
+#: ../classes/class_area.rst:42
+#: ../classes/class_area.rst:48
+#: ../classes/class_area.rst:50
+#: ../classes/class_area.rst:56
+#: ../classes/class_area.rst:73
+#: ../classes/class_area.rst:75
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_area.rst:36
+msgid ":ref:`audio_bus_override<class_Area_property_audio_bus_override>`"
+msgstr ""
+
+#: ../classes/class_area.rst:36
+#: ../classes/class_area.rst:42
+#: ../classes/class_area.rst:56
+#: ../classes/class_area.rst:252
+#: ../classes/class_area.rst:300
+#: ../classes/class_area.rst:414
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_area.rst:38
+msgid ":ref:`gravity<class_Area_property_gravity>`"
+msgstr ""
+
+#: ../classes/class_area.rst:38
+#: ../classes/class_area.rst:268
+msgid "``9.8``"
+msgstr ""
+
+#: ../classes/class_area.rst:40
+msgid ":ref:`gravity_distance_scale<class_Area_property_gravity_distance_scale>`"
+msgstr ""
+
+#: ../classes/class_area.rst:40
+#: ../classes/class_area.rst:52
+#: ../classes/class_area.rst:54
+#: ../classes/class_area.rst:60
+#: ../classes/class_area.rst:284
+#: ../classes/class_area.rst:382
+#: ../classes/class_area.rst:398
+#: ../classes/class_area.rst:446
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_area.rst:42
+msgid ":ref:`gravity_point<class_Area_property_gravity_point>`"
+msgstr ""
+
+#: ../classes/class_area.rst:44
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_area.rst:44
+msgid ":ref:`gravity_vec<class_Area_property_gravity_vec>`"
+msgstr ""
+
+#: ../classes/class_area.rst:44
+#: ../classes/class_area.rst:316
+msgid "``Vector3( 0, -1, 0 )``"
+msgstr ""
+
+#: ../classes/class_area.rst:46
+msgid ":ref:`linear_damp<class_Area_property_linear_damp>`"
+msgstr ""
+
+#: ../classes/class_area.rst:48
+msgid ":ref:`monitorable<class_Area_property_monitorable>`"
+msgstr ""
+
+#: ../classes/class_area.rst:48
+#: ../classes/class_area.rst:50
+#: ../classes/class_area.rst:350
+#: ../classes/class_area.rst:366
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_area.rst:50
+msgid ":ref:`monitoring<class_Area_property_monitoring>`"
+msgstr ""
+
+#: ../classes/class_area.rst:52
+msgid ":ref:`priority<class_Area_property_priority>`"
+msgstr ""
+
+#: ../classes/class_area.rst:54
+msgid ":ref:`reverb_bus_amount<class_Area_property_reverb_bus_amount>`"
+msgstr ""
+
+#: ../classes/class_area.rst:56
+msgid ":ref:`reverb_bus_enable<class_Area_property_reverb_bus_enable>`"
+msgstr ""
+
+#: ../classes/class_area.rst:58
+msgid ":ref:`reverb_bus_name<class_Area_property_reverb_bus_name>`"
+msgstr ""
+
+#: ../classes/class_area.rst:60
+msgid ":ref:`reverb_bus_uniformity<class_Area_property_reverb_bus_uniformity>`"
+msgstr ""
+
+#: ../classes/class_area.rst:62
+msgid ":ref:`SpaceOverride<enum_Area_SpaceOverride>`"
+msgstr ""
+
+#: ../classes/class_area.rst:62
+msgid ":ref:`space_override<class_Area_property_space_override>`"
+msgstr ""
+
+#: ../classes/class_area.rst:62
+#: ../classes/class_area.rst:462
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_area.rst:66
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_area.rst:69
+#: ../classes/class_area.rst:71
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_area.rst:69
+msgid ":ref:`get_overlapping_areas<class_Area_method_get_overlapping_areas>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:71
+msgid ":ref:`get_overlapping_bodies<class_Area_method_get_overlapping_bodies>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:73
+msgid ":ref:`overlaps_area<class_Area_method_overlaps_area>` **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:75
+msgid ":ref:`overlaps_body<class_Area_method_overlaps_body>` **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:79
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_area.rst:83
+msgid "**area_entered** **(** :ref:`Area<class_Area>` area **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:85
+msgid "当另一个 Area 进入这个 Area 时触发。需要将监控 :ref:`monitoring<class_Area_property_monitoring>` 设置为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:87
+msgid "\\ ``area`` 参数是另外一个 Area。"
+msgstr ""
+
+#: ../classes/class_area.rst:93
+msgid "**area_exited** **(** :ref:`Area<class_Area>` area **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:95
+msgid "当另一个区域退出这个区域时发出的。要求监控\\ :ref:`monitoring<class_Area_property_monitoring>`\\ 被设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:97
+msgid "\\ ``area``\\ 参数是另外一个Area。"
+msgstr ""
+
+#: ../classes/class_area.rst:103
+msgid "**area_shape_entered** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:105
+#: ../classes/class_area.rst:121
+msgid "当另一个区域的一个\\ :ref:`Shape<class_Shape>`\\ 进入这个区域的一个\\ :ref:`Shape<class_Shape>`\\ 时发出的。要求\\ :ref:`monitoring<class_Area_property_monitoring>` 被设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:107
+#: ../classes/class_area.rst:123
+msgid "\\ ``area_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用的其他区域的\\ :ref:`CollisionObject<class_CollisionObject>`\\ 的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:109
+#: ../classes/class_area.rst:125
+msgid "\\ ``area`` 其他区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:111
+#: ../classes/class_area.rst:127
+msgid "\\ ``area_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用的其他区域的\\ :ref:`Shape<class_Shape>`\\ 的索引。用\\ ``area.shape_owner_get_owner(area_shape_index)``\\ 获得\\ :ref:`CollisionShape<class_CollisionShape>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area.rst:113
+#: ../classes/class_area.rst:129
+msgid "\\ ``local_shape_index``\\ 是\\ :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用的该区域的\\ :ref:`Shape<class_Shape>`\\ 的索引。用\\ ``self.shape_owner_get_owner(local_shape_index)``\\ 获得\\ :ref:`CollisionShape<class_CollisionShape>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area.rst:119
+msgid "**area_shape_exited** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:135
+msgid "**body_entered** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:137
+msgid "当\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 进入这个区域时发出的。需要将监控\\ :ref:`monitoring<class_Area_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 有碰撞形状\\ :ref:`Shape<class_Shape>`\\ ，就会检测到\\ :ref:`GridMap<class_GridMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:139
+msgid "\\ ``body``, 如果它存在于场景树中, 是另一个\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 节点\\ :ref:`Node<class_Node>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:145
+msgid "**body_exited** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:147
+msgid "当\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 离开这个Area时发出的。需要将监控\\ :ref:`monitoring<class_Area_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 有碰撞形状\\ :ref:`Shape<class_Shape>`\\ ，就会检测到\\ :ref:`GridMap<class_GridMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:149
+msgid "\\ ``body``, 如果它存在于场景树中, 是其他\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 的\\ :ref:`Node<class_Node>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:155
+msgid "**body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:157
+#: ../classes/class_area.rst:173
+msgid "当\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 的一个\\ :ref:`Shape<class_Shape>`\\ 进入这个区域的一个\\ :ref:`Shape<class_Shape>`\\ 时触发。需要将\\ :ref:`monitoring<class_Area_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 有碰撞\\ :ref:`Shape<class_Shape>`\\ ，就会检测到\\ :ref:`GridMap<class_GridMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:159
+#: ../classes/class_area.rst:175
+msgid "\\ ``body_rid`` :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用的\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`MeshLibrary<class_MeshLibrary>`\\ 的\\ :ref:`CollisionObject<class_CollisionObject>`\\ 的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:161
+#: ../classes/class_area.rst:177
+msgid "\\ ``body`` :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 的\\ :ref:`Node<class_Node>`\\ ，如果它存在于树中的话。"
+msgstr ""
+
+#: ../classes/class_area.rst:163
+#: ../classes/class_area.rst:179
+msgid "\\ ``body_shape_index`` :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用的\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`GridMap<class_GridMap>`\\ 的\\ :ref:`Shape<class_Shape>`\\ 的索引。用\\ ``body.shape_owner_get_owner(body_shape_index)``\\ 获取\\ :ref:`CollisionShape<class_CollisionShape>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area.rst:165
+#: ../classes/class_area.rst:181
+msgid "\\ ``local_shape_index``\\ 这个区域的\\ :ref:`Shape<class_Shape>`\\ 的索引，由\\ :ref:`PhysicsServer<class_PhysicsServer>`\\ 使用。用\\ ``self.shape_owner_get_owner(local_shape_index)``\\ 获得\\ :ref:`CollisionShape<class_CollisionShape>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area.rst:171
+msgid "**body_shape_exited** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area.rst:184
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_area.rst:198
+msgid "enum **SpaceOverride**:"
+msgstr ""
+
+#: ../classes/class_area.rst:200
+msgid "**SPACE_OVERRIDE_DISABLED** = **0** --- 这个区域不影响重力/阻尼。"
+msgstr ""
+
+#: ../classes/class_area.rst:202
+msgid "**SPACE_OVERRIDE_COMBINE** = **1** --- 该区域将其重力/阻尼值加到迄今为止计算出的任何值上（按 :ref:`priority<class_Area_property_priority>` 排序）。"
+msgstr ""
+
+#: ../classes/class_area.rst:204
+msgid "**SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- 该区域将其重力/阻尼值添加到到目前为止已计算的任何内容（按 :ref:`priority<class_Area_property_priority>` 顺序），而忽略任何较低优先级的区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:206
+msgid "**SPACE_OVERRIDE_REPLACE** = **3** --- 该区域将替换所有重力/阻尼，甚至是默认值，而忽略任何较低优先级的区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:208
+msgid "**SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- 这个区域取代了到目前为止计算出的任何重力/阻尼（按 :ref:`priority<class_Area_property_priority>` 顺序），但继续计算其余的区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:211
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_area.rst:215
+msgid ":ref:`float<class_float>` **angular_damp**"
+msgstr ""
+
+#: ../classes/class_area.rst:218
+#: ../classes/class_area.rst:236
+#: ../classes/class_area.rst:252
+#: ../classes/class_area.rst:268
+#: ../classes/class_area.rst:284
+#: ../classes/class_area.rst:300
+#: ../classes/class_area.rst:316
+#: ../classes/class_area.rst:332
+#: ../classes/class_area.rst:350
+#: ../classes/class_area.rst:366
+#: ../classes/class_area.rst:382
+#: ../classes/class_area.rst:398
+#: ../classes/class_area.rst:414
+#: ../classes/class_area.rst:430
+#: ../classes/class_area.rst:446
+#: ../classes/class_area.rst:462
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_area.rst:220
+#: ../classes/class_area.rst:238
+#: ../classes/class_area.rst:254
+#: ../classes/class_area.rst:270
+#: ../classes/class_area.rst:286
+#: ../classes/class_area.rst:302
+#: ../classes/class_area.rst:318
+#: ../classes/class_area.rst:334
+#: ../classes/class_area.rst:352
+#: ../classes/class_area.rst:368
+#: ../classes/class_area.rst:384
+#: ../classes/class_area.rst:400
+#: ../classes/class_area.rst:416
+#: ../classes/class_area.rst:432
+#: ../classes/class_area.rst:448
+#: ../classes/class_area.rst:464
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_area.rst:220
+msgid "set_angular_damp(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:222
+#: ../classes/class_area.rst:240
+#: ../classes/class_area.rst:256
+#: ../classes/class_area.rst:272
+#: ../classes/class_area.rst:288
+#: ../classes/class_area.rst:304
+#: ../classes/class_area.rst:320
+#: ../classes/class_area.rst:336
+#: ../classes/class_area.rst:354
+#: ../classes/class_area.rst:370
+#: ../classes/class_area.rst:386
+#: ../classes/class_area.rst:402
+#: ../classes/class_area.rst:418
+#: ../classes/class_area.rst:434
+#: ../classes/class_area.rst:450
+#: ../classes/class_area.rst:466
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_area.rst:222
+msgid "get_angular_damp()"
+msgstr ""
+
+#: ../classes/class_area.rst:225
+msgid "物体在此区域停止旋转的速度。代表每秒损失的角速度."
+msgstr ""
+
+#: ../classes/class_area.rst:227
+msgid "关于阻尼的更多细节，见\\ :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_property_physics/3d/default_angular_damp>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:233
+msgid ":ref:`String<class_String>` **audio_bus_name**"
+msgstr ""
+
+#: ../classes/class_area.rst:238
+msgid "set_audio_bus(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:240
+msgid "get_audio_bus()"
+msgstr ""
+
+#: ../classes/class_area.rst:243
+msgid "该区域音频总线的名称。"
+msgstr ""
+
+#: ../classes/class_area.rst:249
+msgid ":ref:`bool<class_bool>` **audio_bus_override**"
+msgstr ""
+
+#: ../classes/class_area.rst:254
+msgid "set_audio_bus_override(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:256
+msgid "is_overriding_audio_bus()"
+msgstr ""
+
+#: ../classes/class_area.rst:259
+msgid "为 ``true`` 时该区域的音频总线将覆盖默认的音频总线。"
+msgstr ""
+
+#: ../classes/class_area.rst:265
+msgid ":ref:`float<class_float>` **gravity**"
+msgstr ""
+
+#: ../classes/class_area.rst:270
+msgid "set_gravity(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:272
+msgid "get_gravity()"
+msgstr ""
+
+#: ../classes/class_area.rst:275
+msgid "该区域内的重力强度（单位：m/s^2）。这个值是重力向量的倍数。这个量在改变引力大小而不改变其方向很有用。"
+msgstr ""
+
+#: ../classes/class_area.rst:281
+msgid ":ref:`float<class_float>` **gravity_distance_scale**"
+msgstr ""
+
+#: ../classes/class_area.rst:286
+msgid "set_gravity_distance_scale(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:288
+msgid "get_gravity_distance_scale()"
+msgstr ""
+
+#: ../classes/class_area.rst:291
+msgid "点重力的衰减系数。该值越大，重力值随距离下降的速度就越快。"
+msgstr ""
+
+#: ../classes/class_area.rst:297
+msgid ":ref:`bool<class_bool>` **gravity_point**"
+msgstr ""
+
+#: ../classes/class_area.rst:302
+msgid "set_gravity_is_point(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:304
+msgid "is_gravity_a_point()"
+msgstr ""
+
+#: ../classes/class_area.rst:307
+msgid "如果 ``true``\\ ，则从一个点计算重力（通过 :ref:`gravity_vec<class_Area_property_gravity_vec>` 设置）。参阅 :ref:`space_override<class_Area_property_space_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:313
+msgid ":ref:`Vector3<class_Vector3>` **gravity_vec**"
+msgstr ""
+
+#: ../classes/class_area.rst:318
+msgid "set_gravity_vector(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:320
+msgid "get_gravity_vector()"
+msgstr ""
+
+#: ../classes/class_area.rst:323
+msgid "区域的未归一化的重力向量。如果重力作用在一个点上，则它将是引力点。请参阅 :ref:`gravity_point<class_Area_property_gravity_point>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:329
+msgid ":ref:`float<class_float>` **linear_damp**"
+msgstr ""
+
+#: ../classes/class_area.rst:334
+msgid "set_linear_damp(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:336
+msgid "get_linear_damp()"
+msgstr ""
+
+#: ../classes/class_area.rst:339
+msgid "物体在此区域减速的速率。代表每秒损失的线速度。"
+msgstr ""
+
+#: ../classes/class_area.rst:341
+msgid "关于阻尼的更多细节，见\\ :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_property_physics/3d/default_linear_damp>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:347
+msgid ":ref:`bool<class_bool>` **monitorable**"
+msgstr ""
+
+#: ../classes/class_area.rst:352
+msgid "set_monitorable(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:354
+msgid "is_monitorable()"
+msgstr ""
+
+#: ../classes/class_area.rst:357
+msgid "为 ``true`` 时其他监测区域可以检测到这个区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:363
+msgid ":ref:`bool<class_bool>` **monitoring**"
+msgstr ""
+
+#: ../classes/class_area.rst:368
+msgid "set_monitoring(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:370
+msgid "is_monitoring()"
+msgstr ""
+
+#: ../classes/class_area.rst:373
+msgid "为 ``true`` 时该区域能够检测到进入和退出该区域的实体或区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:379
+msgid ":ref:`float<class_float>` **priority**"
+msgstr ""
+
+#: ../classes/class_area.rst:384
+msgid "set_priority(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:386
+msgid "get_priority()"
+msgstr ""
+
+#: ../classes/class_area.rst:389
+msgid "该区域的优先级。将优先处理优先级较高的区域。"
+msgstr ""
+
+#: ../classes/class_area.rst:395
+msgid ":ref:`float<class_float>` **reverb_bus_amount**"
+msgstr ""
+
+#: ../classes/class_area.rst:400
+msgid "set_reverb_amount(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:402
+msgid "get_reverb_amount()"
+msgstr ""
+
+#: ../classes/class_area.rst:405
+msgid "该区域对其相关音频应用混响的程度。范围从 ``0`` 到 ``1``\\ ，精度为 ``0.1``\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:411
+msgid ":ref:`bool<class_bool>` **reverb_bus_enable**"
+msgstr ""
+
+#: ../classes/class_area.rst:416
+msgid "set_use_reverb_bus(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:418
+msgid "is_using_reverb_bus()"
+msgstr ""
+
+#: ../classes/class_area.rst:421
+msgid "为 ``true`` 时该区域会将混响应用于其相关音频。"
+msgstr ""
+
+#: ../classes/class_area.rst:427
+msgid ":ref:`String<class_String>` **reverb_bus_name**"
+msgstr ""
+
+#: ../classes/class_area.rst:432
+msgid "set_reverb_bus(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:434
+msgid "get_reverb_bus()"
+msgstr ""
+
+#: ../classes/class_area.rst:437
+msgid "该区域的相关音频要使用的混响总线名称。"
+msgstr ""
+
+#: ../classes/class_area.rst:443
+msgid ":ref:`float<class_float>` **reverb_bus_uniformity**"
+msgstr ""
+
+#: ../classes/class_area.rst:448
+msgid "set_reverb_uniformity(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:450
+msgid "get_reverb_uniformity()"
+msgstr ""
+
+#: ../classes/class_area.rst:453
+msgid "该区域的混响效果均匀的程度。范围从 ``0`` 到 ``1``\\ ，精度为 ``0.1``\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:459
+msgid ":ref:`SpaceOverride<enum_Area_SpaceOverride>` **space_override**"
+msgstr ""
+
+#: ../classes/class_area.rst:464
+msgid "set_space_override_mode(value)"
+msgstr ""
+
+#: ../classes/class_area.rst:466
+msgid "get_space_override_mode()"
+msgstr ""
+
+#: ../classes/class_area.rst:469
+msgid "该区域内重力和阻尼计算的覆盖模式。可能的值见\\ :ref:`SpaceOverride<enum_Area_SpaceOverride>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area.rst:472
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_area.rst:476
+msgid ":ref:`Array<class_Array>` **get_overlapping_areas** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:478
+msgid "返回相交的\\ ``Area``\\ 的列表。重叠区域的\\ :ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\\ 必须是这个区域\\ :ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\\ 的一部分，这样才能被检测到。"
+msgstr ""
+
+#: ../classes/class_area.rst:480
+#: ../classes/class_area.rst:490
+msgid "出于性能的考虑，因碰撞都是同时处理的，这个列表在物理步骤中只修改一次，而不是在物体被移动后立即修改。考虑使用信号来代替。"
+msgstr ""
+
+#: ../classes/class_area.rst:486
+msgid ":ref:`Array<class_Array>` **get_overlapping_bodies** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:488
+msgid "返回相交的\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 的列表。重叠物体的\\ :ref:`CollisionObject.collision_layer<class_CollisionObject_property_collision_layer>`\\ 必须是这个区域\\ :ref:`CollisionObject.collision_mask<class_CollisionObject_property_collision_mask>`\\ 的一部分，这样才能被检测到。"
+msgstr ""
+
+#: ../classes/class_area.rst:496
+msgid ":ref:`bool<class_bool>` **overlaps_area** **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:498
+msgid "如果 ``true``\\ ，则给定区域与该区域重叠."
+msgstr ""
+
+#: ../classes/class_area.rst:500
+msgid "\\ **注意：**\\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。"
+msgstr ""
+
+#: ../classes/class_area.rst:506
+msgid ":ref:`bool<class_bool>` **overlaps_body** **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_area.rst:508
+msgid "如果为\\ ``true``\\ ，则给定的物理体与该区域重叠."
+msgstr ""
+
+#: ../classes/class_area.rst:510
+msgid "\\ **注意：**\\ 在移动物体后，这个测试的结果不是即时的。为了提高性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。"
+msgstr ""
+
+#: ../classes/class_area.rst:512
+msgid "\\ ``body``\\ 参数可以是一个\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或一个\\ :ref:`GridMap<class_GridMap>`\\ 实例（虽然GridMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片(tiles)作为一个虚拟物理体）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

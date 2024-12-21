@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptyieldsignal.rst:10
+msgid "VisualScriptYieldSignal"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:14
+msgid "一个Visual Script节点yield信号。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:19
+msgid "``VisualScriptYieldSignal`` 将暂停函数执行，直到触发提供的信号。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:25
+#: ../classes/class_visualscriptyieldsignal.rst:31
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:25
+msgid ":ref:`base_type<class_VisualScriptYieldSignal_property_base_type>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:25
+#: ../classes/class_visualscriptyieldsignal.rst:61
+msgid "``\"Object\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:27
+msgid ":ref:`CallMode<enum_VisualScriptYieldSignal_CallMode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:27
+msgid ":ref:`call_mode<class_VisualScriptYieldSignal_property_call_mode>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:27
+#: ../classes/class_visualscriptyieldsignal.rst:77
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:29
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:29
+msgid ":ref:`node_path<class_VisualScriptYieldSignal_property_node_path>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:31
+msgid ":ref:`signal<class_VisualScriptYieldSignal_property_signal>`"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:31
+#: ../classes/class_visualscriptyieldsignal.rst:107
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:35
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:45
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:47
+msgid "**CALL_MODE_SELF** = **0** --- 将使用来自此 :ref:`Object<class_Object>` 的信号。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:49
+msgid "**CALL_MODE_NODE_PATH** = **1** --- 将使用来自场景树中给定 :ref:`Node<class_Node>` 的信号。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:51
+msgid "**CALL_MODE_INSTANCE** = **2** --- 将使用来自具有给定类型的实例节点的信号。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:54
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:58
+msgid ":ref:`String<class_String>` **base_type**"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:61
+#: ../classes/class_visualscriptyieldsignal.rst:77
+#: ../classes/class_visualscriptyieldsignal.rst:107
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:63
+#: ../classes/class_visualscriptyieldsignal.rst:79
+#: ../classes/class_visualscriptyieldsignal.rst:93
+#: ../classes/class_visualscriptyieldsignal.rst:109
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:63
+msgid "set_base_type(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:65
+#: ../classes/class_visualscriptyieldsignal.rst:81
+#: ../classes/class_visualscriptyieldsignal.rst:95
+#: ../classes/class_visualscriptyieldsignal.rst:111
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:65
+msgid "get_base_type()"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:68
+msgid ":ref:`call_mode<class_VisualScriptYieldSignal_property_call_mode>` 设置为 :ref:`CALL_MODE_INSTANCE<class_VisualScriptYieldSignal_constant_CALL_MODE_INSTANCE>` 时要使用的基本类型。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:74
+msgid ":ref:`CallMode<enum_VisualScriptYieldSignal_CallMode>` **call_mode**"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:79
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:81
+msgid "get_call_mode()"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:84
+msgid "``call_mode`` 确定等待信号发射的目标对象。有关选项，请参阅 :ref:`CallMode<enum_VisualScriptYieldSignal_CallMode>` 。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:90
+msgid ":ref:`NodePath<class_NodePath>` **node_path**"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:93
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:95
+msgid "get_base_path()"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:98
+msgid ":ref:`call_mode<class_VisualScriptYieldSignal_property_call_mode>` 设置为 :ref:`CALL_MODE_NODE_PATH<class_VisualScriptYieldSignal_constant_CALL_MODE_NODE_PATH>` 时使用的节点路径。"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:104
+msgid ":ref:`String<class_String>` **signal**"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:109
+msgid "set_signal(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:111
+msgid "get_signal()"
+msgstr ""
+
+#: ../classes/class_visualscriptyieldsignal.rst:114
+msgid "要等待的信号名称。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

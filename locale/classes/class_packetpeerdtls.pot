@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_packetpeerdtls.rst:10
+msgid "PacketPeerDTLS"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:14
+msgid "DTLS数据包客户端。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:19
+msgid "这个类表示DTLS对等连接。它可以用来连接到DTLS服务器，由\\ :ref:`DTLSServer.take_connection<class_DTLSServer_method_take_connection>`\\ 返回。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:21
+msgid "\\ **警告:**\\ 当前不支持SSL/TLS证书撤销和证书固定。只要撤销的证书在其他情况下是有效的，都将被接受。如果这是一个问题，您可能希望使用具有短有效期的自动管理证书。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:27
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:27
+msgid ":ref:`connect_to_peer<class_PacketPeerDTLS_method_connect_to_peer>` **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` packet_peer, :ref:`bool<class_bool>` validate_certs=true, :ref:`String<class_String>` for_hostname=\"\", :ref:`X509Certificate<class_X509Certificate>` valid_certificate=null **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:29
+#: ../classes/class_packetpeerdtls.rst:33
+msgid "void"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:29
+msgid ":ref:`disconnect_from_peer<class_PacketPeerDTLS_method_disconnect_from_peer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:31
+msgid ":ref:`Status<enum_PacketPeerDTLS_Status>`"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:31
+msgid ":ref:`get_status<class_PacketPeerDTLS_method_get_status>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:33
+msgid ":ref:`poll<class_PacketPeerDTLS_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:37
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:51
+msgid "enum **Status**:"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:53
+msgid "**STATUS_DISCONNECTED** = **0** --- 表示已断开连接的\\ ``PacketPeerDTLS``\\ 的状态。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:55
+msgid "**STATUS_HANDSHAKING** = **1** --- 表示当前正在与远程对等方进行握手的\\ ``PacketPeerDTLS``\\ 的状态。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:57
+msgid "**STATUS_CONNECTED** = **2** --- 表示连接到远程对等方的\\ ``PacketPeerDTLS``\\ 的状态。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:59
+msgid "**STATUS_ERROR** = **3** --- 表示处于一般错误状态的\\ ``PacketPeerDTLS``\\ 的状态。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:61
+msgid "**STATUS_ERROR_HOSTNAME_MISMATCH** = **4** --- 显示主机提供的DTLS证书域与请求验证的域不匹配的错误状态。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:64
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:68
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_to_peer** **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` packet_peer, :ref:`bool<class_bool>` validate_certs=true, :ref:`String<class_String>` for_hostname=\"\", :ref:`X509Certificate<class_X509Certificate>` valid_certificate=null **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:70
+msgid "使用必须连接的底层\\ :ref:`PacketPeerUDP<class_PacketPeerUDP>`\\ （见\\ :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`\\ ）连接一个\\ ``peer``\\ ，开始DTLS握手过程。如果\\ ``validate_certs``\\ 是\\ ``true``\\ ，\\ ``PacketPeerDTLS``\\ 将验证远程对等体提交的证书并与\\ ``for_hostname``\\ 参数匹配。你可以通过\\ ``valid_certificate``\\ 参数指定一个自定义的\\ :ref:`X509Certificate<class_X509Certificate>`\\ 来进行验证。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:76
+msgid "void **disconnect_from_peer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:78
+msgid "断开此对等体的连接，终止DTLS会话。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:84
+msgid ":ref:`Status<enum_PacketPeerDTLS_Status>` **get_status** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:86
+msgid "返回连接的状态。有关值，请参阅\\ :ref:`Status<enum_PacketPeerDTLS_Status>`\\ 。"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:92
+msgid "void **poll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeerdtls.rst:94
+msgid "轮询连接以检查传入的数据包。经常调用此选项以更新状态并保持连接正常工作。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

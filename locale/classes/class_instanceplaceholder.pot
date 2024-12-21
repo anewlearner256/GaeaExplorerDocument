@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_instanceplaceholder.rst:10
+msgid "InstancePlaceholder"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:14
+msgid ":ref:`PackedScene<class_PackedScene>` 根 :ref:`Node<class_Node>` 的占位。"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:19
+msgid "在编辑器中为实例化场景打开选项 **加载为占位符** 会导致在运行游戏时将其替换为实例占位符\\ ``InstancePlaceholder``\\ 。这使得实际加载场景的时间可以推迟到调用\\ :ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>`\\ 。这对于通过选择性加载部分场景来避免一次性加载大场景很有用。"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:21
+msgid "实例占位符没有变换(transform)属性。这导致任何子节点从点（0,0）开始相对于视窗进行定位，而不是在编辑器中显示的父节点。用一个具有变换属性的场景来替换占位符，将使子节点再次相对于它们的父节点进行变换。"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:27
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:27
+msgid ":ref:`create_instance<class_InstancePlaceholder_method_create_instance>` **(** :ref:`bool<class_bool>` replace=false, :ref:`PackedScene<class_PackedScene>` custom_scene=null **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:29
+msgid ":ref:`get_instance_path<class_InstancePlaceholder_method_get_instance_path>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:31
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:31
+msgid ":ref:`get_stored_values<class_InstancePlaceholder_method_get_stored_values>` **(** :ref:`bool<class_bool>` with_order=false **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:33
+msgid "void"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:33
+msgid ":ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>` **(** :ref:`PackedScene<class_PackedScene>` custom_scene=null **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:37
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:41
+msgid ":ref:`Node<class_Node>` **create_instance** **(** :ref:`bool<class_bool>` replace=false, :ref:`PackedScene<class_PackedScene>` custom_scene=null **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:43
+msgid "不是线程安全的。如果从线程调用，请使用\\ :ref:`Object.call_deferred<class_Object_method_call_deferred>`\\ 。"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:49
+msgid ":ref:`String<class_String>` **get_instance_path** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:51
+msgid "获取调用 :ref:`replace_by_instance<class_InstancePlaceholder_method_replace_by_instance>` 时默认加载的 :ref:`PackedScene<class_PackedScene>` 资源文件的路径。不是线程安全的。如果从线程调用，请使用\\ :ref:`Object.call_deferred<class_Object_method_call_deferred>`\\ 。"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:57
+msgid ":ref:`Dictionary<class_Dictionary>` **get_stored_values** **(** :ref:`bool<class_bool>` with_order=false **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:63
+msgid "void **replace_by_instance** **(** :ref:`PackedScene<class_PackedScene>` custom_scene=null **)**"
+msgstr ""
+
+#: ../classes/class_instanceplaceholder.rst:65
+msgid "用作为参数的场景替换这个占位符，如果没有给出参数，则替换原始场景。对于所有的资源来说，只有当场景还没有被加载时才会被加载。通过事先手动加载场景，可以避免由这个函数引起的延迟。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

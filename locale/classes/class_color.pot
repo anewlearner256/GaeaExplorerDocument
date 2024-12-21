@@ -1,0 +1,1164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_color.rst:10
+msgid "Color"
+msgstr ""
+
+#: ../classes/class_color.rst:12
+msgid "RGBA格式的颜色使用0到1范围内的浮点数。"
+msgstr ""
+
+#: ../classes/class_color.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_color.rst:17
+msgid "由红、绿、蓝、阿尔法（RGBA）分量表示的一种颜色。alpha 分量通常用于透明度。一些属性（如 CanvasItem.modulate）可以接受大于 1 的值（过亮或 HDR 颜色）。"
+msgstr ""
+
+#: ../classes/class_color.rst:19
+msgid "您也可以通过使用 :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>` 或直接使用这里定义的颜色常量，从标准化颜色名称中创建颜色。标准化颜色集是基于 `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`__ 的。"
+msgstr ""
+
+#: ../classes/class_color.rst:21
+msgid "如果你想提供 0 到 255 范围内的值，你应该使用 :ref:`@GDScript.Color8<class_@GDScript_method_Color8>`\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:23
+msgid "\\ **注意：**\\ 在布尔上下文中，等于 ``Color(0, 0, 0, 1)``\\ （不透明的黑色）的 Color 将被评估为\\ ``false``\\ 。否则，一个 Color 将始终被评估为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:25
+msgid "\\ `Color 常量速查表 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__"
+msgstr ""
+
+#: ../classes/class_color.rst:28
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_color.rst:30
+msgid "`2D GD Paint Demo <https://godotengine.org/asset-library/asset/517>`__"
+msgstr ""
+
+#: ../classes/class_color.rst:32
+msgid "`Tween Demo <https://godotengine.org/asset-library/asset/146>`__"
+msgstr ""
+
+#: ../classes/class_color.rst:34
+msgid "`GUI Drag And Drop Demo <https://godotengine.org/asset-library/asset/133>`__"
+msgstr ""
+
+#: ../classes/class_color.rst:37
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_color.rst:40
+#: ../classes/class_color.rst:44
+#: ../classes/class_color.rst:48
+#: ../classes/class_color.rst:52
+#: ../classes/class_color.rst:54
+#: ../classes/class_color.rst:58
+#: ../classes/class_color.rst:60
+#: ../classes/class_color.rst:83
+#: ../classes/class_color.rst:85
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_color.rst:40
+msgid ":ref:`a<class_Color_property_a>`"
+msgstr ""
+
+#: ../classes/class_color.rst:40
+#: ../classes/class_color.rst:705
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_color.rst:42
+#: ../classes/class_color.rst:46
+#: ../classes/class_color.rst:50
+#: ../classes/class_color.rst:56
+#: ../classes/class_color.rst:95
+#: ../classes/class_color.rst:97
+#: ../classes/class_color.rst:99
+#: ../classes/class_color.rst:101
+#: ../classes/class_color.rst:105
+#: ../classes/class_color.rst:107
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_color.rst:42
+msgid ":ref:`a8<class_Color_property_a8>`"
+msgstr ""
+
+#: ../classes/class_color.rst:42
+#: ../classes/class_color.rst:717
+msgid "``255``"
+msgstr ""
+
+#: ../classes/class_color.rst:44
+msgid ":ref:`b<class_Color_property_b>`"
+msgstr ""
+
+#: ../classes/class_color.rst:44
+#: ../classes/class_color.rst:48
+#: ../classes/class_color.rst:52
+#: ../classes/class_color.rst:54
+#: ../classes/class_color.rst:58
+#: ../classes/class_color.rst:60
+#: ../classes/class_color.rst:729
+#: ../classes/class_color.rst:753
+#: ../classes/class_color.rst:777
+#: ../classes/class_color.rst:789
+#: ../classes/class_color.rst:813
+#: ../classes/class_color.rst:825
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_color.rst:46
+msgid ":ref:`b8<class_Color_property_b8>`"
+msgstr ""
+
+#: ../classes/class_color.rst:46
+#: ../classes/class_color.rst:50
+#: ../classes/class_color.rst:56
+#: ../classes/class_color.rst:741
+#: ../classes/class_color.rst:765
+#: ../classes/class_color.rst:801
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_color.rst:48
+msgid ":ref:`g<class_Color_property_g>`"
+msgstr ""
+
+#: ../classes/class_color.rst:50
+msgid ":ref:`g8<class_Color_property_g8>`"
+msgstr ""
+
+#: ../classes/class_color.rst:52
+msgid ":ref:`h<class_Color_property_h>`"
+msgstr ""
+
+#: ../classes/class_color.rst:54
+msgid ":ref:`r<class_Color_property_r>`"
+msgstr ""
+
+#: ../classes/class_color.rst:56
+msgid ":ref:`r8<class_Color_property_r8>`"
+msgstr ""
+
+#: ../classes/class_color.rst:58
+msgid ":ref:`s<class_Color_property_s>`"
+msgstr ""
+
+#: ../classes/class_color.rst:60
+msgid ":ref:`v<class_Color_property_v>`"
+msgstr ""
+
+#: ../classes/class_color.rst:64
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_color.rst:67
+#: ../classes/class_color.rst:69
+#: ../classes/class_color.rst:71
+#: ../classes/class_color.rst:73
+#: ../classes/class_color.rst:75
+#: ../classes/class_color.rst:77
+#: ../classes/class_color.rst:79
+#: ../classes/class_color.rst:81
+#: ../classes/class_color.rst:87
+#: ../classes/class_color.rst:91
+#: ../classes/class_color.rst:93
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_color.rst:67
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:69
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:71
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:73
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:75
+msgid ":ref:`blend<class_Color_method_blend>` **(** :ref:`Color<class_Color>` over **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:77
+msgid ":ref:`contrasted<class_Color_method_contrasted>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:79
+msgid ":ref:`darkened<class_Color_method_darkened>` **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:81
+msgid ":ref:`from_hsv<class_Color_method_from_hsv>` **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:83
+msgid ":ref:`get_luminance<class_Color_method_get_luminance>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:85
+msgid ":ref:`gray<class_Color_method_gray>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:87
+msgid ":ref:`inverted<class_Color_method_inverted>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:89
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_color.rst:89
+msgid ":ref:`is_equal_approx<class_Color_method_is_equal_approx>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:91
+msgid ":ref:`lightened<class_Color_method_lightened>` **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:93
+msgid ":ref:`linear_interpolate<class_Color_method_linear_interpolate>` **(** :ref:`Color<class_Color>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:95
+msgid ":ref:`to_abgr32<class_Color_method_to_abgr32>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:97
+msgid ":ref:`to_abgr64<class_Color_method_to_abgr64>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:99
+msgid ":ref:`to_argb32<class_Color_method_to_argb32>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:101
+msgid ":ref:`to_argb64<class_Color_method_to_argb64>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:103
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_color.rst:103
+msgid ":ref:`to_html<class_Color_method_to_html>` **(** :ref:`bool<class_bool>` with_alpha=true **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:105
+msgid ":ref:`to_rgba32<class_Color_method_to_rgba32>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:107
+msgid ":ref:`to_rgba64<class_Color_method_to_rgba64>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:111
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_color.rst:405
+msgid "**aliceblue** = **Color( 0.94, 0.97, 1, 1 )** --- 爱丽丝蓝。"
+msgstr ""
+
+#: ../classes/class_color.rst:407
+msgid "**antiquewhite** = **Color( 0.98, 0.92, 0.84, 1 )** --- 古色古香的白色。"
+msgstr ""
+
+#: ../classes/class_color.rst:409
+msgid "**aqua** = **Color( 0, 1, 1, 1 )** --- 水色."
+msgstr ""
+
+#: ../classes/class_color.rst:411
+msgid "**aquamarine** = **Color( 0.5, 1, 0.83, 1 )** --- 海蓝色."
+msgstr ""
+
+#: ../classes/class_color.rst:413
+msgid "**azure** = **Color( 0.94, 1, 1, 1 )** --- 天蓝色."
+msgstr ""
+
+#: ../classes/class_color.rst:415
+msgid "**beige** = **Color( 0.96, 0.96, 0.86, 1 )** --- 米黄色."
+msgstr ""
+
+#: ../classes/class_color.rst:417
+msgid "**bisque** = **Color( 1, 0.89, 0.77, 1 )** --- 橘黄色."
+msgstr ""
+
+#: ../classes/class_color.rst:419
+msgid "**black** = **Color( 0, 0, 0, 1 )** --- 黑色."
+msgstr ""
+
+#: ../classes/class_color.rst:421
+msgid "**blanchedalmond** = **Color( 1, 0.92, 0.8, 1 )** --- 布兰奇杏仁色。"
+msgstr ""
+
+#: ../classes/class_color.rst:423
+msgid "**blue** = **Color( 0, 0, 1, 1 )** --- 蓝色."
+msgstr ""
+
+#: ../classes/class_color.rst:425
+msgid "**blueviolet** = **Color( 0.54, 0.17, 0.89, 1 )** --- 蓝紫色的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:427
+msgid "**brown** = **Color( 0.65, 0.16, 0.16, 1 )** --- 棕色."
+msgstr ""
+
+#: ../classes/class_color.rst:429
+msgid "**burlywood** = **Color( 0.87, 0.72, 0.53, 1 )** --- 癭木色。"
+msgstr ""
+
+#: ../classes/class_color.rst:431
+msgid "**cadetblue** = **Color( 0.37, 0.62, 0.63, 1 )** --- 军校学生的蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:433
+msgid "**chartreuse** = **Color( 0.5, 1, 0, 1 )** --- 黄褐色."
+msgstr ""
+
+#: ../classes/class_color.rst:435
+msgid "**chocolate** = **Color( 0.82, 0.41, 0.12, 1 )** --- 巧克力色."
+msgstr ""
+
+#: ../classes/class_color.rst:437
+msgid "**coral** = **Color( 1, 0.5, 0.31, 1 )** --- 珊瑚色."
+msgstr ""
+
+#: ../classes/class_color.rst:439
+msgid "**cornflower** = **Color( 0.39, 0.58, 0.93, 1 )** --- 矢车菊花色。"
+msgstr ""
+
+#: ../classes/class_color.rst:441
+msgid "**cornsilk** = **Color( 1, 0.97, 0.86, 1 )** --- 玉米丝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:443
+msgid "**crimson** = **Color( 0.86, 0.08, 0.24, 1 )** --- 绯红的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:445
+msgid "**cyan** = **Color( 0, 1, 1, 1 )** --- 青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:447
+msgid "**darkblue** = **Color( 0, 0, 0.55, 1 )** --- 深蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:449
+msgid "**darkcyan** = **Color( 0, 0.55, 0.55, 1 )** --- 深青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:451
+msgid "**darkgoldenrod** = **Color( 0.72, 0.53, 0.04, 1 )** --- 深色菊科植物的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:453
+msgid "**darkgray** = **Color( 0.66, 0.66, 0.66, 1 )** --- 深灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:455
+msgid "**darkgreen** = **Color( 0, 0.39, 0, 1 )** --- 深绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:457
+msgid "**darkkhaki** = **Color( 0.74, 0.72, 0.42, 1 )** --- 深卡其色。"
+msgstr ""
+
+#: ../classes/class_color.rst:459
+msgid "**darkmagenta** = **Color( 0.55, 0, 0.55, 1 )** --- 深洋红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:461
+msgid "**darkolivegreen** = **Color( 0.33, 0.42, 0.18, 1 )** --- 深橄榄绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:463
+msgid "**darkorange** = **Color( 1, 0.55, 0, 1 )** --- 深橙色。"
+msgstr ""
+
+#: ../classes/class_color.rst:465
+msgid "**darkorchid** = **Color( 0.6, 0.2, 0.8, 1 )** --- 深色的兰花色。"
+msgstr ""
+
+#: ../classes/class_color.rst:467
+msgid "**darkred** = **Color( 0.55, 0, 0, 1 )** --- 深红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:469
+msgid "**darksalmon** = **Color( 0.91, 0.59, 0.48, 1 )** --- 深鲑鱼色。"
+msgstr ""
+
+#: ../classes/class_color.rst:471
+msgid "**darkseagreen** = **Color( 0.56, 0.74, 0.56, 1 )** --- 深海绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:473
+msgid "**darkslateblue** = **Color( 0.28, 0.24, 0.55, 1 )** --- 深板蓝的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:475
+msgid "**darkslategray** = **Color( 0.18, 0.31, 0.31, 1 )** --- 暗石板灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:477
+msgid "**darkturquoise** = **Color( 0, 0.81, 0.82, 1 )** --- 深绿松石色。"
+msgstr ""
+
+#: ../classes/class_color.rst:479
+msgid "**darkviolet** = **Color( 0.58, 0, 0.83, 1 )** --- 深紫罗兰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:481
+msgid "**deeppink** = **Color( 1, 0.08, 0.58, 1 )** --- 深粉色。"
+msgstr ""
+
+#: ../classes/class_color.rst:483
+msgid "**deepskyblue** = **Color( 0, 0.75, 1, 1 )** --- 深邃的天蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:485
+msgid "**dimgray** = **Color( 0.41, 0.41, 0.41, 1 )** --- 暗灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:487
+msgid "**dodgerblue** = **Color( 0.12, 0.56, 1, 1 )** --- 道奇蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:489
+msgid "**firebrick** = **Color( 0.7, 0.13, 0.13, 1 )** --- 火砖的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:491
+msgid "**floralwhite** = **Color( 1, 0.98, 0.94, 1 )** --- 花白色。"
+msgstr ""
+
+#: ../classes/class_color.rst:493
+msgid "**forestgreen** = **Color( 0.13, 0.55, 0.13, 1 )** --- 森林绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:495
+msgid "**fuchsia** = **Color( 1, 0, 1, 1 )** --- 紫红色的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:497
+msgid "**gainsboro** = **Color( 0.86, 0.86, 0.86, 1 )** --- 庚斯伯勒颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:499
+msgid "**ghostwhite** = **Color( 0.97, 0.97, 1, 1 )** --- 幽灵白颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:501
+msgid "**gold** = **Color( 1, 0.84, 0, 1 )** --- 金色。"
+msgstr ""
+
+#: ../classes/class_color.rst:503
+msgid "**goldenrod** = **Color( 0.85, 0.65, 0.13, 1 )** --- 金黄的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:505
+msgid "**gray** = **Color( 0.75, 0.75, 0.75, 1 )** --- 灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:507
+msgid "**green** = **Color( 0, 1, 0, 1 )** --- 绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:509
+msgid "**greenyellow** = **Color( 0.68, 1, 0.18, 1 )** --- 绿黄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:511
+msgid "**honeydew** = **Color( 0.94, 1, 0.94, 1 )** --- 蜜露色。"
+msgstr ""
+
+#: ../classes/class_color.rst:513
+msgid "**hotpink** = **Color( 1, 0.41, 0.71, 1 )** --- 炙热的粉红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:515
+msgid "**indianred** = **Color( 0.8, 0.36, 0.36, 1 )** --- 印度红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:517
+msgid "**indigo** = **Color( 0.29, 0, 0.51, 1 )** --- 靛青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:519
+msgid "**ivory** = **Color( 1, 1, 0.94, 1 )** --- 象牙色。"
+msgstr ""
+
+#: ../classes/class_color.rst:521
+msgid "**khaki** = **Color( 0.94, 0.9, 0.55, 1 )** --- 卡其色。"
+msgstr ""
+
+#: ../classes/class_color.rst:523
+msgid "**lavender** = **Color( 0.9, 0.9, 0.98, 1 )** --- 薰衣草色。"
+msgstr ""
+
+#: ../classes/class_color.rst:525
+msgid "**lavenderblush** = **Color( 1, 0.94, 0.96, 1 )** --- 薰衣草腮红的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:527
+msgid "**lawngreen** = **Color( 0.49, 0.99, 0, 1 )** --- 草坪绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:529
+msgid "**lemonchiffon** = **Color( 1, 0.98, 0.8, 1 )** --- 柠檬雪纺色。"
+msgstr ""
+
+#: ../classes/class_color.rst:531
+msgid "**lightblue** = **Color( 0.68, 0.85, 0.9, 1 )** --- 浅蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:533
+msgid "**lightcoral** = **Color( 0.94, 0.5, 0.5, 1 )** --- 浅珊瑚色。"
+msgstr ""
+
+#: ../classes/class_color.rst:535
+msgid "**lightcyan** = **Color( 0.88, 1, 1, 1 )** --- 淡青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:537
+msgid "**lightgoldenrod** = **Color( 0.98, 0.98, 0.82, 1 )** --- 淡淡的金黄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:539
+msgid "**lightgray** = **Color( 0.83, 0.83, 0.83, 1 )** --- 浅灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:541
+msgid "**lightgreen** = **Color( 0.56, 0.93, 0.56, 1 )** --- 浅绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:543
+msgid "**lightpink** = **Color( 1, 0.71, 0.76, 1 )** --- 浅粉色。"
+msgstr ""
+
+#: ../classes/class_color.rst:545
+msgid "**lightsalmon** = **Color( 1, 0.63, 0.48, 1 )** --- 浅鲑鱼色。"
+msgstr ""
+
+#: ../classes/class_color.rst:547
+msgid "**lightseagreen** = **Color( 0.13, 0.7, 0.67, 1 )** --- 浅海绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:549
+msgid "**lightskyblue** = **Color( 0.53, 0.81, 0.98, 1 )** --- 浅天蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:551
+msgid "**lightslategray** = **Color( 0.47, 0.53, 0.6, 1 )** --- 浅板岩灰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:553
+msgid "**lightsteelblue** = **Color( 0.69, 0.77, 0.87, 1 )** --- 浅钢蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:555
+msgid "**lightyellow** = **Color( 1, 1, 0.88, 1 )** --- 浅黄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:557
+msgid "**lime** = **Color( 0, 1, 0, 1 )** --- 青柠色。"
+msgstr ""
+
+#: ../classes/class_color.rst:559
+msgid "**limegreen** = **Color( 0.2, 0.8, 0.2, 1 )** --- 石灰绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:561
+msgid "**linen** = **Color( 0.98, 0.94, 0.9, 1 )** --- 亚麻色。"
+msgstr ""
+
+#: ../classes/class_color.rst:563
+msgid "**magenta** = **Color( 1, 0, 1, 1 )** --- 洋红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:565
+msgid "**maroon** = **Color( 0.69, 0.19, 0.38, 1 )** --- 栗色。"
+msgstr ""
+
+#: ../classes/class_color.rst:567
+msgid "**mediumaquamarine** = **Color( 0.4, 0.8, 0.67, 1 )** --- 中等海蓝宝石色。"
+msgstr ""
+
+#: ../classes/class_color.rst:569
+msgid "**mediumblue** = **Color( 0, 0, 0.8, 1 )** --- 中蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:571
+msgid "**mediumorchid** = **Color( 0.73, 0.33, 0.83, 1 )** --- 中等兰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:573
+msgid "**mediumpurple** = **Color( 0.58, 0.44, 0.86, 1 )** --- 中等紫色。"
+msgstr ""
+
+#: ../classes/class_color.rst:575
+msgid "**mediumseagreen** = **Color( 0.24, 0.7, 0.44, 1 )** --- 中海绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:577
+msgid "**mediumslateblue** = **Color( 0.48, 0.41, 0.93, 1 )** --- 中等板岩蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:579
+msgid "**mediumspringgreen** = **Color( 0, 0.98, 0.6, 1 )** --- 中等春天绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:581
+msgid "**mediumturquoise** = **Color( 0.28, 0.82, 0.8, 1 )** --- 中等绿松石色。"
+msgstr ""
+
+#: ../classes/class_color.rst:583
+msgid "**mediumvioletred** = **Color( 0.78, 0.08, 0.52, 1 )** --- 中等紫红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:585
+msgid "**midnightblue** = **Color( 0.1, 0.1, 0.44, 1 )** --- 午夜蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:587
+msgid "**mintcream** = **Color( 0.96, 1, 0.98, 1 )** --- 薄荷奶油色。"
+msgstr ""
+
+#: ../classes/class_color.rst:589
+msgid "**mistyrose** = **Color( 1, 0.89, 0.88, 1 )** --- 朦胧的玫瑰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:591
+msgid "**moccasin** = **Color( 1, 0.89, 0.71, 1 )** --- 鹿皮鞋颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:593
+msgid "**navajowhite** = **Color( 1, 0.87, 0.68, 1 )** --- 那瓦伙族人白。"
+msgstr ""
+
+#: ../classes/class_color.rst:595
+msgid "**navyblue** = **Color( 0, 0, 0.5, 1 )** --- 藏青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:597
+msgid "**oldlace** = **Color( 0.99, 0.96, 0.9, 1 )** --- 旧蕾丝颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:599
+msgid "**olive** = **Color( 0.5, 0.5, 0, 1 )** --- 橄榄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:601
+msgid "**olivedrab** = **Color( 0.42, 0.56, 0.14, 1 )** --- 暗淡橄榄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:603
+msgid "**orange** = **Color( 1, 0.65, 0, 1 )** --- 橙色。"
+msgstr ""
+
+#: ../classes/class_color.rst:605
+msgid "**orangered** = **Color( 1, 0.27, 0, 1 )** --- 橘红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:607
+msgid "**orchid** = **Color( 0.85, 0.44, 0.84, 1 )** --- 兰花色。"
+msgstr ""
+
+#: ../classes/class_color.rst:609
+msgid "**palegoldenrod** = **Color( 0.93, 0.91, 0.67, 1 )** --- 淡金色。"
+msgstr ""
+
+#: ../classes/class_color.rst:611
+msgid "**palegreen** = **Color( 0.6, 0.98, 0.6, 1 )** --- 淡绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:613
+msgid "**paleturquoise** = **Color( 0.69, 0.93, 0.93, 1 )** --- 淡绿松石色。"
+msgstr ""
+
+#: ../classes/class_color.rst:615
+msgid "**palevioletred** = **Color( 0.86, 0.44, 0.58, 1 )** --- 淡紫红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:617
+msgid "**papayawhip** = **Color( 1, 0.94, 0.84, 1 )** --- 木瓜鞭色。"
+msgstr ""
+
+#: ../classes/class_color.rst:619
+msgid "**peachpuff** = **Color( 1, 0.85, 0.73, 1 )** --- 桃花粉。"
+msgstr ""
+
+#: ../classes/class_color.rst:621
+msgid "**peru** = **Color( 0.8, 0.52, 0.25, 1 )** --- 秘鲁色。"
+msgstr ""
+
+#: ../classes/class_color.rst:623
+msgid "**pink** = **Color( 1, 0.75, 0.8, 1 )** --- 粉红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:625
+msgid "**plum** = **Color( 0.87, 0.63, 0.87, 1 )** --- 梅花色。"
+msgstr ""
+
+#: ../classes/class_color.rst:627
+msgid "**powderblue** = **Color( 0.69, 0.88, 0.9, 1 )** --- 浅蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:629
+msgid "**purple** = **Color( 0.63, 0.13, 0.94, 1 )** --- 紫色。"
+msgstr ""
+
+#: ../classes/class_color.rst:631
+msgid "**rebeccapurple** = **Color( 0.4, 0.2, 0.6, 1 )** --- 丽贝卡紫色。"
+msgstr ""
+
+#: ../classes/class_color.rst:633
+msgid "**red** = **Color( 1, 0, 0, 1 )** --- 红色。"
+msgstr ""
+
+#: ../classes/class_color.rst:635
+msgid "**rosybrown** = **Color( 0.74, 0.56, 0.56, 1 )** --- 玫瑰棕。"
+msgstr ""
+
+#: ../classes/class_color.rst:637
+msgid "**royalblue** = **Color( 0.25, 0.41, 0.88, 1 )** --- 宝蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:639
+msgid "**saddlebrown** = **Color( 0.55, 0.27, 0.07, 1 )** --- 鞍棕色。"
+msgstr ""
+
+#: ../classes/class_color.rst:641
+msgid "**salmon** = **Color( 0.98, 0.5, 0.45, 1 )** --- 鲑鱼色。"
+msgstr ""
+
+#: ../classes/class_color.rst:643
+msgid "**sandybrown** = **Color( 0.96, 0.64, 0.38, 1 )** --- 沙褐色。"
+msgstr ""
+
+#: ../classes/class_color.rst:645
+msgid "**seagreen** = **Color( 0.18, 0.55, 0.34, 1 )** --- 海绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:647
+msgid "**seashell** = **Color( 1, 0.96, 0.93, 1 )** --- 贝壳色。"
+msgstr ""
+
+#: ../classes/class_color.rst:649
+msgid "**sienna** = **Color( 0.63, 0.32, 0.18, 1 )** --- 西恩娜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:651
+msgid "**silver** = **Color( 0.75, 0.75, 0.75, 1 )** --- 银色。"
+msgstr ""
+
+#: ../classes/class_color.rst:653
+msgid "**skyblue** = **Color( 0.53, 0.81, 0.92, 1 )** --- 天蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:655
+msgid "**slateblue** = **Color( 0.42, 0.35, 0.8, 1 )** --- 石板蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:657
+msgid "**slategray** = **Color( 0.44, 0.5, 0.56, 1 )** --- 石板灰。"
+msgstr ""
+
+#: ../classes/class_color.rst:659
+msgid "**snow** = **Color( 1, 0.98, 0.98, 1 )** --- 雪白。"
+msgstr ""
+
+#: ../classes/class_color.rst:661
+msgid "**springgreen** = **Color( 0, 1, 0.5, 1 )** --- 春绿。"
+msgstr ""
+
+#: ../classes/class_color.rst:663
+msgid "**steelblue** = **Color( 0.27, 0.51, 0.71, 1 )** --- 钢蓝色。"
+msgstr ""
+
+#: ../classes/class_color.rst:665
+msgid "**tan** = **Color( 0.82, 0.71, 0.55, 1 )** --- 棕褐色。"
+msgstr ""
+
+#: ../classes/class_color.rst:667
+msgid "**teal** = **Color( 0, 0.5, 0.5, 1 )** --- 青色。"
+msgstr ""
+
+#: ../classes/class_color.rst:669
+msgid "**thistle** = **Color( 0.85, 0.75, 0.85, 1 )** --- 蓟色。"
+msgstr ""
+
+#: ../classes/class_color.rst:671
+msgid "**tomato** = **Color( 1, 0.39, 0.28, 1 )** --- 番茄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:673
+msgid "**transparent** = **Color( 1, 1, 1, 0 )** --- 透明色（白色，无alpha）。"
+msgstr ""
+
+#: ../classes/class_color.rst:675
+msgid "**turquoise** = **Color( 0.25, 0.88, 0.82, 1 )** --- 松石绿。"
+msgstr ""
+
+#: ../classes/class_color.rst:677
+msgid "**violet** = **Color( 0.93, 0.51, 0.93, 1 )** --- 紫罗兰色。"
+msgstr ""
+
+#: ../classes/class_color.rst:679
+msgid "**webgray** = **Color( 0.5, 0.5, 0.5, 1 )** --- 网格灰。"
+msgstr ""
+
+#: ../classes/class_color.rst:681
+msgid "**webgreen** = **Color( 0, 0.5, 0, 1 )** --- 网络绿。"
+msgstr ""
+
+#: ../classes/class_color.rst:683
+msgid "**webmaroon** = **Color( 0.5, 0, 0, 1 )** --- 网络栗。"
+msgstr ""
+
+#: ../classes/class_color.rst:685
+msgid "**webpurple** = **Color( 0.5, 0, 0.5, 1 )** --- 网络紫。"
+msgstr ""
+
+#: ../classes/class_color.rst:687
+msgid "**wheat** = **Color( 0.96, 0.87, 0.7, 1 )** --- 小麦色。"
+msgstr ""
+
+#: ../classes/class_color.rst:689
+msgid "**white** = **Color( 1, 1, 1, 1 )** --- 白色。"
+msgstr ""
+
+#: ../classes/class_color.rst:691
+msgid "**whitesmoke** = **Color( 0.96, 0.96, 0.96, 1 )** --- 白烟色。"
+msgstr ""
+
+#: ../classes/class_color.rst:693
+msgid "**yellow** = **Color( 1, 1, 0, 1 )** --- 黄色。"
+msgstr ""
+
+#: ../classes/class_color.rst:695
+msgid "**yellowgreen** = **Color( 0.6, 0.8, 0.2, 1 )** --- 黄绿色。"
+msgstr ""
+
+#: ../classes/class_color.rst:698
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_color.rst:702
+msgid ":ref:`float<class_float>` **a**"
+msgstr ""
+
+#: ../classes/class_color.rst:705
+#: ../classes/class_color.rst:717
+#: ../classes/class_color.rst:729
+#: ../classes/class_color.rst:741
+#: ../classes/class_color.rst:753
+#: ../classes/class_color.rst:765
+#: ../classes/class_color.rst:777
+#: ../classes/class_color.rst:789
+#: ../classes/class_color.rst:801
+#: ../classes/class_color.rst:813
+#: ../classes/class_color.rst:825
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_color.rst:708
+msgid "颜色的alpha（透明度）分量，通常在0到1的范围内。"
+msgstr ""
+
+#: ../classes/class_color.rst:714
+msgid ":ref:`int<class_int>` **a8**"
+msgstr ""
+
+#: ../classes/class_color.rst:720
+msgid ":ref:`a<class_Color_property_a>`\\ 的包装程序，使用的范围是0到255，而不是0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:726
+msgid ":ref:`float<class_float>` **b**"
+msgstr ""
+
+#: ../classes/class_color.rst:732
+msgid "颜色的蓝色分量，一般在0到1的范围内。"
+msgstr ""
+
+#: ../classes/class_color.rst:738
+msgid ":ref:`int<class_int>` **b8**"
+msgstr ""
+
+#: ../classes/class_color.rst:744
+msgid ":ref:`b<class_Color_property_b>`\\ 的封装器，使用0到255的范围，而不是0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:750
+msgid ":ref:`float<class_float>` **g**"
+msgstr ""
+
+#: ../classes/class_color.rst:756
+msgid "颜色的绿色分量，一般在0到1的范围内。"
+msgstr ""
+
+#: ../classes/class_color.rst:762
+msgid ":ref:`int<class_int>` **g8**"
+msgstr ""
+
+#: ../classes/class_color.rst:768
+msgid ":ref:`g<class_Color_property_g>`\\ 的封装器，使用范围0到255而不是0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:774
+msgid ":ref:`float<class_float>` **h**"
+msgstr ""
+
+#: ../classes/class_color.rst:780
+msgid "这个颜色的HSV色相，范围是0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:786
+msgid ":ref:`float<class_float>` **r**"
+msgstr ""
+
+#: ../classes/class_color.rst:792
+msgid "颜色的红色分量，通常在0到1的范围内。"
+msgstr ""
+
+#: ../classes/class_color.rst:798
+msgid ":ref:`int<class_int>` **r8**"
+msgstr ""
+
+#: ../classes/class_color.rst:804
+msgid ":ref:`r<class_Color_property_r>`\\ 的封装器，使用0到255的范围而不是0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:810
+msgid ":ref:`float<class_float>` **s**"
+msgstr ""
+
+#: ../classes/class_color.rst:816
+msgid "该颜色的HSV饱和度，范围为0到1。"
+msgstr ""
+
+#: ../classes/class_color.rst:822
+msgid ":ref:`float<class_float>` **v**"
+msgstr ""
+
+#: ../classes/class_color.rst:828
+msgid "该颜色的HSV值（亮度），范围为0至1。"
+msgstr ""
+
+#: ../classes/class_color.rst:831
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_color.rst:835
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:837
+msgid "从 HTML 十六进制颜色字符串构造 ARGB 或 RGB 格式的颜色。另请参阅 :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>`\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:849
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:851
+msgid "从 RGBA 格式的 32 位整数构造颜色，每个字节代表一个颜色通道。"
+msgstr ""
+
+#: ../classes/class_color.rst:859
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:861
+msgid "根据 RGB 值构造颜色，通常介于 0 和 1 之间。Alpha 将为 1。"
+msgstr ""
+
+#: ../classes/class_color.rst:869
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:871
+msgid "根据 RGBA 值构造颜色，通常介于 0 和 1 之间。"
+msgstr ""
+
+#: ../classes/class_color.rst:881
+msgid ":ref:`Color<class_Color>` **blend** **(** :ref:`Color<class_Color>` over **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:883
+msgid "返回将此颜色混合到另一个颜色上的新颜色。如果颜色是不透明的，结果也是不透明的。第二种颜色可以有一定范围的alpha值。"
+msgstr ""
+
+#: ../classes/class_color.rst:895
+msgid ":ref:`Color<class_Color>` **contrasted** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:897
+msgid "返回对比度最高的颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:908
+msgid ":ref:`Color<class_Color>` **darkened** **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:910
+msgid "返回一个新的颜色，这个颜色按指定的百分比（比例从0到1）变暗。"
+msgstr ""
+
+#: ../classes/class_color.rst:921
+msgid ":ref:`Color<class_Color>` **from_hsv** **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:923
+msgid "从 HSV 配置文件中构建一个颜色。\\ ``h``\\ 、\\ ``s``\\ 和\\ ``v``\\ 是0和1之间的值。"
+msgstr ""
+
+#: ../classes/class_color.rst:933
+msgid ":ref:`float<class_float>` **get_luminance** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:935
+msgid "Returns the luminance of the color in the ``[0.0, 1.0]`` range."
+msgstr ""
+
+#: ../classes/class_color.rst:937
+msgid "This is useful when determining light or dark color. Colors with a luminance smaller than 0.5 can be generally considered dark."
+msgstr ""
+
+#: ../classes/class_color.rst:943
+msgid ":ref:`float<class_float>` **gray** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:945
+msgid "返回颜色的灰度表示。"
+msgstr ""
+
+#: ../classes/class_color.rst:947
+msgid "灰度值计算为 ``(r + g + b) / 3``\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:958
+msgid ":ref:`Color<class_Color>` **inverted** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:960
+msgid "返回反色\\ ``(1-r，1-g，1-b，a)``\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:971
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:973
+msgid "通过在每个组件上运行\\ :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>`\\ ，如果这个颜色和\\ ``color``\\ 近似相等，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_color.rst:979
+msgid ":ref:`Color<class_Color>` **lightened** **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:981
+msgid "返回将此颜色按指定百分比（比例从0到1）变浅后产生的新颜色。"
+msgstr ""
+
+#: ../classes/class_color.rst:992
+msgid ":ref:`Color<class_Color>` **linear_interpolate** **(** :ref:`Color<class_Color>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:994
+msgid "返回另一种颜色的线性插值。插值系数 ``weight`` 介于 0 和 1 之间。"
+msgstr ""
+
+#: ../classes/class_color.rst:1006
+msgid ":ref:`int<class_int>` **to_abgr32** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1008
+msgid "返回转换为 ABGR 格式的 32 位整数的颜色，每个字节代表一个颜色通道。 ABGR 是默认格式的转置版本。"
+msgstr ""
+
+#: ../classes/class_color.rst:1019
+msgid ":ref:`int<class_int>` **to_abgr64** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1021
+msgid "返回转换为 ABGR 格式的 64 位整数的颜色，每个字代表一个颜色通道。 ABGR 是默认格式的转置版本。"
+msgstr ""
+
+#: ../classes/class_color.rst:1032
+msgid ":ref:`int<class_int>` **to_argb32** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1034
+msgid "返回转换为 ARGB 格式的 32 位整数的颜色，每个字节代表一个颜色通道。 ARGB 与 DirectX 更加兼容。"
+msgstr ""
+
+#: ../classes/class_color.rst:1045
+msgid ":ref:`int<class_int>` **to_argb64** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1047
+msgid "返回转换为 ARGB 格式的 64 位整数的颜色，每个字代表一个颜色通道。 ARGB 与 DirectX 更加兼容。"
+msgstr ""
+
+#: ../classes/class_color.rst:1058
+msgid ":ref:`String<class_String>` **to_html** **(** :ref:`bool<class_bool>` with_alpha=true **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1060
+msgid "返回 ARGB 格式的 HTML 十六进制颜色字符串（例如：\\ ``ff34f822``\\ ）。"
+msgstr ""
+
+#: ../classes/class_color.rst:1062
+msgid "将 ``with_alpha`` 设置为 ``false`` 将十六进制字符串中的 alpha 排除在外。"
+msgstr ""
+
+#: ../classes/class_color.rst:1074
+msgid ":ref:`int<class_int>` **to_rgba32** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1076
+msgid "返回转换为 RGBA 格式的 32 位整数的颜色，每个字节代表一个颜色通道。 RGBA 是 GaaeExplorer 的默认格式。"
+msgstr ""
+
+#: ../classes/class_color.rst:1087
+msgid ":ref:`int<class_int>` **to_rgba64** **(** **)**"
+msgstr ""
+
+#: ../classes/class_color.rst:1089
+msgid "返回转换为 RGBA 格式的 64 位整数的颜色，每个字代表一个颜色通道。 RGBA 是 GaaeExplorer 的默认格式。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

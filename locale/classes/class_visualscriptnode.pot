@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptnode.rst:10
+msgid "VisualScriptNode"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:14
+msgid "**Inherited By:** :ref:`VisualScriptBasicTypeConstant<class_VisualScriptBasicTypeConstant>`, :ref:`VisualScriptBuiltinFunc<class_VisualScriptBuiltinFunc>`, :ref:`VisualScriptClassConstant<class_VisualScriptClassConstant>`, :ref:`VisualScriptComment<class_VisualScriptComment>`, :ref:`VisualScriptCondition<class_VisualScriptCondition>`, :ref:`VisualScriptConstant<class_VisualScriptConstant>`, :ref:`VisualScriptConstructor<class_VisualScriptConstructor>`, :ref:`VisualScriptCustomNode<class_VisualScriptCustomNode>`, :ref:`VisualScriptDeconstruct<class_VisualScriptDeconstruct>`, :ref:`VisualScriptEmitSignal<class_VisualScriptEmitSignal>`, :ref:`VisualScriptEngineSingleton<class_VisualScriptEngineSingleton>`, :ref:`VisualScriptExpression<class_VisualScriptExpression>`, :ref:`VisualScriptFunction<class_VisualScriptFunction>`, :ref:`VisualScriptFunctionCall<class_VisualScriptFunctionCall>`, :ref:`VisualScriptGlobalConstant<class_VisualScriptGlobalConstant>`, :ref:`VisualScriptIndexGet<class_VisualScriptIndexGet>`, :ref:`VisualScriptIndexSet<class_VisualScriptIndexSet>`, :ref:`VisualScriptInputAction<class_VisualScriptInputAction>`, :ref:`VisualScriptIterator<class_VisualScriptIterator>`, :ref:`VisualScriptLists<class_VisualScriptLists>`, :ref:`VisualScriptLocalVar<class_VisualScriptLocalVar>`, :ref:`VisualScriptLocalVarSet<class_VisualScriptLocalVarSet>`, :ref:`VisualScriptMathConstant<class_VisualScriptMathConstant>`, :ref:`VisualScriptOperator<class_VisualScriptOperator>`, :ref:`VisualScriptPreload<class_VisualScriptPreload>`, :ref:`VisualScriptPropertyGet<class_VisualScriptPropertyGet>`, :ref:`VisualScriptPropertySet<class_VisualScriptPropertySet>`, :ref:`VisualScriptResourcePath<class_VisualScriptResourcePath>`, :ref:`VisualScriptReturn<class_VisualScriptReturn>`, :ref:`VisualScriptSceneNode<class_VisualScriptSceneNode>`, :ref:`VisualScriptSceneTree<class_VisualScriptSceneTree>`, :ref:`VisualScriptSelect<class_VisualScriptSelect>`, :ref:`VisualScriptSelf<class_VisualScriptSelf>`, :ref:`VisualScriptSequence<class_VisualScriptSequence>`, :ref:`VisualScriptSubCall<class_VisualScriptSubCall>`, :ref:`VisualScriptSwitch<class_VisualScriptSwitch>`, :ref:`VisualScriptTypeCast<class_VisualScriptTypeCast>`, :ref:`VisualScriptVariableGet<class_VisualScriptVariableGet>`, :ref:`VisualScriptVariableSet<class_VisualScriptVariableSet>`, :ref:`VisualScriptWhile<class_VisualScriptWhile>`, :ref:`VisualScriptYield<class_VisualScriptYield>`, :ref:`VisualScriptYieldSignal<class_VisualScriptYieldSignal>`"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:16
+msgid "属于 :ref:`VisualScript<class_VisualScript>` 的一个节点。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:21
+msgid "属于 :ref:`VisualScript<class_VisualScript>` 的一个节点。不要与 :ref:`Node<class_Node>` 混淆，后者是 :ref:`SceneTree<class_SceneTree>` 的一部分。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:27
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:27
+msgid ":ref:`get_default_input_value<class_VisualScriptNode_method_get_default_input_value>` **(** :ref:`int<class_int>` port_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:29
+msgid ":ref:`VisualScript<class_VisualScript>`"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:29
+msgid ":ref:`get_visual_script<class_VisualScriptNode_method_get_visual_script>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:31
+#: ../classes/class_visualscriptnode.rst:33
+msgid "void"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:31
+msgid ":ref:`ports_changed_notify<class_VisualScriptNode_method_ports_changed_notify>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:33
+msgid ":ref:`set_default_input_value<class_VisualScriptNode_method_set_default_input_value>` **(** :ref:`int<class_int>` port_idx, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:37
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:41
+msgid "**ports_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:43
+msgid "当可用的输入/输出端口更改时触发。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:46
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:50
+msgid ":ref:`Variant<class_Variant>` **get_default_input_value** **(** :ref:`int<class_int>` port_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:52
+msgid "返回给定端口的默认值。当没有任何东西连接到该端口时，就使用默认值。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:58
+msgid ":ref:`VisualScript<class_VisualScript>` **get_visual_script** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:60
+msgid "返回该节点所绑定的\\ :ref:`VisualScript<class_VisualScript>`\\ 实例。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:66
+msgid "void **ports_changed_notify** **(** **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:68
+msgid "通知节点的端口已经更改。通常与 :ref:`VisualScriptCustomNode<class_VisualScriptCustomNode>` 结合使用。"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:74
+msgid "void **set_default_input_value** **(** :ref:`int<class_int>` port_idx, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_visualscriptnode.rst:76
+msgid "更改给定端口的默认值。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

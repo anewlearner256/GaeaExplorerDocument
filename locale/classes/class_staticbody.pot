@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_staticbody.rst:10
+msgid "StaticBody"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:12
+msgid "**Inherits:** :ref:`PhysicsBody<class_PhysicsBody>` **<** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:14
+msgid "用于 3D 物理的静态物体。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:19
+msgid "用于 3D 物理的静态物体。静态物体是不应移动的简单物体。与 :ref:`RigidBody<class_RigidBody>` 相比，它们只要不动就不会消耗任何 CPU 资源。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:21
+msgid "此外，可以为静态物体设置恒定的线速度或角速度，因此即使它不移动，也会像移动一样影响其他物体（这对于模拟传送带或传送轮很有用）。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:26
+msgid "`3D Physics Tests Demo <https://godotengine.org/asset-library/asset/675>`__"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:28
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:30
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:36
+#: ../classes/class_staticbody.rst:42
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:36
+msgid ":ref:`bounce<class_StaticBody_property_bounce>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:38
+#: ../classes/class_staticbody.rst:40
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:38
+msgid ":ref:`constant_angular_velocity<class_StaticBody_property_constant_angular_velocity>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:38
+#: ../classes/class_staticbody.rst:40
+#: ../classes/class_staticbody.rst:71
+#: ../classes/class_staticbody.rst:87
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:40
+msgid ":ref:`constant_linear_velocity<class_StaticBody_property_constant_linear_velocity>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:42
+msgid ":ref:`friction<class_StaticBody_property_friction>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:44
+msgid ":ref:`PhysicsMaterial<class_PhysicsMaterial>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:44
+msgid ":ref:`physics_material_override<class_StaticBody_property_physics_material_override>`"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:48
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:52
+msgid ":ref:`float<class_float>` **bounce**"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:55
+#: ../classes/class_staticbody.rst:73
+#: ../classes/class_staticbody.rst:89
+#: ../classes/class_staticbody.rst:103
+#: ../classes/class_staticbody.rst:119
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:55
+msgid "set_bounce(value)"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:57
+#: ../classes/class_staticbody.rst:75
+#: ../classes/class_staticbody.rst:91
+#: ../classes/class_staticbody.rst:105
+#: ../classes/class_staticbody.rst:121
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:57
+msgid "get_bounce()"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:60
+msgid "实体的弹性。值范围从\\ ``0``\\ （无弹跳）到\\ ``1``\\ （完全弹跳）。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:62
+msgid "已被废弃，请通过\\ :ref:`physics_material_override<class_StaticBody_property_physics_material_override>`\\ 使用\\ :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>`\\ 代替。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:68
+msgid ":ref:`Vector3<class_Vector3>` **constant_angular_velocity**"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:71
+#: ../classes/class_staticbody.rst:87
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:73
+msgid "set_constant_angular_velocity(value)"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:75
+msgid "get_constant_angular_velocity()"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:78
+msgid "物体的恒定角速度。这不会旋转物体，但会影响其他接触它的物体，就好像它处于旋转状态一样。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:84
+msgid ":ref:`Vector3<class_Vector3>` **constant_linear_velocity**"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:89
+msgid "set_constant_linear_velocity(value)"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:91
+msgid "get_constant_linear_velocity()"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:94
+msgid "物体的恒定线速度。这不会移动物体，但会影响接触它的其他物体，就好像它处于运动状态一样。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:100
+msgid ":ref:`float<class_float>` **friction**"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:103
+msgid "set_friction(value)"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:105
+msgid "get_friction()"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:108
+msgid "物体的摩擦，从 0（无摩擦）到 1（最大摩擦）。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:110
+msgid "已废弃，请通过 :ref:`physics_material_override<class_StaticBody_property_physics_material_override>` 使用 :ref:`PhysicsMaterial.friction<class_PhysicsMaterial_property_friction>`\\ 。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:116
+msgid ":ref:`PhysicsMaterial<class_PhysicsMaterial>` **physics_material_override**"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:119
+msgid "set_physics_material_override(value)"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:121
+msgid "get_physics_material_override()"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:124
+msgid "物体的物理材质。"
+msgstr ""
+
+#: ../classes/class_staticbody.rst:126
+msgid "如果为该属性指定了一种材质，则将使用该材质代替任何其他物理材质，例如继承的材质。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

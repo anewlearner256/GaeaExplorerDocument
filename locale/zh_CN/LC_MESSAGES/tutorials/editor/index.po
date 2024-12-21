@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the GaaeExplorer community (CC-BY 3.0)
+# This file is distributed under the same license as the GaaeExplorer Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaaeExplorer Engine 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 14:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Editor manual"
+msgstr "编辑器手册"
+
+msgid ""
+"In this section, we cover the GaaeExplorer editor in general, from its interface to "
+"using it with the command line. We cover some specific editors' interface in "
+"other sections where appropriate. For example, the :ref:`animation editor "
+"<doc_introduction_animation>`."
+msgstr ""
+"在这一部分中，我们将介绍 GaaeExplorer 编辑器的大体情况，从界面到如何在命令行中使用。"
+"我们也会在合适的时候在其他章节中介绍特定的编辑器界面。例如\\ :ref:`动画编辑"
+"器 <doc_introduction_animation>`\\ 。"
+
+msgid "Translation status"
+msgstr "翻译状态"

@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:2
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:29
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:31
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:33
+msgid "Geometry"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:7
+msgid "几何类"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:16
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:20
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:22
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:16
+msgid "ID"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:18
+msgid "Envelope"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:18
+msgid "Extent"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:20
+msgid "PointCount"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:22
+msgid "PartCount"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:29
+msgid "Create(GeometryType geoType,List`1 datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:31
+msgid "Create(GeometryType geoType,Vector3[] datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:33
+msgid "Add(Geometry geo,List`1 datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:35
+msgid "PolygonGeometry[]"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:35
+msgid "Cut(List`1 line,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:37
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:51
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:57
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:59
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:61
+msgid "List`1"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:37
+msgid "Clip(Vector3 line,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:39
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:55
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:39
+msgid "HitTest(Vector3 ray,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:41
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:43
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:53
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:41
+msgid "Contains(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:43
+msgid "Crosses(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:45
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:47
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:49
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:45
+msgid "DistanceTo(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:47
+msgid "Area()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:49
+msgid "Length()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:51
+msgid "Scale(Geometry geo,Double ScaleValue,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:53
+msgid "IsClockwise()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:55
+msgid "QueryPoint(Double DistanceAlongCurve,Boolean asRatio,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:57
+msgid "GetOriginData()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:59
+msgid "GetLocalData(Transform trans,Single heightOffset,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:61
+msgid "GetGlobeData()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:65
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:67
+msgid "Int32 ID"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:70
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:81
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:102
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:74
+msgid "几何形状的ID"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:78
+msgid "Envelope Extent"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:85
+msgid "几何的外包络线"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:89
+msgid "Int32 PointCount"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:92
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:95
+msgid "单个几何的点数"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:99
+msgid "Int32 PartCount"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:112
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:114
+msgid "Geometry Create(GeometryType geoType,List`1 datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:120
+msgid "Geometry Create(GeometryType geoType,Vector3[] datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:126
+msgid "Geometry Add(Geometry geo,List`1 datas,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:132
+msgid "PolygonGeometry[] Cut(List`1 line,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:138
+msgid "List`1 Clip(Vector3 line,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:144
+msgid "Vector3 HitTest(Vector3 ray,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:150
+msgid "Boolean Contains(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:156
+msgid "Boolean Crosses(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:162
+msgid "Double DistanceTo(Geometry geo,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:168
+msgid "Double Area()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:174
+msgid "Double Length()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:180
+msgid "List`1 Scale(Geometry geo,Double ScaleValue,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:186
+msgid "Boolean IsClockwise()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:192
+msgid "Vector3 QueryPoint(Double DistanceAlongCurve,Boolean asRatio,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:198
+msgid "List`1 GetOriginData()"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:204
+msgid "List`1 GetLocalData(Transform trans,Single heightOffset,Int32 level,)"
+msgstr ""
+
+#: ../classAPI/Gaea.Geometry/class_Geometry.rst:210
+msgid "List`1 GetGlobeData()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

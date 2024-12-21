@@ -1,0 +1,2617 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_@globalscope.rst:10
+msgid "@GlobalScope"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:12
+msgid "全局范围常量和变量。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:17
+msgid "全局作用域的常量和变量。这些会都驻留在全局，如错误码、键盘扫描码、属性提示等常量。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:19
+msgid "单例也被记录在这里，因为可以从任何地方访问它们。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:25
+msgid ":ref:`ARVRServer<class_ARVRServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:25
+msgid ":ref:`ARVRServer<class_@GlobalScope_property_ARVRServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:27
+msgid ":ref:`AudioServer<class_AudioServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:27
+msgid ":ref:`AudioServer<class_@GlobalScope_property_AudioServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:29
+msgid ":ref:`CameraServer<class_CameraServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:29
+msgid ":ref:`CameraServer<class_@GlobalScope_property_CameraServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:31
+msgid ":ref:`ClassDB<class_ClassDB>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:31
+msgid ":ref:`ClassDB<class_@GlobalScope_property_ClassDB>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:33
+msgid ":ref:`Engine<class_Engine>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:33
+msgid ":ref:`Engine<class_@GlobalScope_property_Engine>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:35
+msgid ":ref:`Geometry<class_Geometry>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:35
+msgid ":ref:`Geometry<class_@GlobalScope_property_Geometry>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:37
+msgid ":ref:`IP<class_IP>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:37
+msgid ":ref:`IP<class_@GlobalScope_property_IP>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:39
+msgid ":ref:`Input<class_Input>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:39
+msgid ":ref:`Input<class_@GlobalScope_property_Input>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:41
+msgid ":ref:`InputMap<class_InputMap>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:41
+msgid ":ref:`InputMap<class_@GlobalScope_property_InputMap>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:43
+msgid ":ref:`JSON<class_JSON>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:43
+msgid ":ref:`JSON<class_@GlobalScope_property_JSON>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:45
+msgid ":ref:`JavaClassWrapper<class_JavaClassWrapper>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:45
+msgid ":ref:`JavaClassWrapper<class_@GlobalScope_property_JavaClassWrapper>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:47
+msgid ":ref:`JavaScript<class_JavaScript>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:47
+msgid ":ref:`JavaScript<class_@GlobalScope_property_JavaScript>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:49
+msgid ":ref:`Marshalls<class_Marshalls>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:49
+msgid ":ref:`Marshalls<class_@GlobalScope_property_Marshalls>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:51
+msgid ":ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:51
+msgid ":ref:`NavigationMeshGenerator<class_@GlobalScope_property_NavigationMeshGenerator>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:53
+msgid ":ref:`OS<class_OS>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:53
+msgid ":ref:`OS<class_@GlobalScope_property_OS>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:55
+msgid ":ref:`Performance<class_Performance>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:55
+msgid ":ref:`Performance<class_@GlobalScope_property_Performance>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:57
+msgid ":ref:`Physics2DServer<class_Physics2DServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:57
+msgid ":ref:`Physics2DServer<class_@GlobalScope_property_Physics2DServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:59
+msgid ":ref:`PhysicsServer<class_PhysicsServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:59
+msgid ":ref:`PhysicsServer<class_@GlobalScope_property_PhysicsServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:61
+msgid ":ref:`ProjectSettings<class_ProjectSettings>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:61
+msgid ":ref:`ProjectSettings<class_@GlobalScope_property_ProjectSettings>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:63
+msgid ":ref:`ResourceLoader<class_ResourceLoader>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:63
+msgid ":ref:`ResourceLoader<class_@GlobalScope_property_ResourceLoader>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:65
+msgid ":ref:`ResourceSaver<class_ResourceSaver>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:65
+msgid ":ref:`ResourceSaver<class_@GlobalScope_property_ResourceSaver>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:67
+msgid ":ref:`Time<class_Time>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:67
+msgid ":ref:`Time<class_@GlobalScope_property_Time>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:69
+msgid ":ref:`TranslationServer<class_TranslationServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:69
+msgid ":ref:`TranslationServer<class_@GlobalScope_property_TranslationServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:71
+msgid ":ref:`VisualScriptEditor<class_VisualScriptEditor>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:71
+msgid ":ref:`VisualScriptEditor<class_@GlobalScope_property_VisualScriptEditor>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:73
+msgid ":ref:`VisualServer<class_VisualServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:73
+msgid ":ref:`VisualServer<class_@GlobalScope_property_VisualServer>`"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:77
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:89
+msgid "enum **Margin**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:91
+msgid "**MARGIN_LEFT** = **0** --- 左边距，常用于 :ref:`Control<class_Control>` 或 :ref:`StyleBox<class_StyleBox>` 的派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:93
+msgid "**MARGIN_TOP** = **1** --- 上边距，常用于 :ref:`Control<class_Control>` 或 :ref:`StyleBox<class_StyleBox>` 的派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:95
+msgid "**MARGIN_RIGHT** = **2** --- 右边距，常用于 :ref:`Control<class_Control>` 或 :ref:`StyleBox<class_StyleBox>` 的派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:97
+msgid "**MARGIN_BOTTOM** = **3** --- 下边距，常用于 :ref:`Control<class_Control>` 或 :ref:`StyleBox<class_StyleBox>` 的派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:111
+msgid "enum **Corner**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:113
+msgid "**CORNER_TOP_LEFT** = **0** --- 左上角。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:115
+msgid "**CORNER_TOP_RIGHT** = **1** --- 右上角。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:117
+msgid "**CORNER_BOTTOM_RIGHT** = **2** --- 右下角。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:119
+msgid "**CORNER_BOTTOM_LEFT** = **3** --- 左下角。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:129
+msgid "enum **Orientation**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:131
+msgid "**VERTICAL** = **1** --- 通用垂直对齐，常用于 :ref:`Separator<class_Separator>`\\ 、\\ :ref:`ScrollBar<class_ScrollBar>`\\ 、\\ :ref:`Slider<class_Slider>` 等。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:133
+msgid "**HORIZONTAL** = **0** --- 通用水平对齐，常用于 :ref:`Separator<class_Separator>`\\ 、\\ :ref:`ScrollBar<class_ScrollBar>`\\ 、\\ :ref:`Slider<class_Slider>` 等。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:145
+msgid "enum **HAlign**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:147
+msgid "**HALIGN_LEFT** = **0** --- 水平左对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:149
+msgid "**HALIGN_CENTER** = **1** --- 水平居中对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:151
+msgid "**HALIGN_RIGHT** = **2** --- 水平右对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:163
+msgid "enum **VAlign**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:165
+msgid "**VALIGN_TOP** = **0** --- 垂直上对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:167
+msgid "**VALIGN_CENTER** = **1** --- 垂直居中对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:169
+msgid "**VALIGN_BOTTOM** = **2** --- 垂直下对齐，常用于文本派生类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:659
+msgid "enum **KeyList**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:661
+msgid "**KEY_ESCAPE** = **16777217** --- ESC 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:663
+msgid "**KEY_TAB** = **16777218** --- Tab 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:665
+msgid "**KEY_BACKTAB** = **16777219** --- Shift + Tab 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:667
+msgid "**KEY_BACKSPACE** = **16777220** --- 退格键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:669
+msgid "**KEY_ENTER** = **16777221** --- 回车键（位于主键盘）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:671
+msgid "**KEY_KP_ENTER** = **16777222** --- 小键盘区的回车键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:673
+msgid "**KEY_INSERT** = **16777223** --- Insert 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:675
+msgid "**KEY_DELETE** = **16777224** --- Delete 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:677
+msgid "**KEY_PAUSE** = **16777225** --- Pause 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:679
+msgid "**KEY_PRINT** = **16777226** --- Print Screen 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:681
+msgid "**KEY_SYSREQ** = **16777227** --- System Request 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:683
+msgid "**KEY_CLEAR** = **16777228** --- Clear 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:685
+msgid "**KEY_HOME** = **16777229** --- Home 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:687
+msgid "**KEY_END** = **16777230** --- End 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:689
+msgid "**KEY_LEFT** = **16777231** --- 左方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:691
+msgid "**KEY_UP** = **16777232** --- 上方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:693
+msgid "**KEY_RIGHT** = **16777233** --- 右方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:695
+msgid "**KEY_DOWN** = **16777234** --- 下方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:697
+msgid "**KEY_PAGEUP** = **16777235** --- Page Up 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:699
+msgid "**KEY_PAGEDOWN** = **16777236** --- Page Down 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:701
+msgid "**KEY_SHIFT** = **16777237** --- Shift 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:703
+msgid "**KEY_CONTROL** = **16777238** --- Control 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:705
+msgid "**KEY_META** = **16777239** --- Meta 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:707
+msgid "**KEY_ALT** = **16777240** --- Alt 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:709
+msgid "**KEY_CAPSLOCK** = **16777241** --- Caps Lock 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:711
+msgid "**KEY_NUMLOCK** = **16777242** --- Num Lock 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:713
+msgid "**KEY_SCROLLLOCK** = **16777243** --- Scroll Lock 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:715
+msgid "**KEY_F1** = **16777244** --- F1 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:717
+msgid "**KEY_F2** = **16777245** --- F2 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:719
+msgid "**KEY_F3** = **16777246** --- F3 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:721
+msgid "**KEY_F4** = **16777247** --- F4 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:723
+msgid "**KEY_F5** = **16777248** --- F5 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:725
+msgid "**KEY_F6** = **16777249** --- F6 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:727
+msgid "**KEY_F7** = **16777250** --- F7 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:729
+msgid "**KEY_F8** = **16777251** --- F8 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:731
+msgid "**KEY_F9** = **16777252** --- F9 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:733
+msgid "**KEY_F10** = **16777253** --- F10 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:735
+msgid "**KEY_F11** = **16777254** --- F11 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:737
+msgid "**KEY_F12** = **16777255** --- F12 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:739
+msgid "**KEY_F13** = **16777256** --- F13 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:741
+msgid "**KEY_F14** = **16777257** --- F14 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:743
+msgid "**KEY_F15** = **16777258** --- F15 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:745
+msgid "**KEY_F16** = **16777259** --- F16 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:747
+msgid "**KEY_KP_MULTIPLY** = **16777345** --- 小键盘的星键/乘以键（\\*）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:749
+msgid "**KEY_KP_DIVIDE** = **16777346** --- 小键盘的除以键（/）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:751
+msgid "**KEY_KP_SUBTRACT** = **16777347** --- 小键盘的减号键（-）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:753
+msgid "**KEY_KP_PERIOD** = **16777348** --- 小件盘的点键（.）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:755
+msgid "**KEY_KP_ADD** = **16777349** --- 小键盘的加号键（+）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:757
+msgid "**KEY_KP_0** = **16777350** --- 小键盘的数字 0。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:759
+msgid "**KEY_KP_1** = **16777351** --- 小键盘的数字 1。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:761
+msgid "**KEY_KP_2** = **16777352** --- 小键盘的数字 2。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:763
+msgid "**KEY_KP_3** = **16777353** --- 小键盘的数字 3。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:765
+msgid "**KEY_KP_4** = **16777354** --- 小键盘的数字 4。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:767
+msgid "**KEY_KP_5** = **16777355** --- 小键盘的数字 5。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:769
+msgid "**KEY_KP_6** = **16777356** --- 小键盘的数字 6。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:771
+msgid "**KEY_KP_7** = **16777357** --- 小键盘的数字 7。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:773
+msgid "**KEY_KP_8** = **16777358** --- 小键盘的数字 8。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:775
+msgid "**KEY_KP_9** = **16777359** --- 小键盘的数字 9。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:777
+msgid "**KEY_SUPER_L** = **16777260** --- 左 Super 键（ Windows 键 ）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:779
+msgid "**KEY_SUPER_R** = **16777261** --- 右 Super 键（ Windows 键 ）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:781
+msgid "**KEY_MENU** = **16777262** --- 菜单键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:783
+msgid "**KEY_HYPER_L** = **16777263** --- 左 Hyper 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:785
+msgid "**KEY_HYPER_R** = **16777264** --- 右 Hyper 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:787
+msgid "**KEY_HELP** = **16777265** --- Help 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:789
+msgid "**KEY_DIRECTION_L** = **16777266** --- 左方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:791
+msgid "**KEY_DIRECTION_R** = **16777267** --- 右方向键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:793
+msgid "**KEY_BACK** = **16777280** --- 媒体返回键。不要与 Android 设备上的返回键相混淆。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:795
+msgid "**KEY_FORWARD** = **16777281** --- 媒体前进键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:797
+msgid "**KEY_STOP** = **16777282** --- 媒体停止播放键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:799
+msgid "**KEY_REFRESH** = **16777283** --- 媒体刷新键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:801
+msgid "**KEY_VOLUMEDOWN** = **16777284** --- 音量降低键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:803
+msgid "**KEY_VOLUMEMUTE** = **16777285** --- 静音键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:805
+msgid "**KEY_VOLUMEUP** = **16777286** --- 音量升高键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:807
+msgid "**KEY_BASSBOOST** = **16777287** --- Bass Boost 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:809
+msgid "**KEY_BASSUP** = **16777288** --- Bass up 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:811
+msgid "**KEY_BASSDOWN** = **16777289** --- Bass down 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:813
+msgid "**KEY_TREBLEUP** = **16777290** --- Treble up 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:815
+msgid "**KEY_TREBLEDOWN** = **16777291** --- Treble down 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:817
+msgid "**KEY_MEDIAPLAY** = **16777292** --- 媒体播放键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:819
+msgid "**KEY_MEDIASTOP** = **16777293** --- 媒体停止播放键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:821
+msgid "**KEY_MEDIAPREVIOUS** = **16777294** --- 上一首歌键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:823
+msgid "**KEY_MEDIANEXT** = **16777295** --- 下一首歌键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:825
+msgid "**KEY_MEDIARECORD** = **16777296** --- 媒体录制键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:827
+msgid "**KEY_HOMEPAGE** = **16777297** --- 主页键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:829
+msgid "**KEY_FAVORITES** = **16777298** --- 收藏键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:831
+msgid "**KEY_SEARCH** = **16777299** --- 搜索键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:833
+msgid "**KEY_STANDBY** = **16777300** --- Standby 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:835
+msgid "**KEY_OPENURL** = **16777301** --- 打开 URL / 启动浏览器键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:837
+msgid "**KEY_LAUNCHMAIL** = **16777302** --- 启动邮箱键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:839
+msgid "**KEY_LAUNCHMEDIA** = **16777303** --- 启动多媒体键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:841
+msgid "**KEY_LAUNCH0** = **16777304** --- 快捷启动键0。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:843
+msgid "**KEY_LAUNCH1** = **16777305** --- 快捷启动键1。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:845
+msgid "**KEY_LAUNCH2** = **16777306** --- 快捷启动键2。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:847
+msgid "**KEY_LAUNCH3** = **16777307** --- 快捷启动键3。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:849
+msgid "**KEY_LAUNCH4** = **16777308** --- 快捷启动键4。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:851
+msgid "**KEY_LAUNCH5** = **16777309** --- 快捷启动键5。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:853
+msgid "**KEY_LAUNCH6** = **16777310** --- 快捷启动键6。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:855
+msgid "**KEY_LAUNCH7** = **16777311** --- 快捷启动键 7。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:857
+msgid "**KEY_LAUNCH8** = **16777312** --- 快捷启动键 8。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:859
+msgid "**KEY_LAUNCH9** = **16777313** --- 快捷启动键9。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:861
+msgid "**KEY_LAUNCHA** = **16777314** --- 快捷启动键 A 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:863
+msgid "**KEY_LAUNCHB** = **16777315** --- 快捷启动键 B 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:865
+msgid "**KEY_LAUNCHC** = **16777316** --- 快捷启动键 C 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:867
+msgid "**KEY_LAUNCHD** = **16777317** --- 快捷启动键 D 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:869
+msgid "**KEY_LAUNCHE** = **16777318** --- 快捷启动键 E 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:871
+msgid "**KEY_LAUNCHF** = **16777319** --- 快捷启动键 F 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:873
+msgid "**KEY_UNKNOWN** = **33554431** --- 未知 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:875
+msgid "**KEY_SPACE** = **32** --- 空格键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:877
+msgid "**KEY_EXCLAM** = **33** --- ! 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:879
+msgid "**KEY_QUOTEDBL** = **34** --- \" 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:881
+msgid "**KEY_NUMBERSIGN** = **35** --- # 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:883
+msgid "**KEY_DOLLAR** = **36** --- $ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:885
+msgid "**KEY_PERCENT** = **37** --- % 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:887
+msgid "**KEY_AMPERSAND** = **38** --- & 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:889
+msgid "**KEY_APOSTROPHE** = **39** --- ' 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:891
+msgid "**KEY_PARENLEFT** = **40** --- ( 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:893
+msgid "**KEY_PARENRIGHT** = **41** --- ) 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:895
+msgid "**KEY_ASTERISK** = **42** --- \\* 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:897
+msgid "**KEY_PLUS** = **43** --- + 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:899
+msgid "**KEY_COMMA** = **44** --- , 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:901
+msgid "**KEY_MINUS** = **45** --- - 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:903
+msgid "**KEY_PERIOD** = **46** --- . 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:905
+msgid "**KEY_SLASH** = **47** --- / 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:907
+msgid "**KEY_0** = **48** --- 数字 0。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:909
+msgid "**KEY_1** = **49** --- 数字 1。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:911
+msgid "**KEY_2** = **50** --- 数字 2。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:913
+msgid "**KEY_3** = **51** --- 数字 3。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:915
+msgid "**KEY_4** = **52** --- 数字 4。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:917
+msgid "**KEY_5** = **53** --- 数字 5。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:919
+msgid "**KEY_6** = **54** --- 数字 6。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:921
+msgid "**KEY_7** = **55** --- 数字 7。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:923
+msgid "**KEY_8** = **56** --- 数字 8。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:925
+msgid "**KEY_9** = **57** --- 数字 9。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:927
+msgid "**KEY_COLON** = **58** --- : 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:929
+msgid "**KEY_SEMICOLON** = **59** --- ; 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:931
+msgid "**KEY_LESS** = **60** --- < 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:933
+msgid "**KEY_EQUAL** = **61** --- = 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:935
+msgid "**KEY_GREATER** = **62** --- > 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:937
+msgid "**KEY_QUESTION** = **63** --- ? 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:939
+msgid "**KEY_AT** = **64** --- @ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:941
+msgid "**KEY_A** = **65** --- A 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:943
+msgid "**KEY_B** = **66** --- B 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:945
+msgid "**KEY_C** = **67** --- C 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:947
+msgid "**KEY_D** = **68** --- D 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:949
+msgid "**KEY_E** = **69** --- E 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:951
+msgid "**KEY_F** = **70** --- F 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:953
+msgid "**KEY_G** = **71** --- G 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:955
+msgid "**KEY_H** = **72** --- H 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:957
+msgid "**KEY_I** = **73** --- I 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:959
+msgid "**KEY_J** = **74** --- J 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:961
+msgid "**KEY_K** = **75** --- K 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:963
+msgid "**KEY_L** = **76** --- L 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:965
+msgid "**KEY_M** = **77** --- M 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:967
+msgid "**KEY_N** = **78** --- N 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:969
+msgid "**KEY_O** = **79** --- O 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:971
+msgid "**KEY_P** = **80** --- P 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:973
+msgid "**KEY_Q** = **81** --- Q 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:975
+msgid "**KEY_R** = **82** --- R 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:977
+msgid "**KEY_S** = **83** --- S 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:979
+msgid "**KEY_T** = **84** --- T 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:981
+msgid "**KEY_U** = **85** --- U 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:983
+msgid "**KEY_V** = **86** --- V 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:985
+msgid "**KEY_W** = **87** --- W 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:987
+msgid "**KEY_X** = **88** --- X 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:989
+msgid "**KEY_Y** = **89** --- Y 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:991
+msgid "**KEY_Z** = **90** --- Z 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:993
+msgid "**KEY_BRACKETLEFT** = **91** --- [ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:995
+msgid "**KEY_BACKSLASH** = **92** --- \\\\ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:997
+msgid "**KEY_BRACKETRIGHT** = **93** --- ] 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:999
+msgid "**KEY_ASCIICIRCUM** = **94** --- ^ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1001
+msgid "**KEY_UNDERSCORE** = **95** --- \\_ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1003
+msgid "**KEY_QUOTELEFT** = **96** --- ` 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1005
+msgid "**KEY_BRACELEFT** = **123** --- { 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1007
+msgid "**KEY_BAR** = **124** --- | 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1009
+msgid "**KEY_BRACERIGHT** = **125** --- } 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1011
+msgid "**KEY_ASCIITILDE** = **126** --- ~ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1013
+msgid "**KEY_NOBREAKSPACE** = **160** --- 不可分离空格键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1015
+msgid "**KEY_EXCLAMDOWN** = **161** --- ¡ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1017
+msgid "**KEY_CENT** = **162** --- ¢ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1019
+msgid "**KEY_STERLING** = **163** --- £ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1021
+msgid "**KEY_CURRENCY** = **164** --- ¤ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1023
+msgid "**KEY_YEN** = **165** --- ¥ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1025
+msgid "**KEY_BROKENBAR** = **166** --- ¦ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1027
+msgid "**KEY_SECTION** = **167** --- § 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1029
+msgid "**KEY_DIAERESIS** = **168** --- ¨ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1031
+msgid "**KEY_COPYRIGHT** = **169** --- © 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1033
+msgid "**KEY_ORDFEMININE** = **170** --- ª 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1035
+msgid "**KEY_GUILLEMOTLEFT** = **171** --- 左书名号键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1037
+msgid "**KEY_NOTSIGN** = **172** --- ¬ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1039
+msgid "**KEY_HYPHEN** = **173** --- 软破折号键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1041
+msgid "**KEY_REGISTERED** = **174** --- ® 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1043
+msgid "**KEY_MACRON** = **175** --- ¯ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1045
+msgid "**KEY_DEGREE** = **176** --- ° 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1047
+msgid "**KEY_PLUSMINUS** = **177** --- ± 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1049
+msgid "**KEY_TWOSUPERIOR** = **178** --- ² 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1051
+msgid "**KEY_THREESUPERIOR** = **179** --- ³ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1053
+msgid "**KEY_ACUTE** = **180** --- ´ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1055
+msgid "**KEY_MU** = **181** --- µ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1057
+msgid "**KEY_PARAGRAPH** = **182** --- ¶ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1059
+msgid "**KEY_PERIODCENTERED** = **183** --- · 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1061
+msgid "**KEY_CEDILLA** = **184** --- ¸ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1063
+msgid "**KEY_ONESUPERIOR** = **185** --- ¹ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1065
+msgid "**KEY_MASCULINE** = **186** --- º 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1067
+msgid "**KEY_GUILLEMOTRIGHT** = **187** --- » 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1069
+msgid "**KEY_ONEQUARTER** = **188** --- ¼ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1071
+msgid "**KEY_ONEHALF** = **189** --- ½ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1073
+msgid "**KEY_THREEQUARTERS** = **190** --- ¾ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1075
+msgid "**KEY_QUESTIONDOWN** = **191** --- ¿ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1077
+msgid "**KEY_AGRAVE** = **192** --- À 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1079
+msgid "**KEY_AACUTE** = **193** --- Á 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1081
+msgid "**KEY_ACIRCUMFLEX** = **194** --- Â 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1083
+msgid "**KEY_ATILDE** = **195** --- Ã 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1085
+msgid "**KEY_ADIAERESIS** = **196** --- Ä 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1087
+msgid "**KEY_ARING** = **197** --- Å 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1089
+msgid "**KEY_AE** = **198** --- Æ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1091
+msgid "**KEY_CCEDILLA** = **199** --- Ç 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1093
+msgid "**KEY_EGRAVE** = **200** --- È 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1095
+msgid "**KEY_EACUTE** = **201** --- É 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1097
+msgid "**KEY_ECIRCUMFLEX** = **202** --- Ê 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1099
+msgid "**KEY_EDIAERESIS** = **203** --- Ë 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1101
+msgid "**KEY_IGRAVE** = **204** --- Ì 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1103
+msgid "**KEY_IACUTE** = **205** --- Í 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1105
+msgid "**KEY_ICIRCUMFLEX** = **206** --- Î 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1107
+msgid "**KEY_IDIAERESIS** = **207** --- Ï 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1109
+msgid "**KEY_ETH** = **208** --- Ð 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1111
+msgid "**KEY_NTILDE** = **209** --- Ñ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1113
+msgid "**KEY_OGRAVE** = **210** --- Ò 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1115
+msgid "**KEY_OACUTE** = **211** --- Ó 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1117
+msgid "**KEY_OCIRCUMFLEX** = **212** --- Ô 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1119
+msgid "**KEY_OTILDE** = **213** --- Õ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1121
+msgid "**KEY_ODIAERESIS** = **214** --- Ö 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1123
+msgid "**KEY_MULTIPLY** = **215** --- × 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1125
+msgid "**KEY_OOBLIQUE** = **216** --- Ø 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1127
+msgid "**KEY_UGRAVE** = **217** --- Ù 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1129
+msgid "**KEY_UACUTE** = **218** --- Ú 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1131
+msgid "**KEY_UCIRCUMFLEX** = **219** --- Û 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1133
+msgid "**KEY_UDIAERESIS** = **220** --- Ü 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1135
+msgid "**KEY_YACUTE** = **221** --- Ý 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1137
+msgid "**KEY_THORN** = **222** --- Þ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1139
+msgid "**KEY_SSHARP** = **223** --- ß 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1141
+msgid "**KEY_DIVISION** = **247** --- ÷ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1143
+msgid "**KEY_YDIAERESIS** = **255** --- ÿ 键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1167
+msgid "enum **KeyModifierMask**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1169
+msgid "**KEY_CODE_MASK** = **33554431** --- 键码掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1171
+msgid "**KEY_MODIFIER_MASK** = **-16777216** --- Modifier 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1173
+msgid "**KEY_MASK_SHIFT** = **33554432** --- Shift 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1175
+msgid "**KEY_MASK_ALT** = **67108864** --- Alt 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1177
+msgid "**KEY_MASK_META** = **134217728** --- Meta 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1179
+msgid "**KEY_MASK_CTRL** = **268435456** --- Ctrl 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1181
+msgid "**KEY_MASK_CMD** = **platform-dependent** --- Command 键掩码。在 macOS，这等同于 :ref:`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>`\\ 。而在其他平台，这等同于 :ref:`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>`\\ 。相对使用 :ref:`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>` 或 :ref:`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>` 来作为系统快捷键，应优先使用此掩码，以便能让所有平台正确处理。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1183
+msgid "**KEY_MASK_KPAD** = **536870912** --- Keypad 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1185
+msgid "**KEY_MASK_GROUP_SWITCH** = **1073741824** --- Group Switch 键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1219
+msgid "enum **ButtonList**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1221
+msgid "**BUTTON_LEFT** = **1** --- 鼠标左键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1223
+msgid "**BUTTON_RIGHT** = **2** --- 鼠标右键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1225
+msgid "**BUTTON_MIDDLE** = **3** --- 鼠标中键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1227
+msgid "**BUTTON_XBUTTON1** = **8** --- 鼠标额外键1（仅在某些鼠标上有实现）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1229
+msgid "**BUTTON_XBUTTON2** = **9** --- 鼠标额外键2（仅在某些鼠标上有实现）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1231
+msgid "**BUTTON_WHEEL_UP** = **4** --- 鼠标滚轮向上。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1233
+msgid "**BUTTON_WHEEL_DOWN** = **5** --- 鼠标滚轮向下。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1235
+msgid "**BUTTON_WHEEL_LEFT** = **6** --- 鼠标滚轮左键（仅在某些鼠标上有实现）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1237
+msgid "**BUTTON_WHEEL_RIGHT** = **7** --- 鼠标滚轮右键（仅在某些鼠标上有实现）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1239
+msgid "**BUTTON_MASK_LEFT** = **1** --- 鼠标左键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1241
+msgid "**BUTTON_MASK_RIGHT** = **2** --- 鼠标右键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1243
+msgid "**BUTTON_MASK_MIDDLE** = **4** --- 鼠标中键掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1245
+msgid "**BUTTON_MASK_XBUTTON1** = **128** --- 鼠标额外键1掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1247
+msgid "**BUTTON_MASK_XBUTTON2** = **256** --- 鼠标额外键2掩码。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1421
+msgid "enum **JoystickList**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1423
+msgid "**JOY_INVALID_OPTION** = **-1** --- 无效按钮或轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1425
+msgid "**JOY_BUTTON_0** = **0** --- 游戏手柄按钮0。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1427
+msgid "**JOY_BUTTON_1** = **1** --- 游戏手柄按钮1。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1429
+msgid "**JOY_BUTTON_2** = **2** --- 游戏手柄按钮2。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1431
+msgid "**JOY_BUTTON_3** = **3** --- 游戏手柄按钮3。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1433
+msgid "**JOY_BUTTON_4** = **4** --- 游戏手柄按钮4。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1435
+msgid "**JOY_BUTTON_5** = **5** --- 游戏手柄按钮5。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1437
+msgid "**JOY_BUTTON_6** = **6** --- 游戏手柄按钮 6。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1439
+msgid "**JOY_BUTTON_7** = **7** --- 游戏手柄按钮 7。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1441
+msgid "**JOY_BUTTON_8** = **8** --- 游戏手柄按钮 8。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1443
+msgid "**JOY_BUTTON_9** = **9** --- 游戏手柄按钮 9。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1445
+msgid "**JOY_BUTTON_10** = **10** --- 游戏手柄按钮10。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1447
+msgid "**JOY_BUTTON_11** = **11** --- 游戏手柄按钮11。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1449
+msgid "**JOY_BUTTON_12** = **12** --- 游戏手柄按钮12。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1451
+msgid "**JOY_BUTTON_13** = **13** --- 游戏手柄按钮13。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1453
+msgid "**JOY_BUTTON_14** = **14** --- 游戏手柄按钮14。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1455
+msgid "**JOY_BUTTON_15** = **15** --- 游戏手柄按钮15。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1457
+msgid "**JOY_BUTTON_16** = **16** --- 游戏手柄按钮16。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1459
+msgid "**JOY_BUTTON_17** = **17** --- 游戏手柄按钮17。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1461
+msgid "**JOY_BUTTON_18** = **18** --- 游戏手柄按钮18。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1463
+msgid "**JOY_BUTTON_19** = **19** --- 游戏手柄按钮19。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1465
+msgid "**JOY_BUTTON_20** = **20** --- 游戏手柄按钮20。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1467
+msgid "**JOY_BUTTON_21** = **21** --- 游戏手柄按钮21。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1469
+msgid "**JOY_BUTTON_22** = **22** --- 游戏手柄按钮22。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1471
+msgid "**JOY_BUTTON_MAX** = **23** --- 代表支持的操纵杆按钮的最大数量。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1473
+msgid "**JOY_SONY_CIRCLE** = **1** --- DualShock 圆形按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1475
+msgid "**JOY_SONY_X** = **0** --- DualShock X按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1477
+msgid "**JOY_SONY_SQUARE** = **2** --- DualShock 方形按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1479
+msgid "**JOY_SONY_TRIANGLE** = **3** --- DualShock 三角形按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1481
+msgid "**JOY_XBOX_B** = **1** --- Xbox控制器B键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1483
+msgid "**JOY_XBOX_A** = **0** --- Xbox控制器的A键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1485
+msgid "**JOY_XBOX_X** = **2** --- Xbox控制器的X键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1487
+msgid "**JOY_XBOX_Y** = **3** --- Xbox控制器的Y键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1489
+msgid "**JOY_DS_A** = **1** --- 任天堂控制器A键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1491
+msgid "**JOY_DS_B** = **0** --- 任天堂控制器B键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1493
+msgid "**JOY_DS_X** = **3** --- 任天堂控制器的X键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1495
+msgid "**JOY_DS_Y** = **2** --- 任天堂控制器Y键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1497
+msgid "**JOY_VR_GRIP** = **2** --- VR控制器上的握把（侧面）按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1499
+msgid "**JOY_VR_PAD** = **14** --- VR控制器上的触摸板/主摇杆的向下键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1501
+msgid "**JOY_VR_TRIGGER** = **15** --- VR控制器上的扳机键。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1503
+msgid "**JOY_OCULUS_AX** = **7** --- 右侧Oculus Touch控制器的A按钮，左控制器的X按钮（需当使用OpenVR时）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1505
+msgid "**JOY_OCULUS_BY** = **1** --- 右侧Oculus Touch控制器的B按钮，左控制器的Y按钮（需当使用OpenVR时）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1507
+msgid "**JOY_OCULUS_MENU** = **3** --- 任意Oculus Touch控制器上的菜单按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1509
+msgid "**JOY_OPENVR_MENU** = **1** --- OpenVR中的菜单按钮（使用 Oculus Touch 控制器时除外）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1511
+msgid "**JOY_SELECT** = **10** --- 游戏手柄按钮选择。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1513
+msgid "**JOY_START** = **11** --- 游戏手柄按钮开始。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1515
+msgid "**JOY_DPAD_UP** = **12** --- 游戏手柄 DPad 向上。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1517
+msgid "**JOY_DPAD_DOWN** = **13** --- 游戏手柄 DPad 向下。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1519
+msgid "**JOY_DPAD_LEFT** = **14** --- 游戏手柄 DPad 左。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1521
+msgid "**JOY_DPAD_RIGHT** = **15** --- 游戏手柄 DPad 右。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1523
+msgid "**JOY_GUIDE** = **16** --- 游戏手柄 SDL 指南按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1525
+msgid "**JOY_MISC1** = **17** --- 游戏手柄 SDL 杂项按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1527
+msgid "**JOY_PADDLE1** = **18** --- 游戏手柄 SDL 拨片1按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1529
+msgid "**JOY_PADDLE2** = **19** --- 游戏手柄 SDL 拨片2按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1531
+msgid "**JOY_PADDLE3** = **20** --- 游戏手柄 SDL 拨片3按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1533
+msgid "**JOY_PADDLE4** = **21** --- 游戏手柄 SDL 拨片4按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1535
+msgid "**JOY_TOUCHPAD** = **22** --- 游戏手柄 SDL 触摸板按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1537
+msgid "**JOY_L** = **4** --- 游戏手柄左肩按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1539
+msgid "**JOY_L2** = **6** --- 游戏手柄的左扳机。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1541
+msgid "**JOY_L3** = **8** --- 游戏手柄左键点击。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1543
+msgid "**JOY_R** = **5** --- 游戏手柄右肩按钮。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1545
+msgid "**JOY_R2** = **7** --- 游戏手柄的右扳机。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1547
+msgid "**JOY_R3** = **9** --- 游戏手柄右键单击。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1549
+msgid "**JOY_AXIS_0** = **0** --- 游戏手柄左摇杆水平轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1551
+msgid "**JOY_AXIS_1** = **1** --- 游戏手柄左摇杆垂直轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1553
+msgid "**JOY_AXIS_2** = **2** --- 游戏手柄右摇杆水平轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1555
+msgid "**JOY_AXIS_3** = **3** --- 游戏手柄右摇杆垂直轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1557
+msgid "**JOY_AXIS_4** = **4** --- 通用的游戏手柄轴4。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1559
+msgid "**JOY_AXIS_5** = **5** --- 通用的游戏手柄轴5。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1561
+msgid "**JOY_AXIS_6** = **6** --- 游戏手柄左触发模拟轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1563
+msgid "**JOY_AXIS_7** = **7** --- 游戏手柄右触发模拟轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1565
+msgid "**JOY_AXIS_8** = **8** --- 通用的游戏手柄轴8。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1567
+msgid "**JOY_AXIS_9** = **9** --- 通用的游戏手柄轴9。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1569
+msgid "**JOY_AXIS_MAX** = **10** --- 代表支持的操纵杆轴的最大数量。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1571
+msgid "**JOY_ANALOG_LX** = **0** --- 游戏手柄左摇杆水平轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1573
+msgid "**JOY_ANALOG_LY** = **1** --- 游戏手柄左摇杆垂直轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1575
+msgid "**JOY_ANALOG_RX** = **2** --- 游戏手柄右摇杆水平轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1577
+msgid "**JOY_ANALOG_RY** = **3** --- 游戏手柄右摇杆垂直轴。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1579
+msgid "**JOY_ANALOG_L2** = **6** --- 游戏手柄的左侧模拟触发器。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1581
+msgid "**JOY_ANALOG_R2** = **7** --- 游戏手柄右侧模拟触发器。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1583
+msgid "**JOY_VR_ANALOG_TRIGGER** = **2** --- VR控制器模拟触发器。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1585
+msgid "**JOY_VR_ANALOG_GRIP** = **4** --- VR控制器的模拟握把（侧面按钮）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1587
+msgid "**JOY_OPENVR_TOUCHPADX** = **0** --- OpenVR触摸板X轴（Oculus Touch和Windows MR控制器的操纵杆轴）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1589
+msgid "**JOY_OPENVR_TOUCHPADY** = **1** --- OpenVR触摸板Y轴（Oculus Touch和Windows MR控制器的操纵杆轴）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1609
+msgid "enum **MidiMessageList**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1611
+msgid "**MIDI_MESSAGE_NOTE_OFF** = **8** --- MIDI 音符关闭信息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1613
+msgid "**MIDI_MESSAGE_NOTE_ON** = **9** --- MIDI 音符开启信息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1615
+msgid "**MIDI_MESSAGE_AFTERTOUCH** = **10** --- MIDI 触摸后信息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1617
+msgid "**MIDI_MESSAGE_CONTROL_CHANGE** = **11** --- MIDI 控制更改信息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1619
+msgid "**MIDI_MESSAGE_PROGRAM_CHANGE** = **12** --- MIDI 程序变更信息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1621
+msgid "**MIDI_MESSAGE_CHANNEL_PRESSURE** = **13** --- MIDI 通道压力消息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1623
+msgid "**MIDI_MESSAGE_PITCH_BEND** = **14** --- MIDI 弯音消息。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1727
+msgid "enum **Error**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1729
+msgid "**OK** = **0** --- 会在发生错误时返回 :ref:`Error<enum_@GlobalScope_Error>` 的函数，会在没有发生错误的时候返回 :ref:`OK<class_@GlobalScope_constant_OK>`\\ 。然而也右很多函数在发生错误时不会返回错误代码而是会输出错误信息到标准输出。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1731
+msgid "因为 :ref:`OK<class_@GlobalScope_constant_OK>` 的值是0，而且其他的错误代码皆为正整数，返回值也能用于布尔检查，例如："
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1742
+msgid "**FAILED** = **1** --- 一般性错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1744
+msgid "**ERR_UNAVAILABLE** = **2** --- 不可用的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1746
+msgid "**ERR_UNCONFIGURED** = **3** --- 未配置的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1748
+msgid "**ERR_UNAUTHORIZED** = **4** --- 未经授权的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1750
+msgid "**ERR_PARAMETER_RANGE_ERROR** = **5** --- 参数范围错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1752
+msgid "**ERR_OUT_OF_MEMORY** = **6** --- 内存不足（OOM）错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1754
+msgid "**ERR_FILE_NOT_FOUND** = **7** --- 文件：未找到错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1756
+msgid "**ERR_FILE_BAD_DRIVE** = **8** --- 文件：坏驱动器错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1758
+msgid "**ERR_FILE_BAD_PATH** = **9** --- 文件：错误的路径错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1760
+msgid "**ERR_FILE_NO_PERMISSION** = **10** --- 文件：无权限错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1762
+msgid "**ERR_FILE_ALREADY_IN_USE** = **11** --- 文件：已在使用错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1764
+msgid "**ERR_FILE_CANT_OPEN** = **12** --- 文件：无法打开错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1766
+msgid "**ERR_FILE_CANT_WRITE** = **13** --- 文件：无法写入错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1768
+msgid "**ERR_FILE_CANT_READ** = **14** --- 文件：无法读取错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1770
+msgid "**ERR_FILE_UNRECOGNIZED** = **15** --- 文件：未识别的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1772
+msgid "**ERR_FILE_CORRUPT** = **16** --- 文件：损坏错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1774
+msgid "**ERR_FILE_MISSING_DEPENDENCIES** = **17** --- 文件：缺少依赖项错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1776
+msgid "**ERR_FILE_EOF** = **18** --- 文件：文件结束（EOF）错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1778
+msgid "**ERR_CANT_OPEN** = **19** --- 无法打开错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1780
+msgid "**ERR_CANT_CREATE** = **20** --- 无法创建错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1782
+msgid "**ERR_QUERY_FAILED** = **21** --- 查询失败错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1784
+msgid "**ERR_ALREADY_IN_USE** = **22** --- 已在使用中错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1786
+msgid "**ERR_LOCKED** = **23** --- 锁定错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1788
+msgid "**ERR_TIMEOUT** = **24** --- 超时错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1790
+msgid "**ERR_CANT_CONNECT** = **25** --- 无法连接错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1792
+msgid "**ERR_CANT_RESOLVE** = **26** --- 无法解决错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1794
+msgid "**ERR_CONNECTION_ERROR** = **27** --- 连接错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1796
+msgid "**ERR_CANT_ACQUIRE_RESOURCE** = **28** --- 无法获取资源错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1798
+msgid "**ERR_CANT_FORK** = **29** --- 无法分叉进程错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1800
+msgid "**ERR_INVALID_DATA** = **30** --- 无效数据错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1802
+msgid "**ERR_INVALID_PARAMETER** = **31** --- 无效参数错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1804
+msgid "**ERR_ALREADY_EXISTS** = **32** --- 已存在的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1806
+msgid "**ERR_DOES_NOT_EXIST** = **33** --- 不存在的错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1808
+msgid "**ERR_DATABASE_CANT_READ** = **34** --- 数据库：读取错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1810
+msgid "**ERR_DATABASE_CANT_WRITE** = **35** --- 数据库：写入错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1812
+msgid "**ERR_COMPILATION_FAILED** = **36** --- 编译失败错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1814
+msgid "**ERR_METHOD_NOT_FOUND** = **37** --- 方法未找到错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1816
+msgid "**ERR_LINK_FAILED** = **38** --- 链接失败错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1818
+msgid "**ERR_SCRIPT_FAILED** = **39** --- 脚本失败错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1820
+msgid "**ERR_CYCLIC_LINK** = **40** --- 循环链接（导入循环）错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1822
+msgid "**ERR_INVALID_DECLARATION** = **41** --- 无效声明错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1824
+msgid "**ERR_DUPLICATE_SYMBOL** = **42** --- 符号重复错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1826
+msgid "**ERR_PARSE_ERROR** = **43** --- 解析错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1828
+msgid "**ERR_BUSY** = **44** --- 忙碌错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1830
+msgid "**ERR_SKIP** = **45** --- 跳过错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1832
+msgid "**ERR_HELP** = **46** --- 帮助错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1834
+msgid "**ERR_BUG** = **47** --- 缺陷错误。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1836
+msgid "**ERR_PRINTER_ON_FIRE** = **48** --- 打印机失火错误。（这是个彩蛋，引擎中没有方法会返回此错误码）"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1886
+msgid "enum **PropertyHint**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1888
+msgid "**PROPERTY_HINT_NONE** = **0** --- 没有关于已编辑属性的提示。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1890
+msgid "**PROPERTY_HINT_RANGE** = **1** --- 通过提示串\\ ``\"min,max\"`` 或\\ ``\"min,max,step\"``\\ 来提示一个整数或浮点数属性应当落在指定范围内。提示串可以选择性地包含 ``\"or_greater\"`` 与/或 ``\"or_lesser\"`` 来允许手动输入的值超过或低于最大最小值。例如： ``\"-360,360,1,or_greater,or_lesser\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1892
+msgid "**PROPERTY_HINT_EXP_RANGE** = **2** --- 提示一个整数或浮点数属性应当落在通过提示字符串\\ ``\"min,max\"`` 或\\ ``\"min,max,step\"``\\ 来指定的范围内。提示字符串可以选择性地包含 ``\"or_greater\"`` 与/或 ``\"or_lesser\"`` 来允许手动输入的值超过最大值或低于最小值。例如： ``\"0.01,100,0.01,or_greater\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1894
+msgid "**PROPERTY_HINT_ENUM** = **3** --- 通过一个提示串，提示一个整数、浮点或字符串属性是枚举值，枚举值取值来自于形如\\ ``\"Hello,Something,Else\"``\\ 的提示串。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1896
+msgid "**PROPERTY_HINT_EXP_EASING** = **4** --- 提示一个浮点数属性应当通过指数缓动函数来编辑。此处的提示串可以包含 ``\"attenuation\"`` 来翻转曲线的水平方向，并且/或者也可以通过\\ ``\"inout\"``\\ 来控制是否缓入缓出。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1898
+msgid "**PROPERTY_HINT_LENGTH** = **5** --- 已废弃的提示标识，未被使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1900
+msgid "**PROPERTY_HINT_KEY_ACCEL** = **7** --- 已废弃的提示标识，未被使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1902
+msgid "**PROPERTY_HINT_FLAGS** = **8** --- 提示一个整数属性是一个带有若干命名的位标记的掩码。例如，想允许修改 0、1、2、4 位，提示串应当是类似于 ``\"Bit0,Bit1,Bit2,,Bit4\"`` 的东西。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1904
+msgid "**PROPERTY_HINT_LAYERS_2D_RENDER** = **9** --- 提示一个整数属性是一个掩码，使用着具备或不具备命名的2D渲染层。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1906
+msgid "**PROPERTY_HINT_LAYERS_2D_PHYSICS** = **10** --- 提示一个整数属性是一个掩码，使用着具备或不具备命名的2D物理层。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1908
+msgid "**PROPERTY_HINT_LAYERS_3D_RENDER** = **11** --- 提示一个整数属性是一个掩码，使用着具备或不具备命名的3D渲染层。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1910
+msgid "**PROPERTY_HINT_LAYERS_3D_PHYSICS** = **12** --- 提示一个整数属性是一个掩码，使用着具备或不具备命名的3D物理层。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1912
+msgid "**PROPERTY_HINT_FILE** = **13** --- 提示一个字符串属性是关于一个文件的路径。编辑该属性时会弹出取得文件路径的文件对话框。此处的提示文本可以是一组带有通配符的过滤器，例如 ``\"*.png,*.jpg\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1914
+msgid "**PROPERTY_HINT_DIR** = **14** --- 提示一个字符串属性是一个关于目录的路径。编辑该属性时会弹出取得文件路径的文件对话框。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1916
+msgid "**PROPERTY_HINT_GLOBAL_FILE** = **15** --- 提示一个字符串属性是关于一个在项目文件夹之外的文件的绝对路径。编辑该属性时会弹出取得文件路径的文件对话框。此处的提示文本可以是一组带有通配符的过滤器，例如 ``\"*.png,*.jpg\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1918
+msgid "**PROPERTY_HINT_GLOBAL_DIR** = **16** --- 提示一个字符串属性是一个关于项目文件夹之外的目录的绝对路径。编辑该属性时会弹出取得文件路径的文件对话框。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1920
+msgid "**PROPERTY_HINT_RESOURCE_TYPE** = **17** --- 提示一个属性是一个 :ref:`Resource<class_Resource>` 派生类的实例，可以通过提示字符串指定（例如 ``\"Texture\"``\\ ）。编辑该属性时会显示一个列举了可用的待实例化的资源类型的弹出菜单。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1922
+msgid "**PROPERTY_HINT_MULTILINE_TEXT** = **18** --- 提示一个字符串属性是一个带有换行的文本。编辑该属性时会显示一个允许键入换行符的文本输入域。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1924
+msgid "**PROPERTY_HINT_PLACEHOLDER_TEXT** = **19** --- 提示一个字符串属性在其输入域上应当具有当属性为空时可见的占位文本。此处的提示串是占位文本使用的字符串。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1926
+msgid "**PROPERTY_HINT_COLOR_NO_ALPHA** = **20** --- 提示一个颜色属性在编辑时不能修改alpha分量，换言之，只有R、G、B三通道可以被编辑。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1928
+msgid "**PROPERTY_HINT_IMAGE_COMPRESS_LOSSY** = **21** --- 提示一个图片使用了有损压缩进行压缩。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1930
+msgid "**PROPERTY_HINT_IMAGE_COMPRESS_LOSSLESS** = **22** --- 提示一个图片使用了无损压缩进行压缩。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1966
+msgid "enum **PropertyUsageFlags**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1968
+msgid "**PROPERTY_USAGE_STORAGE** = **1** --- 将属性序列化并保存到场景文件中（默认）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1970
+msgid "**PROPERTY_USAGE_EDITOR** = **2** --- 将属性展示在编辑器的检查器面板中（默认）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1972
+msgid "**PROPERTY_USAGE_NETWORK** = **4** --- 废弃使用的标志，未使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1974
+msgid "**PROPERTY_USAGE_EDITOR_HELPER** = **8** --- 废弃使用的标志，未使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1976
+msgid "**PROPERTY_USAGE_CHECKABLE** = **16** --- 该属性可以在编辑器的检查器中被勾选。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1978
+msgid "**PROPERTY_USAGE_CHECKED** = **32** --- 该属性在编辑器的检查器中已经勾选。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1980
+msgid "**PROPERTY_USAGE_INTERNATIONALIZED** = **64** --- 该属性是一个可翻译的字符串。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1982
+msgid "**PROPERTY_USAGE_GROUP** = **128** --- 在编辑器中用于为属性分组。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1984
+msgid "**PROPERTY_USAGE_CATEGORY** = **256** --- 在编辑器中用于为属性分类。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1986
+msgid "**PROPERTY_USAGE_NO_INSTANCE_STATE** = **2048** --- 该属性不在 :ref:`PackedScene<class_PackedScene>` 中保存其状态。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1988
+msgid "**PROPERTY_USAGE_RESTART_IF_CHANGED** = **4096** --- 编辑属性会提示用户重新启动编辑器。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1990
+msgid "**PROPERTY_USAGE_SCRIPT_VARIABLE** = **8192** --- 该属性是一个脚本变量，应该被序列化并保存在场景文件中。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1992
+msgid "**PROPERTY_USAGE_DEFAULT** = **7** --- 默认用法(存储、编辑器和网络)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1994
+msgid "**PROPERTY_USAGE_DEFAULT_INTL** = **71** --- 可翻译字符串的默认用法(存储、编辑器、网络和国际化)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:1996
+msgid "**PROPERTY_USAGE_NOEDITOR** = **5** --- 默认用法，但不在编辑器中显示属性(存储、网络)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2018
+msgid "enum **MethodFlags**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2020
+msgid "**METHOD_FLAG_NORMAL** = **1** --- 普通方法的标志。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2022
+msgid "**METHOD_FLAG_EDITOR** = **2** --- 编辑器方法的标志。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2024
+msgid "**METHOD_FLAG_NOSCRIPT** = **4** --- 已废弃的方法标志，未使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2026
+msgid "**METHOD_FLAG_CONST** = **8** --- 一个常量方法的标志。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2028
+msgid "**METHOD_FLAG_REVERSE** = **16** --- 已废弃的方法标志，未使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2030
+msgid "**METHOD_FLAG_VIRTUAL** = **32** --- 虚方法的标志。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2032
+msgid "**METHOD_FLAG_FROM_SCRIPT** = **64** --- 已废弃的方法标志，未使用。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2034
+msgid "**METHOD_FLAGS_DEFAULT** = **1** --- 默认方法的标志。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2096
+msgid "enum **Variant.Type**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2098
+msgid "**TYPE_NIL** = **0** --- 变量是 ``null``."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2100
+msgid "**TYPE_BOOL** = **1** --- 变量是\\ :ref:`bool<class_bool>`\\ 类型。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2102
+msgid "**TYPE_INT** = **2** --- 变量是\\ :ref:`int<class_int>`\\ 类型。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2104
+msgid "**TYPE_REAL** = **3** --- 变量是\\ :ref:`float<class_float>`\\ 类型(实数)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2106
+msgid "**TYPE_STRING** = **4** --- 变量是\\ :ref:`String<class_String>`\\ 类型。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2108
+msgid "**TYPE_VECTOR2** = **5** --- 变量类型为\\ :ref:`Vector2<class_Vector2>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2110
+msgid "**TYPE_RECT2** = **6** --- 变量类型为\\ :ref:`Rect2<class_Rect2>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2112
+msgid "**TYPE_VECTOR3** = **7** --- 变量类型为\\ :ref:`Vector3<class_Vector3>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2114
+msgid "**TYPE_TRANSFORM2D** = **8** --- 变量类型为\\ :ref:`Transform2D<class_Transform2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2116
+msgid "**TYPE_PLANE** = **9** --- 变量类型为\\ :ref:`Plane<class_Plane>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2118
+msgid "**TYPE_QUAT** = **10** --- 变量的类型为\\ :ref:`Quat<class_Quat>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2120
+msgid "**TYPE_AABB** = **11** --- 变量的类型为 :ref:`AABB<class_AABB>`."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2122
+msgid "**TYPE_BASIS** = **12** --- 变量的类型为 :ref:`Basis<class_Basis>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2124
+msgid "**TYPE_TRANSFORM** = **13** --- 变量的类型为 :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2126
+msgid "**TYPE_COLOR** = **14** --- 变量的类型为\\ :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2128
+msgid "**TYPE_NODE_PATH** = **15** --- 变量的类型为 :ref:`NodePath<class_NodePath>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2130
+msgid "**TYPE_RID** = **16** --- 变量的类型为\\ :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2132
+msgid "**TYPE_OBJECT** = **17** --- 变量的类型为\\ :ref:`Object<class_Object>`."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2134
+msgid "**TYPE_DICTIONARY** = **18** --- 变量的类型为\\ :ref:`Dictionary<class_Dictionary>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2136
+msgid "**TYPE_ARRAY** = **19** --- 变量的类型为\\ :ref:`Array<class_Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2138
+msgid "**TYPE_RAW_ARRAY** = **20** --- 变量的类型是\\ :ref:`PoolByteArray<class_PoolByteArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2140
+msgid "**TYPE_INT_ARRAY** = **21** --- 变量的类型是\\ :ref:`PoolIntArray<class_PoolIntArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2142
+msgid "**TYPE_REAL_ARRAY** = **22** --- 变量的类型是\\ :ref:`PoolRealArray<class_PoolRealArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2144
+msgid "**TYPE_STRING_ARRAY** = **23** --- 变量的类型是\\ :ref:`PoolStringArray<class_PoolStringArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2146
+msgid "**TYPE_VECTOR2_ARRAY** = **24** --- 变量的类型是\\ :ref:`PoolVector2Array<class_PoolVector2Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2148
+msgid "**TYPE_VECTOR3_ARRAY** = **25** --- 变量的类型是\\ :ref:`PoolVector3Array<class_PoolVector3Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2150
+msgid "**TYPE_COLOR_ARRAY** = **26** --- 变量的类型是\\ :ref:`PoolColorArray<class_PoolColorArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2152
+msgid "**TYPE_MAX** = **27** --- 表示\\ :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2210
+msgid "enum **Variant.Operator**:"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2212
+msgid "**OP_EQUAL** = **0** --- 等于运算符(``==``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2214
+msgid "**OP_NOT_EQUAL** = **1** --- 不等式运算符(``!=``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2216
+msgid "**OP_LESS** = **2** --- 小于运算符(``<``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2218
+msgid "**OP_LESS_EQUAL** = **3** --- 小于或等于运算符(``<=``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2220
+msgid "**OP_GREATER** = **4** --- 大于运算符(``>``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2222
+msgid "**OP_GREATER_EQUAL** = **5** --- 大于或等于运算符(``> =``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2224
+msgid "**OP_ADD** = **6** --- 加法运算符(``+``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2226
+msgid "**OP_SUBTRACT** = **7** --- 减法运算符(``-``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2228
+msgid "**OP_MULTIPLY** = **8** --- 乘法运算符(``*``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2230
+msgid "**OP_DIVIDE** = **9** --- 除法运算符（\\ ``/``\\ ）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2232
+msgid "**OP_NEGATE** = **10** --- 一元减号运算符(``-``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2234
+msgid "**OP_POSITIVE** = **11** --- 一元加号运算符(``+``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2236
+msgid "**OP_MODULE** = **12** --- 余数/取模运算符(``%``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2238
+msgid "**OP_STRING_CONCAT** = **13** --- 字符串串联运算符(``+``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2240
+msgid "**OP_SHIFT_LEFT** = **14** --- 左移运算符(``<<``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2242
+msgid "**OP_SHIFT_RIGHT** = **15** --- 右移运算符（\\ ``>>``\\ ）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2244
+msgid "**OP_BIT_AND** = **16** --- 按位AND运算符(``&``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2246
+msgid "**OP_BIT_OR** = **17** --- 按位或运算符(``|``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2248
+msgid "**OP_BIT_XOR** = **18** --- 按位XOR运算符(``^``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2250
+msgid "**OP_BIT_NEGATE** = **19** --- 按位NOT运算符(``〜``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2252
+msgid "**OP_AND** = **20** --- 逻辑AND运算符(``and``\\ 或\\ ``&&``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2254
+msgid "**OP_OR** = **21** --- 逻辑或运算符（\\ ``或``\\ 或\\ ``||``\\ ）。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2256
+msgid "**OP_XOR** = **22** --- 逻辑XOR运算符(未在GDScript中实现)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2258
+msgid "**OP_NOT** = **23** --- 逻辑NOT运算符(``not``\\ 或\\ ``!``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2260
+msgid "**OP_IN** = **24** --- 逻辑IN运算符(``in``)。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2262
+msgid "**OP_MAX** = **25** --- 表示\\ :ref:`Variant.Operator<enum_@GlobalScope_Variant.Operator>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2265
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2269
+msgid "**SPKEY** = **16777216** --- 该比特位应用的键码不可打印。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2272
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2276
+msgid ":ref:`ARVRServer<class_ARVRServer>` **ARVRServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2278
+msgid ":ref:`ARVRServer<class_ARVRServer>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2284
+msgid ":ref:`AudioServer<class_AudioServer>` **AudioServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2286
+msgid ":ref:`AudioServer<class_AudioServer>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2292
+msgid ":ref:`CameraServer<class_CameraServer>` **CameraServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2294
+msgid ":ref:`CameraServer<class_CameraServer>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2300
+msgid ":ref:`ClassDB<class_ClassDB>` **ClassDB**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2302
+msgid ":ref:`ClassDB<class_ClassDB>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2308
+msgid ":ref:`Engine<class_Engine>` **Engine**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2310
+msgid ":ref:`Engine<class_Engine>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2316
+msgid ":ref:`Geometry<class_Geometry>` **Geometry**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2318
+msgid ":ref:`Geometry<class_Geometry>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2324
+msgid ":ref:`IP<class_IP>` **IP**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2326
+msgid ":ref:`IP<class_IP>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2332
+msgid ":ref:`Input<class_Input>` **Input**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2334
+msgid ":ref:`Input<class_Input>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2340
+msgid ":ref:`InputMap<class_InputMap>` **InputMap**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2342
+msgid ":ref:`InputMap<class_InputMap>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2348
+msgid ":ref:`JSON<class_JSON>` **JSON**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2350
+msgid ":ref:`JSON<class_JSON>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2356
+msgid ":ref:`JavaClassWrapper<class_JavaClassWrapper>` **JavaClassWrapper**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2358
+msgid ":ref:`JavaClassWrapper<class_JavaClassWrapper>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2360
+msgid "\\ **注意：** 仅在 Android 上实现。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2366
+msgid ":ref:`JavaScript<class_JavaScript>` **JavaScript**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2368
+msgid ":ref:`JavaScript<class_JavaScript>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2370
+msgid "\\ **注意：** 仅在HTML5上实现。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2376
+msgid ":ref:`Marshalls<class_Marshalls>` **Marshalls**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2378
+msgid ":ref:`Marshalls<class_Marshalls>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2384
+msgid ":ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` **NavigationMeshGenerator**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2386
+msgid ":ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2392
+msgid ":ref:`OS<class_OS>` **OS**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2394
+msgid ":ref:`OS<class_OS>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2400
+msgid ":ref:`Performance<class_Performance>` **Performance**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2402
+msgid ":ref:`Performance<class_Performance>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2408
+msgid ":ref:`Physics2DServer<class_Physics2DServer>` **Physics2DServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2410
+msgid ":ref:`Physics2DServer<class_Physics2DServer>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2416
+msgid ":ref:`PhysicsServer<class_PhysicsServer>` **PhysicsServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2418
+msgid ":ref:`PhysicsServer<class_PhysicsServer>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2424
+msgid ":ref:`ProjectSettings<class_ProjectSettings>` **ProjectSettings**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2426
+msgid ":ref:`ProjectSettings<class_ProjectSettings>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2432
+msgid ":ref:`ResourceLoader<class_ResourceLoader>` **ResourceLoader**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2434
+msgid ":ref:`ResourceLoader<class_ResourceLoader>`\\ 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2440
+msgid ":ref:`ResourceSaver<class_ResourceSaver>` **ResourceSaver**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2442
+msgid ":ref:`ResourceSaver<class_ResourceSaver>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2448
+msgid ":ref:`Time<class_Time>` **Time**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2450
+msgid "The :ref:`Time<class_Time>` singleton."
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2456
+msgid ":ref:`TranslationServer<class_TranslationServer>` **TranslationServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2458
+msgid ":ref:`TranslationServer<class_TranslationServer>`\\ 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2464
+msgid ":ref:`VisualScriptEditor<class_VisualScriptEditor>` **VisualScriptEditor**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2466
+msgid ":ref:`VisualScriptEditor<class_VisualScriptEditor>` 单例。"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2472
+msgid ":ref:`VisualServer<class_VisualServer>` **VisualServer**"
+msgstr ""
+
+#: ../classes/class_@globalscope.rst:2474
+msgid ":ref:`VisualServer<class_VisualServer>` 单例。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

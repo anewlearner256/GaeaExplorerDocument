@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:4
+msgid "Coding the player"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:6
+msgid "In this lesson, we'll add player movement, animation, and set it up to detect collisions."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:9
+msgid "To do so, we need to add some functionality that we can't get from a built-in node, so we'll add a script. Click the ``Player`` node and click the \"Attach Script\" button:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:15
+msgid "In the script settings window, you can leave the default settings alone. Just click \"Create\":"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:18
+msgid "If you're creating a C# script or other languages, select the language from the `language` drop down menu before hitting create."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:23
+msgid "If this is your first time encountering GDScript, please read :ref:`doc_scripting` before continuing."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:26
+msgid "Start by declaring the member variables this object will need:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:86
+msgid "Using the ``export`` keyword on the first variable ``speed`` allows us to set its value in the Inspector. This can be handy for values that you want to be able to adjust just like a node's built-in properties. Click on the ``Player`` node and you'll see the property now appears in the \"Script Variables\" section of the Inspector. Remember, if you change the value here, it will override the value written in the script."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:93
+msgid "If you're using C#, you need to (re)build the project assemblies whenever you want to see new export variables or signals. This build can be manually triggered by clicking the word \"Mono\" at the bottom of the editor window to reveal the Mono Panel, then clicking the \"Build Project\" button."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:101
+msgid "The ``_ready()`` function is called when a node enters the scene tree, which is a good time to find the size of the game window:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:129
+msgid "Now we can use the ``_process()`` function to define what the player will do. ``_process()`` is called every frame, so we'll use it to update elements of our game, which we expect will change often. For the player, we need to do the following:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:134
+msgid "Check for input."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:135
+msgid "Move in the given direction."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:136
+msgid "Play the appropriate animation."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:138
+msgid "First, we need to check for input - is the player pressing a key? For this game, we have 4 direction inputs to check. Input actions are defined in the Project Settings under \"Input Map\". Here, you can define custom events and assign different keys, mouse events, or other inputs to them. For this game, we will map the arrow keys to the four directions."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:144
+msgid "Click on *Project -> Project Settings* to open the project settings window and click on the *Input Map* tab at the top. Type \"move_right\" in the top bar and click the \"Add\" button to add the ``move_right`` action."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:150
+msgid "We need to assign a key to this action. Click the \"+\" icon on the right, then click the \"Key\" option in the drop-down menu. A dialog asks you to type in the desired key. Press the right arrow on your keyboard and click \"Ok\"."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:156
+msgid "Repeat these steps to add three more mappings:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:158
+msgid "``move_left`` mapped to the left arrow key."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:159
+msgid "``move_up`` mapped to the up arrow key."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:160
+msgid "And ``move_down`` mapped to the down arrow key."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:162
+msgid "Your input map tab should look like this:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:166
+msgid "Click the \"Close\" button to close the project settings."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:170
+msgid "We only mapped one key to each input action, but you can map multiple keys, joystick buttons, or mouse buttons to the same input action."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:173
+msgid "You can detect whether a key is pressed using ``Input.is_action_pressed()``, which returns ``true`` if it's pressed or ``false`` if it isn't."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:252
+msgid "We start by setting the ``velocity`` to ``(0, 0)`` - by default, the player should not be moving. Then we check each input and add/subtract from the ``velocity`` to obtain a total direction. For example, if you hold ``right`` and ``down`` at the same time, the resulting ``velocity`` vector will be ``(1, 1)``. In this case, since we're adding a horizontal and a vertical movement, the player would move *faster* diagonally than if it just moved horizontally."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:259
+msgid "We can prevent that if we *normalize* the velocity, which means we set its *length* to ``1``, then multiply by the desired speed. This means no more fast diagonal movement."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:263
+msgid "If you've never used vector math before, or need a refresher, you can see an explanation of vector usage in GaaeExplorer at :ref:`doc_vector_math`. It's good to know but won't be necessary for the rest of this tutorial."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:267
+msgid "We also check whether the player is moving so we can call ``play()`` or ``stop()`` on the AnimatedSprite."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:270
+msgid "``$`` is shorthand for ``get_node()``. So in the code above, ``$AnimatedSprite.play()`` is the same as ``get_node(\"AnimatedSprite\").play()``."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:274
+msgid "In GDScript, ``$`` returns the node at the relative path from the current node, or returns ``null`` if the node is not found. Since AnimatedSprite is a child of the current node, we can use ``$AnimatedSprite``."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:279
+msgid "Now that we have a movement direction, we can update the player's position. We can also use ``clamp()`` to prevent it from leaving the screen. *Clamping* a value means restricting it to a given range. Add the following to the bottom of the ``_process`` function (make sure it's not indented under the `else`):"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:307
+msgid "The `delta` parameter in the `_process()` function refers to the *frame length* - the amount of time that the previous frame took to complete. Using this value ensures that your movement will remain consistent even if the frame rate changes."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:312
+msgid "Click \"Play Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm you can move the player around the screen in all directions."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:315
+msgid "If you get an error in the \"Debugger\" panel that says"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:317
+msgid "``Attempt to call function 'play' in base 'null instance' on a null instance``"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:320
+msgid "this likely means you spelled the name of the AnimatedSprite node wrong. Node names are case-sensitive and ``$NodeName`` must match the name you see in the scene tree."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:325
+msgid "Choosing animations"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:327
+msgid "Now that the player can move, we need to change which animation the AnimatedSprite is playing based on its direction. We have the \"walk\" animation, which shows the player walking to the right. This animation should be flipped horizontally using the ``flip_h`` property for left movement. We also have the \"up\" animation, which should be flipped vertically with ``flip_v`` for downward movement. Let's place this code at the end of the ``_process()`` function:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:373
+msgid "The boolean assignments in the code above are a common shorthand for programmers. Since we're doing a comparison test (boolean) and also *assigning* a boolean value, we can do both at the same time. Consider this code versus the one-line boolean assignment above:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:397
+msgid "Play the scene again and check that the animations are correct in each of the directions."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:400
+msgid "A common mistake here is to type the names of the animations wrong. The animation names in the SpriteFrames panel must match what you type in the code. If you named the animation ``\"Walk\"``, you must also use a capital \"W\" in the code."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:405
+msgid "When you're sure the movement is working correctly, add this line to ``_ready()``, so the player will be hidden when the game starts:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:422
+msgid "Preparing for collisions"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:424
+msgid "We want ``Player`` to detect when it's hit by an enemy, but we haven't made any enemies yet! That's OK, because we're going to use GaaeExplorer's *signal* functionality to make it work."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:428
+msgid "Add the following at the top of the script, after ``extends Area2D``:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:457
+msgid "This defines a custom signal called \"hit\" that we will have our player emit (send out) when it collides with an enemy. We will use ``Area2D`` to detect the collision. Select the ``Player`` node and click the \"Node\" tab next to the Inspector tab to see the list of signals the player can emit:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:464
+msgid "Notice our custom \"hit\" signal is there as well! Since our enemies are going to be ``RigidBody2D`` nodes, we want the ``body_entered(body: Node)`` signal. This signal will be emitted when a body contacts the player. Click \"Connect..\" and the \"Connect a Signal\" window appears. We don't need to change any of these settings so click \"Connect\" again. GaaeExplorer will automatically create a function in your player's script."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:473
+msgid "Note the green icon indicating that a signal is connected to this function. Add this code to the function:"
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:505
+msgid "Each time an enemy hits the player, the signal is going to be emitted. We need to disable the player's collision so that we don't trigger the ``hit`` signal more than once."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:509
+msgid "Disabling the area's collision shape can cause an error if it happens in the middle of the engine's collision processing. Using ``set_deferred()`` tells GaaeExplorer to wait to disable the shape until it's safe to do so."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:514
+msgid "The last piece is to add a function we can call to reset the player when starting a new game."
+msgstr ""
+
+#: ../getting_started/first_2d_game/03.coding_the_player.rst:543
+msgid "With the player working, we'll work on the enemy in the next lesson."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

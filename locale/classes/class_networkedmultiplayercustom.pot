@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_networkedmultiplayercustom.rst:11
+msgid "NetworkedMultiplayerCustom"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:13
+msgid "**Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:15
+msgid "A :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` implementation that can be controlled from a script."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:20
+msgid "A :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` implementation that can be used as a :ref:`MultiplayerAPI.network_peer<class_MultiplayerAPI_property_network_peer>` and controlled from a script."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:22
+msgid "Its purpose is to allow adding a new backend for the high-Level multiplayer API without needing to use GDNative."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:25
+msgid "Methods"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:28
+#: ../classes/class_networkedmultiplayercustom.rst:30
+#: ../classes/class_networkedmultiplayercustom.rst:32
+#: ../classes/class_networkedmultiplayercustom.rst:34
+msgid "void"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:28
+msgid ":ref:`deliver_packet<class_NetworkedMultiplayerCustom_method_deliver_packet>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`int<class_int>` from_peer_id **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:30
+msgid ":ref:`initialize<class_NetworkedMultiplayerCustom_method_initialize>` **(** :ref:`int<class_int>` self_peer_id **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:32
+msgid ":ref:`set_connection_status<class_NetworkedMultiplayerCustom_method_set_connection_status>` **(** :ref:`ConnectionStatus<enum_NetworkedMultiplayerPeer_ConnectionStatus>` connection_status **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:34
+msgid ":ref:`set_max_packet_size<class_NetworkedMultiplayerCustom_method_set_max_packet_size>` **(** :ref:`int<class_int>` max_packet_size **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:38
+msgid "Signals"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:42
+msgid "**packet_generated** **(** :ref:`int<class_int>` peer_id, :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`int<class_int>` transfer_mode **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:44
+msgid "Emitted when the local :ref:`MultiplayerAPI<class_MultiplayerAPI>` generates a packet."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:46
+msgid "Your script should take this packet and send it to the requested peer over the network (which should call :ref:`deliver_packet<class_NetworkedMultiplayerCustom_method_deliver_packet>` with the data when it's received)."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:49
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:53
+msgid "void **deliver_packet** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer, :ref:`int<class_int>` from_peer_id **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:55
+msgid "Deliver a packet to the local :ref:`MultiplayerAPI<class_MultiplayerAPI>`."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:57
+msgid "When your script receives a packet from other peers over the network (originating from the :ref:`packet_generated<class_NetworkedMultiplayerCustom_signal_packet_generated>` signal on the sending peer), passing it to this method will deliver it locally."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:63
+msgid "void **initialize** **(** :ref:`int<class_int>` self_peer_id **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:65
+msgid "Initialize the peer with the given ``peer_id`` (must be between 1 and 2147483647)."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:67
+msgid "Can only be called if the connection status is :ref:`NetworkedMultiplayerPeer.CONNECTION_CONNECTING<class_NetworkedMultiplayerPeer_constant_CONNECTION_CONNECTING>`. See :ref:`set_connection_status<class_NetworkedMultiplayerCustom_method_set_connection_status>`."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:73
+msgid "void **set_connection_status** **(** :ref:`ConnectionStatus<enum_NetworkedMultiplayerPeer_ConnectionStatus>` connection_status **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:75
+msgid "Set the state of the connection. See :ref:`ConnectionStatus<enum_NetworkedMultiplayerPeer_ConnectionStatus>`."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:77
+msgid "This will emit the :ref:`NetworkedMultiplayerPeer.connection_succeeded<class_NetworkedMultiplayerPeer_signal_connection_succeeded>`, :ref:`NetworkedMultiplayerPeer.connection_failed<class_NetworkedMultiplayerPeer_signal_connection_failed>` or :ref:`NetworkedMultiplayerPeer.server_disconnected<class_NetworkedMultiplayerPeer_signal_server_disconnected>` signals depending on the status and if the peer has the unique network id of ``1``."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:79
+msgid "You can only change to :ref:`NetworkedMultiplayerPeer.CONNECTION_CONNECTING<class_NetworkedMultiplayerPeer_constant_CONNECTION_CONNECTING>` from :ref:`NetworkedMultiplayerPeer.CONNECTION_DISCONNECTED<class_NetworkedMultiplayerPeer_constant_CONNECTION_DISCONNECTED>` and to :ref:`NetworkedMultiplayerPeer.CONNECTION_CONNECTED<class_NetworkedMultiplayerPeer_constant_CONNECTION_CONNECTED>` from :ref:`NetworkedMultiplayerPeer.CONNECTION_CONNECTING<class_NetworkedMultiplayerPeer_constant_CONNECTION_CONNECTING>`."
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:85
+msgid "void **set_max_packet_size** **(** :ref:`int<class_int>` max_packet_size **)**"
+msgstr ""
+
+#: ../classes/class_networkedmultiplayercustom.rst:87
+msgid "Set the max packet size that this peer can handle."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

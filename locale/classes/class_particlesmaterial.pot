@@ -1,0 +1,1631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_particlesmaterial.rst:10
+msgid "ParticlesMaterial"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:12
+msgid "**Inherits:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:14
+msgid ":ref:`Particles<class_Particles>` 和 :ref:`Particles2D<class_Particles2D>` 节点的粒子属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:19
+msgid "ParticlesMaterial定义了粒子的属性和行为。它可用于\\ :ref:`Particles<class_Particles>`\\ 和\\ :ref:`Particles2D<class_Particles2D>`\\ 发射器节点的\\ ``process_material``\\ 中。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:21
+msgid "这个材质的一些属性在发射时被应用到每个粒子上，而其他属性可以应用\\ :ref:`CurveTexture<class_CurveTexture>`\\ 来在粒子的生命周期中改变数值。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:23
+msgid "当随机性比率被应用到一个属性时，用来以一个随机量来扩展该属性。随机率用来在\\ ``1.0``\\ 和一个小于1的随机数之间插值，结果乘以属性，得到随机的属性。例如，一个\\ ``0.4``\\ 的随机比率将在\\ ``0.4-1.0``\\ 之间缩放原始属性的原值。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:29
+#: ../classes/class_particlesmaterial.rst:33
+#: ../classes/class_particlesmaterial.rst:35
+#: ../classes/class_particlesmaterial.rst:39
+#: ../classes/class_particlesmaterial.rst:41
+#: ../classes/class_particlesmaterial.rst:45
+#: ../classes/class_particlesmaterial.rst:47
+#: ../classes/class_particlesmaterial.rst:51
+#: ../classes/class_particlesmaterial.rst:59
+#: ../classes/class_particlesmaterial.rst:63
+#: ../classes/class_particlesmaterial.rst:79
+#: ../classes/class_particlesmaterial.rst:81
+#: ../classes/class_particlesmaterial.rst:83
+#: ../classes/class_particlesmaterial.rst:87
+#: ../classes/class_particlesmaterial.rst:95
+#: ../classes/class_particlesmaterial.rst:99
+#: ../classes/class_particlesmaterial.rst:103
+#: ../classes/class_particlesmaterial.rst:105
+#: ../classes/class_particlesmaterial.rst:107
+#: ../classes/class_particlesmaterial.rst:109
+#: ../classes/class_particlesmaterial.rst:111
+#: ../classes/class_particlesmaterial.rst:115
+#: ../classes/class_particlesmaterial.rst:117
+#: ../classes/class_particlesmaterial.rst:121
+#: ../classes/class_particlesmaterial.rst:123
+#: ../classes/class_particlesmaterial.rst:127
+#: ../classes/class_particlesmaterial.rst:129
+#: ../classes/class_particlesmaterial.rst:133
+#: ../classes/class_particlesmaterial.rst:135
+#: ../classes/class_particlesmaterial.rst:137
+#: ../classes/class_particlesmaterial.rst:141
+#: ../classes/class_particlesmaterial.rst:156
+#: ../classes/class_particlesmaterial.rst:158
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:29
+msgid ":ref:`angle<class_ParticlesMaterial_property_angle>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:29
+#: ../classes/class_particlesmaterial.rst:33
+#: ../classes/class_particlesmaterial.rst:35
+#: ../classes/class_particlesmaterial.rst:39
+#: ../classes/class_particlesmaterial.rst:41
+#: ../classes/class_particlesmaterial.rst:45
+#: ../classes/class_particlesmaterial.rst:47
+#: ../classes/class_particlesmaterial.rst:51
+#: ../classes/class_particlesmaterial.rst:59
+#: ../classes/class_particlesmaterial.rst:63
+#: ../classes/class_particlesmaterial.rst:95
+#: ../classes/class_particlesmaterial.rst:99
+#: ../classes/class_particlesmaterial.rst:103
+#: ../classes/class_particlesmaterial.rst:105
+#: ../classes/class_particlesmaterial.rst:107
+#: ../classes/class_particlesmaterial.rst:109
+#: ../classes/class_particlesmaterial.rst:111
+#: ../classes/class_particlesmaterial.rst:115
+#: ../classes/class_particlesmaterial.rst:123
+#: ../classes/class_particlesmaterial.rst:127
+#: ../classes/class_particlesmaterial.rst:133
+#: ../classes/class_particlesmaterial.rst:137
+#: ../classes/class_particlesmaterial.rst:141
+#: ../classes/class_particlesmaterial.rst:294
+#: ../classes/class_particlesmaterial.rst:326
+#: ../classes/class_particlesmaterial.rst:342
+#: ../classes/class_particlesmaterial.rst:374
+#: ../classes/class_particlesmaterial.rst:390
+#: ../classes/class_particlesmaterial.rst:420
+#: ../classes/class_particlesmaterial.rst:436
+#: ../classes/class_particlesmaterial.rst:466
+#: ../classes/class_particlesmaterial.rst:526
+#: ../classes/class_particlesmaterial.rst:556
+#: ../classes/class_particlesmaterial.rst:792
+#: ../classes/class_particlesmaterial.rst:824
+#: ../classes/class_particlesmaterial.rst:854
+#: ../classes/class_particlesmaterial.rst:870
+#: ../classes/class_particlesmaterial.rst:886
+#: ../classes/class_particlesmaterial.rst:902
+#: ../classes/class_particlesmaterial.rst:918
+#: ../classes/class_particlesmaterial.rst:948
+#: ../classes/class_particlesmaterial.rst:1008
+#: ../classes/class_particlesmaterial.rst:1038
+#: ../classes/class_particlesmaterial.rst:1084
+#: ../classes/class_particlesmaterial.rst:1116
+#: ../classes/class_particlesmaterial.rst:1146
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:31
+#: ../classes/class_particlesmaterial.rst:37
+#: ../classes/class_particlesmaterial.rst:43
+#: ../classes/class_particlesmaterial.rst:49
+#: ../classes/class_particlesmaterial.rst:55
+#: ../classes/class_particlesmaterial.rst:57
+#: ../classes/class_particlesmaterial.rst:61
+#: ../classes/class_particlesmaterial.rst:69
+#: ../classes/class_particlesmaterial.rst:71
+#: ../classes/class_particlesmaterial.rst:75
+#: ../classes/class_particlesmaterial.rst:101
+#: ../classes/class_particlesmaterial.rst:113
+#: ../classes/class_particlesmaterial.rst:119
+#: ../classes/class_particlesmaterial.rst:125
+#: ../classes/class_particlesmaterial.rst:131
+#: ../classes/class_particlesmaterial.rst:139
+#: ../classes/class_particlesmaterial.rst:160
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:31
+msgid ":ref:`angle_curve<class_ParticlesMaterial_property_angle_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:33
+msgid ":ref:`angle_random<class_ParticlesMaterial_property_angle_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:35
+msgid ":ref:`angular_velocity<class_ParticlesMaterial_property_angular_velocity>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:37
+msgid ":ref:`angular_velocity_curve<class_ParticlesMaterial_property_angular_velocity_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:39
+msgid ":ref:`angular_velocity_random<class_ParticlesMaterial_property_angular_velocity_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:41
+msgid ":ref:`anim_offset<class_ParticlesMaterial_property_anim_offset>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:43
+msgid ":ref:`anim_offset_curve<class_ParticlesMaterial_property_anim_offset_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:45
+msgid ":ref:`anim_offset_random<class_ParticlesMaterial_property_anim_offset_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:47
+msgid ":ref:`anim_speed<class_ParticlesMaterial_property_anim_speed>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:49
+msgid ":ref:`anim_speed_curve<class_ParticlesMaterial_property_anim_speed_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:51
+msgid ":ref:`anim_speed_random<class_ParticlesMaterial_property_anim_speed_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:53
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:53
+msgid ":ref:`color<class_ParticlesMaterial_property_color>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:53
+#: ../classes/class_particlesmaterial.rst:482
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:55
+msgid ":ref:`color_initial_ramp<class_ParticlesMaterial_property_color_initial_ramp>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:57
+msgid ":ref:`color_ramp<class_ParticlesMaterial_property_color_ramp>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:59
+msgid ":ref:`damping<class_ParticlesMaterial_property_damping>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:61
+msgid ":ref:`damping_curve<class_ParticlesMaterial_property_damping_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:63
+msgid ":ref:`damping_random<class_ParticlesMaterial_property_damping_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:65
+#: ../classes/class_particlesmaterial.rst:67
+#: ../classes/class_particlesmaterial.rst:77
+#: ../classes/class_particlesmaterial.rst:97
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:65
+msgid ":ref:`direction<class_ParticlesMaterial_property_direction>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:65
+#: ../classes/class_particlesmaterial.rst:572
+msgid "``Vector3( 1, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:67
+msgid ":ref:`emission_box_extents<class_ParticlesMaterial_property_emission_box_extents>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:69
+msgid ":ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:71
+msgid ":ref:`emission_normal_texture<class_ParticlesMaterial_property_emission_normal_texture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:73
+#: ../classes/class_particlesmaterial.rst:145
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:73
+msgid ":ref:`emission_point_count<class_ParticlesMaterial_property_emission_point_count>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:75
+msgid ":ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:77
+msgid ":ref:`emission_ring_axis<class_ParticlesMaterial_property_emission_ring_axis>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:79
+msgid ":ref:`emission_ring_height<class_ParticlesMaterial_property_emission_ring_height>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:81
+msgid ":ref:`emission_ring_inner_radius<class_ParticlesMaterial_property_emission_ring_inner_radius>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:83
+msgid ":ref:`emission_ring_radius<class_ParticlesMaterial_property_emission_ring_radius>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:85
+msgid ":ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:85
+msgid ":ref:`emission_shape<class_ParticlesMaterial_property_emission_shape>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:85
+#: ../classes/class_particlesmaterial.rst:714
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:87
+msgid ":ref:`emission_sphere_radius<class_ParticlesMaterial_property_emission_sphere_radius>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:89
+#: ../classes/class_particlesmaterial.rst:91
+#: ../classes/class_particlesmaterial.rst:93
+#: ../classes/class_particlesmaterial.rst:154
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:89
+msgid ":ref:`flag_align_y<class_ParticlesMaterial_property_flag_align_y>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:89
+#: ../classes/class_particlesmaterial.rst:91
+#: ../classes/class_particlesmaterial.rst:93
+#: ../classes/class_particlesmaterial.rst:744
+#: ../classes/class_particlesmaterial.rst:760
+#: ../classes/class_particlesmaterial.rst:776
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:91
+msgid ":ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:93
+msgid ":ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:95
+msgid ":ref:`flatness<class_ParticlesMaterial_property_flatness>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:97
+msgid ":ref:`gravity<class_ParticlesMaterial_property_gravity>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:97
+#: ../classes/class_particlesmaterial.rst:808
+msgid "``Vector3( 0, -9.8, 0 )``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:99
+msgid ":ref:`hue_variation<class_ParticlesMaterial_property_hue_variation>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:101
+msgid ":ref:`hue_variation_curve<class_ParticlesMaterial_property_hue_variation_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:103
+msgid ":ref:`hue_variation_random<class_ParticlesMaterial_property_hue_variation_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:105
+msgid ":ref:`initial_velocity<class_ParticlesMaterial_property_initial_velocity>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:107
+msgid ":ref:`initial_velocity_random<class_ParticlesMaterial_property_initial_velocity_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:109
+msgid ":ref:`lifetime_randomness<class_ParticlesMaterial_property_lifetime_randomness>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:111
+msgid ":ref:`linear_accel<class_ParticlesMaterial_property_linear_accel>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:113
+msgid ":ref:`linear_accel_curve<class_ParticlesMaterial_property_linear_accel_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:115
+msgid ":ref:`linear_accel_random<class_ParticlesMaterial_property_linear_accel_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:117
+msgid ":ref:`orbit_velocity<class_ParticlesMaterial_property_orbit_velocity>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:119
+msgid ":ref:`orbit_velocity_curve<class_ParticlesMaterial_property_orbit_velocity_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:121
+msgid ":ref:`orbit_velocity_random<class_ParticlesMaterial_property_orbit_velocity_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:123
+msgid ":ref:`radial_accel<class_ParticlesMaterial_property_radial_accel>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:125
+msgid ":ref:`radial_accel_curve<class_ParticlesMaterial_property_radial_accel_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:127
+msgid ":ref:`radial_accel_random<class_ParticlesMaterial_property_radial_accel_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:129
+msgid ":ref:`scale<class_ParticlesMaterial_property_scale>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:129
+#: ../classes/class_particlesmaterial.rst:1054
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:131
+msgid ":ref:`scale_curve<class_ParticlesMaterial_property_scale_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:133
+msgid ":ref:`scale_random<class_ParticlesMaterial_property_scale_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:135
+msgid ":ref:`spread<class_ParticlesMaterial_property_spread>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:135
+#: ../classes/class_particlesmaterial.rst:1100
+msgid "``45.0``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:137
+msgid ":ref:`tangential_accel<class_ParticlesMaterial_property_tangential_accel>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:139
+msgid ":ref:`tangential_accel_curve<class_ParticlesMaterial_property_tangential_accel_curve>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:141
+msgid ":ref:`tangential_accel_random<class_ParticlesMaterial_property_tangential_accel_random>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:143
+msgid ":ref:`GradientTexture<class_GradientTexture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:143
+msgid ":ref:`trail_color_modifier<class_ParticlesMaterial_property_trail_color_modifier>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:145
+msgid ":ref:`trail_divisor<class_ParticlesMaterial_property_trail_divisor>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:145
+#: ../classes/class_particlesmaterial.rst:1176
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:147
+msgid ":ref:`CurveTexture<class_CurveTexture>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:147
+msgid ":ref:`trail_size_modifier<class_ParticlesMaterial_property_trail_size_modifier>`"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:151
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:154
+msgid ":ref:`get_flag<class_ParticlesMaterial_method_get_flag>` **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:156
+msgid ":ref:`get_param<class_ParticlesMaterial_method_get_param>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:158
+msgid ":ref:`get_param_randomness<class_ParticlesMaterial_method_get_param_randomness>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:160
+msgid ":ref:`get_param_texture<class_ParticlesMaterial_method_get_param_texture>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:162
+#: ../classes/class_particlesmaterial.rst:164
+#: ../classes/class_particlesmaterial.rst:166
+#: ../classes/class_particlesmaterial.rst:168
+msgid "void"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:162
+msgid ":ref:`set_flag<class_ParticlesMaterial_method_set_flag>` **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:164
+msgid ":ref:`set_param<class_ParticlesMaterial_method_set_param>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:166
+msgid ":ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` randomness **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:168
+msgid ":ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:172
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:202
+msgid "enum **Parameter**:"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:204
+msgid "**PARAM_INITIAL_LINEAR_VELOCITY** = **0** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置初始速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:206
+msgid "**PARAM_ANGULAR_VELOCITY** = **1** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置角速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:208
+msgid "**PARAM_ORBIT_VELOCITY** = **2** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置轨道速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:210
+msgid "**PARAM_LINEAR_ACCEL** = **3** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置线性加速属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:212
+msgid "**PARAM_RADIAL_ACCEL** = **4** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置径向加速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:214
+msgid "**PARAM_TANGENTIAL_ACCEL** = **5** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置切向加速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:216
+msgid "**PARAM_DAMPING** = **6** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置阻尼属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:218
+msgid "**PARAM_ANGLE** = **7** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置角度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:220
+msgid "**PARAM_SCALE** = **8** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置缩放属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:222
+msgid "**PARAM_HUE_VARIATION** = **9** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置色调变化属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:224
+msgid "**PARAM_ANIM_SPEED** = **10** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置动画速度属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:226
+msgid "**PARAM_ANIM_OFFSET** = **11** --- 用于在 :ref:`set_param<class_ParticlesMaterial_method_set_param>`\\ 、\\ :ref:`set_param_randomness<class_ParticlesMaterial_method_set_param_randomness>` 和 :ref:`set_param_texture<class_ParticlesMaterial_method_set_param_texture>` 中设置动画偏移属性。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:228
+msgid "**PARAM_MAX** = **12** --- 表示\\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:242
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:244
+msgid "**FLAG_ALIGN_Y_TO_VELOCITY** = **0** --- 用于在 :ref:`set_flag<class_ParticlesMaterial_method_set_flag>` 中设置 :ref:`flag_align_y<class_ParticlesMaterial_property_flag_align_y>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:246
+msgid "**FLAG_ROTATE_Y** = **1** --- 用于在 :ref:`set_flag<class_ParticlesMaterial_method_set_flag>` 中设置 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:248
+msgid "**FLAG_DISABLE_Z** = **2** --- 用于在 :ref:`set_flag<class_ParticlesMaterial_method_set_flag>` 中设置 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:250
+msgid "**FLAG_MAX** = **3** --- 表示\\ :ref:`Flags<enum_ParticlesMaterial_Flags>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:270
+msgid "enum **EmissionShape**:"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:272
+msgid "**EMISSION_SHAPE_POINT** = **0** --- 所有粒子将从一个点发射。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:274
+msgid "**EMISSION_SHAPE_SPHERE** = **1** --- 粒子将在球体的体积中发射。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:276
+msgid "**EMISSION_SHAPE_BOX** = **2** --- 粒子将在盒子的体积中发射。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:278
+msgid "**EMISSION_SHAPE_POINTS** = **3** --- 粒子将在\\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\\ 上随机采样点所决定的位置发射。粒子颜色将由\\ :ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\\ 调节。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:280
+msgid "**EMISSION_SHAPE_DIRECTED_POINTS** = **4** --- 粒子将在\\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\\ 上随机采样点所决定的位置发射。粒子速度和旋转将基于\\ :ref:`emission_normal_texture<class_ParticlesMaterial_property_emission_normal_texture>`\\ 进行设置。粒子颜色将由\\ :ref:`emission_color_texture<class_ParticlesMaterial_property_emission_color_texture>`\\ 调节。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:282
+msgid "**EMISSION_SHAPE_RING** = **5** --- 粒子将以环形或圆柱的形式发射出来。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:284
+msgid "**EMISSION_SHAPE_MAX** = **6** --- 表示\\ :ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:287
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:291
+msgid ":ref:`float<class_float>` **angle**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:294
+#: ../classes/class_particlesmaterial.rst:326
+#: ../classes/class_particlesmaterial.rst:342
+#: ../classes/class_particlesmaterial.rst:374
+#: ../classes/class_particlesmaterial.rst:390
+#: ../classes/class_particlesmaterial.rst:420
+#: ../classes/class_particlesmaterial.rst:436
+#: ../classes/class_particlesmaterial.rst:466
+#: ../classes/class_particlesmaterial.rst:482
+#: ../classes/class_particlesmaterial.rst:526
+#: ../classes/class_particlesmaterial.rst:556
+#: ../classes/class_particlesmaterial.rst:572
+#: ../classes/class_particlesmaterial.rst:714
+#: ../classes/class_particlesmaterial.rst:744
+#: ../classes/class_particlesmaterial.rst:760
+#: ../classes/class_particlesmaterial.rst:776
+#: ../classes/class_particlesmaterial.rst:792
+#: ../classes/class_particlesmaterial.rst:808
+#: ../classes/class_particlesmaterial.rst:824
+#: ../classes/class_particlesmaterial.rst:854
+#: ../classes/class_particlesmaterial.rst:870
+#: ../classes/class_particlesmaterial.rst:886
+#: ../classes/class_particlesmaterial.rst:902
+#: ../classes/class_particlesmaterial.rst:918
+#: ../classes/class_particlesmaterial.rst:948
+#: ../classes/class_particlesmaterial.rst:1008
+#: ../classes/class_particlesmaterial.rst:1038
+#: ../classes/class_particlesmaterial.rst:1054
+#: ../classes/class_particlesmaterial.rst:1084
+#: ../classes/class_particlesmaterial.rst:1100
+#: ../classes/class_particlesmaterial.rst:1116
+#: ../classes/class_particlesmaterial.rst:1146
+#: ../classes/class_particlesmaterial.rst:1176
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:296
+#: ../classes/class_particlesmaterial.rst:312
+#: ../classes/class_particlesmaterial.rst:328
+#: ../classes/class_particlesmaterial.rst:344
+#: ../classes/class_particlesmaterial.rst:360
+#: ../classes/class_particlesmaterial.rst:376
+#: ../classes/class_particlesmaterial.rst:392
+#: ../classes/class_particlesmaterial.rst:406
+#: ../classes/class_particlesmaterial.rst:422
+#: ../classes/class_particlesmaterial.rst:438
+#: ../classes/class_particlesmaterial.rst:452
+#: ../classes/class_particlesmaterial.rst:468
+#: ../classes/class_particlesmaterial.rst:484
+#: ../classes/class_particlesmaterial.rst:498
+#: ../classes/class_particlesmaterial.rst:512
+#: ../classes/class_particlesmaterial.rst:528
+#: ../classes/class_particlesmaterial.rst:542
+#: ../classes/class_particlesmaterial.rst:558
+#: ../classes/class_particlesmaterial.rst:574
+#: ../classes/class_particlesmaterial.rst:588
+#: ../classes/class_particlesmaterial.rst:602
+#: ../classes/class_particlesmaterial.rst:616
+#: ../classes/class_particlesmaterial.rst:630
+#: ../classes/class_particlesmaterial.rst:644
+#: ../classes/class_particlesmaterial.rst:658
+#: ../classes/class_particlesmaterial.rst:672
+#: ../classes/class_particlesmaterial.rst:686
+#: ../classes/class_particlesmaterial.rst:700
+#: ../classes/class_particlesmaterial.rst:716
+#: ../classes/class_particlesmaterial.rst:730
+#: ../classes/class_particlesmaterial.rst:746
+#: ../classes/class_particlesmaterial.rst:762
+#: ../classes/class_particlesmaterial.rst:778
+#: ../classes/class_particlesmaterial.rst:794
+#: ../classes/class_particlesmaterial.rst:810
+#: ../classes/class_particlesmaterial.rst:826
+#: ../classes/class_particlesmaterial.rst:840
+#: ../classes/class_particlesmaterial.rst:856
+#: ../classes/class_particlesmaterial.rst:872
+#: ../classes/class_particlesmaterial.rst:888
+#: ../classes/class_particlesmaterial.rst:904
+#: ../classes/class_particlesmaterial.rst:920
+#: ../classes/class_particlesmaterial.rst:934
+#: ../classes/class_particlesmaterial.rst:950
+#: ../classes/class_particlesmaterial.rst:964
+#: ../classes/class_particlesmaterial.rst:980
+#: ../classes/class_particlesmaterial.rst:994
+#: ../classes/class_particlesmaterial.rst:1010
+#: ../classes/class_particlesmaterial.rst:1024
+#: ../classes/class_particlesmaterial.rst:1040
+#: ../classes/class_particlesmaterial.rst:1056
+#: ../classes/class_particlesmaterial.rst:1070
+#: ../classes/class_particlesmaterial.rst:1086
+#: ../classes/class_particlesmaterial.rst:1102
+#: ../classes/class_particlesmaterial.rst:1118
+#: ../classes/class_particlesmaterial.rst:1132
+#: ../classes/class_particlesmaterial.rst:1148
+#: ../classes/class_particlesmaterial.rst:1162
+#: ../classes/class_particlesmaterial.rst:1178
+#: ../classes/class_particlesmaterial.rst:1192
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:296
+#: ../classes/class_particlesmaterial.rst:344
+#: ../classes/class_particlesmaterial.rst:392
+#: ../classes/class_particlesmaterial.rst:438
+#: ../classes/class_particlesmaterial.rst:528
+#: ../classes/class_particlesmaterial.rst:826
+#: ../classes/class_particlesmaterial.rst:872
+#: ../classes/class_particlesmaterial.rst:920
+#: ../classes/class_particlesmaterial.rst:964
+#: ../classes/class_particlesmaterial.rst:1010
+#: ../classes/class_particlesmaterial.rst:1056
+#: ../classes/class_particlesmaterial.rst:1118
+msgid "set_param(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:298
+#: ../classes/class_particlesmaterial.rst:314
+#: ../classes/class_particlesmaterial.rst:330
+#: ../classes/class_particlesmaterial.rst:346
+#: ../classes/class_particlesmaterial.rst:362
+#: ../classes/class_particlesmaterial.rst:378
+#: ../classes/class_particlesmaterial.rst:394
+#: ../classes/class_particlesmaterial.rst:408
+#: ../classes/class_particlesmaterial.rst:424
+#: ../classes/class_particlesmaterial.rst:440
+#: ../classes/class_particlesmaterial.rst:454
+#: ../classes/class_particlesmaterial.rst:470
+#: ../classes/class_particlesmaterial.rst:486
+#: ../classes/class_particlesmaterial.rst:500
+#: ../classes/class_particlesmaterial.rst:514
+#: ../classes/class_particlesmaterial.rst:530
+#: ../classes/class_particlesmaterial.rst:544
+#: ../classes/class_particlesmaterial.rst:560
+#: ../classes/class_particlesmaterial.rst:576
+#: ../classes/class_particlesmaterial.rst:590
+#: ../classes/class_particlesmaterial.rst:604
+#: ../classes/class_particlesmaterial.rst:618
+#: ../classes/class_particlesmaterial.rst:632
+#: ../classes/class_particlesmaterial.rst:646
+#: ../classes/class_particlesmaterial.rst:660
+#: ../classes/class_particlesmaterial.rst:674
+#: ../classes/class_particlesmaterial.rst:688
+#: ../classes/class_particlesmaterial.rst:702
+#: ../classes/class_particlesmaterial.rst:718
+#: ../classes/class_particlesmaterial.rst:732
+#: ../classes/class_particlesmaterial.rst:748
+#: ../classes/class_particlesmaterial.rst:764
+#: ../classes/class_particlesmaterial.rst:780
+#: ../classes/class_particlesmaterial.rst:796
+#: ../classes/class_particlesmaterial.rst:812
+#: ../classes/class_particlesmaterial.rst:828
+#: ../classes/class_particlesmaterial.rst:842
+#: ../classes/class_particlesmaterial.rst:858
+#: ../classes/class_particlesmaterial.rst:874
+#: ../classes/class_particlesmaterial.rst:890
+#: ../classes/class_particlesmaterial.rst:906
+#: ../classes/class_particlesmaterial.rst:922
+#: ../classes/class_particlesmaterial.rst:936
+#: ../classes/class_particlesmaterial.rst:952
+#: ../classes/class_particlesmaterial.rst:966
+#: ../classes/class_particlesmaterial.rst:982
+#: ../classes/class_particlesmaterial.rst:996
+#: ../classes/class_particlesmaterial.rst:1012
+#: ../classes/class_particlesmaterial.rst:1026
+#: ../classes/class_particlesmaterial.rst:1042
+#: ../classes/class_particlesmaterial.rst:1058
+#: ../classes/class_particlesmaterial.rst:1072
+#: ../classes/class_particlesmaterial.rst:1088
+#: ../classes/class_particlesmaterial.rst:1104
+#: ../classes/class_particlesmaterial.rst:1120
+#: ../classes/class_particlesmaterial.rst:1134
+#: ../classes/class_particlesmaterial.rst:1150
+#: ../classes/class_particlesmaterial.rst:1164
+#: ../classes/class_particlesmaterial.rst:1180
+#: ../classes/class_particlesmaterial.rst:1194
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:298
+#: ../classes/class_particlesmaterial.rst:346
+#: ../classes/class_particlesmaterial.rst:394
+#: ../classes/class_particlesmaterial.rst:440
+#: ../classes/class_particlesmaterial.rst:530
+#: ../classes/class_particlesmaterial.rst:828
+#: ../classes/class_particlesmaterial.rst:874
+#: ../classes/class_particlesmaterial.rst:922
+#: ../classes/class_particlesmaterial.rst:966
+#: ../classes/class_particlesmaterial.rst:1012
+#: ../classes/class_particlesmaterial.rst:1058
+#: ../classes/class_particlesmaterial.rst:1120
+msgid "get_param()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:301
+msgid "应用于每个粒子的初始旋转，以度为单位。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:303
+#: ../classes/class_particlesmaterial.rst:351
+msgid "\\ **注意：**\\ 仅在 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 或 :ref:`flag_rotate_y<class_ParticlesMaterial_property_flag_rotate_y>` 为 ``true`` 或用于绘制粒子的 :ref:`SpatialMaterial<class_SpatialMaterial>` 使用 :ref:`SpatialMaterial.BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时应用。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:309
+msgid ":ref:`Texture<class_Texture>` **angle_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:312
+#: ../classes/class_particlesmaterial.rst:360
+#: ../classes/class_particlesmaterial.rst:406
+#: ../classes/class_particlesmaterial.rst:452
+#: ../classes/class_particlesmaterial.rst:542
+#: ../classes/class_particlesmaterial.rst:840
+#: ../classes/class_particlesmaterial.rst:934
+#: ../classes/class_particlesmaterial.rst:980
+#: ../classes/class_particlesmaterial.rst:1024
+#: ../classes/class_particlesmaterial.rst:1070
+#: ../classes/class_particlesmaterial.rst:1132
+msgid "set_param_texture(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:314
+#: ../classes/class_particlesmaterial.rst:362
+#: ../classes/class_particlesmaterial.rst:408
+#: ../classes/class_particlesmaterial.rst:454
+#: ../classes/class_particlesmaterial.rst:544
+#: ../classes/class_particlesmaterial.rst:842
+#: ../classes/class_particlesmaterial.rst:936
+#: ../classes/class_particlesmaterial.rst:982
+#: ../classes/class_particlesmaterial.rst:1026
+#: ../classes/class_particlesmaterial.rst:1072
+#: ../classes/class_particlesmaterial.rst:1134
+msgid "get_param_texture()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:317
+msgid "每个粒子的旋转将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 动画。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:323
+msgid ":ref:`float<class_float>` **angle_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:328
+#: ../classes/class_particlesmaterial.rst:376
+#: ../classes/class_particlesmaterial.rst:422
+#: ../classes/class_particlesmaterial.rst:468
+#: ../classes/class_particlesmaterial.rst:558
+#: ../classes/class_particlesmaterial.rst:856
+#: ../classes/class_particlesmaterial.rst:888
+#: ../classes/class_particlesmaterial.rst:950
+#: ../classes/class_particlesmaterial.rst:994
+#: ../classes/class_particlesmaterial.rst:1040
+#: ../classes/class_particlesmaterial.rst:1086
+#: ../classes/class_particlesmaterial.rst:1148
+msgid "set_param_randomness(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:330
+#: ../classes/class_particlesmaterial.rst:378
+#: ../classes/class_particlesmaterial.rst:424
+#: ../classes/class_particlesmaterial.rst:470
+#: ../classes/class_particlesmaterial.rst:560
+#: ../classes/class_particlesmaterial.rst:858
+#: ../classes/class_particlesmaterial.rst:890
+#: ../classes/class_particlesmaterial.rst:952
+#: ../classes/class_particlesmaterial.rst:996
+#: ../classes/class_particlesmaterial.rst:1042
+#: ../classes/class_particlesmaterial.rst:1088
+#: ../classes/class_particlesmaterial.rst:1150
+msgid "get_param_randomness()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:333
+msgid "旋转随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:339
+msgid ":ref:`float<class_float>` **angular_velocity**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:349
+msgid "应用于每个粒子的初始角速度，单位为\\ *度*\\ 每秒。设置粒子的旋转速度。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:357
+msgid ":ref:`Texture<class_Texture>` **angular_velocity_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:365
+msgid "每个粒子的角速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:371
+msgid ":ref:`float<class_float>` **angular_velocity_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:381
+msgid "角速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:387
+msgid ":ref:`float<class_float>` **anim_offset**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:397
+msgid "粒子动画偏移量。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:403
+msgid ":ref:`Texture<class_Texture>` **anim_offset_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:411
+msgid "每个粒子的动画偏移将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:417
+msgid ":ref:`float<class_float>` **anim_offset_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:427
+msgid "动画偏移随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:433
+msgid ":ref:`float<class_float>` **anim_speed**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:443
+msgid "粒子动画速度。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:449
+msgid ":ref:`Texture<class_Texture>` **anim_speed_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:457
+msgid "每个粒子的动画速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:463
+msgid ":ref:`float<class_float>` **anim_speed_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:473
+msgid "动画速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:479
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:484
+msgid "set_color(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:486
+msgid "get_color()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:489
+msgid "每个粒子的初始颜色。如果定义了 :ref:`Particles2D<class_Particles2D>` 的 ``texture``\\ ，它将乘以该颜色。要在 :ref:`SpatialMaterial<class_SpatialMaterial>` 中使用粒子显示颜色，请确保将 :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>` 设置为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:495
+msgid ":ref:`Texture<class_Texture>` **color_initial_ramp**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:498
+msgid "set_color_initial_ramp(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:500
+msgid "get_color_initial_ramp()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:503
+msgid "Each particle's initial color will vary along this :ref:`GradientTexture<class_GradientTexture>` (multiplied with :ref:`color<class_ParticlesMaterial_property_color>`)."
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:509
+msgid ":ref:`Texture<class_Texture>` **color_ramp**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:512
+msgid "set_color_ramp(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:514
+msgid "get_color_ramp()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:517
+msgid "每个粒子的颜色将在其生命周期内随着这个\\ :ref:`GradientTexture<class_GradientTexture>`\\ 变化，即与\\ :ref:`color<class_ParticlesMaterial_property_color>`\\ 相乘。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:523
+msgid ":ref:`float<class_float>` **damping**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:533
+msgid "粒子失去速度的速率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:539
+msgid ":ref:`Texture<class_Texture>` **damping_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:547
+msgid "阻尼将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:553
+msgid ":ref:`float<class_float>` **damping_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:563
+msgid "阻尼随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:569
+msgid ":ref:`Vector3<class_Vector3>` **direction**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:574
+msgid "set_direction(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:576
+msgid "get_direction()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:579
+msgid "指定粒子发射方向的单位向量。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:585
+msgid ":ref:`Vector3<class_Vector3>` **emission_box_extents**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:588
+msgid "set_emission_box_extents(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:590
+msgid "get_emission_box_extents()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:593
+msgid "``emission_shape``\\ 设置为\\ :ref:`EMISSION_SHAPE_BOX<class_ParticlesMaterial_constant_EMISSION_SHAPE_BOX>`\\ 时，Box的范围。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:599
+msgid ":ref:`Texture<class_Texture>` **emission_color_texture**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:602
+msgid "set_emission_color_texture(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:604
+msgid "get_emission_color_texture()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:607
+msgid "粒子颜色将由颜色调制，颜色由采样纹理在与\\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\\ 相同的点决定。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:613
+msgid ":ref:`Texture<class_Texture>` **emission_normal_texture**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:616
+msgid "set_emission_normal_texture(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:618
+msgid "get_emission_normal_texture()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:621
+msgid "粒子的速度和旋转将通过在与\\ :ref:`emission_point_texture<class_ParticlesMaterial_property_emission_point_texture>`\\ 相同的点上对该纹理进行采样来设置。仅在\\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\\ 中使用。可以通过选择工具栏中 \"粒子 \"工具下的 \"从网格/节点创建发射点\"，从网格或节点自动创建。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:627
+msgid ":ref:`int<class_int>` **emission_point_count**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:630
+msgid "set_emission_point_count(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:632
+msgid "get_emission_point_count()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:635
+msgid "``emission_shape``\\ 设置为\\ :ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\\ 或\\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\\ ，时的释放粒子数。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:641
+msgid ":ref:`Texture<class_Texture>` **emission_point_texture**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:644
+msgid "set_emission_point_texture(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:646
+msgid "get_emission_point_texture()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:649
+msgid "粒子将被发射到由随机采样纹理所决定的位置。与\\ :ref:`EMISSION_SHAPE_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_POINTS>`\\ 和\\ :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_ParticlesMaterial_constant_EMISSION_SHAPE_DIRECTED_POINTS>`\\ 一起使用。可以通过选择工具栏中的“粒子”工具下的“从网格/节点中创建发射点”自动创建网格或节点。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:655
+msgid ":ref:`Vector3<class_Vector3>` **emission_ring_axis**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:658
+msgid "set_emission_ring_axis(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:660
+msgid "get_emission_ring_axis()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:663
+msgid "使用发射器时的环轴 :ref:`EMISSION_SHAPE_RING<class_ParticlesMaterial_constant_EMISSION_SHAPE_RING>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:669
+msgid ":ref:`float<class_float>` **emission_ring_height**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:672
+msgid "set_emission_ring_height(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:674
+msgid "get_emission_ring_height()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:677
+msgid "使用发射器时环的高度 :ref:`EMISSION_SHAPE_RING<class_ParticlesMaterial_constant_EMISSION_SHAPE_RING>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:683
+msgid ":ref:`float<class_float>` **emission_ring_inner_radius**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:686
+msgid "set_emission_ring_inner_radius(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:688
+msgid "get_emission_ring_inner_radius()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:691
+msgid "使用发射器时环的内半径 :ref:`EMISSION_SHAPE_RING<class_ParticlesMaterial_constant_EMISSION_SHAPE_RING>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:697
+msgid ":ref:`float<class_float>` **emission_ring_radius**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:700
+msgid "set_emission_ring_radius(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:702
+msgid "get_emission_ring_radius()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:705
+msgid "使用发射器时的圆环半径 :ref:`EMISSION_SHAPE_RING<class_ParticlesMaterial_constant_EMISSION_SHAPE_RING>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:711
+msgid ":ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>` **emission_shape**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:716
+msgid "set_emission_shape(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:718
+msgid "get_emission_shape()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:721
+msgid "粒子将在这个区域内发射。使用\\ :ref:`EmissionShape<enum_ParticlesMaterial_EmissionShape>`\\ 常量作为值。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:727
+msgid ":ref:`float<class_float>` **emission_sphere_radius**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:730
+msgid "set_emission_sphere_radius(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:732
+msgid "get_emission_sphere_radius()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:735
+msgid "当\\ ``emission_shape``\\ 设置为\\ :ref:`EMISSION_SHAPE_SPHERE<class_ParticlesMaterial_constant_EMISSION_SHAPE_SPHERE>`\\ 时，球体的半径。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:741
+msgid ":ref:`bool<class_bool>` **flag_align_y**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:746
+#: ../classes/class_particlesmaterial.rst:762
+#: ../classes/class_particlesmaterial.rst:778
+msgid "set_flag(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:748
+#: ../classes/class_particlesmaterial.rst:764
+#: ../classes/class_particlesmaterial.rst:780
+msgid "get_flag()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:751
+msgid "将粒子的Y轴与其速度方向对齐。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:757
+msgid ":ref:`bool<class_bool>` **flag_disable_z**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:767
+msgid "如果\\ ``true``\\ ，则粒子将不会在z轴上移动。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:773
+msgid ":ref:`bool<class_bool>` **flag_rotate_y**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:783
+msgid "如果\\ ``true``\\ ，粒子绕Y轴旋转\\ :ref:`angle<class_ParticlesMaterial_property_angle>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:789
+msgid ":ref:`float<class_float>` **flatness**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:794
+msgid "set_flatness(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:796
+msgid "get_flatness()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:799
+msgid "沿 Y 轴的 :ref:`spread<class_ParticlesMaterial_property_spread>` 量。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:805
+msgid ":ref:`Vector3<class_Vector3>` **gravity**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:810
+msgid "set_gravity(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:812
+msgid "get_gravity()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:815
+msgid "重力作用于每个粒子。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:821
+msgid ":ref:`float<class_float>` **hue_variation**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:831
+msgid "初始色调变化应用于每个粒子。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:837
+msgid ":ref:`Texture<class_Texture>` **hue_variation_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:845
+msgid "每个粒子的色调将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:851
+msgid ":ref:`float<class_float>` **hue_variation_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:861
+msgid "色相变化随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:867
+msgid ":ref:`float<class_float>` **initial_velocity**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:877
+msgid "每个粒子的初始速度大小。方向来自\\ :ref:`spread<class_ParticlesMaterial_property_spread>`\\ 和节点的方向。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:883
+msgid ":ref:`float<class_float>` **initial_velocity_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:893
+msgid "初始速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:899
+msgid ":ref:`float<class_float>` **lifetime_randomness**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:904
+msgid "set_lifetime_randomness(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:906
+msgid "get_lifetime_randomness()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:909
+msgid "粒子寿命随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:915
+msgid ":ref:`float<class_float>` **linear_accel**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:925
+msgid "沿运动方向施加到每个粒子的线性加速度。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:931
+msgid ":ref:`Texture<class_Texture>` **linear_accel_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:939
+msgid "每个粒子的线性加速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:945
+msgid ":ref:`float<class_float>` **linear_accel_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:955
+msgid "线性加速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:961
+msgid ":ref:`float<class_float>` **orbit_velocity**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:969
+msgid "每个粒子的轨道速度。使粒子绕原点旋转。以每秒绕原点的完整旋转数指定。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:971
+msgid "\\ **注意：**\\ 仅当 :ref:`flag_disable_z<class_ParticlesMaterial_property_flag_disable_z>` 为 ``true`` 时可用。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:977
+msgid ":ref:`Texture<class_Texture>` **orbit_velocity_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:985
+msgid "每个粒子的轨道速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:991
+msgid ":ref:`float<class_float>` **orbit_velocity_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:999
+msgid "轨道速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1005
+msgid ":ref:`float<class_float>` **radial_accel**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1015
+msgid "径向加速度应用于每个粒子。使粒子加速远离原点。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1021
+msgid ":ref:`Texture<class_Texture>` **radial_accel_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1029
+msgid "每个粒子的径向加速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1035
+msgid ":ref:`float<class_float>` **radial_accel_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1045
+msgid "径向加速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1051
+msgid ":ref:`float<class_float>` **scale**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1061
+msgid "初始比例应用于每个粒子。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1067
+msgid ":ref:`Texture<class_Texture>` **scale_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1075
+msgid "每个粒子的比例将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1081
+msgid ":ref:`float<class_float>` **scale_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1091
+msgid "标度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1097
+msgid ":ref:`float<class_float>` **spread**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1102
+msgid "set_spread(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1104
+msgid "get_spread()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1107
+msgid "每个粒子的初始方向范围为\\ ``+spread`` 到 ``-spread``\\ 度。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1113
+msgid ":ref:`float<class_float>` **tangential_accel**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1123
+msgid "切向加速度应用于每个粒子。切向加速度垂直于粒子的速度，使粒子产生涡旋运动。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1129
+msgid ":ref:`Texture<class_Texture>` **tangential_accel_curve**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1137
+msgid "每个粒子的切向加速度将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1143
+msgid ":ref:`float<class_float>` **tangential_accel_random**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1153
+msgid "切向加速度随机率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1159
+msgid ":ref:`GradientTexture<class_GradientTexture>` **trail_color_modifier**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1162
+msgid "set_trail_color_modifier(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1164
+msgid "get_trail_color_modifier()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1167
+msgid "轨迹粒子的颜色将沿着这个\\ :ref:`GradientTexture<class_GradientTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1173
+msgid ":ref:`int<class_int>` **trail_divisor**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1178
+msgid "set_trail_divisor(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1180
+msgid "get_trail_divisor()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1183
+msgid "发射器将发射\\ ``amount``\\ 除以\\ ``trail_visor``\\ 的粒子。剩下的粒子将作为轨迹使用。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1189
+msgid ":ref:`CurveTexture<class_CurveTexture>` **trail_size_modifier**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1192
+msgid "set_trail_size_modifier(value)"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1194
+msgid "get_trail_size_modifier()"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1197
+msgid "轨迹粒子的大小将沿着这个\\ :ref:`CurveTexture<class_CurveTexture>`\\ 变化。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1200
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1204
+msgid ":ref:`bool<class_bool>` **get_flag** **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1206
+msgid "如果指定的Flag被启用，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1212
+msgid ":ref:`float<class_float>` **get_param** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1214
+msgid "返回指定参数的值。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1220
+msgid ":ref:`float<class_float>` **get_param_randomness** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1222
+msgid "返回与指定参数关联的随机比率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1228
+msgid ":ref:`Texture<class_Texture>` **get_param_texture** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1230
+msgid "返回指定参数使用的 :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1236
+msgid "void **set_flag** **(** :ref:`Flags<enum_ParticlesMaterial_Flags>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1238
+msgid "如果\\ ``true``\\ ，启用指定的Flag。选项请参阅\\ :ref:`Flags<enum_ParticlesMaterial_Flags>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1244
+msgid "void **set_param** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1246
+msgid "设置指定的\\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`\\ 。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1252
+msgid "void **set_param_randomness** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`float<class_float>` randomness **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1254
+msgid "为指定的\\ :ref:`Parameter<enum_ParticlesMaterial_Parameter>`\\ 设置随机比率。"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1260
+msgid "void **set_param_texture** **(** :ref:`Parameter<enum_ParticlesMaterial_Parameter>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_particlesmaterial.rst:1262
+msgid "为指定的 :ref:`Parameter<enum_ParticlesMaterial_Parameter>` 设置 :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

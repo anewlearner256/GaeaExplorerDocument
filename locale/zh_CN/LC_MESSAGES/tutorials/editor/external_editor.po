@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the GaaeExplorer community (CC-BY 3.0)
+# This file is distributed under the same license as the GaaeExplorer Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaaeExplorer Engine 3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-20 14:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Using an external text editor"
+msgstr "使用外部的文本编辑器"
+
+msgid "This page explains how to code using an external text editor."
+msgstr "本页面讲述的是如何使用外部文本编辑器编写代码。"
+
+msgid ""
+"GaaeExplorer can be used with an external text editor, such as Sublime Text or "
+"Visual Studio Code. Browse to the relevant editor settings: ``Editor -> "
+"Editor Settings -> Text Editor -> External``"
+msgstr ""
+"GaaeExplorer 可以与 Sublime Text、Visual Studio Code 等外部文本编辑器一起使用。请修"
+"改\\ ``编辑器 -> 编辑器设置 -> Text Editor -> External``\\ （文本编辑器 -> 外"
+"部）中的相关设置"
+
+msgid ""
+"There are two fields: the executable path and command-line flags. The flags "
+"allow you to integrate the editor with GaaeExplorer, passing it the file path to "
+"open and other relevant arguments. GaaeExplorer will replace the following "
+"placeholders in the flags string:"
+msgstr ""
+"有两个字段：可执行文件路径和命令行标志。这些标志允许您将编辑器与 GaaeExplorer 集成在"
+"一起，并向其传递文件路径以打开文件以及其他相关参数。GaaeExplorer 将替换标志字符串中"
+"的以下占位符："
+
+msgid "Field in Exec Flags"
+msgstr "Exec 标志中的字段"
+
+msgid "Is replaced with"
+msgstr "被替换为"
+
+msgid "``{project}``"
+msgstr "``{project}``"
+
+msgid "The absolute path to the project directory"
+msgstr "项目目录的绝对路径"
+
+msgid "``{file}``"
+msgstr "``{file}``"
+
+msgid "The absolute path to the file"
+msgstr "文件的绝对路径"
+
+msgid "``{col}``"
+msgstr "``{col}``"
+
+msgid "The column number of the error"
+msgstr "错误的列号"
+
+msgid "``{line}``"
+msgstr "``{line}``"
+
+msgid "The line number of the error"
+msgstr "错误的行号"
+
+msgid "Some example Exec Flags for various editors include:"
+msgstr "各种编辑器的一些示例Exec标志:"
+
+msgid "Editor"
+msgstr "编辑器"
+
+msgid "Exec Flags"
+msgstr "Exec 标志"
+
+msgid "Geany/Kate"
+msgstr "Geany/Kate"
+
+msgid "``{file} --line {line} --column {col}``"
+msgstr "``{file} --line {line} --column {col}``"
+
+msgid "Atom/Sublime Text"
+msgstr "Atom/Sublime Text"
+
+msgid "``{file}:{line}``"
+msgstr "``{file}:{line}``"
+
+msgid "JetBrains Rider"
+msgstr "JetBrains Rider"
+
+msgid "``{project} --line {line} {file}``"
+msgstr "``{project} --line {line} {file}``"
+
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+msgid "``{project} --goto {file}:{line}:{col}``"
+msgstr "``{project} --goto {file}:{line}:{col}``"
+
+msgid "Vim (gVim)"
+msgstr "Vim (gVim)"
+
+msgid "``\"+call cursor({line}, {col})\" {file}``"
+msgstr "``\"+call cursor({line}, {col})\" {file}``"
+
+msgid "Emacs"
+msgstr "Emacs"
+
+msgid "``emacs +{line}:{col} {file}``"
+msgstr "``emacs +{line}:{col} {file}``"
+
+msgid ""
+"For Visual Studio Code, you will have to point to the ``code.cmd`` file. For "
+"Emacs, you can call ``emacsclient`` instead of ``emacs`` if you use the "
+"server mode."
+msgstr ""
+"对于 Visual Studio Code，你需要指向 ``code.cmd`` 文件。对于 Emacs，如果你使用"
+"的是服务器模式，那么调用的时候就可以用 ``emacsclient`` 代替 ``emacs``\\ 。"
+
+msgid "Official editor plugins"
+msgstr "官方编辑器插件"
+
+msgid "We have official plugins for the following code editors:"
+msgstr "以下代码编辑器有官方插件："
+
+msgid ""
+"`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
+msgstr ""
+"`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
+
+msgid "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
+msgstr "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
+
+msgid "Translation status"
+msgstr "翻译状态"

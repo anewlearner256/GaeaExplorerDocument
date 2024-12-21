@@ -1,0 +1,1163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/io/binary_serialization_api.rst:4
+msgid "Binary serialization API"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:9
+msgid "GaaeExplorer has a simple serialization API based on Variant. It's used for converting data types to an array of bytes efficiently. This API is used in the functions ``get_var`` and ``store_var`` of :ref:`class_File` as well as the packet APIs for :ref:`class_PacketPeer`. This format is *not* used for binary scenes and resources."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:16
+msgid "Packet specification"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:18
+msgid "The packet is designed to be always padded to 4 bytes. All values are little-endian-encoded. All packets have a 4-byte header representing an integer, specifying the type of data."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:22
+msgid "The lowest value two bytes are used to determine the type, while the highest value two bytes contain flags::"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:29
+#: ../tutorials/io/binary_serialization_api.rst:102
+#: ../tutorials/io/binary_serialization_api.rst:113
+#: ../tutorials/io/binary_serialization_api.rst:122
+#: ../tutorials/io/binary_serialization_api.rst:133
+#: ../tutorials/io/binary_serialization_api.rst:142
+#: ../tutorials/io/binary_serialization_api.rst:151
+#: ../tutorials/io/binary_serialization_api.rst:164
+#: ../tutorials/io/binary_serialization_api.rst:175
+#: ../tutorials/io/binary_serialization_api.rst:190
+#: ../tutorials/io/binary_serialization_api.rst:203
+#: ../tutorials/io/binary_serialization_api.rst:222
+#: ../tutorials/io/binary_serialization_api.rst:237
+#: ../tutorials/io/binary_serialization_api.rst:252
+#: ../tutorials/io/binary_serialization_api.rst:271
+#: ../tutorials/io/binary_serialization_api.rst:296
+#: ../tutorials/io/binary_serialization_api.rst:327
+#: ../tutorials/io/binary_serialization_api.rst:342
+#: ../tutorials/io/binary_serialization_api.rst:351
+#: ../tutorials/io/binary_serialization_api.rst:362
+#: ../tutorials/io/binary_serialization_api.rst:372
+#: ../tutorials/io/binary_serialization_api.rst:391
+#: ../tutorials/io/binary_serialization_api.rst:403
+#: ../tutorials/io/binary_serialization_api.rst:415
+#: ../tutorials/io/binary_serialization_api.rst:428
+#: ../tutorials/io/binary_serialization_api.rst:439
+#: ../tutorials/io/binary_serialization_api.rst:450
+#: ../tutorials/io/binary_serialization_api.rst:458
+#: ../tutorials/io/binary_serialization_api.rst:471
+#: ../tutorials/io/binary_serialization_api.rst:484
+#: ../tutorials/io/binary_serialization_api.rst:499
+msgid "Type"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:29
+msgid "Value"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:31
+msgid "0"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:31
+msgid "null"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:33
+#: ../tutorials/io/binary_serialization_api.rst:419
+msgid "1"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:33
+msgid "bool"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:35
+msgid "2"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:35
+msgid "integer"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:37
+msgid "3"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:37
+msgid "float"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:39
+#: ../tutorials/io/binary_serialization_api.rst:104
+#: ../tutorials/io/binary_serialization_api.rst:104
+#: ../tutorials/io/binary_serialization_api.rst:115
+#: ../tutorials/io/binary_serialization_api.rst:115
+#: ../tutorials/io/binary_serialization_api.rst:124
+#: ../tutorials/io/binary_serialization_api.rst:135
+#: ../tutorials/io/binary_serialization_api.rst:135
+#: ../tutorials/io/binary_serialization_api.rst:144
+#: ../tutorials/io/binary_serialization_api.rst:153
+#: ../tutorials/io/binary_serialization_api.rst:153
+#: ../tutorials/io/binary_serialization_api.rst:166
+#: ../tutorials/io/binary_serialization_api.rst:166
+#: ../tutorials/io/binary_serialization_api.rst:168
+#: ../tutorials/io/binary_serialization_api.rst:177
+#: ../tutorials/io/binary_serialization_api.rst:177
+#: ../tutorials/io/binary_serialization_api.rst:179
+#: ../tutorials/io/binary_serialization_api.rst:181
+#: ../tutorials/io/binary_serialization_api.rst:183
+#: ../tutorials/io/binary_serialization_api.rst:192
+#: ../tutorials/io/binary_serialization_api.rst:192
+#: ../tutorials/io/binary_serialization_api.rst:194
+#: ../tutorials/io/binary_serialization_api.rst:196
+#: ../tutorials/io/binary_serialization_api.rst:205
+#: ../tutorials/io/binary_serialization_api.rst:205
+#: ../tutorials/io/binary_serialization_api.rst:207
+#: ../tutorials/io/binary_serialization_api.rst:209
+#: ../tutorials/io/binary_serialization_api.rst:211
+#: ../tutorials/io/binary_serialization_api.rst:213
+#: ../tutorials/io/binary_serialization_api.rst:215
+#: ../tutorials/io/binary_serialization_api.rst:224
+#: ../tutorials/io/binary_serialization_api.rst:224
+#: ../tutorials/io/binary_serialization_api.rst:226
+#: ../tutorials/io/binary_serialization_api.rst:228
+#: ../tutorials/io/binary_serialization_api.rst:230
+#: ../tutorials/io/binary_serialization_api.rst:239
+#: ../tutorials/io/binary_serialization_api.rst:239
+#: ../tutorials/io/binary_serialization_api.rst:241
+#: ../tutorials/io/binary_serialization_api.rst:243
+#: ../tutorials/io/binary_serialization_api.rst:245
+#: ../tutorials/io/binary_serialization_api.rst:254
+#: ../tutorials/io/binary_serialization_api.rst:254
+#: ../tutorials/io/binary_serialization_api.rst:256
+#: ../tutorials/io/binary_serialization_api.rst:258
+#: ../tutorials/io/binary_serialization_api.rst:260
+#: ../tutorials/io/binary_serialization_api.rst:262
+#: ../tutorials/io/binary_serialization_api.rst:264
+#: ../tutorials/io/binary_serialization_api.rst:273
+#: ../tutorials/io/binary_serialization_api.rst:273
+#: ../tutorials/io/binary_serialization_api.rst:275
+#: ../tutorials/io/binary_serialization_api.rst:277
+#: ../tutorials/io/binary_serialization_api.rst:279
+#: ../tutorials/io/binary_serialization_api.rst:281
+#: ../tutorials/io/binary_serialization_api.rst:283
+#: ../tutorials/io/binary_serialization_api.rst:285
+#: ../tutorials/io/binary_serialization_api.rst:287
+#: ../tutorials/io/binary_serialization_api.rst:289
+#: ../tutorials/io/binary_serialization_api.rst:298
+#: ../tutorials/io/binary_serialization_api.rst:298
+#: ../tutorials/io/binary_serialization_api.rst:300
+#: ../tutorials/io/binary_serialization_api.rst:302
+#: ../tutorials/io/binary_serialization_api.rst:304
+#: ../tutorials/io/binary_serialization_api.rst:306
+#: ../tutorials/io/binary_serialization_api.rst:308
+#: ../tutorials/io/binary_serialization_api.rst:310
+#: ../tutorials/io/binary_serialization_api.rst:312
+#: ../tutorials/io/binary_serialization_api.rst:314
+#: ../tutorials/io/binary_serialization_api.rst:316
+#: ../tutorials/io/binary_serialization_api.rst:318
+#: ../tutorials/io/binary_serialization_api.rst:320
+#: ../tutorials/io/binary_serialization_api.rst:329
+#: ../tutorials/io/binary_serialization_api.rst:329
+#: ../tutorials/io/binary_serialization_api.rst:331
+#: ../tutorials/io/binary_serialization_api.rst:333
+#: ../tutorials/io/binary_serialization_api.rst:335
+#: ../tutorials/io/binary_serialization_api.rst:344
+#: ../tutorials/io/binary_serialization_api.rst:344
+#: ../tutorials/io/binary_serialization_api.rst:364
+#: ../tutorials/io/binary_serialization_api.rst:364
+#: ../tutorials/io/binary_serialization_api.rst:366
+#: ../tutorials/io/binary_serialization_api.rst:374
+#: ../tutorials/io/binary_serialization_api.rst:393
+#: ../tutorials/io/binary_serialization_api.rst:393
+#: ../tutorials/io/binary_serialization_api.rst:405
+#: ../tutorials/io/binary_serialization_api.rst:405
+#: ../tutorials/io/binary_serialization_api.rst:417
+#: ../tutorials/io/binary_serialization_api.rst:417
+#: ../tutorials/io/binary_serialization_api.rst:430
+#: ../tutorials/io/binary_serialization_api.rst:430
+#: ../tutorials/io/binary_serialization_api.rst:432
+#: ../tutorials/io/binary_serialization_api.rst:441
+#: ../tutorials/io/binary_serialization_api.rst:441
+#: ../tutorials/io/binary_serialization_api.rst:443
+#: ../tutorials/io/binary_serialization_api.rst:452
+#: ../tutorials/io/binary_serialization_api.rst:452
+#: ../tutorials/io/binary_serialization_api.rst:460
+#: ../tutorials/io/binary_serialization_api.rst:473
+#: ../tutorials/io/binary_serialization_api.rst:473
+#: ../tutorials/io/binary_serialization_api.rst:475
+#: ../tutorials/io/binary_serialization_api.rst:477
+#: ../tutorials/io/binary_serialization_api.rst:486
+#: ../tutorials/io/binary_serialization_api.rst:486
+#: ../tutorials/io/binary_serialization_api.rst:488
+#: ../tutorials/io/binary_serialization_api.rst:490
+#: ../tutorials/io/binary_serialization_api.rst:492
+#: ../tutorials/io/binary_serialization_api.rst:501
+#: ../tutorials/io/binary_serialization_api.rst:501
+#: ../tutorials/io/binary_serialization_api.rst:503
+#: ../tutorials/io/binary_serialization_api.rst:505
+#: ../tutorials/io/binary_serialization_api.rst:507
+#: ../tutorials/io/binary_serialization_api.rst:509
+msgid "4"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:39
+msgid "string"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:41
+msgid "5"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:41
+msgid "vector2"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:43
+msgid "6"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:43
+msgid "rect2"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:45
+msgid "7"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:45
+msgid "vector3"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:47
+#: ../tutorials/io/binary_serialization_api.rst:124
+#: ../tutorials/io/binary_serialization_api.rst:144
+#: ../tutorials/io/binary_serialization_api.rst:155
+#: ../tutorials/io/binary_serialization_api.rst:168
+#: ../tutorials/io/binary_serialization_api.rst:179
+#: ../tutorials/io/binary_serialization_api.rst:194
+#: ../tutorials/io/binary_serialization_api.rst:207
+#: ../tutorials/io/binary_serialization_api.rst:226
+#: ../tutorials/io/binary_serialization_api.rst:241
+#: ../tutorials/io/binary_serialization_api.rst:256
+#: ../tutorials/io/binary_serialization_api.rst:275
+#: ../tutorials/io/binary_serialization_api.rst:300
+#: ../tutorials/io/binary_serialization_api.rst:331
+#: ../tutorials/io/binary_serialization_api.rst:353
+#: ../tutorials/io/binary_serialization_api.rst:366
+msgid "8"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:47
+msgid "transform2d"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:49
+msgid "9"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:49
+msgid "plane"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:51
+msgid "10"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:51
+msgid "quat"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:53
+msgid "11"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:53
+msgid "aabb"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:55
+#: ../tutorials/io/binary_serialization_api.rst:181
+#: ../tutorials/io/binary_serialization_api.rst:196
+#: ../tutorials/io/binary_serialization_api.rst:209
+#: ../tutorials/io/binary_serialization_api.rst:228
+#: ../tutorials/io/binary_serialization_api.rst:243
+#: ../tutorials/io/binary_serialization_api.rst:258
+#: ../tutorials/io/binary_serialization_api.rst:277
+#: ../tutorials/io/binary_serialization_api.rst:302
+#: ../tutorials/io/binary_serialization_api.rst:333
+msgid "12"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:55
+msgid "basis"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:57
+msgid "13"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:57
+msgid "transform"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:59
+msgid "14"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:59
+msgid "color"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:61
+msgid "15"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:61
+msgid "node path"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:63
+#: ../tutorials/io/binary_serialization_api.rst:183
+#: ../tutorials/io/binary_serialization_api.rst:211
+#: ../tutorials/io/binary_serialization_api.rst:230
+#: ../tutorials/io/binary_serialization_api.rst:245
+#: ../tutorials/io/binary_serialization_api.rst:260
+#: ../tutorials/io/binary_serialization_api.rst:279
+#: ../tutorials/io/binary_serialization_api.rst:304
+#: ../tutorials/io/binary_serialization_api.rst:335
+msgid "16"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:63
+msgid "rid"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:65
+msgid "17"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:65
+msgid "object"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:67
+msgid "18"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:67
+msgid "dictionary"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:69
+msgid "19"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:69
+msgid "array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:71
+#: ../tutorials/io/binary_serialization_api.rst:213
+#: ../tutorials/io/binary_serialization_api.rst:262
+#: ../tutorials/io/binary_serialization_api.rst:281
+#: ../tutorials/io/binary_serialization_api.rst:306
+msgid "20"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:71
+msgid "raw array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:73
+msgid "21"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:73
+msgid "int array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:75
+msgid "22"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:75
+msgid "real array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:77
+msgid "23"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:77
+msgid "string array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:79
+#: ../tutorials/io/binary_serialization_api.rst:215
+#: ../tutorials/io/binary_serialization_api.rst:264
+#: ../tutorials/io/binary_serialization_api.rst:283
+#: ../tutorials/io/binary_serialization_api.rst:308
+msgid "24"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:79
+msgid "vector2 array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:81
+msgid "25"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:81
+msgid "vector3 array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:83
+msgid "26"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:83
+msgid "color array"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:85
+msgid "27"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:85
+msgid "max"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:88
+msgid "Following this is the actual packet contents, which varies for each type of packet. Note that this assumes GaaeExplorer is compiled with single-precision floats, which is the default. If GaaeExplorer was compiled with double-precision floats, the length of \"Float\" fields within data structures should be 8, and the offset should be ``(offset - 4) * 2 + 4``. The \"float\" type itself always uses double precision."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:96
+msgid "0: null"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:99
+msgid "1: :ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:102
+#: ../tutorials/io/binary_serialization_api.rst:113
+#: ../tutorials/io/binary_serialization_api.rst:122
+#: ../tutorials/io/binary_serialization_api.rst:133
+#: ../tutorials/io/binary_serialization_api.rst:142
+#: ../tutorials/io/binary_serialization_api.rst:151
+#: ../tutorials/io/binary_serialization_api.rst:164
+#: ../tutorials/io/binary_serialization_api.rst:175
+#: ../tutorials/io/binary_serialization_api.rst:190
+#: ../tutorials/io/binary_serialization_api.rst:203
+#: ../tutorials/io/binary_serialization_api.rst:222
+#: ../tutorials/io/binary_serialization_api.rst:237
+#: ../tutorials/io/binary_serialization_api.rst:252
+#: ../tutorials/io/binary_serialization_api.rst:271
+#: ../tutorials/io/binary_serialization_api.rst:296
+#: ../tutorials/io/binary_serialization_api.rst:327
+#: ../tutorials/io/binary_serialization_api.rst:342
+#: ../tutorials/io/binary_serialization_api.rst:351
+#: ../tutorials/io/binary_serialization_api.rst:362
+#: ../tutorials/io/binary_serialization_api.rst:372
+#: ../tutorials/io/binary_serialization_api.rst:391
+#: ../tutorials/io/binary_serialization_api.rst:403
+#: ../tutorials/io/binary_serialization_api.rst:415
+#: ../tutorials/io/binary_serialization_api.rst:428
+#: ../tutorials/io/binary_serialization_api.rst:439
+#: ../tutorials/io/binary_serialization_api.rst:450
+#: ../tutorials/io/binary_serialization_api.rst:458
+#: ../tutorials/io/binary_serialization_api.rst:471
+#: ../tutorials/io/binary_serialization_api.rst:484
+#: ../tutorials/io/binary_serialization_api.rst:499
+msgid "Offset"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:102
+#: ../tutorials/io/binary_serialization_api.rst:113
+#: ../tutorials/io/binary_serialization_api.rst:122
+#: ../tutorials/io/binary_serialization_api.rst:133
+#: ../tutorials/io/binary_serialization_api.rst:142
+#: ../tutorials/io/binary_serialization_api.rst:151
+#: ../tutorials/io/binary_serialization_api.rst:164
+#: ../tutorials/io/binary_serialization_api.rst:175
+#: ../tutorials/io/binary_serialization_api.rst:190
+#: ../tutorials/io/binary_serialization_api.rst:203
+#: ../tutorials/io/binary_serialization_api.rst:222
+#: ../tutorials/io/binary_serialization_api.rst:237
+#: ../tutorials/io/binary_serialization_api.rst:252
+#: ../tutorials/io/binary_serialization_api.rst:271
+#: ../tutorials/io/binary_serialization_api.rst:296
+#: ../tutorials/io/binary_serialization_api.rst:327
+#: ../tutorials/io/binary_serialization_api.rst:342
+#: ../tutorials/io/binary_serialization_api.rst:351
+#: ../tutorials/io/binary_serialization_api.rst:362
+#: ../tutorials/io/binary_serialization_api.rst:372
+#: ../tutorials/io/binary_serialization_api.rst:391
+#: ../tutorials/io/binary_serialization_api.rst:403
+#: ../tutorials/io/binary_serialization_api.rst:415
+#: ../tutorials/io/binary_serialization_api.rst:428
+#: ../tutorials/io/binary_serialization_api.rst:439
+#: ../tutorials/io/binary_serialization_api.rst:450
+#: ../tutorials/io/binary_serialization_api.rst:458
+#: ../tutorials/io/binary_serialization_api.rst:471
+#: ../tutorials/io/binary_serialization_api.rst:484
+#: ../tutorials/io/binary_serialization_api.rst:499
+msgid "Len"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:102
+#: ../tutorials/io/binary_serialization_api.rst:113
+#: ../tutorials/io/binary_serialization_api.rst:122
+#: ../tutorials/io/binary_serialization_api.rst:133
+#: ../tutorials/io/binary_serialization_api.rst:142
+#: ../tutorials/io/binary_serialization_api.rst:151
+#: ../tutorials/io/binary_serialization_api.rst:164
+#: ../tutorials/io/binary_serialization_api.rst:175
+#: ../tutorials/io/binary_serialization_api.rst:190
+#: ../tutorials/io/binary_serialization_api.rst:203
+#: ../tutorials/io/binary_serialization_api.rst:222
+#: ../tutorials/io/binary_serialization_api.rst:237
+#: ../tutorials/io/binary_serialization_api.rst:252
+#: ../tutorials/io/binary_serialization_api.rst:271
+#: ../tutorials/io/binary_serialization_api.rst:296
+#: ../tutorials/io/binary_serialization_api.rst:327
+#: ../tutorials/io/binary_serialization_api.rst:342
+#: ../tutorials/io/binary_serialization_api.rst:351
+#: ../tutorials/io/binary_serialization_api.rst:362
+#: ../tutorials/io/binary_serialization_api.rst:372
+#: ../tutorials/io/binary_serialization_api.rst:391
+#: ../tutorials/io/binary_serialization_api.rst:403
+#: ../tutorials/io/binary_serialization_api.rst:415
+#: ../tutorials/io/binary_serialization_api.rst:428
+#: ../tutorials/io/binary_serialization_api.rst:439
+#: ../tutorials/io/binary_serialization_api.rst:450
+#: ../tutorials/io/binary_serialization_api.rst:458
+#: ../tutorials/io/binary_serialization_api.rst:471
+#: ../tutorials/io/binary_serialization_api.rst:484
+#: ../tutorials/io/binary_serialization_api.rst:499
+msgid "Description"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:104
+#: ../tutorials/io/binary_serialization_api.rst:115
+#: ../tutorials/io/binary_serialization_api.rst:124
+#: ../tutorials/io/binary_serialization_api.rst:153
+#: ../tutorials/io/binary_serialization_api.rst:344
+#: ../tutorials/io/binary_serialization_api.rst:364
+#: ../tutorials/io/binary_serialization_api.rst:366
+#: ../tutorials/io/binary_serialization_api.rst:374
+#: ../tutorials/io/binary_serialization_api.rst:393
+#: ../tutorials/io/binary_serialization_api.rst:405
+#: ../tutorials/io/binary_serialization_api.rst:417
+#: ../tutorials/io/binary_serialization_api.rst:430
+#: ../tutorials/io/binary_serialization_api.rst:432
+#: ../tutorials/io/binary_serialization_api.rst:441
+#: ../tutorials/io/binary_serialization_api.rst:443
+#: ../tutorials/io/binary_serialization_api.rst:452
+#: ../tutorials/io/binary_serialization_api.rst:460
+#: ../tutorials/io/binary_serialization_api.rst:473
+#: ../tutorials/io/binary_serialization_api.rst:486
+#: ../tutorials/io/binary_serialization_api.rst:501
+msgid "Integer"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:104
+msgid "0 for False, 1 for True"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:108
+msgid "2: :ref:`int<class_int>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:110
+msgid "If no flags are set (flags == 0), the integer is sent as a 32 bit integer:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:115
+#: ../tutorials/io/binary_serialization_api.rst:432
+msgid "32-bit signed integer"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:118
+msgid "If flag ``ENCODE_FLAG_64`` is set (``flags & 1 == 1``), the integer is sent as a 64-bit integer:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:124
+msgid "64-bit signed integer"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:128
+msgid "3: :ref:`float<class_float>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:130
+msgid "If no flags are set (flags == 0), the float is sent as a 32 bit single precision:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:135
+#: ../tutorials/io/binary_serialization_api.rst:144
+#: ../tutorials/io/binary_serialization_api.rst:166
+#: ../tutorials/io/binary_serialization_api.rst:168
+#: ../tutorials/io/binary_serialization_api.rst:177
+#: ../tutorials/io/binary_serialization_api.rst:179
+#: ../tutorials/io/binary_serialization_api.rst:181
+#: ../tutorials/io/binary_serialization_api.rst:183
+#: ../tutorials/io/binary_serialization_api.rst:192
+#: ../tutorials/io/binary_serialization_api.rst:194
+#: ../tutorials/io/binary_serialization_api.rst:196
+#: ../tutorials/io/binary_serialization_api.rst:205
+#: ../tutorials/io/binary_serialization_api.rst:207
+#: ../tutorials/io/binary_serialization_api.rst:209
+#: ../tutorials/io/binary_serialization_api.rst:211
+#: ../tutorials/io/binary_serialization_api.rst:213
+#: ../tutorials/io/binary_serialization_api.rst:215
+#: ../tutorials/io/binary_serialization_api.rst:224
+#: ../tutorials/io/binary_serialization_api.rst:226
+#: ../tutorials/io/binary_serialization_api.rst:228
+#: ../tutorials/io/binary_serialization_api.rst:230
+#: ../tutorials/io/binary_serialization_api.rst:239
+#: ../tutorials/io/binary_serialization_api.rst:241
+#: ../tutorials/io/binary_serialization_api.rst:243
+#: ../tutorials/io/binary_serialization_api.rst:245
+#: ../tutorials/io/binary_serialization_api.rst:254
+#: ../tutorials/io/binary_serialization_api.rst:256
+#: ../tutorials/io/binary_serialization_api.rst:258
+#: ../tutorials/io/binary_serialization_api.rst:260
+#: ../tutorials/io/binary_serialization_api.rst:262
+#: ../tutorials/io/binary_serialization_api.rst:264
+#: ../tutorials/io/binary_serialization_api.rst:273
+#: ../tutorials/io/binary_serialization_api.rst:275
+#: ../tutorials/io/binary_serialization_api.rst:277
+#: ../tutorials/io/binary_serialization_api.rst:279
+#: ../tutorials/io/binary_serialization_api.rst:281
+#: ../tutorials/io/binary_serialization_api.rst:283
+#: ../tutorials/io/binary_serialization_api.rst:285
+#: ../tutorials/io/binary_serialization_api.rst:287
+#: ../tutorials/io/binary_serialization_api.rst:289
+#: ../tutorials/io/binary_serialization_api.rst:298
+#: ../tutorials/io/binary_serialization_api.rst:300
+#: ../tutorials/io/binary_serialization_api.rst:302
+#: ../tutorials/io/binary_serialization_api.rst:304
+#: ../tutorials/io/binary_serialization_api.rst:306
+#: ../tutorials/io/binary_serialization_api.rst:308
+#: ../tutorials/io/binary_serialization_api.rst:310
+#: ../tutorials/io/binary_serialization_api.rst:312
+#: ../tutorials/io/binary_serialization_api.rst:314
+#: ../tutorials/io/binary_serialization_api.rst:316
+#: ../tutorials/io/binary_serialization_api.rst:318
+#: ../tutorials/io/binary_serialization_api.rst:320
+#: ../tutorials/io/binary_serialization_api.rst:329
+#: ../tutorials/io/binary_serialization_api.rst:331
+#: ../tutorials/io/binary_serialization_api.rst:333
+#: ../tutorials/io/binary_serialization_api.rst:335
+#: ../tutorials/io/binary_serialization_api.rst:475
+#: ../tutorials/io/binary_serialization_api.rst:477
+#: ../tutorials/io/binary_serialization_api.rst:488
+#: ../tutorials/io/binary_serialization_api.rst:490
+#: ../tutorials/io/binary_serialization_api.rst:492
+#: ../tutorials/io/binary_serialization_api.rst:503
+#: ../tutorials/io/binary_serialization_api.rst:505
+#: ../tutorials/io/binary_serialization_api.rst:507
+#: ../tutorials/io/binary_serialization_api.rst:509
+msgid "Float"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:135
+msgid "IEEE 754 single-precision float"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:138
+msgid "If flag ``ENCODE_FLAG_64`` is set (``flags & 1 == 1``), the float is sent as a 64-bit double precision number:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:144
+msgid "IEEE 754 double-precision float"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:148
+msgid "4: :ref:`String<class_string>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:153
+msgid "String length (in bytes)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:155
+#: ../tutorials/io/binary_serialization_api.rst:353
+#: ../tutorials/io/binary_serialization_api.rst:376
+#: ../tutorials/io/binary_serialization_api.rst:462
+msgid "X"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:155
+#: ../tutorials/io/binary_serialization_api.rst:353
+#: ../tutorials/io/binary_serialization_api.rst:376
+#: ../tutorials/io/binary_serialization_api.rst:462
+msgid "Bytes"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:155
+#: ../tutorials/io/binary_serialization_api.rst:353
+#: ../tutorials/io/binary_serialization_api.rst:376
+#: ../tutorials/io/binary_serialization_api.rst:462
+msgid "UTF-8 encoded string"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:158
+msgid "This field is padded to 4 bytes."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:161
+msgid "5: :ref:`Vector2<class_vector2>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:166
+#: ../tutorials/io/binary_serialization_api.rst:177
+#: ../tutorials/io/binary_serialization_api.rst:192
+#: ../tutorials/io/binary_serialization_api.rst:254
+#: ../tutorials/io/binary_serialization_api.rst:475
+#: ../tutorials/io/binary_serialization_api.rst:488
+msgid "X coordinate"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:168
+#: ../tutorials/io/binary_serialization_api.rst:179
+#: ../tutorials/io/binary_serialization_api.rst:194
+#: ../tutorials/io/binary_serialization_api.rst:256
+#: ../tutorials/io/binary_serialization_api.rst:477
+#: ../tutorials/io/binary_serialization_api.rst:490
+msgid "Y coordinate"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:172
+msgid "6: :ref:`Rect2<class_rect2>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:181
+#: ../tutorials/io/binary_serialization_api.rst:260
+msgid "X size"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:183
+#: ../tutorials/io/binary_serialization_api.rst:262
+msgid "Y size"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:187
+msgid "7: :ref:`Vector3<class_vector3>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:196
+#: ../tutorials/io/binary_serialization_api.rst:258
+#: ../tutorials/io/binary_serialization_api.rst:492
+msgid "Z coordinate"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:200
+msgid "8: :ref:`Transform2D<class_transform2d>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:205
+#: ../tutorials/io/binary_serialization_api.rst:273
+#: ../tutorials/io/binary_serialization_api.rst:298
+msgid "The X component of the X column vector, accessed via [0][0]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:207
+#: ../tutorials/io/binary_serialization_api.rst:275
+#: ../tutorials/io/binary_serialization_api.rst:300
+msgid "The Y component of the X column vector, accessed via [0][1]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:209
+#: ../tutorials/io/binary_serialization_api.rst:279
+#: ../tutorials/io/binary_serialization_api.rst:304
+msgid "The X component of the Y column vector, accessed via [1][0]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:211
+#: ../tutorials/io/binary_serialization_api.rst:281
+#: ../tutorials/io/binary_serialization_api.rst:306
+msgid "The Y component of the Y column vector, accessed via [1][1]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:213
+msgid "The X component of the origin vector, accessed via [2][0]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:215
+msgid "The Y component of the origin vector, accessed via [2][1]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:219
+msgid "9: :ref:`Plane<class_plane>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:224
+msgid "Normal X"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:226
+msgid "Normal Y"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:228
+msgid "Normal Z"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:230
+msgid "Distance"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:234
+msgid "10: :ref:`Quat<class_quat>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:239
+msgid "Imaginary X"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:241
+msgid "Imaginary Y"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:243
+msgid "Imaginary Z"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:245
+msgid "Real W"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:249
+msgid "11: :ref:`AABB<class_aabb>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:264
+msgid "Z size"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:268
+msgid "12: :ref:`Basis<class_basis>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:277
+#: ../tutorials/io/binary_serialization_api.rst:302
+msgid "The Z component of the X column vector, accessed via [0][2]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:283
+#: ../tutorials/io/binary_serialization_api.rst:308
+msgid "The Z component of the Y column vector, accessed via [1][2]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:285
+#: ../tutorials/io/binary_serialization_api.rst:310
+msgid "28"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:285
+#: ../tutorials/io/binary_serialization_api.rst:310
+msgid "The X component of the Z column vector, accessed via [2][0]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:287
+#: ../tutorials/io/binary_serialization_api.rst:312
+msgid "32"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:287
+#: ../tutorials/io/binary_serialization_api.rst:312
+msgid "The Y component of the Z column vector, accessed via [2][1]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:289
+#: ../tutorials/io/binary_serialization_api.rst:314
+msgid "36"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:289
+#: ../tutorials/io/binary_serialization_api.rst:314
+msgid "The Z component of the Z column vector, accessed via [2][2]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:293
+msgid "13: :ref:`Transform<class_transform>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:316
+msgid "40"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:316
+msgid "The X component of the origin vector, accessed via [3][0]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:318
+msgid "44"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:318
+msgid "The Y component of the origin vector, accessed via [3][1]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:320
+msgid "48"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:320
+msgid "The Z component of the origin vector, accessed via [3][2]"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:324
+msgid "14: :ref:`Color<class_color>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:329
+#: ../tutorials/io/binary_serialization_api.rst:503
+msgid "Red (typically 0..1, can be above 1 for overbright colors)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:331
+#: ../tutorials/io/binary_serialization_api.rst:505
+msgid "Green (typically 0..1, can be above 1 for overbright colors)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:333
+#: ../tutorials/io/binary_serialization_api.rst:507
+msgid "Blue (typically 0..1, can be above 1 for overbright colors)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:335
+#: ../tutorials/io/binary_serialization_api.rst:509
+msgid "Alpha (0..1)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:339
+msgid "15: :ref:`NodePath<class_nodepath>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:344
+msgid "String length, or new format (val&0x80000000!=0 and NameCount=val&0x7FFFFFFF)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:348
+msgid "For old format:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:356
+msgid "Padded to 4 bytes."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:359
+msgid "For new format:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:364
+msgid "Sub-name count"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:366
+msgid "Flags (absolute: val&1 != 0 )"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:369
+msgid "For each Name and Sub-Name"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:374
+#: ../tutorials/io/binary_serialization_api.rst:460
+msgid "X+0"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:374
+#: ../tutorials/io/binary_serialization_api.rst:460
+msgid "String length"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:376
+#: ../tutorials/io/binary_serialization_api.rst:462
+msgid "X+4"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:379
+msgid "Every name string is padded to 4 bytes."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:382
+msgid "16: :ref:`RID<class_rid>` (unsupported)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:385
+msgid "17: :ref:`Object<class_object>` (unsupported)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:388
+msgid "18: :ref:`Dictionary<class_dictionary>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:393
+#: ../tutorials/io/binary_serialization_api.rst:405
+msgid "val&0x7FFFFFFF = elements, val&0x80000000 = shared (bool)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:396
+msgid "Then what follows is, for amount of \"elements\", pairs of key and value, one after the other, using this same format."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:400
+msgid "19: :ref:`Array<class_array>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:408
+msgid "Then what follows is, for amount of \"elements\", values one after the other, using this same format."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:412
+msgid "20: :ref:`PoolByteArray<class_poolbytearray>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:417
+msgid "Array length (Bytes)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:419
+msgid "8..8+length"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:419
+msgid "Byte"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:419
+msgid "Byte (0..255)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:422
+msgid "The array data is padded to 4 bytes."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:425
+msgid "21: :ref:`PoolIntArray<class_poolintarray>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:430
+msgid "Array length (Integers)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:432
+#: ../tutorials/io/binary_serialization_api.rst:443
+msgid "8..8+length\\*4"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:436
+msgid "22: :ref:`PoolRealArray<class_poolrealarray>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:441
+msgid "Array length (Floats)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:443
+msgid "32-bits IEEE 754 float"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:447
+msgid "23: :ref:`PoolStringArray<class_poolstringarray>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:452
+msgid "Array length (Strings)"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:455
+msgid "For each String:"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:465
+msgid "Every string is padded to 4 bytes."
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:468
+msgid "24: :ref:`PoolVector2Array<class_poolvector2array>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:473
+#: ../tutorials/io/binary_serialization_api.rst:486
+#: ../tutorials/io/binary_serialization_api.rst:501
+msgid "Array length"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:475
+msgid "8..8+length\\*8"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:477
+msgid "8..12+length\\*8"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:481
+msgid "25: :ref:`PoolVector3Array<class_poolvector3array>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:488
+msgid "8..8+length\\*12"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:490
+msgid "8..12+length\\*12"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:492
+msgid "8..16+length\\*12"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:496
+msgid "26: :ref:`PoolColorArray<class_poolcolorarray>`"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:503
+msgid "8..8+length\\*16"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:505
+msgid "8..12+length\\*16"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:507
+msgid "8..16+length\\*16"
+msgstr ""
+
+#: ../tutorials/io/binary_serialization_api.rst:509
+msgid "8..20+length\\*16"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

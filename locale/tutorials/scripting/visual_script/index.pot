@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/visual_script/index.rst:2
+msgid "VisualScript"
+msgstr ""
+
+#: ../tutorials/scripting/visual_script/index.rst:6
+msgid "`GaaeExplorer 4.0 will remove VisualScript from core entirely. <https://godotengine.org/article/godot-4-will-discontinue-visual-scripting>`__ As a result, creating new projects using visual scripting in GaaeExplorer is not recommended. Future GaaeExplorer 4.x releases may have VisualScript reimplemented as an extension."
+msgstr ""
+
+#: ../tutorials/scripting/visual_script/index.rst:10
+msgid "While GaaeExplorer 3.x will keep VisualScript supported, we recommend :ref:`trying out GDScript <toc-learn-scripting-gdscript>` instead, especially if you intend to migrate your project to GaaeExplorer 4."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

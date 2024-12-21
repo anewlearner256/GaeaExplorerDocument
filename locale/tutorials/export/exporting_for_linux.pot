@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/export/exporting_for_linux.rst:4
+msgid "Exporting for Linux"
+msgstr ""
+
+#: ../tutorials/export/exporting_for_linux.rst:8
+msgid "This page describes how to export a GaaeExplorer project to Linux. If you're looking to compile editor or export template binaries from source instead, read :ref:`doc_compiling_for_x11`."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_linux.rst:12
+msgid "The simplest way to distribute a game for PC is to copy the executable (``godot``), compress the folder and send it to someone else. However, this is often not desired."
+msgstr ""
+
+#: ../tutorials/export/exporting_for_linux.rst:16
+msgid "GaaeExplorer offers a more elegant approach for PC distribution when using the export system. When exporting for Linux, the exporter takes all the project files and creates a ``data.pck`` file. This file is bundled with a specially optimized binary that is smaller, faster and does not contain the editor and debugger."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_hingejoint.rst:10
+msgid "HingeJoint"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:12
+msgid "**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:14
+msgid "两个 3D PhysicsBody 之间的铰链。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:19
+msgid "HingeJoint（铰链关节）通常使用物体 A 的 Z 轴作为铰链轴，但手动添加时可以指定另一个轴。请参阅 :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:25
+#: ../classes/class_hingejoint.rst:29
+#: ../classes/class_hingejoint.rst:31
+#: ../classes/class_hingejoint.rst:33
+#: ../classes/class_hingejoint.rst:35
+#: ../classes/class_hingejoint.rst:39
+#: ../classes/class_hingejoint.rst:41
+#: ../classes/class_hingejoint.rst:43
+#: ../classes/class_hingejoint.rst:52
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:25
+msgid ":ref:`angular_limit/bias<class_HingeJoint_property_angular_limit/bias>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:25
+#: ../classes/class_hingejoint.rst:43
+#: ../classes/class_hingejoint.rst:128
+#: ../classes/class_hingejoint.rst:262
+msgid "``0.3``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:27
+#: ../classes/class_hingejoint.rst:37
+#: ../classes/class_hingejoint.rst:50
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:27
+msgid ":ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:27
+#: ../classes/class_hingejoint.rst:37
+#: ../classes/class_hingejoint.rst:144
+#: ../classes/class_hingejoint.rst:214
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:29
+msgid ":ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:29
+#: ../classes/class_hingejoint.rst:160
+msgid "``-90.0``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:31
+msgid ":ref:`angular_limit/relaxation<class_HingeJoint_property_angular_limit/relaxation>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:31
+#: ../classes/class_hingejoint.rst:39
+#: ../classes/class_hingejoint.rst:41
+#: ../classes/class_hingejoint.rst:172
+#: ../classes/class_hingejoint.rst:230
+#: ../classes/class_hingejoint.rst:246
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:33
+msgid ":ref:`angular_limit/softness<class_HingeJoint_property_angular_limit/softness>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:33
+#: ../classes/class_hingejoint.rst:188
+msgid "``0.9``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:35
+msgid ":ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:35
+#: ../classes/class_hingejoint.rst:202
+msgid "``90.0``"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:37
+msgid ":ref:`motor/enable<class_HingeJoint_property_motor/enable>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:39
+msgid ":ref:`motor/max_impulse<class_HingeJoint_property_motor/max_impulse>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:41
+msgid ":ref:`motor/target_velocity<class_HingeJoint_property_motor/target_velocity>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:43
+msgid ":ref:`params/bias<class_HingeJoint_property_params/bias>`"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:47
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:50
+msgid ":ref:`get_flag<class_HingeJoint_method_get_flag>` **(** :ref:`Flag<enum_HingeJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:52
+msgid ":ref:`get_param<class_HingeJoint_method_get_param>` **(** :ref:`Param<enum_HingeJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:54
+#: ../classes/class_hingejoint.rst:56
+msgid "void"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:54
+msgid ":ref:`set_flag<class_HingeJoint_method_set_flag>` **(** :ref:`Flag<enum_HingeJoint_Flag>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:56
+msgid ":ref:`set_param<class_HingeJoint_method_set_param>` **(** :ref:`Param<enum_HingeJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:60
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:82
+msgid "enum **Param**:"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:84
+msgid "**PARAM_BIAS** = **0** --- 两个物体向不同方向移动时被拉回到一起的速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:86
+msgid "**PARAM_LIMIT_UPPER** = **1** --- 最大的旋转量。只有在\\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\\ 为\\ ``true``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:88
+msgid "**PARAM_LIMIT_LOWER** = **2** --- 最小的旋转量。只有在\\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\\ 为\\ ``true``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:90
+msgid "**PARAM_LIMIT_BIAS** = **3** --- 垂直于铰链的轴线上的旋转得到纠正的速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:92
+msgid "**PARAM_LIMIT_SOFTNESS** = **4**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:94
+msgid "**PARAM_LIMIT_RELAXATION** = **5** --- 该值越低，旋转速度越慢。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:96
+msgid "**PARAM_MOTOR_TARGET_VELOCITY** = **6** --- 目标马达的目标速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:98
+msgid "**PARAM_MOTOR_MAX_IMPULSE** = **7** --- 马达的最大加速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:100
+msgid "**PARAM_MAX** = **8** --- 表示 :ref:`Param<enum_HingeJoint_Param>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:112
+msgid "enum **Flag**:"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:114
+msgid "**FLAG_USE_LIMIT** = **0** --- 如果为\\ ``true``,则会对由\\ :ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\\ 和\\ :ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\\ 定义的铰链最大和最小旋转量产生影响。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:116
+msgid "**FLAG_ENABLE_MOTOR** = **1** --- 激活后，电机会使铰链转动。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:118
+msgid "**FLAG_MAX** = **2** --- 表示\\ :ref:`Flag<enum_HingeJoint_Flag>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:121
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:125
+msgid ":ref:`float<class_float>` **angular_limit/bias**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:128
+#: ../classes/class_hingejoint.rst:144
+#: ../classes/class_hingejoint.rst:160
+#: ../classes/class_hingejoint.rst:172
+#: ../classes/class_hingejoint.rst:188
+#: ../classes/class_hingejoint.rst:202
+#: ../classes/class_hingejoint.rst:214
+#: ../classes/class_hingejoint.rst:230
+#: ../classes/class_hingejoint.rst:246
+#: ../classes/class_hingejoint.rst:262
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:130
+#: ../classes/class_hingejoint.rst:146
+#: ../classes/class_hingejoint.rst:174
+#: ../classes/class_hingejoint.rst:190
+#: ../classes/class_hingejoint.rst:216
+#: ../classes/class_hingejoint.rst:232
+#: ../classes/class_hingejoint.rst:248
+#: ../classes/class_hingejoint.rst:264
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:130
+#: ../classes/class_hingejoint.rst:174
+#: ../classes/class_hingejoint.rst:190
+#: ../classes/class_hingejoint.rst:232
+#: ../classes/class_hingejoint.rst:248
+#: ../classes/class_hingejoint.rst:264
+msgid "set_param(value)"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:132
+#: ../classes/class_hingejoint.rst:148
+#: ../classes/class_hingejoint.rst:176
+#: ../classes/class_hingejoint.rst:192
+#: ../classes/class_hingejoint.rst:218
+#: ../classes/class_hingejoint.rst:234
+#: ../classes/class_hingejoint.rst:250
+#: ../classes/class_hingejoint.rst:266
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:132
+#: ../classes/class_hingejoint.rst:176
+#: ../classes/class_hingejoint.rst:192
+#: ../classes/class_hingejoint.rst:234
+#: ../classes/class_hingejoint.rst:250
+#: ../classes/class_hingejoint.rst:266
+msgid "get_param()"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:135
+msgid "垂直于铰链的轴线上的旋转得到纠正的速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:141
+msgid ":ref:`bool<class_bool>` **angular_limit/enable**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:146
+#: ../classes/class_hingejoint.rst:216
+msgid "set_flag(value)"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:148
+#: ../classes/class_hingejoint.rst:218
+msgid "get_flag()"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:151
+msgid "如果为\\ ``true``,则会对由\\ :ref:`angular_limit/lower<class_HingeJoint_property_angular_limit/lower>`\\ 和\\ :ref:`angular_limit/upper<class_HingeJoint_property_angular_limit/upper>`\\ 定义的铰链最大和最小旋转量产生影响。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:157
+msgid ":ref:`float<class_float>` **angular_limit/lower**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:163
+msgid "最小的旋转量。只有在\\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\\ 为\\ ``true``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:169
+msgid ":ref:`float<class_float>` **angular_limit/relaxation**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:179
+msgid "该值越低，旋转速度越慢。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:185
+msgid ":ref:`float<class_float>` **angular_limit/softness**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:199
+msgid ":ref:`float<class_float>` **angular_limit/upper**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:205
+msgid "最大的旋转量。只有在\\ :ref:`angular_limit/enable<class_HingeJoint_property_angular_limit/enable>`\\ 为\\ ``true``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:211
+msgid ":ref:`bool<class_bool>` **motor/enable**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:221
+msgid "激活后，电机会使铰链转动。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:227
+msgid ":ref:`float<class_float>` **motor/max_impulse**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:237
+msgid "马达的最大加速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:243
+msgid ":ref:`float<class_float>` **motor/target_velocity**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:253
+msgid "目标马达的目标速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:259
+msgid ":ref:`float<class_float>` **params/bias**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:269
+msgid "两个物体向不同方向移动时被拉回到一起的速度。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:272
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:276
+msgid ":ref:`bool<class_bool>` **get_flag** **(** :ref:`Flag<enum_HingeJoint_Flag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:278
+msgid "返回指定标志的值。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:284
+msgid ":ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_HingeJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:286
+msgid "返回指定参数的值。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:292
+msgid "void **set_flag** **(** :ref:`Flag<enum_HingeJoint_Flag>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:294
+msgid "如果为 ``true``\\ ，启用指定的标志。"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:300
+msgid "void **set_param** **(** :ref:`Param<enum_HingeJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_hingejoint.rst:302
+msgid "设置指定参数的值。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

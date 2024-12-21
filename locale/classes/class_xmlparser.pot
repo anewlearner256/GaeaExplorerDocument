@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_xmlparser.rst:10
+msgid "XMLParser"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:14
+msgid "用于创建\\ `XML <https://en.wikipedia.org/wiki/XML>`__\\ 文件解析器的低级类。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:19
+msgid "这个类可以作为制作自定义XML解析器的基础。由于XML是一个非常灵活的标准，这个接口也是低层次的，可被应用于任何可能的模式。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:25
+#: ../classes/class_xmlparser.rst:31
+#: ../classes/class_xmlparser.rst:41
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:25
+msgid ":ref:`get_attribute_count<class_XMLParser_method_get_attribute_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:27
+#: ../classes/class_xmlparser.rst:29
+#: ../classes/class_xmlparser.rst:33
+#: ../classes/class_xmlparser.rst:35
+#: ../classes/class_xmlparser.rst:37
+#: ../classes/class_xmlparser.rst:39
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:27
+msgid ":ref:`get_attribute_name<class_XMLParser_method_get_attribute_name>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:29
+msgid ":ref:`get_attribute_value<class_XMLParser_method_get_attribute_value>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:31
+msgid ":ref:`get_current_line<class_XMLParser_method_get_current_line>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:33
+msgid ":ref:`get_named_attribute_value<class_XMLParser_method_get_named_attribute_value>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:35
+msgid ":ref:`get_named_attribute_value_safe<class_XMLParser_method_get_named_attribute_value_safe>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:37
+msgid ":ref:`get_node_data<class_XMLParser_method_get_node_data>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:39
+msgid ":ref:`get_node_name<class_XMLParser_method_get_node_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:41
+msgid ":ref:`get_node_offset<class_XMLParser_method_get_node_offset>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:43
+msgid ":ref:`NodeType<enum_XMLParser_NodeType>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:43
+msgid ":ref:`get_node_type<class_XMLParser_method_get_node_type>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:45
+#: ../classes/class_xmlparser.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:45
+msgid ":ref:`has_attribute<class_XMLParser_method_has_attribute>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:47
+msgid ":ref:`is_empty<class_XMLParser_method_is_empty>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:49
+#: ../classes/class_xmlparser.rst:51
+#: ../classes/class_xmlparser.rst:53
+#: ../classes/class_xmlparser.rst:55
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:49
+msgid ":ref:`open<class_XMLParser_method_open>` **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:51
+msgid ":ref:`open_buffer<class_XMLParser_method_open_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:53
+msgid ":ref:`read<class_XMLParser_method_read>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:55
+msgid ":ref:`seek<class_XMLParser_method_seek>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:57
+msgid "void"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:57
+msgid ":ref:`skip_section<class_XMLParser_method_skip_section>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:61
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:79
+msgid "enum **NodeType**:"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:81
+msgid "**NODE_NONE** = **0** --- 没有节点，未打开文件或缓冲区。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:83
+msgid "**NODE_ELEMENT** = **1** --- 元素，即标签。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:85
+msgid "**NODE_ELEMENT_END** = **2** --- 元素的末端。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:87
+msgid "**NODE_TEXT** = **3** --- 文本节点。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:89
+msgid "**NODE_COMMENT** = **4** --- 注释节点。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:91
+msgid "**NODE_CDATA** = **5** --- CDATA 内容。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:93
+msgid "**NODE_UNKNOWN** = **6** --- 未知节点。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:96
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:100
+msgid ":ref:`int<class_int>` **get_attribute_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:102
+msgid "获取当前元素中的属性数量。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:108
+msgid ":ref:`String<class_String>` **get_attribute_name** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:110
+msgid "获取由\\ ``idx``\\ 参数中的索引指定的属性名称。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:116
+msgid ":ref:`String<class_String>` **get_attribute_value** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:118
+msgid "获取由\\ ``idx``\\ 参数中的索引指定的属性值。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:124
+msgid ":ref:`int<class_int>` **get_current_line** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:126
+msgid "获取被解析文件中的当前行（目前未实现）。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:132
+msgid ":ref:`String<class_String>` **get_named_attribute_value** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:134
+msgid "通过名称获取当前元素的某个属性的值。如果该元素没有该属性，将引发一个错误。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:140
+msgid ":ref:`String<class_String>` **get_named_attribute_value_safe** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:142
+msgid "通过名称获取当前元素的某个属性值。如果没有找到该属性，将返回空的\\ :ref:`String<class_String>`\\ 。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:148
+msgid ":ref:`String<class_String>` **get_node_data** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:150
+msgid "获取文本节点的内容。若在任何其他类型的节点中，这将引发一个错误。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:156
+msgid ":ref:`String<class_String>` **get_node_name** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:158
+msgid "获取当前元素节点的名称。如果当前节点类型既不是\\ :ref:`NODE_ELEMENT<class_XMLParser_constant_NODE_ELEMENT>`\\ 也不是\\ :ref:`NODE_ELEMENT_END<class_XMLParser_constant_NODE_ELEMENT_END>`\\ ，将引发一个错误。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:164
+msgid ":ref:`int<class_int>` **get_node_offset** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:166
+msgid "获取当前节点从文件或缓冲区开始处的字节偏移量。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:172
+msgid ":ref:`NodeType<enum_XMLParser_NodeType>` **get_node_type** **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:174
+msgid "获取当前节点的类型。与\\ :ref:`NodeType<enum_XMLParser_NodeType>`\\ 常量比较。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:180
+msgid ":ref:`bool<class_bool>` **has_attribute** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:182
+msgid "检查当前元素是否有某个属性。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:188
+msgid ":ref:`bool<class_bool>` **is_empty** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:190
+msgid "检查当前元素是否为空，这只适用于完全空的标签，例如\\ ``<element\\>``\\ 。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:196
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:198
+msgid "打开一个XML文件进行解析。这将返回一个错误代码。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:204
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:206
+msgid "打开一个XML原始缓冲区进行解析。这将返回一个错误代码。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:212
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **read** **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:214
+msgid "读取文件的下一个节点。这将返回一个错误代码。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:220
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **seek** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:222
+msgid "将缓冲区光标移动到某一偏移量，注，从开始位置，并在那里读取下一个节点。这将返回一个错误代码。"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:228
+msgid "void **skip_section** **(** **)**"
+msgstr ""
+
+#: ../classes/class_xmlparser.rst:230
+msgid "跳过当前部分。如果该节点包含其他元素，它们将被忽略，光标将跳转到当前元素的结尾处。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

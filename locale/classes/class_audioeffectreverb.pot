@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectreverb.rst:10
+msgid "AudioEffectReverb"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:14
+msgid "为音频总线添加混响效果。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:16
+msgid "模拟房间、音乐厅、洞穴或开放空间等声学环境的声音。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:21
+msgid "模拟不同大小的房间。其参数可以调整，以模拟特定房间的声音。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:26
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:32
+#: ../classes/class_audioeffectreverb.rst:34
+#: ../classes/class_audioeffectreverb.rst:36
+#: ../classes/class_audioeffectreverb.rst:38
+#: ../classes/class_audioeffectreverb.rst:40
+#: ../classes/class_audioeffectreverb.rst:42
+#: ../classes/class_audioeffectreverb.rst:44
+#: ../classes/class_audioeffectreverb.rst:46
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:32
+msgid ":ref:`damping<class_AudioEffectReverb_property_damping>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:32
+#: ../classes/class_audioeffectreverb.rst:46
+#: ../classes/class_audioeffectreverb.rst:57
+#: ../classes/class_audioeffectreverb.rst:169
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:34
+msgid ":ref:`dry<class_AudioEffectReverb_property_dry>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:34
+#: ../classes/class_audioeffectreverb.rst:44
+#: ../classes/class_audioeffectreverb.rst:73
+#: ../classes/class_audioeffectreverb.rst:153
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:36
+msgid ":ref:`hipass<class_AudioEffectReverb_property_hipass>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:36
+#: ../classes/class_audioeffectreverb.rst:89
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:38
+msgid ":ref:`predelay_feedback<class_AudioEffectReverb_property_predelay_feedback>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:38
+#: ../classes/class_audioeffectreverb.rst:105
+msgid "``0.4``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:40
+msgid ":ref:`predelay_msec<class_AudioEffectReverb_property_predelay_msec>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:40
+#: ../classes/class_audioeffectreverb.rst:121
+msgid "``150.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:42
+msgid ":ref:`room_size<class_AudioEffectReverb_property_room_size>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:42
+#: ../classes/class_audioeffectreverb.rst:137
+msgid "``0.8``"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:44
+msgid ":ref:`spread<class_AudioEffectReverb_property_spread>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:46
+msgid ":ref:`wet<class_AudioEffectReverb_property_wet>`"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:50
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:54
+msgid ":ref:`float<class_float>` **damping**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:57
+#: ../classes/class_audioeffectreverb.rst:73
+#: ../classes/class_audioeffectreverb.rst:89
+#: ../classes/class_audioeffectreverb.rst:105
+#: ../classes/class_audioeffectreverb.rst:121
+#: ../classes/class_audioeffectreverb.rst:137
+#: ../classes/class_audioeffectreverb.rst:153
+#: ../classes/class_audioeffectreverb.rst:169
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:59
+#: ../classes/class_audioeffectreverb.rst:75
+#: ../classes/class_audioeffectreverb.rst:91
+#: ../classes/class_audioeffectreverb.rst:107
+#: ../classes/class_audioeffectreverb.rst:123
+#: ../classes/class_audioeffectreverb.rst:139
+#: ../classes/class_audioeffectreverb.rst:155
+#: ../classes/class_audioeffectreverb.rst:171
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:59
+msgid "set_damping(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:61
+#: ../classes/class_audioeffectreverb.rst:77
+#: ../classes/class_audioeffectreverb.rst:93
+#: ../classes/class_audioeffectreverb.rst:109
+#: ../classes/class_audioeffectreverb.rst:125
+#: ../classes/class_audioeffectreverb.rst:141
+#: ../classes/class_audioeffectreverb.rst:157
+#: ../classes/class_audioeffectreverb.rst:173
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:61
+msgid "get_damping()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:64
+msgid "定义虚拟房间墙壁的反射程度。值的范围是0到1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:70
+msgid ":ref:`float<class_float>` **dry**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:75
+msgid "set_dry(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:77
+msgid "get_dry()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:80
+msgid "原始声音的输出百分比。0时，只输出修改后的声音。值的范围是0～1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:86
+msgid ":ref:`float<class_float>` **hipass**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:91
+msgid "set_hpf(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:93
+msgid "get_hpf()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:96
+msgid "高通滤波器通过频率高于某一截止频率的信号，衰减频率低于截止频率的信号。数值范围为0～1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:102
+msgid ":ref:`float<class_float>` **predelay_feedback**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:107
+msgid "set_predelay_feedback(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:109
+msgid "get_predelay_feedback()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:112
+msgid "预延迟的输出百分比。数值范围为0～1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:118
+msgid ":ref:`float<class_float>` **predelay_msec**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:123
+msgid "set_predelay_msec(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:125
+msgid "get_predelay_msec()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:128
+msgid "原始信号与混响信号早期反射之间的时间，以毫秒为单位。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:134
+msgid ":ref:`float<class_float>` **room_size**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:139
+msgid "set_room_size(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:141
+msgid "get_room_size()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:144
+msgid "模拟房间的尺寸。越大表示回声越多。值的范围可以从0到1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:150
+msgid ":ref:`float<class_float>` **spread**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:155
+msgid "set_spread(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:157
+msgid "get_spread()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:160
+msgid "扩大或缩小混响尾音的立体声图像。1表示完全扩大。值的范围是0到1。"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:166
+msgid ":ref:`float<class_float>` **wet**"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:171
+msgid "set_wet(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:173
+msgid "get_wet()"
+msgstr ""
+
+#: ../classes/class_audioeffectreverb.rst:176
+msgid "输出修改后声音的百分比。在0时，只输出原始声音。值的范围为0～1。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

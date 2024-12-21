@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_world.rst:10
+msgid "World"
+msgstr ""
+
+#: ../classes/class_world.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_world.rst:14
+msgid "拥有与世界相关的一切的类。"
+msgstr ""
+
+#: ../classes/class_world.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_world.rst:19
+msgid "拥有与世界相关的一切的类。物理空间、视觉场景和声音空间。空间节点将其资源注册到当前世界中。"
+msgstr ""
+
+#: ../classes/class_world.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_world.rst:24
+msgid ":doc:`../tutorials/physics/ray-casting`"
+msgstr ""
+
+#: ../classes/class_world.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_world.rst:30
+msgid ":ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>`"
+msgstr ""
+
+#: ../classes/class_world.rst:30
+msgid ":ref:`direct_space_state<class_World_property_direct_space_state>`"
+msgstr ""
+
+#: ../classes/class_world.rst:32
+#: ../classes/class_world.rst:34
+msgid ":ref:`Environment<class_Environment>`"
+msgstr ""
+
+#: ../classes/class_world.rst:32
+msgid ":ref:`environment<class_World_property_environment>`"
+msgstr ""
+
+#: ../classes/class_world.rst:34
+msgid ":ref:`fallback_environment<class_World_property_fallback_environment>`"
+msgstr ""
+
+#: ../classes/class_world.rst:36
+#: ../classes/class_world.rst:38
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_world.rst:36
+msgid ":ref:`scenario<class_World_property_scenario>`"
+msgstr ""
+
+#: ../classes/class_world.rst:38
+msgid ":ref:`space<class_World_property_space>`"
+msgstr ""
+
+#: ../classes/class_world.rst:42
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_world.rst:46
+msgid ":ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>` **direct_space_state**"
+msgstr ""
+
+#: ../classes/class_world.rst:49
+#: ../classes/class_world.rst:63
+#: ../classes/class_world.rst:77
+#: ../classes/class_world.rst:89
+#: ../classes/class_world.rst:101
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_world.rst:49
+msgid "get_direct_space_state()"
+msgstr ""
+
+#: ../classes/class_world.rst:52
+msgid "直接访问世界物理 3D 空间状态。用于查询当前和潜在的碰撞。"
+msgstr ""
+
+#: ../classes/class_world.rst:58
+msgid ":ref:`Environment<class_Environment>` **environment**"
+msgstr ""
+
+#: ../classes/class_world.rst:61
+#: ../classes/class_world.rst:75
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_world.rst:61
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../classes/class_world.rst:63
+msgid "get_environment()"
+msgstr ""
+
+#: ../classes/class_world.rst:66
+msgid "World的\\ :ref:`Environment<class_Environment>`\\ 环境。"
+msgstr ""
+
+#: ../classes/class_world.rst:72
+msgid ":ref:`Environment<class_Environment>` **fallback_environment**"
+msgstr ""
+
+#: ../classes/class_world.rst:75
+msgid "set_fallback_environment(value)"
+msgstr ""
+
+#: ../classes/class_world.rst:77
+msgid "get_fallback_environment()"
+msgstr ""
+
+#: ../classes/class_world.rst:80
+msgid "如果 World 的 :ref:`Environment<class_Environment>` 失败或丢失，将使用 World 的 fallback_environment。"
+msgstr ""
+
+#: ../classes/class_world.rst:86
+msgid ":ref:`RID<class_RID>` **scenario**"
+msgstr ""
+
+#: ../classes/class_world.rst:89
+msgid "get_scenario()"
+msgstr ""
+
+#: ../classes/class_world.rst:92
+msgid "世界的视觉场景。"
+msgstr ""
+
+#: ../classes/class_world.rst:98
+msgid ":ref:`RID<class_RID>` **space**"
+msgstr ""
+
+#: ../classes/class_world.rst:101
+msgid "get_space()"
+msgstr ""
+
+#: ../classes/class_world.rst:104
+msgid "世界的物理空间。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_performance.rst:10
+msgid "Performance"
+msgstr ""
+
+#: ../classes/class_performance.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_performance.rst:14
+msgid "公开与性能相关的数据。"
+msgstr ""
+
+#: ../classes/class_performance.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_performance.rst:19
+msgid "这个类提供了对一些与性能有关的不同监控的访问，比如内存使用量、绘制调用和FPS。这些与编辑器的\\ **Monitor**\\ 标签中的\\ **Debugger**\\ 面板所显示的数值相同。通过使用这个类的\\ :ref:`get_monitor<class_Performance_method_get_monitor>`\\ 方法，可以从你的代码中访问这些数据。"
+msgstr ""
+
+#: ../classes/class_performance.rst:21
+msgid "\\ **注意:** 这些监视器中有几个只在调试模式下可用，当在发布版构建中使用时，将总是返回0。"
+msgstr ""
+
+#: ../classes/class_performance.rst:23
+msgid "\\ **注意:** 这些监控器中的许多不是实时更新的，所以在变化之间可能会有短暂的延迟。"
+msgstr ""
+
+#: ../classes/class_performance.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_performance.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_performance.rst:29
+msgid ":ref:`get_monitor<class_Performance_method_get_monitor>` **(** :ref:`Monitor<enum_Performance_Monitor>` monitor **)** |const|"
+msgstr ""
+
+#: ../classes/class_performance.rst:33
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_performance.rst:101
+msgid "enum **Monitor**:"
+msgstr ""
+
+#: ../classes/class_performance.rst:103
+msgid "**TIME_FPS** = **0** --- 每秒帧数。"
+msgstr ""
+
+#: ../classes/class_performance.rst:105
+msgid "**TIME_PROCESS** = **1** --- 完成一帧的时间，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_performance.rst:107
+msgid "**TIME_PHYSICS_PROCESS** = **2** --- 完成一个物理帧的时间，以秒为单位。"
+msgstr ""
+
+#: ../classes/class_performance.rst:109
+msgid "**MEMORY_STATIC** = **3** --- 当前使用的静态内存，以字节为单位。在发布版本中不可用。"
+msgstr ""
+
+#: ../classes/class_performance.rst:111
+msgid "**MEMORY_DYNAMIC** = **4** --- 当前使用的动态内存，以字节为单位。在发布版本中不可用。"
+msgstr ""
+
+#: ../classes/class_performance.rst:113
+msgid "**MEMORY_STATIC_MAX** = **5** --- 可用的静态内存。在发布版本中不可用。"
+msgstr ""
+
+#: ../classes/class_performance.rst:115
+msgid "**MEMORY_DYNAMIC_MAX** = **6** --- 可用的动态内存。在发布版本中不可用。"
+msgstr ""
+
+#: ../classes/class_performance.rst:117
+msgid "**MEMORY_MESSAGE_BUFFER_MAX** = **7** --- 消息队列缓冲区使用的最大内存数量(以字节为单位)。消息队列用于延迟函数调用和通知。"
+msgstr ""
+
+#: ../classes/class_performance.rst:119
+msgid "**OBJECT_COUNT** = **8** --- 当前实例化的对象数量(包括节点)。"
+msgstr ""
+
+#: ../classes/class_performance.rst:121
+msgid "**OBJECT_RESOURCE_COUNT** = **9** --- 当前使用的资源数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:123
+msgid "**OBJECT_NODE_COUNT** = **10** --- 当前场景树中实例化的节点数。这也包括根节点。"
+msgstr ""
+
+#: ../classes/class_performance.rst:125
+msgid "**OBJECT_ORPHAN_NODE_COUNT** = **11** --- 孤儿节点的数量，孤儿节点即无法被按父级追溯到根节点的节点。"
+msgstr ""
+
+#: ../classes/class_performance.rst:127
+msgid "**RENDER_OBJECTS_IN_FRAME** = **12** --- 每帧绘制3D对象的数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:129
+msgid "**RENDER_VERTICES_IN_FRAME** = **13** --- 每帧绘制的顶点数。只在3D中有效。"
+msgstr ""
+
+#: ../classes/class_performance.rst:131
+msgid "**RENDER_MATERIAL_CHANGES_IN_FRAME** = **14** --- 每一帧的材质变化。仅限3D。"
+msgstr ""
+
+#: ../classes/class_performance.rst:133
+msgid "**RENDER_SHADER_CHANGES_IN_FRAME** = **15** --- 每一帧的着色器变化。仅限3D。"
+msgstr ""
+
+#: ../classes/class_performance.rst:135
+msgid "**RENDER_SURFACE_CHANGES_IN_FRAME** = **16** --- 每帧渲染面的变化。仅3D中有效。"
+msgstr ""
+
+#: ../classes/class_performance.rst:137
+msgid "**RENDER_DRAW_CALLS_IN_FRAME** = **17** --- 每一帧的绘图调用。仅限3D。"
+msgstr ""
+
+#: ../classes/class_performance.rst:139
+msgid "**RENDER_2D_ITEMS_IN_FRAME** = **18** --- 每帧绘制的项目或连接的项目。"
+msgstr ""
+
+#: ../classes/class_performance.rst:141
+msgid "**RENDER_2D_DRAW_CALLS_IN_FRAME** = **19** --- 每帧绘制调用。"
+msgstr ""
+
+#: ../classes/class_performance.rst:143
+msgid "**RENDER_VIDEO_MEM_USED** = **20** --- 使用的视频内存的数量，即纹理和顶点内存的总和。"
+msgstr ""
+
+#: ../classes/class_performance.rst:145
+msgid "**RENDER_TEXTURE_MEM_USED** = **21** --- 使用的纹理内存的数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:147
+msgid "**RENDER_VERTEX_MEM_USED** = **22** --- 使用的顶点内存数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:149
+msgid "**RENDER_USAGE_VIDEO_MEM_TOTAL** = **23** --- 在 GLES2 和 GLES3 渲染后端中未实现，始终返回 0。"
+msgstr ""
+
+#: ../classes/class_performance.rst:151
+msgid "**PHYSICS_2D_ACTIVE_OBJECTS** = **24** --- 游戏中活跃的\\ :ref:`RigidBody2D<class_RigidBody2D>`\\ 节点数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:153
+msgid "**PHYSICS_2D_COLLISION_PAIRS** = **25** --- 2D物理引擎中的碰撞对数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:155
+msgid "**PHYSICS_2D_ISLAND_COUNT** = **26** --- 2D物理引擎中的岛屿数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:157
+msgid "**PHYSICS_3D_ACTIVE_OBJECTS** = **27** --- 游戏中活动的 :ref:`RigidBody<class_RigidBody>` 和 :ref:`VehicleBody<class_VehicleBody>` 节点的数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:159
+msgid "**PHYSICS_3D_COLLISION_PAIRS** = **28** --- 3D物理引擎中的碰撞对数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:161
+msgid "**PHYSICS_3D_ISLAND_COUNT** = **29** --- 3D物理引擎中的岛屿数量。"
+msgstr ""
+
+#: ../classes/class_performance.rst:163
+msgid "**AUDIO_OUTPUT_LATENCY** = **30** --- :ref:`AudioServer<class_AudioServer>`\\ 的输出延迟。"
+msgstr ""
+
+#: ../classes/class_performance.rst:165
+msgid "**MONITOR_MAX** = **31** --- 表示\\ :ref:`Monitor<enum_Performance_Monitor>` enum的大小。"
+msgstr ""
+
+#: ../classes/class_performance.rst:168
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_performance.rst:172
+msgid ":ref:`float<class_float>` **get_monitor** **(** :ref:`Monitor<enum_Performance_Monitor>` monitor **)** |const|"
+msgstr ""
+
+#: ../classes/class_performance.rst:174
+msgid "返回一个可用监视器的值。你应该提供一个\\ :ref:`Monitor<enum_Performance_Monitor>`\\ 常量作为参数，像这样:"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_packetpeer.rst:10
+msgid "PacketPeer"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:14
+msgid "**Inherited By:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`, :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`, :ref:`PacketPeerGDNative<class_PacketPeerGDNative>`, :ref:`PacketPeerStream<class_PacketPeerStream>`, :ref:`PacketPeerUDP<class_PacketPeerUDP>`, :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`, :ref:`WebSocketPeer<class_WebSocketPeer>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:16
+msgid "基于包的协议的抽象和基类。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:21
+msgid "PacketPeer是基于数据包的协议（如UDP）的抽象和基类。它提供了一个API，用于发送和接收作为原始数据或变量的数据包。这使得通过协议传输数据变得很容易，而不必将数据编码为低级字节或担心网络顺序。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:27
+msgid ":ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:27
+#: ../classes/class_packetpeer.rst:57
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:29
+#: ../classes/class_packetpeer.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:29
+msgid ":ref:`encode_buffer_max_size<class_PacketPeer_property_encode_buffer_max_size>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:29
+#: ../classes/class_packetpeer.rst:77
+msgid "``8388608``"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:33
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:36
+msgid ":ref:`get_available_packet_count<class_PacketPeer_method_get_available_packet_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:38
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:38
+msgid ":ref:`get_packet<class_PacketPeer_method_get_packet>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:40
+#: ../classes/class_packetpeer.rst:44
+#: ../classes/class_packetpeer.rst:46
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:40
+msgid ":ref:`get_packet_error<class_PacketPeer_method_get_packet_error>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:42
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:42
+msgid ":ref:`get_var<class_PacketPeer_method_get_var>` **(** :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:44
+msgid ":ref:`put_packet<class_PacketPeer_method_put_packet>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:46
+msgid ":ref:`put_var<class_PacketPeer_method_put_var>` **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:50
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:54
+msgid ":ref:`bool<class_bool>` **allow_object_decoding**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:57
+#: ../classes/class_packetpeer.rst:77
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:59
+#: ../classes/class_packetpeer.rst:79
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:59
+msgid "set_allow_object_decoding(value)"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:61
+#: ../classes/class_packetpeer.rst:81
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:61
+msgid "is_object_decoding_allowed()"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:64
+msgid "*已废弃。* 你应该使用 ``get_var`` 和 ``put_var`` 参数来代替它。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:66
+msgid "如果\\ ``true``\\ ，多人游戏API将允许在RPC/RSETs期间对对象进行编码和解码。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:68
+msgid "\\ **警告：** 反序列化的对象可能包含会被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:74
+msgid ":ref:`int<class_int>` **encode_buffer_max_size**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:79
+msgid "set_encode_buffer_max_size(value)"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:81
+msgid "get_encode_buffer_max_size()"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:84
+msgid "编码\\ :ref:`Variant<class_Variant>`\\ 时允许的最大缓冲区大小。提高此值以支持更大的内存分配。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:86
+msgid "\\ :ref:`put_var<class_PacketPeer_method_put_var>`\\ 方法在堆栈上分配内存，使用的缓冲区将自动增长到最接近的二次方，以匹配\\ :ref:`Variant<class_Variant>`\\ 的大小。如果\\ :ref:`Variant<class_Variant>`\\ 大于 ``encode_buffer_max_size``\\ ，则该方法将以\\ :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>`\\ 出错。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:89
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:93
+msgid ":ref:`int<class_int>` **get_available_packet_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:95
+msgid "返回环形缓冲区中当前可用的数据包数。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:101
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **get_packet** **(** **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:103
+msgid "获取原始数据包。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:109
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **get_packet_error** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:111
+msgid "返回最后接收的数据包的错误状态（通过\\ :ref:`get_packet<class_PacketPeer_method_get_packet>`\\ 和\\ :ref:`get_var<class_PacketPeer_method_get_var>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:117
+msgid ":ref:`Variant<class_Variant>` **get_var** **(** :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:119
+msgid "获取一个变量。如果\\ ``allow_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\\ 为\\ ``true``\\ ，则允许对对象进行解码。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:121
+msgid "\\ **警告：**\\ 反序列化对象可能包含执行的代码。如果序列化对象来自不受信任的源，请不要使用此选项，以避免潜在的安全威胁，如远程代码执行。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:127
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **put_packet** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:129
+msgid "发送一个原始数据包。"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:135
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **put_var** **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_packetpeer.rst:137
+msgid "将\\ :ref:`Variant<class_Variant>`\\ 作为数据包发送。如果\\ ``full_objects`` 或 :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\\ 为\\ ``true``\\ ，则允许对对象进行编码（并且可能包含代码）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,833 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_bakedlightmap.rst:10
+msgid "BakedLightmap"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:12
+msgid "**Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:14
+msgid "场景的预渲染间接光照贴图。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:19
+msgid "烘焙光照贴图是向场景添加间接（或烘焙）光照的替代工作流程。与 :ref:`GIProbe<class_GIProbe>` 方法不同，烘焙光照贴图在低端 PC 和移动设备上运行良好，因为它们在运行时几乎不消耗资源。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:21
+msgid "\\ **程序化生成：** 烘焙光照贴图的功能只在编辑器中可用。也就是说，\\ ``BakedLightmap`` 不适合程序化生成、用户搭建的关卡。想要支持程序化生成或者用户搭建关卡，请使用 :ref:`GIProbe<class_GIProbe>`\\ 。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:23
+msgid "\\ **注意：** 由于光照贴图的工作原理，大多数属性只有在光照贴图再次烘焙后才会看到效果。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:28
+msgid ":doc:`../tutorials/3d/baked_lightmaps`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:34
+#: ../classes/class_bakedlightmap.rst:46
+#: ../classes/class_bakedlightmap.rst:74
+#: ../classes/class_bakedlightmap.rst:76
+#: ../classes/class_bakedlightmap.rst:78
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:34
+msgid ":ref:`atlas_generate<class_BakedLightmap_property_atlas_generate>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:34
+#: ../classes/class_bakedlightmap.rst:46
+#: ../classes/class_bakedlightmap.rst:74
+#: ../classes/class_bakedlightmap.rst:76
+#: ../classes/class_bakedlightmap.rst:78
+#: ../classes/class_bakedlightmap.rst:183
+#: ../classes/class_bakedlightmap.rst:281
+#: ../classes/class_bakedlightmap.rst:493
+#: ../classes/class_bakedlightmap.rst:509
+#: ../classes/class_bakedlightmap.rst:525
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:36
+#: ../classes/class_bakedlightmap.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:36
+msgid ":ref:`atlas_max_size<class_BakedLightmap_property_atlas_max_size>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:36
+#: ../classes/class_bakedlightmap.rst:199
+msgid "``4096``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:38
+#: ../classes/class_bakedlightmap.rst:40
+#: ../classes/class_bakedlightmap.rst:44
+#: ../classes/class_bakedlightmap.rst:48
+#: ../classes/class_bakedlightmap.rst:52
+#: ../classes/class_bakedlightmap.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:38
+msgid ":ref:`bias<class_BakedLightmap_property_bias>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:38
+#: ../classes/class_bakedlightmap.rst:215
+msgid "``0.005``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:40
+msgid ":ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:40
+#: ../classes/class_bakedlightmap.rst:48
+#: ../classes/class_bakedlightmap.rst:231
+#: ../classes/class_bakedlightmap.rst:297
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:42
+msgid ":ref:`bounces<class_BakedLightmap_property_bounces>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:42
+#: ../classes/class_bakedlightmap.rst:249
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:44
+msgid ":ref:`capture_cell_size<class_BakedLightmap_property_capture_cell_size>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:44
+#: ../classes/class_bakedlightmap.rst:265
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:46
+msgid ":ref:`capture_enabled<class_BakedLightmap_property_capture_enabled>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:48
+msgid ":ref:`capture_propagation<class_BakedLightmap_property_capture_propagation>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:50
+#: ../classes/class_bakedlightmap.rst:72
+msgid ":ref:`BakeQuality<enum_BakedLightmap_BakeQuality>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:50
+msgid ":ref:`capture_quality<class_BakedLightmap_property_capture_quality>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:50
+#: ../classes/class_bakedlightmap.rst:72
+#: ../classes/class_bakedlightmap.rst:313
+#: ../classes/class_bakedlightmap.rst:477
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:52
+msgid ":ref:`default_texels_per_unit<class_BakedLightmap_property_default_texels_per_unit>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:52
+#: ../classes/class_bakedlightmap.rst:329
+msgid "``16.0``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:54
+#: ../classes/class_bakedlightmap.rst:62
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:54
+msgid ":ref:`environment_custom_color<class_BakedLightmap_property_environment_custom_color>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:56
+msgid ":ref:`environment_custom_energy<class_BakedLightmap_property_environment_custom_energy>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:58
+msgid ":ref:`Sky<class_Sky>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:58
+msgid ":ref:`environment_custom_sky<class_BakedLightmap_property_environment_custom_sky>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:60
+#: ../classes/class_bakedlightmap.rst:66
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:60
+msgid ":ref:`environment_custom_sky_rotation_degrees<class_BakedLightmap_property_environment_custom_sky_rotation_degrees>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:62
+msgid ":ref:`environment_min_light<class_BakedLightmap_property_environment_min_light>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:62
+#: ../classes/class_bakedlightmap.rst:401
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:64
+msgid ":ref:`EnvironmentMode<enum_BakedLightmap_EnvironmentMode>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:64
+msgid ":ref:`environment_mode<class_BakedLightmap_property_environment_mode>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:64
+#: ../classes/class_bakedlightmap.rst:417
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:66
+msgid ":ref:`extents<class_BakedLightmap_property_extents>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:66
+#: ../classes/class_bakedlightmap.rst:433
+msgid "``Vector3( 10, 10, 10 )``"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:68
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:68
+msgid ":ref:`image_path<class_BakedLightmap_property_image_path>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:70
+msgid ":ref:`BakedLightmapData<class_BakedLightmapData>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:70
+msgid ":ref:`light_data<class_BakedLightmap_property_light_data>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:72
+msgid ":ref:`quality<class_BakedLightmap_property_quality>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:74
+msgid ":ref:`use_color<class_BakedLightmap_property_use_color>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:76
+msgid ":ref:`use_denoiser<class_BakedLightmap_property_use_denoiser>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:78
+msgid ":ref:`use_hdr<class_BakedLightmap_property_use_hdr>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:82
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:85
+msgid ":ref:`BakeError<enum_BakedLightmap_BakeError>`"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:85
+msgid ":ref:`bake<class_BakedLightmap_method_bake>` **(** :ref:`Node<class_Node>` from_node=null, :ref:`String<class_String>` data_save_path=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:89
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:101
+msgid "enum **BakeQuality**:"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:103
+msgid "**BAKE_QUALITY_LOW** = **0** --- 最低烘焙质量模式。计算速度最快。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:105
+msgid "**BAKE_QUALITY_MEDIUM** = **1** --- 默认烘焙质量模式。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:107
+msgid "**BAKE_QUALITY_HIGH** = **2** --- 更高的烘焙质量模式。需要更长的时间来计算。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:109
+msgid "**BAKE_QUALITY_ULTRA** = **3** --- 最高的烘烤质量模式。需要最长的时间来计算。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:133
+msgid "enum **BakeError**:"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:135
+msgid "**BAKE_ERROR_OK** = **0** --- 烘焙成功。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:137
+msgid "**BAKE_ERROR_NO_SAVE_PATH** = **1** --- 如果没有找到合适的保存路径，则返回。这可能发生在没有指定\\ :ref:`image_path<class_BakedLightmap_property_image_path>`\\ 或者保存位置无效的情况下。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:139
+msgid "**BAKE_ERROR_NO_MESHES** = **2** --- 当前未使用."
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:141
+msgid "**BAKE_ERROR_CANT_CREATE_IMAGE** = **3** --- 当烘焙器不能将每个网格的纹理保存到文件时返回。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:143
+msgid "**BAKE_ERROR_LIGHTMAP_SIZE** = **4** --- 生成的光照贴图尺寸过大。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:145
+msgid "**BAKE_ERROR_INVALID_MESH** = **5** --- 有些网格包含\\ ``[0,1]``\\ 范围以外的UV2值。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:147
+msgid "**BAKE_ERROR_USER_ABORTED** = **6** --- 如果用户取消了烘烤，则返回。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:149
+msgid "**BAKE_ERROR_NO_LIGHTMAPPER** = **7** --- 如果不能创建光照贴图器，则返回。除非你使用的是自定义的光照贴图器，否则请将此报告为bug。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:151
+msgid "**BAKE_ERROR_NO_ROOT** = **8** --- 没有根节点可以开始烘焙。要么提供\\ ``from_node``\\ 参数，要么将此节点附加到一个被用作根节点的父节点。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:165
+msgid "enum **EnvironmentMode**:"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:167
+msgid "**ENVIRONMENT_MODE_DISABLED** = **0** --- 烘焙过程中不使用任何环境。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:169
+msgid "**ENVIRONMENT_MODE_SCENE** = **1** --- 烘焙环境会自动从当前场景中获取。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:171
+msgid "**ENVIRONMENT_MODE_CUSTOM_SKY** = **2** --- 在烘焙过程中使用自定义天空作为环境。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:173
+msgid "**ENVIRONMENT_MODE_CUSTOM_COLOR** = **3** --- 烘焙过程中使用自定义纯色作为环境。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:176
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:180
+msgid ":ref:`bool<class_bool>` **atlas_generate**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:183
+#: ../classes/class_bakedlightmap.rst:199
+#: ../classes/class_bakedlightmap.rst:215
+#: ../classes/class_bakedlightmap.rst:231
+#: ../classes/class_bakedlightmap.rst:249
+#: ../classes/class_bakedlightmap.rst:265
+#: ../classes/class_bakedlightmap.rst:281
+#: ../classes/class_bakedlightmap.rst:297
+#: ../classes/class_bakedlightmap.rst:313
+#: ../classes/class_bakedlightmap.rst:329
+#: ../classes/class_bakedlightmap.rst:401
+#: ../classes/class_bakedlightmap.rst:417
+#: ../classes/class_bakedlightmap.rst:433
+#: ../classes/class_bakedlightmap.rst:477
+#: ../classes/class_bakedlightmap.rst:493
+#: ../classes/class_bakedlightmap.rst:509
+#: ../classes/class_bakedlightmap.rst:525
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:185
+#: ../classes/class_bakedlightmap.rst:201
+#: ../classes/class_bakedlightmap.rst:217
+#: ../classes/class_bakedlightmap.rst:233
+#: ../classes/class_bakedlightmap.rst:251
+#: ../classes/class_bakedlightmap.rst:267
+#: ../classes/class_bakedlightmap.rst:283
+#: ../classes/class_bakedlightmap.rst:299
+#: ../classes/class_bakedlightmap.rst:315
+#: ../classes/class_bakedlightmap.rst:331
+#: ../classes/class_bakedlightmap.rst:345
+#: ../classes/class_bakedlightmap.rst:359
+#: ../classes/class_bakedlightmap.rst:373
+#: ../classes/class_bakedlightmap.rst:387
+#: ../classes/class_bakedlightmap.rst:403
+#: ../classes/class_bakedlightmap.rst:419
+#: ../classes/class_bakedlightmap.rst:435
+#: ../classes/class_bakedlightmap.rst:449
+#: ../classes/class_bakedlightmap.rst:463
+#: ../classes/class_bakedlightmap.rst:479
+#: ../classes/class_bakedlightmap.rst:495
+#: ../classes/class_bakedlightmap.rst:511
+#: ../classes/class_bakedlightmap.rst:527
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:185
+msgid "set_generate_atlas(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:187
+#: ../classes/class_bakedlightmap.rst:203
+#: ../classes/class_bakedlightmap.rst:219
+#: ../classes/class_bakedlightmap.rst:235
+#: ../classes/class_bakedlightmap.rst:253
+#: ../classes/class_bakedlightmap.rst:269
+#: ../classes/class_bakedlightmap.rst:285
+#: ../classes/class_bakedlightmap.rst:301
+#: ../classes/class_bakedlightmap.rst:317
+#: ../classes/class_bakedlightmap.rst:333
+#: ../classes/class_bakedlightmap.rst:347
+#: ../classes/class_bakedlightmap.rst:361
+#: ../classes/class_bakedlightmap.rst:375
+#: ../classes/class_bakedlightmap.rst:389
+#: ../classes/class_bakedlightmap.rst:405
+#: ../classes/class_bakedlightmap.rst:421
+#: ../classes/class_bakedlightmap.rst:437
+#: ../classes/class_bakedlightmap.rst:451
+#: ../classes/class_bakedlightmap.rst:465
+#: ../classes/class_bakedlightmap.rst:481
+#: ../classes/class_bakedlightmap.rst:497
+#: ../classes/class_bakedlightmap.rst:513
+#: ../classes/class_bakedlightmap.rst:529
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:187
+msgid "is_generate_atlas_enabled()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:190
+msgid "启用后，光照贴图会将所有网格的纹理合并为一个大的分层纹理。 GLES2 不支持。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:196
+msgid ":ref:`int<class_int>` **atlas_max_size**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:201
+msgid "set_max_atlas_size(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:203
+msgid "get_max_atlas_size()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:206
+msgid "每个光照贴图层的最大尺寸，仅在启用 :ref:`atlas_generate<class_BakedLightmap_property_atlas_generate>` 时使用。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:212
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:217
+msgid "set_bias(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:219
+msgid "get_bias()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:222
+msgid "在烘焙过程中使用光线投射偏置来避免浮点数精度问题。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:228
+msgid ":ref:`float<class_float>` **bounce_indirect_energy**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:233
+msgid "set_bounce_indirect_energy(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:235
+msgid "get_bounce_indirect_energy()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:238
+msgid "每次反弹的能量乘数。较高的值将使间接照明更亮。 ``1.0`` 的值表示与物理相一致的行为，但在使用少量反弹时，可以使用更高的值使间接照明传播更明显。这可用于通过降低\\ :ref:`bounces<class_BakedLightmap_property_bounces>`\\ 的数量然后增加 :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 来加快烘焙时间。与 :ref:`BakedLightmapData.energy<class_BakedLightmapData_property_energy>` 不同，此属性不会影响灯光节点、自发光材质和环境发出的直接光照。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:240
+msgid "\\ **注意：** :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>` 仅在\\ :ref:`bounces<class_BakedLightmap_property_bounces>` 设置为大于或等于\\ ``1``\\ 的值时有效。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:246
+msgid ":ref:`int<class_int>` **bounces**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:251
+msgid "set_bounces(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:253
+msgid "get_bounces()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:256
+msgid "烘焙过程中考虑的光线反射次数。参阅 :ref:`bounce_indirect_energy<class_BakedLightmap_property_bounce_indirect_energy>`\\ 。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:262
+msgid ":ref:`float<class_float>` **capture_cell_size**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:267
+msgid "set_capture_cell_size(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:269
+msgid "get_capture_cell_size()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:272
+msgid "用于实时捕获动态对象信息的网格大小。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:278
+msgid ":ref:`bool<class_bool>` **capture_enabled**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:283
+msgid "set_capture_enabled(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:285
+msgid "get_capture_enabled()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:288
+msgid "启用后，将计算包含场景照明信息的八叉树。然后此八叉树将用于照亮场景中的动态对象。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:294
+msgid ":ref:`float<class_float>` **capture_propagation**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:299
+msgid "set_capture_propagation(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:301
+msgid "get_capture_propagation()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:304
+msgid "偏置值，用于减少捕获的八叉树中的光传播量。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:310
+msgid ":ref:`BakeQuality<enum_BakedLightmap_BakeQuality>` **capture_quality**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:315
+msgid "set_capture_quality(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:317
+msgid "get_capture_quality()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:320
+msgid "捕获数据的烘焙质量。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:326
+msgid ":ref:`float<class_float>` **default_texels_per_unit**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:331
+msgid "set_default_texels_per_unit(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:333
+msgid "get_default_texels_per_unit()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:336
+msgid "如果烘焙后的网格没有UV2的尺寸提示，这个值将被用来粗略计算出合适的光照贴图尺寸。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:342
+msgid ":ref:`Color<class_Color>` **environment_custom_color**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:345
+msgid "set_environment_custom_color(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:347
+msgid "get_environment_custom_color()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:350
+msgid ":ref:`environment_mode<class_BakedLightmap_property_environment_mode>` 设置为 :ref:`ENVIRONMENT_MODE_CUSTOM_COLOR<class_BakedLightmap_constant_ENVIRONMENT_MODE_CUSTOM_COLOR>` 时的环境颜色。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:356
+msgid ":ref:`float<class_float>` **environment_custom_energy**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:359
+msgid "set_environment_custom_energy(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:361
+msgid "get_environment_custom_energy()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:364
+msgid ":ref:`environment_mode<class_BakedLightmap_property_environment_mode>` 设置为 :ref:`ENVIRONMENT_MODE_CUSTOM_COLOR<class_BakedLightmap_constant_ENVIRONMENT_MODE_CUSTOM_COLOR>` 或 :ref:`ENVIRONMENT_MODE_CUSTOM_SKY<class_BakedLightmap_constant_ENVIRONMENT_MODE_CUSTOM_SKY>` 时的能量比例系数。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:370
+msgid ":ref:`Sky<class_Sky>` **environment_custom_sky**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:373
+msgid "set_environment_custom_sky(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:375
+msgid "get_environment_custom_sky()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:378
+msgid "当 :ref:`environment_mode<class_BakedLightmap_property_environment_mode>` 设置为 :ref:`ENVIRONMENT_MODE_CUSTOM_SKY<class_BakedLightmap_constant_ENVIRONMENT_MODE_CUSTOM_SKY>` 时要使用的 :ref:`Sky<class_Sky>` 资源。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:384
+msgid ":ref:`Vector3<class_Vector3>` **environment_custom_sky_rotation_degrees**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:387
+msgid "set_environment_custom_sky_rotation_degrees(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:389
+msgid "get_environment_custom_sky_rotation_degrees()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:392
+msgid "烘焙自定义天空的旋转。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:398
+msgid ":ref:`Color<class_Color>` **environment_min_light**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:403
+msgid "set_environment_min_light(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:405
+msgid "get_environment_min_light()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:408
+msgid "所有光照贴图纹理元素的最小环境光。这不考虑场景几何体的任何遮挡，它只是确保所有光照贴图纹理元素上的光量最小。可用于阴影颜色的艺术控制。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:414
+msgid ":ref:`EnvironmentMode<enum_BakedLightmap_EnvironmentMode>` **environment_mode**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:419
+msgid "set_environment_mode(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:421
+msgid "get_environment_mode()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:424
+msgid "决定烘焙时使用哪个环境。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:430
+msgid ":ref:`Vector3<class_Vector3>` **extents**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:435
+msgid "set_extents(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:437
+msgid "get_extents()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:440
+msgid "烘焙光照贴图的大小。只有该区域内的网格才会包含在烘焙光照贴图中，也用作动态光照捕获区域的边界。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:446
+msgid ":ref:`String<class_String>` **image_path**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:449
+msgid "set_image_path(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:451
+msgid "get_image_path()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:454
+msgid "已废弃，在以前的版本中，它决定了光照贴图的保存位置。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:460
+msgid ":ref:`BakedLightmapData<class_BakedLightmapData>` **light_data**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:463
+msgid "set_light_data(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:465
+msgid "get_light_data()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:468
+msgid "计算出的光照数据。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:474
+msgid ":ref:`BakeQuality<enum_BakedLightmap_BakeQuality>` **quality**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:479
+msgid "set_bake_quality(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:481
+msgid "get_bake_quality()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:484
+msgid "决定在不正确的光照烘烤中每一个纹理元素的采样量。可以在项目设置中配置每个质量级别的采样量。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:490
+msgid ":ref:`bool<class_bool>` **use_color**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:495
+msgid "set_use_color(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:497
+msgid "is_using_color()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:500
+msgid "在光照贴图纹理中存储全色值。禁用时，光照贴图纹理将存储单个亮度通道。如果场景仅包含白光或者您不介意在间接照明中丢失颜色信息，则可以禁用以减少磁盘使用量。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:506
+msgid ":ref:`bool<class_bool>` **use_denoiser**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:511
+msgid "set_use_denoiser(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:513
+msgid "is_using_denoiser()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:516
+msgid "启用后，将使用光照贴图降噪器来减少基于Monte Carlo的全局照明固有的噪声。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:522
+msgid ":ref:`bool<class_bool>` **use_hdr**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:527
+msgid "set_use_hdr(value)"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:529
+msgid "is_using_hdr()"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:532
+msgid "如果 ``true``\\ ，则以高动态范围格式 (EXR) 存储光照贴图纹理。如果 ``false``\\ ，则将光照贴图纹理存储在低动态范围的 PNG 图像中。这可以设置为 ``false`` 以减少磁盘占用，但超过 1.0 的光照值将被限制，你可能会看到因精度降低而导致的条纹。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:534
+msgid "\\ **注意：** 将 :ref:`use_hdr<class_BakedLightmap_property_use_hdr>` 设置为 ``true`` 即使使用 GLES2 后端或 :ref:`ProjectSettings.rendering/quality/depth/hdr<class_ProjectSettings_property_rendering/quality/depth/hdr>` 为 ``false，也会降低光照贴图条纹``\\ 。"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:537
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:541
+msgid ":ref:`BakeError<enum_BakedLightmap_BakeError>` **bake** **(** :ref:`Node<class_Node>` from_node=null, :ref:`String<class_String>` data_save_path=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_bakedlightmap.rst:543
+msgid "烘焙光照贴图，从给定的\\ ``from_node``\\ 根节点扫描，并将产生的\\ :ref:`BakedLightmapData<class_BakedLightmapData>`\\ 保存在\\ ``data_save_path``\\ 中。如果没有提供根节点，此节点的父节点将作为根节点。如果没有提供保存路径，将尝试匹配当前\\ :ref:`light_data<class_BakedLightmap_property_light_data>`\\ 的路径。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

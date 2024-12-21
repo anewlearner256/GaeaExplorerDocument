@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorexportplugin.rst:10
+msgid "EditorExportPlugin"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:14
+msgid "在导出项目时执行的脚本。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:19
+msgid "每当用户导出项目时，会自动激活编辑器的导出插件。其最常用在确定哪些文件被包含到导出的项目中。对于每个插件，在导出过程开始时调用\\ :ref:`_export_begin<class_EditorExportPlugin_method__export_begin>`\\ ，然后调用每个导出文件的\\ :ref:`_export_file<class_EditorExportPlugin_method__export_file>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:25
+#: ../classes/class_editorexportplugin.rst:27
+#: ../classes/class_editorexportplugin.rst:29
+#: ../classes/class_editorexportplugin.rst:31
+#: ../classes/class_editorexportplugin.rst:33
+#: ../classes/class_editorexportplugin.rst:35
+#: ../classes/class_editorexportplugin.rst:37
+#: ../classes/class_editorexportplugin.rst:39
+#: ../classes/class_editorexportplugin.rst:41
+#: ../classes/class_editorexportplugin.rst:43
+#: ../classes/class_editorexportplugin.rst:45
+#: ../classes/class_editorexportplugin.rst:47
+#: ../classes/class_editorexportplugin.rst:49
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:25
+msgid ":ref:`_export_begin<class_EditorExportPlugin_method__export_begin>` **(** :ref:`PoolStringArray<class_PoolStringArray>` features, :ref:`bool<class_bool>` is_debug, :ref:`String<class_String>` path, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:27
+msgid ":ref:`_export_end<class_EditorExportPlugin_method__export_end>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:29
+msgid ":ref:`_export_file<class_EditorExportPlugin_method__export_file>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type, :ref:`PoolStringArray<class_PoolStringArray>` features **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:31
+msgid ":ref:`add_file<class_EditorExportPlugin_method_add_file>` **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` file, :ref:`bool<class_bool>` remap **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:33
+msgid ":ref:`add_ios_bundle_file<class_EditorExportPlugin_method_add_ios_bundle_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:35
+msgid ":ref:`add_ios_cpp_code<class_EditorExportPlugin_method_add_ios_cpp_code>` **(** :ref:`String<class_String>` code **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:37
+msgid ":ref:`add_ios_embedded_framework<class_EditorExportPlugin_method_add_ios_embedded_framework>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:39
+msgid ":ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:41
+msgid ":ref:`add_ios_linker_flags<class_EditorExportPlugin_method_add_ios_linker_flags>` **(** :ref:`String<class_String>` flags **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:43
+msgid ":ref:`add_ios_plist_content<class_EditorExportPlugin_method_add_ios_plist_content>` **(** :ref:`String<class_String>` plist_content **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:45
+msgid ":ref:`add_ios_project_static_lib<class_EditorExportPlugin_method_add_ios_project_static_lib>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:47
+msgid ":ref:`add_shared_object<class_EditorExportPlugin_method_add_shared_object>` **(** :ref:`String<class_String>` path, :ref:`PoolStringArray<class_PoolStringArray>` tags **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:49
+msgid ":ref:`skip<class_EditorExportPlugin_method_skip>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:53
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:57
+msgid "void **_export_begin** **(** :ref:`PoolStringArray<class_PoolStringArray>` features, :ref:`bool<class_bool>` is_debug, :ref:`String<class_String>` path, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:59
+msgid "由用户重写的虚方法。在导出开始时它被调用，并提供关于导出的所有信息。\\ ``features`` 是导出的特性列表，\\ ``is_debug`` 是\\ ``true`` 用于调试构建，\\ ``path`` 是导出项目的目标路径。\\ ``flags``\\ 只运行在可运行配置时使用，例如在Android上使用本地运行。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:65
+msgid "void **_export_end** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:67
+msgid "可以被用户重写的虚方法。在导出完成后被调用。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:73
+msgid "void **_export_file** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type, :ref:`PoolStringArray<class_PoolStringArray>` features **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:75
+msgid "由用户重写的虚方法。每个导出的文件都会调用，并提供可用于识别文件的参数。\\ ``path`` 是文件的路径，\\ ``type`` 是文件所代表的 :ref:`Resource<class_Resource>` 类型（例如 :ref:`PackedScene<class_PackedScene>`\\ ），\\ ``features`` 是导出的特征列表。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:77
+msgid "在这个回调中调用 :ref:`skip<class_EditorExportPlugin_method_skip>` 将使该文件不包括在导出中。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:83
+msgid "void **add_file** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` file, :ref:`bool<class_bool>` remap **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:85
+msgid "添加一个要导出的自定义文件。\\ ``path`` 是可用于加载文件的虚拟路径，\\ ``file`` 是文件的二进制数据。如果 ``remap`` 是 ``true``\\ ，则文件将不会导出，而是重新映射到给定的 ``path``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:91
+msgid "void **add_ios_bundle_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:93
+msgid "从给定的 ``path`` 添加一个iOS捆绑文件到导出的项目。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:99
+msgid "void **add_ios_cpp_code** **(** :ref:`String<class_String>` code **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:101
+msgid "将C++代码添加到iOS导出中。最终的代码是由每个激活的导出插件附加的代码创建的。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:107
+msgid "void **add_ios_embedded_framework** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:109
+msgid "在 iOS 的 Xcode 项目中链接阶段添加动态库（\\*.dylib, \\*.framework），并将其嵌入到生成的二进制文件中。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:111
+msgid "\\ **注意：**\\ 对于静态库（\\*.a）的工作方式与 :ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>` 相同。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:113
+msgid "这个方法不应用于系统库，因为它们已经在设备上存在。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:119
+msgid "void **add_ios_framework** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:121
+msgid "在 iOS 的 Xcode 项目中链接阶段添加静态库（\\*.a）或动态库（\\*.dylib、\\*.framework）。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:127
+msgid "void **add_ios_linker_flags** **(** :ref:`String<class_String>` flags **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:129
+msgid "为 iOS 导出添加链接器标志。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:135
+msgid "void **add_ios_plist_content** **(** :ref:`String<class_String>` plist_content **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:137
+msgid "为iOS属性列表文件添加内容。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:143
+msgid "void **add_ios_project_static_lib** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:145
+msgid "从给定的\\ ``path``\\ 添加静态库到iOS项目。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:151
+msgid "void **add_shared_object** **(** :ref:`String<class_String>` path, :ref:`PoolStringArray<class_PoolStringArray>` tags **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:153
+msgid "添加指定 ``tags`` 和目标 ``path`` 的共享对象。"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:159
+msgid "void **skip** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorexportplugin.rst:161
+msgid "在\\ :ref:`_export_file<class_EditorExportPlugin_method__export_file>`\\ 中调用。跳过当前文件，因此它不包括在导出中。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

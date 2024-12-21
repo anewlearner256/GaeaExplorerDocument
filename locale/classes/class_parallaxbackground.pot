@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_parallaxbackground.rst:10
+msgid "ParallaxBackground"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:12
+msgid "**Inherits:** :ref:`CanvasLayer<class_CanvasLayer>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:14
+msgid "用于创建视差滚动背景的节点。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:19
+msgid "ParallaxBackground 使用一个或多个 :ref:`ParallaxLayer<class_ParallaxLayer>` 子节点来创建视差效果。每个 :ref:`ParallaxLayer<class_ParallaxLayer>` 可以使用 :ref:`ParallaxLayer.motion_offset<class_ParallaxLayer_property_motion_offset>` 以不同的速度移动。这在 2D 游戏中可以创造一种深度错觉。如果没有与 :ref:`Camera2D<class_Camera2D>` 一起使用，你必须手动计算 :ref:`scroll_offset<class_ParallaxBackground_property_scroll_offset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:25
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:25
+msgid "layer"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:25
+msgid "``-100`` (overrides :ref:`CanvasLayer<class_CanvasLayer_property_layer>`)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:27
+#: ../classes/class_parallaxbackground.rst:29
+#: ../classes/class_parallaxbackground.rst:33
+#: ../classes/class_parallaxbackground.rst:35
+#: ../classes/class_parallaxbackground.rst:37
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:27
+msgid ":ref:`scroll_base_offset<class_ParallaxBackground_property_scroll_base_offset>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:27
+#: ../classes/class_parallaxbackground.rst:33
+#: ../classes/class_parallaxbackground.rst:35
+#: ../classes/class_parallaxbackground.rst:37
+#: ../classes/class_parallaxbackground.rst:48
+#: ../classes/class_parallaxbackground.rst:96
+#: ../classes/class_parallaxbackground.rst:112
+#: ../classes/class_parallaxbackground.rst:128
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:29
+msgid ":ref:`scroll_base_scale<class_ParallaxBackground_property_scroll_base_scale>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:29
+#: ../classes/class_parallaxbackground.rst:64
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:31
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:31
+msgid ":ref:`scroll_ignore_camera_zoom<class_ParallaxBackground_property_scroll_ignore_camera_zoom>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:31
+#: ../classes/class_parallaxbackground.rst:80
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:33
+msgid ":ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:35
+msgid ":ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:37
+msgid ":ref:`scroll_offset<class_ParallaxBackground_property_scroll_offset>`"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:41
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:45
+msgid ":ref:`Vector2<class_Vector2>` **scroll_base_offset**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:48
+#: ../classes/class_parallaxbackground.rst:64
+#: ../classes/class_parallaxbackground.rst:80
+#: ../classes/class_parallaxbackground.rst:96
+#: ../classes/class_parallaxbackground.rst:112
+#: ../classes/class_parallaxbackground.rst:128
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:50
+#: ../classes/class_parallaxbackground.rst:66
+#: ../classes/class_parallaxbackground.rst:82
+#: ../classes/class_parallaxbackground.rst:98
+#: ../classes/class_parallaxbackground.rst:114
+#: ../classes/class_parallaxbackground.rst:130
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:50
+msgid "set_scroll_base_offset(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:52
+#: ../classes/class_parallaxbackground.rst:68
+#: ../classes/class_parallaxbackground.rst:84
+#: ../classes/class_parallaxbackground.rst:100
+#: ../classes/class_parallaxbackground.rst:116
+#: ../classes/class_parallaxbackground.rst:132
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:52
+msgid "get_scroll_base_offset()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:55
+msgid "所有 :ref:`ParallaxLayer<class_ParallaxLayer>` 子元素的基本位置偏移。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:61
+msgid ":ref:`Vector2<class_Vector2>` **scroll_base_scale**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:66
+msgid "set_scroll_base_scale(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:68
+msgid "get_scroll_base_scale()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:71
+msgid "所有 :ref:`ParallaxLayer<class_ParallaxLayer>` 子元素的基本移动比例。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:77
+msgid ":ref:`bool<class_bool>` **scroll_ignore_camera_zoom**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:82
+msgid "set_ignore_camera_zoom(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:84
+msgid "is_ignore_camera_zoom()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:87
+msgid "为 ``true`` 时，\\ :ref:`ParallaxLayer<class_ParallaxLayer>` 子元素将不受相机缩放级别的影响。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:93
+msgid ":ref:`Vector2<class_Vector2>` **scroll_limit_begin**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:98
+msgid "set_limit_begin(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:100
+msgid "get_limit_begin()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:103
+msgid "开始滚动的左上角限制。如果相机超出这个限制，背景将停止滚动。必须低于\\ :ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>`\\ 才能工作。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:109
+msgid ":ref:`Vector2<class_Vector2>` **scroll_limit_end**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:114
+msgid "set_limit_end(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:116
+msgid "get_limit_end()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:119
+msgid "右下角限制滚动结束。如果相机超出这个限制，背景将停止滚动。必须高于\\ :ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>`\\ 才能工作。"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:125
+msgid ":ref:`Vector2<class_Vector2>` **scroll_offset**"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:130
+msgid "set_scroll_offset(value)"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:132
+msgid "get_scroll_offset()"
+msgstr ""
+
+#: ../classes/class_parallaxbackground.rst:135
+msgid "视差背景的滚动值。使用\\ :ref:`Camera2D<class_Camera2D>`\\ 时自动计算，但可用于手动管理无摄像头时的滚动。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

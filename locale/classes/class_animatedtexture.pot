@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animatedtexture.rst:10
+msgid "AnimatedTexture"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:14
+msgid "基于简单帧动画的代理纹理。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:19
+msgid "``AnimatedTexture``\\ 是一种资源格式，用于基于帧的动画，其中多个纹理自动链接起来，每帧有预定义延迟。与\\ :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 或\\ :ref:`AnimatedSprite<class_AnimatedSprite>`\\ 不同，它不是一个\\ :ref:`Node<class_Node>`\\ ，其优点是可在任何可以使用\\ :ref:`Texture<class_Texture>`\\ 资源的地方使用，例如在\\ :ref:`TileSet<class_TileSet>`\\ 中。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:21
+msgid "动画的播放由\\ :ref:`fps<class_AnimatedTexture_property_fps>`\\ 属性以及每一帧的可选延迟控制，参阅\\ :ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`\\ 。动画是循环播放的，也就是说，在播放完最后一帧后，它将自动从第0帧重新开始。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:23
+msgid "\\ ``AnimatedTexture``\\ 目前要求所有帧的纹理具有相同的尺寸，否则较大的纹理会被裁剪，与最小的纹理相匹配。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:25
+msgid "\\ **注意：** AnimatedTexture不支持使用\\ :ref:`AtlasTexture<class_AtlasTexture>`\\ 。每一帧都需要是一个单独的\\ :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:28
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:31
+#: ../classes/class_animatedtexture.rst:33
+#: ../classes/class_animatedtexture.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:31
+msgid ":ref:`current_frame<class_AnimatedTexture_property_current_frame>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:33
+msgid "flags"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:33
+msgid "``0`` (overrides :ref:`Texture<class_Texture_property_flags>`)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:35
+#: ../classes/class_animatedtexture.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:35
+msgid ":ref:`fps<class_AnimatedTexture_property_fps>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:35
+#: ../classes/class_animatedtexture.rst:86
+msgid "``4.0``"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:37
+msgid ":ref:`frames<class_AnimatedTexture_property_frames>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:37
+#: ../classes/class_animatedtexture.rst:104
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:39
+#: ../classes/class_animatedtexture.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:39
+msgid ":ref:`oneshot<class_AnimatedTexture_property_oneshot>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:39
+#: ../classes/class_animatedtexture.rst:41
+#: ../classes/class_animatedtexture.rst:120
+#: ../classes/class_animatedtexture.rst:136
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:41
+msgid ":ref:`pause<class_AnimatedTexture_property_pause>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:45
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:48
+msgid ":ref:`get_frame_delay<class_AnimatedTexture_method_get_frame_delay>` **(** :ref:`int<class_int>` frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:50
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:50
+msgid ":ref:`get_frame_texture<class_AnimatedTexture_method_get_frame_texture>` **(** :ref:`int<class_int>` frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:52
+#: ../classes/class_animatedtexture.rst:54
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:52
+msgid ":ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>` **(** :ref:`int<class_int>` frame, :ref:`float<class_float>` delay **)**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:54
+msgid ":ref:`set_frame_texture<class_AnimatedTexture_method_set_frame_texture>` **(** :ref:`int<class_int>` frame, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:58
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:62
+msgid "**MAX_FRAMES** = **256** --- ``AnimatedTexture``\\ 支持的最大帧数。如果动画中需要更多帧，请使用\\ :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 或\\ :ref:`AnimatedSprite<class_AnimatedSprite>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:65
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:69
+msgid ":ref:`int<class_int>` **current_frame**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:72
+#: ../classes/class_animatedtexture.rst:88
+#: ../classes/class_animatedtexture.rst:106
+#: ../classes/class_animatedtexture.rst:122
+#: ../classes/class_animatedtexture.rst:138
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:72
+msgid "set_current_frame(value)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:74
+#: ../classes/class_animatedtexture.rst:90
+#: ../classes/class_animatedtexture.rst:108
+#: ../classes/class_animatedtexture.rst:124
+#: ../classes/class_animatedtexture.rst:140
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:74
+msgid "get_current_frame()"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:77
+msgid "设置纹理当前可见的帧。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:83
+msgid ":ref:`float<class_float>` **fps**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:86
+#: ../classes/class_animatedtexture.rst:104
+#: ../classes/class_animatedtexture.rst:120
+#: ../classes/class_animatedtexture.rst:136
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:88
+msgid "set_fps(value)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:90
+msgid "get_fps()"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:93
+msgid "动画速度，以每秒帧数为单位。此值定义动画两个帧之间的默认时间间隔，并因此基于\\ :ref:`frames<class_AnimatedTexture_property_frames>`\\ 属性定义动画循环的总体持续时间。值为0表示每秒没有预定义的帧数，动画将根据每个帧的帧延迟播放（请参阅\\ :ref:`set_frame_delay<class_AnimatedTexture_method_set_frame_delay>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:95
+msgid "例如，具有8帧，无帧延迟且\\ ``fps``\\ 值为2的动画将运行4秒，每帧持续0.5秒。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:101
+msgid ":ref:`int<class_int>` **frames**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:106
+msgid "set_frames(value)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:108
+msgid "get_frames()"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:111
+msgid "动画中要使用的帧数。虽然您可以使用\\ :ref:`set_frame_texture<class_AnimatedTexture_method_set_frame_texture>`\\ 独立创建帧，但是您需要为动画设置此值以考虑新帧。最大帧数为\\ :ref:`MAX_FRAMES<class_AnimatedTexture_constant_MAX_FRAMES>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:117
+msgid ":ref:`bool<class_bool>` **oneshot**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:122
+msgid "set_oneshot(value)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:124
+msgid "get_oneshot()"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:127
+msgid "如果 ``true``\\ ，则动画将只播放一次，并且在到达结尾后将不会循环回到第一帧。请注意，到达终点不会将 :ref:`pause<class_AnimatedTexture_property_pause>` 设置为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:133
+msgid ":ref:`bool<class_bool>` **pause**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:138
+msgid "set_pause(value)"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:140
+msgid "get_pause()"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:143
+msgid "如果\\ ``true``\\ ，则动画将暂停在当前位置（即\\ :ref:`current_frame<class_AnimatedTexture_property_current_frame>`\\ ）。将此属性更改为\\ ``false``\\ 时，动画将从暂停处继续播放。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:146
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:150
+msgid ":ref:`float<class_float>` **get_frame_delay** **(** :ref:`int<class_int>` frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:152
+msgid "返回给定帧的延迟值。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:158
+msgid ":ref:`Texture<class_Texture>` **get_frame_texture** **(** :ref:`int<class_int>` frame **)** |const|"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:160
+msgid "返回给定帧的\\ :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:166
+msgid "void **set_frame_delay** **(** :ref:`int<class_int>` frame, :ref:`float<class_float>` delay **)**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:168
+msgid "在此帧和下一帧之间设置额外的延迟（以秒为内），该延迟将添加到 :ref:`fps<class_AnimatedTexture_property_fps>` 定义的时间间隔中。默认情况下，框架没有延迟定义。如果定义了延迟值，则此帧和下一帧之间的最终时间间隔将是 ``1.0 / fps + delay`` 。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:170
+msgid "例如，对于具有 3 帧、2 个 FPS 和 1.2 第二帧上的帧延迟的动画，由此产生的回放将是："
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:183
+msgid "void **set_frame_texture** **(** :ref:`int<class_int>` frame, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:185
+msgid "将 :ref:`Texture<class_Texture>` 分配给给定的帧。帧 ID 从 0 开始，因此第一帧的 ID 为 0，动画的最后一帧的 ID 为 :ref:`frames<class_AnimatedTexture_property_frames>` -1。"
+msgstr ""
+
+#: ../classes/class_animatedtexture.rst:187
+msgid "您可以定义最多 :ref:`MAX_FRAMES<class_AnimatedTexture_constant_MAX_FRAMES>` 个纹理，但要记住，只有 0 到 :ref:`frames<class_AnimatedTexture_property_frames>` - 1 的帧会成为动画的一部分。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

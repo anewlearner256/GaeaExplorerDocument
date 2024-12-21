@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorinspectorplugin.rst:10
+msgid "EditorInspectorPlugin"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:14
+msgid "用于在检查器上添加自定义属性编辑器的插件。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:19
+msgid "该插件允许向\\ :ref:`EditorInspector<class_EditorInspector>`\\ 添加自定义属性编辑器。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:21
+msgid "插件通过\\ :ref:`EditorPlugin.add_inspector_plugin<class_EditorPlugin_method_add_inspector_plugin>`\\ 注册。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:23
+msgid "当一个对象被编辑时，\\ :ref:`can_handle<class_EditorInspectorPlugin_method_can_handle>`\\ 函数被调用，如果支持对象类型，必须返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:25
+msgid "如果支持，函数\\ :ref:`parse_begin<class_EditorInspectorPlugin_method_parse_begin>`\\ 将被调用，允许在类的开头放置自定义控件。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:27
+msgid "随后，调用每个类型和属性\\ :ref:`parse_category<class_EditorInspectorPlugin_method_parse_category>`\\ 和\\ :ref:`parse_property<class_EditorInspectorPlugin_method_parse_property>`\\ 。其也提供了向检查器添加自定义控件的能力。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:29
+msgid "最后，调用\\ :ref:`parse_end<class_EditorInspectorPlugin_method_parse_end>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:31
+msgid "在这些调用中，每一个都可以调用 \"add\"函数。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:34
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:36
+msgid ":doc:`Inspector plugins <../tutorials/plugins/editor/inspector_plugins>`"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:39
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:42
+#: ../classes/class_editorinspectorplugin.rst:44
+#: ../classes/class_editorinspectorplugin.rst:46
+#: ../classes/class_editorinspectorplugin.rst:50
+#: ../classes/class_editorinspectorplugin.rst:52
+#: ../classes/class_editorinspectorplugin.rst:54
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:42
+msgid ":ref:`add_custom_control<class_EditorInspectorPlugin_method_add_custom_control>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:44
+msgid ":ref:`add_property_editor<class_EditorInspectorPlugin_method_add_property_editor>` **(** :ref:`String<class_String>` property, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:46
+msgid ":ref:`add_property_editor_for_multiple_properties<class_EditorInspectorPlugin_method_add_property_editor_for_multiple_properties>` **(** :ref:`String<class_String>` label, :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:48
+#: ../classes/class_editorinspectorplugin.rst:56
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:48
+msgid ":ref:`can_handle<class_EditorInspectorPlugin_method_can_handle>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:50
+msgid ":ref:`parse_begin<class_EditorInspectorPlugin_method_parse_begin>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:52
+msgid ":ref:`parse_category<class_EditorInspectorPlugin_method_parse_category>` **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` category **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:54
+msgid ":ref:`parse_end<class_EditorInspectorPlugin_method_parse_end>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:56
+msgid ":ref:`parse_property<class_EditorInspectorPlugin_method_parse_property>` **(** :ref:`Object<class_Object>` object, :ref:`int<class_int>` type, :ref:`String<class_String>` path, :ref:`int<class_int>` hint, :ref:`String<class_String>` hint_text, :ref:`int<class_int>` usage **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:60
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:64
+msgid "void **add_custom_control** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:66
+msgid "添加自定义控件，它不一定是属性编辑器。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:72
+msgid "void **add_property_editor** **(** :ref:`String<class_String>` property, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:74
+msgid "为单独的属性添加属性编辑器。\\ ``editor``\\ 控件必须扩展\\ :ref:`EditorProperty<class_EditorProperty>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:80
+msgid "void **add_property_editor_for_multiple_properties** **(** :ref:`String<class_String>` label, :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:82
+msgid "添加一个编辑器，允许修改多个属性。\\ ``editor``\\ 控件必须扩展\\ :ref:`EditorProperty<class_EditorProperty>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:88
+msgid ":ref:`bool<class_bool>` **can_handle** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:90
+msgid "如果此插件可以处理此对象返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:96
+msgid "void **parse_begin** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:98
+msgid "允许被调用在列表的开头添加控件。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:104
+msgid "void **parse_category** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` category **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:106
+msgid "允许被调用在类别的开头添加控件。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:112
+msgid "void **parse_end** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:114
+msgid "允许被调用在列表末尾添加控件。"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:120
+msgid ":ref:`bool<class_bool>` **parse_property** **(** :ref:`Object<class_Object>` object, :ref:`int<class_int>` type, :ref:`String<class_String>` path, :ref:`int<class_int>` hint, :ref:`String<class_String>` hint_text, :ref:`int<class_int>` usage **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorinspectorplugin.rst:122
+msgid "允许被调用在检查器中添加特定属性的编辑器。通常这些编辑器继承\\ :ref:`EditorProperty<class_EditorProperty>`\\ 。返回\\ ``true``\\ 删除该属性的内置编辑器，否则允许在内置编辑器之前插入一个自定义编辑器。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

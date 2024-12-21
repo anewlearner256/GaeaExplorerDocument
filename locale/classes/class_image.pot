@@ -1,0 +1,1168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_image.rst:10
+msgid "Image"
+msgstr ""
+
+#: ../classes/class_image.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_image.rst:14
+msgid "图像数据类型。"
+msgstr ""
+
+#: ../classes/class_image.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_image.rst:19
+msgid "本地图像数据类型。包含可转换为 :ref:`ImageTexture<class_ImageTexture>` 的图像数据，并提供常用的\\ *图像处理*\\ 方法。 ``Image`` 的最大宽度和高度是 :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` 和 :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:21
+msgid "\\ ``Image`` 不能直接分配给对象的 ``texture`` 属性，例如 :ref:`Sprite<class_Sprite>`\\ ，必须先手动转换为 :ref:`ImageTexture<class_ImageTexture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:23
+msgid "\\ **注意：**\\ 由于图形硬件限制，最大图像尺寸为 16384×16384 像素。较大的图像可能无法导入。"
+msgstr ""
+
+#: ../classes/class_image.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_image.rst:28
+msgid ":doc:`Importing images <../tutorials/assets_pipeline/importing_images>`"
+msgstr ""
+
+#: ../classes/class_image.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_image.rst:34
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_image.rst:34
+msgid ":ref:`data<class_Image_property_data>`"
+msgstr ""
+
+#: ../classes/class_image.rst:34
+#: ../classes/class_image.rst:448
+msgid "``{\"data\": PoolByteArray(  ),\"format\": \"Lum8\",\"height\": 0,\"mipmaps\": false,\"width\": 0}``"
+msgstr ""
+
+#: ../classes/class_image.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_image.rst:41
+#: ../classes/class_image.rst:43
+#: ../classes/class_image.rst:45
+#: ../classes/class_image.rst:47
+#: ../classes/class_image.rst:49
+#: ../classes/class_image.rst:51
+#: ../classes/class_image.rst:55
+#: ../classes/class_image.rst:57
+#: ../classes/class_image.rst:59
+#: ../classes/class_image.rst:61
+#: ../classes/class_image.rst:63
+#: ../classes/class_image.rst:69
+#: ../classes/class_image.rst:71
+#: ../classes/class_image.rst:73
+#: ../classes/class_image.rst:75
+#: ../classes/class_image.rst:77
+#: ../classes/class_image.rst:79
+#: ../classes/class_image.rst:123
+#: ../classes/class_image.rst:125
+#: ../classes/class_image.rst:127
+#: ../classes/class_image.rst:129
+#: ../classes/class_image.rst:131
+#: ../classes/class_image.rst:141
+#: ../classes/class_image.rst:143
+#: ../classes/class_image.rst:145
+#: ../classes/class_image.rst:147
+#: ../classes/class_image.rst:149
+msgid "void"
+msgstr ""
+
+#: ../classes/class_image.rst:41
+msgid ":ref:`blend_rect<class_Image_method_blend_rect>` **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:43
+msgid ":ref:`blend_rect_mask<class_Image_method_blend_rect_mask>` **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:45
+msgid ":ref:`blit_rect<class_Image_method_blit_rect>` **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:47
+msgid ":ref:`blit_rect_mask<class_Image_method_blit_rect_mask>` **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:49
+msgid ":ref:`bumpmap_to_normalmap<class_Image_method_bumpmap_to_normalmap>` **(** :ref:`float<class_float>` bump_scale=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:51
+msgid ":ref:`clear_mipmaps<class_Image_method_clear_mipmaps>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:53
+#: ../classes/class_image.rst:65
+#: ../classes/class_image.rst:81
+#: ../classes/class_image.rst:111
+#: ../classes/class_image.rst:113
+#: ../classes/class_image.rst:115
+#: ../classes/class_image.rst:117
+#: ../classes/class_image.rst:119
+#: ../classes/class_image.rst:121
+#: ../classes/class_image.rst:135
+#: ../classes/class_image.rst:137
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_image.rst:53
+msgid ":ref:`compress<class_Image_method_compress>` **(** :ref:`CompressMode<enum_Image_CompressMode>` mode, :ref:`CompressSource<enum_Image_CompressSource>` source, :ref:`float<class_float>` lossy_quality **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:55
+msgid ":ref:`convert<class_Image_method_convert>` **(** :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:57
+msgid ":ref:`copy_from<class_Image_method_copy_from>` **(** :ref:`Image<class_Image>` src **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:59
+msgid ":ref:`create<class_Image_method_create>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:61
+msgid ":ref:`create_from_data<class_Image_method_create_from_data>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:63
+msgid ":ref:`crop<class_Image_method_crop>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:65
+msgid ":ref:`decompress<class_Image_method_decompress>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:67
+msgid ":ref:`AlphaMode<enum_Image_AlphaMode>`"
+msgstr ""
+
+#: ../classes/class_image.rst:67
+msgid ":ref:`detect_alpha<class_Image_method_detect_alpha>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:69
+msgid ":ref:`expand_x2_hq2x<class_Image_method_expand_x2_hq2x>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:71
+msgid ":ref:`fill<class_Image_method_fill>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:73
+msgid ":ref:`fill_rect<class_Image_method_fill_rect>` **(** :ref:`Rect2<class_Rect2>` rect, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:75
+msgid ":ref:`fix_alpha_edges<class_Image_method_fix_alpha_edges>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:77
+msgid ":ref:`flip_x<class_Image_method_flip_x>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:79
+msgid ":ref:`flip_y<class_Image_method_flip_y>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:81
+msgid ":ref:`generate_mipmaps<class_Image_method_generate_mipmaps>` **(** :ref:`bool<class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:83
+#: ../classes/class_image.rst:139
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_image.rst:83
+msgid ":ref:`get_data<class_Image_method_get_data>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:85
+msgid ":ref:`Format<enum_Image_Format>`"
+msgstr ""
+
+#: ../classes/class_image.rst:85
+msgid ":ref:`get_format<class_Image_method_get_format>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:87
+#: ../classes/class_image.rst:89
+#: ../classes/class_image.rst:101
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_image.rst:87
+msgid ":ref:`get_height<class_Image_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:89
+msgid ":ref:`get_mipmap_offset<class_Image_method_get_mipmap_offset>` **(** :ref:`int<class_int>` mipmap **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:91
+#: ../classes/class_image.rst:93
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_image.rst:91
+msgid ":ref:`get_pixel<class_Image_method_get_pixel>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:93
+msgid ":ref:`get_pixelv<class_Image_method_get_pixelv>` **(** :ref:`Vector2<class_Vector2>` src **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:95
+#: ../classes/class_image.rst:133
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../classes/class_image.rst:95
+msgid ":ref:`get_rect<class_Image_method_get_rect>` **(** :ref:`Rect2<class_Rect2>` rect **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:97
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_image.rst:97
+msgid ":ref:`get_size<class_Image_method_get_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:99
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_image.rst:99
+msgid ":ref:`get_used_rect<class_Image_method_get_used_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:101
+msgid ":ref:`get_width<class_Image_method_get_width>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:103
+#: ../classes/class_image.rst:105
+#: ../classes/class_image.rst:107
+#: ../classes/class_image.rst:109
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_image.rst:103
+msgid ":ref:`has_mipmaps<class_Image_method_has_mipmaps>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:105
+msgid ":ref:`is_compressed<class_Image_method_is_compressed>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:107
+msgid ":ref:`is_empty<class_Image_method_is_empty>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:109
+msgid ":ref:`is_invisible<class_Image_method_is_invisible>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:111
+msgid ":ref:`load<class_Image_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:113
+msgid ":ref:`load_bmp_from_buffer<class_Image_method_load_bmp_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:115
+msgid ":ref:`load_jpg_from_buffer<class_Image_method_load_jpg_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:117
+msgid ":ref:`load_png_from_buffer<class_Image_method_load_png_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:119
+msgid ":ref:`load_tga_from_buffer<class_Image_method_load_tga_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:121
+msgid ":ref:`load_webp_from_buffer<class_Image_method_load_webp_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:123
+msgid ":ref:`lock<class_Image_method_lock>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:125
+msgid ":ref:`normalmap_to_xy<class_Image_method_normalmap_to_xy>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:127
+msgid ":ref:`premultiply_alpha<class_Image_method_premultiply_alpha>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:129
+msgid ":ref:`resize<class_Image_method_resize>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:131
+msgid ":ref:`resize_to_po2<class_Image_method_resize_to_po2>` **(** :ref:`bool<class_bool>` square=false, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:133
+msgid ":ref:`rgbe_to_srgb<class_Image_method_rgbe_to_srgb>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:135
+msgid ":ref:`save_exr<class_Image_method_save_exr>` **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` grayscale=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:137
+msgid ":ref:`save_png<class_Image_method_save_png>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:139
+msgid ":ref:`save_png_to_buffer<class_Image_method_save_png_to_buffer>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:141
+msgid ":ref:`set_pixel<class_Image_method_set_pixel>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:143
+msgid ":ref:`set_pixelv<class_Image_method_set_pixelv>` **(** :ref:`Vector2<class_Vector2>` dst, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:145
+msgid ":ref:`shrink_x2<class_Image_method_shrink_x2>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:147
+msgid ":ref:`srgb_to_linear<class_Image_method_srgb_to_linear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:149
+msgid ":ref:`unlock<class_Image_method_unlock>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:153
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_image.rst:233
+msgid "enum **Format**:"
+msgstr ""
+
+#: ../classes/class_image.rst:235
+msgid "**FORMAT_L8** = **0** --- 纹理格式，具有代表亮度的单一8位深度。"
+msgstr ""
+
+#: ../classes/class_image.rst:237
+msgid "**FORMAT_LA8** = **1** --- OpenGL 纹理格式，具有两个值，亮度和 alpha，每个值以 8 位存储。"
+msgstr ""
+
+#: ../classes/class_image.rst:239
+msgid "**FORMAT_R8** = **2** --- OpenGL 纹理格式 ``RED``\\ ，具有单个分量和 8 位深度。"
+msgstr ""
+
+#: ../classes/class_image.rst:241
+msgid "\\ **注意：** 当使用 GLES2 后端时，它使用 alpha 通道而不是红色通道进行存储。"
+msgstr ""
+
+#: ../classes/class_image.rst:243
+msgid "**FORMAT_RG8** = **3** --- OpenGL 纹理格式 ``RG``\\ ，具有两个部分，每个部分的位深度为 8。"
+msgstr ""
+
+#: ../classes/class_image.rst:245
+msgid "**FORMAT_RGB8** = **4** --- OpenGL 纹理格式 ``RGB`` 具有三个部分，每个分量部分的位深度为 8。"
+msgstr ""
+
+#: ../classes/class_image.rst:247
+#: ../classes/class_image.rst:251
+msgid "\\ **注意：**\\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行sRGB到线性色彩空间的转换。"
+msgstr ""
+
+#: ../classes/class_image.rst:249
+msgid "**FORMAT_RGBA8** = **5** --- OpenGL 纹理格式 ``RGBA`` 有四个部分，每个分量部分的位深度为 8。"
+msgstr ""
+
+#: ../classes/class_image.rst:253
+msgid "**FORMAT_RGBA4444** = **6** --- OpenGL 纹理格式 ``RGBA`` 有四个部分，每个分量部分的位深度为 4。"
+msgstr ""
+
+#: ../classes/class_image.rst:255
+msgid "**FORMAT_RGBA5551** = **7** --- OpenGL纹理格式\\ ``GL_RGB5_A1``\\ ，其中RGB每个分量的深度为5位，alpha为1位。"
+msgstr ""
+
+#: ../classes/class_image.rst:257
+msgid "**FORMAT_RF** = **8** --- OpenGL 纹理格式 ``GL_R32F``\\ ，其中有一个分量，是32 位浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:259
+msgid "**FORMAT_RGF** = **9** --- OpenGL 纹理格式 ``GL_RG32F`` 这里有两个部分，每个部分是一个 32 位浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:261
+msgid "**FORMAT_RGBF** = **10** --- OpenGL纹理格式\\ ``GL_RGB32F``\\ ，其中有三个部分，每个部分都是32位浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:263
+msgid "**FORMAT_RGBAF** = **11** --- OpenGL纹理格式\\ ``GL_RGBA32F``\\ ，其中有四个部分，每个部分都是32位浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:265
+msgid "**FORMAT_RH** = **12** --- OpenGL纹理格式\\ ``GL_R32F``\\ ，其中有一个分量，即16位 \"半精度 \"浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:267
+msgid "**FORMAT_RGH** = **13** --- OpenGL纹理格式\\ ``GL_RG32F``\\ ，其中有两个部分，每个部分都是16位 \"半精度 \"浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:269
+msgid "**FORMAT_RGBH** = **14** --- OpenGL纹理格式\\ ``GL_RGB32F``\\ ，其中有三个部分，每个部分都是16位 \"半精度 \"浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:271
+msgid "**FORMAT_RGBAH** = **15** --- OpenGL纹理格式\\ ``GL_RGBA32F``\\ ，其中有四个部分，每个都是16位\"半精度 \"浮点值。"
+msgstr ""
+
+#: ../classes/class_image.rst:273
+msgid "**FORMAT_RGBE9995** = **16** --- 一种特殊的OpenGL纹理格式，其中三个颜色成分的精度为9位，所有三个成分共享一个5比特位的指数。"
+msgstr ""
+
+#: ../classes/class_image.rst:275
+msgid "**FORMAT_DXT1** = **17** --- `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式使用块压缩1,并且是S3TC的最小变化,仅提供1位的alpha和颜色数据 预乘以alpha."
+msgstr ""
+
+#: ../classes/class_image.rst:277
+#: ../classes/class_image.rst:285
+msgid "\\ **注意：**\\ 创建 ImageTexture 时，将执行 sRGB 到线性色彩空间的转换。"
+msgstr ""
+
+#: ../classes/class_image.rst:279
+msgid "**FORMAT_DXT3** = **18** --- 使用块压缩2的\\ `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__\\ 贴图格式,并且颜色数据被解析为没有与alpha预先相乘.非常适用于具有 半透明和不透明区域之间的清晰的alpha过渡."
+msgstr ""
+
+#: ../classes/class_image.rst:281
+msgid "\\ **注意:**\\ 创建ImageTexture时,将执行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:283
+msgid "**FORMAT_DXT5** = **19** --- `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式也称为块压缩3或BC3,其中包含64位的alpha通道数据,后跟64位的DXT1编码 颜色数据:颜色数据不会与DXT3预先乘以alpha.与DXT3相比,DXT5对于透明渐变通常会产生更好的结果."
+msgstr ""
+
+#: ../classes/class_image.rst:287
+msgid "**FORMAT_RGTC_R** = **20** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__\\ 的贴图格式,使用与DXT5用于alpha通道相同的压缩算法对红色通道数据进行归一化."
+msgstr ""
+
+#: ../classes/class_image.rst:289
+msgid "**FORMAT_RGTC_RG** = **21** --- 使用 `红绿贴图压缩 <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__\\ 的贴图格式,使用与DXT5用于alpha的压缩算法相同的红绿数据通道."
+msgstr ""
+
+#: ../classes/class_image.rst:291
+msgid "**FORMAT_BPTC_RGBA** = **22** --- 使用 `BPTC压缩 <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 和无符号归一化RGBA分量的贴图格式."
+msgstr ""
+
+#: ../classes/class_image.rst:293
+msgid "\\ **注意:**\\ 创建\\ :ref:`ImageTexture<class_ImageTexture>`\\ 时,将执行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:295
+msgid "**FORMAT_BPTC_RGBF** = **23** --- 使用 `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 压缩和有符号浮点RGB分量的贴图格式."
+msgstr ""
+
+#: ../classes/class_image.rst:297
+msgid "**FORMAT_BPTC_RGBFU** = **24** --- 使用\\ `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 压缩和无符号浮点RGB分量的贴图格式."
+msgstr ""
+
+#: ../classes/class_image.rst:299
+msgid "**FORMAT_PVRTC2** = **25** --- PowerVR支持的移动平台上使用的贴图格式,使用2位颜色深度,没有alpha.更多信息可以在 `这里 <https://en.wikipedia.org/wiki/PVRTC>`__\\ 找到."
+msgstr ""
+
+#: ../classes/class_image.rst:301
+msgid "\\ **注意：**\\ 在创建ImageTexture时,会进行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:303
+msgid "**FORMAT_PVRTC2A** = **26** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__\\ 相同,但带有alpha组件."
+msgstr ""
+
+#: ../classes/class_image.rst:305
+msgid "**FORMAT_PVRTC4** = **27** --- 与 `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`__\\ 相似,但具有4位色深且没有Alpha通道."
+msgstr ""
+
+#: ../classes/class_image.rst:307
+msgid "**FORMAT_PVRTC4A** = **28** --- 与 `PVRTC4 <https://en.wikipedia.org/wiki/PVRTC>`__\\ 相同,但带有alpha组件."
+msgstr ""
+
+#: ../classes/class_image.rst:309
+msgid "**FORMAT_ETC** = **29** --- `Ericsson纹理压缩格式1 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`__,又称 \"ETC1\",是OpenGL ES图形标准的一部分.这种格式不能存储alpha通道."
+msgstr ""
+
+#: ../classes/class_image.rst:311
+msgid "**FORMAT_ETC2_R11** = **30** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``R11_EACvariant``),它提供一个无符号数据通道."
+msgstr ""
+
+#: ../classes/class_image.rst:313
+msgid "**FORMAT_ETC2_R11S** = **31** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__\\ (``SIGNED_R11_EACvariant``),它提供一个通道的有符号数据."
+msgstr ""
+
+#: ../classes/class_image.rst:315
+msgid "**FORMAT_ETC2_RG11** = **32** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__\\ (``RG11_EAC`` variant),它提供一个无符号数据通道."
+msgstr ""
+
+#: ../classes/class_image.rst:317
+msgid "**FORMAT_ETC2_RG11S** = **33** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__\\ (``SIGNED_RG11_EAC`` 变体)，它提供两个通道的有符号数据。"
+msgstr ""
+
+#: ../classes/class_image.rst:319
+msgid "**FORMAT_ETC2_RGB8** = **34** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8`` 变体),它是ETC1的后续版本,可压缩RGB888数据."
+msgstr ""
+
+#: ../classes/class_image.rst:321
+msgid "\\ **注意：**\\ 创建\\ :ref:`ImageTexture<class_ImageTexture>`\\ 时,会进行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:323
+msgid "**FORMAT_ETC2_RGBA8** = **35** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__\\ (``RGBA8`` 变体),它可以压缩RGBA8888数据,完全支持alpha."
+msgstr ""
+
+#: ../classes/class_image.rst:325
+msgid "\\ **注意：**\\ 在创建\\ :ref:`ImageTexture<class_ImageTexture>`\\ 时,会进行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:327
+msgid "**FORMAT_ETC2_RGB8A1** = **36** --- `Ericsson纹理压缩格式2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__\\ (``RGB8_PUNCHTHROUGH_ALPHA1`` 变体),它可以压缩RGBA数据,使alpha完全透明或完全不透明."
+msgstr ""
+
+#: ../classes/class_image.rst:329
+msgid "\\ **注意：** 创建\\ :ref:`ImageTexture<class_ImageTexture>`\\ 时,会进行sRGB到线性色彩空间的转换."
+msgstr ""
+
+#: ../classes/class_image.rst:331
+msgid "**FORMAT_MAX** = **37** --- 表示 :ref:`Format<enum_Image_Format>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_image.rst:347
+msgid "enum **Interpolation**:"
+msgstr ""
+
+#: ../classes/class_image.rst:349
+msgid "**INTERPOLATE_NEAREST** = **0** --- 执行最近邻插值.如果调整图像大小,它将被像素化."
+msgstr ""
+
+#: ../classes/class_image.rst:351
+msgid "**INTERPOLATE_BILINEAR** = **1** --- 执行双线性插值。如果调整图像大小，则图像将模糊。此模式比 :ref:`INTERPOLATE_CUBIC<class_Image_constant_INTERPOLATE_CUBIC>` 更快，但质量较低。"
+msgstr ""
+
+#: ../classes/class_image.rst:353
+msgid "**INTERPOLATE_CUBIC** = **2** --- 执行三次插值.如果调整图像大小,则图像将模糊.与\\ :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`\\ 相比,此模式通常会产生更好的结果,但代价是速度较慢."
+msgstr ""
+
+#: ../classes/class_image.rst:355
+msgid "**INTERPOLATE_TRILINEAR** = **3** --- 在两个最适合的多级渐远纹理级别上分别执行双线性采样，然后在采样结果之间进行线性插值。"
+msgstr ""
+
+#: ../classes/class_image.rst:357
+msgid "它比 :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>` 慢，但能产生更高质量的效果，减少锯齿伪影。"
+msgstr ""
+
+#: ../classes/class_image.rst:359
+msgid "如果图像没有多级渐远纹理，它们将被生成并在内部使用，但不会在生成的图像之上生成多级渐远纹理。"
+msgstr ""
+
+#: ../classes/class_image.rst:361
+msgid "\\ **注意：**\\ 如果你打算缩放原始图像的多个副本，最好事先对其调用 :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`\\ ，以避免在生成它们时反复浪费处理能力。"
+msgstr ""
+
+#: ../classes/class_image.rst:363
+msgid "另一方面，如果图像已经有了多级渐远纹理，其将被使用，并为生成的图像生成新的一组。"
+msgstr ""
+
+#: ../classes/class_image.rst:365
+msgid "**INTERPOLATE_LANCZOS** = **4** --- 执行Lanczos插值.这是最慢的图像调整大小模式,但通常可以提供最佳效果,尤其是在缩小图像时."
+msgstr ""
+
+#: ../classes/class_image.rst:377
+msgid "enum **AlphaMode**:"
+msgstr ""
+
+#: ../classes/class_image.rst:379
+msgid "**ALPHA_NONE** = **0** --- 图片没有Alpha通道."
+msgstr ""
+
+#: ../classes/class_image.rst:381
+msgid "**ALPHA_BIT** = **1** --- 图像将Alpha存储在单个bit中."
+msgstr ""
+
+#: ../classes/class_image.rst:383
+msgid "**ALPHA_BLEND** = **2** --- 图像使用阿尔法。"
+msgstr ""
+
+#: ../classes/class_image.rst:399
+msgid "enum **CompressMode**:"
+msgstr ""
+
+#: ../classes/class_image.rst:401
+msgid "**COMPRESS_S3TC** = **0** --- 使用S3TC压缩。"
+msgstr ""
+
+#: ../classes/class_image.rst:403
+msgid "**COMPRESS_PVRTC2** = **1** --- 使用PVRTC2压缩。"
+msgstr ""
+
+#: ../classes/class_image.rst:405
+msgid "**COMPRESS_PVRTC4** = **2** --- 使用PVRTC4压缩。"
+msgstr ""
+
+#: ../classes/class_image.rst:407
+msgid "**COMPRESS_ETC** = **3** --- 使用ETC压缩。"
+msgstr ""
+
+#: ../classes/class_image.rst:409
+msgid "**COMPRESS_ETC2** = **4** --- 使用 ETC2 压缩。"
+msgstr ""
+
+#: ../classes/class_image.rst:421
+msgid "enum **CompressSource**:"
+msgstr ""
+
+#: ../classes/class_image.rst:423
+msgid "**COMPRESS_SOURCE_GENERIC** = **0** --- 原始纹理（在压缩前）是常规纹理。所有纹理的默认值。"
+msgstr ""
+
+#: ../classes/class_image.rst:425
+msgid "**COMPRESS_SOURCE_SRGB** = **1** --- 原始纹理（在压缩前）使用 sRGB 空间。"
+msgstr ""
+
+#: ../classes/class_image.rst:427
+msgid "**COMPRESS_SOURCE_NORMAL** = **2** --- 原始纹理（在压缩前）是法线纹理（例如，可以压缩为两个通道）。"
+msgstr ""
+
+#: ../classes/class_image.rst:430
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_image.rst:436
+msgid "**MAX_WIDTH** = **16384** --- ``Image`` 资源允许的最大宽度。"
+msgstr ""
+
+#: ../classes/class_image.rst:438
+msgid "**MAX_HEIGHT** = **16384** --- ``Image`` 资源允许的最大高度。"
+msgstr ""
+
+#: ../classes/class_image.rst:441
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_image.rst:445
+msgid ":ref:`Dictionary<class_Dictionary>` **data**"
+msgstr ""
+
+#: ../classes/class_image.rst:448
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_image.rst:451
+msgid "以给定的格式保存图像的所有颜色数据。参阅\\ :ref:`Format<enum_Image_Format>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_image.rst:454
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_image.rst:458
+msgid "void **blend_rect** **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:460
+msgid "将 ``src_rect`` 从 ``src`` 图像与坐标 ``dest`` 处的该图像进行 Alpha 混合。"
+msgstr ""
+
+#: ../classes/class_image.rst:466
+msgid "void **blend_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:468
+msgid "从坐标\\ ``dst``\\ 处开始,对\\ ``src_rect``\\ 截取区域的\\ ``src``\\ 源图像使用\\ ``mask``\\ 图像进行Alpha混合到此图像。\\ ``src``\\ 和\\ ``mask``\\ 都需要Alpha通道。如果相应的遮罩(mask)像素的Alpha不是0，在坐标\\ ``dst``\\ 处的像素和\\ ``src``\\ 像素将会混合。\\ ``src``\\ 图像和\\ ``mask``\\ 图像\\ **必须**\\ 有相同的尺寸，即宽度和高度，但它们可以有不同的格式。"
+msgstr ""
+
+#: ../classes/class_image.rst:474
+msgid "void **blit_rect** **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:476
+msgid "将指定\\ ``src``\\ 源图像按\\ ``dst``\\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。"
+msgstr ""
+
+#: ../classes/class_image.rst:482
+msgid "void **blit_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:484
+msgid "将指定\\ ``src``\\ 源图像按\\ ``dst``\\ 为起点坐标，以 ``src_rect`` 为矩形截取区域复制到此图像中。如果对应的\\ ``mask``\\ 像素的alpha值不是0，\\ ``src``\\ 像素将被复制到\\ ``dst``\\ 上。\\ ``src`` 图像和 ``mask`` ] 图像 **必须** 具有相同的尺寸（宽度和高度），但它们可以具有不同的格式。"
+msgstr ""
+
+#: ../classes/class_image.rst:490
+msgid "void **bumpmap_to_normalmap** **(** :ref:`float<class_float>` bump_scale=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:492
+msgid "将凹凸贴图转换为法线贴图。凹凸贴图提供每个像素的高度偏移，而法线贴图提供每个像素的法线方向。"
+msgstr ""
+
+#: ../classes/class_image.rst:498
+msgid "void **clear_mipmaps** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:500
+msgid "删除图像的多级渐远纹理。"
+msgstr ""
+
+#: ../classes/class_image.rst:506
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **compress** **(** :ref:`CompressMode<enum_Image_CompressMode>` mode, :ref:`CompressSource<enum_Image_CompressSource>` source, :ref:`float<class_float>` lossy_quality **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:508
+msgid "压缩图像以减少内存的使用。当图像被压缩时，不能直接访问像素数据。如果选择的压缩模式不可用，则返回错误。参阅 :ref:`CompressMode<enum_Image_CompressMode>` 和 :ref:`CompressSource<enum_Image_CompressSource>` 常量。"
+msgstr ""
+
+#: ../classes/class_image.rst:514
+msgid "void **convert** **(** :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:516
+msgid "转换图像的格式。参阅\\ :ref:`Format<enum_Image_Format>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_image.rst:522
+msgid "void **copy_from** **(** :ref:`Image<class_Image>` src **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:524
+msgid "将\\ ``src``\\ 图像复制到此图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:530
+msgid "void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:532
+msgid "创建一个给定大小和格式的空图像。见 :ref:`Format<enum_Image_Format>` 常量。\\ ``use_mipmaps`` 为 ``true`` 时会为这个图像生成多级渐远纹理。请参阅 :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:538
+msgid "void **create_from_data** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:540
+msgid "创建一个给定大小和格式的新图像。参阅 :ref:`Format<enum_Image_Format>` 常量。用给定的原始数据填充图像。\\ ``use_mipmaps`` 为 ``true`` 时会为该图像从 ``data`` 加载多级渐远纹理。请参阅 :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:546
+msgid "void **crop** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:548
+msgid "将图像裁剪成给定的\\ ``width``\\ 和\\ ``height``\\ 。如果指定的尺寸大于当前尺寸，多余的区域将被填充为黑色像素。"
+msgstr ""
+
+#: ../classes/class_image.rst:554
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **decompress** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:556
+msgid "如果图像被压缩，则解压缩图像。如果解压缩功能不可用，则返回错误。"
+msgstr ""
+
+#: ../classes/class_image.rst:562
+msgid ":ref:`AlphaMode<enum_Image_AlphaMode>` **detect_alpha** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:564
+msgid "如果图像有alpha值的数据，则返回\\ :ref:`ALPHA_BLEND<class_Image_constant_ALPHA_BLEND>`\\ 。如果所有的alpha值都存储在一个位上，则返回\\ :ref:`ALPHA_BIT<class_Image_constant_ALPHA_BIT>`\\ 。如果没有找到alpha值的数据，则返回\\ :ref:`ALPHA_NONE<class_Image_constant_ALPHA_NONE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:570
+msgid "void **expand_x2_hq2x** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:572
+msgid "拉伸图像并将其放大2倍，不进行插值。"
+msgstr ""
+
+#: ../classes/class_image.rst:578
+msgid "void **fill** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:580
+msgid "Fills the image with ``color``."
+msgstr ""
+
+#: ../classes/class_image.rst:586
+msgid "void **fill_rect** **(** :ref:`Rect2<class_Rect2>` rect, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:588
+msgid "Fills ``rect`` with ``color``."
+msgstr ""
+
+#: ../classes/class_image.rst:594
+msgid "void **fix_alpha_edges** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:596
+msgid "将低透明度(alpha)像素与附近像素混合。"
+msgstr ""
+
+#: ../classes/class_image.rst:602
+msgid "void **flip_x** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:604
+msgid "水平翻转图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:610
+msgid "void **flip_y** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:612
+msgid "垂直翻转图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:618
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **generate_mipmaps** **(** :ref:`bool<class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:620
+msgid "为图像生成多级渐远纹理。多级渐远纹理是预先计算好的图像的低分辨率副本，如果图像在渲染时需要缩小，就会自动使用。其有助于提高图像质量和渲染时的性能。如果图像被压缩，或采用自定义格式，或图像的宽度或高度为 ``0``\\ ，则此方法返回错误。"
+msgstr ""
+
+#: ../classes/class_image.rst:622
+msgid "\\ **注意：**\\ 多级渐远纹理的生成是在 CPU 上完成的，是单线程的，并且\\ *总是*\\ 在主线程上完成。这意味着在游戏过程中生成多级渐远纹理会导致明显的卡顿，即使从 :ref:`Thread<class_Thread>` 调用\\ :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:628
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **get_data** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:630
+msgid "返回图像原始数据的副本。"
+msgstr ""
+
+#: ../classes/class_image.rst:636
+msgid ":ref:`Format<enum_Image_Format>` **get_format** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:638
+msgid "返回图像的格式。参阅 :ref:`Format<enum_Image_Format>` 常量。"
+msgstr ""
+
+#: ../classes/class_image.rst:644
+msgid ":ref:`int<class_int>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:646
+msgid "返回图像的高度。"
+msgstr ""
+
+#: ../classes/class_image.rst:652
+msgid ":ref:`int<class_int>` **get_mipmap_offset** **(** :ref:`int<class_int>` mipmap **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:654
+msgid "返回存储在图像 ``data`` 字典中索引为 ``mipmap`` 的偏移量。"
+msgstr ""
+
+#: ../classes/class_image.rst:660
+msgid ":ref:`Color<class_Color>` **get_pixel** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:662
+msgid "如果图像被锁定，则返回 ``(x, y)`` 处像素的颜色。如果图像被解锁，它总是返回 ``(0, 0, 0, 1.0)`` 值的 :ref:`Color<class_Color>`\\ 。这与 :ref:`get_pixelv<class_Image_method_get_pixelv>` 相同，但有两个整数参数而不是 Vector2 参数。"
+msgstr ""
+
+#: ../classes/class_image.rst:668
+msgid ":ref:`Color<class_Color>` **get_pixelv** **(** :ref:`Vector2<class_Vector2>` src **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:670
+msgid "如果图像已锁定，返回 ``src`` 处的像素的颜色。如果图像未被锁定，它总是返回值为 ``(0, 0, 0, 1.0)`` 的 :ref:`Color<class_Color>`\\ 。这与 :ref:`get_pixel<class_Image_method_get_pixel>` 相同，只是用一个 Vector2 参数代替了两个整数参数。"
+msgstr ""
+
+#: ../classes/class_image.rst:676
+msgid ":ref:`Image<class_Image>` **get_rect** **(** :ref:`Rect2<class_Rect2>` rect **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:678
+msgid "返回一个新图像，它是用 ``rect`` 所截取图像区域的副本。"
+msgstr ""
+
+#: ../classes/class_image.rst:684
+msgid ":ref:`Vector2<class_Vector2>` **get_size** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:686
+msgid "返回图像的大小（宽度和高度）。"
+msgstr ""
+
+#: ../classes/class_image.rst:692
+msgid ":ref:`Rect2<class_Rect2>` **get_used_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:694
+msgid "返回一个包围图像可见部分的 :ref:`Rect2<class_Rect2>` 矩形，像素的 alpha 通道值非零时视为可见。"
+msgstr ""
+
+#: ../classes/class_image.rst:700
+msgid ":ref:`int<class_int>` **get_width** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:702
+msgid "返回图像的宽度。"
+msgstr ""
+
+#: ../classes/class_image.rst:708
+msgid ":ref:`bool<class_bool>` **has_mipmaps** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:710
+msgid "如果图像已经生成多级渐远纹理，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:716
+msgid ":ref:`bool<class_bool>` **is_compressed** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:718
+msgid "如果图像被压缩，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:724
+msgid ":ref:`bool<class_bool>` **is_empty** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:726
+msgid "如果图像没有数据，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:732
+msgid ":ref:`bool<class_bool>` **is_invisible** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:734
+msgid "如果图像中所有像素的不透明度（alpha）都是 0，则返回 ``true``\\ 。如果有任何像素的不透明度（alpha）高于 0，则返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:740
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:742
+msgid "Loads an image from file ``path``. See `Supported image formats <../tutorials/assets_pipeline/importing_images.html#supported-image-formats>`__ for a list of supported image formats and limitations."
+msgstr ""
+
+#: ../classes/class_image.rst:744
+msgid "\\ **Warning:** This method should only be used in the editor or in cases when you need to load external images at run-time, such as images located at the ``user://`` directory, and may not work in exported projects."
+msgstr ""
+
+#: ../classes/class_image.rst:746
+msgid "See also :ref:`ImageTexture<class_ImageTexture>` description for usage examples."
+msgstr ""
+
+#: ../classes/class_image.rst:752
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_bmp_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:754
+msgid "从BMP文件的二进制内容中加载图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:756
+msgid "\\ **注意：** GaaeExplorer的BMP模块不支持16位像素的图像。只支持1位、4位、8位、24位和32位像素的图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:762
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_jpg_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:764
+msgid "从 JPEG 文件的二进制内容加载图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:770
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_png_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:772
+msgid "从 PNG 文件的二进制内容加载图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:778
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_tga_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:780
+msgid "从 TGA 文件的二进制内容加载图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:786
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_webp_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:788
+msgid "从 WebP 文件的二进制内容加载图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:794
+msgid "void **lock** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:796
+msgid "锁定数据的读写访问。如果在读或写像素时，图像没有被锁定，则向控制台发送一个错误。"
+msgstr ""
+
+#: ../classes/class_image.rst:802
+msgid "void **normalmap_to_xy** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:804
+msgid "转换图像的数据以表示 3D 平面上的坐标。当图像表示法线贴图时使用。法线贴图可以在不增加多边形数量的情况下向 3D 表面添加大量细节。"
+msgstr ""
+
+#: ../classes/class_image.rst:810
+msgid "void **premultiply_alpha** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:812
+msgid "将颜色值与alpha值相乘。一个像素的结果颜色值是\\ ``(color * alpha)/256``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:818
+msgid "void **resize** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:820
+msgid "调整图像大小到给定的\\ ``width``\\ 和\\ ``height``\\ 。新像素通过\\ :ref:`Interpolation<enum_Image_Interpolation>`\\ 常数定义的\\ ``interpolation``\\ 插值模式计算。"
+msgstr ""
+
+#: ../classes/class_image.rst:826
+msgid "void **resize_to_po2** **(** :ref:`bool<class_bool>` square=false, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:828
+msgid "将图像的宽度和高度调整到最接近的2次方。如果\\ ``square``\\ 是\\ ``true``\\ ，那么设置宽度和高度为相同。新像素通过\\ :ref:`Interpolation<enum_Image_Interpolation>`\\ 常数定义的\\ ``interpolation``\\ 插值模式计算。"
+msgstr ""
+
+#: ../classes/class_image.rst:834
+msgid ":ref:`Image<class_Image>` **rgbe_to_srgb** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:836
+msgid "将标准 RGBE（红绿蓝指数）图像转换为 sRGB 图像。"
+msgstr ""
+
+#: ../classes/class_image.rst:842
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_exr** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` grayscale=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:844
+msgid "将图像作为EXR文件保存到\\ ``path``\\ 。如果\\ ``grayscale``\\ 是\\ ``true``\\ 并且图像只有一个通道，它将被明确地保存为单色而不是红色通道。如果GaaeExplorer在编译时没有TinyEXR模块，这个函数将返回\\ :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:846
+msgid "\\ **注意：** TinyEXR模块在非编辑器构建中被禁用，这意味着\\ :ref:`save_exr<class_Image_method_save_exr>`\\ 从导出的项目中调用时将返回\\ :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:852
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_png** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:854
+msgid "将图像作为 PNG 文件保存到 ``path``\\ 。"
+msgstr ""
+
+#: ../classes/class_image.rst:860
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **save_png_to_buffer** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_image.rst:866
+msgid "void **set_pixel** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:868
+msgid "如果图像被锁定，设置\\ ``(x, y)``\\ 处像素的\\ :ref:`Color<class_Color>`\\ 。例子:"
+msgstr ""
+
+#: ../classes/class_image.rst:883
+msgid "void **set_pixelv** **(** :ref:`Vector2<class_Vector2>` dst, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:885
+msgid "如果图像被锁定，设置\\ ``(dst.x, dst.y)``\\ 处的像素的\\ :ref:`Color<class_Color>`\\ 。注意，\\ ``dst``\\ 值必须是整数。例:"
+msgstr ""
+
+#: ../classes/class_image.rst:900
+msgid "void **shrink_x2** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:902
+msgid "将图像缩小2倍。"
+msgstr ""
+
+#: ../classes/class_image.rst:908
+msgid "void **srgb_to_linear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:910
+msgid "将原始数据从 sRGB 色彩空间转换为线性比例。"
+msgstr ""
+
+#: ../classes/class_image.rst:916
+msgid "void **unlock** **(** **)**"
+msgstr ""
+
+#: ../classes/class_image.rst:918
+msgid "解锁数据并防止更改。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

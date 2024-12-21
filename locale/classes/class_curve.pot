@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_curve.rst:10
+msgid "Curve"
+msgstr ""
+
+#: ../classes/class_curve.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:14
+msgid "一条数学曲线。"
+msgstr ""
+
+#: ../classes/class_curve.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_curve.rst:19
+msgid "可以保存并重新用于其他对象的曲线。默认情况下，它在Y轴上的范围在 ``0`` 到 ``1``\\ 之间，并且位置点相对于 ``0.5`` Y 位置。"
+msgstr ""
+
+#: ../classes/class_curve.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_curve.rst:25
+#: ../classes/class_curve.rst:36
+#: ../classes/class_curve.rst:44
+#: ../classes/class_curve.rst:66
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:25
+msgid ":ref:`bake_resolution<class_Curve_property_bake_resolution>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:25
+#: ../classes/class_curve.rst:111
+msgid "``100``"
+msgstr ""
+
+#: ../classes/class_curve.rst:27
+#: ../classes/class_curve.rst:29
+#: ../classes/class_curve.rst:48
+#: ../classes/class_curve.rst:54
+#: ../classes/class_curve.rst:56
+#: ../classes/class_curve.rst:58
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:27
+msgid ":ref:`max_value<class_Curve_property_max_value>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:27
+#: ../classes/class_curve.rst:127
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_curve.rst:29
+msgid ":ref:`min_value<class_Curve_property_min_value>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:29
+#: ../classes/class_curve.rst:143
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_curve.rst:33
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_curve.rst:36
+msgid ":ref:`add_point<class_Curve_method_add_point>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` left_tangent=0, :ref:`float<class_float>` right_tangent=0, :ref:`TangentMode<enum_Curve_TangentMode>` left_mode=0, :ref:`TangentMode<enum_Curve_TangentMode>` right_mode=0 **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:38
+#: ../classes/class_curve.rst:40
+#: ../classes/class_curve.rst:42
+#: ../classes/class_curve.rst:60
+#: ../classes/class_curve.rst:62
+#: ../classes/class_curve.rst:64
+#: ../classes/class_curve.rst:68
+#: ../classes/class_curve.rst:70
+#: ../classes/class_curve.rst:72
+msgid "void"
+msgstr ""
+
+#: ../classes/class_curve.rst:38
+msgid ":ref:`bake<class_Curve_method_bake>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:40
+msgid ":ref:`clean_dupes<class_Curve_method_clean_dupes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:42
+msgid ":ref:`clear_points<class_Curve_method_clear_points>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:44
+msgid ":ref:`get_point_count<class_Curve_method_get_point_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:46
+#: ../classes/class_curve.rst:52
+msgid ":ref:`TangentMode<enum_Curve_TangentMode>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:46
+msgid ":ref:`get_point_left_mode<class_Curve_method_get_point_left_mode>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:48
+msgid ":ref:`get_point_left_tangent<class_Curve_method_get_point_left_tangent>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:50
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_curve.rst:50
+msgid ":ref:`get_point_position<class_Curve_method_get_point_position>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:52
+msgid ":ref:`get_point_right_mode<class_Curve_method_get_point_right_mode>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:54
+msgid ":ref:`get_point_right_tangent<class_Curve_method_get_point_right_tangent>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:56
+msgid ":ref:`interpolate<class_Curve_method_interpolate>` **(** :ref:`float<class_float>` offset **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:58
+msgid ":ref:`interpolate_baked<class_Curve_method_interpolate_baked>` **(** :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:60
+msgid ":ref:`remove_point<class_Curve_method_remove_point>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:62
+msgid ":ref:`set_point_left_mode<class_Curve_method_set_point_left_mode>` **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:64
+msgid ":ref:`set_point_left_tangent<class_Curve_method_set_point_left_tangent>` **(** :ref:`int<class_int>` index, :ref:`float<class_float>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:66
+msgid ":ref:`set_point_offset<class_Curve_method_set_point_offset>` **(** :ref:`int<class_int>` index, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:68
+msgid ":ref:`set_point_right_mode<class_Curve_method_set_point_right_mode>` **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:70
+msgid ":ref:`set_point_right_tangent<class_Curve_method_set_point_right_tangent>` **(** :ref:`int<class_int>` index, :ref:`float<class_float>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:72
+msgid ":ref:`set_point_value<class_Curve_method_set_point_value>` **(** :ref:`int<class_int>` index, :ref:`float<class_float>` y **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:76
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_curve.rst:80
+msgid "**range_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:82
+msgid "更改 :ref:`max_value<class_Curve_property_max_value>` 或 :ref:`min_value<class_Curve_property_min_value>` 时发出。"
+msgstr ""
+
+#: ../classes/class_curve.rst:85
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_curve.rst:95
+msgid "enum **TangentMode**:"
+msgstr ""
+
+#: ../classes/class_curve.rst:97
+msgid "**TANGENT_FREE** = **0** --- 点这边的切线是用户自定义的。"
+msgstr ""
+
+#: ../classes/class_curve.rst:99
+msgid "**TANGENT_LINEAR** = **1** --- 曲线计算点的这一侧的切线，作为向相邻点的一半的斜率。"
+msgstr ""
+
+#: ../classes/class_curve.rst:101
+msgid "**TANGENT_MODE_COUNT** = **2** --- 可用切线模式的总数。"
+msgstr ""
+
+#: ../classes/class_curve.rst:104
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_curve.rst:108
+msgid ":ref:`int<class_int>` **bake_resolution**"
+msgstr ""
+
+#: ../classes/class_curve.rst:111
+#: ../classes/class_curve.rst:127
+#: ../classes/class_curve.rst:143
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_curve.rst:113
+#: ../classes/class_curve.rst:129
+#: ../classes/class_curve.rst:145
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_curve.rst:113
+msgid "set_bake_resolution(value)"
+msgstr ""
+
+#: ../classes/class_curve.rst:115
+#: ../classes/class_curve.rst:131
+#: ../classes/class_curve.rst:147
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_curve.rst:115
+msgid "get_bake_resolution()"
+msgstr ""
+
+#: ../classes/class_curve.rst:118
+msgid "烘焙（即缓存）曲线数据中包含的点的数量。"
+msgstr ""
+
+#: ../classes/class_curve.rst:124
+msgid ":ref:`float<class_float>` **max_value**"
+msgstr ""
+
+#: ../classes/class_curve.rst:129
+msgid "set_max_value(value)"
+msgstr ""
+
+#: ../classes/class_curve.rst:131
+msgid "get_max_value()"
+msgstr ""
+
+#: ../classes/class_curve.rst:134
+msgid "曲线能达到的最大值。"
+msgstr ""
+
+#: ../classes/class_curve.rst:140
+msgid ":ref:`float<class_float>` **min_value**"
+msgstr ""
+
+#: ../classes/class_curve.rst:145
+msgid "set_min_value(value)"
+msgstr ""
+
+#: ../classes/class_curve.rst:147
+msgid "get_min_value()"
+msgstr ""
+
+#: ../classes/class_curve.rst:150
+msgid "曲线能达到的最小值。"
+msgstr ""
+
+#: ../classes/class_curve.rst:153
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_curve.rst:157
+msgid ":ref:`int<class_int>` **add_point** **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` left_tangent=0, :ref:`float<class_float>` right_tangent=0, :ref:`TangentMode<enum_Curve_TangentMode>` left_mode=0, :ref:`TangentMode<enum_Curve_TangentMode>` right_mode=0 **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:159
+msgid "在曲线上添加一个点。对于每一侧，如果\\ ``*_mode``\\ 为\\ :ref:`TANGENT_LINEAR<class_Curve_constant_TANGENT_LINEAR>`\\ ，则\\ ``*_tangent``\\ 角度（以度为单位）将使用曲线到邻近点的一半的斜率。如果\\ ``*_mode``\\ 设置为\\ :ref:`TANGENT_FREE<class_Curve_constant_TANGENT_FREE>`\\ ，则允许自定义分配给\\ ``*_tangent``\\ 角度。"
+msgstr ""
+
+#: ../classes/class_curve.rst:165
+msgid "void **bake** **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:167
+msgid "重新计算曲线的烘焙点缓存。"
+msgstr ""
+
+#: ../classes/class_curve.rst:173
+msgid "void **clean_dupes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:175
+msgid "删除比曲线上的相邻点近\\ ``CMP_EPSILON``\\ （0.00001）个单位的点。"
+msgstr ""
+
+#: ../classes/class_curve.rst:181
+msgid "void **clear_points** **(** **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:183
+msgid "从曲线中删除所有点。"
+msgstr ""
+
+#: ../classes/class_curve.rst:189
+msgid ":ref:`int<class_int>` **get_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:191
+msgid "返回描述曲线的点数。"
+msgstr ""
+
+#: ../classes/class_curve.rst:197
+msgid ":ref:`TangentMode<enum_Curve_TangentMode>` **get_point_left_mode** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:199
+msgid "返回\\ ``index``\\ 处的点的左侧\\ :ref:`TangentMode<enum_Curve_TangentMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_curve.rst:205
+msgid ":ref:`float<class_float>` **get_point_left_tangent** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:207
+#: ../classes/class_curve.rst:231
+msgid "返回\\ ``index``\\ 处的点的左切线角（以度为单位）。"
+msgstr ""
+
+#: ../classes/class_curve.rst:213
+msgid ":ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:215
+msgid "返回\\ ``index``\\ 处该点的曲线坐标。"
+msgstr ""
+
+#: ../classes/class_curve.rst:221
+msgid ":ref:`TangentMode<enum_Curve_TangentMode>` **get_point_right_mode** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:223
+msgid "返回在\\ ``index``\\ 处的点的右\\ :ref:`TangentMode<enum_Curve_TangentMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_curve.rst:229
+msgid ":ref:`float<class_float>` **get_point_right_tangent** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:237
+msgid ":ref:`float<class_float>` **interpolate** **(** :ref:`float<class_float>` offset **)** |const|"
+msgstr ""
+
+#: ../classes/class_curve.rst:239
+msgid "返回沿曲线的X位置\\ ``offset``\\ 处将存在的点的Y值。"
+msgstr ""
+
+#: ../classes/class_curve.rst:245
+msgid ":ref:`float<class_float>` **interpolate_baked** **(** :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:247
+msgid "使用烘焙的缓存返回沿曲线的X位置\\ ``offset``\\ 处将存在的点的Y值。如果尚未烘焙曲线的点，则将其烘焙。"
+msgstr ""
+
+#: ../classes/class_curve.rst:253
+msgid "void **remove_point** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:255
+msgid "从曲线中删除\\ ``index``\\ 处的点。"
+msgstr ""
+
+#: ../classes/class_curve.rst:261
+msgid "void **set_point_left_mode** **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:263
+msgid "将\\ ``index``\\ 处的点的左侧\\ :ref:`TangentMode<enum_Curve_TangentMode>`\\ 设置为\\ ``mode``\\ 。"
+msgstr ""
+
+#: ../classes/class_curve.rst:269
+msgid "void **set_point_left_tangent** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:271
+msgid "将点的左切线角度设置为 ``index`` 至 ``tangent``\\ 。"
+msgstr ""
+
+#: ../classes/class_curve.rst:277
+msgid ":ref:`int<class_int>` **set_point_offset** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:279
+msgid "设置相对于\\ ``0.5``\\ 的偏移量。"
+msgstr ""
+
+#: ../classes/class_curve.rst:285
+msgid "void **set_point_right_mode** **(** :ref:`int<class_int>` index, :ref:`TangentMode<enum_Curve_TangentMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:287
+msgid "将\\ ``index``\\ 上的点的右侧\\ :ref:`TangentMode<enum_Curve_TangentMode>`\\ 设置为\\ ``mode``\\ 。"
+msgstr ""
+
+#: ../classes/class_curve.rst:293
+msgid "void **set_point_right_tangent** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` tangent **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:295
+msgid "设置\\ ``index``\\ 至\\ ``tangent``\\ 处的点的右切线角。"
+msgstr ""
+
+#: ../classes/class_curve.rst:301
+msgid "void **set_point_value** **(** :ref:`int<class_int>` index, :ref:`float<class_float>` y **)**"
+msgstr ""
+
+#: ../classes/class_curve.rst:303
+msgid "将垂直位置\\ ``y``\\ 分配给\\ ``index``\\ 处的点。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

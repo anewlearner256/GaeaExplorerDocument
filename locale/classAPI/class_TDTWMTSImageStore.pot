@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:2
+msgid "TDTWMTSImageStore"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:16
+#: ../classAPI/class_TDTWMTSImageStore.rst:18
+#: ../classAPI/class_TDTWMTSImageStore.rst:20
+#: ../classAPI/class_TDTWMTSImageStore.rst:27
+msgid "String"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:16
+msgid "TK"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:18
+msgid "ServerUri"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:20
+msgid "FormatString"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:27
+msgid "GetDownloadUrl(PyramidTile tile,)"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:33
+msgid "String TK"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:36
+#: ../classAPI/class_TDTWMTSImageStore.rst:47
+#: ../classAPI/class_TDTWMTSImageStore.rst:58
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:40
+msgid "天地图服务token"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:44
+msgid "String ServerUri"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:51
+msgid "天地图服务地址"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:55
+msgid "String FormatString"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:62
+msgid "服务格式"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:68
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_TDTWMTSImageStore.rst:70
+msgid "String GetDownloadUrl(PyramidTile tile,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

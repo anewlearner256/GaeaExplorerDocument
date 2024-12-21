@@ -1,0 +1,576 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_textureprogress.rst:10
+msgid "TextureProgress"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:14
+msgid "基于纹理的进度条。适用于加载屏幕和生命或体力条。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:19
+msgid "TextureProgress的工作原理与\\ :ref:`ProgressBar<class_ProgressBar>`\\ 类似，但最多使用3个纹理，而不是GaaeExplorer的\\ :ref:`Theme<class_Theme>`\\ 资源。它可以用来创建水平、垂直和径向的进度条。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:25
+#: ../classes/class_textureprogress.rst:37
+#: ../classes/class_textureprogress.rst:39
+#: ../classes/class_textureprogress.rst:41
+#: ../classes/class_textureprogress.rst:43
+#: ../classes/class_textureprogress.rst:64
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:25
+msgid ":ref:`fill_mode<class_TextureProgress_property_fill_mode>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:25
+#: ../classes/class_textureprogress.rst:37
+#: ../classes/class_textureprogress.rst:39
+#: ../classes/class_textureprogress.rst:41
+#: ../classes/class_textureprogress.rst:43
+#: ../classes/class_textureprogress.rst:120
+#: ../classes/class_textureprogress.rst:202
+#: ../classes/class_textureprogress.rst:218
+#: ../classes/class_textureprogress.rst:234
+#: ../classes/class_textureprogress.rst:250
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:27
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:27
+msgid "mouse_filter"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:27
+msgid "``1`` (overrides :ref:`Control<class_Control_property_mouse_filter>`)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:29
+msgid ":ref:`nine_patch_stretch<class_TextureProgress_property_nine_patch_stretch>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:29
+#: ../classes/class_textureprogress.rst:136
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:31
+#: ../classes/class_textureprogress.rst:49
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:31
+msgid ":ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:31
+#: ../classes/class_textureprogress.rst:49
+#: ../classes/class_textureprogress.rst:152
+#: ../classes/class_textureprogress.rst:296
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:33
+#: ../classes/class_textureprogress.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:33
+msgid ":ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:33
+#: ../classes/class_textureprogress.rst:168
+msgid "``360.0``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:35
+msgid ":ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:35
+#: ../classes/class_textureprogress.rst:186
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:37
+msgid ":ref:`stretch_margin_bottom<class_TextureProgress_property_stretch_margin_bottom>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:39
+msgid ":ref:`stretch_margin_left<class_TextureProgress_property_stretch_margin_left>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:41
+msgid ":ref:`stretch_margin_right<class_TextureProgress_property_stretch_margin_right>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:43
+msgid ":ref:`stretch_margin_top<class_TextureProgress_property_stretch_margin_top>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:45
+#: ../classes/class_textureprogress.rst:47
+#: ../classes/class_textureprogress.rst:51
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:45
+msgid ":ref:`texture_over<class_TextureProgress_property_texture_over>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:47
+msgid ":ref:`texture_progress<class_TextureProgress_property_texture_progress>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:49
+msgid ":ref:`texture_progress_offset<class_TextureProgress_property_texture_progress_offset>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:51
+msgid ":ref:`texture_under<class_TextureProgress_property_texture_under>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:53
+#: ../classes/class_textureprogress.rst:55
+#: ../classes/class_textureprogress.rst:57
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:53
+msgid ":ref:`tint_over<class_TextureProgress_property_tint_over>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:53
+#: ../classes/class_textureprogress.rst:55
+#: ../classes/class_textureprogress.rst:57
+#: ../classes/class_textureprogress.rst:326
+#: ../classes/class_textureprogress.rst:342
+#: ../classes/class_textureprogress.rst:358
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:55
+msgid ":ref:`tint_progress<class_TextureProgress_property_tint_progress>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:57
+msgid ":ref:`tint_under<class_TextureProgress_property_tint_under>`"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:61
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:64
+msgid ":ref:`get_stretch_margin<class_TextureProgress_method_get_stretch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:66
+msgid "void"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:66
+msgid ":ref:`set_stretch_margin<class_TextureProgress_method_set_stretch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:70
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:92
+msgid "enum **FillMode**:"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:94
+msgid "**FILL_LEFT_TO_RIGHT** = **0** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 从左到右填充。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:96
+msgid "**FILL_RIGHT_TO_LEFT** = **1** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>` 从右到左填充。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:98
+msgid "**FILL_TOP_TO_BOTTOM** = **2** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>` 从上到下填充。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:100
+msgid "**FILL_BOTTOM_TO_TOP** = **3** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>` 自下而上填充。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:102
+msgid "**FILL_CLOCKWISE** = **4** --- 将节点变成径向条形。\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>` 顺时针填充。参阅\\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`\\ 、\\ :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\\ 和\\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\\ 来控制条形填充的方式。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:104
+msgid "**FILL_COUNTER_CLOCKWISE** = **5** --- 将节点变成径向条形。\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 逆时针填充。参阅\\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`\\ 、\\ :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\\ 和\\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\\ 来控制条形填充的方式。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:106
+msgid "**FILL_BILINEAR_LEFT_AND_RIGHT** = **6** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 从中心开始填充，向左和向右扩展。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:108
+msgid "**FILL_BILINEAR_TOP_AND_BOTTOM** = **7** --- :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 从中心开始填充，同时向顶部和底部扩展。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:110
+msgid "**FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE** = **8** --- 将节点变成径向条形。\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 从中心径向填充，顺时针和逆时针扩展。参阅\\ :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`\\ 、\\ :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`\\ 和\\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\\ 来控制条形填充的方式。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:113
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:117
+msgid ":ref:`int<class_int>` **fill_mode**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:120
+#: ../classes/class_textureprogress.rst:136
+#: ../classes/class_textureprogress.rst:152
+#: ../classes/class_textureprogress.rst:168
+#: ../classes/class_textureprogress.rst:186
+#: ../classes/class_textureprogress.rst:202
+#: ../classes/class_textureprogress.rst:218
+#: ../classes/class_textureprogress.rst:234
+#: ../classes/class_textureprogress.rst:250
+#: ../classes/class_textureprogress.rst:296
+#: ../classes/class_textureprogress.rst:326
+#: ../classes/class_textureprogress.rst:342
+#: ../classes/class_textureprogress.rst:358
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:122
+#: ../classes/class_textureprogress.rst:138
+#: ../classes/class_textureprogress.rst:154
+#: ../classes/class_textureprogress.rst:170
+#: ../classes/class_textureprogress.rst:188
+#: ../classes/class_textureprogress.rst:204
+#: ../classes/class_textureprogress.rst:220
+#: ../classes/class_textureprogress.rst:236
+#: ../classes/class_textureprogress.rst:252
+#: ../classes/class_textureprogress.rst:266
+#: ../classes/class_textureprogress.rst:280
+#: ../classes/class_textureprogress.rst:298
+#: ../classes/class_textureprogress.rst:312
+#: ../classes/class_textureprogress.rst:328
+#: ../classes/class_textureprogress.rst:344
+#: ../classes/class_textureprogress.rst:360
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:122
+msgid "set_fill_mode(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:124
+#: ../classes/class_textureprogress.rst:140
+#: ../classes/class_textureprogress.rst:156
+#: ../classes/class_textureprogress.rst:172
+#: ../classes/class_textureprogress.rst:190
+#: ../classes/class_textureprogress.rst:206
+#: ../classes/class_textureprogress.rst:222
+#: ../classes/class_textureprogress.rst:238
+#: ../classes/class_textureprogress.rst:254
+#: ../classes/class_textureprogress.rst:268
+#: ../classes/class_textureprogress.rst:282
+#: ../classes/class_textureprogress.rst:300
+#: ../classes/class_textureprogress.rst:314
+#: ../classes/class_textureprogress.rst:330
+#: ../classes/class_textureprogress.rst:346
+#: ../classes/class_textureprogress.rst:362
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:124
+msgid "get_fill_mode()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:127
+msgid "填充方向。有关可能的值，参阅\\ :ref:`FillMode<enum_TextureProgress_FillMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:133
+msgid ":ref:`bool<class_bool>` **nine_patch_stretch**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:138
+msgid "set_nine_patch_stretch(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:140
+msgid "get_nine_patch_stretch()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:143
+msgid "如果\\ ``true``\\ ，GaaeExplorer会像在\\ :ref:`NinePatchRect<class_NinePatchRect>`\\ 中那样处理条形纹理。使用\\ ``stretch_margin_*``\\ 属性，如\\ :ref:`stretch_margin_bottom<class_TextureProgress_property_stretch_margin_bottom>`\\ 来设置九宫格的3×3网格。当使用径向的\\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\\ 时，这个设置将启用拉伸功能。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:149
+msgid ":ref:`Vector2<class_Vector2>` **radial_center_offset**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:154
+msgid "set_radial_center_offset(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:156
+msgid "get_radial_center_offset()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:159
+msgid "如果\\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\\ 是\\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\\ 或\\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`\\ ，则对\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 进行偏移。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:165
+msgid ":ref:`float<class_float>` **radial_fill_degrees**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:170
+msgid "set_fill_degrees(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:172
+msgid "get_fill_degrees()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:175
+msgid "如果\\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\\ 是\\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\\ 或\\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`\\ ，则为\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 的填充上限。当节点的\\ ``value``\\ 等于其\\ ``max_value``\\ 时，纹理会填充到这个角度。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:177
+msgid "参阅\\ :ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`\\ 。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:183
+msgid ":ref:`float<class_float>` **radial_initial_angle**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:188
+msgid "set_radial_initial_angle(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:190
+msgid "get_radial_initial_angle()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:193
+msgid "如果\\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\\ 是\\ :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>`\\ 或\\ :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`\\ ，\\ :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 的填充起始角度。当节点的\\ ``value``\\ 等于其\\ ``min_value``\\ 时，纹理根本不会显示出来。当\\ ``value``\\ 增加时，纹理会被填满并趋向于\\ :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`\\ 。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:199
+msgid ":ref:`int<class_int>` **stretch_margin_bottom**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:204
+#: ../classes/class_textureprogress.rst:220
+#: ../classes/class_textureprogress.rst:236
+#: ../classes/class_textureprogress.rst:252
+msgid "set_stretch_margin(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:206
+#: ../classes/class_textureprogress.rst:222
+#: ../classes/class_textureprogress.rst:238
+#: ../classes/class_textureprogress.rst:254
+msgid "get_stretch_margin()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:209
+msgid "九宫格底行的高度。边距为16意味着九宫格的底角和侧面将有16像素的高度。你可以单独设置所有4个边距值，来创建具有非统一边框的面板。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:215
+msgid ":ref:`int<class_int>` **stretch_margin_left**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:225
+msgid "九宫格左列的宽度。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:231
+msgid ":ref:`int<class_int>` **stretch_margin_right**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:241
+msgid "九宫格右列的宽度。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:247
+msgid ":ref:`int<class_int>` **stretch_margin_top**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:257
+msgid "九宫格顶行的高度。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:263
+msgid ":ref:`Texture<class_Texture>` **texture_over**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:266
+msgid "set_over_texture(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:268
+msgid "get_over_texture()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:271
+msgid "在进度条之上绘制的 :ref:`Texture<class_Texture>`\\ 。用它来添加高亮，或者作为上层帧来隐藏部分 :ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:277
+msgid ":ref:`Texture<class_Texture>` **texture_progress**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:280
+msgid "set_progress_texture(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:282
+msgid "get_progress_texture()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:285
+msgid "基于节点的\\ ``value``\\ 和\\ :ref:`fill_mode<class_TextureProgress_property_fill_mode>`\\ 进行裁剪\\ :ref:`Texture<class_Texture>`\\ 。随着\\ ``value``\\ 的增加，纹理会被填满。当\\ ``value``\\ 达到\\ ``max_value``\\ 时，它完全显示。如果\\ ``value``\\ 等于\\ ``min_value``\\ ，它就完全不显示了。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:287
+msgid "\\ ``value``\\ 属性来自\\ :ref:`Range<class_Range>`\\ 。参阅\\ :ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`\\ 。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:293
+msgid ":ref:`Vector2<class_Vector2>` **texture_progress_offset**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:298
+msgid "set_texture_progress_offset(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:300
+msgid "get_texture_progress_offset()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:303
+msgid ":ref:`texture_progress<class_TextureProgress_property_texture_progress>`\\ 的偏移量。对于带有花哨的边框的\\ :ref:`texture_over<class_TextureProgress_property_texture_over>`\\ 和\\ :ref:`texture_under<class_TextureProgress_property_texture_under>`\\ 很有用，可以避免进度纹理的边缘透明。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:309
+msgid ":ref:`Texture<class_Texture>` **texture_under**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:312
+msgid "set_under_texture(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:314
+msgid "get_under_texture()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:317
+msgid "在进度条下面绘制的\\ :ref:`Texture<class_Texture>`\\ 。即背景。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:323
+msgid ":ref:`Color<class_Color>` **tint_over**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:328
+msgid "set_tint_over(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:330
+msgid "get_tint_over()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:333
+msgid "将条形的 ``texture_over`` 纹理的颜色相乘。其效果类似于 :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>` ，只是它只影响这个特定的纹理，而不是整个节点。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:339
+msgid ":ref:`Color<class_Color>` **tint_progress**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:344
+msgid "set_tint_progress(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:346
+msgid "get_tint_progress()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:349
+msgid "将条形的 ``texture_progress`` 纹理的颜色相乘。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:355
+msgid ":ref:`Color<class_Color>` **tint_under**"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:360
+msgid "set_tint_under(value)"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:362
+msgid "get_tint_under()"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:365
+msgid "将条形的 ``texture_under`` 纹理的颜色相乘。"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:368
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:372
+msgid ":ref:`int<class_int>` **get_stretch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_textureprogress.rst:378
+msgid "void **set_stretch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

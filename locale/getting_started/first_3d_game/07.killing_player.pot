@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:4
+msgid "杀死玩家"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:6
+msgid "我们可以通过跳到敌人身上来杀死他们，但玩家仍然不能死亡。让我们来解决这个问 题。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:9
+msgid "我们希望检测到被敌人击中与压扁敌人时的不同。我们希望玩家在地板上移动时死亡， 但如果他们在空中，则不会死亡。我们可以使用向量数学来区分这两种碰撞。但是，我 们将使用 :ref:`Area3D <class_Area3D>` 节点，该节点适用于命中框。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:14
+msgid "使用 Area 节点制作攻击框"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:16
+msgid "回到 ``player.tscn`` 场景，添加一个新的 :ref:`Area3D <class_Area3D>` 子节点。 把它命名为 ``MobDetector``\\\\ （小怪检测器）。添加一个 :ref:`CollisionShape3D <class_CollisionShape3D>` 节点作为它的一个子节点。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:20
+msgid "|image0|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:452
+#: ../getting_started/first_3d_game/07.killing_player.rst:452
+msgid "image0"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:22
+msgid "在\\\\ *检查器*\\\\ 中，给它指定一个圆柱体形状。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:24
+msgid "|image1|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:453
+#: ../getting_started/first_3d_game/07.killing_player.rst:453
+msgid "image1"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:26
+msgid "这里有一个技巧，你可以用它来使碰撞只发生在玩家在地面上或靠近地面时。你可以降 低圆柱体的高度并将其向上移动到角色的顶部。这样，当玩家跳跃时，形状会太高，敌 人无法与之碰撞。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:30
+msgid "|image2|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:454
+#: ../getting_started/first_3d_game/07.killing_player.rst:454
+msgid "image2"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:32
+msgid "你还希望圆柱体比球体更宽。这样一来，玩家在碰撞之前就会被击中，并被推到怪物的 碰撞盒之上。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:35
+msgid "圆柱体越宽，玩家就越容易被杀死。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:37
+msgid "接下来，再次选择 ``MobDetector`` 节点，并在\\\\ *检查器*\\\\ 中， **关闭** 其 *Monitorable* 属性。这使得其他物理节点无法检测到这个区域。补充的 *Monitoring* 属性允许它检测碰撞。然后，清除 *Collision -> Layer*\\\\ ，并将掩码 设置为“enemies”层。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:42
+msgid "|image3|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:455
+#: ../getting_started/first_3d_game/07.killing_player.rst:455
+msgid "image3"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:44
+msgid "当区域检测到碰撞时，它们会发出信号。我们要将一个信号连接到 *Player* 节点。在 \\\\ *节点*\\\\ 选项卡中，双击 ``body_entered`` 信号并将其连接到 *Player*\\\\"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:47
+msgid "|image4|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:456
+#: ../getting_started/first_3d_game/07.killing_player.rst:456
+msgid "image4"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:49
+msgid "当一个 :ref:`CharacterBody3D <class_CharacterBody3D>` 或 :ref:`RigidBody3D <class_RigidBody3D>` 节点进入它时，\\\\ *MobDetector* 将发出 ``body_entered`` 信号。由于它只遮罩了“enemies”物理层，它将只检测 *Mob* 节点。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:53
+msgid "从代码上看，我们要做两件事：发出一个信号，我们以后会用来结束游戏，并销毁玩 家。我们可以用 ``die()`` 函数来包装这些操作，帮助我们给代码贴上描述性标签。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:95
+msgid "按 :kbd:`F5` 再试一下游戏。如果一切设置正确，角色在被敌人碰到时应该会死亡"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:97
+msgid "However, note that this depends entirely on the size and position of the *Player* and the *Mob*\\ 's collision shapes. You may need to move them and resize them to achieve a tight game feel."
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:102
+msgid "结束游戏"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:104
+msgid "我们可以利用 ``Player`` 的 ``hit`` 信号来结束游戏。我们所要做的就是将它连接 到 ``Main`` 节点上，在处理时停止 ``MobTimer``\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:107
+msgid "打开 ``main.tscn`` 场景，选中 ``Player`` 节点，然后在\\\\ *节点*\\\\ 面板中把 ``hit`` 信号连接到 ``Main`` 节点。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:110
+msgid "|image5|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:457
+#: ../getting_started/first_3d_game/07.killing_player.rst:457
+msgid "image5"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:112
+msgid "在 ``_on_player_hit()`` 函数中获取并停止计时器。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:128
+msgid "如果你现在试玩游戏，你死亡后就会停止刷怪，现有的怪物会离开屏幕。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:130
+msgid "你可以鼓励鼓励自己了：你做出了完整 3D 游戏的原型，虽说还有点粗糙。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:132
+msgid "在此基础上，我们将会添加计分、重启游戏的选项，你还会看到如何使用简单的动画让 游戏变得更加活灵活现。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:136
+msgid "代码检查点"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:138
+msgid "这些是 ``Main``\\\\ 、\\\\ ``Mob``\\\\ 、\\\\ ``Player`` 节点的完整脚本，仅供参考。你 可以把它们和你的代码进行对比检查。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:141
+msgid "首先是 ``main.gd``\\\\ ."
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:214
+msgid "然后是 ``Mob.gd``\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:297
+msgid "最后是最长的脚本 ``Player.gd``\\\\ ："
+msgstr ""
+
+#: ../getting_started/first_3d_game/07.killing_player.rst:450
+msgid "在下一节课中我们会添加计分和重试选项，再见。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

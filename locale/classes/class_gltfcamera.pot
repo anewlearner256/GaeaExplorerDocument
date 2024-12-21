@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gltfcamera.rst:10
+msgid "GLTFCamera"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:20
+#: ../classes/class_gltfcamera.rst:24
+#: ../classes/class_gltfcamera.rst:26
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:20
+msgid ":ref:`fov_size<class_GLTFCamera_property_fov_size>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:20
+#: ../classes/class_gltfcamera.rst:37
+msgid "``75.0``"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:22
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:22
+msgid ":ref:`perspective<class_GLTFCamera_property_perspective>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:22
+#: ../classes/class_gltfcamera.rst:51
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:24
+msgid ":ref:`zfar<class_GLTFCamera_property_zfar>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:24
+#: ../classes/class_gltfcamera.rst:65
+msgid "``4000.0``"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:26
+msgid ":ref:`znear<class_GLTFCamera_property_znear>`"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:26
+#: ../classes/class_gltfcamera.rst:79
+msgid "``0.05``"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:30
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:34
+msgid ":ref:`float<class_float>` **fov_size**"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:37
+#: ../classes/class_gltfcamera.rst:51
+#: ../classes/class_gltfcamera.rst:65
+#: ../classes/class_gltfcamera.rst:79
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:39
+#: ../classes/class_gltfcamera.rst:53
+#: ../classes/class_gltfcamera.rst:67
+#: ../classes/class_gltfcamera.rst:81
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:39
+msgid "set_fov_size(value)"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:41
+#: ../classes/class_gltfcamera.rst:55
+#: ../classes/class_gltfcamera.rst:69
+#: ../classes/class_gltfcamera.rst:83
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:41
+msgid "get_fov_size()"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:48
+msgid ":ref:`bool<class_bool>` **perspective**"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:53
+msgid "set_perspective(value)"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:55
+msgid "get_perspective()"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:62
+msgid ":ref:`float<class_float>` **zfar**"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:67
+msgid "set_zfar(value)"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:69
+msgid "get_zfar()"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:76
+msgid ":ref:`float<class_float>` **znear**"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:81
+msgid "set_znear(value)"
+msgstr ""
+
+#: ../classes/class_gltfcamera.rst:83
+msgid "get_znear()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

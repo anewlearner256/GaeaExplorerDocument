@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:2
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:28
+msgid "GaeaWorkerManager"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:16
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:18
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:20
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:16
+msgid "UseAsyncIORead"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:18
+msgid "UseAsyncIOWrite"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:20
+msgid "UseWASMRequest"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:22
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:24
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:26
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:22
+msgid "MaxRequestCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:24
+msgid "MaxIOReadCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:26
+msgid "MaxIOWriteCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:28
+msgid "Instance"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:32
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:37
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:39
+msgid "Boolean UseAsyncIORead"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:42
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:53
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:64
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:75
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:86
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:97
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:50
+msgid "Boolean UseAsyncIOWrite"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:61
+msgid "Boolean UseWASMRequest"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:72
+msgid "Int32 MaxRequestCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:83
+msgid "Int32 MaxIOReadCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:94
+msgid "Int32 MaxIOWriteCount"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:105
+msgid "GaeaWorkerManager Instance"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:108
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaAsync/class_GaeaWorkerManager.rst:117
+msgid "方法说明"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

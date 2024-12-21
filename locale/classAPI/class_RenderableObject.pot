@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_RenderableObject.rst:2
+#: ../classAPI/class_RenderableObject.rst:71
+msgid "RenderableObject"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:16
+msgid "Vector2"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:16
+msgid "VisibleRange"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:18
+#: ../classAPI/class_RenderableObject.rst:20
+#: ../classAPI/class_RenderableObject.rst:22
+#: ../classAPI/class_RenderableObject.rst:41
+#: ../classAPI/class_RenderableObject.rst:43
+#: ../classAPI/class_RenderableObject.rst:45
+#: ../classAPI/class_RenderableObject.rst:47
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:18
+msgid "IsInitialized"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:20
+msgid "EnablePick"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:22
+msgid "Enable"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:24
+msgid "RenderPriority"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:24
+msgid "Priority"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:28
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:31
+#: ../classAPI/class_RenderableObject.rst:33
+#: ../classAPI/class_RenderableObject.rst:35
+#: ../classAPI/class_RenderableObject.rst:37
+#: ../classAPI/class_RenderableObject.rst:39
+#: ../classAPI/class_RenderableObject.rst:49
+#: ../classAPI/class_RenderableObject.rst:51
+#: ../classAPI/class_RenderableObject.rst:53
+#: ../classAPI/class_RenderableObject.rst:55
+#: ../classAPI/class_RenderableObject.rst:57
+#: ../classAPI/class_RenderableObject.rst:59
+#: ../classAPI/class_RenderableObject.rst:63
+#: ../classAPI/class_RenderableObject.rst:65
+#: ../classAPI/class_RenderableObject.rst:67
+#: ../classAPI/class_RenderableObject.rst:69
+#: ../classAPI/class_RenderableObject.rst:73
+#: ../classAPI/class_RenderableObject.rst:75
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:31
+msgid "SetEnablePick(Boolean value,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:33
+msgid "SetEnableProcess(Boolean value,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:35
+msgid "_Ready()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:37
+msgid "Delete()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:39
+msgid "OnDelete()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:41
+msgid "OnMouseWheel(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:43
+msgid "OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:45
+msgid "OnMouseMove(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:47
+msgid "OnMouseUp(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:49
+msgid "Update()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:51
+msgid "ForceSetVisible(Boolean visible,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:53
+msgid "UseAutoVisible()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:55
+msgid "_Notification(Int32 what,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:57
+msgid "Render()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:59
+msgid "Initialize()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:61
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:61
+msgid "CompareTo(RenderableObject other,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:63
+msgid "_Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:65
+msgid "_UnhandledInput(InputEvent inputEvent,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:67
+msgid "AddLast(RenderableObject defaultPyramidTileSet,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:69
+msgid "Remove(RenderableObject currentTile,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:71
+msgid "GetByName(String name,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:73
+msgid "SelectedCallBack(Action`6 action,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:75
+msgid "ResetStatus()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:79
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:81
+msgid "Vector2 VisibleRange"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:84
+#: ../classAPI/class_RenderableObject.rst:95
+#: ../classAPI/class_RenderableObject.rst:106
+#: ../classAPI/class_RenderableObject.rst:117
+#: ../classAPI/class_RenderableObject.rst:128
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:88
+msgid "可见范围"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:92
+msgid "Boolean IsInitialized"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:99
+msgid "是否已初始化"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:103
+msgid "Boolean EnablePick"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:110
+msgid "设置为true后可通过鼠标点击拾取"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:114
+msgid "Boolean Enable"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:121
+msgid "未知"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:125
+msgid "RenderPriority Priority"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:132
+msgid "渲染优先级"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:138
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:140
+msgid "Void SetEnablePick(Boolean value,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:146
+msgid "Void SetEnableProcess(Boolean value,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:152
+msgid "Void _Ready()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:158
+msgid "Void Delete()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:164
+msgid "Void OnDelete()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:170
+msgid "Boolean OnMouseWheel(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:176
+msgid "Boolean OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:182
+msgid "Boolean OnMouseMove(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:188
+msgid "Boolean OnMouseUp(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:194
+msgid "Void Update()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:200
+msgid "Void ForceSetVisible(Boolean visible,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:206
+msgid "Void UseAutoVisible()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:212
+msgid "Void _Notification(Int32 what,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:218
+msgid "Void Render()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:224
+msgid "Void Initialize()"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:230
+msgid "Int32 CompareTo(RenderableObject other,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:236
+msgid "Void _Process(Single delta,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:242
+msgid "Void _UnhandledInput(InputEvent inputEvent,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:248
+msgid "Void AddLast(RenderableObject defaultPyramidTileSet,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:254
+msgid "Void Remove(RenderableObject currentTile,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:260
+msgid "RenderableObject GetByName(String name,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:266
+msgid "Void SelectedCallBack(Action`6 action,)"
+msgstr ""
+
+#: ../classAPI/class_RenderableObject.rst:272
+msgid "Void ResetStatus()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

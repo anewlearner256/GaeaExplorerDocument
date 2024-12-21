@@ -1,0 +1,515 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_arraymesh.rst:10
+msgid "ArrayMesh"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:12
+msgid "**Inherits:** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:14
+msgid ":ref:`Mesh<class_Mesh>` 网格类型，提供了用于从数组构造表面的工具。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:19
+msgid "``ArrayMesh`` 是用来构造 :ref:`Mesh<class_Mesh>` 的，其属性指定为数组。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:21
+msgid "最基本的例子是创建单个三角形："
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:39
+msgid "这个 :ref:`MeshInstance<class_MeshInstance>` 已经准备就绪，以添加到要显示的 :ref:`SceneTree<class_SceneTree>` 中。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:41
+msgid "程序式几何体生成，请参阅 :ref:`ImmediateGeometry<class_ImmediateGeometry>`\\ 、\\ :ref:`MeshDataTool<class_MeshDataTool>`\\ 、\\ :ref:`SurfaceTool<class_SurfaceTool>`\\ 。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:43
+msgid "\\ **注意：**\\ GaaeExplorer 对三角形基本网格模式的正面使用顺时针\\ `环绕顺序 <https://learnopengl.com/Advanced-OpenGL/Face-culling>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:46
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:48
+msgid ":doc:`../tutorials/3d/procedural_geometry/arraymesh`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:51
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:54
+msgid ":ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:54
+msgid ":ref:`blend_shape_mode<class_ArrayMesh_property_blend_shape_mode>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:54
+#: ../classes/class_arraymesh.rst:210
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:56
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:56
+msgid ":ref:`custom_aabb<class_ArrayMesh_property_custom_aabb>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:56
+#: ../classes/class_arraymesh.rst:226
+msgid "``AABB( 0, 0, 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:60
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:63
+#: ../classes/class_arraymesh.rst:65
+#: ../classes/class_arraymesh.rst:67
+#: ../classes/class_arraymesh.rst:69
+#: ../classes/class_arraymesh.rst:77
+#: ../classes/class_arraymesh.rst:79
+#: ../classes/class_arraymesh.rst:93
+#: ../classes/class_arraymesh.rst:95
+#: ../classes/class_arraymesh.rst:97
+msgid "void"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:63
+msgid ":ref:`add_blend_shape<class_ArrayMesh_method_add_blend_shape>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:65
+msgid ":ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>` **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive, :ref:`Array<class_Array>` arrays, :ref:`Array<class_Array>` blend_shapes=[  ], :ref:`int<class_int>` compress_flags=2194432 **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:67
+msgid ":ref:`clear_blend_shapes<class_ArrayMesh_method_clear_blend_shapes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:69
+msgid ":ref:`clear_surfaces<class_ArrayMesh_method_clear_surfaces>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:71
+#: ../classes/class_arraymesh.rst:81
+#: ../classes/class_arraymesh.rst:83
+#: ../classes/class_arraymesh.rst:85
+#: ../classes/class_arraymesh.rst:87
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:71
+msgid ":ref:`get_blend_shape_count<class_ArrayMesh_method_get_blend_shape_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:73
+#: ../classes/class_arraymesh.rst:89
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:73
+msgid ":ref:`get_blend_shape_name<class_ArrayMesh_method_get_blend_shape_name>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:75
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:75
+msgid ":ref:`lightmap_unwrap<class_ArrayMesh_method_lightmap_unwrap>` **(** :ref:`Transform<class_Transform>` transform, :ref:`float<class_float>` texel_size **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:77
+msgid ":ref:`regen_normalmaps<class_ArrayMesh_method_regen_normalmaps>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:79
+msgid ":ref:`set_blend_shape_name<class_ArrayMesh_method_set_blend_shape_name>` **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:81
+msgid ":ref:`surface_find_by_name<class_ArrayMesh_method_surface_find_by_name>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:83
+msgid ":ref:`surface_get_array_index_len<class_ArrayMesh_method_surface_get_array_index_len>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:85
+msgid ":ref:`surface_get_array_len<class_ArrayMesh_method_surface_get_array_len>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:87
+msgid ":ref:`surface_get_format<class_ArrayMesh_method_surface_get_format>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:89
+msgid ":ref:`surface_get_name<class_ArrayMesh_method_surface_get_name>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:91
+msgid ":ref:`PrimitiveType<enum_Mesh_PrimitiveType>`"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:91
+msgid ":ref:`surface_get_primitive_type<class_ArrayMesh_method_surface_get_primitive_type>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:93
+msgid ":ref:`surface_remove<class_ArrayMesh_method_surface_remove>` **(** :ref:`int<class_int>` surf_idx **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:95
+msgid ":ref:`surface_set_name<class_ArrayMesh_method_surface_set_name>` **(** :ref:`int<class_int>` surf_idx, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:97
+msgid ":ref:`surface_update_region<class_ArrayMesh_method_surface_update_region>` **(** :ref:`int<class_int>` surf_idx, :ref:`int<class_int>` offset, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:101
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:125
+msgid "enum **ArrayType**:"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:127
+msgid "**ARRAY_VERTEX** = **0** --- :ref:`PoolVector3Array<class_PoolVector3Array>`, :ref:`PoolVector2Array<class_PoolVector2Array>`, 或\\ :ref:`Array<class_Array>`\\ 的顶点位置。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:129
+msgid "**ARRAY_NORMAL** = **1** --- :ref:`PoolVector3Array<class_PoolVector3Array>` 顶点法线。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:131
+msgid "**ARRAY_TANGENT** = **2** --- 顶点切线的\\ :ref:`PoolRealArray<class_PoolRealArray>`\\ 。每个元素以4个浮点数为一组，前3个浮点数决定切线，最后一个是-1或1的双法线方向。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:133
+msgid "**ARRAY_COLOR** = **3** --- :ref:`PoolColorArray<class_PoolColorArray>` 顶点颜色。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:135
+msgid "**ARRAY_TEX_UV** = **4** --- :ref:`PoolVector2Array<class_PoolVector2Array>` 用于UV坐标。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:137
+msgid "**ARRAY_TEX_UV2** = **5** --- :ref:`PoolVector2Array<class_PoolVector2Array>`\\ 用于第二UV坐标。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:139
+msgid "**ARRAY_BONES** = **6** --- :ref:`PoolRealArray<class_PoolRealArray>`\\ 或\\ :ref:`PoolIntArray<class_PoolIntArray>`\\ 的骨骼索引。每个元素以4个浮点数为一组。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:141
+msgid "**ARRAY_WEIGHTS** = **7** --- 骨骼权重的\\ :ref:`PoolRealArray<class_PoolRealArray>`\\ 。每个元素以4个浮点数为一组。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:143
+msgid "**ARRAY_INDEX** = **8** --- :ref:`PoolIntArray<class_PoolIntArray>`\\ 整数数组，用作引用顶点、颜色、法线、切线和纹理的索引。所有这些数组必须具有与顶点数组相同的元素数量。任何索引都不能超过顶点数组的大小。当这个索引数组出现时，它使函数进入“索引模式”，其中索引选择 \\*i\\* 的顶点、法线、切线、颜色、UV 等。这意味着如果你想沿着一条边有不同的法线或颜色，需拷贝顶点。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:145
+msgid "对于三角形，索引数组被解释为三元组，指的是每个三角形的顶点。对于线，索引数组是成对的，表示每条线的起点和终点。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:147
+msgid "**ARRAY_MAX** = **9** --- 表示\\ :ref:`ArrayType<enum_ArrayMesh_ArrayType>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:171
+msgid "enum **ArrayFormat**:"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:173
+msgid "**ARRAY_FORMAT_VERTEX** = **1** --- 数组格式将包括顶点（必填）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:175
+msgid "**ARRAY_FORMAT_NORMAL** = **2** --- 数组格式将包括法线。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:177
+msgid "**ARRAY_FORMAT_TANGENT** = **4** --- 数组格式将包括切线。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:179
+msgid "**ARRAY_FORMAT_COLOR** = **8** --- 数组格式将包括一个颜色数组。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:181
+msgid "**ARRAY_FORMAT_TEX_UV** = **16** --- 数组格式将包括UV。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:183
+msgid "**ARRAY_FORMAT_TEX_UV2** = **32** --- 数组格式将包括另一组 UV。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:185
+msgid "**ARRAY_FORMAT_BONES** = **64** --- 数组格式将包括骨骼索引。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:187
+msgid "**ARRAY_FORMAT_WEIGHTS** = **128** --- 数组格式将包括骨骼权重。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:189
+msgid "**ARRAY_FORMAT_INDEX** = **256** --- 将使用索引数组。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:192
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:198
+msgid "**NO_INDEX_ARRAY** = **-1** --- 当没有索引时，index_array_len的默认值。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:200
+msgid "**ARRAY_WEIGHTS_SIZE** = **4** --- 每个顶点的权重/骨指数量（始终为 4）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:203
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:207
+msgid ":ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>` **blend_shape_mode**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:210
+#: ../classes/class_arraymesh.rst:226
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:212
+#: ../classes/class_arraymesh.rst:228
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:212
+msgid "set_blend_shape_mode(value)"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:214
+#: ../classes/class_arraymesh.rst:230
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:214
+msgid "get_blend_shape_mode()"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:217
+msgid "将混合形状模式设置为\\ :ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>`\\ 之一。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:223
+msgid ":ref:`AABB<class_AABB>` **custom_aabb**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:228
+msgid "set_custom_aabb(value)"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:230
+msgid "get_custom_aabb()"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:233
+msgid "用用户定义的用于使用视锥剔除的一种替代\\ :ref:`AABB<class_AABB>`\\ 。在使用着色器偏移顶点时，避免非预期的剔除特别有用。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:236
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:240
+msgid "void **add_blend_shape** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:242
+msgid "为混合形状添加名称，该名称将用\\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ 添加。必须在添加曲面之前调用。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:248
+msgid "void **add_surface_from_arrays** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive, :ref:`Array<class_Array>` arrays, :ref:`Array<class_Array>` blend_shapes=[  ], :ref:`int<class_int>` compress_flags=2194432 **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:250
+msgid "创建一个新的面。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:252
+msgid "创建面是为了使用 ``primitive`` 进行渲染，可以是 :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` 中定义的任何类型。（注意，当使用索引时，建议只使用点、线或三角形）。\\ :ref:`Mesh.get_surface_count<class_Mesh_method_get_surface_count>` 的值将成为这个新面的 ``surface_idx`` 索引。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:254
+msgid "\\ ``arrays`` 参数是数组的数组。关于这个数组中使用的值，请参阅 :ref:`ArrayType<enum_ArrayMesh_ArrayType>`\\ 。例如，\\ ``arrays[0]`` 是顶点的数组。总是需要第一个顶点子数组，其他的可选。添加一个索引数组使这个函数进入“索引模式”，顶点和其他数组作为数据来源，索引数组定义其顶点顺序。所有的子数组必须与顶点数组具有相同的长度，或者为空，如果使用了 :ref:`ARRAY_INDEX<class_ArrayMesh_constant_ARRAY_INDEX>` 时除外。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:260
+msgid "void **clear_blend_shapes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:262
+msgid "删除此\\ ``ArrayMesh``\\ 的所有混合形状。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:268
+msgid "void **clear_surfaces** **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:270
+msgid "删除此\\ ``ArrayMesh``\\ 的所有表面。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:276
+msgid ":ref:`int<class_int>` **get_blend_shape_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:278
+msgid "返回\\ ``ArrayMesh``\\ 持有的混合形状的数量。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:284
+msgid ":ref:`String<class_String>` **get_blend_shape_name** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:286
+msgid "返回此索引处的混合形状的名称。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:292
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **lightmap_unwrap** **(** :ref:`Transform<class_Transform>` transform, :ref:`float<class_float>` texel_size **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:294
+msgid "将在\\ ``ArrayMesh``\\ 上执行UV展开，以准备用于光照贴图的网格。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:300
+msgid "void **regen_normalmaps** **(** **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:302
+msgid "将为\\ ``ArrayMesh``\\ 重新生成法线图。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:308
+msgid "void **set_blend_shape_name** **(** :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:314
+msgid ":ref:`int<class_int>` **surface_find_by_name** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:316
+msgid "返回此\\ ``ArrayMesh``\\ 中带有此名称的第一个曲面的索引。如果没有找到，则返回-1。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:322
+msgid ":ref:`int<class_int>` **surface_get_array_index_len** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:324
+msgid "返回请求的曲面的索引数组的长度，以指数为单位（参阅\\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:330
+msgid ":ref:`int<class_int>` **surface_get_array_len** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:332
+msgid "返回所请求曲面中顶点数组的顶点长度（请参阅\\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:338
+msgid ":ref:`int<class_int>` **surface_get_format** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:340
+msgid "返回所请求表面的格式掩码（请参阅\\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:346
+msgid ":ref:`String<class_String>` **surface_get_name** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:348
+msgid "获取分配给此表面的名称。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:354
+msgid ":ref:`PrimitiveType<enum_Mesh_PrimitiveType>` **surface_get_primitive_type** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:356
+msgid "返回所请求曲面的基本类型（请参阅\\ :ref:`add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:362
+msgid "void **surface_remove** **(** :ref:`int<class_int>` surf_idx **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:364
+msgid "移除位置\\ ``surf_idx``\\ 的一个面，将较大的面向下移动一个\\ ``surf_idx``\\ 槽。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:370
+msgid "void **surface_set_name** **(** :ref:`int<class_int>` surf_idx, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:372
+msgid "设置给定曲面的名称。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:378
+msgid "void **surface_update_region** **(** :ref:`int<class_int>` surf_idx, :ref:`int<class_int>` offset, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:380
+msgid "更新 GPU 上的网格数组的指定区域。"
+msgstr ""
+
+#: ../classes/class_arraymesh.rst:382
+msgid "\\ **警告：**\\ 仅在知道您在做什么时使用。通过用不恰当的参数调用此功能，您可以轻松地导致崩溃。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

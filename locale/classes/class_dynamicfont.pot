@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_dynamicfont.rst:10
+msgid "DynamicFont"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:12
+msgid "**Inherits:** :ref:`Font<class_Font>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:14
+msgid "DynamicFont 在运行时渲染矢量字体文件。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:19
+msgid "DynamicFont 在运行时动态渲染矢量字体文件，而不是像 :ref:`BitmapFont<class_BitmapFont>` 那样使用预渲染的纹理图集。通过放弃 :ref:`BitmapFont<class_BitmapFont>` 更快的加载时间，换取在运行时改变字体大小和间距等参数的能力。使用 :ref:`DynamicFontData<class_DynamicFontData>` 引用字体文件路径。DynamicFont 还支持定义若干备用字体，这些字体将在主字体不支持显示某个字符时使用。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:21
+msgid "DynamicFont 使用 `FreeType <https://www.freetype.org/>`__ 库进行光栅化处理。支持的格式有 TrueType（\\ ``.ttf``\\ ）、OpenType（\\ ``.otf``\\ ）和 Web Open Font Format 1（\\ ``.woff``\\ ）。\\ *不支持* Web Open Font Format 2（\\ ``.woff2``\\ ）。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:30
+msgid "\\ **注意：**\\ DynamicFont 尚不支持字偶距、从右到左的排版、合字、文本变形、可变字体和可选字体等功能。如果你想把可选的字体功能“烘焙”进一个 TTF 字体文件，可以使用 `FontForge <https://fontforge.org/>`__\\ 。在 FontForge 中，使用\\ **文件 > 生成字体**\\ ，点击\\ **选项**\\ ，选择需要的功能，然后生成字体。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:33
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:35
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:38
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:41
+#: ../classes/class_dynamicfont.rst:43
+#: ../classes/class_dynamicfont.rst:45
+#: ../classes/class_dynamicfont.rst:47
+#: ../classes/class_dynamicfont.rst:53
+#: ../classes/class_dynamicfont.rst:55
+#: ../classes/class_dynamicfont.rst:72
+#: ../classes/class_dynamicfont.rst:74
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:41
+msgid ":ref:`extra_spacing_bottom<class_DynamicFont_property_extra_spacing_bottom>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:41
+#: ../classes/class_dynamicfont.rst:43
+#: ../classes/class_dynamicfont.rst:45
+#: ../classes/class_dynamicfont.rst:47
+#: ../classes/class_dynamicfont.rst:53
+#: ../classes/class_dynamicfont.rst:114
+#: ../classes/class_dynamicfont.rst:130
+#: ../classes/class_dynamicfont.rst:148
+#: ../classes/class_dynamicfont.rst:166
+#: ../classes/class_dynamicfont.rst:214
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:43
+msgid ":ref:`extra_spacing_char<class_DynamicFont_property_extra_spacing_char>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:45
+msgid ":ref:`extra_spacing_space<class_DynamicFont_property_extra_spacing_space>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:47
+msgid ":ref:`extra_spacing_top<class_DynamicFont_property_extra_spacing_top>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:49
+#: ../classes/class_dynamicfont.rst:70
+msgid ":ref:`DynamicFontData<class_DynamicFontData>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:49
+msgid ":ref:`font_data<class_DynamicFont_property_font_data>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:51
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:51
+msgid ":ref:`outline_color<class_DynamicFont_property_outline_color>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:51
+#: ../classes/class_dynamicfont.rst:196
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:53
+msgid ":ref:`outline_size<class_DynamicFont_property_outline_size>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:55
+msgid ":ref:`size<class_DynamicFont_property_size>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:55
+#: ../classes/class_dynamicfont.rst:230
+msgid "``16``"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:57
+#: ../classes/class_dynamicfont.rst:59
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:57
+msgid ":ref:`use_filter<class_DynamicFont_property_use_filter>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:57
+#: ../classes/class_dynamicfont.rst:59
+#: ../classes/class_dynamicfont.rst:246
+#: ../classes/class_dynamicfont.rst:262
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:59
+msgid ":ref:`use_mipmaps<class_DynamicFont_property_use_mipmaps>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:63
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:66
+#: ../classes/class_dynamicfont.rst:76
+#: ../classes/class_dynamicfont.rst:78
+#: ../classes/class_dynamicfont.rst:80
+msgid "void"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:66
+msgid ":ref:`add_fallback<class_DynamicFont_method_add_fallback>` **(** :ref:`DynamicFontData<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:68
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:68
+msgid ":ref:`get_available_chars<class_DynamicFont_method_get_available_chars>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:70
+msgid ":ref:`get_fallback<class_DynamicFont_method_get_fallback>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:72
+msgid ":ref:`get_fallback_count<class_DynamicFont_method_get_fallback_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:74
+msgid ":ref:`get_spacing<class_DynamicFont_method_get_spacing>` **(** :ref:`int<class_int>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:76
+msgid ":ref:`remove_fallback<class_DynamicFont_method_remove_fallback>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:78
+msgid ":ref:`set_fallback<class_DynamicFont_method_set_fallback>` **(** :ref:`int<class_int>` idx, :ref:`DynamicFontData<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:80
+msgid ":ref:`set_spacing<class_DynamicFont_method_set_spacing>` **(** :ref:`int<class_int>` type, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:84
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:96
+msgid "enum **SpacingType**:"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:98
+msgid "**SPACING_TOP** = **0** --- 顶部间距。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:100
+msgid "**SPACING_BOTTOM** = **1** --- 底部间距。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:102
+msgid "**SPACING_CHAR** = **2** --- 每个字符的间距。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:104
+msgid "**SPACING_SPACE** = **3** --- 空格字符的间距。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:107
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:111
+msgid ":ref:`int<class_int>` **extra_spacing_bottom**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:114
+#: ../classes/class_dynamicfont.rst:130
+#: ../classes/class_dynamicfont.rst:148
+#: ../classes/class_dynamicfont.rst:166
+#: ../classes/class_dynamicfont.rst:196
+#: ../classes/class_dynamicfont.rst:214
+#: ../classes/class_dynamicfont.rst:230
+#: ../classes/class_dynamicfont.rst:246
+#: ../classes/class_dynamicfont.rst:262
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:116
+#: ../classes/class_dynamicfont.rst:132
+#: ../classes/class_dynamicfont.rst:150
+#: ../classes/class_dynamicfont.rst:168
+#: ../classes/class_dynamicfont.rst:182
+#: ../classes/class_dynamicfont.rst:198
+#: ../classes/class_dynamicfont.rst:216
+#: ../classes/class_dynamicfont.rst:232
+#: ../classes/class_dynamicfont.rst:248
+#: ../classes/class_dynamicfont.rst:264
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:116
+#: ../classes/class_dynamicfont.rst:132
+#: ../classes/class_dynamicfont.rst:150
+#: ../classes/class_dynamicfont.rst:168
+msgid "set_spacing(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:118
+#: ../classes/class_dynamicfont.rst:134
+#: ../classes/class_dynamicfont.rst:152
+#: ../classes/class_dynamicfont.rst:170
+#: ../classes/class_dynamicfont.rst:184
+#: ../classes/class_dynamicfont.rst:200
+#: ../classes/class_dynamicfont.rst:218
+#: ../classes/class_dynamicfont.rst:234
+#: ../classes/class_dynamicfont.rst:250
+#: ../classes/class_dynamicfont.rst:266
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:118
+#: ../classes/class_dynamicfont.rst:134
+#: ../classes/class_dynamicfont.rst:152
+#: ../classes/class_dynamicfont.rst:170
+msgid "get_spacing()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:121
+msgid "底部的额外间距，单位为像素。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:127
+msgid ":ref:`int<class_int>` **extra_spacing_char**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:137
+msgid "每个字符的额外间距，单位为像素。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:139
+#: ../classes/class_dynamicfont.rst:157
+msgid "这可以是负数，使字符之间的距离更小。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:145
+msgid ":ref:`int<class_int>` **extra_spacing_space**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:155
+msgid "空格字符的额外间距，单位是像素，除了\\ :ref:`extra_spacing_char<class_DynamicFont_property_extra_spacing_char>`\\ 。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:163
+msgid ":ref:`int<class_int>` **extra_spacing_top**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:173
+msgid "顶部的额外间距，单位为像素。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:179
+msgid ":ref:`DynamicFontData<class_DynamicFontData>` **font_data**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:182
+msgid "set_font_data(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:184
+msgid "get_font_data()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:187
+msgid "字体数据。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:193
+msgid ":ref:`Color<class_Color>` **outline_color**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:198
+msgid "set_outline_color(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:200
+msgid "get_outline_color()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:203
+msgid "字体轮廓的颜色。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:205
+msgid "\\ **注意：**\\ 建议将此值保留为默认值，以便您可以在各个控件中对其进行调整。例如，如果在此处将轮廓设为黑色，则无法使用Label的字体轮廓调制主题项来更改其颜色。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:211
+msgid ":ref:`int<class_int>` **outline_size**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:216
+msgid "set_outline_size(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:218
+msgid "get_outline_size()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:221
+msgid "字体轮廓的厚度，单位为像素（与字体大小无关）。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:227
+msgid ":ref:`int<class_int>` **size**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:232
+msgid "set_size(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:234
+msgid "get_size()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:237
+msgid "字体大小，单位为像素。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:243
+msgid ":ref:`bool<class_bool>` **use_filter**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:248
+msgid "set_use_filter(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:250
+msgid "get_use_filter()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:253
+msgid "为 ``true`` 时将使用过滤功能。如果字体过度采样被禁用或无效，这将使字体在缩放时变得模糊，而非像素化。当在尺寸随时变化的控件中使用字体时，建议启用这个功能，除非是像素设计。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:259
+msgid ":ref:`bool<class_bool>` **use_mipmaps**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:264
+msgid "set_use_mipmaps(value)"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:266
+msgid "get_use_mipmaps()"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:269
+msgid "为 ``true`` 时将使用多级渐远纹理。在字体过度采样被禁用或无效时，可改善字体缩小时的表现。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:272
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:276
+msgid "void **add_fallback** **(** :ref:`DynamicFontData<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:278
+msgid "添加一个后备字体。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:284
+msgid ":ref:`String<class_String>` **get_available_chars** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:286
+msgid "返回一个包含主字体和后备字体中所有可用字符的字符串。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:288
+msgid "如果多个字体中包含同一个字符，那么它在返回的字符串第一次出现的位置。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:294
+msgid ":ref:`DynamicFontData<class_DynamicFontData>` **get_fallback** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:296
+msgid "返回位于索引\\ ``idx``\\ 处的后备字体。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:302
+msgid ":ref:`int<class_int>` **get_fallback_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:304
+msgid "返回后备字体的数量。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:310
+msgid ":ref:`int<class_int>` **get_spacing** **(** :ref:`int<class_int>` type **)** |const|"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:312
+msgid "返回给定\\ ``type``\\ 的间距(参阅\\ :ref:`SpacingType<enum_DynamicFont_SpacingType>`)。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:318
+msgid "void **remove_fallback** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:320
+msgid "移除位于索引\\ ``idx``\\ 处的后备字体。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:326
+msgid "void **set_fallback** **(** :ref:`int<class_int>` idx, :ref:`DynamicFontData<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:328
+msgid "设置索引\\ ``idx``\\ 处的后备字体。"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:334
+msgid "void **set_spacing** **(** :ref:`int<class_int>` type, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_dynamicfont.rst:336
+msgid "给\\ ``type``\\ 设置间距(参阅\\ :ref:`SpacingType<enum_DynamicFont_SpacingType>`)为\\ ``value``\\ ，单位为像素(与字体大小无关)。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

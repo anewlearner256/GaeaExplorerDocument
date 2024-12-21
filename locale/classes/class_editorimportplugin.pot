@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorimportplugin.rst:10
+msgid "EditorImportPlugin"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:12
+msgid "**Inherits:** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:14
+msgid "在编辑器中注册一个自定义资源导入器。使用该类来解析任何文件，并将其作为新的资源类型导入。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:19
+msgid "EditorImportPlugins提供了一种扩展编辑器资源导入功能的方法。使用它们来导入自定义文件中的资源，或成为编辑器现有导入器的替代品。用\\ :ref:`EditorPlugin.add_import_plugin<class_EditorPlugin_method_add_import_plugin>`\\ 注册你的\\ :ref:`EditorPlugin<class_EditorPlugin>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:21
+msgid "EditorImportPlugins通过与特定的文件扩展名和资源类型相关联来工作。参阅 :ref:`get_recognized_extensions<class_EditorImportPlugin_method_get_recognized_extensions>` 和 :ref:`get_resource_type<class_EditorImportPlugin_method_get_resource_type>`\\ 。其可以选择性地指定一些影响导入过程的导入预置。EditorImportPlugins负责创建资源并将其保存在\\ ``.import``\\ 目录中，参阅\\ :ref:`ProjectSettings.application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:23
+msgid "下面是一个EditorImportPlugin的例子，它从扩展名为 \".special\" 或 \".spec\" 的文件中导入一个\\ :ref:`Mesh<class_Mesh>`:"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:66
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:68
+msgid ":doc:`../tutorials/plugins/editor/import_plugins`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:71
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:74
+#: ../classes/class_editorimportplugin.rst:88
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:74
+msgid ":ref:`get_import_options<class_EditorImportPlugin_method_get_import_options>` **(** :ref:`int<class_int>` preset **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:76
+#: ../classes/class_editorimportplugin.rst:82
+#: ../classes/class_editorimportplugin.rst:96
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:76
+msgid ":ref:`get_import_order<class_EditorImportPlugin_method_get_import_order>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:78
+#: ../classes/class_editorimportplugin.rst:84
+#: ../classes/class_editorimportplugin.rst:90
+#: ../classes/class_editorimportplugin.rst:92
+#: ../classes/class_editorimportplugin.rst:94
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:78
+msgid ":ref:`get_importer_name<class_EditorImportPlugin_method_get_importer_name>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:80
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:80
+msgid ":ref:`get_option_visibility<class_EditorImportPlugin_method_get_option_visibility>` **(** :ref:`String<class_String>` option, :ref:`Dictionary<class_Dictionary>` options **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:82
+msgid ":ref:`get_preset_count<class_EditorImportPlugin_method_get_preset_count>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:84
+msgid ":ref:`get_preset_name<class_EditorImportPlugin_method_get_preset_name>` **(** :ref:`int<class_int>` preset **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:86
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:86
+msgid ":ref:`get_priority<class_EditorImportPlugin_method_get_priority>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:88
+msgid ":ref:`get_recognized_extensions<class_EditorImportPlugin_method_get_recognized_extensions>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:90
+msgid ":ref:`get_resource_type<class_EditorImportPlugin_method_get_resource_type>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:92
+msgid ":ref:`get_save_extension<class_EditorImportPlugin_method_get_save_extension>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:94
+msgid ":ref:`get_visible_name<class_EditorImportPlugin_method_get_visible_name>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:96
+msgid ":ref:`import<class_EditorImportPlugin_method_import>` **(** :ref:`String<class_String>` source_file, :ref:`String<class_String>` save_path, :ref:`Dictionary<class_Dictionary>` options, :ref:`Array<class_Array>` platform_variants, :ref:`Array<class_Array>` gen_files **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:100
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:104
+msgid ":ref:`Array<class_Array>` **get_import_options** **(** :ref:`int<class_int>` preset **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:106
+msgid "获取该索引下预设的选项和默认值。返回一个字典数组，包含以下键名：\\ ``name``\\ 、\\ ``default_value``\\ 、\\ ``property_hint``\\ （可选）、\\ ``hint_string``\\ （可选）、\\ ``usage``\\ （可选）。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:112
+msgid ":ref:`int<class_int>` **get_import_order** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:114
+msgid "获取该导入器在导入资源时的运行顺序。具有\\ *较低*\\ 导入顺序的导入器将被首先调用，较高值的将被其后调用。使用这个来确保导入器在依赖项已经被导入后执行。默认的导入顺序是 ``0``\\ ，除非被指定的导入器重写。参阅 :ref:`ImportOrder<enum_ResourceImporter_ImportOrder>` 了解相关预定义的值。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:120
+msgid ":ref:`String<class_String>` **get_importer_name** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:122
+msgid "获取导入者的唯一名称。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:128
+msgid ":ref:`bool<class_bool>` **get_option_visibility** **(** :ref:`String<class_String>` option, :ref:`Dictionary<class_Dictionary>` options **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:130
+msgid "这个方法可以在满足条件的情况下重写隐藏特定的导入选项。这主要适用于隐藏依赖于其他选项的选项，如果其中一个选项被禁用。例如："
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:141
+msgid "返回\\ ``true``\\ ，使所有选项始终可见。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:147
+msgid ":ref:`int<class_int>` **get_preset_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:149
+msgid "获取插件定义的初始预置数量。使用\\ :ref:`get_import_options<class_EditorImportPlugin_method_get_import_options>`\\ 获取预设的默认选项，使用\\ :ref:`get_preset_name<class_EditorImportPlugin_method_get_preset_name>`\\ 获取预设的名称。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:155
+msgid ":ref:`String<class_String>` **get_preset_name** **(** :ref:`int<class_int>` preset **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:157
+msgid "获取该索引处预设的选项名称。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:163
+msgid ":ref:`float<class_float>` **get_priority** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:165
+msgid "获取该插件对识别的扩展的优先级。优先级越高的插件会被优先选择。默认的优先级是\\ ``1.0``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:171
+msgid ":ref:`Array<class_Array>` **get_recognized_extensions** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:173
+msgid "获取与该加载器相关联的文件扩展名列表（不区分大小写），例如 ``[\"obj\"]``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:179
+msgid ":ref:`String<class_String>` **get_resource_type** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:181
+msgid "获取与此加载程序关联的GaaeExplorer资源类型，例如 ``\"Mesh\"`` 或 ``\"Animation\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:187
+msgid ":ref:`String<class_String>` **get_save_extension** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:189
+msgid "获取用于在\\ ``.import``\\ 目录中保存此资源的扩展名，参阅\\ :ref:`ProjectSettings.application/config/use_hidden_project_data_directory<class_ProjectSettings_property_application/config/use_hidden_project_data_directory>`\\ 。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:195
+msgid ":ref:`String<class_String>` **get_visible_name** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:197
+msgid "获取在导入窗口中显示的名称。你应该选择这个名字作为 \"Import as\" 的延续，例如 \"Import as Special Mesh\"。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:203
+msgid ":ref:`int<class_int>` **import** **(** :ref:`String<class_String>` source_file, :ref:`String<class_String>` save_path, :ref:`Dictionary<class_Dictionary>` options, :ref:`Array<class_Array>` platform_variants, :ref:`Array<class_Array>` gen_files **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:205
+msgid "使用指定的导入选项 ``options`` 将 ``source_file`` 导入到 ``save_path`` 中。\\ ``platform_variants`` 和 ``gen_files`` 数组将被此函数修改。"
+msgstr ""
+
+#: ../classes/class_editorimportplugin.rst:207
+msgid "这个方法必须被重写才能完成实际的导入工作。参阅本类的描述以了解如何重写该方法。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

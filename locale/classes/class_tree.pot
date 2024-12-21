@@ -1,0 +1,1435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_tree.rst:10
+msgid "Tree"
+msgstr ""
+
+#: ../classes/class_tree.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:14
+msgid "控件显示项目树。"
+msgstr ""
+
+#: ../classes/class_tree.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_tree.rst:19
+msgid "这展示了一个可以选择、展开和折叠的项目树。该树可以有多列的自定义控件，如文本编辑、按钮和弹出窗口。它对于结构化显示和互动很有用。"
+msgstr ""
+
+#: ../classes/class_tree.rst:21
+msgid "树通过代码建立，使用\\ :ref:`TreeItem<class_TreeItem>`\\ 对象来构建结构。它们有一个单独根节点，但如果添加一个虚拟的隐藏根节点，就可以模拟多个根。"
+msgstr ""
+
+#: ../classes/class_tree.rst:34
+msgid "要遍历一个\\ ``Tree``\\ 对象中的所有\\ :ref:`TreeItem<class_TreeItem>`\\ 对象，在通过\\ :ref:`get_root<class_Tree_method_get_root>`\\ 获得根之后，使用\\ :ref:`TreeItem.get_next<class_TreeItem_method_get_next>`\\ 和\\ :ref:`TreeItem.get_children<class_TreeItem_method_get_children>`\\ 方法。你可以对一个\\ :ref:`TreeItem<class_TreeItem>`\\ 使用\\ :ref:`Object.free<class_Object_method_free>`\\ 来把它从\\ ``Tree``\\ 中移除。"
+msgstr ""
+
+#: ../classes/class_tree.rst:37
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_tree.rst:40
+#: ../classes/class_tree.rst:42
+#: ../classes/class_tree.rst:44
+#: ../classes/class_tree.rst:52
+#: ../classes/class_tree.rst:54
+#: ../classes/class_tree.rst:56
+#: ../classes/class_tree.rst:69
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:40
+msgid ":ref:`allow_reselect<class_Tree_property_allow_reselect>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:40
+#: ../classes/class_tree.rst:42
+#: ../classes/class_tree.rst:44
+#: ../classes/class_tree.rst:52
+#: ../classes/class_tree.rst:54
+#: ../classes/class_tree.rst:375
+#: ../classes/class_tree.rst:391
+#: ../classes/class_tree.rst:407
+#: ../classes/class_tree.rst:457
+#: ../classes/class_tree.rst:473
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_tree.rst:42
+msgid ":ref:`allow_rmb_select<class_Tree_property_allow_rmb_select>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:44
+msgid ":ref:`column_titles_visible<class_Tree_property_column_titles_visible>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:46
+#: ../classes/class_tree.rst:48
+#: ../classes/class_tree.rst:73
+#: ../classes/class_tree.rst:77
+#: ../classes/class_tree.rst:81
+#: ../classes/class_tree.rst:85
+#: ../classes/class_tree.rst:93
+#: ../classes/class_tree.rst:101
+#: ../classes/class_tree.rst:130
+#: ../classes/class_tree.rst:132
+#: ../classes/class_tree.rst:134
+#: ../classes/class_tree.rst:136
+#: ../classes/class_tree.rst:138
+#: ../classes/class_tree.rst:140
+#: ../classes/class_tree.rst:142
+#: ../classes/class_tree.rst:144
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:46
+msgid ":ref:`columns<class_Tree_property_columns>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:46
+#: ../classes/class_tree.rst:132
+#: ../classes/class_tree.rst:423
+#: ../classes/class_tree.rst:817
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_tree.rst:48
+msgid ":ref:`drop_mode_flags<class_Tree_property_drop_mode_flags>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:48
+#: ../classes/class_tree.rst:58
+#: ../classes/class_tree.rst:134
+#: ../classes/class_tree.rst:439
+#: ../classes/class_tree.rst:489
+#: ../classes/class_tree.rst:829
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_tree.rst:50
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:50
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_tree.rst:50
+msgid "``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_tree.rst:52
+msgid ":ref:`hide_folding<class_Tree_property_hide_folding>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:54
+msgid ":ref:`hide_root<class_Tree_property_hide_root>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:56
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../classes/class_tree.rst:56
+msgid "``true`` (overrides :ref:`Control<class_Control_property_rect_clip_content>`)"
+msgstr ""
+
+#: ../classes/class_tree.rst:58
+msgid ":ref:`SelectMode<enum_Tree_SelectMode>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:58
+msgid ":ref:`select_mode<class_Tree_property_select_mode>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:62
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_tree.rst:65
+#: ../classes/class_tree.rst:71
+#: ../classes/class_tree.rst:103
+#: ../classes/class_tree.rst:105
+#: ../classes/class_tree.rst:107
+#: ../classes/class_tree.rst:109
+msgid "void"
+msgstr ""
+
+#: ../classes/class_tree.rst:65
+msgid ":ref:`clear<class_Tree_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:67
+#: ../classes/class_tree.rst:83
+#: ../classes/class_tree.rst:89
+#: ../classes/class_tree.rst:91
+#: ../classes/class_tree.rst:95
+#: ../classes/class_tree.rst:99
+msgid ":ref:`TreeItem<class_TreeItem>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:67
+msgid ":ref:`create_item<class_Tree_method_create_item>` **(** :ref:`Object<class_Object>` parent=null, :ref:`int<class_int>` idx=-1 **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:69
+msgid ":ref:`edit_selected<class_Tree_method_edit_selected>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:71
+msgid ":ref:`ensure_cursor_is_visible<class_Tree_method_ensure_cursor_is_visible>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:73
+msgid ":ref:`get_column_at_position<class_Tree_method_get_column_at_position>` **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:75
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:75
+msgid ":ref:`get_column_title<class_Tree_method_get_column_title>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:77
+msgid ":ref:`get_column_width<class_Tree_method_get_column_width>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:79
+#: ../classes/class_tree.rst:87
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:79
+msgid ":ref:`get_custom_popup_rect<class_Tree_method_get_custom_popup_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:81
+msgid ":ref:`get_drop_section_at_position<class_Tree_method_get_drop_section_at_position>` **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:83
+msgid ":ref:`get_edited<class_Tree_method_get_edited>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:85
+msgid ":ref:`get_edited_column<class_Tree_method_get_edited_column>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:87
+msgid ":ref:`get_item_area_rect<class_Tree_method_get_item_area_rect>` **(** :ref:`Object<class_Object>` item, :ref:`int<class_int>` column=-1 **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:89
+msgid ":ref:`get_item_at_position<class_Tree_method_get_item_at_position>` **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:91
+msgid ":ref:`get_next_selected<class_Tree_method_get_next_selected>` **(** :ref:`Object<class_Object>` from **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:93
+msgid ":ref:`get_pressed_button<class_Tree_method_get_pressed_button>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:95
+msgid ":ref:`get_root<class_Tree_method_get_root>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:97
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:97
+msgid ":ref:`get_scroll<class_Tree_method_get_scroll>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:99
+msgid ":ref:`get_selected<class_Tree_method_get_selected>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:101
+msgid ":ref:`get_selected_column<class_Tree_method_get_selected_column>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:103
+msgid ":ref:`scroll_to_item<class_Tree_method_scroll_to_item>` **(** :ref:`Object<class_Object>` item **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:105
+msgid ":ref:`set_column_expand<class_Tree_method_set_column_expand>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` expand **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:107
+msgid ":ref:`set_column_min_width<class_Tree_method_set_column_min_width>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` min_width **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:109
+msgid ":ref:`set_column_title<class_Tree_method_set_column_title>` **(** :ref:`int<class_int>` column, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:113
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_tree.rst:116
+#: ../classes/class_tree.rst:118
+#: ../classes/class_tree.rst:120
+#: ../classes/class_tree.rst:122
+#: ../classes/class_tree.rst:124
+#: ../classes/class_tree.rst:126
+#: ../classes/class_tree.rst:128
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:116
+msgid ":ref:`custom_button_font_highlight<class_Tree_theme_color_custom_button_font_highlight>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:116
+#: ../classes/class_tree.rst:721
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:118
+msgid ":ref:`drop_position_color<class_Tree_theme_color_drop_position_color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:118
+#: ../classes/class_tree.rst:733
+msgid "``Color( 1, 0.3, 0.2, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:120
+msgid ":ref:`font_color<class_Tree_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:120
+#: ../classes/class_tree.rst:745
+msgid "``Color( 0.69, 0.69, 0.69, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:122
+msgid ":ref:`font_color_selected<class_Tree_theme_color_font_color_selected>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:122
+#: ../classes/class_tree.rst:757
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:124
+msgid ":ref:`guide_color<class_Tree_theme_color_guide_color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:124
+#: ../classes/class_tree.rst:769
+msgid "``Color( 0, 0, 0, 0.1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:126
+msgid ":ref:`relationship_line_color<class_Tree_theme_color_relationship_line_color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:126
+#: ../classes/class_tree.rst:781
+msgid "``Color( 0.27, 0.27, 0.27, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:128
+msgid ":ref:`title_button_color<class_Tree_theme_color_title_button_color>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:128
+#: ../classes/class_tree.rst:793
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_tree.rst:130
+msgid ":ref:`button_margin<class_Tree_theme_constant_button_margin>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:130
+#: ../classes/class_tree.rst:136
+#: ../classes/class_tree.rst:140
+#: ../classes/class_tree.rst:144
+#: ../classes/class_tree.rst:805
+#: ../classes/class_tree.rst:841
+#: ../classes/class_tree.rst:865
+#: ../classes/class_tree.rst:889
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_tree.rst:132
+msgid ":ref:`draw_guides<class_Tree_theme_constant_draw_guides>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:134
+msgid ":ref:`draw_relationship_lines<class_Tree_theme_constant_draw_relationship_lines>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:136
+msgid ":ref:`hseparation<class_Tree_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:138
+msgid ":ref:`item_margin<class_Tree_theme_constant_item_margin>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:138
+#: ../classes/class_tree.rst:142
+#: ../classes/class_tree.rst:853
+#: ../classes/class_tree.rst:877
+msgid "``12``"
+msgstr ""
+
+#: ../classes/class_tree.rst:140
+msgid ":ref:`scroll_border<class_Tree_theme_constant_scroll_border>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:142
+msgid ":ref:`scroll_speed<class_Tree_theme_constant_scroll_speed>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:144
+msgid ":ref:`vseparation<class_Tree_theme_constant_vseparation>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:146
+#: ../classes/class_tree.rst:148
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:146
+msgid ":ref:`font<class_Tree_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:148
+msgid ":ref:`title_button_font<class_Tree_theme_font_title_button_font>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:150
+#: ../classes/class_tree.rst:152
+#: ../classes/class_tree.rst:154
+#: ../classes/class_tree.rst:156
+#: ../classes/class_tree.rst:158
+#: ../classes/class_tree.rst:160
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:150
+msgid ":ref:`arrow<class_Tree_theme_icon_arrow>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:152
+msgid ":ref:`arrow_collapsed<class_Tree_theme_icon_arrow_collapsed>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:154
+msgid ":ref:`checked<class_Tree_theme_icon_checked>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:156
+msgid ":ref:`select_arrow<class_Tree_theme_icon_select_arrow>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:158
+msgid ":ref:`unchecked<class_Tree_theme_icon_unchecked>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:160
+msgid ":ref:`updown<class_Tree_theme_icon_updown>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:162
+#: ../classes/class_tree.rst:164
+#: ../classes/class_tree.rst:166
+#: ../classes/class_tree.rst:168
+#: ../classes/class_tree.rst:170
+#: ../classes/class_tree.rst:172
+#: ../classes/class_tree.rst:174
+#: ../classes/class_tree.rst:176
+#: ../classes/class_tree.rst:178
+#: ../classes/class_tree.rst:180
+#: ../classes/class_tree.rst:182
+#: ../classes/class_tree.rst:184
+#: ../classes/class_tree.rst:186
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:162
+msgid ":ref:`bg<class_Tree_theme_style_bg>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:164
+msgid ":ref:`bg_focus<class_Tree_theme_style_bg_focus>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:166
+msgid ":ref:`button_pressed<class_Tree_theme_style_button_pressed>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:168
+msgid ":ref:`cursor<class_Tree_theme_style_cursor>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:170
+msgid ":ref:`cursor_unfocused<class_Tree_theme_style_cursor_unfocused>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:172
+msgid ":ref:`custom_button<class_Tree_theme_style_custom_button>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:174
+msgid ":ref:`custom_button_hover<class_Tree_theme_style_custom_button_hover>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:176
+msgid ":ref:`custom_button_pressed<class_Tree_theme_style_custom_button_pressed>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:178
+msgid ":ref:`selected<class_Tree_theme_style_selected>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:180
+msgid ":ref:`selected_focus<class_Tree_theme_style_selected_focus>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:182
+msgid ":ref:`title_button_hover<class_Tree_theme_style_title_button_hover>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:184
+msgid ":ref:`title_button_normal<class_Tree_theme_style_title_button_normal>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:186
+msgid ":ref:`title_button_pressed<class_Tree_theme_style_title_button_pressed>`"
+msgstr ""
+
+#: ../classes/class_tree.rst:190
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_tree.rst:194
+msgid "**button_pressed** **(** :ref:`TreeItem<class_TreeItem>` item, :ref:`int<class_int>` column, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:196
+msgid "当树中按钮被按下时触发，参阅\\ :ref:`TreeItem.add_button<class_TreeItem_method_add_button>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:202
+msgid "**cell_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:204
+msgid "当单元格被选中时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:210
+msgid "**column_title_pressed** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:212
+msgid "当列的标题被按下时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:218
+msgid "**custom_popup_edited** **(** :ref:`bool<class_bool>` arrow_clicked **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:220
+msgid "当具有\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 的单元格被点击，进行编辑时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:226
+msgid "**empty_rmb** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:228
+msgid "当在树的空白处按下鼠标右键时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:234
+msgid "**empty_tree_rmb_selected** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:236
+msgid "如果鼠标右键选择处于活动状态，并且树是空的，则在按下鼠标右键时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:242
+msgid "**item_activated** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:244
+msgid "当一个项目的标签被双击时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:250
+msgid "**item_collapsed** **(** :ref:`TreeItem<class_TreeItem>` item **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:252
+msgid "当一个项目的折叠箭头被点击折叠时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:258
+msgid "**item_custom_button_pressed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:260
+msgid "当自定义按钮被按下时触发，即在\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 模式单元格中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:266
+msgid "**item_double_clicked** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:268
+msgid "当项目的图标被双击时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:274
+msgid "**item_edited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:276
+msgid "当项目被编辑时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:282
+msgid "**item_rmb_edited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:284
+msgid "当使用鼠标右键编辑项目时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:290
+msgid "**item_rmb_selected** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:292
+msgid "当用鼠标右键选择项目时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:298
+msgid "**item_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:300
+msgid "当项目被选中时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:306
+msgid "**multi_selected** **(** :ref:`TreeItem<class_TreeItem>` item, :ref:`int<class_int>` column, :ref:`bool<class_bool>` selected **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:308
+msgid "如果\\ ``select_mode``\\ 是\\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\\ ，则触发代替\\ ``item_selected``\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:314
+msgid "**nothing_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:316
+msgid "当鼠标左键点击未选择任何项目时触发。"
+msgstr ""
+
+#: ../classes/class_tree.rst:319
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_tree.rst:329
+msgid "enum **SelectMode**:"
+msgstr ""
+
+#: ../classes/class_tree.rst:331
+msgid "**SELECT_SINGLE** = **0** --- 允许一次选择一个单元格。从项的角度看，只允许选择一个项。而且在所选项中只有一列被选中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:333
+msgid "在这种模式下，焦点光标总被隐藏，被定位在当前的选择处，使当前的选择项成为当前的焦点项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:335
+msgid "**SELECT_ROW** = **1** --- 允许一次选择单行。从项的角度看，只允许选择单个项。而所有的列都被选择在所选项中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:337
+msgid "在这种模式下，焦点光标总被隐藏，被定位在当前选择的第一列，使当前选择项成为当前焦点项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:339
+msgid "**SELECT_MULTI** = **2** --- 允许同时选择多个单元格。从项的角度看，允许选择多个项。而且每个被选中的项中可以有多个列被选中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:341
+msgid "在这种模式下，焦点光标可见，光标下的项或列不一定被选中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:353
+msgid "enum **DropModeFlags**:"
+msgstr ""
+
+#: ../classes/class_tree.rst:355
+msgid "**DROP_MODE_DISABLED** = **0** --- 禁用所有放置部分，但仍然允许通过\\ :ref:`get_drop_section_at_position<class_Tree_method_get_drop_section_at_position>`\\ 检测 \"物品上\" 的放置部分。"
+msgstr ""
+
+#: ../classes/class_tree.rst:357
+msgid "\\ **注意：**\\ 这是默认的标志，当与其他标志结合时，它没有效果。"
+msgstr ""
+
+#: ../classes/class_tree.rst:359
+msgid "**DROP_MODE_ON_ITEM** = **1** --- 启用 \"项目上\" 的放置部分。这个放置部分覆盖整个项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:361
+msgid "当与\\ :ref:`DROP_MODE_INBETWEEN<class_Tree_constant_DROP_MODE_INBETWEEN>`\\ 结合使用时，这个放置部分的高度减半，并保持垂直居中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:363
+msgid "**DROP_MODE_INBETWEEN** = **2** --- 启用 \"项目上方\" 和 \"项目下方\" 的放置部分。\"项目上方\" 的放置部分覆盖项目的上半部分，\"项目下方\" 的放置部分覆盖下半部分。"
+msgstr ""
+
+#: ../classes/class_tree.rst:365
+msgid "当与\\ :ref:`DROP_MODE_ON_ITEM<class_Tree_constant_DROP_MODE_ON_ITEM>`\\ 结合时，这些放置部分的高度减半，并相应地停留在顶部或底部。"
+msgstr ""
+
+#: ../classes/class_tree.rst:368
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_tree.rst:372
+msgid ":ref:`bool<class_bool>` **allow_reselect**"
+msgstr ""
+
+#: ../classes/class_tree.rst:375
+#: ../classes/class_tree.rst:391
+#: ../classes/class_tree.rst:407
+#: ../classes/class_tree.rst:423
+#: ../classes/class_tree.rst:439
+#: ../classes/class_tree.rst:457
+#: ../classes/class_tree.rst:473
+#: ../classes/class_tree.rst:489
+#: ../classes/class_tree.rst:721
+#: ../classes/class_tree.rst:733
+#: ../classes/class_tree.rst:745
+#: ../classes/class_tree.rst:757
+#: ../classes/class_tree.rst:769
+#: ../classes/class_tree.rst:781
+#: ../classes/class_tree.rst:793
+#: ../classes/class_tree.rst:805
+#: ../classes/class_tree.rst:817
+#: ../classes/class_tree.rst:829
+#: ../classes/class_tree.rst:841
+#: ../classes/class_tree.rst:853
+#: ../classes/class_tree.rst:865
+#: ../classes/class_tree.rst:877
+#: ../classes/class_tree.rst:889
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_tree.rst:377
+#: ../classes/class_tree.rst:393
+#: ../classes/class_tree.rst:409
+#: ../classes/class_tree.rst:425
+#: ../classes/class_tree.rst:441
+#: ../classes/class_tree.rst:459
+#: ../classes/class_tree.rst:475
+#: ../classes/class_tree.rst:491
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_tree.rst:377
+msgid "set_allow_reselect(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:379
+#: ../classes/class_tree.rst:395
+#: ../classes/class_tree.rst:411
+#: ../classes/class_tree.rst:427
+#: ../classes/class_tree.rst:443
+#: ../classes/class_tree.rst:461
+#: ../classes/class_tree.rst:477
+#: ../classes/class_tree.rst:493
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_tree.rst:379
+msgid "get_allow_reselect()"
+msgstr ""
+
+#: ../classes/class_tree.rst:382
+msgid "如果\\ ``true``\\ ，可以再次选择当前选定的单元。"
+msgstr ""
+
+#: ../classes/class_tree.rst:388
+msgid ":ref:`bool<class_bool>` **allow_rmb_select**"
+msgstr ""
+
+#: ../classes/class_tree.rst:393
+msgid "set_allow_rmb_select(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:395
+msgid "get_allow_rmb_select()"
+msgstr ""
+
+#: ../classes/class_tree.rst:398
+msgid "如果\\ ``true``\\ ，鼠标右键点击可以选择项目。"
+msgstr ""
+
+#: ../classes/class_tree.rst:404
+msgid ":ref:`bool<class_bool>` **column_titles_visible**"
+msgstr ""
+
+#: ../classes/class_tree.rst:409
+msgid "set_column_titles_visible(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:411
+msgid "are_column_titles_visible()"
+msgstr ""
+
+#: ../classes/class_tree.rst:414
+msgid "如果\\ ``true``\\ ，列标题可见。"
+msgstr ""
+
+#: ../classes/class_tree.rst:420
+msgid ":ref:`int<class_int>` **columns**"
+msgstr ""
+
+#: ../classes/class_tree.rst:425
+msgid "set_columns(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:427
+msgid "get_columns()"
+msgstr ""
+
+#: ../classes/class_tree.rst:430
+msgid "列数。"
+msgstr ""
+
+#: ../classes/class_tree.rst:436
+msgid ":ref:`int<class_int>` **drop_mode_flags**"
+msgstr ""
+
+#: ../classes/class_tree.rst:441
+msgid "set_drop_mode_flags(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:443
+msgid "get_drop_mode_flags()"
+msgstr ""
+
+#: ../classes/class_tree.rst:446
+msgid "作为一个标志的OR组合的放置模式。参阅\\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\\ 常量。一旦拖动完成，将恢复到\\ :ref:`DROP_MODE_DISABLED<class_Tree_constant_DROP_MODE_DISABLED>`\\ 。建议在\\ :ref:`Control.can_drop_data<class_Control_method_can_drop_data>`\\ 中设置这个。"
+msgstr ""
+
+#: ../classes/class_tree.rst:448
+msgid "控件放置部分，即根据鼠标位置决定和绘制可能的放置位置。"
+msgstr ""
+
+#: ../classes/class_tree.rst:454
+msgid ":ref:`bool<class_bool>` **hide_folding**"
+msgstr ""
+
+#: ../classes/class_tree.rst:459
+msgid "set_hide_folding(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:461
+msgid "is_folding_hidden()"
+msgstr ""
+
+#: ../classes/class_tree.rst:464
+msgid "如果\\ ``true``\\ ，隐藏折叠箭头。"
+msgstr ""
+
+#: ../classes/class_tree.rst:470
+msgid ":ref:`bool<class_bool>` **hide_root**"
+msgstr ""
+
+#: ../classes/class_tree.rst:475
+msgid "set_hide_root(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:477
+msgid "is_root_hidden()"
+msgstr ""
+
+#: ../classes/class_tree.rst:480
+msgid "如果\\ ``true``\\ ，则隐藏树的根节点。"
+msgstr ""
+
+#: ../classes/class_tree.rst:486
+msgid ":ref:`SelectMode<enum_Tree_SelectMode>` **select_mode**"
+msgstr ""
+
+#: ../classes/class_tree.rst:491
+msgid "set_select_mode(value)"
+msgstr ""
+
+#: ../classes/class_tree.rst:493
+msgid "get_select_mode()"
+msgstr ""
+
+#: ../classes/class_tree.rst:496
+msgid "允许单选或多选。参阅\\ :ref:`SelectMode<enum_Tree_SelectMode>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_tree.rst:499
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_tree.rst:503
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:505
+msgid "清除树。这将删除所有项目。"
+msgstr ""
+
+#: ../classes/class_tree.rst:511
+msgid ":ref:`TreeItem<class_TreeItem>` **create_item** **(** :ref:`Object<class_Object>` parent=null, :ref:`int<class_int>` idx=-1 **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:513
+msgid "在树中创建一个项目，并将其作为\\ ``parent``\\ 的一个子项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:515
+msgid "如果\\ ``parent``\\ 是\\ ``null``\\ ，根项将是父项，如果树是空的，新项将是根本身。"
+msgstr ""
+
+#: ../classes/class_tree.rst:517
+msgid "新项将是父项的\\ ``idx``\\ 个子顶，如果没有足够的兄弟姐妹，它将是最后一个子项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:523
+msgid ":ref:`bool<class_bool>` **edit_selected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:525
+msgid "编辑选中的树项，就像它被点击一样。该项必须通过\\ :ref:`TreeItem.set_editable<class_TreeItem_method_set_editable>`\\ 设置为可编辑。其可被编辑，则返回\\ ``true``\\ 。如果没有项被选中，则失败。"
+msgstr ""
+
+#: ../classes/class_tree.rst:531
+msgid "void **ensure_cursor_is_visible** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:533
+msgid "使当前获得焦点的单元可见。"
+msgstr ""
+
+#: ../classes/class_tree.rst:535
+msgid "如果有必要，将滚动树。在\\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\\ 模式下，不会做水平滚动，因为所选行中的所有单元都按逻辑获得焦点。"
+msgstr ""
+
+#: ../classes/class_tree.rst:537
+msgid "\\ **注意：**\\ 尽管这个方法的名称是这样的，但焦点光标本身只在 :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>` 模式下可见。"
+msgstr ""
+
+#: ../classes/class_tree.rst:543
+msgid ":ref:`int<class_int>` **get_column_at_position** **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:545
+msgid "返回在\\ ``position``\\ 的列索引，如果那里没有项目，则返回-1。"
+msgstr ""
+
+#: ../classes/class_tree.rst:551
+msgid ":ref:`String<class_String>` **get_column_title** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:553
+msgid "返回列的标题。"
+msgstr ""
+
+#: ../classes/class_tree.rst:559
+msgid ":ref:`int<class_int>` **get_column_width** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:561
+msgid "返回列的宽度，单位是像素。"
+msgstr ""
+
+#: ../classes/class_tree.rst:567
+msgid ":ref:`Rect2<class_Rect2>` **get_custom_popup_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:569
+msgid "返回自定义弹出窗口的矩形。帮助创建显示弹出式的自定义单元格控件。参阅\\ :ref:`TreeItem.set_cell_mode<class_TreeItem_method_set_cell_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:575
+msgid ":ref:`int<class_int>` **get_drop_section_at_position** **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:577
+msgid "返回位于\\ ``position``\\ 的放置部分，如果没有项目，则返回-100。"
+msgstr ""
+
+#: ../classes/class_tree.rst:579
+msgid "在 \"项目上方\"、\"项目之上\"和 \"项目下方\"的放置部分将分别返回-1、0或1的值。请参阅\\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\\ 以了解每个放置部分的描述。"
+msgstr ""
+
+#: ../classes/class_tree.rst:581
+msgid "要获得返回的放置部分相对项，请使用\\ :ref:`get_item_at_position<class_Tree_method_get_item_at_position>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:587
+msgid ":ref:`TreeItem<class_TreeItem>` **get_edited** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:589
+msgid "返回当前被编辑的项。可以和\\ :ref:`item_edited<class_Tree_signal_item_edited>`\\ 一起使用，获得被修改的项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:603
+msgid ":ref:`int<class_int>` **get_edited_column** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:605
+msgid "返回当前编辑项的列。"
+msgstr ""
+
+#: ../classes/class_tree.rst:611
+msgid ":ref:`Rect2<class_Rect2>` **get_item_area_rect** **(** :ref:`Object<class_Object>` item, :ref:`int<class_int>` column=-1 **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:613
+msgid "返回指定项目的矩形区域。如果\\ ``column``\\ 被指定，只得到该列的位置和大小，否则得到包含所有列的矩形。"
+msgstr ""
+
+#: ../classes/class_tree.rst:619
+msgid ":ref:`TreeItem<class_TreeItem>` **get_item_at_position** **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:621
+msgid "返回指定位置，即相对于树的原点位置的树中项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:627
+msgid ":ref:`TreeItem<class_TreeItem>` **get_next_selected** **(** :ref:`Object<class_Object>` from **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:629
+msgid "返回指定项后的下一个选择项，如果到达终点则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:631
+msgid "如果\\ ``from``\\ 是\\ ``null``\\ ，将返回第一个被选中的项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:637
+msgid ":ref:`int<class_int>` **get_pressed_button** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:639
+msgid "返回最后按下的按钮的索引。"
+msgstr ""
+
+#: ../classes/class_tree.rst:645
+msgid ":ref:`TreeItem<class_TreeItem>` **get_root** **(** **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:647
+msgid "返回树的根项，如果树是空的，则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:653
+msgid ":ref:`Vector2<class_Vector2>` **get_scroll** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:655
+msgid "返回当前的滚动位置。"
+msgstr ""
+
+#: ../classes/class_tree.rst:661
+msgid ":ref:`TreeItem<class_TreeItem>` **get_selected** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:663
+msgid "返回当前的焦点项，如果没有焦点项，则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:665
+msgid "在\\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\\ 和\\ :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\\ 模式下，焦点项与选择项相同。在\\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\\ 模式下，焦点项是焦点光标下的项目，不一定被选中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:667
+msgid "要获得当前选中项，请使用\\ :ref:`get_next_selected<class_Tree_method_get_next_selected>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:673
+msgid ":ref:`int<class_int>` **get_selected_column** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_tree.rst:675
+msgid "返回当前获得焦点的列，如果没有焦点列，则返回-1。"
+msgstr ""
+
+#: ../classes/class_tree.rst:677
+msgid "在\\ :ref:`SELECT_SINGLE<class_Tree_constant_SELECT_SINGLE>`\\ 模式下，焦点列是被选中的列。在\\ :ref:`SELECT_ROW<class_Tree_constant_SELECT_ROW>`\\ 模式下，如果有任意项被选中，焦点列总是0。在\\ :ref:`SELECT_MULTI<class_Tree_constant_SELECT_MULTI>`\\ 模式下，焦点列是焦点光标下的列，但不一定有列被选中。"
+msgstr ""
+
+#: ../classes/class_tree.rst:679
+msgid "要判断一个项的某一列是否被选中，请使用\\ :ref:`TreeItem.is_selected<class_TreeItem_method_is_selected>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:685
+msgid "void **scroll_to_item** **(** :ref:`Object<class_Object>` item **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:687
+msgid "使 ``Tree`` 跳转到指定的项。"
+msgstr ""
+
+#: ../classes/class_tree.rst:693
+msgid "void **set_column_expand** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` expand **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:695
+msgid "如果 ``true``\\ ，该列将拥有 :ref:`Control<class_Control>` 的“Expand”标志。拥有“Expand”标志的列，将以类似于 :ref:`Control.size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>` 的方式使用其“min_width”最小宽度。"
+msgstr ""
+
+#: ../classes/class_tree.rst:701
+msgid "void **set_column_min_width** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` min_width **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:703
+msgid "设置一个列的最小宽度。拥有“Expand”标志的列将以类似于 :ref:`Control.size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>` 的方式使用其“min_width”最小宽度。"
+msgstr ""
+
+#: ../classes/class_tree.rst:709
+msgid "void **set_column_title** **(** :ref:`int<class_int>` column, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../classes/class_tree.rst:711
+msgid "设置一个列的标题。"
+msgstr ""
+
+#: ../classes/class_tree.rst:714
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_tree.rst:718
+msgid ":ref:`Color<class_Color>` **custom_button_font_highlight**"
+msgstr ""
+
+#: ../classes/class_tree.rst:724
+msgid "当\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 模式的单元格被悬停时的文本\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_tree.rst:730
+msgid ":ref:`Color<class_Color>` **drop_position_color**"
+msgstr ""
+
+#: ../classes/class_tree.rst:736
+msgid "用于绘制可能的放置位置的\\ :ref:`Color<class_Color>`\\ 颜色。有关放置位置的描述，参阅\\ :ref:`DropModeFlags<enum_Tree_DropModeFlags>`\\ 常量。"
+msgstr ""
+
+#: ../classes/class_tree.rst:742
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_tree.rst:748
+msgid "项目的默认文本颜色 :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:754
+msgid ":ref:`Color<class_Color>` **font_color_selected**"
+msgstr ""
+
+#: ../classes/class_tree.rst:760
+msgid "选择项目时使用的文本颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:766
+msgid ":ref:`Color<class_Color>` **guide_color**"
+msgstr ""
+
+#: ../classes/class_tree.rst:772
+msgid "参考线的\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_tree.rst:778
+msgid ":ref:`Color<class_Color>` **relationship_line_color**"
+msgstr ""
+
+#: ../classes/class_tree.rst:784
+msgid "关系线的\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_tree.rst:790
+msgid ":ref:`Color<class_Color>` **title_button_color**"
+msgstr ""
+
+#: ../classes/class_tree.rst:796
+msgid "标题按钮的默认文本\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_tree.rst:802
+msgid ":ref:`int<class_int>` **button_margin**"
+msgstr ""
+
+#: ../classes/class_tree.rst:808
+msgid "一个单元中每个按钮之间的水平空间。"
+msgstr ""
+
+#: ../classes/class_tree.rst:814
+msgid ":ref:`int<class_int>` **draw_guides**"
+msgstr ""
+
+#: ../classes/class_tree.rst:820
+msgid "如果不为零就绘制参考线，这作为一个布尔值。参考线是在每个项的底部画的一条水平线。"
+msgstr ""
+
+#: ../classes/class_tree.rst:826
+msgid ":ref:`int<class_int>` **draw_relationship_lines**"
+msgstr ""
+
+#: ../classes/class_tree.rst:832
+msgid "如果不为零，则绘制关系线，这作为一个布尔值。关系线在子项的开始处绘制，以显示层次结构。"
+msgstr ""
+
+#: ../classes/class_tree.rst:838
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_tree.rst:844
+msgid "项目单元之间的水平空间。这也用作禁用折叠时项目开头的边距。"
+msgstr ""
+
+#: ../classes/class_tree.rst:850
+msgid ":ref:`int<class_int>` **item_margin**"
+msgstr ""
+
+#: ../classes/class_tree.rst:856
+msgid "项目开头的水平边距。在项目启用折叠功能时使用。"
+msgstr ""
+
+#: ../classes/class_tree.rst:862
+msgid ":ref:`int<class_int>` **scroll_border**"
+msgstr ""
+
+#: ../classes/class_tree.rst:868
+msgid "拖动时，鼠标指针与控件边框之间触发边框滚动的最大距离。"
+msgstr ""
+
+#: ../classes/class_tree.rst:874
+msgid ":ref:`int<class_int>` **scroll_speed**"
+msgstr ""
+
+#: ../classes/class_tree.rst:880
+msgid "边框滚动的速度。"
+msgstr ""
+
+#: ../classes/class_tree.rst:886
+msgid ":ref:`int<class_int>` **vseparation**"
+msgstr ""
+
+#: ../classes/class_tree.rst:892
+msgid "每个项内的垂直填充，即项内容与上或下边框之间的距离。"
+msgstr ""
+
+#: ../classes/class_tree.rst:898
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_tree.rst:900
+msgid "项目文本的字体 :ref:`Font<class_Font>` 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:906
+msgid ":ref:`Font<class_Font>` **title_button_font**"
+msgstr ""
+
+#: ../classes/class_tree.rst:908
+msgid "标题按钮文本的\\ :ref:`Font<class_Font>`\\ 字体。"
+msgstr ""
+
+#: ../classes/class_tree.rst:914
+msgid ":ref:`Texture<class_Texture>` **arrow**"
+msgstr ""
+
+#: ../classes/class_tree.rst:916
+msgid "当一个可折叠的项没有被折叠时，使用的箭头图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:922
+msgid ":ref:`Texture<class_Texture>` **arrow_collapsed**"
+msgstr ""
+
+#: ../classes/class_tree.rst:924
+msgid "当一个可折叠的项被折叠时，使用的箭头图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:930
+msgid ":ref:`Texture<class_Texture>` **checked**"
+msgstr ""
+
+#: ../classes/class_tree.rst:932
+msgid "当\\ :ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\\ 模式单元格被选中时，显示的选中图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:938
+msgid ":ref:`Texture<class_Texture>` **select_arrow**"
+msgstr ""
+
+#: ../classes/class_tree.rst:940
+msgid "为\\ :ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\\ 模式单元显示的箭头图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:946
+msgid ":ref:`Texture<class_Texture>` **unchecked**"
+msgstr ""
+
+#: ../classes/class_tree.rst:948
+msgid "当\\ :ref:`TreeItem.CELL_MODE_CHECK<class_TreeItem_constant_CELL_MODE_CHECK>`\\ 模式单元未被选中时，要显示的选中图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:954
+msgid ":ref:`Texture<class_Texture>` **updown**"
+msgstr ""
+
+#: ../classes/class_tree.rst:956
+msgid "为\\ :ref:`TreeItem.CELL_MODE_RANGE<class_TreeItem_constant_CELL_MODE_RANGE>`\\ 模式单元显示的向下箭头图标。"
+msgstr ""
+
+#: ../classes/class_tree.rst:962
+msgid ":ref:`StyleBox<class_StyleBox>` **bg**"
+msgstr ""
+
+#: ../classes/class_tree.rst:964
+msgid "``Tree``\\ 的默认\\ :ref:`StyleBox<class_StyleBox>`\\ ，即在控件没有获得焦点时使用。"
+msgstr ""
+
+#: ../classes/class_tree.rst:970
+msgid ":ref:`StyleBox<class_StyleBox>` **bg_focus**"
+msgstr ""
+
+#: ../classes/class_tree.rst:972
+msgid "当\\ ``Tree``\\ 获得焦点时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:978
+msgid ":ref:`StyleBox<class_StyleBox>` **button_pressed**"
+msgstr ""
+
+#: ../classes/class_tree.rst:980
+msgid "当树中的按钮被按下时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:986
+msgid ":ref:`StyleBox<class_StyleBox>` **cursor**"
+msgstr ""
+
+#: ../classes/class_tree.rst:988
+msgid "当\\ ``Tree``\\ 获得焦点时，用于光标的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:994
+msgid ":ref:`StyleBox<class_StyleBox>` **cursor_unfocused**"
+msgstr ""
+
+#: ../classes/class_tree.rst:996
+msgid "当\\ ``Tree``\\ 未获聚焦时，用于光标的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1002
+msgid ":ref:`StyleBox<class_StyleBox>` **custom_button**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1004
+msgid "为\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 模式的单元格默认的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1010
+msgid ":ref:`StyleBox<class_StyleBox>` **custom_button_hover**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1012
+msgid "当\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 模式的单元格被悬停时的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1018
+msgid ":ref:`StyleBox<class_StyleBox>` **custom_button_pressed**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1020
+msgid "当\\ :ref:`TreeItem.CELL_MODE_CUSTOM<class_TreeItem_constant_CELL_MODE_CUSTOM>`\\ 模式的单元格被按下时的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1026
+msgid ":ref:`StyleBox<class_StyleBox>` **selected**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1028
+msgid "所选项的\\ :ref:`StyleBox<class_StyleBox>`\\ ，当\\ ``Tree``\\ 没有获得焦点时使用。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1034
+msgid ":ref:`StyleBox<class_StyleBox>` **selected_focus**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1036
+msgid "所选项目的\\ :ref:`StyleBox<class_StyleBox>`\\ ，在\\ ``Tree``\\ 获得焦点时使用。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1042
+msgid ":ref:`StyleBox<class_StyleBox>` **title_button_hover**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1044
+msgid "当标题按钮被悬停时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1050
+msgid ":ref:`StyleBox<class_StyleBox>` **title_button_normal**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1052
+msgid "标题按钮的默认\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_tree.rst:1058
+msgid ":ref:`StyleBox<class_StyleBox>` **title_button_pressed**"
+msgstr ""
+
+#: ../classes/class_tree.rst:1060
+msgid "当标题按钮被按下时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,552 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_vehiclewheel.rst:10
+msgid "VehicleWheel"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:14
+msgid "模拟车轮行为的物理对象。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:19
+msgid "此节点需要作为\\ :ref:`VehicleBody<class_VehicleBody>`\\ 的子节点使用，并模拟其车轮的行为。其节点也作为碰撞器来检测车轮是否接触到表面。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:21
+msgid "\\ **注意：** 这个类有已知的问题，并不是为了提供真实的三维车辆物理而设计的。如果你想要先进的车辆物理，须使用另一个\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 类来编写你自己的物理集成。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:26
+msgid "`3D Truck Town Demo <https://godotengine.org/asset-library/asset/524>`__"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:32
+#: ../classes/class_vehiclewheel.rst:34
+#: ../classes/class_vehiclewheel.rst:36
+#: ../classes/class_vehiclewheel.rst:38
+#: ../classes/class_vehiclewheel.rst:40
+#: ../classes/class_vehiclewheel.rst:42
+#: ../classes/class_vehiclewheel.rst:44
+#: ../classes/class_vehiclewheel.rst:46
+#: ../classes/class_vehiclewheel.rst:52
+#: ../classes/class_vehiclewheel.rst:54
+#: ../classes/class_vehiclewheel.rst:56
+#: ../classes/class_vehiclewheel.rst:58
+#: ../classes/class_vehiclewheel.rst:67
+#: ../classes/class_vehiclewheel.rst:69
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:32
+msgid ":ref:`brake<class_VehicleWheel_property_brake>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:32
+#: ../classes/class_vehiclewheel.rst:38
+#: ../classes/class_vehiclewheel.rst:40
+#: ../classes/class_vehiclewheel.rst:82
+#: ../classes/class_vehiclewheel.rst:130
+#: ../classes/class_vehiclewheel.rst:150
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:34
+msgid ":ref:`damping_compression<class_VehicleWheel_property_damping_compression>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:34
+#: ../classes/class_vehiclewheel.rst:98
+msgid "``0.83``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:36
+msgid ":ref:`damping_relaxation<class_VehicleWheel_property_damping_relaxation>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:36
+#: ../classes/class_vehiclewheel.rst:114
+msgid "``0.88``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:38
+msgid ":ref:`engine_force<class_VehicleWheel_property_engine_force>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:40
+msgid ":ref:`steering<class_VehicleWheel_property_steering>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:42
+msgid ":ref:`suspension_max_force<class_VehicleWheel_property_suspension_max_force>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:42
+#: ../classes/class_vehiclewheel.rst:166
+msgid "``6000.0``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:44
+msgid ":ref:`suspension_stiffness<class_VehicleWheel_property_suspension_stiffness>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:44
+#: ../classes/class_vehiclewheel.rst:182
+msgid "``5.88``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:46
+msgid ":ref:`suspension_travel<class_VehicleWheel_property_suspension_travel>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:46
+#: ../classes/class_vehiclewheel.rst:198
+msgid "``5.0``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:48
+#: ../classes/class_vehiclewheel.rst:50
+#: ../classes/class_vehiclewheel.rst:71
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:48
+msgid ":ref:`use_as_steering<class_VehicleWheel_property_use_as_steering>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:48
+#: ../classes/class_vehiclewheel.rst:50
+#: ../classes/class_vehiclewheel.rst:214
+#: ../classes/class_vehiclewheel.rst:230
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:50
+msgid ":ref:`use_as_traction<class_VehicleWheel_property_use_as_traction>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:52
+msgid ":ref:`wheel_friction_slip<class_VehicleWheel_property_wheel_friction_slip>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:52
+#: ../classes/class_vehiclewheel.rst:246
+msgid "``10.5``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:54
+msgid ":ref:`wheel_radius<class_VehicleWheel_property_wheel_radius>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:54
+#: ../classes/class_vehiclewheel.rst:264
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:56
+msgid ":ref:`wheel_rest_length<class_VehicleWheel_property_wheel_rest_length>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:56
+#: ../classes/class_vehiclewheel.rst:280
+msgid "``0.15``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:58
+msgid ":ref:`wheel_roll_influence<class_VehicleWheel_property_wheel_roll_influence>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:58
+#: ../classes/class_vehiclewheel.rst:296
+msgid "``0.1``"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:62
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:65
+msgid ":ref:`Spatial<class_Spatial>`"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:65
+msgid ":ref:`get_contact_body<class_VehicleWheel_method_get_contact_body>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:67
+msgid ":ref:`get_rpm<class_VehicleWheel_method_get_rpm>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:69
+msgid ":ref:`get_skidinfo<class_VehicleWheel_method_get_skidinfo>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:71
+msgid ":ref:`is_in_contact<class_VehicleWheel_method_is_in_contact>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:75
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:79
+msgid ":ref:`float<class_float>` **brake**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:82
+#: ../classes/class_vehiclewheel.rst:98
+#: ../classes/class_vehiclewheel.rst:114
+#: ../classes/class_vehiclewheel.rst:130
+#: ../classes/class_vehiclewheel.rst:150
+#: ../classes/class_vehiclewheel.rst:166
+#: ../classes/class_vehiclewheel.rst:182
+#: ../classes/class_vehiclewheel.rst:198
+#: ../classes/class_vehiclewheel.rst:214
+#: ../classes/class_vehiclewheel.rst:230
+#: ../classes/class_vehiclewheel.rst:246
+#: ../classes/class_vehiclewheel.rst:264
+#: ../classes/class_vehiclewheel.rst:280
+#: ../classes/class_vehiclewheel.rst:296
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:84
+#: ../classes/class_vehiclewheel.rst:100
+#: ../classes/class_vehiclewheel.rst:116
+#: ../classes/class_vehiclewheel.rst:132
+#: ../classes/class_vehiclewheel.rst:152
+#: ../classes/class_vehiclewheel.rst:168
+#: ../classes/class_vehiclewheel.rst:184
+#: ../classes/class_vehiclewheel.rst:200
+#: ../classes/class_vehiclewheel.rst:216
+#: ../classes/class_vehiclewheel.rst:232
+#: ../classes/class_vehiclewheel.rst:248
+#: ../classes/class_vehiclewheel.rst:266
+#: ../classes/class_vehiclewheel.rst:282
+#: ../classes/class_vehiclewheel.rst:298
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:84
+msgid "set_brake(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:86
+#: ../classes/class_vehiclewheel.rst:102
+#: ../classes/class_vehiclewheel.rst:118
+#: ../classes/class_vehiclewheel.rst:134
+#: ../classes/class_vehiclewheel.rst:154
+#: ../classes/class_vehiclewheel.rst:170
+#: ../classes/class_vehiclewheel.rst:186
+#: ../classes/class_vehiclewheel.rst:202
+#: ../classes/class_vehiclewheel.rst:218
+#: ../classes/class_vehiclewheel.rst:234
+#: ../classes/class_vehiclewheel.rst:250
+#: ../classes/class_vehiclewheel.rst:268
+#: ../classes/class_vehiclewheel.rst:284
+#: ../classes/class_vehiclewheel.rst:300
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:86
+msgid "get_brake()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:89
+msgid "通过施加制动力使车轮减速。只有当车轮与表面接触时，它才会减速。你需要施加多大的力来使车辆充分减速，取决于车辆的\\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`\\ 。对于质量设置为1000的车辆，尝试在25-30的范围内进行硬制动。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:95
+msgid ":ref:`float<class_float>` **damping_compression**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:100
+msgid "set_damping_compression(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:102
+msgid "get_damping_compression()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:105
+msgid "当弹簧被压缩时，应用在弹簧上的阻尼。这个值应该在0.0（无阻尼）和1.0之间。0.0的值意味着汽车将持续弹跳，因为弹簧将保持其能量。一个好的值是，普通汽车0.3左右，赛车0.5左右。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:111
+msgid ":ref:`float<class_float>` **damping_relaxation**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:116
+msgid "set_damping_relaxation(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:118
+msgid "get_damping_relaxation()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:121
+msgid "放松时施加在弹簧上的阻尼。这个值应该在0.0（无阻尼）和1.0之间。这个值应该总是比 :ref:`damping_compression<class_VehicleWheel_property_damping_compression>` 属性稍高。对于 :ref:`damping_compression<class_VehicleWheel_property_damping_compression>` 值0.3，尝试放松值为0.5。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:127
+msgid ":ref:`float<class_float>` **engine_force**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:132
+msgid "set_engine_force(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:134
+msgid "get_engine_force()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:137
+msgid "通过施加引擎力使车轮加速。车轮只有在与表面接触时才会加速。车辆的\\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`\\ 对车辆的加速度有影响。对于质量设置为1000的车辆，尝试在25-50范围内的加速度值。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:139
+msgid "\\ **注意：**\\ 模拟不考虑齿轮的影响，如果你想模拟齿轮，将需要为其添加逻辑。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:141
+msgid "负值将导致车轮倒转。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:147
+msgid ":ref:`float<class_float>` **steering**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:152
+msgid "set_steering(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:154
+msgid "get_steering()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:157
+msgid "车轮的转向角。将此设置为非零值将导致车辆在移动时转向。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:163
+msgid ":ref:`float<class_float>` **suspension_max_force**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:168
+msgid "set_suspension_max_force(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:170
+msgid "get_suspension_max_force()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:173
+msgid "弹簧所能抵抗的最大力。此值应该高于\\ :ref:`VehicleBody<class_VehicleBody>`\\ 的\\ :ref:`RigidBody.mass<class_RigidBody_property_mass>`\\ 的四分之一，否则弹簧将无法承载车辆的重量。通常由大约3×到4×这个数字的值，以获得良好的效果。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:179
+msgid ":ref:`float<class_float>` **suspension_stiffness**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:184
+msgid "set_suspension_stiffness(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:186
+msgid "get_suspension_stiffness()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:189
+msgid "这个值定义了悬架的刚度。越野车使用低于50的值，赛车使用50至100的值，像一级方程式赛车则尝试200左右的值。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:195
+msgid ":ref:`float<class_float>` **suspension_travel**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:200
+msgid "set_suspension_travel(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:202
+msgid "get_suspension_travel()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:205
+msgid "这是悬架可以移动的距离。由于GaaeExplorer 的单位相当于米，所以保持这个设置相对较低。根据汽车的类型，试试0.1和0.3之间的值。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:211
+msgid ":ref:`bool<class_bool>` **use_as_steering**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:216
+msgid "set_use_as_steering(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:218
+msgid "is_used_as_steering()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:221
+msgid "如果\\ ``true``\\ ，当汽车转向时，其轮子将被转动。此值和\\ :ref:`VehicleBody.steering<class_VehicleBody_property_steering>`\\ 一起使用，如果使用每个轮子的\\ :ref:`steering<class_VehicleWheel_property_steering>`\\ 值来代替，则会被忽略。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:227
+msgid ":ref:`bool<class_bool>` **use_as_traction**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:232
+msgid "set_use_as_traction(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:234
+msgid "is_used_as_traction()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:237
+msgid "如果\\ ``true``\\ ，此轮子将引擎力传递给地面，推动车辆前进。此值和\\ :ref:`VehicleBody.engine_force<class_VehicleBody_property_engine_force>`\\ 一起使用，如果使用每个轮子的\\ :ref:`engine_force<class_VehicleWheel_property_engine_force>`\\ 值，则忽略该值。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:243
+msgid ":ref:`float<class_float>` **wheel_friction_slip**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:248
+msgid "set_friction_slip(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:250
+msgid "get_friction_slip()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:253
+msgid "这决定了这个轮子的抓地力有多大。它与车轮所接触的表面的摩擦力设置相结合。0.0意味着没有抓地力，1.0是正常抓地力。对于漂移车的设置，尝试将后轮的抓地力设置得比前轮略低，或者使用较低的数值来模拟轮胎的磨损。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:255
+msgid "在开始时最好将其设置为1.0。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:261
+msgid ":ref:`float<class_float>` **wheel_radius**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:266
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:268
+msgid "get_radius()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:271
+msgid "轮子的半径，单位是米。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:277
+msgid ":ref:`float<class_float>` **wheel_rest_length**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:282
+msgid "set_suspension_rest_length(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:284
+msgid "get_suspension_rest_length()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:287
+msgid "这是轮子从原点下降的距离，以米为单位。不要把这个设置为0.0，然后把车轮移到位置上，而是把车轮的原点（GaaeExplorer中的Gizmo）移到车轮触底时的位置，然后使用剩余长度将轮子向下移动到汽车静止时它应该所处位置。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:293
+msgid ":ref:`float<class_float>` **wheel_roll_influence**"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:298
+msgid "set_roll_influence(value)"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:300
+msgid "get_roll_influence()"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:303
+msgid "这个值会影响车辆的滚动。如果所有车轮都设置为1.0，车辆将容易翻车，而0.0的值将阻止车身侧倾。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:306
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:310
+msgid ":ref:`Spatial<class_Spatial>` **get_contact_body** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:312
+msgid "Returns the contacting body node if valid in the tree, as :ref:`Spatial<class_Spatial>`. At the moment, :ref:`GridMap<class_GridMap>` is not supported so the node will be always of type :ref:`PhysicsBody<class_PhysicsBody>`."
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:314
+msgid "Returns ``null`` if the wheel is not in contact with a surface, or the contact body is not a :ref:`PhysicsBody<class_PhysicsBody>`."
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:320
+msgid ":ref:`float<class_float>` **get_rpm** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:322
+msgid "返回轮子的旋转速度，单位为每分钟转数。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:328
+msgid ":ref:`float<class_float>` **get_skidinfo** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:330
+msgid "返回一个介于0.0和1.0之间的值，表示这个轮子是否打滑。0.0表示打滑，即车轮失去了抓地力，例如冰雪地形，1.0表示不打滑，即车轮有充分的抓地力，例如干燥的沥青路。"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:336
+msgid ":ref:`bool<class_bool>` **is_in_contact** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_vehiclewheel.rst:338
+msgid "如果轮子与表面接触，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_pckpacker.rst:10
+msgid "PCKPacker"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:14
+msgid "创建可以加载到正在运行的项目中的包。"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:19
+msgid "``PCKPacker``\\ 用于创建可以通过\\ :ref:`ProjectSettings.load_resource_pack<class_ProjectSettings_method_load_resource_pack>`\\ 加载到正在运行的项目中的包。"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:28
+msgid "上面的\\ ``PCKPacker``\\ 创建包\\ ``test.pck``\\ ，然后在包的根目录中添加一个名为\\ ``text.txt``\\ 的文件。"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:34
+#: ../classes/class_pckpacker.rst:36
+#: ../classes/class_pckpacker.rst:38
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:34
+msgid ":ref:`add_file<class_PCKPacker_method_add_file>` **(** :ref:`String<class_String>` pck_path, :ref:`String<class_String>` source_path **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:36
+msgid ":ref:`flush<class_PCKPacker_method_flush>` **(** :ref:`bool<class_bool>` verbose=false **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:38
+msgid ":ref:`pck_start<class_PCKPacker_method_pck_start>` **(** :ref:`String<class_String>` pck_name, :ref:`int<class_int>` alignment=0 **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:42
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:46
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **add_file** **(** :ref:`String<class_String>` pck_path, :ref:`String<class_String>` source_path **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:48
+msgid "将\\ ``source_path``\\ 文件添加到当前PCK包的\\ ``pck_path``\\ 内部路径(应该以\\ ``res://``\\ 开始)。"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:54
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **flush** **(** :ref:`bool<class_bool>` verbose=false **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:56
+msgid "自上次刷新以来，使用所有\\ :ref:`add_file<class_PCKPacker_method_add_file>`\\ 调用写入指定的文件。如果\\ ``verbose``\\ 为\\ ``true``\\ ，添加的文件列表将被打印到控制台，以便于调试。"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:62
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **pck_start** **(** :ref:`String<class_String>` pck_name, :ref:`int<class_int>` alignment=0 **)**"
+msgstr ""
+
+#: ../classes/class_pckpacker.rst:64
+msgid "创建一个名为\\ ``pck_name``\\ 的新PCK文件。\\ ``.Pck``\\ 文件扩展名不会自动添加，所以它应该是\\ ``pck_name``\\ 的一部分(即使它不是必需的)。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

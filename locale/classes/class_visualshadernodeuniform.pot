@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualshadernodeuniform.rst:10
+msgid "VisualShaderNodeUniform"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:14
+msgid "**Inherited By:** :ref:`VisualShaderNodeBooleanUniform<class_VisualShaderNodeBooleanUniform>`, :ref:`VisualShaderNodeColorUniform<class_VisualShaderNodeColorUniform>`, :ref:`VisualShaderNodeScalarUniform<class_VisualShaderNodeScalarUniform>`, :ref:`VisualShaderNodeTextureUniform<class_VisualShaderNodeTextureUniform>`, :ref:`VisualShaderNodeTransformUniform<class_VisualShaderNodeTransformUniform>`, :ref:`VisualShaderNodeVec3Uniform<class_VisualShaderNodeVec3Uniform>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:16
+msgid "可视化着色器图中的uniforms的基本类型。"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:21
+msgid "uniform表示着色器中的一个变量，它是由外部设置的，即从\\ :ref:`ShaderMaterial<class_ShaderMaterial>`\\ 中设置。uniform在\\ :ref:`ShaderMaterial<class_ShaderMaterial>`\\ 中被暴露为属性，可以从检查器或脚本中分配。"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:27
+msgid ":ref:`uniform_name<class_VisualShaderNodeUniform_property_uniform_name>`"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:27
+#: ../classes/class_visualshadernodeuniform.rst:38
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:35
+msgid ":ref:`String<class_String>` **uniform_name**"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:38
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:40
+msgid "set_uniform_name(value)"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:42
+msgid "get_uniform_name()"
+msgstr ""
+
+#: ../classes/class_visualshadernodeuniform.rst:45
+msgid "uniform的名称，可以通过\\ :ref:`ShaderMaterial<class_ShaderMaterial>`\\ 属性访问它。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

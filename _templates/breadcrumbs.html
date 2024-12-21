@@ -1,0 +1,22 @@
+{%- extends "sphinx_rtd_theme/breadcrumbs.html" %}
+
+{% block breadcrumbs_aside %}
+{% if not meta or meta.get('github_url') != 'hide' %}
+{{ super() }}
+
+<style>
+	.godot-edit-guidelines {
+		font-size: 14px;
+		float: right;
+		clear: both;
+	}
+
+	@media screen and (max-width: 480px) {
+		.godot-edit-guidelines {
+			display: none;
+		}
+	}
+</style>
+
+{% endif %}
+{% endblock %}

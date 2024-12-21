@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_ExcavationManager.rst:2
+#: ../classAPI/class_ExcavationManager.rst:16
+msgid "ExcavationManager"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:16
+msgid "Instance"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:18
+#: ../classAPI/class_ExcavationManager.rst:22
+msgid "Single"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:18
+msgid "ExposureLength"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:20
+#: ../classAPI/class_ExcavationManager.rst:26
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:20
+msgid "NeedFence"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:22
+msgid "FenceHeight"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:24
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:24
+msgid "FenceColor"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:26
+msgid "IsProfileAnalysis"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:28
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:28
+msgid "UpdateFlag"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:32
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:35
+#: ../classAPI/class_ExcavationManager.rst:37
+#: ../classAPI/class_ExcavationManager.rst:39
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:35
+msgid "Clear()"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:37
+msgid "AddItem(HoleItem item,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:39
+msgid "RemoveItem(HoleItem item,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:41
+#: ../classAPI/class_ExcavationManager.rst:43
+msgid "HoleItem"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:41
+msgid "GetItem(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:43
+msgid "CreateItem(Vector3[] poly,Single distance,Double depth,Single meterOfUV,Boolean needNormalTexture,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:47
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:49
+msgid "ExcavationManager Instance"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:52
+#: ../classAPI/class_ExcavationManager.rst:63
+#: ../classAPI/class_ExcavationManager.rst:74
+#: ../classAPI/class_ExcavationManager.rst:85
+#: ../classAPI/class_ExcavationManager.rst:96
+#: ../classAPI/class_ExcavationManager.rst:107
+#: ../classAPI/class_ExcavationManager.rst:118
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:60
+msgid "Single ExposureLength"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:71
+msgid "Boolean NeedFence"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:82
+msgid "Single FenceHeight"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:93
+msgid "Color FenceColor"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:104
+msgid "Boolean IsProfileAnalysis"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:115
+msgid "Int32 UpdateFlag"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:128
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:130
+msgid "Void Clear()"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:136
+msgid "Void AddItem(HoleItem item,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:142
+msgid "Void RemoveItem(HoleItem item,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:148
+msgid "HoleItem GetItem(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/class_ExcavationManager.rst:154
+msgid "HoleItem CreateItem(Vector3[] poly,Single distance,Double depth,Single meterOfUV,Boolean needNormalTexture,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

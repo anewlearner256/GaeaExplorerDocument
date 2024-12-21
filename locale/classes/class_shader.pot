@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_shader.rst:10
+msgid "Shader"
+msgstr ""
+
+#: ../classes/class_shader.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:14
+msgid "**Inherited By:** :ref:`VisualShader<class_VisualShader>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:16
+msgid "自定义着色器程序。"
+msgstr ""
+
+#: ../classes/class_shader.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_shader.rst:21
+msgid "此类允许您定义一个 :ref:`ShaderMaterial<class_ShaderMaterial>` 可以使用的自定义着色器程序。着色器允许您编写自己的自定义行为来渲染对象或更新粒子信息。有关详细说明和用法，请参阅下面链接的教程。"
+msgstr ""
+
+#: ../classes/class_shader.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_shader.rst:26
+msgid ":doc:`../tutorials/shaders/index`"
+msgstr ""
+
+#: ../classes/class_shader.rst:28
+msgid ":doc:`../tutorials/shaders/introduction_to_shaders`"
+msgstr ""
+
+#: ../classes/class_shader.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_shader.rst:34
+#: ../classes/class_shader.rst:36
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:34
+msgid ":ref:`code<class_Shader_property_code>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:34
+#: ../classes/class_shader.rst:36
+#: ../classes/class_shader.rst:79
+#: ../classes/class_shader.rst:95
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_shader.rst:36
+msgid ":ref:`custom_defines<class_Shader_property_custom_defines>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:40
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_shader.rst:43
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:43
+msgid ":ref:`get_default_texture_param<class_Shader_method_get_default_texture_param>` **(** :ref:`String<class_String>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:45
+msgid ":ref:`Mode<enum_Shader_Mode>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:45
+msgid ":ref:`get_mode<class_Shader_method_get_mode>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_shader.rst:47
+msgid ":ref:`has_param<class_Shader_method_has_param>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:49
+msgid "void"
+msgstr ""
+
+#: ../classes/class_shader.rst:49
+msgid ":ref:`set_default_texture_param<class_Shader_method_set_default_texture_param>` **(** :ref:`String<class_String>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_shader.rst:53
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_shader.rst:63
+msgid "enum **Mode**:"
+msgstr ""
+
+#: ../classes/class_shader.rst:65
+msgid "**MODE_SPATIAL** = **0** --- 用于绘制所有 3D 对象的模式。"
+msgstr ""
+
+#: ../classes/class_shader.rst:67
+msgid "**MODE_CANVAS_ITEM** = **1** --- 用于绘制所有 2D 对象的模式。"
+msgstr ""
+
+#: ../classes/class_shader.rst:69
+msgid "**MODE_PARTICLES** = **2** --- 用于基于每个粒子计算粒子信息的模式。不用于绘图。"
+msgstr ""
+
+#: ../classes/class_shader.rst:72
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_shader.rst:76
+msgid ":ref:`String<class_String>` **code**"
+msgstr ""
+
+#: ../classes/class_shader.rst:79
+#: ../classes/class_shader.rst:95
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_shader.rst:81
+#: ../classes/class_shader.rst:97
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_shader.rst:81
+msgid "set_code(value)"
+msgstr ""
+
+#: ../classes/class_shader.rst:83
+#: ../classes/class_shader.rst:99
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_shader.rst:83
+msgid "get_code()"
+msgstr ""
+
+#: ../classes/class_shader.rst:86
+msgid "返回用户编写的着色器代码，而不是内部使用的完整生成代码。"
+msgstr ""
+
+#: ../classes/class_shader.rst:92
+msgid ":ref:`String<class_String>` **custom_defines**"
+msgstr ""
+
+#: ../classes/class_shader.rst:97
+msgid "set_custom_defines(value)"
+msgstr ""
+
+#: ../classes/class_shader.rst:99
+msgid "get_custom_defines()"
+msgstr ""
+
+#: ../classes/class_shader.rst:102
+msgid "返回该着色器的自定义。自定义可以在GaaeExplorer中用于添加着色器逻辑所需的GLSL预处理指令（例如：扩展）。"
+msgstr ""
+
+#: ../classes/class_shader.rst:104
+msgid "\\ **注意：** 自定义没有经过GaaeExplorer着色器解析器的验证，所以使用时要注意。"
+msgstr ""
+
+#: ../classes/class_shader.rst:107
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_shader.rst:111
+msgid ":ref:`Texture<class_Texture>` **get_default_texture_param** **(** :ref:`String<class_String>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:113
+msgid "返回被设置为指定参数的默认纹理。"
+msgstr ""
+
+#: ../classes/class_shader.rst:115
+msgid "\\ **注意：** ``param``\\ 必须与代码中的uniform名称完全匹配。"
+msgstr ""
+
+#: ../classes/class_shader.rst:121
+msgid ":ref:`Mode<enum_Shader_Mode>` **get_mode** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:123
+msgid "返回着色器的着色器模式，\\ :ref:`MODE_CANVAS_ITEM<class_Shader_constant_MODE_CANVAS_ITEM>`\\ 、\\ :ref:`MODE_SPATIAL<class_Shader_constant_MODE_SPATIAL>` 或 :ref:`MODE_PARTICLES<class_Shader_constant_MODE_PARTICLES>`\\ 。"
+msgstr ""
+
+#: ../classes/class_shader.rst:129
+msgid ":ref:`bool<class_bool>` **has_param** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_shader.rst:131
+msgid "如果着色器在其代码中把这个参数定义为uniform，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_shader.rst:133
+msgid "\\ **注意：** ``param`` 必须与代码中的uniform名称完全匹配。"
+msgstr ""
+
+#: ../classes/class_shader.rst:139
+msgid "void **set_default_texture_param** **(** :ref:`String<class_String>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_shader.rst:141
+msgid "设置默认纹理，以用于纹理 uniform。如果 :ref:`ShaderMaterial<class_ShaderMaterial>` 中没有设置纹理，则使用默认值。"
+msgstr ""
+
+#: ../classes/class_shader.rst:143
+msgid "\\ **注意：**\\ ``param`` 必须与代码中的 uniform 名称完全匹配。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

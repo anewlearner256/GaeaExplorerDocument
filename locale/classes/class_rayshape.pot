@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_rayshape.rst:10
+msgid "RayShape"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:12
+msgid "**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:14
+msgid "用于 3D 碰撞的射线形状。"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:19
+msgid "用于3D碰撞的射线形状，它可以被设置成一个\\ :ref:`PhysicsBody<class_PhysicsBody>`\\ 或\\ :ref:`Area<class_Area>`\\ 。一条射线并不是真正的碰撞体；然而，它试图将自己与其远端点接触的东西分开。这通常对角色很有用。"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:25
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:25
+msgid ":ref:`length<class_RayShape_property_length>`"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:25
+#: ../classes/class_rayshape.rst:38
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:27
+msgid ":ref:`slips_on_slope<class_RayShape_property_slips_on_slope>`"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:27
+#: ../classes/class_rayshape.rst:54
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:35
+msgid ":ref:`float<class_float>` **length**"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:38
+#: ../classes/class_rayshape.rst:54
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:40
+#: ../classes/class_rayshape.rst:56
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:40
+msgid "set_length(value)"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:42
+#: ../classes/class_rayshape.rst:58
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:42
+msgid "get_length()"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:45
+msgid "射线的长度。"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:51
+msgid ":ref:`bool<class_bool>` **slips_on_slope**"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:56
+msgid "set_slips_on_slope(value)"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:58
+msgid "get_slips_on_slope()"
+msgstr ""
+
+#: ../classes/class_rayshape.rst:61
+msgid "如果 ``true``\\ ，则允许形状返回正确的法线。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

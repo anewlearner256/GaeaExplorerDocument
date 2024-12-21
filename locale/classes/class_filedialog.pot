@@ -1,0 +1,629 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_filedialog.rst:10
+msgid "FileDialog"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:12
+msgid "**Inherits:** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:14
+msgid "用于选择文件系统中的文件或目录的对话框。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:19
+msgid "FileDialog 是用于在文件系统中选择文件和目录的预设对话框。它支持过滤器掩码。文件对话框会根据 :ref:`mode<class_FileDialog_property_mode>` 自动设置其窗口标题。如果您要使用自定义标题，请将 :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` 设置为 ``false`` 来禁用此标题。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:25
+msgid ":ref:`Access<enum_FileDialog_Access>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:25
+msgid ":ref:`access<class_FileDialog_property_access>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:25
+#: ../classes/class_filedialog.rst:162
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:27
+#: ../classes/class_filedialog.rst:29
+#: ../classes/class_filedialog.rst:31
+#: ../classes/class_filedialog.rst:43
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:27
+msgid ":ref:`current_dir<class_FileDialog_property_current_dir>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:27
+#: ../classes/class_filedialog.rst:31
+#: ../classes/class_filedialog.rst:180
+#: ../classes/class_filedialog.rst:212
+msgid "``\"res://\"``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:29
+msgid ":ref:`current_file<class_FileDialog_property_current_file>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:29
+#: ../classes/class_filedialog.rst:196
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:31
+msgid ":ref:`current_path<class_FileDialog_property_current_path>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:33
+#: ../classes/class_filedialog.rst:39
+#: ../classes/class_filedialog.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:33
+msgid "dialog_hide_on_ok"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:33
+msgid "``false`` (overrides :ref:`AcceptDialog<class_AcceptDialog_property_dialog_hide_on_ok>`)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:35
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:35
+msgid ":ref:`filters<class_FileDialog_property_filters>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:35
+#: ../classes/class_filedialog.rst:228
+msgid "``PoolStringArray(  )``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:37
+msgid ":ref:`Mode<enum_FileDialog_Mode>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:37
+msgid ":ref:`mode<class_FileDialog_property_mode>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:37
+#: ../classes/class_filedialog.rst:244
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:39
+msgid ":ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:39
+#: ../classes/class_filedialog.rst:260
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:41
+msgid ":ref:`show_hidden_files<class_FileDialog_property_show_hidden_files>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:41
+#: ../classes/class_filedialog.rst:276
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:43
+msgid "window_title"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:43
+msgid "``\"Save a File\"`` (overrides :ref:`WindowDialog<class_WindowDialog_property_window_title>`)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:47
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:50
+#: ../classes/class_filedialog.rst:52
+#: ../classes/class_filedialog.rst:54
+#: ../classes/class_filedialog.rst:60
+msgid "void"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:50
+msgid ":ref:`add_filter<class_FileDialog_method_add_filter>` **(** :ref:`String<class_String>` filter **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:52
+msgid ":ref:`clear_filters<class_FileDialog_method_clear_filters>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:54
+msgid ":ref:`deselect_items<class_FileDialog_method_deselect_items>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:56
+msgid ":ref:`LineEdit<class_LineEdit>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:56
+msgid ":ref:`get_line_edit<class_FileDialog_method_get_line_edit>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:58
+msgid ":ref:`VBoxContainer<class_VBoxContainer>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:58
+msgid ":ref:`get_vbox<class_FileDialog_method_get_vbox>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:60
+msgid ":ref:`invalidate<class_FileDialog_method_invalidate>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:64
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:67
+#: ../classes/class_filedialog.rst:69
+#: ../classes/class_filedialog.rst:71
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:67
+msgid ":ref:`file_icon_modulate<class_FileDialog_theme_color_file_icon_modulate>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:67
+#: ../classes/class_filedialog.rst:71
+#: ../classes/class_filedialog.rst:346
+#: ../classes/class_filedialog.rst:370
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:69
+msgid ":ref:`files_disabled<class_FileDialog_theme_color_files_disabled>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:69
+#: ../classes/class_filedialog.rst:358
+msgid "``Color( 0, 0, 0, 0.7 )``"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:71
+msgid ":ref:`folder_icon_modulate<class_FileDialog_theme_color_folder_icon_modulate>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:73
+#: ../classes/class_filedialog.rst:75
+#: ../classes/class_filedialog.rst:77
+#: ../classes/class_filedialog.rst:79
+#: ../classes/class_filedialog.rst:81
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:73
+msgid ":ref:`file<class_FileDialog_theme_icon_file>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:75
+msgid ":ref:`folder<class_FileDialog_theme_icon_folder>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:77
+msgid ":ref:`parent_folder<class_FileDialog_theme_icon_parent_folder>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:79
+msgid ":ref:`reload<class_FileDialog_theme_icon_reload>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:81
+msgid ":ref:`toggle_hidden<class_FileDialog_theme_icon_toggle_hidden>`"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:85
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:89
+msgid "**dir_selected** **(** :ref:`String<class_String>` dir **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:91
+msgid "当用户选择一个目录时触发的。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:97
+msgid "**file_selected** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:99
+msgid "当用户通过双击文件或按\\ **确定**\\ 按钮选择一个文件时触发。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:105
+msgid "**files_selected** **(** :ref:`PoolStringArray<class_PoolStringArray>` paths **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:107
+msgid "当用户选择多个文件时触发。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:110
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:124
+msgid "enum **Mode**:"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:126
+msgid "**MODE_OPEN_FILE** = **0** --- 该对话框只允许选择一个文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:128
+msgid "**MODE_OPEN_FILES** = **1** --- 该对话框允许选择多个文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:130
+msgid "**MODE_OPEN_DIR** = **2** --- 该对话框只允许选择一个目录，不允许选择任何文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:132
+msgid "**MODE_OPEN_ANY** = **3** --- 该对话框允许选择一个文件或目录。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:134
+msgid "**MODE_SAVE_FILE** = **4** --- 当文件存在时，对话框会发出警告。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:146
+msgid "enum **Access**:"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:148
+msgid "**ACCESS_RESOURCES** = **0** --- 该对话框只允许访问\\ :ref:`Resource<class_Resource>`\\ 路径下的文件（\\ ``res://``\\ ）。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:150
+msgid "**ACCESS_USERDATA** = **1** --- 该对话框只允许访问用户数据路径（\\ ``user://``\\ ）下的文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:152
+msgid "**ACCESS_FILESYSTEM** = **2** --- 该对话框允许访问文件系统上的文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:155
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:159
+msgid ":ref:`Access<enum_FileDialog_Access>` **access**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:162
+#: ../classes/class_filedialog.rst:180
+#: ../classes/class_filedialog.rst:196
+#: ../classes/class_filedialog.rst:212
+#: ../classes/class_filedialog.rst:228
+#: ../classes/class_filedialog.rst:244
+#: ../classes/class_filedialog.rst:260
+#: ../classes/class_filedialog.rst:276
+#: ../classes/class_filedialog.rst:346
+#: ../classes/class_filedialog.rst:358
+#: ../classes/class_filedialog.rst:370
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:164
+#: ../classes/class_filedialog.rst:182
+#: ../classes/class_filedialog.rst:198
+#: ../classes/class_filedialog.rst:214
+#: ../classes/class_filedialog.rst:230
+#: ../classes/class_filedialog.rst:246
+#: ../classes/class_filedialog.rst:262
+#: ../classes/class_filedialog.rst:278
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:164
+msgid "set_access(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:166
+#: ../classes/class_filedialog.rst:184
+#: ../classes/class_filedialog.rst:200
+#: ../classes/class_filedialog.rst:216
+#: ../classes/class_filedialog.rst:232
+#: ../classes/class_filedialog.rst:248
+#: ../classes/class_filedialog.rst:264
+#: ../classes/class_filedialog.rst:280
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:166
+msgid "get_access()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:169
+msgid "文件系统的访问范围。见枚举 ``Access`` 常数。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:171
+msgid "\\ **警告：** 目前，在沙盒环境下，如HTML5构建或沙盒的macOS应用程序，FileDialog 不能访问主机文件系统。参见 `godot-proposals#1123  <https://github.com/godotengine/godot-proposals/issues/1123>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:177
+msgid ":ref:`String<class_String>` **current_dir**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:182
+msgid "set_current_dir(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:184
+msgid "get_current_dir()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:187
+msgid "文件对话框的当前工作目录。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:193
+msgid ":ref:`String<class_String>` **current_file**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:198
+msgid "set_current_file(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:200
+msgid "get_current_file()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:203
+msgid "文件对话框的当前选定的文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:209
+msgid ":ref:`String<class_String>` **current_path**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:214
+msgid "set_current_path(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:216
+msgid "get_current_path()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:219
+msgid "当前选择的文件对话框的文件路径。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:225
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **filters**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:230
+msgid "set_filters(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:232
+msgid "get_filters()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:235
+msgid "可用的文件类型过滤器。例如，这仅显示 ``.png`` 和 ``.gd`` 文件： ``set_filters(PoolStringArray([\"*.png ; PNG Images\", \"*.gd ; GDScript Files\" ]))``\\ 。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:241
+msgid ":ref:`Mode<enum_FileDialog_Mode>` **mode**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:246
+msgid "set_mode(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:248
+msgid "get_mode()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:251
+msgid "对话框的打开或保存模式，这会影响选择行为。请参阅枚举 ``Mode`` 常量。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:257
+msgid ":ref:`bool<class_bool>` **mode_overrides_title**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:262
+msgid "set_mode_overrides_title(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:264
+msgid "is_mode_overriding_title()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:267
+msgid "如果 ``true``\\ ，更改 ``Mode`` 属性将相应地设置窗口标题（例如，将模式设置为 :ref:`MODE_OPEN_FILE<class_FileDialog_constant_MODE_OPEN_FILE>` 会将窗口标题更改为“打开文件”）。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:273
+msgid ":ref:`bool<class_bool>` **show_hidden_files**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:278
+msgid "set_show_hidden_files(value)"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:280
+msgid "is_showing_hidden_files()"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:283
+msgid "如果\\ ``true``\\ ，对话框将显示出隐藏文件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:286
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:290
+msgid "void **add_filter** **(** :ref:`String<class_String>` filter **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:292
+msgid "添加\\ ``filter``\\ 作为自定义过滤器； ``filter``\\ 的格式应为\\ ``“ filename.extension; Description”``\\ 。例如，\\ ``\"*.png ; PNG Images\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:298
+msgid "void **clear_filters** **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:300
+msgid "清除对话框中所有添加的过滤器。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:306
+msgid "void **deselect_items** **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:308
+msgid "清除对话框中当前选择的项目。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:314
+msgid ":ref:`LineEdit<class_LineEdit>` **get_line_edit** **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:316
+msgid "返回所选文件的 LineEdit。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:318
+#: ../classes/class_filedialog.rst:328
+msgid "\\ **警告：** 这是一个必需的内部节点，删除和释放它可能会导致崩溃。如果您希望隐藏它或其任何子项，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:324
+msgid ":ref:`VBoxContainer<class_VBoxContainer>` **get_vbox** **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:326
+msgid "返回对话框的垂直框容器，可以向其中添加自定义控件。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:334
+msgid "void **invalidate** **(** **)**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:336
+msgid "使当前对话框内容列表无效并更新。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:339
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:343
+msgid ":ref:`Color<class_Color>` **file_icon_modulate**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:349
+msgid "应用于文件图标的颜色调制。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:355
+msgid ":ref:`Color<class_Color>` **files_disabled**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:361
+msgid "禁用文件的色调（当\\ ``FileDialog``\\ 在打开文件夹模式下使用时）。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:367
+msgid ":ref:`Color<class_Color>` **folder_icon_modulate**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:373
+msgid "应用于文件夹图标的颜色调制。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:379
+msgid ":ref:`Texture<class_Texture>` **file**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:381
+msgid "文件的自定义图标。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:387
+msgid ":ref:`Texture<class_Texture>` **folder**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:389
+msgid "文件夹的自定义图标。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:395
+msgid ":ref:`Texture<class_Texture>` **parent_folder**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:397
+msgid "父文件夹箭头的自定义图标。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:403
+msgid ":ref:`Texture<class_Texture>` **reload**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:405
+msgid "重新加载按钮的自定义图标。"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:411
+msgid ":ref:`Texture<class_Texture>` **toggle_hidden**"
+msgstr ""
+
+#: ../classes/class_filedialog.rst:413
+msgid "切换隐藏按钮的自定义图标。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

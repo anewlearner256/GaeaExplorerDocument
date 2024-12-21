@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gradient.rst:10
+msgid "Gradient"
+msgstr ""
+
+#: ../classes/class_gradient.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:14
+msgid "一个颜色插值器资源，可用于在用户定义的颜色点之间生成颜色。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_gradient.rst:19
+msgid "给定一组颜色，这个资源将按顺序插值。这意味着，如果你有颜色1、颜色2和颜色3，斜坡将从颜色1插到颜色2，从颜色2插到颜色3。斜坡最初会有两种颜色（黑色和白色），一种（黑色）在斜坡低偏移量0处，另一种（白色）在斜坡高偏移量1处。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gradient.rst:25
+msgid ":ref:`PoolColorArray<class_PoolColorArray>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:25
+msgid ":ref:`colors<class_Gradient_property_colors>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:25
+#: ../classes/class_gradient.rst:59
+msgid "``PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_gradient.rst:27
+msgid ":ref:`PoolRealArray<class_PoolRealArray>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:27
+msgid ":ref:`offsets<class_Gradient_property_offsets>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:27
+#: ../classes/class_gradient.rst:75
+msgid "``PoolRealArray( 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_gradient.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_gradient.rst:34
+#: ../classes/class_gradient.rst:44
+#: ../classes/class_gradient.rst:46
+#: ../classes/class_gradient.rst:48
+msgid "void"
+msgstr ""
+
+#: ../classes/class_gradient.rst:34
+msgid ":ref:`add_point<class_Gradient_method_add_point>` **(** :ref:`float<class_float>` offset, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:36
+#: ../classes/class_gradient.rst:42
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:36
+msgid ":ref:`get_color<class_Gradient_method_get_color>` **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:38
+msgid ":ref:`get_offset<class_Gradient_method_get_offset>` **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:40
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gradient.rst:40
+msgid ":ref:`get_point_count<class_Gradient_method_get_point_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gradient.rst:42
+msgid ":ref:`interpolate<class_Gradient_method_interpolate>` **(** :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:44
+msgid ":ref:`remove_point<class_Gradient_method_remove_point>` **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:46
+msgid ":ref:`set_color<class_Gradient_method_set_color>` **(** :ref:`int<class_int>` point, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:48
+msgid ":ref:`set_offset<class_Gradient_method_set_offset>` **(** :ref:`int<class_int>` point, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:52
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gradient.rst:56
+msgid ":ref:`PoolColorArray<class_PoolColorArray>` **colors**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:59
+#: ../classes/class_gradient.rst:75
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gradient.rst:61
+#: ../classes/class_gradient.rst:77
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gradient.rst:61
+msgid "set_colors(value)"
+msgstr ""
+
+#: ../classes/class_gradient.rst:63
+#: ../classes/class_gradient.rst:79
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gradient.rst:63
+msgid "get_colors()"
+msgstr ""
+
+#: ../classes/class_gradient.rst:66
+msgid "渐变颜色以 :ref:`PoolColorArray<class_PoolColorArray>` 返回。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:72
+msgid ":ref:`PoolRealArray<class_PoolRealArray>` **offsets**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:77
+msgid "set_offsets(value)"
+msgstr ""
+
+#: ../classes/class_gradient.rst:79
+msgid "get_offsets()"
+msgstr ""
+
+#: ../classes/class_gradient.rst:82
+msgid "渐变的偏移量以 :ref:`PoolRealArray<class_PoolRealArray>` 返回。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:85
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_gradient.rst:89
+msgid "void **add_point** **(** :ref:`float<class_float>` offset, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:91
+msgid "将指定的颜色添加到坡道的末端，并有指定的偏移量。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:97
+msgid ":ref:`Color<class_Color>` **get_color** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:99
+msgid "返回索引\\ ``point``\\ 处斜坡颜色的颜色。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:105
+msgid ":ref:`float<class_float>` **get_offset** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:107
+msgid "返回索引\\ ``point``\\ 处的斜面颜色的偏移。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:113
+msgid ":ref:`int<class_int>` **get_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_gradient.rst:115
+msgid "返回斜面中的颜色数量。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:121
+msgid ":ref:`Color<class_Color>` **interpolate** **(** :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:123
+msgid "返回由偏移\\ ``offset``\\ 指定的插值颜色。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:129
+msgid "void **remove_point** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:131
+msgid "移除索引\\ ``point``\\ 处的颜色。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:137
+msgid "void **set_color** **(** :ref:`int<class_int>` point, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:139
+msgid "设置索引\\ ``point``\\ 处的坡道色的颜色。"
+msgstr ""
+
+#: ../classes/class_gradient.rst:145
+msgid "void **set_offset** **(** :ref:`int<class_int>` point, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_gradient.rst:147
+msgid "为索引\\ ``point``\\ 处的斜面颜色设置偏移。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

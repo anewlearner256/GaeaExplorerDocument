@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/class_Curve.rst:2
+msgid "Curve"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:16
+#: ../classAPI/class_Curve.rst:49
+msgid "Double"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:16
+msgid "LengthAfterInterpolation"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:18
+#: ../classAPI/class_Curve.rst:33
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:18
+msgid "Step"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:20
+msgid "Vector3[]"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:20
+msgid "InterpolationPoint"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:22
+msgid "Quat[]"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:22
+msgid "InterpolationRotation"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:24
+#: ../classAPI/class_Curve.rst:26
+msgid "Double[]"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:24
+msgid "DistanceToStartPoint"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:26
+msgid "InterpolationTime"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:30
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:33
+msgid "AddValue(Double time,Vector3 value,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:35
+#: ../classAPI/class_Curve.rst:37
+#: ../classAPI/class_Curve.rst:43
+#: ../classAPI/class_Curve.rst:45
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:35
+msgid "RemoveValue(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:37
+msgid "Clear()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:39
+#: ../classAPI/class_Curve.rst:47
+msgid "Vector3"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:39
+msgid "CalculateValueByTime(Double time,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:41
+msgid "Quat"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:41
+msgid "CalculateRotationByTime(Double time,Boolean isParalleledToSurface,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:43
+msgid "Interpolate(Boolean isParalleledToSurface,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:45
+msgid "CalculateLengthAfterInterpolation()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:47
+msgid "GetCurrentFirstDerivative(Double time,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:49
+msgid "GetLenth()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:51
+#: ../classAPI/class_Curve.rst:53
+msgid "Animation"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:51
+msgid "ToAnimationBySpeed(String animationName,Single speed,Vector3 scale,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:53
+msgid "ToAnimationByTime(String animationName,Boolean isAverage,Single time,Vector3 scale,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:57
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:59
+msgid "Double LengthAfterInterpolation"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:62
+#: ../classAPI/class_Curve.rst:73
+#: ../classAPI/class_Curve.rst:84
+#: ../classAPI/class_Curve.rst:95
+#: ../classAPI/class_Curve.rst:106
+#: ../classAPI/class_Curve.rst:117
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:66
+msgid "插值后的长度"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:70
+msgid "Int32 Step"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:77
+msgid "插值的步数"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:81
+msgid "Vector3[] InterpolationPoint"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:88
+msgid "记录插值点"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:92
+msgid "Quat[] InterpolationRotation"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:99
+msgid "记录每个插值点的旋转"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:103
+msgid "Double[] DistanceToStartPoint"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:110
+msgid "记录每个插值点到起点的距离"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:114
+msgid "Double[] InterpolationTime"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:121
+msgid "记录每个插值点的时间"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:127
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:129
+msgid "Int32 AddValue(Double time,Vector3 value,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:135
+msgid "Void RemoveValue(Int32 index,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:141
+msgid "Void Clear()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:147
+msgid "Vector3 CalculateValueByTime(Double time,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:153
+msgid "Quat CalculateRotationByTime(Double time,Boolean isParalleledToSurface,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:159
+msgid "Void Interpolate(Boolean isParalleledToSurface,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:165
+msgid "Void CalculateLengthAfterInterpolation()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:171
+msgid "Vector3 GetCurrentFirstDerivative(Double time,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:177
+msgid "Double GetLenth()"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:183
+msgid "Animation ToAnimationBySpeed(String animationName,Single speed,Vector3 scale,)"
+msgstr ""
+
+#: ../classAPI/class_Curve.rst:189
+msgid "Animation ToAnimationByTime(String animationName,Boolean isAverage,Single time,Vector3 scale,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

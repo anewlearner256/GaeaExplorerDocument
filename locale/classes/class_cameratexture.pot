@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_cameratexture.rst:10
+msgid "CameraTexture"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:14
+msgid "由 :ref:`CameraFeed<class_CameraFeed>` 提供的纹理。"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:19
+msgid "该纹理可以访问\\ :ref:`CameraFeed<class_CameraFeed>`\\ 提供的相机纹理。"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:21
+msgid "\\ **注意：**\\ 许多相机提供需要在着色器中转换的YCbCr图像。"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:27
+#: ../classes/class_cameratexture.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:27
+msgid ":ref:`camera_feed_id<class_CameraTexture_property_camera_feed_id>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:27
+#: ../classes/class_cameratexture.rst:33
+#: ../classes/class_cameratexture.rst:44
+#: ../classes/class_cameratexture.rst:76
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:29
+msgid ":ref:`camera_is_active<class_CameraTexture_property_camera_is_active>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:29
+#: ../classes/class_cameratexture.rst:60
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:31
+msgid "flags"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:31
+msgid "``0`` (overrides :ref:`Texture<class_Texture_property_flags>`)"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:33
+msgid ":ref:`FeedImage<enum_CameraServer_FeedImage>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:33
+msgid ":ref:`which_feed<class_CameraTexture_property_which_feed>`"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:37
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:41
+msgid ":ref:`int<class_int>` **camera_feed_id**"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:44
+#: ../classes/class_cameratexture.rst:60
+#: ../classes/class_cameratexture.rst:76
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:46
+#: ../classes/class_cameratexture.rst:62
+#: ../classes/class_cameratexture.rst:78
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:46
+msgid "set_camera_feed_id(value)"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:48
+#: ../classes/class_cameratexture.rst:64
+#: ../classes/class_cameratexture.rst:80
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:48
+msgid "get_camera_feed_id()"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:51
+msgid "我们要显示图像的 :ref:`CameraFeed<class_CameraFeed>` 的 ID。"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:57
+msgid ":ref:`bool<class_bool>` **camera_is_active**"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:62
+msgid "set_camera_active(value)"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:64
+msgid "get_camera_active()"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:67
+msgid "给予访问 :ref:`CameraFeed<class_CameraFeed>` 的活动属性的便利属性。"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:73
+msgid ":ref:`FeedImage<enum_CameraServer_FeedImage>` **which_feed**"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:78
+msgid "set_which_feed(value)"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:80
+msgid "get_which_feed()"
+msgstr ""
+
+#: ../classes/class_cameratexture.rst:83
+msgid "我们要访问\\ :ref:`CameraFeed<class_CameraFeed>`\\ 中的哪个图像，如果相机图像被分割成Y和CbCr组件，这一点很重要。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_webrtcpeerconnection.rst:10
+msgid "WebRTCPeerConnection"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:14
+msgid "**Inherited By:** :ref:`WebRTCPeerConnectionGDNative<class_WebRTCPeerConnectionGDNative>`"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:16
+msgid "与WebRTC对等体连接的接口。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:21
+msgid "本地计算机和远程对等体之间的WebRTC连接。提供一个接口来连接、维护和监控连接。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:23
+msgid "从当前开始，在两个对等体之间建立WebRTC连接，这不是一项简单的任务，但它可以分解为3个主要步骤。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:25
+msgid "想要启动连接的对等体（\\ ``A``\\ 从现在开始）创建一个提交，并将其发送给另一个对等体（\\ ``B``\\ 从现在开始）。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:27
+msgid "``B``\\ 收到要约，生成和回答，并将其发送给\\ ``A``\\ ）。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:29
+msgid "``A``\\ 和\\ ``B``\\ 然后生成并相互交换ICE候选。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:31
+msgid "在这些步骤之后，连接应该成功建立。继续阅读或查看教程以了解更多信息。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:34
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:37
+#: ../classes/class_webrtcpeerconnection.rst:43
+#: ../classes/class_webrtcpeerconnection.rst:47
+#: ../classes/class_webrtcpeerconnection.rst:49
+#: ../classes/class_webrtcpeerconnection.rst:51
+#: ../classes/class_webrtcpeerconnection.rst:53
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:37
+msgid ":ref:`add_ice_candidate<class_WebRTCPeerConnection_method_add_ice_candidate>` **(** :ref:`String<class_String>` media, :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:39
+msgid "void"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:39
+msgid ":ref:`close<class_WebRTCPeerConnection_method_close>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:41
+msgid ":ref:`WebRTCDataChannel<class_WebRTCDataChannel>`"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:41
+msgid ":ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>` **(** :ref:`String<class_String>` label, :ref:`Dictionary<class_Dictionary>` options={ } **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:43
+msgid ":ref:`create_offer<class_WebRTCPeerConnection_method_create_offer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:45
+msgid ":ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>`"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:45
+msgid ":ref:`get_connection_state<class_WebRTCPeerConnection_method_get_connection_state>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:47
+msgid ":ref:`initialize<class_WebRTCPeerConnection_method_initialize>` **(** :ref:`Dictionary<class_Dictionary>` configuration={ } **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:49
+msgid ":ref:`poll<class_WebRTCPeerConnection_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:51
+msgid ":ref:`set_local_description<class_WebRTCPeerConnection_method_set_local_description>` **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:53
+msgid ":ref:`set_remote_description<class_WebRTCPeerConnection_method_set_remote_description>` **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:57
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:61
+msgid "**data_channel_received** **(** :ref:`Object<class_Object>` channel **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:63
+msgid "当收到一个新的带内通道时发出，即在通道是用\\ ``negotiated: false``\\ （默认）。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:65
+msgid "该对象将是\\ :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`\\ 的一个实例。你必须保持它的引用，否则它将被自动关闭。参阅\\ :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:71
+msgid "**ice_candidate_created** **(** :ref:`String<class_String>` media, :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:73
+msgid "当新的ICE候选者被创建时触发。这三个参数是为了通过信号服务器传递给远程对等体。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:79
+msgid "**session_description_created** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:81
+msgid "在成功调用\\ :ref:`create_offer<class_WebRTCPeerConnection_method_create_offer>`\\ 或\\ :ref:`set_remote_description<class_WebRTCPeerConnection_method_set_remote_description>`\\ 后触发，当它产生一个应答时。这些参数是为了传递给这个对象上的\\ :ref:`set_local_description<class_WebRTCPeerConnection_method_set_local_description>`\\ ，并通过信号服务器发送给远程对等体。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:84
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:100
+msgid "enum **ConnectionState**:"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:102
+msgid "**STATE_NEW** = **0** --- 连接是新的，数据通道和提交可以在这种状态下创建。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:104
+msgid "**STATE_CONNECTING** = **1** --- 对等体正在连接，ICE正在进行中，没有任何传输失败。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:106
+msgid "**STATE_CONNECTED** = **2** --- 对等体已连接，所有的ICE传输都已连接。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:108
+msgid "**STATE_DISCONNECTED** = **3** --- 至少有一个ICE传输被断开连接。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:110
+msgid "**STATE_FAILED** = **4** --- 一个或更多的ICE传输失败。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:112
+msgid "**STATE_CLOSED** = **5** --- 对等连接已关闭，例如在调用\\ :ref:`close<class_WebRTCPeerConnection_method_close>`\\ 后。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:115
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:119
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **add_ice_candidate** **(** :ref:`String<class_String>` media, :ref:`int<class_int>` index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:121
+msgid "添加一个由远程对等体产生的冻结候选，并通过信令服务器接收。请参阅\\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:127
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:129
+msgid "关闭对等体连接和与之相关的所有数据通道。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:131
+msgid "\\ **注意：**\\ 你不能为一个新的连接重复使用这个对象，除非你调用\\ :ref:`initialize<class_WebRTCPeerConnection_method_initialize>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:137
+msgid ":ref:`WebRTCDataChannel<class_WebRTCDataChannel>` **create_data_channel** **(** :ref:`String<class_String>` label, :ref:`Dictionary<class_Dictionary>` options={ } **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:139
+msgid "返回新的 :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`\\ ，或在失败时返回 ``null``\\ ，具有给定的 ``label``\\ ，并通过 ``options`` 字典进行配置。这个方法只有在连接处于 :ref:`STATE_NEW<class_WebRTCPeerConnection_constant_STATE_NEW>` 状态时才能被调用。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:141
+msgid "有两种方法来创建工作数据通道：要么只在其中一个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`\\ ，并在另一个对等体上监听\\ :ref:`data_channel_received<class_WebRTCPeerConnection_signal_data_channel_received>`\\ ，要么在两个对等体上调用 :ref:`create_data_channel<class_WebRTCPeerConnection_method_create_data_channel>`\\ ，数值相同，并将 ``negotiated`` 选项设置为 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:143
+#: ../classes/class_webrtcpeerconnection.rst:187
+msgid "有效的\\ ``options``\\ 是:"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:159
+msgid "\\ **注意：**\\ 你必须保持对以这种方式创建的通道的引用，否则它将被关闭。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:165
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **create_offer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:167
+msgid "创建一个新的SDP提交，以开始与远程对等体的WebRTC连接。在调用此方法之前，至少要创建一个\\ :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:169
+msgid "如果这个函数返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，当会话准备好被发送时，\\ :ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\\ 将被调用。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:175
+msgid ":ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>` **get_connection_state** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:177
+msgid "返回连接状态。参阅\\ :ref:`ConnectionState<enum_WebRTCPeerConnection_ConnectionState>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:183
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **initialize** **(** :ref:`Dictionary<class_Dictionary>` configuration={ } **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:185
+msgid "重新初始化这个对等体连接，关闭任何先前活动的连接，并回到状态\\ :ref:`STATE_NEW<class_WebRTCPeerConnection_constant_STATE_NEW>`\\ 。可以通过\\ ``options``\\ 的字典来配置对等连接。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:208
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:210
+msgid "经常调用这个方法以正确接收信号，例如在\\ :ref:`Node._process<class_Node_method__process>`\\ 或\\ :ref:`Node._physics_process<class_Node_method__physics_process>`\\ 中。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:216
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **set_local_description** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:218
+msgid "设置本地对等体的SDP描述。这应是在响应\\ :ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\\ 时调用的。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:220
+msgid "调用此函数后，对等体将开始发出\\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`\\ ，除非返回与\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ 不同的\\ :ref:`Error<enum_@GlobalScope_Error>`\\ 。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:226
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **set_remote_description** **(** :ref:`String<class_String>` type, :ref:`String<class_String>` sdp **)**"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:228
+msgid "设置远程对等体的SDP描述。应用远程对等体产生的值来调用，并通过信号服务器接收。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:230
+msgid "如果\\ ``type``\\ 是\\ ``offer``\\ ，对等体将发出\\ :ref:`session_description_created<class_WebRTCPeerConnection_signal_session_description_created>`\\ 并给出适当的答案。"
+msgstr ""
+
+#: ../classes/class_webrtcpeerconnection.rst:232
+msgid "如果\\ ``type``\\ 是\\ ``answer``\\ ，对等体将开始发出\\ :ref:`ice_candidate_created<class_WebRTCPeerConnection_signal_ice_candidate_created>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

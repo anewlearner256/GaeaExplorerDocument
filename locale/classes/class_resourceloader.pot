@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_resourceloader.rst:10
+msgid "ResourceLoader"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:14
+msgid "用于加载资源文件的单例。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:19
+msgid "用于从文件系统加载资源文件的单例。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:21
+msgid "它使用在引擎中注册的许多\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 类（无论是内置的还是来自插件的）来将文件加载到内存中，并将它们转换为引擎可以使用的格式。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:26
+msgid "`OS Test Demo <https://godotengine.org/asset-library/asset/677>`__"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:29
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:32
+#: ../classes/class_resourceloader.rst:38
+#: ../classes/class_resourceloader.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:32
+msgid ":ref:`exists<class_ResourceLoader_method_exists>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:34
+#: ../classes/class_resourceloader.rst:36
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:34
+msgid ":ref:`get_dependencies<class_ResourceLoader_method_get_dependencies>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:36
+msgid ":ref:`get_recognized_extensions_for_type<class_ResourceLoader_method_get_recognized_extensions_for_type>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:38
+msgid ":ref:`has<class_ResourceLoader_method_has>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:40
+msgid ":ref:`has_cached<class_ResourceLoader_method_has_cached>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:42
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:42
+msgid ":ref:`load<class_ResourceLoader_method_load>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\", :ref:`bool<class_bool>` no_cache=false **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:44
+msgid ":ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:44
+msgid ":ref:`load_interactive<class_ResourceLoader_method_load_interactive>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:46
+msgid "void"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:46
+msgid ":ref:`set_abort_on_missing_resources<class_ResourceLoader_method_set_abort_on_missing_resources>` **(** :ref:`bool<class_bool>` abort **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:50
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:54
+msgid ":ref:`bool<class_bool>` **exists** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:56
+msgid "返回给定的\\ ``path``\\ 是否存在已识别的资源。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:58
+msgid "一个可选的\\ ``type_hint``\\ 可以用来进一步指定\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 应该处理的\\ :ref:`Resource<class_Resource>`\\ 类型。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:64
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_dependencies** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:66
+msgid "返回给定\\ ``path``\\ 处资源的依赖关系。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:72
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions_for_type** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:74
+msgid "返回资源类型的已识别扩展名列表。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:80
+msgid ":ref:`bool<class_bool>` **has** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:82
+msgid "*废弃的方法。*\\ 使用\\ :ref:`has_cached<class_ResourceLoader_method_has_cached>`\\ 或\\ :ref:`exists<class_ResourceLoader_method_exists>`\\ 代替。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:88
+msgid ":ref:`bool<class_bool>` **has_cached** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:90
+msgid "返回给定路径\\ ``path``\\ 的缓存资源是否可用。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:92
+msgid "一旦资源被引擎加载，它就会被缓存在内存中，以便更快地访问，未来对\\ :ref:`load<class_ResourceLoader_method_load>`\\ 或\\ :ref:`load_interactive<class_ResourceLoader_method_load_interactive>`\\ 方法的调用将使用缓存的版本。缓存的资源可以通过对同一路径的新资源使用\\ :ref:`Resource.take_over_path<class_Resource_method_take_over_path>`\\ 来覆盖。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:98
+msgid ":ref:`Resource<class_Resource>` **load** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\", :ref:`bool<class_bool>` no_cache=false **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:100
+msgid "在给定的路径\\ ``path``\\ 上加载一个资源，缓存结果以便进一步访问。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:102
+msgid "依次查询注册的\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ ，找到第一个可以处理该文件扩展名的加载器，然后尝试加载。如果加载失败，其余的ResourceFormatLoaders也会被尝试。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:104
+msgid "一个可选的\\ ``type_hint``\\ 类型提示可以用来进一步指定\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 应处理的\\ :ref:`Resource<class_Resource>`\\ 资源类型。任何继承自\\ :ref:`Resource<class_Resource>`\\ 的东西都可以被用作类型提示，例如图像\\ :ref:`Image<class_Image>`\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:106
+msgid "如果\\ ``no_cache``\\ 是\\ ``true``\\ ，资源缓存将被绕过，资源将被重新加载。否则，如果缓存的资源存在，将被返回。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:108
+msgid "如果没有\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 可以处理该文件，则返回一个空资源。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:110
+msgid "GDScript有一个简化的\\ :ref:`@GDScript.load<class_@GDScript_method_load>`\\ 内置方法，可以在大多数情况下使用，把\\ ``ResourceLoader``\\ 的使用留给更高级的场景。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:116
+msgid ":ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>` **load_interactive** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:118
+msgid "开始交互式加载一个资源。返回的\\ :ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`\\ 对象允许以高粒度加载，连续调用其\\ :ref:`ResourceInteractiveLoader.poll<class_ResourceInteractiveLoader_method_poll>`\\ 轮询方法来加载分块。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:120
+msgid "一个可选的\\ ``type_hint``\\ 类型提示可以用来进一步指定应该由\\ :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ 处理的资源\\ :ref:`Resource<class_Resource>`\\ 类型。任何继承自\\ :ref:`Resource<class_Resource>`\\ 的东西都可以被用作类型提示，例如\\ :ref:`Image<class_Image>`\\ 。"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:126
+msgid "void **set_abort_on_missing_resources** **(** :ref:`bool<class_bool>` abort **)**"
+msgstr ""
+
+#: ../classes/class_resourceloader.rst:128
+msgid "更改缺少子资源时的行为。默认行为是中止加载。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_viewporttexture.rst:10
+msgid "ViewportTexture"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:14
+msgid "显示 :ref:`Viewport<class_Viewport>` 内容的纹理。"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:19
+msgid "将 :ref:`Viewport<class_Viewport>` 节点的内容显示为一个动态的 :ref:`Texture<class_Texture>`\\ 。可以用来在同一个场景中混合控件、2D 和 3D元素。"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:21
+msgid "要通过代码创建 ViewportTexture，请使用目标视窗上的 :ref:`Viewport.get_texture<class_Viewport_method_get_texture>` 方法。"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:26
+msgid "`GUI in 3D Demo <https://godotengine.org/asset-library/asset/127>`__"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:28
+msgid "`3D in 2D Demo <https://godotengine.org/asset-library/asset/128>`__"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:30
+msgid "`2D in 3D Demo <https://godotengine.org/asset-library/asset/129>`__"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:32
+msgid "`3D Viewport Scaling Demo <https://godotengine.org/asset-library/asset/586>`__"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:38
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:38
+msgid "flags"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:38
+msgid "``0`` (overrides :ref:`Texture<class_Texture_property_flags>`)"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:40
+msgid "resource_local_to_scene"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:40
+msgid "``true`` (overrides :ref:`Resource<class_Resource_property_resource_local_to_scene>`)"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:42
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:42
+msgid ":ref:`viewport_path<class_ViewportTexture_property_viewport_path>`"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:42
+#: ../classes/class_viewporttexture.rst:53
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:46
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:50
+msgid ":ref:`NodePath<class_NodePath>` **viewport_path**"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:53
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:55
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:55
+msgid "set_viewport_path_in_scene(value)"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:57
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:57
+msgid "get_viewport_path_in_scene()"
+msgstr ""
+
+#: ../classes/class_viewporttexture.rst:60
+msgid "显示 :ref:`Viewport<class_Viewport>` 节点的路径。该路径是相对于场景根的，而不是相对于使用该纹理的节点。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

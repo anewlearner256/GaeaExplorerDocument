@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorproperty.rst:10
+msgid "EditorProperty"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:14
+msgid "自定义控件属性添加到检查器中。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:19
+msgid "该控件可以将一个或多个属性编辑到\\ :ref:`EditorInspector<class_EditorInspector>`\\ 中。通过\\ :ref:`EditorInspectorPlugin<class_EditorInspectorPlugin>`\\ 添加。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:25
+#: ../classes/class_editorproperty.rst:27
+#: ../classes/class_editorproperty.rst:29
+#: ../classes/class_editorproperty.rst:31
+#: ../classes/class_editorproperty.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:25
+msgid ":ref:`checkable<class_EditorProperty_property_checkable>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:25
+#: ../classes/class_editorproperty.rst:27
+#: ../classes/class_editorproperty.rst:29
+#: ../classes/class_editorproperty.rst:31
+#: ../classes/class_editorproperty.rst:35
+#: ../classes/class_editorproperty.rst:140
+#: ../classes/class_editorproperty.rst:156
+#: ../classes/class_editorproperty.rst:172
+#: ../classes/class_editorproperty.rst:188
+#: ../classes/class_editorproperty.rst:220
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:27
+msgid ":ref:`checked<class_EditorProperty_property_checked>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:29
+msgid ":ref:`draw_red<class_EditorProperty_property_draw_red>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:31
+msgid ":ref:`keying<class_EditorProperty_property_keying>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:33
+#: ../classes/class_editorproperty.rst:48
+#: ../classes/class_editorproperty.rst:50
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:33
+msgid ":ref:`label<class_EditorProperty_property_label>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:33
+#: ../classes/class_editorproperty.rst:204
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:35
+msgid ":ref:`read_only<class_EditorProperty_property_read_only>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:39
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:42
+#: ../classes/class_editorproperty.rst:44
+#: ../classes/class_editorproperty.rst:52
+#: ../classes/class_editorproperty.rst:54
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:42
+msgid ":ref:`add_focusable<class_EditorProperty_method_add_focusable>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:44
+msgid ":ref:`emit_changed<class_EditorProperty_method_emit_changed>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value, :ref:`String<class_String>` field=\"\", :ref:`bool<class_bool>` changing=false **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:46
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:46
+msgid ":ref:`get_edited_object<class_EditorProperty_method_get_edited_object>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:48
+msgid ":ref:`get_edited_property<class_EditorProperty_method_get_edited_property>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:50
+msgid ":ref:`get_tooltip_text<class_EditorProperty_method_get_tooltip_text>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:52
+msgid ":ref:`set_bottom_editor<class_EditorProperty_method_set_bottom_editor>` **(** :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:54
+msgid ":ref:`update_property<class_EditorProperty_method_update_property>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:58
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:62
+msgid "**multiple_properties_changed** **(** :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Array<class_Array>` value **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:64
+msgid "如果你想同时修改多个属性，请触发它。如果通过\\ :ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\\ 添加，则不要使用。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:70
+msgid "**object_id_selected** **(** :ref:`String<class_String>` property, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:72
+msgid "由子检查员使用。如果选择的是对象ID，则触发。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:78
+msgid "**property_changed** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:80
+msgid "不要手动触发，使用 :ref:`emit_changed<class_EditorProperty_method_emit_changed>` 方法代替。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:86
+msgid "**property_checked** **(** :ref:`String<class_String>` property, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:88
+msgid "检查属性时触发。在内部使用。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:94
+msgid "**property_keyed** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:96
+msgid "如果您想将此值添加这个值为动画键，请触发它（首先检查是否启用了键控）。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:102
+msgid "**property_keyed_with_value** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:104
+msgid "如果你想用一个单一的值来键入一个属性，请触发它。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:110
+msgid "**property_pinned** **(** :ref:`String<class_String>` property, :ref:`bool<class_bool>` pinned **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:112
+msgid "Emit it if you want to mark (or unmark) the value of a property for being saved regardless of being equal to the default value."
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:114
+msgid "The default value is the one the property will get when the node is just instantiated and can come from an ancestor scene in the inheritance/instancing chain, a script or a builtin class."
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:120
+msgid "**resource_selected** **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:122
+msgid "如果你想编辑一个子资源，请将此信号与资源一起发出。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:128
+msgid "**selected** **(** :ref:`String<class_String>` path, :ref:`int<class_int>` focusable_idx **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:130
+msgid "选择时触发。内部使用。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:133
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:137
+msgid ":ref:`bool<class_bool>` **checkable**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:140
+#: ../classes/class_editorproperty.rst:156
+#: ../classes/class_editorproperty.rst:172
+#: ../classes/class_editorproperty.rst:188
+#: ../classes/class_editorproperty.rst:204
+#: ../classes/class_editorproperty.rst:220
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:142
+#: ../classes/class_editorproperty.rst:158
+#: ../classes/class_editorproperty.rst:174
+#: ../classes/class_editorproperty.rst:190
+#: ../classes/class_editorproperty.rst:206
+#: ../classes/class_editorproperty.rst:222
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:142
+msgid "set_checkable(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:144
+#: ../classes/class_editorproperty.rst:160
+#: ../classes/class_editorproperty.rst:176
+#: ../classes/class_editorproperty.rst:192
+#: ../classes/class_editorproperty.rst:208
+#: ../classes/class_editorproperty.rst:224
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:144
+msgid "is_checkable()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:147
+msgid "在检查面板使用，当属性可点击时，设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:153
+msgid ":ref:`bool<class_bool>` **checked**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:158
+msgid "set_checked(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:160
+msgid "is_checked()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:163
+msgid "在检查面板使用，当属性为可选中时，设置属性为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:169
+msgid ":ref:`bool<class_bool>` **draw_red**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:174
+msgid "set_draw_red(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:176
+msgid "is_draw_red()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:179
+msgid "由检查器使用，当属性用编辑器主题的警告颜色着色时，设置为\\ ``true``\\ 。这用于可编辑的子节点的属性。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:185
+msgid ":ref:`bool<class_bool>` **keying**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:190
+msgid "set_keying(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:192
+msgid "is_keying()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:195
+msgid "在检查面板使用，设置为\\ ``true``\\ 时，该属性可以为动画添加键。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:201
+msgid ":ref:`String<class_String>` **label**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:206
+msgid "set_label(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:208
+msgid "get_label()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:211
+msgid "设置此属性可改变标签（如果你想显示标签）。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:217
+msgid ":ref:`bool<class_bool>` **read_only**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:222
+msgid "set_read_only(value)"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:224
+msgid "is_read_only()"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:227
+msgid "在检查面板使用，当属性为只读时，设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:230
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:234
+msgid "void **add_focusable** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:236
+msgid "如果添加的任何控件可以获得键盘焦点，将其添加到此处。这样可以确保在检查器被刷新时恢复焦点。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:242
+msgid "void **emit_changed** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value, :ref:`String<class_String>` field=\"\", :ref:`bool<class_bool>` changing=false **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:244
+msgid "如果一个或几个属性发生了变化，必然会调用这个函数。\\ ``field``\\ 是在你的编辑器可以单独修改字段的情况下使用的（比如Vector3.x）。\\ ``changing``\\ 参数可以避免编辑器要求刷新这个属性(如果不确定的话，就用\\ ``false``)。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:250
+msgid ":ref:`Object<class_Object>` **get_edited_object** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:252
+msgid "获取编辑后的对象。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:258
+msgid ":ref:`String<class_String>` **get_edited_property** **(** **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:260
+msgid "获取已编辑的属性。如果你的编辑器是针对单个属性的（通过\\ :ref:`EditorInspectorPlugin.parse_property<class_EditorInspectorPlugin_method_parse_property>`\\ 添加），那么这将返回属性。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:266
+msgid ":ref:`String<class_String>` **get_tooltip_text** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:268
+msgid "必须实现为属性编辑器提供一个自定义工具提示。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:274
+msgid "void **set_bottom_editor** **(** :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:276
+msgid "将 ``editor`` 编辑器控件放在属性标签的下面。该控件必须事先用 :ref:`Node.add_child<class_Node_method_add_child>` 添加。"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:282
+msgid "void **update_property** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_editorproperty.rst:284
+msgid "当这个虚函数被调用时，你必须更新你的编辑器。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

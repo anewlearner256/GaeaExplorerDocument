@@ -1,0 +1,681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_area2d.rst:10
+msgid "Area2D"
+msgstr ""
+
+#: ../classes/class_area2d.rst:12
+msgid "**Inherits:** :ref:`CollisionObject2D<class_CollisionObject2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:14
+msgid "用于检测、物理和音频影响的 2D 区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_area2d.rst:19
+msgid "检测\\ :ref:`CollisionObject2D<class_CollisionObject2D>`\\ 节点重叠、进入或退出的2D区域。还可以改变或覆盖局部物理参数（重力、阻尼），并将音频路由到一个自定义的音频总线。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_area2d.rst:24
+msgid ":doc:`Using Area2D <../tutorials/physics/using_area_2d>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:26
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_area2d.rst:28
+msgid "`2D Pong Demo <https://godotengine.org/asset-library/asset/121>`__"
+msgstr ""
+
+#: ../classes/class_area2d.rst:30
+msgid "`2D Platformer Demo <https://godotengine.org/asset-library/asset/120>`__"
+msgstr ""
+
+#: ../classes/class_area2d.rst:33
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_area2d.rst:36
+#: ../classes/class_area2d.rst:42
+#: ../classes/class_area2d.rst:44
+#: ../classes/class_area2d.rst:50
+#: ../classes/class_area2d.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:36
+msgid ":ref:`angular_damp<class_Area2D_property_angular_damp>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:36
+#: ../classes/class_area2d.rst:214
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:38
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:38
+msgid ":ref:`audio_bus_name<class_Area2D_property_audio_bus_name>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:38
+#: ../classes/class_area2d.rst:232
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:40
+#: ../classes/class_area2d.rst:46
+#: ../classes/class_area2d.rst:52
+#: ../classes/class_area2d.rst:54
+#: ../classes/class_area2d.rst:69
+#: ../classes/class_area2d.rst:71
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:40
+msgid ":ref:`audio_bus_override<class_Area2D_property_audio_bus_override>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:40
+#: ../classes/class_area2d.rst:46
+#: ../classes/class_area2d.rst:248
+#: ../classes/class_area2d.rst:296
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:42
+msgid ":ref:`gravity<class_Area2D_property_gravity>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:42
+#: ../classes/class_area2d.rst:264
+msgid "``98.0``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:44
+msgid ":ref:`gravity_distance_scale<class_Area2D_property_gravity_distance_scale>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:44
+#: ../classes/class_area2d.rst:56
+#: ../classes/class_area2d.rst:280
+#: ../classes/class_area2d.rst:378
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:46
+msgid ":ref:`gravity_point<class_Area2D_property_gravity_point>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:48
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:48
+msgid ":ref:`gravity_vec<class_Area2D_property_gravity_vec>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:48
+#: ../classes/class_area2d.rst:312
+msgid "``Vector2( 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:50
+msgid ":ref:`linear_damp<class_Area2D_property_linear_damp>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:50
+#: ../classes/class_area2d.rst:328
+msgid "``0.1``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:52
+msgid ":ref:`monitorable<class_Area2D_property_monitorable>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:52
+#: ../classes/class_area2d.rst:54
+#: ../classes/class_area2d.rst:346
+#: ../classes/class_area2d.rst:362
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:54
+msgid ":ref:`monitoring<class_Area2D_property_monitoring>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:56
+msgid ":ref:`priority<class_Area2D_property_priority>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:58
+msgid ":ref:`SpaceOverride<enum_Area2D_SpaceOverride>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:58
+msgid ":ref:`space_override<class_Area2D_property_space_override>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:58
+#: ../classes/class_area2d.rst:394
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_area2d.rst:62
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_area2d.rst:65
+#: ../classes/class_area2d.rst:67
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_area2d.rst:65
+msgid ":ref:`get_overlapping_areas<class_Area2D_method_get_overlapping_areas>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:67
+msgid ":ref:`get_overlapping_bodies<class_Area2D_method_get_overlapping_bodies>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:69
+msgid ":ref:`overlaps_area<class_Area2D_method_overlaps_area>` **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:71
+msgid ":ref:`overlaps_body<class_Area2D_method_overlaps_body>` **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:75
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_area2d.rst:79
+msgid "**area_entered** **(** :ref:`Area2D<class_Area2D>` area **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:81
+msgid "当另一个Area2D进入这个Area2D时发出的。需要将监控\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:83
+#: ../classes/class_area2d.rst:93
+msgid "\\ ``area``\\ 参数是其他Area2D。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:89
+msgid "**area_exited** **(** :ref:`Area2D<class_Area2D>` area **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:91
+msgid "当另一个Area2D离开这个Area2D时发出的。要求监控\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 被设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:99
+msgid "**area_shape_entered** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area2D<class_Area2D>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:101
+msgid "当另一个Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 进入此Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 时触发。需要将 :ref:`monitoring<class_Area2D_property_monitoring>` 设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:103
+#: ../classes/class_area2d.rst:119
+msgid "\\ ``area_rid`` 由\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的其他Area2D的\\ :ref:`CollisionObject2D<class_CollisionObject2D>`\\ 的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:105
+#: ../classes/class_area2d.rst:121
+msgid "\\ ``area`` 其他Area2D。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:107
+msgid "\\ ``area_shape_index``\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的其他Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引。用\\ ``area.shape_owner_get_owner(area_shape_index)``\\ 获得\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:109
+#: ../classes/class_area2d.rst:177
+msgid "\\ ``local_shape_index``\\ 此Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引，由\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用。用\\ ``self.shape_owner_get_owner(local_shape_index)``\\ 获取\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:115
+msgid "**area_shape_exited** **(** :ref:`RID<class_RID>` area_rid, :ref:`Area2D<class_Area2D>` area, :ref:`int<class_int>` area_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:117
+msgid "当另一个Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 退出这个Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 之一时触发。要求\\ :ref:`monitoring<class_Area2D_property_monitoring>` 被设置为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:123
+msgid "\\ ``area_shape_index``\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的其他Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引。用\\ ``area.shape_owner_get_owner(area_shape_index)``\\ 获取\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:125
+msgid "\\ ``local_shape_index``\\ 这个Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引，由\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用。用\\ ``self.shape_owner_get_owner(local_shape_index)``\\ 获得\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:131
+msgid "**body_entered** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:133
+msgid "当一个\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 进入这个Area2D时发出的。需要将监控\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`TileSet<class_TileSet>`\\ 有碰撞形状\\ :ref:`Shape2D<class_Shape2D>`\\ ，则检测到\\ :ref:`TileMap<class_TileMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:135
+msgid "\\ ``body``\\ 参数是其他\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的\\ :ref:`Node<class_Node>`\\ ，如果它存在于树中。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:141
+msgid "**body_exited** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:143
+msgid "当 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 离开此 Area2D 时发出。需要将监控\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果 :ref:`TileSet<class_TileSet>` 具有碰撞形状 :ref:`Shape2D<class_Shape2D>`\\ ，则会检测到 :ref:`TileMap<class_TileMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:145
+msgid "\\ ``body`` 参数是其他 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 或 :ref:`TileMap<class_TileMap>` 的 :ref:`Node<class_Node>`\\ ，如果它存在于树中。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:151
+msgid "**body_shape_entered** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:153
+msgid "当\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的\\ :ref:`Shape2D<class_Shape2D>`\\ 之一进入此Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 之一时触发。需要将\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`TileSet<class_TileSet>`\\ 有Collision\\ :ref:`Shape2D<class_Shape2D>`\\ ，就会检测到\\ :ref:`TileMap<class_TileMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:155
+msgid "\\ ``body_rid`` :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileSet<class_TileSet>`\\ 的\\ :ref:`CollisionObject2D<class_CollisionObject2D>`\\ 的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:157
+#: ../classes/class_area2d.rst:173
+msgid "\\ ``body`` :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的\\ :ref:`Node<class_Node>`\\ ，如果它在树上存在的话。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:159
+msgid "\\ ``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引。用\\ ``body.shape_owner_get_owner(body_shape_index)``\\ 获得\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:161
+msgid "\\ ``local_shape_index``\\ 此Area2D的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引，由\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用。用\\ ``self.shape_owner_get_owner(local_shape_index)``\\ 获得\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:167
+msgid "**body_shape_exited** **(** :ref:`RID<class_RID>` body_rid, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape_index, :ref:`int<class_int>` local_shape_index **)**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:169
+msgid "当\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的一个\\ :ref:`Shape2D<class_Shape2D>`\\ 退出这个Area2D的一个\\ :ref:`Shape2D<class_Shape2D>`\\ 时发出的。需要将\\ :ref:`monitoring<class_Area2D_property_monitoring>`\\ 设置为\\ ``true``\\ 。如果\\ :ref:`TileSet<class_TileSet>`\\ 有碰撞\\ :ref:`Shape2D<class_Shape2D>`\\ ，就会检测到\\ :ref:`TileMap<class_TileMap>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:171
+msgid "\\ ``body_rid`` 是\\ :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileSet<class_TileSet>`\\ 的\\ :ref:`CollisionObject2D<class_CollisionObject2D>`\\ 的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:175
+msgid "\\ ``body_shape_index`` :ref:`Physics2DServer<class_Physics2DServer>`\\ 使用的\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或\\ :ref:`TileMap<class_TileMap>`\\ 的\\ :ref:`Shape2D<class_Shape2D>`\\ 的索引。用\\ ``body.shape_owner_get_owner(body_shape_index)``\\ 获取\\ :ref:`CollisionShape2D<class_CollisionShape2D>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:180
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_area2d.rst:194
+msgid "enum **SpaceOverride**:"
+msgstr ""
+
+#: ../classes/class_area2d.rst:196
+msgid "**SPACE_OVERRIDE_DISABLED** = **0** --- 这个区域不影响重力/阻尼。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:198
+msgid "**SPACE_OVERRIDE_COMBINE** = **1** --- 该区域将其重力/阻尼值加到迄今为止计算出的任何值上（按 :ref:`priority<class_Area2D_property_priority>` 排序）。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:200
+msgid "**SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- 该区域将其重力/阻尼值添加到到目前为止已计算的任何内容（按 :ref:`priority<class_Area2D_property_priority>` 顺序），而忽略任何较低优先级的区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:202
+msgid "**SPACE_OVERRIDE_REPLACE** = **3** --- 该区域将替换所有重力/阻尼，甚至是默认值，而忽略任何较低优先级的区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:204
+msgid "**SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- 这个区域取代了到目前为止计算出的任何重力/阻尼（按 :ref:`priority<class_Area2D_property_priority>` 顺序），但继续计算其余的区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:207
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_area2d.rst:211
+msgid ":ref:`float<class_float>` **angular_damp**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:214
+#: ../classes/class_area2d.rst:232
+#: ../classes/class_area2d.rst:248
+#: ../classes/class_area2d.rst:264
+#: ../classes/class_area2d.rst:280
+#: ../classes/class_area2d.rst:296
+#: ../classes/class_area2d.rst:312
+#: ../classes/class_area2d.rst:328
+#: ../classes/class_area2d.rst:346
+#: ../classes/class_area2d.rst:362
+#: ../classes/class_area2d.rst:378
+#: ../classes/class_area2d.rst:394
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_area2d.rst:216
+#: ../classes/class_area2d.rst:234
+#: ../classes/class_area2d.rst:250
+#: ../classes/class_area2d.rst:266
+#: ../classes/class_area2d.rst:282
+#: ../classes/class_area2d.rst:298
+#: ../classes/class_area2d.rst:314
+#: ../classes/class_area2d.rst:330
+#: ../classes/class_area2d.rst:348
+#: ../classes/class_area2d.rst:364
+#: ../classes/class_area2d.rst:380
+#: ../classes/class_area2d.rst:396
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_area2d.rst:216
+msgid "set_angular_damp(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:218
+#: ../classes/class_area2d.rst:236
+#: ../classes/class_area2d.rst:252
+#: ../classes/class_area2d.rst:268
+#: ../classes/class_area2d.rst:284
+#: ../classes/class_area2d.rst:300
+#: ../classes/class_area2d.rst:316
+#: ../classes/class_area2d.rst:332
+#: ../classes/class_area2d.rst:350
+#: ../classes/class_area2d.rst:366
+#: ../classes/class_area2d.rst:382
+#: ../classes/class_area2d.rst:398
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_area2d.rst:218
+msgid "get_angular_damp()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:221
+msgid "物体在此区域停止旋转的速度。代表每秒损失的角速度。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:223
+msgid "关于阻尼的更多细节见 :ref:`ProjectSettings.physics/2d/default_angular_damp<class_ProjectSettings_property_physics/2d/default_angular_damp>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:229
+msgid ":ref:`String<class_String>` **audio_bus_name**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:234
+msgid "set_audio_bus_name(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:236
+msgid "get_audio_bus_name()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:239
+msgid "该区域音频总线的名称。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:245
+msgid ":ref:`bool<class_bool>` **audio_bus_override**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:250
+msgid "set_audio_bus_override(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:252
+msgid "is_overriding_audio_bus()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:255
+msgid "为 ``true`` 时该区域的音频总线将覆盖默认的音频总线。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:261
+msgid ":ref:`float<class_float>` **gravity**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:266
+msgid "set_gravity(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:268
+msgid "get_gravity()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:271
+msgid "该区域的重力强度（以像素/秒的平方为单位）。这个值是重力向量的倍数。这对改变引力大小而不改变其方向很有用。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:277
+msgid ":ref:`float<class_float>` **gravity_distance_scale**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:282
+msgid "set_gravity_distance_scale(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:284
+msgid "get_gravity_distance_scale()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:287
+msgid "点重力的衰减系数。该值越大，重力值随距离下降的速度就越快。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:293
+msgid ":ref:`bool<class_bool>` **gravity_point**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:298
+msgid "set_gravity_is_point(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:300
+msgid "is_gravity_a_point()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:303
+msgid "如果 ``true``\\ ，则从一个点计算重力（通过 :ref:`gravity_vec<class_Area2D_property_gravity_vec>` 设置）。参阅 :ref:`space_override<class_Area2D_property_space_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:309
+msgid ":ref:`Vector2<class_Vector2>` **gravity_vec**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:314
+msgid "set_gravity_vector(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:316
+msgid "get_gravity_vector()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:319
+msgid "区域的未归一化的重力向量。如果重力作用在一个点上，则它将是引力点。请参阅 :ref:`gravity_point<class_Area2D_property_gravity_point>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:325
+msgid ":ref:`float<class_float>` **linear_damp**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:330
+msgid "set_linear_damp(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:332
+msgid "get_linear_damp()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:335
+msgid "物体在此区域停止运动的速度。代表每秒损失的线速度。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:337
+msgid "关于阻尼的更多细节见 :ref:`ProjectSettings.physics/2d/default_linear_damp<class_ProjectSettings_property_physics/2d/default_linear_damp>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:343
+msgid ":ref:`bool<class_bool>` **monitorable**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:348
+msgid "set_monitorable(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:350
+msgid "is_monitorable()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:353
+msgid "为 ``true`` 时其他监测区域可以检测到这个区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:359
+msgid ":ref:`bool<class_bool>` **monitoring**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:364
+msgid "set_monitoring(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:366
+msgid "is_monitoring()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:369
+msgid "为 ``true`` 时该区域能够检测到进入和退出该区域的实体或区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:375
+msgid ":ref:`float<class_float>` **priority**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:380
+msgid "set_priority(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:382
+msgid "get_priority()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:385
+msgid "该区域的优先级。将优先处理优先级较高的区域。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:391
+msgid ":ref:`SpaceOverride<enum_Area2D_SpaceOverride>` **space_override**"
+msgstr ""
+
+#: ../classes/class_area2d.rst:396
+msgid "set_space_override_mode(value)"
+msgstr ""
+
+#: ../classes/class_area2d.rst:398
+msgid "get_space_override_mode()"
+msgstr ""
+
+#: ../classes/class_area2d.rst:401
+msgid "该区域内重力和阻尼计算的覆盖模式。可能的值见\\ :ref:`SpaceOverride<enum_Area2D_SpaceOverride>`\\ 。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:404
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_area2d.rst:408
+msgid ":ref:`Array<class_Array>` **get_overlapping_areas** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:410
+msgid "返回相交的 ``Area2D`` 的列表。重叠区域的 :ref:`CollisionObject2D.collision_layer<class_CollisionObject2D_property_collision_layer>` 必须是这个区域 :ref:`CollisionObject2D.collision_mask<class_CollisionObject2D_property_collision_mask>` 的一部分，这样才能被检测到。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:412
+#: ../classes/class_area2d.rst:422
+msgid "出于性能的考虑（所有碰撞都是一起处理的），这个列表会在物理步骤中进行一次修改，而不是在物体被移动后立即修改。请考虑使用信号来代替。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:418
+msgid ":ref:`Array<class_Array>` **get_overlapping_bodies** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:420
+msgid "返回相交的 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 的列表。重叠物体的 :ref:`CollisionObject2D.collision_layer<class_CollisionObject2D_property_collision_layer>` 必须是这个区域 :ref:`CollisionObject2D.collision_mask<class_CollisionObject2D_property_collision_mask>` 的一部分，这样才能被检测到。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:428
+msgid ":ref:`bool<class_bool>` **overlaps_area** **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:430
+msgid "如果 ``true``\\ ，则给定区域与该区域重叠。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:432
+msgid "\\ **注意：**\\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑用信号代替。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:438
+msgid ":ref:`bool<class_bool>` **overlaps_body** **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_area2d.rst:440
+msgid "如果\\ ``true``\\ ，给定的物理体就与Area2D发生重叠。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:442
+msgid "\\ **注意：**\\ 在移动物体后，这个测试的结果不是即时的。为了性能，重叠列表在每一帧和物理步骤之前更新一次。可以考虑使用信号来代替。"
+msgstr ""
+
+#: ../classes/class_area2d.rst:444
+msgid "\\ ``body``\\ 参数可以是一个\\ :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ 或一个\\ :ref:`TileMap<class_TileMap>`\\ 实例（虽然TileMaps本身不是物理体，但它们用碰撞形状注册它们的瓦片作为一个虚拟物理体）。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

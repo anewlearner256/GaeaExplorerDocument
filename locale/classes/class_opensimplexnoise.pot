@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_opensimplexnoise.rst:10
+msgid "OpenSimplexNoise"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:14
+msgid "基于Open Simplex的噪声发生器。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:19
+msgid "这个资源允许你配置和采样一个分形噪声空间。下面是一个简短的使用例子，它配置了一个OpenSimplexNoise，并在不同的位置和维度上得到采样。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:38
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:41
+#: ../classes/class_opensimplexnoise.rst:45
+#: ../classes/class_opensimplexnoise.rst:47
+#: ../classes/class_opensimplexnoise.rst:58
+#: ../classes/class_opensimplexnoise.rst:60
+#: ../classes/class_opensimplexnoise.rst:62
+#: ../classes/class_opensimplexnoise.rst:64
+#: ../classes/class_opensimplexnoise.rst:66
+#: ../classes/class_opensimplexnoise.rst:68
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:41
+msgid ":ref:`lacunarity<class_OpenSimplexNoise_property_lacunarity>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:41
+#: ../classes/class_opensimplexnoise.rst:81
+msgid "``2.0``"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:43
+#: ../classes/class_opensimplexnoise.rst:49
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:43
+msgid ":ref:`octaves<class_OpenSimplexNoise_property_octaves>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:43
+#: ../classes/class_opensimplexnoise.rst:97
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:45
+msgid ":ref:`period<class_OpenSimplexNoise_property_period>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:45
+#: ../classes/class_opensimplexnoise.rst:115
+msgid "``64.0``"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:47
+msgid ":ref:`persistence<class_OpenSimplexNoise_property_persistence>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:47
+#: ../classes/class_opensimplexnoise.rst:131
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:49
+msgid ":ref:`seed<class_OpenSimplexNoise_property_seed>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:49
+#: ../classes/class_opensimplexnoise.rst:147
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:53
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:56
+#: ../classes/class_opensimplexnoise.rst:70
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:56
+msgid ":ref:`get_image<class_OpenSimplexNoise_method_get_image>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Vector2<class_Vector2>` noise_offset=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:58
+msgid ":ref:`get_noise_1d<class_OpenSimplexNoise_method_get_noise_1d>` **(** :ref:`float<class_float>` x **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:60
+msgid ":ref:`get_noise_2d<class_OpenSimplexNoise_method_get_noise_2d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:62
+msgid ":ref:`get_noise_2dv<class_OpenSimplexNoise_method_get_noise_2dv>` **(** :ref:`Vector2<class_Vector2>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:64
+msgid ":ref:`get_noise_3d<class_OpenSimplexNoise_method_get_noise_3d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:66
+msgid ":ref:`get_noise_3dv<class_OpenSimplexNoise_method_get_noise_3dv>` **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:68
+msgid ":ref:`get_noise_4d<class_OpenSimplexNoise_method_get_noise_4d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:70
+msgid ":ref:`get_seamless_image<class_OpenSimplexNoise_method_get_seamless_image>` **(** :ref:`int<class_int>` size **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:74
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:78
+msgid ":ref:`float<class_float>` **lacunarity**"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:81
+#: ../classes/class_opensimplexnoise.rst:97
+#: ../classes/class_opensimplexnoise.rst:115
+#: ../classes/class_opensimplexnoise.rst:131
+#: ../classes/class_opensimplexnoise.rst:147
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:83
+#: ../classes/class_opensimplexnoise.rst:99
+#: ../classes/class_opensimplexnoise.rst:117
+#: ../classes/class_opensimplexnoise.rst:133
+#: ../classes/class_opensimplexnoise.rst:149
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:83
+msgid "set_lacunarity(value)"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:85
+#: ../classes/class_opensimplexnoise.rst:101
+#: ../classes/class_opensimplexnoise.rst:119
+#: ../classes/class_opensimplexnoise.rst:135
+#: ../classes/class_opensimplexnoise.rst:151
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:85
+msgid "get_lacunarity()"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:88
+msgid "在 :ref:`octaves<class_OpenSimplexNoise_property_octaves>` 之间的周期差异。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:94
+msgid ":ref:`int<class_int>` **octaves**"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:99
+msgid "set_octaves(value)"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:101
+msgid "get_octaves()"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:104
+msgid "采样得到分形噪声的OpenSimplex噪声层数。更高的值导致更详细的噪声，但需要更多的时间来生成。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:106
+msgid "\\ **备注:**\\ 最大值为9。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:112
+msgid ":ref:`float<class_float>` **period**"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:117
+msgid "set_period(value)"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:119
+msgid "get_period()"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:122
+msgid "基本八度的周期。较低的周期会导致更高频率的噪声(在相同距离上的值变化更多)。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:128
+msgid ":ref:`float<class_float>` **persistence**"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:133
+msgid "set_persistence(value)"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:135
+msgid "get_persistence()"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:138
+msgid "不同八度音阶的贡献因子。\\ ``persistence``\\ 值为1表示所有的八度有相同的贡献，值为0.5表示每个八度的贡献是前一个的一半。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:144
+msgid ":ref:`int<class_int>` **seed**"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:149
+msgid "set_seed(value)"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:151
+msgid "get_seed()"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:154
+msgid "用于生成随机值的种子，不同的种子将生成不同的噪声图。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:157
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:161
+msgid ":ref:`Image<class_Image>` **get_image** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Vector2<class_Vector2>` noise_offset=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:163
+msgid "根据当前的噪声参数，生成一个\\ :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`\\ 格式的噪声图像，需要指定其\\ ``width`` 和 ``height``\\ 。如果指定了\\ ``noise_offset``\\ ，那么偏移值将作为生成的噪声左上角的坐标。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:169
+msgid ":ref:`float<class_float>` **get_noise_1d** **(** :ref:`float<class_float>` x **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:171
+msgid "返回给定x坐标处的一维噪声值\\ ``[-1,1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:173
+msgid "\\ **注意：**\\ 这个方法实际上返回的是固定Y坐标值为0.0的二维噪声值\\ ``[-1,1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:179
+msgid ":ref:`float<class_float>` **get_noise_2d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:181
+#: ../classes/class_opensimplexnoise.rst:189
+msgid "返回给定位置的2D噪声值\\ ``[-1,1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:187
+msgid ":ref:`float<class_float>` **get_noise_2dv** **(** :ref:`Vector2<class_Vector2>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:195
+msgid ":ref:`float<class_float>` **get_noise_3d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:197
+#: ../classes/class_opensimplexnoise.rst:205
+msgid "返回在给定位置的3D噪声值\\ ``[-1,1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:203
+msgid ":ref:`float<class_float>` **get_noise_3dv** **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:211
+msgid ":ref:`float<class_float>` **get_noise_4d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:213
+msgid "返回指定位置的4D噪声值\\ ``[-1,1]``\\ 。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:219
+msgid ":ref:`Image<class_Image>` **get_seamless_image** **(** :ref:`int<class_int>` size **)** |const|"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:221
+msgid "根据当前的噪声参数，以 :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>` 格式生成可平铺噪声图像。生成的无缝图像始终是方形的（\\ ``size``\\ × ``size``\\ ）。"
+msgstr ""
+
+#: ../classes/class_opensimplexnoise.rst:223
+msgid "\\ **注意：** 与非无缝噪声相比，无缝噪声的对比度较低。。这是由于噪声使用更高维度来生成无缝噪声的方式。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

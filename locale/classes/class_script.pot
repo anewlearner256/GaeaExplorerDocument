@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_script.rst:10
+msgid "Script"
+msgstr ""
+
+#: ../classes/class_script.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_script.rst:14
+msgid "**Inherited By:** :ref:`CSharpScript<class_CSharpScript>`, :ref:`GDScript<class_GDScript>`, :ref:`NativeScript<class_NativeScript>`, :ref:`PluginScript<class_PluginScript>`, :ref:`VisualScript<class_VisualScript>`"
+msgstr ""
+
+#: ../classes/class_script.rst:16
+msgid "作为资源存储的类。"
+msgstr ""
+
+#: ../classes/class_script.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_script.rst:21
+msgid "一个存储为资源的类。用脚本扩展所有以它为实例的对象的功能。"
+msgstr ""
+
+#: ../classes/class_script.rst:23
+msgid "脚本子类的\\ ``new``\\ 方法创建一个新的实例。如果一个现有的对象的类与脚本的基类之一相匹配，\\ :ref:`Object.set_script<class_Object_method_set_script>` 会扩展该对象。"
+msgstr ""
+
+#: ../classes/class_script.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_script.rst:28
+msgid ":doc:`../tutorials/scripting/index`"
+msgstr ""
+
+#: ../classes/class_script.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_script.rst:34
+#: ../classes/class_script.rst:45
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_script.rst:34
+msgid ":ref:`source_code<class_Script_property_source_code>`"
+msgstr ""
+
+#: ../classes/class_script.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_script.rst:41
+#: ../classes/class_script.rst:57
+#: ../classes/class_script.rst:59
+#: ../classes/class_script.rst:61
+#: ../classes/class_script.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_script.rst:41
+msgid ":ref:`can_instance<class_Script_method_can_instance>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:43
+msgid ":ref:`Script<class_Script>`"
+msgstr ""
+
+#: ../classes/class_script.rst:43
+msgid ":ref:`get_base_script<class_Script_method_get_base_script>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:45
+msgid ":ref:`get_instance_base_type<class_Script_method_get_instance_base_type>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:47
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_script.rst:47
+msgid ":ref:`get_property_default_value<class_Script_method_get_property_default_value>` **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:49
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_script.rst:49
+msgid ":ref:`get_script_constant_map<class_Script_method_get_script_constant_map>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:51
+#: ../classes/class_script.rst:53
+#: ../classes/class_script.rst:55
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_script.rst:51
+msgid ":ref:`get_script_method_list<class_Script_method_get_script_method_list>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:53
+msgid ":ref:`get_script_property_list<class_Script_method_get_script_property_list>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:55
+msgid ":ref:`get_script_signal_list<class_Script_method_get_script_signal_list>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:57
+msgid ":ref:`has_script_signal<class_Script_method_has_script_signal>` **(** :ref:`String<class_String>` signal_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:59
+msgid ":ref:`has_source_code<class_Script_method_has_source_code>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:61
+msgid ":ref:`instance_has<class_Script_method_instance_has>` **(** :ref:`Object<class_Object>` base_object **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:63
+msgid ":ref:`is_tool<class_Script_method_is_tool>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_script.rst:65
+msgid ":ref:`reload<class_Script_method_reload>` **(** :ref:`bool<class_bool>` keep_state=false **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:69
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_script.rst:73
+msgid ":ref:`String<class_String>` **source_code**"
+msgstr ""
+
+#: ../classes/class_script.rst:76
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_script.rst:76
+msgid "set_source_code(value)"
+msgstr ""
+
+#: ../classes/class_script.rst:78
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_script.rst:78
+msgid "get_source_code()"
+msgstr ""
+
+#: ../classes/class_script.rst:81
+msgid "脚本的源代码，如果源代码不可用，则为空字符串。当设置时，不会自动重新加载类的实现。"
+msgstr ""
+
+#: ../classes/class_script.rst:84
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_script.rst:88
+msgid ":ref:`bool<class_bool>` **can_instance** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:90
+msgid "如果脚本可以实例化，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_script.rst:96
+msgid ":ref:`Script<class_Script>` **get_base_script** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:98
+msgid "返回由该脚本直接继承的脚本。"
+msgstr ""
+
+#: ../classes/class_script.rst:104
+msgid ":ref:`String<class_String>` **get_instance_base_type** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:106
+msgid "返回脚本的基类类型。"
+msgstr ""
+
+#: ../classes/class_script.rst:112
+msgid ":ref:`Variant<class_Variant>` **get_property_default_value** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:114
+msgid "返回指定属性的默认值。"
+msgstr ""
+
+#: ../classes/class_script.rst:120
+msgid ":ref:`Dictionary<class_Dictionary>` **get_script_constant_map** **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:122
+msgid "返回一个包含常量名称及其值的字典。"
+msgstr ""
+
+#: ../classes/class_script.rst:128
+msgid ":ref:`Array<class_Array>` **get_script_method_list** **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:130
+msgid "返回此 ``Script`` 中的方法列表。"
+msgstr ""
+
+#: ../classes/class_script.rst:136
+msgid ":ref:`Array<class_Array>` **get_script_property_list** **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:138
+msgid "返回此 ``Script`` 中的属性列表。"
+msgstr ""
+
+#: ../classes/class_script.rst:144
+msgid ":ref:`Array<class_Array>` **get_script_signal_list** **(** **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:146
+msgid "返回在此 ``Script`` 中定义的用户信号列表。"
+msgstr ""
+
+#: ../classes/class_script.rst:152
+msgid ":ref:`bool<class_bool>` **has_script_signal** **(** :ref:`String<class_String>` signal_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:154
+msgid "如果脚本或基类定义了具有给定名称的信号，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_script.rst:160
+msgid ":ref:`bool<class_bool>` **has_source_code** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:162
+msgid "如果脚本包含非空源代码，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_script.rst:168
+msgid ":ref:`bool<class_bool>` **instance_has** **(** :ref:`Object<class_Object>` base_object **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:170
+msgid "如果 ``base_object`` 是此脚本的实例，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_script.rst:176
+msgid ":ref:`bool<class_bool>` **is_tool** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_script.rst:178
+msgid "如果脚本是工具脚本，则返回 ``true``\\ 。工具脚本可以在编辑器中运行。"
+msgstr ""
+
+#: ../classes/class_script.rst:184
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **reload** **(** :ref:`bool<class_bool>` keep_state=false **)**"
+msgstr ""
+
+#: ../classes/class_script.rst:186
+msgid "重新加载脚本的类的实现。返回一个错误代码。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

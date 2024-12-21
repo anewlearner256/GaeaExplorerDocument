@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_gltfnode.rst:10
+msgid "GLTFNode"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:17
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:20
+#: ../classes/class_gltfnode.rst:24
+#: ../classes/class_gltfnode.rst:28
+#: ../classes/class_gltfnode.rst:30
+#: ../classes/class_gltfnode.rst:32
+#: ../classes/class_gltfnode.rst:38
+#: ../classes/class_gltfnode.rst:40
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:20
+msgid ":ref:`camera<class_GLTFNode_property_camera>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:20
+#: ../classes/class_gltfnode.rst:24
+#: ../classes/class_gltfnode.rst:28
+#: ../classes/class_gltfnode.rst:30
+#: ../classes/class_gltfnode.rst:32
+#: ../classes/class_gltfnode.rst:38
+#: ../classes/class_gltfnode.rst:40
+#: ../classes/class_gltfnode.rst:55
+#: ../classes/class_gltfnode.rst:83
+#: ../classes/class_gltfnode.rst:111
+#: ../classes/class_gltfnode.rst:125
+#: ../classes/class_gltfnode.rst:139
+#: ../classes/class_gltfnode.rst:181
+#: ../classes/class_gltfnode.rst:195
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:22
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:22
+msgid ":ref:`children<class_GLTFNode_property_children>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:22
+#: ../classes/class_gltfnode.rst:69
+msgid "``PoolIntArray(  )``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:24
+msgid ":ref:`height<class_GLTFNode_property_height>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:26
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:26
+msgid ":ref:`joint<class_GLTFNode_property_joint>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:26
+#: ../classes/class_gltfnode.rst:97
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:28
+msgid ":ref:`light<class_GLTFNode_property_light>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:30
+msgid ":ref:`mesh<class_GLTFNode_property_mesh>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:32
+msgid ":ref:`parent<class_GLTFNode_property_parent>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:34
+msgid ":ref:`Quat<class_Quat>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:34
+msgid ":ref:`rotation<class_GLTFNode_property_rotation>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:34
+#: ../classes/class_gltfnode.rst:153
+msgid "``Quat( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:36
+#: ../classes/class_gltfnode.rst:42
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:36
+msgid ":ref:`scale<class_GLTFNode_property_scale>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:36
+#: ../classes/class_gltfnode.rst:167
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:38
+msgid ":ref:`skeleton<class_GLTFNode_property_skeleton>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:40
+msgid ":ref:`skin<class_GLTFNode_property_skin>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:42
+msgid ":ref:`translation<class_GLTFNode_property_translation>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:42
+#: ../classes/class_gltfnode.rst:209
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:44
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:44
+msgid ":ref:`xform<class_GLTFNode_property_xform>`"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:44
+#: ../classes/class_gltfnode.rst:223
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:48
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:52
+msgid ":ref:`int<class_int>` **camera**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:55
+#: ../classes/class_gltfnode.rst:69
+#: ../classes/class_gltfnode.rst:83
+#: ../classes/class_gltfnode.rst:97
+#: ../classes/class_gltfnode.rst:111
+#: ../classes/class_gltfnode.rst:125
+#: ../classes/class_gltfnode.rst:139
+#: ../classes/class_gltfnode.rst:153
+#: ../classes/class_gltfnode.rst:167
+#: ../classes/class_gltfnode.rst:181
+#: ../classes/class_gltfnode.rst:195
+#: ../classes/class_gltfnode.rst:209
+#: ../classes/class_gltfnode.rst:223
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:57
+#: ../classes/class_gltfnode.rst:71
+#: ../classes/class_gltfnode.rst:85
+#: ../classes/class_gltfnode.rst:99
+#: ../classes/class_gltfnode.rst:113
+#: ../classes/class_gltfnode.rst:127
+#: ../classes/class_gltfnode.rst:141
+#: ../classes/class_gltfnode.rst:155
+#: ../classes/class_gltfnode.rst:169
+#: ../classes/class_gltfnode.rst:183
+#: ../classes/class_gltfnode.rst:197
+#: ../classes/class_gltfnode.rst:211
+#: ../classes/class_gltfnode.rst:225
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:57
+msgid "set_camera(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:59
+#: ../classes/class_gltfnode.rst:73
+#: ../classes/class_gltfnode.rst:87
+#: ../classes/class_gltfnode.rst:101
+#: ../classes/class_gltfnode.rst:115
+#: ../classes/class_gltfnode.rst:129
+#: ../classes/class_gltfnode.rst:143
+#: ../classes/class_gltfnode.rst:157
+#: ../classes/class_gltfnode.rst:171
+#: ../classes/class_gltfnode.rst:185
+#: ../classes/class_gltfnode.rst:199
+#: ../classes/class_gltfnode.rst:213
+#: ../classes/class_gltfnode.rst:227
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:59
+msgid "get_camera()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:66
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **children**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:71
+msgid "set_children(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:73
+msgid "get_children()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:80
+msgid ":ref:`int<class_int>` **height**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:85
+msgid "set_height(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:87
+msgid "get_height()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:94
+msgid ":ref:`bool<class_bool>` **joint**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:99
+msgid "set_joint(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:101
+msgid "get_joint()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:108
+msgid ":ref:`int<class_int>` **light**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:113
+msgid "set_light(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:115
+msgid "get_light()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:122
+msgid ":ref:`int<class_int>` **mesh**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:127
+msgid "set_mesh(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:129
+msgid "get_mesh()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:136
+msgid ":ref:`int<class_int>` **parent**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:141
+msgid "set_parent(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:143
+msgid "get_parent()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:150
+msgid ":ref:`Quat<class_Quat>` **rotation**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:155
+msgid "set_rotation(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:157
+msgid "get_rotation()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:164
+msgid ":ref:`Vector3<class_Vector3>` **scale**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:169
+msgid "set_scale(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:171
+msgid "get_scale()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:178
+msgid ":ref:`int<class_int>` **skeleton**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:183
+msgid "set_skeleton(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:185
+msgid "get_skeleton()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:192
+msgid ":ref:`int<class_int>` **skin**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:197
+msgid "set_skin(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:199
+msgid "get_skin()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:206
+msgid ":ref:`Vector3<class_Vector3>` **translation**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:211
+msgid "set_translation(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:213
+msgid "get_translation()"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:220
+msgid ":ref:`Transform<class_Transform>` **xform**"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:225
+msgid "set_xform(value)"
+msgstr ""
+
+#: ../classes/class_gltfnode.rst:227
+msgid "get_xform()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

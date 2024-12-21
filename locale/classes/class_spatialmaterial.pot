@@ -1,0 +1,2942 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_spatialmaterial.rst:10
+msgid "SpatialMaterial"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:12
+msgid "**Inherits:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:14
+msgid "默认的 3D 渲染材质。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:19
+msgid "这提供了一个默认的材质，具有多种渲染功能和属性，无需编写着色器代码。详情请看下面的教程。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:24
+msgid ":doc:`../tutorials/3d/spatial_material`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:30
+#: ../classes/class_spatialmaterial.rst:94
+#: ../classes/class_spatialmaterial.rst:208
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:30
+msgid ":ref:`albedo_color<class_SpatialMaterial_property_albedo_color>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:30
+#: ../classes/class_spatialmaterial.rst:709
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:32
+#: ../classes/class_spatialmaterial.rst:38
+#: ../classes/class_spatialmaterial.rst:46
+#: ../classes/class_spatialmaterial.rst:58
+#: ../classes/class_spatialmaterial.rst:74
+#: ../classes/class_spatialmaterial.rst:76
+#: ../classes/class_spatialmaterial.rst:82
+#: ../classes/class_spatialmaterial.rst:84
+#: ../classes/class_spatialmaterial.rst:104
+#: ../classes/class_spatialmaterial.rst:134
+#: ../classes/class_spatialmaterial.rst:142
+#: ../classes/class_spatialmaterial.rst:184
+#: ../classes/class_spatialmaterial.rst:192
+#: ../classes/class_spatialmaterial.rst:198
+#: ../classes/class_spatialmaterial.rst:206
+#: ../classes/class_spatialmaterial.rst:212
+#: ../classes/class_spatialmaterial.rst:243
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:32
+msgid ":ref:`albedo_texture<class_SpatialMaterial_property_albedo_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:34
+#: ../classes/class_spatialmaterial.rst:42
+#: ../classes/class_spatialmaterial.rst:52
+#: ../classes/class_spatialmaterial.rst:56
+#: ../classes/class_spatialmaterial.rst:72
+#: ../classes/class_spatialmaterial.rst:88
+#: ../classes/class_spatialmaterial.rst:90
+#: ../classes/class_spatialmaterial.rst:98
+#: ../classes/class_spatialmaterial.rst:130
+#: ../classes/class_spatialmaterial.rst:132
+#: ../classes/class_spatialmaterial.rst:140
+#: ../classes/class_spatialmaterial.rst:144
+#: ../classes/class_spatialmaterial.rst:160
+#: ../classes/class_spatialmaterial.rst:162
+#: ../classes/class_spatialmaterial.rst:164
+#: ../classes/class_spatialmaterial.rst:176
+#: ../classes/class_spatialmaterial.rst:182
+#: ../classes/class_spatialmaterial.rst:188
+#: ../classes/class_spatialmaterial.rst:194
+#: ../classes/class_spatialmaterial.rst:196
+#: ../classes/class_spatialmaterial.rst:204
+#: ../classes/class_spatialmaterial.rst:220
+#: ../classes/class_spatialmaterial.rst:228
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:34
+msgid ":ref:`anisotropy<class_SpatialMaterial_property_anisotropy>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:36
+#: ../classes/class_spatialmaterial.rst:40
+#: ../classes/class_spatialmaterial.rst:44
+#: ../classes/class_spatialmaterial.rst:54
+#: ../classes/class_spatialmaterial.rst:60
+#: ../classes/class_spatialmaterial.rst:62
+#: ../classes/class_spatialmaterial.rst:64
+#: ../classes/class_spatialmaterial.rst:66
+#: ../classes/class_spatialmaterial.rst:80
+#: ../classes/class_spatialmaterial.rst:96
+#: ../classes/class_spatialmaterial.rst:100
+#: ../classes/class_spatialmaterial.rst:106
+#: ../classes/class_spatialmaterial.rst:108
+#: ../classes/class_spatialmaterial.rst:110
+#: ../classes/class_spatialmaterial.rst:112
+#: ../classes/class_spatialmaterial.rst:114
+#: ../classes/class_spatialmaterial.rst:116
+#: ../classes/class_spatialmaterial.rst:118
+#: ../classes/class_spatialmaterial.rst:120
+#: ../classes/class_spatialmaterial.rst:122
+#: ../classes/class_spatialmaterial.rst:124
+#: ../classes/class_spatialmaterial.rst:126
+#: ../classes/class_spatialmaterial.rst:128
+#: ../classes/class_spatialmaterial.rst:138
+#: ../classes/class_spatialmaterial.rst:146
+#: ../classes/class_spatialmaterial.rst:158
+#: ../classes/class_spatialmaterial.rst:168
+#: ../classes/class_spatialmaterial.rst:172
+#: ../classes/class_spatialmaterial.rst:178
+#: ../classes/class_spatialmaterial.rst:180
+#: ../classes/class_spatialmaterial.rst:190
+#: ../classes/class_spatialmaterial.rst:202
+#: ../classes/class_spatialmaterial.rst:210
+#: ../classes/class_spatialmaterial.rst:218
+#: ../classes/class_spatialmaterial.rst:226
+#: ../classes/class_spatialmaterial.rst:230
+#: ../classes/class_spatialmaterial.rst:232
+#: ../classes/class_spatialmaterial.rst:239
+#: ../classes/class_spatialmaterial.rst:241
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:36
+msgid ":ref:`anisotropy_enabled<class_SpatialMaterial_property_anisotropy_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:36
+#: ../classes/class_spatialmaterial.rst:40
+#: ../classes/class_spatialmaterial.rst:54
+#: ../classes/class_spatialmaterial.rst:62
+#: ../classes/class_spatialmaterial.rst:80
+#: ../classes/class_spatialmaterial.rst:96
+#: ../classes/class_spatialmaterial.rst:106
+#: ../classes/class_spatialmaterial.rst:108
+#: ../classes/class_spatialmaterial.rst:110
+#: ../classes/class_spatialmaterial.rst:112
+#: ../classes/class_spatialmaterial.rst:114
+#: ../classes/class_spatialmaterial.rst:116
+#: ../classes/class_spatialmaterial.rst:118
+#: ../classes/class_spatialmaterial.rst:120
+#: ../classes/class_spatialmaterial.rst:122
+#: ../classes/class_spatialmaterial.rst:124
+#: ../classes/class_spatialmaterial.rst:126
+#: ../classes/class_spatialmaterial.rst:128
+#: ../classes/class_spatialmaterial.rst:138
+#: ../classes/class_spatialmaterial.rst:146
+#: ../classes/class_spatialmaterial.rst:158
+#: ../classes/class_spatialmaterial.rst:168
+#: ../classes/class_spatialmaterial.rst:178
+#: ../classes/class_spatialmaterial.rst:180
+#: ../classes/class_spatialmaterial.rst:190
+#: ../classes/class_spatialmaterial.rst:202
+#: ../classes/class_spatialmaterial.rst:210
+#: ../classes/class_spatialmaterial.rst:218
+#: ../classes/class_spatialmaterial.rst:226
+#: ../classes/class_spatialmaterial.rst:230
+#: ../classes/class_spatialmaterial.rst:232
+#: ../classes/class_spatialmaterial.rst:753
+#: ../classes/class_spatialmaterial.rst:783
+#: ../classes/class_spatialmaterial.rst:887
+#: ../classes/class_spatialmaterial.rst:947
+#: ../classes/class_spatialmaterial.rst:1077
+#: ../classes/class_spatialmaterial.rst:1199
+#: ../classes/class_spatialmaterial.rst:1271
+#: ../classes/class_spatialmaterial.rst:1287
+#: ../classes/class_spatialmaterial.rst:1303
+#: ../classes/class_spatialmaterial.rst:1319
+#: ../classes/class_spatialmaterial.rst:1335
+#: ../classes/class_spatialmaterial.rst:1351
+#: ../classes/class_spatialmaterial.rst:1367
+#: ../classes/class_spatialmaterial.rst:1383
+#: ../classes/class_spatialmaterial.rst:1399
+#: ../classes/class_spatialmaterial.rst:1417
+#: ../classes/class_spatialmaterial.rst:1433
+#: ../classes/class_spatialmaterial.rst:1449
+#: ../classes/class_spatialmaterial.rst:1529
+#: ../classes/class_spatialmaterial.rst:1591
+#: ../classes/class_spatialmaterial.rst:1691
+#: ../classes/class_spatialmaterial.rst:1769
+#: ../classes/class_spatialmaterial.rst:1841
+#: ../classes/class_spatialmaterial.rst:1857
+#: ../classes/class_spatialmaterial.rst:1929
+#: ../classes/class_spatialmaterial.rst:2021
+#: ../classes/class_spatialmaterial.rst:2079
+#: ../classes/class_spatialmaterial.rst:2141
+#: ../classes/class_spatialmaterial.rst:2205
+#: ../classes/class_spatialmaterial.rst:2237
+#: ../classes/class_spatialmaterial.rst:2253
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:38
+msgid ":ref:`anisotropy_flowmap<class_SpatialMaterial_property_anisotropy_flowmap>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:40
+msgid ":ref:`ao_enabled<class_SpatialMaterial_property_ao_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:42
+msgid ":ref:`ao_light_affect<class_SpatialMaterial_property_ao_light_affect>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:44
+msgid ":ref:`ao_on_uv2<class_SpatialMaterial_property_ao_on_uv2>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:46
+msgid ":ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:48
+#: ../classes/class_spatialmaterial.rst:136
+#: ../classes/class_spatialmaterial.rst:186
+#: ../classes/class_spatialmaterial.rst:200
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:48
+msgid ":ref:`ao_texture_channel<class_SpatialMaterial_property_ao_texture_channel>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:50
+msgid ":ref:`AsyncMode<enum_SpatialMaterial_AsyncMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:50
+msgid ":ref:`async_mode<class_SpatialMaterial_property_async_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:50
+#: ../classes/class_spatialmaterial.rst:92
+#: ../classes/class_spatialmaterial.rst:136
+#: ../classes/class_spatialmaterial.rst:148
+#: ../classes/class_spatialmaterial.rst:150
+#: ../classes/class_spatialmaterial.rst:152
+#: ../classes/class_spatialmaterial.rst:154
+#: ../classes/class_spatialmaterial.rst:156
+#: ../classes/class_spatialmaterial.rst:166
+#: ../classes/class_spatialmaterial.rst:200
+#: ../classes/class_spatialmaterial.rst:855
+#: ../classes/class_spatialmaterial.rst:1169
+#: ../classes/class_spatialmaterial.rst:1513
+#: ../classes/class_spatialmaterial.rst:1607
+#: ../classes/class_spatialmaterial.rst:1625
+#: ../classes/class_spatialmaterial.rst:1643
+#: ../classes/class_spatialmaterial.rst:1659
+#: ../classes/class_spatialmaterial.rst:1675
+#: ../classes/class_spatialmaterial.rst:1753
+#: ../classes/class_spatialmaterial.rst:2005
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:52
+msgid ":ref:`clearcoat<class_SpatialMaterial_property_clearcoat>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:54
+msgid ":ref:`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:56
+msgid ":ref:`clearcoat_gloss<class_SpatialMaterial_property_clearcoat_gloss>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:58
+msgid ":ref:`clearcoat_texture<class_SpatialMaterial_property_clearcoat_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:60
+msgid ":ref:`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:62
+msgid ":ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:64
+msgid ":ref:`depth_flip_binormal<class_SpatialMaterial_property_depth_flip_binormal>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:66
+msgid ":ref:`depth_flip_tangent<class_SpatialMaterial_property_depth_flip_tangent>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:68
+#: ../classes/class_spatialmaterial.rst:70
+#: ../classes/class_spatialmaterial.rst:170
+#: ../classes/class_spatialmaterial.rst:174
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:68
+msgid ":ref:`depth_max_layers<class_SpatialMaterial_property_depth_max_layers>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:70
+msgid ":ref:`depth_min_layers<class_SpatialMaterial_property_depth_min_layers>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:72
+msgid ":ref:`depth_scale<class_SpatialMaterial_property_depth_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:74
+msgid ":ref:`depth_texture<class_SpatialMaterial_property_depth_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:76
+msgid ":ref:`detail_albedo<class_SpatialMaterial_property_detail_albedo>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:78
+#: ../classes/class_spatialmaterial.rst:150
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:78
+msgid ":ref:`detail_blend_mode<class_SpatialMaterial_property_detail_blend_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:80
+msgid ":ref:`detail_enabled<class_SpatialMaterial_property_detail_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:82
+msgid ":ref:`detail_mask<class_SpatialMaterial_property_detail_mask>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:84
+msgid ":ref:`detail_normal<class_SpatialMaterial_property_detail_normal>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:86
+msgid ":ref:`DetailUV<enum_SpatialMaterial_DetailUV>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:86
+msgid ":ref:`detail_uv_layer<class_SpatialMaterial_property_detail_uv_layer>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:88
+msgid ":ref:`distance_fade_max_distance<class_SpatialMaterial_property_distance_fade_max_distance>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:90
+msgid ":ref:`distance_fade_min_distance<class_SpatialMaterial_property_distance_fade_min_distance>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:92
+msgid ":ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:92
+msgid ":ref:`distance_fade_mode<class_SpatialMaterial_property_distance_fade_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:94
+msgid ":ref:`emission<class_SpatialMaterial_property_emission>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:96
+msgid ":ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:98
+msgid ":ref:`emission_energy<class_SpatialMaterial_property_emission_energy>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:100
+msgid ":ref:`emission_on_uv2<class_SpatialMaterial_property_emission_on_uv2>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:102
+msgid ":ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:102
+msgid ":ref:`emission_operator<class_SpatialMaterial_property_emission_operator>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:104
+msgid ":ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:106
+msgid ":ref:`flags_albedo_tex_force_srgb<class_SpatialMaterial_property_flags_albedo_tex_force_srgb>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:108
+msgid ":ref:`flags_disable_ambient_light<class_SpatialMaterial_property_flags_disable_ambient_light>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:110
+msgid ":ref:`flags_do_not_receive_shadows<class_SpatialMaterial_property_flags_do_not_receive_shadows>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:112
+msgid ":ref:`flags_ensure_correct_normals<class_SpatialMaterial_property_flags_ensure_correct_normals>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:114
+msgid ":ref:`flags_fixed_size<class_SpatialMaterial_property_flags_fixed_size>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:116
+msgid ":ref:`flags_no_depth_test<class_SpatialMaterial_property_flags_no_depth_test>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:118
+msgid ":ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:120
+msgid ":ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:122
+msgid ":ref:`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:124
+msgid ":ref:`flags_use_shadow_to_opacity<class_SpatialMaterial_property_flags_use_shadow_to_opacity>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:126
+msgid ":ref:`flags_vertex_lighting<class_SpatialMaterial_property_flags_vertex_lighting>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:128
+msgid ":ref:`flags_world_triplanar<class_SpatialMaterial_property_flags_world_triplanar>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:130
+msgid ":ref:`metallic<class_SpatialMaterial_property_metallic>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:130
+#: ../classes/class_spatialmaterial.rst:1465
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:132
+msgid ":ref:`metallic_specular<class_SpatialMaterial_property_metallic_specular>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:132
+#: ../classes/class_spatialmaterial.rst:1481
+msgid "``0.5``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:134
+msgid ":ref:`metallic_texture<class_SpatialMaterial_property_metallic_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:136
+msgid ":ref:`metallic_texture_channel<class_SpatialMaterial_property_metallic_texture_channel>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:138
+msgid ":ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:140
+msgid ":ref:`normal_scale<class_SpatialMaterial_property_normal_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:142
+msgid ":ref:`normal_texture<class_SpatialMaterial_property_normal_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:144
+msgid ":ref:`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:146
+msgid ":ref:`params_billboard_keep_scale<class_SpatialMaterial_property_params_billboard_keep_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:148
+msgid ":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:148
+msgid ":ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:150
+msgid ":ref:`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:152
+msgid ":ref:`CullMode<enum_SpatialMaterial_CullMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:152
+msgid ":ref:`params_cull_mode<class_SpatialMaterial_property_params_cull_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:154
+msgid ":ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:154
+msgid ":ref:`params_depth_draw_mode<class_SpatialMaterial_property_params_depth_draw_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:156
+msgid ":ref:`DiffuseMode<enum_SpatialMaterial_DiffuseMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:156
+msgid ":ref:`params_diffuse_mode<class_SpatialMaterial_property_params_diffuse_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:158
+msgid ":ref:`params_grow<class_SpatialMaterial_property_params_grow>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:160
+msgid ":ref:`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:162
+msgid ":ref:`params_line_width<class_SpatialMaterial_property_params_line_width>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:162
+#: ../classes/class_spatialmaterial.rst:164
+#: ../classes/class_spatialmaterial.rst:196
+#: ../classes/class_spatialmaterial.rst:220
+#: ../classes/class_spatialmaterial.rst:228
+#: ../classes/class_spatialmaterial.rst:1721
+#: ../classes/class_spatialmaterial.rst:1737
+#: ../classes/class_spatialmaterial.rst:1975
+#: ../classes/class_spatialmaterial.rst:2157
+#: ../classes/class_spatialmaterial.rst:2221
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:164
+msgid ":ref:`params_point_size<class_SpatialMaterial_property_params_point_size>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:166
+msgid ":ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:166
+msgid ":ref:`params_specular_mode<class_SpatialMaterial_property_params_specular_mode>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:168
+msgid ":ref:`params_use_alpha_scissor<class_SpatialMaterial_property_params_use_alpha_scissor>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:170
+msgid ":ref:`particles_anim_h_frames<class_SpatialMaterial_property_particles_anim_h_frames>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:172
+msgid ":ref:`particles_anim_loop<class_SpatialMaterial_property_particles_anim_loop>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:174
+msgid ":ref:`particles_anim_v_frames<class_SpatialMaterial_property_particles_anim_v_frames>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:176
+msgid ":ref:`proximity_fade_distance<class_SpatialMaterial_property_proximity_fade_distance>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:178
+msgid ":ref:`proximity_fade_enable<class_SpatialMaterial_property_proximity_fade_enable>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:180
+msgid ":ref:`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:182
+msgid ":ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:184
+msgid ":ref:`refraction_texture<class_SpatialMaterial_property_refraction_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:186
+msgid ":ref:`refraction_texture_channel<class_SpatialMaterial_property_refraction_texture_channel>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:188
+msgid ":ref:`rim<class_SpatialMaterial_property_rim>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:190
+msgid ":ref:`rim_enabled<class_SpatialMaterial_property_rim_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:192
+msgid ":ref:`rim_texture<class_SpatialMaterial_property_rim_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:194
+msgid ":ref:`rim_tint<class_SpatialMaterial_property_rim_tint>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:196
+msgid ":ref:`roughness<class_SpatialMaterial_property_roughness>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:198
+msgid ":ref:`roughness_texture<class_SpatialMaterial_property_roughness_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:200
+msgid ":ref:`roughness_texture_channel<class_SpatialMaterial_property_roughness_texture_channel>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:202
+msgid ":ref:`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:204
+msgid ":ref:`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:206
+msgid ":ref:`subsurf_scatter_texture<class_SpatialMaterial_property_subsurf_scatter_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:208
+msgid ":ref:`transmission<class_SpatialMaterial_property_transmission>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:210
+msgid ":ref:`transmission_enabled<class_SpatialMaterial_property_transmission_enabled>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:212
+msgid ":ref:`transmission_texture<class_SpatialMaterial_property_transmission_texture>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:214
+#: ../classes/class_spatialmaterial.rst:216
+#: ../classes/class_spatialmaterial.rst:222
+#: ../classes/class_spatialmaterial.rst:224
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:214
+msgid ":ref:`uv1_offset<class_SpatialMaterial_property_uv1_offset>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:214
+#: ../classes/class_spatialmaterial.rst:222
+#: ../classes/class_spatialmaterial.rst:2109
+#: ../classes/class_spatialmaterial.rst:2173
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:216
+msgid ":ref:`uv1_scale<class_SpatialMaterial_property_uv1_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:216
+#: ../classes/class_spatialmaterial.rst:224
+#: ../classes/class_spatialmaterial.rst:2125
+#: ../classes/class_spatialmaterial.rst:2189
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:218
+msgid ":ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:220
+msgid ":ref:`uv1_triplanar_sharpness<class_SpatialMaterial_property_uv1_triplanar_sharpness>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:222
+msgid ":ref:`uv2_offset<class_SpatialMaterial_property_uv2_offset>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:224
+msgid ":ref:`uv2_scale<class_SpatialMaterial_property_uv2_scale>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:226
+msgid ":ref:`uv2_triplanar<class_SpatialMaterial_property_uv2_triplanar>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:228
+msgid ":ref:`uv2_triplanar_sharpness<class_SpatialMaterial_property_uv2_triplanar_sharpness>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:230
+msgid ":ref:`vertex_color_is_srgb<class_SpatialMaterial_property_vertex_color_is_srgb>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:232
+msgid ":ref:`vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:236
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:239
+msgid ":ref:`get_feature<class_SpatialMaterial_method_get_feature>` **(** :ref:`Feature<enum_SpatialMaterial_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:241
+msgid ":ref:`get_flag<class_SpatialMaterial_method_get_flag>` **(** :ref:`Flags<enum_SpatialMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:243
+msgid ":ref:`get_texture<class_SpatialMaterial_method_get_texture>` **(** :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:245
+#: ../classes/class_spatialmaterial.rst:247
+#: ../classes/class_spatialmaterial.rst:249
+msgid "void"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:245
+msgid ":ref:`set_feature<class_SpatialMaterial_method_set_feature>` **(** :ref:`Feature<enum_SpatialMaterial_Feature>` feature, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:247
+msgid ":ref:`set_flag<class_SpatialMaterial_method_set_flag>` **(** :ref:`Flags<enum_SpatialMaterial_Flags>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:249
+msgid ":ref:`set_texture<class_SpatialMaterial_method_set_texture>` **(** :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:253
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:291
+msgid "enum **TextureParam**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:293
+msgid "**TEXTURE_ALBEDO** = **0** --- 指定每个像素颜色的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:295
+msgid "**TEXTURE_METALLIC** = **1** --- 指定每个像素金属值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:297
+msgid "**TEXTURE_ROUGHNESS** = **2** --- 指定每个像素粗糙度值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:299
+msgid "**TEXTURE_EMISSION** = **3** --- 指定每个像素发射颜色的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:301
+msgid "**TEXTURE_NORMAL** = **4** --- 指定每像素法向量的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:303
+msgid "**TEXTURE_RIM** = **5** --- 指定每个像素边缘值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:305
+msgid "**TEXTURE_CLEARCOAT** = **6** --- 指定每像素清漆值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:307
+msgid "**TEXTURE_FLOWMAP** = **7** --- 指定每个像素流图方向的纹理，用于\\ :ref:`anisotropy<class_SpatialMaterial_property_anisotropy>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:309
+msgid "**TEXTURE_AMBIENT_OCCLUSION** = **8** --- 指定每个像素环境遮挡值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:311
+msgid "**TEXTURE_DEPTH** = **9** --- 指定每个像素深度的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:313
+msgid "**TEXTURE_SUBSURFACE_SCATTERING** = **10** --- 指定每个像素的亚表面散射的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:315
+msgid "**TEXTURE_TRANSMISSION** = **11** --- 指定每个像素传输颜色的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:317
+msgid "**TEXTURE_REFRACTION** = **12** --- 指定每个像素折射强度的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:319
+msgid "**TEXTURE_DETAIL_MASK** = **13** --- 指定每像素细节蒙版混合值的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:321
+msgid "**TEXTURE_DETAIL_ALBEDO** = **14** --- 指定每个像素细节颜色的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:323
+msgid "**TEXTURE_DETAIL_NORMAL** = **15** --- 指定每个像素细节法线的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:325
+msgid "**TEXTURE_MAX** = **16** --- 表示\\ :ref:`TextureParam<enum_SpatialMaterial_TextureParam>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:335
+msgid "enum **DetailUV**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:337
+msgid "**DETAIL_UV_1** = **0** --- 使用\\ ``UV``\\ 与细节纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:339
+msgid "**DETAIL_UV_2** = **1** --- 使用\\ ``UV2``\\ 与细节纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:371
+msgid "enum **Feature**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:373
+msgid "**FEATURE_TRANSPARENT** = **0** --- 用于设置 :ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>` 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:375
+msgid "**FEATURE_EMISSION** = **1** --- 用于设置\\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:377
+msgid "**FEATURE_NORMAL_MAPPING** = **2** --- 用于设置\\ :ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:379
+msgid "**FEATURE_RIM** = **3** --- 用于设置\\ :ref:`rim_enabled<class_SpatialMaterial_property_rim_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:381
+msgid "**FEATURE_CLEARCOAT** = **4** --- 用于设置\\ :ref:`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:383
+msgid "**FEATURE_ANISOTROPY** = **5** --- 用于设置 :ref:`anisotropy_enabled<class_SpatialMaterial_property_anisotropy_enabled>` 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:385
+msgid "**FEATURE_AMBIENT_OCCLUSION** = **6** --- 用于设置\\ :ref:`ao_enabled<class_SpatialMaterial_property_ao_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:387
+msgid "**FEATURE_DEPTH_MAPPING** = **7** --- 用于设置 :ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>` 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:389
+msgid "**FEATURE_SUBSURACE_SCATTERING** = **8** --- 用于设置\\ :ref:`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:391
+msgid "**FEATURE_TRANSMISSION** = **9** --- 用于设置 :ref:`transmission_enabled<class_SpatialMaterial_property_transmission_enabled>` 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:393
+msgid "**FEATURE_REFRACTION** = **10** --- 用于设置\\ :ref:`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:395
+msgid "**FEATURE_DETAIL** = **11** --- 用于设置\\ :ref:`detail_enabled<class_SpatialMaterial_property_detail_enabled>`\\ 的常量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:397
+msgid "**FEATURE_MAX** = **12** --- 表示\\ :ref:`Feature<enum_SpatialMaterial_Feature>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:411
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:413
+msgid "**BLEND_MODE_MIX** = **0** --- 默认的混合模式。根据对象的alpha值，在背景上混合对象的颜色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:415
+msgid "**BLEND_MODE_ADD** = **1** --- 对象的颜色被添加到背景中。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:417
+msgid "**BLEND_MODE_SUB** = **2** --- 从背景中减去对象的颜色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:419
+msgid "**BLEND_MODE_MUL** = **3** --- 对象的颜色与背景相乘。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:433
+msgid "enum **DepthDrawMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:435
+msgid "**DEPTH_DRAW_OPAQUE_ONLY** = **0** --- 默认的深度绘制模式。深度只针对不透明的对象绘制。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:437
+msgid "**DEPTH_DRAW_ALWAYS** = **1** --- 不透明和透明的对象都要计算深度绘制。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:439
+msgid "**DEPTH_DRAW_DISABLED** = **2** --- 没有深度的绘制。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:441
+msgid "**DEPTH_DRAW_ALPHA_OPAQUE_PREPASS** = **3** --- 对于透明对象，首先对不透明部分进行不透明传递，然后绘制透明度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:453
+msgid "enum **CullMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:455
+msgid "**CULL_BACK** = **0** --- 默认的裁剪模式。当不可见时，对象的背面会被剔除。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:457
+msgid "**CULL_FRONT** = **1** --- 物体的正面不可见时，就会被剔除。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:459
+msgid "**CULL_DISABLED** = **2** --- 不进行剔除。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:505
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:507
+msgid "**FLAG_UNSHADED** = **0** --- 物体上不使用照明。颜色直接来自 ``ALBEDO``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:509
+msgid "**FLAG_USE_VERTEX_LIGHTING** = **1** --- 光照是按顶点计算的，而不是按像素计算。这可用于以牺牲质量为代价提高着色器的速度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:511
+msgid "**FLAG_DISABLE_DEPTH_TEST** = **2** --- 禁用深度测试，所以这个对象被画在所有其他对象的上面。但是，在绘制顺序中，在它之后绘制的对象可能会覆盖它。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:513
+msgid "**FLAG_ALBEDO_FROM_VERTEX_COLOR** = **3** --- 将 ``ALBEDO`` 设置为网格中指定的每顶点颜色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:515
+msgid "**FLAG_SRGB_VERTEX_COLOR** = **4** --- 顶点颜色在sRGB空间，需要转成线性。仅适用于 GLES3 渲染器。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:517
+msgid "**FLAG_USE_POINT_SIZE** = **5** --- 使用点大小来改变原始点的大小。同时改变反射率纹理查找，使用 ``POINT_COORD`` 而不是 ``UV``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:519
+msgid "**FLAG_FIXED_SIZE** = **6** --- 按深度缩放对象，使其在屏幕上显示的大小始终相同。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:521
+msgid "**FLAG_BILLBOARD_KEEP_SCALE** = **7** --- 着色器将保持为网格的缩放设置。否则，当做广告牌时，缩放会丢失。仅在 :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>` 为 :ref:`BILLBOARD_ENABLED<class_SpatialMaterial_constant_BILLBOARD_ENABLED>` 时适用。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:523
+msgid "**FLAG_UV1_USE_TRIPLANAR** = **8** --- 对所有通常会使用\\ ``UV``\\ 的纹理查找使用三平面纹理查找。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:525
+msgid "**FLAG_UV2_USE_TRIPLANAR** = **9** --- 对所有通常会使用\\ ``UV2``\\ 的纹理查找使用三平面纹理查找。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:527
+msgid "**FLAG_AO_ON_UV2** = **11** --- 使用\\ ``UV2``\\ 坐标从\\ :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\\ 中查找。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:529
+msgid "**FLAG_EMISSION_ON_UV2** = **12** --- 使用\\ ``UV2``\\ 坐标，从\\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\\ 中查找。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:531
+msgid "**FLAG_USE_ALPHA_SCISSOR** = **13** --- 使用alpha剪刀。由 :ref:`params_use_alpha_scissor<class_SpatialMaterial_property_params_use_alpha_scissor>` 设置。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:533
+msgid "**FLAG_TRIPLANAR_USE_WORLD** = **10** --- 在三平面纹理查找中使用世界坐标而不是局部坐标。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:535
+msgid "**FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = **14** --- 强制着色器将反射率从sRGB空间转换为线性空间。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:537
+msgid "**FLAG_DONT_RECEIVE_SHADOWS** = **15** --- 禁用从其他对象接收阴影。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:539
+msgid "**FLAG_DISABLE_AMBIENT_LIGHT** = **17** --- 禁用接收环境光。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:541
+msgid "**FLAG_ENSURE_CORRECT_NORMALS** = **16** --- 确保法线显示正确，即使缩放比例不均匀。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:543
+msgid "**FLAG_USE_SHADOW_TO_OPACITY** = **18** --- 启用阴影到不透明度功能。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:545
+msgid "**FLAG_MAX** = **19** --- 表示\\ :ref:`Flags<enum_SpatialMaterial_Flags>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:561
+msgid "enum **DiffuseMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:563
+msgid "**DIFFUSE_BURLEY** = **0** --- 默认的漫反射散射算法。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:565
+msgid "**DIFFUSE_LAMBERT** = **1** --- 漫散射忽略了粗糙度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:567
+msgid "**DIFFUSE_LAMBERT_WRAP** = **2** --- 当粗糙度增加时，将Lambert延伸到90度以上。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:569
+msgid "**DIFFUSE_OREN_NAYAR** = **3** --- 尝试使用粗糙度来模拟微表面处理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:571
+msgid "**DIFFUSE_TOON** = **4** --- 使用硬切口进行照明，平滑度受粗糙度影响。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:587
+msgid "enum **SpecularMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:589
+msgid "**SPECULAR_SCHLICK_GGX** = **0** --- 默认镜面反射Blob。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:591
+msgid "**SPECULAR_BLINN** = **1** --- 旧的镜面算法，为了兼容而加入。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:593
+msgid "**SPECULAR_PHONG** = **2** --- 旧的镜面算法，为了兼容而加入。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:595
+msgid "**SPECULAR_TOON** = **3** --- 基于粗糙度更改大小的 Toon 斑点。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:597
+msgid "**SPECULAR_DISABLED** = **4** --- 无镜面斑点。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:611
+msgid "enum **BillboardMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:613
+msgid "**BILLBOARD_DISABLED** = **0** --- 广告牌模式被禁用。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:615
+msgid "**BILLBOARD_ENABLED** = **1** --- 对象的Z轴将始终面向相机。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:617
+msgid "**BILLBOARD_FIXED_Y** = **2** --- 对象的X轴将始终面向相机。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:619
+msgid "**BILLBOARD_PARTICLES** = **3** --- 当分配给\\ :ref:`Particles<class_Particles>`\\ 和\\ :ref:`CPUParticles<class_CPUParticles>`\\ 节点时用于粒子系统。启用\\ ``particles_anim_*``\\ 属性。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:621
+msgid "为了播放动画，\\ :ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>`\\ 或\\ :ref:`CPUParticles.anim_speed<class_CPUParticles_property_anim_speed>`\\ 也应该被设置为正值。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:637
+msgid "enum **TextureChannel**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:639
+msgid "**TEXTURE_CHANNEL_RED** = **0** --- 用来读取纹理的红色通道。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:641
+msgid "**TEXTURE_CHANNEL_GREEN** = **1** --- 用来读取纹理的绿色通道。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:643
+msgid "**TEXTURE_CHANNEL_BLUE** = **2** --- 用来读取纹理的蓝色通道。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:645
+msgid "**TEXTURE_CHANNEL_ALPHA** = **3** --- 用来读取纹理的alpha通道。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:647
+msgid "**TEXTURE_CHANNEL_GRAYSCALE** = **4** --- 当前未使用."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:657
+msgid "enum **EmissionOperator**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:659
+msgid "**EMISSION_OP_ADD** = **0** --- 将发射颜色添加到发射纹理的颜色上。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:661
+msgid "**EMISSION_OP_MULTIPLY** = **1** --- 将发射颜色乘以发射纹理的颜色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:675
+msgid "enum **DistanceFadeMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:677
+msgid "**DISTANCE_FADE_DISABLED** = **0** --- 不要使用距离淡化。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:679
+msgid "**DISTANCE_FADE_PIXEL_ALPHA** = **1** --- 根据每个像素与相机的距离，使用alpha通道平滑地淡化对象。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:681
+msgid "**DISTANCE_FADE_PIXEL_DITHER** = **2** --- 根据每个像素与相机的距离，使用抖动方法平滑地淡化对象。抖动会根据设定的模式丢弃像素，在不启用透明的情况下平滑淡化。在某些硬件上，这比 :ref:`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>` 更快。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:683
+msgid "**DISTANCE_FADE_OBJECT_DITHER** = **3** --- 根据对象与相机的距离，使用抖动的方法平滑地淡化对象。抖动根据设定的模式丢弃像素，在不启用透明度的情况下平滑淡化。在某些硬件上，这可能比\\ :ref:`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>`\\ 更快。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:693
+msgid "enum **AsyncMode**:"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:695
+msgid "**ASYNC_MODE_VISIBLE** = **0** --- The real conditioned shader needed on each situation will be sent for background compilation. In the meantime, a very complex shader that adapts to every situation will be used (\"ubershader\"). This ubershader is much slower to render, but will keep the game running without stalling to compile. Once shader compilation is done, the ubershader is replaced by the traditional optimized shader."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:697
+msgid "**ASYNC_MODE_HIDDEN** = **1** --- Anything with this material applied won't be rendered while this material's shader is being compiled."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:699
+msgid "This is useful for optimization, in cases where the visuals won't suffer from having certain non-essential elements missing during the short time their shaders are being compiled."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:702
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:706
+msgid ":ref:`Color<class_Color>` **albedo_color**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:709
+#: ../classes/class_spatialmaterial.rst:753
+#: ../classes/class_spatialmaterial.rst:783
+#: ../classes/class_spatialmaterial.rst:855
+#: ../classes/class_spatialmaterial.rst:887
+#: ../classes/class_spatialmaterial.rst:947
+#: ../classes/class_spatialmaterial.rst:1077
+#: ../classes/class_spatialmaterial.rst:1169
+#: ../classes/class_spatialmaterial.rst:1199
+#: ../classes/class_spatialmaterial.rst:1271
+#: ../classes/class_spatialmaterial.rst:1287
+#: ../classes/class_spatialmaterial.rst:1303
+#: ../classes/class_spatialmaterial.rst:1319
+#: ../classes/class_spatialmaterial.rst:1335
+#: ../classes/class_spatialmaterial.rst:1351
+#: ../classes/class_spatialmaterial.rst:1367
+#: ../classes/class_spatialmaterial.rst:1383
+#: ../classes/class_spatialmaterial.rst:1399
+#: ../classes/class_spatialmaterial.rst:1417
+#: ../classes/class_spatialmaterial.rst:1433
+#: ../classes/class_spatialmaterial.rst:1449
+#: ../classes/class_spatialmaterial.rst:1465
+#: ../classes/class_spatialmaterial.rst:1481
+#: ../classes/class_spatialmaterial.rst:1513
+#: ../classes/class_spatialmaterial.rst:1529
+#: ../classes/class_spatialmaterial.rst:1591
+#: ../classes/class_spatialmaterial.rst:1607
+#: ../classes/class_spatialmaterial.rst:1625
+#: ../classes/class_spatialmaterial.rst:1643
+#: ../classes/class_spatialmaterial.rst:1659
+#: ../classes/class_spatialmaterial.rst:1675
+#: ../classes/class_spatialmaterial.rst:1691
+#: ../classes/class_spatialmaterial.rst:1721
+#: ../classes/class_spatialmaterial.rst:1737
+#: ../classes/class_spatialmaterial.rst:1753
+#: ../classes/class_spatialmaterial.rst:1769
+#: ../classes/class_spatialmaterial.rst:1841
+#: ../classes/class_spatialmaterial.rst:1857
+#: ../classes/class_spatialmaterial.rst:1929
+#: ../classes/class_spatialmaterial.rst:1975
+#: ../classes/class_spatialmaterial.rst:2005
+#: ../classes/class_spatialmaterial.rst:2021
+#: ../classes/class_spatialmaterial.rst:2079
+#: ../classes/class_spatialmaterial.rst:2109
+#: ../classes/class_spatialmaterial.rst:2125
+#: ../classes/class_spatialmaterial.rst:2141
+#: ../classes/class_spatialmaterial.rst:2157
+#: ../classes/class_spatialmaterial.rst:2173
+#: ../classes/class_spatialmaterial.rst:2189
+#: ../classes/class_spatialmaterial.rst:2205
+#: ../classes/class_spatialmaterial.rst:2221
+#: ../classes/class_spatialmaterial.rst:2237
+#: ../classes/class_spatialmaterial.rst:2253
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:711
+#: ../classes/class_spatialmaterial.rst:725
+#: ../classes/class_spatialmaterial.rst:739
+#: ../classes/class_spatialmaterial.rst:755
+#: ../classes/class_spatialmaterial.rst:769
+#: ../classes/class_spatialmaterial.rst:785
+#: ../classes/class_spatialmaterial.rst:799
+#: ../classes/class_spatialmaterial.rst:813
+#: ../classes/class_spatialmaterial.rst:827
+#: ../classes/class_spatialmaterial.rst:841
+#: ../classes/class_spatialmaterial.rst:857
+#: ../classes/class_spatialmaterial.rst:873
+#: ../classes/class_spatialmaterial.rst:889
+#: ../classes/class_spatialmaterial.rst:905
+#: ../classes/class_spatialmaterial.rst:919
+#: ../classes/class_spatialmaterial.rst:933
+#: ../classes/class_spatialmaterial.rst:949
+#: ../classes/class_spatialmaterial.rst:965
+#: ../classes/class_spatialmaterial.rst:979
+#: ../classes/class_spatialmaterial.rst:993
+#: ../classes/class_spatialmaterial.rst:1007
+#: ../classes/class_spatialmaterial.rst:1021
+#: ../classes/class_spatialmaterial.rst:1035
+#: ../classes/class_spatialmaterial.rst:1049
+#: ../classes/class_spatialmaterial.rst:1063
+#: ../classes/class_spatialmaterial.rst:1079
+#: ../classes/class_spatialmaterial.rst:1093
+#: ../classes/class_spatialmaterial.rst:1107
+#: ../classes/class_spatialmaterial.rst:1123
+#: ../classes/class_spatialmaterial.rst:1137
+#: ../classes/class_spatialmaterial.rst:1153
+#: ../classes/class_spatialmaterial.rst:1171
+#: ../classes/class_spatialmaterial.rst:1185
+#: ../classes/class_spatialmaterial.rst:1201
+#: ../classes/class_spatialmaterial.rst:1215
+#: ../classes/class_spatialmaterial.rst:1229
+#: ../classes/class_spatialmaterial.rst:1243
+#: ../classes/class_spatialmaterial.rst:1257
+#: ../classes/class_spatialmaterial.rst:1273
+#: ../classes/class_spatialmaterial.rst:1289
+#: ../classes/class_spatialmaterial.rst:1305
+#: ../classes/class_spatialmaterial.rst:1321
+#: ../classes/class_spatialmaterial.rst:1337
+#: ../classes/class_spatialmaterial.rst:1353
+#: ../classes/class_spatialmaterial.rst:1369
+#: ../classes/class_spatialmaterial.rst:1385
+#: ../classes/class_spatialmaterial.rst:1401
+#: ../classes/class_spatialmaterial.rst:1419
+#: ../classes/class_spatialmaterial.rst:1435
+#: ../classes/class_spatialmaterial.rst:1451
+#: ../classes/class_spatialmaterial.rst:1467
+#: ../classes/class_spatialmaterial.rst:1483
+#: ../classes/class_spatialmaterial.rst:1499
+#: ../classes/class_spatialmaterial.rst:1515
+#: ../classes/class_spatialmaterial.rst:1531
+#: ../classes/class_spatialmaterial.rst:1545
+#: ../classes/class_spatialmaterial.rst:1559
+#: ../classes/class_spatialmaterial.rst:1577
+#: ../classes/class_spatialmaterial.rst:1593
+#: ../classes/class_spatialmaterial.rst:1609
+#: ../classes/class_spatialmaterial.rst:1627
+#: ../classes/class_spatialmaterial.rst:1645
+#: ../classes/class_spatialmaterial.rst:1661
+#: ../classes/class_spatialmaterial.rst:1677
+#: ../classes/class_spatialmaterial.rst:1693
+#: ../classes/class_spatialmaterial.rst:1707
+#: ../classes/class_spatialmaterial.rst:1723
+#: ../classes/class_spatialmaterial.rst:1739
+#: ../classes/class_spatialmaterial.rst:1755
+#: ../classes/class_spatialmaterial.rst:1771
+#: ../classes/class_spatialmaterial.rst:1785
+#: ../classes/class_spatialmaterial.rst:1799
+#: ../classes/class_spatialmaterial.rst:1813
+#: ../classes/class_spatialmaterial.rst:1827
+#: ../classes/class_spatialmaterial.rst:1843
+#: ../classes/class_spatialmaterial.rst:1859
+#: ../classes/class_spatialmaterial.rst:1873
+#: ../classes/class_spatialmaterial.rst:1887
+#: ../classes/class_spatialmaterial.rst:1901
+#: ../classes/class_spatialmaterial.rst:1915
+#: ../classes/class_spatialmaterial.rst:1931
+#: ../classes/class_spatialmaterial.rst:1947
+#: ../classes/class_spatialmaterial.rst:1961
+#: ../classes/class_spatialmaterial.rst:1977
+#: ../classes/class_spatialmaterial.rst:1991
+#: ../classes/class_spatialmaterial.rst:2007
+#: ../classes/class_spatialmaterial.rst:2023
+#: ../classes/class_spatialmaterial.rst:2037
+#: ../classes/class_spatialmaterial.rst:2051
+#: ../classes/class_spatialmaterial.rst:2065
+#: ../classes/class_spatialmaterial.rst:2081
+#: ../classes/class_spatialmaterial.rst:2095
+#: ../classes/class_spatialmaterial.rst:2111
+#: ../classes/class_spatialmaterial.rst:2127
+#: ../classes/class_spatialmaterial.rst:2143
+#: ../classes/class_spatialmaterial.rst:2159
+#: ../classes/class_spatialmaterial.rst:2175
+#: ../classes/class_spatialmaterial.rst:2191
+#: ../classes/class_spatialmaterial.rst:2207
+#: ../classes/class_spatialmaterial.rst:2223
+#: ../classes/class_spatialmaterial.rst:2239
+#: ../classes/class_spatialmaterial.rst:2255
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:711
+msgid "set_albedo(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:713
+#: ../classes/class_spatialmaterial.rst:727
+#: ../classes/class_spatialmaterial.rst:741
+#: ../classes/class_spatialmaterial.rst:757
+#: ../classes/class_spatialmaterial.rst:771
+#: ../classes/class_spatialmaterial.rst:787
+#: ../classes/class_spatialmaterial.rst:801
+#: ../classes/class_spatialmaterial.rst:815
+#: ../classes/class_spatialmaterial.rst:829
+#: ../classes/class_spatialmaterial.rst:843
+#: ../classes/class_spatialmaterial.rst:859
+#: ../classes/class_spatialmaterial.rst:875
+#: ../classes/class_spatialmaterial.rst:891
+#: ../classes/class_spatialmaterial.rst:907
+#: ../classes/class_spatialmaterial.rst:921
+#: ../classes/class_spatialmaterial.rst:935
+#: ../classes/class_spatialmaterial.rst:951
+#: ../classes/class_spatialmaterial.rst:967
+#: ../classes/class_spatialmaterial.rst:981
+#: ../classes/class_spatialmaterial.rst:995
+#: ../classes/class_spatialmaterial.rst:1009
+#: ../classes/class_spatialmaterial.rst:1023
+#: ../classes/class_spatialmaterial.rst:1037
+#: ../classes/class_spatialmaterial.rst:1051
+#: ../classes/class_spatialmaterial.rst:1065
+#: ../classes/class_spatialmaterial.rst:1081
+#: ../classes/class_spatialmaterial.rst:1095
+#: ../classes/class_spatialmaterial.rst:1109
+#: ../classes/class_spatialmaterial.rst:1125
+#: ../classes/class_spatialmaterial.rst:1139
+#: ../classes/class_spatialmaterial.rst:1155
+#: ../classes/class_spatialmaterial.rst:1173
+#: ../classes/class_spatialmaterial.rst:1187
+#: ../classes/class_spatialmaterial.rst:1203
+#: ../classes/class_spatialmaterial.rst:1217
+#: ../classes/class_spatialmaterial.rst:1231
+#: ../classes/class_spatialmaterial.rst:1245
+#: ../classes/class_spatialmaterial.rst:1259
+#: ../classes/class_spatialmaterial.rst:1275
+#: ../classes/class_spatialmaterial.rst:1291
+#: ../classes/class_spatialmaterial.rst:1307
+#: ../classes/class_spatialmaterial.rst:1323
+#: ../classes/class_spatialmaterial.rst:1339
+#: ../classes/class_spatialmaterial.rst:1355
+#: ../classes/class_spatialmaterial.rst:1371
+#: ../classes/class_spatialmaterial.rst:1387
+#: ../classes/class_spatialmaterial.rst:1403
+#: ../classes/class_spatialmaterial.rst:1421
+#: ../classes/class_spatialmaterial.rst:1437
+#: ../classes/class_spatialmaterial.rst:1453
+#: ../classes/class_spatialmaterial.rst:1469
+#: ../classes/class_spatialmaterial.rst:1485
+#: ../classes/class_spatialmaterial.rst:1501
+#: ../classes/class_spatialmaterial.rst:1517
+#: ../classes/class_spatialmaterial.rst:1533
+#: ../classes/class_spatialmaterial.rst:1547
+#: ../classes/class_spatialmaterial.rst:1561
+#: ../classes/class_spatialmaterial.rst:1579
+#: ../classes/class_spatialmaterial.rst:1595
+#: ../classes/class_spatialmaterial.rst:1611
+#: ../classes/class_spatialmaterial.rst:1629
+#: ../classes/class_spatialmaterial.rst:1647
+#: ../classes/class_spatialmaterial.rst:1663
+#: ../classes/class_spatialmaterial.rst:1679
+#: ../classes/class_spatialmaterial.rst:1695
+#: ../classes/class_spatialmaterial.rst:1709
+#: ../classes/class_spatialmaterial.rst:1725
+#: ../classes/class_spatialmaterial.rst:1741
+#: ../classes/class_spatialmaterial.rst:1757
+#: ../classes/class_spatialmaterial.rst:1773
+#: ../classes/class_spatialmaterial.rst:1787
+#: ../classes/class_spatialmaterial.rst:1801
+#: ../classes/class_spatialmaterial.rst:1815
+#: ../classes/class_spatialmaterial.rst:1829
+#: ../classes/class_spatialmaterial.rst:1845
+#: ../classes/class_spatialmaterial.rst:1861
+#: ../classes/class_spatialmaterial.rst:1875
+#: ../classes/class_spatialmaterial.rst:1889
+#: ../classes/class_spatialmaterial.rst:1903
+#: ../classes/class_spatialmaterial.rst:1917
+#: ../classes/class_spatialmaterial.rst:1933
+#: ../classes/class_spatialmaterial.rst:1949
+#: ../classes/class_spatialmaterial.rst:1963
+#: ../classes/class_spatialmaterial.rst:1979
+#: ../classes/class_spatialmaterial.rst:1993
+#: ../classes/class_spatialmaterial.rst:2009
+#: ../classes/class_spatialmaterial.rst:2025
+#: ../classes/class_spatialmaterial.rst:2039
+#: ../classes/class_spatialmaterial.rst:2053
+#: ../classes/class_spatialmaterial.rst:2067
+#: ../classes/class_spatialmaterial.rst:2083
+#: ../classes/class_spatialmaterial.rst:2097
+#: ../classes/class_spatialmaterial.rst:2113
+#: ../classes/class_spatialmaterial.rst:2129
+#: ../classes/class_spatialmaterial.rst:2145
+#: ../classes/class_spatialmaterial.rst:2161
+#: ../classes/class_spatialmaterial.rst:2177
+#: ../classes/class_spatialmaterial.rst:2193
+#: ../classes/class_spatialmaterial.rst:2209
+#: ../classes/class_spatialmaterial.rst:2225
+#: ../classes/class_spatialmaterial.rst:2241
+#: ../classes/class_spatialmaterial.rst:2257
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:713
+msgid "get_albedo()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:716
+msgid "材质的底色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:722
+msgid ":ref:`Texture<class_Texture>` **albedo_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:725
+#: ../classes/class_spatialmaterial.rst:769
+#: ../classes/class_spatialmaterial.rst:827
+#: ../classes/class_spatialmaterial.rst:919
+#: ../classes/class_spatialmaterial.rst:1035
+#: ../classes/class_spatialmaterial.rst:1049
+#: ../classes/class_spatialmaterial.rst:1093
+#: ../classes/class_spatialmaterial.rst:1107
+#: ../classes/class_spatialmaterial.rst:1257
+#: ../classes/class_spatialmaterial.rst:1499
+#: ../classes/class_spatialmaterial.rst:1559
+#: ../classes/class_spatialmaterial.rst:1887
+#: ../classes/class_spatialmaterial.rst:1947
+#: ../classes/class_spatialmaterial.rst:1991
+#: ../classes/class_spatialmaterial.rst:2051
+#: ../classes/class_spatialmaterial.rst:2095
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:727
+#: ../classes/class_spatialmaterial.rst:771
+#: ../classes/class_spatialmaterial.rst:829
+#: ../classes/class_spatialmaterial.rst:921
+#: ../classes/class_spatialmaterial.rst:1037
+#: ../classes/class_spatialmaterial.rst:1051
+#: ../classes/class_spatialmaterial.rst:1095
+#: ../classes/class_spatialmaterial.rst:1109
+#: ../classes/class_spatialmaterial.rst:1259
+#: ../classes/class_spatialmaterial.rst:1501
+#: ../classes/class_spatialmaterial.rst:1561
+#: ../classes/class_spatialmaterial.rst:1889
+#: ../classes/class_spatialmaterial.rst:1949
+#: ../classes/class_spatialmaterial.rst:1993
+#: ../classes/class_spatialmaterial.rst:2053
+#: ../classes/class_spatialmaterial.rst:2097
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:730
+msgid "纹理乘以 :ref:`albedo_color<class_SpatialMaterial_property_albedo_color>`\\ 。用于对象的基本纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:736
+msgid ":ref:`float<class_float>` **anisotropy**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:739
+msgid "set_anisotropy(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:741
+msgid "get_anisotropy()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:744
+msgid "各向异性效应的强度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:750
+msgid ":ref:`bool<class_bool>` **anisotropy_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:755
+#: ../classes/class_spatialmaterial.rst:785
+#: ../classes/class_spatialmaterial.rst:889
+#: ../classes/class_spatialmaterial.rst:949
+#: ../classes/class_spatialmaterial.rst:1079
+#: ../classes/class_spatialmaterial.rst:1201
+#: ../classes/class_spatialmaterial.rst:1369
+#: ../classes/class_spatialmaterial.rst:1531
+#: ../classes/class_spatialmaterial.rst:1859
+#: ../classes/class_spatialmaterial.rst:1931
+#: ../classes/class_spatialmaterial.rst:2023
+#: ../classes/class_spatialmaterial.rst:2081
+msgid "set_feature(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:757
+#: ../classes/class_spatialmaterial.rst:787
+#: ../classes/class_spatialmaterial.rst:891
+#: ../classes/class_spatialmaterial.rst:951
+#: ../classes/class_spatialmaterial.rst:1081
+#: ../classes/class_spatialmaterial.rst:1203
+#: ../classes/class_spatialmaterial.rst:1371
+#: ../classes/class_spatialmaterial.rst:1533
+#: ../classes/class_spatialmaterial.rst:1861
+#: ../classes/class_spatialmaterial.rst:1933
+#: ../classes/class_spatialmaterial.rst:2025
+#: ../classes/class_spatialmaterial.rst:2083
+msgid "get_feature()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:760
+msgid "如果 ``true``\\ ，则启用各向异性。改变镜面小球的形状，并使其与切线空间对齐。此功能需要有网格切线才行。如果网格不包含切线，各向异性的效果就会被破坏。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:766
+msgid ":ref:`Texture<class_Texture>` **anisotropy_flowmap**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:774
+msgid "用于各向异性计算的偏移切线图的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:780
+msgid ":ref:`bool<class_bool>` **ao_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:790
+msgid "如果 ``true``\\ ，启用环境遮挡。环境遮挡根据 :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>` 使区域变暗。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:796
+msgid ":ref:`float<class_float>` **ao_light_affect**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:799
+msgid "set_ao_light_affect(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:801
+msgid "get_ao_light_affect()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:804
+msgid "环境遮挡对灯光照明的影响程度。如果 ``0``\\ ，环境遮挡只影响环境光。如果 ``1``\\ ，环境遮挡对灯光的影响和对环境光的影响一样大。这可以用来影响环境遮挡效果的强度，但通常看起来不真实。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:810
+msgid ":ref:`bool<class_bool>` **ao_on_uv2**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:813
+#: ../classes/class_spatialmaterial.rst:1229
+#: ../classes/class_spatialmaterial.rst:1273
+#: ../classes/class_spatialmaterial.rst:1289
+#: ../classes/class_spatialmaterial.rst:1305
+#: ../classes/class_spatialmaterial.rst:1321
+#: ../classes/class_spatialmaterial.rst:1337
+#: ../classes/class_spatialmaterial.rst:1353
+#: ../classes/class_spatialmaterial.rst:1385
+#: ../classes/class_spatialmaterial.rst:1401
+#: ../classes/class_spatialmaterial.rst:1419
+#: ../classes/class_spatialmaterial.rst:1435
+#: ../classes/class_spatialmaterial.rst:1451
+#: ../classes/class_spatialmaterial.rst:1593
+#: ../classes/class_spatialmaterial.rst:1771
+#: ../classes/class_spatialmaterial.rst:2143
+#: ../classes/class_spatialmaterial.rst:2207
+#: ../classes/class_spatialmaterial.rst:2239
+#: ../classes/class_spatialmaterial.rst:2255
+msgid "set_flag(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:815
+#: ../classes/class_spatialmaterial.rst:1231
+#: ../classes/class_spatialmaterial.rst:1275
+#: ../classes/class_spatialmaterial.rst:1291
+#: ../classes/class_spatialmaterial.rst:1307
+#: ../classes/class_spatialmaterial.rst:1323
+#: ../classes/class_spatialmaterial.rst:1339
+#: ../classes/class_spatialmaterial.rst:1355
+#: ../classes/class_spatialmaterial.rst:1387
+#: ../classes/class_spatialmaterial.rst:1403
+#: ../classes/class_spatialmaterial.rst:1421
+#: ../classes/class_spatialmaterial.rst:1437
+#: ../classes/class_spatialmaterial.rst:1453
+#: ../classes/class_spatialmaterial.rst:1595
+#: ../classes/class_spatialmaterial.rst:1773
+#: ../classes/class_spatialmaterial.rst:2145
+#: ../classes/class_spatialmaterial.rst:2209
+#: ../classes/class_spatialmaterial.rst:2241
+#: ../classes/class_spatialmaterial.rst:2257
+msgid "get_flag()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:818
+msgid "如果 ``true``\\ ，请使用 ``UV2`` 坐标从\\ :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`\\ 中查找。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:824
+msgid ":ref:`Texture<class_Texture>` **ao_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:832
+msgid "定义物体上给定点的环境遮挡量的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:838
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` **ao_texture_channel**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:841
+msgid "set_ao_texture_channel(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:843
+msgid "get_ao_texture_channel()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:846
+#: ../classes/class_spatialmaterial.rst:2012
+msgid "指定 :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>` 的通道，其中存储环境遮挡信息。当您在一个纹理中存储多个效果的信息时，这很有用。例如，如果您将金属效果存储在R通道中，将粗糙度存储在B通道中，将环境遮挡存储在G通道中，就可以减少您使用的纹理数量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:852
+msgid ":ref:`AsyncMode<enum_SpatialMaterial_AsyncMode>` **async_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:857
+msgid "set_async_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:859
+msgid "get_async_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:862
+msgid "If :ref:`ProjectSettings.rendering/gles3/shaders/shader_compilation_mode<class_ProjectSettings_property_rendering/gles3/shaders/shader_compilation_mode>` is ``Synchronous`` (with or without cache), this determines how this material must behave in regards to asynchronous shader compilation."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:864
+msgid "\\ :ref:`ASYNC_MODE_VISIBLE<class_SpatialMaterial_constant_ASYNC_MODE_VISIBLE>` is the default and the best for most cases."
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:870
+msgid ":ref:`float<class_float>` **clearcoat**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:873
+msgid "set_clearcoat(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:875
+msgid "get_clearcoat()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:878
+msgid "设置清漆效果的强度。设置为 ``0`` 与禁用清漆效果相同。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:884
+msgid ":ref:`bool<class_bool>` **clearcoat_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:894
+msgid "如果 ``true``\\ ，则启用清漆渲染。在照明计算中添加二级透明通路，从而导致添加镜面反射斑点。这使得材质看起来好像有一层透明层，可以是有光泽的也可以是粗糙的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:896
+msgid "\\ **注意：**\\ 如果材质将 :ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>` 设置为 ``true``\\ ，则透明涂层渲染不可见。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:902
+msgid ":ref:`float<class_float>` **clearcoat_gloss**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:905
+msgid "set_clearcoat_gloss(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:907
+msgid "get_clearcoat_gloss()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:910
+msgid "设置清漆通道的粗糙度，数值越高，清漆越光滑，数值越低，清漆越粗糙。值越高，清漆越光滑，值越低，清漆越粗糙。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:916
+msgid ":ref:`Texture<class_Texture>` **clearcoat_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:924
+msgid "定义清漆效果的强度和清漆的光泽度的纹理。强度在红色通道中指定，光泽度在绿色通道中指定。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:930
+msgid ":ref:`bool<class_bool>` **depth_deep_parallax**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:933
+msgid "set_depth_deep_parallax(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:935
+msgid "is_depth_deep_parallax_enabled()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:938
+msgid "如果 ``true``\\ ，着色器将在沿视图射线的多个点上读取深度纹理以确定遮挡和视差。这可能对性能要求很高，但会产生更逼真的深度映射。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:944
+msgid ":ref:`bool<class_bool>` **depth_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:954
+msgid "如果 ``true``\\ ，则启用深度映射（也称为“视差映射”或“高度映射”）。另见 :ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:956
+msgid "\\ **注意：**\\ 如果在同一材质上使用三平面贴图，则不支持深度贴图。如果启用 :ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`\\ ，则 :ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>` 的值将被忽略。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:962
+msgid ":ref:`bool<class_bool>` **depth_flip_binormal**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:965
+msgid "set_depth_deep_parallax_flip_binormal(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:967
+msgid "get_depth_deep_parallax_flip_binormal()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:970
+msgid "如果 ``true``\\ ，则在深度效果中使用之前会翻转副法线的方向。如果你对你的副法线的编码方式与深度效果有冲突，这可能是必要的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:976
+msgid ":ref:`bool<class_bool>` **depth_flip_tangent**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:979
+msgid "set_depth_deep_parallax_flip_tangent(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:981
+msgid "get_depth_deep_parallax_flip_tangent()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:984
+msgid "如果 ``true``\\ ，切线方向在深度效果中使用前会翻转。如果你对切线的编码方式与深度效果有冲突，这可能是必要的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:990
+msgid ":ref:`int<class_int>` **depth_max_layers**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:993
+msgid "set_depth_deep_parallax_max_layers(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:995
+msgid "get_depth_deep_parallax_max_layers()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:998
+msgid "使用 :ref:`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>` 且视图方向垂直于对象表面时使用的层数。较高的数字对性能的要求更高，而较低的数字可能看起来不那么清晰。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1004
+msgid ":ref:`int<class_int>` **depth_min_layers**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1007
+msgid "set_depth_deep_parallax_min_layers(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1009
+msgid "get_depth_deep_parallax_min_layers()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1012
+msgid "使用 :ref:`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>` 且视图方向平行于对象表面时使用的层数。较高的数字对性能的要求更高，而较低的数字可能看起来不那么清晰。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1018
+msgid ":ref:`float<class_float>` **depth_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1021
+msgid "set_depth_scale(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1023
+msgid "get_depth_scale()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1026
+msgid "缩放深度偏移效果。更高的数字将创建更大的深度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1032
+msgid ":ref:`Texture<class_Texture>` **depth_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1040
+msgid "用来确定某个像素深度的纹理。深度总是存储在红色通道中。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1046
+msgid ":ref:`Texture<class_Texture>` **detail_albedo**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1054
+msgid "指定细节叠加的颜色的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1060
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>` **detail_blend_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1063
+msgid "set_detail_blend_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1065
+msgid "get_detail_blend_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1068
+msgid "指定 :ref:`detail_albedo<class_SpatialMaterial_property_detail_albedo>` 应如何与当前 ``ALBEDO`` 混合。参阅 :ref:`BlendMode<enum_SpatialMaterial_BlendMode>` 选项。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1074
+msgid ":ref:`bool<class_bool>` **detail_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1084
+msgid "如果\\ ``true``\\ ，启用细节叠加。Detail是基于\\ :ref:`detail_mask<class_SpatialMaterial_property_detail_mask>`\\ 在对象表面混合的第二个纹理。这可以用来给物体增加变化，或者在两种不同的反射率/法线纹理之间进行混合。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1090
+msgid ":ref:`Texture<class_Texture>` **detail_mask**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1098
+msgid "纹理用于指定细节纹理与基础纹理的混合方式。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1104
+msgid ":ref:`Texture<class_Texture>` **detail_normal**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1112
+msgid "指定细节叠加层每像素法线的纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1114
+msgid "\\ **注意：** GaaeExplorer希望法线贴图使用X +，Y-和Z +坐标。请参阅\\ `this page <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__\\ ，以比较流行引擎期望的法线地图坐标。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1120
+msgid ":ref:`DetailUV<enum_SpatialMaterial_DetailUV>` **detail_uv_layer**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1123
+msgid "set_detail_uv(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1125
+msgid "get_detail_uv()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1128
+msgid "指定细节层是使用\\ ``UV``\\ 还是\\ ``UV2``\\ 。选项请参阅\\ :ref:`DetailUV<enum_SpatialMaterial_DetailUV>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1134
+msgid ":ref:`float<class_float>` **distance_fade_max_distance**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1137
+msgid "set_distance_fade_max_distance(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1139
+msgid "get_distance_fade_max_distance()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1142
+msgid "物体看起来完全不透明的距离。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1144
+msgid "\\ **注意：**\\ 如果 ``distance_fade_max_distance`` 小于 ``distance_fade_min_distance``\\ ，则行为相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1150
+msgid ":ref:`float<class_float>` **distance_fade_min_distance**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1153
+msgid "set_distance_fade_min_distance(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1155
+msgid "get_distance_fade_min_distance()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1158
+msgid "物体开始变得可见的距离。如果物体的距离小于这个距离，它将是不可见的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1160
+msgid "\\ **注意：**\\ 如果 ``distance_fade_min_distance`` 大于 ``distance_fade_max_distance``\\ ，则行为将相反。物体将在 ``distance_fade_max_distance`` 处开始逐渐消失，并在到达 ``distance_fade_min_distance`` 时完全消失。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1166
+msgid ":ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>` **distance_fade_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1171
+msgid "set_distance_fade(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1173
+msgid "get_distance_fade()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1176
+msgid "指定要使用的淡入淡出类型。可以是任何一个\\ :ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1182
+msgid ":ref:`Color<class_Color>` **emission**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1185
+msgid "set_emission(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1187
+msgid "get_emission()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1190
+msgid "发出的光的颜色。参阅\\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1196
+msgid ":ref:`bool<class_bool>` **emission_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1206
+msgid "如果 ``true``\\ ，物体会发光。发光使物体看起来更亮。如果使用 :ref:`GIProbe<class_GIProbe>` 或 :ref:`BakedLightmap<class_BakedLightmap>` 并且此对象用于烘焙照明，则该对象还可以将光投射到其他对象上。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1212
+msgid ":ref:`float<class_float>` **emission_energy**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1215
+msgid "set_emission_energy(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1217
+msgid "get_emission_energy()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1220
+msgid "发出的光的强度。参阅\\ :ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1226
+msgid ":ref:`bool<class_bool>` **emission_on_uv2**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1234
+msgid "使用\\ ``UV2``\\ 从\\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\\ 中读取。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1240
+msgid ":ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` **emission_operator**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1243
+msgid "set_emission_operator(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1245
+msgid "get_emission_operator()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1248
+msgid "设置\\ :ref:`emission<class_SpatialMaterial_property_emission>`\\ 与\\ :ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`\\ 的交互方式。可以是加法或乘法。选项参阅 :ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1254
+msgid ":ref:`Texture<class_Texture>` **emission_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1262
+msgid "纹理，指定某点的表面发光的程度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1268
+msgid ":ref:`bool<class_bool>` **flags_albedo_tex_force_srgb**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1278
+msgid "强制将 :ref:`albedo_texture<class_SpatialMaterial_property_albedo_texture>` 从sRGB空间转换为线性空间。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1284
+msgid ":ref:`bool<class_bool>` **flags_disable_ambient_light**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1294
+msgid "如果\\ ``true``\\ ，则对象不接收环境光。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1300
+msgid ":ref:`bool<class_bool>` **flags_do_not_receive_shadows**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1310
+msgid "如果\\ ``true``\\ ，则对象不会收到投射到其上的阴影。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1316
+msgid ":ref:`bool<class_bool>` **flags_ensure_correct_normals**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1326
+msgid "如果 ``true``\\ ，着色器将计算额外的操作，以确保在使用非均匀比例时法线保持正确。仅在使用非均匀缩放时启用。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1332
+msgid ":ref:`bool<class_bool>` **flags_fixed_size**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1342
+msgid "如果\\ ``true``\\ ，则无论距离远近，对象都以相同的尺寸呈现。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1348
+msgid ":ref:`bool<class_bool>` **flags_no_depth_test**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1358
+msgid "如果\\ ``true``\\ ，深度测试被禁用，对象将按渲染顺序绘制。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1364
+msgid ":ref:`bool<class_bool>` **flags_transparent**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1374
+msgid "如果\\ ``true``\\ ，则启用物体的透明度。参阅 :ref:`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1380
+msgid ":ref:`bool<class_bool>` **flags_unshaded**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1390
+msgid "如果 ``true``\\ ，则物体不受光照影响。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1396
+msgid ":ref:`bool<class_bool>` **flags_use_point_size**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1406
+msgid "如果\\ ``true``\\ ，可以改变渲染点的大小。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1408
+msgid "\\ **注意:**\\ 这只对几何体是基于点而不是基于三角形的对象有效。参阅\\ :ref:`params_point_size<class_SpatialMaterial_property_params_point_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1414
+msgid ":ref:`bool<class_bool>` **flags_use_shadow_to_opacity**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1424
+msgid "如果 ``true``\\ ，启用 \"阴影到不透明度 \"的渲染模式，在该模式下，光照会修改 alpha，使阴影区域不透明，非阴影区域透明。对于在AR中把阴影叠加到相机画面上很有用。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1430
+msgid ":ref:`bool<class_bool>` **flags_vertex_lighting**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1440
+msgid "如果 ``true``\\ ，则按顶点而不是按像素计算光照。这可能会提高低端设备的性能。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1446
+msgid ":ref:`bool<class_bool>` **flags_world_triplanar**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1456
+msgid "如果 ``true``\\ ，则在世界空间而不是物体局部空间中计算三平面映射。另见 :ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1462
+msgid ":ref:`float<class_float>` **metallic**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1467
+msgid "set_metallic(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1469
+msgid "get_metallic()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1472
+msgid "高值使材质看起来更像金属。非金属使用其反射率作为漫射色，并在镜面反射上添加漫射。对于非金属，反射出现在反照率颜色之上。金属使用其反射率作为镜面反射的倍数，并将漫射色设置为黑色，从而产生有色反射。材质在全金属或全非金属时效果更好，介于 ``0`` 和 ``1`` 之间的值只能用于金属和非金属部分之间的混合。要改变反射量，请使用\\ :ref:`roughness<class_SpatialMaterial_property_roughness>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1478
+msgid ":ref:`float<class_float>` **metallic_specular**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1483
+msgid "set_specular(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1485
+msgid "get_specular()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1488
+msgid "设置镜面光叶的大小。镜面叶是光源反射的亮点。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1490
+msgid "\\ **注意:**\\ 与\\ :ref:`metallic<class_SpatialMaterial_property_metallic>`\\ 不同，这不是能量守恒，所以在大多数情况下，应该将其保留在\\ ``0.5``\\ 。参阅\\ :ref:`roughness<class_SpatialMaterial_property_roughness>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1496
+msgid ":ref:`Texture<class_Texture>` **metallic_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1504
+msgid "用于指定对象的金属质感。此值乘\\ :ref:`metallic<class_SpatialMaterial_property_metallic>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1510
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` **metallic_texture_channel**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1515
+msgid "set_metallic_texture_channel(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1517
+msgid "get_metallic_texture_channel()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1520
+msgid "指定存储金属信息的 :ref:`metallic_texture<class_SpatialMaterial_property_metallic_texture>` 的通道。当您在一个纹理中存储多个效果的信息时，这很有用。例如，如果您将金属效果存储在红色通道中，将粗糙度存储在蓝色通道中，将环境遮挡存储在绿色通道中，就可以减少您使用的纹理数量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1526
+msgid ":ref:`bool<class_bool>` **normal_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1536
+msgid "如果\\ ``true``\\ ，则启用法线映射。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1542
+msgid ":ref:`float<class_float>` **normal_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1545
+msgid "set_normal_scale(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1547
+msgid "get_normal_scale()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1550
+msgid "法线贴图的效果强度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1556
+msgid ":ref:`Texture<class_Texture>` **normal_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1564
+msgid "用来指定像素点的法线的纹理。\\ ``normal_texture``\\ 只使用红色和绿色通道，忽略蓝色和alpha通道。从 ``normal_texture`` 读取的法线围绕 :ref:`Mesh<class_Mesh>` 提供的表面法线定向。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1566
+msgid "\\ **注意：** Mesh必须在其顶点数据中同时定义法线和切线。否则，法线贴图将无法正确渲染，会出现整个表面变暗的情况。如果用\\ :ref:`SurfaceTool<class_SurfaceTool>`\\ 创建几何体，可以使用\\ :ref:`SurfaceTool.generate_normals<class_SurfaceTool_method_generate_normals>`\\ 和\\ :ref:`SurfaceTool.generate_tangents<class_SurfaceTool_method_generate_tangents>`\\ 来分别自动生成法线和切线。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1568
+msgid "\\ **注意：** GaaeExplorer希望法线贴图使用X+、Y-和Z+坐标。请参阅\\ `该页 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`__\\ ，了解流行引擎所期望的法线贴图坐标的比较。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1574
+msgid ":ref:`float<class_float>` **params_alpha_scissor_threshold**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1577
+msgid "set_alpha_scissor_threshold(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1579
+msgid "get_alpha_scissor_threshold()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1582
+msgid "alpha scissor 会丢弃数值的阈值。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1588
+msgid ":ref:`bool<class_bool>` **params_billboard_keep_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1598
+msgid "如果 ``true``\\ ，着色器将保持为网格缩放设置。否则，当做广告牌时，缩放会丢失。仅在 :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>` 为 :ref:`BILLBOARD_ENABLED<class_SpatialMaterial_constant_BILLBOARD_ENABLED>` 时适用。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1604
+msgid ":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>` **params_billboard_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1609
+msgid "set_billboard_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1611
+msgid "get_billboard_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1614
+msgid "控制对象如何面向摄像机。参阅\\ :ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1616
+msgid "\\ **注意：** 广告牌模式不适合VR，因为当屏幕贴在你的头部而不是在桌子上时，摄像机的左右向量不是水平的。参阅\\ `GitHub issue #41567 <https://github.com/godotengine/godot/issues/41567>`__\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1622
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>` **params_blend_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1627
+msgid "set_blend_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1629
+msgid "get_blend_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1632
+msgid "材质的混合模式。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1634
+msgid "\\ **注意:**\\ 除 ``Mix`` 以外的值会强制对象进入透明管道。参阅 :ref:`BlendMode<enum_SpatialMaterial_BlendMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1640
+msgid ":ref:`CullMode<enum_SpatialMaterial_CullMode>` **params_cull_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1645
+msgid "set_cull_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1647
+msgid "get_cull_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1650
+msgid "渲染背面时，不绘制对象的哪一面。参阅 :ref:`CullMode<enum_SpatialMaterial_CullMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1656
+msgid ":ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>` **params_depth_draw_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1661
+msgid "set_depth_draw_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1663
+msgid "get_depth_draw_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1666
+msgid "确定深度渲染发生的时间。请参阅深度绘制模式 :ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>` 。另见\\ :ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1672
+msgid ":ref:`DiffuseMode<enum_SpatialMaterial_DiffuseMode>` **params_diffuse_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1677
+msgid "set_diffuse_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1679
+msgid "get_diffuse_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1682
+msgid "用于漫反射光散射的算法。参见 :ref:`DiffuseMode<enum_SpatialMaterial_DiffuseMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1688
+msgid ":ref:`bool<class_bool>` **params_grow**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1693
+msgid "set_grow_enabled(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1695
+msgid "is_grow_enabled()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1698
+msgid "如果\\ ``true``\\ ，启用顶点生长设置。参见\\ :ref:`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1704
+msgid ":ref:`float<class_float>` **params_grow_amount**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1707
+msgid "set_grow(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1709
+msgid "get_grow()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1712
+msgid "沿着法线的方向生长对象顶点。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1718
+msgid ":ref:`float<class_float>` **params_line_width**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1723
+msgid "set_line_width(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1725
+msgid "get_line_width()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1728
+msgid "目前在 GaaeExplorer 中未实现。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1734
+msgid ":ref:`float<class_float>` **params_point_size**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1739
+msgid "set_point_size(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1741
+msgid "get_point_size()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1744
+msgid "点的大小，以像素为单位。参见\\ :ref:`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1750
+msgid ":ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>` **params_specular_mode**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1755
+msgid "set_specular_mode(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1757
+msgid "get_specular_mode()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1760
+msgid "镜面小球的渲染方法。参阅\\ :ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1766
+msgid ":ref:`bool<class_bool>` **params_use_alpha_scissor**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1776
+msgid "如果\\ ``true``\\ ，着色器将丢弃所有alpha值小于\\ :ref:`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`\\ 的像素。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1782
+msgid ":ref:`int<class_int>` **particles_anim_h_frames**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1785
+msgid "set_particles_anim_h_frames(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1787
+msgid "get_particles_anim_h_frames()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1790
+msgid "粒子精灵表中的水平帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1796
+msgid ":ref:`bool<class_bool>` **particles_anim_loop**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1799
+msgid "set_particles_anim_loop(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1801
+msgid "get_particles_anim_loop()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1804
+msgid "如果 ``true``\\ ，循环粒子动画。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1810
+msgid ":ref:`int<class_int>` **particles_anim_v_frames**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1813
+msgid "set_particles_anim_v_frames(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1815
+msgid "get_particles_anim_v_frames()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1818
+msgid "粒子精灵表中的垂直帧数。仅在使用 :ref:`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>` 时启用。参阅\\ :ref:`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1824
+msgid ":ref:`float<class_float>` **proximity_fade_distance**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1827
+msgid "set_proximity_fade_distance(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1829
+msgid "get_proximity_fade_distance()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1832
+msgid "渐变效果发生的距离。距离越大，物体褪色的时间越长。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1838
+msgid ":ref:`bool<class_bool>` **proximity_fade_enable**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1843
+msgid "set_proximity_fade(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1845
+msgid "is_proximity_fade_enabled()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1848
+msgid "如果\\ ``true``\\ ，则启用接近淡出效果。邻近淡出效果会根据每个像素与另一个对象的距离淡出。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1854
+msgid ":ref:`bool<class_bool>` **refraction_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1864
+msgid "如果\\ ``true``\\ ，则启用折射效果。折射是根据来自物体后面的光线来扭曲透明度的。当使用GLES3后端时，材质的粗糙度值会影响折射的模糊度。较高的粗糙度值会使折射看起来更模糊。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1870
+msgid ":ref:`float<class_float>` **refraction_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1873
+msgid "set_refraction(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1875
+msgid "get_refraction()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1878
+msgid "折射效果的强度。较高的值会使折射的表现更加扭曲。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1884
+msgid ":ref:`Texture<class_Texture>` **refraction_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1892
+msgid "控制每个像素折射强度的纹理。乘以\\ :ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1898
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` **refraction_texture_channel**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1901
+msgid "set_refraction_texture_channel(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1903
+msgid "get_refraction_texture_channel()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1906
+msgid "指定存储折射信息的\\ :ref:`refraction_texture<class_SpatialMaterial_property_refraction_texture>`\\ 的通道。当你在纹理中存储多种效果的信息时，这很有用。例如，如果你在红色通道中存储金属效果，在蓝色通道中存储粗糙度，在绿色通道中存储环境遮挡，就可以减少使用纹理的数量。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1912
+msgid ":ref:`float<class_float>` **rim**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1915
+msgid "set_rim(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1917
+msgid "get_rim()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1920
+msgid "设置边缘照明效果的强度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1926
+msgid ":ref:`bool<class_bool>` **rim_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1936
+msgid "如果 ``true``\\ ，则启用边缘效果。边缘照明增加了物体上掠过角度的亮度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1938
+msgid "\\ **注意：** 如果材质将 :ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>` 设置为 ``true``\\ ，则边缘光照不可见。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1944
+msgid ":ref:`Texture<class_Texture>` **rim_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1952
+msgid "纹理用于设置每个像素的边缘光照效果的强度。乘以\\ :ref:`rim<class_SpatialMaterial_property_rim>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1958
+msgid ":ref:`float<class_float>` **rim_tint**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1961
+msgid "set_rim_tint(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1963
+msgid "get_rim_tint()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1966
+msgid "渲染边缘效果时，混合光照色和反射色的数量。如果\\ ``0``\\ 表示使用光色，\\ ``1``\\ 表示使用反照色。一般来说，中间值的效果最好。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1972
+msgid ":ref:`float<class_float>` **roughness**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1977
+msgid "set_roughness(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1979
+msgid "get_roughness()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1982
+msgid "表面反射。\\ ``0`` 值表示一面完美的镜像，而 ``1`` 值则完全模糊了反射。另请参阅\\ :ref:`metallic<class_SpatialMaterial_property_metallic>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1988
+msgid ":ref:`Texture<class_Texture>` **roughness_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:1996
+msgid "用于控制每个像素粗糙度的纹理。乘以\\ :ref:`roughness<class_SpatialMaterial_property_roughness>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2002
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` **roughness_texture_channel**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2007
+msgid "set_roughness_texture_channel(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2009
+msgid "get_roughness_texture_channel()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2018
+msgid ":ref:`bool<class_bool>` **subsurf_scatter_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2028
+msgid "如果\\ ``true``\\ ，则启用次表面散射。模拟光线穿透物体表面，被散射，然后出现。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2034
+msgid ":ref:`float<class_float>` **subsurf_scatter_strength**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2037
+msgid "set_subsurface_scattering_strength(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2039
+msgid "get_subsurface_scattering_strength()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2042
+msgid "地下散射效应的强度。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2048
+msgid ":ref:`Texture<class_Texture>` **subsurf_scatter_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2056
+msgid "用于控制次表面散射强度的纹理。存储在红色纹理通道中。乘以\\ :ref:`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2062
+msgid ":ref:`Color<class_Color>` **transmission**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2065
+msgid "set_transmission(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2067
+msgid "get_transmission()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2070
+msgid "传输效果使用的颜色。表示穿过物体的光。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2076
+msgid ":ref:`bool<class_bool>` **transmission_enabled**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2086
+msgid "如果 ``true``\\ ，则启用传输效果。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2092
+msgid ":ref:`Texture<class_Texture>` **transmission_texture**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2100
+msgid "纹理用于控制每个像素的传输效果。添加到\\ :ref:`transmission<class_SpatialMaterial_property_transmission>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2106
+msgid ":ref:`Vector3<class_Vector3>` **uv1_offset**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2111
+msgid "set_uv1_offset(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2113
+msgid "get_uv1_offset()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2116
+msgid "``UV``\\ 坐标的偏移量。这个量将被添加到顶点函数中的 ``UV`` 中。这可以用来偏移纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2122
+msgid ":ref:`Vector3<class_Vector3>` **uv1_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2127
+msgid "set_uv1_scale(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2129
+msgid "get_uv1_scale()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2132
+#: ../classes/class_spatialmaterial.rst:2196
+msgid "缩放 ``UV`` 坐标的多少。这个值乘以顶点函数中的\\ ``UV``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2138
+msgid ":ref:`bool<class_bool>` **uv1_triplanar**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2148
+msgid "如果 ``true``\\ ，纹理将不使用 ``UV``\\ ，而是使用三平面纹理查找来确定如何应用纹理。三平面纹理使用对象表面的方向来混合纹理坐标之间。它从源纹理中读取3次，每个轴一次，然后根据像素与每个轴的紧密程度在结果之间进行混合。这通常用于自然特征，以获得真实的材质混合。由于三平面纹理处理每一个像素需要更多的纹理读取，所以它比普通的UV纹理处理要慢得多。此外，由于它是在三个轴之间混合纹理，所以当你试图实现清晰的纹理时，它是不合适的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2154
+msgid ":ref:`float<class_float>` **uv1_triplanar_sharpness**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2159
+msgid "set_uv1_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2161
+msgid "get_uv1_triplanar_blend_sharpness()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2164
+#: ../classes/class_spatialmaterial.rst:2228
+msgid "较低的数字能使纹理更加柔和，而较高的数字则能使纹理更加锐利。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2170
+msgid ":ref:`Vector3<class_Vector3>` **uv2_offset**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2175
+msgid "set_uv2_offset(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2177
+msgid "get_uv2_offset()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2180
+msgid "``UV2``\\ 坐标的偏移量。这个量将被添加到顶点函数中的 ``UV2`` 中。这可以用来偏移纹理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2186
+msgid ":ref:`Vector3<class_Vector3>` **uv2_scale**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2191
+msgid "set_uv2_scale(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2193
+msgid "get_uv2_scale()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2202
+msgid ":ref:`bool<class_bool>` **uv2_triplanar**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2212
+msgid "如果 ``true``\\ ，纹理将不使用 ``UV``\\ ，而是使用三平面纹理查找来确定如何应用纹理。三平面纹理使用对象表面的方向来混合纹理坐标之间。它从源纹理中读取 3 次，每个轴一次，然后根据像素与每个轴的紧密程度在结果之间进行混合。这通常用于自然特征，以获得真实的材质混合。由于三平面纹理处理每一个像素需要更多的纹理读取，所以它比普通的 UV 纹理处理要慢得多。此外，由于它是在三个轴之间混合纹理，所以当你试图实现清晰的纹理时，它是不合适的。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2218
+msgid ":ref:`float<class_float>` **uv2_triplanar_sharpness**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2223
+msgid "set_uv2_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2225
+msgid "get_uv2_triplanar_blend_sharpness()"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2234
+msgid ":ref:`bool<class_bool>` **vertex_color_is_srgb**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2244
+msgid "如果\\ ``true``\\ ，则模型的顶点颜色将作为 sRGB 模式处理。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2250
+msgid ":ref:`bool<class_bool>` **vertex_color_use_as_albedo**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2260
+msgid "如果\\ ``true``\\ ，则使用顶点颜色作为反射率颜色。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2263
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2267
+msgid ":ref:`bool<class_bool>` **get_feature** **(** :ref:`Feature<enum_SpatialMaterial_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2269
+msgid "如果指定的 :ref:`Feature<enum_SpatialMaterial_Feature>` 被启用，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2275
+msgid ":ref:`bool<class_bool>` **get_flag** **(** :ref:`Flags<enum_SpatialMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2277
+msgid "如果指定的标志被启用，返回 ``true``\\ 。参阅 :ref:`Flags<enum_SpatialMaterial_Flags>` 枚举器的选项。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2283
+msgid ":ref:`Texture<class_Texture>` **get_texture** **(** :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2285
+msgid "返回与指定的 :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` 关联的 :ref:`Texture<class_Texture>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2291
+msgid "void **set_feature** **(** :ref:`Feature<enum_SpatialMaterial_Feature>` feature, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2293
+msgid "如果 ``true``\\ ，则启用指定的 :ref:`Feature<enum_SpatialMaterial_Feature>`\\ 。 ``SpatialMaterial``\\ s 中可用的许多功能需要在使用前启用。这样，只有在指定时才会产生使用该功能的成本。也可以通过将相应的成员设置为 ``true`` 来启用功能。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2299
+msgid "void **set_flag** **(** :ref:`Flags<enum_SpatialMaterial_Flags>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2301
+msgid "如果 ``true``\\ ，则启用指定的标志。标志是可以打开和关闭的可选行为。使用该函数一次只能启用一个标志，不能将标志枚举器进行位掩码，以一次启用或禁用多个标志。也可以通过将相应成员设置为 ``true`` 来启用标志。有关选项，请参阅 :ref:`Flags<enum_SpatialMaterial_Flags>` 枚举器。"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2307
+msgid "void **set_texture** **(** :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` param, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_spatialmaterial.rst:2309
+msgid "设置指定的 :ref:`TextureParam<enum_SpatialMaterial_TextureParam>` 所使用的 :ref:`Texture<class_Texture>`\\ 。该函数在设置以 ``*_texture`` 结尾的成员时调用。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

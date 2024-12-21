@@ -1,0 +1,827 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_spatial.rst:10
+msgid "Spatial"
+msgstr ""
+
+#: ../classes/class_spatial.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:14
+msgid "**Inherited By:** :ref:`ARVRAnchor<class_ARVRAnchor>`, :ref:`ARVRController<class_ARVRController>`, :ref:`ARVROrigin<class_ARVROrigin>`, :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`, :ref:`BoneAttachment<class_BoneAttachment>`, :ref:`Camera<class_Camera>`, :ref:`CollisionObject<class_CollisionObject>`, :ref:`CollisionPolygon<class_CollisionPolygon>`, :ref:`CollisionShape<class_CollisionShape>`, :ref:`CullInstance<class_CullInstance>`, :ref:`GridMap<class_GridMap>`, :ref:`Joint<class_Joint>`, :ref:`Listener<class_Listener>`, :ref:`Navigation<class_Navigation>`, :ref:`NavigationMeshInstance<class_NavigationMeshInstance>`, :ref:`Occluder<class_Occluder>`, :ref:`Path<class_Path>`, :ref:`PathFollow<class_PathFollow>`, :ref:`Portal<class_Portal>`, :ref:`Position3D<class_Position3D>`, :ref:`ProximityGroup<class_ProximityGroup>`, :ref:`RayCast<class_RayCast>`, :ref:`RemoteTransform<class_RemoteTransform>`, :ref:`Room<class_Room>`, :ref:`RoomGroup<class_RoomGroup>`, :ref:`RoomManager<class_RoomManager>`, :ref:`Skeleton<class_Skeleton>`, :ref:`SpringArm<class_SpringArm>`, :ref:`VehicleWheel<class_VehicleWheel>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:16
+msgid "最基本的 3D 游戏对象，是所有与 3D 相关的节点的父节点。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_spatial.rst:21
+msgid "最基本的 3D 游戏对象，具有 3D :ref:`Transform<class_Transform>` 和可见性设置。所有其他的 3D 游戏对象都继承自 Spatial。使用 ``Spatial`` 作为父节点，在 3D 项目中移动、缩放、旋转和显示/隐藏子节点。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:23
+msgid "除非 ``Spatial`` 对象被设置为顶层，否则仿射操作（旋转、缩放、平移）会在父节点的本地坐标系中进行。在这个坐标系中的仿射操作对应于对 ``Spatial`` 变换的直接仿射运算。下面的本地一词指的是局部坐标系。附加到 ``Spatial`` 对象本身的坐标系被称为对象-本地坐标系。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:25
+msgid "\\ **注意：**\\ 除非另有规定，所有有角度参数的方法必须将角度指定为\\ *弧度*\\ 。使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>` 将度数转换为弧度。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:28
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_spatial.rst:30
+msgid ":doc:`Introduction to 3D <../tutorials/3d/introduction_to_3d>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:32
+msgid "`All 3D Demos <https://github.com/godotengine/godot-demo-projects/tree/master/3d>`__"
+msgstr ""
+
+#: ../classes/class_spatial.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_spatial.rst:38
+msgid ":ref:`SpatialGizmo<class_SpatialGizmo>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:38
+msgid ":ref:`gizmo<class_Spatial_property_gizmo>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:40
+#: ../classes/class_spatial.rst:48
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:40
+msgid ":ref:`global_transform<class_Spatial_property_global_transform>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:42
+#: ../classes/class_spatial.rst:44
+#: ../classes/class_spatial.rst:46
+#: ../classes/class_spatial.rst:50
+#: ../classes/class_spatial.rst:115
+#: ../classes/class_spatial.rst:117
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:42
+msgid ":ref:`rotation<class_Spatial_property_rotation>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:44
+msgid ":ref:`rotation_degrees<class_Spatial_property_rotation_degrees>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:44
+#: ../classes/class_spatial.rst:50
+#: ../classes/class_spatial.rst:232
+#: ../classes/class_spatial.rst:280
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_spatial.rst:46
+msgid ":ref:`scale<class_Spatial_property_scale>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:46
+#: ../classes/class_spatial.rst:248
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_spatial.rst:48
+msgid ":ref:`transform<class_Spatial_property_transform>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:48
+#: ../classes/class_spatial.rst:264
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_spatial.rst:50
+msgid ":ref:`translation<class_Spatial_property_translation>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:52
+#: ../classes/class_spatial.rst:73
+#: ../classes/class_spatial.rst:75
+#: ../classes/class_spatial.rst:77
+#: ../classes/class_spatial.rst:79
+#: ../classes/class_spatial.rst:81
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:52
+msgid ":ref:`visible<class_Spatial_property_visible>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:52
+#: ../classes/class_spatial.rst:296
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_spatial.rst:56
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_spatial.rst:59
+#: ../classes/class_spatial.rst:65
+#: ../classes/class_spatial.rst:67
+#: ../classes/class_spatial.rst:69
+#: ../classes/class_spatial.rst:71
+#: ../classes/class_spatial.rst:83
+#: ../classes/class_spatial.rst:85
+#: ../classes/class_spatial.rst:87
+#: ../classes/class_spatial.rst:89
+#: ../classes/class_spatial.rst:91
+#: ../classes/class_spatial.rst:93
+#: ../classes/class_spatial.rst:95
+#: ../classes/class_spatial.rst:97
+#: ../classes/class_spatial.rst:99
+#: ../classes/class_spatial.rst:101
+#: ../classes/class_spatial.rst:103
+#: ../classes/class_spatial.rst:105
+#: ../classes/class_spatial.rst:107
+#: ../classes/class_spatial.rst:109
+#: ../classes/class_spatial.rst:111
+#: ../classes/class_spatial.rst:113
+#: ../classes/class_spatial.rst:119
+#: ../classes/class_spatial.rst:121
+#: ../classes/class_spatial.rst:123
+msgid "void"
+msgstr ""
+
+#: ../classes/class_spatial.rst:59
+msgid ":ref:`force_update_transform<class_Spatial_method_force_update_transform>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:61
+msgid ":ref:`Spatial<class_Spatial>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:61
+msgid ":ref:`get_parent_spatial<class_Spatial_method_get_parent_spatial>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:63
+msgid ":ref:`World<class_World>`"
+msgstr ""
+
+#: ../classes/class_spatial.rst:63
+msgid ":ref:`get_world<class_Spatial_method_get_world>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:65
+msgid ":ref:`global_rotate<class_Spatial_method_global_rotate>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:67
+msgid ":ref:`global_scale<class_Spatial_method_global_scale>` **(** :ref:`Vector3<class_Vector3>` scale **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:69
+msgid ":ref:`global_translate<class_Spatial_method_global_translate>` **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:71
+msgid ":ref:`hide<class_Spatial_method_hide>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:73
+msgid ":ref:`is_local_transform_notification_enabled<class_Spatial_method_is_local_transform_notification_enabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:75
+msgid ":ref:`is_scale_disabled<class_Spatial_method_is_scale_disabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:77
+msgid ":ref:`is_set_as_toplevel<class_Spatial_method_is_set_as_toplevel>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:79
+msgid ":ref:`is_transform_notification_enabled<class_Spatial_method_is_transform_notification_enabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:81
+msgid ":ref:`is_visible_in_tree<class_Spatial_method_is_visible_in_tree>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:83
+msgid ":ref:`look_at<class_Spatial_method_look_at>` **(** :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:85
+msgid ":ref:`look_at_from_position<class_Spatial_method_look_at_from_position>` **(** :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:87
+msgid ":ref:`orthonormalize<class_Spatial_method_orthonormalize>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:89
+msgid ":ref:`rotate<class_Spatial_method_rotate>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:91
+msgid ":ref:`rotate_object_local<class_Spatial_method_rotate_object_local>` **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:93
+msgid ":ref:`rotate_x<class_Spatial_method_rotate_x>` **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:95
+msgid ":ref:`rotate_y<class_Spatial_method_rotate_y>` **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:97
+msgid ":ref:`rotate_z<class_Spatial_method_rotate_z>` **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:99
+msgid ":ref:`scale_object_local<class_Spatial_method_scale_object_local>` **(** :ref:`Vector3<class_Vector3>` scale **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:101
+msgid ":ref:`set_as_toplevel<class_Spatial_method_set_as_toplevel>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:103
+msgid ":ref:`set_disable_scale<class_Spatial_method_set_disable_scale>` **(** :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:105
+msgid ":ref:`set_identity<class_Spatial_method_set_identity>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:107
+msgid ":ref:`set_ignore_transform_notification<class_Spatial_method_set_ignore_transform_notification>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:109
+msgid ":ref:`set_notify_local_transform<class_Spatial_method_set_notify_local_transform>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:111
+msgid ":ref:`set_notify_transform<class_Spatial_method_set_notify_transform>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:113
+msgid ":ref:`show<class_Spatial_method_show>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:115
+msgid ":ref:`to_global<class_Spatial_method_to_global>` **(** :ref:`Vector3<class_Vector3>` local_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:117
+msgid ":ref:`to_local<class_Spatial_method_to_local>` **(** :ref:`Vector3<class_Vector3>` global_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:119
+msgid ":ref:`translate<class_Spatial_method_translate>` **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:121
+msgid ":ref:`translate_object_local<class_Spatial_method_translate_object_local>` **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:123
+msgid ":ref:`update_gizmo<class_Spatial_method_update_gizmo>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:127
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_spatial.rst:131
+msgid "**gameplay_entered** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:133
+msgid "当节点进入游戏区域时由入口系统游戏监视器触发。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:139
+msgid "**gameplay_exited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:141
+msgid "当节点退出游戏区域时，由界面系统的游戏监视器触发。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:147
+msgid "**visibility_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:149
+msgid "当节点可见性更改时触发。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:152
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_spatial.rst:166
+msgid "**NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- 当空间节点的全局变换发生变化时，空间节点会收到这个通知。这意味着当前节点或父节点改变了它的变换。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:168
+msgid "为了使\\ :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_Spatial_constant_NOTIFICATION_TRANSFORM_CHANGED>`\\ 生效，用户首先需要用\\ :ref:`set_notify_transform<class_Spatial_method_set_notify_transform>`\\ 发送请求。如果节点是在编辑器的上下文中，并且它有一个有效的gizmo，那么该通知也会被发送。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:170
+msgid "**NOTIFICATION_ENTER_WORLD** = **41** --- 空间节点在注册到新的 :ref:`World<class_World>` 资源时会收到此通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:172
+msgid "**NOTIFICATION_EXIT_WORLD** = **42** --- 当空间节点从当前的 :ref:`World<class_World>` 资源中取消注册时，它们会收到此通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:174
+msgid "**NOTIFICATION_VISIBILITY_CHANGED** = **43** --- 空间节点在其可见性发生变化时会收到此通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:176
+msgid "**NOTIFICATION_ENTER_GAMEPLAY** = **45** --- 如果门户系统游戏监视器检测到它们已进入游戏区域，空间节点会收到此通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:178
+msgid "**NOTIFICATION_EXIT_GAMEPLAY** = **46** --- 如果门户系统游戏监视器检测到它们已退出游戏区域，空间节点会收到此通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:181
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_spatial.rst:185
+msgid ":ref:`SpatialGizmo<class_SpatialGizmo>` **gizmo**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:188
+#: ../classes/class_spatial.rst:202
+#: ../classes/class_spatial.rst:216
+#: ../classes/class_spatial.rst:234
+#: ../classes/class_spatial.rst:250
+#: ../classes/class_spatial.rst:266
+#: ../classes/class_spatial.rst:282
+#: ../classes/class_spatial.rst:298
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_spatial.rst:188
+msgid "set_gizmo(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:190
+#: ../classes/class_spatial.rst:204
+#: ../classes/class_spatial.rst:218
+#: ../classes/class_spatial.rst:236
+#: ../classes/class_spatial.rst:252
+#: ../classes/class_spatial.rst:268
+#: ../classes/class_spatial.rst:284
+#: ../classes/class_spatial.rst:300
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_spatial.rst:190
+msgid "get_gizmo()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:193
+msgid "此节点的 :ref:`SpatialGizmo<class_SpatialGizmo>`\\ 。例如在 :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` 中用作编辑器中的自定义可视化和编辑手柄。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:199
+msgid ":ref:`Transform<class_Transform>` **global_transform**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:202
+msgid "set_global_transform(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:204
+msgid "get_global_transform()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:207
+msgid "此节点的世界空间（全局）\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:213
+msgid ":ref:`Vector3<class_Vector3>` **rotation**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:216
+msgid "set_rotation(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:218
+msgid "get_rotation()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:221
+msgid "局部变换的旋转部分以弧度表示，以YXZ-Euler角的形式表示(X角、Y角、Z角)。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:223
+msgid "\\ **注:**\\ 在数学意义上，旋转是一个矩阵而不是一个向量。这三个欧拉角是旋转矩阵欧拉角参数化的三个独立参数，存储在\\ :ref:`Vector3<class_Vector3>`\\ 数据结构中并不是因为旋转是一个矢量，而是因为\\ :ref:`Vector3<class_Vector3>`\\ 是一种方便存储3个浮点数的数据结构。因此，对旋转“向量”应用仿射操作是没有意义的。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:229
+msgid ":ref:`Vector3<class_Vector3>` **rotation_degrees**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:232
+#: ../classes/class_spatial.rst:248
+#: ../classes/class_spatial.rst:264
+#: ../classes/class_spatial.rst:280
+#: ../classes/class_spatial.rst:296
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_spatial.rst:234
+msgid "set_rotation_degrees(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:236
+msgid "get_rotation_degrees()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:239
+msgid "旋转部分局部变换为度，按YXZ-Euler角格式指定(X角、Y角、Z角)。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:245
+msgid ":ref:`Vector3<class_Vector3>` **scale**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:250
+msgid "set_scale(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:252
+msgid "get_scale()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:255
+msgid "局部变换的缩放部分。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:261
+msgid ":ref:`Transform<class_Transform>` **transform**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:266
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:268
+msgid "get_transform()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:271
+msgid "该节点相对于父节点的局部空间\\ :ref:`Transform<class_Transform>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:277
+msgid ":ref:`Vector3<class_Vector3>` **translation**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:282
+msgid "set_translation(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:284
+msgid "get_translation()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:287
+msgid "此节点的局部变换。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:293
+msgid ":ref:`bool<class_bool>` **visible**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:298
+msgid "set_visible(value)"
+msgstr ""
+
+#: ../classes/class_spatial.rst:300
+msgid "is_visible()"
+msgstr ""
+
+#: ../classes/class_spatial.rst:303
+msgid "如果\\ ``true``\\ ，这个节点就会被画出来。只有当它的所有前项也是可见的时候，这个节点才是可见的（换句话说，\\ :ref:`is_visible_in_tree<class_Spatial_method_is_visible_in_tree>`\\ 必须返回\\ ``true``\\ ）。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:306
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_spatial.rst:310
+msgid "void **force_update_transform** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:312
+msgid "强制更新变换。由于性能原因，物理中的变换改变不是即时的。变换是在累积后再设置。如果你在进行物理操作时需要最新的变换，请使用此功能。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:318
+msgid ":ref:`Spatial<class_Spatial>` **get_parent_spatial** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:320
+msgid "返回父对象 ``Spatial``\\ ，如果不存在父对象或父对象不是 ``Spatial`` 类型，则返回一个空的 :ref:`Object<class_Object>`\\ 。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:326
+msgid ":ref:`World<class_World>` **get_world** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:328
+msgid "返回此 ``Spatial`` 节点所注册的当前 :ref:`World<class_World>` 资源。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:334
+msgid "void **global_rotate** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:336
+msgid "围绕轴（一个单位\\ :ref:`Vector3<class_Vector3>`\\ ）旋转全局（世界）变换，指定角度（弧度）。旋转轴是在全局坐标系中。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:342
+msgid "void **global_scale** **(** :ref:`Vector3<class_Vector3>` scale **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:344
+msgid "通过给定的 :ref:`Vector3<class_Vector3>` 比例因子对全局（世界）变换进行缩放。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:350
+msgid "void **global_translate** **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:352
+msgid "通过 :ref:`Vector3<class_Vector3>` 偏移量移动全局（世界）变换。偏移量是在全局坐标系中。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:358
+msgid "void **hide** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:360
+msgid "禁用该节点的渲染。它将\\ :ref:`visible<class_Spatial_property_visible>`\\ 改为\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:366
+msgid ":ref:`bool<class_bool>` **is_local_transform_notification_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:368
+msgid "返回节点是否通知其局部变换的变化。\\ ``Spatial``\\ 默认情况下不会对此进行传播。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:374
+msgid ":ref:`bool<class_bool>` **is_scale_disabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:376
+msgid "返回该节点是否使用\\ ``(1, 1, 1)``\\ 的比例或其本地转换比例。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:382
+msgid ":ref:`bool<class_bool>` **is_set_as_toplevel** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:384
+msgid "返回该节点是否被设置为Toplevel，也就是是否忽略其父节点的变换。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:390
+msgid ":ref:`bool<class_bool>` **is_transform_notification_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:392
+msgid "返回节点是否通知其全局和局部的变换变化。默认情况下，\\ ``Spatial``\\ 不会对此进行传播。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:398
+msgid ":ref:`bool<class_bool>` **is_visible_in_tree** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:400
+msgid "如果该节点位于\\ :ref:`SceneTree<class_SceneTree>`\\ 中，并且其\\ :ref:`visible<class_Spatial_property_visible>`\\ 属性为\\ ``true``\\ ，并且其所有前提均可见，则返回\\ ``true``\\ 。如果任何先决条件被隐藏，则该节点在场景树中将不可见。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:406
+msgid "void **look_at** **(** :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:408
+msgid "旋转自身，使局部-Z轴指向\\ ``target``\\ 位置。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:410
+msgid "变换将首先围绕给定的\\ ``up``\\ 矢量进行旋转，然后通过进一步围绕垂直于\\ ``target``\\ 和\\ ``up``\\ 矢量的轴进行旋转来完全对准目标。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:412
+msgid "操作是在全局空间进行的。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:418
+msgid "void **look_at_from_position** **(** :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` target, :ref:`Vector3<class_Vector3>` up **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:420
+msgid "将节点移动到指定的\\ ``position``\\ ，然后按照\\ :ref:`look_at<class_Spatial_method_look_at>`\\ 的要求旋转自己以指向\\ ``target``\\ 。操作是在全局空间进行的。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:426
+msgid "void **orthonormalize** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:428
+msgid "通过对该节点的\\ :ref:`Transform<class_Transform>`\\ 进行Gram-Schmidt正则化，重新设置该节点的变换（如比例、倾斜和锥度），保留其旋转和平移。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:434
+msgid "void **rotate** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:436
+msgid "围绕轴（一个单位\\ :ref:`Vector3<class_Vector3>`\\ ）旋转局部变换，指定角度（弧度）。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:442
+msgid "void **rotate_object_local** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:444
+msgid "围绕轴（一个单位\\ :ref:`Vector3<class_Vector3>`\\ ）旋转本地变换，指定角度（弧度）。旋转轴是在物体的本地坐标系中。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:450
+msgid "void **rotate_x** **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:452
+msgid "围绕X轴旋转局部变换，旋转角度为弧度。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:458
+msgid "void **rotate_y** **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:460
+msgid "围绕Y轴旋转局部变换，旋转角度为弧度。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:466
+msgid "void **rotate_z** **(** :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:468
+msgid "围绕Z轴旋转局部变换，旋转角度为弧度。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:474
+msgid "void **scale_object_local** **(** :ref:`Vector3<class_Vector3>` scale **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:476
+msgid "在物体局部坐标系中，通过给定的 3D 比例因子来缩放局部变换。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:482
+msgid "void **set_as_toplevel** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:484
+msgid "使得节点忽略其父级的变换。节点的变换只在全局空间进行。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:490
+msgid "void **set_disable_scale** **(** :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:492
+msgid "设置节点是否使用\\ ``(1, 1, 1)``\\ 的比例或其本地变换比例。对本地变换比例的改变会被保留下来。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:498
+msgid "void **set_identity** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:500
+msgid "重置该节点的所有变换（将其\\ :ref:`Transform<class_Transform>`\\ 重置为单位矩阵）。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:506
+msgid "void **set_ignore_transform_notification** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:508
+msgid "设置节点是否忽略其转换（全局或局部）改变的通知。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:514
+msgid "void **set_notify_local_transform** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:516
+msgid "设置节点是否通知它的局部变换变化。默认情况下，\\ ``Spatial``\\ 不会传播这一点。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:522
+msgid "void **set_notify_transform** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:524
+msgid "设置节点是否通知其全局和局部变换的变化。\\ ``Spatial``\\ 默认情况下不会传播，除非是在编辑器上下文中，并且它有一个有效的gizmo。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:530
+msgid "void **show** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:532
+msgid "启用此节点的呈现。将\\ :ref:`visible<class_Spatial_property_visible>`\\ 更改为\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:538
+msgid ":ref:`Vector3<class_Vector3>` **to_global** **(** :ref:`Vector3<class_Vector3>` local_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:540
+msgid "将\\ ``local_point``\\ 从该节点的本地空间转换为世界空间。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:546
+msgid ":ref:`Vector3<class_Vector3>` **to_local** **(** :ref:`Vector3<class_Vector3>` global_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_spatial.rst:548
+msgid "将\\ ``global_point``\\ 从世界空间转换到这个节点的本地空间。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:554
+msgid "void **translate** **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:556
+msgid "通过给定的偏移量\\ :ref:`Vector3<class_Vector3>`\\ 改变节点的位置。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:558
+msgid "注意，平移\\ ``offset``\\ 受节点比例因子(scale)的影响，所以如果按例如\\ ``(10,1,1)``\\ 进行缩放，平移\\ ``(2,0,0)``\\ 实际上会在X坐标上增加20 (``2 * 10``)。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:564
+msgid "void **translate_object_local** **(** :ref:`Vector3<class_Vector3>` offset **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:566
+msgid "通过给定的偏移量\\ :ref:`Vector3<class_Vector3>`\\ 改变节点在局部空间中的位置。"
+msgstr ""
+
+#: ../classes/class_spatial.rst:572
+msgid "void **update_gizmo** **(** **)**"
+msgstr ""
+
+#: ../classes/class_spatial.rst:574
+msgid "更新该节点的\\ :ref:`SpatialGizmo<class_SpatialGizmo>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

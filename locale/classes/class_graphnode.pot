@@ -1,0 +1,988 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_graphnode.rst:10
+msgid "GraphNode"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:14
+msgid "图形节点GraphNode是一个允许多个图形节点GraphNode之间连接的输入和输出槽容器。槽位可以有不同的、不兼容的类型。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:19
+msgid "图形节点GraphNode是一个容器。每个图形节点GraphNode可以有几个输入和输出槽，有时被称为端口，允许图形节点GraphNode之间的连接。要在图形节点GraphNode上添加一个槽，需要向它添加任何控件\\ :ref:`Control<class_Control>`\\ 派生的子节点。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:21
+msgid "在为图形节点GraphNode添加至少一个子节点后，将在检查器中自动创建名为 \"插槽Slot \"的新部分。当 \"插槽\"被展开时，你会看到带有每个槽索引号的列表。你可以点击它们来进一步展开。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:23
+msgid "在检查器中，你可以启用（显示）或禁用（隐藏）插槽。默认情况下，所有槽都是禁用的，所以你最初可能看不到图形节点GraphNode上的任何槽。你可以给每个插槽指定一个类型。只有相同类型的插槽才能够相互连接。你还可以给插槽指定颜色。为图形节点GraphNode中的每个GUI元素定义了一个输入和输出槽的元组。输入连接在图形节点GraphNode的左边，输出连接在右边。只有启用的插槽才被算作连接。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:29
+#: ../classes/class_graphnode.rst:35
+#: ../classes/class_graphnode.rst:37
+#: ../classes/class_graphnode.rst:39
+#: ../classes/class_graphnode.rst:76
+#: ../classes/class_graphnode.rst:78
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:29
+msgid ":ref:`comment<class_GraphNode_property_comment>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:29
+#: ../classes/class_graphnode.rst:35
+#: ../classes/class_graphnode.rst:37
+#: ../classes/class_graphnode.rst:39
+#: ../classes/class_graphnode.rst:214
+#: ../classes/class_graphnode.rst:264
+#: ../classes/class_graphnode.rst:282
+#: ../classes/class_graphnode.rst:298
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:31
+#: ../classes/class_graphnode.rst:56
+#: ../classes/class_graphnode.rst:64
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:31
+msgid ":ref:`offset<class_GraphNode_property_offset>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:31
+#: ../classes/class_graphnode.rst:230
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:33
+msgid ":ref:`Overlay<enum_GraphNode_Overlay>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:33
+msgid ":ref:`overlay<class_GraphNode_property_overlay>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:33
+#: ../classes/class_graphnode.rst:248
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:35
+msgid ":ref:`resizable<class_GraphNode_property_resizable>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:37
+msgid ":ref:`selected<class_GraphNode_property_selected>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:39
+msgid ":ref:`show_close<class_GraphNode_property_show_close>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:41
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:41
+msgid ":ref:`title<class_GraphNode_property_title>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:41
+#: ../classes/class_graphnode.rst:316
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:45
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:48
+#: ../classes/class_graphnode.rst:50
+#: ../classes/class_graphnode.rst:80
+#: ../classes/class_graphnode.rst:82
+#: ../classes/class_graphnode.rst:84
+#: ../classes/class_graphnode.rst:86
+#: ../classes/class_graphnode.rst:88
+#: ../classes/class_graphnode.rst:90
+#: ../classes/class_graphnode.rst:92
+msgid "void"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:48
+msgid ":ref:`clear_all_slots<class_GraphNode_method_clear_all_slots>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:50
+msgid ":ref:`clear_slot<class_GraphNode_method_clear_slot>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:52
+#: ../classes/class_graphnode.rst:60
+#: ../classes/class_graphnode.rst:68
+#: ../classes/class_graphnode.rst:70
+#: ../classes/class_graphnode.rst:99
+#: ../classes/class_graphnode.rst:101
+#: ../classes/class_graphnode.rst:103
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:52
+msgid ":ref:`get_connection_input_color<class_GraphNode_method_get_connection_input_color>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:54
+#: ../classes/class_graphnode.rst:58
+#: ../classes/class_graphnode.rst:62
+#: ../classes/class_graphnode.rst:66
+#: ../classes/class_graphnode.rst:72
+#: ../classes/class_graphnode.rst:74
+#: ../classes/class_graphnode.rst:105
+#: ../classes/class_graphnode.rst:107
+#: ../classes/class_graphnode.rst:109
+#: ../classes/class_graphnode.rst:111
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:54
+msgid ":ref:`get_connection_input_count<class_GraphNode_method_get_connection_input_count>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:56
+msgid ":ref:`get_connection_input_position<class_GraphNode_method_get_connection_input_position>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:58
+msgid ":ref:`get_connection_input_type<class_GraphNode_method_get_connection_input_type>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:60
+msgid ":ref:`get_connection_output_color<class_GraphNode_method_get_connection_output_color>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:62
+msgid ":ref:`get_connection_output_count<class_GraphNode_method_get_connection_output_count>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:64
+msgid ":ref:`get_connection_output_position<class_GraphNode_method_get_connection_output_position>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:66
+msgid ":ref:`get_connection_output_type<class_GraphNode_method_get_connection_output_type>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:68
+msgid ":ref:`get_slot_color_left<class_GraphNode_method_get_slot_color_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:70
+msgid ":ref:`get_slot_color_right<class_GraphNode_method_get_slot_color_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:72
+msgid ":ref:`get_slot_type_left<class_GraphNode_method_get_slot_type_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:74
+msgid ":ref:`get_slot_type_right<class_GraphNode_method_get_slot_type_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:76
+msgid ":ref:`is_slot_enabled_left<class_GraphNode_method_is_slot_enabled_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:78
+msgid ":ref:`is_slot_enabled_right<class_GraphNode_method_is_slot_enabled_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:80
+msgid ":ref:`set_slot<class_GraphNode_method_set_slot>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left, :ref:`int<class_int>` type_left, :ref:`Color<class_Color>` color_left, :ref:`bool<class_bool>` enable_right, :ref:`int<class_int>` type_right, :ref:`Color<class_Color>` color_right, :ref:`Texture<class_Texture>` custom_left=null, :ref:`Texture<class_Texture>` custom_right=null **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:82
+msgid ":ref:`set_slot_color_left<class_GraphNode_method_set_slot_color_left>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:84
+msgid ":ref:`set_slot_color_right<class_GraphNode_method_set_slot_color_right>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:86
+msgid ":ref:`set_slot_enabled_left<class_GraphNode_method_set_slot_enabled_left>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:88
+msgid ":ref:`set_slot_enabled_right<class_GraphNode_method_set_slot_enabled_right>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:90
+msgid ":ref:`set_slot_type_left<class_GraphNode_method_set_slot_type_left>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:92
+msgid ":ref:`set_slot_type_right<class_GraphNode_method_set_slot_type_right>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:96
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:99
+msgid ":ref:`close_color<class_GraphNode_theme_color_close_color>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:99
+#: ../classes/class_graphnode.rst:101
+#: ../classes/class_graphnode.rst:103
+#: ../classes/class_graphnode.rst:530
+#: ../classes/class_graphnode.rst:542
+#: ../classes/class_graphnode.rst:554
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:101
+msgid ":ref:`resizer_color<class_GraphNode_theme_color_resizer_color>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:103
+msgid ":ref:`title_color<class_GraphNode_theme_color_title_color>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:105
+msgid ":ref:`close_offset<class_GraphNode_theme_constant_close_offset>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:105
+#: ../classes/class_graphnode.rst:566
+msgid "``18``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:107
+msgid ":ref:`port_offset<class_GraphNode_theme_constant_port_offset>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:107
+#: ../classes/class_graphnode.rst:578
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:109
+msgid ":ref:`separation<class_GraphNode_theme_constant_separation>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:109
+#: ../classes/class_graphnode.rst:590
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:111
+msgid ":ref:`title_offset<class_GraphNode_theme_constant_title_offset>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:111
+#: ../classes/class_graphnode.rst:602
+msgid "``20``"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:113
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:113
+msgid ":ref:`title_font<class_GraphNode_theme_font_title_font>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:115
+#: ../classes/class_graphnode.rst:117
+#: ../classes/class_graphnode.rst:119
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:115
+msgid ":ref:`close<class_GraphNode_theme_icon_close>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:117
+msgid ":ref:`port<class_GraphNode_theme_icon_port>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:119
+msgid ":ref:`resizer<class_GraphNode_theme_icon_resizer>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:121
+#: ../classes/class_graphnode.rst:123
+#: ../classes/class_graphnode.rst:125
+#: ../classes/class_graphnode.rst:127
+#: ../classes/class_graphnode.rst:129
+#: ../classes/class_graphnode.rst:131
+#: ../classes/class_graphnode.rst:133
+#: ../classes/class_graphnode.rst:135
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:121
+msgid ":ref:`breakpoint<class_GraphNode_theme_style_breakpoint>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:123
+msgid ":ref:`comment<class_GraphNode_theme_style_comment>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:125
+msgid ":ref:`commentfocus<class_GraphNode_theme_style_commentfocus>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:127
+msgid ":ref:`defaultfocus<class_GraphNode_theme_style_defaultfocus>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:129
+msgid ":ref:`defaultframe<class_GraphNode_theme_style_defaultframe>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:131
+msgid ":ref:`frame<class_GraphNode_theme_style_frame>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:133
+msgid ":ref:`position<class_GraphNode_theme_style_position>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:135
+msgid ":ref:`selectedframe<class_GraphNode_theme_style_selectedframe>`"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:139
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:143
+msgid "**close_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:145
+msgid "当图形节点GraphNode被请求关闭时发出。在点击关闭按钮时发生（见\\ :ref:`show_close<class_GraphNode_property_show_close>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:151
+msgid "**dragged** **(** :ref:`Vector2<class_Vector2>` from, :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:153
+msgid "当图形节点GraphNode被拖动时发出。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:159
+msgid "**offset_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:161
+msgid "当图形节点GraphNode被移动时触发。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:167
+msgid "**raise_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:169
+msgid "当图形节点GraphNode被要求显示在其他节点之上时触发。在GraphNode获得焦点时触发，即鼠标点击进入。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:175
+msgid "**resize_request** **(** :ref:`Vector2<class_Vector2>` new_minsize **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:177
+msgid "当图形节点GraphNode被要求调整大小时发出。在拖动调整器手柄时发生（见\\ :ref:`resizable<class_GraphNode_property_resizable>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:183
+msgid "**slot_updated** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:185
+msgid "当任何图形节点的插槽更新时发出。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:188
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:198
+msgid "enum **Overlay**:"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:200
+msgid "**OVERLAY_DISABLED** = **0** --- 没有显示覆盖层。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:202
+msgid "**OVERLAY_BREAKPOINT** = **1** --- 显示在\\ ``breakpoint``\\ 主题属性中设置的覆盖层。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:204
+msgid "**OVERLAY_POSITION** = **2** --- 显示在主题坐标\\ ``position``\\ 属性中设置的叠加层。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:207
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:211
+msgid ":ref:`bool<class_bool>` **comment**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:214
+#: ../classes/class_graphnode.rst:230
+#: ../classes/class_graphnode.rst:248
+#: ../classes/class_graphnode.rst:264
+#: ../classes/class_graphnode.rst:282
+#: ../classes/class_graphnode.rst:298
+#: ../classes/class_graphnode.rst:316
+#: ../classes/class_graphnode.rst:530
+#: ../classes/class_graphnode.rst:542
+#: ../classes/class_graphnode.rst:554
+#: ../classes/class_graphnode.rst:566
+#: ../classes/class_graphnode.rst:578
+#: ../classes/class_graphnode.rst:590
+#: ../classes/class_graphnode.rst:602
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:216
+#: ../classes/class_graphnode.rst:232
+#: ../classes/class_graphnode.rst:250
+#: ../classes/class_graphnode.rst:266
+#: ../classes/class_graphnode.rst:284
+#: ../classes/class_graphnode.rst:300
+#: ../classes/class_graphnode.rst:318
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:216
+msgid "set_comment(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:218
+#: ../classes/class_graphnode.rst:234
+#: ../classes/class_graphnode.rst:252
+#: ../classes/class_graphnode.rst:268
+#: ../classes/class_graphnode.rst:286
+#: ../classes/class_graphnode.rst:302
+#: ../classes/class_graphnode.rst:320
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:218
+msgid "is_comment()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:221
+msgid "如果启用\\ ``true``\\ ，则GraphNode就是一个注释节点。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:227
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:232
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:234
+msgid "get_offset()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:237
+msgid "图形节点 GraphNode 的偏移量，与 :ref:`GraphEdit<class_GraphEdit>` 的滚动偏移量相关。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:239
+msgid "\\ **注意：**\\ 由于 :ref:`GraphEdit<class_GraphEdit>` 是 :ref:`Container<class_Container>`\\ ，因此不能直接使用位置。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:245
+msgid ":ref:`Overlay<enum_GraphNode_Overlay>` **overlay**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:250
+msgid "set_overlay(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:252
+msgid "get_overlay()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:255
+msgid "设置在图形节点GraphNode上方显示的叠加层。参阅\\ :ref:`Overlay<enum_GraphNode_Overlay>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:261
+msgid ":ref:`bool<class_bool>` **resizable**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:266
+msgid "set_resizable(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:268
+msgid "is_resizable()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:271
+msgid "如果\\ ``true``\\ ，用户可以调整图形节点GraphNode的大小。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:273
+msgid "\\ **注意：**\\ 拖动手柄只会发出 :ref:`resize_request<class_GraphNode_signal_resize_request>` 信号，图形节点GraphNode需要手动调整大小。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:279
+msgid ":ref:`bool<class_bool>` **selected**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:284
+msgid "set_selected(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:286
+msgid "is_selected()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:289
+msgid "如果\\ ``true``\\ ，图形节点GraphNode被选中。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:295
+msgid ":ref:`bool<class_bool>` **show_close**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:300
+msgid "set_show_close_button(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:302
+msgid "is_close_button_visible()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:305
+msgid "如果\\ ``true``\\ ，则关闭按钮将可见。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:307
+msgid "\\ **注意：**\\ 按下它只会发出\\ :ref:`close_request<class_GraphNode_signal_close_request>`\\ 信号，需要手动删除图形节点GraphNode。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:313
+msgid ":ref:`String<class_String>` **title**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:318
+msgid "set_title(value)"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:320
+msgid "get_title()"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:323
+msgid "显示在图形节点GraphNode标题栏中的文本。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:326
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:330
+msgid "void **clear_all_slots** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:332
+msgid "禁用GraphNode的所有输入和输出槽。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:338
+msgid "void **clear_slot** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:340
+msgid "禁用索引为\\ ``idx``\\ 的输入和输出槽。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:346
+msgid ":ref:`Color<class_Color>` **get_connection_input_color** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:348
+msgid "返回输入连接\\ ``idx``\\ 的颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:354
+msgid ":ref:`int<class_int>` **get_connection_input_count** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:356
+msgid "返回图形节点GraphNode的启用输入槽（连接）的数量。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:362
+msgid ":ref:`Vector2<class_Vector2>` **get_connection_input_position** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:364
+msgid "返回输入连接\\ ``idx``\\ 的位置。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:370
+msgid ":ref:`int<class_int>` **get_connection_input_type** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:372
+msgid "返回输入连接的类型\\ ``idx``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:378
+msgid ":ref:`Color<class_Color>` **get_connection_output_color** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:380
+msgid "返回输出连接\\ ``idx``\\ 的颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:386
+msgid ":ref:`int<class_int>` **get_connection_output_count** **(** **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:388
+msgid "返回图形节点GraphNode的启用输出槽（连接）的数量。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:394
+msgid ":ref:`Vector2<class_Vector2>` **get_connection_output_position** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:396
+msgid "返回输出连接\\ ``idx``\\ 的位置。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:402
+msgid ":ref:`int<class_int>` **get_connection_output_type** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:404
+msgid "返回输出连接的类型\\ ``idx``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:410
+msgid ":ref:`Color<class_Color>` **get_slot_color_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:412
+msgid "返回槽\\ ``idx``\\ 的左边（输入）颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:418
+msgid ":ref:`Color<class_Color>` **get_slot_color_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:420
+msgid "返回槽\\ ``idx``\\ 的右边（输出）颜色\\ :ref:`Color<class_Color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:426
+msgid ":ref:`int<class_int>` **get_slot_type_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:428
+msgid "返回槽\\ ``idx``\\ 的左边（输入）类型。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:434
+msgid ":ref:`int<class_int>` **get_slot_type_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:436
+msgid "返回槽\\ ``idx``\\ 的右边（输出）类型。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:442
+msgid ":ref:`bool<class_bool>` **is_slot_enabled_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:444
+msgid "如果插槽\\ ``idx``\\ 的左侧（输入）被启用，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:450
+msgid ":ref:`bool<class_bool>` **is_slot_enabled_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:452
+msgid "如果插槽\\ ``idx``\\ 的右侧（输出）被启用，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:458
+msgid "void **set_slot** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left, :ref:`int<class_int>` type_left, :ref:`Color<class_Color>` color_left, :ref:`bool<class_bool>` enable_right, :ref:`int<class_int>` type_right, :ref:`Color<class_Color>` color_right, :ref:`Texture<class_Texture>` custom_left=null, :ref:`Texture<class_Texture>` custom_right=null **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:460
+msgid "设置ID为\\ ``idx``\\ 的插槽的属性。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:462
+msgid "如果\\ ``enable_left``/``right``\\ ，就会出现一个端口，该插槽就可以从这一侧连接。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:464
+msgid "\\ ``type_left``/``right``\\ 是端口的一个任意类型。只有具有相同类型值的端口才能被连接。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:466
+msgid "\\ ``color_left``/``right``\\ 是端口在这一侧的图标的色调。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:468
+msgid "\\ ``custom_left``/``right``\\ 是这一侧的端口的自定义纹理。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:470
+msgid "\\ **注意：** 这个方法只设置槽的属性。要创建槽，需要在GraphNode中添加一个\\ :ref:`Control<class_Control>`\\ 的派生类。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:472
+msgid "可以使用\\ ``set_slot_*``\\ 方法之一来设置单个属性。你必须至少启用插槽的一边才能这样做。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:478
+msgid "void **set_slot_color_left** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:480
+msgid "将插槽\\ ``idx``\\ 左侧（输入）的颜色\\ :ref:`Color<class_Color>`\\ 设置为\\ ``color_left``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:486
+msgid "void **set_slot_color_right** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:488
+msgid "将插槽\\ ``idx``\\ 的右侧（输出）的颜色\\ :ref:`Color<class_Color>`\\ 设置为\\ ``color_right``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:494
+msgid "void **set_slot_enabled_left** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:496
+msgid "切换插槽的左侧（输入）\\ ``idx``\\ 。 如果\\ ``enable_left``\\ 为\\ ``true``\\ ，左边将出现一个端口，插槽将能够从这一边连接。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:502
+msgid "void **set_slot_enabled_right** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:504
+msgid "切换插槽的右侧（输出）\\ ``idx``\\ 。如果\\ ``enable_right``\\ 为\\ ``true``\\ ，右侧将出现一个端口，插槽将能够从这一侧连接。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:510
+msgid "void **set_slot_type_left** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_left **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:512
+msgid "将插槽\\ ``idx``\\ 的左侧（输入）类型设置为\\ ``type_left``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:518
+msgid "void **set_slot_type_right** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` type_right **)**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:520
+msgid "将插槽\\ ``idx``\\ 的右（输出）类型设置为\\ ``type_right``\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:523
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:527
+msgid ":ref:`Color<class_Color>` **close_color**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:533
+msgid "应用于关闭按钮图标的颜色调制（modulation）。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:539
+msgid ":ref:`Color<class_Color>` **resizer_color**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:545
+msgid "应用于调整尺寸大小图标的颜色调制。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:551
+msgid ":ref:`Color<class_Color>` **title_color**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:557
+msgid "标题文字的颜色。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:563
+msgid ":ref:`int<class_int>` **close_offset**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:569
+msgid "关闭按钮的垂直偏移量。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:575
+msgid ":ref:`int<class_int>` **port_offset**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:581
+msgid "端口的水平偏移量。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:587
+msgid ":ref:`int<class_int>` **separation**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:593
+msgid "端口之间的垂直距离。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:599
+msgid ":ref:`int<class_int>` **title_offset**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:605
+msgid "标题文本的垂直偏移量。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:611
+msgid ":ref:`Font<class_Font>` **title_font**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:613
+msgid "对标题文本应用的字体。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:619
+msgid ":ref:`Texture<class_Texture>` **close**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:621
+msgid "关闭按钮的图标会在启用\\ :ref:`show_close<class_GraphNode_property_show_close>`\\ 时可见。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:627
+msgid ":ref:`Texture<class_Texture>` **port**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:629
+msgid "该图标用于表示端口。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:635
+msgid ":ref:`Texture<class_Texture>` **resizer**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:637
+msgid "用于调整大小的图标，在 :ref:`resizable<class_GraphNode_property_resizable>`\\ 被启用时可见。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:643
+msgid ":ref:`StyleBox<class_StyleBox>` **breakpoint**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:645
+msgid "当\\ :ref:`overlay<class_GraphNode_property_overlay>`\\ 被设置为\\ :ref:`OVERLAY_BREAKPOINT<class_GraphNode_constant_OVERLAY_BREAKPOINT>`\\ 时使用的背景。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:651
+msgid ":ref:`StyleBox<class_StyleBox>` **comment**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:653
+msgid "当启用\\ :ref:`comment<class_GraphNode_property_comment>`\\ 时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:659
+msgid ":ref:`StyleBox<class_StyleBox>` **commentfocus**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:661
+msgid "当\\ :ref:`comment<class_GraphNode_property_comment>`\\ 被启用，且\\ ``GraphNode``\\ 获得焦点时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:667
+msgid ":ref:`StyleBox<class_StyleBox>` **defaultfocus**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:673
+msgid ":ref:`StyleBox<class_StyleBox>` **defaultframe**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:679
+msgid ":ref:`StyleBox<class_StyleBox>` **frame**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:681
+msgid "``GraphNode``\\ 的默认背景。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:687
+msgid ":ref:`StyleBox<class_StyleBox>` **position**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:689
+msgid "当\\ :ref:`overlay<class_GraphNode_property_overlay>`\\ 设置为\\ :ref:`OVERLAY_POSITION<class_GraphNode_constant_OVERLAY_POSITION>`\\ 时使用的背景。"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:695
+msgid ":ref:`StyleBox<class_StyleBox>` **selectedframe**"
+msgstr ""
+
+#: ../classes/class_graphnode.rst:697
+msgid "``GraphNode``\\ 被选中时使用的背景。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

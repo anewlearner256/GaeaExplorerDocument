@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_httprequest.rst:10
+msgid "HTTPRequest"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:14
+msgid "具有发送 HTTP(S) 请求能力的节点。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:19
+msgid "有能力发送HTTP请求的节点。内部使用\\ :ref:`HTTPClient<class_HTTPClient>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:21
+msgid "可以用来进行HTTP请求，即通过HTTP下载或上传文件或网络内容。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:23
+msgid "\\ **警告：**\\ 参阅\\ :ref:`HTTPClient<class_HTTPClient>`\\ 的注释和警告，以了解其局限性，特别是关于SSL的安全性。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:25
+msgid "\\ **连接REST API并打印其返回字段之一的例子：**\\"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:56
+msgid "\\ **使用HTTPRequest加载和显示图片的例子：**\\"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:88
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:90
+msgid ":doc:`../tutorials/networking/http_request_class`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:92
+msgid ":doc:`../tutorials/networking/ssl_certificates`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:95
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:98
+#: ../classes/class_httprequest.rst:100
+#: ../classes/class_httprequest.rst:104
+#: ../classes/class_httprequest.rst:106
+#: ../classes/class_httprequest.rst:117
+#: ../classes/class_httprequest.rst:119
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:98
+msgid ":ref:`body_size_limit<class_HTTPRequest_property_body_size_limit>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:98
+#: ../classes/class_httprequest.rst:208
+msgid "``-1``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:100
+msgid ":ref:`download_chunk_size<class_HTTPRequest_property_download_chunk_size>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:100
+#: ../classes/class_httprequest.rst:224
+msgid "``65536``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:102
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:102
+msgid ":ref:`download_file<class_HTTPRequest_property_download_file>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:102
+#: ../classes/class_httprequest.rst:242
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:104
+msgid ":ref:`max_redirects<class_HTTPRequest_property_max_redirects>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:104
+#: ../classes/class_httprequest.rst:258
+msgid "``8``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:106
+msgid ":ref:`timeout<class_HTTPRequest_property_timeout>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:106
+#: ../classes/class_httprequest.rst:274
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:108
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:108
+msgid ":ref:`use_threads<class_HTTPRequest_property_use_threads>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:108
+#: ../classes/class_httprequest.rst:288
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:112
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:115
+#: ../classes/class_httprequest.rst:127
+#: ../classes/class_httprequest.rst:129
+msgid "void"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:115
+msgid ":ref:`cancel_request<class_HTTPRequest_method_cancel_request>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:117
+msgid ":ref:`get_body_size<class_HTTPRequest_method_get_body_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:119
+msgid ":ref:`get_downloaded_bytes<class_HTTPRequest_method_get_downloaded_bytes>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:121
+msgid ":ref:`Status<enum_HTTPClient_Status>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:121
+msgid ":ref:`get_http_client_status<class_HTTPRequest_method_get_http_client_status>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:123
+#: ../classes/class_httprequest.rst:125
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:123
+msgid ":ref:`request<class_HTTPRequest_method_request>` **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ), :ref:`bool<class_bool>` ssl_validate_domain=true, :ref:`Method<enum_HTTPClient_Method>` method=0, :ref:`String<class_String>` request_data=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:125
+msgid ":ref:`request_raw<class_HTTPRequest_method_request_raw>` **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ), :ref:`bool<class_bool>` ssl_validate_domain=true, :ref:`Method<enum_HTTPClient_Method>` method=0, :ref:`PoolByteArray<class_PoolByteArray>` request_data_raw=PoolByteArray(  ) **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:127
+msgid ":ref:`set_http_proxy<class_HTTPRequest_method_set_http_proxy>` **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:129
+msgid ":ref:`set_https_proxy<class_HTTPRequest_method_set_https_proxy>` **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:133
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:137
+msgid "**request_completed** **(** :ref:`int<class_int>` result, :ref:`int<class_int>` response_code, :ref:`PoolStringArray<class_PoolStringArray>` headers, :ref:`PoolByteArray<class_PoolByteArray>` body **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:139
+msgid "请求完成时触发。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:142
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:172
+msgid "enum **Result**:"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:174
+msgid "**RESULT_SUCCESS** = **0** --- 请求成功。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:176
+msgid "**RESULT_CHUNKED_BODY_SIZE_MISMATCH** = **1**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:178
+msgid "**RESULT_CANT_CONNECT** = **2** --- 连接时请求失败。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:180
+msgid "**RESULT_CANT_RESOLVE** = **3** --- 解析时请求失败。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:182
+msgid "**RESULT_CONNECTION_ERROR** = **4** --- 因连接（读写）错误而失败。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:184
+msgid "**RESULT_SSL_HANDSHAKE_ERROR** = **5** --- SSL 握手时请求失败。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:186
+msgid "**RESULT_NO_RESPONSE** = **6** --- 请求（目前还）没有获得相应。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:188
+msgid "**RESULT_BODY_SIZE_LIMIT_EXCEEDED** = **7** --- 请求超出了大小上限，见 :ref:`body_size_limit<class_HTTPRequest_property_body_size_limit>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:190
+msgid "**RESULT_REQUEST_FAILED** = **8** --- 请求失败（目前未使用）。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:192
+msgid "**RESULT_DOWNLOAD_FILE_CANT_OPEN** = **9** --- HTTPRequest 无法打开下载文件。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:194
+msgid "**RESULT_DOWNLOAD_FILE_WRITE_ERROR** = **10** --- HTTPRequest 无法写入下载文件。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:196
+msgid "**RESULT_REDIRECT_LIMIT_REACHED** = **11** --- 请求超出了重定向次数上限，见 :ref:`max_redirects<class_HTTPRequest_property_max_redirects>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:198
+msgid "**RESULT_TIMEOUT** = **12**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:201
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:205
+msgid ":ref:`int<class_int>` **body_size_limit**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:208
+#: ../classes/class_httprequest.rst:224
+#: ../classes/class_httprequest.rst:242
+#: ../classes/class_httprequest.rst:258
+#: ../classes/class_httprequest.rst:274
+#: ../classes/class_httprequest.rst:288
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:210
+#: ../classes/class_httprequest.rst:226
+#: ../classes/class_httprequest.rst:244
+#: ../classes/class_httprequest.rst:260
+#: ../classes/class_httprequest.rst:276
+#: ../classes/class_httprequest.rst:290
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:210
+msgid "set_body_size_limit(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:212
+#: ../classes/class_httprequest.rst:228
+#: ../classes/class_httprequest.rst:246
+#: ../classes/class_httprequest.rst:262
+#: ../classes/class_httprequest.rst:278
+#: ../classes/class_httprequest.rst:292
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:212
+msgid "get_body_size_limit()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:215
+msgid "允许的最大响应体大小。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:221
+msgid ":ref:`int<class_int>` **download_chunk_size**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:226
+msgid "set_download_chunk_size(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:228
+msgid "get_download_chunk_size()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:231
+msgid "使用的缓冲区大小和每次迭代读取的最大字节数。参阅 :ref:`HTTPClient.read_chunk_size<class_HTTPClient_property_read_chunk_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:233
+msgid "下载小文件时将其设置为较低的值，以降低内存使用量，但会降低下载速度，例如 4096 表示 4 KiB。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:239
+msgid ":ref:`String<class_String>` **download_file**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:244
+msgid "set_download_file(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:246
+msgid "get_download_file()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:249
+msgid "下载到的文件。将在其中写入任何收到的文件。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:255
+msgid ":ref:`int<class_int>` **max_redirects**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:260
+msgid "set_max_redirects(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:262
+msgid "get_max_redirects()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:265
+msgid "允许的最大重定向数。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:271
+msgid ":ref:`int<class_int>` **timeout**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:276
+msgid "set_timeout(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:278
+msgid "get_timeout()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:285
+msgid ":ref:`bool<class_bool>` **use_threads**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:290
+msgid "set_use_threads(value)"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:292
+msgid "is_using_threads()"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:295
+msgid "为 ``true`` 时，将启用多线程提高性能。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:298
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:302
+msgid "void **cancel_request** **(** **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:304
+msgid "取消当前请求。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:310
+msgid ":ref:`int<class_int>` **get_body_size** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:312
+msgid "返回响应体长度。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:314
+msgid "\\ **注意：** 部分 Web 服务器可能不发送响应体长度，此时返回值将为 ``-1``\\ 。如果使用分块传输编码，响应体的长度也将为 ``-1``\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:320
+msgid ":ref:`int<class_int>` **get_downloaded_bytes** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:322
+msgid "返回该 HTTPRequest 已下载的字节数。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:328
+msgid ":ref:`Status<enum_HTTPClient_Status>` **get_http_client_status** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:330
+msgid "返回内部 :ref:`HTTPClient<class_HTTPClient>` 的当前状态。见 :ref:`Status<enum_HTTPClient_Status>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:336
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **request** **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ), :ref:`bool<class_bool>` ssl_validate_domain=true, :ref:`Method<enum_HTTPClient_Method>` method=0, :ref:`String<class_String>` request_data=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:338
+msgid "在底层的 :ref:`HTTPClient<class_HTTPClient>` 上创建请求。如果没有配置错误，它会尝试使用 :ref:`HTTPClient.connect_to_host<class_HTTPClient_method_connect_to_host>` 连接并将参数传递给 :ref:`HTTPClient.request<class_HTTPClient_method_request>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:340
+#: ../classes/class_httprequest.rst:352
+msgid "如果请求创建成功，则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ 。 （并不意味着服务器已响应），\\ :ref:`@GlobalScope.ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>` 如果不在树中，\\ :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` 如果仍在处理先前的请求，\\ :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` 如果给定的字符串不是有效的 URL 格式，或 :ref:`@GlobalScope.ERR_CANT_CONNECT<class_@GlobalScope_constant_ERR_CANT_CONNECT>`\\ 如果不使用线程并且 :ref:`HTTPClient<class_HTTPClient>` 无法连接到主机。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:342
+msgid "\\ **注意：**\\ 当\\ ``method``\\ 为\\ :ref:`HTTPClient.METHOD_GET<class_HTTPClient_constant_METHOD_GET>`\\ 时，通过\\ ``request_data``\\ 发送的payload可能会被服务器忽略甚至导致服务器拒绝请求，参阅 `RFC 7231 第 4.3.1 节 <https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1>`__ 了解更多。作为一种解决方法，你可以将数据作为 URL 中的查询字符串发送。参阅 :ref:`String.http_escape<class_String_method_http_escape>` 示例。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:348
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **request_raw** **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ), :ref:`bool<class_bool>` ssl_validate_domain=true, :ref:`Method<enum_HTTPClient_Method>` method=0, :ref:`PoolByteArray<class_PoolByteArray>` request_data_raw=PoolByteArray(  ) **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:350
+msgid "在底层的\\ :ref:`HTTPClient<class_HTTPClient>`\\ 上创建请求，使用一个原始字节数组作为请求主体。如果没有配置错误，它会尝试使用 :ref:`HTTPClient.connect_to_host<class_HTTPClient_method_connect_to_host>` 连接并将参数传递给 :ref:`HTTPClient.request<class_HTTPClient_method_request>`\\ 。"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:358
+msgid "void **set_http_proxy** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:360
+msgid "Sets the proxy server for HTTP requests."
+msgstr ""
+
+#: ../classes/class_httprequest.rst:362
+#: ../classes/class_httprequest.rst:372
+msgid "The proxy server is unset if ``host`` is empty or ``port`` is -1."
+msgstr ""
+
+#: ../classes/class_httprequest.rst:368
+msgid "void **set_https_proxy** **(** :ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../classes/class_httprequest.rst:370
+msgid "Sets the proxy server for HTTPS requests."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

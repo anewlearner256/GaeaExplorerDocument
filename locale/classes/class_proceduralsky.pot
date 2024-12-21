@@ -1,0 +1,558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_proceduralsky.rst:10
+msgid "ProceduralSky"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:12
+msgid "**Inherits:** :ref:`Sky<class_Sky>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:14
+msgid "根据用户输入的参数按程序生成的 :ref:`Sky<class_Sky>` 类型。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:19
+msgid "ProceduralSky 提供了一种方法，通过定义太阳、天空和地面的程序性参数，以快速创建一个有效的背景。天空和地面非常相似，它们是由地平线上的两种颜色以及在这两种颜色之间插值渐变曲线来定义。同样，太阳也是由天空中的位置、颜色和平缓曲线来描述。同时，太阳也定义了最小和最大的角度，这两个值定义了太阳从开始和结束的距离的平缓曲线，进而，最终定义了天空中太阳的大小。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:21
+msgid "在参数改变后，ProceduralSky 会在 CPU 上更新。它被存储在一个纹理中，然后在场景中作为背景显示。这使得它相对来说，不适合在游戏进行过程中实时更新。但，如果纹理尺寸足够小，它仍然可以相对频繁地更新，因为当多线程可用时，它是在后台线程上。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:27
+#: ../classes/class_proceduralsky.rst:33
+#: ../classes/class_proceduralsky.rst:39
+#: ../classes/class_proceduralsky.rst:41
+#: ../classes/class_proceduralsky.rst:47
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:27
+msgid ":ref:`ground_bottom_color<class_ProceduralSky_property_ground_bottom_color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:27
+#: ../classes/class_proceduralsky.rst:99
+msgid "``Color( 0.156863, 0.184314, 0.211765, 1 )``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:29
+#: ../classes/class_proceduralsky.rst:31
+#: ../classes/class_proceduralsky.rst:35
+#: ../classes/class_proceduralsky.rst:37
+#: ../classes/class_proceduralsky.rst:43
+#: ../classes/class_proceduralsky.rst:45
+#: ../classes/class_proceduralsky.rst:49
+#: ../classes/class_proceduralsky.rst:51
+#: ../classes/class_proceduralsky.rst:53
+#: ../classes/class_proceduralsky.rst:55
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:29
+msgid ":ref:`ground_curve<class_ProceduralSky_property_ground_curve>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:29
+#: ../classes/class_proceduralsky.rst:115
+msgid "``0.02``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:31
+msgid ":ref:`ground_energy<class_ProceduralSky_property_ground_energy>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:31
+#: ../classes/class_proceduralsky.rst:37
+#: ../classes/class_proceduralsky.rst:45
+#: ../classes/class_proceduralsky.rst:51
+#: ../classes/class_proceduralsky.rst:131
+#: ../classes/class_proceduralsky.rst:179
+#: ../classes/class_proceduralsky.rst:243
+#: ../classes/class_proceduralsky.rst:291
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:33
+msgid ":ref:`ground_horizon_color<class_ProceduralSky_property_ground_horizon_color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:33
+#: ../classes/class_proceduralsky.rst:147
+msgid "``Color( 0.423529, 0.396078, 0.372549, 1 )``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:35
+msgid ":ref:`sky_curve<class_ProceduralSky_property_sky_curve>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:35
+#: ../classes/class_proceduralsky.rst:163
+msgid "``0.09``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:37
+msgid ":ref:`sky_energy<class_ProceduralSky_property_sky_energy>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:39
+msgid ":ref:`sky_horizon_color<class_ProceduralSky_property_sky_horizon_color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:39
+#: ../classes/class_proceduralsky.rst:195
+msgid "``Color( 0.839216, 0.917647, 0.980392, 1 )``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:41
+msgid ":ref:`sky_top_color<class_ProceduralSky_property_sky_top_color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:41
+#: ../classes/class_proceduralsky.rst:211
+msgid "``Color( 0.647059, 0.839216, 0.945098, 1 )``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:43
+msgid ":ref:`sun_angle_max<class_ProceduralSky_property_sun_angle_max>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:43
+#: ../classes/class_proceduralsky.rst:227
+msgid "``100.0``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:45
+msgid ":ref:`sun_angle_min<class_ProceduralSky_property_sun_angle_min>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:47
+msgid ":ref:`sun_color<class_ProceduralSky_property_sun_color>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:47
+#: ../classes/class_proceduralsky.rst:259
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:49
+msgid ":ref:`sun_curve<class_ProceduralSky_property_sun_curve>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:49
+#: ../classes/class_proceduralsky.rst:275
+msgid "``0.05``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:51
+msgid ":ref:`sun_energy<class_ProceduralSky_property_sun_energy>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:53
+msgid ":ref:`sun_latitude<class_ProceduralSky_property_sun_latitude>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:53
+#: ../classes/class_proceduralsky.rst:307
+msgid "``35.0``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:55
+msgid ":ref:`sun_longitude<class_ProceduralSky_property_sun_longitude>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:55
+#: ../classes/class_proceduralsky.rst:323
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:57
+msgid ":ref:`TextureSize<enum_ProceduralSky_TextureSize>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:57
+msgid ":ref:`texture_size<class_ProceduralSky_property_texture_size>`"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:57
+#: ../classes/class_proceduralsky.rst:339
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:61
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:77
+msgid "enum **TextureSize**:"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:79
+msgid "**TEXTURE_SIZE_256** = **0** --- 天空纹理将为 256x128。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:81
+msgid "**TEXTURE_SIZE_512** = **1** --- 天空纹理将为 512x256。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:83
+msgid "**TEXTURE_SIZE_1024** = **2** --- 天空纹理将为 1024x512。这是默认大小。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:85
+msgid "**TEXTURE_SIZE_2048** = **3** --- 天空纹理将为 2048x1024。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:87
+msgid "**TEXTURE_SIZE_4096** = **4** --- 天空纹理将为 4096x2048。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:89
+msgid "**TEXTURE_SIZE_MAX** = **5** --- 代表 :ref:`TextureSize<enum_ProceduralSky_TextureSize>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:92
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:96
+msgid ":ref:`Color<class_Color>` **ground_bottom_color**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:99
+#: ../classes/class_proceduralsky.rst:115
+#: ../classes/class_proceduralsky.rst:131
+#: ../classes/class_proceduralsky.rst:147
+#: ../classes/class_proceduralsky.rst:163
+#: ../classes/class_proceduralsky.rst:179
+#: ../classes/class_proceduralsky.rst:195
+#: ../classes/class_proceduralsky.rst:211
+#: ../classes/class_proceduralsky.rst:227
+#: ../classes/class_proceduralsky.rst:243
+#: ../classes/class_proceduralsky.rst:259
+#: ../classes/class_proceduralsky.rst:275
+#: ../classes/class_proceduralsky.rst:291
+#: ../classes/class_proceduralsky.rst:307
+#: ../classes/class_proceduralsky.rst:323
+#: ../classes/class_proceduralsky.rst:339
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:101
+#: ../classes/class_proceduralsky.rst:117
+#: ../classes/class_proceduralsky.rst:133
+#: ../classes/class_proceduralsky.rst:149
+#: ../classes/class_proceduralsky.rst:165
+#: ../classes/class_proceduralsky.rst:181
+#: ../classes/class_proceduralsky.rst:197
+#: ../classes/class_proceduralsky.rst:213
+#: ../classes/class_proceduralsky.rst:229
+#: ../classes/class_proceduralsky.rst:245
+#: ../classes/class_proceduralsky.rst:261
+#: ../classes/class_proceduralsky.rst:277
+#: ../classes/class_proceduralsky.rst:293
+#: ../classes/class_proceduralsky.rst:309
+#: ../classes/class_proceduralsky.rst:325
+#: ../classes/class_proceduralsky.rst:341
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:101
+msgid "set_ground_bottom_color(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:103
+#: ../classes/class_proceduralsky.rst:119
+#: ../classes/class_proceduralsky.rst:135
+#: ../classes/class_proceduralsky.rst:151
+#: ../classes/class_proceduralsky.rst:167
+#: ../classes/class_proceduralsky.rst:183
+#: ../classes/class_proceduralsky.rst:199
+#: ../classes/class_proceduralsky.rst:215
+#: ../classes/class_proceduralsky.rst:231
+#: ../classes/class_proceduralsky.rst:247
+#: ../classes/class_proceduralsky.rst:263
+#: ../classes/class_proceduralsky.rst:279
+#: ../classes/class_proceduralsky.rst:295
+#: ../classes/class_proceduralsky.rst:311
+#: ../classes/class_proceduralsky.rst:327
+#: ../classes/class_proceduralsky.rst:343
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:103
+msgid "get_ground_bottom_color()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:106
+msgid "地面底部的颜色。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:112
+msgid ":ref:`float<class_float>` **ground_curve**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:117
+msgid "set_ground_curve(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:119
+msgid "get_ground_curve()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:122
+msgid "从 :ref:`ground_horizon_color<class_ProceduralSky_property_ground_horizon_color>` 渐变到 :ref:`ground_bottom_color<class_ProceduralSky_property_ground_bottom_color>` 的速度。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:128
+msgid ":ref:`float<class_float>` **ground_energy**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:133
+msgid "set_ground_energy(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:135
+msgid "get_ground_energy()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:138
+msgid "来自地面的能量贡献量。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:144
+msgid ":ref:`Color<class_Color>` **ground_horizon_color**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:149
+msgid "set_ground_horizon_color(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:151
+msgid "get_ground_horizon_color()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:154
+msgid "地面在地平线上的颜色。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:160
+msgid ":ref:`float<class_float>` **sky_curve**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:165
+msgid "set_sky_curve(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:167
+msgid "get_sky_curve()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:170
+msgid "从 :ref:`sky_horizon_color<class_ProceduralSky_property_sky_horizon_color>` 渐变到 :ref:`sky_top_color<class_ProceduralSky_property_sky_top_color>` 的速度。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:176
+msgid ":ref:`float<class_float>` **sky_energy**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:181
+msgid "set_sky_energy(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:183
+msgid "get_sky_energy()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:186
+msgid "来自天空的能量贡献量。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:192
+msgid ":ref:`Color<class_Color>` **sky_horizon_color**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:197
+msgid "set_sky_horizon_color(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:199
+msgid "get_sky_horizon_color()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:202
+msgid "天空在地平线上的颜色。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:208
+msgid ":ref:`Color<class_Color>` **sky_top_color**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:213
+msgid "set_sky_top_color(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:215
+msgid "get_sky_top_color()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:218
+msgid "天空顶部的颜色。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:224
+msgid ":ref:`float<class_float>` **sun_angle_max**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:229
+msgid "set_sun_angle_max(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:231
+msgid "get_sun_angle_max()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:234
+msgid "太阳完全淡出消失的位置与太阳中心的距离。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:240
+msgid ":ref:`float<class_float>` **sun_angle_min**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:245
+msgid "set_sun_angle_min(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:247
+msgid "get_sun_angle_min()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:250
+msgid "太阳开始从实心淡出的距离。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:256
+msgid ":ref:`Color<class_Color>` **sun_color**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:261
+msgid "set_sun_color(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:263
+msgid "get_sun_color()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:266
+msgid "太阳的颜色。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:272
+msgid ":ref:`float<class_float>` **sun_curve**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:277
+msgid "set_sun_curve(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:279
+msgid "get_sun_curve()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:282
+msgid "太阳在 :ref:`sun_angle_min<class_ProceduralSky_property_sun_angle_min>` 和 :ref:`sun_angle_max<class_ProceduralSky_property_sun_angle_max>` 之间淡出消失的速度。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:288
+msgid ":ref:`float<class_float>` **sun_energy**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:293
+msgid "set_sun_energy(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:295
+msgid "get_sun_energy()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:298
+msgid "来自太阳的能量贡献量。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:304
+msgid ":ref:`float<class_float>` **sun_latitude**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:309
+msgid "set_sun_latitude(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:311
+msgid "get_sun_latitude()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:314
+msgid "太阳的极坐标高度。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:320
+msgid ":ref:`float<class_float>` **sun_longitude**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:325
+msgid "set_sun_longitude(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:327
+msgid "get_sun_longitude()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:330
+msgid "太阳的极坐标方向。"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:336
+msgid ":ref:`TextureSize<enum_ProceduralSky_TextureSize>` **texture_size**"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:341
+msgid "set_texture_size(value)"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:343
+msgid "get_texture_size()"
+msgstr ""
+
+#: ../classes/class_proceduralsky.rst:346
+msgid "ProceduralSky 将生成的 :ref:`Texture<class_Texture>` 的大小。该大小是用 :ref:`TextureSize<enum_ProceduralSky_TextureSize>` 来设置的。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

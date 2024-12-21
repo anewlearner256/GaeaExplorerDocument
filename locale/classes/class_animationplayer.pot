@@ -1,0 +1,817 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationplayer.rst:10
+msgid "AnimationPlayer"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:14
+msgid ":ref:`Animation<class_Animation>` 资源的容器和播放器。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:19
+msgid "动画播放器用于 :ref:`Animation<class_Animation>` 资源的通用播放。它包含一个动画字典（使用名称进行索引）和自定义动画转换之间的混合时间。此外，动画可以在不同的通道中播放和混合。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:21
+msgid "\\ ``AnimationPlayer`` 比 :ref:`Tween<class_Tween>` 更适合用于事先知道最终值的动画。例如，由于编辑器提供的动画工具，用 ``AnimationPlayer`` 节点更容易完成屏幕的淡入淡出。这个特殊的例子也可以用 :ref:`Tween<class_Tween>` 节点来实现，但就需要通过代码来完成一切。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:23
+msgid "更新动画的目标属性是在处理时进行的。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:28
+msgid ":doc:`Animation tutorial index <../tutorials/animation/index>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:30
+msgid ":doc:`2D Sprite animation <../tutorials/2d/2d_sprite_animation>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:32
+msgid "`Third Person Shooter Demo <https://godotengine.org/asset-library/asset/678>`__"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:38
+#: ../classes/class_animationplayer.rst:40
+#: ../classes/class_animationplayer.rst:42
+#: ../classes/class_animationplayer.rst:71
+#: ../classes/class_animationplayer.rst:79
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:38
+msgid ":ref:`assigned_animation<class_AnimationPlayer_property_assigned_animation>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:40
+msgid ":ref:`autoplay<class_AnimationPlayer_property_autoplay>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:40
+#: ../classes/class_animationplayer.rst:42
+#: ../classes/class_animationplayer.rst:202
+#: ../classes/class_animationplayer.rst:218
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:42
+msgid ":ref:`current_animation<class_AnimationPlayer_property_current_animation>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:44
+#: ../classes/class_animationplayer.rst:46
+#: ../classes/class_animationplayer.rst:52
+#: ../classes/class_animationplayer.rst:56
+#: ../classes/class_animationplayer.rst:85
+#: ../classes/class_animationplayer.rst:87
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:44
+msgid ":ref:`current_animation_length<class_AnimationPlayer_property_current_animation_length>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:46
+msgid ":ref:`current_animation_position<class_AnimationPlayer_property_current_animation_position>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:48
+msgid ":ref:`AnimationMethodCallMode<enum_AnimationPlayer_AnimationMethodCallMode>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:48
+msgid ":ref:`method_call_mode<class_AnimationPlayer_property_method_call_mode>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:48
+#: ../classes/class_animationplayer.rst:260
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:50
+#: ../classes/class_animationplayer.rst:58
+#: ../classes/class_animationplayer.rst:91
+#: ../classes/class_animationplayer.rst:93
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:50
+msgid ":ref:`playback_active<class_AnimationPlayer_property_playback_active>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:52
+msgid ":ref:`playback_default_blend_time<class_AnimationPlayer_property_playback_default_blend_time>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:52
+#: ../classes/class_animationplayer.rst:290
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:54
+msgid ":ref:`AnimationProcessMode<enum_AnimationPlayer_AnimationProcessMode>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:54
+msgid ":ref:`playback_process_mode<class_AnimationPlayer_property_playback_process_mode>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:54
+#: ../classes/class_animationplayer.rst:306
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:56
+msgid ":ref:`playback_speed<class_AnimationPlayer_property_playback_speed>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:56
+#: ../classes/class_animationplayer.rst:322
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:58
+msgid ":ref:`reset_on_save<class_AnimationPlayer_property_reset_on_save>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:58
+#: ../classes/class_animationplayer.rst:338
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:60
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:60
+msgid ":ref:`root_node<class_AnimationPlayer_property_root_node>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:60
+#: ../classes/class_animationplayer.rst:356
+msgid "``NodePath(\"..\")``"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:64
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:67
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:67
+msgid ":ref:`add_animation<class_AnimationPlayer_method_add_animation>` **(** :ref:`String<class_String>` name, :ref:`Animation<class_Animation>` animation **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:69
+#: ../classes/class_animationplayer.rst:73
+#: ../classes/class_animationplayer.rst:75
+#: ../classes/class_animationplayer.rst:77
+#: ../classes/class_animationplayer.rst:95
+#: ../classes/class_animationplayer.rst:97
+#: ../classes/class_animationplayer.rst:99
+#: ../classes/class_animationplayer.rst:101
+#: ../classes/class_animationplayer.rst:103
+#: ../classes/class_animationplayer.rst:105
+#: ../classes/class_animationplayer.rst:107
+#: ../classes/class_animationplayer.rst:109
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:69
+msgid ":ref:`advance<class_AnimationPlayer_method_advance>` **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:71
+msgid ":ref:`animation_get_next<class_AnimationPlayer_method_animation_get_next>` **(** :ref:`String<class_String>` anim_from **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:73
+msgid ":ref:`animation_set_next<class_AnimationPlayer_method_animation_set_next>` **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:75
+msgid ":ref:`clear_caches<class_AnimationPlayer_method_clear_caches>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:77
+msgid ":ref:`clear_queue<class_AnimationPlayer_method_clear_queue>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:79
+msgid ":ref:`find_animation<class_AnimationPlayer_method_find_animation>` **(** :ref:`Animation<class_Animation>` animation **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:81
+msgid ":ref:`Animation<class_Animation>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:81
+msgid ":ref:`get_animation<class_AnimationPlayer_method_get_animation>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:83
+#: ../classes/class_animationplayer.rst:89
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:83
+msgid ":ref:`get_animation_list<class_AnimationPlayer_method_get_animation_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:85
+msgid ":ref:`get_blend_time<class_AnimationPlayer_method_get_blend_time>` **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:87
+msgid ":ref:`get_playing_speed<class_AnimationPlayer_method_get_playing_speed>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:89
+msgid ":ref:`get_queue<class_AnimationPlayer_method_get_queue>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:91
+msgid ":ref:`has_animation<class_AnimationPlayer_method_has_animation>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:93
+msgid ":ref:`is_playing<class_AnimationPlayer_method_is_playing>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:95
+msgid ":ref:`play<class_AnimationPlayer_method_play>` **(** :ref:`String<class_String>` name=\"\", :ref:`float<class_float>` custom_blend=-1, :ref:`float<class_float>` custom_speed=1.0, :ref:`bool<class_bool>` from_end=false **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:97
+msgid ":ref:`play_backwards<class_AnimationPlayer_method_play_backwards>` **(** :ref:`String<class_String>` name=\"\", :ref:`float<class_float>` custom_blend=-1 **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:99
+msgid ":ref:`queue<class_AnimationPlayer_method_queue>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:101
+msgid ":ref:`remove_animation<class_AnimationPlayer_method_remove_animation>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:103
+msgid ":ref:`rename_animation<class_AnimationPlayer_method_rename_animation>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` newname **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:105
+msgid ":ref:`seek<class_AnimationPlayer_method_seek>` **(** :ref:`float<class_float>` seconds, :ref:`bool<class_bool>` update=false **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:107
+msgid ":ref:`set_blend_time<class_AnimationPlayer_method_set_blend_time>` **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to, :ref:`float<class_float>` sec **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:109
+msgid ":ref:`stop<class_AnimationPlayer_method_stop>` **(** :ref:`bool<class_bool>` reset=true **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:113
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:117
+msgid "**animation_changed** **(** :ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:119
+msgid "当队列中前一个动画播放完毕，要播放下一个动画时触发信号，参见 :ref:`queue<class_AnimationPlayer_method_queue>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:121
+msgid "\\ **注意：**\\ 如果是通过 :ref:`play<class_AnimationPlayer_method_play>` 方法或 :ref:`AnimationTree<class_AnimationTree>` 改变的动画，该信号不会触发。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:127
+msgid "**animation_finished** **(** :ref:`String<class_String>` anim_name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:129
+msgid "当动画播放结束时通知。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:135
+msgid "**animation_started** **(** :ref:`String<class_String>` anim_name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:137
+msgid "当动画开始播放时通知。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:143
+msgid "**caches_cleared** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:145
+msgid "当缓存被清除时，通过\\ :ref:`clear_caches<class_AnimationPlayer_method_clear_caches>`\\ 自动或手动通知。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:148
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:158
+msgid "enum **AnimationProcessMode**:"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:160
+msgid "**ANIMATION_PROCESS_PHYSICS** = **0** --- 在物理过程中处理动画。在为物理物体设置动画时，这特别有用。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:162
+msgid "**ANIMATION_PROCESS_IDLE** = **1** --- 在空闲过程中处理动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:164
+msgid "**ANIMATION_PROCESS_MANUAL** = **2** --- 不处理动画。使用\\ :ref:`advance<class_AnimationPlayer_method_advance>`\\ 手动处理动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:174
+msgid "enum **AnimationMethodCallMode**:"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:176
+msgid "**ANIMATION_METHOD_CALL_DEFERRED** = **0** --- 在动画过程中批量调用方法，然后在处理完事件后再进行调用。这样就避免了在播放过程中涉及删除节点或修改AnimationPlayer的错误。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:178
+msgid "**ANIMATION_METHOD_CALL_IMMEDIATE** = **1** --- 在动画中达到时立即进行方法调用。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:181
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:185
+msgid ":ref:`String<class_String>` **assigned_animation**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:188
+#: ../classes/class_animationplayer.rst:204
+#: ../classes/class_animationplayer.rst:220
+#: ../classes/class_animationplayer.rst:262
+#: ../classes/class_animationplayer.rst:276
+#: ../classes/class_animationplayer.rst:292
+#: ../classes/class_animationplayer.rst:308
+#: ../classes/class_animationplayer.rst:324
+#: ../classes/class_animationplayer.rst:340
+#: ../classes/class_animationplayer.rst:358
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:188
+msgid "set_assigned_animation(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:190
+#: ../classes/class_animationplayer.rst:206
+#: ../classes/class_animationplayer.rst:222
+#: ../classes/class_animationplayer.rst:236
+#: ../classes/class_animationplayer.rst:248
+#: ../classes/class_animationplayer.rst:264
+#: ../classes/class_animationplayer.rst:278
+#: ../classes/class_animationplayer.rst:294
+#: ../classes/class_animationplayer.rst:310
+#: ../classes/class_animationplayer.rst:326
+#: ../classes/class_animationplayer.rst:342
+#: ../classes/class_animationplayer.rst:360
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:190
+msgid "get_assigned_animation()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:193
+msgid "如果正在播放，则为当前的动画；否则为上次播放的动画。当设置时，将改变动画，但不会播放它，除非当前正在播放。参阅 :ref:`current_animation<class_AnimationPlayer_property_current_animation>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:199
+msgid ":ref:`String<class_String>` **autoplay**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:202
+#: ../classes/class_animationplayer.rst:218
+#: ../classes/class_animationplayer.rst:260
+#: ../classes/class_animationplayer.rst:290
+#: ../classes/class_animationplayer.rst:306
+#: ../classes/class_animationplayer.rst:322
+#: ../classes/class_animationplayer.rst:338
+#: ../classes/class_animationplayer.rst:356
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:204
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:206
+msgid "get_autoplay()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:209
+msgid "场景加载时要播放的动画名称。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:215
+msgid ":ref:`String<class_String>` **current_animation**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:220
+msgid "set_current_animation(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:222
+msgid "get_current_animation()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:225
+msgid "当前播放的动画的名称。如果没有动画正在播放，该属性的值是一个空字符串。改变这个值不会重新启动动画。关于播放动画的更多信息请参阅\\ :ref:`play<class_AnimationPlayer_method_play>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:227
+msgid "\\ **注意：** 虽然这个属性出现在检查器中，但它不是用来编辑的，也不会保存在场景中。该属性主要用于获取当前播放的动画，内部用于动画播放轨道。有关详细信息，请参阅动画\\ :ref:`Animation<class_Animation>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:233
+msgid ":ref:`float<class_float>` **current_animation_length**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:236
+msgid "get_current_animation_length()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:239
+msgid "当前正在播放的动画的长度（秒）。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:245
+msgid ":ref:`float<class_float>` **current_animation_position**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:248
+msgid "get_current_animation_position()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:251
+msgid "当前播放的动画的位置（以秒为单位）。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:257
+msgid ":ref:`AnimationMethodCallMode<enum_AnimationPlayer_AnimationMethodCallMode>` **method_call_mode**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:262
+msgid "set_method_call_mode(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:264
+msgid "get_method_call_mode()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:267
+msgid "方法调用轨道所使用的调用模式。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:273
+msgid ":ref:`bool<class_bool>` **playback_active**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:276
+msgid "set_active(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:278
+msgid "is_active()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:281
+msgid "如果\\ ``true``\\ ，根据流程相关通知更新动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:287
+msgid ":ref:`float<class_float>` **playback_default_blend_time**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:292
+msgid "set_default_blend_time(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:294
+msgid "get_default_blend_time()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:297
+msgid "混合动画的默认时间。范围从 0 到 4096，精度为 0.01。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:303
+msgid ":ref:`AnimationProcessMode<enum_AnimationPlayer_AnimationProcessMode>` **playback_process_mode**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:308
+msgid "set_animation_process_mode(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:310
+msgid "get_animation_process_mode()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:313
+msgid "更新动画的过程通知。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:319
+msgid ":ref:`float<class_float>` **playback_speed**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:324
+msgid "set_speed_scale(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:326
+msgid "get_speed_scale()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:329
+msgid "速度缩放比。例如，如果这个值是1，那么动画以正常速度播放。如果是0.5，则以半速播放。如果是2，则以双倍速度播放。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:335
+msgid ":ref:`bool<class_bool>` **reset_on_save**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:340
+msgid "set_reset_on_save_enabled(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:342
+msgid "is_reset_on_save_enabled()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:345
+msgid "这由编辑器使用。如果设置为 ``true``\\ ，场景在保存时将应用重置动画的效果（就像它回到 0 时间点），然后在保存后恢复原状。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:347
+msgid "换句话说，保存的场景文件将包含“默认状态”，是由重置动画定义，如果有，编辑器保持节点在保存前的值。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:353
+msgid ":ref:`NodePath<class_NodePath>` **root_node**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:358
+msgid "set_root(value)"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:360
+msgid "get_root()"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:363
+msgid "节点路径引用将从其运行的节点。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:366
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:370
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **add_animation** **(** :ref:`String<class_String>` name, :ref:`Animation<class_Animation>` animation **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:372
+msgid "向播放器中添加动画 ``animation``\\ ，后续通过键 ``name`` 访问。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:378
+msgid "void **advance** **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:380
+msgid "移动动画时间轴上的位置并立即更新动画。\\ ``delta`` 是要移动的时间，单位为秒。会处理位于当前帧和 ``delta`` 之间的事件。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:386
+msgid ":ref:`String<class_String>` **animation_get_next** **(** :ref:`String<class_String>` anim_from **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:388
+msgid "返回队列中下一个动画的名称。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:394
+msgid "void **animation_set_next** **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:396
+msgid "当 ``anim_from`` 动画完成后，触发 ``anim_to`` 动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:402
+msgid "void **clear_caches** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:404
+msgid "``AnimationPlayer`` 缓存动画节点。如果一个节点消失，它可能不会注意到；\\ :ref:`clear_caches<class_AnimationPlayer_method_clear_caches>` 强制它再次更新缓存。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:410
+msgid "void **clear_queue** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:412
+msgid "清除所有已排队、未播放的动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:418
+msgid ":ref:`String<class_String>` **find_animation** **(** :ref:`Animation<class_Animation>` animation **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:420
+msgid "返回 ``animation`` 的名称，如果没有找到，则返回一个空字符串。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:426
+msgid ":ref:`Animation<class_Animation>` **get_animation** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:428
+msgid "返回键为 ``name`` 的 :ref:`Animation<class_Animation>` 动画，未找到时为 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:434
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_animation_list** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:436
+msgid "返回存储的动画名称列表。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:442
+msgid ":ref:`float<class_float>` **get_blend_time** **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:444
+msgid "获取两个动画之间的混合时间（以秒为单位），由它们的名称引用。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:450
+msgid ":ref:`float<class_float>` **get_playing_speed** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:452
+msgid "获取当前动画的实际播放速度，如果没有播放则为0。这个速度是调用\\ :ref:`play<class_AnimationPlayer_method_play>`\\ 方法时指定的\\ :ref:`playback_speed<class_AnimationPlayer_property_playback_speed>`\\ 属性乘以\\ ``custom_speed``\\ 参数。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:458
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_queue** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:460
+msgid "返回当前排队播放的动画名称列表。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:466
+msgid ":ref:`bool<class_bool>` **has_animation** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:468
+msgid "如果\\ ``AnimationPlayer``\\ 存储了带有\\ ``name``\\ with key\\ :ref:`Animation<class_Animation>`\\ ，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:474
+msgid ":ref:`bool<class_bool>` **is_playing** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:476
+msgid "如果正在播放动画，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:482
+msgid "void **play** **(** :ref:`String<class_String>` name=\"\", :ref:`float<class_float>` custom_blend=-1, :ref:`float<class_float>` custom_speed=1.0, :ref:`bool<class_bool>` from_end=false **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:484
+msgid "播放键名为 ``name`` 的动画。可以设置自定义混合时间和速度。如果 ``custom_speed`` 为负，\\ ``from_end`` =\\ ``true``\\ ，则动画将向后播放（相当于调用 :ref:`play_backwards<class_AnimationPlayer_method_play_backwards>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:486
+msgid "\\ ``AnimationPlayer`` 使用 :ref:`assigned_animation<class_AnimationPlayer_property_assigned_animation>` 跟踪其当前或最后播放的动画。如果使用相同的动画名 ``name`` 或没有 ``name`` 参数调用此方法，则分配的动画将在暂停时继续播放，或者在停止时重新启动（请参阅 :ref:`stop<class_AnimationPlayer_method_stop>`\\ ，同时暂停和停止。如果动画已经在播放，它将继续播放。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:488
+msgid "\\ **注意：**\\ 下次处理 ``AnimationPlayer`` 时，动画将被更新。如果在调用的同时更新了其他变量，则它们可能更新得太早。要立即执行更新，请调用 ``advance(0)``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:494
+msgid "void **play_backwards** **(** :ref:`String<class_String>` name=\"\", :ref:`float<class_float>` custom_blend=-1 **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:496
+msgid "反向播放键名称为 ``name`` 的动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:498
+msgid "这个方法是 :ref:`play<class_AnimationPlayer_method_play>` 的简写，只是其中参数设为 ``custom_speed = -1.0`` 和 ``from_end = true``\\ ，所以更多信息请参阅其描述。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:504
+msgid "void **queue** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:506
+msgid "当当前动画播放完毕后，排队等待播放。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:508
+msgid "\\ **注意：**\\ 如果当前正在播放循环动画，除非以某种方式停止循环动画，否则排队的动画将永远不会播放。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:514
+msgid "void **remove_animation** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:516
+msgid "移除按键\\ ``name``\\ 的动画。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:522
+msgid "void **rename_animation** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` newname **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:524
+msgid "将键值为\\ ``name``\\ 的现有动画重命名为\\ ``newname``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:530
+msgid "void **seek** **(** :ref:`float<class_float>` seconds, :ref:`bool<class_bool>` update=false **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:532
+msgid "将动画寻道到时间点 ``seconds``\\ （单位为秒）。\\ ``update`` 为 ``true`` 时会同时更新动画，否则会在处理时更新。当前帧和 ``seconds`` 之间的事件会被跳过。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:538
+msgid "void **set_blend_time** **(** :ref:`String<class_String>` anim_from, :ref:`String<class_String>` anim_to, :ref:`float<class_float>` sec **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:540
+msgid "指定两个动画之间的混合时间（以秒为单位），以它们的名称为参照。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:546
+msgid "void **stop** **(** :ref:`bool<class_bool>` reset=true **)**"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:548
+msgid "停止或暂停当前播放的动画。如果 ``reset`` 为 ``true``\\ ，会将动画位置重置为 ``0``\\ 、播放速度重置为 ``1.0``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationplayer.rst:550
+msgid "如果 ``reset`` 为 ``false``\\ ，则会保留 :ref:`current_animation_position<class_AnimationPlayer_property_current_animation_position>`\\ 。不带参数调用 :ref:`play<class_AnimationPlayer_method_play>` 或 :ref:`play_backwards<class_AnimationPlayer_method_play_backwards>` 或者使用与 :ref:`assigned_animation<class_AnimationPlayer_property_assigned_animation>` 相同的动画名称将恢复动画。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

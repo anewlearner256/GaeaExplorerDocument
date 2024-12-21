@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physicsbody2d.rst:10
+msgid "PhysicsBody2D"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:12
+msgid "**Inherits:** :ref:`CollisionObject2D<class_CollisionObject2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:14
+msgid "**Inherited By:** :ref:`KinematicBody2D<class_KinematicBody2D>`, :ref:`RigidBody2D<class_RigidBody2D>`, :ref:`StaticBody2D<class_StaticBody2D>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:16
+msgid "2D空间中所有受物理影响的对象的基类。"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:21
+msgid "PhysicsBody2D是一个用于实现物理实体的抽象基类。所有\\*Body2D类型都继承自它。"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:26
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:29
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:32
+msgid "input_pickable"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:32
+msgid "``false`` (overrides :ref:`CollisionObject2D<class_CollisionObject2D_property_input_pickable>`)"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:34
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:34
+msgid ":ref:`layers<class_PhysicsBody2D_property_layers>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:41
+#: ../classes/class_physicsbody2d.rst:45
+msgid "void"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:41
+msgid ":ref:`add_collision_exception_with<class_PhysicsBody2D_method_add_collision_exception_with>` **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:43
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:43
+msgid ":ref:`get_collision_exceptions<class_PhysicsBody2D_method_get_collision_exceptions>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:45
+msgid ":ref:`remove_collision_exception_with<class_PhysicsBody2D_method_remove_collision_exception_with>` **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:49
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:53
+msgid ":ref:`int<class_int>` **layers**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:55
+msgid "碰撞层和碰撞掩码。访问时返回碰撞层。修改时更新碰撞层和碰撞掩码。"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:58
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:62
+msgid "void **add_collision_exception_with** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:64
+msgid "将一个物体添加到这个物体不能碰撞的物体列表中。"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:70
+msgid ":ref:`Array<class_Array>` **get_collision_exceptions** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:72
+msgid "返回该物体的碰撞例外节点数组。"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:78
+msgid "void **remove_collision_exception_with** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsbody2d.rst:80
+msgid "将一个物体从该物体不能碰撞的物体列表中移除。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/pausing_games.rst:4
+msgid "Pausing games and process mode"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:9
+msgid "In most games it is desirable to, at some point, interrupt the game to do something else, such as taking a break or changing options. Implementing a fine-grained control for what can be paused (and what cannot) is a lot of work, so a simple framework for pausing is provided in GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:16
+msgid "How pausing works"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:18
+msgid "To pause the game the pause state must be set. This is done by assigning ``true`` to the :ref:`SceneTree.paused <class_SceneTree_property_paused>` property:"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:30
+msgid "Doing this will cause two things. First, 2D and 3D physics will be stopped for all nodes. Second, the behavior of certain nodes will stop or start depending on their process mode."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:34
+msgid "The physics servers can be made active while the game is paused by using their ``set_active`` methods."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:38
+msgid "Process Modes"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:40
+msgid "Each node in GaaeExplorer has a \"Pause Mode\" that defines when it processes. It can be found and changed under a node's :ref:`Node <class_Node>` properties in the inspector."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:45
+msgid "You can also alter the property with code:"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:60
+msgid "This is what each mode tells a node to do:"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:62
+msgid "**Inherit**: Process depending on the state of the parent, grandparent, etc. The first parent that has a non-Inherit state."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:64
+msgid "**Stop**: Stop the node no matter what (and children in Inherit mode). When paused this node will not process."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:66
+msgid "**Process**: Process the node no matter what (and children in Inherit mode). Paused or not this node will process."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:69
+msgid "By default, all nodes have this property in the \"Inherit\" state. If the parent is set to \"Inherit\", then the grandparent will be checked and so on. If a state can't be found in any of the grandparents, the pause state in SceneTree is used. This means that, by default, when the game is paused every node will be paused. Several things happen when a node stops processing."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:75
+msgid "The ``_process``, ``_physics_process``, ``_input``, and ``_input_event`` functions will not be called. However signals still work and cause their connected function to run, even if that function's script is attached to a node that has its pause mode set to \"Stop\"."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:80
+msgid "Animation nodes will pause their current animation, audio nodes will pause their current audio stream, and particles will pause. These resume automatically when the game is no longer paused."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:84
+msgid "It is important to note that even if a node is processing while the game is paused physics will **NOT** work for it by default. As stated earlier this is because the physics servers are turned off. The physics servers can be made active while the game is paused by using their ``set_active`` methods."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:90
+msgid "Pause Menu Example"
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:92
+msgid "Here is an example of a pause menu. Create a popup or panel with controls inside, and set its pause mode to \"Process\" then hide it. By setting the root of the pause popup to \"Process\", all children and grandchildren will inherit that state. This way, this branch of the scene tree will continue working when paused."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:98
+msgid "Finally, make it so when a pause button is pressed (any button will do), enable the pause and show the pause screen."
+msgstr ""
+
+#: ../tutorials/scripting/pausing_games.rst:116
+msgid "To unpause, do the opposite when the pause screen is closed:"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

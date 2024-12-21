@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_upnpdevice.rst:10
+msgid "UPNPDevice"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:14
+msgid "UPNP 设备。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:19
+msgid "UPNP设备。参阅 :ref:`UPNP<class_UPNP>` 了解UPNP发现和实用功能。提供对UPNP控制命令的低层访问。允许管理端口映射（端口转发）和查询设备的网络信息，如本地和外部IP地址和状态。请注意，这个类的方法是同步的，会阻塞调用线程。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:25
+#: ../classes/class_upnpdevice.rst:27
+#: ../classes/class_upnpdevice.rst:29
+#: ../classes/class_upnpdevice.rst:31
+#: ../classes/class_upnpdevice.rst:35
+#: ../classes/class_upnpdevice.rst:48
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:25
+msgid ":ref:`description_url<class_UPNPDevice_property_description_url>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:25
+#: ../classes/class_upnpdevice.rst:27
+#: ../classes/class_upnpdevice.rst:29
+#: ../classes/class_upnpdevice.rst:31
+#: ../classes/class_upnpdevice.rst:35
+#: ../classes/class_upnpdevice.rst:106
+#: ../classes/class_upnpdevice.rst:122
+#: ../classes/class_upnpdevice.rst:138
+#: ../classes/class_upnpdevice.rst:154
+#: ../classes/class_upnpdevice.rst:186
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:27
+msgid ":ref:`igd_control_url<class_UPNPDevice_property_igd_control_url>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:29
+msgid ":ref:`igd_our_addr<class_UPNPDevice_property_igd_our_addr>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:31
+msgid ":ref:`igd_service_type<class_UPNPDevice_property_igd_service_type>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:33
+msgid ":ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:33
+msgid ":ref:`igd_status<class_UPNPDevice_property_igd_status>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:33
+#: ../classes/class_upnpdevice.rst:170
+msgid "``9``"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:35
+msgid ":ref:`service_type<class_UPNPDevice_property_service_type>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:39
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:42
+#: ../classes/class_upnpdevice.rst:44
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:42
+msgid ":ref:`add_port_mapping<class_UPNPDevice_method_add_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:44
+msgid ":ref:`delete_port_mapping<class_UPNPDevice_method_delete_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:46
+msgid ":ref:`is_valid_gateway<class_UPNPDevice_method_is_valid_gateway>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:48
+msgid ":ref:`query_external_address<class_UPNPDevice_method_query_external_address>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:52
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:76
+msgid "enum **IGDStatus**:"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:78
+msgid "**IGD_STATUS_OK** = **0** --- OK。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:80
+msgid "**IGD_STATUS_HTTP_ERROR** = **1** --- HTTP错误。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:82
+msgid "**IGD_STATUS_HTTP_EMPTY** = **2** --- 空的HTTP响应。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:84
+msgid "**IGD_STATUS_NO_URLS** = **3** --- 返回的响应不包含任何URL。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:86
+msgid "**IGD_STATUS_NO_IGD** = **4** --- 不是有效的 IGD。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:88
+msgid "**IGD_STATUS_DISCONNECTED** = **5** --- 已断开连接。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:90
+msgid "**IGD_STATUS_UNKNOWN_DEVICE** = **6** --- 未知设备。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:92
+msgid "**IGD_STATUS_INVALID_CONTROL** = **7** --- 无效控件。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:94
+msgid "**IGD_STATUS_MALLOC_ERROR** = **8** --- 内存分配错误。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:96
+msgid "**IGD_STATUS_UNKNOWN_ERROR** = **9** --- 未知错误。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:99
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:103
+msgid ":ref:`String<class_String>` **description_url**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:106
+#: ../classes/class_upnpdevice.rst:122
+#: ../classes/class_upnpdevice.rst:138
+#: ../classes/class_upnpdevice.rst:154
+#: ../classes/class_upnpdevice.rst:170
+#: ../classes/class_upnpdevice.rst:186
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:108
+#: ../classes/class_upnpdevice.rst:124
+#: ../classes/class_upnpdevice.rst:140
+#: ../classes/class_upnpdevice.rst:156
+#: ../classes/class_upnpdevice.rst:172
+#: ../classes/class_upnpdevice.rst:188
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:108
+msgid "set_description_url(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:110
+#: ../classes/class_upnpdevice.rst:126
+#: ../classes/class_upnpdevice.rst:142
+#: ../classes/class_upnpdevice.rst:158
+#: ../classes/class_upnpdevice.rst:174
+#: ../classes/class_upnpdevice.rst:190
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:110
+msgid "get_description_url()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:113
+msgid "设备描述的URL。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:119
+msgid ":ref:`String<class_String>` **igd_control_url**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:124
+msgid "set_igd_control_url(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:126
+msgid "get_igd_control_url()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:129
+msgid "IDG控件URL。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:135
+msgid ":ref:`String<class_String>` **igd_our_addr**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:140
+msgid "set_igd_our_addr(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:142
+msgid "get_igd_our_addr()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:145
+msgid "将其连接到该\\ ``UPNPDevice``\\ 的网络中的本地机器的地址。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:151
+msgid ":ref:`String<class_String>` **igd_service_type**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:156
+msgid "set_igd_service_type(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:158
+msgid "get_igd_service_type()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:161
+msgid "IGD服务类型。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:167
+msgid ":ref:`IGDStatus<enum_UPNPDevice_IGDStatus>` **igd_status**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:172
+msgid "set_igd_status(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:174
+msgid "get_igd_status()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:177
+msgid "IGD状态。参阅\\ :ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:183
+msgid ":ref:`String<class_String>` **service_type**"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:188
+msgid "set_service_type(value)"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:190
+msgid "get_service_type()"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:193
+msgid "服务类型。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:196
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:200
+msgid ":ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:202
+msgid "添加一个端口映射，将这个\\ ``UPNPDevice``\\ 上给定的外部端口转发到本地机器上，以给定的协议。参阅 :ref:`UPNP.add_port_mapping<class_UPNP_method_add_port_mapping>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:208
+msgid ":ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:210
+msgid "删除该设备上由给定的端口和协议组合确定的端口映射。参阅\\ :ref:`UPNP.delete_port_mapping<class_UPNP_method_delete_port_mapping>`\\ 。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:216
+msgid ":ref:`bool<class_bool>` **is_valid_gateway** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:218
+msgid "如果这是一个有效的IGD（InternetGatewayDevice），可能支持端口转发，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:224
+msgid ":ref:`String<class_String>` **query_external_address** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_upnpdevice.rst:226
+msgid "返回这个\\ ``UPNPDevice``\\ 的外部IP地址或空字符串。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

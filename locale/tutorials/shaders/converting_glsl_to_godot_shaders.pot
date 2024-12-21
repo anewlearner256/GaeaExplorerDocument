@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:4
+msgid "Converting GLSL to GaaeExplorer shaders"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:6
+msgid "This document explains the differences between GaaeExplorer's shading language and GLSL and gives practical advice on how to migrate shaders from other sources, such as Shadertoy and The Book of Shaders, into GaaeExplorer shaders."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:10
+msgid "For detailed information on GaaeExplorer's shading language, please refer to the :ref:`Shading Language <doc_shading_language>` reference."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:14
+msgid "GLSL"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:16
+msgid "GaaeExplorer uses a shading language based on GLSL with the addition of a few quality-of-life features. Accordingly, most features available in GLSL are available in GaaeExplorer's shading language."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:21
+msgid "Shader programs"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:23
+msgid "In GLSL, each shader uses a separate program. You have one program for the vertex shader and one for the fragment shader. In GaaeExplorer, you have a single shader that contains a ``vertex`` and/or a ``fragment`` function. If you only choose to write one, GaaeExplorer will supply the other."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:28
+msgid "GaaeExplorer allows uniform variables and functions to be shared by defining the fragment and vertex shaders in one file. In GLSL, the vertex and fragment programs cannot share variables except when varyings are used."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:33
+msgid "Vertex attributes"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:35
+msgid "In GLSL, you can pass in per-vertex information using attributes and have the flexibility to pass in as much or as little as you want. In GaaeExplorer, you have a set number of input attributes, including ``VERTEX`` (position), ``COLOR``, ``UV``, ``UV2``, ``NORMAL``. For a complete list, see the :ref:`Shading language reference <doc_shading_language>`."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:42
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:104
+msgid "gl_Position"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:44
+msgid "``gl_Position`` receives the final position of a vertex specified in the vertex shader. It is specified by the user in clip space. Typically, in GLSL, the model space vertex position is passed in using a vertex attribute called ``position`` and you handle the conversion from model space to clip space manually."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:49
+msgid "In GaaeExplorer, ``VERTEX`` specifies the vertex position in model space at the beginning of the ``vertex`` function. GaaeExplorer also handles the final conversion to clip space after the user-defined ``vertex`` function is run. If you want to skip the conversion from model to view space, you can set the ``render_mode`` to ``skip_vertex_transform``. If you want to skip all transforms, set ``render_mode`` to ``skip_vertex_transform`` and set the ``PROJECTION_MATRIX`` to ``mat4(1.0)`` in order to nullify the final transform from view space to clip space."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:59
+msgid "Varyings"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:61
+msgid "Varyings are a type of variable that can be passed from the vertex shader to the fragment shader. In modern GLSL (3.0 and up), varyings are defined with the ``in`` and ``out`` keywords. A variable going out of the vertex shader is defined with ``out`` in the vertex shader and ``in`` inside the fragment shader."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:67
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:223
+msgid "Main"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:69
+msgid "In GLSL, each shader program looks like a self-contained C-style program. Accordingly, the main entry point is ``main``. If you are copying a vertex shader, rename ``main`` to ``vertex`` and if you are copying a fragment shader, rename ``main`` to ``fragment``."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:75
+msgid "Constants"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:77
+msgid "Global array constants are not supported in GaaeExplorer 3.x. You can fake the functionality by using a uniform initialized to the value, but you will not benefit from the increased speed from using a constant."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:81
+msgid "Macros"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:83
+msgid "In keeping with its similarity to C, GLSL lets you use macros. Commonly ``#define`` is used to define constants or small functions. There is no straightforward way to translate defines to GaaeExplorer's shading language. If it is a function that is defined, then replace with a function, and if it is a constant, then replace with a uniform. For other macros (``#if``, ``#ifdef``, etc.), there is no equivalent because they run during the pre-processing stage of compilation."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:92
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:159
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:230
+msgid "Variables"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:94
+msgid "GLSL has many built-in variables that are hard-coded. These variables are not uniforms, so they are not editable from the main program."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:98
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:171
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:236
+msgid "Variable"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:98
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:171
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:236
+msgid "Type"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:98
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:171
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:236
+msgid "Equivalent"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:98
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:171
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:236
+msgid "Description"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:100
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:238
+msgid "gl_FragColor"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:100
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:173
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:238
+msgid "out vec4"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:100
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:173
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:238
+msgid "COLOR"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:100
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:173
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:238
+msgid "Output color for each pixel."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:102
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:240
+msgid "gl_FragCoord"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:102
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:104
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:187
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:189
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:240
+msgid "vec4"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:102
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:240
+msgid "FRAGCOORD"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:102
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:175
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:240
+msgid "For full screen quads. For smaller quads, use UV."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:104
+msgid "VERTEX"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:104
+msgid "Position of Vertex, output from Vertex Shader."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:106
+msgid "gl_PointSize"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:106
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:179
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:181
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:183
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:185
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:244
+msgid "float"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:106
+msgid "POINT_SIZE"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:106
+msgid "Size of Point primitive."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:108
+msgid "gl_PointCoord"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:108
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:175
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:242
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:246
+msgid "vec2"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:108
+msgid "POINT_COORD"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:108
+msgid "Position on point when drawing Point primitives."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:110
+msgid "gl_FrontFacing"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:110
+msgid "bool"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:110
+msgid "FRONT_FACING"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:110
+msgid "True if front face of primitive."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:116
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:197
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:250
+msgid "Coordinates"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:118
+msgid "``gl_FragCoord`` in GLSL and ``FRAGCOORD`` in the GaaeExplorer shading language use the same coordinate system. If using UV in GaaeExplorer, the y-coordinate will be flipped upside down."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:123
+msgid "Precision"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:125
+msgid "In GLSL, you can define the precision of a given type (float or int) at the top of the shader with the ``precision`` keyword. In GaaeExplorer, you can set the precision of individual variables as you need by placing precision qualifiers ``lowp``, ``mediump``, and ``highp`` before the type when defining the variable. For more information, see the :ref:`Shading Language <doc_shading_language>` reference."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:133
+msgid "Shadertoy"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:135
+msgid "`Shadertoy <https://www.shadertoy.com/results?query=&sort=popular&from=10&num=4>`_ is a website that makes it easy to write fragment shaders and create `pure magic <https://www.shadertoy.com/view/4tjGRh>`_."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:139
+msgid "Shadertoy does not give the user full control over the shader. It handles all the input and uniforms and only lets the user write the fragment shader."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:143
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:216
+msgid "Types"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:145
+msgid "Shadertoy uses the webgl spec, so it runs a slightly different version of GLSL. However, it still has the regular types, including constants and macros."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:149
+msgid "mainImage"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:151
+msgid "The main point of entry to a Shadertoy shader is the ``mainImage`` function. ``mainImage`` has two parameters, ``fragColor`` and ``fragCoord``, which correspond to ``COLOR`` and ``FRAGCOORD`` in GaaeExplorer, respectively. These parameters are handled automatically in GaaeExplorer, so you do not need to include them as parameters yourself. Anything in the ``mainImage`` function should be copied into the ``fragment`` function when porting to GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:161
+msgid "In order to make writing fragment shaders straightforward and easy, Shadertoy handles passing a lot of helpful information from the main program into the fragment shader for you. A few of these have no equivalents in GaaeExplorer because GaaeExplorer has chosen not to make them available by default. This is okay because GaaeExplorer gives you the ability to make your own uniforms. For variables whose equivalents are listed as \"Provide with Uniform\", users are responsible for creating that uniform themselves. The description gives the reader a hint about what they can pass in as a substitute."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:173
+msgid "fragColor"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:175
+msgid "fragCoord"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:175
+msgid "FRAGCOORD.xy"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:177
+msgid "iResolution"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:177
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:191
+msgid "vec3"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:177
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:242
+msgid "1.0 / SCREEN_PIXEL_SIZE"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:177
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:242
+msgid "Can also pass in manually."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:179
+msgid "iTime"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:179
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:244
+msgid "TIME"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:179
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:244
+msgid "Time since shader started."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:181
+msgid "iTimeDelta"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:181
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:183
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:185
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:187
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:189
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:246
+msgid "Provide with Uniform"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:181
+msgid "Time to render previous frame."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:183
+msgid "iFrame"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:183
+msgid "Frame number."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:185
+msgid "iChannelTime[4]"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:185
+msgid "Time since that particular texture started."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:187
+msgid "iMouse"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:187
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:246
+msgid "Mouse position in pixel coordinates."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:189
+msgid "iDate"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:189
+msgid "Current date, expressed in seconds."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:191
+msgid "iChannelResolution[4]"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:191
+msgid "1.0 / TEXTURE_PIXEL_SIZE"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:191
+msgid "Resolution of particular texture."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:193
+msgid "iChanneli"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:193
+msgid "Sampler2D"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:193
+msgid "TEXTURE"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:193
+msgid "GaaeExplorer provides only one built-in; user can make more."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:199
+msgid "``fragCoord`` behaves the same as ``gl_FragCoord`` in :ref:`GLSL <glsl_coordinates>` and ``FRAGCOORD`` in GaaeExplorer."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:204
+msgid "The Book of Shaders"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:206
+msgid "Similar to Shadertoy, `The Book of Shaders <https://thebookofshaders.com>`_ provides access to a fragment shader in the web browser, with which the user may interact. The user is restricted to writing fragment shader code with a set list of uniforms passed in and with no ability to add additional uniforms."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:211
+msgid "For further help on porting shaders to various frameworks generally, The Book of Shaders provides a `page <https://thebookofshaders.com/04>`_ on running shaders in various frameworks."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:218
+msgid "The Book of Shaders uses the webgl spec, so it runs a slightly different version of GLSL. However, it still has the regular types, including constants and macros."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:225
+msgid "The entry point for a Book of Shaders fragment shader is ``main``, just like in GLSL. Everything written in a Book of Shaders ``main`` function should be copied into GaaeExplorer's ``fragment`` function."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:232
+msgid "The Book of Shaders sticks closer to plain GLSL than Shadertoy does. It also implements fewer uniforms than Shadertoy."
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:242
+msgid "u_resolution"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:244
+msgid "u_time"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:246
+msgid "u_mouse"
+msgstr ""
+
+#: ../tutorials/shaders/converting_glsl_to_godot_shaders.rst:252
+msgid "The Book of Shaders uses the same coordinate system as :ref:`GLSL <glsl_coordinates>`."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

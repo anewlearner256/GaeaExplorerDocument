@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_windowdialog.rst:10
+msgid "WindowDialog"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:12
+msgid "**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:14
+msgid "**Inherited By:** :ref:`AcceptDialog<class_AcceptDialog>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:16
+msgid "窗口对话框的基类。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:21
+msgid "Windowdialog是所有基于窗口的对话框的基类。它是一个默认的顶层\\ :ref:`Control<class_Control>`\\ 控件，可以绘制一个窗口装饰，并允许移动和调整大小。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:27
+msgid ":ref:`resizable<class_WindowDialog_property_resizable>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:27
+#: ../classes/class_windowdialog.rst:70
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:29
+msgid ":ref:`window_title<class_WindowDialog_property_window_title>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:29
+#: ../classes/class_windowdialog.rst:86
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:33
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:36
+msgid ":ref:`TextureButton<class_TextureButton>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:36
+msgid ":ref:`get_close_button<class_WindowDialog_method_get_close_button>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:40
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:43
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:43
+msgid ":ref:`title_color<class_WindowDialog_theme_color_title_color>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:43
+#: ../classes/class_windowdialog.rst:114
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:45
+#: ../classes/class_windowdialog.rst:47
+#: ../classes/class_windowdialog.rst:49
+#: ../classes/class_windowdialog.rst:51
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:45
+msgid ":ref:`close_h_ofs<class_WindowDialog_theme_constant_close_h_ofs>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:45
+#: ../classes/class_windowdialog.rst:47
+#: ../classes/class_windowdialog.rst:126
+#: ../classes/class_windowdialog.rst:138
+msgid "``18``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:47
+msgid ":ref:`close_v_ofs<class_WindowDialog_theme_constant_close_v_ofs>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:49
+msgid ":ref:`scaleborder_size<class_WindowDialog_theme_constant_scaleborder_size>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:49
+#: ../classes/class_windowdialog.rst:150
+msgid "``4``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:51
+msgid ":ref:`title_height<class_WindowDialog_theme_constant_title_height>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:51
+#: ../classes/class_windowdialog.rst:162
+msgid "``20``"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:53
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:53
+msgid ":ref:`title_font<class_WindowDialog_theme_font_title_font>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:55
+#: ../classes/class_windowdialog.rst:57
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:55
+msgid ":ref:`close<class_WindowDialog_theme_icon_close>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:57
+msgid ":ref:`close_highlight<class_WindowDialog_theme_icon_close_highlight>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:59
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:59
+msgid ":ref:`panel<class_WindowDialog_theme_style_panel>`"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:63
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:67
+msgid ":ref:`bool<class_bool>` **resizable**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:70
+#: ../classes/class_windowdialog.rst:86
+#: ../classes/class_windowdialog.rst:114
+#: ../classes/class_windowdialog.rst:126
+#: ../classes/class_windowdialog.rst:138
+#: ../classes/class_windowdialog.rst:150
+#: ../classes/class_windowdialog.rst:162
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:72
+#: ../classes/class_windowdialog.rst:88
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:72
+msgid "set_resizable(value)"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:74
+#: ../classes/class_windowdialog.rst:90
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:74
+msgid "get_resizable()"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:77
+msgid "如果\\ ``true``\\ ，用户可以调整窗口大小。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:83
+msgid ":ref:`String<class_String>` **window_title**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:88
+msgid "set_title(value)"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:90
+msgid "get_title()"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:93
+msgid "显示在窗口标题栏的文字。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:96
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:100
+msgid ":ref:`TextureButton<class_TextureButton>` **get_close_button** **(** **)**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:102
+msgid "返回关闭的 :ref:`TextureButton<class_TextureButton>`\\ 。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:104
+msgid "\\ **警告：** 这是一个必需的内部节点，删除和释放它可能会导致崩溃。如果您希望隐藏它或其任何子项，请使用它们的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:107
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:111
+msgid ":ref:`Color<class_Color>` **title_color**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:117
+msgid "标题文本的颜色。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:123
+msgid ":ref:`int<class_int>` **close_h_ofs**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:129
+msgid "关闭按钮的水平偏移。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:135
+msgid ":ref:`int<class_int>` **close_v_ofs**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:141
+msgid "关闭按钮的垂直偏移量。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:147
+msgid ":ref:`int<class_int>` **scaleborder_size**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:153
+msgid "缩放窗口时可以拖动的边框的粗细，如果启用了\\ :ref:`resizable<class_WindowDialog_property_resizable>`\\ 。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:159
+msgid ":ref:`int<class_int>` **title_height**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:165
+msgid "标题文本的垂直偏移。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:171
+msgid ":ref:`Font<class_Font>` **title_font**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:173
+msgid "用于绘制标题的字体。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:179
+msgid ":ref:`Texture<class_Texture>` **close**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:181
+msgid "关闭按钮的图标。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:187
+msgid ":ref:`Texture<class_Texture>` **close_highlight**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:189
+msgid "当用鼠标光标悬停时，关闭按钮使用的图标。"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:195
+msgid ":ref:`StyleBox<class_StyleBox>` **panel**"
+msgstr ""
+
+#: ../classes/class_windowdialog.rst:197
+msgid "``WindowDialog`` 和标题栏的内容背景的样式。标题栏使用 ``panel`` 样式盒创建，具有顶部边框和扩展边距。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

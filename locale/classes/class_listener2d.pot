@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_listener2d.rst:10
+msgid "Listener2D"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:14
+msgid "覆盖听到声音的位置。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:19
+msgid "一旦被添加到场景树，并使用\\ :ref:`make_current<class_Listener2D_method_make_current>`\\ 启用，这个节点将覆盖听到声音的位置。只有一个\\ ``Listener2D``\\ 可以是当前的。使用\\ :ref:`make_current<class_Listener2D_method_make_current>`\\ 将禁用以前的\\ ``Listener2D``\\ 。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:21
+msgid "如果在当前的\\ :ref:`Viewport<class_Viewport>`\\ 中没有激活的\\ ``Listener2D``\\ ，屏幕中心将被用作音频的聆听点。\\ ``Listener2D``\\ 需要在\\ :ref:`SceneTree<class_SceneTree>`\\ 内才能发挥作用。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:27
+#: ../classes/class_listener2d.rst:31
+msgid "void"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:27
+msgid ":ref:`clear_current<class_Listener2D_method_clear_current>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:29
+msgid ":ref:`is_current<class_Listener2D_method_is_current>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:31
+msgid ":ref:`make_current<class_Listener2D_method_make_current>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:35
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:39
+msgid "void **clear_current** **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:41
+msgid "禁用\\ ``Listener2D``\\ 。如果未将其设置为当前，此方法将无效。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:47
+msgid ":ref:`bool<class_bool>` **is_current** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:49
+msgid "如果此\\ ``Listener2D``\\ 当前处于激活状态，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:55
+msgid "void **make_current** **(** **)**"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:57
+msgid "使\\ ``Listener2D``\\ 处于激活状态，将其设置为声音的聆听点。如果已经有另一个激活的\\ ``Listener2D``\\ ，它将被禁用。"
+msgstr ""
+
+#: ../classes/class_listener2d.rst:59
+msgid "如果\\ ``Listener2D``\\ 未添加到\\ :ref:`SceneTree<class_SceneTree>`\\ 中，此方法将无效。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

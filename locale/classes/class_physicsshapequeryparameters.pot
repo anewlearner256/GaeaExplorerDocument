@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physicsshapequeryparameters.rst:10
+msgid "PhysicsShapeQueryParameters"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:14
+msgid "要发送到 3D 形状物理查询的参数。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:19
+msgid "此类包含用于 3D 相交/碰撞查询的形状和其他参数。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:25
+#: ../classes/class_physicsshapequeryparameters.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:25
+msgid ":ref:`collide_with_areas<class_PhysicsShapeQueryParameters_property_collide_with_areas>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:25
+#: ../classes/class_physicsshapequeryparameters.rst:55
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:27
+msgid ":ref:`collide_with_bodies<class_PhysicsShapeQueryParameters_property_collide_with_bodies>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:27
+#: ../classes/class_physicsshapequeryparameters.rst:71
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:29
+msgid ":ref:`collision_mask<class_PhysicsShapeQueryParameters_property_collision_mask>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:29
+#: ../classes/class_physicsshapequeryparameters.rst:87
+msgid "``2147483647``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:31
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:31
+msgid ":ref:`exclude<class_PhysicsShapeQueryParameters_property_exclude>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:31
+#: ../classes/class_physicsshapequeryparameters.rst:103
+msgid "``[  ]``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:33
+msgid ":ref:`margin<class_PhysicsShapeQueryParameters_property_margin>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:33
+#: ../classes/class_physicsshapequeryparameters.rst:119
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:35
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:35
+msgid ":ref:`shape_rid<class_PhysicsShapeQueryParameters_property_shape_rid>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:37
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:37
+msgid ":ref:`transform<class_PhysicsShapeQueryParameters_property_transform>`"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:37
+#: ../classes/class_physicsshapequeryparameters.rst:149
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:44
+msgid "void"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:44
+msgid ":ref:`set_shape<class_PhysicsShapeQueryParameters_method_set_shape>` **(** :ref:`Resource<class_Resource>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:48
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:52
+msgid ":ref:`bool<class_bool>` **collide_with_areas**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:55
+#: ../classes/class_physicsshapequeryparameters.rst:71
+#: ../classes/class_physicsshapequeryparameters.rst:87
+#: ../classes/class_physicsshapequeryparameters.rst:103
+#: ../classes/class_physicsshapequeryparameters.rst:119
+#: ../classes/class_physicsshapequeryparameters.rst:149
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:57
+#: ../classes/class_physicsshapequeryparameters.rst:73
+#: ../classes/class_physicsshapequeryparameters.rst:89
+#: ../classes/class_physicsshapequeryparameters.rst:105
+#: ../classes/class_physicsshapequeryparameters.rst:121
+#: ../classes/class_physicsshapequeryparameters.rst:135
+#: ../classes/class_physicsshapequeryparameters.rst:151
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:57
+msgid "set_collide_with_areas(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:59
+#: ../classes/class_physicsshapequeryparameters.rst:75
+#: ../classes/class_physicsshapequeryparameters.rst:91
+#: ../classes/class_physicsshapequeryparameters.rst:107
+#: ../classes/class_physicsshapequeryparameters.rst:123
+#: ../classes/class_physicsshapequeryparameters.rst:137
+#: ../classes/class_physicsshapequeryparameters.rst:153
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:59
+msgid "is_collide_with_areas_enabled()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:62
+msgid "如果\\ ``true``\\ ，查询将考虑 :ref:`Area<class_Area>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:68
+msgid ":ref:`bool<class_bool>` **collide_with_bodies**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:73
+msgid "set_collide_with_bodies(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:75
+msgid "is_collide_with_bodies_enabled()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:78
+msgid "如果 ``true``\\ ，则查询将考虑 :ref:`PhysicsBody<class_PhysicsBody>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:84
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:89
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:91
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:94
+msgid "The physics layer(s) the query will take into account (as a bitmask). See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information."
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:100
+msgid ":ref:`Array<class_Array>` **exclude**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:105
+msgid "set_exclude(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:107
+msgid "get_exclude()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:110
+msgid "将被排除在冲突之外的对象或对象列表。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:116
+msgid ":ref:`float<class_float>` **margin**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:121
+msgid "set_margin(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:123
+msgid "get_margin()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:126
+msgid "形状的碰撞边距。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:132
+msgid ":ref:`RID<class_RID>` **shape_rid**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:135
+msgid "set_shape_rid(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:137
+msgid "get_shape_rid()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:140
+msgid "查询形状的 :ref:`RID<class_RID>`\\ 。另见\\ :ref:`set_shape<class_PhysicsShapeQueryParameters_method_set_shape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:146
+msgid ":ref:`Transform<class_Transform>` **transform**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:151
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:153
+msgid "get_transform()"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:156
+msgid "被查询形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:159
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:163
+msgid "void **set_shape** **(** :ref:`Resource<class_Resource>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsshapequeryparameters.rst:165
+msgid "设置将用于碰撞/相交查询的 :ref:`Shape<class_Shape>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

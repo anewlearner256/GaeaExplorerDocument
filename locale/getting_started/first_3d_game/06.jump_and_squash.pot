@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:4
+msgid "跳跃与踩扁怪物"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:6
+msgid "在这一部分中，我们将添加跳跃、踩扁怪物的能力。在下一节课中，我们会让怪物在地 面上击中玩家时让玩家死亡。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:9
+msgid "首先我们要修改一些物理交互相关的设置。请进入\\\\ :ref:`物理层 <doc_physics_introduction_collision_layers_and_masks>`\\\\ 的世界。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:13
+msgid "控制物理交互"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:15
+msgid "物理实体可以访问两个互补的属性：层和遮罩。层（Layer）定义的是该对象位于哪些物 理层上。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:18
+msgid "遮罩（Mask）控制的是该实体会监听并检测的层，会影响碰撞检测。希望两个实体能够 发生交互时，你需要让其中至少一个的遮罩与另一个（的层）相对应。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:21
+msgid "可能有点绕，但请别担心，我们马上就会看到三个例子。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:23
+msgid "重要的知识点是，你能够使用层和遮罩来过滤物理交互、控制性能、让代码中不需要再 做额外的条件检测。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:26
+msgid "默认情况下，所有物理体和区域的层和遮罩都被设成了 ``1``\\\\ 。也就是说它们会互相 碰撞。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:29
+msgid "物理层由数字表示，但我们也可以为它们命名，记录什么是什么。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:32
+msgid "设置层名称"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:34
+msgid "让我们来为物理层命名。打开\\\\ *项目 -> 项目设置*\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:36
+msgid "|image0|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:314
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:314
+msgid "image0"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:38
+msgid "在左侧的菜单中，找到 *Layer Names -> 3D Physics*\\\\ （层名称 -> 3D 物理）。你 可以在右侧看到层的列表，每一层右侧都有一个字段，可以用来设置名称。将前三层分 别命名为“player”“enemies”“world”（玩家、敌人、世界）。 |image1|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:315
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:315
+msgid "image1"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:43
+msgid "现在，我们就可以将它们分配给我们的物理节点了。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:46
+msgid "层和遮罩的分配"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:48
+msgid "在 *Main* 场景中选中 ``Ground`` 节点。在\\\\ *检查器*\\\\ 中展开 *Collision*\\\\ （碰撞）部分。你可以看到，该节点的层和遮罩在这里以按钮网格的形式排列。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:51
+msgid "|image2|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:316
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:316
+msgid "image2"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:53
+msgid "地面是世界的一部分，所以我们希望它属于第三层。点击 *Layer* 中的第一个点亮的按 钮将其\\\\ **关闭**\\\\ ，\\\\ **打开**\\\\ 第三层。然后点击\\\\ **关闭** *Mask*\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:56
+msgid "|image3|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:317
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:317
+msgid "image3"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:58
+msgid "上面说到过，\\\\ *Mask* 属性可以让节点监听与其他物理对象的交互，但它不是实现碰 撞所必须的。\\\\ ``Ground`` 不需要监听任何东西；它存在的意义是防止生物下落。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:61
+msgid "请注意，点击右侧的“...”按钮会将该属性以带名称的复选框的形式展示。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:63
+msgid "|image4|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:318
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:318
+msgid "image4"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:65
+msgid "接下来就是 ``Player`` 和 ``Mob``\\\\ 。在\\\\ *文件系统*\\\\ 面板中双击打开 ``player.tscn`` 文件。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:68
+msgid "选中 *Player* 节点，将其 *Collision -> Mask* 设为“enemies”和“world”。\\\\ *Layer* 属性可以保持默认，因为第一个层就是“player”层。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:71
+msgid "|image5|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:319
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:319
+msgid "image5"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:73
+msgid "然后双击 ``mob.tscn`` 打开 *Mob* 场景，选中 ``Mob`` 节点。 将其 *Collision -> Layer* 设为“enemies”，然后取消 *Collision -> Mask* 的设 置，让遮罩为空。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:77
+msgid "|image6|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:320
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:320
+msgid "image6"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:79
+msgid "这些设置意味着怪物可以互相穿越。如果你希望怪物之间会发生碰撞和滑动，请\\\\ **打 开**\\\\ “enemies”遮罩。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:84
+msgid "小怪并不需要遮罩“world”层，因为它们只会沿着 XZ 平面移动。我们是故意不去为它们添加重力影响的。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:87
+msgid "跳跃"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:89
+msgid "跳跃机制本身只需要两行代码。打开 *Player* 脚本。我们需要一个值来控制跳跃的强 度，并更新 ``_physics_process()`` 来对跳跃进行编码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:92
+msgid "在定义 ``fall_acceleration`` 这一行之后，在脚本的顶部，添加 ``jump_impulse``\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:111
+msgid "在 ``_physics_process()`` 内，请在调用 ``move_and_slide()`` 那块代码之前添加 以下代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:141
+msgid "这就是跳跃所需的所有东西！"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:143
+msgid "与地板发生碰撞返回 ``true``\\\\ 。这就是为什么我们要对 *Player* 施加重力的原 因：这样我们就会与地板相撞，而不是像怪物一样漂浮在地板上。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:146
+msgid "如果角色在地板上并且玩家按下跳跃，立即给予角色较大的垂直速度，因为在游戏中， 玩家通常希望控制能得到响应，就像这样提供的即时速度提升，虽然不切实际，但会令 玩家感觉很好。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:150
+msgid "请注意，Y 轴的正方向是朝上的。这与 2D 有所不同， 2D的Y 轴的正方向是朝下的。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:153
+msgid "踩扁怪物"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:155
+msgid "接下来让我们来添加踩扁机制。我们会让玩家在怪物身上弹起，并同时消灭它们。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:157
+msgid "我们需要检测与怪物的碰撞，并和与地板的碰撞相区分。要这么做，我们可以使用 GaaeExplorer 的\\\\ :ref:`分组 <doc_groups>`\\\\ 标签功能。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:160
+msgid "再次打开 ``mob.tscn`` 场景，选中 *Mob* 节点，就能在右侧的\\\\ *Node*\\\\ 面板中看 到信号的列表。\\\\ *Node*\\\\ 面板有两个选项卡：你已经使用过的\\\\ *Signals*\\\\ ，以 及\\\\ *Groups*\\\\ 它允许你为节点添加标签。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:164
+msgid "单击这个选项卡就会出现一个输入框，可以填写标签的名称。在这个输入框中输 入“mob”（小怪）并单击\\\\ *添加*\\\\ 按钮。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:167
+msgid "|image7|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:321
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:321
+msgid "image7"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:169
+msgid "*场景*\\\\ 面板中会出现一个图标，表示该节点至少处在一个分组之中。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:171
+msgid "|image8|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:322
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:322
+msgid "image8"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:173
+msgid "我们现在就可以在代码中使用分组来区分与怪物的碰撞和与地板的碰撞了。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:176
+msgid "编写踩扁机制"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:178
+msgid "回到 *Player* 脚本来编写踩扁和弹跳。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:180
+msgid "在脚本顶部，我们需要添加一个属性 ``bounce_impulse``\\\\ 。踩扁敌人时，我们不必 让角色弹得比跳跃一样高。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:198
+msgid "然后，在 `_physics_process()``中添加的**Jumping**代码块之后，添加以下循环。通 过 ``move_and_slide()``，戈多有时会连续多次移动身体，以平滑角色的运动。因此， 我们必须循环遍历所有可能发生的碰撞。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:202
+msgid "在循环的每次迭代中，我们会检查是否落在了小怪身上。如果是的话，我们就消灭它并 进行弹跳。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:205
+msgid "如果某一帧没有发生碰撞，那么这段代码中的循环就不会执行。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:248
+msgid "新函数很多。下面我们来进一步介绍一下。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:250
+msgid "函数 ``get_slide_collision_count()`` 和 ``get_slide_collision()`` 都来自于 : ref:`CharacterBody3D <class_CharacterBody3D>` 类，他们与 ``move_and_slide()`` 有关。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:254
+msgid "``get_slide_collision()`` 返回的是 :ref: `KinematicCollision3D<class_KinematicCollision3D>` 对象，包含碰撞在哪里发生、 如何发生等信息。例如，我们对它的 ``get_collider`` 属性调用 ``is_in_group()`` 来检查我们是否是和“mob”发生了碰撞：\\\\ ``collision.collider. is_in_group(\\mob\\)``\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:262
+msgid "每一个 :ref:`Node<class_Node>` 都可以使用 ``is_in_group()`` 方法。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:264
+msgid "我们使用向量点积 ``Vector3.UP.dot(collision.get_normal()) > 0.1`` 来检查我们 是不是降落在怪物身上。碰撞法线（normal）是垂直于碰撞平面的 3D 向量。可以通过 点积与上方向进行比较。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:268
+msgid "点积结果大于 ``0`` 时，两个向量的夹角小于 90 度。大于 ``0.1`` 表示我们大概位 于怪物上方。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:271
+msgid "我们调用了一个尚未定义的函数 ``mob.squash()``\\\\ 。所以我们需要把它加入到 Mob 类中。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:274
+msgid "在\\\\ *文件系统*\\\\ 面板中双击打开 ``Mob.gd`` 脚本。在脚本顶部，我们要定义一个 新的信号叫作 ``squashed``\\\\ （被踩扁）。你可以在底部添加 squash 函数，在里面 发出这个信号并销毁这个小怪。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:307
+msgid "下一节课中，我们会使用这个信号来加分数。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:309
+msgid "好了，你应该可以跳在怪物身上把它们消灭了。你可以按 :kbd:`F5` 试玩游戏，并把 ``main.tscn`` 设成项目的主场景。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/06.jump_and_squash.rst:312
+msgid "不过玩家现在还不会死。我们会在下一部分实现。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

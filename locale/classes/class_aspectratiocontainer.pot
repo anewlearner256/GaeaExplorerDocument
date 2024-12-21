@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_aspectratiocontainer.rst:10
+msgid "AspectRatioContainer"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:14
+msgid "保留其子控件长宽比的容器。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:19
+msgid "以一种方式安排子控件，以便在容器调整大小时自动保留其长宽比。解决了容器大小是动态的，而内容的大小需要相应调整而不失去比例的问题。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:25
+#: ../classes/class_aspectratiocontainer.rst:27
+msgid ":ref:`AlignMode<enum_AspectRatioContainer_AlignMode>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:25
+msgid ":ref:`alignment_horizontal<class_AspectRatioContainer_property_alignment_horizontal>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:25
+#: ../classes/class_aspectratiocontainer.rst:27
+#: ../classes/class_aspectratiocontainer.rst:85
+#: ../classes/class_aspectratiocontainer.rst:101
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:27
+msgid ":ref:`alignment_vertical<class_AspectRatioContainer_property_alignment_vertical>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:29
+msgid ":ref:`ratio<class_AspectRatioContainer_property_ratio>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:29
+#: ../classes/class_aspectratiocontainer.rst:117
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:31
+msgid ":ref:`StretchMode<enum_AspectRatioContainer_StretchMode>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:31
+msgid ":ref:`stretch_mode<class_AspectRatioContainer_property_stretch_mode>`"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:31
+#: ../classes/class_aspectratiocontainer.rst:133
+msgid "``2``"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:35
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:47
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:49
+msgid "**STRETCH_WIDTH_CONTROLS_HEIGHT** = **0** --- 子控件的高度会根据容器的宽度自动调整。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:51
+msgid "**STRETCH_HEIGHT_CONTROLS_WIDTH** = **1** --- 子控件的宽度会根据容器的高度自动调整。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:53
+msgid "**STRETCH_FIT** = **2** --- 子控件的边界矩形会自动调整以适应容器，同时保持长宽比。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:55
+msgid "**STRETCH_COVER** = **3** --- 子控件的宽度和高度被自动调整，以使其边界矩形覆盖容器的整个区域，同时保持长宽比。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:57
+msgid "当子控件的边界矩形超过容器的大小，并且\\ :ref:`Control.rect_clip_content<class_Control_property_rect_clip_content>`\\ 被启用时，这仅允许显示受其自身边界矩形限制的容器区域。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:69
+msgid "enum **AlignMode**:"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:71
+msgid "**ALIGN_BEGIN** = **0** --- 将子控件与容器的开头对齐，左侧或顶部。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:73
+msgid "**ALIGN_CENTER** = **1** --- 使子控件与容器的中心对齐。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:75
+msgid "**ALIGN_END** = **2** --- 将子控件与容器的末端对齐，右侧或底部。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:78
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:82
+msgid ":ref:`AlignMode<enum_AspectRatioContainer_AlignMode>` **alignment_horizontal**"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:85
+#: ../classes/class_aspectratiocontainer.rst:101
+#: ../classes/class_aspectratiocontainer.rst:117
+#: ../classes/class_aspectratiocontainer.rst:133
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:87
+#: ../classes/class_aspectratiocontainer.rst:103
+#: ../classes/class_aspectratiocontainer.rst:119
+#: ../classes/class_aspectratiocontainer.rst:135
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:87
+msgid "set_alignment_horizontal(value)"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:89
+#: ../classes/class_aspectratiocontainer.rst:105
+#: ../classes/class_aspectratiocontainer.rst:121
+#: ../classes/class_aspectratiocontainer.rst:137
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:89
+msgid "get_alignment_horizontal()"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:92
+msgid "指定子控件的水平相对位置。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:98
+msgid ":ref:`AlignMode<enum_AspectRatioContainer_AlignMode>` **alignment_vertical**"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:103
+msgid "set_alignment_vertical(value)"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:105
+msgid "get_alignment_vertical()"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:108
+msgid "指定子控件的垂直相对位置。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:114
+msgid ":ref:`float<class_float>` **ratio**"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:119
+msgid "set_ratio(value)"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:121
+msgid "get_ratio()"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:124
+msgid "对子控件强制实施的长宽比。这是宽度除以高度。这个比例取决于\\ :ref:`stretch_mode<class_AspectRatioContainer_property_stretch_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:130
+msgid ":ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **stretch_mode**"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:135
+msgid "set_stretch_mode(value)"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:137
+msgid "get_stretch_mode()"
+msgstr ""
+
+#: ../classes/class_aspectratiocontainer.rst:140
+msgid "用来对齐子控件的拉伸模式。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

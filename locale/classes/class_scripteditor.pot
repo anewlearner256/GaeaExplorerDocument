@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_scripteditor.rst:10
+msgid "ScriptEditor"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:12
+msgid "**Inherits:** :ref:`PanelContainer<class_PanelContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:14
+msgid "GaaeExplorer编辑器的脚本编辑器。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:19
+msgid "**注意：** 这个类不应该被直接实例化。相反，使用\\ :ref:`EditorInterface.get_script_editor<class_EditorInterface_method_get_script_editor>`\\ 来访问这个单例。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:25
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:25
+msgid ":ref:`can_drop_data_fw<class_ScriptEditor_method_can_drop_data_fw>` **(** :ref:`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` from **)** |const|"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:27
+#: ../classes/class_scripteditor.rst:35
+#: ../classes/class_scripteditor.rst:37
+msgid "void"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:27
+msgid ":ref:`drop_data_fw<class_ScriptEditor_method_drop_data_fw>` **(** :ref:`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:29
+msgid ":ref:`Script<class_Script>`"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:29
+msgid ":ref:`get_current_script<class_ScriptEditor_method_get_current_script>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:31
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:31
+msgid ":ref:`get_drag_data_fw<class_ScriptEditor_method_get_drag_data_fw>` **(** :ref:`Vector2<class_Vector2>` point, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:33
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:33
+msgid ":ref:`get_open_scripts<class_ScriptEditor_method_get_open_scripts>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:35
+msgid ":ref:`goto_line<class_ScriptEditor_method_goto_line>` **(** :ref:`int<class_int>` line_number **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:37
+msgid ":ref:`open_script_create_dialog<class_ScriptEditor_method_open_script_create_dialog>` **(** :ref:`String<class_String>` base_name, :ref:`String<class_String>` base_path **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:41
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:45
+msgid "**editor_script_changed** **(** :ref:`Script<class_Script>` script **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:47
+msgid "当用户更改活动脚本时发出。参数是新激活的 :ref:`Script<class_Script>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:53
+msgid "**script_close** **(** :ref:`Script<class_Script>` script **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:55
+msgid "当编辑器即将关闭活动脚本时发出。参数是将要关闭的 :ref:`Script<class_Script>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:58
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:62
+msgid ":ref:`bool<class_bool>` **can_drop_data_fw** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` from **)** |const|"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:68
+msgid "void **drop_data_fw** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:74
+msgid ":ref:`Script<class_Script>` **get_current_script** **(** **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:76
+msgid "返回当前在编辑器中处于活动状态的 :ref:`Script<class_Script>`\\ 。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:82
+msgid ":ref:`Variant<class_Variant>` **get_drag_data_fw** **(** :ref:`Vector2<class_Vector2>` point, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:88
+msgid ":ref:`Array<class_Array>` **get_open_scripts** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:90
+msgid "返回一个包含当前在编辑器中打开的所有 :ref:`Script<class_Script>` 对象的数组。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:96
+msgid "void **goto_line** **(** :ref:`int<class_int>` line_number **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:98
+msgid "转到当前脚本中的指定行。"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:104
+msgid "void **open_script_create_dialog** **(** :ref:`String<class_String>` base_name, :ref:`String<class_String>` base_path **)**"
+msgstr ""
+
+#: ../classes/class_scripteditor.rst:106
+msgid "打开创建脚本的对话框。脚本将扩展\\ ``base_name``\\ 。文件扩展名可以从\\ ``base_path``\\ 中省略。它将根据所选择的脚本语言添加。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

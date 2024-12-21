@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visibilityenabler.rst:10
+msgid "VisibilityEnabler"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:12
+msgid "**Inherits:** :ref:`VisibilityNotifier<class_VisibilityNotifier>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:14
+msgid "只在大约可见时启用某些节点。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:19
+msgid "当 :ref:`RigidBody<class_RigidBody>` 和 :ref:`AnimationPlayer<class_AnimationPlayer>` 节点不可见时，VisibilityEnabler 将禁用它们。它只会影响与 VisibilityEnabler 本身相同场景中的其他节点。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:21
+msgid "如果你只是想接收通知，请使用 :ref:`VisibilityNotifier<class_VisibilityNotifier>` 代替。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:23
+msgid "\\ **注意：**\\ VisibilityEnabler 由于性能原因使用了一个近似的启发式方法。它不会考虑墙和其他遮挡物（除非你使用了 :ref:`Portal<class_Portal>`\\ ）。启发式这一实现细节，在未来的版本中可能会改变。如果你需要精确的可见性检查，请使用另一种方法，例如添加一个 :ref:`Area<class_Area>` 节点作为 :ref:`Camera<class_Camera>` 节点的子节点和/或 :ref:`Vector3.dot<class_Vector3_method_dot>`\\ 。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:25
+msgid "\\ **注意：**\\ VisibilityEnabler 不会影响场景初始化后添加的节点。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:28
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:31
+#: ../classes/class_visibilityenabler.rst:33
+#: ../classes/class_visibilityenabler.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:31
+msgid ":ref:`freeze_bodies<class_VisibilityEnabler_property_freeze_bodies>`"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:31
+#: ../classes/class_visibilityenabler.rst:33
+#: ../classes/class_visibilityenabler.rst:72
+#: ../classes/class_visibilityenabler.rst:88
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:33
+msgid ":ref:`pause_animations<class_VisibilityEnabler_property_pause_animations>`"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:37
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:40
+msgid ":ref:`is_enabler_enabled<class_VisibilityEnabler_method_is_enabler_enabled>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** |const|"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:42
+msgid "void"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:42
+msgid ":ref:`set_enabler<class_VisibilityEnabler_method_set_enabler>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:46
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:56
+msgid "enum **Enabler**:"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:58
+msgid "**ENABLER_PAUSE_ANIMATIONS** = **0** --- 这个启用程序将暂停\\ :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:60
+msgid "**ENABLER_FREEZE_BODIES** = **1** --- 这个启用程序将冻结\\ :ref:`RigidBody<class_RigidBody>`\\ 节点。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:62
+msgid "**ENABLER_MAX** = **2** --- 表示\\ :ref:`Enabler<enum_VisibilityEnabler_Enabler>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:65
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:69
+msgid ":ref:`bool<class_bool>` **freeze_bodies**"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:72
+#: ../classes/class_visibilityenabler.rst:88
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:74
+#: ../classes/class_visibilityenabler.rst:90
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:74
+#: ../classes/class_visibilityenabler.rst:90
+msgid "set_enabler(value)"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:76
+#: ../classes/class_visibilityenabler.rst:92
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:76
+#: ../classes/class_visibilityenabler.rst:92
+msgid "is_enabler_enabled()"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:79
+msgid "如果\\ ``true``\\ ，\\ :ref:`RigidBody<class_RigidBody>`\\ 节点将被暂停。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:85
+msgid ":ref:`bool<class_bool>` **pause_animations**"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:95
+msgid "如果\\ ``true``\\ ，\\ :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 节点将被暂停。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:98
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:102
+msgid ":ref:`bool<class_bool>` **is_enabler_enabled** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** |const|"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:104
+msgid "返回由给定的 :ref:`Enabler<enum_VisibilityEnabler_Enabler>` 常量标识的启用程序是否处于活动状态。"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:110
+msgid "void **set_enabler** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_visibilityenabler.rst:112
+msgid "设置由给定的\\ :ref:`Enabler<enum_VisibilityEnabler_Enabler>`\\ 常量识别的启用程序的活动状态。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_skeletonik.rst:10
+msgid "SkeletonIK"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:14
+msgid "SkeletonIK用于将\\ :ref:`Skeleton<class_Skeleton>`\\ 骨链的末端骨骼置于3D中的某一点，并相应地旋转骨链中的所有骨骼。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:19
+msgid "SkeletonIK用于将\\ :ref:`Skeleton<class_Skeleton>`\\ 骨链的末端骨骼放置在3D某一点上，并相应地旋转骨链中的所有骨骼。游戏中IK的典型场景是将角色的脚放在地面上，或者将角色的手放在当前持有的物体上。SkeletonIK在内部使用FabrikInverseKinematic来解决骨骼链，并将结果应用于\\ :ref:`Skeleton<class_Skeleton>` ``bones_global_pose_override``\\ 属性中所有受影响的骨骼链。如果完全应用，这将覆盖任何来自\\ :ref:`Animation<class_Animation>`\\ 的骨骼变换或用户设置的骨骼自定义姿势。应用量可以用\\ ``interpolation``\\ 属性来控制。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:42
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:44
+msgid "`3D Inverse Kinematics Demo <https://godotengine.org/asset-library/asset/523>`__"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:47
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:50
+#: ../classes/class_skeletonik.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:50
+msgid ":ref:`interpolation<class_SkeletonIK_property_interpolation>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:50
+#: ../classes/class_skeletonik.rst:92
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:52
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:52
+msgid ":ref:`magnet<class_SkeletonIK_property_magnet>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:52
+#: ../classes/class_skeletonik.rst:108
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:54
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:54
+msgid ":ref:`max_iterations<class_SkeletonIK_property_max_iterations>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:54
+#: ../classes/class_skeletonik.rst:124
+msgid "``10``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:56
+msgid ":ref:`min_distance<class_SkeletonIK_property_min_distance>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:56
+#: ../classes/class_skeletonik.rst:140
+msgid "``0.01``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:58
+#: ../classes/class_skeletonik.rst:68
+#: ../classes/class_skeletonik.rst:77
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:58
+msgid ":ref:`override_tip_basis<class_SkeletonIK_property_override_tip_basis>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:58
+#: ../classes/class_skeletonik.rst:156
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:60
+#: ../classes/class_skeletonik.rst:66
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:60
+msgid ":ref:`root_bone<class_SkeletonIK_property_root_bone>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:60
+#: ../classes/class_skeletonik.rst:66
+#: ../classes/class_skeletonik.rst:172
+#: ../classes/class_skeletonik.rst:220
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:62
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:62
+msgid ":ref:`target<class_SkeletonIK_property_target>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:62
+#: ../classes/class_skeletonik.rst:188
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:64
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:64
+msgid ":ref:`target_node<class_SkeletonIK_property_target_node>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:64
+#: ../classes/class_skeletonik.rst:204
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:66
+msgid ":ref:`tip_bone<class_SkeletonIK_property_tip_bone>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:68
+msgid ":ref:`use_magnet<class_SkeletonIK_property_use_magnet>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:68
+#: ../classes/class_skeletonik.rst:236
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:72
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:75
+msgid ":ref:`Skeleton<class_Skeleton>`"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:75
+msgid ":ref:`get_parent_skeleton<class_SkeletonIK_method_get_parent_skeleton>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:77
+msgid ":ref:`is_running<class_SkeletonIK_method_is_running>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:79
+#: ../classes/class_skeletonik.rst:81
+msgid "void"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:79
+msgid ":ref:`start<class_SkeletonIK_method_start>` **(** :ref:`bool<class_bool>` one_time=false **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:81
+msgid ":ref:`stop<class_SkeletonIK_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:85
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:89
+msgid ":ref:`float<class_float>` **interpolation**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:92
+#: ../classes/class_skeletonik.rst:108
+#: ../classes/class_skeletonik.rst:124
+#: ../classes/class_skeletonik.rst:140
+#: ../classes/class_skeletonik.rst:156
+#: ../classes/class_skeletonik.rst:172
+#: ../classes/class_skeletonik.rst:188
+#: ../classes/class_skeletonik.rst:204
+#: ../classes/class_skeletonik.rst:220
+#: ../classes/class_skeletonik.rst:236
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:94
+#: ../classes/class_skeletonik.rst:110
+#: ../classes/class_skeletonik.rst:126
+#: ../classes/class_skeletonik.rst:142
+#: ../classes/class_skeletonik.rst:158
+#: ../classes/class_skeletonik.rst:174
+#: ../classes/class_skeletonik.rst:190
+#: ../classes/class_skeletonik.rst:206
+#: ../classes/class_skeletonik.rst:222
+#: ../classes/class_skeletonik.rst:238
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:94
+msgid "set_interpolation(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:96
+#: ../classes/class_skeletonik.rst:112
+#: ../classes/class_skeletonik.rst:128
+#: ../classes/class_skeletonik.rst:144
+#: ../classes/class_skeletonik.rst:160
+#: ../classes/class_skeletonik.rst:176
+#: ../classes/class_skeletonik.rst:192
+#: ../classes/class_skeletonik.rst:208
+#: ../classes/class_skeletonik.rst:224
+#: ../classes/class_skeletonik.rst:240
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:96
+msgid "get_interpolation()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:99
+msgid "IK 效果应用于当前骨架骨骼链的插值。 ``1.0`` 的值将完全覆盖所有骨架骨骼变换，而 ``0.0`` 的值将在视觉上禁用 SkeletonIK。等于或低于 ``0.01`` 的值也调用 :ref:`Skeleton.clear_bones_global_pose_override<class_Skeleton_method_clear_bones_global_pose_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:105
+msgid ":ref:`Vector3<class_Vector3>` **magnet**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:110
+msgid "set_magnet_position(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:112
+msgid "get_magnet_position()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:115
+msgid "IK 链的次要目标位置（首先是 :ref:`target<class_SkeletonIK_property_target>` 属性或 :ref:`target_node<class_SkeletonIK_property_target_node>`\\ ）。使用磁铁位置（极点目标）来控制 IK 链的弯曲。仅当骨骼链具有 2 个以上的骨骼时才有效。中间链骨位置将与磁铁位置进行线性插值。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:121
+msgid ":ref:`int<class_int>` **max_iterations**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:126
+msgid "set_max_iterations(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:128
+msgid "get_max_iterations()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:131
+msgid "IK解算器使用的迭代循环的数量，以产生更准确（和优雅）的骨链效果。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:137
+msgid ":ref:`float<class_float>` **min_distance**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:142
+msgid "set_min_distance(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:144
+msgid "get_min_distance()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:147
+msgid "骨骼与目标对象之间的最小距离。如果距离低于这个值，IK解算器将停止进一步的迭代。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:153
+msgid ":ref:`bool<class_bool>` **override_tip_basis**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:158
+msgid "set_override_tip_basis(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:160
+msgid "is_override_tip_basis()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:163
+msgid "如果\\ ``true``\\ ，则用 :ref:`target<class_SkeletonIK_property_target>` （或者如果定义了\\ :ref:`target_node<class_SkeletonIK_property_target_node>`]）的旋转覆盖尖端骨骼的旋转。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:169
+msgid ":ref:`String<class_String>` **root_bone**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:174
+msgid "set_root_bone(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:176
+msgid "get_root_bone()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:179
+msgid "当前根骨的名称，即IK链中的第一个骨。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:185
+msgid ":ref:`Transform<class_Transform>` **target**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:190
+msgid "set_target_transform(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:192
+msgid "get_target_transform()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:195
+msgid "放置尖端骨骼的 IK 链的第一个目标，如果 :ref:`override_tip_basis<class_SkeletonIK_property_override_tip_basis>` 是 ``true``\\ ，尖端骨骼的旋转方式。如果 :ref:`target_node<class_SkeletonIK_property_target_node>` 路径可用，则使用节点变换，并忽略此属性。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:201
+msgid ":ref:`NodePath<class_NodePath>` **target_node**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:206
+msgid "set_target_node(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:208
+msgid "get_target_node()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:211
+msgid "IK链的目标节点\\ :ref:`NodePath<class_NodePath>`\\ 。如果有的话，将使用节点当前的\\ :ref:`Transform<class_Transform>`\\ ，而不是\\ :ref:`target<class_SkeletonIK_property_target>`\\ 属性。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:217
+msgid ":ref:`String<class_String>` **tip_bone**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:222
+msgid "set_tip_bone(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:224
+msgid "get_tip_bone()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:227
+msgid "当前尖端骨骼的名称，IK 链中放置在 :ref:`target<class_SkeletonIK_property_target>` 变换处的最后一个骨骼（或者已定义 :ref:`target_node<class_SkeletonIK_property_target_node>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:233
+msgid ":ref:`bool<class_bool>` **use_magnet**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:238
+msgid "set_use_magnet(value)"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:240
+msgid "is_using_magnet()"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:243
+msgid "如果\\ ``true``\\ ，指示IK求解器在解算器链时考虑次要磁铁目标（极点目标）。使用磁铁位置（磁极目标）来控制IK链的弯曲。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:246
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:250
+msgid ":ref:`Skeleton<class_Skeleton>` **get_parent_skeleton** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:252
+msgid "返回 SkeletonIK 进入 :ref:`SceneTree<class_SceneTree>` 时存在的父 :ref:`Skeleton<class_Skeleton>` 节点。如果父节点在 SkeletonIK 进入 :ref:`SceneTree<class_SceneTree>` 时不是 :ref:`Skeleton<class_Skeleton>` 节点，则返回 null。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:258
+msgid ":ref:`bool<class_bool>` **is_running** **(** **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:260
+msgid "如果 SkeletonIK 将 IK 效果应用到 :ref:`Skeleton<class_Skeleton>` 骨骼的连续帧上，则返回 ``true``\\ 。如果 SkeletonIK 停止或使用 :ref:`start<class_SkeletonIK_method_start>` 且 ``one_time`` 参数设置为 ``true``\\ ，则返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:266
+msgid "void **start** **(** :ref:`bool<class_bool>` one_time=false **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:268
+msgid "开始将 IK 效果应用到每一帧的 :ref:`Skeleton<class_Skeleton>` 骨骼，但只会在下一帧开始生效。如果 ``one_time`` 为 ``true``\\ ，这将立即生效，但会在下一帧重置。"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:274
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../classes/class_skeletonik.rst:276
+msgid "停止将 IK 效果应用到每帧的 :ref:`Skeleton<class_Skeleton>` 骨骼，并调用 :ref:`Skeleton.clear_bones_global_pose_override<class_Skeleton_method_clear_bones_global_pose_override>` 以移除所有骨骼上的现有覆盖。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_curvetexture.rst:10
+msgid "CurveTexture"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:14
+msgid "一种显示曲线的纹理。"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:19
+msgid "渲染提供给它的\\ :ref:`Curve<class_Curve>`\\ 。简化了绘制曲线和/或保存为图像文件的任务。"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:25
+msgid ":ref:`Curve<class_Curve>`"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:25
+msgid ":ref:`curve<class_CurveTexture_property_curve>`"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:27
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:27
+msgid ":ref:`width<class_CurveTexture_property_width>`"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:27
+#: ../classes/class_curvetexture.rst:52
+msgid "``2048``"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:31
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:35
+msgid ":ref:`Curve<class_Curve>` **curve**"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:38
+#: ../classes/class_curvetexture.rst:54
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:38
+msgid "set_curve(value)"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:40
+#: ../classes/class_curvetexture.rst:56
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:40
+msgid "get_curve()"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:43
+msgid "渲染到纹理上的\\ ``curve``\\ 。"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:49
+msgid ":ref:`int<class_int>` **width**"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:52
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:54
+msgid "set_width(value)"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:56
+msgid "get_width()"
+msgstr ""
+
+#: ../classes/class_curvetexture.rst:59
+msgid "纹理的宽度。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

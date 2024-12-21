@@ -1,0 +1,1060 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_canvasitem.rst:10
+msgid "CanvasItem"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:14
+msgid "**Inherited By:** :ref:`Control<class_Control>`, :ref:`Node2D<class_Node2D>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:16
+msgid "任何 2D 对象的基类。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:21
+msgid "任何 2D 对象的基类。画布项目（Canvas Item）以树状排列；子节点继承并扩展其父节点的变换。\\ ``CanvasItem`` 由 :ref:`Control<class_Control>` 扩展为任何 GUI 相关的东西，由 :ref:`Node2D<class_Node2D>` 扩展为任何 2D 引擎相关的东西。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:23
+msgid "任何 ``CanvasItem`` 都可以绘图。要绘图就必须调用 :ref:`update<class_CanvasItem_method_update>`\\ ，然后就会在空闲时接收到 :ref:`NOTIFICATION_DRAW<class_CanvasItem_constant_NOTIFICATION_DRAW>` 来请求重绘。因此画布项目不需要每一帧都重绘，大大提升了性能。提供了几个用于在 ``CanvasItem`` 上绘图的函数（请参阅 ``draw_*`` 函数）。但是，它们只能在 :ref:`Object._notification<class_Object_method__notification>`\\ 、信号或虚函数 :ref:`_draw<class_CanvasItem_method__draw>` 内部使用。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:25
+msgid "画布项目是按树状顺序绘制的。默认情况下，子项目在其父项目的顶部，因此根\\ ``CanvasItem``\\ 将被画在所有项目的后面。这种行为可以在每个项目的基础上进行更改。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:27
+msgid "\\ ``CanvasItem`` 也可以被隐藏，这也将隐藏其子项目。它提供了许多方法来改变参数，如调制（对它自己和它的子项目）和自调制（只对它自己），以及它的混合模式。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:29
+msgid "最终，可以请求一个变换通知，它将在父树改变的情况下通知节点它的全局位置发生了变化。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:31
+msgid "\\ **注意：**\\ 除非另有说明，所有具有角度参数的方法必须将角度指定为\\ *弧度*\\ 。要将度数转换为弧度，请使用 :ref:`@GDScript.deg2rad<class_@GDScript_method_deg2rad>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:34
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:36
+msgid ":doc:`Viewport and canvas transforms <../tutorials/2d/2d_transforms>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:38
+msgid ":doc:`Custom drawing in 2D <../tutorials/2d/custom_drawing_in_2d>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:40
+msgid "`Audio Spectrum Demo <https://godotengine.org/asset-library/asset/528>`__"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:43
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:46
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:46
+msgid ":ref:`light_mask<class_CanvasItem_property_light_mask>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:46
+#: ../classes/class_canvasitem.rst:255
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:48
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:48
+msgid ":ref:`material<class_CanvasItem_property_material>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:50
+#: ../classes/class_canvasitem.rst:52
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:50
+msgid ":ref:`modulate<class_CanvasItem_property_modulate>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:50
+#: ../classes/class_canvasitem.rst:52
+#: ../classes/class_canvasitem.rst:285
+#: ../classes/class_canvasitem.rst:301
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:52
+msgid ":ref:`self_modulate<class_CanvasItem_property_self_modulate>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:54
+#: ../classes/class_canvasitem.rst:56
+#: ../classes/class_canvasitem.rst:58
+#: ../classes/class_canvasitem.rst:60
+#: ../classes/class_canvasitem.rst:137
+#: ../classes/class_canvasitem.rst:139
+#: ../classes/class_canvasitem.rst:141
+#: ../classes/class_canvasitem.rst:143
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:54
+msgid ":ref:`show_behind_parent<class_CanvasItem_property_show_behind_parent>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:54
+#: ../classes/class_canvasitem.rst:58
+#: ../classes/class_canvasitem.rst:317
+#: ../classes/class_canvasitem.rst:341
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:56
+msgid ":ref:`show_on_top<class_CanvasItem_property_show_on_top>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:58
+msgid ":ref:`use_parent_material<class_CanvasItem_property_use_parent_material>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:60
+msgid ":ref:`visible<class_CanvasItem_property_visible>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:60
+#: ../classes/class_canvasitem.rst:357
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:64
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:67
+#: ../classes/class_canvasitem.rst:69
+#: ../classes/class_canvasitem.rst:73
+#: ../classes/class_canvasitem.rst:75
+#: ../classes/class_canvasitem.rst:77
+#: ../classes/class_canvasitem.rst:79
+#: ../classes/class_canvasitem.rst:81
+#: ../classes/class_canvasitem.rst:83
+#: ../classes/class_canvasitem.rst:85
+#: ../classes/class_canvasitem.rst:87
+#: ../classes/class_canvasitem.rst:89
+#: ../classes/class_canvasitem.rst:91
+#: ../classes/class_canvasitem.rst:93
+#: ../classes/class_canvasitem.rst:95
+#: ../classes/class_canvasitem.rst:97
+#: ../classes/class_canvasitem.rst:99
+#: ../classes/class_canvasitem.rst:101
+#: ../classes/class_canvasitem.rst:103
+#: ../classes/class_canvasitem.rst:105
+#: ../classes/class_canvasitem.rst:107
+#: ../classes/class_canvasitem.rst:109
+#: ../classes/class_canvasitem.rst:111
+#: ../classes/class_canvasitem.rst:135
+#: ../classes/class_canvasitem.rst:149
+#: ../classes/class_canvasitem.rst:151
+#: ../classes/class_canvasitem.rst:153
+#: ../classes/class_canvasitem.rst:155
+#: ../classes/class_canvasitem.rst:157
+msgid "void"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:67
+msgid ":ref:`_draw<class_CanvasItem_method__draw>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:69
+msgid ":ref:`draw_arc<class_CanvasItem_method_draw_arc>` **(** :ref:`Vector2<class_Vector2>` center, :ref:`float<class_float>` radius, :ref:`float<class_float>` start_angle, :ref:`float<class_float>` end_angle, :ref:`int<class_int>` point_count, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:71
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:71
+msgid ":ref:`draw_char<class_CanvasItem_method_draw_char>` **(** :ref:`Font<class_Font>` font, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` char, :ref:`String<class_String>` next, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:73
+msgid ":ref:`draw_circle<class_CanvasItem_method_draw_circle>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` radius, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:75
+msgid ":ref:`draw_colored_polygon<class_CanvasItem_method_draw_colored_polygon>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`Texture<class_Texture>` texture=null, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:77
+msgid ":ref:`draw_line<class_CanvasItem_method_draw_line>` **(** :ref:`Vector2<class_Vector2>` from, :ref:`Vector2<class_Vector2>` to, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:79
+msgid ":ref:`draw_mesh<class_CanvasItem_method_draw_mesh>` **(** :ref:`Mesh<class_Mesh>` mesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:81
+msgid ":ref:`draw_multiline<class_CanvasItem_method_draw_multiline>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:83
+msgid ":ref:`draw_multiline_colors<class_CanvasItem_method_draw_multiline_colors>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:85
+msgid ":ref:`draw_multimesh<class_CanvasItem_method_draw_multimesh>` **(** :ref:`MultiMesh<class_MultiMesh>` multimesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:87
+msgid ":ref:`draw_polygon<class_CanvasItem_method_draw_polygon>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`Texture<class_Texture>` texture=null, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:89
+msgid ":ref:`draw_polyline<class_CanvasItem_method_draw_polyline>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:91
+msgid ":ref:`draw_polyline_colors<class_CanvasItem_method_draw_polyline_colors>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:93
+msgid ":ref:`draw_primitive<class_CanvasItem_method_draw_primitive>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs, :ref:`Texture<class_Texture>` texture=null, :ref:`float<class_float>` width=1.0, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:95
+msgid ":ref:`draw_rect<class_CanvasItem_method_draw_rect>` **(** :ref:`Rect2<class_Rect2>` rect, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` filled=true, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:97
+msgid ":ref:`draw_set_transform<class_CanvasItem_method_draw_set_transform>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:99
+msgid ":ref:`draw_set_transform_matrix<class_CanvasItem_method_draw_set_transform_matrix>` **(** :ref:`Transform2D<class_Transform2D>` xform **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:101
+msgid ":ref:`draw_string<class_CanvasItem_method_draw_string>` **(** :ref:`Font<class_Font>` font, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` text, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1 **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:103
+msgid ":ref:`draw_style_box<class_CanvasItem_method_draw_style_box>` **(** :ref:`StyleBox<class_StyleBox>` style_box, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:105
+msgid ":ref:`draw_texture<class_CanvasItem_method_draw_texture>` **(** :ref:`Texture<class_Texture>` texture, :ref:`Vector2<class_Vector2>` position, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:107
+msgid ":ref:`draw_texture_rect<class_CanvasItem_method_draw_texture_rect>` **(** :ref:`Texture<class_Texture>` texture, :ref:`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` tile, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:109
+msgid ":ref:`draw_texture_rect_region<class_CanvasItem_method_draw_texture_rect_region>` **(** :ref:`Texture<class_Texture>` texture, :ref:`Rect2<class_Rect2>` rect, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` clip_uv=true **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:111
+msgid ":ref:`force_update_transform<class_CanvasItem_method_force_update_transform>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:113
+#: ../classes/class_canvasitem.rst:115
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:113
+msgid ":ref:`get_canvas<class_CanvasItem_method_get_canvas>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:115
+msgid ":ref:`get_canvas_item<class_CanvasItem_method_get_canvas_item>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:117
+#: ../classes/class_canvasitem.rst:121
+#: ../classes/class_canvasitem.rst:123
+#: ../classes/class_canvasitem.rst:127
+#: ../classes/class_canvasitem.rst:131
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:117
+msgid ":ref:`get_canvas_transform<class_CanvasItem_method_get_canvas_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:119
+#: ../classes/class_canvasitem.rst:125
+#: ../classes/class_canvasitem.rst:145
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:119
+msgid ":ref:`get_global_mouse_position<class_CanvasItem_method_get_global_mouse_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:121
+msgid ":ref:`get_global_transform<class_CanvasItem_method_get_global_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:123
+msgid ":ref:`get_global_transform_with_canvas<class_CanvasItem_method_get_global_transform_with_canvas>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:125
+msgid ":ref:`get_local_mouse_position<class_CanvasItem_method_get_local_mouse_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:127
+msgid ":ref:`get_transform<class_CanvasItem_method_get_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:129
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:129
+msgid ":ref:`get_viewport_rect<class_CanvasItem_method_get_viewport_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:131
+msgid ":ref:`get_viewport_transform<class_CanvasItem_method_get_viewport_transform>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:133
+msgid ":ref:`World2D<class_World2D>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:133
+msgid ":ref:`get_world_2d<class_CanvasItem_method_get_world_2d>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:135
+msgid ":ref:`hide<class_CanvasItem_method_hide>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:137
+msgid ":ref:`is_local_transform_notification_enabled<class_CanvasItem_method_is_local_transform_notification_enabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:139
+msgid ":ref:`is_set_as_toplevel<class_CanvasItem_method_is_set_as_toplevel>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:141
+msgid ":ref:`is_transform_notification_enabled<class_CanvasItem_method_is_transform_notification_enabled>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:143
+msgid ":ref:`is_visible_in_tree<class_CanvasItem_method_is_visible_in_tree>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:145
+msgid ":ref:`make_canvas_position_local<class_CanvasItem_method_make_canvas_position_local>` **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:147
+msgid ":ref:`InputEvent<class_InputEvent>`"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:147
+msgid ":ref:`make_input_local<class_CanvasItem_method_make_input_local>` **(** :ref:`InputEvent<class_InputEvent>` event **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:149
+msgid ":ref:`set_as_toplevel<class_CanvasItem_method_set_as_toplevel>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:151
+msgid ":ref:`set_notify_local_transform<class_CanvasItem_method_set_notify_local_transform>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:153
+msgid ":ref:`set_notify_transform<class_CanvasItem_method_set_notify_transform>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:155
+msgid ":ref:`show<class_CanvasItem_method_show>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:157
+msgid ":ref:`update<class_CanvasItem_method_update>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:161
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:165
+msgid "**draw** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:167
+msgid "当\\ ``CanvasItem``\\ 必须重绘时发出。这只能是实时连接，因为延迟将不允许绘制。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:173
+msgid "**hide** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:175
+msgid "当隐藏时发出。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:181
+msgid "**item_rect_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:183
+msgid "在物体\\ :ref:`Rect2<class_Rect2>`\\ 边缘（位置或大小）改变，或有影响到边缘的操作（比如修改\\ :ref:`Sprite.texture<class_Sprite_property_texture>`\\ ）时触发。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:189
+msgid "**visibility_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:191
+msgid "当可见性（隐藏/可见）更改时发出。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:194
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:210
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:212
+msgid "**BLEND_MODE_MIX** = **0** --- 混合混合模式。假设颜色与alpha（不透明度）值无关。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:214
+msgid "**BLEND_MODE_ADD** = **1** --- 加法混合模式。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:216
+msgid "**BLEND_MODE_SUB** = **2** --- 减法混合模式。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:218
+msgid "**BLEND_MODE_MUL** = **3** --- 乘法混合模式。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:220
+msgid "**BLEND_MODE_PREMULT_ALPHA** = **4** --- 混合混合模式。假定颜色已预先乘以alpha（不透明度）值。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:222
+msgid "**BLEND_MODE_DISABLED** = **5** --- 关闭混合模式。颜色（包括 alpha）将会变原来的样子。仅能在渲染透明背景的目标使用。不会应用任何光照。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:225
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:237
+msgid "**NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- ``CanvasItem``\\ 的变换已更改。仅当\\ :ref:`set_notify_transform<class_CanvasItem_method_set_notify_transform>`\\ 或\\ :ref:`set_notify_local_transform<class_CanvasItem_method_set_notify_local_transform>`\\ 启用时，才会收到此通知。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:239
+msgid "**NOTIFICATION_DRAW** = **30** --- 要求绘制\\ ``CanvasItem``\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:241
+msgid "**NOTIFICATION_VISIBILITY_CHANGED** = **31** --- ``CanvasItem``\\ 的可见性已更改。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:243
+msgid "**NOTIFICATION_ENTER_CANVAS** = **32** --- ``CanvasItem``\\ 已进入画布。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:245
+msgid "**NOTIFICATION_EXIT_CANVAS** = **33** --- ``CanvasItem``\\ 已退出画布。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:248
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:252
+msgid ":ref:`int<class_int>` **light_mask**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:255
+#: ../classes/class_canvasitem.rst:285
+#: ../classes/class_canvasitem.rst:301
+#: ../classes/class_canvasitem.rst:317
+#: ../classes/class_canvasitem.rst:341
+#: ../classes/class_canvasitem.rst:357
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:257
+#: ../classes/class_canvasitem.rst:271
+#: ../classes/class_canvasitem.rst:287
+#: ../classes/class_canvasitem.rst:303
+#: ../classes/class_canvasitem.rst:319
+#: ../classes/class_canvasitem.rst:343
+#: ../classes/class_canvasitem.rst:359
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:257
+msgid "set_light_mask(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:259
+#: ../classes/class_canvasitem.rst:273
+#: ../classes/class_canvasitem.rst:289
+#: ../classes/class_canvasitem.rst:305
+#: ../classes/class_canvasitem.rst:321
+#: ../classes/class_canvasitem.rst:345
+#: ../classes/class_canvasitem.rst:361
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:259
+msgid "get_light_mask()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:262
+msgid "此\\ ``CanvasItem``\\ 在其中响应\\ :ref:`Light2D<class_Light2D>`\\ 节点的渲染层。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:268
+msgid ":ref:`Material<class_Material>` **material**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:271
+msgid "set_material(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:273
+msgid "get_material()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:276
+msgid "在此\\ ``CanvasItem``\\ 上应用于纹理的材质。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:282
+msgid ":ref:`Color<class_Color>` **modulate**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:287
+msgid "set_modulate(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:289
+msgid "get_modulate()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:292
+msgid "应用于此\\ ``CanvasItem``\\ 上纹理的颜色。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:298
+msgid ":ref:`Color<class_Color>` **self_modulate**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:303
+msgid "set_self_modulate(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:305
+msgid "get_self_modulate()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:308
+msgid "应用于此\\ ``CanvasItem``\\ 上纹理的颜色。子节点\\ ``CanvasItem``\\ 不能继承这个颜色。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:314
+msgid ":ref:`bool<class_bool>` **show_behind_parent**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:319
+msgid "set_draw_behind_parent(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:321
+msgid "is_draw_behind_parent_enabled()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:324
+msgid "如果\\ ``true``\\ ，则对象在其父对象后面绘制。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:330
+msgid ":ref:`bool<class_bool>` **show_on_top**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:332
+msgid "如果\\ ``true``\\ ，则对象在其父对象的顶部绘制。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:338
+msgid ":ref:`bool<class_bool>` **use_parent_material**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:343
+msgid "set_use_parent_material(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:345
+msgid "get_use_parent_material()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:348
+msgid "如果\\ ``true``\\ ，则将父级\\ ``CanvasItem``\\ 的\\ :ref:`material<class_CanvasItem_property_material>`\\ 属性用作此项的材质。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:354
+msgid ":ref:`bool<class_bool>` **visible**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:359
+msgid "set_visible(value)"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:361
+msgid "is_visible()"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:364
+msgid "如果\\ ``true``\\ ，这个\\ ``CanvasItem``\\ 被绘制。只有当它的所有父节点也可见时，该节点才是可见的（换句话说，\\ :ref:`is_visible_in_tree<class_CanvasItem_method_is_visible_in_tree>`\\ 必须返回\\ ``true``\\ ）。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:366
+msgid "\\ **注意：**\\ 对于继承了\\ :ref:`Popup<class_Popup>`\\ 的控件，使其可见的正确方法是调用多个\\ ``popup*()``\\ 函数之一。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:369
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:373
+msgid "void **_draw** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:375
+msgid "引擎调用的可覆盖函数（如果定义了）来绘制画布项目。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:381
+msgid "void **draw_arc** **(** :ref:`Vector2<class_Vector2>` center, :ref:`float<class_float>` radius, :ref:`float<class_float>` start_angle, :ref:`float<class_float>` end_angle, :ref:`int<class_int>` point_count, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:383
+msgid "在给定的角度之间画一条弧线。\\ ``point_count`` 的值越大，曲线越平滑。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:389
+msgid ":ref:`float<class_float>` **draw_char** **(** :ref:`Font<class_Font>` font, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` char, :ref:`String<class_String>` next, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:391
+msgid "使用自定义字体绘制一个字符串字符。返回前进量，这个量取决于该字符的宽度，以及与可选的下一个字符的字偶距。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:397
+msgid "void **draw_circle** **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` radius, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:399
+msgid "画一个彩色的圆。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:405
+msgid "void **draw_colored_polygon** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`Texture<class_Texture>` texture=null, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:407
+msgid "绘制任意数量点的彩色多边形，凸或凹。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:413
+msgid "void **draw_line** **(** :ref:`Vector2<class_Vector2>` from, :ref:`Vector2<class_Vector2>` to, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:415
+msgid "绘制一条从 2D 点到另一个点的线，具有给定的颜色和宽度。它可以选择抗锯齿。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:421
+msgid "void **draw_mesh** **(** :ref:`Mesh<class_Mesh>` mesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null, :ref:`Transform2D<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:423
+msgid "使用所提供的纹理以2D方式绘制一个\\ :ref:`Mesh<class_Mesh>`\\ 。相关文档请参阅\\ :ref:`MeshInstance2D<class_MeshInstance2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:429
+msgid "void **draw_multiline** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:431
+msgid "使用 uniform ``color`` 绘制多条平行线。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:433
+msgid "\\ **注意：**\\ ``width`` 和 ``antialiased`` 目前没有实现，没有效果。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:439
+msgid "void **draw_multiline_colors** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:441
+msgid "以 uniform 的 ``width`` 和逐段着色绘制多条平行线。分配给线段的颜色按 ``points`` 和 ``colors`` 之间的索引匹配。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:443
+msgid "\\ **注：** ``width``\\ 和\\ ``antialiased``\\ 目前没有实现，没有效果。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:449
+msgid "void **draw_multimesh** **(** :ref:`MultiMesh<class_MultiMesh>` multimesh, :ref:`Texture<class_Texture>` texture, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:451
+msgid "用所提供的纹理以 2D 方式绘制 :ref:`MultiMesh<class_MultiMesh>`\\ 。相关文档请参考\\ :ref:`MultiMeshInstance2D<class_MultiMeshInstance2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:457
+msgid "void **draw_polygon** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`Texture<class_Texture>` texture=null, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:459
+msgid "绘制任意数量的点的多边形，凸或凹。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:465
+msgid "void **draw_polyline** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`Color<class_Color>` color, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:467
+msgid "以uniform 的\\ ``color``\\ 和\\ ``width``\\ 来绘制相互连接的线段，可选抗锯齿。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:473
+msgid "void **draw_polyline_colors** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:475
+msgid "以uniform的\\ ``width``\\ 绘制相互连接的线段，逐段着色，可选抗锯齿。分配给线段的颜色通过\\ ``points``\\ 和\\ ``colors``\\ 之间的索引进行匹配。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:481
+msgid "void **draw_primitive** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` points, :ref:`PoolColorArray<class_PoolColorArray>` colors, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs, :ref:`Texture<class_Texture>` texture=null, :ref:`float<class_float>` width=1.0, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:483
+msgid "绘制自定义基本网格。1点为一个点，2点为一条线，3点为一个三角形，4点为一个四边形。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:489
+msgid "void **draw_rect** **(** :ref:`Rect2<class_Rect2>` rect, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` filled=true, :ref:`float<class_float>` width=1.0, :ref:`bool<class_bool>` antialiased=false **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:491
+msgid "绘制一个矩形。如果\\ ``filled``\\ 是\\ ``true``\\ ，矩形将被填充为指定的\\ ``color``\\ 。如果\\ ``filled``\\ 是\\ ``false``\\ ，矩形将以\\ ``color``\\ 和\\ ``width``\\ 指定的笔画形式绘制。如果\\ ``antialiased``\\ 是\\ ``true``\\ ，线条抗锯齿。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:493
+msgid "\\ **注意：**\\ ``width``\\ 和\\ ``antialiased``\\ 只有在\\ ``filled``\\ 是\\ ``false``\\ 时才有效。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:499
+msgid "void **draw_set_transform** **(** :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:501
+msgid "设置通过组件进行绘图的自定义变换。之后绘制的任何东西都将被转换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:507
+msgid "void **draw_set_transform_matrix** **(** :ref:`Transform2D<class_Transform2D>` xform **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:509
+msgid "设置通过矩阵绘制时的自定义变换。之后绘制的任何东西都将被转换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:515
+msgid "void **draw_string** **(** :ref:`Font<class_Font>` font, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` text, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1 **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:517
+msgid "使用指定的\\ ``font``\\ 在\\ ``position``\\ 绘制\\ ``text``\\ （左下角作为字体的基线）。该文本的颜色将乘以\\ ``modulate``\\ 。如果\\ ``clip_w``\\ 大于或等于0，文本超过了指定的宽度，将被裁剪。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:519
+msgid "\\ **使用项目默认字体的例子：**\\"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:529
+msgid "参阅\\ :ref:`Font.draw<class_Font_method_draw>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:535
+msgid "void **draw_style_box** **(** :ref:`StyleBox<class_StyleBox>` style_box, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:537
+msgid "绘制一个样式矩形。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:543
+msgid "void **draw_texture** **(** :ref:`Texture<class_Texture>` texture, :ref:`Vector2<class_Vector2>` position, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:545
+msgid "在给定的位置绘制纹理。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:551
+msgid "void **draw_texture_rect** **(** :ref:`Texture<class_Texture>` texture, :ref:`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` tile, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` normal_map=null **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:553
+msgid "在给定的位置上绘制一个纹理矩形，可以选择用颜色调制。如果 ``transpose`` 是 ``true``\\ ，纹理的 X 和 Y 坐标将被调换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:559
+msgid "void **draw_texture_rect_region** **(** :ref:`Texture<class_Texture>` texture, :ref:`Rect2<class_Rect2>` rect, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` clip_uv=true **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:561
+msgid "在给定的位置绘制纹理矩形区域，可选择用颜色调制。如果 ``transpose`` 是 ``true``\\ ，纹理的 X 和 Y 坐标将被调换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:567
+msgid "void **force_update_transform** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:569
+msgid "强制更新变换。由于性能原因，物理中的变换改变不是即时的。变换是在累积后再设置。如果你在进行物理操作时需要最新的变换，请使用此功能。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:575
+msgid ":ref:`RID<class_RID>` **get_canvas** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:577
+msgid "返回此项目所在的 :ref:`World2D<class_World2D>` 画布的 :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:583
+msgid ":ref:`RID<class_RID>` **get_canvas_item** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:585
+msgid "返回此项目在 :ref:`VisualServer<class_VisualServer>` 中使用的画布项 RID。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:591
+msgid ":ref:`Transform2D<class_Transform2D>` **get_canvas_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:593
+msgid "返回此项目画布的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:599
+msgid ":ref:`Vector2<class_Vector2>` **get_global_mouse_position** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:601
+msgid "返回鼠标的全局位置。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:607
+msgid ":ref:`Transform2D<class_Transform2D>` **get_global_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:609
+msgid "返回此项目的全局变换矩阵。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:615
+msgid ":ref:`Transform2D<class_Transform2D>` **get_global_transform_with_canvas** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:617
+msgid "返回此项目相对于画布的全局变换矩阵。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:623
+msgid ":ref:`Vector2<class_Vector2>` **get_local_mouse_position** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:625
+msgid "返回鼠标相对于此项的位置的位置。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:631
+msgid ":ref:`Transform2D<class_Transform2D>` **get_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:633
+msgid "返回此项目的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:639
+msgid ":ref:`Rect2<class_Rect2>` **get_viewport_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:641
+msgid "以\\ :ref:`Rect2<class_Rect2>`\\ 形式返回视窗的边界。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:647
+msgid ":ref:`Transform2D<class_Transform2D>` **get_viewport_transform** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:649
+msgid "返回这个项目相对于视窗的变换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:655
+msgid ":ref:`World2D<class_World2D>` **get_world_2d** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:657
+msgid "返回此物品所在的\\ :ref:`World2D<class_World2D>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:663
+msgid "void **hide** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:665
+msgid "如果\\ ``CanvasItem``\\ 当前可见，则隐藏它。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:671
+msgid ":ref:`bool<class_bool>` **is_local_transform_notification_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:673
+msgid "如果将本地转换通知传达给子级，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:679
+msgid ":ref:`bool<class_bool>` **is_set_as_toplevel** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:681
+msgid "如果节点设置为顶层，则返回\\ ``true``\\ 。参阅\\ :ref:`set_as_toplevel<class_CanvasItem_method_set_as_toplevel>`\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:687
+msgid ":ref:`bool<class_bool>` **is_transform_notification_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:689
+msgid "如果将全局转换通知传达给子级，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:695
+msgid ":ref:`bool<class_bool>` **is_visible_in_tree** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:697
+msgid "如果该节点位于\\ :ref:`SceneTree<class_SceneTree>`\\ 中，并且其\\ :ref:`visible<class_CanvasItem_property_visible>`\\ 属性为\\ ``true``\\ ，并且其所有前提均可见，则返回\\ ``true``\\ 。如果任何先决条件被隐藏，则该节点在场景树中将不可见。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:703
+msgid ":ref:`Vector2<class_Vector2>` **make_canvas_position_local** **(** :ref:`Vector2<class_Vector2>` screen_point **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:705
+msgid "分配\\ ``screen_point``\\ 作为该节点的新本地转换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:711
+msgid ":ref:`InputEvent<class_InputEvent>` **make_input_local** **(** :ref:`InputEvent<class_InputEvent>` event **)** |const|"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:713
+msgid "``event``\\ 的输入发出的转换将在局部空间而不是全局空间中应用。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:719
+msgid "void **set_as_toplevel** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:721
+msgid "如果\\ ``enable``\\ 为\\ ``true``\\ ，则该节点将不会从父画布项目继承其变换。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:727
+msgid "void **set_notify_local_transform** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:729
+msgid "如果\\ ``enable``\\ 为\\ ``true``\\ ，则将使用局部变换数据更新子项。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:735
+msgid "void **set_notify_transform** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:737
+msgid "如果\\ ``enable``\\ 为\\ ``true``\\ ，则将使用全局变换数据更新子项。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:743
+msgid "void **show** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:745
+msgid "如果\\ ``CanvasItem``\\ 当前是隐藏的，则显示它。对于继承\\ :ref:`Popup<class_Popup>`\\ 的控件，使其可见的正确方法是调用多个\\ ``popup*()``\\ 函数中的一个来代替。"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:751
+msgid "void **update** **(** **)**"
+msgstr ""
+
+#: ../classes/class_canvasitem.rst:753
+msgid "将\\ ``CanvasItem``\\ 排队等待更新。在空闲时间将调用\\ :ref:`NOTIFICATION_DRAW<class_CanvasItem_constant_NOTIFICATION_DRAW>`\\ 以请求重绘。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

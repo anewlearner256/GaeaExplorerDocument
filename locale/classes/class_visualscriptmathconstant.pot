@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_visualscriptmathconstant.rst:10
+msgid "VisualScriptMathConstant"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:14
+msgid "常用的数学常量。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:19
+msgid "在输出数据端口上提供常见的数学常量，如Pi等。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:21
+msgid "\\ **Input Ports:**\\"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:23
+msgid "none"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:25
+msgid "\\ **Output Ports:**\\"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:27
+msgid "Data (variant): ``get``"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:30
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:33
+msgid ":ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>`"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:33
+msgid ":ref:`constant<class_VisualScriptMathConstant_property_constant>`"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:33
+#: ../classes/class_visualscriptmathconstant.rst:87
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:37
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:59
+msgid "enum **MathConstant**:"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:61
+msgid "**MATH_CONSTANT_ONE** = **0** --- Unity：\\ ``1``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:63
+msgid "**MATH_CONSTANT_PI** = **1** --- Pi：\\ ``3.141593``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:65
+msgid "**MATH_CONSTANT_HALF_PI** = **2** --- Pi 除以 2：\\ ``1.570796``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:67
+msgid "**MATH_CONSTANT_TAU** = **3** --- Tau：\\ ``6.283185``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:69
+msgid "**MATH_CONSTANT_E** = **4** --- 数学常量 ``e``\\ ，自然对数基数：\\ ``2.718282``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:71
+msgid "**MATH_CONSTANT_SQRT2** = **5** --- 2 的平方根：\\ ``1.414214``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:73
+msgid "**MATH_CONSTANT_INF** = **6** --- 无穷大：\\ ``inf``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:75
+msgid "**MATH_CONSTANT_NAN** = **7** --- 不是数字：\\ ``nan``\\ 。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:77
+msgid "**MATH_CONSTANT_MAX** = **8** --- 表示 :ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:80
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:84
+msgid ":ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` **constant**"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:87
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:89
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:89
+msgid "set_math_constant(value)"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:91
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:91
+msgid "get_math_constant()"
+msgstr ""
+
+#: ../classes/class_visualscriptmathconstant.rst:94
+msgid "数学常量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

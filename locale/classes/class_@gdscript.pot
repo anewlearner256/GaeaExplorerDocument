@@ -1,0 +1,1647 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_@gdscript.rst:10
+msgid "@GDScript"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:12
+msgid "内置 GDScript 函数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:17
+msgid "GDScript 核心内置函数列表。包含数学函数及其他实用工具，其他都由继承自对象的类提供。（关键词：内置、内建、全局函数。）"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:20
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:23
+#: ../classes/class_@gdscript.rst:25
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:23
+msgid ":ref:`Color8<class_@GDScript_method_Color8>` **(** :ref:`int<class_int>` r8, :ref:`int<class_int>` g8, :ref:`int<class_int>` b8, :ref:`int<class_int>` a8=255 **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:25
+msgid ":ref:`ColorN<class_@GDScript_method_ColorN>` **(** :ref:`String<class_String>` name, :ref:`float<class_float>` alpha=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:27
+#: ../classes/class_@gdscript.rst:29
+#: ../classes/class_@gdscript.rst:31
+#: ../classes/class_@gdscript.rst:35
+#: ../classes/class_@gdscript.rst:37
+#: ../classes/class_@gdscript.rst:43
+#: ../classes/class_@gdscript.rst:47
+#: ../classes/class_@gdscript.rst:51
+#: ../classes/class_@gdscript.rst:53
+#: ../classes/class_@gdscript.rst:55
+#: ../classes/class_@gdscript.rst:59
+#: ../classes/class_@gdscript.rst:63
+#: ../classes/class_@gdscript.rst:67
+#: ../classes/class_@gdscript.rst:69
+#: ../classes/class_@gdscript.rst:71
+#: ../classes/class_@gdscript.rst:73
+#: ../classes/class_@gdscript.rst:75
+#: ../classes/class_@gdscript.rst:87
+#: ../classes/class_@gdscript.rst:103
+#: ../classes/class_@gdscript.rst:105
+#: ../classes/class_@gdscript.rst:109
+#: ../classes/class_@gdscript.rst:111
+#: ../classes/class_@gdscript.rst:113
+#: ../classes/class_@gdscript.rst:115
+#: ../classes/class_@gdscript.rst:127
+#: ../classes/class_@gdscript.rst:149
+#: ../classes/class_@gdscript.rst:151
+#: ../classes/class_@gdscript.rst:155
+#: ../classes/class_@gdscript.rst:163
+#: ../classes/class_@gdscript.rst:165
+#: ../classes/class_@gdscript.rst:169
+#: ../classes/class_@gdscript.rst:171
+#: ../classes/class_@gdscript.rst:173
+#: ../classes/class_@gdscript.rst:175
+#: ../classes/class_@gdscript.rst:177
+#: ../classes/class_@gdscript.rst:181
+#: ../classes/class_@gdscript.rst:187
+#: ../classes/class_@gdscript.rst:189
+#: ../classes/class_@gdscript.rst:205
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:27
+msgid ":ref:`abs<class_@GDScript_method_abs>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:29
+msgid ":ref:`acos<class_@GDScript_method_acos>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:31
+msgid ":ref:`asin<class_@GDScript_method_asin>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:33
+#: ../classes/class_@gdscript.rst:131
+#: ../classes/class_@gdscript.rst:133
+#: ../classes/class_@gdscript.rst:135
+#: ../classes/class_@gdscript.rst:137
+#: ../classes/class_@gdscript.rst:139
+#: ../classes/class_@gdscript.rst:141
+#: ../classes/class_@gdscript.rst:143
+#: ../classes/class_@gdscript.rst:145
+#: ../classes/class_@gdscript.rst:147
+#: ../classes/class_@gdscript.rst:159
+#: ../classes/class_@gdscript.rst:167
+msgid "void"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:33
+msgid ":ref:`assert<class_@GDScript_method_assert>` **(** :ref:`bool<class_bool>` condition, :ref:`String<class_String>` message=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:35
+msgid ":ref:`atan<class_@GDScript_method_atan>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:37
+msgid ":ref:`atan2<class_@GDScript_method_atan2>` **(** :ref:`float<class_float>` y, :ref:`float<class_float>` x **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:39
+#: ../classes/class_@gdscript.rst:49
+#: ../classes/class_@gdscript.rst:101
+#: ../classes/class_@gdscript.rst:121
+#: ../classes/class_@gdscript.rst:185
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:39
+msgid ":ref:`bytes2var<class_@GDScript_method_bytes2var>` **(** :ref:`PoolByteArray<class_PoolByteArray>` bytes, :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:41
+#: ../classes/class_@gdscript.rst:123
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:41
+msgid ":ref:`cartesian2polar<class_@GDScript_method_cartesian2polar>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:43
+msgid ":ref:`ceil<class_@GDScript_method_ceil>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:45
+#: ../classes/class_@gdscript.rst:183
+#: ../classes/class_@gdscript.rst:191
+#: ../classes/class_@gdscript.rst:197
+#: ../classes/class_@gdscript.rst:201
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:45
+msgid ":ref:`char<class_@GDScript_method_char>` **(** :ref:`int<class_int>` code **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:47
+msgid ":ref:`clamp<class_@GDScript_method_clamp>` **(** :ref:`float<class_float>` value, :ref:`float<class_float>` min, :ref:`float<class_float>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:49
+msgid ":ref:`convert<class_@GDScript_method_convert>` **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:51
+msgid ":ref:`cos<class_@GDScript_method_cos>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:53
+msgid ":ref:`cosh<class_@GDScript_method_cosh>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:55
+msgid ":ref:`db2linear<class_@GDScript_method_db2linear>` **(** :ref:`float<class_float>` db **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:57
+#: ../classes/class_@gdscript.rst:81
+#: ../classes/class_@gdscript.rst:99
+#: ../classes/class_@gdscript.rst:117
+#: ../classes/class_@gdscript.rst:119
+#: ../classes/class_@gdscript.rst:125
+#: ../classes/class_@gdscript.rst:157
+#: ../classes/class_@gdscript.rst:179
+#: ../classes/class_@gdscript.rst:195
+#: ../classes/class_@gdscript.rst:207
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:57
+msgid ":ref:`decimals<class_@GDScript_method_decimals>` **(** :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:59
+msgid ":ref:`dectime<class_@GDScript_method_dectime>` **(** :ref:`float<class_float>` value, :ref:`float<class_float>` amount, :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:61
+#: ../classes/class_@gdscript.rst:89
+#: ../classes/class_@gdscript.rst:91
+#: ../classes/class_@gdscript.rst:93
+#: ../classes/class_@gdscript.rst:95
+#: ../classes/class_@gdscript.rst:97
+#: ../classes/class_@gdscript.rst:193
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:61
+msgid ":ref:`deep_equal<class_@GDScript_method_deep_equal>` **(** :ref:`Variant<class_Variant>` a, :ref:`Variant<class_Variant>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:63
+msgid ":ref:`deg2rad<class_@GDScript_method_deg2rad>` **(** :ref:`float<class_float>` deg **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:65
+#: ../classes/class_@gdscript.rst:85
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:65
+msgid ":ref:`dict2inst<class_@GDScript_method_dict2inst>` **(** :ref:`Dictionary<class_Dictionary>` dict **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:67
+msgid ":ref:`ease<class_@GDScript_method_ease>` **(** :ref:`float<class_float>` s, :ref:`float<class_float>` curve **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:69
+msgid ":ref:`exp<class_@GDScript_method_exp>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:71
+msgid ":ref:`floor<class_@GDScript_method_floor>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:73
+msgid ":ref:`fmod<class_@GDScript_method_fmod>` **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:75
+msgid ":ref:`fposmod<class_@GDScript_method_fposmod>` **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:77
+msgid ":ref:`FuncRef<class_FuncRef>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:77
+msgid ":ref:`funcref<class_@GDScript_method_funcref>` **(** :ref:`Object<class_Object>` instance, :ref:`String<class_String>` funcname **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:79
+#: ../classes/class_@gdscript.rst:153
+#: ../classes/class_@gdscript.rst:161
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:79
+msgid ":ref:`get_stack<class_@GDScript_method_get_stack>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:81
+msgid ":ref:`hash<class_@GDScript_method_hash>` **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:83
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:83
+msgid ":ref:`inst2dict<class_@GDScript_method_inst2dict>` **(** :ref:`Object<class_Object>` inst **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:85
+msgid ":ref:`instance_from_id<class_@GDScript_method_instance_from_id>` **(** :ref:`int<class_int>` instance_id **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:87
+msgid ":ref:`inverse_lerp<class_@GDScript_method_inverse_lerp>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:89
+msgid ":ref:`is_equal_approx<class_@GDScript_method_is_equal_approx>` **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:91
+msgid ":ref:`is_inf<class_@GDScript_method_is_inf>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:93
+msgid ":ref:`is_instance_valid<class_@GDScript_method_is_instance_valid>` **(** :ref:`Object<class_Object>` instance **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:95
+msgid ":ref:`is_nan<class_@GDScript_method_is_nan>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:97
+msgid ":ref:`is_zero_approx<class_@GDScript_method_is_zero_approx>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:99
+msgid ":ref:`len<class_@GDScript_method_len>` **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:101
+msgid ":ref:`lerp<class_@GDScript_method_lerp>` **(** :ref:`Variant<class_Variant>` from, :ref:`Variant<class_Variant>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:103
+msgid ":ref:`lerp_angle<class_@GDScript_method_lerp_angle>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:105
+msgid ":ref:`linear2db<class_@GDScript_method_linear2db>` **(** :ref:`float<class_float>` nrg **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:107
+#: ../classes/class_@gdscript.rst:129
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:107
+msgid ":ref:`load<class_@GDScript_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:109
+msgid ":ref:`log<class_@GDScript_method_log>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:111
+msgid ":ref:`max<class_@GDScript_method_max>` **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:113
+msgid ":ref:`min<class_@GDScript_method_min>` **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:115
+msgid ":ref:`move_toward<class_@GDScript_method_move_toward>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:117
+msgid ":ref:`nearest_po2<class_@GDScript_method_nearest_po2>` **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:119
+msgid ":ref:`ord<class_@GDScript_method_ord>` **(** :ref:`String<class_String>` char **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:121
+msgid ":ref:`parse_json<class_@GDScript_method_parse_json>` **(** :ref:`String<class_String>` json **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:123
+msgid ":ref:`polar2cartesian<class_@GDScript_method_polar2cartesian>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` th **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:125
+msgid ":ref:`posmod<class_@GDScript_method_posmod>` **(** :ref:`int<class_int>` a, :ref:`int<class_int>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:127
+msgid ":ref:`pow<class_@GDScript_method_pow>` **(** :ref:`float<class_float>` base, :ref:`float<class_float>` exp **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:129
+msgid ":ref:`preload<class_@GDScript_method_preload>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:131
+msgid ":ref:`print<class_@GDScript_method_print>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:133
+msgid ":ref:`print_debug<class_@GDScript_method_print_debug>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:135
+msgid ":ref:`print_stack<class_@GDScript_method_print_stack>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:137
+msgid ":ref:`printerr<class_@GDScript_method_printerr>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:139
+msgid ":ref:`printraw<class_@GDScript_method_printraw>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:141
+msgid ":ref:`prints<class_@GDScript_method_prints>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:143
+msgid ":ref:`printt<class_@GDScript_method_printt>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:145
+msgid ":ref:`push_error<class_@GDScript_method_push_error>` **(** :ref:`String<class_String>` message **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:147
+msgid ":ref:`push_warning<class_@GDScript_method_push_warning>` **(** :ref:`String<class_String>` message **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:149
+msgid ":ref:`rad2deg<class_@GDScript_method_rad2deg>` **(** :ref:`float<class_float>` rad **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:151
+msgid ":ref:`rand_range<class_@GDScript_method_rand_range>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:153
+msgid ":ref:`rand_seed<class_@GDScript_method_rand_seed>` **(** :ref:`int<class_int>` seed **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:155
+msgid ":ref:`randf<class_@GDScript_method_randf>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:157
+msgid ":ref:`randi<class_@GDScript_method_randi>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:159
+msgid ":ref:`randomize<class_@GDScript_method_randomize>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:161
+msgid ":ref:`range<class_@GDScript_method_range>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:163
+msgid ":ref:`range_lerp<class_@GDScript_method_range_lerp>` **(** :ref:`float<class_float>` value, :ref:`float<class_float>` istart, :ref:`float<class_float>` istop, :ref:`float<class_float>` ostart, :ref:`float<class_float>` ostop **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:165
+msgid ":ref:`round<class_@GDScript_method_round>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:167
+msgid ":ref:`seed<class_@GDScript_method_seed>` **(** :ref:`int<class_int>` seed **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:169
+msgid ":ref:`sign<class_@GDScript_method_sign>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:171
+msgid ":ref:`sin<class_@GDScript_method_sin>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:173
+msgid ":ref:`sinh<class_@GDScript_method_sinh>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:175
+msgid ":ref:`smoothstep<class_@GDScript_method_smoothstep>` **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:177
+msgid ":ref:`sqrt<class_@GDScript_method_sqrt>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:179
+msgid ":ref:`step_decimals<class_@GDScript_method_step_decimals>` **(** :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:181
+msgid ":ref:`stepify<class_@GDScript_method_stepify>` **(** :ref:`float<class_float>` s, :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:183
+msgid ":ref:`str<class_@GDScript_method_str>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:185
+msgid ":ref:`str2var<class_@GDScript_method_str2var>` **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:187
+msgid ":ref:`tan<class_@GDScript_method_tan>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:189
+msgid ":ref:`tanh<class_@GDScript_method_tanh>` **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:191
+msgid ":ref:`to_json<class_@GDScript_method_to_json>` **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:193
+msgid ":ref:`type_exists<class_@GDScript_method_type_exists>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:195
+msgid ":ref:`typeof<class_@GDScript_method_typeof>` **(** :ref:`Variant<class_Variant>` what **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:197
+msgid ":ref:`validate_json<class_@GDScript_method_validate_json>` **(** :ref:`String<class_String>` json **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:199
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:199
+msgid ":ref:`var2bytes<class_@GDScript_method_var2bytes>` **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:201
+msgid ":ref:`var2str<class_@GDScript_method_var2str>` **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:203
+msgid ":ref:`WeakRef<class_WeakRef>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:203
+msgid ":ref:`weakref<class_@GDScript_method_weakref>` **(** :ref:`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:205
+msgid ":ref:`wrapf<class_@GDScript_method_wrapf>` **(** :ref:`float<class_float>` value, :ref:`float<class_float>` min, :ref:`float<class_float>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:207
+msgid ":ref:`wrapi<class_@GDScript_method_wrapi>` **(** :ref:`int<class_int>` value, :ref:`int<class_int>` min, :ref:`int<class_int>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:209
+msgid ":ref:`GDScriptFunctionState<class_GDScriptFunctionState>`"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:209
+msgid ":ref:`yield<class_@GDScript_method_yield>` **(** :ref:`Object<class_Object>` object=null, :ref:`String<class_String>` signal=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:213
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:223
+msgid "**PI** = **3.141593** --- 常量，表示圆的周长是直径的多少倍。等价于 ``TAU / 2``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:225
+msgid "**TAU** = **6.283185** --- 圆常量，单位圆的周长，单位为弧度。等价于 ``PI * 2``\\ ，即 360 度的旋转值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:227
+msgid "**INF** = **inf** --- 浮点数正无穷。浮点数除法中使用 ``0.0`` 作为除数时的计算结果。使用 ``-INF`` 可以得到负无穷。如果分子是正数，除以 ``-0.0`` 将得到负无穷，所以除以 ``0.0`` 与除以 ``-0.0`` 不同（尽管 ``0.0 == -0.0`` 返回 ``true``\\ ）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:229
+msgid "\\ **注意：**\\ 数字无穷大只是浮点数的概念，整数中没有对应的概念。整数除以 ``0`` 不会产生 :ref:`INF<class_@GDScript_constant_INF>`\\ ，而是会产生一个运行时错误。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:231
+msgid "**NAN** = **nan** --- “Not a Number”（不是一个数），一个无效的浮点数值。\\ :ref:`NAN<class_@GDScript_constant_NAN>` 有许多特殊的性质，比如它不等于自己（\\ ``NAN == NAN`` 返回 ``false``\\ ）。一些无效的操作会输出这个值，比如用浮点数 ``0.0`` 除以 ``0.0``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:233
+msgid "\\ **注意：**\\ “不是一个数”只是浮点数的概念，整数中没有对应的概念。整数 ``0`` 除以 ``0`` 不会产生 :ref:`NAN<class_@GDScript_constant_NAN>`\\ ，而是会产生一个运行时错误。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:236
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:240
+msgid ":ref:`Color<class_Color>` **Color8** **(** :ref:`int<class_int>` r8, :ref:`int<class_int>` g8, :ref:`int<class_int>` b8, :ref:`int<class_int>` a8=255 **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:242
+msgid "返回由整数红色、绿色、蓝色和 alpha 通道构成的颜色。每个通道应具有 8 位，包含范围从 0 到 255 的信息。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:244
+msgid "\\ ``r8`` 红色通道"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:246
+msgid "\\ ``g8`` 绿色通道"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:248
+msgid "\\ ``b8`` 蓝色通道"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:250
+msgid "\\ ``a8`` alpha通道"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:260
+msgid ":ref:`Color<class_Color>` **ColorN** **(** :ref:`String<class_String>` name, :ref:`float<class_float>` alpha=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:262
+msgid "根据标准名称 ``name`` 和值在 0 到 1 区间的 ``alpha`` 返回一个颜色。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:268
+msgid "支持的颜色名称与 :ref:`Color<class_Color>` 中定义的常量相同。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:274
+msgid ":ref:`float<class_float>` **abs** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:276
+msgid "返回参数 ``s`` 的绝对值（即正值）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:286
+msgid ":ref:`float<class_float>` **acos** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:288
+msgid "以弧度单位，返回 ``s`` 的反余弦值。用于求余弦值为 ``s`` 的角度。\\ ``s`` 必须在 ``-1.0`` 到 ``1.0`` 之间（闭区间），否则 :ref:`acos<class_@GDScript_method_acos>` 将返回 :ref:`NAN<class_@GDScript_constant_NAN>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:299
+msgid ":ref:`float<class_float>` **asin** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:301
+msgid "以弧度单位，返回 ``s`` 的反正弦值。用于求正弦值为 ``s`` 的角度。\\ ``s`` 必须在 ``-1.0`` 到 ``1.0`` 之间（闭区间），否则 :ref:`asin<class_@GDScript_method_asin>` 将返回 :ref:`NAN<class_@GDScript_constant_NAN>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:312
+msgid "void **assert** **(** :ref:`bool<class_bool>` condition, :ref:`String<class_String>` message=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:314
+msgid "断言条件 ``condition`` 为 ``true``\\ 。如果条件 ``condition`` 为 ``false`` ，则会生成一个错误。如果是从编辑器运行的，正在运行的项目还会被暂停，直到手动恢复。该函数可以作为 :ref:`push_error<class_@GDScript_method_push_error>` 的加强版，用于向项目开发者或插件用户报错。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:316
+msgid "\\ **注意：** 出于对性能的考虑，\\ :ref:`assert<class_@GDScript_method_assert>` 中的代码只会在调试版本或者从编辑器运行项目时执行。所以不要在 :ref:`assert<class_@GDScript_method_assert>` 调用中加入具有副作用的代码。否则，项目在以发行模式导出后将有不一致的行为。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:318
+msgid "如果给出了可选的 ``message`` 参数，在通用的“Assertion failed”消息之外，还会显示该信息。你可以使用它来提供关于断言失败原因的其他详细信息。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:333
+msgid ":ref:`float<class_float>` **atan** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:335
+msgid "以弧度返回 ``s`` 的反正切值。在三角函数中，使用它可以由一个角的正切值得到这个角：\\ ``atan(tan(angle)) == angle``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:337
+msgid "该方法无法确定这个角应该落在哪个象限。如果同时已知 ``y`` 和 ``x`` 值，可参考 :ref:`atan2<class_@GDScript_method_atan2>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:347
+msgid ":ref:`float<class_float>` **atan2** **(** :ref:`float<class_float>` y, :ref:`float<class_float>` x **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:349
+msgid "以弧度返回 ``y/x`` 的反正切。用于获取正切值为 ``y/x`` 的角度。为了求解该值，该方法考虑两个参数的符号以确定象限。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:351
+msgid "重要说明：按照惯例，Y 坐标为第一个参数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:361
+msgid ":ref:`Variant<class_Variant>` **bytes2var** **(** :ref:`PoolByteArray<class_PoolByteArray>` bytes, :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:363
+msgid "将字节数组解码返回一个值。当 ``allow_objects`` 为 ``true`` 时，允许解码对象。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:365
+msgid "\\ **警告：**\\ 反序列化得到的对象可能包含可执行的代码。如果序列化的对象的来源不可信，请不要激活此选项，以避免潜在的安全威胁（远程执行代码）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:371
+msgid ":ref:`Vector2<class_Vector2>` **cartesian2polar** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:373
+msgid "将 2D 点的坐标表示，从笛卡尔坐标系（X 和 Y 轴）转换为极坐标系（到原点的距离和角度）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:379
+msgid ":ref:`float<class_float>` **ceil** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:381
+msgid "将 ``s`` 向上舍入（朝正无穷大），返回不小于 ``s`` 的最小整数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:388
+msgid "参阅 :ref:`floor<class_@GDScript_method_floor>`\\ 、\\ :ref:`round<class_@GDScript_method_round>`\\ 、\\ :ref:`stepify<class_@GDScript_method_stepify>`\\ 、以及 :ref:`int<class_int>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:394
+msgid ":ref:`String<class_String>` **char** **(** :ref:`int<class_int>` code **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:396
+msgid "返回一个单字符字符串，该字符为给定 Unicode 码位（与 ASCII 码兼容）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:404
+msgid "这是 :ref:`ord<class_@GDScript_method_ord>` 的逆操作。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:410
+msgid ":ref:`float<class_float>` **clamp** **(** :ref:`float<class_float>` value, :ref:`float<class_float>` min, :ref:`float<class_float>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:412
+msgid "钳制 ``value`` ，返回一个不小于 ``min`` 且不大于 ``max`` 的值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:424
+msgid ":ref:`Variant<class_Variant>` **convert** **(** :ref:`Variant<class_Variant>` what, :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:426
+msgid "尽可能以最佳方式将一种类型转换为另一种类型。\\ ``type`` 参数应使用 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` 作为值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:441
+msgid ":ref:`float<class_float>` **cos** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:443
+#: ../classes/class_@gdscript.rst:1333
+msgid "返回弧度角 ``s`` 的正弦值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:454
+msgid ":ref:`float<class_float>` **cosh** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:456
+msgid "返回弧度角 ``s`` 的双曲余弦值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:466
+msgid ":ref:`float<class_float>` **db2linear** **(** :ref:`float<class_float>` db **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:468
+msgid "从分贝转换为线性能量（音频）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:474
+msgid ":ref:`int<class_int>` **decimals** **(** :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:476
+msgid ":ref:`step_decimals<class_@GDScript_method_step_decimals>` 的弃用的别名。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:482
+msgid ":ref:`float<class_float>` **dectime** **(** :ref:`float<class_float>` value, :ref:`float<class_float>` amount, :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:484
+msgid "**注意：**\\ ``dectime`` 已被废弃，将在 GaaeExplorer 4.0 中删除，请使用 :ref:`move_toward<class_@GDScript_method_move_toward>` 代替。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:486
+msgid "返回 ``value`` 减去 ``step`` \\* ``amount`` 的结果。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:496
+msgid ":ref:`bool<class_bool>` **deep_equal** **(** :ref:`Variant<class_Variant>` a, :ref:`Variant<class_Variant>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:498
+msgid "Compares two values by checking their actual contents, recursing into any `Array` or `Dictionary` up to its deepest level."
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:500
+msgid "This compares to ``==`` in a number of ways:"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:502
+msgid "For ``null``, ``int``, ``float``, ``String``, ``Object`` and ``RID`` both ``deep_equal`` and ``==`` work the same."
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:504
+msgid "For ``Dictionary``, ``==`` considers equality if, and only if, both variables point to the very same ``Dictionary``, with no recursion or awareness of the contents at all."
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:506
+msgid "For ``Array``, ``==`` considers equality if, and only if, each item in the first ``Array`` is equal to its counterpart in the second ``Array``, as told by ``==`` itself. That implies that ``==`` recurses into ``Array``, but not into ``Dictionary``."
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:508
+msgid "In short, whenever a ``Dictionary`` is potentially involved, if you want a true content-aware comparison, you have to use ``deep_equal``."
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:514
+msgid ":ref:`float<class_float>` **deg2rad** **(** :ref:`float<class_float>` deg **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:516
+msgid "将角度值转换为弧度值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:526
+msgid ":ref:`Object<class_Object>` **dict2inst** **(** :ref:`Dictionary<class_Dictionary>` dict **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:528
+msgid "将（之前使用 :ref:`inst2dict<class_@GDScript_method_inst2dict>` 创建的）字典转换回实例。适用于反序列化。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:534
+msgid ":ref:`float<class_float>` **ease** **(** :ref:`float<class_float>` s, :ref:`float<class_float>` curve **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:536
+msgid "返回 ``x`` “缓动后”的值，结果基于使用 ``curve`` 值定义的缓动函数。该缓动函数是基于指数的。\\ ``curve`` 值可以是任意浮点数，具体数值会导致以下行为："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:548
+msgid "\\ `ease() 曲线值速查表 <https://raw.githubusercontent.com/godotengine/godot-docs/3.4/img/ease_cheatsheet.png>`__\\"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:550
+msgid "请参阅 :ref:`smoothstep<class_@GDScript_method_smoothstep>`\\ 。如果你需要执行更高级的过渡，请使用 :ref:`Tween<class_Tween>` 或 :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:556
+msgid ":ref:`float<class_float>` **exp** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:558
+msgid "自然指数函数。返回 **e** 的 **s** 次幂。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:560
+msgid "\\ **e** 的近似值为 2.71828，可以使用 ``exp(1)`` 获得。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:562
+msgid "求其他底数的指数应使用 :ref:`pow<class_@GDScript_method_pow>` 方法。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:572
+msgid ":ref:`float<class_float>` **floor** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:574
+msgid "向下舍入 ``s`` （朝负无穷大），返回不大于 ``s`` 的最大整数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:582
+msgid "请参阅 :ref:`ceil<class_@GDScript_method_ceil>`\\ 、\\ :ref:`round<class_@GDScript_method_round>`\\ 、\\ :ref:`stepify<class_@GDScript_method_stepify>` 和 :ref:`int<class_int>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:584
+msgid "\\ **注意：**\\ 该方法返回一个浮点数。如果你需要整数，而 ``s`` 是非负数，你可以直接使用 ``int(s)``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:590
+msgid ":ref:`float<class_float>` **fmod** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:592
+msgid "返回 ``a/b`` 的浮点型余数， 符号与 ``a``\\ 一致。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:598
+msgid "对整数取余请使用操作符 %。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:604
+msgid ":ref:`float<class_float>` **fposmod** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:606
+msgid "返回 ``a/b`` 的浮点模数，对正负数进行一致的循环。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:614
+msgid "产生的结果："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:630
+msgid ":ref:`FuncRef<class_FuncRef>` **funcref** **(** :ref:`Object<class_Object>` instance, :ref:`String<class_String>` funcname **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:632
+msgid "返回对 ``instance`` 节点中指定函数 ``funcname`` 的引用。由于函数在GDScript中不是一级对象，因此请使用 ``funcref`` 将 :ref:`FuncRef<class_FuncRef>` 存储在变量中，然后再调用它。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:646
+msgid ":ref:`Array<class_Array>` **get_stack** **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:648
+msgid "返回一个表示当前调用堆栈的字典数组。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:661
+msgid "会输出"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:671
+msgid ":ref:`int<class_int>` **hash** **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:673
+msgid "返回传入的变量的整数哈希值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:683
+msgid ":ref:`Dictionary<class_Dictionary>` **inst2dict** **(** :ref:`Object<class_Object>` inst **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:685
+msgid "返回传入的实例转换为的字典（可用于序列化）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:695
+#: ../classes/class_@gdscript.rst:1246
+#: ../classes/class_@gdscript.rst:1264
+msgid "输出："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:706
+msgid ":ref:`Object<class_Object>` **instance_from_id** **(** :ref:`int<class_int>` instance_id **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:708
+msgid "返回 ``instance_id`` 所对应的对象。所有对象都有独有的实例 ID。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:722
+msgid ":ref:`float<class_float>` **inverse_lerp** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:724
+msgid "考虑给定范围，返回归一化值。这是 :ref:`lerp<class_@GDScript_method_lerp>` 的逆运算。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:738
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:740
+msgid "如果 ``a`` 和 ``b`` 彼此近似相等，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:742
+msgid "这里，近似相等意味着 ``a`` 和 ``b`` 相互之间在一个小的内部 ε 里，这个内部 ε 随着数字的大小而变化。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:744
+msgid "相同符号的无穷大值被认为是相等的。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:750
+msgid ":ref:`bool<class_bool>` **is_inf** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:752
+msgid "返回 ``s`` 是否为无穷大值（正无穷大或负无穷大）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:758
+msgid ":ref:`bool<class_bool>` **is_instance_valid** **(** :ref:`Object<class_Object>` instance **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:760
+msgid "返回 ``instance`` 是否为有效对象（例如尚未从内存中删除）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:766
+msgid ":ref:`bool<class_bool>` **is_nan** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:768
+msgid "返回 ``s`` 是否为 NaN（“不是数字”或无效）值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:774
+msgid ":ref:`bool<class_bool>` **is_zero_approx** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:776
+msgid "如果 ``s`` 为零或几乎为零，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:778
+msgid "此方法比使用 :ref:`is_equal_approx<class_@GDScript_method_is_equal_approx>`\\ （其中一个值为零）要快。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:784
+msgid ":ref:`int<class_int>` **len** **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:786
+msgid "返回 Variant ``var`` 的长度。长度是字符串的字符数、数组的元素数、字典的大小等。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:788
+msgid "\\ **注意：**\\ 如果 Variant 无法提供长度，则会产生致命错误。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:799
+msgid ":ref:`Variant<class_Variant>` **lerp** **(** :ref:`Variant<class_Variant>` from, :ref:`Variant<class_Variant>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:801
+msgid "用一个归一化的值在两个值之间进行线性插值。这是 :ref:`inverse_lerp<class_@GDScript_method_inverse_lerp>` 的逆运算。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:803
+msgid "如果 ``from`` 和 ``to`` 参数类型是 :ref:`int<class_int>` 或 :ref:`float<class_float>`\\ ，返回值都是 :ref:`float<class_float>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:805
+msgid "如果两者都是相同的向量类型（\\ :ref:`Vector2<class_Vector2>`\\ 、\\ :ref:`Vector3<class_Vector3>`\\ 或\\ :ref:`Color<class_Color>`\\ ），返回值将是相同的类型（\\ ``lerp`` 然后调用该向量类型的 ``linear_interpolate`` 方法）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:816
+msgid ":ref:`float<class_float>` **lerp_angle** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:818
+msgid "通过归一化值在两个角度之间（以弧度为单位）进行线性插值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:820
+msgid "与 :ref:`lerp<class_@GDScript_method_lerp>` 相似，但是当角度环绕 :ref:`TAU<class_@GDScript_constant_TAU>` 时会准确插值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:836
+msgid ":ref:`float<class_float>` **linear2db** **(** :ref:`float<class_float>` nrg **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:838
+msgid "从线性能量转换为分贝（音频）。这可用于实现按预期运行的音量滑块（因为音量不是线性的）。例如："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:851
+msgid ":ref:`Resource<class_Resource>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:853
+msgid "从位于 ``path`` 的文件系统中加载一个资源。该资源在方法调用时被加载（除非它已经在其他地方被引用了，例如在另一个脚本或场景中），这可能会导致轻微的延迟，特别是在加载场景时。为了避免在多次加载东西时出现不必要的延迟，可以将资源存储在一个变量中，或者使用预加载 :ref:`preload<class_@GDScript_method_preload>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:855
+msgid "\\ **注意：**\\ 资源路径可以通过右键单击文件系统停靠区中的资源并选择“复制路径”或将文件从文件系统停靠区拖到脚本中获得。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:862
+msgid "\\ **重要提示：**\\ 路径必须是绝对的，本地路径将直接返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:864
+msgid "这个方法是 :ref:`ResourceLoader.load<class_ResourceLoader_method_load>` 的简化版，它可以用于更高级的场景。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:870
+msgid ":ref:`float<class_float>` **log** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:872
+msgid "自然对数。持续增长到一定程度所需的时间。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:874
+msgid "\\ **注意：**\\ 这个函数与大多数计算器上的对数“log”函数不同，他们适用的底数是 10。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:880
+msgid "\\ **注意：**\\ ``0`` 的对数返回 ``-inf`` ，负值返回 ``-nan`` 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:886
+msgid ":ref:`float<class_float>` **max** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:888
+msgid "返回两个值的最大值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:899
+msgid ":ref:`float<class_float>` **min** **(** :ref:`float<class_float>` a, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:901
+msgid "返回两个值的最小值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:912
+msgid ":ref:`float<class_float>` **move_toward** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:914
+msgid "将 ``from`` 向 ``to`` 移动，移动的长度是 ``delta``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:916
+msgid "使用负的 ``delta`` 值则向远离的方向移动。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:928
+msgid ":ref:`int<class_int>` **nearest_po2** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:930
+msgid "返回最接近且不小于整数 ``value`` 的 2 的幂。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:932
+msgid "换句话说，返回最小值 ``a``\\ ，其中 ``a = pow(2, n)``\\ ，某些非负整数 ``n`` 使得值 ``value <= a``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:943
+msgid "\\ **警告：**\\ 由于其实现方式，此函数会对非正数的 ``value`` 返回 ``0`` 而不是 ``1`` （实际上 1 是 2 的最小整数幂）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:949
+msgid ":ref:`int<class_int>` **ord** **(** :ref:`String<class_String>` char **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:951
+msgid "返回一个整数，该整数表示给定 Unicode 字符 ``char`` 的 Unicode 码位。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:959
+msgid "这是 :ref:`char<class_@GDScript_method_char>` 的逆运算。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:965
+msgid ":ref:`Variant<class_Variant>` **parse_json** **(** :ref:`String<class_String>` json **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:967
+msgid "将 JSON 文本解析为 Variant。（使用 :ref:`typeof<class_@GDScript_method_typeof>` 检查 Variant 的类型是否符合您的期望。）"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:969
+msgid "\\ **注意：**\\ JSON 规范未定义整数或浮点类型，仅定义了 *number* 类型。 因此，解析 JSON 文本会将所有数值转换为 :ref:`float<class_float>` 类型。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:971
+msgid "\\ **注意：**\\ JSON 对象不会像 GaaeExplorer 字典那样保留键顺序，因此，如果字典是由 JSON 构造的，则不应依赖于特定顺序的键。相反，JSON 数组保留其元素的顺序："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:981
+msgid "另请参阅 :ref:`JSON<class_JSON>` 以获取解析 JSON 文本的另一种方法。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:987
+msgid ":ref:`Vector2<class_Vector2>` **polar2cartesian** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` th **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:989
+msgid "将 2D 点从极坐标系（与原点 ``r`` 的距离和角度 ``th``\\ ）转换为笛卡尔坐标系（X 和 Y 轴）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:995
+msgid ":ref:`int<class_int>` **posmod** **(** :ref:`int<class_int>` a, :ref:`int<class_int>` b **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:997
+msgid "返回 ``a/b`` 的整数模，对正负数进行一致的循环。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1004
+msgid "结果："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1020
+msgid ":ref:`float<class_float>` **pow** **(** :ref:`float<class_float>` base, :ref:`float<class_float>` exp **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1022
+msgid "返回 ``base`` 的 ``exp`` 次幂的结果。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1032
+msgid ":ref:`Resource<class_Resource>` **preload** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1034
+msgid "返回位于文件系统中 ``path`` 位置的 :ref:`Resource<class_Resource>`\\ 。资源是在脚本解析期间加载的，即随脚本一同加载，\\ :ref:`preload<class_@GDScript_method_preload>` 实际上充当了对该资源的引用。请注意，该方法需要常量路径。如果要从动态/变量路径加载资源，请使用 :ref:`load<class_@GDScript_method_load>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1036
+msgid "\\ **注意：**\\ 可以通过右键单击素材面板中的资源并选择“复制路径”，或者将文件从文件系统面板拖到脚本中来获得资源路径。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1047
+msgid "void **print** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1049
+msgid "以最佳方式将一个或多个任意类型的参数转换为字符串，并将其打印到控制台。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1056
+msgid "\\ **注意：**\\ 请考虑使用 :ref:`push_error<class_@GDScript_method_push_error>` 和 :ref:`push_warning<class_@GDScript_method_push_warning>` 来打印错误和警告信息而不是 :ref:`print<class_@GDScript_method_print>`\\ 。这将它们与用于调试的打印信息区分开来，同时在打印错误或警告时还会显示堆栈跟踪。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1062
+msgid "void **print_debug** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1064
+msgid "与 :ref:`print<class_@GDScript_method_print>` 类似，但仅在调试模式下使用时才打印。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1070
+msgid "void **print_stack** **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1072
+msgid "在代码位置打印堆栈轨迹，仅在打开调试器的情况下运行。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1074
+msgid "控制台中的输出如下所示："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1084
+msgid "void **printerr** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1086
+msgid "以可能的最佳方式将一个或多个参数作为字符串输出到标准错误行。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1096
+msgid "void **printraw** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1098
+msgid "以最佳的方式将一个或多个参数作为字符串输出到控制台。末尾没有添加换行符。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1106
+msgid "\\ **注意：**\\ 由于 GaaeExplorer 内置控制台的限制，此内容仅会打印到终端上。如果需要在编辑器中打印，请使用其他方法，例如 :ref:`print<class_@GDScript_method_print>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1112
+msgid "void **prints** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1114
+msgid "将一个或多个参数打印到控制台，每个参数之间有一个空格。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1124
+msgid "void **printt** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1126
+msgid "将一个或多个参数打印到控制台，每个参数之间有一个制表符。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1136
+msgid "void **push_error** **(** :ref:`String<class_String>` message **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1138
+msgid "将错误消息推送到 GaaeExplorer 的内置调试器和 OS 终端。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1144
+msgid "\\ **注意：**\\ 以该方式打印的错误不会暂停项目的运行。要在调试版本中打印错误消息并暂停项目运行，请使用 ``assert(false, \"test error\")``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1150
+msgid "void **push_warning** **(** :ref:`String<class_String>` message **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1152
+msgid "将警告消息推送到 GaaeExplorer 的内置调试器和 OS 终端。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1162
+msgid ":ref:`float<class_float>` **rad2deg** **(** :ref:`float<class_float>` rad **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1164
+msgid "将以弧度表示的角度转换为度。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1174
+msgid ":ref:`float<class_float>` **rand_range** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1176
+msgid "随机范围，\\ ``from`` 和 ``to`` 之间的任何浮点值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1186
+msgid ":ref:`Array<class_Array>` **rand_seed** **(** :ref:`int<class_int>` seed **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1188
+msgid "来自种子的随机数：传入种子 ``seed``\\ ，返回同时包含数字和新种子的数组。这里的“种子”是指伪随机数生成器的内部状态。当前实现的内部状态为 64 位。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1194
+msgid ":ref:`float<class_float>` **randf** **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1196
+msgid "返回区间 ``[0, 1]`` 上的随机浮点值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1206
+msgid ":ref:`int<class_int>` **randi** **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1208
+msgid "返回一个随机的无符号 32 位整数。使用余数获得区间 ``[0, N - 1]`` （其中 N 小于 2^32）的随机值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1221
+msgid "void **randomize** **(** **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1223
+msgid "随机化随机数生成器的种子（或内部状态）。当前的实现使用基于时间的数字来重新设定种子。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1234
+msgid ":ref:`Array<class_Array>` **range** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1236
+msgid "返回一个具有给定范围的数组。范围可以是一个参数\\ ``N``\\ （0 到 ``N`` - 1），两个参数（初始 ``initial``\\ 、最终 ``final -1``\\ ）或三个参数（初始 ``initial``\\ 、最终 ``final -1``\\ 、增量 ``increment``\\ ）。范围无效时返回一个空数组（例如 ``range(2, 5, -1)`` 或 ``range(5, 5, 1)``\\ ）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1238
+msgid "返回一个具有给定范围的数组。\\ ``range()`` 可以是一个参数 ``N``\\ （0 到 ``N`` - 1），两个参数（初始 ``initial``\\ 、最终 ``final -1``\\ ）或三个参数（初始\\ ``initial``\\ 、最终 ``final -1``\\ 、增量 ``increment``\\ ）。增量 ``increment`` 可以是负数。如果增量 ``increment`` 是负的，\\ ``final-1`` 将变成 ``final+1``\\ 。另外，初始值必须大于最终值，循环才能运行。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1254
+msgid "要对一个数组 :ref:`Array<class_Array>` 进行逆序迭代，请使用："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1276
+msgid ":ref:`float<class_float>` **range_lerp** **(** :ref:`float<class_float>` value, :ref:`float<class_float>` istart, :ref:`float<class_float>` istop, :ref:`float<class_float>` ostart, :ref:`float<class_float>` ostop **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1278
+msgid "将 ``value`` 从范围 ``[istart, istop]`` 映射到 ``[ostart, ostop]``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1288
+msgid ":ref:`float<class_float>` **round** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1290
+msgid "将 ``s`` 舍入到最接近的整数，中间情况向远离零的方向舍入。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1298
+msgid "请参阅 :ref:`floor<class_@GDScript_method_floor>`\\ 、\\ :ref:`ceil<class_@GDScript_method_ceil>`\\ 、\\ :ref:`stepify<class_@GDScript_method_stepify>`\\ 、以及 :ref:`int<class_int>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1304
+msgid "void **seed** **(** :ref:`int<class_int>` seed **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1306
+msgid "为随机数生成器设置种子。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1317
+msgid ":ref:`float<class_float>` **sign** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1319
+msgid "返回 ``s`` 的符号：-1 或 1。\\ ``s`` 为 0 时返回 0。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1331
+msgid ":ref:`float<class_float>` **sin** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1343
+msgid ":ref:`float<class_float>` **sinh** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1345
+msgid "返回 ``s`` 的双曲正弦值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1356
+msgid ":ref:`float<class_float>` **smoothstep** **(** :ref:`float<class_float>` from, :ref:`float<class_float>` to, :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1358
+msgid "返回 ``s`` 在 ``0`` 和 ``1`` 之间平滑插值的结果，基于 ``s`` 相对于边从 ``from`` 和到 ``to`` 的位置。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1360
+msgid "如果 ``s <= from``\\ ，返回值为 ``0``\\ ；如果 ``s >= to``\\ ，返回值为 ``1``\\ 。如果 ``s`` 位于 ``from`` 和 ``to`` 之间，返回值遵循一个 S 型曲线，将 ``s`` 映射到 ``0`` 和 ``1`` 之间。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1362
+msgid "这条 S 形曲线是立方 Hermite 插值器，由 ``f(y)=3*y^2-2*y^3`` 给出，其中 ``y = (x-from) / (to-from)``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1371
+msgid "与曲线值为 ``-1.6521`` 的 :ref:`ease<class_@GDScript_method_ease>` 相比，\\ :ref:`smoothstep<class_@GDScript_method_smoothstep>` 返回最平滑的曲线，导数没有突然变化。如果你需要执行更高级的过渡，请使用 :ref:`Tween<class_Tween>` 或 :ref:`AnimationPlayer<class_AnimationPlayer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1373
+msgid "\\ `smoothstep() 与 ease(x, -1.6521) 返回值的比较 <https://raw.githubusercontent.com/godotengine/godot-docs/3.4/img/smoothstep_ease_comparison.png>`__"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1379
+msgid ":ref:`float<class_float>` **sqrt** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1381
+msgid "返回 ``s`` 的平方根，其中 ``s`` 是非负数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1387
+msgid "\\ **注意：**\\ 负数的 ``s`` 会返回 NaN。如果你需要负数输入，请在 C# 中使用 ``System.Numerics.Complex``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1393
+msgid ":ref:`int<class_int>` **step_decimals** **(** :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1395
+msgid "返回小数点后第一个非零数字的位置。注意最大返回值是 10，这是实现中的设计决定。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1407
+msgid ":ref:`float<class_float>` **stepify** **(** :ref:`float<class_float>` s, :ref:`float<class_float>` step **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1409
+msgid "将浮点值 ``s`` 按照给定的 ``step`` 对齐。也可以用于将浮点数四舍五入为任意的小数位数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1416
+msgid "参阅 :ref:`ceil<class_@GDScript_method_ceil>`\\ 、\\ :ref:`floor<class_@GDScript_method_floor>`\\ 、\\ :ref:`round<class_@GDScript_method_round>`\\ 、以及 :ref:`int<class_int>`\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1422
+msgid ":ref:`String<class_String>` **str** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1424
+msgid "以最佳方式将一个或多个任意类型的参数转换为字符串。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1437
+msgid ":ref:`Variant<class_Variant>` **str2var** **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1439
+msgid "将 :ref:`var2str<class_@GDScript_method_var2str>` 返回的格式化字符串转换为原始值。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1451
+msgid ":ref:`float<class_float>` **tan** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1453
+msgid "返回弧度角 ``s`` 的正切。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1463
+msgid ":ref:`float<class_float>` **tanh** **(** :ref:`float<class_float>` s **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1465
+msgid "返回\\ ``s``\\ 的双曲正切。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1476
+msgid ":ref:`String<class_String>` **to_json** **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1478
+msgid "将 :ref:`Variant<class_Variant>` ``var`` 转换为JSON文本并返回结果。对于序列化数据以通过网络存储或发送很有用。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1488
+msgid "\\ **注意：**\\ JSON 规范未定义整数或浮点类型，而仅定义了\\ *数字*\\ 类型。因此，将 :ref:`Variant<class_Variant>` 转换为 JSON 文本会将所有数值转换为 :ref:`float<class_float>` 类型。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1490
+msgid "另请参阅 :ref:`JSON<class_JSON>`\\ ，以将 :ref:`Variant<class_Variant>` 转换为 JSON 文本的另一种方法。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1496
+msgid ":ref:`bool<class_bool>` **type_exists** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1498
+msgid "返回给定的类在 :ref:`ClassDB<class_ClassDB>` 中是否存在。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1509
+msgid ":ref:`int<class_int>` **typeof** **(** :ref:`Variant<class_Variant>` what **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1511
+msgid "使用 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` 值返回给定 Variant 对象的内部类型。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1525
+msgid ":ref:`String<class_String>` **validate_json** **(** :ref:`String<class_String>` json **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1527
+msgid "检查 ``json`` 是有效的JSON数据。如果有效，则返回空字符串，否则返回错误消息。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1542
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **var2bytes** **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1544
+msgid "将变量值编码为一个字节数组。当 ``full_objects`` 为 ``true`` 时，允许对对象进行编码（并且可能包含代码）。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1550
+msgid ":ref:`String<class_String>` **var2str** **(** :ref:`Variant<class_Variant>` var **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1552
+msgid "将 Variant ``var`` 转换为格式化的字符串，以后可以使用 :ref:`str2var<class_@GDScript_method_str2var>` 对其进行解析。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1559
+msgid "prints"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1572
+msgid ":ref:`WeakRef<class_WeakRef>` **weakref** **(** :ref:`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1574
+msgid "返回一个对对象的弱引用。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1576
+msgid "一个对对象的弱引用不足以使对象保持活动状态：当仅剩余的对引用对象的引用是弱引用时，垃圾回收可以随意销毁该引用并将其内存重用于其他用途。但是，直到没有实际破坏对象为止，弱引用仍可能会返回该对象，即使没有强引用也是如此。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1582
+msgid ":ref:`float<class_float>` **wrapf** **(** :ref:`float<class_float>` value, :ref:`float<class_float>` min, :ref:`float<class_float>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1584
+msgid "在 ``min`` 和 ``max`` 之间将 ``value`` 循环。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1586
+#: ../classes/class_@gdscript.rst:1615
+msgid "可用于创建类似循环的行为或无限曲面。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1603
+msgid "\\ **注意：** 如果 ``min`` 为 ``0``\\ ，则等价于 :ref:`fposmod<class_@GDScript_method_fposmod>`\\ ，因此请改用它。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1605
+msgid "通过让用户控制最小值，\\ ``wrapf`` 比使用 :ref:`fposmod<class_@GDScript_method_fposmod>` 方法更灵活。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1611
+msgid ":ref:`int<class_int>` **wrapi** **(** :ref:`int<class_int>` value, :ref:`int<class_int>` min, :ref:`int<class_int>` max **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1613
+msgid "在 ``min`` 和 ``max`` 之间环绕整数 ``value``\\ 。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1627
+msgid "\\ **注意：**\\ 如果 ``min`` 为 ``0``\\ ，则等价于 :ref:`posmod<class_@GDScript_method_posmod>`\\ ，因此建议改用它。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1629
+msgid "通过让用户控制最小值，\\ ``wrapi`` 比使用 :ref:`posmod<class_@GDScript_method_posmod>` 方法更灵活。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1635
+msgid ":ref:`GDScriptFunctionState<class_GDScriptFunctionState>` **yield** **(** :ref:`Object<class_Object>` object=null, :ref:`String<class_String>` signal=\"\" **)**"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1637
+msgid "停止函数的执行并将当前的暂停状态返回给调用函数。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1639
+msgid "从调用者那里，对该状态调用 :ref:`GDScriptFunctionState.resume<class_GDScriptFunctionState_method_resume>` 来恢复执行。这将使该状态无效。在恢复的函数中，\\ ``yield()`` 返回传递给 ``resume()`` 函数调用的东西。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1641
+msgid "如果传递了对象和信号，当该对象发出给定的信号时，就会恢复执行。此时，如果该信号只有一个参数，\\ ``yield()`` 会返回传递给 ``emit_signal()`` 的参数，如果该信号有多个参数，则返回一个包含传递给 ``emit_signal()`` 的所有参数的数组。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1643
+msgid "你还可以使用 ``yield`` 来等待函数的完成："
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1666
+msgid "当对一个函数处于让步等待时，\\ ``completed`` 信号将在函数返回时自动发出。因此，它可以作为 ``signal`` 的参数用于 ``yield`` 方法的恢复。"
+msgstr ""
+
+#: ../classes/class_@gdscript.rst:1668
+msgid "为了在一个函数上让步等待，产生的函数也应该返回一个 ``GDScriptFunctionState``\\ 。注意上面的例子中 ``yield(get_tree(), \"idle_frame\")``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

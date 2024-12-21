@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:2
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:31
+msgid "PolygonGeometryElement"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:7
+msgid "面Element，用来表示交互绘制面时的对象，用户可以获取到面的点坐标信息，也可以改变面的相关属性，如颜色、点的位置。"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:16
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:18
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:20
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:22
+msgid "Color"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:16
+msgid "InitialLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:18
+msgid "SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:20
+msgid "InitialFillColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:22
+msgid "SelectedFillColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:26
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:29
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:33
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:29
+msgid "OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:31
+msgid "CreateThisScaleElement(Single value,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:33
+msgid "IsClockwise()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:35
+msgid "Vector3[]"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:35
+msgid "GetPolygonData()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:39
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:41
+msgid "Color InitialLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:44
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:55
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:66
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:77
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:48
+msgid "面的边线初始颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:52
+msgid "Color SelectedLineColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:59
+msgid "面的边线被选中后的颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:63
+msgid "Color InitialFillColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:70
+msgid "面的初始填充颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:74
+msgid "Color SelectedFillColor"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:81
+msgid "面被选中的颜色"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:87
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:89
+msgid "Boolean OnMouseDown(Vector2 pos,Int32 btn,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:95
+msgid "PolygonGeometryElement CreateThisScaleElement(Single value,)"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:101
+msgid "Boolean IsClockwise()"
+msgstr ""
+
+#: ../classAPI/GaeaDisplay/class_PolygonGeometryElement.rst:107
+msgid "Vector3[] GetPolygonData()"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

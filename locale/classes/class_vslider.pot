@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_vslider.rst:10
+msgid "VSlider"
+msgstr ""
+
+#: ../classes/class_vslider.rst:12
+msgid "**Inherits:** :ref:`Slider<class_Slider>` **<** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:14
+msgid "垂直滑条。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_vslider.rst:19
+msgid "垂直滑块。参阅\\ :ref:`Slider<class_Slider>`\\ 。这个从底部（最小）到顶部（最大）。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:21
+msgid "\\ **注意：** :ref:`Range.changed<class_Range_signal_changed>`\\ 和\\ :ref:`Range.value_changed<class_Range_signal_value_changed>`\\ 信号是\\ :ref:`Range<class_Range>`\\ 类的一部分，该类继承自它。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_vslider.rst:27
+#: ../classes/class_vslider.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:27
+msgid "size_flags_horizontal"
+msgstr ""
+
+#: ../classes/class_vslider.rst:27
+msgid "``0`` (overrides :ref:`Control<class_Control_property_size_flags_horizontal>`)"
+msgstr ""
+
+#: ../classes/class_vslider.rst:29
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../classes/class_vslider.rst:29
+msgid "``1`` (overrides :ref:`Control<class_Control_property_size_flags_vertical>`)"
+msgstr ""
+
+#: ../classes/class_vslider.rst:33
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_vslider.rst:36
+#: ../classes/class_vslider.rst:38
+#: ../classes/class_vslider.rst:40
+#: ../classes/class_vslider.rst:42
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:36
+msgid ":ref:`grabber<class_VSlider_theme_icon_grabber>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:38
+msgid ":ref:`grabber_disabled<class_VSlider_theme_icon_grabber_disabled>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:40
+msgid ":ref:`grabber_highlight<class_VSlider_theme_icon_grabber_highlight>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:42
+msgid ":ref:`tick<class_VSlider_theme_icon_tick>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:44
+#: ../classes/class_vslider.rst:46
+#: ../classes/class_vslider.rst:48
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:44
+msgid ":ref:`grabber_area<class_VSlider_theme_style_grabber_area>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:46
+msgid ":ref:`grabber_area_highlight<class_VSlider_theme_style_grabber_area_highlight>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:48
+msgid ":ref:`slider<class_VSlider_theme_style_slider>`"
+msgstr ""
+
+#: ../classes/class_vslider.rst:52
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_vslider.rst:56
+msgid ":ref:`Texture<class_Texture>` **grabber**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:58
+msgid "用作拖动条的纹理（可拖动的元素）。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:64
+msgid ":ref:`Texture<class_Texture>` **grabber_disabled**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:66
+msgid "抓取器禁用时的材质。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:72
+msgid ":ref:`Texture<class_Texture>` **grabber_highlight**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:74
+msgid "抓取器获得焦点时的材质。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:80
+msgid ":ref:`Texture<class_Texture>` **tick**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:82
+msgid "刻度的纹理。当\\ :ref:`Slider.tick_count<class_Slider_property_tick_count>`\\ 大于0时可见。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:88
+msgid ":ref:`StyleBox<class_StyleBox>` **grabber_area**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:90
+msgid "抓取器下方区域的背景。"
+msgstr ""
+
+#: ../classes/class_vslider.rst:96
+msgid ":ref:`StyleBox<class_StyleBox>` **grabber_area_highlight**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:102
+msgid ":ref:`StyleBox<class_StyleBox>` **slider**"
+msgstr ""
+
+#: ../classes/class_vslider.rst:104
+msgid "整个滑块的背景。决定了\\ ``grabber_area``\\ 的宽度。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

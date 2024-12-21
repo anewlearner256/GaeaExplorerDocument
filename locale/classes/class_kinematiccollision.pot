@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_kinematiccollision.rst:10
+msgid "KinematicCollision"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:14
+msgid ":ref:`KinematicBody<class_KinematicBody>` 碰撞的碰撞数据。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:19
+msgid "包含\\ :ref:`KinematicBody<class_KinematicBody>`\\ 碰撞的碰撞数据。当\\ :ref:`KinematicBody<class_KinematicBody>`\\ 使用\\ :ref:`KinematicBody.move_and_collide<class_KinematicBody_method_move_and_collide>`\\ 移动时，如果它检测到与另一个物体的碰撞就会停止。如果检测到碰撞，将返回一个KinematicCollision对象。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:21
+msgid "这个对象包含关于碰撞的信息，包括碰撞的物体、剩余的运动和碰撞的位置。这些信息可以用来计算碰撞响应。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:24
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:27
+#: ../classes/class_kinematiccollision.rst:35
+#: ../classes/class_kinematiccollision.rst:41
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:27
+msgid ":ref:`collider<class_KinematicCollision_property_collider>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:29
+#: ../classes/class_kinematiccollision.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:29
+msgid ":ref:`collider_id<class_KinematicCollision_property_collider_id>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:29
+#: ../classes/class_kinematiccollision.rst:37
+#: ../classes/class_kinematiccollision.rst:79
+#: ../classes/class_kinematiccollision.rst:129
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:31
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:31
+msgid ":ref:`collider_metadata<class_KinematicCollision_property_collider_metadata>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:33
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:33
+msgid ":ref:`collider_rid<class_KinematicCollision_property_collider_rid>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:35
+msgid ":ref:`collider_shape<class_KinematicCollision_property_collider_shape>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:37
+msgid ":ref:`collider_shape_index<class_KinematicCollision_property_collider_shape_index>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:39
+#: ../classes/class_kinematiccollision.rst:43
+#: ../classes/class_kinematiccollision.rst:45
+#: ../classes/class_kinematiccollision.rst:47
+#: ../classes/class_kinematiccollision.rst:49
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:39
+msgid ":ref:`collider_velocity<class_KinematicCollision_property_collider_velocity>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:39
+#: ../classes/class_kinematiccollision.rst:43
+#: ../classes/class_kinematiccollision.rst:45
+#: ../classes/class_kinematiccollision.rst:47
+#: ../classes/class_kinematiccollision.rst:49
+#: ../classes/class_kinematiccollision.rst:143
+#: ../classes/class_kinematiccollision.rst:169
+#: ../classes/class_kinematiccollision.rst:183
+#: ../classes/class_kinematiccollision.rst:197
+#: ../classes/class_kinematiccollision.rst:211
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:41
+msgid ":ref:`local_shape<class_KinematicCollision_property_local_shape>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:43
+msgid ":ref:`normal<class_KinematicCollision_property_normal>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:45
+msgid ":ref:`position<class_KinematicCollision_property_position>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:47
+msgid ":ref:`remainder<class_KinematicCollision_property_remainder>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:49
+msgid ":ref:`travel<class_KinematicCollision_property_travel>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:53
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:56
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:56
+msgid ":ref:`get_angle<class_KinematicCollision_method_get_angle>` **(** :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 1, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:60
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:64
+msgid ":ref:`Object<class_Object>` **collider**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:67
+#: ../classes/class_kinematiccollision.rst:81
+#: ../classes/class_kinematiccollision.rst:93
+#: ../classes/class_kinematiccollision.rst:105
+#: ../classes/class_kinematiccollision.rst:117
+#: ../classes/class_kinematiccollision.rst:131
+#: ../classes/class_kinematiccollision.rst:145
+#: ../classes/class_kinematiccollision.rst:157
+#: ../classes/class_kinematiccollision.rst:171
+#: ../classes/class_kinematiccollision.rst:185
+#: ../classes/class_kinematiccollision.rst:199
+#: ../classes/class_kinematiccollision.rst:213
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:67
+msgid "get_collider()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:70
+msgid "碰撞体。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:76
+msgid ":ref:`int<class_int>` **collider_id**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:79
+#: ../classes/class_kinematiccollision.rst:129
+#: ../classes/class_kinematiccollision.rst:143
+#: ../classes/class_kinematiccollision.rst:169
+#: ../classes/class_kinematiccollision.rst:183
+#: ../classes/class_kinematiccollision.rst:197
+#: ../classes/class_kinematiccollision.rst:211
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:81
+msgid "get_collider_id()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:84
+msgid "碰撞体的唯一实例ID。参阅\\ :ref:`Object.get_instance_id<class_Object_method_get_instance_id>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:90
+msgid ":ref:`Variant<class_Variant>` **collider_metadata**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:93
+msgid "get_collider_metadata()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:96
+msgid "碰撞体的元数据。参阅\\ :ref:`Object<class_Object>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:102
+msgid ":ref:`RID<class_RID>` **collider_rid**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:105
+msgid "get_collider_rid()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:108
+msgid ":ref:`PhysicsServer<class_PhysicsServer>` 使用的碰撞体的 :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:114
+msgid ":ref:`Object<class_Object>` **collider_shape**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:117
+msgid "get_collider_shape()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:120
+msgid "碰撞体的形状。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:126
+msgid ":ref:`int<class_int>` **collider_shape_index**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:131
+msgid "get_collider_shape_index()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:134
+msgid "碰撞形状的索引。参阅\\ :ref:`CollisionObject<class_CollisionObject>`\\ 。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:140
+msgid ":ref:`Vector3<class_Vector3>` **collider_velocity**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:145
+msgid "get_collider_velocity()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:148
+msgid "碰撞对象的速度。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:154
+msgid ":ref:`Object<class_Object>` **local_shape**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:157
+msgid "get_local_shape()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:160
+msgid "移动对象的碰撞形状。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:166
+msgid ":ref:`Vector3<class_Vector3>` **normal**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:171
+msgid "get_normal()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:174
+msgid "碰撞体的形状在碰撞点的法线。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:180
+msgid ":ref:`Vector3<class_Vector3>` **position**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:185
+msgid "get_position()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:188
+msgid "碰撞点，以全局坐标表示。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:194
+msgid ":ref:`Vector3<class_Vector3>` **remainder**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:199
+msgid "get_remainder()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:202
+msgid "移动物体的剩余运动向量。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:208
+msgid ":ref:`Vector3<class_Vector3>` **travel**"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:213
+msgid "get_travel()"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:216
+msgid "运动物体在碰撞前行进的距离。"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:219
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:223
+msgid ":ref:`float<class_float>` **get_angle** **(** :ref:`Vector3<class_Vector3>` up_direction=Vector3( 0, 1, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_kinematiccollision.rst:225
+msgid "根据\\ ``up_direction``\\ 的碰撞角度，默认为\\ ``Vector3.UP``\\ 。这个值总是为正。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

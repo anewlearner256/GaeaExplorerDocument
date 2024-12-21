@@ -1,0 +1,2519 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_control.rst:10
+msgid "Control"
+msgstr ""
+
+#: ../classes/class_control.rst:12
+msgid "**Inherits:** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_control.rst:14
+msgid "**Inherited By:** :ref:`BaseButton<class_BaseButton>`, :ref:`ColorRect<class_ColorRect>`, :ref:`Container<class_Container>`, :ref:`GraphEdit<class_GraphEdit>`, :ref:`ItemList<class_ItemList>`, :ref:`Label<class_Label>`, :ref:`LineEdit<class_LineEdit>`, :ref:`NinePatchRect<class_NinePatchRect>`, :ref:`Panel<class_Panel>`, :ref:`Popup<class_Popup>`, :ref:`Range<class_Range>`, :ref:`ReferenceRect<class_ReferenceRect>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Separator<class_Separator>`, :ref:`Tabs<class_Tabs>`, :ref:`TextEdit<class_TextEdit>`, :ref:`TextureRect<class_TextureRect>`, :ref:`Tree<class_Tree>`, :ref:`VideoPlayer<class_VideoPlayer>`"
+msgstr ""
+
+#: ../classes/class_control.rst:16
+msgid "所有用户界面节点都从 Control 继承。控件的锚点和边距相对于其父级调整其位置和大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_control.rst:21
+msgid "所有 UI 相关节点的基类。\\ ``Control`` 具有定义其范围的边界矩形、相对于其父控件或当前视窗的锚点位置以及表示锚点偏移的边距。 当节点、其任何父节点或屏幕尺寸发生变化时，边距会自动更新。"
+msgstr ""
+
+#: ../classes/class_control.rst:23
+msgid "更多关于 GaaeExplorer 的 UI 系统、锚点、边距和容器的信息，请参阅手册中的相关教程。 要构建灵活的 UI，您需要混合使用从 ``Control`` 和 :ref:`Container<class_Container>` 节点继承的 UI 元素。"
+msgstr ""
+
+#: ../classes/class_control.rst:25
+msgid "\\ **用户界面节点和输入**\\"
+msgstr ""
+
+#: ../classes/class_control.rst:27
+msgid "GaaeExplorer 首先通过调用 :ref:`Node._input<class_Node_method__input>` 将输入事件发送到场景的根节点。 :ref:`Node._input<class_Node_method__input>` 将事件沿节点树向下转发到鼠标光标下或键盘焦点上的节点。 为此，它调用 :ref:`MainLoop._input_event<class_MainLoop_method__input_event>`\\ 。 调用 :ref:`accept_event<class_Control_method_accept_event>` 以便没有其他节点收到该事件。 一旦你接受一个输入，它就会被处理，所以 :ref:`Node._unhandled_input<class_Node_method__unhandled_input>` 不会处理它。"
+msgstr ""
+
+#: ../classes/class_control.rst:29
+msgid "只有一个 ``Control`` 节点可以处于键盘焦点。 只有处于焦点的节点才会接收键盘事件。 要获得焦点，请调用 :ref:`grab_focus<class_Control_method_grab_focus>`\\ 。在另一个节点获得聚焦时 ``Control`` 节点会失去焦点，或者您隐藏焦点中的节点。"
+msgstr ""
+
+#: ../classes/class_control.rst:31
+msgid "将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` 以告诉 ``Control`` 节点忽略鼠标或触摸事件。 如果您在按钮顶部放置一个图标，您将需要它。"
+msgstr ""
+
+#: ../classes/class_control.rst:33
+msgid "\\ :ref:`Theme<class_Theme>` 资源更改控件的外观。 如果您更改 ``Control`` 节点上的 :ref:`Theme<class_Theme>`\\ ，则会影响其所有子节点。 要覆盖某些主题的参数，请调用 ``add_*_override`` 方法之一，例如 :ref:`add_font_override<class_Control_method_add_font_override>`\\ 。 您可以使用检查器覆盖主题。"
+msgstr ""
+
+#: ../classes/class_control.rst:35
+msgid "\\ **注意：** 主题项目\\ *不是* :ref:`Object<class_Object>` 的属性。这意味着你无法使用 :ref:`Object.get<class_Object_method_get>` 和 :ref:`Object.set<class_Object_method_set>` 访问它们的值。请换用 :ref:`get_color<class_Control_method_get_color>`\\ 、\\ :ref:`get_constant<class_Control_method_get_constant>`\\ 、\\ :ref:`get_font<class_Control_method_get_font>`\\ 、\\ :ref:`get_icon<class_Control_method_get_icon>`\\ 、\\ :ref:`get_stylebox<class_Control_method_get_stylebox>`\\ ，以及这个类提供的 ``add_*_override`` 方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:38
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_control.rst:40
+msgid ":doc:`GUI tutorial index <../tutorials/ui/index>`"
+msgstr ""
+
+#: ../classes/class_control.rst:42
+msgid ":doc:`Custom drawing in 2D <../tutorials/2d/custom_drawing_in_2d>`"
+msgstr ""
+
+#: ../classes/class_control.rst:44
+msgid ":doc:`Control node gallery <../tutorials/ui/control_node_gallery>`"
+msgstr ""
+
+#: ../classes/class_control.rst:46
+msgid "`All GUI Demos <https://github.com/godotengine/godot-demo-projects/tree/master/gui>`__"
+msgstr ""
+
+#: ../classes/class_control.rst:49
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_control.rst:52
+#: ../classes/class_control.rst:54
+#: ../classes/class_control.rst:56
+#: ../classes/class_control.rst:58
+#: ../classes/class_control.rst:82
+#: ../classes/class_control.rst:84
+#: ../classes/class_control.rst:86
+#: ../classes/class_control.rst:88
+#: ../classes/class_control.rst:104
+#: ../classes/class_control.rst:112
+#: ../classes/class_control.rst:155
+#: ../classes/class_control.rst:181
+#: ../classes/class_control.rst:191
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_control.rst:52
+msgid ":ref:`anchor_bottom<class_Control_property_anchor_bottom>`"
+msgstr ""
+
+#: ../classes/class_control.rst:52
+#: ../classes/class_control.rst:54
+#: ../classes/class_control.rst:56
+#: ../classes/class_control.rst:58
+#: ../classes/class_control.rst:82
+#: ../classes/class_control.rst:84
+#: ../classes/class_control.rst:86
+#: ../classes/class_control.rst:88
+#: ../classes/class_control.rst:104
+#: ../classes/class_control.rst:653
+#: ../classes/class_control.rst:667
+#: ../classes/class_control.rst:681
+#: ../classes/class_control.rst:695
+#: ../classes/class_control.rst:900
+#: ../classes/class_control.rst:918
+#: ../classes/class_control.rst:936
+#: ../classes/class_control.rst:954
+#: ../classes/class_control.rst:1080
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_control.rst:54
+msgid ":ref:`anchor_left<class_Control_property_anchor_left>`"
+msgstr ""
+
+#: ../classes/class_control.rst:56
+msgid ":ref:`anchor_right<class_Control_property_anchor_right>`"
+msgstr ""
+
+#: ../classes/class_control.rst:58
+msgid ":ref:`anchor_top<class_Control_property_anchor_top>`"
+msgstr ""
+
+#: ../classes/class_control.rst:60
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_control.rst:60
+msgid ":ref:`focus_mode<class_Control_property_focus_mode>`"
+msgstr ""
+
+#: ../classes/class_control.rst:60
+#: ../classes/class_control.rst:90
+#: ../classes/class_control.rst:92
+#: ../classes/class_control.rst:709
+#: ../classes/class_control.rst:972
+#: ../classes/class_control.rst:990
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_control.rst:62
+#: ../classes/class_control.rst:64
+#: ../classes/class_control.rst:66
+#: ../classes/class_control.rst:68
+#: ../classes/class_control.rst:70
+#: ../classes/class_control.rst:72
+#: ../classes/class_control.rst:171
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../classes/class_control.rst:62
+msgid ":ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`"
+msgstr ""
+
+#: ../classes/class_control.rst:62
+#: ../classes/class_control.rst:64
+#: ../classes/class_control.rst:66
+#: ../classes/class_control.rst:68
+#: ../classes/class_control.rst:70
+#: ../classes/class_control.rst:72
+#: ../classes/class_control.rst:725
+#: ../classes/class_control.rst:741
+#: ../classes/class_control.rst:757
+#: ../classes/class_control.rst:773
+#: ../classes/class_control.rst:789
+#: ../classes/class_control.rst:807
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../classes/class_control.rst:64
+msgid ":ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`"
+msgstr ""
+
+#: ../classes/class_control.rst:66
+msgid ":ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`"
+msgstr ""
+
+#: ../classes/class_control.rst:68
+msgid ":ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`"
+msgstr ""
+
+#: ../classes/class_control.rst:70
+msgid ":ref:`focus_next<class_Control_property_focus_next>`"
+msgstr ""
+
+#: ../classes/class_control.rst:72
+msgid ":ref:`focus_previous<class_Control_property_focus_previous>`"
+msgstr ""
+
+#: ../classes/class_control.rst:74
+#: ../classes/class_control.rst:76
+msgid ":ref:`GrowDirection<enum_Control_GrowDirection>`"
+msgstr ""
+
+#: ../classes/class_control.rst:74
+msgid ":ref:`grow_horizontal<class_Control_property_grow_horizontal>`"
+msgstr ""
+
+#: ../classes/class_control.rst:74
+#: ../classes/class_control.rst:76
+#: ../classes/class_control.rst:110
+#: ../classes/class_control.rst:114
+#: ../classes/class_control.rst:825
+#: ../classes/class_control.rst:841
+#: ../classes/class_control.rst:1130
+#: ../classes/class_control.rst:1162
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_control.rst:76
+msgid ":ref:`grow_vertical<class_Control_property_grow_vertical>`"
+msgstr ""
+
+#: ../classes/class_control.rst:78
+#: ../classes/class_control.rst:197
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_control.rst:78
+msgid ":ref:`hint_tooltip<class_Control_property_hint_tooltip>`"
+msgstr ""
+
+#: ../classes/class_control.rst:78
+#: ../classes/class_control.rst:857
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_control.rst:80
+#: ../classes/class_control.rst:94
+#: ../classes/class_control.rst:123
+#: ../classes/class_control.rst:145
+#: ../classes/class_control.rst:203
+#: ../classes/class_control.rst:205
+#: ../classes/class_control.rst:207
+#: ../classes/class_control.rst:209
+#: ../classes/class_control.rst:211
+#: ../classes/class_control.rst:213
+#: ../classes/class_control.rst:215
+#: ../classes/class_control.rst:217
+#: ../classes/class_control.rst:219
+#: ../classes/class_control.rst:221
+#: ../classes/class_control.rst:223
+#: ../classes/class_control.rst:225
+#: ../classes/class_control.rst:227
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_control.rst:80
+msgid ":ref:`input_pass_on_modal_close_click<class_Control_property_input_pass_on_modal_close_click>`"
+msgstr ""
+
+#: ../classes/class_control.rst:80
+#: ../classes/class_control.rst:882
+msgid "``true``"
+msgstr ""
+
+#: ../classes/class_control.rst:82
+msgid ":ref:`margin_bottom<class_Control_property_margin_bottom>`"
+msgstr ""
+
+#: ../classes/class_control.rst:84
+msgid ":ref:`margin_left<class_Control_property_margin_left>`"
+msgstr ""
+
+#: ../classes/class_control.rst:86
+msgid ":ref:`margin_right<class_Control_property_margin_right>`"
+msgstr ""
+
+#: ../classes/class_control.rst:88
+msgid ":ref:`margin_top<class_Control_property_margin_top>`"
+msgstr ""
+
+#: ../classes/class_control.rst:90
+#: ../classes/class_control.rst:165
+msgid ":ref:`CursorShape<enum_Control_CursorShape>`"
+msgstr ""
+
+#: ../classes/class_control.rst:90
+msgid ":ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`"
+msgstr ""
+
+#: ../classes/class_control.rst:92
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../classes/class_control.rst:92
+msgid ":ref:`mouse_filter<class_Control_property_mouse_filter>`"
+msgstr ""
+
+#: ../classes/class_control.rst:94
+msgid ":ref:`rect_clip_content<class_Control_property_rect_clip_content>`"
+msgstr ""
+
+#: ../classes/class_control.rst:94
+#: ../classes/class_control.rst:1006
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_control.rst:96
+#: ../classes/class_control.rst:98
+#: ../classes/class_control.rst:100
+#: ../classes/class_control.rst:102
+#: ../classes/class_control.rst:106
+#: ../classes/class_control.rst:108
+#: ../classes/class_control.rst:125
+#: ../classes/class_control.rst:157
+#: ../classes/class_control.rst:161
+#: ../classes/class_control.rst:169
+#: ../classes/class_control.rst:183
+#: ../classes/class_control.rst:185
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_control.rst:96
+msgid ":ref:`rect_global_position<class_Control_property_rect_global_position>`"
+msgstr ""
+
+#: ../classes/class_control.rst:98
+msgid ":ref:`rect_min_size<class_Control_property_rect_min_size>`"
+msgstr ""
+
+#: ../classes/class_control.rst:98
+#: ../classes/class_control.rst:100
+#: ../classes/class_control.rst:102
+#: ../classes/class_control.rst:108
+#: ../classes/class_control.rst:1034
+#: ../classes/class_control.rst:1050
+#: ../classes/class_control.rst:1066
+#: ../classes/class_control.rst:1116
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_control.rst:100
+msgid ":ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`"
+msgstr ""
+
+#: ../classes/class_control.rst:102
+msgid ":ref:`rect_position<class_Control_property_rect_position>`"
+msgstr ""
+
+#: ../classes/class_control.rst:104
+msgid ":ref:`rect_rotation<class_Control_property_rect_rotation>`"
+msgstr ""
+
+#: ../classes/class_control.rst:106
+msgid ":ref:`rect_scale<class_Control_property_rect_scale>`"
+msgstr ""
+
+#: ../classes/class_control.rst:106
+#: ../classes/class_control.rst:1096
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_control.rst:108
+msgid ":ref:`rect_size<class_Control_property_rect_size>`"
+msgstr ""
+
+#: ../classes/class_control.rst:110
+#: ../classes/class_control.rst:114
+#: ../classes/class_control.rst:163
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_control.rst:110
+msgid ":ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`"
+msgstr ""
+
+#: ../classes/class_control.rst:112
+msgid ":ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`"
+msgstr ""
+
+#: ../classes/class_control.rst:112
+#: ../classes/class_control.rst:1146
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_control.rst:114
+msgid ":ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`"
+msgstr ""
+
+#: ../classes/class_control.rst:116
+msgid ":ref:`Theme<class_Theme>`"
+msgstr ""
+
+#: ../classes/class_control.rst:116
+msgid ":ref:`theme<class_Control_property_theme>`"
+msgstr ""
+
+#: ../classes/class_control.rst:120
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_control.rst:123
+msgid ":ref:`_clips_input<class_Control_method__clips_input>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:125
+msgid ":ref:`_get_minimum_size<class_Control_method__get_minimum_size>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:127
+#: ../classes/class_control.rst:131
+#: ../classes/class_control.rst:133
+#: ../classes/class_control.rst:135
+#: ../classes/class_control.rst:137
+#: ../classes/class_control.rst:139
+#: ../classes/class_control.rst:141
+#: ../classes/class_control.rst:143
+#: ../classes/class_control.rst:147
+#: ../classes/class_control.rst:153
+#: ../classes/class_control.rst:199
+#: ../classes/class_control.rst:201
+#: ../classes/class_control.rst:229
+#: ../classes/class_control.rst:231
+#: ../classes/class_control.rst:233
+#: ../classes/class_control.rst:235
+#: ../classes/class_control.rst:237
+#: ../classes/class_control.rst:239
+#: ../classes/class_control.rst:241
+#: ../classes/class_control.rst:243
+#: ../classes/class_control.rst:245
+#: ../classes/class_control.rst:247
+#: ../classes/class_control.rst:249
+#: ../classes/class_control.rst:251
+#: ../classes/class_control.rst:253
+#: ../classes/class_control.rst:255
+#: ../classes/class_control.rst:257
+#: ../classes/class_control.rst:259
+#: ../classes/class_control.rst:261
+#: ../classes/class_control.rst:263
+#: ../classes/class_control.rst:265
+msgid "void"
+msgstr ""
+
+#: ../classes/class_control.rst:127
+msgid ":ref:`_gui_input<class_Control_method__gui_input>` **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:129
+#: ../classes/class_control.rst:149
+#: ../classes/class_control.rst:151
+#: ../classes/class_control.rst:173
+#: ../classes/class_control.rst:187
+msgid ":ref:`Control<class_Control>`"
+msgstr ""
+
+#: ../classes/class_control.rst:129
+msgid ":ref:`_make_custom_tooltip<class_Control_method__make_custom_tooltip>` **(** :ref:`String<class_String>` for_text **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:131
+msgid ":ref:`accept_event<class_Control_method_accept_event>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:133
+msgid ":ref:`add_color_override<class_Control_method_add_color_override>` **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:135
+msgid ":ref:`add_constant_override<class_Control_method_add_constant_override>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:137
+msgid ":ref:`add_font_override<class_Control_method_add_font_override>` **(** :ref:`String<class_String>` name, :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:139
+msgid ":ref:`add_icon_override<class_Control_method_add_icon_override>` **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:141
+msgid ":ref:`add_shader_override<class_Control_method_add_shader_override>` **(** :ref:`String<class_String>` name, :ref:`Shader<class_Shader>` shader **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:143
+msgid ":ref:`add_stylebox_override<class_Control_method_add_stylebox_override>` **(** :ref:`String<class_String>` name, :ref:`StyleBox<class_StyleBox>` stylebox **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:145
+msgid ":ref:`can_drop_data<class_Control_method_can_drop_data>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`Variant<class_Variant>` data **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:147
+msgid ":ref:`drop_data<class_Control_method_drop_data>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`Variant<class_Variant>` data **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:149
+msgid ":ref:`find_next_valid_focus<class_Control_method_find_next_valid_focus>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:151
+msgid ":ref:`find_prev_valid_focus<class_Control_method_find_prev_valid_focus>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:153
+msgid ":ref:`force_drag<class_Control_method_force_drag>` **(** :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` preview **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:155
+msgid ":ref:`get_anchor<class_Control_method_get_anchor>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:157
+msgid ":ref:`get_begin<class_Control_method_get_begin>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:159
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_control.rst:159
+msgid ":ref:`get_color<class_Control_method_get_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:161
+msgid ":ref:`get_combined_minimum_size<class_Control_method_get_combined_minimum_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:163
+msgid ":ref:`get_constant<class_Control_method_get_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:165
+msgid ":ref:`get_cursor_shape<class_Control_method_get_cursor_shape>` **(** :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:167
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_control.rst:167
+msgid ":ref:`get_drag_data<class_Control_method_get_drag_data>` **(** :ref:`Vector2<class_Vector2>` position **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:169
+msgid ":ref:`get_end<class_Control_method_get_end>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:171
+msgid ":ref:`get_focus_neighbour<class_Control_method_get_focus_neighbour>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:173
+msgid ":ref:`get_focus_owner<class_Control_method_get_focus_owner>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:175
+#: ../classes/class_control.rst:195
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_control.rst:175
+msgid ":ref:`get_font<class_Control_method_get_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:177
+#: ../classes/class_control.rst:189
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_control.rst:177
+msgid ":ref:`get_global_rect<class_Control_method_get_global_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:179
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_control.rst:179
+msgid ":ref:`get_icon<class_Control_method_get_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:181
+msgid ":ref:`get_margin<class_Control_method_get_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:183
+msgid ":ref:`get_minimum_size<class_Control_method_get_minimum_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:185
+msgid ":ref:`get_parent_area_size<class_Control_method_get_parent_area_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:187
+msgid ":ref:`get_parent_control<class_Control_method_get_parent_control>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:189
+msgid ":ref:`get_rect<class_Control_method_get_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:191
+msgid ":ref:`get_rotation<class_Control_method_get_rotation>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:193
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_control.rst:193
+msgid ":ref:`get_stylebox<class_Control_method_get_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:195
+msgid ":ref:`get_theme_default_font<class_Control_method_get_theme_default_font>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:197
+msgid ":ref:`get_tooltip<class_Control_method_get_tooltip>` **(** :ref:`Vector2<class_Vector2>` at_position=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:199
+msgid ":ref:`grab_click_focus<class_Control_method_grab_click_focus>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:201
+msgid ":ref:`grab_focus<class_Control_method_grab_focus>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:203
+msgid ":ref:`has_color<class_Control_method_has_color>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:205
+msgid ":ref:`has_color_override<class_Control_method_has_color_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:207
+msgid ":ref:`has_constant<class_Control_method_has_constant>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:209
+msgid ":ref:`has_constant_override<class_Control_method_has_constant_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:211
+msgid ":ref:`has_focus<class_Control_method_has_focus>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:213
+msgid ":ref:`has_font<class_Control_method_has_font>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:215
+msgid ":ref:`has_font_override<class_Control_method_has_font_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:217
+msgid ":ref:`has_icon<class_Control_method_has_icon>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:219
+msgid ":ref:`has_icon_override<class_Control_method_has_icon_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:221
+msgid ":ref:`has_point<class_Control_method_has_point>` **(** :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:223
+msgid ":ref:`has_shader_override<class_Control_method_has_shader_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:225
+msgid ":ref:`has_stylebox<class_Control_method_has_stylebox>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:227
+msgid ":ref:`has_stylebox_override<class_Control_method_has_stylebox_override>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:229
+msgid ":ref:`minimum_size_changed<class_Control_method_minimum_size_changed>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:231
+msgid ":ref:`release_focus<class_Control_method_release_focus>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:233
+msgid ":ref:`set_anchor<class_Control_method_set_anchor>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`bool<class_bool>` keep_margin=false, :ref:`bool<class_bool>` push_opposite_anchor=true **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:235
+msgid ":ref:`set_anchor_and_margin<class_Control_method_set_anchor_and_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`float<class_float>` offset, :ref:`bool<class_bool>` push_opposite_anchor=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:237
+msgid ":ref:`set_anchors_and_margins_preset<class_Control_method_set_anchors_and_margins_preset>` **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int<class_int>` margin=0 **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:239
+msgid ":ref:`set_anchors_preset<class_Control_method_set_anchors_preset>` **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:241
+msgid ":ref:`set_begin<class_Control_method_set_begin>` **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:243
+msgid ":ref:`set_drag_forwarding<class_Control_method_set_drag_forwarding>` **(** :ref:`Control<class_Control>` target **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:245
+msgid ":ref:`set_drag_preview<class_Control_method_set_drag_preview>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:247
+msgid ":ref:`set_end<class_Control_method_set_end>` **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:249
+msgid ":ref:`set_focus_neighbour<class_Control_method_set_focus_neighbour>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`NodePath<class_NodePath>` neighbour **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:251
+msgid ":ref:`set_global_position<class_Control_method_set_global_position>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:253
+msgid ":ref:`set_margin<class_Control_method_set_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:255
+msgid ":ref:`set_margins_preset<class_Control_method_set_margins_preset>` **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int<class_int>` margin=0 **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:257
+msgid ":ref:`set_position<class_Control_method_set_position>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:259
+msgid ":ref:`set_rotation<class_Control_method_set_rotation>` **(** :ref:`float<class_float>` radians **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:261
+msgid ":ref:`set_size<class_Control_method_set_size>` **(** :ref:`Vector2<class_Vector2>` size, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:263
+msgid ":ref:`show_modal<class_Control_method_show_modal>` **(** :ref:`bool<class_bool>` exclusive=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:265
+msgid ":ref:`warp_mouse<class_Control_method_warp_mouse>` **(** :ref:`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:269
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_control.rst:273
+msgid "**focus_entered** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:275
+msgid "在节点获得键盘焦点时发出。"
+msgstr ""
+
+#: ../classes/class_control.rst:281
+msgid "**focus_exited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:283
+msgid "当节点失去键盘焦点时发出。"
+msgstr ""
+
+#: ../classes/class_control.rst:289
+msgid "**gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:291
+msgid "在节点收到\\ :ref:`InputEvent<class_InputEvent>`\\ 时发出。"
+msgstr ""
+
+#: ../classes/class_control.rst:297
+msgid "**minimum_size_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:299
+msgid "当节点的最小大小更改时发出。"
+msgstr ""
+
+#: ../classes/class_control.rst:305
+msgid "**modal_closed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:307
+msgid "当模态控件\\ ``Control``\\ 被关闭时触发。参阅\\ :ref:`show_modal<class_Control_method_show_modal>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:313
+msgid "**mouse_entered** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:315
+msgid "当鼠标进入控件的\\ ``Rect``\\ 区域时触发，只要其\\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\\ 允许事件到达。"
+msgstr ""
+
+#: ../classes/class_control.rst:317
+msgid "\\ **注意：** 如果鼠标在进入父控件的\\ ``Rect``\\ 区域之前进入子\\ ``Control``\\ 节点，在鼠标移动到父控件的\\ ``Rect``\\ 区域之前，不会发出\\ :ref:`mouse_entered<class_Control_signal_mouse_entered>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:323
+msgid "**mouse_exited** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:325
+msgid "当鼠标离开控件的\\ ``Rect``\\ 区域时触发，只要其\\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\\ 允许事件到达。"
+msgstr ""
+
+#: ../classes/class_control.rst:327
+msgid "\\ **注意：** 如果鼠标进入一个子\\ ``Control``\\ 节点，即使鼠标光标仍然在父\\ ``Rect``\\ 区域内，\\ :ref:`mouse_exited<class_Control_signal_mouse_exited>`\\ 也将触发。"
+msgstr ""
+
+#: ../classes/class_control.rst:333
+msgid "**resized** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:335
+msgid "当控件更改大小时发出。"
+msgstr ""
+
+#: ../classes/class_control.rst:341
+msgid "**size_flags_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:343
+msgid "当大小标志之一更改时发出。请参阅\\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\\ 和\\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:346
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_control.rst:356
+msgid "enum **FocusMode**:"
+msgstr ""
+
+#: ../classes/class_control.rst:358
+msgid "**FOCUS_NONE** = **0** --- 该节点无法获取焦点。在 :ref:`focus_mode<class_Control_property_focus_mode>` 中使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:360
+msgid "**FOCUS_CLICK** = **1** --- 该节点只能通过鼠标点击获取焦点。在 :ref:`focus_mode<class_Control_property_focus_mode>` 中使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:362
+msgid "**FOCUS_ALL** = **2** --- 该节点可以通过使用鼠标点击或使用键盘上的箭头和 Tab 键获取焦点。在 :ref:`focus_mode<class_Control_property_focus_mode>` 中使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:402
+msgid "enum **CursorShape**:"
+msgstr ""
+
+#: ../classes/class_control.rst:404
+msgid "**CURSOR_ARROW** = **0** --- 当用户将节点悬停时，显示系统的箭头鼠标光标。与\\ :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`\\ 成员一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:406
+msgid "**CURSOR_IBEAM** = **1** --- 当用户将节点悬停时，显示系统的I型光束鼠标光标。工字梁指针的形状类似于“ I”。它告诉用户他们可以突出显示或插入文本。"
+msgstr ""
+
+#: ../classes/class_control.rst:408
+msgid "**CURSOR_POINTING_HAND** = **2** --- 当用户将节点悬停时，显示系统的手形鼠标光标。"
+msgstr ""
+
+#: ../classes/class_control.rst:410
+msgid "**CURSOR_CROSS** = **3** --- 当用户将鼠标悬停在节点上时，显示系统的交叉鼠标光标。"
+msgstr ""
+
+#: ../classes/class_control.rst:412
+msgid "**CURSOR_WAIT** = **4** --- 当用户悬停节点时，显示系统的等待鼠标光标，通常是一个沙漏。"
+msgstr ""
+
+#: ../classes/class_control.rst:414
+msgid "**CURSOR_BUSY** = **5** --- 当用户悬停节点时，显示系统繁忙的鼠标光标。通常是一个沙漏。"
+msgstr ""
+
+#: ../classes/class_control.rst:416
+msgid "**CURSOR_DRAG** = **6** --- 当用户悬停在节点上时，显示系统的拖动鼠标光标，通常是一个闭合的拳头或十字符号。它告诉用户他们当前正在拖动一个项目，就像场景码头中的节点一样。"
+msgstr ""
+
+#: ../classes/class_control.rst:418
+msgid "**CURSOR_CAN_DROP** = **7** --- 当用户悬停节点时，显示系统的落地鼠标光标。它可以是一个张开的手。它告诉用户可以放下一个他们当前正在抓取的物品，比如场景dock中的一个节点。"
+msgstr ""
+
+#: ../classes/class_control.rst:420
+msgid "**CURSOR_FORBIDDEN** = **8** --- 当用户悬停节点时，显示系统禁止的鼠标光标。通常是一个交叉的圆圈。"
+msgstr ""
+
+#: ../classes/class_control.rst:422
+msgid "**CURSOR_VSIZE** = **9** --- 当用户悬停节点时，显示系统的垂直调整鼠标光标。一个双头的垂直箭头。它告诉用户可以垂直调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:424
+msgid "**CURSOR_HSIZE** = **10** --- 当用户悬停节点时，显示系统的水平调整鼠标光标。一个双头的水平箭头。它告诉用户可以水平调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:426
+msgid "**CURSOR_BDIAGSIZE** = **11** --- 当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是从左下角到右上角的双向箭头。它告诉用户可以水平和垂直调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:428
+msgid "**CURSOR_FDIAGSIZE** = **12** --- 当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是一个双向箭头，从左上角到右下角，与\\ :ref:`CURSOR_BDIAGSIZE<class_Control_constant_CURSOR_BDIAGSIZE>`\\ 相反。它告诉用户可以水平和垂直调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:430
+msgid "**CURSOR_MOVE** = **13** --- 当用户将节点悬停时，显示系统的移动鼠标光标。它以90度角显示2个双向箭头。它告诉用户他们可以自由移动UI元素。"
+msgstr ""
+
+#: ../classes/class_control.rst:432
+msgid "**CURSOR_VSPLIT** = **14** --- 当用户将节点悬停时，显示系统的垂直拆分鼠标光标。在 Windows 上，它与 :ref:`CURSOR_VSIZE<class_Control_constant_CURSOR_VSIZE>` 相同。"
+msgstr ""
+
+#: ../classes/class_control.rst:434
+msgid "**CURSOR_HSPLIT** = **15** --- 当用户将节点悬停时，显示系统的水平拆分鼠标光标。在Windows上，它与\\ :ref:`CURSOR_HSIZE<class_Control_constant_CURSOR_HSIZE>`\\ 相同。"
+msgstr ""
+
+#: ../classes/class_control.rst:436
+msgid "**CURSOR_HELP** = **16** --- 当用户将节点悬停在一个节点上时，显示系统的帮助鼠标光标，一个问号。"
+msgstr ""
+
+#: ../classes/class_control.rst:474
+msgid "enum **LayoutPreset**:"
+msgstr ""
+
+#: ../classes/class_control.rst:476
+msgid "**PRESET_TOP_LEFT** = **0** --- 将所有4个定位点对齐到父控件边界的左上角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:478
+msgid "**PRESET_TOP_RIGHT** = **1** --- 将所有4个定位点对齐到父控件边界的右上角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:480
+msgid "**PRESET_BOTTOM_LEFT** = **2** --- 将所有4个定位点对齐到父控件的边界的左下角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:482
+msgid "**PRESET_BOTTOM_RIGHT** = **3** --- 将所有4个定位点对齐到父控件的边界的右下角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:484
+msgid "**PRESET_CENTER_LEFT** = **4** --- 将所有4个定位点对齐到父控件边界的左边缘的中心。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:486
+msgid "**PRESET_CENTER_TOP** = **5** --- 将所有4个定位点对齐到父控件边界的上边缘的中心。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:488
+msgid "**PRESET_CENTER_RIGHT** = **6** --- 将所有4个锚点对齐到父控件边界右边缘的中心。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:490
+msgid "**PRESET_CENTER_BOTTOM** = **7** --- 将所有 4 个锚捕捉到父控制边界底部边缘的中心。使用\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:492
+msgid "**PRESET_CENTER** = **8** --- 将所有4个定位点对齐到父控件边界的中心。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:494
+msgid "**PRESET_LEFT_WIDE** = **9** --- 将所有4个定位点对齐到父控件的左边缘。左边距相对于节点父节点的左边缘，而上边距相对于节点父节点的左上角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:496
+msgid "**PRESET_TOP_WIDE** = **10** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:498
+msgid "**PRESET_RIGHT_WIDE** = **11** --- 将所有4个定位点对齐到父控件的顶部边缘。左侧边距相对于节点父节点的左上角，顶部边距相对于顶部的边缘，右侧边距相对于节点的父节点。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:500
+msgid "**PRESET_BOTTOM_WIDE** = **12** --- 将所有4个定位点对齐到父控件的底部边缘。左侧边距相对于节点父节点的左下角，底部边距相对于底部的边缘，而右侧边距相对于节点的右下角。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:502
+msgid "**PRESET_VCENTER_WIDE** = **13** --- 将所有4个锚点对齐到一条垂直线，该垂直线将父控件切成两半。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:504
+msgid "**PRESET_HCENTER_WIDE** = **14** --- 将所有4个锚点对齐到一条水平线，该水平线将父控件切成两半。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:506
+msgid "**PRESET_WIDE** = **15** --- 将所有4个定位点对齐到父控件的各个角。应用此预设后，将所有4个页边距设置为0，\\ ``Control``\\ 将适合其上级控件。这等效于编辑器中的“全角”布局选项。与\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:520
+msgid "enum **LayoutPresetMode**:"
+msgstr ""
+
+#: ../classes/class_control.rst:522
+msgid "**PRESET_MODE_MINSIZE** = **0** --- 控件将被调整为最小尺寸。"
+msgstr ""
+
+#: ../classes/class_control.rst:524
+msgid "**PRESET_MODE_KEEP_WIDTH** = **1** --- 控件的宽度不会改变。"
+msgstr ""
+
+#: ../classes/class_control.rst:526
+msgid "**PRESET_MODE_KEEP_HEIGHT** = **2** --- 控件的高度不会改变。"
+msgstr ""
+
+#: ../classes/class_control.rst:528
+msgid "**PRESET_MODE_KEEP_SIZE** = **3** --- 控件的大小不会改变。"
+msgstr ""
+
+#: ../classes/class_control.rst:544
+msgid "enum **SizeFlags**:"
+msgstr ""
+
+#: ../classes/class_control.rst:546
+msgid "**SIZE_FILL** = **1** --- 告诉父\\ :ref:`Container<class_Container>`\\ 扩展此节点的边界，以在不推其他节点的情况下填充所有可用空间。使用\\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\\ 和\\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:548
+msgid "**SIZE_EXPAND** = **2** --- 告诉父级\\ :ref:`Container<class_Container>`\\ 让该节点占用您标记的轴上的所有可用空间。如果将多个相邻节点设置为扩展，它们将根据其拉伸比共享空间。参阅\\ :ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`\\ 。与\\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\\ 和\\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:550
+msgid "**SIZE_EXPAND_FILL** = **3** --- 将节点的大小标志设置为同时填充和扩展。有关更多信息，请参阅上面的2个常量。"
+msgstr ""
+
+#: ../classes/class_control.rst:552
+msgid "**SIZE_SHRINK_CENTER** = **4** --- 告诉父级 :ref:`Container<class_Container>` 使节点本身居中。它基于控件的包围框居中，因此它不适用于 fill 或 expand 尺寸标志。与 :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` 和 :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>` 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:554
+msgid "**SIZE_SHRINK_END** = **8** --- 告诉父级\\ :ref:`Container<class_Container>`\\ 将节点与其末端（底部或右侧）对齐。它不适用于fill或expand size标志。与\\ :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>`\\ 和\\ :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`\\ 一起使用。"
+msgstr ""
+
+#: ../classes/class_control.rst:566
+msgid "enum **MouseFilter**:"
+msgstr ""
+
+#: ../classes/class_control.rst:568
+msgid "**MOUSE_FILTER_STOP** = **0** --- 被点击时，控件将通过 :ref:`_gui_input<class_Control_method__gui_input>` 收到鼠标按钮输入事件。控件能够接收到 :ref:`mouse_entered<class_Control_signal_mouse_entered>` 和 :ref:`mouse_exited<class_Control_signal_mouse_exited>` 信号。这些事件将自动被标记为已处理，不会进一步传播到其他控件，因此相关的信号也不会在其他控件中触发。"
+msgstr ""
+
+#: ../classes/class_control.rst:570
+msgid "**MOUSE_FILTER_PASS** = **1** --- 被点击时，控件将通过 :ref:`_gui_input<class_Control_method__gui_input>` 收到鼠标按钮输入事件。控件能够接收 :ref:`mouse_entered<class_Control_signal_mouse_entered>` 和 :ref:`mouse_exited<class_Control_signal_mouse_exited>` 信号。如果此控件未处理事件，则将考虑其父控件（如果有的话），并依此类推，直到不再有可能处理它的父控件为止。因此，相关的信号可以在其他控件中触发。即使根本没有控件处理过该事件，该事件仍将被自动处理，因此不会触发未处理的输入。"
+msgstr ""
+
+#: ../classes/class_control.rst:572
+msgid "**MOUSE_FILTER_IGNORE** = **2** --- 该控件不会通过 :ref:`_gui_input<class_Control_method__gui_input>` 收到鼠标按钮输入事件，也不会接收到 :ref:`mouse_entered<class_Control_signal_mouse_entered>` 和 :ref:`mouse_exited<class_Control_signal_mouse_exited>` 信号。这不会阻止其他控件接收这些事件或触发信号。被忽略的事件将不会被自动处理。"
+msgstr ""
+
+#: ../classes/class_control.rst:584
+msgid "enum **GrowDirection**:"
+msgstr ""
+
+#: ../classes/class_control.rst:586
+msgid "**GROW_DIRECTION_BEGIN** = **0** --- 如果控件的最小尺寸更改为大于其相应轴上的当前尺寸，则控件将向左或顶部增大以进行组合。"
+msgstr ""
+
+#: ../classes/class_control.rst:588
+msgid "**GROW_DIRECTION_END** = **1** --- 如果控件的最小尺寸更改为大于其相应轴上的当前尺寸，则控件将向右或向下增大以进行补偿。"
+msgstr ""
+
+#: ../classes/class_control.rst:590
+msgid "**GROW_DIRECTION_BOTH** = **2** --- 如果控件的最小大小更改为大于其当前大小，则控件将在两个方向上均等地增长以组成该控件。"
+msgstr ""
+
+#: ../classes/class_control.rst:600
+msgid "enum **Anchor**:"
+msgstr ""
+
+#: ../classes/class_control.rst:602
+msgid "**ANCHOR_BEGIN** = **0** --- 将 4 个锚点的某一侧吸附到节点的 ``Rect`` 的左上角。在 ``anchor_*`` 成员变量中使用，例如 :ref:`anchor_left<class_Control_property_anchor_left>`\\ 。要一次更改全部 4 个锚点，请使用 :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:604
+msgid "**ANCHOR_END** = **1** --- 将 4 个锚点的某一侧吸附到节点的 ``Rect`` 的右下角。在 ``anchor_*`` 成员变量中使用，例如 :ref:`anchor_left<class_Control_property_anchor_left>`\\ 。要一次更改全部 4 个锚点，请使用 :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:607
+msgid "常量"
+msgstr ""
+
+#: ../classes/class_control.rst:627
+msgid "**NOTIFICATION_RESIZED** = **40** --- 当节点更改大小时发送。使用\\ :ref:`rect_size<class_Control_property_rect_size>`\\ 获取新大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:629
+msgid "**NOTIFICATION_MOUSE_ENTER** = **41** --- 当鼠标指针进入节点时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:631
+msgid "**NOTIFICATION_MOUSE_EXIT** = **42** --- 当鼠标指针退出节点时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:633
+msgid "**NOTIFICATION_FOCUS_ENTER** = **43** --- 当节点获得焦点时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:635
+msgid "**NOTIFICATION_FOCUS_EXIT** = **44** --- 当节点失去焦点时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:637
+msgid "**NOTIFICATION_THEME_CHANGED** = **45** --- 当节点的 :ref:`theme<class_Control_property_theme>` 改变时，就在GaaeExplorer重绘控件之前发送。当你调用\\ ``add_*_override``\\ 方法之一时发生。"
+msgstr ""
+
+#: ../classes/class_control.rst:639
+msgid "**NOTIFICATION_MODAL_CLOSE** = **46** --- 当一个打开的模态对话框关闭时发送。参阅\\ :ref:`show_modal<class_Control_method_show_modal>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:641
+msgid "**NOTIFICATION_SCROLL_BEGIN** = **47** --- 当此节点在已开始滚动的\\ :ref:`ScrollContainer<class_ScrollContainer>`\\ 内部时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:643
+msgid "**NOTIFICATION_SCROLL_END** = **48** --- 当此节点在已停止滚动的\\ :ref:`ScrollContainer<class_ScrollContainer>`\\ 内部时发送。"
+msgstr ""
+
+#: ../classes/class_control.rst:646
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_control.rst:650
+msgid ":ref:`float<class_float>` **anchor_bottom**"
+msgstr ""
+
+#: ../classes/class_control.rst:653
+#: ../classes/class_control.rst:667
+#: ../classes/class_control.rst:681
+#: ../classes/class_control.rst:695
+#: ../classes/class_control.rst:709
+#: ../classes/class_control.rst:725
+#: ../classes/class_control.rst:741
+#: ../classes/class_control.rst:757
+#: ../classes/class_control.rst:773
+#: ../classes/class_control.rst:789
+#: ../classes/class_control.rst:807
+#: ../classes/class_control.rst:825
+#: ../classes/class_control.rst:841
+#: ../classes/class_control.rst:857
+#: ../classes/class_control.rst:882
+#: ../classes/class_control.rst:900
+#: ../classes/class_control.rst:918
+#: ../classes/class_control.rst:936
+#: ../classes/class_control.rst:954
+#: ../classes/class_control.rst:972
+#: ../classes/class_control.rst:990
+#: ../classes/class_control.rst:1006
+#: ../classes/class_control.rst:1034
+#: ../classes/class_control.rst:1050
+#: ../classes/class_control.rst:1066
+#: ../classes/class_control.rst:1080
+#: ../classes/class_control.rst:1096
+#: ../classes/class_control.rst:1116
+#: ../classes/class_control.rst:1130
+#: ../classes/class_control.rst:1146
+#: ../classes/class_control.rst:1162
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_control.rst:655
+#: ../classes/class_control.rst:669
+#: ../classes/class_control.rst:683
+#: ../classes/class_control.rst:697
+#: ../classes/class_control.rst:713
+#: ../classes/class_control.rst:729
+#: ../classes/class_control.rst:745
+#: ../classes/class_control.rst:761
+#: ../classes/class_control.rst:777
+#: ../classes/class_control.rst:793
+#: ../classes/class_control.rst:811
+#: ../classes/class_control.rst:829
+#: ../classes/class_control.rst:845
+#: ../classes/class_control.rst:886
+#: ../classes/class_control.rst:904
+#: ../classes/class_control.rst:922
+#: ../classes/class_control.rst:940
+#: ../classes/class_control.rst:958
+#: ../classes/class_control.rst:976
+#: ../classes/class_control.rst:994
+#: ../classes/class_control.rst:1010
+#: ../classes/class_control.rst:1022
+#: ../classes/class_control.rst:1038
+#: ../classes/class_control.rst:1054
+#: ../classes/class_control.rst:1068
+#: ../classes/class_control.rst:1084
+#: ../classes/class_control.rst:1100
+#: ../classes/class_control.rst:1118
+#: ../classes/class_control.rst:1134
+#: ../classes/class_control.rst:1150
+#: ../classes/class_control.rst:1166
+#: ../classes/class_control.rst:1180
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_control.rst:655
+#: ../classes/class_control.rst:669
+#: ../classes/class_control.rst:683
+#: ../classes/class_control.rst:697
+msgid "get_anchor()"
+msgstr ""
+
+#: ../classes/class_control.rst:658
+msgid "将节点的底部边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改底部边距的更新方式。为了方便起见，可以使用\\ :ref:`Anchor<enum_Control_Anchor>`\\ 常量之一。"
+msgstr ""
+
+#: ../classes/class_control.rst:664
+msgid ":ref:`float<class_float>` **anchor_left**"
+msgstr ""
+
+#: ../classes/class_control.rst:672
+msgid "将节点的左边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改左侧边距的更新方式。为了方便起见，可以使用\\ :ref:`Anchor<enum_Control_Anchor>`\\ 常量之一。"
+msgstr ""
+
+#: ../classes/class_control.rst:678
+msgid ":ref:`float<class_float>` **anchor_right**"
+msgstr ""
+
+#: ../classes/class_control.rst:686
+msgid "将节点的右边缘锚定到其父控件的原点，中心或末端。当节点移动或更改大小时，它会更改右边距的更新方式。为了方便起见，可以使用\\ :ref:`Anchor<enum_Control_Anchor>`\\ 常量之一。"
+msgstr ""
+
+#: ../classes/class_control.rst:692
+msgid ":ref:`float<class_float>` **anchor_top**"
+msgstr ""
+
+#: ../classes/class_control.rst:700
+msgid "锚定节点的顶部边缘到原点、中心或其父控件的末端。当节点移动或改变大小时，它可以改变顶边的更新方式。为了便捷，你可以使用\\ :ref:`Anchor<enum_Control_Anchor>`\\ 常数之一。"
+msgstr ""
+
+#: ../classes/class_control.rst:706
+msgid ":ref:`FocusMode<enum_Control_FocusMode>` **focus_mode**"
+msgstr ""
+
+#: ../classes/class_control.rst:711
+#: ../classes/class_control.rst:727
+#: ../classes/class_control.rst:743
+#: ../classes/class_control.rst:759
+#: ../classes/class_control.rst:775
+#: ../classes/class_control.rst:791
+#: ../classes/class_control.rst:809
+#: ../classes/class_control.rst:827
+#: ../classes/class_control.rst:843
+#: ../classes/class_control.rst:859
+#: ../classes/class_control.rst:884
+#: ../classes/class_control.rst:902
+#: ../classes/class_control.rst:920
+#: ../classes/class_control.rst:938
+#: ../classes/class_control.rst:956
+#: ../classes/class_control.rst:974
+#: ../classes/class_control.rst:992
+#: ../classes/class_control.rst:1008
+#: ../classes/class_control.rst:1036
+#: ../classes/class_control.rst:1052
+#: ../classes/class_control.rst:1082
+#: ../classes/class_control.rst:1098
+#: ../classes/class_control.rst:1132
+#: ../classes/class_control.rst:1148
+#: ../classes/class_control.rst:1164
+#: ../classes/class_control.rst:1178
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_control.rst:711
+msgid "set_focus_mode(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:713
+msgid "get_focus_mode()"
+msgstr ""
+
+#: ../classes/class_control.rst:716
+msgid "控件的焦点访问模式（“无”，“单击”或“全部”）。只能同时集中一个控件，它将接收键盘信号。"
+msgstr ""
+
+#: ../classes/class_control.rst:722
+msgid ":ref:`NodePath<class_NodePath>` **focus_neighbour_bottom**"
+msgstr ""
+
+#: ../classes/class_control.rst:727
+#: ../classes/class_control.rst:743
+#: ../classes/class_control.rst:759
+#: ../classes/class_control.rst:775
+msgid "set_focus_neighbour(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:729
+#: ../classes/class_control.rst:745
+#: ../classes/class_control.rst:761
+#: ../classes/class_control.rst:777
+msgid "get_focus_neighbour()"
+msgstr ""
+
+#: ../classes/class_control.rst:732
+msgid "告诉GaaeExplorer，默认情况下，如果用户按下键盘上的向下箭头或游戏手柄上的向下箭头，则应将焦点对准哪个节点。您可以通过编辑\\ ``ui_down``\\ 输入操作来更改键。该节点必须是\\ ``Control``\\ 。如果未设置此属性，则GaaeExplorer会将焦点放在该控件底部最接近的\\ ``Control``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:738
+msgid ":ref:`NodePath<class_NodePath>` **focus_neighbour_left**"
+msgstr ""
+
+#: ../classes/class_control.rst:748
+msgid "告诉GaaeExplorer，默认情况下，如果用户按下键盘上的向左箭头或游戏手柄上的向左键，应该将焦点对准键盘上的哪个节点。您可以通过编辑\\ ``ui_left``\\ 输入操作来更改键。该节点必须是\\ ``Control``\\ 。如果未设置此属性，则GaaeExplorer会将焦点放在该控件左侧最接近的\\ ``Control``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:754
+msgid ":ref:`NodePath<class_NodePath>` **focus_neighbour_right**"
+msgstr ""
+
+#: ../classes/class_control.rst:764
+msgid "告诉GaaeExplorer，如果用户按键盘上的右键或默认的游戏手柄上的右键，它应该把键盘焦点给哪个节点。你可以通过编辑\\ ``ui_right``\\ 输入动作来改变这个键。该节点必须是一个\\ ``Control``\\ 。如果没有设置这个属性，GaaeExplorer将把焦点交给离这个节点底部最近的\\ ``Control``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:770
+msgid ":ref:`NodePath<class_NodePath>` **focus_neighbour_top**"
+msgstr ""
+
+#: ../classes/class_control.rst:780
+msgid "告诉GaaeExplorer默认情况下，如果用户按下键盘上的顶部箭头或游戏手柄上的顶部，则应该将焦点对准键盘上的哪个节点。您可以通过编辑\\ ``ui_top``\\ 输入操作来更改键。该节点必须是\\ ``Control``\\ 。如果未设置此属性，则GaaeExplorer会将焦点放在该控件底部最接近的\\ ``Control``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:786
+msgid ":ref:`NodePath<class_NodePath>` **focus_next**"
+msgstr ""
+
+#: ../classes/class_control.rst:791
+msgid "set_focus_next(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:793
+msgid "get_focus_next()"
+msgstr ""
+
+#: ../classes/class_control.rst:796
+msgid "告诉GaaeExplorer，如果用户默认按键盘上的Tab键，它应该把键盘焦点给哪个节点。你可以通过编辑\\ ``ui_focus_next``\\ 输入动作来改变这个键。"
+msgstr ""
+
+#: ../classes/class_control.rst:798
+msgid "如果这个属性没有设置，GaaeExplorer会根据场景树中的周围节点选择一个 \"最佳猜测\"。"
+msgstr ""
+
+#: ../classes/class_control.rst:804
+msgid ":ref:`NodePath<class_NodePath>` **focus_previous**"
+msgstr ""
+
+#: ../classes/class_control.rst:809
+msgid "set_focus_previous(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:811
+msgid "get_focus_previous()"
+msgstr ""
+
+#: ../classes/class_control.rst:814
+msgid "告诉GaaeExplorer，如果用户按键盘上的Shift+Tab键，它应该把键盘焦点给哪个节点，这是默认。你可以通过编辑\\ ``ui_focus_prev``\\ 输入动作来改变这个键。"
+msgstr ""
+
+#: ../classes/class_control.rst:816
+msgid "如果没有设置这个属性，GaaeExplorer会根据场景树中的周围节点选择一个 \"最佳猜测\"。"
+msgstr ""
+
+#: ../classes/class_control.rst:822
+msgid ":ref:`GrowDirection<enum_Control_GrowDirection>` **grow_horizontal**"
+msgstr ""
+
+#: ../classes/class_control.rst:827
+msgid "set_h_grow_direction(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:829
+msgid "get_h_grow_direction()"
+msgstr ""
+
+#: ../classes/class_control.rst:832
+msgid "控制水平轴的方向，如果控件的水平最小尺寸更改为大于其当前尺寸，则控件应沿水平轴增长，因为控件始终必须至少为最小尺寸。"
+msgstr ""
+
+#: ../classes/class_control.rst:838
+msgid ":ref:`GrowDirection<enum_Control_GrowDirection>` **grow_vertical**"
+msgstr ""
+
+#: ../classes/class_control.rst:843
+msgid "set_v_grow_direction(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:845
+msgid "get_v_grow_direction()"
+msgstr ""
+
+#: ../classes/class_control.rst:848
+msgid "控制控件在垂直轴上的方向，如果控件的垂直最小尺寸更改为大于当前尺寸，则控件应沿该方向增大，因为控件始终必须至少为最小尺寸。"
+msgstr ""
+
+#: ../classes/class_control.rst:854
+msgid ":ref:`String<class_String>` **hint_tooltip**"
+msgstr ""
+
+#: ../classes/class_control.rst:859
+msgid "set_tooltip(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:862
+msgid "改变工具提示的文本。当用户的鼠标光标在这个控件上停留片刻，工具提示就会出现，前提是\\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\\ 属性非\\ :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\\ 。你可以用项目设置中的\\ ``gui/timers/tooltip_delay_sec``\\ 选项改变工具提示出现的时间。"
+msgstr ""
+
+#: ../classes/class_control.rst:864
+msgid "工具提示的弹出将使用默认的实现，或者你可以通过覆盖\\ :ref:`_make_custom_tooltip<class_Control_method__make_custom_tooltip>`\\ 提供一个自定义的实现。默认的工具提示包括一个\\ :ref:`PopupPanel<class_PopupPanel>`\\ 和\\ :ref:`Label<class_Label>`\\ ，其主题属性可以通过\\ ``\"TooltipPanel\"``\\ 和\\ ``\"TooltipLabel\"``\\ 方法分别进行自定义。如:"
+msgstr ""
+
+#: ../classes/class_control.rst:879
+msgid ":ref:`bool<class_bool>` **input_pass_on_modal_close_click**"
+msgstr ""
+
+#: ../classes/class_control.rst:884
+msgid "set_pass_on_modal_close_click(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:886
+msgid "get_pass_on_modal_close_click()"
+msgstr ""
+
+#: ../classes/class_control.rst:889
+msgid "启用当你关闭控件模态时，输入是否传播。"
+msgstr ""
+
+#: ../classes/class_control.rst:891
+msgid "如果\\ ``false``\\ ，在视窗输入事件处理时停止事件处理。视窗首先隐藏模态，之后将输入标记为已处理。"
+msgstr ""
+
+#: ../classes/class_control.rst:897
+msgid ":ref:`float<class_float>` **margin_bottom**"
+msgstr ""
+
+#: ../classes/class_control.rst:902
+#: ../classes/class_control.rst:920
+#: ../classes/class_control.rst:938
+#: ../classes/class_control.rst:956
+msgid "set_margin(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:904
+#: ../classes/class_control.rst:922
+#: ../classes/class_control.rst:940
+#: ../classes/class_control.rst:958
+msgid "get_margin()"
+msgstr ""
+
+#: ../classes/class_control.rst:907
+msgid "节点底边与其父控件之间的距离，基于\\ :ref:`anchor_bottom<class_Control_property_anchor_bottom>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:909
+#: ../classes/class_control.rst:927
+#: ../classes/class_control.rst:945
+msgid "边距通常由一个或多个父\\ :ref:`Container<class_Container>`\\ 节点控制，因此，如果您的节点是\\ :ref:`Container<class_Container>`\\ 的直接子级，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。"
+msgstr ""
+
+#: ../classes/class_control.rst:915
+msgid ":ref:`float<class_float>` **margin_left**"
+msgstr ""
+
+#: ../classes/class_control.rst:925
+msgid "节点的左边缘与其父控件之间的距离，基于\\ :ref:`anchor_left<class_Control_property_anchor_left>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:933
+msgid ":ref:`float<class_float>` **margin_right**"
+msgstr ""
+
+#: ../classes/class_control.rst:943
+msgid "节点的右边缘与其父控件之间的距离，基于\\ :ref:`anchor_right<class_Control_property_anchor_right>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:951
+msgid ":ref:`float<class_float>` **margin_top**"
+msgstr ""
+
+#: ../classes/class_control.rst:961
+msgid "节点的顶边与其父控件之间的距离，基于\\ :ref:`anchor_top<class_Control_property_anchor_top>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:963
+msgid "边距通常由一个或多个父 :ref:`Container<class_Container>` 节点控制，所以如果您的节点是 :ref:`Container<class_Container>` 的直接子节点，您不应该手动修改它们。当您移动或调整节点大小时，边距会自动更新。"
+msgstr ""
+
+#: ../classes/class_control.rst:969
+msgid ":ref:`CursorShape<enum_Control_CursorShape>` **mouse_default_cursor_shape**"
+msgstr ""
+
+#: ../classes/class_control.rst:974
+msgid "set_default_cursor_shape(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:976
+msgid "get_default_cursor_shape()"
+msgstr ""
+
+#: ../classes/class_control.rst:979
+msgid "此控件的默认光标形状。对于GaaeExplorer插件和使用系统鼠标光标的应用程序或游戏很有用。"
+msgstr ""
+
+#: ../classes/class_control.rst:981
+msgid "\\ **注意：**\\ 在Linux上，形状可能会有所不同，具体取决于系统的光标主题。"
+msgstr ""
+
+#: ../classes/class_control.rst:987
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>` **mouse_filter**"
+msgstr ""
+
+#: ../classes/class_control.rst:992
+msgid "set_mouse_filter(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:994
+msgid "get_mouse_filter()"
+msgstr ""
+
+#: ../classes/class_control.rst:997
+msgid "控制控件是否能够通过\\ :ref:`_gui_input<class_Control_method__gui_input>`\\ 接收鼠标按钮输入事件，以及如何处理这些事件。还控制控件是否能接收\\ :ref:`mouse_entered<class_Control_signal_mouse_entered>`\\ 和\\ :ref:`mouse_exited<class_Control_signal_mouse_exited>`\\ 信号。参阅常量来了解每个常量的作用。"
+msgstr ""
+
+#: ../classes/class_control.rst:1003
+msgid ":ref:`bool<class_bool>` **rect_clip_content**"
+msgstr ""
+
+#: ../classes/class_control.rst:1008
+msgid "set_clip_contents(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1010
+msgid "is_clipping_contents()"
+msgstr ""
+
+#: ../classes/class_control.rst:1013
+msgid "启用是否应将基于\\ :ref:`CanvasItem<class_CanvasItem>`\\ 的子控件渲染到该控件的矩形上。如果\\ ``true``\\ ，则不会渲染子控件中明显在矩形之外的部分。"
+msgstr ""
+
+#: ../classes/class_control.rst:1019
+msgid ":ref:`Vector2<class_Vector2>` **rect_global_position**"
+msgstr ""
+
+#: ../classes/class_control.rst:1022
+msgid "get_global_position()"
+msgstr ""
+
+#: ../classes/class_control.rst:1025
+msgid "节点相对于世界的全局位置（通常是窗口的左上角）。"
+msgstr ""
+
+#: ../classes/class_control.rst:1031
+msgid ":ref:`Vector2<class_Vector2>` **rect_min_size**"
+msgstr ""
+
+#: ../classes/class_control.rst:1036
+msgid "set_custom_minimum_size(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1038
+msgid "get_custom_minimum_size()"
+msgstr ""
+
+#: ../classes/class_control.rst:1041
+msgid "节点的边界矩形的最小尺寸。如果你将它设置为大于(0，0)的值，节点的边界矩形将始终至少有这个大小，即使它的内容更小。如果设置为(0，0)，节点的大小会自动适应其内容，无论是纹理还是子节点。"
+msgstr ""
+
+#: ../classes/class_control.rst:1047
+msgid ":ref:`Vector2<class_Vector2>` **rect_pivot_offset**"
+msgstr ""
+
+#: ../classes/class_control.rst:1052
+msgid "set_pivot_offset(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1054
+msgid "get_pivot_offset()"
+msgstr ""
+
+#: ../classes/class_control.rst:1057
+msgid "默认情况下，节点的轴是其左上角。当您更改其\\ :ref:`rect_scale<class_Control_property_rect_scale>`\\ 时，它将围绕此枢轴进行缩放。将此属性设置为\\ :ref:`rect_size<class_Control_property_rect_size>` / 2，以将枢轴在节点的矩形中居中。"
+msgstr ""
+
+#: ../classes/class_control.rst:1063
+msgid ":ref:`Vector2<class_Vector2>` **rect_position**"
+msgstr ""
+
+#: ../classes/class_control.rst:1068
+msgid "get_position()"
+msgstr ""
+
+#: ../classes/class_control.rst:1071
+msgid "节点相对于其父节点的位置。它对应于矩形的左上角。该属性不受\\ :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\\ 的影响。"
+msgstr ""
+
+#: ../classes/class_control.rst:1077
+msgid ":ref:`float<class_float>` **rect_rotation**"
+msgstr ""
+
+#: ../classes/class_control.rst:1082
+msgid "set_rotation_degrees(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1084
+msgid "get_rotation_degrees()"
+msgstr ""
+
+#: ../classes/class_control.rst:1087
+msgid "节点围绕其枢轴的旋转（以度为单位）。请参阅\\ :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`\\ 更改枢轴的位置。"
+msgstr ""
+
+#: ../classes/class_control.rst:1093
+msgid ":ref:`Vector2<class_Vector2>` **rect_scale**"
+msgstr ""
+
+#: ../classes/class_control.rst:1098
+msgid "set_scale(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1100
+msgid "get_scale()"
+msgstr ""
+
+#: ../classes/class_control.rst:1103
+msgid "The node's scale, relative to its :ref:`rect_size<class_Control_property_rect_size>`. Change this property to scale the node around its :ref:`rect_pivot_offset<class_Control_property_rect_pivot_offset>`. The Control's :ref:`hint_tooltip<class_Control_property_hint_tooltip>` will also scale according to this value."
+msgstr ""
+
+#: ../classes/class_control.rst:1105
+msgid "\\ **Note:** This property is mainly intended to be used for animation purposes. Text inside the Control will look pixelated or blurry when the Control is scaled. To support multiple resolutions in your project, use an appropriate viewport stretch mode as described in the :doc:`documentation <../tutorials/rendering/multiple_resolutions>` instead of scaling Controls individually."
+msgstr ""
+
+#: ../classes/class_control.rst:1107
+msgid "\\ **Note:** If the Control node is a child of a :ref:`Container<class_Container>` node, the scale will be reset to ``Vector2(1, 1)`` when the scene is instanced. To set the Control's scale when it's instanced, wait for one frame using ``yield(get_tree(), \"idle_frame\")`` then set its :ref:`rect_scale<class_Control_property_rect_scale>` property."
+msgstr ""
+
+#: ../classes/class_control.rst:1113
+msgid ":ref:`Vector2<class_Vector2>` **rect_size**"
+msgstr ""
+
+#: ../classes/class_control.rst:1118
+msgid "get_size()"
+msgstr ""
+
+#: ../classes/class_control.rst:1121
+msgid "节点边界矩形的大小，以像素为单位。 :ref:`Container<class_Container>`\\ 节点会自动更新此属性。"
+msgstr ""
+
+#: ../classes/class_control.rst:1127
+msgid ":ref:`int<class_int>` **size_flags_horizontal**"
+msgstr ""
+
+#: ../classes/class_control.rst:1132
+msgid "set_h_size_flags(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1134
+msgid "get_h_size_flags()"
+msgstr ""
+
+#: ../classes/class_control.rst:1137
+#: ../classes/class_control.rst:1169
+msgid "告诉父\\ :ref:`Container<class_Container>`\\ 节点应如何调整尺寸并将其放置在X轴上。使用\\ :ref:`SizeFlags<enum_Control_SizeFlags>`\\ 常量之一更改标志。查看常量以了解每个常量的作用。"
+msgstr ""
+
+#: ../classes/class_control.rst:1143
+msgid ":ref:`float<class_float>` **size_flags_stretch_ratio**"
+msgstr ""
+
+#: ../classes/class_control.rst:1148
+msgid "set_stretch_ratio(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1150
+msgid "get_stretch_ratio()"
+msgstr ""
+
+#: ../classes/class_control.rst:1153
+msgid "如果这个节点和它的至少一个相邻节点使用\\ :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>`\\ 大小标志，父节点\\ :ref:`Container<class_Container>`\\ 将根据这个属性让它占用更多或更少的空间。如果这个节点的拉伸比为2，而它的相邻节点的拉伸比为1，这个节点将占用三分之二的可用空间。"
+msgstr ""
+
+#: ../classes/class_control.rst:1159
+msgid ":ref:`int<class_int>` **size_flags_vertical**"
+msgstr ""
+
+#: ../classes/class_control.rst:1164
+msgid "set_v_size_flags(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1166
+msgid "get_v_size_flags()"
+msgstr ""
+
+#: ../classes/class_control.rst:1175
+msgid ":ref:`Theme<class_Theme>` **theme**"
+msgstr ""
+
+#: ../classes/class_control.rst:1178
+msgid "set_theme(value)"
+msgstr ""
+
+#: ../classes/class_control.rst:1180
+msgid "get_theme()"
+msgstr ""
+
+#: ../classes/class_control.rst:1183
+msgid "更改此属性将替换该节点及其所有\\ ``Control``\\ 子级使用的当前\\ :ref:`Theme<class_Theme>`\\ 资源。"
+msgstr ""
+
+#: ../classes/class_control.rst:1186
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_control.rst:1190
+msgid ":ref:`bool<class_bool>` **_clips_input** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1192
+msgid "用户要实现的虚方法。返回是否应为该控件矩形之外的子控件调用 :ref:`_gui_input<class_Control_method__gui_input>`\\ 。输入将被剪切到此 ``Control`` 的 Rect 上。与 :ref:`rect_clip_content<class_Control_property_rect_clip_content>` 相似，但不影响可见性。"
+msgstr ""
+
+#: ../classes/class_control.rst:1194
+msgid "如果未覆盖，则默认为 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1200
+msgid ":ref:`Vector2<class_Vector2>` **_get_minimum_size** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1202
+msgid "Virtual method to be implemented by the user. Returns the minimum size for this control. Alternative to :ref:`rect_min_size<class_Control_property_rect_min_size>` for controlling minimum size via code. The actual minimum size will be the max value of these two (in each axis separately)."
+msgstr ""
+
+#: ../classes/class_control.rst:1204
+msgid "If not overridden, defaults to :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`."
+msgstr ""
+
+#: ../classes/class_control.rst:1206
+msgid "\\ **Note:** This method will not be called when the script is attached to a ``Control`` node that already overrides its minimum size (e.g. :ref:`Label<class_Label>`, :ref:`Button<class_Button>`, :ref:`PanelContainer<class_PanelContainer>` etc.). It can only be used with most basic GUI nodes, like ``Control``, :ref:`Container<class_Container>`, :ref:`Panel<class_Panel>` etc."
+msgstr ""
+
+#: ../classes/class_control.rst:1212
+msgid "void **_gui_input** **(** :ref:`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1214
+msgid "由用户实现的虚方法。使用此方法处理和接受 UI 元素上的输入。参阅\\ :ref:`accept_event<class_Control_method_accept_event>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1216
+msgid "例：单击控件。"
+msgstr ""
+
+#: ../classes/class_control.rst:1225
+msgid "如果出现以下情况，则不会触发该事件："
+msgstr ""
+
+#: ../classes/class_control.rst:1227
+msgid "\\* 在控件外点击（参阅\\ :ref:`has_point<class_Control_method_has_point>`\\ ）；"
+msgstr ""
+
+#: ../classes/class_control.rst:1229
+msgid "\\* 控件将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\\ ；"
+msgstr ""
+
+#: ../classes/class_control.rst:1231
+msgid "\\* 控件被其上的另一个 ``Control`` 阻挡，该控件没有将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\\ ；"
+msgstr ""
+
+#: ../classes/class_control.rst:1233
+msgid "\\* 控件的父级已将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_STOP<class_Control_constant_MOUSE_FILTER_STOP>` 或已接受该事件；"
+msgstr ""
+
+#: ../classes/class_control.rst:1235
+msgid "\\* 它发生在父级的矩形之外，并且父级已启用 :ref:`rect_clip_content<class_Control_property_rect_clip_content>` 或 :ref:`_clips_input<class_Control_method__clips_input>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1237
+msgid "\\ **注：** 事件坐林标相对于控件原点。"
+msgstr ""
+
+#: ../classes/class_control.rst:1243
+msgid ":ref:`Control<class_Control>` **_make_custom_tooltip** **(** :ref:`String<class_String>` for_text **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1245
+msgid "由用户实现的虚方法。返回一个 ``Control`` 节点，该节点应用作工具提示而不是默认节点。 ``for_text`` 包含 :ref:`hint_tooltip<class_Control_property_hint_tooltip>` 属性的内容。"
+msgstr ""
+
+#: ../classes/class_control.rst:1247
+msgid "返回的节点必须是 ``Control`` 或 Control-derived 类型。它可以有任何类型的子节点。当工具提示消失时它会被释放，因此请确保你始终提供一个新实例（如果你想使用场景树中预先存在的节点，可以复制它并传递复制的实例）。当返回 ``null`` 或非控件节点时，将使用默认工具提示。"
+msgstr ""
+
+#: ../classes/class_control.rst:1249
+msgid "返回的节点将作为子节点添加到 :ref:`PopupPanel<class_PopupPanel>`\\ ，因此你应该只提供该面板的内容。该 :ref:`PopupPanel<class_PopupPanel>` 可以使用 :ref:`Theme.set_stylebox<class_Theme_method_set_stylebox>` 为类型 ``\"TooltipPanel\"`` 设置主题，参阅 :ref:`hint_tooltip<class_Control_property_hint_tooltip>` 示例。"
+msgstr ""
+
+#: ../classes/class_control.rst:1251
+msgid "\\ **注意：**\\ 工具提示缩小到最小尺寸。如果你想确保它完全可见，需将其 :ref:`rect_min_size<class_Control_property_rect_min_size>` 设置为非零值。"
+msgstr ""
+
+#: ../classes/class_control.rst:1253
+msgid "自定义构建节点的使用示例："
+msgstr ""
+
+#: ../classes/class_control.rst:1262
+msgid "自定义场景实例的使用示例："
+msgstr ""
+
+#: ../classes/class_control.rst:1275
+msgid "void **accept_event** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1277
+msgid "将输入事件标记为已处理。一旦接受输入事件，它就会停止传播，甚至传播到正在侦听\\ :ref:`Node._unhandled_input<class_Node_method__unhandled_input>`\\ 或\\ :ref:`Node._unhandled_key_input<class_Node_method__unhandled_key_input>`\\ 的节点。"
+msgstr ""
+
+#: ../classes/class_control.rst:1283
+msgid "void **add_color_override** **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1285
+msgid "使用指定的 ``name`` 为主题 :ref:`Color<class_Color>` 创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。无法删除覆盖项，但可以使用相应的默认值覆盖它。"
+msgstr ""
+
+#: ../classes/class_control.rst:1287
+msgid "参阅\\ :ref:`get_color<class_Control_method_get_color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1289
+msgid "\\ **覆盖标签颜色并其后重置的示例:**\\"
+msgstr ""
+
+#: ../classes/class_control.rst:1302
+msgid "void **add_constant_override** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1304
+msgid "为指定 ``name`` 的主题常量创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。无法删除覆盖项，但可以使用相应的默认值覆盖它。"
+msgstr ""
+
+#: ../classes/class_control.rst:1306
+msgid "参阅\\ :ref:`get_constant<class_Control_method_get_constant>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1312
+msgid "void **add_font_override** **(** :ref:`String<class_String>` name, :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1314
+msgid "使用指定的 ``name`` 为主题 :ref:`Font<class_Font>` 创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。"
+msgstr ""
+
+#: ../classes/class_control.rst:1316
+msgid "参阅\\ :ref:`get_font<class_Control_method_get_font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1322
+msgid "void **add_icon_override** **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1324
+msgid "为指定 ``name`` 的主题图标创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。"
+msgstr ""
+
+#: ../classes/class_control.rst:1326
+msgid "参阅\\ :ref:`get_icon<class_Control_method_get_icon>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1332
+msgid "void **add_shader_override** **(** :ref:`String<class_String>` name, :ref:`Shader<class_Shader>` shader **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1334
+msgid "为指定 ``name`` 的主题着色器创建本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。"
+msgstr ""
+
+#: ../classes/class_control.rst:1340
+msgid "void **add_stylebox_override** **(** :ref:`String<class_String>` name, :ref:`StyleBox<class_StyleBox>` stylebox **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1342
+msgid "为主题 :ref:`StyleBox<class_StyleBox>` 创建名为 ``name`` 的本地覆盖项。获取控件的主题项时，本地覆盖项始终优先。可以通过为其分配 ``null`` 值来删除覆盖。"
+msgstr ""
+
+#: ../classes/class_control.rst:1344
+msgid "参阅 :ref:`get_stylebox<class_Control_method_get_stylebox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1346
+msgid "\\ **通过复制来修改 StyleBox 中的属性的示例：**\\"
+msgstr ""
+
+#: ../classes/class_control.rst:1364
+msgid ":ref:`bool<class_bool>` **can_drop_data** **(** :ref:`Vector2<class_Vector2>` position, :ref:`Variant<class_Variant>` data **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1366
+msgid "GaaeExplorer 调用此方法来测试是否可以将控件的 :ref:`get_drag_data<class_Control_method_get_drag_data>` 的 ``data`` 放在 ``position`` 处。\\ ``position`` 在相对于该控件的。"
+msgstr ""
+
+#: ../classes/class_control.rst:1368
+msgid "此方法仅应用于测试数据。处理 :ref:`drop_data<class_Control_method_drop_data>` 中的数据。"
+msgstr ""
+
+#: ../classes/class_control.rst:1381
+msgid "void **drop_data** **(** :ref:`Vector2<class_Vector2>` position, :ref:`Variant<class_Variant>` data **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1383
+msgid "GaaeExplorer调用此方法以将控件的\\ :ref:`get_drag_data<class_Control_method_get_drag_data>`\\ 结果中的\\ ``data``\\ 传递给您。 GaaeExplorer首先调用\\ :ref:`can_drop_data<class_Control_method_can_drop_data>`\\ 来测试是否允许\\ ``data``\\ 在\\ ``position``\\ 处删除，其中\\ ``position``\\ 对于此控件而言是本地的。"
+msgstr ""
+
+#: ../classes/class_control.rst:1397
+msgid ":ref:`Control<class_Control>` **find_next_valid_focus** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1399
+msgid "找到下一个可以接受焦点的\\ ``Control``\\ ，在树的下方。"
+msgstr ""
+
+#: ../classes/class_control.rst:1405
+msgid ":ref:`Control<class_Control>` **find_prev_valid_focus** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1407
+msgid "找到可以接收焦点的上一个\\ ``Control``\\ ，在树的上方。"
+msgstr ""
+
+#: ../classes/class_control.rst:1413
+msgid "void **force_drag** **(** :ref:`Variant<class_Variant>` data, :ref:`Control<class_Control>` preview **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1415
+msgid "通过传递\\ ``data``\\ 和\\ ``preview``\\ 强制拖动并绕过\\ :ref:`get_drag_data<class_Control_method_get_drag_data>`\\ 和\\ :ref:`set_drag_preview<class_Control_method_set_drag_preview>`\\ 。即使鼠标既不在该控件上，也未在该控件上按下，都将开始拖动。"
+msgstr ""
+
+#: ../classes/class_control.rst:1417
+msgid "方法\\ :ref:`can_drop_data<class_Control_method_can_drop_data>`\\ 和\\ :ref:`drop_data<class_Control_method_drop_data>`\\ 必须在要接收放置数据的控件上实现。"
+msgstr ""
+
+#: ../classes/class_control.rst:1423
+msgid ":ref:`float<class_float>` **get_anchor** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1425
+msgid "从\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举返回由\\ ``margin``\\ 常量标识的锚。 :ref:`anchor_bottom<class_Control_property_anchor_bottom>`\\ ，\\ :ref:`anchor_left<class_Control_property_anchor_left>`\\ ，\\ :ref:`anchor_right<class_Control_property_anchor_right>`\\ 和\\ :ref:`anchor_top<class_Control_property_anchor_top>`\\ 的获取方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1431
+msgid ":ref:`Vector2<class_Vector2>` **get_begin** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1433
+msgid "返回\\ :ref:`margin_left<class_Control_property_margin_left>`\\ 和\\ :ref:`margin_top<class_Control_property_margin_top>`\\ 。另请参阅\\ :ref:`rect_position<class_Control_property_rect_position>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1439
+msgid ":ref:`Color<class_Color>` **get_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1441
+msgid "如果该 :ref:`Theme<class_Theme>` 具有指定 ``name`` 和 ``theme_type`` 的颜色项，则从树中第一个匹配的 :ref:`Theme<class_Theme>` 返回 :ref:`Color<class_Color>`\\ 。如果省略 ``theme_type``\\ ，则使用当前控件的类名作为类型。如果类型是类名，则还会按继承顺序检查其父类。"
+msgstr ""
+
+#: ../classes/class_control.rst:1443
+msgid "对于当前控件，首先考虑其本地覆盖项，参阅 :ref:`add_color_override<class_Control_method_add_color_override>`\\ ，然后是其分配的 :ref:`theme<class_Control_property_theme>`\\ 。在当前控件之后，考虑每个父控件及其分配的 :ref:`theme<class_Control_property_theme>`\\ ；未分配\\ :ref:`theme<class_Control_property_theme>`\\ 的控件将被跳过。如果在树中找不到匹配的 :ref:`Theme<class_Theme>`\\ ，则使用自定义项目 :ref:`Theme<class_Theme>`\\ 和默认的 :ref:`Theme<class_Theme>`\\ ，参阅 :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1457
+msgid ":ref:`Vector2<class_Vector2>` **get_combined_minimum_size** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1459
+msgid "返回\\ :ref:`rect_min_size<class_Control_property_rect_min_size>`\\ 和\\ :ref:`get_minimum_size<class_Control_method_get_minimum_size>`\\ 的组合最小大小。"
+msgstr ""
+
+#: ../classes/class_control.rst:1465
+msgid ":ref:`int<class_int>` **get_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1467
+msgid "如果该 :ref:`Theme<class_Theme>` 具有指定 ``name`` 和 ``theme_type`` 的常量项目，则从树中的第一个匹配的 :ref:`Theme<class_Theme>` 返回常量。"
+msgstr ""
+
+#: ../classes/class_control.rst:1469
+#: ../classes/class_control.rst:1614
+#: ../classes/class_control.rst:1653
+#: ../classes/class_control.rst:1673
+msgid "有关详细信息，参阅 :ref:`get_color<class_Control_method_get_color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1475
+msgid ":ref:`CursorShape<enum_Control_CursorShape>` **get_cursor_shape** **(** :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1477
+msgid "返回控件在鼠标悬停时显示的鼠标指针形状。参阅\\ :ref:`CursorShape<enum_Control_CursorShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1483
+msgid ":ref:`Variant<class_Variant>` **get_drag_data** **(** :ref:`Vector2<class_Vector2>` position **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1485
+msgid "GaaeExplorer调用此方法来获取可以拖放到期望放置数据的控件上的数据。如果没有要拖动的数据，则返回\\ ``null``\\ 。想要接收放置数据的控件应实现\\ :ref:`can_drop_data<class_Control_method_can_drop_data>`\\ 和\\ :ref:`drop_data<class_Control_method_drop_data>`\\ 。 ``position``\\ 在此控件中是本地的。可以使用\\ :ref:`force_drag<class_Control_method_force_drag>`\\ 强制拖动。"
+msgstr ""
+
+#: ../classes/class_control.rst:1487
+msgid "可以使用\\ :ref:`set_drag_preview<class_Control_method_set_drag_preview>`\\ 设置跟随鼠标的预览，该预览将代表数据。设置预览的好时机就是这种方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1500
+msgid ":ref:`Vector2<class_Vector2>` **get_end** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1502
+msgid "返回\\ :ref:`margin_right<class_Control_property_margin_right>`\\ 和\\ :ref:`margin_bottom<class_Control_property_margin_bottom>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1508
+msgid ":ref:`NodePath<class_NodePath>` **get_focus_neighbour** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1510
+msgid "返回由\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举的\\ ``margin``\\ 常量标识的焦点邻居。 :ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`\\ ，\\ :ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`\\ ，\\ :ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\\ 和\\ :ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\\ 的获取方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1516
+msgid ":ref:`Control<class_Control>` **get_focus_owner** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1518
+msgid "返回有键盘焦点的控件，如果没有，则返回\\ ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1524
+msgid ":ref:`Font<class_Font>` **get_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1526
+msgid "如果该 :ref:`Theme<class_Theme>` 具有指定 ``name`` 和 ``theme_type`` 的字体项目，则从树中第一个匹配的 :ref:`Theme<class_Theme>` 返回 :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1528
+#: ../classes/class_control.rst:1546
+msgid "有关详细信息，请参阅 :ref:`get_color<class_Control_method_get_color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1534
+msgid ":ref:`Rect2<class_Rect2>` **get_global_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1536
+msgid "返回控件相对于屏幕左上角的位置和大小。请参阅\\ :ref:`rect_position<class_Control_property_rect_position>`\\ 和\\ :ref:`rect_size<class_Control_property_rect_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1542
+msgid ":ref:`Texture<class_Texture>` **get_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1544
+msgid "如果该 :ref:`Theme<class_Theme>` 具有指定 ``name`` 和 ``theme_type`` 的图标项目，则从树中第一个匹配的 :ref:`Theme<class_Theme>` 返回图标。"
+msgstr ""
+
+#: ../classes/class_control.rst:1552
+msgid ":ref:`float<class_float>` **get_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1554
+msgid "从\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举返回由\\ ``margin``\\ 常量标识的锚。 :ref:`margin_bottom<class_Control_property_margin_bottom>`\\ ，\\ :ref:`margin_left<class_Control_property_margin_left>`\\ ，\\ :ref:`margin_right<class_Control_property_margin_right>`\\ 和\\ :ref:`margin_top<class_Control_property_margin_top>`\\ 的获取方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1560
+msgid ":ref:`Vector2<class_Vector2>` **get_minimum_size** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1562
+msgid "返回此控件的最小尺寸。参阅\\ :ref:`rect_min_size<class_Control_property_rect_min_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1568
+msgid ":ref:`Vector2<class_Vector2>` **get_parent_area_size** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1570
+msgid "返回父控件中占用的宽度/高度。"
+msgstr ""
+
+#: ../classes/class_control.rst:1576
+msgid ":ref:`Control<class_Control>` **get_parent_control** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1578
+msgid "返回父控制节点。"
+msgstr ""
+
+#: ../classes/class_control.rst:1584
+msgid ":ref:`Rect2<class_Rect2>` **get_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1586
+msgid "返回相对于父控件左上角的控件的位置和大小。请参阅\\ :ref:`rect_position<class_Control_property_rect_position>`\\ 和\\ :ref:`rect_size<class_Control_property_rect_size>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1592
+msgid ":ref:`float<class_float>` **get_rotation** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1594
+msgid "返回旋转（以弧度为单位）。"
+msgstr ""
+
+#: ../classes/class_control.rst:1600
+msgid ":ref:`StyleBox<class_StyleBox>` **get_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1602
+msgid "返回树中首个符合条件的 :ref:`Theme<class_Theme>` 的 :ref:`StyleBox<class_StyleBox>`\\ ，这个 :ref:`Theme<class_Theme>` 具有名称为 ``name`` 并且主题类型为 ``theme_type`` 的样式盒。"
+msgstr ""
+
+#: ../classes/class_control.rst:1604
+#: ../classes/class_control.rst:1701
+#: ../classes/class_control.rst:1721
+#: ../classes/class_control.rst:1763
+msgid "详情请参阅 :ref:`get_color<class_Control_method_get_color>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1610
+msgid ":ref:`Font<class_Font>` **get_theme_default_font** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1612
+msgid "如果 :ref:`Theme<class_Theme>` 具有有效的 :ref:`Theme.default_font<class_Theme_property_default_font>` 值，则从树中第一个匹配的 :ref:`Theme<class_Theme>` 返回默认字体。"
+msgstr ""
+
+#: ../classes/class_control.rst:1620
+msgid ":ref:`String<class_String>` **get_tooltip** **(** :ref:`Vector2<class_Vector2>` at_position=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1622
+msgid "返回工具提示，当光标停留在该控件上时将显示该工具提示。请参阅\\ :ref:`hint_tooltip<class_Control_property_hint_tooltip>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1628
+msgid "void **grab_click_focus** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1630
+msgid "创建一个\\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\\ ，尝试点击控件。如果接收到该事件，控件就会获得焦点。"
+msgstr ""
+
+#: ../classes/class_control.rst:1641
+msgid "void **grab_focus** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1643
+msgid "从另一个控件中窃取焦点，并成为焦点控件（请参阅\\ :ref:`focus_mode<class_Control_property_focus_mode>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_control.rst:1649
+msgid ":ref:`bool<class_bool>` **has_color** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1651
+msgid "如果树中存在匹配的 :ref:`Theme<class_Theme>` 且具有指定 ``name`` 和 ``theme_type`` 的颜色项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1659
+msgid ":ref:`bool<class_bool>` **has_color_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1661
+msgid "如果在此 ``Control`` 节点中具有指定 ``name`` 的主题颜色 :ref:`Color<class_Color>` 的本地覆盖项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1663
+msgid "参阅 :ref:`add_color_override<class_Control_method_add_color_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1669
+msgid ":ref:`bool<class_bool>` **has_constant** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1671
+msgid "如果树中存在匹配的 :ref:`Theme<class_Theme>` 且具有指定 ``name`` 和 ``theme_type`` 的常量项目，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1679
+msgid ":ref:`bool<class_bool>` **has_constant_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1681
+msgid "如果此 ``Control`` 节点中具有指定 ``name`` 的主题常量存在本地覆盖项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1683
+msgid "参阅 :ref:`add_constant_override<class_Control_method_add_constant_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1689
+msgid ":ref:`bool<class_bool>` **has_focus** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1691
+msgid "如果这是当前的焦点控件，则返回\\ ``true``\\ 。参阅\\ :ref:`focus_mode<class_Control_property_focus_mode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1697
+msgid ":ref:`bool<class_bool>` **has_font** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1699
+msgid "如果树中存在 :ref:`Theme<class_Theme>` 且该主题具有指定 ``name`` 和 ``theme_type`` 的字体项目，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1707
+msgid ":ref:`bool<class_bool>` **has_font_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1709
+msgid "如果在此 ``Control`` 节点中具有指定 ``name`` 的主题 :ref:`Font<class_Font>` 的本地覆盖项目，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1711
+msgid "参阅\\ :ref:`add_font_override<class_Control_method_add_font_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1717
+msgid ":ref:`bool<class_bool>` **has_icon** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1719
+msgid "如果树中存在 :ref:`Theme<class_Theme>` 且该主题具有指定 ``name`` 和 ``theme_type`` 的图标项目，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1727
+msgid ":ref:`bool<class_bool>` **has_icon_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1729
+msgid "如果此 ``Control`` 节点中具有指定 ``name`` 的主题图标存在本地覆盖项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1731
+msgid "参阅 :ref:`add_icon_override<class_Control_method_add_icon_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1737
+msgid ":ref:`bool<class_bool>` **has_point** **(** :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_control.rst:1739
+msgid "用户要实现的虚方法。返回给定的 ``point`` 是否在此控件内。"
+msgstr ""
+
+#: ../classes/class_control.rst:1741
+msgid "如果未覆盖，则默认行为是检查该点是否在控件的 Rect 范围内。"
+msgstr ""
+
+#: ../classes/class_control.rst:1743
+msgid "\\ **注意：**\\ 如果要检查控件中是否有点，可以使用 ``get_rect().has_point(point)``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1749
+msgid ":ref:`bool<class_bool>` **has_shader_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1751
+msgid "如果此 ``Control`` 节点中具有指定 ``name`` 的主题着色器存在本地覆盖项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1753
+msgid "参阅\\ :ref:`add_shader_override<class_Control_method_add_shader_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1759
+msgid ":ref:`bool<class_bool>` **has_stylebox** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` theme_type=\"\" **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1761
+msgid "如果树中存在 :ref:`Theme<class_Theme>` 且该主题具有指定 ``name`` 和 ``theme_type`` 的样式盒项目，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1769
+msgid ":ref:`bool<class_bool>` **has_stylebox_override** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_control.rst:1771
+msgid "如果在此 ``Control`` 节点中具有指定 ``name`` 的主题 :ref:`StyleBox<class_StyleBox>` 的本地覆盖项，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1773
+msgid "参阅 :ref:`add_stylebox_override<class_Control_method_add_stylebox_override>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1779
+msgid "void **minimum_size_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1781
+msgid "使此节点和父节点（直至最高级别）中的大小缓存无效。打算在更改返回值时与\\ :ref:`get_minimum_size<class_Control_method_get_minimum_size>`\\ 一起使用。设置\\ :ref:`rect_min_size<class_Control_property_rect_min_size>`\\ 直接直接自动调用此方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1787
+msgid "void **release_focus** **(** **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1789
+msgid "放弃焦点。其他控件将无法接收键盘输入。"
+msgstr ""
+
+#: ../classes/class_control.rst:1795
+msgid "void **set_anchor** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`bool<class_bool>` keep_margin=false, :ref:`bool<class_bool>` push_opposite_anchor=true **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1797
+msgid "将由\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举的\\ ``margin``\\ 常量标识的锚设置为值\\ ``anchor``\\ 。用于\\ :ref:`anchor_bottom<class_Control_property_anchor_bottom>`\\ ，\\ :ref:`anchor_left<class_Control_property_anchor_left>`\\ ，\\ :ref:`anchor_right<class_Control_property_anchor_right>`\\ 和\\ :ref:`anchor_top<class_Control_property_anchor_top>`\\ 的setter方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1799
+msgid "如果\\ ``keep_margin``\\ 为\\ ``true``\\ ，则在执行此操作后不会更新边距。"
+msgstr ""
+
+#: ../classes/class_control.rst:1801
+msgid "如果\\ ``push_opposite_anchor``\\ 为\\ ``true``\\ ，并且相对的锚点与该锚点重叠，则相对的锚点将覆盖其值。例如，当将左锚点设置为1且右锚点的值为0.5时，右锚点的值也将为1。如果\\ ``push_opposite_anchor``\\ 为\\ ``false``\\ ，则左锚点将得到值0.5。"
+msgstr ""
+
+#: ../classes/class_control.rst:1807
+msgid "void **set_anchor_and_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` anchor, :ref:`float<class_float>` offset, :ref:`bool<class_bool>` push_opposite_anchor=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1809
+msgid "与\\ :ref:`set_anchor<class_Control_method_set_anchor>`\\ 的工作原理相同，但是它代替\\ ``keep_margin``\\ 参数和边距的自动更新，它允许您自己设置边距偏移量（请参阅\\ :ref:`set_margin<class_Control_method_set_margin>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_control.rst:1815
+msgid "void **set_anchors_and_margins_preset** **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int<class_int>` margin=0 **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1817
+msgid "设置锚定预设和边距预设。请参阅\\ :ref:`set_anchors_preset<class_Control_method_set_anchors_preset>`\\ 和\\ :ref:`set_margins_preset<class_Control_method_set_margins_preset>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1823
+msgid "void **set_anchors_preset** **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1825
+msgid "将锚点设置为预设 ``preset``\\ ，取值范围为 :ref:`LayoutPreset<enum_Control_LayoutPreset>` 枚举。等效于在 2D 编辑器中使用布局菜单。"
+msgstr ""
+
+#: ../classes/class_control.rst:1827
+msgid "如果 ``keep_margins`` 是 ``true``\\ ，控件的位置也会更新。"
+msgstr ""
+
+#: ../classes/class_control.rst:1833
+msgid "void **set_begin** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1835
+msgid "同时设置\\ :ref:`margin_left<class_Control_property_margin_left>`\\ 和\\ :ref:`margin_top<class_Control_property_margin_top>`\\ 。等效于更改\\ :ref:`rect_position<class_Control_property_rect_position>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1841
+msgid "void **set_drag_forwarding** **(** :ref:`Control<class_Control>` target **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1843
+msgid "将此控件的拖放操作转发到 ``target`` 控件。"
+msgstr ""
+
+#: ../classes/class_control.rst:1845
+msgid "可以在目标控件中实现转发，类似于方法 :ref:`get_drag_data<class_Control_method_get_drag_data>`\\ 、\\ :ref:`can_drop_data<class_Control_method_can_drop_data>` 和 :ref:`drop_data<class_Control_method_drop_data>`\\ ，但有两个区别："
+msgstr ""
+
+#: ../classes/class_control.rst:1847
+msgid "函数名称必须带有 **_fw** 后缀"
+msgstr ""
+
+#: ../classes/class_control.rst:1849
+msgid "该函数必须接受一个额外的参数，即进行转发的控件"
+msgstr ""
+
+#: ../classes/class_control.rst:1874
+msgid "void **set_drag_preview** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1876
+msgid "在鼠标指针处显示指定的控件。调用此方法好的时机，是在 :ref:`get_drag_data<class_Control_method_get_drag_data>` 中。控件不得位于场景树当中。你不应该释放控件，也不应该在拖动持续时间结束保留对控件的引用。拖拽结束后会自动删除。"
+msgstr ""
+
+#: ../classes/class_control.rst:1894
+msgid "void **set_end** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1896
+msgid "同时设置\\ :ref:`margin_right<class_Control_property_margin_right>`\\ 和\\ :ref:`margin_bottom<class_Control_property_margin_bottom>`\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1902
+msgid "void **set_focus_neighbour** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`NodePath<class_NodePath>` neighbour **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1904
+msgid "设置由\\ ``margin``\\ 常量标识的锚，从\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举到\\ ``neighbor``\\ 节点路径处的\\ ``Control``\\ 。用于\\ :ref:`focus_neighbour_bottom<class_Control_property_focus_neighbour_bottom>`\\ ，\\ :ref:`focus_neighbour_left<class_Control_property_focus_neighbour_left>`\\ ，\\ :ref:`focus_neighbour_right<class_Control_property_focus_neighbour_right>`\\ 和\\ :ref:`focus_neighbour_top<class_Control_property_focus_neighbour_top>`\\ 的设置方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1910
+msgid "void **set_global_position** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1912
+msgid "将\\ :ref:`rect_global_position<class_Control_property_rect_global_position>`\\ 设置为给定的\\ ``position``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1914
+#: ../classes/class_control.rst:1944
+msgid "如果\\ ``keep_margins``\\ 为\\ ``true``\\ ，则控件的锚点将被更新，而不是边距。"
+msgstr ""
+
+#: ../classes/class_control.rst:1920
+msgid "void **set_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` offset **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1922
+msgid "设置由\\ :ref:`Margin<enum_@GlobalScope_Margin>`\\ 枚举到\\ ``offset``\\ 的\\ ``margin``\\ 常量所标识的边距。用于\\ :ref:`margin_bottom<class_Control_property_margin_bottom>`\\ ，\\ :ref:`margin_left<class_Control_property_margin_left>`\\ ，\\ :ref:`margin_right<class_Control_property_margin_right>`\\ 和\\ :ref:`margin_top<class_Control_property_margin_top>`\\ 的设置方法。"
+msgstr ""
+
+#: ../classes/class_control.rst:1928
+msgid "void **set_margins_preset** **(** :ref:`LayoutPreset<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int<class_int>` margin=0 **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1930
+msgid "从 :ref:`LayoutPreset<enum_Control_LayoutPreset>` 枚举将边距设置为 ``preset``\\ 。这是等效于在 2D 编辑器中使用布局菜单的编码。"
+msgstr ""
+
+#: ../classes/class_control.rst:1932
+msgid "使用参数 ``resize_mode`` 和 :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` 中的常量来更好地确定 ``Control`` 的最终大小。如果与更改大小的预设一起使用，则常规大小将被忽略，例如\\ ``PRESET_LEFT_WIDE``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1934
+msgid "使用参数 ``margin`` 确定 ``Control`` 和边缘之间的间隙。"
+msgstr ""
+
+#: ../classes/class_control.rst:1940
+msgid "void **set_position** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1942
+msgid "将\\ :ref:`rect_position<class_Control_property_rect_position>`\\ 设置为给定的\\ ``position``\\ 。"
+msgstr ""
+
+#: ../classes/class_control.rst:1950
+msgid "void **set_rotation** **(** :ref:`float<class_float>` radians **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1952
+msgid "设置旋转度（以弧度为单位）。"
+msgstr ""
+
+#: ../classes/class_control.rst:1958
+msgid "void **set_size** **(** :ref:`Vector2<class_Vector2>` size, :ref:`bool<class_bool>` keep_margins=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1960
+msgid "设置控件的大小(参阅\\ :ref:`rect_size<class_Control_property_rect_size>`)。"
+msgstr ""
+
+#: ../classes/class_control.rst:1962
+msgid "如果\\ ``keep_margins``\\ 是\\ ``true``\\ ，则会更新控件的锚点而不是页边距。"
+msgstr ""
+
+#: ../classes/class_control.rst:1968
+msgid "void **show_modal** **(** :ref:`bool<class_bool>` exclusive=false **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1970
+msgid "模态显示控件。控件必须是一个子窗口。模态控件捕获输入信号，直到关闭或访问它们之外的区域。当模态控件失去焦点或按下 ESC 键时，会自动隐藏。模态控件广泛用于弹出对话框和菜单。"
+msgstr ""
+
+#: ../classes/class_control.rst:1972
+msgid "如果 ``exclusive`` 为 ``true``\\ ，则其他控件将不会接收输入，并且在此控件外单击不会关闭它。"
+msgstr ""
+
+#: ../classes/class_control.rst:1978
+msgid "void **warp_mouse** **(** :ref:`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../classes/class_control.rst:1980
+msgid "将鼠标光标移动到 ``to_position``\\ ，相对于这个控件 ``Control`` 的 :ref:`rect_position<class_Control_property_rect_position>`\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

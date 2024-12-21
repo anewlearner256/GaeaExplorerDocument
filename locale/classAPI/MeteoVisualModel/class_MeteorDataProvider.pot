@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:2
+msgid "MeteorDataProvider"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:5
+msgid "描述"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:10
+msgid "示例"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:13
+msgid "属性"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:16
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:20
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:26
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:28
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:34
+msgid "String"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:16
+msgid "DataDateTimeString"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:18
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:30
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:32
+msgid "Boolean"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:18
+msgid "VerticalReversal"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:20
+msgid "ColorSchemeFolder"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:22
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:24
+msgid "Int32"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:22
+msgid "Time"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:24
+msgid "OverlayLevelIndex"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:26
+msgid "OverlayVarName"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:28
+msgid "MeteoDatasetName"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:30
+msgid "IsEndRead"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:32
+msgid "StartReading"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:34
+msgid "ConfigPath"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:41
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:43
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:45
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:47
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:49
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:51
+msgid "Void"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:41
+msgid "Initialize(String path,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:43
+msgid "UnloadData()"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:45
+msgid "GetMeteorData(String path,Int32 Tnum,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:47
+msgid "GetDataAsyn(String path,String varName,Int32 Tnum,Vector3[] refdata,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:49
+msgid "GetDataAsynEx(String path,String varName,Int32 Tnum,Single[] refdata,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:51
+msgid "GetData(String path,String varName,Int32 Tnum,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:55
+msgid "属性说明"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:57
+msgid "String DataDateTimeString"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:60
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:92
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:124
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:134
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:144
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:154
+msgid "*Getter*"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:67
+msgid "Boolean VerticalReversal"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:70
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:81
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:102
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:113
+msgid "*Setter* *Getter*"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:74
+msgid "模型垂直反转"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:78
+msgid "String ColorSchemeFolder"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:85
+msgid "体渲染配色方案文件夹"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:89
+msgid "Int32 Time"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:99
+msgid "Int32 OverlayLevelIndex"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:110
+msgid "String OverlayVarName"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:117
+msgid "叠加变量的名称"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:121
+msgid "String MeteoDatasetName"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:131
+msgid "Boolean IsEndRead"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:141
+msgid "Boolean StartReading"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:151
+msgid "String ConfigPath"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:163
+msgid "方法说明"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:165
+msgid "Void Initialize(String path,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:171
+msgid "Void UnloadData()"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:177
+msgid "Void GetMeteorData(String path,Int32 Tnum,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:183
+msgid "Void GetDataAsyn(String path,String varName,Int32 Tnum,Vector3[] refdata,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:189
+msgid "Void GetDataAsynEx(String path,String varName,Int32 Tnum,Single[] refdata,)"
+msgstr ""
+
+#: ../classAPI/MeteoVisualModel/class_MeteorDataProvider.rst:195
+msgid "Void GetData(String path,String varName,Int32 Tnum,)"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

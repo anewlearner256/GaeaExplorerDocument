@@ -1,0 +1,2152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_physicsserver.rst:10
+msgid "PhysicsServer"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:14
+msgid "用于低级物理访问的服务器接口。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:19
+msgid "PhysicsServer是负责所有3D物理的服务。它可以创建许多种类的物理对象，但不会在节点树上插入这些对象。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:22
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:25
+#: ../classes/class_physicsserver.rst:27
+#: ../classes/class_physicsserver.rst:29
+#: ../classes/class_physicsserver.rst:51
+#: ../classes/class_physicsserver.rst:53
+#: ../classes/class_physicsserver.rst:55
+#: ../classes/class_physicsserver.rst:57
+#: ../classes/class_physicsserver.rst:59
+#: ../classes/class_physicsserver.rst:61
+#: ../classes/class_physicsserver.rst:63
+#: ../classes/class_physicsserver.rst:65
+#: ../classes/class_physicsserver.rst:67
+#: ../classes/class_physicsserver.rst:69
+#: ../classes/class_physicsserver.rst:71
+#: ../classes/class_physicsserver.rst:73
+#: ../classes/class_physicsserver.rst:75
+#: ../classes/class_physicsserver.rst:77
+#: ../classes/class_physicsserver.rst:79
+#: ../classes/class_physicsserver.rst:81
+#: ../classes/class_physicsserver.rst:83
+#: ../classes/class_physicsserver.rst:85
+#: ../classes/class_physicsserver.rst:87
+#: ../classes/class_physicsserver.rst:89
+#: ../classes/class_physicsserver.rst:91
+#: ../classes/class_physicsserver.rst:93
+#: ../classes/class_physicsserver.rst:95
+#: ../classes/class_physicsserver.rst:97
+#: ../classes/class_physicsserver.rst:135
+#: ../classes/class_physicsserver.rst:137
+#: ../classes/class_physicsserver.rst:139
+#: ../classes/class_physicsserver.rst:141
+#: ../classes/class_physicsserver.rst:143
+#: ../classes/class_physicsserver.rst:145
+#: ../classes/class_physicsserver.rst:147
+#: ../classes/class_physicsserver.rst:149
+#: ../classes/class_physicsserver.rst:151
+#: ../classes/class_physicsserver.rst:153
+#: ../classes/class_physicsserver.rst:155
+#: ../classes/class_physicsserver.rst:157
+#: ../classes/class_physicsserver.rst:159
+#: ../classes/class_physicsserver.rst:161
+#: ../classes/class_physicsserver.rst:163
+#: ../classes/class_physicsserver.rst:165
+#: ../classes/class_physicsserver.rst:167
+#: ../classes/class_physicsserver.rst:169
+#: ../classes/class_physicsserver.rst:171
+#: ../classes/class_physicsserver.rst:177
+#: ../classes/class_physicsserver.rst:179
+#: ../classes/class_physicsserver.rst:185
+#: ../classes/class_physicsserver.rst:187
+#: ../classes/class_physicsserver.rst:195
+#: ../classes/class_physicsserver.rst:197
+#: ../classes/class_physicsserver.rst:213
+#: ../classes/class_physicsserver.rst:221
+#: ../classes/class_physicsserver.rst:223
+#: ../classes/class_physicsserver.rst:225
+#: ../classes/class_physicsserver.rst:227
+#: ../classes/class_physicsserver.rst:229
+#: ../classes/class_physicsserver.rst:237
+#: ../classes/class_physicsserver.rst:241
+#: ../classes/class_physicsserver.rst:251
+#: ../classes/class_physicsserver.rst:253
+msgid "void"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:25
+msgid ":ref:`area_add_shape<class_PhysicsServer_method_area_add_shape>` **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` shape, :ref:`Transform<class_Transform>` transform=Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:27
+msgid ":ref:`area_attach_object_instance_id<class_PhysicsServer_method_area_attach_object_instance_id>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:29
+msgid ":ref:`area_clear_shapes<class_PhysicsServer_method_area_clear_shapes>` **(** :ref:`RID<class_RID>` area **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:31
+#: ../classes/class_physicsserver.rst:37
+#: ../classes/class_physicsserver.rst:43
+#: ../classes/class_physicsserver.rst:99
+#: ../classes/class_physicsserver.rst:117
+#: ../classes/class_physicsserver.rst:123
+#: ../classes/class_physicsserver.rst:199
+#: ../classes/class_physicsserver.rst:201
+#: ../classes/class_physicsserver.rst:203
+#: ../classes/class_physicsserver.rst:205
+#: ../classes/class_physicsserver.rst:207
+#: ../classes/class_physicsserver.rst:231
+#: ../classes/class_physicsserver.rst:243
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:31
+msgid ":ref:`area_create<class_PhysicsServer_method_area_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:33
+#: ../classes/class_physicsserver.rst:39
+#: ../classes/class_physicsserver.rst:101
+#: ../classes/class_physicsserver.rst:103
+#: ../classes/class_physicsserver.rst:109
+#: ../classes/class_physicsserver.rst:113
+#: ../classes/class_physicsserver.rst:119
+#: ../classes/class_physicsserver.rst:189
+#: ../classes/class_physicsserver.rst:209
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:33
+msgid ":ref:`area_get_object_instance_id<class_PhysicsServer_method_area_get_object_instance_id>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:35
+#: ../classes/class_physicsserver.rst:125
+#: ../classes/class_physicsserver.rst:233
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:35
+msgid ":ref:`area_get_param<class_PhysicsServer_method_area_get_param>` **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:37
+msgid ":ref:`area_get_shape<class_PhysicsServer_method_area_get_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:39
+msgid ":ref:`area_get_shape_count<class_PhysicsServer_method_area_get_shape_count>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:41
+#: ../classes/class_physicsserver.rst:47
+#: ../classes/class_physicsserver.rst:121
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:41
+msgid ":ref:`area_get_shape_transform<class_PhysicsServer_method_area_get_shape_transform>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:43
+msgid ":ref:`area_get_space<class_PhysicsServer_method_area_get_space>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:45
+msgid ":ref:`AreaSpaceOverrideMode<enum_PhysicsServer_AreaSpaceOverrideMode>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:45
+msgid ":ref:`area_get_space_override_mode<class_PhysicsServer_method_area_get_space_override_mode>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:47
+msgid ":ref:`area_get_transform<class_PhysicsServer_method_area_get_transform>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:49
+#: ../classes/class_physicsserver.rst:127
+#: ../classes/class_physicsserver.rst:129
+#: ../classes/class_physicsserver.rst:131
+#: ../classes/class_physicsserver.rst:133
+#: ../classes/class_physicsserver.rst:173
+#: ../classes/class_physicsserver.rst:181
+#: ../classes/class_physicsserver.rst:191
+#: ../classes/class_physicsserver.rst:249
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:49
+msgid ":ref:`area_is_ray_pickable<class_PhysicsServer_method_area_is_ray_pickable>` **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:51
+msgid ":ref:`area_remove_shape<class_PhysicsServer_method_area_remove_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:53
+msgid ":ref:`area_set_area_monitor_callback<class_PhysicsServer_method_area_set_area_monitor_callback>` **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:55
+msgid ":ref:`area_set_collision_layer<class_PhysicsServer_method_area_set_collision_layer>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:57
+msgid ":ref:`area_set_collision_mask<class_PhysicsServer_method_area_set_collision_mask>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:59
+msgid ":ref:`area_set_monitor_callback<class_PhysicsServer_method_area_set_monitor_callback>` **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:61
+msgid ":ref:`area_set_monitorable<class_PhysicsServer_method_area_set_monitorable>` **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` monitorable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:63
+msgid ":ref:`area_set_param<class_PhysicsServer_method_area_set_param>` **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:65
+msgid ":ref:`area_set_ray_pickable<class_PhysicsServer_method_area_set_ray_pickable>` **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:67
+msgid ":ref:`area_set_shape<class_PhysicsServer_method_area_set_shape>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:69
+msgid ":ref:`area_set_shape_disabled<class_PhysicsServer_method_area_set_shape_disabled>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:71
+msgid ":ref:`area_set_shape_transform<class_PhysicsServer_method_area_set_shape_transform>` **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:73
+msgid ":ref:`area_set_space<class_PhysicsServer_method_area_set_space>` **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:75
+msgid ":ref:`area_set_space_override_mode<class_PhysicsServer_method_area_set_space_override_mode>` **(** :ref:`RID<class_RID>` area, :ref:`AreaSpaceOverrideMode<enum_PhysicsServer_AreaSpaceOverrideMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:77
+msgid ":ref:`area_set_transform<class_PhysicsServer_method_area_set_transform>` **(** :ref:`RID<class_RID>` area, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:79
+msgid ":ref:`body_add_central_force<class_PhysicsServer_method_body_add_central_force>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` force **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:81
+msgid ":ref:`body_add_collision_exception<class_PhysicsServer_method_body_add_collision_exception>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:83
+msgid ":ref:`body_add_force<class_PhysicsServer_method_body_add_force>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` force, :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:85
+msgid ":ref:`body_add_shape<class_PhysicsServer_method_body_add_shape>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` shape, :ref:`Transform<class_Transform>` transform=Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:87
+msgid ":ref:`body_add_torque<class_PhysicsServer_method_body_add_torque>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:89
+msgid ":ref:`body_apply_central_impulse<class_PhysicsServer_method_body_apply_central_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:91
+msgid ":ref:`body_apply_impulse<class_PhysicsServer_method_body_apply_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:93
+msgid ":ref:`body_apply_torque_impulse<class_PhysicsServer_method_body_apply_torque_impulse>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:95
+msgid ":ref:`body_attach_object_instance_id<class_PhysicsServer_method_body_attach_object_instance_id>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:97
+msgid ":ref:`body_clear_shapes<class_PhysicsServer_method_body_clear_shapes>` **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:99
+msgid ":ref:`body_create<class_PhysicsServer_method_body_create>` **(** :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode=2, :ref:`bool<class_bool>` init_sleeping=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:101
+msgid ":ref:`body_get_collision_layer<class_PhysicsServer_method_body_get_collision_layer>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:103
+msgid ":ref:`body_get_collision_mask<class_PhysicsServer_method_body_get_collision_mask>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:105
+msgid ":ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:105
+msgid ":ref:`body_get_direct_state<class_PhysicsServer_method_body_get_direct_state>` **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:107
+#: ../classes/class_physicsserver.rst:115
+#: ../classes/class_physicsserver.rst:175
+#: ../classes/class_physicsserver.rst:183
+#: ../classes/class_physicsserver.rst:193
+#: ../classes/class_physicsserver.rst:219
+#: ../classes/class_physicsserver.rst:239
+#: ../classes/class_physicsserver.rst:247
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:107
+msgid ":ref:`body_get_kinematic_safe_margin<class_PhysicsServer_method_body_get_kinematic_safe_margin>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:109
+msgid ":ref:`body_get_max_contacts_reported<class_PhysicsServer_method_body_get_max_contacts_reported>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:111
+msgid ":ref:`BodyMode<enum_PhysicsServer_BodyMode>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:111
+msgid ":ref:`body_get_mode<class_PhysicsServer_method_body_get_mode>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:113
+msgid ":ref:`body_get_object_instance_id<class_PhysicsServer_method_body_get_object_instance_id>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:115
+msgid ":ref:`body_get_param<class_PhysicsServer_method_body_get_param>` **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:117
+msgid ":ref:`body_get_shape<class_PhysicsServer_method_body_get_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:119
+msgid ":ref:`body_get_shape_count<class_PhysicsServer_method_body_get_shape_count>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:121
+msgid ":ref:`body_get_shape_transform<class_PhysicsServer_method_body_get_shape_transform>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:123
+msgid ":ref:`body_get_space<class_PhysicsServer_method_body_get_space>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:125
+msgid ":ref:`body_get_state<class_PhysicsServer_method_body_get_state>` **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_PhysicsServer_BodyState>` state **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:127
+msgid ":ref:`body_is_axis_locked<class_PhysicsServer_method_body_is_axis_locked>` **(** :ref:`RID<class_RID>` body, :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:129
+msgid ":ref:`body_is_continuous_collision_detection_enabled<class_PhysicsServer_method_body_is_continuous_collision_detection_enabled>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:131
+msgid ":ref:`body_is_omitting_force_integration<class_PhysicsServer_method_body_is_omitting_force_integration>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:133
+msgid ":ref:`body_is_ray_pickable<class_PhysicsServer_method_body_is_ray_pickable>` **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:135
+msgid ":ref:`body_remove_collision_exception<class_PhysicsServer_method_body_remove_collision_exception>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:137
+msgid ":ref:`body_remove_shape<class_PhysicsServer_method_body_remove_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:139
+msgid ":ref:`body_set_axis_lock<class_PhysicsServer_method_body_set_axis_lock>` **(** :ref:`RID<class_RID>` body, :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis, :ref:`bool<class_bool>` lock **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:141
+msgid ":ref:`body_set_axis_velocity<class_PhysicsServer_method_body_set_axis_velocity>` **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` axis_velocity **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:143
+msgid ":ref:`body_set_collision_layer<class_PhysicsServer_method_body_set_collision_layer>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:145
+msgid ":ref:`body_set_collision_mask<class_PhysicsServer_method_body_set_collision_mask>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:147
+msgid ":ref:`body_set_enable_continuous_collision_detection<class_PhysicsServer_method_body_set_enable_continuous_collision_detection>` **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:149
+msgid ":ref:`body_set_force_integration_callback<class_PhysicsServer_method_body_set_force_integration_callback>` **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:151
+msgid ":ref:`body_set_kinematic_safe_margin<class_PhysicsServer_method_body_set_kinematic_safe_margin>` **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` margin **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:153
+msgid ":ref:`body_set_max_contacts_reported<class_PhysicsServer_method_body_set_max_contacts_reported>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` amount **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:155
+msgid ":ref:`body_set_mode<class_PhysicsServer_method_body_set_mode>` **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:157
+msgid ":ref:`body_set_omit_force_integration<class_PhysicsServer_method_body_set_omit_force_integration>` **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:159
+msgid ":ref:`body_set_param<class_PhysicsServer_method_body_set_param>` **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:161
+msgid ":ref:`body_set_ray_pickable<class_PhysicsServer_method_body_set_ray_pickable>` **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:163
+msgid ":ref:`body_set_shape<class_PhysicsServer_method_body_set_shape>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:165
+msgid ":ref:`body_set_shape_disabled<class_PhysicsServer_method_body_set_shape_disabled>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:167
+msgid ":ref:`body_set_shape_transform<class_PhysicsServer_method_body_set_shape_transform>` **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:169
+msgid ":ref:`body_set_space<class_PhysicsServer_method_body_set_space>` **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:171
+msgid ":ref:`body_set_state<class_PhysicsServer_method_body_set_state>` **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_PhysicsServer_BodyState>` state, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:173
+msgid ":ref:`body_test_motion<class_PhysicsServer_method_body_test_motion>` **(** :ref:`RID<class_RID>` body, :ref:`Transform<class_Transform>` from, :ref:`Vector3<class_Vector3>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:175
+msgid ":ref:`cone_twist_joint_get_param<class_PhysicsServer_method_cone_twist_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:177
+msgid ":ref:`cone_twist_joint_set_param<class_PhysicsServer_method_cone_twist_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:179
+msgid ":ref:`free_rid<class_PhysicsServer_method_free_rid>` **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:181
+msgid ":ref:`generic_6dof_joint_get_flag<class_PhysicsServer_method_generic_6dof_joint_get_flag>` **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:183
+msgid ":ref:`generic_6dof_joint_get_param<class_PhysicsServer_method_generic_6dof_joint_get_param>` **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:185
+msgid ":ref:`generic_6dof_joint_set_flag<class_PhysicsServer_method_generic_6dof_joint_set_flag>` **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:187
+msgid ":ref:`generic_6dof_joint_set_param<class_PhysicsServer_method_generic_6dof_joint_set_param>` **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:189
+msgid ":ref:`get_process_info<class_PhysicsServer_method_get_process_info>` **(** :ref:`ProcessInfo<enum_PhysicsServer_ProcessInfo>` process_info **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:191
+msgid ":ref:`hinge_joint_get_flag<class_PhysicsServer_method_hinge_joint_get_flag>` **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:193
+msgid ":ref:`hinge_joint_get_param<class_PhysicsServer_method_hinge_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:195
+msgid ":ref:`hinge_joint_set_flag<class_PhysicsServer_method_hinge_joint_set_flag>` **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:197
+msgid ":ref:`hinge_joint_set_param<class_PhysicsServer_method_hinge_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:199
+msgid ":ref:`joint_create_cone_twist<class_PhysicsServer_method_joint_create_cone_twist>` **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:201
+msgid ":ref:`joint_create_generic_6dof<class_PhysicsServer_method_joint_create_generic_6dof>` **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:203
+msgid ":ref:`joint_create_hinge<class_PhysicsServer_method_joint_create_hinge>` **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` hinge_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` hinge_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:205
+msgid ":ref:`joint_create_pin<class_PhysicsServer_method_joint_create_pin>` **(** :ref:`RID<class_RID>` body_A, :ref:`Vector3<class_Vector3>` local_A, :ref:`RID<class_RID>` body_B, :ref:`Vector3<class_Vector3>` local_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:207
+msgid ":ref:`joint_create_slider<class_PhysicsServer_method_joint_create_slider>` **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:209
+msgid ":ref:`joint_get_solver_priority<class_PhysicsServer_method_joint_get_solver_priority>` **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:211
+msgid ":ref:`JointType<enum_PhysicsServer_JointType>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:211
+msgid ":ref:`joint_get_type<class_PhysicsServer_method_joint_get_type>` **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:213
+msgid ":ref:`joint_set_solver_priority<class_PhysicsServer_method_joint_set_solver_priority>` **(** :ref:`RID<class_RID>` joint, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:215
+#: ../classes/class_physicsserver.rst:217
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:215
+msgid ":ref:`pin_joint_get_local_a<class_PhysicsServer_method_pin_joint_get_local_a>` **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:217
+msgid ":ref:`pin_joint_get_local_b<class_PhysicsServer_method_pin_joint_get_local_b>` **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:219
+msgid ":ref:`pin_joint_get_param<class_PhysicsServer_method_pin_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:221
+msgid ":ref:`pin_joint_set_local_a<class_PhysicsServer_method_pin_joint_set_local_a>` **(** :ref:`RID<class_RID>` joint, :ref:`Vector3<class_Vector3>` local_A **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:223
+msgid ":ref:`pin_joint_set_local_b<class_PhysicsServer_method_pin_joint_set_local_b>` **(** :ref:`RID<class_RID>` joint, :ref:`Vector3<class_Vector3>` local_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:225
+msgid ":ref:`pin_joint_set_param<class_PhysicsServer_method_pin_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:227
+msgid ":ref:`set_active<class_PhysicsServer_method_set_active>` **(** :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:229
+msgid ":ref:`set_collision_iterations<class_PhysicsServer_method_set_collision_iterations>` **(** :ref:`int<class_int>` iterations **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:231
+msgid ":ref:`shape_create<class_PhysicsServer_method_shape_create>` **(** :ref:`ShapeType<enum_PhysicsServer_ShapeType>` type **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:233
+msgid ":ref:`shape_get_data<class_PhysicsServer_method_shape_get_data>` **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:235
+msgid ":ref:`ShapeType<enum_PhysicsServer_ShapeType>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:235
+msgid ":ref:`shape_get_type<class_PhysicsServer_method_shape_get_type>` **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:237
+msgid ":ref:`shape_set_data<class_PhysicsServer_method_shape_set_data>` **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:239
+msgid ":ref:`slider_joint_get_param<class_PhysicsServer_method_slider_joint_get_param>` **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:241
+msgid ":ref:`slider_joint_set_param<class_PhysicsServer_method_slider_joint_set_param>` **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:243
+msgid ":ref:`space_create<class_PhysicsServer_method_space_create>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:245
+msgid ":ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>`"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:245
+msgid ":ref:`space_get_direct_state<class_PhysicsServer_method_space_get_direct_state>` **(** :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:247
+msgid ":ref:`space_get_param<class_PhysicsServer_method_space_get_param>` **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:249
+msgid ":ref:`space_is_active<class_PhysicsServer_method_space_is_active>` **(** :ref:`RID<class_RID>` space **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:251
+msgid ":ref:`space_set_active<class_PhysicsServer_method_space_set_active>` **(** :ref:`RID<class_RID>` space, :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:253
+msgid ":ref:`space_set_param<class_PhysicsServer_method_space_set_param>` **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:257
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:271
+msgid "enum **JointType**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:273
+msgid "**JOINT_PIN** = **0** --- 该\\ :ref:`Joint<class_Joint>` 是 :ref:`PinJoint<class_PinJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:275
+msgid "**JOINT_HINGE** = **1** --- 该 :ref:`Joint<class_Joint>` 是 :ref:`HingeJoint<class_HingeJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:277
+msgid "**JOINT_SLIDER** = **2** --- 该 :ref:`Joint<class_Joint>` 是 :ref:`SliderJoint<class_SliderJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:279
+msgid "**JOINT_CONE_TWIST** = **3** --- 该 :ref:`Joint<class_Joint>` 是 :ref:`ConeTwistJoint<class_ConeTwistJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:281
+msgid "**JOINT_6DOF** = **4** --- 该 :ref:`Joint<class_Joint>` 是 :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:293
+msgid "enum **PinJointParam**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:295
+msgid "**PIN_JOINT_BIAS** = **0** --- 固定对象试图保持彼此位置关系的力度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:297
+#: ../classes/class_physicsserver.rst:301
+msgid "越高越强。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:299
+msgid "**PIN_JOINT_DAMPING** = **1** --- 被固定的物体试图保持彼此速度关系的力度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:303
+msgid "**PIN_JOINT_IMPULSE_CLAMP** = **2** --- 如果大于0，这个值就是这个关节对其两端施加的冲量的最大值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:325
+msgid "enum **HingeJointParam**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:327
+msgid "**HINGE_JOINT_BIAS** = **0** --- 两个物体向不同方向移动时被拉回到一起的速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:329
+msgid "**HINGE_JOINT_LIMIT_UPPER** = **1** --- 铰链上的最大旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:331
+msgid "**HINGE_JOINT_LIMIT_LOWER** = **2** --- 穿过铰链的最小旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:333
+msgid "**HINGE_JOINT_LIMIT_BIAS** = **3** --- 垂直于铰链的轴线上的旋转得到纠正的速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:335
+msgid "**HINGE_JOINT_LIMIT_SOFTNESS** = **4**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:337
+msgid "**HINGE_JOINT_LIMIT_RELAXATION** = **5** --- 该值越低，旋转速度越慢。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:339
+msgid "**HINGE_JOINT_MOTOR_TARGET_VELOCITY** = **6** --- 目标马达的目标速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:341
+msgid "**HINGE_JOINT_MOTOR_MAX_IMPULSE** = **7** --- 马达的最大加速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:351
+msgid "enum **HingeJointFlag**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:353
+msgid "**HINGE_JOINT_FLAG_USE_LIMIT** = **0** --- 如果\\ ``true``\\ ，铰链具有最大和最小旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:355
+msgid "**HINGE_JOINT_FLAG_ENABLE_MOTOR** = **1** --- 如果\\ ``true``\\ ，电机将转动铰链。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:407
+msgid "enum **SliderJointParam**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:409
+msgid "**SLIDER_JOINT_LINEAR_LIMIT_UPPER** = **0** --- 阻尼发生前X轴上枢轴点之间的最大差异。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:411
+msgid "**SLIDER_JOINT_LINEAR_LIMIT_LOWER** = **1** --- 阻尼发生前X轴上枢轴点之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:413
+msgid "**SLIDER_JOINT_LINEAR_LIMIT_SOFTNESS** = **2** --- 一旦超过极限，应用于滑块轴上移动的系数。越低，运动越慢。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:415
+msgid "**SLIDER_JOINT_LINEAR_LIMIT_RESTITUTION** = **3** --- 超过极限后的补偿。越低，动能损失越多。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:417
+msgid "**SLIDER_JOINT_LINEAR_LIMIT_DAMPING** = **4** --- 一旦超过滑块的极限，阻尼的数量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:419
+msgid "**SLIDER_JOINT_LINEAR_MOTION_SOFTNESS** = **5** --- 只要滑块在限制范围内，就应用于滑块轴上移动的系数。越低，运动越慢。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:421
+msgid "**SLIDER_JOINT_LINEAR_MOTION_RESTITUTION** = **6** --- 滑块限制内的恢复量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:423
+msgid "**SLIDER_JOINT_LINEAR_MOTION_DAMPING** = **7** --- 滑块内部的阻尼量受到限制。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:425
+msgid "**SLIDER_JOINT_LINEAR_ORTHOGONAL_SOFTNESS** = **8** --- 应用于在垂直于滑块的轴上移动的系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:427
+msgid "**SLIDER_JOINT_LINEAR_ORTHOGONAL_RESTITUTION** = **9** --- 当移动穿过垂直于滑块的轴时的恢复量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:429
+msgid "**SLIDER_JOINT_LINEAR_ORTHOGONAL_DAMPING** = **10** --- 当移动穿过垂直于滑块的轴时的阻尼量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:431
+msgid "**SLIDER_JOINT_ANGULAR_LIMIT_UPPER** = **11** --- 滑块旋转的上限。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:433
+msgid "**SLIDER_JOINT_ANGULAR_LIMIT_LOWER** = **12** --- 滑块旋转的下限。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:435
+msgid "**SLIDER_JOINT_ANGULAR_LIMIT_SOFTNESS** = **13** --- 一旦超过极限，应用于所有旋转的系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:437
+msgid "**SLIDER_JOINT_ANGULAR_LIMIT_RESTITUTION** = **14** --- 超过限制时旋转的恢复量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:439
+msgid "**SLIDER_JOINT_ANGULAR_LIMIT_DAMPING** = **15** --- 超过极限时旋转的阻尼量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:441
+msgid "**SLIDER_JOINT_ANGULAR_MOTION_SOFTNESS** = **16** --- 应用于所有极限旋转的因子。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:443
+msgid "**SLIDER_JOINT_ANGULAR_MOTION_RESTITUTION** = **17** --- 极限内旋转的恢复量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:445
+msgid "**SLIDER_JOINT_ANGULAR_MOTION_DAMPING** = **18** --- 极限内旋转的阻尼量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:447
+msgid "**SLIDER_JOINT_ANGULAR_ORTHOGONAL_SOFTNESS** = **19** --- 应用于垂直于滑块的轴上的所有旋转的因子。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:449
+msgid "**SLIDER_JOINT_ANGULAR_ORTHOGONAL_RESTITUTION** = **20** --- 垂直于滑块的轴上的旋转恢复量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:451
+msgid "**SLIDER_JOINT_ANGULAR_ORTHOGONAL_DAMPING** = **21** --- 垂直于滑块的轴上的旋转阻尼量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:453
+msgid "**SLIDER_JOINT_MAX** = **22** --- 表示\\ :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:469
+msgid "enum **ConeTwistJointParam**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:471
+msgid "**CONE_TWIST_JOINT_SWING_SPAN** = **0** --- 摆动是围绕垂直于扭转轴的轴线从一边到另一边的旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:473
+msgid "摆动跨度定义了，多少旋转不会沿着摆动轴得到纠正。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:475
+msgid "可以定义\\ :ref:`ConeTwistJoint<class_ConeTwistJoint>`\\ 的松动性。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:477
+msgid "如果低于0.05，此行为被锁定。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:479
+msgid "**CONE_TWIST_JOINT_TWIST_SPAN** = **1** --- 扭曲是绕扭曲轴的旋转，此值定义了关节可以扭曲多远。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:481
+msgid "如果低于0.05，则扭曲被锁定。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:483
+msgid "**CONE_TWIST_JOINT_BIAS** = **2** --- 摆动或扭转的速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:485
+msgid "越高，速度越快。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:487
+msgid "**CONE_TWIST_JOINT_SOFTNESS** = **3** --- 关节扭曲的难易程度，如果它太低，则需要更多的力量来扭曲关节。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:489
+msgid "**CONE_TWIST_JOINT_RELAXATION** = **4** --- 定义两侧的摆动速度和扭转速度差异同步的速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:527
+msgid "enum **G6DOFJointAxisParam**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:529
+msgid "**G6DOF_JOINT_LINEAR_LOWER_LIMIT** = **0** --- 枢轴点之间的最小差异。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:531
+msgid "**G6DOF_JOINT_LINEAR_UPPER_LIMIT** = **1** --- 枢轴点的轴之间的最大差异。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:533
+msgid "**G6DOF_JOINT_LINEAR_LIMIT_SOFTNESS** = **2** --- 应用于跨轴移动的因子。越低，运动越慢。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:535
+msgid "**G6DOF_JOINT_LINEAR_RESTITUTION** = **3** --- 轴运动的恢复量。速度越低，能量损失越多。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:537
+msgid "**G6DOF_JOINT_LINEAR_DAMPING** = **4** --- 发生在跨轴线性运动的阻尼量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:539
+msgid "**G6DOF_JOINT_LINEAR_MOTOR_TARGET_VELOCITY** = **5** --- 关节的线性马达试图达到的速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:541
+msgid "**G6DOF_JOINT_LINEAR_MOTOR_FORCE_LIMIT** = **6** --- 线性马达在试图达到目标速度时可以施加的最大力。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:543
+msgid "**G6DOF_JOINT_ANGULAR_LOWER_LIMIT** = **10** --- 负方向的最小旋转，以脱离和绕轴旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:545
+msgid "**G6DOF_JOINT_ANGULAR_UPPER_LIMIT** = **11** --- 正方向的最小旋转，以挣脱和绕轴旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:547
+msgid "**G6DOF_JOINT_ANGULAR_LIMIT_SOFTNESS** = **12** --- 一个乘以所有轴旋转的因子。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:549
+msgid "**G6DOF_JOINT_ANGULAR_DAMPING** = **13** --- 跨越Z轴的旋转阻尼量。值越低，发生的阻尼就越多。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:551
+msgid "**G6DOF_JOINT_ANGULAR_RESTITUTION** = **14** --- 在各轴上的旋转恢复量。值越低，发生的恢复量越大。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:553
+msgid "**G6DOF_JOINT_ANGULAR_FORCE_LIMIT** = **15** --- 围绕Z轴旋转时，可能发生的最大力。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:555
+msgid "**G6DOF_JOINT_ANGULAR_ERP** = **16** --- 当校正轴旋转中的极限交叉时，该误差容限因子定义了校正的减慢程度。越低越慢。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:557
+msgid "**G6DOF_JOINT_ANGULAR_MOTOR_TARGET_VELOCITY** = **17** --- 轴上电机的目标速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:559
+msgid "**G6DOF_JOINT_ANGULAR_MOTOR_FORCE_LIMIT** = **18** --- 马达在轴上的最大加速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:573
+msgid "enum **G6DOFJointAxisFlag**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:575
+msgid "**G6DOF_JOINT_FLAG_ENABLE_LINEAR_LIMIT** = **0** --- If set, linear motion is possible within the given limits."
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:577
+msgid "**G6DOF_JOINT_FLAG_ENABLE_ANGULAR_LIMIT** = **1** --- If set, rotational motion is possible."
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:579
+msgid "**G6DOF_JOINT_FLAG_ENABLE_MOTOR** = **4** --- If set, there is a rotational motor across these axes."
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:581
+msgid "**G6DOF_JOINT_FLAG_ENABLE_LINEAR_MOTOR** = **5** --- If set, there is a linear motor on this axis that targets a specific velocity."
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:607
+msgid "enum **ShapeType**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:609
+msgid "**SHAPE_PLANE** = **0** --- 该\\ :ref:`Shape<class_Shape>` 是 :ref:`PlaneShape<class_PlaneShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:611
+msgid "**SHAPE_RAY** = **1** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`RayShape<class_RayShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:613
+msgid "**SHAPE_SPHERE** = **2** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`SphereShape<class_SphereShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:615
+msgid "**SHAPE_BOX** = **3** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`BoxShape<class_BoxShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:617
+msgid "**SHAPE_CAPSULE** = **4** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`CapsuleShape<class_CapsuleShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:619
+msgid "**SHAPE_CYLINDER** = **5** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`CylinderShape<class_CylinderShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:621
+msgid "**SHAPE_CONVEX_POLYGON** = **6** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`ConvexPolygonShape<class_ConvexPolygonShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:623
+msgid "**SHAPE_CONCAVE_POLYGON** = **7** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`ConcavePolygonShape<class_ConcavePolygonShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:625
+msgid "**SHAPE_HEIGHTMAP** = **8** --- 该 :ref:`Shape<class_Shape>` 是 :ref:`HeightMapShape<class_HeightMapShape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:627
+msgid "**SHAPE_CUSTOM** = **9** --- 这个常数是由引擎内部使用的。任何试图创建这种形状的行为都会导致错误。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:649
+msgid "enum **AreaParameter**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:651
+msgid "**AREA_PARAM_GRAVITY** = **0** --- 在一个地区设置/获得重力强度的常数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:653
+msgid "**AREA_PARAM_GRAVITY_VECTOR** = **1** --- 在一个区域内设置/获取重力向量/中心的常数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:655
+msgid "**AREA_PARAM_GRAVITY_IS_POINT** = **2** --- 常数用于设置/获取一个区域的重力向量是一个方向，还是一个中心点。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:657
+msgid "**AREA_PARAM_GRAVITY_DISTANCE_SCALE** = **3** --- 常数，用于设置/获取一个区域的点重力的衰减系数。这个值越大，重力的强度随着距离的平方下降得越快。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:659
+msgid "**AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- 这个常数用于设置/获取点重力的衰减因子。它已经被\\ :ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE<class_PhysicsServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`\\ 所取代了。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:661
+msgid "**AREA_PARAM_LINEAR_DAMP** = **5** --- 常数，用于设置/获取一个区域的线性阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:663
+msgid "**AREA_PARAM_ANGULAR_DAMP** = **6** --- 常数，用于设置/获取一个区域的角度阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:665
+msgid "**AREA_PARAM_PRIORITY** = **7** --- 常数，用于设置/获取一个区域的优先级（处理顺序）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:681
+msgid "enum **AreaSpaceOverrideMode**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:683
+msgid "**AREA_SPACE_OVERRIDE_DISABLED** = **0** --- 这个区域不影响重力/阻尼。这些一般都是只存在于检测碰撞的区域，以及进入或离开它们的物体。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:685
+msgid "**AREA_SPACE_OVERRIDE_COMBINE** = **1** --- 此区域把它的重力/阻尼加到目前已经计算过的对象上。这样一来，许多重叠的区域可以结合它们的物理运算来产生有趣的效果。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:687
+msgid "**AREA_SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- 这个区域把它的重力/阻尼加到迄今为止已经计算出来的任何东西上。然后停止考虑其余的区域，甚至默认的区域。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:689
+msgid "**AREA_SPACE_OVERRIDE_REPLACE** = **3** --- 这个区域取代了任何重力/阻尼，甚至是默认的，并停止考虑其余的区域。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:691
+msgid "**AREA_SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- 这个区域取代了到目前为止计算的任何重力/阻尼，但继续计算其余的区域，直到默认的区域。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:705
+msgid "enum **BodyMode**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:707
+msgid "**BODY_MODE_STATIC** = **0** --- StaticBody 的常量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:709
+msgid "**BODY_MODE_KINEMATIC** = **1** --- KinematicBody 的常数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:711
+msgid "**BODY_MODE_RIGID** = **2** --- RigidBody 的常数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:713
+msgid "**BODY_MODE_CHARACTER** = **3** --- 角色模式下刚体的常数。在这种模式下，物体不能旋转，只有它的线速度受物理运算影响。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:733
+msgid "enum **BodyParameter**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:735
+msgid "**BODY_PARAM_BOUNCE** = **0** --- 常数，用于设置/获取物体的反弹系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:737
+msgid "**BODY_PARAM_FRICTION** = **1** --- 常数，用于设置/获取一个物体的摩擦力。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:739
+msgid "**BODY_PARAM_MASS** = **2** --- 设置/获取一个物体的质量的常数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:741
+msgid "**BODY_PARAM_GRAVITY_SCALE** = **3** --- 常数，用于设置/获取一个物体的重力倍数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:743
+msgid "**BODY_PARAM_LINEAR_DAMP** = **4** --- 常数，用于设置/获取一个物体的线性阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:745
+msgid "**BODY_PARAM_ANGULAR_DAMP** = **5** --- 常数，用于设置/获取一个物体的角度阻尼系数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:747
+msgid "**BODY_PARAM_MAX** = **6** --- 表示\\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:763
+msgid "enum **BodyState**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:765
+msgid "**BODY_STATE_TRANSFORM** = **0** --- 常数，用于设置/获取物体的当前变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:767
+msgid "**BODY_STATE_LINEAR_VELOCITY** = **1** --- 常数，用于设置/获取物体的当前线速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:769
+msgid "**BODY_STATE_ANGULAR_VELOCITY** = **2** --- 常数，用于设置/获取物体的当前角速度。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:771
+msgid "**BODY_STATE_SLEEPING** = **3** --- 常数，用于使物体沉睡/唤醒，或得到它是否在沉睡。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:773
+msgid "**BODY_STATE_CAN_SLEEP** = **4** --- 常量，用于设置/获取物体是否可以休眠。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:783
+msgid "enum **AreaBodyStatus**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:785
+msgid "**AREA_BODY_ADDED** = **0** --- 当对象进入其形状之一时，第一个参数和区域回调函数接收的值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:787
+msgid "**AREA_BODY_REMOVED** = **1** --- 当对象退出其形状之一时，第一个参数和区域回调函数接收的值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:799
+msgid "enum **ProcessInfo**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:801
+msgid "**INFO_ACTIVE_OBJECTS** = **0** --- 常量，用来获取未处于睡眠状态的对象的数量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:803
+msgid "**INFO_COLLISION_PAIRS** = **1** --- 常数，用以获取可能的碰撞数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:805
+msgid "**INFO_ISLAND_COUNT** = **2** --- 常量，用以获取可能发生碰撞的空间区域数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:827
+msgid "enum **SpaceParameter**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:829
+msgid "**SPACE_PARAM_CONTACT_RECYCLE_RADIUS** = **0** --- 常数，用于设置/获取一对物体在其碰撞状态被重新计算之前的最大移动距离。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:831
+msgid "**SPACE_PARAM_CONTACT_MAX_SEPARATION** = **1** --- 常数，用于设置/获取形状在被视为分离之前与另一形状之间的最大距离。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:833
+msgid "**SPACE_PARAM_BODY_MAX_ALLOWED_PENETRATION** = **2** --- 常数，用来设置/得到一个形状在被认为碰撞之前穿透另一个形状的最大距离。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:835
+msgid "**SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD** = **3** --- 常数，用于设置/获取活跃的阈值线速度。一个被标记为线性速度和角速度都可能不活跃的物体将在给定的时间后进入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:837
+msgid "**SPACE_PARAM_BODY_ANGULAR_VELOCITY_SLEEP_THRESHOLD** = **4** --- 常数，用于设置/获取活动的阈值角速度。一个被标记为线性和角速度都可能不活跃的物体，在给定的时间后将会进入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:839
+msgid "**SPACE_PARAM_BODY_TIME_TO_SLEEP** = **5** --- 常数来设置/获得最大的活动时间。一个被标记为线速度和角速度都可能不活动的物体，在这个时间之后将被置入睡眠状态。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:841
+msgid "**SPACE_PARAM_BODY_ANGULAR_VELOCITY_DAMP_RATIO** = **6**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:843
+msgid "**SPACE_PARAM_CONSTRAINT_DEFAULT_BIAS** = **7** --- 常数，用于设置/获取所有物理约束的默认求解器偏置。解算器偏差是一个控制两个物体在违反约束后 \"反弹 \"程度的因素，以避免由于数值不精确而使它们处于这种状态。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:861
+msgid "enum **BodyAxis**:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:863
+msgid "**BODY_AXIS_LINEAR_X** = **1**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:865
+msgid "**BODY_AXIS_LINEAR_Y** = **2**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:867
+msgid "**BODY_AXIS_LINEAR_Z** = **4**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:869
+msgid "**BODY_AXIS_ANGULAR_X** = **8**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:871
+msgid "**BODY_AXIS_ANGULAR_Y** = **16**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:873
+msgid "**BODY_AXIS_ANGULAR_Z** = **32**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:876
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:880
+msgid "void **area_add_shape** **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` shape, :ref:`Transform<class_Transform>` transform=Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:882
+msgid "向区域添加一个形状，以及一个变换矩阵。形状通常通过它们的索引来引用，因此您应该跟踪哪个形状具有给定的索引。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:888
+msgid "void **area_attach_object_instance_id** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:890
+#: ../classes/class_physicsserver.rst:1158
+msgid "将区域分配给\\ :ref:`Object<class_Object>`\\ 的子类，因此它可以存在于节点树中。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:896
+msgid "void **area_clear_shapes** **(** :ref:`RID<class_RID>` area **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:898
+msgid "从一个区域移除所有形状。它不会删除形状，因此它们可以稍后重新分配。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:904
+msgid ":ref:`RID<class_RID>` **area_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:906
+msgid "创建一个\\ :ref:`Area<class_Area>`\\ 区域。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:912
+msgid ":ref:`int<class_int>` **area_get_object_instance_id** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:914
+#: ../classes/class_physicsserver.rst:1228
+msgid "获取区域分配给的对象的实例ID。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:920
+msgid ":ref:`Variant<class_Variant>` **area_get_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:922
+msgid "返回区域参数值。可用参数列表位于\\ :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\\ 常量上。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:928
+msgid ":ref:`RID<class_RID>` **area_get_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:930
+msgid "返回区域的第n个形状的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:936
+msgid ":ref:`int<class_int>` **area_get_shape_count** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:938
+msgid "返回分配给区域的形状数量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:944
+msgid ":ref:`Transform<class_Transform>` **area_get_shape_transform** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:946
+msgid "返回区域内形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:952
+msgid ":ref:`RID<class_RID>` **area_get_space** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:954
+msgid "返回分配给该区域的空间。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:960
+msgid ":ref:`AreaSpaceOverrideMode<enum_PhysicsServer_AreaSpaceOverrideMode>` **area_get_space_override_mode** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:962
+msgid "返回该区域的空间覆盖模式。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:968
+msgid ":ref:`Transform<class_Transform>` **area_get_transform** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:970
+msgid "返回区域的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:976
+msgid ":ref:`bool<class_bool>` **area_is_ray_pickable** **(** :ref:`RID<class_RID>` area **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:978
+msgid "如果\\ ``true``\\ ，则区域与光线碰撞。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:984
+msgid "void **area_remove_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:986
+msgid "从区域中移除一个形状。它不会删除形状，因此可以稍后重新分配。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:992
+msgid "void **area_set_area_monitor_callback** **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:998
+msgid "void **area_set_collision_layer** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1000
+msgid "将区域分配给一个或多个物理层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1006
+msgid "void **area_set_collision_mask** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1008
+msgid "设置区域将监控的物理层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1014
+msgid "void **area_set_monitor_callback** **(** :ref:`RID<class_RID>` area, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1016
+msgid "设置当任何主体/区域进入或退出该区域时调用的函数。这个回调函数将被任何与区域交互的对象调用，并接受5个参数:"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1018
+msgid "1: :ref:`AREA_BODY_ADDED<class_PhysicsServer_constant_AREA_BODY_ADDED>`\\ 或\\ :ref:`AREA_BODY_REMOVED<class_PhysicsServer_constant_AREA_BODY_REMOVED>`\\ ，取决于对象是否进入或退出该区域。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1020
+msgid "2:进入/退出该区域对象的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1022
+msgid "3:进入/退出该区域对象的实例ID。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1024
+msgid "4:进入/离开该区域的物体的形状指数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1026
+msgid "5:物体进入/离开区域的形状指数。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1032
+msgid "void **area_set_monitorable** **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` monitorable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1038
+msgid "void **area_set_param** **(** :ref:`RID<class_RID>` area, :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1040
+msgid "设置面积参数的值。可用参数列表位于\\ :ref:`AreaParameter<enum_PhysicsServer_AreaParameter>`\\ 常量上。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1046
+msgid "void **area_set_ray_pickable** **(** :ref:`RID<class_RID>` area, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1048
+msgid "设置可使用光线拾取的对象。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1054
+msgid "void **area_set_shape** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1056
+msgid "用另一种形状代替一种形状。旧的形状由它的索引选择，新的形状由它的\\ :ref:`RID<class_RID>`\\ 选择。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1062
+msgid "void **area_set_shape_disabled** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1068
+msgid "void **area_set_shape_transform** **(** :ref:`RID<class_RID>` area, :ref:`int<class_int>` shape_idx, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1070
+msgid "设置区域形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1076
+msgid "void **area_set_space** **(** :ref:`RID<class_RID>` area, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1078
+msgid "为该区域指定一个空间。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1084
+msgid "void **area_set_space_override_mode** **(** :ref:`RID<class_RID>` area, :ref:`AreaSpaceOverrideMode<enum_PhysicsServer_AreaSpaceOverrideMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1086
+msgid "设置区域的空间替代模式。\\ :ref:`AreaSpaceOverrideMode<enum_PhysicsServer_AreaSpaceOverrideMode>`\\ 常量中描述了这些模式。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1092
+msgid "void **area_set_transform** **(** :ref:`RID<class_RID>` area, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1094
+msgid "设置区域的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1100
+msgid "void **body_add_central_force** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` force **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1106
+msgid "void **body_add_collision_exception** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1108
+msgid "将一个物体添加到免于碰撞的物体列表中。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1114
+msgid "void **body_add_force** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` force, :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1120
+msgid "void **body_add_shape** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` shape, :ref:`Transform<class_Transform>` transform=Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ), :ref:`bool<class_bool>` disabled=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1122
+msgid "添加一个形状到物体，以及一个变换矩阵。形状通常通过它们的索引来引用，因此您应该跟踪哪个形状具有给定的索引。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1128
+msgid "void **body_add_torque** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` torque **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1134
+msgid "void **body_apply_central_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1140
+msgid "void **body_apply_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` position, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1142
+msgid "在\\ ``position``\\ impulse\\ ``冲量方向推动物体``\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1148
+msgid "void **body_apply_torque_impulse** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` impulse **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1150
+msgid "推动物体旋转。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1156
+msgid "void **body_attach_object_instance_id** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1164
+msgid "void **body_clear_shapes** **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1166
+msgid "从物体上移除所有碰撞形状。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1172
+msgid ":ref:`RID<class_RID>` **body_create** **(** :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode=2, :ref:`bool<class_bool>` init_sleeping=false **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1174
+msgid "创建物理体。对于创建的物体类型，第一个参数可以是\\ :ref:`BodyMode<enum_PhysicsServer_BodyMode>`\\ 常量中的任何值。此外，物体可以在休眠状态下创建，以节省处理时间。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1180
+msgid ":ref:`int<class_int>` **body_get_collision_layer** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1182
+msgid "返回物体所属的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1188
+msgid ":ref:`int<class_int>` **body_get_collision_mask** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1190
+msgid "返回物体可以碰撞的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1196
+msgid ":ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>` **body_get_direct_state** **(** :ref:`RID<class_RID>` body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1198
+msgid "返回该物体的 :ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>`\\ 。如果物体已被销毁或已被移出物理空间，则返回 ``null``\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1204
+msgid ":ref:`float<class_float>` **body_get_kinematic_safe_margin** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1210
+msgid ":ref:`int<class_int>` **body_get_max_contacts_reported** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1212
+msgid "返回可报告的最大接触数。参阅\\ :ref:`body_set_max_contacts_reported<class_PhysicsServer_method_body_set_max_contacts_reported>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1218
+msgid ":ref:`BodyMode<enum_PhysicsServer_BodyMode>` **body_get_mode** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1220
+msgid "返回物体模式。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1226
+msgid ":ref:`int<class_int>` **body_get_object_instance_id** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1234
+msgid ":ref:`float<class_float>` **body_get_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1236
+msgid "返回物体参数的值。可用参数列表位于\\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\\ 常量上。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1242
+msgid ":ref:`RID<class_RID>` **body_get_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1244
+msgid "返回body的第n个碰撞形状的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1250
+msgid ":ref:`int<class_int>` **body_get_shape_count** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1252
+msgid "返回分配给物体的碰撞形状数量。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1258
+msgid ":ref:`Transform<class_Transform>` **body_get_shape_transform** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1260
+msgid "返回物体碰撞形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1266
+msgid ":ref:`RID<class_RID>` **body_get_space** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1268
+msgid "返回分配给物体的空间的\\ :ref:`RID<class_RID>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1274
+msgid ":ref:`Variant<class_Variant>` **body_get_state** **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_PhysicsServer_BodyState>` state **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1276
+msgid "返回物体的状态。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1282
+msgid ":ref:`bool<class_bool>` **body_is_axis_locked** **(** :ref:`RID<class_RID>` body, :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1288
+msgid ":ref:`bool<class_bool>` **body_is_continuous_collision_detection_enabled** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1290
+#: ../classes/class_physicsserver.rst:1362
+msgid "如果\\ ``true``\\ ，则启用连续碰撞检测模式。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1296
+msgid ":ref:`bool<class_bool>` **body_is_omitting_force_integration** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1298
+msgid "返回一个body是否使用回调函数来计算它自己的物理值(参阅body_set_force_integration_callback方法)。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1304
+msgid ":ref:`bool<class_bool>` **body_is_ray_pickable** **(** :ref:`RID<class_RID>` body **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1306
+msgid "如果\\ ``true``\\ ，物体可以被光线探测到。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1312
+msgid "void **body_remove_collision_exception** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` excepted_body **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1314
+msgid "从免于碰撞的实体列表中删除实体。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1316
+#: ../classes/class_physicsserver.rst:1364
+msgid "连续碰撞检测尝试预测运动物体碰撞的位置，而不是在碰撞时移动物体并纠正其运动。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1322
+msgid "void **body_remove_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1324
+msgid "从物体上移除一个碰撞形状。碰撞形状不会被从内存中删除，所以它可以在之后被重复使用。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1330
+msgid "void **body_set_axis_lock** **(** :ref:`RID<class_RID>` body, :ref:`BodyAxis<enum_PhysicsServer_BodyAxis>` axis, :ref:`bool<class_bool>` lock **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1336
+msgid "void **body_set_axis_velocity** **(** :ref:`RID<class_RID>` body, :ref:`Vector3<class_Vector3>` axis_velocity **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1338
+msgid "设置轴速度。给定向量轴上的速度将被设置为给定向量长度。这对跳跃行为很有用。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1344
+msgid "void **body_set_collision_layer** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1346
+msgid "设置物体所属的物理层或层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1352
+msgid "void **body_set_collision_mask** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` mask **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1354
+msgid "设置物理层或身体可以碰撞的层。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1360
+msgid "void **body_set_enable_continuous_collision_detection** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1370
+msgid "void **body_set_force_integration_callback** **(** :ref:`RID<class_RID>` body, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1372
+msgid "设置用于物体物理运算的函数，如果该物体允许的话，参阅\\ :ref:`body_set_omit_force_integration<class_PhysicsServer_method_body_set_omit_force_integration>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1378
+msgid "void **body_set_kinematic_safe_margin** **(** :ref:`RID<class_RID>` body, :ref:`float<class_float>` margin **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1384
+msgid "void **body_set_max_contacts_reported** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` amount **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1386
+msgid "设置要报告的最大关联数。物体可以保存与其他物体的关联日志，当最大数量的关联报告的数字大于 0 时才启用此功能。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1392
+msgid "void **body_set_mode** **(** :ref:`RID<class_RID>` body, :ref:`BodyMode<enum_PhysicsServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1394
+msgid "从\\ :ref:`BodyMode<enum_PhysicsServer_BodyMode>`\\ 常量之一设置主体模式。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1400
+msgid "void **body_set_omit_force_integration** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1402
+msgid "设置一个物体是否使用回调函数来计算它自己的物理(参阅 :ref:`body_set_force_integration_callback<class_PhysicsServer_method_body_set_force_integration_callback>`)。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1408
+msgid "void **body_set_param** **(** :ref:`RID<class_RID>` body, :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1410
+msgid "设置物体参数。可用参数列表位于\\ :ref:`BodyParameter<enum_PhysicsServer_BodyParameter>`\\ 常量上。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1416
+msgid "void **body_set_ray_pickable** **(** :ref:`RID<class_RID>` body, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1418
+msgid "如果设置了\\ ``enabled``\\ ，则设置可使用光线拾取的物体。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1424
+msgid "void **body_set_shape** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`RID<class_RID>` shape **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1426
+msgid "用一个给定的物体形状代替另一个。旧的形状是通过其索引选择的，新的是通过其\\ :ref:`RID<class_RID>`\\ 选择的。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1432
+msgid "void **body_set_shape_disabled** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1438
+msgid "void **body_set_shape_transform** **(** :ref:`RID<class_RID>` body, :ref:`int<class_int>` shape_idx, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1440
+msgid "设置物体形状的变换矩阵。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1446
+msgid "void **body_set_space** **(** :ref:`RID<class_RID>` body, :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1448
+msgid "给物体分配一个空间(参阅\\ :ref:`space_create<class_PhysicsServer_method_space_create>`)。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1454
+msgid "void **body_set_state** **(** :ref:`RID<class_RID>` body, :ref:`BodyState<enum_PhysicsServer_BodyState>` state, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1456
+msgid "设置主体状态（请参阅\\ :ref:`BodyState<enum_PhysicsServer_BodyState>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1462
+msgid ":ref:`bool<class_bool>` **body_test_motion** **(** :ref:`RID<class_RID>` body, :ref:`Transform<class_Transform>` from, :ref:`Vector3<class_Vector3>` motion, :ref:`bool<class_bool>` infinite_inertia, :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>` result=null, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :ref:`Array<class_Array>` exclude=[  ] **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1464
+msgid "如果从空间的给定点向给定方向移动会导致碰撞，则返回\\ ``true``\\ 。可以通过\\ :ref:`PhysicsTestMotionResult<class_PhysicsTestMotionResult>`\\ 来返回额外的信息。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1470
+msgid ":ref:`float<class_float>` **cone_twist_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1472
+msgid "获取圆锥体扭曲关节参数（请参阅\\ :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1478
+msgid "void **cone_twist_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1480
+msgid "设置圆锥体扭曲关节参数（请参阅\\ :ref:`ConeTwistJointParam<enum_PhysicsServer_ConeTwistJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1486
+msgid "void **free_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1488
+msgid "销毁由 PhysicsServer 创建的任何对象。如果传递的 :ref:`RID<class_RID>` 不是 PhysicsServer 可以创建的对象之一，则会向控制台发送错误。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1494
+msgid ":ref:`bool<class_bool>` **generic_6dof_joint_get_flag** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1496
+msgid "获取generic_6_DOF_joit flag（请参阅\\ :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1502
+msgid ":ref:`float<class_float>` **generic_6dof_joint_get_param** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1504
+msgid "获取 generic_6_DOF_joint 参数（请参阅\\ :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1510
+msgid "void **generic_6dof_joint_set_flag** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>` flag, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1512
+msgid "设置generic_6_DOF_joint flag（请参阅\\ :ref:`G6DOFJointAxisFlag<enum_PhysicsServer_G6DOFJointAxisFlag>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1518
+msgid "void **generic_6dof_joint_set_param** **(** :ref:`RID<class_RID>` joint, Vector3.Axis axis, :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1520
+msgid "设置 generic_6_DOF_joint参数（请参阅\\ :ref:`G6DOFJointAxisParam<enum_PhysicsServer_G6DOFJointAxisParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1526
+msgid ":ref:`int<class_int>` **get_process_info** **(** :ref:`ProcessInfo<enum_PhysicsServer_ProcessInfo>` process_info **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1528
+msgid "返回由给定的\\ :ref:`ProcessInfo<enum_PhysicsServer_ProcessInfo>`\\ 输入定义的信息。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1534
+msgid ":ref:`bool<class_bool>` **hinge_joint_get_flag** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1536
+msgid "获取铰链关节标志（请参阅\\ :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1542
+msgid ":ref:`float<class_float>` **hinge_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1544
+msgid "获取铰链关节参数（请参阅\\ :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1550
+msgid "void **hinge_joint_set_flag** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>` flag, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1552
+msgid "设置铰链关节标志（请参阅\\ :ref:`HingeJointFlag<enum_PhysicsServer_HingeJointFlag>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1558
+msgid "void **hinge_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1560
+msgid "设置铰链关节参数（请参阅\\ :ref:`HingeJointParam<enum_PhysicsServer_HingeJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1566
+msgid ":ref:`RID<class_RID>` **joint_create_cone_twist** **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1568
+msgid "创建一个\\ :ref:`ConeTwistJoint<class_ConeTwistJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1574
+msgid ":ref:`RID<class_RID>` **joint_create_generic_6dof** **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1576
+msgid "创建一个 :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`\\ 通用6向关节。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1582
+msgid ":ref:`RID<class_RID>` **joint_create_hinge** **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` hinge_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` hinge_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1584
+msgid "创建一个 :ref:`HingeJoint<class_HingeJoint>`\\ 关节。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1590
+msgid ":ref:`RID<class_RID>` **joint_create_pin** **(** :ref:`RID<class_RID>` body_A, :ref:`Vector3<class_Vector3>` local_A, :ref:`RID<class_RID>` body_B, :ref:`Vector3<class_Vector3>` local_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1592
+msgid "创建一个 :ref:`PinJoint<class_PinJoint>`\\ 图钉关节。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1598
+msgid ":ref:`RID<class_RID>` **joint_create_slider** **(** :ref:`RID<class_RID>` body_A, :ref:`Transform<class_Transform>` local_ref_A, :ref:`RID<class_RID>` body_B, :ref:`Transform<class_Transform>` local_ref_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1600
+msgid "创建一个 :ref:`SliderJoint<class_SliderJoint>`\\ 关节。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1606
+msgid ":ref:`int<class_int>` **joint_get_solver_priority** **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1608
+msgid "获取关节的优先级值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1614
+msgid ":ref:`JointType<enum_PhysicsServer_JointType>` **joint_get_type** **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1616
+msgid "返回关节的类型。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1622
+msgid "void **joint_set_solver_priority** **(** :ref:`RID<class_RID>` joint, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1624
+msgid "设置关节的优先级值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1630
+msgid ":ref:`Vector3<class_Vector3>` **pin_joint_get_local_a** **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1632
+msgid "返回关节在关节物体A的局部空间中的位置。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1638
+msgid ":ref:`Vector3<class_Vector3>` **pin_joint_get_local_b** **(** :ref:`RID<class_RID>` joint **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1640
+msgid "返回关节在关节物体B的局部空间中的位置。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1646
+msgid ":ref:`float<class_float>` **pin_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1648
+msgid "获取pin_joint参数（请参阅\\ :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1654
+msgid "void **pin_joint_set_local_a** **(** :ref:`RID<class_RID>` joint, :ref:`Vector3<class_Vector3>` local_A **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1656
+msgid "设置关节在关节物体A的局部空间中的位置。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1662
+msgid "void **pin_joint_set_local_b** **(** :ref:`RID<class_RID>` joint, :ref:`Vector3<class_Vector3>` local_B **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1664
+msgid "设置关节在关节物体B的局部空间中的位置。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1670
+msgid "void **pin_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1672
+msgid "设置pin_joint参数（请参阅\\ :ref:`PinJointParam<enum_PhysicsServer_PinJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1678
+msgid "void **set_active** **(** :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1680
+msgid "激活或停用3D物理引擎。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1686
+msgid "void **set_collision_iterations** **(** :ref:`int<class_int>` iterations **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1688
+msgid "设置计算碰撞体速度的迭代次数。迭代次数越多，碰撞就越准确。但是，更大量的迭代需要更多的 CPU 能力，这会降低性能。默认值为 ``8``\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1690
+msgid "\\ **注意：** 仅在使用 GaaeExplorerPhysics 引擎时有效，而不是默认的 Bullet 物理引擎。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1696
+msgid ":ref:`RID<class_RID>` **shape_create** **(** :ref:`ShapeType<enum_PhysicsServer_ShapeType>` type **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1698
+msgid "创建一个\\ :ref:`ShapeType<enum_PhysicsServer_ShapeType>`\\ 类型的形状。不把它分配给一个体或一个区域。要做到这一点，你必须使用\\ :ref:`area_set_shape<class_PhysicsServer_method_area_set_shape>`\\ 或\\ :ref:`body_set_shape<class_PhysicsServer_method_body_set_shape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1704
+msgid ":ref:`Variant<class_Variant>` **shape_get_data** **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1706
+msgid "返回形状数据。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1712
+msgid ":ref:`ShapeType<enum_PhysicsServer_ShapeType>` **shape_get_type** **(** :ref:`RID<class_RID>` shape **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1714
+msgid "返回形状的类型（请参阅\\ :ref:`ShapeType<enum_PhysicsServer_ShapeType>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1720
+msgid "void **shape_set_data** **(** :ref:`RID<class_RID>` shape, :ref:`Variant<class_Variant>` data **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1722
+msgid "设置定义形状和大小的形状数据。要传递的数据取决于创建的形状的类型\\ :ref:`shape_get_type<class_PhysicsServer_method_shape_get_type>`\\ 。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1728
+msgid ":ref:`float<class_float>` **slider_joint_get_param** **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1730
+#: ../classes/class_physicsserver.rst:1738
+msgid "获取slider_joint参数（请参阅\\ :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>`\\ 常量）。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1736
+msgid "void **slider_joint_set_param** **(** :ref:`RID<class_RID>` joint, :ref:`SliderJointParam<enum_PhysicsServer_SliderJointParam>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1744
+msgid ":ref:`RID<class_RID>` **space_create** **(** **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1746
+msgid "创建一个空间。空间是物理引擎的参数集合，可以分配给区域或主体。它可以通过\\ :ref:`area_set_space<class_PhysicsServer_method_area_set_space>`\\ 分配给一个区域，或者通过\\ :ref:`body_set_space<class_PhysicsServer_method_body_set_space>`\\ 分配给一个主体。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1752
+msgid ":ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>` **space_get_direct_state** **(** :ref:`RID<class_RID>` space **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1754
+msgid "返回空间的状态，\\ :ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>`\\ 。此对象可用于进行碰撞/相交查询。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1760
+msgid ":ref:`float<class_float>` **space_get_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1762
+msgid "返回空间参数的值。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1768
+msgid ":ref:`bool<class_bool>` **space_is_active** **(** :ref:`RID<class_RID>` space **)** |const|"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1770
+msgid "返回该空间是否是活动的。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1776
+msgid "void **space_set_active** **(** :ref:`RID<class_RID>` space, :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1778
+msgid "将空间标记为活动空间。它不会有效果，除非它被分配到一个区域或物体。"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1784
+msgid "void **space_set_param** **(** :ref:`RID<class_RID>` space, :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_physicsserver.rst:1786
+msgid "设置空间参数的值。可用参数列表位于\\ :ref:`SpaceParameter<enum_PhysicsServer_SpaceParameter>`\\ 常量上。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_cubemap.rst:10
+msgid "CubeMap"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:14
+msgid "CubeMap 是一种 6 面 3D 纹理。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:19
+msgid "通常用于伪造反射的 6 面 3D 纹理。它可用于使对象看起来好像在反射其周围环境。这通常比其他反射方法提供更好的性能。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:25
+#: ../classes/class_cubemap.rst:36
+#: ../classes/class_cubemap.rst:40
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:25
+msgid ":ref:`flags<class_CubeMap_property_flags>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:25
+#: ../classes/class_cubemap.rst:124
+msgid "``7``"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:27
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:27
+msgid ":ref:`lossy_storage_quality<class_CubeMap_property_lossy_storage_quality>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:27
+#: ../classes/class_cubemap.rst:140
+msgid "``0.7``"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:29
+msgid ":ref:`Storage<enum_CubeMap_Storage>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:29
+msgid ":ref:`storage_mode<class_CubeMap_property_storage_mode>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:29
+#: ../classes/class_cubemap.rst:156
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:33
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:36
+msgid ":ref:`get_height<class_CubeMap_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:38
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:38
+msgid ":ref:`get_side<class_CubeMap_method_get_side>` **(** :ref:`Side<enum_CubeMap_Side>` side **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:40
+msgid ":ref:`get_width<class_CubeMap_method_get_width>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:42
+msgid "void"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:42
+msgid ":ref:`set_side<class_CubeMap_method_set_side>` **(** :ref:`Side<enum_CubeMap_Side>` side, :ref:`Image<class_Image>` image **)**"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:46
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:56
+msgid "enum **Storage**:"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:58
+msgid "**STORAGE_RAW** = **0** --- 存储\\ ``CubeMap``\\ 而不进行任何压缩。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:60
+msgid "**STORAGE_COMPRESS_LOSSY** = **1** --- 以降低图像质量的强压缩方式存储 ``CubeMap``\\ 。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:62
+msgid "**STORAGE_COMPRESS_LOSSLESS** = **2** --- 以不降低图像质量的适度压缩方式存储 ``CubeMap``\\ 。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:80
+msgid "enum **Side**:"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:82
+msgid "**SIDE_LEFT** = **0** --- ``CubeMap`` 左面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:84
+msgid "**SIDE_RIGHT** = **1** --- ``CubeMap`` 右面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:86
+msgid "**SIDE_BOTTOM** = **2** --- ``CubeMap`` 底面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:88
+msgid "**SIDE_TOP** = **3** --- ``CubeMap`` 顶面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:90
+msgid "**SIDE_FRONT** = **4** --- ``CubeMap`` 正面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:92
+msgid "**SIDE_BACK** = **5** --- ``CubeMap`` 背面的标识符。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:106
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:108
+msgid "**FLAG_MIPMAPS** = **1** --- 生成 mipmap 多级渐远纹理，以实现纹理的平滑缩放。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:110
+msgid "**FLAG_REPEAT** = **2** --- 重复（而不是限制到边缘）。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:112
+msgid "**FLAG_FILTER** = **4** --- 打开放大滤镜，使纹理平滑放大。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:114
+msgid "**FLAGS_DEFAULT** = **7** --- 默认标志。启用生成 mipmap、重复和滤镜。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:117
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:121
+msgid ":ref:`int<class_int>` **flags**"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:124
+#: ../classes/class_cubemap.rst:140
+#: ../classes/class_cubemap.rst:156
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:126
+#: ../classes/class_cubemap.rst:142
+#: ../classes/class_cubemap.rst:158
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:126
+msgid "set_flags(value)"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:128
+#: ../classes/class_cubemap.rst:144
+#: ../classes/class_cubemap.rst:160
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:128
+msgid "get_flags()"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:131
+msgid "``CubeMap`` 的渲染标志。有关详细信息，请参阅 :ref:`Flags<enum_CubeMap_Flags>` 常量。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:137
+msgid ":ref:`float<class_float>` **lossy_storage_quality**"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:142
+msgid "set_lossy_storage_quality(value)"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:144
+msgid "get_lossy_storage_quality()"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:147
+msgid "如果存储模式设置为 :ref:`STORAGE_COMPRESS_LOSSY<class_CubeMap_constant_STORAGE_COMPRESS_LOSSY>`\\ ，则 ``CubeMap`` 为有损存储质量。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:153
+msgid ":ref:`Storage<enum_CubeMap_Storage>` **storage_mode**"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:158
+msgid "set_storage(value)"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:160
+msgid "get_storage()"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:163
+msgid "``CubeMap`` 的存储模式。参阅 :ref:`Storage<enum_CubeMap_Storage>` 常量。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:166
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:170
+msgid ":ref:`int<class_int>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:172
+msgid "返回\\ ``CubeMap``\\ 的高度。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:178
+msgid ":ref:`Image<class_Image>` **get_side** **(** :ref:`Side<enum_CubeMap_Side>` side **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:180
+msgid "使用 :ref:`Side<enum_CubeMap_Side>` 边常数之一返回 ``CubeMap`` 的一个侧面图像 :ref:`Image<class_Image>`\\ 。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:186
+msgid ":ref:`int<class_int>` **get_width** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:188
+msgid "返回\\ ``CubeMap``\\ 的宽度。"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:194
+msgid "void **set_side** **(** :ref:`Side<enum_CubeMap_Side>` side, :ref:`Image<class_Image>` image **)**"
+msgstr ""
+
+#: ../classes/class_cubemap.rst:196
+msgid "为 ``CubeMap`` 的一个边设置图像 :ref:`Image<class_Image>`\\ ，使用枚举边 :ref:`Side<enum_CubeMap_Side>`\\ 常数之一。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

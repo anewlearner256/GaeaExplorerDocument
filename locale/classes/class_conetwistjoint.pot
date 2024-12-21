@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_conetwistjoint.rst:10
+msgid "ConeTwistJoint"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:12
+msgid "**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:14
+msgid "两个 3D PhysicsBody 之间的扭转关节。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:19
+msgid "关节可以在 :ref:`Joint<class_Joint>` 的局部 x 轴定义的轴上旋转物体。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:21
+msgid "扭转轴是以 :ref:`Joint<class_Joint>` 的 X 轴为起始。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:23
+msgid "一旦物体摆动，扭转轴就会被计算为两个物体的局部空间中的 Joint 的 X 轴的中间位置。请参阅 :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`\\ 。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:29
+#: ../classes/class_conetwistjoint.rst:31
+#: ../classes/class_conetwistjoint.rst:33
+#: ../classes/class_conetwistjoint.rst:35
+#: ../classes/class_conetwistjoint.rst:37
+#: ../classes/class_conetwistjoint.rst:44
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:29
+msgid ":ref:`bias<class_ConeTwistJoint_property_bias>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:29
+#: ../classes/class_conetwistjoint.rst:98
+msgid "``0.3``"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:31
+msgid ":ref:`relaxation<class_ConeTwistJoint_property_relaxation>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:31
+#: ../classes/class_conetwistjoint.rst:116
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:33
+msgid ":ref:`softness<class_ConeTwistJoint_property_softness>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:33
+#: ../classes/class_conetwistjoint.rst:132
+msgid "``0.8``"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:35
+msgid ":ref:`swing_span<class_ConeTwistJoint_property_swing_span>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:35
+#: ../classes/class_conetwistjoint.rst:148
+msgid "``45.0``"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:37
+msgid ":ref:`twist_span<class_ConeTwistJoint_property_twist_span>`"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:37
+#: ../classes/class_conetwistjoint.rst:166
+msgid "``180.0``"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:44
+msgid ":ref:`get_param<class_ConeTwistJoint_method_get_param>` **(** :ref:`Param<enum_ConeTwistJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:46
+msgid "void"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:46
+msgid ":ref:`set_param<class_ConeTwistJoint_method_set_param>` **(** :ref:`Param<enum_ConeTwistJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:50
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:66
+msgid "enum **Param**:"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:68
+msgid "**PARAM_SWING_SPAN** = **0** --- 摆动是围绕垂直于扭转轴的轴线从一边到另一边的旋转。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:70
+#: ../classes/class_conetwistjoint.rst:153
+msgid "摆动跨度定义了，多少旋转不会沿着摆动轴得到纠正。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:72
+#: ../classes/class_conetwistjoint.rst:155
+msgid "可以定义\\ ``ConeTwistJoint``\\ 的松动性。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:74
+#: ../classes/class_conetwistjoint.rst:157
+msgid "如果低于0.05，此行为被锁定。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:76
+msgid "**PARAM_TWIST_SPAN** = **1** --- 扭曲是绕扭曲轴的旋转，此值定义了关节可以扭曲多远。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:78
+#: ../classes/class_conetwistjoint.rst:171
+msgid "如果低于0.05，则扭曲被锁定。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:80
+msgid "**PARAM_BIAS** = **2** --- 摆动或扭转的速度。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:82
+#: ../classes/class_conetwistjoint.rst:107
+msgid "越高，速度越快。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:84
+msgid "**PARAM_SOFTNESS** = **3** --- 关节开始扭曲的难易程度。如果太低，则需要更多的力才能开始扭转关节。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:86
+msgid "**PARAM_RELAXATION** = **4** --- 定义两侧的摆动速度和扭转速度差异同步的速度。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:88
+msgid "**PARAM_MAX** = **5** --- 表示 :ref:`Param<enum_ConeTwistJoint_Param>` 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:91
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:95
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:98
+#: ../classes/class_conetwistjoint.rst:116
+#: ../classes/class_conetwistjoint.rst:132
+#: ../classes/class_conetwistjoint.rst:148
+#: ../classes/class_conetwistjoint.rst:166
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:100
+#: ../classes/class_conetwistjoint.rst:118
+#: ../classes/class_conetwistjoint.rst:134
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:100
+#: ../classes/class_conetwistjoint.rst:118
+#: ../classes/class_conetwistjoint.rst:134
+msgid "set_param(value)"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:102
+#: ../classes/class_conetwistjoint.rst:120
+#: ../classes/class_conetwistjoint.rst:136
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:102
+#: ../classes/class_conetwistjoint.rst:120
+#: ../classes/class_conetwistjoint.rst:136
+msgid "get_param()"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:105
+msgid "摆动或扭转的速度。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:113
+msgid ":ref:`float<class_float>` **relaxation**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:123
+msgid "定义两侧的摆动速度和扭转速度差异同步的速度。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:129
+msgid ":ref:`float<class_float>` **softness**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:139
+msgid "关节开始扭曲的难易程度。如果太低，则需要更多的力才能开始扭转关节。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:145
+msgid ":ref:`float<class_float>` **swing_span**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:151
+msgid "摆动是围绕垂直于扭转轴的轴线从一边到另一边的旋转。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:163
+msgid ":ref:`float<class_float>` **twist_span**"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:169
+msgid "扭曲是绕扭曲轴的旋转，此值定义了关节可以扭曲多远。"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:174
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:178
+msgid ":ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_ConeTwistJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../classes/class_conetwistjoint.rst:184
+msgid "void **set_param** **(** :ref:`Param<enum_ConeTwistJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

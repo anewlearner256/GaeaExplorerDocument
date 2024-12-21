@@ -1,0 +1,415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_animationnode.rst:10
+msgid "AnimationNode"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:14
+msgid "**Inherited By:** :ref:`AnimationNodeAdd2<class_AnimationNodeAdd2>`, :ref:`AnimationNodeAdd3<class_AnimationNodeAdd3>`, :ref:`AnimationNodeBlend2<class_AnimationNodeBlend2>`, :ref:`AnimationNodeBlend3<class_AnimationNodeBlend3>`, :ref:`AnimationNodeOneShot<class_AnimationNodeOneShot>`, :ref:`AnimationNodeOutput<class_AnimationNodeOutput>`, :ref:`AnimationNodeTimeScale<class_AnimationNodeTimeScale>`, :ref:`AnimationNodeTimeSeek<class_AnimationNodeTimeSeek>`, :ref:`AnimationNodeTransition<class_AnimationNodeTransition>`, :ref:`AnimationRootNode<class_AnimationRootNode>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:16
+msgid ":ref:`AnimationTree<class_AnimationTree>`\\ 节点的基础资源。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:21
+msgid ":ref:`AnimationTree<class_AnimationTree>` 节点的基础资源。通常，它不是直接使用的，但是您可以使用自定义混合公式创建自定义的。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:23
+msgid "在创建主要用于 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的节点时，继承该属性，否则应改用 :ref:`AnimationRootNode<class_AnimationRootNode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:26
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:28
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:31
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:34
+#: ../classes/class_animationnode.rst:67
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:34
+msgid ":ref:`filter_enabled<class_AnimationNode_property_filter_enabled>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:38
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:41
+#: ../classes/class_animationnode.rst:43
+#: ../classes/class_animationnode.rst:69
+#: ../classes/class_animationnode.rst:71
+#: ../classes/class_animationnode.rst:73
+#: ../classes/class_animationnode.rst:75
+msgid "void"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:41
+msgid ":ref:`add_input<class_AnimationNode_method_add_input>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:43
+msgid ":ref:`blend_animation<class_AnimationNode_method_blend_animation>` **(** :ref:`String<class_String>` animation, :ref:`float<class_float>` time, :ref:`float<class_float>` delta, :ref:`bool<class_bool>` seeked, :ref:`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:45
+#: ../classes/class_animationnode.rst:47
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:45
+msgid ":ref:`blend_input<class_AnimationNode_method_blend_input>` **(** :ref:`int<class_int>` input_index, :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek, :ref:`float<class_float>` blend, :ref:`FilterAction<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:47
+msgid ":ref:`blend_node<class_AnimationNode_method_blend_node>` **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek, :ref:`float<class_float>` blend, :ref:`FilterAction<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:49
+#: ../classes/class_animationnode.rst:57
+#: ../classes/class_animationnode.rst:65
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:49
+msgid ":ref:`get_caption<class_AnimationNode_method_get_caption>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:51
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:51
+msgid ":ref:`get_child_by_name<class_AnimationNode_method_get_child_by_name>` **(** :ref:`String<class_String>` name **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:53
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:53
+msgid ":ref:`get_child_nodes<class_AnimationNode_method_get_child_nodes>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:55
+msgid ":ref:`get_input_count<class_AnimationNode_method_get_input_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:57
+msgid ":ref:`get_input_name<class_AnimationNode_method_get_input_name>` **(** :ref:`int<class_int>` input **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:59
+#: ../classes/class_animationnode.rst:61
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:59
+msgid ":ref:`get_parameter<class_AnimationNode_method_get_parameter>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:61
+msgid ":ref:`get_parameter_default_value<class_AnimationNode_method_get_parameter_default_value>` **(** :ref:`String<class_String>` name **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:63
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:63
+msgid ":ref:`get_parameter_list<class_AnimationNode_method_get_parameter_list>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:65
+msgid ":ref:`has_filter<class_AnimationNode_method_has_filter>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:67
+msgid ":ref:`is_path_filtered<class_AnimationNode_method_is_path_filtered>` **(** :ref:`NodePath<class_NodePath>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:69
+msgid ":ref:`process<class_AnimationNode_method_process>` **(** :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:71
+msgid ":ref:`remove_input<class_AnimationNode_method_remove_input>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:73
+msgid ":ref:`set_filter_path<class_AnimationNode_method_set_filter_path>` **(** :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:75
+msgid ":ref:`set_parameter<class_AnimationNode_method_set_parameter>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:79
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:83
+msgid "**removed_from_graph** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:85
+msgid "当该节点从图中删除时调用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:91
+msgid "**tree_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:93
+msgid "由继承自该类且内部有树的节点发出，当其一个节点发生变化时。发出此信号的节点有\\ :ref:`AnimationNodeBlendSpace1D<class_AnimationNodeBlendSpace1D>`\\ 、\\ :ref:`AnimationNodeBlendSpace2D<class_AnimationNodeBlendSpace2D>`\\ 、\\ :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>`\\ 和\\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:96
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:108
+msgid "enum **FilterAction**:"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:110
+msgid "**FILTER_IGNORE** = **0** --- 不要使用过滤功能。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:112
+msgid "**FILTER_PASS** = **1** --- 匹配过滤器的路径将被允许通过。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:114
+msgid "**FILTER_STOP** = **2** --- 与过滤器匹配的路径将被丢弃。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:116
+msgid "**FILTER_BLEND** = **3** --- 与滤镜相匹配的路径将被混合（根据混合值）。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:119
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:123
+msgid ":ref:`bool<class_bool>` **filter_enabled**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:126
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:126
+msgid "set_filter_enabled(value)"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:128
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:128
+msgid "is_filter_enabled()"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:131
+msgid "如果\\ ``true``\\ ，则启用过滤功能。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:134
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:138
+msgid "void **add_input** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:140
+msgid "为节点添加一个输入。这只对创建用于 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 的节点有用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:146
+msgid "void **blend_animation** **(** :ref:`String<class_String>` animation, :ref:`float<class_float>` time, :ref:`float<class_float>` delta, :ref:`bool<class_bool>` seeked, :ref:`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:148
+msgid "按 ``blend`` 量混合一个动画（名称必须在链接的 :ref:`AnimationPlayer<class_AnimationPlayer>` 中有效）。可以通过 ``time`` 和 ``delta``\\ ，以及是否发生 ``seek``\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:154
+msgid ":ref:`float<class_float>` **blend_input** **(** :ref:`int<class_int>` input_index, :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek, :ref:`float<class_float>` blend, :ref:`FilterAction<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:156
+msgid "混合一个输入。这只对为 :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>` 创建的节点有用。\\ ``time`` 参数是一个相对三角，除非 ``seek`` 是 ``true``\\ ，在这种情况下，它是绝对值。可以选择传递过滤模式（选项请参阅 :ref:`FilterAction<enum_AnimationNode_FilterAction>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:162
+msgid ":ref:`float<class_float>` **blend_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek, :ref:`float<class_float>` blend, :ref:`FilterAction<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:164
+msgid "混合另一个动画节点（在这个节点包含子动画节点的情况下）。这个函数只有在你继承 :ref:`AnimationRootNode<class_AnimationRootNode>` 而不是 :ref:`AnimationRootNode<class_AnimationRootNode>` 时才有用，否则编辑器将不会显示你的节点进行添加。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:170
+msgid ":ref:`String<class_String>` **get_caption** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:172
+msgid "获取此节点的文本标题（由某些编辑器使用）。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:178
+msgid ":ref:`Object<class_Object>` **get_child_by_name** **(** :ref:`String<class_String>` name **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:180
+msgid "按索引获取一个子节点（由继承 :ref:`AnimationRootNode<class_AnimationRootNode>` 的编辑器使用）。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:186
+msgid ":ref:`Dictionary<class_Dictionary>` **get_child_nodes** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:188
+msgid "按照 ``name: node`` 字典的顺序获取所有子节点。仅在继承 :ref:`AnimationRootNode<class_AnimationRootNode>` 时有用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:194
+msgid ":ref:`int<class_int>` **get_input_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:196
+msgid "这个节点的输入数量，只对进入\\ :ref:`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`\\ 的节点有用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:202
+msgid ":ref:`String<class_String>` **get_input_name** **(** :ref:`int<class_int>` input **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:204
+msgid "通过索引获取输入的名称。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:210
+msgid ":ref:`Variant<class_Variant>` **get_parameter** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:212
+msgid "获取一个参数的值。参数是你的节点使用的自定义本地存储，给定的资源可以在多个树中重复使用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:218
+msgid ":ref:`Variant<class_Variant>` **get_parameter_default_value** **(** :ref:`String<class_String>` name **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:220
+msgid "获取一个参数的默认值。参数是用于节点的自定义本地内存，给定资源可以在多个树中重用。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:226
+msgid ":ref:`Array<class_Array>` **get_parameter_list** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:228
+msgid "获取参数的属性信息。参数是你的节点使用的自定义本地存储，给定的资源可以在多个树中重复使用。格式类似于\\ :ref:`Object.get_property_list<class_Object_method_get_property_list>`\\ 。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:234
+msgid ":ref:`String<class_String>` **has_filter** **(** **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:236
+msgid "返回\\ ``true``\\ ，是否希望混合树编辑器在此节点上显示过滤器编辑。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:242
+msgid ":ref:`bool<class_bool>` **is_path_filtered** **(** :ref:`NodePath<class_NodePath>` path **)** |const|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:244
+msgid "返回\\ ``true``\\ 是否对指定路径进行过滤。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:250
+msgid "void **process** **(** :ref:`float<class_float>` time, :ref:`bool<class_bool>` seek **)** |virtual|"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:252
+msgid "当一个自定义节点被处理时，用户定义的回调被调用。\\ ``time``\\ 参数是一个相对的delta，除非\\ ``seek``\\ 是\\ ``true``\\ ，在这种情况下，它是绝对的。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:254
+msgid "在这里，调用\\ :ref:`blend_input<class_AnimationNode_method_blend_input>`\\ 、\\ :ref:`blend_node<class_AnimationNode_method_blend_node>`\\ 或\\ :ref:`blend_animation<class_AnimationNode_method_blend_animation>`\\ 函数。你也可以使用\\ :ref:`get_parameter<class_AnimationNode_method_get_parameter>`\\ 和\\ :ref:`set_parameter<class_AnimationNode_method_set_parameter>`\\ 来修改本地存储。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:256
+msgid "这个函数应该返回当前动画完成的剩余时间（如果不确定，请传递被调用的主混合值）。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:262
+msgid "void **remove_input** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:264
+msgid "删除输入，仅在处于非活动状态时调用此输入。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:270
+msgid "void **set_filter_path** **(** :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:272
+msgid "添加或删除筛选器的路径。"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:278
+msgid "void **set_parameter** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../classes/class_animationnode.rst:280
+msgid "设置一个自定义参数。这些参数被用作本地存储，因为资源可以在树或场景中重复使用。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

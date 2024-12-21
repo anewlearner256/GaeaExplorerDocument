@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_bool.rst:10
+msgid "bool"
+msgstr ""
+
+#: ../classes/class_bool.rst:12
+msgid "布尔型内置型。"
+msgstr ""
+
+#: ../classes/class_bool.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_bool.rst:17
+msgid "布尔是内置类型。有两个布尔值。\\ ``true``\\ 和\\ ``false``\\ 。你可以把它想象成有开或关状态的开关（1或0）。布尔在编程中用于条件语句的逻辑，如\\ ``if``\\ 语句。"
+msgstr ""
+
+#: ../classes/class_bool.rst:19
+msgid "布尔可以直接用于\\ ``if``\\ 语句中。下面的代码在\\ ``if can_shoot:``\\ 行中演示了这一点。你不需要使用\\ ``==true``\\ ，你只需要\\ ``if can_shoot:``\\ 。同样地，使用\\ ``if not can_shoot:``\\ 而不是\\ ``== false``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:29
+msgid "下面的代码只有在两个条件都满足的情况下才会产生子弹：动作“shoot”被按下，并且如果\\ ``can_shoot``\\ 是\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:31
+msgid "\\ **注意：**\\ ``Input.is_action_pressed(\"shoot\")``\\ 也是一个布尔值，当“shoot”被按下时为\\ ``true``\\ ，当“shoot”没有被按下时为\\ ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:41
+msgid "下面的代码将把\\ ``can_shoot``\\ 设置为\\ ``false``\\ 并启动一个定时器。这将阻止玩家射击，直到定时器用完。然后\\ ``can_shoot``\\ 设置为\\ ``true``\\ ，再次允许玩家进行射击。"
+msgstr ""
+
+#: ../classes/class_bool.rst:58
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_bool.rst:61
+#: ../classes/class_bool.rst:63
+#: ../classes/class_bool.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_bool.rst:61
+msgid ":ref:`bool<class_bool_method_bool>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:63
+msgid ":ref:`bool<class_bool_method_bool>` **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:65
+msgid ":ref:`bool<class_bool_method_bool>` **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:69
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_bool.rst:73
+msgid ":ref:`bool<class_bool>` **bool** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:75
+msgid "将 :ref:`int<class_int>` 值转换为布尔值，传入 ``0`` 时，本方法将返回 ``false``\\ ，对于所有其他整数，本方法将返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:79
+msgid ":ref:`bool<class_bool>` **bool** **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:81
+msgid "将 :ref:`float<class_float>` 值转换为布尔值，如果传入 ``0.0``\\ ，本方法将返回 ``false``\\ ，对于其他所有的浮点数，本方法将返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:85
+msgid ":ref:`bool<class_bool>` **bool** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_bool.rst:87
+msgid "将 :ref:`String<class_String>` 值转换为布尔值，如果传入 ``\"\"``\\ ，本方法将返回 ``false``\\ ，对于所有非空字符串，本方法将返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_bool.rst:89
+msgid "示例：\\ ``bool(\"False\")`` 返回 ``true``\\ ，\\ ``bool(\"\")`` 返回 ``false``\\ 。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

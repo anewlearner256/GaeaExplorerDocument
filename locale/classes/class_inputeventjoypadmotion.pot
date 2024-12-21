@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_inputeventjoypadmotion.rst:10
+msgid "InputEventJoypadMotion"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:12
+msgid "**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:14
+msgid "用于游戏板操纵杆和其他动作的输入事件类型。对于按钮，见\\ ``InputEventJoypadButton``\\ 。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:19
+msgid "存储关于操纵杆运动的信息。一个\\ ``InputEventJoypadMotion``\\ 一次代表一个轴。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:24
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:30
+msgid ":ref:`axis<class_InputEventJoypadMotion_property_axis>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:30
+#: ../classes/class_inputeventjoypadmotion.rst:43
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:32
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:32
+msgid ":ref:`axis_value<class_InputEventJoypadMotion_property_axis_value>`"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:32
+#: ../classes/class_inputeventjoypadmotion.rst:59
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:36
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:40
+msgid ":ref:`int<class_int>` **axis**"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:43
+#: ../classes/class_inputeventjoypadmotion.rst:59
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:45
+#: ../classes/class_inputeventjoypadmotion.rst:61
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:45
+msgid "set_axis(value)"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:47
+#: ../classes/class_inputeventjoypadmotion.rst:63
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:47
+msgid "get_axis()"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:50
+msgid "轴标识符。使用 :ref:`JoystickList<enum_@GlobalScope_JoystickList>` 轴常量之一。"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:56
+msgid ":ref:`float<class_float>` **axis_value**"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:61
+msgid "set_axis_value(value)"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:63
+msgid "get_axis_value()"
+msgstr ""
+
+#: ../classes/class_inputeventjoypadmotion.rst:66
+msgid "操纵杆在给定轴上的当前位置。该值范围从\\ ``-1.0``\\ 到\\ ``1.0``\\ 。值为\\ ``0``\\ 意味着轴处于静止位置。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

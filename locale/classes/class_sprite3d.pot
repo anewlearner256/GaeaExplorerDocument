@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_sprite3d.rst:10
+msgid "Sprite3D"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:12
+msgid "**Inherits:** :ref:`SpriteBase3D<class_SpriteBase3D>` **<** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`CullInstance<class_CullInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:14
+msgid "3D 世界中的 2D 精灵节点。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:19
+msgid "在 3D 环境中显示 2D 纹理的节点。显示的纹理可以是来自较大图集纹理的区域，也可以是来自精灵表动画的帧。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:22
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:25
+#: ../classes/class_sprite3d.rst:29
+#: ../classes/class_sprite3d.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:25
+msgid ":ref:`frame<class_Sprite3D_property_frame>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:25
+#: ../classes/class_sprite3d.rst:57
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:27
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:27
+msgid ":ref:`frame_coords<class_Sprite3D_property_frame_coords>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:27
+#: ../classes/class_sprite3d.rst:73
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:29
+msgid ":ref:`hframes<class_Sprite3D_property_hframes>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:29
+#: ../classes/class_sprite3d.rst:37
+#: ../classes/class_sprite3d.rst:89
+#: ../classes/class_sprite3d.rst:151
+msgid "``1``"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:31
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:31
+msgid ":ref:`region_enabled<class_Sprite3D_property_region_enabled>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:31
+#: ../classes/class_sprite3d.rst:105
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:33
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:33
+msgid ":ref:`region_rect<class_Sprite3D_property_region_rect>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:33
+#: ../classes/class_sprite3d.rst:121
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:35
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:35
+msgid ":ref:`texture<class_Sprite3D_property_texture>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:37
+msgid ":ref:`vframes<class_Sprite3D_property_vframes>`"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:41
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:45
+msgid "**frame_changed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:47
+msgid "当 :ref:`frame<class_Sprite3D_property_frame>` 更改时发出。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:50
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:54
+msgid ":ref:`int<class_int>` **frame**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:57
+#: ../classes/class_sprite3d.rst:73
+#: ../classes/class_sprite3d.rst:89
+#: ../classes/class_sprite3d.rst:105
+#: ../classes/class_sprite3d.rst:121
+#: ../classes/class_sprite3d.rst:151
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:59
+#: ../classes/class_sprite3d.rst:75
+#: ../classes/class_sprite3d.rst:91
+#: ../classes/class_sprite3d.rst:107
+#: ../classes/class_sprite3d.rst:123
+#: ../classes/class_sprite3d.rst:137
+#: ../classes/class_sprite3d.rst:153
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:59
+msgid "set_frame(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:61
+#: ../classes/class_sprite3d.rst:77
+#: ../classes/class_sprite3d.rst:93
+#: ../classes/class_sprite3d.rst:109
+#: ../classes/class_sprite3d.rst:125
+#: ../classes/class_sprite3d.rst:139
+#: ../classes/class_sprite3d.rst:155
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:61
+msgid "get_frame()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:64
+msgid "当前显示的精灵表中的帧。\\ :ref:`vframes<class_Sprite3D_property_vframes>` 或 :ref:`hframes<class_Sprite3D_property_hframes>` 必须大于 1。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:70
+msgid ":ref:`Vector2<class_Vector2>` **frame_coords**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:75
+msgid "set_frame_coords(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:77
+msgid "get_frame_coords()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:80
+msgid "显示的帧在精灵表中的坐标。这是 :ref:`frame<class_Sprite3D_property_frame>` 属性的别名。\\ :ref:`vframes<class_Sprite3D_property_vframes>` 或 :ref:`hframes<class_Sprite3D_property_hframes>` 必须大于 1。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:86
+msgid ":ref:`int<class_int>` **hframes**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:91
+msgid "set_hframes(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:93
+msgid "get_hframes()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:96
+msgid "精灵表中的列数。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:102
+msgid ":ref:`bool<class_bool>` **region_enabled**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:107
+msgid "set_region(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:109
+msgid "is_region()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:112
+msgid "如果 ``true``\\ ，纹理将从较大的图集纹理中剪切。参阅 :ref:`region_rect<class_Sprite3D_property_region_rect>`\\ 。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:118
+msgid ":ref:`Rect2<class_Rect2>` **region_rect**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:123
+msgid "set_region_rect(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:125
+msgid "get_region_rect()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:128
+msgid "要显示的图集纹理区域。 :ref:`region_enabled<class_Sprite3D_property_region_enabled>` 必须是 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:134
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:137
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:139
+msgid "get_texture()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:142
+msgid "要绘制的 :ref:`Texture<class_Texture>` 对象。如果 :ref:`GeometryInstance.material_override<class_GeometryInstance_property_material_override>` 被使用，这将被覆盖。"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:148
+msgid ":ref:`int<class_int>` **vframes**"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:153
+msgid "set_vframes(value)"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:155
+msgid "get_vframes()"
+msgstr ""
+
+#: ../classes/class_sprite3d.rst:158
+msgid "精灵表中的行数。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

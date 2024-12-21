@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_menubutton.rst:10
+msgid "MenuButton"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:14
+#: ../classes/class_menubutton.rst:19
+msgid "点击后会弹出 :ref:`PopupMenu<class_PopupMenu>` 的特殊按钮。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:21
+msgid "可以使用 ``get_popup().add_item(\"菜单项目名称\")`` 在这个 :ref:`PopupMenu<class_PopupMenu>` 中创建新项目。你也可以直接从编辑器中创建它们。要做到这点，选择 ``MenuButton`` 节点，然后在 2D 编辑器顶部的工具栏中，点击\\ **项目**\\ ，然后点击弹出窗口中的\\ **添加**\\ 。你将能够赋予每个项目新的属性。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:23
+msgid "与该节点相关的常用属性和方法请参阅 :ref:`BaseButton<class_BaseButton>`\\ 。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:26
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:29
+msgid ":ref:`ActionMode<enum_BaseButton_ActionMode>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:29
+msgid "action_mode"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:29
+msgid "``0`` (overrides :ref:`BaseButton<class_BaseButton_property_action_mode>`)"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:31
+#: ../classes/class_menubutton.rst:35
+#: ../classes/class_menubutton.rst:37
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:31
+msgid "flat"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:31
+msgid "``true`` (overrides :ref:`Button<class_Button_property_flat>`)"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:33
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:33
+msgid "focus_mode"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:33
+msgid "``0`` (overrides :ref:`Control<class_Control_property_focus_mode>`)"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:35
+msgid ":ref:`switch_on_hover<class_MenuButton_property_switch_on_hover>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:35
+#: ../classes/class_menubutton.rst:95
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:37
+msgid "toggle_mode"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:37
+msgid "``true`` (overrides :ref:`BaseButton<class_BaseButton_property_toggle_mode>`)"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:44
+msgid ":ref:`PopupMenu<class_PopupMenu>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:44
+msgid ":ref:`get_popup<class_MenuButton_method_get_popup>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:46
+msgid "void"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:46
+msgid ":ref:`set_disable_shortcuts<class_MenuButton_method_set_disable_shortcuts>` **(** :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:50
+msgid "主题属性"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:53
+#: ../classes/class_menubutton.rst:55
+#: ../classes/class_menubutton.rst:57
+#: ../classes/class_menubutton.rst:59
+#: ../classes/class_menubutton.rst:61
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:53
+msgid ":ref:`font_color<class_MenuButton_theme_color_font_color>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:53
+#: ../classes/class_menubutton.rst:131
+msgid "``Color( 0.88, 0.88, 0.88, 1 )``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:55
+msgid ":ref:`font_color_disabled<class_MenuButton_theme_color_font_color_disabled>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:55
+#: ../classes/class_menubutton.rst:143
+msgid "``Color( 1, 1, 1, 0.3 )``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:57
+msgid ":ref:`font_color_focus<class_MenuButton_theme_color_font_color_focus>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:57
+#: ../classes/class_menubutton.rst:59
+#: ../classes/class_menubutton.rst:155
+#: ../classes/class_menubutton.rst:167
+msgid "``Color( 0.94, 0.94, 0.94, 1 )``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:59
+msgid ":ref:`font_color_hover<class_MenuButton_theme_color_font_color_hover>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:61
+msgid ":ref:`font_color_pressed<class_MenuButton_theme_color_font_color_pressed>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:61
+#: ../classes/class_menubutton.rst:179
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:63
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:63
+msgid ":ref:`hseparation<class_MenuButton_theme_constant_hseparation>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:63
+#: ../classes/class_menubutton.rst:191
+msgid "``3``"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:65
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:65
+msgid ":ref:`font<class_MenuButton_theme_font_font>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:67
+#: ../classes/class_menubutton.rst:69
+#: ../classes/class_menubutton.rst:71
+#: ../classes/class_menubutton.rst:73
+#: ../classes/class_menubutton.rst:75
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:67
+msgid ":ref:`disabled<class_MenuButton_theme_style_disabled>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:69
+msgid ":ref:`focus<class_MenuButton_theme_style_focus>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:71
+msgid ":ref:`hover<class_MenuButton_theme_style_hover>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:73
+msgid ":ref:`normal<class_MenuButton_theme_style_normal>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:75
+msgid ":ref:`pressed<class_MenuButton_theme_style_pressed>`"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:79
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:83
+msgid "**about_to_show** **(** **)**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:85
+msgid "当此MenuButton的\\ :ref:`PopupMenu<class_PopupMenu>`\\ 即将显示时触发。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:88
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:92
+msgid ":ref:`bool<class_bool>` **switch_on_hover**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:95
+#: ../classes/class_menubutton.rst:131
+#: ../classes/class_menubutton.rst:143
+#: ../classes/class_menubutton.rst:155
+#: ../classes/class_menubutton.rst:167
+#: ../classes/class_menubutton.rst:179
+#: ../classes/class_menubutton.rst:191
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:97
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:97
+msgid "set_switch_on_hover(value)"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:99
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:99
+msgid "is_switch_on_hover()"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:102
+msgid "如果\\ ``true``\\ ，当光标悬停在同一父级中也启用了\\ ``switch_on_hover``\\ 的另一个\\ ``MenuButton``\\ 上方时，它将关闭当前的\\ ``MenuButton``\\ 并打开另一个。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:105
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:109
+msgid ":ref:`PopupMenu<class_PopupMenu>` **get_popup** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:111
+msgid "返回这个按钮中包含的 :ref:`PopupMenu<class_PopupMenu>`\\ 。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:113
+msgid "\\ **警告：**\\ 这是一个必需的内部节点，移除和释放它可能会导致崩溃。如果你想隐藏它或它的任何子节点，请使用其 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 属性。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:119
+msgid "void **set_disable_shortcuts** **(** :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:121
+msgid "如果\\ ``true``\\ ，快捷方式将被禁用，无法用于触发按钮。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:124
+msgid "Theme Property Descriptions"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:128
+msgid ":ref:`Color<class_Color>` **font_color**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:134
+msgid "``MenuButton``\\ 默认的字体\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:140
+msgid ":ref:`Color<class_Color>` **font_color_disabled**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:146
+msgid "``MenuButton``\\ 被禁用时的字体\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:152
+msgid ":ref:`Color<class_Color>` **font_color_focus**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:158
+msgid "当\\ ``MenuButton``\\ 获得焦点时使用的文本\\ :ref:`Color<class_Color>`\\ 。只替换按钮的正常文本颜色。禁用、悬停和按下状态优先于这个颜色。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:164
+msgid ":ref:`Color<class_Color>` **font_color_hover**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:170
+msgid "当鼠标在 ``MenuButton`` 上悬停时使用的字体 :ref:`Color<class_Color>` 颜色。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:176
+msgid ":ref:`Color<class_Color>` **font_color_pressed**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:182
+msgid "当\\ ``MenuButton``\\ 被按下时使用的字体\\ :ref:`Color<class_Color>`\\ 颜色。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:188
+msgid ":ref:`int<class_int>` **hseparation**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:194
+msgid "``MenuButton``\\ 的文字和图标之间的水平间隙。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:200
+msgid ":ref:`Font<class_Font>` **font**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:202
+msgid "``MenuButton``\\ 文本的\\ :ref:`Font<class_Font>`\\ 。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:208
+msgid ":ref:`StyleBox<class_StyleBox>` **disabled**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:210
+msgid "当\\ ``MenuButton``\\ 被禁用时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:216
+msgid ":ref:`StyleBox<class_StyleBox>` **focus**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:218
+msgid "当\\ ``MenuButton``\\ 被聚焦时使用的\\ :ref:`StyleBox<class_StyleBox>`\\ 。它显示在当前的\\ :ref:`StyleBox<class_StyleBox>`\\ 上，所以使用\\ :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`\\ 将只是禁用焦点的视觉效果。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:224
+msgid ":ref:`StyleBox<class_StyleBox>` **hover**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:226
+msgid "当鼠标在 ``MenuButton`` 上悬停时使用的 :ref:`StyleBox<class_StyleBox>` 样式盒。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:232
+msgid ":ref:`StyleBox<class_StyleBox>` **normal**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:234
+msgid "``MenuButton``\\ 的默认\\ :ref:`StyleBox<class_StyleBox>`\\ 样式盒。"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:240
+msgid ":ref:`StyleBox<class_StyleBox>` **pressed**"
+msgstr ""
+
+#: ../classes/class_menubutton.rst:242
+msgid "``MenuButton``\\ 被按下时的\\ :ref:`StyleBox<class_StyleBox>`\\ 样式盒。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

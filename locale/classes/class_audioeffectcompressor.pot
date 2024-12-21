@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_audioeffectcompressor.rst:10
+msgid "AudioEffectCompressor"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:14
+msgid "为音频总线添加压缩音频效果。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:16
+msgid "减少超过一定阈值水平的声音，平滑动态，增加整体音量。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:21
+msgid "动态范围压缩器在振幅超过一定的阈值（以分贝为单位）时，降低声音的电平。压缩器的主要用途之一是通过尽可能少的削波（当声音超过0dB时）来增加动态范围。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:23
+msgid "压缩器在混音中的用途很多。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:25
+msgid "在主总线上压缩整个输出（虽然\\ :ref:`AudioEffectLimiter<class_AudioEffectLimiter>`\\ 可能更好些）。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:27
+msgid "在声音通道中，以确保它们听起来尽可能的平衡。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:29
+msgid "侧链。这可以降低与另一条音频总线侧链的声音级别，以进行阈值检测。这种技术在视频游戏混音中很常见，以音乐和SFX的级别，从而声音被听到。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:31
+msgid "通过使用更宽的冲攻来突出瞬态，使效果听起来更有冲击力。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:34
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:37
+#: ../classes/class_audioeffectcompressor.rst:39
+#: ../classes/class_audioeffectcompressor.rst:41
+#: ../classes/class_audioeffectcompressor.rst:43
+#: ../classes/class_audioeffectcompressor.rst:45
+#: ../classes/class_audioeffectcompressor.rst:49
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:37
+msgid ":ref:`attack_us<class_AudioEffectCompressor_property_attack_us>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:37
+#: ../classes/class_audioeffectcompressor.rst:60
+msgid "``20.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:39
+msgid ":ref:`gain<class_AudioEffectCompressor_property_gain>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:39
+#: ../classes/class_audioeffectcompressor.rst:49
+#: ../classes/class_audioeffectcompressor.rst:76
+#: ../classes/class_audioeffectcompressor.rst:156
+msgid "``0.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:41
+msgid ":ref:`mix<class_AudioEffectCompressor_property_mix>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:41
+#: ../classes/class_audioeffectcompressor.rst:92
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:43
+msgid ":ref:`ratio<class_AudioEffectCompressor_property_ratio>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:43
+#: ../classes/class_audioeffectcompressor.rst:108
+msgid "``4.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:45
+msgid ":ref:`release_ms<class_AudioEffectCompressor_property_release_ms>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:45
+#: ../classes/class_audioeffectcompressor.rst:124
+msgid "``250.0``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:47
+msgid ":ref:`sidechain<class_AudioEffectCompressor_property_sidechain>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:47
+#: ../classes/class_audioeffectcompressor.rst:140
+msgid "``\"\"``"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:49
+msgid ":ref:`threshold<class_AudioEffectCompressor_property_threshold>`"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:53
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:57
+msgid ":ref:`float<class_float>` **attack_us**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:60
+#: ../classes/class_audioeffectcompressor.rst:76
+#: ../classes/class_audioeffectcompressor.rst:92
+#: ../classes/class_audioeffectcompressor.rst:108
+#: ../classes/class_audioeffectcompressor.rst:124
+#: ../classes/class_audioeffectcompressor.rst:140
+#: ../classes/class_audioeffectcompressor.rst:156
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:62
+#: ../classes/class_audioeffectcompressor.rst:78
+#: ../classes/class_audioeffectcompressor.rst:94
+#: ../classes/class_audioeffectcompressor.rst:110
+#: ../classes/class_audioeffectcompressor.rst:126
+#: ../classes/class_audioeffectcompressor.rst:142
+#: ../classes/class_audioeffectcompressor.rst:158
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:62
+msgid "set_attack_us(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:64
+#: ../classes/class_audioeffectcompressor.rst:80
+#: ../classes/class_audioeffectcompressor.rst:96
+#: ../classes/class_audioeffectcompressor.rst:112
+#: ../classes/class_audioeffectcompressor.rst:128
+#: ../classes/class_audioeffectcompressor.rst:144
+#: ../classes/class_audioeffectcompressor.rst:160
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:64
+msgid "get_attack_us()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:67
+msgid "当信号超过阈值时，压缩器的反应时间，以微秒为单位。数值范围从20到2000。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:73
+msgid ":ref:`float<class_float>` **gain**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:78
+msgid "set_gain(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:80
+msgid "get_gain()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:83
+msgid "应用于输出信号的增益。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:89
+msgid ":ref:`float<class_float>` **mix**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:94
+msgid "set_mix(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:96
+msgid "get_mix()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:99
+msgid "原始信号和效果信号之间的平衡。数值范围从0（完全干燥）到1（完全浸润）。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:105
+msgid ":ref:`float<class_float>` **ratio**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:110
+msgid "set_ratio(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:112
+msgid "get_ratio()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:115
+msgid "音频通过阈值级别后，应用于音频的压缩量。比率越高，音频的大声部分将被压缩。数值范围从1到48。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:121
+msgid ":ref:`float<class_float>` **release_ms**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:126
+msgid "set_release_ms(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:128
+msgid "get_release_ms()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:131
+msgid "压缩器在信号电平低于阈值后，停止降低信号的延迟时间，以毫秒为单位。数值范围为20至2000。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:137
+msgid ":ref:`String<class_String>` **sidechain**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:142
+msgid "set_sidechain(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:144
+msgid "get_sidechain()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:147
+msgid "使用另一条音频总线进行阈值检测，降低声音级别。"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:153
+msgid ":ref:`float<class_float>` **threshold**"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:158
+msgid "set_threshold(value)"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:160
+msgid "get_threshold()"
+msgstr ""
+
+#: ../classes/class_audioeffectcompressor.rst:163
+msgid "对音频进行压缩的级别。数值范围从-60到0。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/3d/using_gridmaps.rst:4
+msgid "Using GridMaps"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:7
+msgid "Introduction"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:9
+msgid ":ref:`Gridmaps <class_GridMap>` are a tool for creating 3D game levels, similar to the way :ref:`TileMap <doc_using_tilemaps>` works in 2D. You start with a predefined collection of 3D meshes (a :ref:`class_MeshLibrary`) that can be placed on a grid, as if you were building a level with an unlimited amount of Lego blocks."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:15
+msgid "Collisions and navigation can also be added to the meshes, just like you would do with the tiles of a tilemap."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:19
+msgid "Example project"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:21
+msgid "To learn how GridMaps work, start by downloading the sample project: :download:`gridmap_demo.zip <files/gridmap_demo.zip>`."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:24
+msgid "Unzip this project and add it to the Project Manager using the \"Import\" button."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:28
+msgid "Creating a MeshLibrary"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:30
+msgid "To begin, you need a :ref:`class_MeshLibrary`, which is a collection of individual meshes that can be used in the gridmap. Open the \"MeshLibrary_Source.tscn\" scene to see an example of how to set up the mesh library."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:36
+msgid "As you can see, this scene has a :ref:`class_Spatial` node as its root, and a number of :ref:`class_MeshInstance` node children."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:39
+msgid "If you don't need any physics in your scene, then you're done. However, in most cases you'll want to assign collision bodies to the meshes."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:43
+msgid "Collisions"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:45
+msgid "You can manually assign a :ref:`class_StaticBody` and :ref:`class_CollisionShape` to each mesh. Alternatively, you can use the \"Mesh\" menu to automatically create the collision body based on the mesh data."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:51
+msgid "Note that a \"Convex\" collision body will work better for simple meshes. For more complex shapes, select \"Create Trimesh Static Body\". Once each mesh has a physics body and collision shape assigned, your mesh library is ready to be used."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:60
+msgid "Materials"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:62
+msgid "Only the materials from within the meshes are used when generating the mesh library. Materials set on the node will be ignored."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:66
+msgid "NavigationMeshes"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:68
+msgid "Like all mesh instances, MeshLibrary items can be assigned a :ref:`class_NavigationMesh` resource, which can be created manually, or baked as described below."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:71
+msgid "To create the NavigationMesh from a MeshLibrary scene export, place a :ref:`class_NavigationMeshInstance` child node below the main MeshInstance for the GridMap item. Add a valid NavigationMesh resource to the NavigationMeshInstance and some source geometry nodes below and bake the NavigationMesh."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:78
+msgid "With small grid cells it is often necessary to reduce the NavigationMesh properties for agent radius and region minimum size."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:83
+msgid "Nodes below the NavigationMeshInstance are ignored for the MeshLibrary scene export, so additional nodes can be added as source geometry just for baking the navmesh."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:88
+msgid "The baked cell size of the NavigationMesh must match the NavigationServer map cell size to properly merge the navigation meshes of different grid cells."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:92
+msgid "Exporting the MeshLibrary"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:94
+msgid "To export the library, click on Scene -> Convert To.. -> MeshLibrary.., and save it as a resource."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:99
+msgid "You can find an already exported MeshLibrary in the project named \"MeshLibrary.tres\"."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:102
+msgid "Using GridMap"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:104
+msgid "Create a new scene and add a GridMap node. Add the mesh library by dragging the resource file from the FileSystem dock and dropping it in the \"Theme\" property in the Inspector."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:110
+msgid "The \"Cell/Size\" property should be set to the size of your meshes. You can leave it at the default value for the demo. Set the \"Center Y\" property to \"Off\"."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:113
+msgid "Now you can start designing the level by choosing a tile from the palette and placing it with Left-Click in the editor window. To remove a tile, hold :kbd:`Shift` and use Right-click."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:117
+msgid "Click on the \"GridMap\" menu to see options and shortcuts. For example, pressing :kbd:`S` rotates a tile around the y-axis."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:122
+msgid "Holding :kbd:`Shift` and dragging with the left mouse button will draw a selection box. You can duplicate or clear the selected area using the respective menu options."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:128
+msgid "In the menu, you can also change the axis you're drawing on, as well as shift the drawing plane higher or lower on its axis."
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:134
+msgid "Using GridMap in code"
+msgstr ""
+
+#: ../tutorials/3d/using_gridmaps.rst:136
+msgid "See :ref:`class_GridMap` for details on the node's methods and member variables."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

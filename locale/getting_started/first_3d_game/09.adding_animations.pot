@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:4
+msgid "角色动画"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:6
+msgid "这是最后一课，我们会使用 GaaeExplorer 的内置动画工具制作角色的浮动和拍打动画。你会学 到如何在编辑器中设计动画，以及如何使用代码让游戏变得活灵活现。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:9
+msgid "|image0|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:510
+#: ../getting_started/first_3d_game/09.adding_animations.rst:510
+msgid "image0"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:12
+msgid "动画编辑器的使用"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:14
+msgid "该引擎自带的工具可以在编辑器中编写动画。然后你可以在运行时使用代码来播放和控 制它们。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:17
+msgid "打开玩家场景，选中 ``Player`` 节点，然后添加一个 :ref:`AnimationPlayer <class_AnimationPlayer>` 节点。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:20
+msgid "*动画*\\\\ 停靠面板就会出现在底部面板中。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:22
+msgid "|image1|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:511
+#: ../getting_started/first_3d_game/09.adding_animations.rst:511
+msgid "image1"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:24
+msgid "它的特点是顶部有一个工具栏和动画下拉菜单，中间有一个轨道编辑器，目前是空的， 底部有过滤、捕捉和缩放选项。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:27
+msgid "让我们来创建一个动画。请点击\\\\ *动画 -> 新建*\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:29
+msgid "|image2|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:512
+#: ../getting_started/first_3d_game/09.adding_animations.rst:512
+msgid "image2"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:31
+msgid "将动画命名为“float”（漂浮）。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:33
+msgid "|image3|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:513
+#: ../getting_started/first_3d_game/09.adding_animations.rst:513
+msgid "image3"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:35
+msgid "创建动画后，将显示时间轴，其中数字表示以秒为单位的时间。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:37
+msgid "|image4|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:514
+#: ../getting_started/first_3d_game/09.adding_animations.rst:514
+msgid "image4"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:39
+msgid "我们希望让这个动画在游戏开始时自动开始播放，而且还应该循环播放。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:41
+msgid "要实现这个需求，可以单击动画工具栏上对应的“A+”图标和循环箭头。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:43
+msgid "|image5|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:515
+#: ../getting_started/first_3d_game/09.adding_animations.rst:515
+msgid "image5"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:45
+msgid "你还可以单击右上角的图钉图标，将动画编辑器进行固定。这样它就不会在你点击视口 取消选择节点时折叠。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:48
+msgid "|image6|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:516
+#: ../getting_started/first_3d_game/09.adding_animations.rst:516
+msgid "image6"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:50
+msgid "在面板右上角将动画的时长设为 ``1.2`` 秒。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:52
+msgid "|image7|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:517
+#: ../getting_started/first_3d_game/09.adding_animations.rst:517
+msgid "image7"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:54
+msgid "你应该看到灰色带子变宽了一点。它显示动画的开始和结束，垂直蓝线是你的时间光 标。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:57
+msgid "|image8|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:518
+#: ../getting_started/first_3d_game/09.adding_animations.rst:518
+msgid "image8"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:59
+msgid "单击并拖拽右下角的滑动条，即可将时间线进行缩放。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:61
+msgid "|image9|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:519
+#: ../getting_started/first_3d_game/09.adding_animations.rst:519
+msgid "image9"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:64
+msgid "漂浮动画"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:66
+msgid "使用动画播放器节点，你可以对所需任意数量的节点的大多数属性做动画。请注意\\\\ * 检查器*\\\\ 中属性旁的钥匙图标。在上面单击就可以创建一个关键帧，即对应属性的一 对时间与值。关键帧会被插入到时间线上的时间光标处。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:70
+msgid "让我们来开始插入帧吧。这里，我们要为 ``Character`` 节点的位置（position）和旋 转（rotation）做动画。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:73
+msgid "选中 ``Character`` 并在\\\\ *检查器*\\\\ 中展开 *Transform* 栏。单击 *Position* 和 *Rotation* 旁的钥匙图标。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:76
+msgid "|image10|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:520
+#: ../getting_started/first_3d_game/09.adding_animations.rst:520
+msgid "image10"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:78
+msgid "编辑器中会出现两个轨道，各有一个代表关键帧的菱形图标。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:80
+msgid "|image11|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:521
+#: ../getting_started/first_3d_game/09.adding_animations.rst:521
+msgid "image11"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:82
+msgid "你可以在菱形滑块上单击并拖动，以移动它们的时间。将位置（position ）帧移动到 ``0.3`` 秒处，将旋转（rotation ）帧移动到 ``0.1`` 秒处。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:85
+msgid "|image12|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:522
+#: ../getting_started/first_3d_game/09.adding_animations.rst:522
+msgid "image12"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:87
+msgid "在灰色的时间线上单击并拖拽，将时间光标移动至 ``0.5`` 秒位置。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:89
+msgid "|image13|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:523
+#: ../getting_started/first_3d_game/09.adding_animations.rst:523
+msgid "image13"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:91
+msgid "为这两个属性分别创建一个关键帧。现在开始在时间线上拖动，将位置（position）的关键帧移动到 ``0.7`` 秒。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:93
+msgid "|image14|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:524
+#: ../getting_started/first_3d_game/09.adding_animations.rst:524
+msgid "image14"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:97
+msgid "关于动画原理的讲解已经超出了本教程的范围。请注意，你不想均匀地分配时间和空"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:98
+msgid "间。取而代之的是，动画师使用时间和间隔，这两个核心动画原则。你希望让它们存在 一定的偏移，在角色的运动中产生对比，以使他们感觉生动。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:101
+msgid "将时间光标移动到动画结尾，即 ``1.2`` 秒。将 Y 平移量设为约 ``0.35``\\\\ 、X 旋 转量设为 ``-9`` 度。再次为这两个属性添加帧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:104
+msgid "单击播放按钮或者按 :kbd:`Shift + D` 即可预览结果。单击停止按钮或者按 :kbd: `S` 即可停止播放。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:107
+msgid "|image15|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:525
+#: ../getting_started/first_3d_game/09.adding_animations.rst:525
+msgid "image15"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:109
+msgid "你可以看到引擎在关键帧之间插值以生成连续动画。不过目前，这个动作感觉非常机器 人化。这是因为默认插值是线性的，导致持续的过渡，这与现实世界中生物的移动方式 不同。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:113
+msgid "我们可以使用缓动曲线来控制关键帧之间的过渡。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:115
+msgid "单击并拖拽，框选时间线上的前两个帧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:117
+msgid "|image16|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:526
+#: ../getting_started/first_3d_game/09.adding_animations.rst:526
+msgid "image16"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:119
+msgid "可以在\\\\ *检查器*\\\\ 中同时编辑这两个帧的属性，其中就有一个属性叫做 *Easing*\\\\ （缓动）。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:122
+msgid "|image17|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:527
+#: ../getting_started/first_3d_game/09.adding_animations.rst:527
+msgid "image17"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:124
+msgid "单击并拖动曲线，把它往左拉。这样就会让他实现缓出，也就是说，一开始变得快，然 后时间光标越接近下一个关键帧就变得越慢。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:127
+msgid "|image18|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:528
+#: ../getting_started/first_3d_game/09.adding_animations.rst:528
+msgid "image18"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:129
+msgid "再次播放动画以查看差异。前半部分应该已经感觉有点弹性了。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:131
+msgid "将缓动效果应用于旋转轨迹中的第二个关键帧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:133
+msgid "|image19|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:529
+#: ../getting_started/first_3d_game/09.adding_animations.rst:529
+msgid "image19"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:135
+msgid "对第二个平移关键帧执行相反操作，将其拖动到右侧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:137
+msgid "|image20|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:530
+#: ../getting_started/first_3d_game/09.adding_animations.rst:530
+msgid "image20"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:139
+msgid "你的动画应该类似这样。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:141
+msgid "|image21|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:531
+#: ../getting_started/first_3d_game/09.adding_animations.rst:531
+msgid "image21"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:145
+msgid "每一帧，动画都会去更新被动画的节点的属性，覆盖掉初始值。如果我们直接对"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:146
+msgid "*Player* 节点做动画，就没法使用代码来移动它了。这就是 *Pivot* 节点的用处：尽 管我们为 *Character* 做了动画，我们还是可以在此动画之上，再通过代码来移动并旋 转 *Pivot*\\\\ 。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:150
+msgid "如果你运行游戏，玩家的生物就会漂浮起来！"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:152
+msgid "如果这个生物离地面太近了，你可以将 ``Pivot`` 向上移动，达成偏移的目的。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:155
+msgid "使用代码控制动画"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:157
+msgid "We can use code to control the animation playback based on the player's input. Let's change the animation speed when the character is moving."
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:160
+msgid "Open the *Player*'s script by clicking the script icon next to it."
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:162
+msgid "|image22|"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:532
+#: ../getting_started/first_3d_game/09.adding_animations.rst:532
+msgid "image22"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:164
+msgid "我们可以使用代码来根据玩家的输入控制动画的播放。让我们在角色移动时修改动画的 速度吧。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:194
+msgid "这段代码的作用是让玩家在移动时将播放速度乘以 ``4``\\\\ 。在停止移动时将其恢复原 状。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:197
+msgid "我们提到 Pivot（轴心）可以在动画之上叠加变换。我们可以用下面这行代码使角色在 跳跃时产生弧线。把它加在 ``_physics_process()`` 的最后。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:217
+msgid "为小怪制作动画"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:219
+msgid "在 GaaeExplorer 中还有一个很好的动画技巧：只要你使用类似的节点结构，你就可以把它们复 制到不同的场景中。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:222
+msgid "例如，\\\\ ``Mob`` 和 ``Player`` 场景都有 ``Pivot`` 和 ``Character`` 节点，所以 我们可以在它们之间复用动画。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:225
+msgid "打开 *Player* 场景，选中动画播放器节点，打开“float”（漂浮）动画。然后点击\\\\ **动画 -> 复制**\\\\ 。然后打开 ``mob.tscn`` ，创建一个 AnimationPlayer 子节点 并选择它。点击\\\\ **动画 -> 粘贴**\\\\ ，并确保底部面板的动画编辑器中带有“A+”图 标的按钮（加载时自动播放）和循环箭头（动画循环）也已打开。这样就行了；所有的 怪物现在就都能播放浮动动画了。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:231
+msgid "我们可以根据生物的 ``random_speed`` 来更改播放速度。打开 *Mob* 的脚本，在 ``initialize()`` 函数的末尾添加下面这行代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:249
+msgid "这样，你就完成了你第一个完整 3D 游戏的编码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:251
+msgid "**恭喜**！"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:253
+msgid "在下一部分，我们将快速复习已学到的内容，并为你提供一些继续学习的链接。不过现 在，这里是完整的 ``Player.gd`` 和 ``Mob.gd``\\\\ ，你可以用它们来校对你的代码。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:256
+msgid "这是 *Player* 脚本。"
+msgstr ""
+
+#: ../getting_started/first_3d_game/09.adding_animations.rst:423
+msgid "这是 *Mob* 的脚本。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

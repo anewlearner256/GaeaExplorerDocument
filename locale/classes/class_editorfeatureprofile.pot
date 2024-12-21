@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_editorfeatureprofile.rst:10
+msgid "EditorFeatureProfile"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:14
+msgid "编辑器功能配置文件，可用于禁用特定功能。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:19
+msgid "编辑器功能配置文件可以用来禁用GaaeExplorer编辑器的特定功能。当禁用时，这些功能将不会出现在编辑器中，从而使编辑器不那么混乱。这个设置使编辑器更简洁，在团队中工作时。例如，游戏美术和关卡设计师可以使用禁用脚本编辑器的功能配置文件，以避免意外地对他们不应该编辑的文件进行更改。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:21
+msgid "要可视化地管理编辑器功能配置文件，请使用编辑器窗口顶部的\\ **编辑器 >打开\"编辑器数据/设置\"文件夹..**\\ 。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:24
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:27
+msgid ":ref:`get_feature_name<class_EditorFeatureProfile_method_get_feature_name>` **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:29
+#: ../classes/class_editorfeatureprofile.rst:31
+#: ../classes/class_editorfeatureprofile.rst:33
+#: ../classes/class_editorfeatureprofile.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:29
+msgid ":ref:`is_class_disabled<class_EditorFeatureProfile_method_is_class_disabled>` **(** :ref:`String<class_String>` class_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:31
+msgid ":ref:`is_class_editor_disabled<class_EditorFeatureProfile_method_is_class_editor_disabled>` **(** :ref:`String<class_String>` class_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:33
+msgid ":ref:`is_class_property_disabled<class_EditorFeatureProfile_method_is_class_property_disabled>` **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:35
+msgid ":ref:`is_feature_disabled<class_EditorFeatureProfile_method_is_feature_disabled>` **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:37
+#: ../classes/class_editorfeatureprofile.rst:39
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:37
+msgid ":ref:`load_from_file<class_EditorFeatureProfile_method_load_from_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:39
+msgid ":ref:`save_to_file<class_EditorFeatureProfile_method_save_to_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:41
+#: ../classes/class_editorfeatureprofile.rst:43
+#: ../classes/class_editorfeatureprofile.rst:45
+#: ../classes/class_editorfeatureprofile.rst:47
+msgid "void"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:41
+msgid ":ref:`set_disable_class<class_EditorFeatureProfile_method_set_disable_class>` **(** :ref:`String<class_String>` class_name, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:43
+msgid ":ref:`set_disable_class_editor<class_EditorFeatureProfile_method_set_disable_class_editor>` **(** :ref:`String<class_String>` class_name, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:45
+msgid ":ref:`set_disable_class_property<class_EditorFeatureProfile_method_set_disable_class_property>` **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` property, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:47
+msgid ":ref:`set_disable_feature<class_EditorFeatureProfile_method_set_disable_feature>` **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:51
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:71
+msgid "enum **Feature**:"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:73
+msgid "**FEATURE_3D** = **0** --- 3D编辑器。如果禁用此功能，3D编辑器将不显示，但3D节点仍将显示在 \"创建新节点 \"对话框中。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:75
+msgid "**FEATURE_SCRIPT** = **1** --- 脚本选项卡，它包含脚本编辑器和类引用浏览器。如果该功能被禁用，脚本选项卡将不会显示。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:77
+msgid "**FEATURE_ASSET_LIB** = **2** --- AssetLib选项卡。如果禁用此功能，则不会显示AssetLib选项卡。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:79
+msgid "**FEATURE_SCENE_TREE** = **3** --- 场景树编辑。如果禁用此功能，场景树停靠点仍将可见，但将是只读的。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:81
+msgid "**FEATURE_NODE_DOCK** = **4** --- 节点面板。如果此功能被禁用，信号和组将不可见，也不能从编辑器中修改。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:83
+msgid "**FEATURE_FILESYSTEM_DOCK** = **5** --- 文件系统面板。如果禁用此功能，则文件系统面板将不可见。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:85
+msgid "**FEATURE_IMPORT_DOCK** = **6** --- 导入扩展面板。如果禁用此功能，则导入扩展面板将不可见。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:87
+msgid "**FEATURE_MAX** = **7** --- 表示\\ :ref:`Feature<enum_EditorFeatureProfile_Feature>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:90
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:94
+msgid ":ref:`String<class_String>` **get_feature_name** **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:96
+msgid "返回指定的\\ ``feature``\\ 的可读名称。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:102
+msgid ":ref:`bool<class_bool>` **is_class_disabled** **(** :ref:`String<class_String>` class_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:104
+msgid "如果\\ ``class_name``\\ 指定的类被禁用，返回\\ ``true``\\ 。当类被禁用时，该类将不会出现在创建新节点的对话框中。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:110
+msgid ":ref:`bool<class_bool>` **is_class_editor_disabled** **(** :ref:`String<class_String>` class_name **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:112
+msgid "如果\\ ``class_name``\\ 指定的类的编辑被禁用，返回\\ ``true``\\ 。禁用时，类仍然会出现在 \"创建新节点 \"对话框中，但在选择继承的节点时，检查器将是只读的。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:118
+msgid ":ref:`bool<class_bool>` **is_class_property_disabled** **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:120
+msgid "如果\\ ``class_name``\\ 指定的类中的\\ ``property``\\ 被禁用，则返回\\ ``true``\\ 。当属性被禁用时，当\\ ``class_name``\\ 类被指定为类的(继承)父节点时，它将不会出现在检查器中。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:126
+msgid ":ref:`bool<class_bool>` **is_feature_disabled** **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:128
+msgid "如果\\ ``feature``\\ 被禁用，返回\\ ``true``\\ 。当一个功能被禁用时，它将从编辑器中完全消失。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:134
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_from_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:136
+msgid "从文件中加载一个编辑器功能配置文件。该文件必须遵循JSON格式，通过使用功能配置文件管理器的\\ **Export**\\ 按钮或\\ :ref:`save_to_file<class_EditorFeatureProfile_method_save_to_file>`\\ 方法获得。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:142
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_to_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:144
+msgid "将编辑器的功能配置保存到JSON格式的文件中。然后可以使用特征配置文件管理器的\\ **导入**\\ 按钮或\\ :ref:`load_from_file<class_EditorFeatureProfile_method_load_from_file>`\\ 按钮导入它。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:150
+msgid "void **set_disable_class** **(** :ref:`String<class_String>` class_name, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:152
+msgid "如果 ``disable`` 是 ``true``\\ ，则禁用 ``class_name`` 指定的类。被禁用时，该类不会出现在 \"创建新节点 \"对话框中。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:158
+msgid "void **set_disable_class_editor** **(** :ref:`String<class_String>` class_name, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:160
+msgid "如果 ``disable`` 为 ``true``\\ ，则禁用 ``class_name`` 指定的类的编辑。禁用时，类仍然会出现在 \"创建新节点 \"对话框中，但在选择继承的节点时，检查器将只读。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:166
+msgid "void **set_disable_class_property** **(** :ref:`String<class_String>` class_name, :ref:`String<class_String>` property, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:168
+msgid "如果 ``disable`` 是 ``true``\\ ，则禁用 ``class_name`` 指定的类中的 ``property`` 的编辑。当属性被禁用时，当选择继承 ``class_name`` 指定的类的节点时，它将不会出现在检查器中。"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:174
+msgid "void **set_disable_feature** **(** :ref:`Feature<enum_EditorFeatureProfile_Feature>` feature, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../classes/class_editorfeatureprofile.rst:176
+msgid "如果 ``disable`` 为 ``true``\\ ，则禁用 ``feature`` 中指定的编辑器功能。当一个功能被禁用时，它将从编辑器中完全消失。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

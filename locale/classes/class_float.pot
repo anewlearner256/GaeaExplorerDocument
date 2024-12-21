@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_float.rst:10
+msgid "float"
+msgstr ""
+
+#: ../classes/class_float.rst:12
+msgid "浮点数内置类型。"
+msgstr ""
+
+#: ../classes/class_float.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_float.rst:17
+msgid "``float`` 内置类型是 64 位双精度浮点数，相当于 C++ 中的 ``double``\\ 。这个类型有 14 个可靠的十进制小数位精度。可以把 ``float`` 类型存储在引擎所使用的通用类型 :ref:`Variant<class_Variant>` 中。\\ ``float`` 的最大值约为 ``1.79769e308``\\ ，最小值约为 ``-1.79769e308``\\ 。"
+msgstr ""
+
+#: ../classes/class_float.rst:19
+msgid "不过引擎中的大多数方法和属性使用的都是 32 位单精度浮点数，相当于 C++ 中的 ``float``\\ ，有 6 位可靠的十进制小数位精度。GaaeExplorer 在 :ref:`Vector2<class_Vector2>` 和 :ref:`Vector3<class_Vector3>` 等数据结构中使用 32 位浮点数。"
+msgstr ""
+
+#: ../classes/class_float.rst:21
+msgid "使用 ``float`` 类型进行的数学运算无法保证精确或确定，经常会产生较小的误差。你通常应该使用 :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>` 和 :ref:`@GDScript.is_zero_approx<class_@GDScript_method_is_zero_approx>` 方法来比较两个 ``float`` 的值是否相等，不应该用 ``==``\\ 。"
+msgstr ""
+
+#: ../classes/class_float.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_float.rst:26
+msgid "`Wikipedia: Double-precision floating-point format <https://en.wikipedia.org/wiki/Double-precision_floating-point_format>`__"
+msgstr ""
+
+#: ../classes/class_float.rst:28
+msgid "`Wikipedia: Single-precision floating-point format <https://en.wikipedia.org/wiki/Single-precision_floating-point_format>`__"
+msgstr ""
+
+#: ../classes/class_float.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_float.rst:34
+#: ../classes/class_float.rst:36
+#: ../classes/class_float.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_float.rst:34
+msgid ":ref:`float<class_float_method_float>` **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:36
+msgid ":ref:`float<class_float_method_float>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:38
+msgid ":ref:`float<class_float_method_float>` **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:42
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_float.rst:46
+msgid ":ref:`float<class_float>` **float** **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:48
+msgid "将 :ref:`bool<class_bool>` 值转换为浮点值，\\ ``float(true)`` 将等于 1.0，\\ ``float(false)`` 将等于 0.0。"
+msgstr ""
+
+#: ../classes/class_float.rst:52
+msgid ":ref:`float<class_float>` **float** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:54
+msgid "将 :ref:`int<class_int>` 值转换为浮点值，\\ ``float(1)`` 将等于 1.0。"
+msgstr ""
+
+#: ../classes/class_float.rst:58
+msgid ":ref:`float<class_float>` **float** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../classes/class_float.rst:60
+msgid "将 :ref:`String<class_String>` 值转换为浮点值。这个方法的参数接受类似 ``\"1.23\"`` 的浮点数字符串，以及指数符号字符串，所以调用 ``float(\"1e3\")`` 将返回 1000.0，调用 ``float(\"1e-3\")`` 将返回 0.001。使用无效的浮点数字符串调用这个方法将返回 0。该方法会在第一个无效字符处停止解析并返回到目前为止的解析结果，因此调用 ``float(\"1a3\")`` 将返回1，而调用 ``float(\"1e3a2\")`` 将返回 1000.0。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

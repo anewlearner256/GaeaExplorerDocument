@@ -1,0 +1,900 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_navigationmesh.rst:10
+msgid "NavigationMesh"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:14
+msgid "用于模拟可步行区域和障碍物的网格。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:19
+msgid "导航网格是多边形的集合，用于定义环境中的哪些区域是可遍历的，以帮助代理在复杂的空间中寻路。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:24
+msgid "`3D Navmesh Demo <https://godotengine.org/asset-library/asset/124>`__"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:27
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:30
+#: ../classes/class_navigationmesh.rst:32
+#: ../classes/class_navigationmesh.rst:34
+#: ../classes/class_navigationmesh.rst:36
+#: ../classes/class_navigationmesh.rst:38
+#: ../classes/class_navigationmesh.rst:40
+#: ../classes/class_navigationmesh.rst:42
+#: ../classes/class_navigationmesh.rst:44
+#: ../classes/class_navigationmesh.rst:46
+#: ../classes/class_navigationmesh.rst:48
+#: ../classes/class_navigationmesh.rst:64
+#: ../classes/class_navigationmesh.rst:66
+#: ../classes/class_navigationmesh.rst:68
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:30
+msgid ":ref:`agent/height<class_NavigationMesh_property_agent/height>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:30
+#: ../classes/class_navigationmesh.rst:171
+msgid "``2.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:32
+msgid ":ref:`agent/max_climb<class_NavigationMesh_property_agent/max_climb>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:32
+#: ../classes/class_navigationmesh.rst:189
+msgid "``0.9``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:34
+msgid ":ref:`agent/max_slope<class_NavigationMesh_property_agent/max_slope>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:34
+#: ../classes/class_navigationmesh.rst:207
+msgid "``45.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:36
+msgid ":ref:`agent/radius<class_NavigationMesh_property_agent/radius>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:36
+#: ../classes/class_navigationmesh.rst:223
+msgid "``0.6``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:38
+msgid ":ref:`cell/height<class_NavigationMesh_property_cell/height>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:38
+#: ../classes/class_navigationmesh.rst:241
+msgid "``0.2``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:40
+msgid ":ref:`cell/size<class_NavigationMesh_property_cell/size>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:40
+#: ../classes/class_navigationmesh.rst:257
+msgid "``0.3``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:42
+msgid ":ref:`detail/sample_distance<class_NavigationMesh_property_detail/sample_distance>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:42
+#: ../classes/class_navigationmesh.rst:64
+#: ../classes/class_navigationmesh.rst:273
+#: ../classes/class_navigationmesh.rst:451
+msgid "``6.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:44
+msgid ":ref:`detail/sample_max_error<class_NavigationMesh_property_detail/sample_max_error>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:44
+#: ../classes/class_navigationmesh.rst:289
+msgid "``1.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:46
+msgid ":ref:`edge/max_error<class_NavigationMesh_property_edge/max_error>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:46
+#: ../classes/class_navigationmesh.rst:305
+msgid "``1.3``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:48
+msgid ":ref:`edge/max_length<class_NavigationMesh_property_edge/max_length>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:48
+#: ../classes/class_navigationmesh.rst:321
+msgid "``12.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:50
+#: ../classes/class_navigationmesh.rst:52
+#: ../classes/class_navigationmesh.rst:54
+#: ../classes/class_navigationmesh.rst:83
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:50
+msgid ":ref:`filter/filter_walkable_low_height_spans<class_NavigationMesh_property_filter/filter_walkable_low_height_spans>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:50
+#: ../classes/class_navigationmesh.rst:52
+#: ../classes/class_navigationmesh.rst:54
+#: ../classes/class_navigationmesh.rst:339
+#: ../classes/class_navigationmesh.rst:355
+#: ../classes/class_navigationmesh.rst:371
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:52
+msgid ":ref:`filter/ledge_spans<class_NavigationMesh_property_filter/ledge_spans>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:54
+msgid ":ref:`filter/low_hanging_obstacles<class_NavigationMesh_property_filter/low_hanging_obstacles>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:56
+#: ../classes/class_navigationmesh.rst:87
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:56
+msgid ":ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:58
+msgid ":ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:58
+msgid ":ref:`geometry/parsed_geometry_type<class_NavigationMesh_property_geometry/parsed_geometry_type>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:58
+#: ../classes/class_navigationmesh.rst:60
+#: ../classes/class_navigationmesh.rst:70
+#: ../classes/class_navigationmesh.rst:403
+#: ../classes/class_navigationmesh.rst:419
+#: ../classes/class_navigationmesh.rst:503
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:60
+msgid ":ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:60
+msgid ":ref:`geometry/source_geometry_mode<class_NavigationMesh_property_geometry/source_geometry_mode>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:62
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:62
+msgid ":ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:64
+msgid ":ref:`polygon/verts_per_poly<class_NavigationMesh_property_polygon/verts_per_poly>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:66
+msgid ":ref:`region/merge_size<class_NavigationMesh_property_region/merge_size>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:66
+#: ../classes/class_navigationmesh.rst:467
+msgid "``20.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:68
+msgid ":ref:`region/min_size<class_NavigationMesh_property_region/min_size>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:68
+#: ../classes/class_navigationmesh.rst:485
+msgid "``8.0``"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:70
+msgid ":ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:70
+msgid ":ref:`sample_partition_type/sample_partition_type<class_NavigationMesh_property_sample_partition_type/sample_partition_type>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:74
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:77
+#: ../classes/class_navigationmesh.rst:79
+#: ../classes/class_navigationmesh.rst:81
+#: ../classes/class_navigationmesh.rst:91
+#: ../classes/class_navigationmesh.rst:93
+msgid "void"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:77
+msgid ":ref:`add_polygon<class_NavigationMesh_method_add_polygon>` **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:79
+msgid ":ref:`clear_polygons<class_NavigationMesh_method_clear_polygons>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:81
+msgid ":ref:`create_from_mesh<class_NavigationMesh_method_create_from_mesh>` **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:83
+msgid ":ref:`get_collision_mask_bit<class_NavigationMesh_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:85
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:85
+msgid ":ref:`get_polygon<class_NavigationMesh_method_get_polygon>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:87
+msgid ":ref:`get_polygon_count<class_NavigationMesh_method_get_polygon_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:89
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:89
+msgid ":ref:`get_vertices<class_NavigationMesh_method_get_vertices>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:91
+msgid ":ref:`set_collision_mask_bit<class_NavigationMesh_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:93
+msgid ":ref:`set_vertices<class_NavigationMesh_method_set_vertices>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:97
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:109
+msgid "enum **SamplePartitionType**:"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:111
+msgid "**SAMPLE_PARTITION_WATERSHED** = **0** --- 分水岭分区。如果您预先计算导航网格，通常是最佳选择，如果您有大的开放区域，请使用它。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:113
+msgid "**SAMPLE_PARTITION_MONOTONE** = **1** --- 单调分区。如果您想要快速生成导航网格，请使用此选项。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:115
+msgid "**SAMPLE_PARTITION_LAYERS** = **2** --- 层分区。用于具有中小型瓷砖的平铺导航网格的不错选择。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:117
+msgid "**SAMPLE_PARTITION_MAX** = **3** --- 表示\\ :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:131
+msgid "enum **ParsedGeometryType**:"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:133
+msgid "**PARSED_GEOMETRY_MESH_INSTANCES** = **0** --- 将网格实例解析为几何体。这包括 :ref:`MeshInstance<class_MeshInstance>`\\ 、\\ :ref:`CSGShape<class_CSGShape>` 和 :ref:`GridMap<class_GridMap>` 节点。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:135
+msgid "**PARSED_GEOMETRY_STATIC_COLLIDERS** = **1** --- 将 :ref:`StaticBody<class_StaticBody>` 碰撞器解析为几何体。碰撞器应位于 :ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>` 指定的任何层中。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:137
+msgid "**PARSED_GEOMETRY_BOTH** = **2** --- :ref:`PARSED_GEOMETRY_MESH_INSTANCES<class_NavigationMesh_constant_PARSED_GEOMETRY_MESH_INSTANCES>` 和 :ref:`PARSED_GEOMETRY_STATIC_COLLIDERS<class_NavigationMesh_constant_PARSED_GEOMETRY_STATIC_COLLIDERS>`."
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:139
+msgid "**PARSED_GEOMETRY_MAX** = **3** --- 表示\\ :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:153
+msgid "enum **SourceGeometryMode**:"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:155
+msgid "**SOURCE_GEOMETRY_NAVMESH_CHILDREN** = **0** --- 递归扫描 :ref:`NavigationMeshInstance<class_NavigationMeshInstance>` 的子节点以获取几何体。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:157
+msgid "**SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN** = **1** --- 以递归方式扫描组中的节点及其子节点以获取几何图形。该组由 :ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>` 指定。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:159
+msgid "**SOURCE_GEOMETRY_GROUPS_EXPLICIT** = **2** --- 使用一个组中的节点进行几何运算。该组由\\ :ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>`\\ 指定。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:161
+msgid "**SOURCE_GEOMETRY_MAX** = **3** --- 表示\\ :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\\ 枚举的大小。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:164
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:168
+msgid ":ref:`float<class_float>` **agent/height**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:171
+#: ../classes/class_navigationmesh.rst:189
+#: ../classes/class_navigationmesh.rst:207
+#: ../classes/class_navigationmesh.rst:223
+#: ../classes/class_navigationmesh.rst:241
+#: ../classes/class_navigationmesh.rst:257
+#: ../classes/class_navigationmesh.rst:273
+#: ../classes/class_navigationmesh.rst:289
+#: ../classes/class_navigationmesh.rst:305
+#: ../classes/class_navigationmesh.rst:321
+#: ../classes/class_navigationmesh.rst:339
+#: ../classes/class_navigationmesh.rst:355
+#: ../classes/class_navigationmesh.rst:371
+#: ../classes/class_navigationmesh.rst:403
+#: ../classes/class_navigationmesh.rst:419
+#: ../classes/class_navigationmesh.rst:451
+#: ../classes/class_navigationmesh.rst:467
+#: ../classes/class_navigationmesh.rst:485
+#: ../classes/class_navigationmesh.rst:503
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:173
+#: ../classes/class_navigationmesh.rst:191
+#: ../classes/class_navigationmesh.rst:209
+#: ../classes/class_navigationmesh.rst:225
+#: ../classes/class_navigationmesh.rst:243
+#: ../classes/class_navigationmesh.rst:259
+#: ../classes/class_navigationmesh.rst:275
+#: ../classes/class_navigationmesh.rst:291
+#: ../classes/class_navigationmesh.rst:307
+#: ../classes/class_navigationmesh.rst:323
+#: ../classes/class_navigationmesh.rst:341
+#: ../classes/class_navigationmesh.rst:357
+#: ../classes/class_navigationmesh.rst:373
+#: ../classes/class_navigationmesh.rst:387
+#: ../classes/class_navigationmesh.rst:405
+#: ../classes/class_navigationmesh.rst:421
+#: ../classes/class_navigationmesh.rst:435
+#: ../classes/class_navigationmesh.rst:453
+#: ../classes/class_navigationmesh.rst:469
+#: ../classes/class_navigationmesh.rst:487
+#: ../classes/class_navigationmesh.rst:505
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:173
+msgid "set_agent_height(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:175
+#: ../classes/class_navigationmesh.rst:193
+#: ../classes/class_navigationmesh.rst:211
+#: ../classes/class_navigationmesh.rst:227
+#: ../classes/class_navigationmesh.rst:245
+#: ../classes/class_navigationmesh.rst:261
+#: ../classes/class_navigationmesh.rst:277
+#: ../classes/class_navigationmesh.rst:293
+#: ../classes/class_navigationmesh.rst:309
+#: ../classes/class_navigationmesh.rst:325
+#: ../classes/class_navigationmesh.rst:343
+#: ../classes/class_navigationmesh.rst:359
+#: ../classes/class_navigationmesh.rst:375
+#: ../classes/class_navigationmesh.rst:389
+#: ../classes/class_navigationmesh.rst:407
+#: ../classes/class_navigationmesh.rst:423
+#: ../classes/class_navigationmesh.rst:437
+#: ../classes/class_navigationmesh.rst:455
+#: ../classes/class_navigationmesh.rst:471
+#: ../classes/class_navigationmesh.rst:489
+#: ../classes/class_navigationmesh.rst:507
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:175
+msgid "get_agent_height()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:178
+msgid "地板到天花板的最小高度，仍然允许被认为是可行走的地板。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:180
+msgid "\\ **注意：**\\ 烘焙时，这个值会向上取整到最接近的\\ :ref:`cell/height<class_NavigationMesh_property_cell/height>`\\ 的倍数。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:186
+msgid ":ref:`float<class_float>` **agent/max_climb**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:191
+msgid "set_agent_max_climb(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:193
+msgid "get_agent_max_climb()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:196
+msgid "被认为仍可穿越的最小墙壁高度。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:198
+msgid "\\ **注意：**\\ 烘焙时，该值将向下舍入到最接近的\\ :ref:`cell/height<class_NavigationMesh_property_cell/height>`\\ 的倍数。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:204
+msgid ":ref:`float<class_float>` **agent/max_slope**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:209
+msgid "set_agent_max_slope(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:211
+msgid "get_agent_max_slope()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:214
+msgid "认为可行走的最大坡度，单位是度。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:220
+msgid ":ref:`float<class_float>` **agent/radius**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:225
+msgid "set_agent_radius(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:227
+msgid "get_agent_radius()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:230
+msgid "侵蚀/缩小远离障碍物的高度场的可行走区域距离。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:232
+#: ../classes/class_navigationmesh.rst:330
+msgid "\\ **注意：**\\ 烘焙时，这个值会向上取整到最接近的\\ :ref:`cell/size<class_NavigationMesh_property_cell/size>`\\ 的倍数。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:238
+msgid ":ref:`float<class_float>` **cell/height**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:243
+msgid "set_cell_height(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:245
+msgid "get_cell_height()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:248
+msgid "用于字段Y轴单元的尺寸。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:254
+msgid ":ref:`float<class_float>` **cell/size**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:259
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:261
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:264
+msgid "用于字段的XZ平面单元尺寸。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:270
+msgid ":ref:`float<class_float>` **detail/sample_distance**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:275
+msgid "set_detail_sample_distance(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:277
+msgid "get_detail_sample_distance()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:280
+msgid "生成细分网格时使用的采样距离，以单元为单位。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:286
+msgid ":ref:`float<class_float>` **detail/sample_max_error**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:291
+msgid "set_detail_sample_max_error(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:293
+msgid "get_detail_sample_max_error()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:296
+msgid "细节网格表面应偏离高度场的最大距离，以单元格为单位。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:302
+msgid ":ref:`float<class_float>` **edge/max_error**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:307
+msgid "set_edge_max_error(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:309
+msgid "get_edge_max_error()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:312
+msgid "简化轮廓的边界边缘应偏离原始原始轮廓的最大距离。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:318
+msgid ":ref:`float<class_float>` **edge/max_length**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:323
+msgid "set_edge_max_length(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:325
+msgid "get_edge_max_length()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:328
+msgid "沿网格边界的轮廓的最大允许长度。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:336
+msgid ":ref:`bool<class_bool>` **filter/filter_walkable_low_height_spans**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:341
+msgid "set_filter_walkable_low_height_spans(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:343
+msgid "get_filter_walkable_low_height_spans()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:346
+msgid "如果 ``true``\\ ，如果跨度上方的间隙小于 :ref:`agent/height<class_NavigationMesh_property_agent/height>`\\ ，则将可行走范围标记为不可行走。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:352
+msgid ":ref:`bool<class_bool>` **filter/ledge_spans**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:357
+msgid "set_filter_ledge_spans(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:359
+msgid "get_filter_ledge_spans()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:362
+msgid "如果\\ ``true``\\ ，标记边缘间的跨度为不可行走。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:368
+msgid ":ref:`bool<class_bool>` **filter/low_hanging_obstacles**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:373
+msgid "set_filter_low_hanging_obstacles(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:375
+msgid "get_filter_low_hanging_obstacles()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:378
+msgid "如果 ``true``\\ ，如果它们的最大值在可行走邻域的 :ref:`agent/max_climb<class_NavigationMesh_property_agent/max_climb>` 内，则将不可行走范围标记为可行走。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:384
+msgid ":ref:`int<class_int>` **geometry/collision_mask**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:387
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:389
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:392
+msgid "用于扫描静态碰撞的物理层。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:394
+msgid "仅在\\ :ref:`geometry/parsed_geometry_type<class_NavigationMesh_property_geometry/parsed_geometry_type>`\\ 是\\ :ref:`PARSED_GEOMETRY_STATIC_COLLIDERS<class_NavigationMesh_constant_PARSED_GEOMETRY_STATIC_COLLIDERS>`\\ 或\\ :ref:`PARSED_GEOMETRY_BOTH<class_NavigationMesh_constant_PARSED_GEOMETRY_BOTH>`\\ 时才使用。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:400
+msgid ":ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>` **geometry/parsed_geometry_type**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:405
+msgid "set_parsed_geometry_type(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:407
+msgid "get_parsed_geometry_type()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:410
+msgid "决定哪种类型的节点可解析为几何图形。参阅\\ :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:416
+msgid ":ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>` **geometry/source_geometry_mode**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:421
+msgid "set_source_geometry_mode(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:423
+msgid "get_source_geometry_mode()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:426
+msgid "烘焙时使用的几何体的源。参阅\\ :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:432
+msgid ":ref:`String<class_String>` **geometry/source_group_name**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:435
+msgid "set_source_group_name(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:437
+msgid "get_source_group_name()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:440
+msgid "要扫描的几何体组的名称。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:442
+msgid "只有当\\ :ref:`geometry/source_geometry_mode<class_NavigationMesh_property_geometry/source_geometry_mode>`\\ 是\\ :ref:`SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN>`\\ 或\\ :ref:`SOURCE_GEOMETRY_GROUPS_EXPLICIT<class_NavigationMesh_constant_SOURCE_GEOMETRY_GROUPS_EXPLICIT>`\\ 时才使用。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:448
+msgid ":ref:`float<class_float>` **polygon/verts_per_poly**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:453
+msgid "set_verts_per_poly(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:455
+msgid "get_verts_per_poly()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:458
+msgid "在轮廓到多边形转换过程中生成的多边形允许的最大顶点数。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:464
+msgid ":ref:`float<class_float>` **region/merge_size**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:469
+msgid "set_region_merge_size(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:471
+msgid "get_region_merge_size()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:474
+msgid "如果可能的话，任何小于这个尺寸的区域将与较大的区域合并。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:476
+msgid "\\ **注意：**\\ 这个值将被平方来计算单元格的数量。例如，一个20的值将把单元格的数量设为400。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:482
+msgid ":ref:`float<class_float>` **region/min_size**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:487
+msgid "set_region_min_size(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:489
+msgid "get_region_min_size()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:492
+msgid "一个区域被创建的最小尺寸。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:494
+msgid "\\ **注意：**\\ 该值将被平方，以计算出允许形成孤岛区域的最小单元数。例如，8的值将把单元格的数量设为64。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:500
+msgid ":ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>` **sample_partition_type/sample_partition_type**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:505
+msgid "set_sample_partition_type(value)"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:507
+msgid "get_sample_partition_type()"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:510
+msgid "创建导航网格polys单元的分割算法。参阅\\ :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:513
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:517
+msgid "void **add_polygon** **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:519
+msgid "使用调用\\ :ref:`get_vertices<class_NavigationMesh_method_get_vertices>`\\ 得到的顶点的索引添加一个多边形。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:525
+msgid "void **clear_polygons** **(** **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:527
+msgid "清除多边形数组，但不清除顶点数组。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:533
+msgid "void **create_from_mesh** **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:535
+msgid "通过根据 :ref:`Mesh<class_Mesh>` 设置顶点和索引来初始化导航网格。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:541
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:543
+msgid "返回\\ :ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>`\\ 的指定\\ ``bit``\\ 是否被设置。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:549
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_polygon** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:551
+msgid "返回包含创建的多边形顶点索引的\\ :ref:`PoolIntArray<class_PoolIntArray>`\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:557
+msgid ":ref:`int<class_int>` **get_polygon_count** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:559
+msgid "返回导航网格中的多边形数量。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:565
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **get_vertices** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:567
+msgid "返回包含用于创建多边形的所有顶点的\\ :ref:`PoolVector3Array<class_PoolVector3Array>`\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:573
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:575
+msgid "如果 ``value`` 为 ``true``\\ ，则在 :ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>` 中设置指定的 ``bit``\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:577
+msgid "如果 ``value`` 为 ``false``\\ ，则清除 :ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>` 中指定的 ``bit``\\ 。"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:583
+msgid "void **set_vertices** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices **)**"
+msgstr ""
+
+#: ../classes/class_navigationmesh.rst:585
+msgid "设置顶点，然后使用\\ :ref:`add_polygon<class_NavigationMesh_method_add_polygon>`\\ 方法创建多边形。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,1597 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_string.rst:10
+msgid "String"
+msgstr ""
+
+#: ../classes/class_string.rst:12
+msgid "内置字符串类。"
+msgstr ""
+
+#: ../classes/class_string.rst:15
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_string.rst:17
+msgid "这是内置的字符串类（也是 GDScript 所使用的字符串类）。它支持 Unicode，提供了处理字符串的所有必要手段。字符串进行了引用计数，实现了写时复制，所以在资源中进行传递的成本很低。"
+msgstr ""
+
+#: ../classes/class_string.rst:20
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_string.rst:22
+msgid ":doc:`../tutorials/scripting/gdscript/gdscript_format_string`"
+msgstr ""
+
+#: ../classes/class_string.rst:25
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_string.rst:28
+#: ../classes/class_string.rst:30
+#: ../classes/class_string.rst:32
+#: ../classes/class_string.rst:34
+#: ../classes/class_string.rst:36
+#: ../classes/class_string.rst:38
+#: ../classes/class_string.rst:40
+#: ../classes/class_string.rst:42
+#: ../classes/class_string.rst:44
+#: ../classes/class_string.rst:46
+#: ../classes/class_string.rst:48
+#: ../classes/class_string.rst:50
+#: ../classes/class_string.rst:52
+#: ../classes/class_string.rst:54
+#: ../classes/class_string.rst:56
+#: ../classes/class_string.rst:58
+#: ../classes/class_string.rst:60
+#: ../classes/class_string.rst:62
+#: ../classes/class_string.rst:64
+#: ../classes/class_string.rst:66
+#: ../classes/class_string.rst:68
+#: ../classes/class_string.rst:70
+#: ../classes/class_string.rst:72
+#: ../classes/class_string.rst:74
+#: ../classes/class_string.rst:80
+#: ../classes/class_string.rst:82
+#: ../classes/class_string.rst:84
+#: ../classes/class_string.rst:92
+#: ../classes/class_string.rst:106
+#: ../classes/class_string.rst:108
+#: ../classes/class_string.rst:110
+#: ../classes/class_string.rst:112
+#: ../classes/class_string.rst:114
+#: ../classes/class_string.rst:116
+#: ../classes/class_string.rst:122
+#: ../classes/class_string.rst:124
+#: ../classes/class_string.rst:126
+#: ../classes/class_string.rst:128
+#: ../classes/class_string.rst:130
+#: ../classes/class_string.rst:154
+#: ../classes/class_string.rst:156
+#: ../classes/class_string.rst:160
+#: ../classes/class_string.rst:168
+#: ../classes/class_string.rst:176
+#: ../classes/class_string.rst:178
+#: ../classes/class_string.rst:180
+#: ../classes/class_string.rst:182
+#: ../classes/class_string.rst:184
+#: ../classes/class_string.rst:186
+#: ../classes/class_string.rst:188
+#: ../classes/class_string.rst:190
+#: ../classes/class_string.rst:196
+#: ../classes/class_string.rst:200
+#: ../classes/class_string.rst:204
+#: ../classes/class_string.rst:208
+#: ../classes/class_string.rst:212
+#: ../classes/class_string.rst:218
+#: ../classes/class_string.rst:220
+#: ../classes/class_string.rst:222
+#: ../classes/class_string.rst:230
+#: ../classes/class_string.rst:232
+#: ../classes/class_string.rst:238
+#: ../classes/class_string.rst:240
+#: ../classes/class_string.rst:242
+#: ../classes/class_string.rst:244
+#: ../classes/class_string.rst:246
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_string.rst:28
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:30
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:32
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:34
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Vector2<class_Vector2>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:36
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Rect2<class_Rect2>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:38
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Vector3<class_Vector3>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:40
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Transform2D<class_Transform2D>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:42
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Plane<class_Plane>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:44
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Quat<class_Quat>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:46
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`AABB<class_AABB>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:48
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:50
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:52
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Color<class_Color>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:54
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`NodePath<class_NodePath>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:56
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`RID<class_RID>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:58
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Dictionary<class_Dictionary>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:60
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:62
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:64
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:66
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:68
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:70
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:72
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:74
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:76
+#: ../classes/class_string.rst:94
+#: ../classes/class_string.rst:96
+#: ../classes/class_string.rst:132
+#: ../classes/class_string.rst:134
+#: ../classes/class_string.rst:136
+#: ../classes/class_string.rst:138
+#: ../classes/class_string.rst:140
+#: ../classes/class_string.rst:142
+#: ../classes/class_string.rst:144
+#: ../classes/class_string.rst:146
+#: ../classes/class_string.rst:148
+#: ../classes/class_string.rst:150
+#: ../classes/class_string.rst:152
+#: ../classes/class_string.rst:162
+#: ../classes/class_string.rst:164
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_string.rst:76
+msgid ":ref:`begins_with<class_String_method_begins_with>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:78
+#: ../classes/class_string.rst:198
+#: ../classes/class_string.rst:214
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../classes/class_string.rst:78
+msgid ":ref:`bigrams<class_String_method_bigrams>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:80
+msgid ":ref:`c_escape<class_String_method_c_escape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:82
+msgid ":ref:`c_unescape<class_String_method_c_unescape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:84
+msgid ":ref:`capitalize<class_String_method_capitalize>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:86
+#: ../classes/class_string.rst:88
+#: ../classes/class_string.rst:90
+#: ../classes/class_string.rst:100
+#: ../classes/class_string.rst:102
+#: ../classes/class_string.rst:104
+#: ../classes/class_string.rst:118
+#: ../classes/class_string.rst:120
+#: ../classes/class_string.rst:158
+#: ../classes/class_string.rst:170
+#: ../classes/class_string.rst:172
+#: ../classes/class_string.rst:174
+#: ../classes/class_string.rst:192
+#: ../classes/class_string.rst:194
+#: ../classes/class_string.rst:228
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_string.rst:86
+msgid ":ref:`casecmp_to<class_String_method_casecmp_to>` **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:88
+msgid ":ref:`count<class_String_method_count>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:90
+msgid ":ref:`countn<class_String_method_countn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:92
+msgid ":ref:`dedent<class_String_method_dedent>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:94
+msgid ":ref:`empty<class_String_method_empty>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:96
+msgid ":ref:`ends_with<class_String_method_ends_with>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:98
+msgid "void"
+msgstr ""
+
+#: ../classes/class_string.rst:98
+msgid ":ref:`erase<class_String_method_erase>` **(** :ref:`int<class_int>` position, :ref:`int<class_int>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:100
+msgid ":ref:`find<class_String_method_find>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:102
+msgid ":ref:`find_last<class_String_method_find_last>` **(** :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:104
+msgid ":ref:`findn<class_String_method_findn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:106
+msgid ":ref:`format<class_String_method_format>` **(** :ref:`Variant<class_Variant>` values, :ref:`String<class_String>` placeholder=\"{_}\" **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:108
+msgid ":ref:`get_base_dir<class_String_method_get_base_dir>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:110
+msgid ":ref:`get_basename<class_String_method_get_basename>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:112
+msgid ":ref:`get_extension<class_String_method_get_extension>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:114
+msgid ":ref:`get_file<class_String_method_get_file>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:116
+msgid ":ref:`get_slice<class_String_method_get_slice>` **(** :ref:`String<class_String>` delimiter, :ref:`int<class_int>` slice **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:118
+msgid ":ref:`hash<class_String_method_hash>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:120
+msgid ":ref:`hex_to_int<class_String_method_hex_to_int>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:122
+msgid ":ref:`http_escape<class_String_method_http_escape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:124
+msgid ":ref:`http_unescape<class_String_method_http_unescape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:126
+msgid ":ref:`humanize_size<class_String_method_humanize_size>` **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:128
+msgid ":ref:`indent<class_String_method_indent>` **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:130
+msgid ":ref:`insert<class_String_method_insert>` **(** :ref:`int<class_int>` position, :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:132
+msgid ":ref:`is_abs_path<class_String_method_is_abs_path>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:134
+msgid ":ref:`is_rel_path<class_String_method_is_rel_path>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:136
+msgid ":ref:`is_subsequence_of<class_String_method_is_subsequence_of>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:138
+msgid ":ref:`is_subsequence_ofi<class_String_method_is_subsequence_ofi>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:140
+msgid ":ref:`is_valid_filename<class_String_method_is_valid_filename>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:142
+msgid ":ref:`is_valid_float<class_String_method_is_valid_float>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:144
+msgid ":ref:`is_valid_hex_number<class_String_method_is_valid_hex_number>` **(** :ref:`bool<class_bool>` with_prefix=false **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:146
+msgid ":ref:`is_valid_html_color<class_String_method_is_valid_html_color>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:148
+msgid ":ref:`is_valid_identifier<class_String_method_is_valid_identifier>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:150
+msgid ":ref:`is_valid_integer<class_String_method_is_valid_integer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:152
+msgid ":ref:`is_valid_ip_address<class_String_method_is_valid_ip_address>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:154
+msgid ":ref:`json_escape<class_String_method_json_escape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:156
+msgid ":ref:`left<class_String_method_left>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:158
+msgid ":ref:`length<class_String_method_length>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:160
+msgid ":ref:`lstrip<class_String_method_lstrip>` **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:162
+msgid ":ref:`match<class_String_method_match>` **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:164
+msgid ":ref:`matchn<class_String_method_matchn>` **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:166
+#: ../classes/class_string.rst:202
+#: ../classes/class_string.rst:206
+#: ../classes/class_string.rst:224
+#: ../classes/class_string.rst:234
+#: ../classes/class_string.rst:236
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../classes/class_string.rst:166
+msgid ":ref:`md5_buffer<class_String_method_md5_buffer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:168
+msgid ":ref:`md5_text<class_String_method_md5_text>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:170
+msgid ":ref:`naturalnocasecmp_to<class_String_method_naturalnocasecmp_to>` **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:172
+msgid ":ref:`nocasecmp_to<class_String_method_nocasecmp_to>` **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:174
+msgid ":ref:`ord_at<class_String_method_ord_at>` **(** :ref:`int<class_int>` at **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:176
+msgid ":ref:`pad_decimals<class_String_method_pad_decimals>` **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:178
+msgid ":ref:`pad_zeros<class_String_method_pad_zeros>` **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:180
+msgid ":ref:`percent_decode<class_String_method_percent_decode>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:182
+msgid ":ref:`percent_encode<class_String_method_percent_encode>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:184
+msgid ":ref:`plus_file<class_String_method_plus_file>` **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:186
+msgid ":ref:`repeat<class_String_method_repeat>` **(** :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:188
+msgid ":ref:`replace<class_String_method_replace>` **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:190
+msgid ":ref:`replacen<class_String_method_replacen>` **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:192
+msgid ":ref:`rfind<class_String_method_rfind>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:194
+msgid ":ref:`rfindn<class_String_method_rfindn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:196
+msgid ":ref:`right<class_String_method_right>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:198
+msgid ":ref:`rsplit<class_String_method_rsplit>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:200
+msgid ":ref:`rstrip<class_String_method_rstrip>` **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:202
+msgid ":ref:`sha1_buffer<class_String_method_sha1_buffer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:204
+msgid ":ref:`sha1_text<class_String_method_sha1_text>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:206
+msgid ":ref:`sha256_buffer<class_String_method_sha256_buffer>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:208
+msgid ":ref:`sha256_text<class_String_method_sha256_text>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:210
+#: ../classes/class_string.rst:226
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_string.rst:210
+msgid ":ref:`similarity<class_String_method_similarity>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:212
+msgid ":ref:`simplify_path<class_String_method_simplify_path>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:214
+msgid ":ref:`split<class_String_method_split>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:216
+msgid ":ref:`PoolRealArray<class_PoolRealArray>`"
+msgstr ""
+
+#: ../classes/class_string.rst:216
+msgid ":ref:`split_floats<class_String_method_split_floats>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:218
+msgid ":ref:`strip_edges<class_String_method_strip_edges>` **(** :ref:`bool<class_bool>` left=true, :ref:`bool<class_bool>` right=true **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:220
+msgid ":ref:`strip_escapes<class_String_method_strip_escapes>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:222
+msgid ":ref:`substr<class_String_method_substr>` **(** :ref:`int<class_int>` from, :ref:`int<class_int>` len=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:224
+msgid ":ref:`to_ascii<class_String_method_to_ascii>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:226
+msgid ":ref:`to_float<class_String_method_to_float>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:228
+msgid ":ref:`to_int<class_String_method_to_int>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:230
+msgid ":ref:`to_lower<class_String_method_to_lower>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:232
+msgid ":ref:`to_upper<class_String_method_to_upper>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:234
+msgid ":ref:`to_utf8<class_String_method_to_utf8>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:236
+msgid ":ref:`to_wchar<class_String_method_to_wchar>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:238
+msgid ":ref:`trim_prefix<class_String_method_trim_prefix>` **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:240
+msgid ":ref:`trim_suffix<class_String_method_trim_suffix>` **(** :ref:`String<class_String>` suffix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:242
+msgid ":ref:`validate_node_name<class_String_method_validate_node_name>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:244
+msgid ":ref:`xml_escape<class_String_method_xml_escape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:246
+msgid ":ref:`xml_unescape<class_String_method_xml_unescape>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:250
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_string.rst:254
+msgid ":ref:`String<class_String>` **String** **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:256
+msgid "从给定的 :ref:`bool<class_bool>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:260
+msgid ":ref:`String<class_String>` **String** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:262
+msgid "从给定的 :ref:`int<class_int>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:266
+msgid ":ref:`String<class_String>` **String** **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:268
+msgid "从给定的 :ref:`float<class_float>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:272
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Vector2<class_Vector2>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:274
+msgid "从给定的 :ref:`Vector2<class_Vector2>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:278
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Rect2<class_Rect2>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:280
+msgid "从给定的 :ref:`Rect2<class_Rect2>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:284
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Vector3<class_Vector3>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:286
+msgid "从给定的 :ref:`Vector3<class_Vector3>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:290
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Transform2D<class_Transform2D>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:292
+msgid "从给定的 :ref:`Transform2D<class_Transform2D>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:296
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Plane<class_Plane>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:298
+msgid "从给定的 :ref:`Plane<class_Plane>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:302
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Quat<class_Quat>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:304
+msgid "从给定的 :ref:`Quat<class_Quat>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:308
+msgid ":ref:`String<class_String>` **String** **(** :ref:`AABB<class_AABB>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:310
+msgid "从给定的 :ref:`AABB<class_AABB>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:314
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:316
+msgid "从给定的 :ref:`Basis<class_Basis>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:320
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:322
+msgid "从给定的 :ref:`Transform<class_Transform>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:326
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Color<class_Color>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:328
+msgid "从给定的 :ref:`Color<class_Color>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:332
+msgid ":ref:`String<class_String>` **String** **(** :ref:`NodePath<class_NodePath>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:334
+msgid "从给定的 :ref:`NodePath<class_NodePath>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:338
+msgid ":ref:`String<class_String>` **String** **(** :ref:`RID<class_RID>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:340
+msgid "从给定的 :ref:`RID<class_RID>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:344
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Dictionary<class_Dictionary>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:346
+msgid "从给定的 :ref:`Dictionary<class_Dictionary>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:350
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:352
+msgid "从给定的 :ref:`Array<class_Array>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:356
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:358
+msgid "从给定的 :ref:`PoolByteArray<class_PoolByteArray>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:362
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:364
+msgid "从给定的 :ref:`PoolIntArray<class_PoolIntArray>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:368
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:370
+msgid "从给定的 :ref:`PoolRealArray<class_PoolRealArray>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:374
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:376
+msgid "从给定的 :ref:`PoolStringArray<class_PoolStringArray>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:380
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:382
+msgid "从给定的 :ref:`PoolVector2Array<class_PoolVector2Array>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:386
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:388
+msgid "从给定的 :ref:`PoolVector3Array<class_PoolVector3Array>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:392
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:394
+msgid "从给定的 :ref:`PoolColorArray<class_PoolColorArray>` 构造新 String。"
+msgstr ""
+
+#: ../classes/class_string.rst:400
+msgid ":ref:`bool<class_bool>` **begins_with** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:402
+msgid "该字符串以指定字符串开头时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:408
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **bigrams** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:410
+msgid "返回此字符串的二元组（连续字母对）。"
+msgstr ""
+
+#: ../classes/class_string.rst:416
+msgid ":ref:`String<class_String>` **c_escape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:418
+msgid "返回一个使用C语言标准转义的特殊字符的字符串的副本。"
+msgstr ""
+
+#: ../classes/class_string.rst:424
+msgid ":ref:`String<class_String>` **c_unescape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:426
+msgid "Returns a copy of the string with escaped characters replaced by their meanings. Supported escape sequences are ``\\'``, ``\\\"``, ``\\?``, ``\\\\``, ``\\a``, ``\\b``, ``\\f``, ``\\n``, ``\\r``, ``\\t``, ``\\v``."
+msgstr ""
+
+#: ../classes/class_string.rst:428
+msgid "\\ **Note:** Unlike the GDScript parser, this method doesn't support the ``\\uXXXX`` escape sequence."
+msgstr ""
+
+#: ../classes/class_string.rst:434
+msgid ":ref:`String<class_String>` **capitalize** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:436
+msgid "更改某些字母的大小写。用空格替换下划线，在词内大写字符之前添加空格，将所有字母转换为小写，然后将第一个字母和空格字符后面的每个字母大写。对于\\ ``capitalize camelCase mixed_with_underscores``\\ ，它将返回\\ ``Capitalize Camel Case Mixed With Underscores``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:442
+msgid ":ref:`int<class_int>` **casecmp_to** **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:444
+msgid "与另一个字符串进行比较，区分大小写。小于时返回 ``-1``\\ 、大于时返回 ``1``\\ 、等于时返回 ``0``\\ 。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__\\ ，大致与字母表顺序一致。"
+msgstr ""
+
+#: ../classes/class_string.rst:446
+#: ../classes/class_string.rst:843
+#: ../classes/class_string.rst:857
+msgid "\\ **字符串长度不同时的行为：** “基准”字符串比 ``to`` 字符串长时返回 ``-1``\\ ，“基准”字符串比 ``to`` 字符串短时返回 ``-1``\\ 。请注意此处的长度为 Unicode 码位的长度，\\ *不是*\\ 实际的可见字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:448
+#: ../classes/class_string.rst:845
+#: ../classes/class_string.rst:859
+msgid "\\ **存在空字符串的行为：** “基准”字符串为空时返回 ``-1``\\ ，字符串 ``to`` 为空时返回 ``1``\\ ，两者都为空时返回 ``0``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:450
+msgid "如果想在比较字符串时获得布尔型的返回值，请使用 ``==`` 运算符。参阅 :ref:`nocasecmp_to<class_String_method_nocasecmp_to>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:456
+msgid ":ref:`int<class_int>` **count** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:458
+msgid "返回子串 ``what`` 在 ``from`` 和 ``to`` 位置之间出现的次数。如果 ``from`` 和 ``to`` 等于 0，则将使用整个字符串。如果只有 ``to`` 等于 0，则将使用剩余的子串。"
+msgstr ""
+
+#: ../classes/class_string.rst:464
+msgid ":ref:`int<class_int>` **countn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:466
+msgid "返回子串 ``what``\\ （忽略大小写）在 ``from`` 和 ``to`` 位置之间出现的次数。如果 ``from`` 和 ``to`` 等于 0，则将使用整个字符串。如果只有 ``to`` 等于 0，则将使用剩余的子串。"
+msgstr ""
+
+#: ../classes/class_string.rst:472
+msgid ":ref:`String<class_String>` **dedent** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:474
+msgid "Returns a copy of the string with indentation (leading tabs and spaces) removed. See also :ref:`indent<class_String_method_indent>` to add indentation."
+msgstr ""
+
+#: ../classes/class_string.rst:480
+msgid ":ref:`bool<class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:482
+msgid "该字符串的长度为 ``0`` 时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:488
+msgid ":ref:`bool<class_bool>` **ends_with** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:490
+msgid "该字符串以指定字符串结尾时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:496
+msgid "void **erase** **(** :ref:`int<class_int>` position, :ref:`int<class_int>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:498
+msgid "从该字符串的 ``position`` 位置开始，擦除 ``chars`` 个字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:504
+msgid ":ref:`int<class_int>` **find** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:506
+msgid "查找首次出现的子字符串。返回该子字符串的起始位置，未找到时则返回 ``-1``\\ 。还可以传入查找的起始位置。"
+msgstr ""
+
+#: ../classes/class_string.rst:508
+msgid "\\ **注意：** 如果只想知道字符串是否包含子字符串，请使用 ``in`` 运算符，如下所示："
+msgstr ""
+
+#: ../classes/class_string.rst:520
+msgid ":ref:`int<class_int>` **find_last** **(** :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:522
+msgid "查找最后一次出现的子字符串。如果未找到，则返回子字符串的起始位置或 ``-1``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:528
+msgid ":ref:`int<class_int>` **findn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:530
+msgid "查找子字符串的第一次出现，忽略大小写。如果未找到，则返回子字符串的起始位置或 ``-1``\\ 。或者，可以传递初始搜索索引。"
+msgstr ""
+
+#: ../classes/class_string.rst:536
+msgid ":ref:`String<class_String>` **format** **(** :ref:`Variant<class_Variant>` values, :ref:`String<class_String>` placeholder=\"{_}\" **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:538
+msgid "格式化字符串，将所有的 ``placeholder`` 替换为 ``values``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:544
+msgid ":ref:`String<class_String>` **get_base_dir** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:546
+msgid "字符串为有效文件路径时，返回基础目录名。"
+msgstr ""
+
+#: ../classes/class_string.rst:552
+msgid ":ref:`String<class_String>` **get_basename** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:554
+msgid "字符串为有效文件路径时，返回完整的文件路径，不带扩展名。"
+msgstr ""
+
+#: ../classes/class_string.rst:560
+msgid ":ref:`String<class_String>` **get_extension** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:562
+msgid "如果字符串是一个有效的文件名或路径，返回不带句点的扩展名（\\ ``.``\\ ）。如果字符串不包含扩展名，则返回一个空字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:579
+msgid ":ref:`String<class_String>` **get_file** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:581
+msgid "字符串为有效文件路径时，返回文件名。"
+msgstr ""
+
+#: ../classes/class_string.rst:587
+msgid ":ref:`String<class_String>` **get_slice** **(** :ref:`String<class_String>` delimiter, :ref:`int<class_int>` slice **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:589
+msgid "Splits a string using a ``delimiter`` and returns a substring at index ``slice``. Returns an empty string if the index doesn't exist."
+msgstr ""
+
+#: ../classes/class_string.rst:591
+msgid "This is a more performant alternative to :ref:`split<class_String_method_split>` for cases when you need only one element from the array at a fixed index."
+msgstr ""
+
+#: ../classes/class_string.rst:593
+#: ../classes/class_string.rst:1051
+msgid "Example:"
+msgstr ""
+
+#: ../classes/class_string.rst:603
+msgid ":ref:`int<class_int>` **hash** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:605
+msgid "以32位整数形式返回字符串的哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:611
+msgid ":ref:`int<class_int>` **hex_to_int** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:613
+msgid "将包含十六进制数的字符串转换为整数。十六进制字符串应以“\\ ``0x``\\ ”为前缀，否则返回 ``0``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:623
+msgid ":ref:`String<class_String>` **http_escape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:625
+msgid "对字符串进行转义（编码），使之成为适合URL的格式。也被称为 \"URL编码\"。"
+msgstr ""
+
+#: ../classes/class_string.rst:635
+msgid ":ref:`String<class_String>` **http_unescape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:637
+msgid "解除（解码）一个URL编码格式的字符串。也被称为 \"URL解码\"。"
+msgstr ""
+
+#: ../classes/class_string.rst:647
+msgid ":ref:`String<class_String>` **humanize_size** **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:649
+msgid "将以字节数表示的\\ ``大小``\\ 转换为人类可读的格式，使用国际化的数据大小单位集，即。B, KiB, MiB, GiB, TiB, PiB, EiB。请注意，下一个最小的单位是自动挑选的，最多可容纳1024个单位。"
+msgstr ""
+
+#: ../classes/class_string.rst:661
+msgid ":ref:`String<class_String>` **indent** **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:663
+msgid "Returns a copy of the string with lines indented with ``prefix``."
+msgstr ""
+
+#: ../classes/class_string.rst:665
+msgid "For example, the string can be indented with two tabs using ``\"\\t\\t\"``, or four spaces using ``\"    \"``. The prefix can be any string so it can also be used to comment out strings with e.g. ``\"# \"``. See also :ref:`dedent<class_String_method_dedent>` to remove indentation."
+msgstr ""
+
+#: ../classes/class_string.rst:667
+msgid "\\ **Note:** Empty lines are kept empty."
+msgstr ""
+
+#: ../classes/class_string.rst:673
+msgid ":ref:`String<class_String>` **insert** **(** :ref:`int<class_int>` position, :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:675
+msgid "返回在给定位置插入子字符串 ``what`` 后的字符串副本。"
+msgstr ""
+
+#: ../classes/class_string.rst:681
+msgid ":ref:`bool<class_bool>` **is_abs_path** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:683
+msgid "如果字符串是文件或目录的路径，且路径是绝对路径，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:689
+msgid ":ref:`bool<class_bool>` **is_rel_path** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:691
+msgid "如果字符串是文件或目录的路径，且路径是相对的，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:697
+msgid ":ref:`bool<class_bool>` **is_subsequence_of** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:699
+msgid "该字符串为指定字符串的子串时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:705
+msgid ":ref:`bool<class_bool>` **is_subsequence_ofi** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:707
+msgid "不考虑大小写的前提下，该字符串为指定字符串的子串时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:713
+msgid ":ref:`bool<class_bool>` **is_valid_filename** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:715
+msgid "该字符串不包含文件名中所禁止的字符时，返回 ``true``\\ 。禁止的字符有："
+msgstr ""
+
+#: ../classes/class_string.rst:717
+msgid "\\ ``: / \\ ? * \" | % < >``"
+msgstr ""
+
+#: ../classes/class_string.rst:723
+msgid ":ref:`bool<class_bool>` **is_valid_float** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:725
+msgid "该字符串包含有效浮点数时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:731
+msgid ":ref:`bool<class_bool>` **is_valid_hex_number** **(** :ref:`bool<class_bool>` with_prefix=false **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:733
+msgid "该字符串包含有效十六进制数时，返回 ``true``\\ 。如果 ``with_prefix`` 为 ``true``\\ ，则有效的十六进制数还需要包含 ``0x`` 前缀，例如：\\ ``0xDEADC0DE``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:739
+msgid ":ref:`bool<class_bool>` **is_valid_html_color** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:741
+msgid "该字符串包含有效 HTML 十六进制颜色记号时，返回 ``true``\\ 。本方法认为具名颜色以及 ``hsl()`` 颜色等其他 HTML 记号无效，会返回 ``false``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:747
+msgid ":ref:`bool<class_bool>` **is_valid_identifier** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:749
+msgid "该字符串为有效标识符时，返回 ``true``\\ 。有效标识符仅能够包含字母、数字、下划线（\\ ``_``\\ ），并且不能以数字开头。"
+msgstr ""
+
+#: ../classes/class_string.rst:755
+msgid ":ref:`bool<class_bool>` **is_valid_integer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:757
+msgid "该字符串包含有效整数时，返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:763
+msgid ":ref:`bool<class_bool>` **is_valid_ip_address** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:765
+msgid "如果此字符串仅包含格式正确的 IPv4 或 IPv6 地址，则返回 ``true``\\ 。该方法认为\\ `保留IP地址 <https://en.wikipedia.org/wiki/Reserved_IP_addresses>`__\\ 如\\ ``0.0.0.0``\\ 是有效的。"
+msgstr ""
+
+#: ../classes/class_string.rst:771
+msgid ":ref:`String<class_String>` **json_escape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:773
+msgid "返回一个使用JSON标准转义的特殊字符的字符串的副本。"
+msgstr ""
+
+#: ../classes/class_string.rst:779
+msgid ":ref:`String<class_String>` **left** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:781
+msgid "返回该字符串自左侧起的若干个字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:787
+msgid ":ref:`int<class_int>` **length** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:789
+msgid "返回字符串的字符数。"
+msgstr ""
+
+#: ../classes/class_string.rst:795
+msgid ":ref:`String<class_String>` **lstrip** **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:797
+msgid "返回该字符串从左侧删除若干字符后的副本。参数 ``chars`` 为包含所需删除字符的字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:799
+msgid "\\ **注意：** ``chars`` 不是前缀。如果不想删除一组字符，而是想删除单一的前缀字符串，请参阅 :ref:`trim_prefix<class_String_method_trim_prefix>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:805
+msgid ":ref:`bool<class_bool>` **match** **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:807
+msgid "判断表达式是否匹配(区分大小写)，其中 ``\"*\"`` 匹配零个或多个任意字符并且 ``\"?\"`` 匹配除句点( ``\".\"`` ）外的任意字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:813
+msgid ":ref:`bool<class_bool>` **matchn** **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:815
+msgid "判断表达式是否匹配(不区分大小写)，其中 ``\"*\"`` 匹配零个或多个任意字符并且 ``\"?\"`` 匹配除句点( ``\".\"`` ）外的任意字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:821
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **md5_buffer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:823
+msgid "以一个字节数组的形式返回字符串的MD5哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:829
+msgid ":ref:`String<class_String>` **md5_text** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:831
+msgid "以一个字符串的形式返回字符串的MD5哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:837
+msgid ":ref:`int<class_int>` **naturalnocasecmp_to** **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:839
+msgid "与另一个字符串进行\\ *自然顺序*\\ 比较，不区分大小写。小于时返回 ``-1``\\ 、大于时返回 ``1``\\ 、等于时返回 ``0``\\ 。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__\\ ，大致与字母表顺序一致。内部实现时，会将小写字符转换为大写后进行比较。"
+msgstr ""
+
+#: ../classes/class_string.rst:841
+msgid "使用自然顺序进行排序时，对连续数字的排序符合大多数人的预期。使用自然顺序对 1 到 10 进行排序后，会得到 ``[1, 2, 3, ...]`` 而不是 ``[1, 10, 2, 3, ...]``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:847
+#: ../classes/class_string.rst:861
+msgid "如果想在比较字符串时获得布尔型的返回值，请使用 ``==`` 运算符。参阅 :ref:`casecmp_to<class_String_method_casecmp_to>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:853
+msgid ":ref:`int<class_int>` **nocasecmp_to** **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:855
+msgid "与另一个字符串进行比较，不区分大小写。小于时返回 ``-1``\\ 、大于时返回 ``1``\\ 、等于时返回 ``0``\\ 。“小于”和“大于”比较的是字符串中的 `Unicode 码位 <https://zh.wikipedia.org/wiki/Unicode%E5%AD%97%E7%AC%A6%E5%88%97%E8%A1%A8>`__\\ ，大致与字母表顺序一致。内部实现时，会将小写字符转换为大写后进行比较。"
+msgstr ""
+
+#: ../classes/class_string.rst:867
+msgid ":ref:`int<class_int>` **ord_at** **(** :ref:`int<class_int>` at **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:869
+msgid "返回 ``at`` 处的字符代码。"
+msgstr ""
+
+#: ../classes/class_string.rst:875
+msgid ":ref:`String<class_String>` **pad_decimals** **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:877
+msgid "格式化数字，在小数点后具有 ``digits`` 的确切数字。"
+msgstr ""
+
+#: ../classes/class_string.rst:883
+msgid ":ref:`String<class_String>` **pad_zeros** **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:885
+msgid "格式化数字，在小数点前具有 ``digits`` 的确切数字。"
+msgstr ""
+
+#: ../classes/class_string.rst:891
+msgid ":ref:`String<class_String>` **percent_decode** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:893
+msgid "解码一个百分比编码的字符串。参阅\\ :ref:`percent_encode<class_String_method_percent_encode>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:899
+msgid ":ref:`String<class_String>` **percent_encode** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:901
+msgid "对字符串进行百分比编码。发送 HTTP GET 请求（以及表单 urlencoded POST 请求的主体）时在 URL 中编码参数。"
+msgstr ""
+
+#: ../classes/class_string.rst:907
+msgid ":ref:`String<class_String>` **plus_file** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:909
+msgid "如果字符串是路径，则在字符串末尾连接 ``file`` 作为子路径。例如。 ``\"this/is\".plus_file(\"path\") == \"this/is/path\"``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:915
+msgid ":ref:`String<class_String>` **repeat** **(** :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:917
+msgid "返回重复多次的原始字符串。重复次数由参数给出。"
+msgstr ""
+
+#: ../classes/class_string.rst:923
+msgid ":ref:`String<class_String>` **replace** **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:925
+msgid "将出现的子字符串替换为字符串中给定的子字符串，区分大小写。"
+msgstr ""
+
+#: ../classes/class_string.rst:931
+msgid ":ref:`String<class_String>` **replacen** **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:933
+msgid "将出现的子字符串替换为字符串中给定的子字符串，不区分大小写。"
+msgstr ""
+
+#: ../classes/class_string.rst:939
+msgid ":ref:`int<class_int>` **rfind** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:941
+msgid "执行子字符串搜索，区分大小写。不过是从字符串末尾开始搜索，而不是开头。"
+msgstr ""
+
+#: ../classes/class_string.rst:947
+msgid ":ref:`int<class_int>` **rfindn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:949
+msgid "执行子字符串搜索，不区分大小写。不过是从字符串末尾开始搜索，而不是开头。"
+msgstr ""
+
+#: ../classes/class_string.rst:955
+msgid ":ref:`String<class_String>` **right** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:957
+msgid "返回该字符串指定位置右侧的内容。"
+msgstr ""
+
+#: ../classes/class_string.rst:963
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **rsplit** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:965
+msgid "从右侧开始，通过 ``delimiter`` 字符串拆分字符串并返回子字符串数组。"
+msgstr ""
+
+#: ../classes/class_string.rst:967
+msgid "返回数组中的拆分按与原始字符串相同的顺序从左到右排序。"
+msgstr ""
+
+#: ../classes/class_string.rst:969
+msgid "如果指定了 ``maxsplit``\\ ，它定义了从右边到 ``maxsplit`` 的分割数。默认值 0 表示所有项目都被拆分，因此给出与 :ref:`split<class_String_method_split>` 相同的结果。"
+msgstr ""
+
+#: ../classes/class_string.rst:971
+msgid "例子："
+msgstr ""
+
+#: ../classes/class_string.rst:985
+msgid ":ref:`String<class_String>` **rstrip** **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:987
+msgid "返回该字符串从右侧删除若干字符后的副本。参数 ``chars`` 为包含所需删除字符的字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:989
+msgid "\\ **注意：** ``chars`` 不是后缀。如果不想删除一组字符，而是想删除单一的前缀字符串，请参阅 :ref:`trim_suffix<class_String_method_trim_suffix>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:995
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **sha1_buffer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:997
+msgid "以字节数组的形式返回字符串的 SHA-1 哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:1003
+msgid ":ref:`String<class_String>` **sha1_text** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1005
+msgid "以字符串形式返回字符串的 SHA-1 哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:1011
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **sha256_buffer** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1013
+msgid "以字节数组的形式返回字符串的 SHA-256 哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:1019
+msgid ":ref:`String<class_String>` **sha256_text** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1021
+msgid "以字符串形式返回字符串的 SHA-256 哈希值。"
+msgstr ""
+
+#: ../classes/class_string.rst:1027
+msgid ":ref:`float<class_float>` **similarity** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1029
+msgid "返回与此字符串相比的文本的相似度指数。 1表示完全相似，0表示完全不同。"
+msgstr ""
+
+#: ../classes/class_string.rst:1035
+msgid ":ref:`String<class_String>` **simplify_path** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1037
+msgid "返回简化的规范路径。"
+msgstr ""
+
+#: ../classes/class_string.rst:1043
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **split** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1045
+msgid "Splits the string by a ``delimiter`` string and returns an array of the substrings. The ``delimiter`` can be of any length."
+msgstr ""
+
+#: ../classes/class_string.rst:1047
+msgid "If ``maxsplit`` is specified, it defines the number of splits to do from the left up to ``maxsplit``. The default value of ``0`` means that all items are split."
+msgstr ""
+
+#: ../classes/class_string.rst:1049
+msgid "If you need only one element from the array at a specific index, :ref:`get_slice<class_String_method_get_slice>` is a more performant option."
+msgstr ""
+
+#: ../classes/class_string.rst:1061
+msgid "If you need to split strings with more complex rules, use the :ref:`RegEx<class_RegEx>` class instead."
+msgstr ""
+
+#: ../classes/class_string.rst:1067
+msgid ":ref:`PoolRealArray<class_PoolRealArray>` **split_floats** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1069
+msgid "使用分隔符字符串将字符串拆分为浮点数，并返回子字符串数组。"
+msgstr ""
+
+#: ../classes/class_string.rst:1071
+msgid "例如，如果被 ``\",\"`` 分割，\\ ``\"1,2.5,3\"`` 将返回 ``[1,2.5,3]`` 。"
+msgstr ""
+
+#: ../classes/class_string.rst:1077
+msgid ":ref:`String<class_String>` **strip_edges** **(** :ref:`bool<class_bool>` left=true, :ref:`bool<class_bool>` right=true **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1079
+msgid "返回在开头和结尾去除了任何不可打印字符（包括制表符、空格和换行符）的字符串的副本。可选参数分别用于切换左右边缘的删除。"
+msgstr ""
+
+#: ../classes/class_string.rst:1085
+msgid ":ref:`String<class_String>` **strip_escapes** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1087
+msgid "Returns a copy of the string stripped of any escape character. These include all non-printable control characters of the first page of the ASCII table (< 32), such as tabulation (``\\t`` in C) and newline (``\\n`` and ``\\r``) characters, but not spaces."
+msgstr ""
+
+#: ../classes/class_string.rst:1093
+msgid ":ref:`String<class_String>` **substr** **(** :ref:`int<class_int>` from, :ref:`int<class_int>` len=-1 **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1095
+msgid "从 ``from`` 返回字符串的一部分，长度为 ``len``\\ 。参数 ``len`` 是可选的，使用 ``-1`` 将返回给定位置的剩余字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:1101
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **to_ascii** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1103
+msgid "将 String（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\\ （字节数组）。与 :ref:`to_utf8<class_String_method_to_utf8>` 相比，转换速度更快，因为此方法假定 String 中的所有字符都是 ASCII 字符。"
+msgstr ""
+
+#: ../classes/class_string.rst:1109
+msgid ":ref:`float<class_float>` **to_float** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1111
+msgid "将包含十进制数的字符串转换为 ``float``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:1117
+msgid ":ref:`int<class_int>` **to_int** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1119
+msgid "将包含整数的字符串转换为 ``int``\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:1125
+msgid ":ref:`String<class_String>` **to_lower** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1127
+msgid "返回转换为小写的字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:1133
+msgid ":ref:`String<class_String>` **to_upper** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1135
+msgid "返回转换为大写的字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:1141
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **to_utf8** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1143
+msgid "将字符串（字符数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\\ （字节数组）。转换比 :ref:`to_ascii<class_String_method_to_ascii>` 慢一点，但支持所有 UTF-8 字符。因此，您应该更喜欢这个函数而不是 :ref:`to_ascii<class_String_method_to_ascii>`\\ 。"
+msgstr ""
+
+#: ../classes/class_string.rst:1149
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **to_wchar** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1151
+msgid "将字符串（字符的数组）转换为 :ref:`PoolByteArray<class_PoolByteArray>`\\ （字节的数组）。"
+msgstr ""
+
+#: ../classes/class_string.rst:1157
+msgid ":ref:`String<class_String>` **trim_prefix** **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1159
+msgid "如果以一个给定的字符串为开头，则从该字符串中删除，或者不改变该字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:1165
+msgid ":ref:`String<class_String>` **trim_suffix** **(** :ref:`String<class_String>` suffix **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1167
+msgid "如果以一个给定的字符串为结尾，则从该字符串中删除，或者不改变该字符串。"
+msgstr ""
+
+#: ../classes/class_string.rst:1173
+msgid ":ref:`String<class_String>` **validate_node_name** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1175
+msgid "从字符串中删除所有不允许在 :ref:`Node<class_Node>` 名称中出现的字符（\\ ``.`` ``:`` ``@`` ``/`` ``\"``\\ ）。"
+msgstr ""
+
+#: ../classes/class_string.rst:1181
+msgid ":ref:`String<class_String>` **xml_escape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1183
+msgid "返回带有使用 XML 标准转义的特殊字符的字符串的副本。"
+msgstr ""
+
+#: ../classes/class_string.rst:1189
+msgid ":ref:`String<class_String>` **xml_unescape** **(** **)**"
+msgstr ""
+
+#: ../classes/class_string.rst:1191
+msgid "返回根据 XML 标准将转义字符替换为其含义的字符串副本。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

@@ -1,0 +1,416 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_multiplayerapi.rst:10
+msgid "MultiplayerAPI"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:14
+msgid "高级多人游戏API。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:19
+msgid "该类实现了高阶多人游戏API背后的大部分逻辑。参阅\\ :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:21
+msgid "默认情况下，\\ :ref:`SceneTree<class_SceneTree>`\\ 有对该类的引用，用于在整个场景中提供多人游戏功能（即RPC/RSET）。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:23
+msgid "通过设置\\ :ref:`Node.custom_multiplayer<class_Node_property_custom_multiplayer>`\\ 属性，可以重写特定节点使用的多人游戏API实例，从而有效地允许在同一场景中同时运行客户端和服务器。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:25
+msgid "\\ **注意:** 高阶的多人游戏API协议实现细节，并不意味着可以被非GaaeExplorer服务器使用。它可能会改变，不做另行通知。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:28
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:31
+#: ../classes/class_multiplayerapi.rst:35
+#: ../classes/class_multiplayerapi.rst:52
+#: ../classes/class_multiplayerapi.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:31
+msgid ":ref:`allow_object_decoding<class_MultiplayerAPI_property_allow_object_decoding>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:31
+#: ../classes/class_multiplayerapi.rst:35
+#: ../classes/class_multiplayerapi.rst:161
+#: ../classes/class_multiplayerapi.rst:193
+msgid "``false``"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:33
+msgid ":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:33
+msgid ":ref:`network_peer<class_MultiplayerAPI_property_network_peer>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:35
+msgid ":ref:`refuse_new_network_connections<class_MultiplayerAPI_property_refuse_new_network_connections>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:37
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:37
+msgid ":ref:`root_node<class_MultiplayerAPI_property_root_node>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:41
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:44
+#: ../classes/class_multiplayerapi.rst:56
+msgid "void"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:44
+msgid ":ref:`clear<class_MultiplayerAPI_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:46
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:46
+msgid ":ref:`get_network_connected_peers<class_MultiplayerAPI_method_get_network_connected_peers>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:48
+#: ../classes/class_multiplayerapi.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:48
+msgid ":ref:`get_network_unique_id<class_MultiplayerAPI_method_get_network_unique_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:50
+msgid ":ref:`get_rpc_sender_id<class_MultiplayerAPI_method_get_rpc_sender_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:52
+msgid ":ref:`has_network_peer<class_MultiplayerAPI_method_has_network_peer>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:54
+msgid ":ref:`is_network_server<class_MultiplayerAPI_method_is_network_server>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:56
+msgid ":ref:`poll<class_MultiplayerAPI_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:58
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:58
+msgid ":ref:`send_bytes<class_MultiplayerAPI_method_send_bytes>` **(** :ref:`PoolByteArray<class_PoolByteArray>` bytes, :ref:`int<class_int>` id=0, :ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>` mode=2 **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:62
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:66
+msgid "**connected_to_server** **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:68
+msgid "当这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 成功连接到一个服务器时触发该信号。这只在客户端触发。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:74
+msgid "**connection_failed** **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:76
+msgid "当这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 无法与服务器建立连接时触发。只在客户端触发。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:82
+msgid "**network_peer_connected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:84
+msgid "当此多人播放器的 :ref:`network_peer<class_MultiplayerAPI_property_network_peer>` 与新对等连接时触发该信号。ID 是新peer的 peer ID。当其他客户端连接到同一服务器时，客户端会收到通知。连接到服务器后，客户端还会收到服务器的此信号（ID 为 1）。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:90
+msgid "**network_peer_disconnected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:92
+msgid "当这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 与一个同伴断开连接时触发该信号。当其他客户端与同一服务器断开连接时，客户端会得到通知。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:98
+msgid "**network_peer_packet** **(** :ref:`int<class_int>` id, :ref:`PoolByteArray<class_PoolByteArray>` packet **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:100
+msgid "当这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 收到一个带有自定义数据的\\ ``数据包``\\ （见\\ :ref:`send_bytes<class_MultiplayerAPI_method_send_bytes>`\\ ）时触发。ID是发送该数据包的对等体的ID。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:106
+msgid "**server_disconnected** **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:108
+msgid "当这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 与服务器断开连接时触发。只在客户端触发。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:111
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:133
+msgid "enum **RPCMode**:"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:135
+msgid "**RPC_MODE_DISABLED** = **0** --- 与\\ :ref:`Node.rpc_config<class_Node_method_rpc_config>`\\ 或\\ :ref:`Node.rset_config<class_Node_method_rset_config>`\\ 一起使用，可以在所有RPC调用中禁用某个方法或属性，使其不可用。所有方法的默认值。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:137
+msgid "**RPC_MODE_REMOTE** = **1** --- 与\\ :ref:`Node.rpc_config<class_Node_method_rpc_config>`\\ 或\\ :ref:`Node.rset_config<class_Node_method_rset_config>`\\ 一起使用，用于设置只在远程端调用某个方法或改变某个属性，而不是在本地。类似于\\ ``remote``\\ 关键字。所有远程对等体的调用和属性改变都被接受，不管它们是节点的主控还是傀儡。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:139
+msgid "**RPC_MODE_MASTER** = **2** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起用于设置要调用的方法或仅在此节点的网络主机上更改的属性。类似于 ``master`` 关键字。仅接受节点网络傀儡的方法调用或属性更改，请参阅\\ :ref:`Node.set_network_master<class_Node_method_set_network_master>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:141
+msgid "**RPC_MODE_PUPPET** = **3** --- 与 :ref:`Node.rpc_config<class_Node_method_rpc_config>` 或 :ref:`Node.rset_config<class_Node_method_rset_config>` 一起使用，以设置仅在此节点的傀儡上调用的方法或改变的属性。类似于 ``puppet`` 关键字。只接受来自节点的网络主站的调用或属性更改，见\\ :ref:`Node.set_network_master<class_Node_method_set_network_master>`\\ 。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:143
+msgid "**RPC_MODE_SLAVE** = **3** --- *已废弃。* 使用\\ :ref:`RPC_MODE_PUPPET<class_MultiplayerAPI_constant_RPC_MODE_PUPPET>`\\ 代替。类似于\\ ``slave``\\ 关键字。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:145
+msgid "**RPC_MODE_REMOTESYNC** = **4** --- 行为类似于\\ :ref:`RPC_MODE_REMOTE<class_MultiplayerAPI_constant_RPC_MODE_REMOTE>`\\ ，但也会使调用或属性在本地改变。类似于\\ ``remoteesync``\\ 关键字。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:147
+msgid "**RPC_MODE_SYNC** = **4** --- *已废弃。* 使用\\ :ref:`RPC_MODE_REMOTESYNC<class_MultiplayerAPI_constant_RPC_MODE_REMOTESYNC>`\\ 代替。类似于\\ ``sync``\\ 关键字。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:149
+msgid "**RPC_MODE_MASTERSYNC** = **5** --- 类似于\\ :ref:`RPC_MODE_MASTER<class_MultiplayerAPI_constant_RPC_MODE_MASTER>`\\ ，但也使方法调用或属性改变本地。类似于 ``mastersync`` 关键字。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:151
+msgid "**RPC_MODE_PUPPETSYNC** = **6** --- 行为类似于 :ref:`RPC_MODE_PUPPET<class_MultiplayerAPI_constant_RPC_MODE_PUPPET>`\\ ，但也会使调用或属性在本地改变。类似于 ``puppetsync`` 关键字。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:154
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:158
+msgid ":ref:`bool<class_bool>` **allow_object_decoding**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:161
+#: ../classes/class_multiplayerapi.rst:193
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:163
+#: ../classes/class_multiplayerapi.rst:179
+#: ../classes/class_multiplayerapi.rst:195
+#: ../classes/class_multiplayerapi.rst:209
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:163
+msgid "set_allow_object_decoding(value)"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:165
+#: ../classes/class_multiplayerapi.rst:181
+#: ../classes/class_multiplayerapi.rst:197
+#: ../classes/class_multiplayerapi.rst:211
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:165
+msgid "is_object_decoding_allowed()"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:168
+msgid "如果\\ ``true``\\ ，或者如果\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 的\\ :ref:`PacketPeer.allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`\\ 设置为\\ ``true``\\ ，多人游戏API将允许在RPC/RSETs期间的对象进行编码和解码。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:170
+msgid "\\ **警告：** 反序列化的对象可能包含会被执行的代码。如果序列化的对象来自不受信任的来源，请不要使用这个选项，以避免潜在的安全威胁，如远程代码执行。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:176
+msgid ":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **network_peer**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:179
+msgid "set_network_peer(value)"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:181
+msgid "get_network_peer()"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:184
+msgid "处理 RPC 系统的对等对象（设置后有效地启用网络）。根据对等体本身，MultiplayerAPI 将成为网络服务器（检查 :ref:`is_network_server<class_MultiplayerAPI_method_is_network_server>`\\ ）并将根节点的网络模式设置为 master，或者它将成为根节点设置为 puppet 的常规对等体。所有子节点默认设置为继承网络模式。与网络相关的事件（连接、断开连接、新客户端）的处理是通过连接到 MultiplayerAPI 的信号来完成的。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:190
+msgid ":ref:`bool<class_bool>` **refuse_new_network_connections**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:195
+msgid "set_refuse_new_network_connections(value)"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:197
+msgid "is_refusing_new_network_connections()"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:200
+msgid "如果\\ ``true``\\ ，则MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 会拒绝新的传入连接。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:206
+msgid ":ref:`Node<class_Node>` **root_node**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:209
+msgid "set_root_node(value)"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:211
+msgid "get_root_node()"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:214
+msgid "用于RPC的根节点。不使用绝对路径，而是使用相对路径来寻找应该执行RPC的节点。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:216
+msgid "这有效地允许场景树的不同分支由不同的MultiplayerAPI管理，例如允许在同一个场景中同时运行客户端和服务器。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:219
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:223
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:225
+msgid "清除当前的MultiplayerAPI网络状态（除非你知道自己在做什么，否则不应该调用这个）。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:231
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_network_connected_peers** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:233
+msgid "返回此MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 的所有连接的对等体的ID。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:239
+msgid ":ref:`int<class_int>` **get_network_unique_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:241
+msgid "返回该多人游戏API的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 的唯一对等体ID。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:247
+msgid ":ref:`int<class_int>` **get_rpc_sender_id** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:249
+msgid "返回当前正在执行的RPC的发送方的对等体ID。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:251
+msgid "\\ **注意：** 如果不在RPC内，这个方法将返回0。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:257
+msgid ":ref:`bool<class_bool>` **has_network_peer** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:259
+msgid "如果有一个\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 设置，返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:265
+msgid ":ref:`bool<class_bool>` **is_network_server** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:267
+msgid "如果这个MultiplayerAPI的\\ :ref:`network_peer<class_MultiplayerAPI_property_network_peer>`\\ 处于服务器模式（监听连接），返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:273
+msgid "void **poll** **(** **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:275
+msgid "用于轮询多人游戏API的方法。只有当你使用\\ :ref:`Node.custom_multiplayer<class_Node_property_custom_multiplayer>`\\ 覆盖或者你将\\ :ref:`SceneTree.multiplayer_poll<class_SceneTree_property_multiplayer_poll>`\\ 设置为\\ ``false``\\ 时，你才需要担心这个问题。默认情况下，\\ :ref:`SceneTree<class_SceneTree>`\\ 将为你轮询其多人游戏API。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:277
+msgid "\\ **注意：**\\ 这个方法导致RPC和RSET被调用，所以它们将在这个函数的同一上下文中执行（例如，\\ ``_process``, ``physics``, :ref:`Thread<class_Thread>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:283
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **send_bytes** **(** :ref:`PoolByteArray<class_PoolByteArray>` bytes, :ref:`int<class_int>` id=0, :ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>` mode=2 **)**"
+msgstr ""
+
+#: ../classes/class_multiplayerapi.rst:285
+msgid "将给定的原始\\ ``字节``\\ 发送到由\\ ``id``\\ 确定的特定对等体（见\\ :ref:`NetworkedMultiplayerPeer.set_target_peer<class_NetworkedMultiplayerPeer_method_set_target_peer>`\\ ）。默认ID是\\ ``0``\\ ，即向所有对等体广播。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

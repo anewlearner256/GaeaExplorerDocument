@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_mutex.rst:10
+msgid "Mutex"
+msgstr ""
+
+#: ../classes/class_mutex.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_mutex.rst:14
+msgid "一个同步互斥锁（相互排斥）。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_mutex.rst:19
+msgid "一个同步互斥锁（mutex）。它用于同步多个\\ :ref:`Thread<class_Thread>`\\ ，相当于一个二进制\\ :ref:`Semaphore<class_Semaphore>`\\ 。它保证每次只有一个线程可以获得锁。互斥锁可以用来保护临界区；但是，要注意避免死锁。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_mutex.rst:24
+msgid ":doc:`../tutorials/performance/threads/using_multiple_threads`"
+msgstr ""
+
+#: ../classes/class_mutex.rst:27
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_mutex.rst:30
+#: ../classes/class_mutex.rst:34
+msgid "void"
+msgstr ""
+
+#: ../classes/class_mutex.rst:30
+msgid ":ref:`lock<class_Mutex_method_lock>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:32
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../classes/class_mutex.rst:32
+msgid ":ref:`try_lock<class_Mutex_method_try_lock>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:34
+msgid ":ref:`unlock<class_Mutex_method_unlock>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:38
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_mutex.rst:42
+msgid "void **lock** **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:44
+msgid "锁定此 ``Mutex``\\ ，直到被当前所有者解锁为止。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:46
+msgid "\\ **注意：** 如果线程已经拥有互斥锁的所有权，该函数将无阻塞地返回。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:52
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **try_lock** **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:54
+msgid "试图锁定此\\ ``Mutex``\\ ，但并不阻塞。成功时返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ ，否则返回\\ :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:56
+msgid "\\ **注意：** 如果线程已经拥有了该Mutex的所有权，该函数返回\\ :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\\ 。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:62
+msgid "void **unlock** **(** **)**"
+msgstr ""
+
+#: ../classes/class_mutex.rst:64
+msgid "解锁这个 ``Mutex``\\ ，把它留给其他线程。"
+msgstr ""
+
+#: ../classes/class_mutex.rst:66
+msgid "\\ **注意：**\\ 如果一个线程在已经拥有互斥锁的情况下多次调用\\ :ref:`lock<class_Mutex_method_lock>`\\ 或\\ :ref:`try_lock<class_Mutex_method_try_lock>`\\ ，它也必须调用相同次数的\\ :ref:`unlock<class_Mutex_method_unlock>`\\ 才能正确解锁."
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

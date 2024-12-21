@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_inputevent.rst:10
+msgid "InputEvent"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:14
+msgid "**Inherited By:** :ref:`InputEventAction<class_InputEventAction>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventMIDI<class_InputEventMIDI>`, :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`, :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`, :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:16
+msgid "通用输入事件。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:19
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:21
+msgid "各种输入事件的基类。请参阅 :ref:`Node._input<class_Node_method__input>`\\ 。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:24
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:26
+msgid ":doc:`InputEvent <../tutorials/inputs/inputevent>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:28
+msgid ":doc:`Viewport and canvas transforms <../tutorials/2d/2d_transforms>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:30
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:32
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:35
+msgid "属性"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:38
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:38
+msgid ":ref:`device<class_InputEvent_property_device>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:38
+#: ../classes/class_inputevent.rst:76
+msgid "``0``"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:42
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:45
+#: ../classes/class_inputevent.rst:51
+#: ../classes/class_inputevent.rst:53
+#: ../classes/class_inputevent.rst:55
+#: ../classes/class_inputevent.rst:57
+#: ../classes/class_inputevent.rst:59
+#: ../classes/class_inputevent.rst:61
+#: ../classes/class_inputevent.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:45
+msgid ":ref:`accumulate<class_InputEvent_method_accumulate>` **(** :ref:`InputEvent<class_InputEvent>` with_event **)**"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:47
+msgid ":ref:`as_text<class_InputEvent_method_as_text>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:49
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:49
+msgid ":ref:`get_action_strength<class_InputEvent_method_get_action_strength>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:51
+msgid ":ref:`is_action<class_InputEvent_method_is_action>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:53
+msgid ":ref:`is_action_pressed<class_InputEvent_method_is_action_pressed>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` allow_echo=false, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:55
+msgid ":ref:`is_action_released<class_InputEvent_method_is_action_released>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:57
+msgid ":ref:`is_action_type<class_InputEvent_method_is_action_type>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:59
+msgid ":ref:`is_echo<class_InputEvent_method_is_echo>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:61
+msgid ":ref:`is_pressed<class_InputEvent_method_is_pressed>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:63
+msgid ":ref:`shortcut_match<class_InputEvent_method_shortcut_match>` **(** :ref:`InputEvent<class_InputEvent>` event, :ref:`bool<class_bool>` exact_match=true **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:65
+msgid ":ref:`InputEvent<class_InputEvent>`"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:65
+msgid ":ref:`xformed_by<class_InputEvent_method_xformed_by>` **(** :ref:`Transform2D<class_Transform2D>` xform, :ref:`Vector2<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:69
+msgid "属性说明"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:73
+msgid ":ref:`int<class_int>` **device**"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:76
+msgid "*Default*"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:78
+msgid "*Setter*"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:78
+msgid "set_device(value)"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:80
+msgid "*Getter*"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:80
+msgid "get_device()"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:83
+msgid "该事件的设备 ID。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:85
+msgid "\\ **注意：**\\ 对于来自触摸屏的模拟鼠标输入，该设备 ID 将总是 ``-1``\\ 。可用于区分模拟鼠标输入和物理鼠标输入。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:88
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:92
+msgid ":ref:`bool<class_bool>` **accumulate** **(** :ref:`InputEvent<class_InputEvent>` with_event **)**"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:94
+msgid "如果给定的输入事件和这个输入事件可以相加，则返回 ``true``\\ （只针对 :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` 类型的事件）。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:96
+msgid "给定输入事件的位置、全局位置和速度将被复制。产生的 ``relative`` 是两个事件的总和。两个事件的修饰符必须是相同的。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:102
+msgid ":ref:`String<class_String>` **as_text** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:104
+msgid "返回事件的 :ref:`String<class_String>` 字符串表示。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:110
+msgid ":ref:`float<class_float>` **get_action_strength** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:112
+msgid "根据给定的动作的状态，返回0.0到1.0之间的值。对于获取\\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\\ 类型的事件值时，很有用。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:114
+#: ../classes/class_inputevent.rst:124
+#: ../classes/class_inputevent.rst:134
+#: ../classes/class_inputevent.rst:144
+msgid "如果\\ ``exact_match``\\ 是\\ ``false``\\ ，它将忽略\\ :ref:`InputEventKey<class_InputEventKey>`\\ 和\\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\\ 事件的输入修饰符，以及\\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\\ 事件的方向。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:120
+msgid ":ref:`bool<class_bool>` **is_action** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:122
+msgid "如果这个输入事件与任何类型的预定义动作匹配，则返回\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:130
+msgid ":ref:`bool<class_bool>` **is_action_pressed** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` allow_echo=false, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:132
+msgid "如果给定的动作被按下，则返回\\ ``true``\\ ，并且不是 :ref:`InputEventKey<class_InputEventKey>` 事件的回显事件，除非 ``allow_echo`` 是 ``true``\\ 。与\\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\\ 或\\ :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`\\ 类型的事件无关。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:140
+msgid ":ref:`bool<class_bool>` **is_action_released** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact_match=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:142
+msgid "如果给定的动作被释放，即未被按下，则返回\\ ``true``\\ 。与\\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\\ 或\\ :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`\\ 类型的事件无关。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:150
+msgid ":ref:`bool<class_bool>` **is_action_type** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:152
+msgid "如果此输入事件的类型是可以分配给输入动作的类型，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:158
+msgid ":ref:`bool<class_bool>` **is_echo** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:160
+msgid "如果此输入事件是回显事件（仅适用于 :ref:`InputEventKey<class_InputEventKey>` 类型的事件），则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:166
+msgid ":ref:`bool<class_bool>` **is_pressed** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:168
+msgid "如果此输入事件为按下，则返回 ``true``\\ 。与类型 :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` 或 :ref:`InputEventScreenDrag<class_InputEventScreenDrag>` 的事件无关。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:174
+msgid ":ref:`bool<class_bool>` **shortcut_match** **(** :ref:`InputEvent<class_InputEvent>` event, :ref:`bool<class_bool>` exact_match=true **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:176
+msgid "如果指定的 ``event`` 与此事件匹配，则返回 ``true``\\ 。仅对动作事件有效，即键 (:ref:`InputEventKey<class_InputEventKey>`)、按钮 (:ref:`InputEventMouseButton<class_InputEventMouseButton>` 或 :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`)、轴 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 或动作 (:ref:`InputEventAction<class_InputEventAction>`) 事件。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:178
+msgid "如果 ``exact_match`` 是 ``false``\\ ，它会忽略 :ref:`InputEventKey<class_InputEventKey>` 和 :ref:`InputEventMouseButton<class_InputEventMouseButton>` 事件的输入修饰符，以及 :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` 事件的方向。"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:184
+msgid ":ref:`InputEvent<class_InputEvent>` **xformed_by** **(** :ref:`Transform2D<class_Transform2D>` xform, :ref:`Vector2<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** |const|"
+msgstr ""
+
+#: ../classes/class_inputevent.rst:186
+msgid "返回给定输入事件的副本，该事件已由 ``local_ofs`` 偏移并由 ``xform`` 转换。与 :ref:`InputEventMouseButton<class_InputEventMouseButton>`\\ 、\\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\\ 、\\ :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`\\ 、\\ :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`\\ 、\\ :ref:`InputEventMagnifyGesture<class_InputEventMagnifyGesture>` 和 :ref:`InputEventPanGesture<class_InputEventPanGesture>` 类型的事件相关。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

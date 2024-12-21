@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:4
+msgid "C# API differences to GDScript"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:6
+msgid "This is a (incomplete) list of API differences between C# and GDScript."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:9
+msgid "General differences"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:11
+msgid "As explained in the :ref:`doc_c_sharp`, C# generally uses ``PascalCase`` instead of the ``snake_case`` used in GDScript and C++."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:15
+msgid "Global scope"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:17
+msgid "Global functions and some constants had to be moved to classes, since C# does not allow declaring them in namespaces. Most global constants were moved to their own enums."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:22
+msgid "Constants"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:24
+msgid "Global constants were moved to their own enums. For example, ``ERR_*`` constants were moved to the ``Error`` enum."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:27
+msgid "Special cases:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:30
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:59
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:221
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:236
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:248
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:259
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:267
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:282
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:294
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:351
+msgid "GDScript"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:30
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:59
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:221
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:236
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:248
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:259
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:267
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:282
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:294
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:351
+msgid "C#"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:32
+msgid "``SPKEY``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:32
+msgid "``GD.SpKey``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:33
+msgid "``TYPE_*``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:33
+msgid "``Variant.Type`` enum"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:34
+msgid "``OP_*``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:34
+msgid "``Variant.Operator`` enum"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:38
+msgid "Math functions"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:40
+msgid "Math global functions, like ``abs``, ``acos``, ``asin``, ``atan`` and ``atan2``, are located under ``Mathf`` as ``Abs``, ``Acos``, ``Asin``, ``Atan`` and ``Atan2``. The ``PI`` constant can be found as ``Mathf.Pi``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:45
+msgid "Random functions"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:47
+msgid "Random global functions, like ``rand_range`` and ``rand_seed``, are located under ``GD``. Example: ``GD.RandRange`` and ``GD.RandSeed``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:51
+msgid "Other functions"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:53
+msgid "Many other global functions like ``print`` and ``var2str`` are located under ``GD``. Example: ``GD.Print`` and ``GD.Var2Str``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:56
+msgid "Exceptions:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:61
+msgid "``weakref(obj)``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:61
+msgid "``Object.WeakRef(obj)``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:62
+msgid "``is_instance_valid(obj)``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:62
+msgid "``Object.IsInstanceValid(obj)``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:66
+msgid "Tips"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:68
+msgid "Sometimes it can be useful to use the ``using static`` directive. This directive allows to access the members and nested types of a class without specifying the class name."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:71
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:92
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:154
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:165
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:177
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:335
+msgid "Example:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:86
+msgid "Export keyword"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:88
+msgid "Use the ``[Export]`` attribute instead of the GDScript ``export`` keyword. This attribute can also be provided with optional :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` and ``hintString`` parameters. Default values can be set by assigning a value."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:114
+msgid "Signal keyword"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:116
+msgid "Use the ``[Signal]`` attribute to declare a signal instead of the GDScript ``signal`` keyword. This attribute should be used on a `delegate`, whose name signature will be used to define the signal."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:124
+msgid "See also: :ref:`doc_c_sharp_signals`."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:127
+msgid "`onready` keyword"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:129
+msgid "GDScript has the ability to defer the initialization of a member variable until the ready function is called with `onready` (cf. :ref:`doc_gdscript_onready_keyword`). For example:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:137
+msgid "However C# does not have this ability. To achieve the same effect you need to do this."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:149
+msgid "Singletons"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:151
+msgid "Singletons are available as static classes rather than using the singleton pattern. This is to make code less verbose than it would be with an ``Instance`` property."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:160
+msgid "However, in some very rare cases this is not enough. For example, you may want to access a member from the base class ``GaaeExplorer.Object``, like ``Connect``. For such use cases we provide a static property named ``Singleton`` that returns the singleton instance. The type of this instance is ``GaaeExplorer.Object``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:172
+msgid "String"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:174
+msgid "Use ``System.String`` (``string``). Most of GaaeExplorer's String methods are provided by the ``StringExtensions`` class as extension methods."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:184
+msgid "There are a few differences, though:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:186
+msgid "``erase``: Strings are immutable in C#, so we cannot modify the string passed to the extension method. For this reason, ``Erase`` was added as an extension method of ``StringBuilder`` instead of string. Alternatively, you can use ``string.Remove``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:190
+msgid "``IsSubsequenceOf``/``IsSubsequenceOfi``: An additional method is provided, which is an overload of ``IsSubsequenceOf``, allowing you to explicitly specify case sensitivity:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:201
+msgid "``Match``/``Matchn``/``ExprMatch``: An additional method is provided besides ``Match`` and ``Matchn``, which allows you to explicitly specify case sensitivity:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:212
+msgid "Basis"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:214
+msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Basis()`` initializes all primitive members to their default value. Use ``Basis.Identity`` for the equivalent of ``Basis()`` in GDScript and C++."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:218
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:264
+msgid "The following method was converted to a property with a different name:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:223
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:239
+msgid "``get_scale()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:223
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:239
+msgid "``Scale``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:227
+msgid "Transform2D"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:229
+msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Transform2D()`` initializes all primitive members to their default value. Please use ``Transform2D.Identity`` for the equivalent of ``Transform2D()`` in GDScript and C++."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:233
+msgid "The following methods were converted to properties with their respective names changed:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:238
+msgid "``get_rotation()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:238
+msgid "``Rotation``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:243
+msgid "Plane"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:245
+msgid "The following method was converted to a property with a *slightly* different name:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:250
+msgid "``center()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:250
+msgid "``Center``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:254
+msgid "Rect2"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:256
+msgid "The following field was converted to a property with a *slightly* different name:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:261
+msgid "``end``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:261
+msgid "``End``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:269
+msgid "``get_area()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:269
+msgid "``Area``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:273
+msgid "Quat"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:275
+msgid "Structs cannot have parameterless constructors in C#. Therefore, ``new Quat()`` initializes all primitive members to their default value. Please use ``Quat.Identity`` for the equivalent of ``Quat()`` in GDScript and C++."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:279
+msgid "The following methods were converted to a property with a different name:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:284
+msgid "``length()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:284
+msgid "``Length``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:285
+msgid "``length_squared()``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:285
+msgid "``LengthSquared``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:289
+msgid "Array"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:291
+msgid "*This is temporary. PoolArrays will need their own types to be used the way they are meant to.*"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:296
+msgid "``Array``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:296
+msgid "``GaaeExplorer.Collections.Array``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:297
+msgid "``PoolIntArray``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:297
+msgid "``int[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:298
+msgid "``PoolByteArray``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:298
+msgid "``byte[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:299
+msgid "``PoolFloatArray``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:299
+msgid "``float[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:300
+msgid "``PoolStringArray``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:300
+msgid "``String[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:301
+msgid "``PoolColorArray``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:301
+msgid "``Color[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:302
+msgid "``PoolVector2Array``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:302
+msgid "``Vector2[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:303
+msgid "``PoolVector3Array``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:303
+msgid "``Vector3[]``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:306
+msgid "``GaaeExplorer.Collections.Array<T>`` is a type-safe wrapper around ``GaaeExplorer.Collections.Array``. Use the ``GaaeExplorer.Collections.Array<T>(GaaeExplorer.Collections.Array)`` constructor to create one."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:310
+msgid "Dictionary"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:312
+msgid "Use ``GaaeExplorer.Collections.Dictionary``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:314
+msgid "``GaaeExplorer.Collections.Dictionary<T>`` is a type-safe wrapper around ``GaaeExplorer.Collections.Dictionary``. Use the ``GaaeExplorer.Collections.Dictionary<T>(GaaeExplorer.Collections.Dictionary)`` constructor to create one."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:318
+msgid "Variant"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:320
+msgid "``System.Object`` (``object``) is used instead of ``Variant``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:323
+msgid "Communicating with other scripting languages"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:325
+msgid "This is explained extensively in :ref:`doc_cross_language_scripting`."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:328
+msgid "Yield"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:330
+msgid "Something similar to GDScript's ``yield`` with a single parameter can be achieved with C#'s `yield keyword <https://docs.microsoft.com/en-US/dotnet/csharp/language-reference/keywords/yield>`_."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:333
+msgid "The equivalent of yield on signal can be achieved with async/await and ``GaaeExplorer.Object.ToSignal``."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:343
+msgid "Other differences"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:345
+msgid "``preload``, as it works in GDScript, is not available in C#. Use ``GD.Load`` or ``ResourceLoader.Load`` instead."
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:348
+msgid "Other differences:"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:353
+msgid "``Color8``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:353
+msgid "``Color.Color8``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:354
+msgid "``is_inf``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:354
+msgid "``float.IsInfinity``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:355
+msgid "``is_nan``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:355
+msgid "``float.IsNaN``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:356
+msgid "``dict2inst``"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:356
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:357
+msgid "TODO"
+msgstr ""
+
+#: ../tutorials/scripting/c_sharp/c_sharp_differences.rst:357
+msgid "``inst2dict``"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""

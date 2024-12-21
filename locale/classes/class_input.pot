@@ -1,0 +1,957 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2023, the Gaeaway community 
+# This file is distributed under the same license as the GaeaExplorer Web4.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GaeaExplorer Web4.0 吉嘉时空数字孪生平台\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-27 17:23+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../classes/class_input.rst:10
+msgid "Input"
+msgstr ""
+
+#: ../classes/class_input.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../classes/class_input.rst:14
+msgid "处理输入的单例。"
+msgstr ""
+
+#: ../classes/class_input.rst:17
+msgid "描述"
+msgstr ""
+
+#: ../classes/class_input.rst:19
+msgid "处理输入的单例。这包括按键、鼠标点击和移动、游戏手柄和输入动作。可以在\\ **项目 > 项目设置**\\ 的\\ **输入映射**\\ 选项卡中或使用 :ref:`InputMap<class_InputMap>` 类设置操作及其事件。"
+msgstr ""
+
+#: ../classes/class_input.rst:22
+msgid "教程"
+msgstr ""
+
+#: ../classes/class_input.rst:24
+msgid ":doc:`Inputs tutorial index <../tutorials/inputs/index>`"
+msgstr ""
+
+#: ../classes/class_input.rst:26
+msgid "`2D Dodge The Creeps Demo <https://godotengine.org/asset-library/asset/515>`__"
+msgstr ""
+
+#: ../classes/class_input.rst:28
+msgid "`3D Voxel Demo <https://godotengine.org/asset-library/asset/676>`__"
+msgstr ""
+
+#: ../classes/class_input.rst:31
+msgid "方法"
+msgstr ""
+
+#: ../classes/class_input.rst:34
+#: ../classes/class_input.rst:36
+#: ../classes/class_input.rst:38
+#: ../classes/class_input.rst:40
+#: ../classes/class_input.rst:102
+#: ../classes/class_input.rst:104
+#: ../classes/class_input.rst:106
+#: ../classes/class_input.rst:108
+#: ../classes/class_input.rst:110
+#: ../classes/class_input.rst:112
+#: ../classes/class_input.rst:114
+#: ../classes/class_input.rst:116
+#: ../classes/class_input.rst:118
+#: ../classes/class_input.rst:120
+#: ../classes/class_input.rst:122
+#: ../classes/class_input.rst:124
+#: ../classes/class_input.rst:126
+#: ../classes/class_input.rst:128
+#: ../classes/class_input.rst:130
+msgid "void"
+msgstr ""
+
+#: ../classes/class_input.rst:34
+msgid ":ref:`action_press<class_Input_method_action_press>` **(** :ref:`String<class_String>` action, :ref:`float<class_float>` strength=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:36
+msgid ":ref:`action_release<class_Input_method_action_release>` **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:38
+msgid ":ref:`add_joy_mapping<class_Input_method_add_joy_mapping>` **(** :ref:`String<class_String>` mapping, :ref:`bool<class_bool>` update_existing=false **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:40
+msgid ":ref:`flush_buffered_events<class_Input_method_flush_buffered_events>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:42
+#: ../classes/class_input.rst:54
+#: ../classes/class_input.rst:56
+#: ../classes/class_input.rst:78
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../classes/class_input.rst:42
+msgid ":ref:`get_accelerometer<class_Input_method_get_accelerometer>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:44
+#: ../classes/class_input.rst:46
+#: ../classes/class_input.rst:48
+#: ../classes/class_input.rst:58
+#: ../classes/class_input.rst:72
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../classes/class_input.rst:44
+msgid ":ref:`get_action_raw_strength<class_Input_method_get_action_raw_strength>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:46
+msgid ":ref:`get_action_strength<class_Input_method_get_action_strength>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:48
+msgid ":ref:`get_axis<class_Input_method_get_axis>` **(** :ref:`String<class_String>` negative_action, :ref:`String<class_String>` positive_action **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:50
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../classes/class_input.rst:50
+msgid ":ref:`get_connected_joypads<class_Input_method_get_connected_joypads>` **(** **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:52
+msgid ":ref:`CursorShape<enum_Input_CursorShape>`"
+msgstr ""
+
+#: ../classes/class_input.rst:52
+msgid ":ref:`get_current_cursor_shape<class_Input_method_get_current_cursor_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:54
+msgid ":ref:`get_gravity<class_Input_method_get_gravity>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:56
+msgid ":ref:`get_gyroscope<class_Input_method_get_gyroscope>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:58
+msgid ":ref:`get_joy_axis<class_Input_method_get_joy_axis>` **(** :ref:`int<class_int>` device, :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:60
+#: ../classes/class_input.rst:64
+#: ../classes/class_input.rst:80
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../classes/class_input.rst:60
+msgid ":ref:`get_joy_axis_index_from_string<class_Input_method_get_joy_axis_index_from_string>` **(** :ref:`String<class_String>` axis **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:62
+#: ../classes/class_input.rst:66
+#: ../classes/class_input.rst:68
+#: ../classes/class_input.rst:70
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../classes/class_input.rst:62
+msgid ":ref:`get_joy_axis_string<class_Input_method_get_joy_axis_string>` **(** :ref:`int<class_int>` axis_index **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:64
+msgid ":ref:`get_joy_button_index_from_string<class_Input_method_get_joy_button_index_from_string>` **(** :ref:`String<class_String>` button **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:66
+msgid ":ref:`get_joy_button_string<class_Input_method_get_joy_button_string>` **(** :ref:`int<class_int>` button_index **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:68
+msgid ":ref:`get_joy_guid<class_Input_method_get_joy_guid>` **(** :ref:`int<class_int>` device **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:70
+msgid ":ref:`get_joy_name<class_Input_method_get_joy_name>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:72
+msgid ":ref:`get_joy_vibration_duration<class_Input_method_get_joy_vibration_duration>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:74
+#: ../classes/class_input.rst:76
+#: ../classes/class_input.rst:84
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../classes/class_input.rst:74
+msgid ":ref:`get_joy_vibration_strength<class_Input_method_get_joy_vibration_strength>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:76
+msgid ":ref:`get_last_mouse_speed<class_Input_method_get_last_mouse_speed>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:78
+msgid ":ref:`get_magnetometer<class_Input_method_get_magnetometer>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:80
+msgid ":ref:`get_mouse_button_mask<class_Input_method_get_mouse_button_mask>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:82
+msgid ":ref:`MouseMode<enum_Input_MouseMode>`"
+msgstr ""
+
+#: ../classes/class_input.rst:82
+msgid ":ref:`get_mouse_mode<class_Input_method_get_mouse_mode>` **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:84
+msgid ":ref:`get_vector<class_Input_method_get_vector>` **(** :ref:`String<class_String>` negative_x, :ref:`String<class_String>` positive_x, :ref:`String<class_String>` negative_y, :ref:`String<class_String>` positive_y, :ref:`float<class_float>` deadzone=-1.0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:86
+#: ../classes/class_input.rst:88
+#: ../classes/class_input.rst:90
+#: ../classes/class_input.rst:92
+#: ../classes/class_input.rst:94
+#: ../classes/class_input.rst:96
+#: ../classes/class_input.rst:98
+#: ../classes/class_input.rst:100
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../classes/class_input.rst:86
+msgid ":ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:88
+msgid ":ref:`is_action_just_released<class_Input_method_is_action_just_released>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:90
+msgid ":ref:`is_action_pressed<class_Input_method_is_action_pressed>` **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:92
+msgid ":ref:`is_joy_button_pressed<class_Input_method_is_joy_button_pressed>` **(** :ref:`int<class_int>` device, :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:94
+msgid ":ref:`is_joy_known<class_Input_method_is_joy_known>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:96
+msgid ":ref:`is_key_pressed<class_Input_method_is_key_pressed>` **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:98
+msgid ":ref:`is_mouse_button_pressed<class_Input_method_is_mouse_button_pressed>` **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:100
+msgid ":ref:`is_physical_key_pressed<class_Input_method_is_physical_key_pressed>` **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:102
+msgid ":ref:`joy_connection_changed<class_Input_method_joy_connection_changed>` **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected, :ref:`String<class_String>` name, :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:104
+msgid ":ref:`parse_input_event<class_Input_method_parse_input_event>` **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:106
+msgid ":ref:`remove_joy_mapping<class_Input_method_remove_joy_mapping>` **(** :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:108
+msgid ":ref:`set_accelerometer<class_Input_method_set_accelerometer>` **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:110
+msgid ":ref:`set_custom_mouse_cursor<class_Input_method_set_custom_mouse_cursor>` **(** :ref:`Resource<class_Resource>` image, :ref:`CursorShape<enum_Input_CursorShape>` shape=0, :ref:`Vector2<class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:112
+msgid ":ref:`set_default_cursor_shape<class_Input_method_set_default_cursor_shape>` **(** :ref:`CursorShape<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:114
+msgid ":ref:`set_gravity<class_Input_method_set_gravity>` **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:116
+msgid ":ref:`set_gyroscope<class_Input_method_set_gyroscope>` **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:118
+msgid ":ref:`set_magnetometer<class_Input_method_set_magnetometer>` **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:120
+msgid ":ref:`set_mouse_mode<class_Input_method_set_mouse_mode>` **(** :ref:`MouseMode<enum_Input_MouseMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:122
+msgid ":ref:`set_use_accumulated_input<class_Input_method_set_use_accumulated_input>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:124
+msgid ":ref:`start_joy_vibration<class_Input_method_start_joy_vibration>` **(** :ref:`int<class_int>` device, :ref:`float<class_float>` weak_magnitude, :ref:`float<class_float>` strong_magnitude, :ref:`float<class_float>` duration=0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:126
+msgid ":ref:`stop_joy_vibration<class_Input_method_stop_joy_vibration>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:128
+msgid ":ref:`vibrate_handheld<class_Input_method_vibrate_handheld>` **(** :ref:`int<class_int>` duration_ms=500 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:130
+msgid ":ref:`warp_mouse_position<class_Input_method_warp_mouse_position>` **(** :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:134
+msgid "信号"
+msgstr ""
+
+#: ../classes/class_input.rst:138
+msgid "**joy_connection_changed** **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:140
+msgid "连接或断开游戏手柄设备时触发。"
+msgstr ""
+
+#: ../classes/class_input.rst:143
+msgid "枚举"
+msgstr ""
+
+#: ../classes/class_input.rst:155
+msgid "enum **MouseMode**:"
+msgstr ""
+
+#: ../classes/class_input.rst:157
+msgid "**MOUSE_MODE_VISIBLE** = **0** --- 如果鼠标光标处于隐藏状态，则使其可见。"
+msgstr ""
+
+#: ../classes/class_input.rst:159
+msgid "**MOUSE_MODE_HIDDEN** = **1** --- 如果鼠标光标是可见的，则使其隐藏。"
+msgstr ""
+
+#: ../classes/class_input.rst:161
+msgid "**MOUSE_MODE_CAPTURED** = **2** --- 捕获鼠标。鼠标将被隐藏，其位置被锁定在屏幕的中心。"
+msgstr ""
+
+#: ../classes/class_input.rst:163
+msgid "\\ **注意：**\\ 如果你想在这种模式下处理鼠标的移动，需要使用 :ref:`InputEventMouseMotion.relative<class_InputEventMouseMotion_property_relative>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:165
+msgid "**MOUSE_MODE_CONFINED** = **3** --- 使鼠标光标可见，并将其限制在游戏窗口中。"
+msgstr ""
+
+#: ../classes/class_input.rst:205
+msgid "enum **CursorShape**:"
+msgstr ""
+
+#: ../classes/class_input.rst:207
+msgid "**CURSOR_ARROW** = **0** --- 箭头光标。标准，默认指向光标。"
+msgstr ""
+
+#: ../classes/class_input.rst:209
+msgid "**CURSOR_IBEAM** = **1** --- I 形光标。通常用于指示点击鼠标后文本光标的位置。"
+msgstr ""
+
+#: ../classes/class_input.rst:211
+msgid "**CURSOR_POINTING_HAND** = **2** --- 指向手形光标。通常用在指示链接或其他可交互项上。"
+msgstr ""
+
+#: ../classes/class_input.rst:213
+msgid "**CURSOR_CROSS** = **3** --- 十字光标。通常出现在可以执行绘制操作或进行选择的区域上方。"
+msgstr ""
+
+#: ../classes/class_input.rst:215
+msgid "**CURSOR_WAIT** = **4** --- 等待型光标。表示应用程序正忙于执行一项操作。这种光标形状表示应用程序在操作过程中仍然可以使用。"
+msgstr ""
+
+#: ../classes/class_input.rst:217
+msgid "**CURSOR_BUSY** = **5** --- 忙碌光标。表示应用程序正忙于执行操作。此光标形状表示应用程序在操作过程中不可用（例如，有东西阻塞了主线程）。"
+msgstr ""
+
+#: ../classes/class_input.rst:219
+msgid "**CURSOR_DRAG** = **6** --- 拖动光标。通常在拖动东西时显示。"
+msgstr ""
+
+#: ../classes/class_input.rst:221
+msgid "**CURSOR_CAN_DROP** = **7** --- 可以放下的光标。通常在拖动东西时显示，表示可以在当前位置放下。"
+msgstr ""
+
+#: ../classes/class_input.rst:223
+msgid "**CURSOR_FORBIDDEN** = **8** --- 禁止的光标。表示当前操作是被禁止的（例如，拖动东西时）或某个位置的控件被禁用。"
+msgstr ""
+
+#: ../classes/class_input.rst:225
+msgid "**CURSOR_VSIZE** = **9** --- 垂直调整大小的光标。一个双头的垂直箭头。它告诉用户他们可以垂直地调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_input.rst:227
+msgid "**CURSOR_HSIZE** = **10** --- 水平调整尺寸的光标。一个双头的水平箭头。它告诉用户他们可以水平调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_input.rst:229
+msgid "**CURSOR_BDIAGSIZE** = **11** --- 窗口调整大小的光标。该光标是一个双头箭头，从左下方到右上方。它告诉用户他们可以在水平和垂直方向上调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_input.rst:231
+msgid "**CURSOR_FDIAGSIZE** = **12** --- 窗口调整大小的光标。是一个双头的箭头，从左上角到右下角，与\\ :ref:`CURSOR_BDIAGSIZE<class_Input_constant_CURSOR_BDIAGSIZE>`\\ 相反。它告诉用户他们可以在水平和垂直方向上调整窗口或面板的大小。"
+msgstr ""
+
+#: ../classes/class_input.rst:233
+msgid "**CURSOR_MOVE** = **13** --- 移动光标。表示那些东西可以移动。"
+msgstr ""
+
+#: ../classes/class_input.rst:235
+msgid "**CURSOR_VSPLIT** = **14** --- 垂直拆分鼠标光标。在 Windows 上，它与 :ref:`CURSOR_VSIZE<class_Input_constant_CURSOR_VSIZE>` 相同。"
+msgstr ""
+
+#: ../classes/class_input.rst:237
+msgid "**CURSOR_HSPLIT** = **15** --- 水平分割的鼠标光标。在Windows上，它与\\ :ref:`CURSOR_HSIZE<class_Input_constant_CURSOR_HSIZE>`\\ 相同。"
+msgstr ""
+
+#: ../classes/class_input.rst:239
+msgid "**CURSOR_HELP** = **16** --- 帮助光标。通常是一个问号。"
+msgstr ""
+
+#: ../classes/class_input.rst:242
+msgid "方法说明"
+msgstr ""
+
+#: ../classes/class_input.rst:246
+msgid "void **action_press** **(** :ref:`String<class_String>` action, :ref:`float<class_float>` strength=1.0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:248
+msgid "这将模拟按下指定的按键动作。"
+msgstr ""
+
+#: ../classes/class_input.rst:250
+msgid "强度可以用于非布尔运算的动作，它的范围在0到1之间，代表给定动作的力度。"
+msgstr ""
+
+#: ../classes/class_input.rst:252
+msgid "\\ **注意：** 这个方法不会引起任何\\ :ref:`Node._input<class_Node_method__input>`\\ 调用。它旨在与\\ :ref:`is_action_pressed<class_Input_method_is_action_pressed>`\\ 和\\ :ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>`\\ 一起使用。如果你想模拟\\ ``_input``\\ ，请使用\\ :ref:`parse_input_event<class_Input_method_parse_input_event>`\\ 代替。"
+msgstr ""
+
+#: ../classes/class_input.rst:258
+msgid "void **action_release** **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:260
+msgid "如果已按下指定操作，那么将释放它。"
+msgstr ""
+
+#: ../classes/class_input.rst:266
+msgid "void **add_joy_mapping** **(** :ref:`String<class_String>` mapping, :ref:`bool<class_bool>` update_existing=false **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:268
+msgid "在映射数据库中添加新的映射条目（SDL2 格式）。可选更新已连接的设备。"
+msgstr ""
+
+#: ../classes/class_input.rst:274
+msgid "void **flush_buffered_events** **(** **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:276
+msgid "将当前缓冲区内的所有输入事件发送给游戏循环。这些事件可能是由于累积输入（\\ :ref:`set_use_accumulated_input<class_Input_method_set_use_accumulated_input>`\\ ）或敏捷输入刷新（\\ :ref:`ProjectSettings.input_devices/buffering/agile_event_flushing<class_ProjectSettings_property_input_devices/buffering/agile_event_flushing>`\\ ）而被缓冲的结果。"
+msgstr ""
+
+#: ../classes/class_input.rst:278
+msgid "引擎已经会在关键的执行点执行此操作，至少每帧一次。然而，在你想要精确控制事件处理时间的高级情况下，这可能是有用的。"
+msgstr ""
+
+#: ../classes/class_input.rst:284
+msgid ":ref:`Vector3<class_Vector3>` **get_accelerometer** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:286
+msgid "如果设备有加速度传感器，则返回设备的加速度。否则，该方法返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:288
+msgid "请注意，即使你的设备有一个加速度计，当从编辑器运行时，该方法也会返回一个空的\\ :ref:`Vector3<class_Vector3>`\\ 。你必须将项目导出到一个支持的设备上，以便从加速度计上读取数值。"
+msgstr ""
+
+#: ../classes/class_input.rst:290
+msgid "\\ **注意：** 这个方法只在iOS、Android和UWP上工作。在其他平台上，它总是返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。在Android上，每个轴的测量单位是m/s²，而在iOS和UWP上，它是地球重力加速度的倍数\\ ``g``\\ （~9.81 m/s²）。"
+msgstr ""
+
+#: ../classes/class_input.rst:296
+msgid ":ref:`float<class_float>` **get_action_raw_strength** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:298
+msgid "返回介于0和1之间的值，代表给定动作的原始强度，忽略动作的死区。在大多数情况下，你应该使用\\ :ref:`get_action_strength<class_Input_method_get_action_strength>`\\ 来代替。"
+msgstr ""
+
+#: ../classes/class_input.rst:300
+#: ../classes/class_input.rst:310
+#: ../classes/class_input.rst:486
+#: ../classes/class_input.rst:496
+#: ../classes/class_input.rst:506
+msgid "如果\\ ``exact``\\ 是\\ ``false``\\ ，它将忽略\\ :ref:`InputEventKey<class_InputEventKey>`\\ 和\\ :ref:`InputEventMouseButton<class_InputEventMouseButton>`\\ 事件的输入修饰符，以及\\ :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`\\ 事件的方向。"
+msgstr ""
+
+#: ../classes/class_input.rst:306
+msgid ":ref:`float<class_float>` **get_action_strength** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:308
+msgid "返回介于0和1之间的值，代表给定动作的强度。例如，在一个操纵板上，轴（模拟杆或L2、R2触发器）离死区越远，数值就越接近1。如果动作被映射到一个没有轴作为键盘的控件上，返回的数值将是0或1。"
+msgstr ""
+
+#: ../classes/class_input.rst:316
+msgid ":ref:`float<class_float>` **get_axis** **(** :ref:`String<class_String>` negative_action, :ref:`String<class_String>` positive_action **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:318
+msgid "通过指定两个动作来获取轴的输入，一个是负的，一个是正的。"
+msgstr ""
+
+#: ../classes/class_input.rst:320
+msgid "这是写\\ ``Input.get_action_strength(\"positive_action\")-Input.get_action_strength(\"negative_action\")``\\ 的简写。"
+msgstr ""
+
+#: ../classes/class_input.rst:326
+msgid ":ref:`Array<class_Array>` **get_connected_joypads** **(** **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:328
+msgid "返回一个 :ref:`Array<class_Array>`\\ ，包含当前所有连接手柄的设备 ID。"
+msgstr ""
+
+#: ../classes/class_input.rst:334
+msgid ":ref:`CursorShape<enum_Input_CursorShape>` **get_current_cursor_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:336
+msgid "返回当前指定的光标形状（参阅 :ref:`CursorShape<enum_Input_CursorShape>`\\ ）。"
+msgstr ""
+
+#: ../classes/class_input.rst:342
+msgid ":ref:`Vector3<class_Vector3>` **get_gravity** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:344
+msgid "如果设备有加速度传感器，则返回设备的重力。否则，该方法返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:346
+msgid "\\ **注意：** 这个方法只在Android和iOS上工作。在其他平台上，它总是返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。在Android上，每个轴的测量单位是m/s²，而在iOS上，它是地球重力加速度的倍数\\ ``g``\\ （~9.81 m/s²）。"
+msgstr ""
+
+#: ../classes/class_input.rst:352
+msgid ":ref:`Vector3<class_Vector3>` **get_gyroscope** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:354
+msgid "如果设备有陀螺仪传感器，则返回围绕设备X、Y、Z轴的旋转速率，单位为rad/s。否则，该方法返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:356
+msgid "\\ **注意：** 这个方法只在Android和iOS上工作。在其他平台上，总是返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:362
+msgid ":ref:`float<class_float>` **get_joy_axis** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:364
+msgid "返回给定索引的游戏手柄轴的当前值，参阅\\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:370
+msgid ":ref:`int<class_int>` **get_joy_axis_index_from_string** **(** :ref:`String<class_String>` axis **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:372
+msgid "返回提供的轴名称的索引。"
+msgstr ""
+
+#: ../classes/class_input.rst:378
+msgid ":ref:`String<class_String>` **get_joy_axis_string** **(** :ref:`int<class_int>` axis_index **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:380
+msgid "接收一个 :ref:`JoystickList<enum_@GlobalScope_JoystickList>` 轴，并以字符串形式返回其对应的名称。"
+msgstr ""
+
+#: ../classes/class_input.rst:386
+msgid ":ref:`int<class_int>` **get_joy_button_index_from_string** **(** :ref:`String<class_String>` button **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:388
+msgid "返回所提供的按钮名称的索引。"
+msgstr ""
+
+#: ../classes/class_input.rst:394
+msgid ":ref:`String<class_String>` **get_joy_button_string** **(** :ref:`int<class_int>` button_index **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:396
+msgid "从\\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\\ 中接收游戏手柄按钮，并将其对应的名称作为一个字符串返回。"
+msgstr ""
+
+#: ../classes/class_input.rst:402
+msgid ":ref:`String<class_String>` **get_joy_guid** **(** :ref:`int<class_int>` device **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:404
+msgid "在使用游戏手柄重映射的平台上返回一个SDL2兼容的设备GUID。否则返回\\ ``\"Default Gamepad\"``\\ 默认游戏手柄。"
+msgstr ""
+
+#: ../classes/class_input.rst:410
+msgid ":ref:`String<class_String>` **get_joy_name** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:412
+msgid "返回指定设备索引处的手柄名称。"
+msgstr ""
+
+#: ../classes/class_input.rst:418
+msgid ":ref:`float<class_float>` **get_joy_vibration_duration** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:420
+msgid "以秒为单位返回当前振动效果的持续时间。"
+msgstr ""
+
+#: ../classes/class_input.rst:426
+msgid ":ref:`Vector2<class_Vector2>` **get_joy_vibration_strength** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:428
+msgid "返回手柄振动的强度：x 是弱马达的强度，y 是强马达的强度。"
+msgstr ""
+
+#: ../classes/class_input.rst:434
+msgid ":ref:`Vector2<class_Vector2>` **get_last_mouse_speed** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:436
+msgid "返回光标最后一次被移动时的鼠标速度，并且这个速度保持不变，直到鼠标发生了移动的下一帧。这意味着，即使鼠标没有移动，这个函数仍然会返回最后一次运动的值。"
+msgstr ""
+
+#: ../classes/class_input.rst:442
+msgid ":ref:`Vector3<class_Vector3>` **get_magnetometer** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:444
+msgid "如果设备有磁力传感器，则返回设备所有轴的磁场强度，微特斯拉。否则，该方法返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:446
+msgid "\\ **注意：** 这个方法只在Android、iOS和UWP上有效。在其他平台上，总是返回\\ :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:452
+msgid ":ref:`int<class_int>` **get_mouse_button_mask** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:454
+msgid "将鼠标按键作为一个比特掩码返回。如果多个鼠标按钮同时被按下，这些位会被加在一起。"
+msgstr ""
+
+#: ../classes/class_input.rst:460
+msgid ":ref:`MouseMode<enum_Input_MouseMode>` **get_mouse_mode** **(** **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:462
+msgid "返回鼠标模式。有关更多信息，请参阅常量。"
+msgstr ""
+
+#: ../classes/class_input.rst:468
+msgid ":ref:`Vector2<class_Vector2>` **get_vector** **(** :ref:`String<class_String>` negative_x, :ref:`String<class_String>` positive_x, :ref:`String<class_String>` negative_y, :ref:`String<class_String>` positive_y, :ref:`float<class_float>` deadzone=-1.0 **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:470
+msgid "通过指定正负 X 和 Y 轴的四个动作来获取输入向量。"
+msgstr ""
+
+#: ../classes/class_input.rst:472
+msgid "这个方法在获取向量输入时很有用，比如从操纵杆、方向盘、箭头或 WASD。向量的长度被限制为 1，并且有一个圆形的死区，这对于使用向量输入进行运动很有用。"
+msgstr ""
+
+#: ../classes/class_input.rst:474
+msgid "默认情况下，死区根据动作死区的平均值自动计算。然而，你可以把死区覆盖为任何你想要的值（在 0 到 1 的范围内）。"
+msgstr ""
+
+#: ../classes/class_input.rst:480
+msgid ":ref:`bool<class_bool>` **is_action_just_pressed** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:482
+msgid "当用户开始按下动作事件时，返回\\ ``true``\\ ，也就是说，只有在用户按下按钮的那一帧才是\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:484
+msgid "这对那些只需要在动作被按下时运行一次的代码中很有用，而不是在按下时每一帧都要运行。"
+msgstr ""
+
+#: ../classes/class_input.rst:492
+msgid ":ref:`bool<class_bool>` **is_action_just_released** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:494
+msgid "当用户停止按下动作事件时，返回\\ ``true``\\ ，也就是说，只有在用户释放按钮的那一帧才是\\ ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:502
+msgid ":ref:`bool<class_bool>` **is_action_pressed** **(** :ref:`String<class_String>` action, :ref:`bool<class_bool>` exact=false **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:504
+msgid "如果你正在按下动作事件，返回\\ ``true``\\ 。请注意，如果一个动作有多个分配的按钮，并且不止一个被按下，释放一个按钮将释放这个动作，即使其他分配给这个动作的按钮仍然被按下。"
+msgstr ""
+
+#: ../classes/class_input.rst:512
+msgid ":ref:`bool<class_bool>` **is_joy_button_pressed** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:514
+msgid "如果你正在按下手柄按钮，则返回\\ ``true``\\ ，参阅\\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:520
+msgid ":ref:`bool<class_bool>` **is_joy_known** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:522
+msgid "如果系统知道指定的设备，则返回\\ ``true``\\ 。这意味着它将完全按照\\ :ref:`JoystickList<enum_@GlobalScope_JoystickList>`\\ 中的定义设置所有按钮和轴的索引。未知的操纵杆可能不会与这些常数相匹配，但你仍然可以从中检索事件。"
+msgstr ""
+
+#: ../classes/class_input.rst:528
+msgid ":ref:`bool<class_bool>` **is_key_pressed** **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:530
+msgid "如果你正在按压该键，则返回 ``true``\\ 。你可以传递 :ref:`KeyList<enum_@GlobalScope_KeyList>` 常量。"
+msgstr ""
+
+#: ../classes/class_input.rst:536
+msgid ":ref:`bool<class_bool>` **is_mouse_button_pressed** **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:538
+msgid "如果你正在按压由 :ref:`ButtonList<enum_@GlobalScope_ButtonList>` 指定的鼠标按键，则返回 ``true``\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:544
+msgid ":ref:`bool<class_bool>` **is_physical_key_pressed** **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../classes/class_input.rst:546
+msgid "如果你正在按压该键，则返回\\ ``true``\\ 。按键由 101/102 键美式 QWERTY 键盘上该键的物理位置确定。你可以传递 :ref:`KeyList<enum_@GlobalScope_KeyList>` 常量。"
+msgstr ""
+
+#: ../classes/class_input.rst:552
+msgid "void **joy_connection_changed** **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected, :ref:`String<class_String>` name, :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:554
+msgid "通知 ``Input`` 单例连接已更改，以更新 ``device`` 索引的状态。"
+msgstr ""
+
+#: ../classes/class_input.rst:556
+msgid "这是内部使用的，不应从用户脚本中调用。有关内部触发的信号，请参阅 :ref:`joy_connection_changed<class_Input_signal_joy_connection_changed>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:562
+msgid "void **parse_input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:564
+msgid "向游戏提供 :ref:`InputEvent<class_InputEvent>`\\ 。可用于从代码人为触发输入事件。也会产生 :ref:`Node._input<class_Node_method__input>` 调用。"
+msgstr ""
+
+#: ../classes/class_input.rst:566
+msgid "示例："
+msgstr ""
+
+#: ../classes/class_input.rst:579
+msgid "void **remove_joy_mapping** **(** :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:581
+msgid "从内部数据库中删除与给定GUID匹配的所有映射."
+msgstr ""
+
+#: ../classes/class_input.rst:587
+msgid "void **set_accelerometer** **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:589
+msgid "设置加速度传感器的加速度值。可以用于在没有硬件传感器的设备上进行调试，例如在PC上的编辑器中。"
+msgstr ""
+
+#: ../classes/class_input.rst:591
+msgid "\\ **注意：** 这个值在Android和iOS上可立即被硬件传感器的值所覆盖。"
+msgstr ""
+
+#: ../classes/class_input.rst:597
+msgid "void **set_custom_mouse_cursor** **(** :ref:`Resource<class_Resource>` image, :ref:`CursorShape<enum_Input_CursorShape>` shape=0, :ref:`Vector2<class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:599
+msgid "设置一个自定义鼠标光标图像，该图像仅当游戏窗口内可见。还可以指定热点。将\\ ``null``\\ 传递给image参数将重置为系统光标。有关详细信息，请参阅 :ref:`CursorShape<enum_Input_CursorShape>` 形状列表。"
+msgstr ""
+
+#: ../classes/class_input.rst:601
+msgid "\\ ``image``\\ 的大小必须小于256×256。"
+msgstr ""
+
+#: ../classes/class_input.rst:603
+msgid "\\ ``hotspot``\\ 的大小必须在\\ ``image``\\ 的范围内。"
+msgstr ""
+
+#: ../classes/class_input.rst:605
+msgid "\\ **注意：**\\ 不支持AnimatedTexture作为自定义鼠标光标。如果使用\\ :ref:`AnimatedTexture<class_AnimatedTexture>`\\ ，将仅显示第一帧。"
+msgstr ""
+
+#: ../classes/class_input.rst:607
+msgid "\\ **注意：**\\ 仅支持以\\ **无损**\\ ，\\ **有损**\\ 或\\ **未压缩**\\ 压缩模式导入的图像。\\ **Video RAM**\\ 压缩模式不能用于自定义光标。"
+msgstr ""
+
+#: ../classes/class_input.rst:613
+msgid "void **set_default_cursor_shape** **(** :ref:`CursorShape<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:615
+msgid "设置视窗中使用的默认光标形状，而不是\\ :ref:`CURSOR_ARROW<class_Input_constant_CURSOR_ARROW>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:617
+msgid "\\ **注意：**\\ 如果要更改\\ :ref:`Control<class_Control>`\\ 节点的默认光标形状，请改用 :ref:`Control.mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`\\ 。"
+msgstr ""
+
+#: ../classes/class_input.rst:619
+msgid "\\ **注意：**\\ 这个方法生成一个\\ :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`\\ 以立即更新游标。"
+msgstr ""
+
+#: ../classes/class_input.rst:625
+msgid "void **set_gravity** **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:627
+msgid "设置加速度传感器的重力值。可用于在没有硬件传感器的设备上进行调试，例如在PC上的编辑器中。"
+msgstr ""
+
+#: ../classes/class_input.rst:629
+msgid "\\ **注意：** 这个值在Android和iOS上可立即被硬件传感器的值覆盖。"
+msgstr ""
+
+#: ../classes/class_input.rst:635
+msgid "void **set_gyroscope** **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:637
+msgid "设置陀螺仪传感器的旋转速率值。可用于在没有硬件传感器的设备上进行调试，例如在PC上的编辑器中。"
+msgstr ""
+
+#: ../classes/class_input.rst:639
+#: ../classes/class_input.rst:649
+msgid "\\ **注意：** 在Android和iOS上，这个值可立即被硬件传感器的值所覆盖。"
+msgstr ""
+
+#: ../classes/class_input.rst:645
+msgid "void **set_magnetometer** **(** :ref:`Vector3<class_Vector3>` value **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:647
+msgid "设置磁力传感器的磁场值。可用于在没有硬件传感器的设备上进行调试，例如在PC上的编辑器中。"
+msgstr ""
+
+#: ../classes/class_input.rst:655
+msgid "void **set_mouse_mode** **(** :ref:`MouseMode<enum_Input_MouseMode>` mode **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:657
+msgid "设置鼠标模式。有关更多信息，请参阅常量。"
+msgstr ""
+
+#: ../classes/class_input.rst:663
+msgid "void **set_use_accumulated_input** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:665
+msgid "启用或禁用操作系统发送的类似输入事件的累积。当启用输入累积时，在一帧中产生的所有输入事件将被合并，并在该帧完成渲染时发出。因此，这限制了每秒的输入方法调用次数，使之与渲染FPS相一致。"
+msgstr ""
+
+#: ../classes/class_input.rst:667
+msgid "输入累加在默认情况下是启用的。它可以被禁用，将以增加CPU使用率为代价，获得稍微更精确及更灵敏的输入。在需要自由绘制线条的应用中，一般应用在用户绘制线条时禁用输入累加，以获得紧跟实际输入的结果。"
+msgstr ""
+
+#: ../classes/class_input.rst:673
+msgid "void **start_joy_vibration** **(** :ref:`int<class_int>` device, :ref:`float<class_float>` weak_magnitude, :ref:`float<class_float>` strong_magnitude, :ref:`float<class_float>` duration=0 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:675
+msgid "开始振动游戏手柄。手柄通常带有两个隆隆声电机，一强一弱。 ``weak_magnitude`` 弱震级是弱电机的强度（0 到 1 之间），\\ ``strong_magnitude`` 强震级是强电机的强度（0 到 1 之间）。 ``duration`` 是效果的持续时间（以秒为单位）（持续时间为 0 将尝试无限期地播放振动）。"
+msgstr ""
+
+#: ../classes/class_input.rst:677
+msgid "\\ **注意：** 并非所有硬件都兼容长效果持续时间；如果必须播放超过几秒钟的效果，建议重新启动效果。"
+msgstr ""
+
+#: ../classes/class_input.rst:683
+msgid "void **stop_joy_vibration** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:685
+msgid "停止游戏手柄的振动。"
+msgstr ""
+
+#: ../classes/class_input.rst:691
+msgid "void **vibrate_handheld** **(** :ref:`int<class_int>` duration_ms=500 **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:693
+msgid "振动 Android 和 iOS 设备。"
+msgstr ""
+
+#: ../classes/class_input.rst:695
+msgid "\\ **注意：**\\ Android 需要导出设置中的 ``VIBRATE`` 权限。 iOS 不支持持续时间。"
+msgstr ""
+
+#: ../classes/class_input.rst:701
+msgid "void **warp_mouse_position** **(** :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../classes/class_input.rst:703
+msgid "将鼠标坐标设置为指定的向量。"
+msgstr ""
+
+#: ../<rst_epilog>:0
+msgid "Translation status"
+msgstr ""
