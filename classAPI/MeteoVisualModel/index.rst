@@ -10,3 +10,4 @@ MeteoVisualModel
 
    
    class_*
+   

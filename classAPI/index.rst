@@ -17,3 +17,4 @@ GaeaExplorer API
    GaeaGeoDataBase/index
    MeteoVisualModel/index
    class_*
+   

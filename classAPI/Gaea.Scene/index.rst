@@ -10,3 +10,4 @@ Gaea.Scene
 
    
    class_*
+   
